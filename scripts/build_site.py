@@ -338,7 +338,10 @@ img { display:block; max-width:100%; }
 .screenshot-img {
   border-radius:var(--radius); overflow:hidden;
   border:1px solid var(--c-border); margin-bottom:8px;
+  cursor:pointer; transition: box-shadow .2s;
 }
+.screenshot-img:hover { box-shadow: var(--shadow-md); }
+a[data-fancybox] { display:block; text-decoration:none; }
 .aside-tags { display:flex; flex-wrap:wrap; gap:6px; }
 .meta-row {
   display:flex; justify-content:space-between;
@@ -613,9 +616,9 @@ def generate_product_pages(all_products):
         app_ss = prd.get('appStoreScreenshots', [])
         ss_h = ''
         if screenshot:
-            ss_h += f'<div class="screenshot-img"><img src="{rel(screenshot, 1)}" alt="{prd["name"]}"></div>'
+            ss_h += f'<a href="{rel(screenshot, 1)}" data-fancybox="gallery" data-caption="{prd["name"]}"><div class="screenshot-img"><img src="{rel(screenshot, 1)}" alt="{prd["name"]}"></div></a>'
         for s in app_ss:
-            ss_h += f'<div class="screenshot-img"><img src="{rel(s, 1)}" alt="截图"></div>'
+            ss_h += f'<a href="{rel(s, 1)}" data-fancybox="gallery" data-caption="App 截图"><div class="screenshot-img"><img src="{rel(s, 1)}" alt="截图"></div></a>'
 
         # 数据来源链接
         raw = prd.get('rawData', {})
@@ -655,6 +658,9 @@ def generate_product_pages(all_products):
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{prd['name']} · AI 产品雷达</title>
   <link rel="stylesheet" href="{rel("styles.css", 1)}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js" defer></script>
+  <script>document.addEventListener('DOMContentLoaded', () => Fancybox.bind('[data-fancybox]'));</script>
 </head>
 <body>
   {header_html('', 1)}

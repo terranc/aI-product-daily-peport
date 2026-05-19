@@ -263,7 +263,10 @@ img { display:block; max-width:100%; }
 .screenshot-img {
   border-radius:var(--radius); overflow:hidden;
   border:1px solid var(--c-border); margin-bottom:8px;
+  cursor:pointer; transition: box-shadow .2s;
 }
+.screenshot-img:hover { box-shadow: var(--shadow-md); }
+a[data-fancybox] { display:block; text-decoration:none; }
 .aside-tags { display:flex; flex-wrap:wrap; gap:6px; }
 .meta-row {
   display:flex; justify-content:space-between;
