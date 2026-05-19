@@ -1,10 +1,11 @@
 {
-  "fetchedAt": "2026-05-19T21:48:59.708877",
-  "totalCount": 130,
+  "fetchedAt": "2026-05-19T22:13:15.191190",
+  "totalCount": 145,
   "channels": {
     "v2ex": 40,
     "reddit": 60,
-    "hackernews": 30
+    "hackernews": 30,
+    "producthunt": 15
   },
   "products": [
     {
@@ -13,7 +14,7 @@
       "description": "免费的 AI 公益站，今天重新开放注册\r\n\r\nhttps://cngpt.net\r\n\r\n这个站原本是基于我自己的大模型中转站 Claude360 搭建的，主要提供 Claude 、GPT 等模型服务。最近我这边自建的 GPT Pro 号池还有不少余量，资源消耗不完，所以开放了一部分额度，做成公益站，免费提供给大家体验和使用。\r\n\r\n目前站内可用模型包括 GPT-5.3 / GPT-5.4 / GPT-5.5 等模型，也会根据实际资源情况动态调整。\r\n\r\n\r\n\r\n需要兑换码的朋友，欢迎在评论区留下你的站内 ID ，我看到后会手动给大家加一些额度。\r\n\r\n需要提前说明一下：因为服务器、账号池和资源负载都有限，后续可能会根据实际使用情况动态调整可用模型、额度或并发策略，还请大家理解。公益站的初衷是让更多人能低成本甚至免费体验到好用的模型服务，也希望大家合理使用，不要滥用资源。\r\n\r\n欢迎大家试用，也欢迎反馈问题或建议。",
       "url": "https://www.v2ex.com/t/1213663",
       "source_url": "https://www.v2ex.com/t/1213663",
-      "score": 378,
+      "score": 381,
       "source": "v2ex",
       "node": "promotions",
       "timestamp": 1779149438
@@ -24,7 +25,7 @@
       "description": "感恩回馈 V 友，上次压力测试 GPT 中转 发现了很多问题，多次重构了架构 网站现已支持超 2 千人同时蹬 GPT\r\n\r\n自营 AWS Claude 渠道号池已上线 ，感恩回馈 V 站，开放限时活动，帮我们压力测试下 AWS 号池\r\n\r\n回帖送 100 美金 Cluade Code 额度，限时 3 天用完\r\n\r\n\r\n链接： https://freemodel.dev\r\n\r\n\r\n\r\n评论留下编号约 1 小时候到账",
       "url": "https://www.v2ex.com/t/1213790",
       "source_url": "https://www.v2ex.com/t/1213790",
-      "score": 307,
+      "score": 311,
       "source": "v2ex",
       "node": "promotions",
       "timestamp": 1779170082
@@ -35,7 +36,7 @@
       "description": "之所以说它一目了然，是因为我把账号页完全开放给大家看：\r\n\r\n- 有哪些账号，一眼清楚\r\n- 账号类型是什么，明明白白\r\n- 每一次请求走的是哪个账号，都能看得到\r\n- 使用情况透明展示，不搞黑箱操作\r\n\r\n现在开放注册啦，注册即送 2 刀，回帖留下邮箱，再送 10 刀\r\n\r\n欢迎访问: https://zhishu.dev",
       "url": "https://www.v2ex.com/t/1213699",
       "source_url": "https://www.v2ex.com/t/1213699",
-      "score": 207,
+      "score": 209,
       "source": "v2ex",
       "node": "promotions",
       "timestamp": 1779155759
@@ -57,7 +58,7 @@
       "description": "Am I the only one noticing this trend of recent YC companies? Is it the AI boom thats causing this, or is it just that these slop machines are getting the bulk of the attention because they're so flashy. I have been noticing YC is heavily funding younger founder with little to no experience producing products that barely work, and absolutely do not hold up to what they show in their demos. Then when you visit their site, the links don't work, you can the see overly AI generated slop(cards upon c",
       "url": "https://reddit.com/r/startups/comments/1th2mr2/what_is_up_with_the_absolute_slop_from_yc_these/",
       "source_url": "https://reddit.com/r/startups/comments/1th2mr2/what_is_up_with_the_absolute_slop_from_yc_these/",
-      "score": 110,
+      "score": 114,
       "source": "reddit",
       "subreddit": "startups",
       "timestamp": "2026-05-19T05:53:31"
@@ -68,7 +69,7 @@
       "description": "## 往期的帖子和参考回复，供朋友们参考\r\n\r\n1. [[第二年在 V2EX 卖自家樱桃] 美早、俄八新品种樱桃 - V2EX]( https://www.v2ex.com/t/1134431#reply208)\r\n2. [第二年在 V2EX 卖自家樱桃 - V2EX]( https://www.v2ex.com/t/1131260#reply16)\r\n3. [售卖自家种的大樱桃🤩，不让贩子做差价，让大家也能享受物美价廉的大樱桃 - V2EX]( https://www.v2ex.com/t/1041982#reply7)\r\n\r\n## 品种介绍\r\n\r\n前期早熟的**红灯**等品种，因为今年天气异常等原因，特别酸，就没卖了。\r\n\r\n目前是**布鲁克斯**等中期成熟的品种，品种比较多比较杂，但质量和味道上绝对有保证。\r\n\r\n## 价格和各种问题\r\n\r\n ![]( https://i.imgur.com/eQe9F2y.png) \r\n \r\n## 购买链接\r\n\r\n[快团团开团链接]( https://ktt.pinduoduo.com/t/aY8gIgf3t2)\r\n\r\n因为当天采摘，不能保证产",
       "url": "https://www.v2ex.com/t/1213745",
       "source_url": "https://www.v2ex.com/t/1213745",
-      "score": 106,
+      "score": 111,
       "source": "v2ex",
       "node": "promotions",
       "timestamp": 1779160874
@@ -194,17 +195,6 @@
       "timestamp": 1778244286
     },
     {
-      "id": "reddit_1thj226",
-      "name": "Founder exit (I will not promote)",
-      "description": "Hi everyone,\n\nI have been building a deep tech company for close to 10 years, it had its ups and downs, but i currently find myself misaligned with the board and having a hard time. I am no longer CEO and have about 15% equity. I stepped down as CEO about 1 years ago ago and I had 3 years vesting at that point. I would now like to exit in the best way possible keeping as good relationships as possible and start a new company. However if I resign I will loose abt 50% of my stock. I’m pretty sure ",
-      "url": "https://reddit.com/r/startups/comments/1thj226/founder_exit_i_will_not_promote/",
-      "source_url": "https://reddit.com/r/startups/comments/1thj226/founder_exit_i_will_not_promote/",
-      "score": 8,
-      "source": "reddit",
-      "subreddit": "startups",
-      "timestamp": "2026-05-19T18:42:09"
-    },
-    {
       "id": "v2ex_1213846",
       "name": "Gemini 的新 ui 还挺好看的",
       "description": "刚刚看到 web 端 ui 变了\r\n![]( https://i.imgur.com/j3pP8Bh.png)",
@@ -225,6 +215,17 @@
       "source": "v2ex",
       "node": "ideas",
       "timestamp": 1777561435
+    },
+    {
+      "id": "reddit_1thj226",
+      "name": "Founder exit (I will not promote)",
+      "description": "Hi everyone,\n\nI have been building a deep tech company for close to 10 years, it had its ups and downs, but i currently find myself misaligned with the board and having a hard time. I am no longer CEO and have about 15% equity. I stepped down as CEO about 1 years ago ago and I had 3 years vesting at that point. I would now like to exit in the best way possible keeping as good relationships as possible and start a new company. However if I resign I will loose abt 50% of my stock. I’m pretty sure ",
+      "url": "https://reddit.com/r/startups/comments/1thj226/founder_exit_i_will_not_promote/",
+      "source_url": "https://reddit.com/r/startups/comments/1thj226/founder_exit_i_will_not_promote/",
+      "score": 7,
+      "source": "reddit",
+      "subreddit": "startups",
+      "timestamp": "2026-05-19T18:42:09"
     },
     {
       "id": "v2ex_1213872",
@@ -249,15 +250,35 @@
       "timestamp": 1778594075
     },
     {
-      "id": "reddit_1th7182",
-      "name": "What is the most important thing in acquiring a legal advisor for a startup? *I will not promote",
-      "description": "What's the best way to find lawyer advisors who are open to working with early stage companies in legal tech? Ideally experienced in cross border contracts. \n\n  \nSo far, I've tried Linkedin, Reddit DMs, and asking friends. Will I need a working product (MVP) at the very least or just the vision?",
-      "url": "https://reddit.com/r/startups/comments/1th7182/what_is_the_most_important_thing_in_acquiring_a/",
-      "source_url": "https://reddit.com/r/startups/comments/1th7182/what_is_the_most_important_thing_in_acquiring_a/",
+      "id": "hn_48193474",
+      "name": "Show HN: I made a 3D pose maker for artists",
+      "description": "",
+      "url": "https://setpose.com/",
+      "source_url": "https://news.ycombinator.com/item?id=48193474",
+      "score": 6,
+      "source": "hackernews",
+      "timestamp": "2026-05-19T14:04:19Z"
+    },
+    {
+      "id": "hn_48192607",
+      "name": "Show HN: How to analyze your LLM output – A behavioural health monitor for LLMs",
+      "description": "Hey HN! We&#x27;re Dr. Kashyap Thimmaraju and Giuseppe Canale from Silicon Psyche. We&#x27;ve built Posture Sequence Analysis (PSA), a behavioural health monitor for LLMs and AI Agents.<p>Why we built PSA<p>We built PSA because we wanted to operationalize the Cybersecurity Psychology Framework (CPF3)[1] via Silicon Psyche[2]: our theory that because LLMs have been trained by humans on human-generated data, they inherit human-like vulnerabilities (what hackers use to psychologically trick people ",
+      "url": "https://splabs.io",
+      "source_url": "https://news.ycombinator.com/item?id=48192607",
+      "score": 6,
+      "source": "hackernews",
+      "timestamp": "2026-05-19T12:48:32Z"
+    },
+    {
+      "id": "reddit_16u8sr0",
+      "name": "Feelly - Elegant mood tracker",
+      "description": "Hi All, I'm an indie app developer and created this app [Feelly](https://apps.apple.com/in/app/feelly/id1636166205) to keep track of your emotions seamlessly! This is an iOS app that allows you to capture and monitor your mood, helping you achieve emotional balance and well-being. Understanding your feelings has never been this easy and intuitive.   \nDownload Feelly now!    \n[https://apps.apple.com/in/app/feelly/id1636166205](https://apps.apple.com/in/app/feelly/id1636166205)\n\nYour feedback and ",
+      "url": "https://reddit.com/r/indieapps/comments/16u8sr0/feelly_elegant_mood_tracker/",
+      "source_url": "https://reddit.com/r/indieapps/comments/16u8sr0/feelly_elegant_mood_tracker/",
       "score": 6,
       "source": "reddit",
-      "subreddit": "startups",
-      "timestamp": "2026-05-19T08:45:28"
+      "subreddit": "IndieApps",
+      "timestamp": "2023-09-28T14:48:47"
     },
     {
       "id": "v2ex_1213809",
@@ -271,25 +292,15 @@
       "timestamp": 1779172611
     },
     {
-      "id": "hn_48192607",
-      "name": "Show HN: How to analyze your LLM output – A behavioural health monitor for LLMs",
-      "description": "Hey HN! We&#x27;re Dr. Kashyap Thimmaraju and Giuseppe Canale from Silicon Psyche. We&#x27;ve built Posture Sequence Analysis (PSA), a behavioural health monitor for LLMs and AI Agents.<p>Why we built PSA<p>We built PSA because we wanted to operationalize the Cybersecurity Psychology Framework (CPF3)[1] via Silicon Psyche[2]: our theory that because LLMs have been trained by humans on human-generated data, they inherit human-like vulnerabilities (what hackers use to psychologically trick people ",
-      "url": "https://splabs.io",
-      "source_url": "https://news.ycombinator.com/item?id=48192607",
-      "score": 5,
-      "source": "hackernews",
-      "timestamp": "2026-05-19T12:48:32Z"
-    },
-    {
-      "id": "reddit_1thmgbx",
-      "name": "Launching an AI Tool That Automatically Markets Your SaaS",
-      "description": "I’m launching a new tool called AgenticGTM an AI-powered growth platform that helps SaaS founders automate marketing, directory submissions, SEO content, social listening, review collection, and lead discovery.\n\nBuilt for technical founders who hate doing marketing manually.\n\nCurrently opening the waitlist for early users + feedback.\n\nIf you want to try it early, drop a comment or DM me 👀",
-      "url": "https://reddit.com/r/SaaS/comments/1thmgbx/launching_an_ai_tool_that_automatically_markets/",
-      "source_url": "https://reddit.com/r/SaaS/comments/1thmgbx/launching_an_ai_tool_that_automatically_markets/",
+      "id": "reddit_1th7182",
+      "name": "What is the most important thing in acquiring a legal advisor for a startup? *I will not promote",
+      "description": "What's the best way to find lawyer advisors who are open to working with early stage companies in legal tech? Ideally experienced in cross border contracts. \n\n  \nSo far, I've tried Linkedin, Reddit DMs, and asking friends. Will I need a working product (MVP) at the very least or just the vision?",
+      "url": "https://reddit.com/r/startups/comments/1th7182/what_is_the_most_important_thing_in_acquiring_a/",
+      "source_url": "https://reddit.com/r/startups/comments/1th7182/what_is_the_most_important_thing_in_acquiring_a/",
       "score": 5,
       "source": "reddit",
-      "subreddit": "SaaS",
-      "timestamp": "2026-05-19T21:07:29"
+      "subreddit": "startups",
+      "timestamp": "2026-05-19T08:45:28"
     },
     {
       "id": "reddit_16obk75",
@@ -335,15 +346,15 @@
       "timestamp": "2026-05-19T11:13:14Z"
     },
     {
-      "id": "reddit_16u8sr0",
-      "name": "Feelly - Elegant mood tracker",
-      "description": "Hi All, I'm an indie app developer and created this app [Feelly](https://apps.apple.com/in/app/feelly/id1636166205) to keep track of your emotions seamlessly! This is an iOS app that allows you to capture and monitor your mood, helping you achieve emotional balance and well-being. Understanding your feelings has never been this easy and intuitive.   \nDownload Feelly now!    \n[https://apps.apple.com/in/app/feelly/id1636166205](https://apps.apple.com/in/app/feelly/id1636166205)\n\nYour feedback and ",
-      "url": "https://reddit.com/r/indieapps/comments/16u8sr0/feelly_elegant_mood_tracker/",
-      "source_url": "https://reddit.com/r/indieapps/comments/16u8sr0/feelly_elegant_mood_tracker/",
+      "id": "reddit_1thnwgz",
+      "name": "DA 11 to 36 in ~28 days using manual directory submissions",
+      "description": "https://preview.redd.it/29d0v492p32h1.png?width=1904&amp;format=png&amp;auto=webp&amp;s=a3aad6222ff7f98eb6ede223298447a885665ce2\n\nRecently helped a new site move DA from 11 to 36 in \\~28 days using 100 manual directory submissions to high authority platforms.\n\nKey points:\n\n\\- Submitted only to reputed, high-DR directories  \n\\- 70%+ dofollow backlinks  \n\\- No automation, no bulk blasting. Just submitted 5-7 platforms a day so it looks natural to google.  \n\\- Gradual growth (no spike)\n\nDirectories",
+      "url": "https://reddit.com/r/SaaS/comments/1thnwgz/da_11_to_36_in_28_days_using_manual_directory/",
+      "source_url": "https://reddit.com/r/SaaS/comments/1thnwgz/da_11_to_36_in_28_days_using_manual_directory/",
       "score": 4,
       "source": "reddit",
-      "subreddit": "IndieApps",
-      "timestamp": "2023-09-28T14:48:47"
+      "subreddit": "SaaS",
+      "timestamp": "2026-05-19T22:01:08"
     },
     {
       "id": "reddit_13d1e8e",
@@ -366,6 +377,16 @@
       "source": "v2ex",
       "node": "create",
       "timestamp": 1779194802
+    },
+    {
+      "id": "hn_48193233",
+      "name": "Show HN: VibeSchema DBML to PNG – instant diagram PNG from DBML schemas",
+      "description": "",
+      "url": "https://vibe-schema.com/dbml-to-png",
+      "source_url": "https://news.ycombinator.com/item?id=48193233",
+      "score": 3,
+      "source": "hackernews",
+      "timestamp": "2026-05-19T13:44:58Z"
     },
     {
       "id": "reddit_1thn109",
@@ -478,14 +499,24 @@
       "timestamp": 1777795799
     },
     {
-      "id": "hn_48193233",
-      "name": "Show HN: VibeSchema DBML to PNG – instant diagram PNG from DBML schemas",
-      "description": "",
-      "url": "https://vibe-schema.com/dbml-to-png",
-      "source_url": "https://news.ycombinator.com/item?id=48193233",
+      "id": "hn_48192918",
+      "name": "Show HN: Try Tryke – the Rust-powered Python test framework – in the browser",
+      "description": "Try out Tryke, the Rust-based Python testing framework, in the browser.",
+      "url": "https://playground.tryke.dev/",
+      "source_url": "https://news.ycombinator.com/item?id=48192918",
       "score": 2,
       "source": "hackernews",
-      "timestamp": "2026-05-19T13:44:58Z"
+      "timestamp": "2026-05-19T13:15:05Z"
+    },
+    {
+      "id": "hn_48192765",
+      "name": "Show HN: CANviz – open-source CAN analyzer, J1939/CANopen, pip install",
+      "description": "",
+      "url": "https://github.com/Chanchaldhiman/CANviz",
+      "source_url": "https://news.ycombinator.com/item?id=48192765",
+      "score": 2,
+      "source": "hackernews",
+      "timestamp": "2026-05-19T13:04:18Z"
     },
     {
       "id": "hn_48192416",
@@ -518,57 +549,37 @@
       "timestamp": "2026-05-19T11:47:39Z"
     },
     {
-      "id": "hn_48191713",
-      "name": "Show HN: Books ranked by how many Wikipedia article translations they have",
-      "description": "",
-      "url": "https://likedbook.com/",
-      "source_url": "https://news.ycombinator.com/item?id=48191713",
-      "score": 2,
-      "source": "hackernews",
-      "timestamp": "2026-05-19T10:57:55Z"
-    },
-    {
-      "id": "hn_48191161",
-      "name": "Show HN: Resilient, A composable async resilience toolkit for rust",
-      "description": "Resilient is an async toolkit for rust that handles fault tolerance for your rust Apps that often call other services or database queries frequently. \nResilient supports rate limiting, circuit breaker, timeout, bulkhead and retry policies. Pipeline is used to define multiple policies at once and run async operations based on the rules from the policies. \nYou can also add a fallback if the system fails too often.<p>This was inspired by failsafe-go but for Rust. Would love to know your view on thi",
-      "url": "https://github.com/resilient-rs/resilient",
-      "source_url": "https://news.ycombinator.com/item?id=48191161",
-      "score": 2,
-      "source": "hackernews",
-      "timestamp": "2026-05-19T09:29:40Z"
-    },
-    {
-      "id": "reddit_1thni3l",
-      "name": "I built an app that tells you if you can have a late night snack. Or seconds at dinner. Or a beer. No math required.",
-      "description": "Every day around 7pm I ask myself the same question:\n\n\"I've been pretty good today... I worked out this morning... can I have something extra tonight or will it wreck my deficit?\"\n\nNo calorie app answers that question. They give you a static daily target — doesn't matter if you burned 600 calories at the gym or sat on the couch all day, the number never moves. You're left doing the math in your head or just guessing.\n\nSo I built a prototype that works like this:\n\nBMR − your goal deficit + Apple ",
-      "url": "https://reddit.com/r/SideProject/comments/1thni3l/i_built_an_app_that_tells_you_if_you_can_have_a/",
-      "source_url": "https://reddit.com/r/SideProject/comments/1thni3l/i_built_an_app_that_tells_you_if_you_can_have_a/",
+      "id": "reddit_1thnw71",
+      "name": "Built an AI recipe app that turns fridge photos into dinner ideas — would love brutal feedback",
+      "description": "Hey r/SideProject 👋\n\nI'm Jon, a TPM at a big tech company in Seattle. FridgeGenius is my first real shipped product end-to-end, built solo on weekends to solve a problem I had every Sunday night: staring at a full fridge and ordering takeout out of pure decision fatigue. The food was always there. The cooking wasn't hard. Deciding what to make was what killed me every time.\n\n**What it does:** Snap a photo of your fridge AND/OR type in ingredients you have. The AI returns ONE high-quality step-by",
+      "url": "https://v.redd.it/un14zu4g112h1",
+      "source_url": "https://reddit.com/r/SideProject/comments/1thnw71/built_an_ai_recipe_app_that_turns_fridge_photos/",
       "score": 2,
       "source": "reddit",
       "subreddit": "SideProject",
-      "timestamp": "2026-05-19T21:46:36"
+      "timestamp": "2026-05-19T22:00:54"
     },
     {
-      "id": "reddit_1thmo8f",
-      "name": "I got tired of subscription pricing for things you only need once, so I built a one-time privacy policy generator",
-      "description": "Hi, I'm a software engineer based in Berlin who works in enterprise software by day. I know how overcomplicated and overpriced this space is. As a side project, I wanted to build something that is the complete opposite of all that. No subscriptions, no accounts, no recurring fees. Just pay once, and own it forever.\n\nSo I built PureDoc. Answer a few questions, pay $49 once, and your privacy policy, terms and conditions, and cookie policy are delivered as a PDF to your inbox and hosted online fore",
-      "url": "https://reddit.com/r/SideProject/comments/1thmo8f/i_got_tired_of_subscription_pricing_for_things/",
-      "source_url": "https://reddit.com/r/SideProject/comments/1thmo8f/i_got_tired_of_subscription_pricing_for_things/",
+      "id": "reddit_1thnvae",
+      "name": "Two years building a lending matchmaking platform for small businesses. Happy to share what we learned if anyone's curious.",
+      "description": "My co-founders and I have been working on a platform that connects small and mid-size businesses with lenders. The idea was pretty straightforward from the start: most business owners go straight to their bank, get rejected or get a bad offer, and have no idea there are dozens of other options available to them.\n\n\n\nWe built something where a business fills out one application and gets matched with lenders from a network we've put together over the past couple years. We handle the matching, they ",
+      "url": "https://reddit.com/r/SideProject/comments/1thnvae/two_years_building_a_lending_matchmaking_platform/",
+      "source_url": "https://reddit.com/r/SideProject/comments/1thnvae/two_years_building_a_lending_matchmaking_platform/",
       "score": 2,
       "source": "reddit",
       "subreddit": "SideProject",
-      "timestamp": "2026-05-19T21:15:45"
+      "timestamp": "2026-05-19T22:00:08"
     },
     {
-      "id": "reddit_1thmezg",
-      "name": "Working with a social media startup called Polse",
-      "description": "I'm currently doing an erasmus semester in Portugal and have a lot of free time on my hands. I started doing some free work just to gain some experience with this social media startup called Polse. The idea is a Social Media platform which tries to give people a voice through things like multiple choice voting, word clouds, and other interesting ways of showing data. Currently the sole focus is on football since the World Cup is right around the corner and has a passionate fan base. In the futur",
-      "url": "https://reddit.com/r/SideProject/comments/1thmezg/working_with_a_social_media_startup_called_polse/",
-      "source_url": "https://reddit.com/r/SideProject/comments/1thmezg/working_with_a_social_media_startup_called_polse/",
+      "id": "reddit_1thnime",
+      "name": "How can I get more customers / week?",
+      "description": "Hello,\n\nLaunched a year ago and I’m getting about 3-5 customers a week.\n\nI haven’t figured out a way to advertise efficiently so I stopped doing any ads months ago.\n\nI’ve relied completely on organic results.\n\nPeople usually say they found me as first Google result via “ai automation bots”.\n\nEach week is about 150-160 website views with average engagement time of 1 minute and 30 seconds.\n\nI’ve been stuck at this amount of website views for 3 months now since hitting first page in Google.\n\nIs the",
+      "url": "https://reddit.com/r/SaaS/comments/1thnime/how_can_i_get_more_customers_week/",
+      "source_url": "https://reddit.com/r/SaaS/comments/1thnime/how_can_i_get_more_customers_week/",
       "score": 2,
       "source": "reddit",
-      "subreddit": "SideProject",
-      "timestamp": "2026-05-19T21:05:59"
+      "subreddit": "SaaS",
+      "timestamp": "2026-05-19T21:47:05"
     },
     {
       "id": "reddit_1thn28w",
@@ -593,37 +604,15 @@
       "timestamp": "2026-05-19T21:14:01"
     },
     {
-      "id": "reddit_1thm92l",
-      "name": "99% of founders are sitting on a goldmine and completely ignoring it",
-      "description": "Not your company page, your personal founder profile. I'm consistently landing 5-10 new paid customers every month from just from my LinkedIn profile.\n\nAnd most of you are letting it collect dust while paying for cold outbound that gets a 3% reply rate.\n\nHere's why that's a massive mistake.\n\n**your profile hits different than anyone else on your team**\n\nWhen a founder reaches out, people actually read it. There's implicit weight to it. You built something, you have skin in the game, you're not a",
-      "url": "https://reddit.com/r/SaaS/comments/1thm92l/99_of_founders_are_sitting_on_a_goldmine_and/",
-      "source_url": "https://reddit.com/r/SaaS/comments/1thm92l/99_of_founders_are_sitting_on_a_goldmine_and/",
+      "id": "reddit_1thneew",
+      "name": "I’m so stoked, things are finally going well for me (I will not promote)",
+      "description": "I’m doing a spin-out from a larger company and I’m so excited that things are finally going well for me after two and a half years.\n\nThe vast majority of that time, I was trying to spin-out something different with a co-founder. It was awful. I was doing all of the work while he quiet quit but declared himself CEO, and was undermining me at every step. I couldn’t understand why my life was becoming unfathomably harder and harder, but once I found out what he was doing (and not doing), I dropped ",
+      "url": "https://reddit.com/r/startups/comments/1thneew/im_so_stoked_things_are_finally_going_well_for_me/",
+      "source_url": "https://reddit.com/r/startups/comments/1thneew/im_so_stoked_things_are_finally_going_well_for_me/",
       "score": 2,
       "source": "reddit",
-      "subreddit": "SaaS",
-      "timestamp": "2026-05-19T20:59:55"
-    },
-    {
-      "id": "reddit_1thlzsd",
-      "name": "Skipping an entire phase and does targeted marketing work?",
-      "description": "I was planning to onboard a few beta testers and gain feedback over what all issues are there in my app and polishing them before going out and making it available to the public. But onboarding creators as beta testers has been quite hard as there is nothing in it for them (i dont blame them for it). I am giving them pro plan for life but that means nothing as the product has no validation in the real market. So I am thinking of onboarding a single beta testers just to test if all the workflow o",
-      "url": "https://reddit.com/r/SaaS/comments/1thlzsd/skipping_an_entire_phase_and_does_targeted/",
-      "source_url": "https://reddit.com/r/SaaS/comments/1thlzsd/skipping_an_entire_phase_and_does_targeted/",
-      "score": 2,
-      "source": "reddit",
-      "subreddit": "SaaS",
-      "timestamp": "2026-05-19T20:49:52"
-    },
-    {
-      "id": "reddit_1thlz8h",
-      "name": "canadacalculator.ca – free Canadian financial calculators that actually use Canadian math",
-      "description": "Most financial calculators online are built for US/UK. Wrong tax rules, no TFSA, no FHSA, no CPP. Built this specifically for Canadians.\n\nCovers mortgages, take home pay by province, rent vs buy, TFSA room, RRSP vs TFSA, EI estimates, maternity leave, debt payoff, immigration tools like Express Entry CRS score and more. 40+ calculators total.\n\nhttps://canadacalculator.ca\n\nHas light and dark mode, no signup, no ads, runs entirely in your browser so nothing gets stored. Free forever.",
-      "url": "https://i.redd.it/7gf4gpc2c32h1.jpeg",
-      "source_url": "https://reddit.com/r/SaaS/comments/1thlz8h/canadacalculatorca_free_canadian_financial/",
-      "score": 2,
-      "source": "reddit",
-      "subreddit": "SaaS",
-      "timestamp": "2026-05-19T20:49:15"
+      "subreddit": "startups",
+      "timestamp": "2026-05-19T21:42:49"
     },
     {
       "id": "reddit_1th7hq3",
@@ -725,6 +714,56 @@
       "timestamp": 1778048882
     },
     {
+      "id": "hn_48193576",
+      "name": "Show HN: Tribune's Last Stand, a browser-based Warhammer 40K vertical slice",
+      "description": "Hi HN, I&#x27;m James. Over the last few months I built a Warhammer 40K 10th-edition vertical slice as an experiment in how far GenAI tools can take a solo dev on a non-trivial 2D game.<p>For sprite generation, whilst creative exploration was fast, getting high-quality and consistent images was hard. Gemini ended up stylistically best here but I had to use BiRefNet for background removal. While I experimented with Claude for map generation and layout I ended up finding it fastest to build a full",
+      "url": "https://tribuneslaststand.com/game/?invite=HACKER-PRIME-HN5",
+      "source_url": "https://news.ycombinator.com/item?id=48193576",
+      "score": 1,
+      "source": "hackernews",
+      "timestamp": "2026-05-19T14:12:27Z"
+    },
+    {
+      "id": "hn_48193515",
+      "name": "Show HN: Circuit Breaker – runtime cost ceilings for AI agents",
+      "description": "",
+      "url": "https://github.com/MonetiseBG/circuit-breaker",
+      "source_url": "https://news.ycombinator.com/item?id=48193515",
+      "score": 1,
+      "source": "hackernews",
+      "timestamp": "2026-05-19T14:07:43Z"
+    },
+    {
+      "id": "hn_48193455",
+      "name": "Show HN: Burn – find where your Kubernetes cluster is burning money",
+      "description": "",
+      "url": "https://github.com/tanrikuluozlem/burn",
+      "source_url": "https://news.ycombinator.com/item?id=48193455",
+      "score": 1,
+      "source": "hackernews",
+      "timestamp": "2026-05-19T14:02:50Z"
+    },
+    {
+      "id": "hn_48193448",
+      "name": "Show HN: - MagesticAI – Spec-driven development with AI agents",
+      "description": "",
+      "url": "https://github.com/dataseeek/MagesticAI",
+      "source_url": "https://news.ycombinator.com/item?id=48193448",
+      "score": 1,
+      "source": "hackernews",
+      "timestamp": "2026-05-19T14:02:25Z"
+    },
+    {
+      "id": "hn_48193438",
+      "name": "Show HN: FocusLive – Camera-free 3D body doubling using Supabase Realtime",
+      "description": "",
+      "url": "https://www.focuslive.app/realtime",
+      "source_url": "https://news.ycombinator.com/item?id=48193438",
+      "score": 1,
+      "source": "hackernews",
+      "timestamp": "2026-05-19T14:01:16Z"
+    },
+    {
       "id": "hn_48193024",
       "name": "Show HN: Childflow – command-tree network control(proxy/DNS/capture) for Linux",
       "description": "Hi HN,<p>I built a Rust-based Linux process only network sandbox command.\nI developed this because I sometimes needed to enforce proxies and DNS only for single binaries like Go, or to capture packets only for that process.<p>It use Linux namespaces, so it is Linux-only.\nFeature:<p>- affects only the target command tree, not the whole host session\n- can force DNS, &#x2F;etc&#x2F;hosts, proxying, sandbox policy, packet capture, structured flow logging, and reusable profiles per command tree\n- can",
@@ -755,16 +794,6 @@
       "timestamp": "2026-05-19T13:18:04Z"
     },
     {
-      "id": "hn_48192918",
-      "name": "Show HN: Try Tryke – the Rust-powered Python test framework – in the browser",
-      "description": "Try out Tryke, the Rust-based Python testing framework, in the browser.",
-      "url": "https://playground.tryke.dev/",
-      "source_url": "https://news.ycombinator.com/item?id=48192918",
-      "score": 1,
-      "source": "hackernews",
-      "timestamp": "2026-05-19T13:15:05Z"
-    },
-    {
       "id": "hn_48192867",
       "name": "Show HN: I built a linter for undocumented linter warnings. AI hates me now",
       "description": "You know the feeling? AI slaps a NOLINT instead of &quot;thinking&quot; for 5 seconds and &quot;realising&quot; it could do a 4-line refactor without adding a new suppression for the linter warning. Disgusted with this technology&#x27;s narrowness, I usually say to it at that moment:<p>- WTF are you doin&#x27; bro?\n- &quot;You are right! ^^ ...&quot;<p>And at that moment I realise I&#x27;ve just irrevocably, regrettably lost 2 minutes of my life. Shame on you, Claude!<p>That&#x27;s why I dedicat",
@@ -783,16 +812,6 @@
       "score": 1,
       "source": "hackernews",
       "timestamp": "2026-05-19T13:09:42Z"
-    },
-    {
-      "id": "hn_48192765",
-      "name": "Show HN: CANviz – open-source CAN analyzer, J1939/CANopen, pip install",
-      "description": "",
-      "url": "https://github.com/Chanchaldhiman/CANviz",
-      "source_url": "https://news.ycombinator.com/item?id=48192765",
-      "score": 1,
-      "source": "hackernews",
-      "timestamp": "2026-05-19T13:04:18Z"
     },
     {
       "id": "hn_48192650",
@@ -895,176 +914,224 @@
       "timestamp": "2026-05-19T11:05:45Z"
     },
     {
-      "id": "hn_48191657",
-      "name": "Show HN: Tokoro – open, signed event protocol with LLM crawler",
-      "description": "",
-      "url": "https://github.com/robertoranon/tokoro",
-      "source_url": "https://news.ycombinator.com/item?id=48191657",
-      "score": 1,
-      "source": "hackernews",
-      "timestamp": "2026-05-19T10:47:46Z"
-    },
-    {
-      "id": "hn_48191571",
-      "name": "Show HN: Barstool, a Prettier macOS Menubar",
-      "description": "I really hate the way the macOS menu bar looks, and how crowded it gets with all my apps&#x27; Menubar menus.<p>Barstool lets me still see the time&#x2F;date and other useful info while hiding the menubar. I can see wifi connectivity, date, time, and battery all the time.<p>The app also observes system notifications to surface now playing state, (Apple) calendar events, and volume&#x2F;brightness changes.<p>I&#x27;ve had to do a lot of finking with mac PrivateFrameworks as apple loves to make al",
-      "url": "https://barstool.lotl.dev/",
-      "source_url": "https://news.ycombinator.com/item?id=48191571",
-      "score": 1,
-      "source": "hackernews",
-      "timestamp": "2026-05-19T10:33:33Z"
-    },
-    {
-      "id": "hn_48191570",
-      "name": "Show HN: ShakeToFocus – blur everything except your active window on macOS",
-      "description": "",
-      "url": "https://beinlife.gumroad.com/l/shake-to-focus",
-      "source_url": "https://news.ycombinator.com/item?id=48191570",
-      "score": 1,
-      "source": "hackernews",
-      "timestamp": "2026-05-19T10:33:25Z"
-    },
-    {
-      "id": "hn_48191228",
-      "name": "Show HN: Blog post and slideshow automatic generator",
-      "description": "Recently Slideshows format is working great on Tiktok and Slidio can generate blog posts and slideshows based on SEO keywords. If you are tired of taking care of blogs and social media, try Slidio! It has free plan and promote $1 subscription too.",
-      "url": "https://slidio.xyz/",
-      "source_url": "https://news.ycombinator.com/item?id=48191228",
-      "score": 1,
-      "source": "hackernews",
-      "timestamp": "2026-05-19T09:39:21Z"
-    },
-    {
-      "id": "reddit_1thne0d",
-      "name": "I built a free fitness app that combines workouts, nutrition, and recovery in one place",
-      "description": "Most fitness apps still require multiple apps and subscriptions to handle training, nutrition, and recovery.\n\nBuiltSolid combines:  \n• Workout tracking  \n• Nutrition tracking  \n• Recovery scoring\n\nin one free app.\n\nSome differences compared to most fitness stacks:  \n• No paywall  \n• Replaces \\~$366/year of apps like Fitbod + Cal AI + Whoop  \n• Recovery score works across 50+ wearables including Oura, Garmin, Fitbit, and Apple Watch\n\nWould love feedback from people building or using fitness side ",
-      "url": "https://reddit.com/r/SideProject/comments/1thne0d/i_built_a_free_fitness_app_that_combines_workouts/",
-      "source_url": "https://reddit.com/r/SideProject/comments/1thne0d/i_built_a_free_fitness_app_that_combines_workouts/",
+      "id": "reddit_1tho73c",
+      "name": "I shipped a content tool that flags when its own output sounds like every other AI tool",
+      "description": "I've been building ContentAgent for three months. It's an AI writing tool, which I know is a crowded space. The thing that made me build it: every existing tool produced output with the same patterns. \"In today's landscape.\" \"Leverage your network.\" Five-point structures. Em dashes. Hedge-stacked qualifiers. Content that's technically correct and completely lifeless.\n\nThe fix I went after isn't a better prompt. It's three layers running on top of generation:\n\nVoice calibration. Before any conten",
+      "url": "https://reddit.com/r/SideProject/comments/1tho73c/i_shipped_a_content_tool_that_flags_when_its_own/",
+      "source_url": "https://reddit.com/r/SideProject/comments/1tho73c/i_shipped_a_content_tool_that_flags_when_its_own/",
       "score": 1,
       "source": "reddit",
       "subreddit": "SideProject",
-      "timestamp": "2026-05-19T21:42:24"
+      "timestamp": "2026-05-19T22:11:48"
     },
     {
-      "id": "reddit_1thndjx",
-      "name": "Retro Journal app for free",
-      "description": "Like many of you, I've been playing video games since I was a kid, always looking for similarities between game concepts and real life. A few years ago, I discovered the idea of Internet Checkpoints, and I loved it. Seeing people share their achievements as \"checkpoints\" felt strangely meaningful.\n\n\"Checkpoint moved to a new house.\"\n\nThat idea stayed with me, so I decided to create a simple journaling app for myself with this concept built in. After showing it to a few friends, they told me they",
-      "url": "https://reddit.com/r/SideProject/comments/1thndjx/retro_journal_app_for_free/",
-      "source_url": "https://reddit.com/r/SideProject/comments/1thndjx/retro_journal_app_for_free/",
+      "id": "reddit_1tho3rp",
+      "name": "I built a simple free invoice generator, would love feedback",
+      "description": "Built a very simple free invoice generator recently: \"invoicetemplate.online\" ([Invoice Generator ](https://invoicetemplate.online))\n\nMade it because most invoice tools I tried were either:\n\n\\- forcing signup\n\n\\- bloated with unnecessary features\n\n\\- or adding watermarks/paywalls for PDF export\n\nSo I made one that's lightweight and straightforward:\n\n\\- no signup\n\n\\- instant PDF invoices\n\n\\- simple clean templates\n\nStill improving it, so I’d genuinely love feedback on:\n\n\\- what feels annoying\n\n\\-",
+      "url": "https://reddit.com/r/SideProject/comments/1tho3rp/i_built_a_simple_free_invoice_generator_would/",
+      "source_url": "https://reddit.com/r/SideProject/comments/1tho3rp/i_built_a_simple_free_invoice_generator_would/",
       "score": 1,
       "source": "reddit",
       "subreddit": "SideProject",
-      "timestamp": "2026-05-19T21:41:55"
+      "timestamp": "2026-05-19T22:08:29"
     },
     {
-      "id": "reddit_1thnb9l",
-      "name": "Started building my first real product publicly at 17",
-      "description": "I’m 17 and I just started building my first real product publicly.\n\nIt’s called Noven — an AI productivity app for ambitious students/young entrepreneurs who constantly feel mentally overloaded.\n\nThe idea came from a problem I deal with myself almost every day:\n\nToo many things to do.  \nToo many ideas.  \nToo many projects.\n\nAnd instead of becoming productive, you end up overwhelmed and mentally scattered.\n\nMost productivity apps feel too complicated to me.  \nToo many features, too many buttons, ",
-      "url": "https://reddit.com/r/SideProject/comments/1thnb9l/started_building_my_first_real_product_publicly/",
-      "source_url": "https://reddit.com/r/SideProject/comments/1thnb9l/started_building_my_first_real_product_publicly/",
+      "id": "reddit_1thnzqc",
+      "name": "do you think a clean ui actually determines early validation for an mvp",
+      "description": "I am stuck in a loop where i spend way too much time polishing the interface before even testing the concept with real users. part of me knows people only care if the app solves their problem but i always get worried an ugly dashboard will tank the conversion rate fr. how much energy do you guys honestly put into visual design before you have verified any user interest?",
+      "url": "https://reddit.com/r/SideProject/comments/1thnzqc/do_you_think_a_clean_ui_actually_determines_early/",
+      "source_url": "https://reddit.com/r/SideProject/comments/1thnzqc/do_you_think_a_clean_ui_actually_determines_early/",
       "score": 1,
       "source": "reddit",
       "subreddit": "SideProject",
-      "timestamp": "2026-05-19T21:39:33"
+      "timestamp": "2026-05-19T22:04:18"
     },
     {
-      "id": "reddit_1thn9iy",
-      "name": "Built my first macOS app: a one-click toggle to keep your Mac awake with the lid closed",
-      "description": "Most of the time you **want** your Mac to sleep when you close the lid. But occasionally, when running a long build, heading to a meeting with agents mid-task, or downloading something big - you **don't**.\n\nThe native solution is `sudo pmset -a disablesleep 1` every time, typing your password, then remembering to undo it. Caffeinate doesn't actually prevent lid-close sleep. Amphetamine does have this feature but it's buried 3 settings menus deep, not designed for quick toggling.\n\nAwayke is just ",
-      "url": "https://reddit.com/r/SideProject/comments/1thn9iy/built_my_first_macos_app_a_oneclick_toggle_to/",
-      "source_url": "https://reddit.com/r/SideProject/comments/1thn9iy/built_my_first_macos_app_a_oneclick_toggle_to/",
+      "id": "reddit_1thnz77",
+      "name": "PersonalPathways. Daily serialized AI stories by email, each chapter built from the choice you made the day before. Customizable nonfiction newsletter or CYOA fiction immersive interactive fiction.",
+      "description": "Built this because I was frustrated that \"AI personalization\" mostly means \"here's a genre you clicked on once, recommended back to you.\" That is categorization. Not personalization.\n\nPersonalPathways is a serialized story platform. Fiction or nonfiction. One chapter per day, delivered to your email. You make one choice at the end of each chapter, and the next one is generated from what you chose, with a Memory Palace tracking your characters, relationships, and open threads across the full arc ",
+      "url": "https://reddit.com/r/SideProject/comments/1thnz77/personalpathways_daily_serialized_ai_stories_by/",
+      "source_url": "https://reddit.com/r/SideProject/comments/1thnz77/personalpathways_daily_serialized_ai_stories_by/",
       "score": 1,
       "source": "reddit",
       "subreddit": "SideProject",
-      "timestamp": "2026-05-19T21:37:45"
+      "timestamp": "2026-05-19T22:03:49"
     },
     {
-      "id": "reddit_1thn9b7",
-      "name": "I made this because I was annoyed with clicking",
-      "description": "As someone who spends a lot of time researching and reading online, I noticed I kept repeating the same pattern whenever something caught my interest:  \n \n\n* Highlight text\n* Copy\n* Open new tab\n* Paste\n* Search\n* Repeat\n\nBeing a somewhat impatient person, and annoyed with all the clicks, tab-opening and copy/pasting, I decided I wasn’t having it anymore and built a nifty little extension that would reduce everything to just one click.\n\nNow whenever I highlight text on a webpage, a floating sear",
-      "url": "https://reddit.com/r/SideProject/comments/1thn9b7/i_made_this_because_i_was_annoyed_with_clicking/",
-      "source_url": "https://reddit.com/r/SideProject/comments/1thn9b7/i_made_this_because_i_was_annoyed_with_clicking/",
+      "id": "reddit_1thnyvz",
+      "name": "My focus is to show you what happens to your short links, instead of boasting how many clicks it received",
+      "description": "At this stage it's more than just a side project; I now work on it full-time. [**Zyp**](https://zyp.sh/try-free) is a short url redirector tool that focuses on human clicks rather that previews/bot clicks. I've learnt that there are many bot tools out there and marketers struggle to tell if someone actual clicks their links or was it just bots. Zyp does not blocks bot, it let's you see every detail of your links and you decided what action to take.\n\nIf you have any time, sign up here ([https://z",
+      "url": "https://reddit.com/r/SideProject/comments/1thnyvz/my_focus_is_to_show_you_what_happens_to_your/",
+      "source_url": "https://reddit.com/r/SideProject/comments/1thnyvz/my_focus_is_to_show_you_what_happens_to_your/",
       "score": 1,
       "source": "reddit",
       "subreddit": "SideProject",
-      "timestamp": "2026-05-19T21:37:32"
+      "timestamp": "2026-05-19T22:03:32"
     },
     {
-      "id": "reddit_1thmt6a",
-      "name": "Built a visual architecture workspace with deterministic AI validation",
-      "description": "Most AI architecture tools generate one-shot diagrams that are difficult to validate, evolve, or review over time.\n\n\n\nI wanted something closer to how real architecture work happens:\n\n\\- iterative evolution\n\n\\- semantic diffs\n\n\\- deterministic validation\n\n\\- proposal review workflows\n\n\n\nSo I started building Architect Studio X, a visual architecture workspace focused on controlled AI-assisted evolution instead of black-box generation.\n\nWould love feedback from people doing real system design/rev",
-      "url": "https://github.com/Balchandar/Architect-Studio-X",
-      "source_url": "https://reddit.com/r/SideProject/comments/1thmt6a/built_a_visual_architecture_workspace_with/",
+      "id": "reddit_1thnxd8",
+      "name": "Armorer: local control plane for AI agents",
+      "description": "Most agent frameworks give you logs. Armorer gives you control.\n\nRun records — see every tool call, every LLM response, every decision your agent made.\n\nHuman approval — pause for review before dangerous operations.\n\nDebugging — replay runs, inspect state.\n\nWorks with any agent via MCP. Self-hosted, local-first.\n\nGitHub: [https://github.com/ArmorerLabs/Armorer](https://github.com/ArmorerLabs/Armorer) — star it if you want visibility into agent runs",
+      "url": "https://reddit.com/r/SideProject/comments/1thnxd8/armorer_local_control_plane_for_ai_agents/",
+      "source_url": "https://reddit.com/r/SideProject/comments/1thnxd8/armorer_local_control_plane_for_ai_agents/",
       "score": 1,
       "source": "reddit",
       "subreddit": "SideProject",
-      "timestamp": "2026-05-19T21:20:56"
+      "timestamp": "2026-05-19T22:01:59"
     },
     {
-      "id": "reddit_1thmoac",
-      "name": "I have 0 coding skills, but I spent 2 months in bed prompting AI to build a 100% offline, local vault and shipped it to the App Store!",
-      "description": "Hey guys,  \n  \nA few months ago I ended up bedridden due to an accident. Meanwhile rotting in bed and scrolling brainrot reels, I saw those scammy videos claiming: a few prompts + XY AI platform = your own working app!   \nYeah, right.. It doesn't work like that..  \nLong story short: it was a painful grind and a lot of credit burning with fixing loops, but I actually managed to ship my very first app to the App Store. It’s built entirely using Expo React Native (so I can deploy it to the Play Sto",
-      "url": "https://reddit.com/r/SideProject/comments/1thmoac/i_have_0_coding_skills_but_i_spent_2_months_in/",
-      "source_url": "https://reddit.com/r/SideProject/comments/1thmoac/i_have_0_coding_skills_but_i_spent_2_months_in/",
+      "id": "reddit_1thnrn5",
+      "name": "I built a personal finance app that goes deeper than just tracking — it shows you variance at the subcategory level (not just \"you overspent on expenses\" but exactly where)",
+      "description": "\n\nHey r/SideProject 👋\n\nI've been building Money Glow Up for a few months and just got it to a point where I'm comfortable showing strangers.\n\n**What it does differently:**\n- Scans receipts and reads bank/M-Pesa messages to auto-log transactions\n- 4 main categories: Expenses, Savings, Investments, Emergency — each with subcategories\n- Variance calculated at the subcategory level — so it tells you \"you overspent on food by $40 but saved $25 on transport\" instead of just saying expenses are over bu",
+      "url": "https://reddit.com/r/SideProject/comments/1thnrn5/i_built_a_personal_finance_app_that_goes_deeper/",
+      "source_url": "https://reddit.com/r/SideProject/comments/1thnrn5/i_built_a_personal_finance_app_that_goes_deeper/",
       "score": 1,
       "source": "reddit",
       "subreddit": "SideProject",
-      "timestamp": "2026-05-19T21:15:48"
+      "timestamp": "2026-05-19T21:56:23"
     },
     {
-      "id": "reddit_1thmh0s",
-      "name": "I built a free financial decision tool for Australians — tells you in 2 min whether to pay debt, save, or invest",
-      "description": "Australians are terrible at knowing what to do with their money first. Not because they're dumb, but because every tool out there either wants to sell them insurance, charge them for a financial adviser, or hand them a 40-page PDF they'll never read.\n\n\n\nThe actual question people have is simple: I have a HECS debt, a credit card, $8k in savings, and I want to buy a car. What do I do first?\n\n\n\nSo I built MoneyMoves AU (moneymoves-au.vercel.app) to answer exactly that. You put in your numbers, it ",
-      "url": "https://reddit.com/r/SideProject/comments/1thmh0s/i_built_a_free_financial_decision_tool_for/",
-      "source_url": "https://reddit.com/r/SideProject/comments/1thmh0s/i_built_a_free_financial_decision_tool_for/",
+      "id": "reddit_1thnoxg",
+      "name": "Most mobile apps never get found. Good ASO solves the problem. Link to free open source ASO Skills.",
+      "description": "The App Store has over 2 million apps. Paid acquisition costs are up 30% year over year. And 65 to 70% of downloads still come from App Store search, not from ads, social, or influencers. That means your title, subtitle, keyword field, and screenshots are doing more for your install count than almost anything else.",
+      "url": "https://github.com/Eronred/aso-skills",
+      "source_url": "https://reddit.com/r/SideProject/comments/1thnoxg/most_mobile_apps_never_get_found_good_aso_solves/",
       "score": 1,
       "source": "reddit",
       "subreddit": "SideProject",
-      "timestamp": "2026-05-19T21:08:15"
+      "timestamp": "2026-05-19T21:53:35"
     },
     {
-      "id": "reddit_1thm8o5",
-      "name": "we launched bc we didnt want work to keep disappearing :)",
-      "description": "Lately it feels like everyone is building with AI nonstop but half the work disappears right after the conversation ends. Good ideas get buried in chats, automations get forgotten, workflows break, and nobody can find anything a week later.\n\nWe kept running into that problem ourselves and it ended up becoming the reason we started building Signal Labs.\n\nThe idea is pretty simple. Instead of treating AI like a one time output machine, what if systems could actually recognize important signals, ro",
-      "url": "https://reddit.com/r/SideProject/comments/1thm8o5/we_launched_bc_we_didnt_want_work_to_keep/",
-      "source_url": "https://reddit.com/r/SideProject/comments/1thm8o5/we_launched_bc_we_didnt_want_work_to_keep/",
+      "id": "reddit_1thnncf",
+      "name": "I built a complete freelance business kit and launched it this week — Notion CRM + 75 AI prompts + Canva templates",
+      "description": "Been freelancing for 2 years and kept rebuilding the same systems from scratch for every client. So I packaged everything into one bundle:\n\n→ Notion CRM with client tracking, deal values and follow-up dates\n\n→ Project Tracker linked to the CRM\n\n→ 75 AI prompts for proposals, emails and content\n\n→ 30 dark aesthetic Canva templates\n\nOne-time download. Works on free Notion + free Canva. No subscriptions.\n\nLive on Etsy: [https://www.etsy.com/nl/listing/4506523574/notion-crm-template-for-freelancers]",
+      "url": "https://reddit.com/r/SideProject/comments/1thnncf/i_built_a_complete_freelance_business_kit_and/",
+      "source_url": "https://reddit.com/r/SideProject/comments/1thnncf/i_built_a_complete_freelance_business_kit_and/",
       "score": 1,
       "source": "reddit",
       "subreddit": "SideProject",
-      "timestamp": "2026-05-19T20:59:29"
+      "timestamp": "2026-05-19T21:51:55"
     },
     {
-      "id": "reddit_1thm8ik",
-      "name": "I built a personal blueprint generator that combines numerology, Western astrology, and Chinese zodiac — looking for 11 beta testers",
-      "description": "It takes your birth data (name, DOB, time, city) and generates a \\~6,000-word personalized PDF report synthesizing all three systems — what each reveals, where they agree, where they diverge, and what that means for your life direction and personality.\n\nBuilt on top of Claude (Anthropic's AI) with custom astrology/numerology calculation logic.\n\nOffering 11 completely free reports to people willing to give real feedback. DM me or comment below.",
-      "url": "https://reddit.com/r/SideProject/comments/1thm8ik/i_built_a_personal_blueprint_generator_that/",
-      "source_url": "https://reddit.com/r/SideProject/comments/1thm8ik/i_built_a_personal_blueprint_generator_that/",
+      "id": "reddit_1thnn5o",
+      "name": "shipped my first chrome extension this week, came out of pure frustration tbh",
+      "description": "been using AI tools nonstop for work and kept noticing my sessions would just... degrade. like the answers would get worse over time in the same chat and i had no idea why. turns out context windows are a thing and after a while the AI literally starts forgetting what you told it at the start\n\nso i spent a few weeks building something dumb and simple. it's just a little pill that floats on claude, chatgpt, gemini and perplexity and shows you a live quality score. fresh, warning, degraded. that's",
+      "url": "https://reddit.com/r/SideProject/comments/1thnn5o/shipped_my_first_chrome_extension_this_week_came/",
+      "source_url": "https://reddit.com/r/SideProject/comments/1thnn5o/shipped_my_first_chrome_extension_this_week_came/",
       "score": 1,
       "source": "reddit",
       "subreddit": "SideProject",
-      "timestamp": "2026-05-19T20:59:18"
+      "timestamp": "2026-05-19T21:51:43"
     },
     {
-      "id": "reddit_1thm3eb",
-      "name": "I built an AI medical inventory app for Latin American clinics — looking for feedback",
-      "description": "I’ve been building DocStock for the past few weeks.  \nThe problem: Small clinics in Latin America manage medical stock with Excel or paper. They lose expensive products to expiration and run out of supplies constantly.  \nThe solution: DocStock lets doctors update inventory by talking naturally (“used 3 syringes today”), sends WhatsApp alerts before expiration dates, and syncs everything with Google Sheets.  \nStack: React, Supabase, Groq (Llama 3.3), Vercel, Google Sheets API  \nTry it: https://do",
-      "url": "https://reddit.com/r/SideProject/comments/1thm3eb/i_built_an_ai_medical_inventory_app_for_latin/",
-      "source_url": "https://reddit.com/r/SideProject/comments/1thm3eb/i_built_an_ai_medical_inventory_app_for_latin/",
+      "id": "reddit_1thnl6e",
+      "name": "A tiny traffic light for Claude Code, especially if you vibe code",
+      "description": "If you vibe code with Claude Code, it is easy to miss when the session has gone bad.\n\nClaude can still look productive while it is actually stuck: rerunning the same failed command, filling context, burning tokens, or looping on tests.\n\nSo I built a small status line tool for myself. It watches local Claude Code session metadata and shows:\n\n&gt;Healthy / Careful / Stop\n\nThe most useful part is the stop. For example, if Bash fails several times while running tests, it tells me to pause and inspec",
+      "url": "https://reddit.com/r/SideProject/comments/1thnl6e/a_tiny_traffic_light_for_claude_code_especially/",
+      "source_url": "https://reddit.com/r/SideProject/comments/1thnl6e/a_tiny_traffic_light_for_claude_code_especially/",
       "score": 1,
       "source": "reddit",
       "subreddit": "SideProject",
-      "timestamp": "2026-05-19T20:53:45"
+      "timestamp": "2026-05-19T21:49:43"
     },
     {
-      "id": "reddit_1thnime",
-      "name": "How can I get more customers / week?",
-      "description": "Hello,\n\nLaunched a year ago and I’m getting about 3-5 customers a week.\n\nI haven’t figured out a way to advertise efficiently so I stopped doing any ads months ago.\n\nI’ve relied completely on organic results.\n\nPeople usually say they found me as first Google result via “ai automation bots”.\n\nEach week is about 150-160 website views with average engagement time of 1 minute and 30 seconds.\n\nI’ve been stuck at this amount of website views for 3 months now since hitting first page in Google.\n\nIs the",
-      "url": "https://reddit.com/r/SaaS/comments/1thnime/how_can_i_get_more_customers_week/",
-      "source_url": "https://reddit.com/r/SaaS/comments/1thnime/how_can_i_get_more_customers_week/",
+      "id": "reddit_1thnl4k",
+      "name": "I built a retro Framer portfolio template for visual creatives",
+      "description": "Hey everyone,\n\nI’ve been building Framer templates lately, and my newest one is called **Palette**.\n\nIt’s a retro-inspired portfolio template made for photographers, designers, and visual creatives who want their site to feel less generic and more personality-driven.\n\n**What it does:**  \nA ready-to-customize Framer portfolio with bold typography, image-heavy sections, project pages, and a visual style aimed at creative work.\n\n**Who it’s for:**  \nPhotographers, designers, creative freelancers, st",
+      "url": "https://reddit.com/r/SideProject/comments/1thnl4k/i_built_a_retro_framer_portfolio_template_for/",
+      "source_url": "https://reddit.com/r/SideProject/comments/1thnl4k/i_built_a_retro_framer_portfolio_template_for/",
+      "score": 1,
+      "source": "reddit",
+      "subreddit": "SideProject",
+      "timestamp": "2026-05-19T21:49:40"
+    },
+    {
+      "id": "reddit_1thnkpe",
+      "name": "Collaboration Platform",
+      "description": "Hi everyone,\n\nWe built a collaboration platform, [ethrealm.com](http://ethrealm.com/), to improve discovery and visibility of the various projects that people are pursuing. I would like to invite you to come and try it out. We are looking at both initiators of projects and contributors to other projects. We have a workspace that is available for the team to use to delegate tasks and chat. I think this is useful for this community since everyone here is already interested in working on projects. ",
+      "url": "https://reddit.com/r/SideProject/comments/1thnkpe/collaboration_platform/",
+      "source_url": "https://reddit.com/r/SideProject/comments/1thnkpe/collaboration_platform/",
+      "score": 1,
+      "source": "reddit",
+      "subreddit": "SideProject",
+      "timestamp": "2026-05-19T21:49:14"
+    },
+    {
+      "id": "reddit_1tho85q",
+      "name": "ChatGPT is sending customers to your competitors. You probably don’t know it’s happening",
+      "description": "I ran my own SaaS through a quick test today.  \nAsked ChatGPT: “what’s the best tool in my category?”  \nMy product wasn’t mentioned. Three competitors were.  \nI’ve been investing in SEO, content, backlinks for months. Google rankings are solid. But ChatGPT has never heard of me or worse, has heard of me and doesn’t recommend me.  \nThe scary part: this is happening to most SaaS products right now and nobody is tracking it.  \nGoogle tells you your rankings. Google Analytics tells you your traffic.",
+      "url": "https://reddit.com/r/SaaS/comments/1tho85q/chatgpt_is_sending_customers_to_your_competitors/",
+      "source_url": "https://reddit.com/r/SaaS/comments/1tho85q/chatgpt_is_sending_customers_to_your_competitors/",
       "score": 1,
       "source": "reddit",
       "subreddit": "SaaS",
-      "timestamp": "2026-05-19T21:47:05"
+      "timestamp": "2026-05-19T22:12:53"
+    },
+    {
+      "id": "reddit_1tho53y",
+      "name": "Selectr",
+      "description": "[https://apps.apple.com/us/app/selectr/id6766766548](https://apps.apple.com/us/app/selectr/id6766766548)\n\nOn April 13th, I got kicked out of my school. Four days later, I started building Selectr, the idea I'd been sitting on for over a year. Stop wasting time on \"where should we go.\" Discover spots you'd never have found. Break the cycle of hitting the same three places every weekend. Spin a wheel of your options, restaurants near you, bars, activities, anything. Add custom choices or pull live",
+      "url": "https://reddit.com/r/SaaS/comments/1tho53y/selectr/",
+      "source_url": "https://reddit.com/r/SaaS/comments/1tho53y/selectr/",
+      "score": 1,
+      "source": "reddit",
+      "subreddit": "SaaS",
+      "timestamp": "2026-05-19T22:09:48"
+    },
+    {
+      "id": "reddit_1tho058",
+      "name": "How do you actually validate a SaaS idea?",
+      "description": "I keep seeing advice like:\n\n\\- talk to people first\n\n\\- build a waitlist\n\n\\- launch an MVP fast\n\n\\- pre-sell before building\n\nBut what do people here do in practice?\n\nFor your last project, how did you decide whether the idea was worth building or not?\n\nWhat signals made you continue or quit?",
+      "url": "https://reddit.com/r/SaaS/comments/1tho058/how_do_you_actually_validate_a_saas_idea/",
+      "source_url": "https://reddit.com/r/SaaS/comments/1tho058/how_do_you_actually_validate_a_saas_idea/",
+      "score": 1,
+      "source": "reddit",
+      "subreddit": "SaaS",
+      "timestamp": "2026-05-19T22:04:44"
+    },
+    {
+      "id": "reddit_1tho01m",
+      "name": "Starting my Saas journey",
+      "description": "Hi Peeps, hope you are having a great day!\n\nSo I am a junior developer and I really need to try make some extra income along with doing what I love. I know that there are tons of these kind of tools out there when it comes to quotes and invoicing, but what I realized is most of them are very complex. When I say complex - my father has a very small building company and still to this day uses excel and word to build these docs and it really takes him long as he is a pensioner and has zero clue whe",
+      "url": "https://reddit.com/r/SaaS/comments/1tho01m/starting_my_saas_journey/",
+      "source_url": "https://reddit.com/r/SaaS/comments/1tho01m/starting_my_saas_journey/",
+      "score": 1,
+      "source": "reddit",
+      "subreddit": "SaaS",
+      "timestamp": "2026-05-19T22:04:38"
+    },
+    {
+      "id": "reddit_1thnv4t",
+      "name": "Pain is real. People agree. Nobody converts. What am I missing?",
+      "description": "I've been building DooCloud, a tool that takes you from schema → API → deployed in under 5 minutes. No DevOps. No infra headaches. For solo founders and early startups.\n\nI've posted in a few communities about it. The responses are encouraging: \"yes, this is a real pain,\" \"I hate DevOps,\" \"this would've saved me weeks.\" Upvotes. Kind replies.\n\nZero signups.\n\nI know the standard advice: find 10 people who have this exact pain, reach out directly, have a real conversation. I've tried:\n\n* Commenting",
+      "url": "https://reddit.com/r/SaaS/comments/1thnv4t/pain_is_real_people_agree_nobody_converts_what_am/",
+      "source_url": "https://reddit.com/r/SaaS/comments/1thnv4t/pain_is_real_people_agree_nobody_converts_what_am/",
+      "score": 1,
+      "source": "reddit",
+      "subreddit": "SaaS",
+      "timestamp": "2026-05-19T22:00:00"
+    },
+    {
+      "id": "reddit_1thnsof",
+      "name": "Would small businesses be okay with AI calling them for customers?",
+      "description": "I’m building an early app that helps people book simple appointments without calling, waiting, or DMing back and forth.\n\nA lot of users seem to like the idea because they hate phone calls, especially for things like haircuts, salons, car service, and local services.\n\nBut now I want to understand the business side.  \nIf you own or work at a small business, would you be okay with an AI assistant calling on behalf of a customer to ask about availability or book an appointment?\n\nThe assistant would ",
+      "url": "https://reddit.com/r/SaaS/comments/1thnsof/would_small_businesses_be_okay_with_ai_calling/",
+      "source_url": "https://reddit.com/r/SaaS/comments/1thnsof/would_small_businesses_be_okay_with_ai_calling/",
+      "score": 1,
+      "source": "reddit",
+      "subreddit": "SaaS",
+      "timestamp": "2026-05-19T21:57:26"
+    },
+    {
+      "id": "reddit_1thnlxi",
+      "name": "This SaaS sold for $825K. The owner worked 20 hours a week. Here's the structure that made it happen.",
+      "description": "Had a founder ask me recently what buyers are paying for when they acquire a SaaS or subscription business. Told him about a marketplace I ran a few years back. Online voiceover platform. Connects voice actors with ad agencies, e-learning producers, audiobook publishers. Not a household name. Not a rocket ship. \n\n4,300 voice actors on a waitlist. Two full-time employees. The owner worked 20 hours a week. Zero marketing spend, zero physical inventory. 85% of revenue came from rolling annual membe",
+      "url": "https://reddit.com/r/SaaS/comments/1thnlxi/this_saas_sold_for_825k_the_owner_worked_20_hours/",
+      "source_url": "https://reddit.com/r/SaaS/comments/1thnlxi/this_saas_sold_for_825k_the_owner_worked_20_hours/",
+      "score": 1,
+      "source": "reddit",
+      "subreddit": "SaaS",
+      "timestamp": "2026-05-19T21:50:29"
     },
     {
       "id": "reddit_1thngw0",
@@ -1100,61 +1167,6 @@
       "timestamp": "2026-05-19T21:19:18"
     },
     {
-      "id": "reddit_1thmjlp",
-      "name": "ZentraLink sucht euer Feedback!",
-      "description": "**ZentraLink** ist eine moderne SaaS-Plattform für zentrale Domain-, DNS-, SSL- und Provider-Verwaltung. Unser Ziel ist es, Agenturen, IT-Dienstleistern, MSPs, Hostern und Unternehmen eine klare Oberfläche zu geben, um ihre Domain-Infrastruktur sicher, übersichtlich und dauerhaft zu überwachen.\n\nMit ZentraLink können Domains geprüft, DNS-Einträge überwacht, SSL-Zertifikate kontrolliert, Mail-Security-Einträge wie SPF, DKIM und DMARC analysiert und Provider-Verbindungen zentral verwaltet werden. ",
-      "url": "https://reddit.com/r/SaaS/comments/1thmjlp/zentralink_sucht_euer_feedback/",
-      "source_url": "https://reddit.com/r/SaaS/comments/1thmjlp/zentralink_sucht_euer_feedback/",
-      "score": 1,
-      "source": "reddit",
-      "subreddit": "SaaS",
-      "timestamp": "2026-05-19T21:11:01"
-    },
-    {
-      "id": "reddit_1thm857",
-      "name": "Stripe has Smart Retries - what are Mollie users doing?",
-      "description": "Is there any platform focused specifically on recovering failed recurring payments and repairing mandates for Mollie subscriptions?\n\nStripe at least has some built-in tooling like Smart Retries and parts of the recovery flow already handled. But what I’ve realised is that a lot of the real pain is felt by companies using Mollie for recurring payments.\n\nAnd the thing is, Mollie is actually a really good provider for EU businesses, especially for SEPA, local payment methods, and overall EU coverag",
-      "url": "https://reddit.com/r/SaaS/comments/1thm857/stripe_has_smart_retries_what_are_mollie_users/",
-      "source_url": "https://reddit.com/r/SaaS/comments/1thm857/stripe_has_smart_retries_what_are_mollie_users/",
-      "score": 1,
-      "source": "reddit",
-      "subreddit": "SaaS",
-      "timestamp": "2026-05-19T20:58:53"
-    },
-    {
-      "id": "reddit_1thm558",
-      "name": "I built a tool that drops any Amazon product into a photo of your room before you buy it.",
-      "description": "Video shows it across 5 different categories. Keyboard, curtains, dog collar, phone case, sofa. Drag the slider, see the product in your actual space.\n\n[https://plopit.app](https://plopit.app)\n\nAmazon product photos are basically lies. White background, perfect lighting, angles that hide everything. You can't tell if the color will clash with your wall, if the wood tone will fight your floor, if the thing will just look weirdly off against everything else you own. Then you wait a week, it arrive",
-      "url": "https://v.redd.it/3e49s0f1d32h1",
-      "source_url": "https://reddit.com/r/SaaS/comments/1thm558/i_built_a_tool_that_drops_any_amazon_product_into/",
-      "score": 1,
-      "source": "reddit",
-      "subreddit": "SaaS",
-      "timestamp": "2026-05-19T20:55:40"
-    },
-    {
-      "id": "reddit_1thlyju",
-      "name": "Early SaaS breaks more from premature scale than lack of automation",
-      "description": "One underrated SaaS mistake:\n\nfounders optimize for “looks scalable” too early.\n\nComplex onboarding.  \nAutomated sequences.  \nCRM workflows.  \nAI support.  \nFancy dashboards.  \nUsage analytics everywhere.\n\n**But the company still hasn’t learned:**\n\nwhy users actually buy\n\nwhat makes them stay\n\nwhich customer type gets value fastest\n\n**I’ve seen tiny SaaS products grow faster with:**\n\nmanual onboarding\n\nmessy support\n\nfounder-led demos\n\ndirect customer conversations\n\nbecause they learned the mark",
-      "url": "https://reddit.com/r/SaaS/comments/1thlyju/early_saas_breaks_more_from_premature_scale_than/",
-      "source_url": "https://reddit.com/r/SaaS/comments/1thlyju/early_saas_breaks_more_from_premature_scale_than/",
-      "score": 1,
-      "source": "reddit",
-      "subreddit": "SaaS",
-      "timestamp": "2026-05-19T20:48:33"
-    },
-    {
-      "id": "reddit_1thneew",
-      "name": "I’m so stoked, things are finally going well for me (I will not promote)",
-      "description": "I’m doing a spin-out from a larger company and I’m so excited that things are finally going well for me after two and a half years.\n\nThe vast majority of that time, I was trying to spin-out something different with a co-founder. It was awful. I was doing all of the work while he quiet quit but declared himself CEO, and was undermining me at every step. I couldn’t understand why my life was becoming unfathomably harder and harder, but once I found out what he was doing (and not doing), I dropped ",
-      "url": "https://reddit.com/r/startups/comments/1thneew/im_so_stoked_things_are_finally_going_well_for_me/",
-      "source_url": "https://reddit.com/r/startups/comments/1thneew/im_so_stoked_things_are_finally_going_well_for_me/",
-      "score": 1,
-      "source": "reddit",
-      "subreddit": "startups",
-      "timestamp": "2026-05-19T21:42:49"
-    },
-    {
       "id": "reddit_1thmxlh",
       "name": "Marketing Startup Question (I will not promote)",
       "description": "Hello all, I’m building a small niche consulting service focused on law enforcement applicants navigating background investigations (helping people understand disclosure consistency, common pitfalls, and how to avoid preventable mistakes during the hiring process).\n\nI’m still early and trying to figure out the best way to validate and reach potential clients without spending months building a content audience first.\n\nFor founders here who started service-based businesses, what were the fastest l",
@@ -1166,15 +1178,15 @@
       "timestamp": "2026-05-19T21:25:31"
     },
     {
-      "id": "reddit_1thjp4o",
-      "name": "Spent $8,000 on a market research report and honestly regret it (I will not promote)",
-      "description": "Last quarter we paid a consulting firm around $8,000 for a competitor and market landscape report. Looked polished, 60+ slides, nice charts. The kind of thing that looks great in a board meeting.\n\nBut once I actually read through it, most of it was public info pulled from websites, LinkedIn, press mentions, pricing pages and reviews. Stuff I probably could've pieced together myself with enough time.\n\nThe bigger issue was that it was outdated the moment they sent it. Markets move fast and a stati",
-      "url": "https://reddit.com/r/startups/comments/1thjp4o/spent_8000_on_a_market_research_report_and/",
-      "source_url": "https://reddit.com/r/startups/comments/1thjp4o/spent_8000_on_a_market_research_report_and/",
+      "id": "reddit_1thms3f",
+      "name": "Marketing Startup Question (I will not promote)",
+      "description": "Hello all, I’m building a small niche consulting service focused on law enforcement applicants navigating background investigations (helping people understand disclosure consistency, common pitfalls, and how to avoid preventable mistakes during the hiring process).\n\nI’m still early and trying to figure out the best way to validate and reach potential clients without spending months building a content audience first.\n\nFor founders here who started service-based businesses, what were the fastest l",
+      "url": "https://reddit.com/r/startups/comments/1thms3f/marketing_startup_question_i_will_not_promote/",
+      "source_url": "https://reddit.com/r/startups/comments/1thms3f/marketing_startup_question_i_will_not_promote/",
       "score": 1,
       "source": "reddit",
       "subreddit": "startups",
-      "timestamp": "2026-05-19T19:12:34"
+      "timestamp": "2026-05-19T21:19:50"
     },
     {
       "id": "reddit_1thgzy7",
@@ -1232,6 +1244,17 @@
       "timestamp": "2026-04-15T23:27:17"
     },
     {
+      "id": "v2ex_1213924",
+      "name": "[送码] 作为一名容易焦虑的奶爸，我 vibe 了一款 App",
+      "description": "看着女儿越来越大，带她出去玩的时候，她的好奇心会想尝试各种东西，特别对吃的特别上心。\r\n\r\n有一次，我买了包薯片，她吃一口就上瘾了，我反复查了查才发现不太适合小朋友吃，一下就开始焦虑了。\r\n\r\n特别是有一次在甜点店吃了个布丁，回家就起疹子过敏了，每次给她买外面的东西都不知道哪个合适，也吃了不少小红书推荐。\r\n\r\n每次带她出去玩的时候，只要吃东西我都会反复查。\r\n\r\n就是因为查起来太费劲了，ChatGPT 指导着我 vibe 了一款 App ，用各种营养学材料生成知识库，对接了大模型，拍照直接输出食用建议，省了不少事。\r\n\r\n不知道大家有没有类似的需求，我准备了一些高级账户兑换码，可以直接去 Apps Store 兑换使用，有什么想法或者需要兑换码可以 mail 我：aXZvbmUubGF1QGljbG91ZC5jb20=\r\n\r\n[![pezusVe.png]( https://s41.ax1x.com/2026/05/19/pezusVe.png)]( https://imgchr.com/i/pezusVe)\r\n\r\n下面评论区会发 60 个兑换码，用完了继续发。",
+      "url": "https://www.v2ex.com/t/1213924",
+      "source_url": "https://www.v2ex.com/t/1213924",
+      "score": 1,
+      "source": "v2ex",
+      "node": "create",
+      "timestamp": 1779199004
+    },
+    {
       "id": "v2ex_1213871",
       "name": "有没有发现 iOS 上的照片随机显示（Photo Shuffle）壁纸不太随机？我做了个每天自动更换相册内容的 App",
       "description": "目前还没上架，先放一个 tf 链接： https://testflight.apple.com/join/t2Vq57n5\r\n\r\n起因是我一直在用 iOS 的 Photo Shuffle 做锁屏壁纸，但最近发现它从相册里随机照片时经常会重复那几十张。相册里明明有拍了不少新照片，但是体感上还是老是在一个很小的范围内随机，体感上就是大概 20 多张\r\n\r\n重新添加一次貌似会重建一次索引，可能会有一些新照片，但维护起来太麻烦\r\n\r\n所以我做了 Veil ，因为没法修 Apple 的 Photo Shuffle 逻辑，所以尝试换了一个角度绕开这个问题：\r\n\r\n- 在本机分析照片，不上传图库\r\n- 从照片里挑出更适合做锁屏壁纸的图\r\n- 自动维护一个「 Veil Daily 」相册\r\n- 可以每天自动刷新相册内容，轮换一批新的候选图\r\n- 然后把 iOS Photo Shuffle 的来源设置成这个相册\r\n\r\n这样即使 Photo Shuffle 本身随机性一般，至少它面对的相册内容每天会变，不至于长期卡在同一批照片里。\r\n\r\n主要适合这类用户：\r\n\r\n- 喜欢用 iOS 锁屏 Photo Sh",
@@ -1254,28 +1277,6 @@
       "timestamp": 1779182007
     },
     {
-      "id": "reddit_1thmwcj",
-      "name": "I did it with Vibe coding!",
-      "description": "Is it scalable ? I did it with vibe coding for fun!\n\nGive me feedback and i did not even add api and backend stuff. ",
-      "url": "https://v.redd.it/x8q1a9gai32h1",
-      "source_url": "https://reddit.com/r/SideProject/comments/1thmwcj/i_did_it_with_vibe_coding/",
-      "score": 0,
-      "source": "reddit",
-      "subreddit": "SideProject",
-      "timestamp": "2026-05-19T21:24:12"
-    },
-    {
-      "id": "reddit_1thms3f",
-      "name": "Marketing Startup Question (I will not promote)",
-      "description": "Hello all, I’m building a small niche consulting service focused on law enforcement applicants navigating background investigations (helping people understand disclosure consistency, common pitfalls, and how to avoid preventable mistakes during the hiring process).\n\nI’m still early and trying to figure out the best way to validate and reach potential clients without spending months building a content audience first.\n\nFor founders here who started service-based businesses, what were the fastest l",
-      "url": "https://reddit.com/r/startups/comments/1thms3f/marketing_startup_question_i_will_not_promote/",
-      "source_url": "https://reddit.com/r/startups/comments/1thms3f/marketing_startup_question_i_will_not_promote/",
-      "score": 0,
-      "source": "reddit",
-      "subreddit": "startups",
-      "timestamp": "2026-05-19T21:19:50"
-    },
-    {
       "id": "reddit_1thlcz5",
       "name": "The real reason AI breaks inside small businesses: no one owns the workflow (I will not promote)",
       "description": "I keep seeing the same pattern across small teams adopting AI. The first few use cases work great, then everything falls apart as soon as the workflow gets beyond a simple request.\n\nThe model and prompts are fine.\n\nThe real issue is the workflow, and the deeper problem is that no one actually owns the workflow the AI is operating inside.\n\nAnd by “owner,” I don’t mean the backend or the AI. I mean a human who is responsible for defining the steps, boundaries, and escalation rules of the workflow.",
@@ -1296,6 +1297,167 @@
       "source": "reddit",
       "subreddit": "startups",
       "timestamp": "2026-05-19T19:27:46"
+    },
+    {
+      "id": "reddit_1thjp4o",
+      "name": "Spent $8,000 on a market research report and honestly regret it (I will not promote)",
+      "description": "Last quarter we paid a consulting firm around $8,000 for a competitor and market landscape report. Looked polished, 60+ slides, nice charts. The kind of thing that looks great in a board meeting.\n\nBut once I actually read through it, most of it was public info pulled from websites, LinkedIn, press mentions, pricing pages and reviews. Stuff I probably could've pieced together myself with enough time.\n\nThe bigger issue was that it was outdated the moment they sent it. Markets move fast and a stati",
+      "url": "https://reddit.com/r/startups/comments/1thjp4o/spent_8000_on_a_market_research_report_and/",
+      "source_url": "https://reddit.com/r/startups/comments/1thjp4o/spent_8000_on_a_market_research_report_and/",
+      "score": 0,
+      "source": "reddit",
+      "subreddit": "startups",
+      "timestamp": "2026-05-19T19:12:34"
+    },
+    {
+      "id": "ph_saner-ai-4",
+      "name": "Saner.AI 1.0 - First ADHD-friendly AI assistant for notes, email, calendar | Product Hunt",
+      "description": "Saner.AI 1.0 - First ADHD-friendly AI assistant for notes, email, calendar | Product Hunt\n[![Product Hunt logo dark](https://ph-static.imgix.net/golden-kitty/2024/PHLogoDark.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=40&h=40&fit=max&frame=1)](https://www.producthunt.com/)\n[Subscribe](https://www.producthunt.com/newsletters?ref=header_nav&campaign=weekly_newsletter&source=header_nav)\nSign in\n![Saner.AI](https://ph-files.imgix.net/196a09a4-7129-41aa-9c2b-7e7292e1630d.png?auto=compress&",
+      "url": "https://www.producthunt.com/products/saner-ai/launches/saner-ai-4",
+      "source_url": "https://www.producthunt.com/products/saner-ai/launches/saner-ai-4",
+      "score": 0,
+      "source": "producthunt",
+      "timestamp": "2025-05-31T07:42:38.000Z"
+    },
+    {
+      "id": "ph_inkeep?launch=inkeep",
+      "name": "Inkeep: AI Search &amp; Support by your content | Product Hunt",
+      "description": "Inkeep: AI Search & Support by your content | Product Hunt\n[![Product Hunt logo dark](https://ph-static.imgix.net/golden-kitty/2024/PHLogoDark.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=40&h=40&fit=max&frame=1)](https://www.producthunt.com/)\n[Subscribe](https://www.producthunt.com/newsletters?ref=header_nav&campaign=weekly_newsletter&source=header_nav)\nSign in\n![Inkeep](https://ph-files.imgix.net/d4e21317-2d8d-4c2d-beb5-2ce7f556e9a4.png?auto=compress&codec=mozjpeg&cs=strip&auto=forma",
+      "url": "https://www.producthunt.com/products/inkeep?launch=inkeep",
+      "source_url": "https://www.producthunt.com/products/inkeep?launch=inkeep",
+      "score": 0,
+      "source": "producthunt",
+      "timestamp": "2024-08-07T15:35:14.000Z"
+    },
+    {
+      "id": "ph_inbox-ai?launch=inbox-ai",
+      "name": "Inbox AI: AI-Powered Personal Productivity | Product Hunt",
+      "description": "Inbox AI: AI-Powered Personal Productivity | Product Hunt\n[![Product Hunt logo dark](https://ph-static.imgix.net/golden-kitty/2024/PHLogoDark.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=40&h=40&fit=max&frame=1)](https://www.producthunt.com/)\n[Subscribe](https://www.producthunt.com/newsletters?ref=header_nav&campaign=weekly_newsletter&source=header_nav)\nSign in\n![Inbox AI](https://ph-files.imgix.net/edf379df-5327-438f-ac6a-8228be15c542.png?auto=compress&codec=mozjpeg&cs=strip&auto=form",
+      "url": "https://www.producthunt.com/products/inbox-ai?launch=inbox-ai",
+      "source_url": "https://www.producthunt.com/products/inbox-ai?launch=inbox-ai",
+      "score": 0,
+      "source": "producthunt",
+      "timestamp": "2024-09-30T06:26:16.000Z"
+    },
+    {
+      "id": "ph_ithy-ai",
+      "name": "Ithy AI - What happens when you combine every AI? — Introducing Ithy | Product Hunt",
+      "description": "Ithy AI - What happens when you combine every AI? —Introducing Ithy | Product Hunt\n[![Product Hunt logo dark](https://ph-static.imgix.net/golden-kitty/2024/PHLogoDark.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=40&h=40&fit=max&frame=1)](https://www.producthunt.com/)\n[Subscribe](https://www.producthunt.com/newsletters?ref=header_nav&campaign=weekly_newsletter&source=header_nav)\nSign in\n1. [Home](https://www.producthunt.com/)\n2. [Product](https://www.producthunt.com/products/ithy)\n3. [I",
+      "url": "https://www.producthunt.com/posts/ithy-ai",
+      "source_url": "https://www.producthunt.com/posts/ithy-ai",
+      "score": 0,
+      "source": "producthunt",
+      "timestamp": "2025-05-03T00:49:16.000Z"
+    },
+    {
+      "id": "ph_launches",
+      "name": "Focal AI launches",
+      "description": "Focal AI Latest Launches (2025) | Product Hunt\n[![Product Hunt logo dark](https://ph-static.imgix.net/golden-kitty/2024/PHLogoDark.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=40&h=40&fit=max&frame=1)](https://www.producthunt.com/)\n[Subscribe](https://www.producthunt.com/newsletters?ref=header_nav&campaign=weekly_newsletter&source=header_nav)\nSign in\n![Focal AI](https://ph-files.imgix.net/99268d01-ea27-4280-b419-49f323d27217.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=64&h=6",
+      "url": "https://www.producthunt.com/products/focal-ai/launches",
+      "source_url": "https://www.producthunt.com/products/focal-ai/launches",
+      "score": 0,
+      "source": "producthunt",
+      "timestamp": "2025-04-07T11:11:26.000Z"
+    },
+    {
+      "id": "ph_invisibility?launch=invisibility",
+      "name": "Invisibility",
+      "description": "Invisibility: One copilot for all AI models on Mac | Product Hunt\n[![Product Hunt logo dark](https://ph-static.imgix.net/golden-kitty/2024/PHLogoDark.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=40&h=40&fit=max&frame=1)](https://www.producthunt.com/)\n[Subscribe](https://www.producthunt.com/newsletters?ref=header_nav&campaign=weekly_newsletter&source=header_nav)\nSign in\n![Invisibility](https://ph-files.imgix.net/8562450a-6b71-426e-b0c8-fc2e30b0ab8f.png?auto=compress&codec=mozjpeg&cs=str",
+      "url": "https://www.producthunt.com/products/invisibility?launch=invisibility",
+      "source_url": "https://www.producthunt.com/products/invisibility?launch=invisibility",
+      "score": 0,
+      "source": "producthunt",
+      "timestamp": "2024-06-09T12:12:44.000Z"
+    },
+    {
+      "id": "ph_launches",
+      "name": "Imagen 4 launches",
+      "description": "Imagen 4 Latest Launches (2025) | Product Hunt\n[![Product Hunt logo dark](https://ph-static.imgix.net/golden-kitty/2024/PHLogoDark.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=40&h=40&fit=max&frame=1)](https://www.producthunt.com/)\n[Subscribe](https://www.producthunt.com/newsletters?ref=header_nav&campaign=weekly_newsletter&source=header_nav)\nSign in\n![Imagen 4](https://ph-files.imgix.net/5bd4b7f8-485e-414d-a928-ce4d320b2633.svg?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=64&h=6",
+      "url": "https://www.producthunt.com/products/imagen-4/launches",
+      "source_url": "https://www.producthunt.com/products/imagen-4/launches",
+      "score": 0,
+      "source": "producthunt",
+      "timestamp": "2025-05-21T03:47:55.000Z"
+    },
+    {
+      "id": "ph_gemini-diffusion",
+      "name": "Gemini Diffusion",
+      "description": "Gemini Diffusion: Exploring faster, more thoughtful AI | Product Hunt\n[![Product Hunt logo dark](https://ph-static.imgix.net/golden-kitty/2024/PHLogoDark.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=40&h=40&fit=max&frame=1)](https://www.producthunt.com/)\n[Subscribe](https://www.producthunt.com/newsletters?ref=header_nav&campaign=weekly_newsletter&source=header_nav)\nSign in\n![Gemini Diffusion](https://ph-files.imgix.net/7fe8c086-d9e2-4ce0-b7fd-28f35c76032d.png?auto=compress&codec=mozjpe",
+      "url": "https://www.producthunt.com/products/gemini-diffusion",
+      "source_url": "https://www.producthunt.com/products/gemini-diffusion",
+      "score": 0,
+      "source": "producthunt",
+      "timestamp": "2025-05-21T05:05:19.000Z"
+    },
+    {
+      "id": "ph_launches",
+      "name": "Gemini Diffusion launches",
+      "description": "Gemini Diffusion Latest Launches (2025) | Product Hunt\n[![Product Hunt logo dark](https://ph-static.imgix.net/golden-kitty/2024/PHLogoDark.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=40&h=40&fit=max&frame=1)](https://www.producthunt.com/)\n[Subscribe](https://www.producthunt.com/newsletters?ref=header_nav&campaign=weekly_newsletter&source=header_nav)\nSign in\n![Gemini Diffusion](https://ph-files.imgix.net/7fe8c086-d9e2-4ce0-b7fd-28f35c76032d.png?auto=compress&codec=mozjpeg&cs=strip&auto",
+      "url": "https://www.producthunt.com/products/gemini-diffusion/launches",
+      "source_url": "https://www.producthunt.com/products/gemini-diffusion/launches",
+      "score": 0,
+      "source": "producthunt",
+      "timestamp": "2025-05-21T05:05:19.000Z"
+    },
+    {
+      "id": "ph_fiverr-go",
+      "name": "Fiverr Go - Where human talent & AI unite to spark limitless creativity",
+      "description": "Fiverr Go : Fiverr Forums | Product Hunt\n[![Product Hunt logo dark](https://ph-static.imgix.net/golden-kitty/2024/PHLogoDark.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=40&h=40&fit=max&frame=1)](https://www.producthunt.com/)\n[Subscribe](https://www.producthunt.com/newsletters?ref=header_nav&campaign=weekly_newsletter&source=header_nav)\nSign in\n[Home](https://www.producthunt.com/forums)[Recent comments](https://www.producthunt.com/p/latest)[Search all threads](https://www.producthunt.c",
+      "url": "https://www.producthunt.com/p/fiverr/fiverr-go",
+      "source_url": "https://www.producthunt.com/p/fiverr/fiverr-go",
+      "score": 0,
+      "source": "producthunt",
+      "timestamp": "2025-02-18T14:22:14.000Z"
+    },
+    {
+      "id": "ph_claude-for-education",
+      "name": "Claude for Education - AI for higher ed, with a new learning mode for students",
+      "description": "Claude for Education : Claude by Anthropic Forums | Product Hunt\n[![Product Hunt logo dark](https://ph-static.imgix.net/golden-kitty/2024/PHLogoDark.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=40&h=40&fit=max&frame=1)](https://www.producthunt.com/)\n[Subscribe](https://www.producthunt.com/newsletters?ref=header_nav&campaign=weekly_newsletter&source=header_nav)\nSign in\n[Home](https://www.producthunt.com/forums)[Recent comments](https://www.producthunt.com/p/latest)[Search all threads](h",
+      "url": "https://www.producthunt.com/p/claude/claude-for-education",
+      "source_url": "https://www.producthunt.com/p/claude/claude-for-education",
+      "score": 0,
+      "source": "producthunt",
+      "timestamp": "2025-04-02T17:56:32.000Z"
+    },
+    {
+      "id": "ph_blackbox-5?launch=ai-operator-by-blackbox-ai",
+      "name": "BLACKBOX AI",
+      "description": "BLACKBOX AI: The #1 AI Agent for Builders | Product Hunt\n[![Product Hunt logo dark](https://ph-static.imgix.net/golden-kitty/2024/PHLogoDark.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=40&h=40&fit=max&frame=1)](https://www.producthunt.com/)\n[Subscribe](https://www.producthunt.com/newsletters?ref=header_nav&campaign=weekly_newsletter&source=header_nav)\nSign in\n# BLACKBOX AI\n## The #1 AI Agent for Builders\n[\n4.7](https://www.producthunt.com/products/blackbox-5/reviews)•[169 reviews](htt",
+      "url": "https://www.producthunt.com/products/blackbox-5?launch=ai-operator-by-blackbox-ai",
+      "source_url": "https://www.producthunt.com/products/blackbox-5?launch=ai-operator-by-blackbox-ai",
+      "score": 0,
+      "source": "producthunt",
+      "timestamp": "2022-04-14T16:38:58.000Z"
+    },
+    {
+      "id": "ph_chatwithdata-ai",
+      "name": "ChatwithData.ai",
+      "description": "ChatwithData.ai: Chat with any Documents (PDF, Word, Excel, CSV & SQL Db ) | Product Hunt\n[![Product Hunt logo dark](https://ph-static.imgix.net/golden-kitty/2024/PHLogoDark.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=40&h=40&fit=max&frame=1)](https://www.producthunt.com/)\n[Subscribe](https://www.producthunt.com/newsletters?ref=header_nav&campaign=weekly_newsletter&source=header_nav)\nSign in\n![ChatwithData.ai](https://ph-files.imgix.net/53a16da6-8db2-40d4-8b2f-72f6fea5b4fa.png?auto=co",
+      "url": "https://www.producthunt.com/products/chatwithdata-ai",
+      "source_url": "https://www.producthunt.com/products/chatwithdata-ai",
+      "score": 0,
+      "source": "producthunt",
+      "timestamp": "2023-04-30T03:03:23.000Z"
+    },
+    {
+      "id": "ph_gemini-2-5",
+      "name": "Gemini 2.5 - Google's most intelligent AI model",
+      "description": "Gemini 2.5 : Gemini 2.5 Forums | Product Hunt\n[![Product Hunt logo dark](https://ph-static.imgix.net/golden-kitty/2024/PHLogoDark.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=40&h=40&fit=max&frame=1)](https://www.producthunt.com/)\n[Subscribe](https://www.producthunt.com/newsletters?ref=header_nav&campaign=weekly_newsletter&source=header_nav)\nSign in\n[Home](https://www.producthunt.com/forums)[Recent comments](https://www.producthunt.com/p/latest)[Search all threads](https://www.producth",
+      "url": "https://www.producthunt.com/p/gemini-2-5/gemini-2-5",
+      "source_url": "https://www.producthunt.com/p/gemini-2-5/gemini-2-5",
+      "score": 0,
+      "source": "producthunt",
+      "timestamp": "2025-03-25T20:31:26.000Z"
+    },
+    {
+      "id": "ph_minutes-ai-meeting-notes-transcripts",
+      "name": "Minutes: AI Meeting Notes & Transcripts - Simple, hassle-free AI note taking app for meeting minutes",
+      "description": "Minutes: AI Meeting Notes & Transcripts : Minutes: AI Meeting Notes & Transcripts Forums | Product Hunt\n[![Product Hunt logo dark](https://ph-static.imgix.net/golden-kitty/2024/PHLogoDark.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=40&h=40&fit=max&frame=1)](https://www.producthunt.com/)\n[Subscribe](https://www.producthunt.com/newsletters?ref=header_nav&campaign=weekly_newsletter&source=header_nav)\nSign in\n[Home](https://www.producthunt.com/forums)[Recent comments](https://www.producth",
+      "url": "https://www.producthunt.com/p/minutes-ai-meeting-notes-transcripts/minutes-ai-meeting-notes-transcripts",
+      "source_url": "https://www.producthunt.com/p/minutes-ai-meeting-notes-transcripts/minutes-ai-meeting-notes-transcripts",
+      "score": 0,
+      "source": "producthunt",
+      "timestamp": "2024-08-30T23:27:01.000Z"
     },
     {
       "id": "v2ex_1213915",
@@ -1351,17 +1513,6 @@
       "source": "v2ex",
       "node": "create",
       "timestamp": 1779187689
-    },
-    {
-      "id": "v2ex_1213860",
-      "name": "vibe 了一个通过浏览器(webrtc)连接 Android 手机屏幕的工具",
-      "description": "需要在手机端运行个代理程序，就可以通过 pc/ios/手机浏览器连接。通过 webrtc 直连，类似于 scrcpy 的网页版。\r\n还需要部署个信令服务器，信令服务器可以部署在 window/mac/linux/android 本机上，或者在云服务上，相当于云手机。\r\n主要特性：\r\n1 ，局域网延时 100ms 以内，支持带宽估算和动态码流。\r\n2 ，webrtc udp p2p 直连，家里有 ipv6 可以在外面连。\r\n3 ，有简单的按键映射功能，在 pc 玩手机游戏\r\n4 ，可以脱离有线/无线 adb 运行\r\n\r\n一开始的目的是用旧手机当监控，用模拟器玩小游戏。\r\nhttps://github.com/hqw700/ScrcpyOverWebRTC",
-      "url": "https://www.v2ex.com/t/1213860",
-      "source_url": "https://www.v2ex.com/t/1213860",
-      "score": 0,
-      "source": "v2ex",
-      "node": "create",
-      "timestamp": 1779181769
     },
     {
       "id": "v2ex_1213897",

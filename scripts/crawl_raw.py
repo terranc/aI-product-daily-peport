@@ -6,6 +6,7 @@
 """
 
 import json
+import os
 import subprocess
 import sys
 import requests
@@ -93,79 +94,68 @@ def fetch_reddit():
 
 
 def fetch_producthunt():
-    """Product Hunt - 通过 Exa 搜索今日热门产品"""
+    """Product Hunt - 通过 Exa 搜索最新产品"""
     print("  🚀 Product Hunt...")
     products = []
-    try:
-        # 使用 Exa 搜索 Product Hunt 上的最新产品
-        result = subprocess.run(
-            ["mcporter", "call", 'exa.web_search_exa(query: "site:producthunt.com launched today AI app", numResults: 15)'],
-            capture_output=True, text=True, timeout=30,
-        )
-        if result.returncode == 0:
-            # 解析 Exa 返回的结果（可能是 JSON 或文本）
-            try:
-                data = json.loads(result.stdout)
-                for item in data if isinstance(data, list) else data.get("results", []):
-                    title = item.get("title", "")
-                    url = item.get("url", "")
-                    snippet = item.get("text", "") or item.get("snippet", "")
-                    products.append({
-                        "id": f"ph_{url.split('/')[-1] if '/' in url else title[:20]}",
-                        "name": title,
-                        "description": snippet[:500],
-                        "url": url,
-                        "source_url": url,
-                        "score": 0,
-                        "source": "producthunt",
-                        "timestamp": item.get("publishedDate", ""),
-                    })
-            except json.JSONDecodeError:
-                # 非 JSON 结果，逐行解析
-                for line in result.stdout.strip().split("\n"):
-                    if "|" in line:
-                        parts = line.split("|", 1)
-                        products.append({
-                            "id": f"ph_{len(products)}",
-                            "name": parts[0].strip(),
-                            "description": parts[1].strip()[:500] if len(parts) > 1 else "",
-                            "url": "",
-                            "source_url": "",
-                            "score": 0,
-                            "source": "producthunt",
-                            "timestamp": "",
-                        })
 
-        # 备用：直接抓取 Product Hunt 首页
-        if not products:
-            print("     Exa 无结果，尝试直接抓取...")
-            try:
-                resp = requests.get(
-                    "https://www.producthunt.com",
-                    headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"},
-                    timeout=15,
-                )
-                if resp.status_code == 200:
-                    import re
-                    # 匹配 /posts/xxx 格式的链接
-                    links = list(set(re.findall(r'/posts/([a-z0-9-]+)', resp.text)))
-                    for slug in links[:15]:
-                        products.append({
-                            "id": f"ph_{slug}",
-                            "name": slug.replace("-", " ").title(),
-                            "description": "",
-                            "url": f"https://www.producthunt.com/posts/{slug}",
-                            "source_url": f"https://www.producthunt.com/posts/{slug}",
-                            "score": 0,
-                            "source": "producthunt",
-                            "timestamp": "",
-                        })
-            except Exception as e:
-                print(f"     直接抓取失败: {e}")
+    # 读取 API key
+    exa_key = os.environ.get("EXA_API_KEY", "")
+    if not exa_key:
+        # 尝试从 secrets 文件读取
+        secrets_file = Path.home() / ".config" / "shell" / "env.secrets.sh"
+        if secrets_file.exists():
+            for line in secrets_file.read_text().splitlines():
+                if line.startswith("export EXA_API_KEY="):
+                    exa_key = line.split("=", 1)[1].strip().strip("'\"")
+                elif line.startswith("EXA_API_KEY="):
+                    exa_key = line.split("=", 1)[1].strip().strip("'\"")
+
+    if not exa_key:
+        print("     ⚠️ EXA_API_KEY 未设置，跳过 Product Hunt")
+        return products
+
+    try:
+        # 使用 Exa REST API 搜索 Product Hunt 最新产品
+        resp = requests.post(
+            "https://api.exa.ai/search",
+            headers={
+                "x-api-key": exa_key,
+                "Content-Type": "application/json",
+            },
+            json={
+                "query": "new AI app launched site:producthunt.com",
+                "numResults": 15,
+                "type": "auto",
+                "contents": {
+                    "text": {"maxCharacters": 500},
+                },
+            },
+            timeout=30,
+        )
+        resp.raise_for_status()
+        data = resp.json()
+
+        for item in data.get("results", []):
+            title = item.get("title", "")
+            url = item.get("url", "")
+            snippet = item.get("text", "") or ""
+            products.append({
+                "id": f"ph_{url.split('/')[-1] if '/' in url else str(len(products))}",
+                "name": title,
+                "description": snippet[:500],
+                "url": url,
+                "source_url": url,
+                "score": 0,
+                "source": "producthunt",
+                "timestamp": item.get("publishedDate", ""),
+            })
 
         print(f"     {len(products)} 个")
+    except requests.exceptions.HTTPError as e:
+        print(f"     Exa API 错误: {e}")
     except Exception as e:
         print(f"     错误: {e}")
+
     return products
 
 
