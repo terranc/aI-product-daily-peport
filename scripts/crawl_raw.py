@@ -232,7 +232,7 @@ def fetch_v2ex():
 
 
 def fetch_twitter():
-    """Twitter/X - 通过 twitter-cli 搜索 AI 产品相关推文"""
+    """Twitter/X - 通过 twitter-cli 获取 AI 产品相关推文"""
     print("  🐦 Twitter...")
     products = []
 
@@ -240,45 +240,59 @@ def fetch_twitter():
         print(f"     ⚠️ twitter-cli 未安装: {TWITTER_CLI}")
         return products
 
-    queries = [
-        "AI app launched",
-        "AI tool shipped",
-    ]
+    def parse_tweets(data):
+        """解析推文数据"""
+        import re
+        tweets = []
+        for tweet in data.get("data", []):
+            text = tweet.get("text", "")
+            author = tweet.get("author", {})
+            tweet_id = tweet.get("id", "")
+            metrics = tweet.get("metrics", {})
+            tweets.append({
+                "id": f"tw_{tweet_id}",
+                "name": text[:100].replace("\n", " "),
+                "description": text[:500],
+                "url": f"https://x.com/{author.get('screenName', '')}/status/{tweet_id}",
+                "source_url": f"https://x.com/{author.get('screenName', '')}/status/{tweet_id}",
+                "score": metrics.get("likes", 0) + metrics.get("retweets", 0) * 2,
+                "source": "twitter",
+                "author": author.get("screenName", ""),
+                "timestamp": tweet.get("createdAtISO", ""),
+            })
+        return tweets
 
     try:
+        # 1. "为你推荐"推文（算法推荐，质量最高）
+        print("     获取「为你推荐」...")
+        result = subprocess.run(
+            [TWITTER_CLI, "feed", "--type", "for-you", "-n", "20", "--json"],
+            capture_output=True, text=True, timeout=60,
+        )
+        if result.returncode == 0:
+            data = json.loads(result.stdout)
+            fy_tweets = parse_tweets(data)
+            products.extend(fy_tweets)
+            print(f"     为你推荐: {len(fy_tweets)} 条")
+        else:
+            print(f"     为你推荐获取失败")
+
+        # 2. 关键词搜索（补充覆盖）
+        queries = [
+            "AI app launched",
+            "new AI tool",
+        ]
         for q in queries:
             result = subprocess.run(
-                [TWITTER_CLI, "search", q, "-n", "15", "--json"],
+                [TWITTER_CLI, "search", q, "-n", "10", "--json"],
                 capture_output=True, text=True, timeout=60,
             )
-            if result.returncode != 0:
-                print(f"     搜索失败: {q}")
-                continue
+            if result.returncode == 0:
+                data = json.loads(result.stdout)
+                search_tweets = parse_tweets(data)
+                products.extend(search_tweets)
 
-            data = json.loads(result.stdout)
-            for tweet in data.get("data", []):
-                text = tweet.get("text", "")
-                author = tweet.get("author", {})
-                tweet_id = tweet.get("id", "")
-                metrics = tweet.get("metrics", {})
-
-                # 提取推文中的链接
-                import re
-                urls = re.findall(r'https?://t\.co/\w+', text)
-
-                products.append({
-                    "id": f"tw_{tweet_id}",
-                    "name": text[:100].replace("\n", " "),
-                    "description": text[:500],
-                    "url": f"https://x.com/{author.get('screenName', '')}/status/{tweet_id}",
-                    "source_url": f"https://x.com/{author.get('screenName', '')}/status/{tweet_id}",
-                    "score": metrics.get("likes", 0) + metrics.get("retweets", 0) * 2,
-                    "source": "twitter",
-                    "author": author.get("screenName", ""),
-                    "timestamp": tweet.get("createdAtISO", ""),
-                })
-
-        print(f"     {len(products)} 个")
+        print(f"     共 {len(products)} 条")
     except json.JSONDecodeError:
         print("     JSON 解析失败")
     except Exception as e:
