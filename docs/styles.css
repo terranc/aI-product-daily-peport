@@ -341,21 +341,42 @@ img { display:block; max-width:100%; }
 }
 .footer-links a:hover { color:var(--c-accent); }
 
-/* ─── Responsive ─── */
-@media (max-width:900px) {
-  .detail-body { grid-template-columns:1fr; }
-  .detail-aside { border-left:none; border-top:1px solid var(--c-border); }
-}
-@media (max-width:640px) {
-  .hero { padding:32px 0 28px; margin-bottom:28px; }
-  .hero-stats { gap:16px; }
-  .product-entry { gap:12px; padding:12px; }
-  .entry-thumb { width:56px; height:56px; }
-  .blog-post { margin-bottom:32px; padding-bottom:28px; }
-  .detail-hero { padding:24px; }
-  .detail-main { padding:24px; }
-  .detail-aside { padding:24px; }
-  .detail-title { font-size:1.4rem; }
-  .archive-table th, .archive-table td { padding:10px 14px; }
-  .archive-date { width:90px; font-size:.8rem; }
+/* ─── Responsive: iPhone 16 (393px) + Desktop (1280px) ─── */
+/* 默认样式 = iPhone 16 */
+.detail-body { grid-template-columns:1fr; }
+.detail-aside { border-top:1px solid var(--c-border); }
+.hero { padding:32px 0 28px; margin-bottom:28px; }
+.hero-stats { gap:16px; }
+.product-entry { gap:12px; padding:12px; }
+.entry-thumb { width:56px; height:56px; }
+.blog-post { margin-bottom:32px; padding-bottom:28px; }
+.detail-hero { padding:24px; }
+.detail-main { padding:24px; }
+.detail-aside { padding:24px; }
+.detail-title { font-size:1.4rem; }
+.archive-table th, .archive-table td { padding:10px 14px; }
+.archive-date { width:90px; font-size:.8rem; }
+.container { padding:0 16px; }
+.container-wide { padding:0 16px; }
+.site-header .container-wide { height:48px; }
+.site-nav a { padding:5px 10px; font-size:.8rem; }
+
+/* 桌面 ≥768px（适配 1280px） */
+@media (min-width:768px) {
+  .container { padding:0 24px; }
+  .container-wide { padding:0 24px; }
+  .site-header .container-wide { height:56px; }
+  .site-nav a { padding:6px 14px; font-size:.875rem; }
+  .hero { padding:48px 0 40px; margin-bottom:40px; }
+  .hero-stats { gap:24px; }
+  .product-entry { gap:16px; padding:16px; }
+  .entry-thumb { width:72px; height:72px; }
+  .blog-post { margin-bottom:48px; padding-bottom:40px; }
+  .detail-hero { padding:32px; }
+  .detail-main { padding:32px; }
+  .detail-aside { padding:32px 24px; border-top:none; border-left:1px solid var(--c-border); }
+  .detail-body { grid-template-columns:1fr 300px; }
+  .detail-title { font-size:1.75rem; }
+  .archive-table th, .archive-table td { padding:14px 20px; }
+  .archive-date { width:110px; font-size:.9rem; }
 }
