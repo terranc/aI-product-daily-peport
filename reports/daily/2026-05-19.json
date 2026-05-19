@@ -19,8 +19,16 @@
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/07/e9/f7/07e9f756-8d33-e05b-567f-a09d7a1f2923/SS02.png/406x228bb.png",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f7/28/79/f728797d-52b6-c521-a9a3-a72c74327039/SS03.png/406x228bb.png"
       ],
-      "tags": ["播客", "广告屏蔽", "iOS", "AI识别", "免费"],
-      "sourceChannels": ["hackernews"],
+      "tags": [
+        "播客",
+        "广告屏蔽",
+        "iOS",
+        "AI识别",
+        "免费"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
       "sourceUrl": "https://news.ycombinator.com/item?id=48184645",
       "firstSeen": "2026-05-19T20:07:00+08:00",
       "analysis": {
@@ -58,7 +66,7 @@
       "id": "lumis_stoic_journal",
       "name": "Lumis - 与斯多葛哲学家对话日记",
       "slug": "lumis-stoic-philosophers-journal",
-      "description": "一款创新日记应用，让用户通过与马可·奥勒留、塞内卡、爱比克泰德等斯多葛哲学家"对话"来完成日记记录。AI 以哲学家本人的声音和风格回应，并记忆你过去的对话。",
+      "description": "一款创新日记应用，让用户通过与马可·奥勒留、塞内卡、爱比克泰德等斯多葛哲学家「对话」来完成日记记录。AI 以哲学家本人的声音和风格回应，并记忆你过去的对话。",
       "url": "http://lumis.quest",
       "homepage": "http://lumis.quest",
       "type": "app",
@@ -66,8 +74,16 @@
       "appStoreUrl": null,
       "screenshotUrl": "assets/screenshots/lumis_stoic_journal_20260519_200634.png",
       "appStoreScreenshots": [],
-      "tags": ["日记", "心理健康", "斯多葛哲学", "AI对话", "自我反思"],
-      "sourceChannels": ["reddit"],
+      "tags": [
+        "日记",
+        "心理健康",
+        "斯多葛哲学",
+        "AI对话",
+        "自我反思"
+      ],
+      "sourceChannels": [
+        "reddit"
+      ],
       "sourceUrl": "https://reddit.com/r/SideProject/comments/1th6mha/i_built_an_app_where_you_journal_by_talking_to/",
       "firstSeen": "2026-05-19T20:07:00+08:00",
       "analysis": {
@@ -114,8 +130,16 @@
       "appStoreUrl": null,
       "screenshotUrl": "assets/screenshots/clawputer_ai_assistant_20260519_200641.png",
       "appStoreScreenshots": [],
-      "tags": ["AI助手", "计算机控制", "长期记忆", "桌面应用", "个人生产力"],
-      "sourceChannels": ["hackernews"],
+      "tags": [
+        "AI助手",
+        "计算机控制",
+        "长期记忆",
+        "桌面应用",
+        "个人生产力"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
       "sourceUrl": "https://news.ycombinator.com/item?id=48186915",
       "firstSeen": "2026-05-19T20:07:00+08:00",
       "analysis": {
@@ -127,7 +151,7 @@
           "自动化重复的桌面操作流程",
           "作为日常工作的智能秘书"
         ],
-        "designIntent": "现有 AI 聊天工具每次会话都从零开始，无法真正了解用户，也无法直接操控电脑完成实际任务。Clawputer 试图填补这一空缺，打造一个真正意义上的「数字员工」。",
+        "designIntent": "现有 AI 聊天工具每次会话都从零开始，无法真正了解用户，也无法直接操控电脑完成实际任务。Clawputer 试图填补这一空缺，打造一个真正意义上的数字员工。",
         "problemSolved": "绝大多数 AI 助手缺乏跨会话记忆，也无法直接执行电脑操作，用户需要反复描述上下文且无法授权 AI 代为完成任务。Clawputer 将记忆和计算机控制合二为一，让 AI 助手真正融入工作流。",
         "score": 7,
         "scoreReason": "定位清晰，解决了 AI 助手领域的核心痛点（无记忆、不会操作电脑）。computer-use 能力是当前 AI 应用的热点方向，产品有实际差异化。但产品较新，功能成熟度和隐私安全细节尚待验证。",
@@ -162,8 +186,16 @@
       "appStoreUrl": null,
       "screenshotUrl": "assets/screenshots/getfastvisa_appointment_20260519_200649.png",
       "appStoreScreenshots": [],
-      "tags": ["签证", "自动化", "computer-use", "AI agent", "出行"],
-      "sourceChannels": ["hackernews"],
+      "tags": [
+        "签证",
+        "自动化",
+        "computer-use",
+        "AI agent",
+        "出行"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
       "sourceUrl": "https://news.ycombinator.com/item?id=48182894",
       "firstSeen": "2026-05-19T20:07:00+08:00",
       "analysis": {
@@ -210,8 +242,16 @@
       "appStoreUrl": null,
       "screenshotUrl": "assets/screenshots/zuzu_club_chat_20260519_200658.png",
       "appStoreScreenshots": [],
-      "tags": ["匿名聊天", "社交", "心理健康", "即时通讯", "人际连接"],
-      "sourceChannels": ["reddit"],
+      "tags": [
+        "匿名聊天",
+        "社交",
+        "心理健康",
+        "即时通讯",
+        "人际连接"
+      ],
+      "sourceChannels": [
+        "reddit"
+      ],
       "sourceUrl": "https://reddit.com/r/SideProject/comments/1thktra/i_built_something_at_2am_that_i_think_could/",
       "firstSeen": "2026-05-19T20:07:00+08:00",
       "analysis": {
@@ -223,7 +263,7 @@
           "探索完全匿名的人际连接体验",
           "替代 AI 聊天，获得真实人类的情感陪伴"
         ],
-        "designIntent": "创作者观察到人们在需要倾诉时面临两难：正式求助太重，现有工具太复杂。他的解决方案是「极简减法」——去掉一切障碍，只留下最纯粹的人与人连接，让对话变得像打开一扇门一样简单。",
+        "designIntent": "创作者观察到人们在需要倾诉时面临两难：正式求助太重，现有工具太复杂。他的解决方案是极简减法——去掉一切障碍，只留下最纯粹的人与人连接，让对话变得像打开一扇门一样简单。",
         "problemSolved": "在 AI 泛滥的时代，真实人类连接反而变得稀缺。人们有时需要的不是 AI 回应，而是一个真实的人愿意倾听。Zuzu.club 用极简设计消除所有社交压力，让最需要连接的时刻变得零门槛。",
         "score": 7,
         "scoreReason": "产品哲学清晰、逆 AI 潮流而行（强调真人连接），在 AI 产品泛滥的时代有独特的人文价值。极简设计降低使用门槛，是有思考深度的产品。但商业模式和安全性是潜在挑战。",

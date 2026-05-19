@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-05-19T17:26:23.144443",
+  "lastUpdated": "2026-05-19T20:09:16.189117",
   "products": [
     {
       "id": "dafa9686fbe1",
@@ -2123,6 +2123,303 @@
         "source": "reddit",
         "source_url": "https://reddit.com/r/SideProject/comments/1thgo3h/before_diving_deep_into_coding_how_do_you_vet_if/"
       }
+    },
+    {
+      "id": "drea_podcast_adblocker",
+      "name": "drea - 播客广告屏蔽器",
+      "slug": "drea-podcast-ad-blocker",
+      "description": "首款免费的 iOS 播客广告自动检测与屏蔽应用",
+      "url": "https://drea.fm/",
+      "homepage": "https://drea.fm/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [
+        "ios"
+      ],
+      "categories": [
+        "media",
+        "productivity"
+      ],
+      "tags": [
+        "播客",
+        "广告屏蔽",
+        "iOS",
+        "AI识别",
+        "免费"
+      ],
+      "firstSeen": "2026-05-19T20:09:16.189117",
+      "lastSeen": "2026-05-19T20:09:16.189117",
+      "cooldownExpiresAt": "2026-06-02T20:09:16.189117",
+      "versions": [],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T20:09:16.189117",
+          "channel": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48184645",
+          "title": "drea – podcast ad blocker"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "重度播客听众，尤其是对广告感到厌烦的 iOS 用户",
+        "useCases": [
+          "收听播客时自动跳过广告",
+          "无打扰享受长篇播客",
+          "节省收听时间"
+        ],
+        "designIntent": "免费的播客广告屏蔽应用",
+        "problemSolved": "播客广告难以跳过，现有工具都付费",
+        "score": 8,
+        "scoreReason": "解决真实高频痛点，免费策略有竞争力",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/drea_podcast_adblocker_20260519_200626.png",
+      "appStoreScreenshots": []
+    },
+    {
+      "id": "lumis_stoic_journal",
+      "name": "Lumis - 与斯多葛哲学家对话日记",
+      "slug": "lumis-stoic-philosophers-journal",
+      "description": "通过与斯多葛哲学家 AI 对话完成日记记录的创新应用",
+      "url": "http://lumis.quest",
+      "homepage": "http://lumis.quest",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [
+        "health",
+        "productivity"
+      ],
+      "tags": [
+        "日记",
+        "心理健康",
+        "斯多葛哲学",
+        "AI对话",
+        "自我反思"
+      ],
+      "firstSeen": "2026-05-19T20:09:16.189117",
+      "lastSeen": "2026-05-19T20:09:16.189117",
+      "cooldownExpiresAt": "2026-06-02T20:09:16.189117",
+      "versions": [],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T20:09:16.189117",
+          "channel": "reddit",
+          "url": "https://reddit.com/r/SideProject/comments/1th6mha/",
+          "title": "I built an app where you journal by talking to Stoic Philosophers"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "对哲学、自我成长感兴趣的用户",
+        "useCases": [
+          "每日哲学式自我反思",
+          "寻求哲学智慧慰藉",
+          "学习斯多葛思想"
+        ],
+        "designIntent": "将日记重新定义为与历史哲学家的对话",
+        "problemSolved": "空白日记页面令人望而却步",
+        "score": 8,
+        "scoreReason": "创意独特，市场空白明显",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/lumis_stoic_journal_20260519_200634.png",
+      "appStoreScreenshots": []
+    },
+    {
+      "id": "clawputer_ai_assistant",
+      "name": "Clawputer - 有真实记忆的个人 AI 助手",
+      "slug": "clawputer-personal-ai-assistant",
+      "description": "拥有真实计算机控制能力和持久记忆的个人 AI 助手桌面应用",
+      "url": "https://clawputer.app",
+      "homepage": "https://clawputer.app",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [
+        "productivity",
+        "ai"
+      ],
+      "tags": [
+        "AI助手",
+        "计算机控制",
+        "长期记忆",
+        "桌面应用",
+        "个人生产力"
+      ],
+      "firstSeen": "2026-05-19T20:09:16.189117",
+      "lastSeen": "2026-05-19T20:09:16.189117",
+      "cooldownExpiresAt": "2026-06-02T20:09:16.189117",
+      "versions": [],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T20:09:16.189117",
+          "channel": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48186915",
+          "title": "Clawputer – A personal AI assistant with a real computer and memory"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "希望拥有真正智能个人助理的电脑用户",
+        "useCases": [
+          "AI操控电脑完成任务",
+          "跨会话保持上下文",
+          "个人知识库"
+        ],
+        "designIntent": "打造真正意义上的数字员工",
+        "problemSolved": "AI助手缺乏跨会话记忆且无法直接操控电脑",
+        "score": 7,
+        "scoreReason": "computer-use 方向热点，有差异化定位",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/clawputer_ai_assistant_20260519_200641.png",
+      "appStoreScreenshots": []
+    },
+    {
+      "id": "getfastvisa_appointment",
+      "name": "GetFastVisa - AI 自动化签证预约",
+      "slug": "getfastvisa-automated-visa-appointment",
+      "description": "利用 computer-use AI agent 自动监测并抢占葡萄牙签证预约名额的服务",
+      "url": "https://www.getfastvisa.com",
+      "homepage": "https://www.getfastvisa.com",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [
+        "travel",
+        "ai"
+      ],
+      "tags": [
+        "签证",
+        "自动化",
+        "computer-use",
+        "AI agent",
+        "出行"
+      ],
+      "firstSeen": "2026-05-19T20:09:16.189117",
+      "lastSeen": "2026-05-19T20:09:16.189117",
+      "cooldownExpiresAt": "2026-06-02T20:09:16.189117",
+      "versions": [],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T20:09:16.189117",
+          "channel": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48182894",
+          "title": "We automated Portugal visa appointment checks with computer-use agents"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "计划申请欧洲申根签证的旅行者",
+        "useCases": [
+          "自动监控签证名额",
+          "自动完成预约操作",
+          "提高预约成功率"
+        ],
+        "designIntent": "用AI agent解决签证预约名额抢占问题",
+        "problemSolved": "签证预约名额稀缺，纯人工操作成功率低",
+        "score": 8,
+        "scoreReason": "极强痛点，AI agent应用场景完美匹配",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/getfastvisa_appointment_20260519_200649.png",
+      "appStoreScreenshots": []
+    },
+    {
+      "id": "zuzu_club_chat",
+      "name": "Zuzu.club - 无账号即时陌生人对话",
+      "slug": "zuzu-club-anonymous-instant-chat",
+      "description": "极简匿名即时人际对话平台，无需注册，3秒内与真实陌生人展开对话",
+      "url": "https://www.zuzu.club/",
+      "homepage": "https://www.zuzu.club/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [
+        "social",
+        "health"
+      ],
+      "tags": [
+        "匿名聊天",
+        "社交",
+        "心理健康",
+        "即时通讯",
+        "人际连接"
+      ],
+      "firstSeen": "2026-05-19T20:09:16.189117",
+      "lastSeen": "2026-05-19T20:09:16.189117",
+      "cooldownExpiresAt": "2026-06-02T20:09:16.189117",
+      "versions": [],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T20:09:16.189117",
+          "channel": "reddit",
+          "url": "https://reddit.com/r/SideProject/comments/1thktra/",
+          "title": "I built something at 2am that I think could change how humans connect online"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "需要真实人际连接但不想正式社交的用户",
+        "useCases": [
+          "情绪低落时快速找倾听者",
+          "无压力陌生人聊天",
+          "匿名倾诉"
+        ],
+        "designIntent": "消除一切障碍，让人与人连接变得零门槛",
+        "problemSolved": "AI泛滥时代真实人类连接反而稀缺",
+        "score": 7,
+        "scoreReason": "逆AI潮流，有独特人文价值",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/zuzu_club_chat_20260519_200658.png",
+      "appStoreScreenshots": []
     }
   ],
   "tracking": {
