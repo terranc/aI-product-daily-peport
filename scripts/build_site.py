@@ -16,10 +16,11 @@ DATA_DIR = BASE_DIR / "data"
 BASE_PATH = "/aI-product-daily-peport"
 
 
-def p(relative_path):
-    if relative_path.startswith('/'):
-        return f"{BASE_PATH}{relative_path}"
-    return f"{BASE_PATH}/{relative_path}"
+def rel(path, depth=0):
+    """生成相对路径。depth=0 表示根目录页面，1 表示 products/ 子目录"""
+    prefix = '../' * depth
+    clean = path.lstrip('/')
+    return f"{prefix}{clean}"
 
 
 def load_products():
@@ -442,30 +443,30 @@ img { display:block; max-width:100%; }
 
 # ─── Header / Footer fragments ────────────────────────────────────────
 
-def header_html(active=''):
+def header_html(active='', depth=0):
     nav_items = [
-        ('/', '每日精选', 'daily'),
-        ('/archive.html', '归档', 'archive'),
+        ('index.html', '每日精选', 'daily'),
+        ('archive.html', '归档', 'archive'),
     ]
     nav = ''
     for href, label, key in nav_items:
         cls = ' class="active"' if active == key else ''
-        nav += f'<a href="{p(href)}"{cls}>{label}</a>'
+        nav += f'<a href="{rel(href, depth)}"{cls}>{label}</a>'
     nav += f'<a href="https://github.com/terranc/aI-product-daily-peport" target="_blank">{icon("github")}</a>'
 
     return f"""<header class="site-header">
   <div class="container-wide">
-    <a href="{p("/")}" class="site-logo">{icon("radar")} AI 产品雷达</a>
+    <a href="{rel("index.html", depth)}" class="site-logo">{icon("radar")} AI 产品雷达</a>
     <nav class="site-nav">{nav}</nav>
   </div>
 </header>"""
 
 
-def footer_html():
+def footer_html(depth=0):
     return f"""<footer class="site-footer">
   <div class="container">
     <div class="footer-links">
-      <a href="{p("/archive.html")}">历史归档</a>
+      <a href="{rel("archive.html", depth)}">历史归档</a>
       <a href="https://github.com/terranc/aI-product-daily-peport" target="_blank">GitHub</a>
     </div>
     <p>AI 产品雷达 · 自动化 AI 产品发现与分析</p>
@@ -499,9 +500,9 @@ def generate_index(reports):
             tags_h = ''.join(f'<span class="tag">{t}</span>' for t in tags)
 
             img_url = prd.get('screenshotUrl') or (prd.get('appStoreScreenshots', [''])[0] if prd.get('appStoreScreenshots') else '')
-            thumb = f'<img src="{p("/" + img_url)}" alt="{prd["name"]}" loading="lazy">' if img_url else '<div class="ph"></div>'
+            thumb = f'<img src="{rel(img_url, 0)}" alt="{prd["name"]}" loading="lazy">' if img_url else '<div class="ph"></div>'
 
-            link = p("/products/" + prd['slug'].lower() + ".html")
+            link = rel("products/" + prd['slug'].lower() + ".html", 0)
             entries += f"""
       <a href="{link}" class="product-entry">
         <div class="entry-thumb">{thumb}</div>
@@ -532,10 +533,10 @@ def generate_index(reports):
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AI 产品雷达 · 每日 AI 应用发现</title>
-  <link rel="stylesheet" href="{p("/styles.css")}">
+  <link rel="stylesheet" href="{rel("styles.css", 0)}">
 </head>
 <body>
-  {header_html('daily')}
+  {header_html('daily', 0)}
   <main>
     <div class="container">
       <div class="hero">
@@ -551,7 +552,7 @@ def generate_index(reports):
       </div>
     </div>
   </main>
-  {footer_html()}
+  {footer_html(0)}
 </body>
 </html>"""
 
@@ -585,9 +586,9 @@ def generate_product_pages(all_products):
         app_ss = prd.get('appStoreScreenshots', [])
         ss_h = ''
         if screenshot:
-            ss_h += f'<div class="screenshot-img"><img src="{p("/" + screenshot)}" alt="{prd["name"]}"></div>'
+            ss_h += f'<div class="screenshot-img"><img src="{rel(screenshot, 1)}" alt="{prd["name"]}"></div>'
         for s in app_ss:
-            ss_h += f'<div class="screenshot-img"><img src="{p("/" + s)}" alt="截图"></div>'
+            ss_h += f'<div class="screenshot-img"><img src="{rel(s, 1)}" alt="截图"></div>'
 
         url = prd.get('url') or prd.get('homepage', '')
         btn_web = f'<a href="{url}" target="_blank" class="btn btn-primary">{icon("external")} 访问官网</a>' if url else ''
@@ -599,13 +600,13 @@ def generate_product_pages(all_products):
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{prd['name']} · AI 产品雷达</title>
-  <link rel="stylesheet" href="{p("/styles.css")}">
+  <link rel="stylesheet" href="{rel("styles.css", 1)}">
 </head>
 <body>
-  {header_html()}
+  {header_html('', 1)}
   <main>
     <div class="container-wide">
-      <a href="{p("/")}" class="back-link">{icon("arrow")} 返回首页</a>
+      <a href="{rel("index.html", 1)}" class="back-link">{icon("arrow")} 返回首页</a>
       <article class="detail-card">
         <div class="detail-hero">
           <div class="entry-meta">
@@ -666,7 +667,7 @@ def generate_product_pages(all_products):
       </article>
     </div>
   </main>
-  {footer_html()}
+  {footer_html(1)}
 </body>
 </html>"""
 
@@ -682,7 +683,7 @@ def generate_archive(reports):
         products = rpt.get('products', [])
         links = []
         for prd in products:
-            href = p("/products/" + prd['slug'].lower() + ".html")
+            href = rel("products/" + prd['slug'].lower() + ".html", 0)
             links.append(f'<a href="{href}">{prd["name"]}</a>')
         joined = '、'.join(links) if links else '<span style="color:var(--c-text-3)">暂无</span>'
         rows += f"""
@@ -703,10 +704,10 @@ def generate_archive(reports):
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>历史归档 · AI 产品雷达</title>
-  <link rel="stylesheet" href="{p("/styles.css")}">
+  <link rel="stylesheet" href="{rel("styles.css", 0)}">
 </head>
 <body>
-  {header_html('archive')}
+  {header_html('archive', 0)}
   <main>
     <div class="container-wide">
       <div class="hero" style="padding-bottom:24px;margin-bottom:28px;">
@@ -716,7 +717,7 @@ def generate_archive(reports):
       <div class="archive-wrap">{table}</div>
     </div>
   </main>
-  {footer_html()}
+  {footer_html(0)}
 </body>
 </html>"""
 
