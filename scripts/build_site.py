@@ -226,8 +226,8 @@ img { display:block; max-width:100%; }
 }
 .entry-meta { display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
 .entry-score {
-  font-size:.7rem; font-weight:700; color:var(--c-accent);
-  background:var(--c-accent-l); padding:2px 8px; border-radius:4px;
+  font-size:1.1rem; font-weight:800; color:var(--c-accent);
+  min-width:28px; text-align:center;
 }
 .entry-tags { display:flex; gap:4px; }
 .tag {
@@ -266,10 +266,8 @@ img { display:block; max-width:100%; }
 }
 .detail-actions { display:flex; gap:12px; align-items:center; flex-wrap:wrap; }
 .detail-score-badge {
-  display:inline-flex; align-items:center; gap:6px;
-  background:var(--c-accent); color:#fff;
-  padding:6px 14px; border-radius:6px;
-  font-weight:600; font-size:.85rem;
+  font-size:2rem; font-weight:800; color:var(--c-accent);
+  line-height:1;
 }
 .btn {
   display:inline-flex; align-items:center; gap:6px;
@@ -539,7 +537,7 @@ def generate_index(reports):
           <div class="entry-name">{prd['name']}</div>
           <p class="entry-desc">{prd.get('description', '')[:150]}</p>
           <div class="entry-meta">
-            <span class="entry-score">{score}/10</span>
+            <span class="entry-score">{score}</span>
             <div class="entry-tags">{tags_h}</div>
           </div>
         </div>
@@ -663,7 +661,7 @@ def generate_product_pages(all_products):
           <h1 class="detail-title">{prd['name']}</h1>
           <p class="detail-subtitle">{prd.get('description','')}</p>
           <div class="detail-actions">
-            <span class="detail-score-badge">{icon("chart")} 评分 {score}/10</span>
+            <span class="detail-score-badge">{score}</span>
             {btn_web}{btn_app}
           </div>
         </div>
