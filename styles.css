@@ -276,6 +276,14 @@ img { display:block; max-width:100%; }
 .meta-row .label { color:var(--c-text-3); }
 .meta-row .value { color:var(--c-text-2); font-weight:500; }
 
+.source-links { display:flex; flex-direction:column; gap:6px; }
+.source-link {
+  display:inline-flex; align-items:center; gap:6px;
+  font-size:.85rem; color:var(--c-accent); font-weight:500;
+  padding:4px 0; transition:color .15s;
+}
+.source-link:hover { color:var(--c-accent-d); }
+
 /* ─── Archive Table ─── */
 .archive-wrap {
   background:var(--c-surface);
