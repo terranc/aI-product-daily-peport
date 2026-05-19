@@ -15,6 +15,7 @@ from pathlib import Path
 
 OUTPUT_FILE = Path("/Volumes/EXTEND/aI-product-daily-peport/data/raw-candidates.json")
 USER_AGENT = "agent-reach/1.0"
+TWITTER_CLI = str(Path.home() / ".local" / "bin" / "twitter")
 
 
 def fetch_hackernews():
@@ -230,6 +231,62 @@ def fetch_v2ex():
     return products
 
 
+def fetch_twitter():
+    """Twitter/X - 通过 twitter-cli 搜索 AI 产品相关推文"""
+    print("  🐦 Twitter...")
+    products = []
+
+    if not Path(TWITTER_CLI).exists():
+        print(f"     ⚠️ twitter-cli 未安装: {TWITTER_CLI}")
+        return products
+
+    queries = [
+        "AI app launched",
+        "AI tool shipped",
+    ]
+
+    try:
+        for q in queries:
+            result = subprocess.run(
+                [TWITTER_CLI, "search", q, "-n", "15", "--json"],
+                capture_output=True, text=True, timeout=60,
+            )
+            if result.returncode != 0:
+                print(f"     搜索失败: {q}")
+                continue
+
+            data = json.loads(result.stdout)
+            for tweet in data.get("data", []):
+                text = tweet.get("text", "")
+                author = tweet.get("author", {})
+                tweet_id = tweet.get("id", "")
+                metrics = tweet.get("metrics", {})
+
+                # 提取推文中的链接
+                import re
+                urls = re.findall(r'https?://t\.co/\w+', text)
+
+                products.append({
+                    "id": f"tw_{tweet_id}",
+                    "name": text[:100].replace("\n", " "),
+                    "description": text[:500],
+                    "url": f"https://x.com/{author.get('screenName', '')}/status/{tweet_id}",
+                    "source_url": f"https://x.com/{author.get('screenName', '')}/status/{tweet_id}",
+                    "score": metrics.get("likes", 0) + metrics.get("retweets", 0) * 2,
+                    "source": "twitter",
+                    "author": author.get("screenName", ""),
+                    "timestamp": tweet.get("createdAtISO", ""),
+                })
+
+        print(f"     {len(products)} 个")
+    except json.JSONDecodeError:
+        print("     JSON 解析失败")
+    except Exception as e:
+        print(f"     错误: {e}")
+
+    return products
+
+
 def main():
     """主流程"""
     print("📡 抓取各渠道数据...")
@@ -239,6 +296,7 @@ def main():
     all_products.extend(fetch_hackernews())
     all_products.extend(fetch_reddit())
     all_products.extend(fetch_producthunt())
+    all_products.extend(fetch_twitter())
     all_products.extend(fetch_v2ex())
 
     # 按热度排序
