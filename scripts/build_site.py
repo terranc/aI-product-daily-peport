@@ -599,7 +599,7 @@ def generate_product_pages(all_products):
         a = prd.get('analysis', {})
         score = a.get('score', 0)
         tags = prd.get('tags', [])
-        tags_h = ''.join(f'<span class="tag">{t}</span>' for t in tags)
+        tags_h = ''.join(f'<a href="../tags.html?tag={t}" class="tag">{t}</a>' for t in tags)
 
         use_cases = a.get('useCases', [])
         uc_h = ''.join(f'<li>{c}</li>' for c in use_cases)
@@ -790,6 +790,201 @@ def generate_archive(reports):
     (SITE_DIR / "archive.html").write_text(html, encoding='utf-8')
 
 
+# ─── Data: All Products JSON ─────────────────────────────────────────
+
+def generate_all_products_json(all_products):
+    """生成所有产品的汇总 JSON，供 tags.html 客户端 JS 使用"""
+    products_data = []
+    for prd in all_products:
+        products_data.append({
+            'name': prd.get('name', ''),
+            'slug': prd.get('slug', ''),
+            'description': prd.get('description', ''),
+            'url': prd.get('url', ''),
+            'tags': prd.get('tags', []),
+            'score': prd.get('analysis', {}).get('score', 0),
+            'date': prd.get('date', ''),
+            'type': prd.get('type', ''),
+            'screenshotUrl': prd.get('screenshotUrl', ''),
+            'appStoreScreenshots': prd.get('appStoreScreenshots', []),
+        })
+
+    # 按日期倒序
+    products_data.sort(key=lambda x: x['date'], reverse=True)
+
+    out_file = SITE_DIR / "all-products.json"
+    with open(out_file, 'w', encoding='utf-8') as f:
+        json.dump(products_data, f, ensure_ascii=False)
+
+    print(f"  📊 汇总数据: {len(products_data)} 个产品 → all-products.json")
+
+
+# ─── Page: Tags ───────────────────────────────────────────────────────
+
+def generate_tags_page():
+    """生成标签筛选页面，客户端 JS 拉取 all-products.json 实现筛选+分页"""
+
+    html = f"""<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>标签筛选 · AI 产品雷达</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .tag-hero {{ text-align:center; padding:40px 0 24px; }}
+    .tag-hero h1 {{ font-size:1.75rem; font-weight:700; margin-bottom:8px; }}
+    .tag-hero .tag-name {{ color:var(--c-accent); }}
+    .tag-hero p {{ color:var(--c-text-2); }}
+    .tag-count {{ font-size:.85rem; color:var(--c-text-3); margin-top:8px; }}
+    .product-list {{ max-width:800px; margin:0 auto; padding-bottom:40px; }}
+    .product-item {{
+      display:flex; gap:16px; padding:16px;
+      background:var(--c-surface); border:1px solid var(--c-border);
+      border-radius:var(--radius); margin-bottom:12px;
+      text-decoration:none; color:inherit; cursor:pointer;
+      transition:all .2s var(--ease);
+    }}
+    .product-item:hover {{ border-color:var(--c-accent); box-shadow:var(--shadow-md); transform:translateY(-1px); }}
+    .product-thumb {{
+      width:64px; height:64px; flex-shrink:0; border-radius:6px;
+      overflow:hidden; background:var(--c-tag-bg);
+      display:flex; align-items:center; justify-content:center;
+    }}
+    .product-thumb img {{ width:100%; height:100%; object-fit:cover; }}
+    .product-thumb .ph {{ width:28px; height:28px; border-radius:6px; background:linear-gradient(135deg,var(--c-accent),#818cf8); opacity:.3; }}
+    .product-info {{ flex:1; min-width:0; }}
+    .product-name {{ font-size:.95rem; font-weight:600; margin-bottom:4px; }}
+    .product-desc {{ font-size:.8rem; color:var(--c-text-2); line-height:1.6; margin-bottom:8px; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }}
+    .product-meta {{ display:flex; align-items:center; gap:8px; flex-wrap:wrap; }}
+    .product-score {{ font-size:1.1rem; font-weight:800; color:var(--c-accent); min-width:28px; text-align:center; }}
+    .product-date {{ font-size:.7rem; color:var(--c-text-3); }}
+    .product-tags {{ display:flex; gap:4px; }}
+    .product-tags .mini-tag {{ font-size:.6rem; padding:1px 6px; border-radius:3px; background:var(--c-tag-bg); color:var(--c-text-3); }}
+    .load-more-btn {{
+      display:block; margin:24px auto; padding:12px 32px;
+      background:var(--c-accent-l); color:var(--c-accent);
+      border:1px solid var(--c-accent); border-radius:var(--radius);
+      font-weight:600; font-size:.9rem; cursor:pointer;
+      transition:all .15s var(--ease);
+    }}
+    .load-more-btn:hover {{ background:var(--c-accent); color:#fff; }}
+    .load-more-btn:disabled {{ opacity:.4; cursor:default; }}
+    .loading {{ text-align:center; padding:40px; color:var(--c-text-3); }}
+    .no-results {{ text-align:center; padding:60px; color:var(--c-text-3); }}
+  </style>
+</head>
+<body>
+  {header_html('tags', 0)}
+  <main>
+    <div class="container">
+      <div class="tag-hero">
+        <h1>标签：<span class="tag-name" id="tag-name">加载中...</span></h1>
+        <p id="tag-desc"></p>
+        <div class="tag-count" id="tag-count"></div>
+      </div>
+      <div class="product-list" id="product-list">
+        <div class="loading">正在加载产品数据...</div>
+      </div>
+    </div>
+  </main>
+  {footer_html(0)}
+
+  <script>
+    const PAGE_SIZE = 5;
+    let allFiltered = [];
+    let shown = 0;
+
+    function getTag() {{
+      const params = new URLSearchParams(window.location.search);
+      return params.get('tag') || '';
+    }}
+
+    function renderProduct(p) {{
+      const slug = p.slug.toLowerCase();
+      const thumb = p.screenshotUrl
+        ? `<img src="${{p.screenshotUrl}}" alt="${{p.name}}" loading="lazy">`
+        : (p.appStoreScreenshots && p.appStoreScreenshots.length
+          ? `<img src="${{p.appStoreScreenshots[0]}}" alt="${{p.name}}" loading="lazy">`
+          : '<div class="ph"></div>');
+      const tags = (p.tags || []).slice(0, 3).map(t => `<span class="mini-tag">${{t}}</span>`).join('');
+      return `
+        <a href="products/${{slug}}.html" class="product-item">
+          <div class="product-thumb">${{thumb}}</div>
+          <div class="product-info">
+            <div class="product-name">${{p.name}}</div>
+            <p class="product-desc">${{p.description || ''}}</p>
+            <div class="product-meta">
+              <span class="product-score">${{p.score || '-'}}</span>
+              <span class="product-date">${{p.date}}</span>
+              <div class="product-tags">${{tags}}</div>
+            </div>
+          </div>
+        </a>`;
+    }}
+
+    function renderBatch() {{
+      const list = document.getElementById('product-list');
+      const end = Math.min(shown + PAGE_SIZE, allFiltered.length);
+      for (let i = shown; i < end; i++) {{
+        list.insertAdjacentHTML('beforeend', renderProduct(allFiltered[i]));
+      }}
+      shown = end;
+
+      // 更新"查看更多"按钮
+      const existingBtn = document.getElementById('load-more');
+      if (existingBtn) existingBtn.remove();
+      if (shown < allFiltered.length) {{
+        const btn = document.createElement('button');
+        btn.id = 'load-more';
+        btn.className = 'load-more-btn';
+        btn.textContent = `查看更多（剩余 ${{allFiltered.length - shown}} 个）`;
+        btn.onclick = renderBatch;
+        list.appendChild(btn);
+      }}
+    }}
+
+    async function init() {{
+      const tag = getTag();
+      if (!tag) {{
+        document.getElementById('tag-name').textContent = '未指定标签';
+        document.getElementById('product-list').innerHTML = '<div class="no-results">请在 URL 中添加 ?tag=标签名 参数</div>';
+        return;
+      }}
+
+      document.getElementById('tag-name').textContent = tag;
+      document.title = `${{tag}} · AI 产品雷达`;
+
+      try {{
+        const resp = await fetch('all-products.json');
+        const products = await resp.json();
+
+        // 按标签筛选
+        allFiltered = products.filter(p => (p.tags || []).includes(tag));
+
+        document.getElementById('tag-count').textContent = `共 ${{allFiltered.length}} 个产品`;
+
+        if (allFiltered.length === 0) {{
+          document.getElementById('product-list').innerHTML = '<div class="no-results">暂无标签为「' + tag + '」的产品</div>';
+          return;
+        }}
+
+        document.getElementById('product-list').innerHTML = '';
+        renderBatch();
+
+      }} catch (e) {{
+        document.getElementById('product-list').innerHTML = '<div class="no-results">数据加载失败：' + e.message + '</div>';
+      }}
+    }}
+
+    init();
+  </script>
+</body>
+</html>"""
+
+    (SITE_DIR / "tags.html").write_text(html, encoding='utf-8')
+
+
 # ─── Main ─────────────────────────────────────────────────────────────
 
 def main():
@@ -811,6 +1006,8 @@ def main():
     generate_index(reports)
     generate_product_pages(all_products)
     generate_archive(reports)
+    generate_all_products_json(all_products)
+    generate_tags_page()
 
     print(f"✅ 完成：{SITE_DIR}  ({len(all_products)} 个产品页)")
 

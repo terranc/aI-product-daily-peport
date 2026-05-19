@@ -1,172 +1,250 @@
 {
   "date": "2026-05-19",
-  "generatedAt": "2026-05-19T18:09:45.086355",
-  "productCount": 3,
+  "generatedAt": "2026-05-19T20:07:00+08:00",
+  "productCount": 5,
   "products": [
     {
-      "id": "hn_drea_48184645",
-      "name": "Drea — 免费播客广告拦截器",
-      "slug": "drea",
-      "description": "一款免费的 iOS 播客应用，能自动检测并跳过播客中的广告。开发者因为厌烦播客广告而找不到免费的去广告工具，于是自己做了一个。这是目前已知的首个免费提供广告拦截功能的播客应用，无需注册账号，iOS 26+ 可用。",
+      "id": "drea_podcast_adblocker",
+      "name": "drea - 播客广告屏蔽器",
+      "slug": "drea-podcast-ad-blocker",
+      "description": "首款免费的 iOS 播客广告自动检测与屏蔽应用。利用 AI 识别播客中的广告片段并自动跳过，无需账户登录，彻底免费。",
       "url": "https://drea.fm/",
       "homepage": "https://drea.fm/",
       "type": "app",
-      "appStoreName": "drea",
+      "appStoreName": null,
       "appStoreUrl": null,
-      "screenshotUrl": "assets/screenshots/hn_drea_48184645_20260519_190154.png",
-      "appStoreScreenshots": [],
-      "tags": [
-        "播客",
-        "广告拦截",
-        "iOS应用",
-        "免费工具"
+      "screenshotUrl": "assets/screenshots/drea_podcast_adblocker_20260519_200626.png",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/eb/8f/26/eb8f2630-dc0f-eab4-d4f0-5ae85f350e84/SS01.png/406x228bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/07/e9/f7/07e9f756-8d33-e05b-567f-a09d7a1f2923/SS02.png/406x228bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f7/28/79/f728797d-52b6-c521-a9a3-a72c74327039/SS03.png/406x228bb.png"
       ],
-      "sourceChannels": [
-        "hackernews"
-      ],
-      "firstSeen": "2026-05-19T18:09:45.086365",
+      "tags": ["播客", "广告屏蔽", "iOS", "AI识别", "免费"],
+      "sourceChannels": ["hackernews"],
+      "sourceUrl": "https://news.ycombinator.com/item?id=48184645",
+      "firstSeen": "2026-05-19T20:07:00+08:00",
       "analysis": {
-        "targetAudience": "经常收听播客的 iOS 用户，尤其是对广告感到厌烦的听众",
+        "targetAudience": "重度播客听众，尤其是对广告感到厌烦的 iOS 用户",
         "useCases": [
-          "日常通勤时无广告干扰地收听播客",
-          "连续收听多集播客时自动跳过广告段",
-          "替代付费播客应用的免费方案",
-          "保护隐私（无需注册账号）"
+          "收听播客时自动跳过广告片段",
+          "无打扰地享受长篇播客内容",
+          "节省收听时间，提升播客体验",
+          "替代付费订阅模式，免费去广告"
         ],
-        "designIntent": "开发者本人是播客重度用户，长期被广告困扰。搜索后发现市面上的去广告播客工具都是付费的，于是决定做一个免费版本。设计理念是极简、无门槛、尊重隐私。",
-        "problemSolved": "播客广告打断收听体验，而现有的去广告方案都需要付费订阅。Drea 提供了一个完全免费、无需注册的替代方案，让用户专注于内容本身。",
+        "designIntent": "创作者深受播客广告困扰，发现市面上现有的广告跳过工具都是付费的，决心做一款完全免费的替代品。产品刻意不要求账户登录，保护用户隐私，维持零成本运营的纯粹性。",
+        "problemSolved": "播客平台的广告日益增多且难以手动跳过，现有广告屏蔽工具要么付费要么功能有限。drea 用 AI 自动识别并跳过广告，让用户无缝享受内容，并且完全免费，降低了使用门槛。",
         "score": 8,
-        "scoreReason": "切入播客广告这个真实痛点，免费策略有竞争力。iOS 限定是局限，但播客用户群以 iOS 为主。需要观察内容获取能力和长期运营意愿。",
+        "scoreReason": "解决了真实高频痛点，AI 技术应用场景清晰，免费策略具有强吸引力。iOS 限制了受众范围，但仍是当前播客市场中少见的差异化产品，创新度高。",
         "competitors": [
+          {
+            "name": "Podcastle",
+            "url": "https://podcastle.ai",
+            "comparison": "Podcastle 侧重播客录制与 AI 编辑，而非听众端广告屏蔽，功能方向完全不同"
+          },
           {
             "name": "Overcast",
             "url": "https://overcast.fm",
-            "comparison": "老牌播客应用，有 Smart Speed 功能但不是广告拦截"
+            "comparison": "Overcast 是知名播客播放器，支持语音增强，但无广告自动屏蔽功能"
           },
           {
             "name": "Pocket Casts",
             "url": "https://pocketcasts.com",
-            "comparison": "跨平台播客应用，付费模式，无广告拦截"
-          },
-          {
-            "name": "Castro",
-            "url": "https://castro.fm",
-            "comparison": "iOS 播客应用，有三段式收件箱但无广告拦截"
+            "comparison": "Pocket Casts 功能全面但需付费，同样不具备 AI 广告识别与自动跳过能力"
           }
         ]
-      },
-      "sourceUrl": "https://news.ycombinator.com/item?id=48184645"
+      }
     },
     {
-      "id": "reddit_blipai_1tgohgd",
-      "name": "Blip AI — 全平台语音转文字应用",
-      "slug": "blip-ai",
-      "description": "一款跨设备的语音转文字应用，支持所有平台，具备「动作模式」功能。已在 AppSumo 上通过终身许可模式获得超过 20 万美元的收入。适合需要快速将语音内容转为文字的各类用户。",
-      "url": "https://blipai.app",
-      "homepage": "https://blipai.app",
-      "type": "app",
-      "appStoreName": "Blip AI",
-      "appStoreUrl": null,
-      "screenshotUrl": "assets/screenshots/reddit_blipai_1tgohgd_20260519_190201.png",
-      "appStoreScreenshots": [],
-      "tags": [
-        "语音转文字",
-        "效率工具",
-        "跨平台",
-        "AI应用"
-      ],
-      "sourceChannels": [
-        "reddit"
-      ],
-      "firstSeen": "2026-05-19T18:09:45.086368",
-      "analysis": {
-        "targetAudience": "需要语音转文字的职场人士、内容创作者、记者、学生",
-        "useCases": [
-          "会议录音实时转写为文字纪要",
-          "采访录音快速转录为稿件",
-          "课堂笔记语音录入",
-          "灵感随时口述记录",
-          "跨设备同步语音笔记"
-        ],
-        "designIntent": "开发者观察到语音转文字的需求普遍存在，但现有工具要么太贵、要么不够准确、要么不支持跨平台。Blip AI 致力于提供一个全平台、高准确率、价格合理的解决方案。",
-        "problemSolved": "语音转文字工具市场存在「准确率高的太贵，便宜的不好用」的困境。Blip AI 通过 AI 提升准确率，同时用终身许可降低用户成本门槛。",
-        "score": 7,
-        "scoreReason": "K 收入证明市场验证，跨平台策略正确。但主要靠 AppSumo 终身许可而非 MRR，商业模式可持续性存疑。需要关注后续订阅转化。",
-        "competitors": [
-          {
-            "name": "Otter.ai",
-            "url": "https://otter.ai",
-            "comparison": "会议转写领域领先者，订阅制，功能更专业但价格更高"
-          },
-          {
-            "name": "Whisper",
-            "url": "https://openai.com/research/whisper",
-            "comparison": "OpenAI 开源模型，免费但需要技术能力，无产品化体验"
-          },
-          {
-            "name": "Temi",
-            "url": "https://temi.com",
-            "comparison": "按分钟付费的转录服务，准确率高但成本随用量增长"
-          }
-        ]
-      },
-      "sourceUrl": "https://reddit.com/r/SideProject/comments/1tgohgd/"
-    },
-    {
-      "id": "reddit_lumis_1th6mha",
-      "name": "Lumis — 与哲学家对话的 AI 日记应用",
-      "slug": "lumis",
-      "description": "一款创新的日记应用，用户不再面对空白页面写作，而是与马可·奥勒留、塞内卡、爱比克泰德等斯多葛哲学家对话。哲学家们用自己的语气回答，并且能记住之前的对话内容。用户还可以添加自己的导师角色。",
+      "id": "lumis_stoic_journal",
+      "name": "Lumis - 与斯多葛哲学家对话日记",
+      "slug": "lumis-stoic-philosophers-journal",
+      "description": "一款创新日记应用，让用户通过与马可·奥勒留、塞内卡、爱比克泰德等斯多葛哲学家"对话"来完成日记记录。AI 以哲学家本人的声音和风格回应，并记忆你过去的对话。",
       "url": "http://lumis.quest",
       "homepage": "http://lumis.quest",
       "type": "app",
       "appStoreName": null,
       "appStoreUrl": null,
-      "screenshotUrl": "assets/screenshots/reddit_lumis_1th6mha_20260519_190212.png",
+      "screenshotUrl": "assets/screenshots/lumis_stoic_journal_20260519_200634.png",
       "appStoreScreenshots": [],
-      "tags": [
-        "日记",
-        "心理健康",
-        "AI对话",
-        "哲学",
-        "自我反思"
-      ],
-      "sourceChannels": [
-        "reddit"
-      ],
-      "firstSeen": "2026-05-19T18:09:45.086370",
+      "tags": ["日记", "心理健康", "斯多葛哲学", "AI对话", "自我反思"],
+      "sourceChannels": ["reddit"],
+      "sourceUrl": "https://reddit.com/r/SideProject/comments/1th6mha/i_built_an_app_where_you_journal_by_talking_to/",
+      "firstSeen": "2026-05-19T20:07:00+08:00",
       "analysis": {
-        "targetAudience": "对自我反思和个人成长感兴趣的年轻人，尤其是斯多葛哲学爱好者",
+        "targetAudience": "对哲学、自我成长感兴趣、希望用更有深度方式进行日记记录的用户",
         "useCases": [
-          "每日情绪记录与哲学反思",
-          "通过与哲学家对话获得生活建议",
-          "建立持续的自我对话习惯",
-          "用历史人物视角审视当代问题",
-          "自定义导师角色进行个性化对话"
+          "每日以对话方式进行哲学式自我反思",
+          "在低落情绪时寻求哲学智慧的慰藉",
+          "学习斯多葛哲学思想并将其应用于日常",
+          "构建个人专属的思想导师（可添加自定义人物）",
+          "替代传统空白页日记，降低记录门槛"
         ],
-        "designIntent": "开发者发现传统日记应用的空白页面让人望而却步，而斯多葛哲学的对话形式能降低写作门槛。通过让哲学家「记住」之前的对话，创造一种持续的导师关系，而非一次性问答。",
-        "problemSolved": "传统日记应用缺乏引导，用户难以坚持。Lumis 用对话形式降低门槛，用哲学框架提供深度，用记忆功能建立连续性，三者结合解决「日记难坚持」的核心问题。",
+        "designIntent": "创作者发现传统空白页日记令人望而却步，而与有智慧的人对话则自然得多。通过让 AI 扮演真实历史哲学家，赋予日记体验温度和深度，使反思变成真正的思想交流。",
+        "problemSolved": "空白的日记页面让很多人不知道从何写起，导致坚持困难。Lumis 把日记重新定义为对话，通过哲学家角色提供引导和回应，让用户更容易打开心扉、持续记录。",
         "score": 8,
-        "scoreReason": "将 AI 对话与斯多葛哲学结合是独特的切入点，对话形式降低日记门槛。记忆功能增加粘性。需要验证用户留存和付费意愿。",
+        "scoreReason": "将 AI 对话与人文关怀深度融合，创意独特，市场空白明显。斯多葛哲学近年在大众文化中受欢迎度持续上升，目标受众精准。产品形态新颖，易于理解和传播。",
         "competitors": [
           {
             "name": "Day One",
             "url": "https://dayoneapp.com",
-            "comparison": "主流日记应用，功能全面但无 AI 对话引导"
-          },
-          {
-            "name": "Replika",
-            "url": "https://replika.ai",
-            "comparison": "AI 对话伴侣，偏情感陪伴，非日记/反思场景"
+            "comparison": "Day One 是功能完善的传统日记应用，无 AI 对话功能，偏重内容组织与回顾"
           },
           {
             "name": "Reflectly",
             "url": "https://reflectly.app",
-            "comparison": "AI 日记应用，有引导但无哲学框架"
+            "comparison": "Reflectly 有 AI 引导的日记提示，但没有角色扮演对话功能，体验不如 Lumis 有深度"
+          },
+          {
+            "name": "Character.AI",
+            "url": "https://character.ai",
+            "comparison": "Character.AI 支持与各类角色对话，但非专注日记场景，缺乏上下文记忆和自我反思引导"
           }
         ]
-      },
-      "sourceUrl": "https://reddit.com/r/SideProject/comments/1th6mha/"
+      }
+    },
+    {
+      "id": "clawputer_ai_assistant",
+      "name": "Clawputer - 有真实记忆的个人 AI 助手",
+      "slug": "clawputer-personal-ai-assistant",
+      "description": "一款拥有真实计算机控制能力和持久记忆的个人 AI 助手桌面应用。不仅能对话，还能操控你的电脑完成任务，并在会话间保持记忆连续性。",
+      "url": "https://clawputer.app",
+      "homepage": "https://clawputer.app",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/clawputer_ai_assistant_20260519_200641.png",
+      "appStoreScreenshots": [],
+      "tags": ["AI助手", "计算机控制", "长期记忆", "桌面应用", "个人生产力"],
+      "sourceChannels": ["hackernews"],
+      "sourceUrl": "https://news.ycombinator.com/item?id=48186915",
+      "firstSeen": "2026-05-19T20:07:00+08:00",
+      "analysis": {
+        "targetAudience": "希望拥有真正智能个人助理、能在日常工作中代劳复杂任务的电脑用户",
+        "useCases": [
+          "让 AI 直接操控电脑完成文件整理、表单填写等任务",
+          "跨会话保持上下文，避免每次重复解释背景",
+          "作为个人知识库，记住用户的偏好和习惯",
+          "自动化重复的桌面操作流程",
+          "作为日常工作的智能秘书"
+        ],
+        "designIntent": "现有 AI 聊天工具每次会话都从零开始，无法真正了解用户，也无法直接操控电脑完成实际任务。Clawputer 试图填补这一空缺，打造一个真正意义上的「数字员工」。",
+        "problemSolved": "绝大多数 AI 助手缺乏跨会话记忆，也无法直接执行电脑操作，用户需要反复描述上下文且无法授权 AI 代为完成任务。Clawputer 将记忆和计算机控制合二为一，让 AI 助手真正融入工作流。",
+        "score": 7,
+        "scoreReason": "定位清晰，解决了 AI 助手领域的核心痛点（无记忆、不会操作电脑）。computer-use 能力是当前 AI 应用的热点方向，产品有实际差异化。但产品较新，功能成熟度和隐私安全细节尚待验证。",
+        "competitors": [
+          {
+            "name": "Recall",
+            "url": "https://www.getrecall.ai",
+            "comparison": "Recall 专注于记忆和知识管理，但没有计算机控制能力"
+          },
+          {
+            "name": "Anthropic Claude",
+            "url": "https://claude.ai",
+            "comparison": "Claude 有强大的对话能力，但无跨会话记忆，computer-use 功能仅限 API 调用"
+          },
+          {
+            "name": "Rabbit R1",
+            "url": "https://www.rabbit.tech",
+            "comparison": "Rabbit 尝试相似方向但受限于硬件形态，Clawputer 是纯软件方案更易推广"
+          }
+        ]
+      }
+    },
+    {
+      "id": "getfastvisa_appointment",
+      "name": "GetFastVisa - AI 自动化签证预约",
+      "slug": "getfastvisa-automated-visa-appointment",
+      "description": "利用 computer-use AI agent 自动监测并抢占葡萄牙签证预约名额的服务。当有空缺时自动完成预约，彻底解放用户在签证预约网站上的人工蹲守。",
+      "url": "https://www.getfastvisa.com",
+      "homepage": "https://www.getfastvisa.com",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/getfastvisa_appointment_20260519_200649.png",
+      "appStoreScreenshots": [],
+      "tags": ["签证", "自动化", "computer-use", "AI agent", "出行"],
+      "sourceChannels": ["hackernews"],
+      "sourceUrl": "https://news.ycombinator.com/item?id=48182894",
+      "firstSeen": "2026-05-19T20:07:00+08:00",
+      "analysis": {
+        "targetAudience": "计划申请欧洲申根签证的旅行者，尤其是需要预约葡萄牙使领馆的用户",
+        "useCases": [
+          "自动监控签证预约系统的空余名额",
+          "名额出现时立即自动完成预约操作",
+          "解放用户无需长时间盯守预约网站",
+          "提高签证预约成功率，缩短等待时间",
+          "应对签证预约系统人为抢占和黄牛问题"
+        ],
+        "designIntent": "签证预约系统名额稀缺，抢占时间窗口极短，纯人工操作往往来不及。利用 computer-use AI agent 全天候监控并自动执行预约操作，将「不可能」的速度响应变为可能。",
+        "problemSolved": "欧洲签证预约名额极度紧张，传统方式需要用户定时手动刷新页面，成功率低且耗时耗力。GetFastVisa 用 AI agent 替代人工，实现全自动化、秒级响应的预约抢占。",
+        "score": 8,
+        "scoreReason": "解决极强痛点，产品与技术能力高度匹配（computer-use agent 的天然应用场景）。市场需求真实且规模可观，是 AI agent 落地应用的绝佳范例。主要风险在于使馆系统变更适应性和合规性。",
+        "competitors": [
+          {
+            "name": "VisaHQ",
+            "url": "https://www.visahq.com",
+            "comparison": "VisaHQ 是签证代办服务，提供人工辅助，价格高且不提供实时自动预约"
+          },
+          {
+            "name": "Appointment Scanner",
+            "url": "https://appointmentscanner.com",
+            "comparison": "提供签证预约监控提醒，但需要用户自己完成最终预约操作，不如 GetFastVisa 全自动"
+          },
+          {
+            "name": "Visa Slots",
+            "url": "https://visaslots.com",
+            "comparison": "类似的预约监控工具，功能较基础，不具备 AI agent 自动完成预约的能力"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zuzu_club_chat",
+      "name": "Zuzu.club - 无账号即时陌生人对话",
+      "slug": "zuzu-club-anonymous-instant-chat",
+      "description": "一个极简的匿名即时人际对话平台。无需注册、无需账号、无历史记录，3 秒内即可与真实陌生人展开对话。专为那些需要倾诉但不想正式社交的人设计。",
+      "url": "https://www.zuzu.club/",
+      "homepage": "https://www.zuzu.club/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/zuzu_club_chat_20260519_200658.png",
+      "appStoreScreenshots": [],
+      "tags": ["匿名聊天", "社交", "心理健康", "即时通讯", "人际连接"],
+      "sourceChannels": ["reddit"],
+      "sourceUrl": "https://reddit.com/r/SideProject/comments/1thktra/i_built_something_at_2am_that_i_think_could/",
+      "firstSeen": "2026-05-19T20:07:00+08:00",
+      "analysis": {
+        "targetAudience": "在孤独时需要真实人际连接、但不想建立正式社交关系的普通用户",
+        "useCases": [
+          "在情绪低落时快速找到倾听者",
+          "无压力地与陌生人随机聊天",
+          "在不想打扰熟人时寻求倾诉出口",
+          "探索完全匿名的人际连接体验",
+          "替代 AI 聊天，获得真实人类的情感陪伴"
+        ],
+        "designIntent": "创作者观察到人们在需要倾诉时面临两难：正式求助太重，现有工具太复杂。他的解决方案是「极简减法」——去掉一切障碍，只留下最纯粹的人与人连接，让对话变得像打开一扇门一样简单。",
+        "problemSolved": "在 AI 泛滥的时代，真实人类连接反而变得稀缺。人们有时需要的不是 AI 回应，而是一个真实的人愿意倾听。Zuzu.club 用极简设计消除所有社交压力，让最需要连接的时刻变得零门槛。",
+        "score": 7,
+        "scoreReason": "产品哲学清晰、逆 AI 潮流而行（强调真人连接），在 AI 产品泛滥的时代有独特的人文价值。极简设计降低使用门槛，是有思考深度的产品。但商业模式和安全性是潜在挑战。",
+        "competitors": [
+          {
+            "name": "Omegle",
+            "url": "https://www.omegle.com",
+            "comparison": "Omegle 已关闭，是最知名的陌生人聊天平台，Zuzu.club 在设计理念上更注重情感需求而非娱乐"
+          },
+          {
+            "name": "Replika",
+            "url": "https://replika.ai",
+            "comparison": "Replika 是 AI 伴侣应用，解决孤独感但对手是真实人类，Zuzu.club 坚持人对人"
+          },
+          {
+            "name": "Slowly",
+            "url": "https://slowly.app",
+            "comparison": "Slowly 是异步笔友社交应用，节奏慢且需要注册，与 Zuzu.club 的即时匿名体验形成鲜明对比"
+          }
+        ]
+      }
     }
   ]
 }
