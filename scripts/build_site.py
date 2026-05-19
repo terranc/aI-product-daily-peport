@@ -616,9 +616,11 @@ def generate_product_pages(all_products):
         app_ss = prd.get('appStoreScreenshots', [])
         ss_h = ''
         if screenshot:
-            ss_h += f'<a href="{rel(screenshot, 1)}" data-fancybox="gallery" data-caption="{prd["name"]}"><div class="screenshot-img"><img src="{rel(screenshot, 1)}" alt="{prd["name"]}"></div></a>'
+            # 本地网站截图，用相对路径
+            ss_h += f'<a href="{rel(screenshot, 1)}" data-fancybox="gallery" data-caption="{prd["name"]}"><div class="screenshot-img"><img src="{rel(screenshot, 1)}" alt="{prd["name"]}" loading="lazy"></div></a>'
         for s in app_ss:
-            ss_h += f'<a href="{rel(s, 1)}" data-fancybox="gallery" data-caption="App 截图"><div class="screenshot-img"><img src="{rel(s, 1)}" alt="截图"></div></a>'
+            # App Store 截图是远程 URL，直接引用
+            ss_h += f'<a href="{s}" data-fancybox="gallery" data-caption="App Store 截图"><div class="screenshot-img"><img src="{s}" alt="App Store 截图" loading="lazy"></div></a>'
 
         # 数据来源链接
         raw = prd.get('rawData', {})
