@@ -786,6 +786,204 @@ footer .footer-links {
   color: var(--text-secondary);
 }
 
+/* ===== BLOG-STYLE DAILY POSTS ===== */
+.blog-feed {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+
+.blog-post {
+  margin-bottom: 48px;
+  padding-bottom: 48px;
+  border-bottom: 1px solid var(--border);
+}
+
+.blog-post:last-child {
+  border-bottom: none;
+}
+
+.blog-post-header {
+  margin-bottom: 28px;
+}
+
+.blog-post-date {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 8px;
+}
+
+.blog-post-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+  line-height: 1.3;
+}
+
+.blog-product-entry {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  margin-bottom: 16px;
+  text-decoration: none;
+  color: inherit;
+  transition: all var(--duration) var(--ease-out);
+  cursor: pointer;
+}
+
+.blog-product-entry:hover {
+  border-color: var(--border-hover);
+  background: var(--bg-hover);
+  transform: translateX(4px);
+}
+
+.blog-product-thumb {
+  width: 80px;
+  height: 80px;
+  border-radius: var(--radius-sm);
+  background: var(--bg-raised);
+  flex-shrink: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog-product-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.blog-product-thumb .thumb-placeholder {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  opacity: 0.5;
+}
+
+.blog-product-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.blog-product-name {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: var(--text-primary);
+}
+
+.blog-product-desc {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.blog-product-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.blog-product-score {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--primary-light);
+  background: rgba(124,58,237,0.12);
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.blog-product-tags {
+  display: flex;
+  gap: 4px;
+}
+
+.blog-product-tags .tag {
+  font-size: 0.65rem;
+  padding: 2px 8px;
+}
+
+.post-count {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+/* ===== ARCHIVE TABLE ===== */
+.archive-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.archive-table th {
+  text-align: left;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+.archive-table td {
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.9rem;
+  vertical-align: top;
+}
+
+.archive-table tr:hover td {
+  background: var(--bg-hover);
+}
+
+.archive-table .date-cell {
+  white-space: nowrap;
+  font-weight: 600;
+  color: var(--primary-light);
+  width: 120px;
+}
+
+.archive-table .products-cell {
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+.archive-table .products-cell a {
+  color: var(--text-primary);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color var(--duration);
+  cursor: pointer;
+}
+
+.archive-table .products-cell a:hover {
+  color: var(--primary-light);
+}
+
+.archive-table .count-cell {
+  width: 60px;
+  text-align: center;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
 /* ===== RESPONSIVE ===== */
 @media (max-width: 900px) {
   .detail-body {
@@ -875,67 +1073,79 @@ def svg_icon(name):
     return icons.get(name, '')
 
 def generate_index_page(reports):
-    """生成首页 - 卡片列表"""
-    all_products = []
-    for report in reports:
+    """生成首页 - 博客风格，每天一篇，只显示最近14天"""
+    recent_reports = reports[:14]
+
+    posts_html = ""
+    for report in recent_reports:
         date = report.get('date', '')
-        for product in report.get('products', []):
-            product['date'] = date
-            all_products.append(product)
+        products = report.get('products', [])
+        count = len(products)
 
-    cards_html = ""
-    for product in all_products[:30]:
-        screenshot = product.get('screenshotUrl', '')
-        app_screenshots = product.get('appStoreScreenshots', [])
-        image_url = screenshot if screenshot else (app_screenshots[0] if app_screenshots else '')
+        # 中文星期
+        try:
+            dt = datetime.strptime(date, '%Y-%m-%d')
+            weekdays = ['周一', '周二', '周三', '周四', '周五', '周六', '周日']
+            weekday = weekdays[dt.weekday()]
+            date_display = f"{date} {weekday}"
+        except:
+            date_display = date
 
-        if image_url:
-            image_html = f'<img src="{p("/" + image_url)}" alt="{product["name"]}" loading="lazy">'
-        else:
-            image_html = f'<div class="card-placeholder">{svg_icon("radar")}</div>'
+        entries_html = ""
+        for product in products:
+            analysis = product.get('analysis', {})
+            score = analysis.get('score', 0)
+            tags = product.get('tags', [])[:3]
+            tags_html = ''.join([f'<span class="tag">{t}</span>' for t in tags])
 
-        analysis = product.get('analysis', {})
-        score = analysis.get('score', 0)
-        tags = product.get('tags', [])[:3]
-        tags_html = ''.join([f'<span class="tag">{t}</span>' for t in tags])
+            screenshot = product.get('screenshotUrl', '')
+            app_screenshots = product.get('appStoreScreenshots', [])
+            image_url = screenshot if screenshot else (app_screenshots[0] if app_screenshots else '')
 
-        cards_html += f"""
-        <a href="{p("/products/" + product['slug'].lower() + ".html")}" class="product-card">
-          <div class="card-image">{image_html}</div>
-          <div class="card-content">
-            <div class="card-meta">
-              <span class="card-date">{product['date']}</span>
-              <span class="card-score">{score}/10</span>
+            if image_url:
+                thumb_html = f'<img src="{p("/" + image_url)}" alt="{product["name"]}" loading="lazy">'
+            else:
+                thumb_html = '<div class="thumb-placeholder"></div>'
+
+            entries_html += f"""
+        <a href="{p("/products/" + product['slug'].lower() + ".html")}" class="blog-product-entry">
+          <div class="blog-product-thumb">{thumb_html}</div>
+          <div class="blog-product-body">
+            <div class="blog-product-name">{product['name']}</div>
+            <p class="blog-product-desc">{product.get('description', '')[:150]}</p>
+            <div class="blog-product-meta">
+              <span class="blog-product-score">{score}/10</span>
+              <div class="blog-product-tags">{tags_html}</div>
             </div>
-            <h3 class="card-title">{product['name']}</h3>
-            <p class="card-description">{product.get('description', '')[:120]}...</p>
-            <div class="card-tags">{tags_html}</div>
           </div>
         </a>"""
 
-    date_tags = ""
-    unique_dates = list(dict.fromkeys([r['date'] for r in reports]))[:10]
-    for date in unique_dates:
-        date_tags += f'<span class="filter-pill">{date}</span>'
+        posts_html += f"""
+      <article class="blog-post">
+        <div class="blog-post-header">
+          <div class="blog-post-date">{date_display}</div>
+          <h2 class="blog-post-title">今日精选 <span class="post-count">({count} 个产品)</span></h2>
+        </div>
+        {entries_html}
+      </article>"""
 
-    total = len(all_products)
-    latest_date = unique_dates[0] if unique_dates else 'N/A'
+    total = len([p for r in reports for p in r.get('products', [])])
+    total_days = len(reports)
 
     html = f"""<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Product Radar - 每日AI应用发现</title>
+  <title>AI 产品雷达 - 每日 AI 应用发现</title>
   <link rel="stylesheet" href="{p("/styles.css")}">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#128225;</text></svg>">
 </head>
 <body>
   <header>
     <div class="container">
       <a href="{p("/")}" class="logo">
         <span class="logo-icon">{svg_icon("radar")}</span>
-        AI Product Radar
+        AI 产品雷达
       </a>
       <nav>
         <a href="{p("/")}" class="active">每日精选</a>
@@ -948,34 +1158,25 @@ def generate_index_page(reports):
   <main>
     <div class="container">
       <div class="hero">
-        <h1>每日AI应用发现</h1>
-        <p>追踪最值得关注的AI创新产品。每日精选3个，每周深度分析1个。</p>
+        <h1>每日 AI 应用发现</h1>
+        <p>追踪最值得关注的 AI 创新产品，每日精选 3 个，每周深度分析 1 个</p>
         <div class="hero-stats">
           <div class="stat">
             <div class="stat-value">{total}</div>
             <div class="stat-label">已收录</div>
           </div>
           <div class="stat">
-            <div class="stat-value">{len(unique_dates)}</div>
+            <div class="stat-value">{total_days}</div>
             <div class="stat-label">期数</div>
-          </div>
-          <div class="stat">
-            <div class="stat-value">{latest_date}</div>
-            <div class="stat-label">最新</div>
           </div>
         </div>
       </div>
 
-      <div class="filter-bar">
-        <span class="filter-pill active">全部</span>
-        {date_tags}
-      </div>
-
-      <div class="product-grid">
-        {cards_html if cards_html else f'''<div class="empty-state">
+      <div class="blog-feed">
+        {posts_html if posts_html else f'''<div class="empty-state">
           <div class="empty-state-icon">{svg_icon("inbox")}</div>
           <h2>暂无产品数据</h2>
-          <p>运行每日抓取脚本后，这里将显示精选的AI产品</p>
+          <p>运行每日抓取脚本后，这里将显示精选的 AI 产品</p>
         </div>'''}
       </div>
     </div>
@@ -984,9 +1185,10 @@ def generate_index_page(reports):
   <footer>
     <div class="container">
       <div class="footer-links">
-        <a href="https://github.com/terranc/aI-product-daily-peport" target="_blank">{svg_icon("github")} GitHub</a>
+        <a href="{p("/archive.html")}">历史归档</a>
+        <a href="https://github.com/terranc/aI-product-daily-peport" target="_blank">GitHub</a>
       </div>
-      <p>AI Product Radar &mdash; 自动化 AI 产品发现与分析</p>
+      <p>AI 产品雷达 &mdash; 自动化 AI 产品发现与分析</p>
     </div>
   </footer>
 </body>
@@ -1041,7 +1243,7 @@ def generate_product_pages(all_products):
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{product['name']} - AI Product Radar</title>
+  <title>{product['name']} - AI 产品雷达</title>
   <link rel="stylesheet" href="{p("/styles.css")}">
 </head>
 <body>
@@ -1049,7 +1251,7 @@ def generate_product_pages(all_products):
     <div class="container">
       <a href="{p("/")}" class="logo">
         <span class="logo-icon">{svg_icon("radar")}</span>
-        AI Product Radar
+        AI 产品雷达
       </a>
       <nav>
         <a href="{p("/")}">每日精选</a>
@@ -1072,7 +1274,7 @@ def generate_product_pages(all_products):
           <h1 class="detail-title">{product['name']}</h1>
           <p class="detail-subtitle">{product.get('description', '')}</p>
           <div class="detail-meta">
-            <span class="detail-score">{svg_icon("bar-chart")} {score}/10</span>
+            <span class="detail-score">{svg_icon("bar-chart")} 评分 {score}/10</span>
             <div class="detail-links">
               {website_btn}
               {appstore_btn}
@@ -1155,7 +1357,7 @@ def generate_product_pages(all_products):
         <a href="{p("/")}">返回首页</a>
         <a href="https://github.com/terranc/aI-product-daily-peport" target="_blank">GitHub</a>
       </div>
-      <p>AI Product Radar</p>
+      <p>AI 产品雷达</p>
     </div>
   </footer>
 </body>
@@ -1166,28 +1368,35 @@ def generate_product_pages(all_products):
             f.write(html)
 
 def generate_archive_page(reports):
-    """生成归档页面"""
-    archive_html = ""
-    for report in reports[:12]:
+    """生成归档页面 - 表格形式，每行显示日期和当天产品"""
+    rows_html = ""
+    for report in reports:
         date = report['date']
         products = report.get('products', [])
+        count = len(products)
 
-        product_links = ""
+        # 产品名称列表，用中文逗号分隔
+        product_links = []
         for prd in products:
-            product_links += f'<li><a href="{p("/products/" + prd["slug"].lower() + ".html")}">{prd["name"]}</a> <span style="color:var(--text-muted);font-size:0.85rem;">&mdash; {prd.get("description", "")[:60]}...</span></li>'
+            name = prd['name']
+            link = p("/products/" + prd['slug'].lower() + ".html")
+            product_links.append(f'<a href="{link}">{name}</a>')
 
-        archive_html += f"""
-        <div class="sidebar-block" style="background:var(--bg-card);padding:24px;border-radius:var(--radius-lg);border:1px solid var(--border);margin-bottom:16px;">
-          <h3 style="font-size:1rem;font-weight:700;color:var(--text-primary);margin-bottom:12px;display:flex;align-items:center;gap:8px;">{svg_icon("calendar")} {date}</h3>
-          <ul class="detail-list">{product_links if product_links else '<li style="color:var(--text-muted)">暂无数据</li>'}</ul>
-        </div>"""
+        products_str = '、'.join(product_links) if product_links else '<span style="color:var(--text-muted)">暂无</span>'
+
+        rows_html += f"""
+        <tr>
+          <td class="date-cell">{date}</td>
+          <td class="products-cell">{products_str}</td>
+          <td class="count-cell">{count}</td>
+        </tr>"""
 
     html = f"""<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>归档 - AI Product Radar</title>
+  <title>历史归档 - AI 产品雷达</title>
   <link rel="stylesheet" href="{p("/styles.css")}">
 </head>
 <body>
@@ -1195,7 +1404,7 @@ def generate_archive_page(reports):
     <div class="container">
       <a href="{p("/")}" class="logo">
         <span class="logo-icon">{svg_icon("radar")}</span>
-        AI Product Radar
+        AI 产品雷达
       </a>
       <nav>
         <a href="{p("/")}">每日精选</a>
@@ -1208,12 +1417,23 @@ def generate_archive_page(reports):
   <main>
     <div class="container">
       <div class="hero" style="padding-bottom:24px;">
-        <h1 style="font-size:2rem;">{svg_icon("database")} 历史归档</h1>
-        <p>按日期浏览所有精选产品</p>
+        <h1 style="font-size:2rem;">历史归档</h1>
+        <p>按日期浏览所有精选产品，共 {len(reports)} 期</p>
       </div>
 
-      <div style="max-width:800px; margin:0 auto; padding-bottom:60px;">
-        {archive_html if archive_html else '<p style="color:var(--text-muted);text-align:center;padding:40px;">暂无历史数据</p>'}
+      <div style="max-width:900px; margin:0 auto; padding-bottom:60px; background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius-lg); overflow:hidden;">
+        {f'''<table class="archive-table">
+          <thead>
+            <tr>
+              <th>日期</th>
+              <th>精选产品</th>
+              <th>数量</th>
+            </tr>
+          </thead>
+          <tbody>
+            {rows_html}
+          </tbody>
+        </table>''' if rows_html else '<p style="color:var(--text-muted);text-align:center;padding:60px 20px;">暂无历史数据</p>'}
       </div>
     </div>
   </main>
@@ -1224,7 +1444,7 @@ def generate_archive_page(reports):
         <a href="{p("/")}">返回首页</a>
         <a href="https://github.com/terranc/aI-product-daily-peport" target="_blank">GitHub</a>
       </div>
-      <p>AI Product Radar</p>
+      <p>AI 产品雷达</p>
     </div>
   </footer>
 </body>
