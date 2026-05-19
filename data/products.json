@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-05-19T20:09:16.189117",
+  "lastUpdated": "2026-05-19T15:01:46.346154+00:00",
   "products": [
     {
       "id": "dafa9686fbe1",
@@ -2420,6 +2420,261 @@
       },
       "screenshotUrl": "assets/screenshots/zuzu_club_chat_20260519_200658.png",
       "appStoreScreenshots": []
+    },
+    {
+      "id": "saner-ai-1-0",
+      "name": "Saner.AI",
+      "slug": "saner-ai",
+      "url": "https://saner.ai",
+      "homepage": "https://saner.ai",
+      "type": "saas",
+      "tags": [
+        "ADHD",
+        "个人效率",
+        "AI助手",
+        "笔记管理",
+        "日历整合"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "firstSeen": "2026-05-19T15:01:29.920007+00:00",
+      "cooldownExpiresAt": "2026-06-02T15:01:46.346154",
+      "analysis": {
+        "targetAudience": "患有 ADHD 或注意力分散困扰的职场人士、学生，以及希望减少信息过载的普通用户",
+        "useCases": [
+          "整合散乱的笔记、邮件、日历，一站式查看待办",
+          "通过 AI 帮助 ADHD 用户识别优先级，避免任务遗忘",
+          "将邮件内容自动转化为结构化任务或日程",
+          "提供适合注意力分散人群的简洁界面，减少干扰",
+          "跨设备同步信息，无缝切换工作环境"
+        ],
+        "designIntent": "Saner.AI 的设计初衷是填补市场上对 ADHD 友好工具的空白。现有生产力工具往往功能繁杂，对认知负担较高的用户反而造成障碍。产品以简单、专注、低摩擦为核心原则，将 AI 能力融入日常信息管理。",
+        "problemSolved": "传统生产力工具对 ADHD 用户不友好，功能过多反而导致分心。Saner.AI 通过 AI 自动整合笔记、邮件、日历三大信息流，减少用户的认知切换成本，帮助他们真正掌控自己的时间和任务。",
+        "score": 9,
+        "scoreReason": "精准切入 ADHD 这一被严重低估的细分市场（全球约 3.6 亿成人受影响），产品定位清晰、差异化强。整合三大核心信息源（笔记/邮件/日历）解决了真实且高频的痛点，具备较强的商业化潜力。",
+        "competitors": [
+          {
+            "name": "Notion",
+            "url": "https://notion.so",
+            "comparison": "Notion 功能强大但界面复杂，对 ADHD 用户过于繁重；Saner.AI 专为认知负担高的用户优化"
+          },
+          {
+            "name": "Superhuman",
+            "url": "https://superhuman.com",
+            "comparison": "Superhuman 专注邮件效率，但不覆盖笔记与日历整合，目标用户也不针对 ADHD"
+          },
+          {
+            "name": "Reclaim.ai",
+            "url": "https://reclaim.ai",
+            "comparison": "Reclaim 主打日程自动化，缺乏笔记整合与 ADHD 专属设计"
+          }
+        ]
+      }
+    },
+    {
+      "id": "personalpathways",
+      "name": "PersonalPathways",
+      "slug": "personalpathways",
+      "url": "https://personalpathways.io",
+      "homepage": "https://personalpathways.io",
+      "type": "saas",
+      "tags": [
+        "AI写作",
+        "个性化内容",
+        "邮件订阅",
+        "互动叙事",
+        "内容娱乐"
+      ],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "firstSeen": "2026-05-19T15:01:29.920007+00:00",
+      "cooldownExpiresAt": "2026-06-02T15:01:46.346154",
+      "analysis": {
+        "targetAudience": "热爱阅读、喜欢互动叙事体验的内容爱好者，以及希望每天收到真正个性化内容的用户",
+        "useCases": [
+          "订阅选择类冒险小说，每天通过邮件收到下一章节",
+          "根据个人兴趣定制非虚构新闻简报，AI 每日更新",
+          "利用碎片时间（通勤、早晨）阅读一小段连载故事",
+          "参与故事走向决策，体验我的选择影响故事结局的沉浸感",
+          "作为礼物或创意写作工具，定制专属故事送给朋友"
+        ],
+        "designIntent": "PersonalPathways 挑战了当前 AI 个性化的浅层实现（你点过这个，给你推同类）。真正的个性化是故事随你的决策而演化，每位用户看到的内容都独一无二。产品将 AI 生成能力与邮件这一低干扰媒介结合，打造了一种新型阅读体验。",
+        "problemSolved": "当前 AI 内容平台的个性化停留在分类推荐层面，并非真正的个体定制。PersonalPathways 通过每日一章 + 用户选择机制，让每位读者的故事路径完全不同，填补了互动个性化叙事的市场空白。",
+        "score": 8,
+        "scoreReason": "独特的产品形态——将 CYOA 互动小说与每日邮件连载结合，AI 生成门槛降低使其成为可行产品。兼顾娱乐（虚构）和信息（非虚构）两种模式，拓宽了目标用户范围。创意新颖，竞争壁垒来自执行质量。",
+        "competitors": [
+          {
+            "name": "Substack",
+            "url": "https://substack.com",
+            "comparison": "Substack 是作者驱动的单向订阅，缺乏交互性和 AI 个性化能力"
+          },
+          {
+            "name": "Choice of Games",
+            "url": "https://www.choiceofgames.com",
+            "comparison": "Choice of Games 提供互动小说但内容固定，非 AI 动态生成"
+          },
+          {
+            "name": "Morning Brew",
+            "url": "https://morningbrew.com",
+            "comparison": "Morning Brew 是优质新闻简报但内容对所有用户相同，缺乏个人化"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scripod-podcast-clipper",
+      "name": "Scripod 播客剪辑工具",
+      "slug": "scripod",
+      "url": "https://www.scripod.io",
+      "homepage": "https://www.scripod.io",
+      "type": "saas",
+      "tags": [
+        "播客制作",
+        "AI音频",
+        "内容创作",
+        "自动剪辑",
+        "字幕生成"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "firstSeen": "2026-05-19T15:01:29.920007+00:00",
+      "cooldownExpiresAt": "2026-06-02T15:01:46.346154",
+      "analysis": {
+        "targetAudience": "独立播客主播、视频博主、企业内容团队等需要处理长音视频的内容创作者",
+        "useCases": [
+          "上传录音后 AI 自动识别并删除嗯、啊、停顿等冗余片段",
+          "一键生成完整播客字幕和文字稿，方便 SEO 和内容再利用",
+          "自动降噪，处理键盘声、风扇声等背景噪音",
+          "通过文字编辑界面精细调整剪辑点，无需专业音频软件",
+          "将 1 小时播客的后期时间从 3-5 小时缩短到几分钟"
+        ],
+        "designIntent": "Scripod 针对播客创作者的核心痛点——后期剪辑耗时太长——提供以文字为界面的剪辑体验。用户无需学习专业音频软件，像编辑文章一样编辑音频，让内容创作的门槛大幅降低。",
+        "problemSolved": "传统音频剪辑软件（Audacity、Adobe Audition）学习成本高，且逐帧查找停顿极为耗时。Scripod 通过 AI 先转录再批量处理的方式，将繁琐的手工操作自动化，让内容质量提升的同时大幅节省时间。",
+        "score": 8,
+        "scoreReason": "明确的痛点（后期耗时）、清晰的价值（数小时→几分钟）、可量化的收益使产品说服力强。播客市场持续增长，内容创作者工具赛道需求旺盛。独立开发者产品，定位清晰。",
+        "competitors": [
+          {
+            "name": "Descript",
+            "url": "https://www.descript.com",
+            "comparison": "Descript 是该领域的行业标杆，功能全面但定价较高；Scripod 更轻量，适合个人和小团队"
+          },
+          {
+            "name": "Cleanvoice AI",
+            "url": "https://cleanvoice.ai",
+            "comparison": "Cleanvoice 专注音频清洁，不提供字幕生成和文字编辑界面"
+          },
+          {
+            "name": "Riverside.fm",
+            "url": "https://riverside.fm",
+            "comparison": "Riverside 主打高质量录制，后期剪辑功能相对有限"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rtriv-app",
+      "name": "Rtriv",
+      "slug": "rtriv",
+      "url": "https://rtriv.app",
+      "homepage": "https://rtriv.app",
+      "type": "app",
+      "tags": [
+        "社交媒体",
+        "书签管理",
+        "数字健康",
+        "iOS",
+        "个人效率"
+      ],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "firstSeen": "2026-05-19T15:01:29.920007+00:00",
+      "cooldownExpiresAt": "2026-06-02T15:01:46.346154",
+      "analysis": {
+        "targetAudience": "活跃于多个社交平台、有大量未整理收藏的用户，以及希望减少无意识刷手机的数字健康关注者",
+        "useCases": [
+          "将 Instagram、TikTok、X、YouTube、Pinterest 等 8 平台的收藏同步到一个统一库",
+          "重新发现并整理之前保存过但从未看的内容",
+          "通过内置的摩擦感机制（打断无意识切换），减少刷屏时长",
+          "对收藏内容进行分类标记，形成个人知识/灵感库",
+          "管理来自 Substack 和 Medium 的文章收藏"
+        ],
+        "designIntent": "Rtriv 同时解决了两个相关问题：收藏内容碎片化（散落在 8 个平台）和无意识滚动消费。前者是效率问题，后者是数字健康问题。通过统一入口和主动摩擦设计，让用户对自己的注意力有更多控制权。",
+        "problemSolved": "现代用户的数字收藏极度分散，Instagram 有保存、TikTok 有收藏、X 有书签，但这些内容几乎没人会再回去看。Rtriv 创造了一个跨平台统一入口，把零散收藏转化为真正有价值的个人内容库。",
+        "score": 7,
+        "scoreReason": "解决了真实存在的收藏夹综合症（人人有收藏，从不去看），场景高度普遍。结合数字健康切入点扩大产品价值主张。独立开发者项目，市场已有一些竞品，差异化在执行和覆盖平台的广度。",
+        "competitors": [
+          {
+            "name": "Readwise Reader",
+            "url": "https://readwise.io/reader",
+            "comparison": "Readwise 主要整合文章/newsletter，不覆盖视频类社交平台"
+          },
+          {
+            "name": "Pocket",
+            "url": "https://getpocket.com",
+            "comparison": "Pocket 专注网页文章保存，不支持社交平台内容"
+          },
+          {
+            "name": "Raindrop.io",
+            "url": "https://raindrop.io",
+            "comparison": "Raindrop 是强大的书签管理器，但同样不能整合社交平台原生收藏"
+          }
+        ]
+      }
+    },
+    {
+      "id": "billwatch-congress",
+      "name": "BillWatch",
+      "slug": "billwatch",
+      "url": "https://billwatch.co",
+      "homepage": "https://billwatch.co",
+      "type": "saas",
+      "tags": [
+        "法规监控",
+        "商业合规",
+        "SaaS",
+        "美国市场",
+        "AI摘要"
+      ],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "firstSeen": "2026-05-19T15:01:29.920007+00:00",
+      "cooldownExpiresAt": "2026-06-02T15:01:46.346154",
+      "analysis": {
+        "targetAudience": "在美国运营且受联邦法规影响的中小企业主、合规负责人、初创公司创始人",
+        "useCases": [
+          "设置关注的政策领域（税务、进口关税、劳工法、食品安全等），自动追踪相关法案",
+          "当某法案进入委员会审议或全院投票时，立即收到简明通知",
+          "在会计师或律师告知之前提前几周/几月了解即将生效的法规",
+          "出口相关企业追踪贸易政策和关税法案动态",
+          "雇主及时了解最低工资、医保要求等劳工法变化"
+        ],
+        "designIntent": "BillWatch 解决了信息不对称问题——大企业有专业游说团队和合规部门实时监控立法，小企业通常等到法规已经生效才知道。产品通过 AI 将复杂的国会流程翻译成平白英语，让信息触达门槛降至最低。",
+        "problemSolved": "绝大多数小企业主通过会计师、律师或新闻才知晓新法规，此时法规往往已生效或即将生效，缺乏充足响应时间。BillWatch 把法案监控从专业服务特权变成人人可用的工具。",
+        "score": 7,
+        "scoreReason": "痛点真实且有付费意愿（合规相关），目标用户（小企业主）规模庞大。产品定位清晰，AI+国会数据的组合有独特价值。主要限制是面向美国市场，全球化扩展受限。",
+        "competitors": [
+          {
+            "name": "Bloomberg Government",
+            "url": "https://about.bgov.com",
+            "comparison": "Bloomberg Government 面向大型机构，订阅费每年数千美元；BillWatch 面向小企业，价格门槛低得多"
+          },
+          {
+            "name": "GovTrack",
+            "url": "https://www.govtrack.us",
+            "comparison": "GovTrack 是免费的法案追踪工具，但不提供商业场景的相关性匹配和通俗化摘要"
+          },
+          {
+            "name": "Quorum",
+            "url": "https://www.quorum.us",
+            "comparison": "Quorum 是企业级政府事务软件，功能全面但价格和复杂度对小企业不友好"
+          }
+        ]
+      }
     }
   ],
   "tracking": {
