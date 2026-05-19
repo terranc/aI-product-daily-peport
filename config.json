@@ -1,0 +1,57 @@
+{
+  "project": {
+    "name": "AI Product Radar",
+    "description": "每日AI应用发现与每周深度分析",
+    "cooldownDays": 14,
+    "dailyLimit": 3,
+    "outputDir": "/Volumes/EXTEND/aI-product-daily-peport",
+    "github": {
+      "repo": "",
+      "pagesBranch": "gh-pages"
+    }
+  },
+  "channels": {
+    "hackernews": {
+      "enabled": true,
+      "endpoints": {
+        "top": "https://hacker-news.firebaseio.com/v0/topstories.json",
+        "new": "https://hacker-news.firebaseio.com/v0/newstories.json",
+        "show": "https://hacker-news.firebaseio.com/v0/showstories.json",
+        "item": "https://hacker-news.firebaseio.com/v0/item/{id}.json"
+      },
+      "keywords": ["AI", "LLM", "GPT", "ChatGPT", "Claude", "Gemini", "agent", "assistant", "automation"],
+      "minScore": 10
+    },
+    "twitter": {
+      "enabled": true,
+      "keywords": ["AI tool", "AI app", "launched", "shipping", "new feature"],
+      "accounts": ["ProductHunt", "ainewsletter", "bleedingedgeai"]
+    },
+    "reddit": {
+      "enabled": true,
+      "subreddits": ["SideProject", "ArtificialIntelligence", "SaaS", "Entrepreneur"],
+      "keywords": ["AI", "launched", "show", "tool", "app"]
+    },
+    "github": {
+      "enabled": true,
+      "searchQueries": ["AI tools", "LLM apps", "AI assistant", "GPT wrapper"],
+      "minStars": 50
+    }
+  },
+  "tags": {
+    "categories": ["写作", "设计", "编程", "办公", "教育", "创意", "生活", "商业", "娱乐", "健康", "金融", "法律", "客服", "营销", "数据"],
+    "techStack": ["ChatGPT", "Claude", "Gemini", "Llama", "开源模型", "自研模型", "API集成"],
+    "formFactor": ["Web应用", "浏览器插件", "桌面应用", "移动App", "API服务", "Discord Bot", "Slack应用"],
+    "pricing": ["免费", "免费增值", "付费", "企业版"],
+    "target": ["个人用户", "开发者", "设计师", "内容创作者", "企业", "学生", "专业工作者"]
+  },
+  "analysis": {
+    "criteria": {
+      "innovation": 0.25,
+      "practicality": 0.25,
+      "marketFit": 0.25,
+      "growthPotential": 0.25
+    },
+    "minScoreForFeature": 7
+  }
+}

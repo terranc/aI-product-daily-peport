@@ -1,0 +1,55 @@
+{
+  "products": {
+    "id": "string",
+    "name": "string",
+    "slug": "string",
+    "description": "string",
+    "url": "string",
+    "type": "website|app|saas|tool|other",
+    "appStoreName": "string|null",
+    "appStoreUrl": "string|null",
+    "platforms": ["web", "ios", "android", "desktop"],
+    "categories": ["string"],
+    "firstSeen": "ISO8601",
+    "lastSeen": "ISO8601",
+    "cooldownExpiresAt": "ISO8601",
+    "versions": [
+      {
+        "version": "string",
+        "date": "ISO8601",
+        "changes": "string",
+        "sourceChannel": "string"
+      }
+    ],
+    "sourceChannels": ["string"],
+    "mentions": [
+      {
+        "date": "ISO8601",
+        "channel": "string",
+        "url": "string",
+        "title": "string"
+      }
+    ],
+    "analysis": {
+      "targetAudience": "string",
+      "useCases": ["string"],
+      "designIntent": "string",
+      "problemSolved": "string",
+      "score": "number (1-10)",
+      "scoreReason": "string",
+      "competitors": [
+        {
+          "name": "string",
+          "url": "string",
+          "comparison": "string"
+        }
+      ]
+    },
+    "metrics": {
+      "weeklyViews": "number",
+      "growthRate": "number",
+      "featuredInDaily": "boolean",
+      "featuredInWeekly": "boolean"
+    }
+  }
+}

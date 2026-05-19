@@ -1,0 +1,3558 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-05-19T13:38:01.137665",
+  "products": [
+    {
+      "id": "a0152186571a",
+      "name": "Claude-Code-Design-AI",
+      "slug": "claude-code-design-ai",
+      "description": "Claude Design: AI UI/UX architect. Screenshot to React, Figma components, Tailwind CSS generator. Prototyping agent, design systems, wireframe renderer. SVG icon creator, dark mode toggle, responsive layout tool. Front-end code export, shadcn/ui integration, vector assets, branding assistant.",
+      "url": "https://github.com/mikesheehan54/Claude-Code-Design-AI",
+      "homepage": "",
+      "type": "github",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:00.960035",
+      "lastSeen": "2026-05-19T13:38:00.960037",
+      "cooldownExpiresAt": "2026-06-02T13:38:00.960038",
+      "versions": [],
+      "sourceChannels": [
+        "github"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:00.960042",
+          "channel": "github",
+          "url": "https://github.com/mikesheehan54/Claude-Code-Design-AI",
+          "title": "Claude-Code-Design-AI: Claude Design: AI UI/UX architect. Screenshot to React, Figma components, Tailwind CSS generator. Pr"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "gh_1237920944",
+        "name": "Claude-Code-Design-AI",
+        "title": "Claude-Code-Design-AI: Claude Design: AI UI/UX architect. Screenshot to React, Figma components, Tailwind CSS generator. Pr",
+        "url": "https://github.com/mikesheehan54/Claude-Code-Design-AI",
+        "description": "Claude Design: AI UI/UX architect. Screenshot to React, Figma components, Tailwind CSS generator. Prototyping agent, design systems, wireframe renderer. SVG icon creator, dark mode toggle, responsive layout tool. Front-end code export, shadcn/ui integration, vector assets, branding assistant.",
+        "homepage": "",
+        "score": 430,
+        "stars": 430,
+        "forks": 0,
+        "language": "TypeScript",
+        "timestamp": "2026-05-13T16:28:07Z",
+        "updated_at": "2026-05-19T01:05:47Z",
+        "source": "github",
+        "source_url": "https://github.com/mikesheehan54/Claude-Code-Design-AI",
+        "topics": [
+          "claude-ai",
+          "claude-code",
+          "claude-code-cli",
+          "claude-code-hooks",
+          "claude-code-marketplace",
+          "claude-code-plugin",
+          "claude-code-plugins",
+          "claude-code-skill",
+          "claude-code-skills",
+          "claude-code-subagents",
+          "claude-cowork-free",
+          "claude-design",
+          "claude-design-ai",
+          "claude-design-alternative",
+          "claude-design-download",
+          "claude-design-free",
+          "claude-design-install",
+          "claude-design-installer"
+        ]
+      }
+    },
+    {
+      "id": "29b1d45441b1",
+      "name": "Claude-Mythos-AI-Anthropic-App",
+      "slug": "claude-mythos-ai-anthropic-app",
+      "description": "Claude pro free Mythos design Opus Cowork  Sonnet AI Anthropic App: download free PC android apk iOS, Anthropic Claude API key setup, Claude roleplay mythos client, SillyTavern Claude prompt formatting, custom system prompt jailbreak, Mythos AI creative writing app, Claude 3.5 Sonnet Opus API cost, open source LLM frontend, Claude reverse proxy ",
+      "url": "https://github.com/AbhishekK130804/Claude-Mythos-AI-Anthropic-App",
+      "homepage": "",
+      "type": "github",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:00.961854",
+      "lastSeen": "2026-05-19T13:38:00.961858",
+      "cooldownExpiresAt": "2026-06-02T13:38:00.961859",
+      "versions": [],
+      "sourceChannels": [
+        "github"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:00.961862",
+          "channel": "github",
+          "url": "https://github.com/AbhishekK130804/Claude-Mythos-AI-Anthropic-App",
+          "title": "Claude-Mythos-AI-Anthropic-App: Claude pro free Mythos design Opus Cowork  Sonnet AI Anthropic App: download free PC android apk iOS"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "gh_1242694525",
+        "name": "Claude-Mythos-AI-Anthropic-App",
+        "title": "Claude-Mythos-AI-Anthropic-App: Claude pro free Mythos design Opus Cowork  Sonnet AI Anthropic App: download free PC android apk iOS",
+        "url": "https://github.com/AbhishekK130804/Claude-Mythos-AI-Anthropic-App",
+        "description": "Claude pro free Mythos design Opus Cowork  Sonnet AI Anthropic App: download free PC android apk iOS, Anthropic Claude API key setup, Claude roleplay mythos client, SillyTavern Claude prompt formatting, custom system prompt jailbreak, Mythos AI creative writing app, Claude 3.5 Sonnet Opus API cost, open source LLM frontend, Claude reverse proxy ",
+        "homepage": "",
+        "score": 336,
+        "stars": 336,
+        "forks": 0,
+        "language": "C#",
+        "timestamp": "2026-05-18T17:01:42Z",
+        "updated_at": "2026-05-19T05:37:42Z",
+        "source": "github",
+        "source_url": "https://github.com/AbhishekK130804/Claude-Mythos-AI-Anthropic-App",
+        "topics": [
+          "claude",
+          "claude-ai",
+          "claude-code",
+          "claude-code-cli",
+          "claude-code-hooks",
+          "claude-code-marketplace",
+          "claude-code-plugin",
+          "claude-code-plugins",
+          "claude-code-skill",
+          "claude-code-skills",
+          "claude-code-subagents",
+          "claude-cowork-free",
+          "claude-design-ai",
+          "claude-design-alternative",
+          "claude-design-download",
+          "claude-design-free",
+          "claude-mythos",
+          "claude-opus",
+          "claude-opus-4-6",
+          "mythos"
+        ]
+      }
+    },
+    {
+      "id": "dafa9686fbe1",
+      "name": "Elon Musk lost his lawsuit against Sam Altman and OpenAI",
+      "slug": "elon-musk-lost-his-lawsuit-against-sam-altman-and-openai",
+      "description": "Time-barred under the statute of limitations.\n\nOnly 90 min of deliberation\n\nMusk will appeal.\n\nhttps://preview.redd.it/fnpfyczfvx1h1.jpg?width=1080&format=pjpg&auto=webp&s=978323439abd62352e521791064c972f90e97dbb\n\n",
+      "url": "https://preview.redd.it/fnpfyczfvx1h1.jpg?width=1080&format=pjpg&auto=webp&s=978323439abd62352e521791064c972f90e97dbb",
+      "homepage": "",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:00.963117",
+      "lastSeen": "2026-05-19T13:38:00.963119",
+      "cooldownExpiresAt": "2026-06-02T13:38:00.963120",
+      "versions": [],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:00.963122",
+          "channel": "reddit",
+          "url": "https://reddit.com/r/ChatGPT/comments/1tgv9go/elon_musk_lost_his_lawsuit_against_sam_altman_and/",
+          "title": "Elon Musk lost his lawsuit against Sam Altman and OpenAI"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "reddit_1tgv9go",
+        "name": "Elon Musk lost his lawsuit against Sam Altman and OpenAI",
+        "title": "Elon Musk lost his lawsuit against Sam Altman and OpenAI",
+        "url": "https://preview.redd.it/fnpfyczfvx1h1.jpg?width=1080&format=pjpg&auto=webp&s=978323439abd62352e521791064c972f90e97dbb",
+        "redditUrl": "https://reddit.com/r/ChatGPT/comments/1tgv9go/elon_musk_lost_his_lawsuit_against_sam_altman_and/",
+        "description": "Time-barred under the statute of limitations.\n\nOnly 90 min of deliberation\n\nMusk will appeal.\n\nhttps://preview.redd.it/fnpfyczfvx1h1.jpg?width=1080&format=pjpg&auto=webp&s=978323439abd62352e521791064c972f90e97dbb\n\n",
+        "score": 458,
+        "upvotes": 458,
+        "comments": 86,
+        "subreddit": "ChatGPT",
+        "author": "Embarrassed-Slip8094",
+        "timestamp": "2026-05-19T02:05:30",
+        "source": "reddit",
+        "source_url": "https://reddit.com/r/ChatGPT/comments/1tgv9go/elon_musk_lost_his_lawsuit_against_sam_altman_and/"
+      }
+    },
+    {
+      "id": "c4791a9450fc",
+      "name": "Semble",
+      "slug": "semble",
+      "description": "Hey HN! We (Stephan and Thomas) recently open-sourced Semble. We kept running into the same problem while using Claude Code on large codebases: when the agent can&#x27;t find something directly, it falls back to grep, reading full files or launching subagents. This uses a lot of tokens, and often still misses the relevant code. There are existing tools for this, but they were either too slow to index on demand, needed API keys, or had poor retrieval quality.<p>Semble is our solution for this. It",
+      "url": "https://github.com/MinishLab/semble",
+      "homepage": "",
+      "type": "github",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:00.963519",
+      "lastSeen": "2026-05-19T13:38:00.963521",
+      "cooldownExpiresAt": "2026-06-02T13:38:00.963521",
+      "versions": [],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:00.963523",
+          "channel": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48169874",
+          "title": "Semble – Code search for agents that uses 98% fewer tokens than grep"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "开发者和技术团队",
+        "useCases": [
+          "代码生成和开发辅助"
+        ],
+        "designIntent": "基于Claude技术，提供Hey HN! We (Stephan and Thomas) recently open-sour",
+        "problemSolved": "解决开发者和技术团队在代码生成和开发辅助的效率问题",
+        "score": 9,
+        "scoreReason": "Hacker News 热度高（429分）；产品描述清晰完整；有可用产品链接",
+        "competitors": [
+          {
+            "name": "GitHub Copilot",
+            "url": "https://github.com/copilot",
+            "comparison": "IDE集成深，代码能力强"
+          },
+          {
+            "name": "Cursor",
+            "url": "https://cursor.sh",
+            "comparison": "AI原生编辑器体验好"
+          }
+        ],
+        "tags": [
+          "Claude",
+          "Web应用",
+          "编程"
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "hn_48169874",
+        "name": "Semble",
+        "title": "Semble – Code search for agents that uses 98% fewer tokens than grep",
+        "url": "https://github.com/MinishLab/semble",
+        "hn_url": "https://news.ycombinator.com/item?id=48169874",
+        "description": "Hey HN! We (Stephan and Thomas) recently open-sourced Semble. We kept running into the same problem while using Claude Code on large codebases: when the agent can&#x27;t find something directly, it falls back to grep, reading full files or launching subagents. This uses a lot of tokens, and often still misses the relevant code. There are existing tools for this, but they were either too slow to index on demand, needed API keys, or had poor retrieval quality.<p>Semble is our solution for this. It",
+        "score": 429,
+        "comments": 139,
+        "timestamp": "2026-05-17T23:37:07",
+        "source": "hackernews",
+        "source_url": "https://news.ycombinator.com/item?id=48169874"
+      }
+    },
+    {
+      "id": "7c94ad6008ac",
+      "name": "We let AIs run radio stations",
+      "slug": "we-let-ais-run-radio-stations",
+      "description": "Hey HN!<p>I&#x27;m Lukas from Andon Labs. We let AIs run companies without humans in the loop and report to the public on what can go wrong. Previously, we&#x27;ve done experiments in retail (vending machines, stores, and cafes), but we just launched one in the media sector. We gave four AI agents all the tools they need to both broadcast radio shows live and handle all the business side of running a media company. The agents&#x27; revenue is so far terrible (you can try to strike a sponsor deal",
+      "url": "https://andonlabs.com/blog/andon-fm",
+      "homepage": "",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:00.964120",
+      "lastSeen": "2026-05-19T13:38:00.964127",
+      "cooldownExpiresAt": "2026-06-02T13:38:00.964128",
+      "versions": [],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:00.964135",
+          "channel": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48183301",
+          "title": "We let AIs run radio stations"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "创业者和市场营销人员",
+        "useCases": [
+          "日常效率提升",
+          "重复任务自动化",
+          "创意激发辅助"
+        ],
+        "designIntent": "基于数据分析技术，提供Hey HN!<p>I&#x27;m Lukas from Andon Labs. We let A",
+        "problemSolved": "解决创业者和市场营销人员在日常效率提升的效率问题",
+        "score": 9,
+        "scoreReason": "Hacker News 热度高（217分）；产品描述清晰完整；有可用产品链接",
+        "competitors": [
+          {
+            "name": "ChatGPT",
+            "url": "https://chatgpt.com",
+            "comparison": "通用基准"
+          }
+        ],
+        "tags": [
+          "数据分析",
+          "商业",
+          "Web应用"
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "hn_48183301",
+        "name": "We let AIs run radio stations",
+        "title": "We let AIs run radio stations",
+        "url": "https://andonlabs.com/blog/andon-fm",
+        "hn_url": "https://news.ycombinator.com/item?id=48183301",
+        "description": "Hey HN!<p>I&#x27;m Lukas from Andon Labs. We let AIs run companies without humans in the loop and report to the public on what can go wrong. Previously, we&#x27;ve done experiments in retail (vending machines, stores, and cafes), but we just launched one in the media sector. We gave four AI agents all the tools they need to both broadcast radio shows live and handle all the business side of running a media company. The agents&#x27; revenue is so far terrible (you can try to strike a sponsor deal",
+        "score": 217,
+        "comments": 179,
+        "timestamp": "2026-05-19T02:12:18",
+        "source": "hackernews",
+        "source_url": "https://news.ycombinator.com/item?id=48183301"
+      }
+    },
+    {
+      "id": "c95320457ceb",
+      "name": "I know 71 users isn't huge but it feels unreal without marketing",
+      "slug": "i-know-71-users-isn't-huge-but-it-feels-unreal-without-marketing",
+      "description": "3 months ago I had zero coding knowledge.\n\nI was just frustrated as a faceless creator constantly switching between tools for scripts, hooks, voiceovers, stock footage, hashtags, etc.\n\nSo I started learning slowly with ChatGPT, tutorials, debugging, and a lot of failed attempts.\n\nToday I checked my dashboard and saw 71 users.\n\nObjectively, it’s still tiny.\n\nBut honestly… seeing even a small number of real people using something I built from scratch feels crazy to me.\n\nEspecially because a few mo",
+      "url": "https://i.redd.it/ax1gvglclv1h1.jpeg",
+      "homepage": "",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:00.965902",
+      "lastSeen": "2026-05-19T13:38:00.965905",
+      "cooldownExpiresAt": "2026-06-02T13:38:00.965906",
+      "versions": [],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:00.965908",
+          "channel": "reddit",
+          "url": "https://reddit.com/r/SaaS/comments/1tgiuy4/i_know_71_users_isnt_huge_but_it_feels_unreal/",
+          "title": "I know 71 users isn't huge but it feels unreal without marketing"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "reddit_1tgiuy4",
+        "name": "I know 71 users isn't huge but it feels unreal without marketing",
+        "title": "I know 71 users isn't huge but it feels unreal without marketing",
+        "url": "https://i.redd.it/ax1gvglclv1h1.jpeg",
+        "redditUrl": "https://reddit.com/r/SaaS/comments/1tgiuy4/i_know_71_users_isnt_huge_but_it_feels_unreal/",
+        "description": "3 months ago I had zero coding knowledge.\n\nI was just frustrated as a faceless creator constantly switching between tools for scripts, hooks, voiceovers, stock footage, hashtags, etc.\n\nSo I started learning slowly with ChatGPT, tutorials, debugging, and a lot of failed attempts.\n\nToday I checked my dashboard and saw 71 users.\n\nObjectively, it’s still tiny.\n\nBut honestly… seeing even a small number of real people using something I built from scratch feels crazy to me.\n\nEspecially because a few mo",
+        "score": 215,
+        "upvotes": 215,
+        "comments": 117,
+        "subreddit": "SaaS",
+        "author": "ThinkingLoud99_",
+        "timestamp": "2026-05-18T18:47:02",
+        "source": "reddit",
+        "source_url": "https://reddit.com/r/SaaS/comments/1tgiuy4/i_know_71_users_isnt_huge_but_it_feels_unreal/"
+      }
+    },
+    {
+      "id": "527815b551dd",
+      "name": "crossed 200k revenue on my dictation app, but honestly most of it was from lifet",
+      "slug": "crossed-200k-revenue-on-my-dictation-app,-but-honestly-most-of-it-was-from-lifet",
+      "description": " I know \"$200K total revenue\" sounds bigger than it is, so I'll be upfront: that's almost all lifetime deals, not MRR. The recurring number underneath is way smaller and I'm not going to pretend otherwise.\n\nStill, watching [Blip AI](http://blipai.app) (www.blipai.app) ( it's voice to text app available on all devices with action mode) cross $200K feels surreal. Most of it came through lifetime deals on AppSumo, not a clean subscription flywheel. After all the late nights on thedomain, analytics,",
+      "url": "https://i.redd.it/lu3gku8qpw1h1.jpeg",
+      "homepage": "",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:00.966582",
+      "lastSeen": "2026-05-19T13:38:00.966588",
+      "cooldownExpiresAt": "2026-06-02T13:38:00.966588",
+      "versions": [],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:00.966592",
+          "channel": "reddit",
+          "url": "https://reddit.com/r/SaaS/comments/1tgohgd/crossed_200k_revenue_on_my_dictation_app_but/",
+          "title": "crossed 200k revenue on my dictation app, but honestly most of it was from lifetime deal not MRR"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "reddit_1tgohgd",
+        "name": "crossed 200k revenue on my dictation app, but honestly most of it was from lifet",
+        "title": "crossed 200k revenue on my dictation app, but honestly most of it was from lifetime deal not MRR",
+        "url": "https://i.redd.it/lu3gku8qpw1h1.jpeg",
+        "redditUrl": "https://reddit.com/r/SaaS/comments/1tgohgd/crossed_200k_revenue_on_my_dictation_app_but/",
+        "description": " I know \"$200K total revenue\" sounds bigger than it is, so I'll be upfront: that's almost all lifetime deals, not MRR. The recurring number underneath is way smaller and I'm not going to pretend otherwise.\n\nStill, watching [Blip AI](http://blipai.app) (www.blipai.app) ( it's voice to text app available on all devices with action mode) cross $200K feels surreal. Most of it came through lifetime deals on AppSumo, not a clean subscription flywheel. After all the late nights on thedomain, analytics,",
+        "score": 139,
+        "upvotes": 139,
+        "comments": 44,
+        "subreddit": "SaaS",
+        "author": "Sea_Visual9618",
+        "timestamp": "2026-05-18T22:33:49",
+        "source": "reddit",
+        "source_url": "https://reddit.com/r/SaaS/comments/1tgohgd/crossed_200k_revenue_on_my_dictation_app_but/"
+      }
+    },
+    {
+      "id": "8fd18727417c",
+      "name": "Running the second public ODoH relay",
+      "slug": "running-the-second-public-odoh-relay",
+      "description": "Every privacy-focused DNS service requires an account: NextDNS, Cloudflare for Families, Apple&#x27;s iCloud Private Relay (paid, iOS-only). The protocol that doesn’t require one - ODoH - had basically one well-known public relay operator (Frank Denis on Fastly Compute, default in dnscrypt-proxy). I built a second one and the client to talk to it.",
+      "url": "https://numa.rs/blog/posts/odoh-anonymous-dns-without-an-account.html",
+      "homepage": "",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:00.967905",
+      "lastSeen": "2026-05-19T13:38:00.967908",
+      "cooldownExpiresAt": "2026-06-02T13:38:00.967908",
+      "versions": [],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:00.967911",
+          "channel": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48133561",
+          "title": "Running the second public ODoH relay"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "普通用户和效率追求者",
+        "useCases": [
+          "日常效率提升",
+          "重复任务自动化",
+          "创意激发辅助"
+        ],
+        "designIntent": "基于移动应用技术，提供Every privacy-focused DNS service requires an acco",
+        "problemSolved": "解决普通用户和效率追求者在日常效率提升的效率问题",
+        "score": 9,
+        "scoreReason": "Hacker News 热度高（125分）；产品描述清晰完整；有可用产品链接",
+        "competitors": [
+          {
+            "name": "ChatGPT",
+            "url": "https://chatgpt.com",
+            "comparison": "通用基准"
+          }
+        ],
+        "tags": [
+          "移动应用",
+          "AI工具"
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "hn_48133561",
+        "name": "Running the second public ODoH relay",
+        "title": "Running the second public ODoH relay",
+        "url": "https://numa.rs/blog/posts/odoh-anonymous-dns-without-an-account.html",
+        "hn_url": "https://news.ycombinator.com/item?id=48133561",
+        "description": "Every privacy-focused DNS service requires an account: NextDNS, Cloudflare for Families, Apple&#x27;s iCloud Private Relay (paid, iOS-only). The protocol that doesn’t require one - ODoH - had basically one well-known public relay operator (Frank Denis on Fastly Compute, default in dnscrypt-proxy). I built a second one and the client to talk to it.",
+        "score": 125,
+        "comments": 41,
+        "timestamp": "2026-05-14T18:44:50",
+        "source": "hackernews",
+        "source_url": "https://news.ycombinator.com/item?id=48133561"
+      }
+    },
+    {
+      "id": "eedc31937d1e",
+      "name": "InsForge",
+      "slug": "insforge",
+      "description": "Hi HN, I&#x27;m Hang, cofounder of InsForge (YC P26). InsForge is an open-source Heroku for AI coding agents: a backend platform designed for coding agents to deploy, operate, and debug end-to-end. Open source under Apache 2.0 (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;InsForge&#x2F;InsForge\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;InsForge&#x2F;InsForge</a>). Quick demo here (<a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;7Bax5qz0IfM\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;7Bax5qz0I",
+      "url": "https://github.com/InsForge/InsForge",
+      "homepage": "",
+      "type": "github",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:00.968602",
+      "lastSeen": "2026-05-19T13:38:00.968604",
+      "cooldownExpiresAt": "2026-06-02T13:38:00.968605",
+      "versions": [],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:00.968607",
+          "channel": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48181342",
+          "title": "InsForge – Open-source Heroku for coding agents"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "hn_48181342",
+        "name": "InsForge",
+        "title": "InsForge – Open-source Heroku for coding agents",
+        "url": "https://github.com/InsForge/InsForge",
+        "hn_url": "https://news.ycombinator.com/item?id=48181342",
+        "description": "Hi HN, I&#x27;m Hang, cofounder of InsForge (YC P26). InsForge is an open-source Heroku for AI coding agents: a backend platform designed for coding agents to deploy, operate, and debug end-to-end. Open source under Apache 2.0 (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;InsForge&#x2F;InsForge\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;InsForge&#x2F;InsForge</a>). Quick demo here (<a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;7Bax5qz0IfM\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;7Bax5qz0I",
+        "score": 41,
+        "comments": 6,
+        "timestamp": "2026-05-18T23:40:42",
+        "source": "hackernews",
+        "source_url": "https://news.ycombinator.com/item?id=48181342"
+      }
+    },
+    {
+      "id": "abe170d5c199",
+      "name": "Browser based sythesizer, drum machine and squencer",
+      "slug": "browser-based-sythesizer,-drum-machine-and-squencer",
+      "description": "Inspired by the recent Boards Of Canada announcement, I&#x27;ve been in a low-fi electronica mood lately and was going back and forth with Claude on how to design similar instruments in the browser that fit the genre.  One thing led to another and pretty soon I had a fully browser based polyphonic synthesizer &#x2F; drum machine &#x2F; sequencer.<p>The interface and workflow was heavily inspired by the Rebirth338 application released back in the 90&#x27;s, but with lo-fi synth voices rather than",
+      "url": "https://github.com/madmonk13/modal-16",
+      "homepage": "",
+      "type": "github",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:00.969873",
+      "lastSeen": "2026-05-19T13:38:00.969875",
+      "cooldownExpiresAt": "2026-06-02T13:38:00.969876",
+      "versions": [],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:00.969878",
+          "channel": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48153194",
+          "title": "Browser based sythesizer, drum machine and squencer"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "hn_48153194",
+        "name": "Browser based sythesizer, drum machine and squencer",
+        "title": "Browser based sythesizer, drum machine and squencer",
+        "url": "https://github.com/madmonk13/modal-16",
+        "hn_url": "https://news.ycombinator.com/item?id=48153194",
+        "description": "Inspired by the recent Boards Of Canada announcement, I&#x27;ve been in a low-fi electronica mood lately and was going back and forth with Claude on how to design similar instruments in the browser that fit the genre.  One thing led to another and pretty soon I had a fully browser based polyphonic synthesizer &#x2F; drum machine &#x2F; sequencer.<p>The interface and workflow was heavily inspired by the Rebirth338 application released back in the 90&#x27;s, but with lo-fi synth voices rather than",
+        "score": 21,
+        "comments": 4,
+        "timestamp": "2026-05-16T04:07:53",
+        "source": "hackernews",
+        "source_url": "https://news.ycombinator.com/item?id=48153194"
+      }
+    },
+    {
+      "id": "b8ddca69a69a",
+      "name": "Beacon",
+      "slug": "beacon",
+      "description": "",
+      "url": "https://github.com/Asymptote-Labs/agent-beacon",
+      "homepage": "",
+      "type": "github",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:00.970683",
+      "lastSeen": "2026-05-19T13:38:00.970685",
+      "cooldownExpiresAt": "2026-06-02T13:38:00.970686",
+      "versions": [],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:00.970689",
+          "channel": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48183793",
+          "title": "Beacon - The open-source layer for local AI agent visibility"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "hn_48183793",
+        "name": "Beacon",
+        "title": "Beacon - The open-source layer for local AI agent visibility",
+        "url": "https://github.com/Asymptote-Labs/agent-beacon",
+        "hn_url": "https://news.ycombinator.com/item?id=48183793",
+        "description": "",
+        "score": 19,
+        "comments": 7,
+        "timestamp": "2026-05-19T02:45:55",
+        "source": "hackernews",
+        "source_url": "https://news.ycombinator.com/item?id=48183793"
+      }
+    },
+    {
+      "id": "5c72c2802561",
+      "name": "It's not much, but my platform just made its first £95",
+      "slug": "it's-not-much,-but-my-platform-just-made-its-first-£95",
+      "description": "I know it looks like just enough for a meal out, but seeing this \"Gross Volume\" dashboard tick up to £95.83 feels absolutely surreal.\n\nAfter spending so much time deep in the weeds setting up the domain, configuring analytics, tracking logs, and constantly tweaking the code getting genuine validation from traders is wild. It’s one thing to build something you think is cool, but it’s a whole different feeling when someone actually pulls out their card to pay for it.\n\nThe grind of countless outrea",
+      "url": "https://i.redd.it/zipxvsc53y1h1.jpeg",
+      "homepage": "",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:00.971934",
+      "lastSeen": "2026-05-19T13:38:00.971936",
+      "cooldownExpiresAt": "2026-06-02T13:38:00.971937",
+      "versions": [],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:00.971940",
+          "channel": "reddit",
+          "url": "https://reddit.com/r/SaaS/comments/1tgxmwd/its_not_much_but_my_platform_just_made_its_first/",
+          "title": "It's not much, but my platform just made its first £95"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "reddit_1tgxmwd",
+        "name": "It's not much, but my platform just made its first £95",
+        "title": "It's not much, but my platform just made its first £95",
+        "url": "https://i.redd.it/zipxvsc53y1h1.jpeg",
+        "redditUrl": "https://reddit.com/r/SaaS/comments/1tgxmwd/its_not_much_but_my_platform_just_made_its_first/",
+        "description": "I know it looks like just enough for a meal out, but seeing this \"Gross Volume\" dashboard tick up to £95.83 feels absolutely surreal.\n\nAfter spending so much time deep in the weeds setting up the domain, configuring analytics, tracking logs, and constantly tweaking the code getting genuine validation from traders is wild. It’s one thing to build something you think is cool, but it’s a whole different feeling when someone actually pulls out their card to pay for it.\n\nThe grind of countless outrea",
+        "score": 18,
+        "upvotes": 18,
+        "comments": 13,
+        "subreddit": "SaaS",
+        "author": "clreatradeapp",
+        "timestamp": "2026-05-19T03:10:21",
+        "source": "reddit",
+        "source_url": "https://reddit.com/r/SaaS/comments/1tgxmwd/its_not_much_but_my_platform_just_made_its_first/"
+      }
+    },
+    {
+      "id": "74f0a13b1f36",
+      "name": "2,339% growth. 1,800 site visitors. 2 paying customers. 0 marketing spend. 6 mon",
+      "slug": "2,339%-growth--1,800-site-visitors--2-paying-customers--0-marketing-spend--6-mon",
+      "description": "Not going to sugarcoat it. 2 paying customers isn't impressive.\n\nBut here's what made it meaningful.\n\nWe launched a browser extension in December 2025. Told nobody. No announcements. No ad spend. 1,800 people found us anyway. 780 installed it. 2 paid for an annual plan HEHEHE.\n\nThat last number changed how we think about building.\n\n**What we learned:**\n\n**Boring problems have loyal users.** We removed Chrome's 10-shortcut limit. Unglamorous in this AI era. But people who need it really need it.\n",
+      "url": "https://i.redd.it/r1xnp1ix8x1h1.png",
+      "homepage": "",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:00.973219",
+      "lastSeen": "2026-05-19T13:38:00.973222",
+      "cooldownExpiresAt": "2026-06-02T13:38:00.973222",
+      "versions": [],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:00.973225",
+          "channel": "reddit",
+          "url": "https://reddit.com/r/SaaS/comments/1tgrl9y/2339_growth_1800_site_visitors_2_paying_customers/",
+          "title": "2,339% growth. 1,800 site visitors. 2 paying customers. 0 marketing spend. 6 months of building taught us this."
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "reddit_1tgrl9y",
+        "name": "2,339% growth. 1,800 site visitors. 2 paying customers. 0 marketing spend. 6 mon",
+        "title": "2,339% growth. 1,800 site visitors. 2 paying customers. 0 marketing spend. 6 months of building taught us this.",
+        "url": "https://i.redd.it/r1xnp1ix8x1h1.png",
+        "redditUrl": "https://reddit.com/r/SaaS/comments/1tgrl9y/2339_growth_1800_site_visitors_2_paying_customers/",
+        "description": "Not going to sugarcoat it. 2 paying customers isn't impressive.\n\nBut here's what made it meaningful.\n\nWe launched a browser extension in December 2025. Told nobody. No announcements. No ad spend. 1,800 people found us anyway. 780 installed it. 2 paid for an annual plan HEHEHE.\n\nThat last number changed how we think about building.\n\n**What we learned:**\n\n**Boring problems have loyal users.** We removed Chrome's 10-shortcut limit. Unglamorous in this AI era. But people who need it really need it.\n",
+        "score": 17,
+        "upvotes": 17,
+        "comments": 7,
+        "subreddit": "SaaS",
+        "author": "noneisheree",
+        "timestamp": "2026-05-19T00:21:06",
+        "source": "reddit",
+        "source_url": "https://reddit.com/r/SaaS/comments/1tgrl9y/2339_growth_1800_site_visitors_2_paying_customers/"
+      }
+    },
+    {
+      "id": "12ce5b9370e2",
+      "name": "My productivity app just hit 60 people on the waitlist.. im genuinely shaking gu",
+      "slug": "my-productivity-app-just-hit-60-people-on-the-waitlist---im-genuinely-shaking-gu",
+      "description": "literally just the title. I launched the waitlist landing page for my [app](http://thelockn.com) 6 days ago and I can't believe the amount of support I got. This genuinely feels surreal to me. The fact that 60 internet strangers cared enough to waitlist my app really means alot to me. \n\nif anyone reading this is contemplating launching their website or app, JUST DO IT. I was really unsure if I shoudve launched my app and face criticism from others or keep it local for personal use, but I'm reall",
+      "url": "http://thelockn.com",
+      "homepage": "",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:00.974782",
+      "lastSeen": "2026-05-19T13:38:00.974784",
+      "cooldownExpiresAt": "2026-06-02T13:38:00.974785",
+      "versions": [],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:00.974787",
+          "channel": "reddit",
+          "url": "https://reddit.com/r/SaaS/comments/1tgqmks/my_productivity_app_just_hit_60_people_on_the/",
+          "title": "My productivity app just hit 60 people on the waitlist.. im genuinely shaking guys... 🥹🥹🥹"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "reddit_1tgqmks",
+        "name": "My productivity app just hit 60 people on the waitlist.. im genuinely shaking gu",
+        "title": "My productivity app just hit 60 people on the waitlist.. im genuinely shaking guys... 🥹🥹🥹",
+        "url": "http://thelockn.com",
+        "redditUrl": "https://reddit.com/r/SaaS/comments/1tgqmks/my_productivity_app_just_hit_60_people_on_the/",
+        "description": "literally just the title. I launched the waitlist landing page for my [app](http://thelockn.com) 6 days ago and I can't believe the amount of support I got. This genuinely feels surreal to me. The fact that 60 internet strangers cared enough to waitlist my app really means alot to me. \n\nif anyone reading this is contemplating launching their website or app, JUST DO IT. I was really unsure if I shoudve launched my app and face criticism from others or keep it local for personal use, but I'm reall",
+        "score": 12,
+        "upvotes": 12,
+        "comments": 11,
+        "subreddit": "SaaS",
+        "author": "gordiony",
+        "timestamp": "2026-05-18T23:48:25",
+        "source": "reddit",
+        "source_url": "https://reddit.com/r/SaaS/comments/1tgqmks/my_productivity_app_just_hit_60_people_on_the/"
+      }
+    },
+    {
+      "id": "504526e8b2b8",
+      "name": "How to Kill the Dead Internet",
+      "slug": "how-to-kill-the-dead-internet",
+      "description": "Ok, so maybe &quot;how to revive the internet&quot; would be more accurate, but if you&#x27;re reading this, I got your attention, right? Here&#x27;s why I want you to read on: I built a free extension, D-slop, to disincentivize anyone from posting AI writing, and eventually images and video as well, on the internet.<p>For writing, it checks known vocab and punctuation tells, as well as subtler tells related to cadence, and assigns it a score subject to an adjustable threshold. If the text fails",
+      "url": "https://chromewebstore.google.com/detail/d-slop/cnjeckkgbjgfledbphbobjabnfjnheef",
+      "homepage": "",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:00.975852",
+      "lastSeen": "2026-05-19T13:38:00.975854",
+      "cooldownExpiresAt": "2026-06-02T13:38:00.975855",
+      "versions": [],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:00.975857",
+          "channel": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48174775",
+          "title": "How to Kill the Dead Internet"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "hn_48174775",
+        "name": "How to Kill the Dead Internet",
+        "title": "How to Kill the Dead Internet",
+        "url": "https://chromewebstore.google.com/detail/d-slop/cnjeckkgbjgfledbphbobjabnfjnheef",
+        "hn_url": "https://news.ycombinator.com/item?id=48174775",
+        "description": "Ok, so maybe &quot;how to revive the internet&quot; would be more accurate, but if you&#x27;re reading this, I got your attention, right? Here&#x27;s why I want you to read on: I built a free extension, D-slop, to disincentivize anyone from posting AI writing, and eventually images and video as well, on the internet.<p>For writing, it checks known vocab and punctuation tells, as well as subtler tells related to cadence, and assigns it a score subject to an adjustable threshold. If the text fails",
+        "score": 9,
+        "comments": 6,
+        "timestamp": "2026-05-18T09:35:17",
+        "source": "hackernews",
+        "source_url": "https://news.ycombinator.com/item?id=48174775"
+      }
+    },
+    {
+      "id": "4ba9a4d4ba5d",
+      "name": "r/SaaS v2 is Building in Public - month 1",
+      "slug": "r/saas-v2-is-building-in-public---month-1",
+      "description": "Hello fellow SaaS-ers, \n\n\n\nExactly one month ago, u/ModCodeofConduct notified u/Dubinko and myself about being selected to moderate this sub, as the previous mod team was deemed unfit for the task.\n\n\n\nThis message is meant to give you an update on what’s happened in the meantime and to keep you in the loop.\n\n\n\n# Let me start by introducing The Team:\n\n* **4 Human mods**\n   * u/Dubinko: 5y on Reddit, 16k karma, 1.1k contributions, active mod on: r/SaaS, r/devops and r/platformengineering \n   * u/B",
+      "url": "https://i.redd.it/4rgzpy90111h1.png",
+      "homepage": "",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:00.977766",
+      "lastSeen": "2026-05-19T13:38:00.977768",
+      "cooldownExpiresAt": "2026-06-02T13:38:00.977768",
+      "versions": [],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:00.977771",
+          "channel": "reddit",
+          "url": "https://reddit.com/r/SaaS/comments/1tcmvc6/rsaas_v2_is_building_in_public_month_1/",
+          "title": "r/SaaS v2 is Building in Public - month 1"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "reddit_1tcmvc6",
+        "name": "r/SaaS v2 is Building in Public - month 1",
+        "title": "r/SaaS v2 is Building in Public - month 1",
+        "url": "https://i.redd.it/4rgzpy90111h1.png",
+        "redditUrl": "https://reddit.com/r/SaaS/comments/1tcmvc6/rsaas_v2_is_building_in_public_month_1/",
+        "description": "Hello fellow SaaS-ers, \n\n\n\nExactly one month ago, u/ModCodeofConduct notified u/Dubinko and myself about being selected to moderate this sub, as the previous mod team was deemed unfit for the task.\n\n\n\nThis message is meant to give you an update on what’s happened in the meantime and to keep you in the loop.\n\n\n\n# Let me start by introducing The Team:\n\n* **4 Human mods**\n   * u/Dubinko: 5y on Reddit, 16k karma, 1.1k contributions, active mod on: r/SaaS, r/devops and r/platformengineering \n   * u/B",
+        "score": 9,
+        "upvotes": 9,
+        "comments": 10,
+        "subreddit": "SaaS",
+        "author": "ergonet",
+        "timestamp": "2026-05-14T12:01:35",
+        "source": "reddit",
+        "source_url": "https://reddit.com/r/SaaS/comments/1tcmvc6/rsaas_v2_is_building_in_public_month_1/"
+      }
+    },
+    {
+      "id": "684af940ba48",
+      "name": "JDS",
+      "slug": "jds",
+      "description": "A few months ago I stumbled on obra&#x27;s superpowers repository <a href=\"https:&#x2F;&#x2F;github.com&#x2F;obra&#x2F;superpowers\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;obra&#x2F;superpowers</a>. I really liked the approach and idea that you enforce discipline for your agent through a skill-based workflow. Even though coding agents (copilot included) have become a lot better at natively handling complex tasks, they still wander off and lose track of things. I really liked how superpo",
+      "url": "https://github.com/josipmusa/jds",
+      "homepage": "",
+      "type": "github",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:00.979036",
+      "lastSeen": "2026-05-19T13:38:00.979041",
+      "cooldownExpiresAt": "2026-06-02T13:38:00.979042",
+      "versions": [],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:00.979047",
+          "channel": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48140677",
+          "title": "JDS – a Copilot skill suite for structuring AI coding behavior"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "hn_48140677",
+        "name": "JDS",
+        "title": "JDS – a Copilot skill suite for structuring AI coding behavior",
+        "url": "https://github.com/josipmusa/jds",
+        "hn_url": "https://news.ycombinator.com/item?id=48140677",
+        "description": "A few months ago I stumbled on obra&#x27;s superpowers repository <a href=\"https:&#x2F;&#x2F;github.com&#x2F;obra&#x2F;superpowers\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;obra&#x2F;superpowers</a>. I really liked the approach and idea that you enforce discipline for your agent through a skill-based workflow. Even though coding agents (copilot included) have become a lot better at natively handling complex tasks, they still wander off and lose track of things. I really liked how superpo",
+        "score": 8,
+        "comments": 0,
+        "timestamp": "2026-05-15T04:17:37",
+        "source": "hackernews",
+        "source_url": "https://news.ycombinator.com/item?id=48140677"
+      }
+    },
+    {
+      "id": "500134f3870e",
+      "name": "Strava for AI coding",
+      "slug": "strava-for-ai-coding",
+      "description": "",
+      "url": "https://github.com/microsoft/AI-Engineering-Coach",
+      "homepage": "",
+      "type": "github",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:00.981516",
+      "lastSeen": "2026-05-19T13:38:00.981522",
+      "cooldownExpiresAt": "2026-06-02T13:38:00.981523",
+      "versions": [],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:00.981528",
+          "channel": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48161004",
+          "title": "Strava for AI coding – analytics on your Copilot/Claude/Codex usage"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "hn_48161004",
+        "name": "Strava for AI coding",
+        "title": "Strava for AI coding – analytics on your Copilot/Claude/Codex usage",
+        "url": "https://github.com/microsoft/AI-Engineering-Coach",
+        "hn_url": "https://news.ycombinator.com/item?id=48161004",
+        "description": "",
+        "score": 8,
+        "comments": 1,
+        "timestamp": "2026-05-16T23:23:41",
+        "source": "hackernews",
+        "source_url": "https://news.ycombinator.com/item?id=48161004"
+      }
+    },
+    {
+      "id": "63d34695774e",
+      "name": "Infinite Swap",
+      "slug": "infinite-swap",
+      "description": "Hey HN,<p>Infinite Swap is a game inspired by Kyle MacDonald’s One Red Paperclip and other bigger-and-better swap stories - you start with a green bottle cap and trade it with other characters in various locations all the way up to a house and beyond.<p>A while ago I got inspired by viral games Infinite Craft and What Beats Rock? and wanted to make my own ‘exploring a LLM’s latent space’ style challenge. After much experimentation this became a trading style game, where the LLM comes up with all",
+      "url": "https://infiniteswap.app/",
+      "homepage": "",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:00.983474",
+      "lastSeen": "2026-05-19T13:38:00.983479",
+      "cooldownExpiresAt": "2026-06-02T13:38:00.983480",
+      "versions": [],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:00.983484",
+          "channel": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48160967",
+          "title": "Infinite Swap – Trade a bottle cap up to a house"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "hn_48160967",
+        "name": "Infinite Swap",
+        "title": "Infinite Swap – Trade a bottle cap up to a house",
+        "url": "https://infiniteswap.app/",
+        "hn_url": "https://news.ycombinator.com/item?id=48160967",
+        "description": "Hey HN,<p>Infinite Swap is a game inspired by Kyle MacDonald’s One Red Paperclip and other bigger-and-better swap stories - you start with a green bottle cap and trade it with other characters in various locations all the way up to a house and beyond.<p>A while ago I got inspired by viral games Infinite Craft and What Beats Rock? and wanted to make my own ‘exploring a LLM’s latent space’ style challenge. After much experimentation this became a trading style game, where the LLM comes up with all",
+        "score": 8,
+        "comments": 5,
+        "timestamp": "2026-05-16T23:18:47",
+        "source": "hackernews",
+        "source_url": "https://news.ycombinator.com/item?id=48160967"
+      }
+    },
+    {
+      "id": "b54752bb215c",
+      "name": "I built an app where you journal by talking to Stoic Philosophers - and anyone e",
+      "slug": "i-built-an-app-where-you-journal-by-talking-to-stoic-philosophers---and-anyone-e",
+      "description": "Hey everyone. I have been working on this for a while and wanted to share it before it goes live. It is called Lumis. The short version is that it is a journaling app, but instead of writing into a blank page you talk to Marcus Aurelius, Seneca, and Epictetus. They answer in their own voice and they remember what you talked about before. You can also add your own mentors, so if there is a specific thinker or person you want to reflect with, you can bring them in too. \n\nI made it because I have t",
+      "url": "http://lumis.quest",
+      "homepage": "",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:00.985504",
+      "lastSeen": "2026-05-19T13:38:00.985506",
+      "cooldownExpiresAt": "2026-06-02T13:38:00.985507",
+      "versions": [],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:00.985509",
+          "channel": "reddit",
+          "url": "https://reddit.com/r/SideProject/comments/1th6mha/i_built_an_app_where_you_journal_by_talking_to/",
+          "title": "I built an app where you journal by talking to Stoic Philosophers - and anyone else!"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "reddit_1th6mha",
+        "name": "I built an app where you journal by talking to Stoic Philosophers - and anyone e",
+        "title": "I built an app where you journal by talking to Stoic Philosophers - and anyone else!",
+        "url": "http://lumis.quest",
+        "redditUrl": "https://reddit.com/r/SideProject/comments/1th6mha/i_built_an_app_where_you_journal_by_talking_to/",
+        "description": "Hey everyone. I have been working on this for a while and wanted to share it before it goes live. It is called Lumis. The short version is that it is a journaling app, but instead of writing into a blank page you talk to Marcus Aurelius, Seneca, and Epictetus. They answer in their own voice and they remember what you talked about before. You can also add your own mentors, so if there is a specific thinker or person you want to reflect with, you can bring them in too. \n\nI made it because I have t",
+        "score": 8,
+        "upvotes": 8,
+        "comments": 8,
+        "subreddit": "SideProject",
+        "author": "Harrrararar",
+        "timestamp": "2026-05-19T08:27:45",
+        "source": "reddit",
+        "source_url": "https://reddit.com/r/SideProject/comments/1th6mha/i_built_an_app_where_you_journal_by_talking_to/"
+      }
+    },
+    {
+      "id": "b10305dba77c",
+      "name": "drea",
+      "slug": "drea",
+      "description": "Always been annoyed by podcast ads. Searched and found a few apps that can detect and skip them, but they were all paid. So I made a free one. To my knowledge this is the first podcast app with free ad block.<p>iOS (26+) only for now. If the app becomes popular I&#x27;ll def think of doing an Android version as well.<p>The app doesn&#x27;t require a user account. I may open-source it at some point; still thinking about it. If anyone&#x27;s suspicious about how it&#x27;s able to be free, i.e. doe",
+      "url": "https://drea.fm/",
+      "homepage": "",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:00.988240",
+      "lastSeen": "2026-05-19T13:38:00.988244",
+      "cooldownExpiresAt": "2026-06-02T13:38:00.988245",
+      "versions": [],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:00.988248",
+          "channel": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48184645",
+          "title": "drea – podcast ad blocker"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "hn_48184645",
+        "name": "drea",
+        "title": "drea – podcast ad blocker",
+        "url": "https://drea.fm/",
+        "hn_url": "https://news.ycombinator.com/item?id=48184645",
+        "description": "Always been annoyed by podcast ads. Searched and found a few apps that can detect and skip them, but they were all paid. So I made a free one. To my knowledge this is the first podcast app with free ad block.<p>iOS (26+) only for now. If the app becomes popular I&#x27;ll def think of doing an Android version as well.<p>The app doesn&#x27;t require a user account. I may open-source it at some point; still thinking about it. If anyone&#x27;s suspicious about how it&#x27;s able to be free, i.e. doe",
+        "score": 7,
+        "comments": 0,
+        "timestamp": "2026-05-19T03:50:42",
+        "source": "hackernews",
+        "source_url": "https://news.ycombinator.com/item?id=48184645"
+      }
+    },
+    {
+      "id": "57ba469fc5be",
+      "name": "Serene Bach",
+      "slug": "serene-bach",
+      "description": "I originally made Serene Bach in the 2000s as a weblog engine written in Perl CGI. I rebuilt it from scratch in Go as a single binary that can run either as a CGI program or as a normal HTTP server.<p>I know CGI is generally considered legacy technology now, but I still rely on it for shared hosting. In this version, I added Markdown support, a responsive default theme, Open Graph image generation, and static output generation.<p>It is still in beta, but the repository includes a Docker image pu",
+      "url": "https://github.com/serendipitynz/serenebach",
+      "homepage": "",
+      "type": "github",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:00.989912",
+      "lastSeen": "2026-05-19T13:38:00.989916",
+      "cooldownExpiresAt": "2026-06-02T13:38:00.989917",
+      "versions": [],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:00.989921",
+          "channel": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48165898",
+          "title": "Serene Bach – a Go weblog engine that runs as CGI or HTTP"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "hn_48165898",
+        "name": "Serene Bach",
+        "title": "Serene Bach – a Go weblog engine that runs as CGI or HTTP",
+        "url": "https://github.com/serendipitynz/serenebach",
+        "hn_url": "https://news.ycombinator.com/item?id=48165898",
+        "description": "I originally made Serene Bach in the 2000s as a weblog engine written in Perl CGI. I rebuilt it from scratch in Go as a single binary that can run either as a CGI program or as a normal HTTP server.<p>I know CGI is generally considered legacy technology now, but I still rely on it for shared hosting. In this version, I added Markdown support, a responsive default theme, Open Graph image generation, and static output generation.<p>It is still in beta, but the repository includes a Docker image pu",
+        "score": 6,
+        "comments": 0,
+        "timestamp": "2026-05-17T11:47:36",
+        "source": "hackernews",
+        "source_url": "https://news.ycombinator.com/item?id=48165898"
+      }
+    },
+    {
+      "id": "57601308933d",
+      "name": "MIT OSS LinkedIn DMs for Agents (CLI and Example TUI)",
+      "slug": "mit-oss-linkedin-dms-for-agents-(cli-and-example-tui)",
+      "description": "I was tired of paying $100s&#x2F;mo to access data I should own -- my own DMs on social media -- so I built Allman, a local-first cli to access linkedin messenger.<p>Starting with LinkedIn, I gave the entire compiled js binary of linkedin&#x27;s web app to claudecode and reversed engineered the entire messenger inbox in 24 hours. My goal is to bring this to all messengers so AI can handle all of this busywork, just like it can my email.<p>I had also never built a TUI so I had claudecode build me",
+      "url": "https://allman.sh",
+      "homepage": "",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:00.991778",
+      "lastSeen": "2026-05-19T13:38:00.991781",
+      "cooldownExpiresAt": "2026-06-02T13:38:00.991781",
+      "versions": [],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:00.991784",
+          "channel": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48153575",
+          "title": "MIT OSS LinkedIn DMs for Agents (CLI and Example TUI)"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "hn_48153575",
+        "name": "MIT OSS LinkedIn DMs for Agents (CLI and Example TUI)",
+        "title": "MIT OSS LinkedIn DMs for Agents (CLI and Example TUI)",
+        "url": "https://allman.sh",
+        "hn_url": "https://news.ycombinator.com/item?id=48153575",
+        "description": "I was tired of paying $100s&#x2F;mo to access data I should own -- my own DMs on social media -- so I built Allman, a local-first cli to access linkedin messenger.<p>Starting with LinkedIn, I gave the entire compiled js binary of linkedin&#x27;s web app to claudecode and reversed engineered the entire messenger inbox in 24 hours. My goal is to bring this to all messengers so AI can handle all of this busywork, just like it can my email.<p>I had also never built a TUI so I had claudecode build me",
+        "score": 6,
+        "comments": 1,
+        "timestamp": "2026-05-16T04:45:58",
+        "source": "hackernews",
+        "source_url": "https://news.ycombinator.com/item?id=48153575"
+      }
+    },
+    {
+      "id": "9d124c99f59e",
+      "name": "Got ghosted by tech companies so I built a tool to track ghost jobs",
+      "slug": "got-ghosted-by-tech-companies-so-i-built-a-tool-to-track-ghost-jobs",
+      "description": "Last year I was looking for a new role. I sent out applications, did the prep, waited. What came back was mostly nothing. Not rejection emails, just silence. The job listings I&#x27;d applied to stayed live for weeks. Some for months.<p>As a software engineer, I decided to dig into it properly. I built a system to continuously track job postings across companies, logging posting dates and measuring how long roles stay open before closing or don&#x27;t. After 35,000+ listings across 200+ companie",
+      "url": "https://csvfirst.pythonanywhere.com/insights/hiring-data/job-listings-that-stay-open-for-years/",
+      "homepage": "",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:00.993878",
+      "lastSeen": "2026-05-19T13:38:00.993880",
+      "cooldownExpiresAt": "2026-06-02T13:38:00.993881",
+      "versions": [],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:00.993883",
+          "channel": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48163604",
+          "title": "Got ghosted by tech companies so I built a tool to track ghost jobs"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "hn_48163604",
+        "name": "Got ghosted by tech companies so I built a tool to track ghost jobs",
+        "title": "Got ghosted by tech companies so I built a tool to track ghost jobs",
+        "url": "https://csvfirst.pythonanywhere.com/insights/hiring-data/job-listings-that-stay-open-for-years/",
+        "hn_url": "https://news.ycombinator.com/item?id=48163604",
+        "description": "Last year I was looking for a new role. I sent out applications, did the prep, waited. What came back was mostly nothing. Not rejection emails, just silence. The job listings I&#x27;d applied to stayed live for weeks. Some for months.<p>As a software engineer, I decided to dig into it properly. I built a system to continuously track job postings across companies, logging posting dates and measuring how long roles stay open before closing or don&#x27;t. After 35,000+ listings across 200+ companie",
+        "score": 6,
+        "comments": 3,
+        "timestamp": "2026-05-17T04:43:01",
+        "source": "hackernews",
+        "source_url": "https://news.ycombinator.com/item?id=48163604"
+      }
+    },
+    {
+      "id": "d57bb9a8e407",
+      "name": "Your contact book hasn't changed since 2008. So I built the upgrade.",
+      "slug": "your-contact-book-hasn't-changed-since-2008--so-i-built-the-upgrade-",
+      "description": "Apple Contacts and Google Contacts still do the same thing they did 10 years ago... a name, a number, maybe an email. I wanted a place to keep everything in my head organized.. where my friends moved, their partner's name, who introduced who, the marathon someone's running this weekend.\n\nI posted YourPond here a couple months ago and got really helpful feedback. Here's what's shipped since:\n\n* Reminders & iOS push notifications\n* Anniversary tracking (weddings, engagements, friendships, memorial",
+      "url": "https://www.yourpond.io](https://www.yourpond.io",
+      "homepage": "",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:00.995630",
+      "lastSeen": "2026-05-19T13:38:00.995632",
+      "cooldownExpiresAt": "2026-06-02T13:38:00.995633",
+      "versions": [],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:00.995636",
+          "channel": "reddit",
+          "url": "https://reddit.com/r/SideProject/comments/1th7jvj/your_contact_book_hasnt_changed_since_2008_so_i/",
+          "title": "Your contact book hasn't changed since 2008. So I built the upgrade."
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "reddit_1th7jvj",
+        "name": "Your contact book hasn't changed since 2008. So I built the upgrade.",
+        "title": "Your contact book hasn't changed since 2008. So I built the upgrade.",
+        "url": "https://www.yourpond.io](https://www.yourpond.io",
+        "redditUrl": "https://reddit.com/r/SideProject/comments/1th7jvj/your_contact_book_hasnt_changed_since_2008_so_i/",
+        "description": "Apple Contacts and Google Contacts still do the same thing they did 10 years ago... a name, a number, maybe an email. I wanted a place to keep everything in my head organized.. where my friends moved, their partner's name, who introduced who, the marathon someone's running this weekend.\n\nI posted YourPond here a couple months ago and got really helpful feedback. Here's what's shipped since:\n\n* Reminders & iOS push notifications\n* Anniversary tracking (weddings, engagements, friendships, memorial",
+        "score": 6,
+        "upvotes": 6,
+        "comments": 9,
+        "subreddit": "SideProject",
+        "author": "minneapolisemily",
+        "timestamp": "2026-05-19T09:07:18",
+        "source": "reddit",
+        "source_url": "https://reddit.com/r/SideProject/comments/1th7jvj/your_contact_book_hasnt_changed_since_2008_so_i/"
+      }
+    },
+    {
+      "id": "c36c10fdb398",
+      "name": "I rebuilt my URL shortener as a Bitly alternative with custom domains on the fre",
+      "slug": "i-rebuilt-my-url-shortener-as-a-bitly-alternative-with-custom-domains-on-the-fre",
+      "description": "Solo dev, .NET 9 backend, deployed on Azure Container Apps with Cloudflare for SaaS handling custom domains.\n\nThe thing that bugged me about Bitly: custom domains start at $29/mo. For freelancers and small agencies who just need branded short links, that's a tax on basic functionality. So Reslug includes custom domains, QR codes, and a link-in-bio builder on the free tier.\n\nWhat's live:\n\n* Short links with custom slugs\n* Click analytics (country, device, referrer, UTM)\n* QR codes (with logo and ",
+      "url": "http://reslug.com",
+      "homepage": "",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:00.997941",
+      "lastSeen": "2026-05-19T13:38:00.997947",
+      "cooldownExpiresAt": "2026-06-02T13:38:00.997948",
+      "versions": [],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:00.997952",
+          "channel": "reddit",
+          "url": "https://reddit.com/r/SaaS/comments/1th0tg4/i_rebuilt_my_url_shortener_as_a_bitly_alternative/",
+          "title": "I rebuilt my URL shortener as a Bitly alternative with custom domains on the free tier. Looking for honest feedback."
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "reddit_1th0tg4",
+        "name": "I rebuilt my URL shortener as a Bitly alternative with custom domains on the fre",
+        "title": "I rebuilt my URL shortener as a Bitly alternative with custom domains on the free tier. Looking for honest feedback.",
+        "url": "http://reslug.com",
+        "redditUrl": "https://reddit.com/r/SaaS/comments/1th0tg4/i_rebuilt_my_url_shortener_as_a_bitly_alternative/",
+        "description": "Solo dev, .NET 9 backend, deployed on Azure Container Apps with Cloudflare for SaaS handling custom domains.\n\nThe thing that bugged me about Bitly: custom domains start at $29/mo. For freelancers and small agencies who just need branded short links, that's a tax on basic functionality. So Reslug includes custom domains, QR codes, and a link-in-bio builder on the free tier.\n\nWhat's live:\n\n* Short links with custom slugs\n* Click analytics (country, device, referrer, UTM)\n* QR codes (with logo and ",
+        "score": 6,
+        "upvotes": 6,
+        "comments": 10,
+        "subreddit": "SaaS",
+        "author": "ervistrupja",
+        "timestamp": "2026-05-19T04:50:18",
+        "source": "reddit",
+        "source_url": "https://reddit.com/r/SaaS/comments/1th0tg4/i_rebuilt_my_url_shortener_as_a_bitly_alternative/"
+      }
+    },
+    {
+      "id": "b1dd54dc5c57",
+      "name": "Claude Soul",
+      "slug": "claude-soul",
+      "description": "Claude Code has no memory between sessions. I wanted to fix that, but not by just saving facts to a file — I wanted it to actually get better over time.<p>Claude Soul is an MCP server + hooks that extracts signals from your interactions (corrections, successes, confusion)and periodically reflects on them to build behavioral frameworks. Frameworks gain or lose confidence based on evidence. Bad ones get retired automatically.<p>After ~200 sessions some weird stuff happened. It built itself an addi",
+      "url": null,
+      "homepage": "",
+      "type": "unknown",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:01.001859",
+      "lastSeen": "2026-05-19T13:38:01.001862",
+      "cooldownExpiresAt": "2026-06-02T13:38:01.001863",
+      "versions": [],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:01.001865",
+          "channel": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48184763",
+          "title": "Claude Soul – cross-session learning engine for Claude Code"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "hn_48184763",
+        "name": "Claude Soul",
+        "title": "Claude Soul – cross-session learning engine for Claude Code",
+        "url": null,
+        "hn_url": "https://news.ycombinator.com/item?id=48184763",
+        "description": "Claude Code has no memory between sessions. I wanted to fix that, but not by just saving facts to a file — I wanted it to actually get better over time.<p>Claude Soul is an MCP server + hooks that extracts signals from your interactions (corrections, successes, confusion)and periodically reflects on them to build behavioral frameworks. Frameworks gain or lose confidence based on evidence. Bad ones get retired automatically.<p>After ~200 sessions some weird stuff happened. It built itself an addi",
+        "score": 4,
+        "comments": 1,
+        "timestamp": "2026-05-19T04:00:10",
+        "source": "hackernews",
+        "source_url": "https://news.ycombinator.com/item?id=48184763"
+      }
+    },
+    {
+      "id": "952f72985ab2",
+      "name": "Dataset for AI training and fine tuning",
+      "slug": "dataset-for-ai-training-and-fine-tuning",
+      "description": "Hey, i always had problems with finding CC0 data that quality. So i wanted to share that i generated and gathered it and published it for free. All of it is on neurvance.com and some of it on <a href=\"https:&#x2F;&#x2F;huggingface.co&#x2F;Neurvance\" rel=\"nofollow\">https:&#x2F;&#x2F;huggingface.co&#x2F;Neurvance</a> You can also buy a compliance document, so that when the EU needs evidence training data sourcing under Article 10 you can do that, but that thing cost money, thats the way i earn fro",
+      "url": "https://neurvance.com/",
+      "homepage": "",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:01.004920",
+      "lastSeen": "2026-05-19T13:38:01.004923",
+      "cooldownExpiresAt": "2026-06-02T13:38:01.004925",
+      "versions": [],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:01.004928",
+          "channel": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48180331",
+          "title": "Dataset for AI training and fine tuning"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "hn_48180331",
+        "name": "Dataset for AI training and fine tuning",
+        "title": "Dataset for AI training and fine tuning",
+        "url": "https://neurvance.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=48180331",
+        "description": "Hey, i always had problems with finding CC0 data that quality. So i wanted to share that i generated and gathered it and published it for free. All of it is on neurvance.com and some of it on <a href=\"https:&#x2F;&#x2F;huggingface.co&#x2F;Neurvance\" rel=\"nofollow\">https:&#x2F;&#x2F;huggingface.co&#x2F;Neurvance</a> You can also buy a compliance document, so that when the EU needs evidence training data sourcing under Article 10 you can do that, but that thing cost money, thats the way i earn fro",
+        "score": 4,
+        "comments": 0,
+        "timestamp": "2026-05-18T22:22:12",
+        "source": "hackernews",
+        "source_url": "https://news.ycombinator.com/item?id=48180331"
+      }
+    },
+    {
+      "id": "567bc66a013a",
+      "name": "Better.ftp",
+      "slug": "better-ftp",
+      "description": "I built a free iOS app so cyclists can stop paying $20&#x2F;mo just to retest their FTP. The ramp test itself is a 25-minute Bluetooth interaction with a known protocol. It shouldn&#x27;t require rent. This app is opensource, free, no ads, no tracking nor third party integrations because I just wanted to have a fun side project and have no interest in monetization.<p>If you are a cyclist, I would kindly ask for feedback on the app especially on the ftp test protocol instructions, trainer-model c",
+      "url": "https://betterftp.cc/",
+      "homepage": "",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:01.007023",
+      "lastSeen": "2026-05-19T13:38:01.007025",
+      "cooldownExpiresAt": "2026-06-02T13:38:01.007026",
+      "versions": [],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:01.007028",
+          "channel": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48185999",
+          "title": "Better.ftp – cycling app for FTP tests without subscription"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "hn_48185999",
+        "name": "Better.ftp",
+        "title": "Better.ftp – cycling app for FTP tests without subscription",
+        "url": "https://betterftp.cc/",
+        "hn_url": "https://news.ycombinator.com/item?id=48185999",
+        "description": "I built a free iOS app so cyclists can stop paying $20&#x2F;mo just to retest their FTP. The ramp test itself is a 25-minute Bluetooth interaction with a known protocol. It shouldn&#x27;t require rent. This app is opensource, free, no ads, no tracking nor third party integrations because I just wanted to have a fun side project and have no interest in monetization.<p>If you are a cyclist, I would kindly ask for feedback on the app especially on the ftp test protocol instructions, trainer-model c",
+        "score": 3,
+        "comments": 0,
+        "timestamp": "2026-05-19T05:33:37",
+        "source": "hackernews",
+        "source_url": "https://news.ycombinator.com/item?id=48185999"
+      }
+    },
+    {
+      "id": "f38b7bf7235b",
+      "name": "Tracecast",
+      "slug": "tracecast",
+      "description": "Hi HN, I&#x27;m Malachy, the founder of Tracecast. This project lets you generate interactive data apps on top of your data, using a Cursor-style AI chat. It stitches together Marimo, LangGraph agents, and data warehouse query tools. It has an Apache 2.0 license.<p>The initial use case that spurred this project was business analytics, specifically generating product usage dashboards.<p>This project&#x27;s main inspiration is Marimo, an open source python notebook that can be &quot;queried with S",
+      "url": "https://github.com/tracecast/open_data_apps",
+      "homepage": "",
+      "type": "github",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:01.009869",
+      "lastSeen": "2026-05-19T13:38:01.009871",
+      "cooldownExpiresAt": "2026-06-02T13:38:01.009872",
+      "versions": [],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:01.009874",
+          "channel": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48185834",
+          "title": "Tracecast – open-source generative data apps built on top of Marimo"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "hn_48185834",
+        "name": "Tracecast",
+        "title": "Tracecast – open-source generative data apps built on top of Marimo",
+        "url": "https://github.com/tracecast/open_data_apps",
+        "hn_url": "https://news.ycombinator.com/item?id=48185834",
+        "description": "Hi HN, I&#x27;m Malachy, the founder of Tracecast. This project lets you generate interactive data apps on top of your data, using a Cursor-style AI chat. It stitches together Marimo, LangGraph agents, and data warehouse query tools. It has an Apache 2.0 license.<p>The initial use case that spurred this project was business analytics, specifically generating product usage dashboards.<p>This project&#x27;s main inspiration is Marimo, an open source python notebook that can be &quot;queried with S",
+        "score": 3,
+        "comments": 0,
+        "timestamp": "2026-05-19T05:21:46",
+        "source": "hackernews",
+        "source_url": "https://news.ycombinator.com/item?id=48185834"
+      }
+    },
+    {
+      "id": "ad00a44da977",
+      "name": "I transformed my struggle into an app 😎😎",
+      "slug": "i-transformed-my-struggle-into-an-app-😎😎",
+      "description": "I have a problem a lot of you probably share: a mental shelf full of stuff I want to learn — a language, an code, a skill and I never touch most of it. The moment I do start, I quit like reading half a book..learning to say hello in spanish...etc\n\nSo I built **OffShelf**\n\nYou add the things you want to learn to a shelf. Instead of you deciding what to study, an AI picks one for you and sits with you for a focused hour, half hour or whatever time you want, topics you've been ignoring get surfaced",
+      "url": "https://apps.apple.com/ph/app/offshelf-learn-focus/id6767906574",
+      "homepage": "",
+      "type": "ios_app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:01.011957",
+      "lastSeen": "2026-05-19T13:38:01.011959",
+      "cooldownExpiresAt": "2026-06-02T13:38:01.011960",
+      "versions": [],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:01.011962",
+          "channel": "reddit",
+          "url": "https://reddit.com/r/SideProject/comments/1th7den/i_transformed_my_struggle_into_an_app/",
+          "title": "I transformed my struggle into an app 😎😎"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "reddit_1th7den",
+        "name": "I transformed my struggle into an app 😎😎",
+        "title": "I transformed my struggle into an app 😎😎",
+        "url": "https://apps.apple.com/ph/app/offshelf-learn-focus/id6767906574",
+        "redditUrl": "https://reddit.com/r/SideProject/comments/1th7den/i_transformed_my_struggle_into_an_app/",
+        "description": "I have a problem a lot of you probably share: a mental shelf full of stuff I want to learn — a language, an code, a skill and I never touch most of it. The moment I do start, I quit like reading half a book..learning to say hello in spanish...etc\n\nSo I built **OffShelf**\n\nYou add the things you want to learn to a shelf. Instead of you deciding what to study, an AI picks one for you and sits with you for a focused hour, half hour or whatever time you want, topics you've been ignoring get surfaced",
+        "score": 3,
+        "upvotes": 3,
+        "comments": 2,
+        "subreddit": "SideProject",
+        "author": "AhmadSaad48",
+        "timestamp": "2026-05-19T09:00:00",
+        "source": "reddit",
+        "source_url": "https://reddit.com/r/SideProject/comments/1th7den/i_transformed_my_struggle_into_an_app/"
+      }
+    },
+    {
+      "id": "9e83f042b11c",
+      "name": "Your GitHub contribution grid, but 3D",
+      "slug": "your-github-contribution-grid,-but-3d",
+      "description": "Runs on a daily GitHub Action so it stays current, thought it was neat and wanted to share in case anyone else wanted to fork it or use it\n\n[https://github.com/colincode0/github-readme](https://github.com/colincode0/github-readme)",
+      "url": "https://v.redd.it/7y7nt6jnkz1h1",
+      "homepage": "",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:01.023168",
+      "lastSeen": "2026-05-19T13:38:01.023172",
+      "cooldownExpiresAt": "2026-06-02T13:38:01.023173",
+      "versions": [],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:01.023176",
+          "channel": "reddit",
+          "url": "https://reddit.com/r/SideProject/comments/1th67qa/your_github_contribution_grid_but_3d/",
+          "title": "Your GitHub contribution grid, but 3D"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "reddit_1th67qa",
+        "name": "Your GitHub contribution grid, but 3D",
+        "title": "Your GitHub contribution grid, but 3D",
+        "url": "https://v.redd.it/7y7nt6jnkz1h1",
+        "redditUrl": "https://reddit.com/r/SideProject/comments/1th67qa/your_github_contribution_grid_but_3d/",
+        "description": "Runs on a daily GitHub Action so it stays current, thought it was neat and wanted to share in case anyone else wanted to fork it or use it\n\n[https://github.com/colincode0/github-readme](https://github.com/colincode0/github-readme)",
+        "score": 3,
+        "upvotes": 3,
+        "comments": 1,
+        "subreddit": "SideProject",
+        "author": "anotherinternetlad",
+        "timestamp": "2026-05-19T08:10:23",
+        "source": "reddit",
+        "source_url": "https://reddit.com/r/SideProject/comments/1th67qa/your_github_contribution_grid_but_3d/"
+      }
+    },
+    {
+      "id": "efa0551bcb04",
+      "name": "Closed Rings",
+      "slug": "closed-rings",
+      "description": "Hi, HN. I built Closed Rings. A developer-friendly, AI-agent-first time tracker that integrates with my workflow. I wanted something that lives in my terminal and my coding agent.<p>You can run `rings start &quot;OAuth 2.0&quot; -m &quot;Start integrating OAuth 2.0&quot;` when you start a new task and `rings close` when you&#x27;re done with your current work. In between, it tracks context switches. You get a stand-up-ready summary, a focus report (longest focus block, number of context switches",
+      "url": "https://closedrings.sh/en",
+      "homepage": "",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:01.026637",
+      "lastSeen": "2026-05-19T13:38:01.026644",
+      "cooldownExpiresAt": "2026-06-02T13:38:01.026645",
+      "versions": [],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:01.026650",
+          "channel": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48189544",
+          "title": "Closed Rings – A CLI-first time tracker for developers"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "hn_48189544",
+        "name": "Closed Rings",
+        "title": "Closed Rings – A CLI-first time tracker for developers",
+        "url": "https://closedrings.sh/en",
+        "hn_url": "https://news.ycombinator.com/item?id=48189544",
+        "description": "Hi, HN. I built Closed Rings. A developer-friendly, AI-agent-first time tracker that integrates with my workflow. I wanted something that lives in my terminal and my coding agent.<p>You can run `rings start &quot;OAuth 2.0&quot; -m &quot;Start integrating OAuth 2.0&quot;` when you start a new task and `rings close` when you&#x27;re done with your current work. In between, it tracks context switches. You get a stand-up-ready summary, a focus report (longest focus block, number of context switches",
+        "score": 2,
+        "comments": 0,
+        "timestamp": "2026-05-19T13:29:00",
+        "source": "hackernews",
+        "source_url": "https://news.ycombinator.com/item?id=48189544"
+      }
+    },
+    {
+      "id": "1eb7ba21e988",
+      "name": "MyUUIDshop, Generate UUIDs and never worry about duplicates",
+      "slug": "myuuidshop,-generate-uuids-and-never-worry-about-duplicates",
+      "description": "In response to some recent discussion here and on X about a company having an in house uuid microservice and team dedicated to it.  At first that was made fun of, but further discussion revealed in fact sometimes uuids can collide due to improper entropy seeding most likely.  In order to ensure that UUIDs are unique, we store each generation in a database, then check new generations against it to ensure they are not previously generated.  As well, there is an API through which you can check if a",
+      "url": "https://myuuid.shop",
+      "homepage": "",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:01.028923",
+      "lastSeen": "2026-05-19T13:38:01.028927",
+      "cooldownExpiresAt": "2026-06-02T13:38:01.028928",
+      "versions": [],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:01.028931",
+          "channel": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48189454",
+          "title": "MyUUIDshop, Generate UUIDs and never worry about duplicates"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "hn_48189454",
+        "name": "MyUUIDshop, Generate UUIDs and never worry about duplicates",
+        "title": "MyUUIDshop, Generate UUIDs and never worry about duplicates",
+        "url": "https://myuuid.shop",
+        "hn_url": "https://news.ycombinator.com/item?id=48189454",
+        "description": "In response to some recent discussion here and on X about a company having an in house uuid microservice and team dedicated to it.  At first that was made fun of, but further discussion revealed in fact sometimes uuids can collide due to improper entropy seeding most likely.  In order to ensure that UUIDs are unique, we store each generation in a database, then check new generations against it to ensure they are not previously generated.  As well, there is an API through which you can check if a",
+        "score": 2,
+        "comments": 1,
+        "timestamp": "2026-05-19T13:17:55",
+        "source": "hackernews",
+        "source_url": "https://news.ycombinator.com/item?id=48189454"
+      }
+    },
+    {
+      "id": "3b2d98f57f8e",
+      "name": "Spud",
+      "slug": "spud",
+      "description": "Over the last few weeks I&#x27;ve been working on Spud, an application that allows you to control a remote computer that you can see. For example, if you have a gaming PC connected to you TV, Spud lets you use a laptop as input.<p>It&#x27;s optimised for low-latency, as it&#x27;s intended for gaming. There are even a few parameters you can tune in the application. I built this mainly for myself, to solve a particular problem I had, but I hope that others find it useful too!",
+      "url": "https://github.com/xfoa/spud",
+      "homepage": "",
+      "type": "github",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:01.031240",
+      "lastSeen": "2026-05-19T13:38:01.031243",
+      "cooldownExpiresAt": "2026-06-02T13:38:01.031244",
+      "versions": [],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:01.031247",
+          "channel": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48187382",
+          "title": "Spud – cross-platform remote control, optimised for gaming"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "hn_48187382",
+        "name": "Spud",
+        "title": "Spud – cross-platform remote control, optimised for gaming",
+        "url": "https://github.com/xfoa/spud",
+        "hn_url": "https://news.ycombinator.com/item?id=48187382",
+        "description": "Over the last few weeks I&#x27;ve been working on Spud, an application that allows you to control a remote computer that you can see. For example, if you have a gaming PC connected to you TV, Spud lets you use a laptop as input.<p>It&#x27;s optimised for low-latency, as it&#x27;s intended for gaming. There are even a few parameters you can tune in the application. I built this mainly for myself, to solve a particular problem I had, but I hope that others find it useful too!",
+        "score": 2,
+        "comments": 2,
+        "timestamp": "2026-05-19T07:38:09",
+        "source": "hackernews",
+        "source_url": "https://news.ycombinator.com/item?id=48187382"
+      }
+    },
+    {
+      "id": "d79ed3292c7b",
+      "name": "Clawputer",
+      "slug": "clawputer",
+      "description": "",
+      "url": "https://clawputer.app",
+      "homepage": "",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:01.034534",
+      "lastSeen": "2026-05-19T13:38:01.034544",
+      "cooldownExpiresAt": "2026-06-02T13:38:01.034545",
+      "versions": [],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:01.034553",
+          "channel": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48186915",
+          "title": "Clawputer – A personal AI assistant with a real computer and memory"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "hn_48186915",
+        "name": "Clawputer",
+        "title": "Clawputer – A personal AI assistant with a real computer and memory",
+        "url": "https://clawputer.app",
+        "hn_url": "https://news.ycombinator.com/item?id=48186915",
+        "description": "",
+        "score": 2,
+        "comments": 0,
+        "timestamp": "2026-05-19T06:51:35",
+        "source": "hackernews",
+        "source_url": "https://news.ycombinator.com/item?id=48186915"
+      }
+    },
+    {
+      "id": "10d2618c5537",
+      "name": "We automated Portugal visa appointment checks with computer",
+      "slug": "we-automated-portugal-visa-appointment-checks-with-computer",
+      "description": "",
+      "url": "https://www.getfastvisa.com",
+      "homepage": "",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:01.037636",
+      "lastSeen": "2026-05-19T13:38:01.037643",
+      "cooldownExpiresAt": "2026-06-02T13:38:01.037644",
+      "versions": [],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:01.037648",
+          "channel": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48182894",
+          "title": "We automated Portugal visa appointment checks with computer-use agents"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "hn_48182894",
+        "name": "We automated Portugal visa appointment checks with computer",
+        "title": "We automated Portugal visa appointment checks with computer-use agents",
+        "url": "https://www.getfastvisa.com",
+        "hn_url": "https://news.ycombinator.com/item?id=48182894",
+        "description": "",
+        "score": 2,
+        "comments": 7,
+        "timestamp": "2026-05-19T01:46:58",
+        "source": "hackernews",
+        "source_url": "https://news.ycombinator.com/item?id=48182894"
+      }
+    },
+    {
+      "id": "68515cd03a60",
+      "name": "I made a tactical map",
+      "slug": "i-made-a-tactical-map",
+      "description": "I&#x27;ve seen quite a few simming discussions on HN, so thought some of you might like this - I&#x27;ve created a map-centered, tactical submarine simulator and it&#x27;s been a blast to make.<p>I grew up playing Silent Service II on Atari ST with my dad, then got into Silent Hunter IV in the 2000s, and most recently have been loving the more recent UBoat. In each case, the part I always enjoy the most is the plotting and charting aspect - essentially beating uncertain estimates with geometry.<",
+      "url": "https://silentshark.app/alpha/",
+      "homepage": "",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:01.040401",
+      "lastSeen": "2026-05-19T13:38:01.040405",
+      "cooldownExpiresAt": "2026-06-02T13:38:01.040405",
+      "versions": [],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:01.040411",
+          "channel": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48180924",
+          "title": "I made a tactical map-based WWII submarine simulator (public beta)"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "hn_48180924",
+        "name": "I made a tactical map",
+        "title": "I made a tactical map-based WWII submarine simulator (public beta)",
+        "url": "https://silentshark.app/alpha/",
+        "hn_url": "https://news.ycombinator.com/item?id=48180924",
+        "description": "I&#x27;ve seen quite a few simming discussions on HN, so thought some of you might like this - I&#x27;ve created a map-centered, tactical submarine simulator and it&#x27;s been a blast to make.<p>I grew up playing Silent Service II on Atari ST with my dad, then got into Silent Hunter IV in the 2000s, and most recently have been loving the more recent UBoat. In each case, the part I always enjoy the most is the plotting and charting aspect - essentially beating uncertain estimates with geometry.<",
+        "score": 2,
+        "comments": 0,
+        "timestamp": "2026-05-18T23:08:21",
+        "source": "hackernews",
+        "source_url": "https://news.ycombinator.com/item?id=48180924"
+      }
+    },
+    {
+      "id": "cc3cb6e07204",
+      "name": "Built a verifiable, open",
+      "slug": "built-a-verifiable,-open",
+      "description": "After speaking with over 50+ CISOs, DevOps, &amp; pre-series A founders for months, I realized a problem in the GRC industry. SOC 2 automation exists, but people are split between trusting these black-box tools with systems that are continuously changing. As a result audits are slow &amp; mistrusted.<p>Right now the most important thing is verifiability &amp; depth, rather than just compliance automation-because it does exist, everywhere.<p>Here&#x27;s what I did from learning this:<p>-&gt; Crea",
+      "url": "https://loxeai.com",
+      "homepage": "",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:01.043906",
+      "lastSeen": "2026-05-19T13:38:01.043913",
+      "cooldownExpiresAt": "2026-06-02T13:38:01.043913",
+      "versions": [],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:01.043917",
+          "channel": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48164906",
+          "title": "Built a verifiable, open-source SoC 2 readiness scanner"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "hn_48164906",
+        "name": "Built a verifiable, open",
+        "title": "Built a verifiable, open-source SoC 2 readiness scanner",
+        "url": "https://loxeai.com",
+        "hn_url": "https://news.ycombinator.com/item?id=48164906",
+        "description": "After speaking with over 50+ CISOs, DevOps, &amp; pre-series A founders for months, I realized a problem in the GRC industry. SOC 2 automation exists, but people are split between trusting these black-box tools with systems that are continuously changing. As a result audits are slow &amp; mistrusted.<p>Right now the most important thing is verifiability &amp; depth, rather than just compliance automation-because it does exist, everywhere.<p>Here&#x27;s what I did from learning this:<p>-&gt; Crea",
+        "score": 2,
+        "comments": 0,
+        "timestamp": "2026-05-17T08:02:18",
+        "source": "hackernews",
+        "source_url": "https://news.ycombinator.com/item?id=48164906"
+      }
+    },
+    {
+      "id": "e4850e5378b2",
+      "name": "I was so frustrated with my messy Downloads folder I built an AI that organizes ",
+      "slug": "i-was-so-frustrated-with-my-messy-downloads-folder-i-built-an-ai-that-organizes-",
+      "description": "My Downloads folder had thousands of random files. \n\n\n\nScreenshots mixed with resumes. Budget spreadsheets \n\nnext to random notes. Files named things like \n\n\"final\\_v2\\_ACTUAL\\_REAL.pdf\". \n\n\n\nI got fed up and built an AI tool that fixes it.\n\n\n\nHere's what it does:\n\n\\- You point it at any messy folder\n\n\\- AI scans all your files and creates an organization plan\n\n\\- Shows you exactly what it's going to do before touching anything\n\n\\- You confirm and it sorts + renames everything into clean subfold",
+      "url": "https://github.com/dashya-bit9/folder-organizer](https://github.com/dashya-bit9/folder-organizer",
+      "homepage": "",
+      "type": "github",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:01.046896",
+      "lastSeen": "2026-05-19T13:38:01.046898",
+      "cooldownExpiresAt": "2026-06-02T13:38:01.046898",
+      "versions": [],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:01.046900",
+          "channel": "reddit",
+          "url": "https://reddit.com/r/SideProject/comments/1thcbfi/i_was_so_frustrated_with_my_messy_downloads/",
+          "title": "I was so frustrated with my messy Downloads folder I built an AI that organizes it automatically. Here's the free tool."
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "reddit_1thcbfi",
+        "name": "I was so frustrated with my messy Downloads folder I built an AI that organizes ",
+        "title": "I was so frustrated with my messy Downloads folder I built an AI that organizes it automatically. Here's the free tool.",
+        "url": "https://github.com/dashya-bit9/folder-organizer](https://github.com/dashya-bit9/folder-organizer",
+        "redditUrl": "https://reddit.com/r/SideProject/comments/1thcbfi/i_was_so_frustrated_with_my_messy_downloads/",
+        "description": "My Downloads folder had thousands of random files. \n\n\n\nScreenshots mixed with resumes. Budget spreadsheets \n\nnext to random notes. Files named things like \n\n\"final\\_v2\\_ACTUAL\\_REAL.pdf\". \n\n\n\nI got fed up and built an AI tool that fixes it.\n\n\n\nHere's what it does:\n\n\\- You point it at any messy folder\n\n\\- AI scans all your files and creates an organization plan\n\n\\- Shows you exactly what it's going to do before touching anything\n\n\\- You confirm and it sorts + renames everything into clean subfold",
+        "score": 2,
+        "upvotes": 2,
+        "comments": 4,
+        "subreddit": "SideProject",
+        "author": "WalrusOriginal294",
+        "timestamp": "2026-05-19T12:40:30",
+        "source": "reddit",
+        "source_url": "https://reddit.com/r/SideProject/comments/1thcbfi/i_was_so_frustrated_with_my_messy_downloads/"
+      }
+    },
+    {
+      "id": "4aca17e2a36e",
+      "name": "Launched Otoke — a tool for the questions that deserve a vote",
+      "slug": "launched-otoke-—-a-tool-for-the-questions-that-deserve-a-vote",
+      "description": "Hey r/SideProject, just launched Otoke after a few months of building.\n\nThe idea: every group has questions they keep arguing about — \"where for dinner tonight?\", \"is a hot dog a sandwich?\", \"pancakes or waffles?\" Sometimes you want your friend group to decide; sometimes you want the whole internet's opinion.\n\nOtoke lets you make either kind of call. Create a Take (the question), share the link, see what people pick. Six different formats: this-or-that, multiple choice, ranking, tier list, brack",
+      "url": "http://otoke.app",
+      "homepage": "",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:01.051435",
+      "lastSeen": "2026-05-19T13:38:01.051442",
+      "cooldownExpiresAt": "2026-06-02T13:38:01.051443",
+      "versions": [],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:01.051448",
+          "channel": "reddit",
+          "url": "https://reddit.com/r/SideProject/comments/1thc24p/launched_otoke_a_tool_for_the_questions_that/",
+          "title": "Launched Otoke — a tool for the questions that deserve a vote"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "reddit_1thc24p",
+        "name": "Launched Otoke — a tool for the questions that deserve a vote",
+        "title": "Launched Otoke — a tool for the questions that deserve a vote",
+        "url": "http://otoke.app",
+        "redditUrl": "https://reddit.com/r/SideProject/comments/1thc24p/launched_otoke_a_tool_for_the_questions_that/",
+        "description": "Hey r/SideProject, just launched Otoke after a few months of building.\n\nThe idea: every group has questions they keep arguing about — \"where for dinner tonight?\", \"is a hot dog a sandwich?\", \"pancakes or waffles?\" Sometimes you want your friend group to decide; sometimes you want the whole internet's opinion.\n\nOtoke lets you make either kind of call. Create a Take (the question), share the link, see what people pick. Six different formats: this-or-that, multiple choice, ranking, tier list, brack",
+        "score": 2,
+        "upvotes": 2,
+        "comments": 0,
+        "subreddit": "SideProject",
+        "author": "umja345",
+        "timestamp": "2026-05-19T12:27:48",
+        "source": "reddit",
+        "source_url": "https://reddit.com/r/SideProject/comments/1thc24p/launched_otoke_a_tool_for_the_questions_that/"
+      }
+    },
+    {
+      "id": "72dc76bae59e",
+      "name": "Built a MCP based tool to stop AI from hallucinating my company's own messaging",
+      "slug": "built-a-mcp-based-tool-to-stop-ai-from-hallucinating-my-company's-own-messaging",
+      "description": "I'm a marketer. Our team uses AI to draft content and it kept inventing our own product positioning. Not random hallucinations, specifically confident wrong claims about our own brand dressed up as approved copy.\n\nThe fix was obvious once I saw the problem. Our source-of-truth messaging docs are static files sitting in Google Drive that the AI has never seen. So it guesses. I got annoyed enough that I built something about it.\n\nMsgStack is an open-source messaging governance layer. You upload yo",
+      "url": "https://github.com/abidc/msgstack](https://github.com/abidc/msgstack",
+      "homepage": "",
+      "type": "github",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:01.054954",
+      "lastSeen": "2026-05-19T13:38:01.054958",
+      "cooldownExpiresAt": "2026-06-02T13:38:01.054959",
+      "versions": [],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:01.054962",
+          "channel": "reddit",
+          "url": "https://reddit.com/r/SideProject/comments/1thb5dh/built_a_mcp_based_tool_to_stop_ai_from/",
+          "title": "Built a MCP based tool to stop AI from hallucinating my company's own messaging"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "reddit_1thb5dh",
+        "name": "Built a MCP based tool to stop AI from hallucinating my company's own messaging",
+        "title": "Built a MCP based tool to stop AI from hallucinating my company's own messaging",
+        "url": "https://github.com/abidc/msgstack](https://github.com/abidc/msgstack",
+        "redditUrl": "https://reddit.com/r/SideProject/comments/1thb5dh/built_a_mcp_based_tool_to_stop_ai_from/",
+        "description": "I'm a marketer. Our team uses AI to draft content and it kept inventing our own product positioning. Not random hallucinations, specifically confident wrong claims about our own brand dressed up as approved copy.\n\nThe fix was obvious once I saw the problem. Our source-of-truth messaging docs are static files sitting in Google Drive that the AI has never seen. So it guesses. I got annoyed enough that I built something about it.\n\nMsgStack is an open-source messaging governance layer. You upload yo",
+        "score": 2,
+        "upvotes": 2,
+        "comments": 2,
+        "subreddit": "SideProject",
+        "author": "amchaudhry",
+        "timestamp": "2026-05-19T11:45:39",
+        "source": "reddit",
+        "source_url": "https://reddit.com/r/SideProject/comments/1thb5dh/built_a_mcp_based_tool_to_stop_ai_from/"
+      }
+    },
+    {
+      "id": "f33c207caffd",
+      "name": "Handoff - Share local context from one agent to another",
+      "slug": "handoff---share-local-context-from-one-agent-to-another",
+      "description": "[https://github.com/TStansel/handoff](https://github.com/TStansel/handoff)\n\nI often run into usage limits and have to switch from codex to claude, i built a really simple CLI to take the local context from one coding session and kickstart the session of the other. Figured I'd share it and see if anyone else finds it useful!",
+      "url": "https://github.com/TStansel/handoff](https://github.com/TStansel/handoff",
+      "homepage": "",
+      "type": "github",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:01.057751",
+      "lastSeen": "2026-05-19T13:38:01.057759",
+      "cooldownExpiresAt": "2026-06-02T13:38:01.057760",
+      "versions": [],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:01.057765",
+          "channel": "reddit",
+          "url": "https://reddit.com/r/SideProject/comments/1th93ao/handoff_share_local_context_from_one_agent_to/",
+          "title": "Handoff - Share local context from one agent to another"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "reddit_1th93ao",
+        "name": "Handoff - Share local context from one agent to another",
+        "title": "Handoff - Share local context from one agent to another",
+        "url": "https://github.com/TStansel/handoff](https://github.com/TStansel/handoff",
+        "redditUrl": "https://reddit.com/r/SideProject/comments/1th93ao/handoff_share_local_context_from_one_agent_to/",
+        "description": "[https://github.com/TStansel/handoff](https://github.com/TStansel/handoff)\n\nI often run into usage limits and have to switch from codex to claude, i built a really simple CLI to take the local context from one coding session and kickstart the session of the other. Figured I'd share it and see if anyone else finds it useful!",
+        "score": 2,
+        "upvotes": 2,
+        "comments": 0,
+        "subreddit": "SideProject",
+        "author": "Im-Always-Lost",
+        "timestamp": "2026-05-19T10:13:24",
+        "source": "reddit",
+        "source_url": "https://reddit.com/r/SideProject/comments/1th93ao/handoff_share_local_context_from_one_agent_to/"
+      }
+    },
+    {
+      "id": "29d0494114ee",
+      "name": "Armorer Guard: local Rust scanner for AI agent security",
+      "slug": "armorer-guard:-local-rust-scanner-for-ai-agent-security",
+      "description": "AI agent tool calls can be a vector for prompt injection and credential leaks.\n\nArmorer Guard is a local Rust scanner that analyzes tool calls before they execute. Catches prompt injection attempts, credential leaks, suspicious command patterns. Runs locally, never phones home.\n\nOpen source: [https://github.com/ArmorerLabs/Armorer-Guard](https://github.com/ArmorerLabs/Armorer-Guard) — star it if you want local prompt injection scanning",
+      "url": "https://github.com/ArmorerLabs/Armorer-Guard](https://github.com/ArmorerLabs/Armorer-Guard",
+      "homepage": "",
+      "type": "github",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:01.060979",
+      "lastSeen": "2026-05-19T13:38:01.060986",
+      "cooldownExpiresAt": "2026-06-02T13:38:01.060987",
+      "versions": [],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:01.060991",
+          "channel": "reddit",
+          "url": "https://reddit.com/r/SideProject/comments/1th8v7d/armorer_guard_local_rust_scanner_for_ai_agent/",
+          "title": "Armorer Guard: local Rust scanner for AI agent security"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "reddit_1th8v7d",
+        "name": "Armorer Guard: local Rust scanner for AI agent security",
+        "title": "Armorer Guard: local Rust scanner for AI agent security",
+        "url": "https://github.com/ArmorerLabs/Armorer-Guard](https://github.com/ArmorerLabs/Armorer-Guard",
+        "redditUrl": "https://reddit.com/r/SideProject/comments/1th8v7d/armorer_guard_local_rust_scanner_for_ai_agent/",
+        "description": "AI agent tool calls can be a vector for prompt injection and credential leaks.\n\nArmorer Guard is a local Rust scanner that analyzes tool calls before they execute. Catches prompt injection attempts, credential leaks, suspicious command patterns. Runs locally, never phones home.\n\nOpen source: [https://github.com/ArmorerLabs/Armorer-Guard](https://github.com/ArmorerLabs/Armorer-Guard) — star it if you want local prompt injection scanning",
+        "score": 2,
+        "upvotes": 2,
+        "comments": 2,
+        "subreddit": "SideProject",
+        "author": "Conscious_Chapter_93",
+        "timestamp": "2026-05-19T10:03:34",
+        "source": "reddit",
+        "source_url": "https://reddit.com/r/SideProject/comments/1th8v7d/armorer_guard_local_rust_scanner_for_ai_agent/"
+      }
+    },
+    {
+      "id": "d36e0cb080dc",
+      "name": "I counted the dead ideas in my notes app. It was 47.",
+      "slug": "i-counted-the-dead-ideas-in-my-notes-app--it-was-47-",
+      "description": "47 ideas. Across Apple Notes, Notion, random voice memos, a Google Doc titled \"IDEAS 2023\" that I never opened again.\n\nNot bad ideas. Some of them were probably good. But they all died the same way, I typed them in, felt good about it, and never came back.\n\nThe real cause of death wasn't lack of time. It was that there was never any pressure. No one to say \"okay, but *who* actually has this problem?\" or \"you've said this is a $10B market three times, have you talked to anyone in it?\"\n\nNotes apps",
+      "url": "https://ideavault.dev",
+      "homepage": "",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:01.063791",
+      "lastSeen": "2026-05-19T13:38:01.063793",
+      "cooldownExpiresAt": "2026-06-02T13:38:01.063794",
+      "versions": [],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:01.063797",
+          "channel": "reddit",
+          "url": "https://reddit.com/r/SaaS/comments/1th8p3f/i_counted_the_dead_ideas_in_my_notes_app_it_was_47/",
+          "title": "I counted the dead ideas in my notes app. It was 47."
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "reddit_1th8p3f",
+        "name": "I counted the dead ideas in my notes app. It was 47.",
+        "title": "I counted the dead ideas in my notes app. It was 47.",
+        "url": "https://ideavault.dev",
+        "redditUrl": "https://reddit.com/r/SaaS/comments/1th8p3f/i_counted_the_dead_ideas_in_my_notes_app_it_was_47/",
+        "description": "47 ideas. Across Apple Notes, Notion, random voice memos, a Google Doc titled \"IDEAS 2023\" that I never opened again.\n\nNot bad ideas. Some of them were probably good. But they all died the same way, I typed them in, felt good about it, and never came back.\n\nThe real cause of death wasn't lack of time. It was that there was never any pressure. No one to say \"okay, but *who* actually has this problem?\" or \"you've said this is a $10B market three times, have you talked to anyone in it?\"\n\nNotes apps",
+        "score": 2,
+        "upvotes": 2,
+        "comments": 1,
+        "subreddit": "SaaS",
+        "author": "Am-20",
+        "timestamp": "2026-05-19T09:56:35",
+        "source": "reddit",
+        "source_url": "https://reddit.com/r/SaaS/comments/1th8p3f/i_counted_the_dead_ideas_in_my_notes_app_it_was_47/"
+      }
+    },
+    {
+      "id": "667a0772ecb7",
+      "name": "Been doing a lot of work with AI agents, running as sub-agents, swarms and doing",
+      "slug": "been-doing-a-lot-of-work-with-ai-agents,-running-as-sub-agents,-swarms-and-doing",
+      "description": "[https://www.noatery.com/](https://www.noatery.com/)\n\nKeen to provide access to people who have large AI workloads running locally and get feedback on value!",
+      "url": "https://www.noatery.com/](https://www.noatery.com/",
+      "homepage": "",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:01.067663",
+      "lastSeen": "2026-05-19T13:38:01.067669",
+      "cooldownExpiresAt": "2026-06-02T13:38:01.067670",
+      "versions": [],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:01.067674",
+          "channel": "reddit",
+          "url": "https://reddit.com/r/SideProject/comments/1thdgf3/been_doing_a_lot_of_work_with_ai_agents_running/",
+          "title": "Been doing a lot of work with AI agents, running as sub-agents, swarms and doing a bunch of AI flows. Wasn't able to track what ACTUALLY got done. Built local private human and AI-agent work tracker. noatery.com"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "reddit_1thdgf3",
+        "name": "Been doing a lot of work with AI agents, running as sub-agents, swarms and doing",
+        "title": "Been doing a lot of work with AI agents, running as sub-agents, swarms and doing a bunch of AI flows. Wasn't able to track what ACTUALLY got done. Built local private human and AI-agent work tracker. noatery.com",
+        "url": "https://www.noatery.com/](https://www.noatery.com/",
+        "redditUrl": "https://reddit.com/r/SideProject/comments/1thdgf3/been_doing_a_lot_of_work_with_ai_agents_running/",
+        "description": "[https://www.noatery.com/](https://www.noatery.com/)\n\nKeen to provide access to people who have large AI workloads running locally and get feedback on value!",
+        "score": 1,
+        "upvotes": 1,
+        "comments": 0,
+        "subreddit": "SideProject",
+        "author": "johnlenin",
+        "timestamp": "2026-05-19T13:37:18",
+        "source": "reddit",
+        "source_url": "https://reddit.com/r/SideProject/comments/1thdgf3/been_doing_a_lot_of_work_with_ai_agents_running/"
+      }
+    },
+    {
+      "id": "97a34f7fb335",
+      "name": "Patter — open-source SDK that lets you connect any AI agent to a phone number",
+      "slug": "patter-—-open-source-sdk-that-lets-you-connect-any-ai-agent-to-a-phone-number",
+      "description": "My cofounder and I open-sourced Patter — an SDK to wire AI agents to phone calls via Twilio or Telnyx. Background: we got tired of Vapi/Retell-style closed boxes that charge per-minute and don't let you own the stack.\n\nWhat it does:\n\n* One integration across Twilio + Telnyx\n* Handles VAD, barge-in, DTMF, interruptions\n* Plug in any LLM + STT + TTS\n* \\~1s p50 round-trip in our setup\n\nWhat it doesn't do yet:\n\n* No GUI\n* Few example agents\n* Docs are still rough — PRs welcome\n\nRepo: [github.com/Pat",
+      "url": "http://github.com/PatterAI/Patter",
+      "homepage": "",
+      "type": "github",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:01.070707",
+      "lastSeen": "2026-05-19T13:38:01.070711",
+      "cooldownExpiresAt": "2026-06-02T13:38:01.070712",
+      "versions": [],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:01.070715",
+          "channel": "reddit",
+          "url": "https://reddit.com/r/SideProject/comments/1thdgas/patter_opensource_sdk_that_lets_you_connect_any/",
+          "title": "Patter — open-source SDK that lets you connect any AI agent to a phone number"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "reddit_1thdgas",
+        "name": "Patter — open-source SDK that lets you connect any AI agent to a phone number",
+        "title": "Patter — open-source SDK that lets you connect any AI agent to a phone number",
+        "url": "http://github.com/PatterAI/Patter",
+        "redditUrl": "https://reddit.com/r/SideProject/comments/1thdgas/patter_opensource_sdk_that_lets_you_connect_any/",
+        "description": "My cofounder and I open-sourced Patter — an SDK to wire AI agents to phone calls via Twilio or Telnyx. Background: we got tired of Vapi/Retell-style closed boxes that charge per-minute and don't let you own the stack.\n\nWhat it does:\n\n* One integration across Twilio + Telnyx\n* Handles VAD, barge-in, DTMF, interruptions\n* Plug in any LLM + STT + TTS\n* \\~1s p50 round-trip in our setup\n\nWhat it doesn't do yet:\n\n* No GUI\n* Few example agents\n* Docs are still rough — PRs welcome\n\nRepo: [github.com/Pat",
+        "score": 1,
+        "upvotes": 1,
+        "comments": 0,
+        "subreddit": "SideProject",
+        "author": "Kindly-Duty272",
+        "timestamp": "2026-05-19T13:37:07",
+        "source": "reddit",
+        "source_url": "https://reddit.com/r/SideProject/comments/1thdgas/patter_opensource_sdk_that_lets_you_connect_any/"
+      }
+    },
+    {
+      "id": "6934b2af7993",
+      "name": "I’m building a Chrome extension that reads your messy brain dump and rewrites it",
+      "slug": "i’m-building-a-chrome-extension-that-reads-your-messy-brain-dump-and-rewrites-it",
+      "description": "I’m not sure if anyone relates but I’m was the kind of person who spends 12 minutes drafting a Slack message, asks for my friend’s perspective on it, and still end up with it sounding passive-aggressive.\n\nI’ve come to realise this affected my friends a lot as well, especially those remote working. It’s not that they dont know *what* to say. It’s that there’s a natural gap between thinking it and typing it in a way the other person actually receives well some times.\n\n10 min a message here and 10 ",
+      "url": "https://unvent.app](https://unvent.app",
+      "homepage": "",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:01.073686",
+      "lastSeen": "2026-05-19T13:38:01.073689",
+      "cooldownExpiresAt": "2026-06-02T13:38:01.073690",
+      "versions": [],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:01.073693",
+          "channel": "reddit",
+          "url": "https://reddit.com/r/SideProject/comments/1thdc8e/im_building_a_chrome_extension_that_reads_your/",
+          "title": "I’m building a Chrome extension that reads your messy brain dump and rewrites it before you send, here’s what I learned building it!"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "reddit_1thdc8e",
+        "name": "I’m building a Chrome extension that reads your messy brain dump and rewrites it",
+        "title": "I’m building a Chrome extension that reads your messy brain dump and rewrites it before you send, here’s what I learned building it!",
+        "url": "https://unvent.app](https://unvent.app",
+        "redditUrl": "https://reddit.com/r/SideProject/comments/1thdc8e/im_building_a_chrome_extension_that_reads_your/",
+        "description": "I’m not sure if anyone relates but I’m was the kind of person who spends 12 minutes drafting a Slack message, asks for my friend’s perspective on it, and still end up with it sounding passive-aggressive.\n\nI’ve come to realise this affected my friends a lot as well, especially those remote working. It’s not that they dont know *what* to say. It’s that there’s a natural gap between thinking it and typing it in a way the other person actually receives well some times.\n\n10 min a message here and 10 ",
+        "score": 1,
+        "upvotes": 1,
+        "comments": 0,
+        "subreddit": "SideProject",
+        "author": "jonasngjw",
+        "timestamp": "2026-05-19T13:31:09",
+        "source": "reddit",
+        "source_url": "https://reddit.com/r/SideProject/comments/1thdc8e/im_building_a_chrome_extension_that_reads_your/"
+      }
+    },
+    {
+      "id": "08b2e2b3f6d5",
+      "name": "Glia – Local-first shared memory layer (SQLite-vec + FTS5 + Offline Knowledge Gr",
+      "slug": "glia-–-local-first-shared-memory-layer-(sqlite-vec-+-fts5-+-offline-knowledge-gr",
+      "description": "Hey everyone,\n\nI wanted to share a project I've been working on called Glia. It is a 100% offline, local-first RAG and memory layer designed to connect your AI web chats (Claude, ChatGPT, DeepSeek) with your local developer tools (Claude Code, Cursor, Windsurf) using a unified local database.\n\nI wanted something lightweight that did not require pulling heavy Docker containers or subscribing to third-party memory APIs. I settled on a Node.js + SQLite architecture running sqlite-vec (for 768-dim f",
+      "url": "https://v.redd.it/o4fv5q26412h1",
+      "homepage": "",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:01.077473",
+      "lastSeen": "2026-05-19T13:38:01.077476",
+      "cooldownExpiresAt": "2026-06-02T13:38:01.077477",
+      "versions": [],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:01.077480",
+          "channel": "reddit",
+          "url": "https://reddit.com/r/SideProject/comments/1thd5u3/glia_localfirst_shared_memory_layer_sqlitevec/",
+          "title": "Glia – Local-first shared memory layer (SQLite-vec + FTS5 + Offline Knowledge Graph)"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "reddit_1thd5u3",
+        "name": "Glia – Local-first shared memory layer (SQLite-vec + FTS5 + Offline Knowledge Gr",
+        "title": "Glia – Local-first shared memory layer (SQLite-vec + FTS5 + Offline Knowledge Graph)",
+        "url": "https://v.redd.it/o4fv5q26412h1",
+        "redditUrl": "https://reddit.com/r/SideProject/comments/1thd5u3/glia_localfirst_shared_memory_layer_sqlitevec/",
+        "description": "Hey everyone,\n\nI wanted to share a project I've been working on called Glia. It is a 100% offline, local-first RAG and memory layer designed to connect your AI web chats (Claude, ChatGPT, DeepSeek) with your local developer tools (Claude Code, Cursor, Windsurf) using a unified local database.\n\nI wanted something lightweight that did not require pulling heavy Docker containers or subscribing to third-party memory APIs. I settled on a Node.js + SQLite architecture running sqlite-vec (for 768-dim f",
+        "score": 1,
+        "upvotes": 1,
+        "comments": 1,
+        "subreddit": "SideProject",
+        "author": "Better-Platypus-3420",
+        "timestamp": "2026-05-19T13:22:06",
+        "source": "reddit",
+        "source_url": "https://reddit.com/r/SideProject/comments/1thd5u3/glia_localfirst_shared_memory_layer_sqlitevec/"
+      }
+    },
+    {
+      "id": "a0cb4580bb99",
+      "name": "How I launched octowiz — doctrine cache for AI coding agents, two-day retro",
+      "slug": "how-i-launched-octowiz-—-doctrine-cache-for-ai-coding-agents,-two-day-retro",
+      "description": "Quick retro on launching `octowiz` (a coordinator skill + doctrine memory stack for Claude Code).\n\nWhat I did:\n- Cascade-posted across r/ClaudeAI → r/LocalLLaMA → r/cursor on Tue morning.\n- Show HN at midday Tue.\n- One X thread + LinkedIn long-form.\n- Three TikTok hooks + two YouTube Shorts staggered over 48 hours.\n\nWhat worked: the \"third path\" framing (cache the doctrine, not the prompt or response) traveled better than the technical features. The actual demo block (LITELLM offline, octowiz st",
+      "url": "https://github.com/raelli/octowiz",
+      "homepage": "",
+      "type": "github",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:01.080524",
+      "lastSeen": "2026-05-19T13:38:01.080527",
+      "cooldownExpiresAt": "2026-06-02T13:38:01.080528",
+      "versions": [],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:01.080530",
+          "channel": "reddit",
+          "url": "https://reddit.com/r/SideProject/comments/1thd3g8/how_i_launched_octowiz_doctrine_cache_for_ai/",
+          "title": "How I launched octowiz — doctrine cache for AI coding agents, two-day retro"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "reddit_1thd3g8",
+        "name": "How I launched octowiz — doctrine cache for AI coding agents, two-day retro",
+        "title": "How I launched octowiz — doctrine cache for AI coding agents, two-day retro",
+        "url": "https://github.com/raelli/octowiz",
+        "redditUrl": "https://reddit.com/r/SideProject/comments/1thd3g8/how_i_launched_octowiz_doctrine_cache_for_ai/",
+        "description": "Quick retro on launching `octowiz` (a coordinator skill + doctrine memory stack for Claude Code).\n\nWhat I did:\n- Cascade-posted across r/ClaudeAI → r/LocalLLaMA → r/cursor on Tue morning.\n- Show HN at midday Tue.\n- One X thread + LinkedIn long-form.\n- Three TikTok hooks + two YouTube Shorts staggered over 48 hours.\n\nWhat worked: the \"third path\" framing (cache the doctrine, not the prompt or response) traveled better than the technical features. The actual demo block (LITELLM offline, octowiz st",
+        "score": 1,
+        "upvotes": 1,
+        "comments": 0,
+        "subreddit": "SideProject",
+        "author": "Alive-Replacement-75",
+        "timestamp": "2026-05-19T13:18:46",
+        "source": "reddit",
+        "source_url": "https://reddit.com/r/SideProject/comments/1thd3g8/how_i_launched_octowiz_doctrine_cache_for_ai/"
+      }
+    },
+    {
+      "id": "f3926630cbde",
+      "name": "I built a receipt-first subscription tracker after forgetting too many renewals.",
+      "slug": "i-built-a-receipt-first-subscription-tracker-after-forgetting-too-many-renewals-",
+      "description": "I kept forgetting subscriptions and free trials, so I built a small web app called Subtraz.\n\nThe demo shows this flow:\n\n1. I bought CapCut\n2. Gmail received the receipt\n3. [SubTraz](http://subtraz.top) detected it\n4. I tapped the notification\n5. The subscription details auto-filled\n\nThe idea is not just manual subscription tracking. I want [SubTraz](http://subtraz.top) to catch subscription receipts early so people can track renewals before they forget.\n\nI am still early, so I am looking for hon",
+      "url": "https://v.redd.it/xx65r7mc312h1",
+      "homepage": "",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:01.083857",
+      "lastSeen": "2026-05-19T13:38:01.083863",
+      "cooldownExpiresAt": "2026-06-02T13:38:01.083863",
+      "versions": [],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:01.083868",
+          "channel": "reddit",
+          "url": "https://reddit.com/r/SideProject/comments/1thd30z/i_built_a_receiptfirst_subscription_tracker_after/",
+          "title": "I built a receipt-first subscription tracker after forgetting too many renewals. Would you trust this?"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "reddit_1thd30z",
+        "name": "I built a receipt-first subscription tracker after forgetting too many renewals.",
+        "title": "I built a receipt-first subscription tracker after forgetting too many renewals. Would you trust this?",
+        "url": "https://v.redd.it/xx65r7mc312h1",
+        "redditUrl": "https://reddit.com/r/SideProject/comments/1thd30z/i_built_a_receiptfirst_subscription_tracker_after/",
+        "description": "I kept forgetting subscriptions and free trials, so I built a small web app called Subtraz.\n\nThe demo shows this flow:\n\n1. I bought CapCut\n2. Gmail received the receipt\n3. [SubTraz](http://subtraz.top) detected it\n4. I tapped the notification\n5. The subscription details auto-filled\n\nThe idea is not just manual subscription tracking. I want [SubTraz](http://subtraz.top) to catch subscription receipts early so people can track renewals before they forget.\n\nI am still early, so I am looking for hon",
+        "score": 1,
+        "upvotes": 1,
+        "comments": 0,
+        "subreddit": "SideProject",
+        "author": "Terrible_Major1395",
+        "timestamp": "2026-05-19T13:18:11",
+        "source": "reddit",
+        "source_url": "https://reddit.com/r/SideProject/comments/1thd30z/i_built_a_receiptfirst_subscription_tracker_after/"
+      }
+    },
+    {
+      "id": "3e04e752ce8b",
+      "name": "Shipped my first solo iOS app after a year of evenings. Lifting tracker built fu",
+      "slug": "shipped-my-first-solo-ios-app-after-a-year-of-evenings--lifting-tracker-built-fu",
+      "description": "Spent a good while building Lockout Lifting. It's a lifting tracker for people who actually train. v1.0 hit the App Store last week, v1.0.1 dropped a few hours ago.  \n  \n  \n  \nWhat it does: visual plate calculator, four-formula 1RM estimator, workout logger (strength + bodyweight + cardio), auto PR detection, rest timer with interactive Live Activity on the Lock Screen, programs, stats, body weight tracking. Everything in one app instead of the usual five-app workflow most lifters end up with.  ",
+      "url": "https://apps.apple.com/app/id6768751120",
+      "homepage": "",
+      "type": "ios_app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:01.087190",
+      "lastSeen": "2026-05-19T13:38:01.087191",
+      "cooldownExpiresAt": "2026-06-02T13:38:01.087192",
+      "versions": [],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:01.087194",
+          "channel": "reddit",
+          "url": "https://reddit.com/r/SideProject/comments/1thd27v/shipped_my_first_solo_ios_app_after_a_year_of/",
+          "title": "Shipped my first solo iOS app after a year of evenings. Lifting tracker built fully in SwiftUI + SwiftData"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "reddit_1thd27v",
+        "name": "Shipped my first solo iOS app after a year of evenings. Lifting tracker built fu",
+        "title": "Shipped my first solo iOS app after a year of evenings. Lifting tracker built fully in SwiftUI + SwiftData",
+        "url": "https://apps.apple.com/app/id6768751120",
+        "redditUrl": "https://reddit.com/r/SideProject/comments/1thd27v/shipped_my_first_solo_ios_app_after_a_year_of/",
+        "description": "Spent a good while building Lockout Lifting. It's a lifting tracker for people who actually train. v1.0 hit the App Store last week, v1.0.1 dropped a few hours ago.  \n  \n  \n  \nWhat it does: visual plate calculator, four-formula 1RM estimator, workout logger (strength + bodyweight + cardio), auto PR detection, rest timer with interactive Live Activity on the Lock Screen, programs, stats, body weight tracking. Everything in one app instead of the usual five-app workflow most lifters end up with.  ",
+        "score": 1,
+        "upvotes": 1,
+        "comments": 0,
+        "subreddit": "SideProject",
+        "author": "hassyb113",
+        "timestamp": "2026-05-19T13:17:00",
+        "source": "reddit",
+        "source_url": "https://reddit.com/r/SideProject/comments/1thd27v/shipped_my_first_solo_ios_app_after_a_year_of/"
+      }
+    },
+    {
+      "id": "c9506edc5fda",
+      "name": "Next Level Wordle",
+      "slug": "next-level-wordle",
+      "description": "Wordle is great. I've been playing it against my mom for years. We trade our scores every day and it's always been fun. We wanted to be a little more challenged though so I made my own Wordle-style game with a twist - 6 letters instead of 5! It's a challenging new way to think and now we play that daily and share our scores. We really dig it. If you're feeling up for a new challenge, please give a whirl and lmk your thoughts. It's called the Daily 6.  Thanks!\n\n[www.dailyritualgames.com](http://w",
+      "url": "http://www.dailyritualgames.com",
+      "homepage": "",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:01.091215",
+      "lastSeen": "2026-05-19T13:38:01.091222",
+      "cooldownExpiresAt": "2026-06-02T13:38:01.091222",
+      "versions": [],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:01.091225",
+          "channel": "reddit",
+          "url": "https://reddit.com/r/SideProject/comments/1thd00p/next_level_wordle/",
+          "title": "Next Level Wordle"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "reddit_1thd00p",
+        "name": "Next Level Wordle",
+        "title": "Next Level Wordle",
+        "url": "http://www.dailyritualgames.com",
+        "redditUrl": "https://reddit.com/r/SideProject/comments/1thd00p/next_level_wordle/",
+        "description": "Wordle is great. I've been playing it against my mom for years. We trade our scores every day and it's always been fun. We wanted to be a little more challenged though so I made my own Wordle-style game with a twist - 6 letters instead of 5! It's a challenging new way to think and now we play that daily and share our scores. We really dig it. If you're feeling up for a new challenge, please give a whirl and lmk your thoughts. It's called the Daily 6.  Thanks!\n\n[www.dailyritualgames.com](http://w",
+        "score": 1,
+        "upvotes": 1,
+        "comments": 1,
+        "subreddit": "SideProject",
+        "author": "Legitimate_Treat_762",
+        "timestamp": "2026-05-19T13:14:09",
+        "source": "reddit",
+        "source_url": "https://reddit.com/r/SideProject/comments/1thd00p/next_level_wordle/"
+      }
+    },
+    {
+      "id": "8869f4cc3766",
+      "name": "Built a one-page Houston property research workspace — every CAD record, flood d",
+      "slug": "built-a-one-page-houston-property-research-workspace-—-every-cad-record,-flood-d",
+      "description": "Realtors in Houston open 5+ tabs to value a house — HCAD, HAR, Zillow, FEMA, school district sites. Spent a few weekends consolidating it into one workspace.\n\nType any Houston-metro address and the tool pulls together appraisal, flood zone, deed history, permits, schools, demographics, a full 25-comp CMA, and live MLS listings. Save & share generates a frozen snapshot link for clients.\n\n2-min walkthrough: [https://youtu.be/zccF-QMrMpg](https://youtu.be/zccF-QMrMpg)\n\nNot opening it up publicly ye",
+      "url": "https://youtu.be/zccF-QMrMpg](https://youtu.be/zccF-QMrMpg",
+      "homepage": "",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:01.094597",
+      "lastSeen": "2026-05-19T13:38:01.094600",
+      "cooldownExpiresAt": "2026-06-02T13:38:01.094601",
+      "versions": [],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:01.094603",
+          "channel": "reddit",
+          "url": "https://reddit.com/r/SideProject/comments/1thc97v/built_a_onepage_houston_property_research/",
+          "title": "Built a one-page Houston property research workspace — every CAD record, flood data, comps, and MLS in one screen [demo]"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "reddit_1thc97v",
+        "name": "Built a one-page Houston property research workspace — every CAD record, flood d",
+        "title": "Built a one-page Houston property research workspace — every CAD record, flood data, comps, and MLS in one screen [demo]",
+        "url": "https://youtu.be/zccF-QMrMpg](https://youtu.be/zccF-QMrMpg",
+        "redditUrl": "https://reddit.com/r/SideProject/comments/1thc97v/built_a_onepage_houston_property_research/",
+        "description": "Realtors in Houston open 5+ tabs to value a house — HCAD, HAR, Zillow, FEMA, school district sites. Spent a few weekends consolidating it into one workspace.\n\nType any Houston-metro address and the tool pulls together appraisal, flood zone, deed history, permits, schools, demographics, a full 25-comp CMA, and live MLS listings. Save & share generates a frozen snapshot link for clients.\n\n2-min walkthrough: [https://youtu.be/zccF-QMrMpg](https://youtu.be/zccF-QMrMpg)\n\nNot opening it up publicly ye",
+        "score": 1,
+        "upvotes": 1,
+        "comments": 1,
+        "subreddit": "SideProject",
+        "author": "LongjumpingScale73",
+        "timestamp": "2026-05-19T12:37:27",
+        "source": "reddit",
+        "source_url": "https://reddit.com/r/SideProject/comments/1thc97v/built_a_onepage_houston_property_research/"
+      }
+    },
+    {
+      "id": "8112b28a9991",
+      "name": "I built a Pixieset alternative to share and sell photo galleries directly from y",
+      "slug": "i-built-a-pixieset-alternative-to-share-and-sell-photo-galleries-directly-from-y",
+      "description": "This project started because I needed a clean way to deliver galleries to clients and friends without paying Pixieset-tier prices just to host files I already had sitting in Google Drive. I’m sharing a breakdown of what it turned into - [Drive Studio ](https://drivestudio.app/)\\- and I'd love feedback from other builders on the \"Bring Your Own Storage\" (BYOS) architecture.\n\n# The Market Problem\n\nIf you do photography, videography, or drone work, you know the client-gallery racket. The incumbents",
+      "url": "https://drivestudio.app/",
+      "homepage": "",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:01.098404",
+      "lastSeen": "2026-05-19T13:38:01.098410",
+      "cooldownExpiresAt": "2026-06-02T13:38:01.098411",
+      "versions": [],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:01.098416",
+          "channel": "reddit",
+          "url": "https://reddit.com/r/SideProject/comments/1thc62u/i_built_a_pixieset_alternative_to_share_and_sell/",
+          "title": "I built a Pixieset alternative to share and sell photo galleries directly from your computer or existing cloud"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "reddit_1thc62u",
+        "name": "I built a Pixieset alternative to share and sell photo galleries directly from y",
+        "title": "I built a Pixieset alternative to share and sell photo galleries directly from your computer or existing cloud",
+        "url": "https://drivestudio.app/",
+        "redditUrl": "https://reddit.com/r/SideProject/comments/1thc62u/i_built_a_pixieset_alternative_to_share_and_sell/",
+        "description": "This project started because I needed a clean way to deliver galleries to clients and friends without paying Pixieset-tier prices just to host files I already had sitting in Google Drive. I’m sharing a breakdown of what it turned into - [Drive Studio ](https://drivestudio.app/)\\- and I'd love feedback from other builders on the \"Bring Your Own Storage\" (BYOS) architecture.\n\n# The Market Problem\n\nIf you do photography, videography, or drone work, you know the client-gallery racket. The incumbents",
+        "score": 1,
+        "upvotes": 1,
+        "comments": 0,
+        "subreddit": "SideProject",
+        "author": "nearly_famous69",
+        "timestamp": "2026-05-19T12:33:06",
+        "source": "reddit",
+        "source_url": "https://reddit.com/r/SideProject/comments/1thc62u/i_built_a_pixieset_alternative_to_share_and_sell/"
+      }
+    },
+    {
+      "id": "77c85e55a630",
+      "name": "OpenCoffer: Self-hosted personal finance and BYO-LLM chat",
+      "slug": "opencoffer:-self-hosted-personal-finance-and-byo-llm-chat",
+      "description": "Got inspired by the ChatGPT finance announcement, so decided to build my own self hosted version, using whatever model you want! \n\nWould love any feedback.",
+      "url": "https://github.com/osirishorus/opencoffer",
+      "homepage": "",
+      "type": "github",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:01.102507",
+      "lastSeen": "2026-05-19T13:38:01.102514",
+      "cooldownExpiresAt": "2026-06-02T13:38:01.102515",
+      "versions": [],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:01.102519",
+          "channel": "reddit",
+          "url": "https://reddit.com/r/SideProject/comments/1thbr5a/opencoffer_selfhosted_personal_finance_and_byollm/",
+          "title": "OpenCoffer: Self-hosted personal finance and BYO-LLM chat"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "reddit_1thbr5a",
+        "name": "OpenCoffer: Self-hosted personal finance and BYO-LLM chat",
+        "title": "OpenCoffer: Self-hosted personal finance and BYO-LLM chat",
+        "url": "https://github.com/osirishorus/opencoffer",
+        "redditUrl": "https://reddit.com/r/SideProject/comments/1thbr5a/opencoffer_selfhosted_personal_finance_and_byollm/",
+        "description": "Got inspired by the ChatGPT finance announcement, so decided to build my own self hosted version, using whatever model you want! \n\nWould love any feedback.",
+        "score": 1,
+        "upvotes": 1,
+        "comments": 0,
+        "subreddit": "SideProject",
+        "author": "osiris970",
+        "timestamp": "2026-05-19T12:13:24",
+        "source": "reddit",
+        "source_url": "https://reddit.com/r/SideProject/comments/1thbr5a/opencoffer_selfhosted_personal_finance_and_byollm/"
+      }
+    },
+    {
+      "id": "529f4b819745",
+      "name": "Built an AI journaling app, here's what actually happened",
+      "slug": "built-an-ai-journaling-app,-here's-what-actually-happened",
+      "description": "Started building nuju-app because I kept abandoning paper journals after two weeks. Every time. Bought a nice notebook, wrote in it for a bit, then nothing.\n\nSo I built something that nudges you with AI prompts based on what you've written before. The idea being it actually knows your patterns, not just generic \"how was your day\" stuff.\n\nThe building part was fine. Shipping it, less fine. Solo indie hacker means you're doing product, marketing, support, everything. And tbh the marketing side has",
+      "url": "http://nuju.app",
+      "homepage": "",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [],
+      "firstSeen": "2026-05-19T13:38:01.105965",
+      "lastSeen": "2026-05-19T13:38:01.105970",
+      "cooldownExpiresAt": "2026-06-02T13:38:01.105971",
+      "versions": [],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-19T13:38:01.105976",
+          "channel": "reddit",
+          "url": "https://reddit.com/r/SideProject/comments/1thbipr/built_an_ai_journaling_app_heres_what_actually/",
+          "title": "Built an AI journaling app, here's what actually happened"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "",
+        "useCases": [],
+        "designIntent": "",
+        "problemSolved": "",
+        "score": 0,
+        "scoreReason": "",
+        "competitors": []
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "reddit_1thbipr",
+        "name": "Built an AI journaling app, here's what actually happened",
+        "title": "Built an AI journaling app, here's what actually happened",
+        "url": "http://nuju.app",
+        "redditUrl": "https://reddit.com/r/SideProject/comments/1thbipr/built_an_ai_journaling_app_heres_what_actually/",
+        "description": "Started building nuju-app because I kept abandoning paper journals after two weeks. Every time. Bought a nice notebook, wrote in it for a bit, then nothing.\n\nSo I built something that nudges you with AI prompts based on what you've written before. The idea being it actually knows your patterns, not just generic \"how was your day\" stuff.\n\nThe building part was fine. Shipping it, less fine. Solo indie hacker means you're doing product, marketing, support, everything. And tbh the marketing side has",
+        "score": 1,
+        "upvotes": 1,
+        "comments": 0,
+        "subreddit": "SideProject",
+        "author": "Internal-Relative623",
+        "timestamp": "2026-05-19T12:02:32",
+        "source": "reddit",
+        "source_url": "https://reddit.com/r/SideProject/comments/1thbipr/built_an_ai_journaling_app_heres_what_actually/"
+      }
+    }
+  ],
+  "tracking": {
+    "dailyFeatured": [],
+    "weeklyDeepDive": []
+  }
+}

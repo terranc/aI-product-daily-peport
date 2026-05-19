@@ -1,0 +1,135 @@
+{
+  "date": "2026-05-19",
+  "generatedAt": "2026-05-19T13:38:01.127364",
+  "productCount": 3,
+  "products": [
+    {
+      "id": "c4791a9450fc",
+      "name": "Semble",
+      "slug": "semble",
+      "description": "Hey HN! We (Stephan and Thomas) recently open-sourced Semble. We kept running into the same problem while using Claude Code on large codebases: when the agent can&#x27;t find something directly, it falls back to grep, reading full files or launching subagents. This uses a lot of tokens, and often still misses the relevant code. There are existing tools for this, but they were either too slow to index on demand, needed API keys, or had poor retrieval quality.<p>Semble is our solution for this. It",
+      "url": "https://github.com/MinishLab/semble",
+      "homepage": "",
+      "type": "github",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [],
+      "analysis": {
+        "targetAudience": "开发者和技术团队",
+        "useCases": [
+          "代码生成和开发辅助"
+        ],
+        "designIntent": "基于Claude技术，提供Hey HN! We (Stephan and Thomas) recently open-sour",
+        "problemSolved": "解决开发者和技术团队在代码生成和开发辅助的效率问题",
+        "tags": [
+          "Claude",
+          "Web应用",
+          "编程"
+        ],
+        "score": 9,
+        "scoreReason": "Hacker News 热度高（429分）；产品描述清晰完整；有可用产品链接",
+        "competitors": [
+          {
+            "name": "GitHub Copilot",
+            "url": "https://github.com/copilot",
+            "comparison": "IDE集成深，代码能力强"
+          },
+          {
+            "name": "Cursor",
+            "url": "https://cursor.sh",
+            "comparison": "AI原生编辑器体验好"
+          }
+        ]
+      },
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "firstSeen": "2026-05-19T13:38:00.963519"
+    },
+    {
+      "id": "7c94ad6008ac",
+      "name": "We let AIs run radio stations",
+      "slug": "we-let-ais-run-radio-stations",
+      "description": "Hey HN!<p>I&#x27;m Lukas from Andon Labs. We let AIs run companies without humans in the loop and report to the public on what can go wrong. Previously, we&#x27;ve done experiments in retail (vending machines, stores, and cafes), but we just launched one in the media sector. We gave four AI agents all the tools they need to both broadcast radio shows live and handle all the business side of running a media company. The agents&#x27; revenue is so far terrible (you can try to strike a sponsor deal",
+      "url": "https://andonlabs.com/blog/andon-fm",
+      "homepage": "",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [],
+      "analysis": {
+        "targetAudience": "创业者和市场营销人员",
+        "useCases": [
+          "日常效率提升",
+          "重复任务自动化",
+          "创意激发辅助"
+        ],
+        "designIntent": "基于数据分析技术，提供Hey HN!<p>I&#x27;m Lukas from Andon Labs. We let A",
+        "problemSolved": "解决创业者和市场营销人员在日常效率提升的效率问题",
+        "tags": [
+          "数据分析",
+          "商业",
+          "Web应用"
+        ],
+        "score": 9,
+        "scoreReason": "Hacker News 热度高（217分）；产品描述清晰完整；有可用产品链接",
+        "competitors": [
+          {
+            "name": "ChatGPT",
+            "url": "https://chatgpt.com",
+            "comparison": "通用基准"
+          }
+        ]
+      },
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "firstSeen": "2026-05-19T13:38:00.964120"
+    },
+    {
+      "id": "8fd18727417c",
+      "name": "Running the second public ODoH relay",
+      "slug": "running-the-second-public-odoh-relay",
+      "description": "Every privacy-focused DNS service requires an account: NextDNS, Cloudflare for Families, Apple&#x27;s iCloud Private Relay (paid, iOS-only). The protocol that doesn’t require one - ODoH - had basically one well-known public relay operator (Frank Denis on Fastly Compute, default in dnscrypt-proxy). I built a second one and the client to talk to it.",
+      "url": "https://numa.rs/blog/posts/odoh-anonymous-dns-without-an-account.html",
+      "homepage": "",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [],
+      "analysis": {
+        "targetAudience": "普通用户和效率追求者",
+        "useCases": [
+          "日常效率提升",
+          "重复任务自动化",
+          "创意激发辅助"
+        ],
+        "designIntent": "基于移动应用技术，提供Every privacy-focused DNS service requires an acco",
+        "problemSolved": "解决普通用户和效率追求者在日常效率提升的效率问题",
+        "tags": [
+          "移动应用",
+          "AI工具"
+        ],
+        "score": 9,
+        "scoreReason": "Hacker News 热度高（125分）；产品描述清晰完整；有可用产品链接",
+        "competitors": [
+          {
+            "name": "ChatGPT",
+            "url": "https://chatgpt.com",
+            "comparison": "通用基准"
+          }
+        ]
+      },
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "firstSeen": "2026-05-19T13:38:00.967905"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+name: AI Product Radar - Daily Crawl
+
+on:
+  schedule:
+    # 每天 UTC 00:00 (北京时间 08:00)
+    - cron: '0 0 * * *'
+    # 每周一 UTC 00:00 额外运行周报
+    - cron: '0 0 * * 1'
+  workflow_dispatch: # 允许手动触发
+
+permissions:
+  contents: write
+  pages: write
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Run daily crawl
+        run: |
+          python3 scripts/daily_crawl.py
+        env:
+          PYTHONIOENCODING: utf-8
+
+      - name: Check if Monday (run weekly analysis)
+        if: github.event.schedule == '0 0 * * 1' || github.event_name == 'workflow_dispatch'
+        run: |
+          python3 scripts/weekly_analysis.py
+        continue-on-error: true
+
+      - name: Build site
+        run: |
+          python3 scripts/build_site.py
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+          publish_branch: gh-pages
+          force_orphan: true
