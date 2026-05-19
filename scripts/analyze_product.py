@@ -7,6 +7,100 @@
 import json
 import re
 
+
+# ─── 技术性产品过滤器 ────────────────────────────────────────────────
+# 排除纯技术工具/框架/SDK/模型，只保留"把 AI 融入应用场景"的产品
+
+TECH_KEYWORDS_EXCLUDE = [
+    # AI 基础设施 / 模型
+    'llm', 'large language model', 'fine-tun', 'finetun', 'quantiz',
+    'embedding', 'vector database', 'rag ', 'retrieval augmented',
+    'langchain', 'llamaindex', 'autogen', 'crewai', 'semantic kernel',
+    'openai api', 'anthropic api', 'gemini api', 'hugging face',
+    'transformer', 'neural network', 'machine learning model',
+    'training data', 'dataset', 'benchmark',
+    # 开发工具 / SDK / 框架
+    'sdk', 'cli tool', 'command line', 'developer tool', 'dev tool',
+    'code generator', 'code review', 'lint', 'formatter',
+    'boilerplate', 'starter template', 'scaffold',
+    'npm package', 'pip package', 'cargo crate', 'go module',
+    'github action', 'ci/cd', 'docker image', 'kubernetes',
+    # Agent / 编排框架
+    'agent framework', 'multi-agent', 'agent swarm', 'agent orchestrat',
+    'tool calling', 'function calling', 'mcp server', 'mcp tool',
+    'prompt engineering', 'prompt template', 'system prompt',
+    'pipeline for ai', 'ai agent', 'agent skill',
+    # 开源项目典型描述
+    'open source', 'self-host', 'self host', 'local llm', 'local ai',
+    'ollama', 'llamafile', 'vllm', 'text generation inference',
+    'claude code', 'cursor', 'copilot', 'coding agent',
+]
+
+APP_KEYWORDS_INCLUDE = [
+    # 应用场景
+    'app', 'application', 'platform', 'service', 'tool for',
+    'writing', 'design', 'marketing', 'sales', 'customer',
+    'productivity', 'project management', 'team', 'collaborat',
+    'email', 'calendar', 'scheduling', 'meeting', 'note',
+    'photo', 'video', 'music', 'podcast', 'content creat',
+    'e-commerce', 'shop', 'store', 'payment', 'invoice',
+    'health', 'fitness', 'meditation', 'journal', 'diary',
+    'education', 'learn', 'course', 'tutor', 'study',
+    'finance', 'budget', 'expense', 'invest', 'trading',
+    'travel', 'booking', 'restaurant', 'recipe', 'food',
+    'social', 'community', 'network', 'dating', 'messaging',
+    'resume', 'job', 'hiring', 'recruit', 'interview',
+    'legal', 'contract', 'document', 'pdf', 'report',
+    'analytics', 'dashboard', 'insight', 'survey', 'feedback',
+    'automation', 'workflow', 'integrat', 'zapier', 'no-code',
+]
+
+
+def is_application_product(product_data):
+    """
+    判断是否为应用侧产品（非纯技术工具）
+    返回: (bool, str) — (是否通过, 原因)
+    """
+    name = (product_data.get('name', '') or '').lower()
+    desc = (product_data.get('description', '') or '').lower()
+    url = (product_data.get('url', '') or '').lower()
+    content = f"{name} {desc} {url}"
+
+    # 1. 排除 GitHub 纯开源项目（除非描述中明确是应用）
+    if product_data.get('source') == 'github':
+        # GitHub 项目默认排除，除非描述包含应用关键词
+        app_score = sum(1 for kw in APP_KEYWORDS_INCLUDE if kw in content)
+        if app_score < 2:
+            return False, "GitHub 开源项目，非应用产品"
+
+    # 2. 排除技术关键词命中
+    tech_hits = [kw for kw in TECH_KEYWORDS_EXCLUDE if kw in content]
+    if len(tech_hits) >= 2:
+        return False, f"技术性产品（命中: {', '.join(tech_hits[:3])}）"
+
+    # 3. 排除名称中明显的技术词汇
+    tech_name_patterns = [
+        r'\bsdk\b', r'\bapi\b', r'\bcli\b', r'\bkit\b',
+        r'\bframework\b', r'\blibrary\b',
+        r'\bagent\b', r'\bmcp\b', r'\bllm\b', r'\bmodel\b',
+        r'\bclaude\b.*\bcode\b', r'\bcopilot\b', r'\bcursor\b',
+        r'\bpipeline\b', r'\bvector\b', r'\bembedding\b',
+    ]
+    name_tech = sum(1 for p in tech_name_patterns if re.search(p, name))
+    if name_tech >= 1:
+        return False, f"名称包含技术词汇"
+
+    # 4. 积极信号：包含应用关键词
+    app_hits = [kw for kw in APP_KEYWORDS_INCLUDE if kw in content]
+    if len(app_hits) >= 1:
+        return True, f"应用产品（命中: {', '.join(app_hits[:3])}）"
+
+    # 5. 默认：如果没有明显技术特征，保留
+    if not tech_hits:
+        return True, "无明显技术特征，默认保留"
+
+    return False, "未通过筛选"
+
 # 分析提示词模板
 ANALYSIS_PROMPT = """请分析以下 AI 产品，提供结构化分析：
 

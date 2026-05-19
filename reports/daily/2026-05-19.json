@@ -1,53 +1,8 @@
 {
   "date": "2026-05-19",
-  "generatedAt": "2026-05-19T13:38:01.127364",
+  "generatedAt": "2026-05-19T17:26:23.137594",
   "productCount": 3,
   "products": [
-    {
-      "id": "c4791a9450fc",
-      "name": "Semble",
-      "slug": "semble",
-      "description": "Hey HN! We (Stephan and Thomas) recently open-sourced Semble. We kept running into the same problem while using Claude Code on large codebases: when the agent can&#x27;t find something directly, it falls back to grep, reading full files or launching subagents. This uses a lot of tokens, and often still misses the relevant code. There are existing tools for this, but they were either too slow to index on demand, needed API keys, or had poor retrieval quality.<p>Semble is our solution for this. It",
-      "url": "https://github.com/MinishLab/semble",
-      "homepage": "",
-      "type": "github",
-      "appStoreName": null,
-      "appStoreUrl": null,
-      "screenshotUrl": null,
-      "appStoreScreenshots": [],
-      "tags": [],
-      "analysis": {
-        "targetAudience": "开发者和技术团队",
-        "useCases": [
-          "代码生成和开发辅助"
-        ],
-        "designIntent": "基于Claude技术，提供Hey HN! We (Stephan and Thomas) recently open-sour",
-        "problemSolved": "解决开发者和技术团队在代码生成和开发辅助的效率问题",
-        "tags": [
-          "Claude",
-          "Web应用",
-          "编程"
-        ],
-        "score": 9,
-        "scoreReason": "Hacker News 热度高（429分）；产品描述清晰完整；有可用产品链接",
-        "competitors": [
-          {
-            "name": "GitHub Copilot",
-            "url": "https://github.com/copilot",
-            "comparison": "IDE集成深，代码能力强"
-          },
-          {
-            "name": "Cursor",
-            "url": "https://cursor.sh",
-            "comparison": "AI原生编辑器体验好"
-          }
-        ]
-      },
-      "sourceChannels": [
-        "hackernews"
-      ],
-      "firstSeen": "2026-05-19T13:38:00.963519"
-    },
     {
       "id": "7c94ad6008ac",
       "name": "We let AIs run radio stations",
@@ -68,15 +23,15 @@
           "重复任务自动化",
           "创意激发辅助"
         ],
-        "designIntent": "基于数据分析技术，提供Hey HN!<p>I&#x27;m Lukas from Andon Labs. We let A",
+        "designIntent": "基于商业技术，提供Hey HN!<p>I&#x27;m Lukas from Andon Labs. We let A",
         "problemSolved": "解决创业者和市场营销人员在日常效率提升的效率问题",
         "tags": [
-          "数据分析",
           "商业",
-          "Web应用"
+          "Web应用",
+          "数据分析"
         ],
         "score": 9,
-        "scoreReason": "Hacker News 热度高（217分）；产品描述清晰完整；有可用产品链接",
+        "scoreReason": "Hacker News 热度高（259分）；产品描述清晰完整；有可用产品链接",
         "competitors": [
           {
             "name": "ChatGPT",
@@ -88,7 +43,7 @@
       "sourceChannels": [
         "hackernews"
       ],
-      "firstSeen": "2026-05-19T13:38:00.964120"
+      "firstSeen": "2026-05-19T17:26:23.067488"
     },
     {
       "id": "8fd18727417c",
@@ -129,7 +84,58 @@
       "sourceChannels": [
         "hackernews"
       ],
-      "firstSeen": "2026-05-19T13:38:00.967905"
+      "firstSeen": "2026-05-19T17:26:23.071511"
+    },
+    {
+      "id": "abe170d5c199",
+      "name": "Browser based sythesizer, drum machine and squencer",
+      "slug": "browser-based-sythesizer,-drum-machine-and-squencer",
+      "description": "Inspired by the recent Boards Of Canada announcement, I&#x27;ve been in a low-fi electronica mood lately and was going back and forth with Claude on how to design similar instruments in the browser that fit the genre.  One thing led to another and pretty soon I had a fully browser based polyphonic synthesizer &#x2F; drum machine &#x2F; sequencer.<p>The interface and workflow was heavily inspired by the Rebirth338 application released back in the 90&#x27;s, but with lo-fi synth voices rather than",
+      "url": "https://github.com/madmonk13/modal-16",
+      "homepage": "",
+      "type": "github",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [],
+      "analysis": {
+        "targetAudience": "设计师和创意工作者",
+        "useCases": [
+          "视觉设计和创意生成"
+        ],
+        "designIntent": "基于办公技术，提供Inspired by the recent Boards Of Canada announceme",
+        "problemSolved": "解决设计师和创意工作者在视觉设计和创意生成的效率问题",
+        "tags": [
+          "办公",
+          "设计",
+          "移动应用",
+          "Claude"
+        ],
+        "score": 8,
+        "scoreReason": "产品描述清晰完整；有可用产品链接",
+        "competitors": [
+          {
+            "name": "Microsoft Copilot",
+            "url": "https://copilot.microsoft.com",
+            "comparison": " Office生态整合"
+          },
+          {
+            "name": "Google Workspace AI",
+            "url": "https://workspace.google.com",
+            "comparison": "云端协作优势"
+          },
+          {
+            "name": "Midjourney",
+            "url": "https://midjourney.com",
+            "comparison": "图像生成标杆，社区活跃"
+          }
+        ]
+      },
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "firstSeen": "2026-05-19T17:26:23.074165"
     }
   ]
 }

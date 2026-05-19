@@ -17,7 +17,7 @@ from fetch_github import fetch_github_trending
 from fetch_twitter import fetch_twitter_products
 from fetch_reddit import fetch_reddit_products
 from product_db import add_or_update_product, get_products_for_daily, mark_product_featured, load_products
-from analyze_product import analyze_product
+from analyze_product import analyze_product, is_application_product
 from screenshot import process_product_screenshots
 
 REPORTS_DIR = Path("/Volumes/EXTEND/aI-product-daily-peport/reports/daily")
@@ -71,14 +71,22 @@ def fetch_all_sources():
     return all_products
 
 def process_products(products_list):
-    """处理产品：入库、去重、分析"""
+    """处理产品：过滤技术产品 → 入库、去重"""
     new_products = []
     updated_products = []
+    filtered_count = 0
 
     print("\n🔄 处理产品入库...")
 
     for source, product_data in products_list:
         try:
+            # 过滤技术性产品，只保留应用侧产品
+            is_app, reason = is_application_product(product_data)
+            if not is_app:
+                filtered_count += 1
+                print(f"  🚫 过滤: {product_data.get('name', 'unknown')[:40]} — {reason}")
+                continue
+
             status, product = add_or_update_product(product_data, source)
 
             if status == 'new':
@@ -93,6 +101,7 @@ def process_products(products_list):
         except Exception as e:
             print(f"  ❌ 处理 {product_data.get('name', 'unknown')} 失败: {e}")
 
+    print(f"\n📊 过滤统计: {filtered_count} 个技术性产品被排除")
     return new_products, updated_products
 
 def select_top_products(max_count=3):
