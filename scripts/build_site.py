@@ -351,6 +351,14 @@ img { display:block; max-width:100%; }
 .meta-row .label { color:var(--c-text-3); }
 .meta-row .value { color:var(--c-text-2); font-weight:500; }
 
+.source-links { display:flex; flex-direction:column; gap:6px; }
+.source-link {
+  display:inline-flex; align-items:center; gap:6px;
+  font-size:.85rem; color:var(--c-accent); font-weight:500;
+  padding:4px 0; transition:color .15s;
+}
+.source-link:hover { color:var(--c-accent-d); }
+
 /* ─── Archive Table ─── */
 .archive-wrap {
   background:var(--c-surface);
@@ -611,6 +619,24 @@ def generate_product_pages(all_products):
         for s in app_ss:
             ss_h += f'<div class="screenshot-img"><img src="{rel(s, 1)}" alt="截图"></div>'
 
+        # 数据来源链接
+        raw = prd.get('rawData', {})
+        source_links = []
+        channel_labels = {'hackernews': 'Hacker News', 'reddit': 'Reddit', 'twitter': 'Twitter', 'github': 'GitHub'}
+        for ch in prd.get('sourceChannels', []):
+            label = channel_labels.get(ch, ch)
+            if ch == 'hackernews':
+                url = raw.get('hn_url') or raw.get('source_url', '')
+            elif ch == 'reddit':
+                url = raw.get('redditUrl') or raw.get('source_url', '')
+            elif ch == 'twitter':
+                url = raw.get('twitterUrl') or raw.get('source_url', '')
+            else:
+                url = raw.get('source_url') or raw.get('url', '')
+            if url:
+                source_links.append(f'<a href="{url}" target="_blank" class="source-link">{icon("external")} {label}</a>')
+        source_h = ''.join(source_links) if source_links else '<span style="color:var(--c-text-3);font-size:.85rem">暂无</span>'
+
         url = prd.get('url') or prd.get('homepage', '')
         btn_web = f'<a href="{url}" target="_blank" class="btn btn-primary">{icon("external")} 访问官网</a>' if url else ''
         btn_app = f'<a href="{prd["appStoreUrl"]}" target="_blank" class="btn btn-ghost">{icon("phone")} App Store</a>' if prd.get('appStoreUrl') else ''
@@ -676,6 +702,10 @@ def generate_product_pages(all_products):
             <div class="aside-block">
               <div class="aside-label">标签</div>
               <div class="aside-tags">{tags_h}</div>
+            </div>
+            <div class="aside-block">
+              <div class="aside-label">数据来源</div>
+              <div class="source-links">{source_h}</div>
             </div>
             <div class="aside-block">
               <div class="aside-label">元数据</div>
