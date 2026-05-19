@@ -54,7 +54,8 @@
             "comparison": "iOS 播客应用，有三段式收件箱但无广告拦截"
           }
         ]
-      }
+      },
+      "sourceUrl": "https://news.ycombinator.com/item?id=48184645"
     },
     {
       "id": "reddit_blipai_1tgohgd",
@@ -108,7 +109,8 @@
             "comparison": "按分钟付费的转录服务，准确率高但成本随用量增长"
           }
         ]
-      }
+      },
+      "sourceUrl": "https://reddit.com/r/SideProject/comments/1tgohgd/"
     },
     {
       "id": "reddit_lumis_1th6mha",
@@ -163,7 +165,8 @@
             "comparison": "AI 日记应用，有引导但无哲学框架"
           }
         ]
-      }
+      },
+      "sourceUrl": "https://reddit.com/r/SideProject/comments/1th6mha/"
     }
   ]
 }

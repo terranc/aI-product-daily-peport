@@ -621,18 +621,27 @@ def generate_product_pages(all_products):
         raw = prd.get('rawData', {})
         source_links = []
         channel_labels = {'hackernews': 'Hacker News', 'reddit': 'Reddit', 'twitter': 'Twitter', 'github': 'GitHub'}
-        for ch in prd.get('sourceChannels', []):
+
+        # 优先使用报告中的 sourceUrl 字段
+        source_url = prd.get('sourceUrl', '')
+        if source_url:
+            ch = prd.get('sourceChannels', ['未知'])[0]
             label = channel_labels.get(ch, ch)
-            if ch == 'hackernews':
-                url = raw.get('hn_url') or raw.get('source_url', '')
-            elif ch == 'reddit':
-                url = raw.get('redditUrl') or raw.get('source_url', '')
-            elif ch == 'twitter':
-                url = raw.get('twitterUrl') or raw.get('source_url', '')
-            else:
-                url = raw.get('source_url') or raw.get('url', '')
-            if url:
-                source_links.append(f'<a href="{url}" target="_blank" class="source-link">{icon("external")} {label}</a>')
+            source_links.append(f'<a href="{source_url}" target="_blank" class="source-link">{icon("external")} {label}</a>')
+        else:
+            # 回退到 rawData 中的链接
+            for ch in prd.get('sourceChannels', []):
+                label = channel_labels.get(ch, ch)
+                if ch == 'hackernews':
+                    url = raw.get('hn_url') or raw.get('source_url', '')
+                elif ch == 'reddit':
+                    url = raw.get('redditUrl') or raw.get('source_url', '')
+                elif ch == 'twitter':
+                    url = raw.get('twitterUrl') or raw.get('source_url', '')
+                else:
+                    url = raw.get('source_url') or raw.get('url', '')
+                if url:
+                    source_links.append(f'<a href="{url}" target="_blank" class="source-link">{icon("external")} {label}</a>')
         source_h = ''.join(source_links) if source_links else '<span style="color:var(--c-text-3);font-size:.85rem">暂无</span>'
 
         url = prd.get('url') or prd.get('homepage', '')
