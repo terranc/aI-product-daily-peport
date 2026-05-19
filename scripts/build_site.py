@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-生成静态网站
-创建 GitHub Pages 可用的站点（支持子路径部署）
+AI 产品雷达 — 静态网站生成器
+浅色系设计，博客风格首页，表格归档
 """
 
 import json
@@ -13,15 +13,14 @@ BASE_DIR = Path("/Volumes/EXTEND/aI-product-daily-peport")
 SITE_DIR = BASE_DIR / "docs"
 REPORTS_DIR = BASE_DIR / "reports"
 DATA_DIR = BASE_DIR / "data"
-
-# GitHub Pages 子路径 —— 所有资源链接必须带上此前缀
 BASE_PATH = "/aI-product-daily-peport"
 
+
 def p(relative_path):
-    """生成带子路径前缀的 URL"""
     if relative_path.startswith('/'):
         return f"{BASE_PATH}{relative_path}"
     return f"{BASE_PATH}/{relative_path}"
+
 
 def load_products():
     products_file = DATA_DIR / "products.json"
@@ -29,6 +28,7 @@ def load_products():
         with open(products_file, 'r', encoding='utf-8') as f:
             return json.load(f)
     return {"products": []}
+
 
 def load_daily_reports():
     daily_dir = REPORTS_DIR / "daily"
@@ -39,6 +39,7 @@ def load_daily_reports():
                 reports.append(json.load(f))
     return reports
 
+
 def copy_assets():
     assets_dir = BASE_DIR / "assets"
     site_assets = SITE_DIR / "assets"
@@ -47,1490 +48,705 @@ def copy_assets():
             shutil.rmtree(site_assets)
         shutil.copytree(assets_dir, site_assets)
 
-def generate_global_css():
-    css = r"""/* AI Product Radar - Design System
-   Style: Dark Glass Morphism + Gradient Accents
-   Inspired by ui-ux-pro-max best practices
-*/
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+# ─── SVG Icons ────────────────────────────────────────────────────────
+
+def icon(name):
+    icons = {
+        'radar': '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a10 10 0 0 1 0 20"/><path d="M12 2a6 6 0 0 1 0 12"/><circle cx="12" cy="8" r="1" fill="currentColor"/></svg>',
+        'arrow': '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>',
+        'external': '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>',
+        'phone': '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>',
+        'target': '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>',
+        'bulb': '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5A4.61 4.61 0 0 1 8.91 14"/></svg>',
+        'palette': '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r=".5" fill="currentColor"/><circle cx="17.5" cy="10.5" r=".5" fill="currentColor"/><circle cx="8.5" cy="7.5" r=".5" fill="currentColor"/><circle cx="6.5" cy="12.5" r=".5" fill="currentColor"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"/></svg>',
+        'zap': '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>',
+        'chart': '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>',
+        'swords': '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="14.5 17.5 3 6 3 3 6 3 17.5 14.5"/><line x1="13" y1="19" x2="19" y2="13"/><line x1="16" y1="16" x2="20" y2="20"/><line x1="19" y1="21" x2="21" y2="19"/><polyline points="14.5 6.5 18 3 21 3 21 6 17.5 9.5"/><line x1="5" y1="14" x2="9" y2="18"/><line x1="7" y1="17" x2="4" y2="20"/><line x1="3" y1="19" x2="5" y2="21"/></svg>',
+        'inbox': '<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 16 12 14 15 10 15 8 12 2 12"/><path d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"/></svg>',
+        'github': '<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>',
+    }
+    return icons.get(name, '')
+
+
+# ─── CSS ──────────────────────────────────────────────────────────────
+
+def generate_css():
+    css = r"""@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
 
 :root {
-  /* Core palette — deep navy + electric violet */
-  --primary: #7c3aed;
-  --primary-light: #a78bfa;
-  --primary-dark: #5b21b6;
-  --secondary: #06b6d4;
-  --accent: #f472b6;
-
-  /* Surfaces */
-  --bg-base: #0b0f1a;
-  --bg-raised: #111827;
-  --bg-glass: rgba(17, 24, 39, 0.7);
-  --bg-card: rgba(30, 41, 59, 0.5);
-  --bg-hover: rgba(124, 58, 237, 0.08);
-
-  /* Text */
-  --text-primary: #f1f5f9;
-  --text-secondary: #94a3b8;
-  --text-muted: #64748b;
-
-  /* Borders & effects */
-  --border: rgba(148, 163, 184, 0.12);
-  --border-hover: rgba(124, 58, 237, 0.4);
-  --glass-blur: 16px;
-  --shadow-sm: 0 1px 2px rgba(0,0,0,0.3);
-  --shadow-md: 0 4px 12px rgba(0,0,0,0.4);
-  --shadow-lg: 0 12px 40px rgba(0,0,0,0.5);
-  --shadow-glow: 0 0 30px rgba(124, 58, 237, 0.15);
-
-  /* Radius */
-  --radius-sm: 8px;
-  --radius-md: 12px;
-  --radius-lg: 16px;
-  --radius-xl: 24px;
-
-  /* Transitions */
-  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
-  --duration: 200ms;
+  --c-bg:       #f8f9fb;
+  --c-surface:  #ffffff;
+  --c-border:   #e5e7eb;
+  --c-border-l: #f0f1f3;
+  --c-text:     #111827;
+  --c-text-2:   #4b5563;
+  --c-text-3:   #9ca3af;
+  --c-accent:   #4f46e5;
+  --c-accent-l: #eef2ff;
+  --c-accent-d: #3730a3;
+  --c-tag-bg:   #f3f4f6;
+  --c-green:    #059669;
+  --c-amber:    #d97706;
+  --shadow-sm:  0 1px 2px rgba(0,0,0,.04);
+  --shadow-md:  0 2px 8px rgba(0,0,0,.06);
+  --shadow-lg:  0 8px 24px rgba(0,0,0,.08);
+  --radius:     8px;
+  --radius-lg:  12px;
+  --ease:       cubic-bezier(.16,1,.3,1);
 }
 
-*, *::before, *::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
 
-html {
-  scroll-behavior: smooth;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+html { scroll-behavior:smooth; -webkit-font-smoothing:antialiased; }
 
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  background: var(--bg-base);
-  color: var(--text-primary);
-  line-height: 1.6;
-  min-height: 100vh;
-}
-
-/* Subtle animated background gradient */
-body::before {
-  content: '';
-  position: fixed;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background:
-    radial-gradient(ellipse 80% 60% at 10% 20%, rgba(124,58,237,0.08) 0%, transparent 60%),
-    radial-gradient(ellipse 60% 50% at 90% 80%, rgba(6,182,212,0.06) 0%, transparent 60%);
-  pointer-events: none;
-  z-index: 0;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 24px;
-  position: relative;
-  z-index: 1;
-}
-
-/* ===== HEADER ===== */
-header {
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  background: var(--bg-glass);
-  backdrop-filter: blur(var(--glass-blur));
-  -webkit-backdrop-filter: blur(var(--glass-blur));
-  border-bottom: 1px solid var(--border);
-}
-
-header .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 64px;
-}
-
-.logo {
-  font-size: 1.25rem;
-  font-weight: 800;
-  letter-spacing: -0.02em;
-  background: linear-gradient(135deg, var(--primary-light), var(--secondary));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.logo-icon {
-  width: 32px;
-  height: 32px;
-  background: linear-gradient(135deg, var(--primary), var(--secondary));
-  border-radius: var(--radius-sm);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 16px;
-  -webkit-text-fill-color: white;
-}
-
-nav {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-nav a {
-  color: var(--text-secondary);
-  text-decoration: none;
-  padding: 8px 16px;
-  border-radius: var(--radius-sm);
-  font-size: 0.875rem;
-  font-weight: 500;
-  transition: all var(--duration) var(--ease-out);
-  cursor: pointer;
-}
-
-nav a:hover {
-  color: var(--text-primary);
-  background: var(--bg-hover);
-}
-
-nav a.active {
-  color: var(--primary-light);
-  background: rgba(124, 58, 237, 0.12);
-}
-
-/* ===== HERO / SECTION HEADER ===== */
-.hero {
-  padding: 60px 0 40px;
-  text-align: center;
-}
-
-.hero h1 {
-  font-size: 2.5rem;
-  font-weight: 800;
-  letter-spacing: -0.03em;
-  line-height: 1.2;
-  margin-bottom: 12px;
-  background: linear-gradient(135deg, var(--text-primary) 0%, var(--primary-light) 50%, var(--secondary) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.hero p {
-  color: var(--text-secondary);
-  font-size: 1.1rem;
-  max-width: 560px;
-  margin: 0 auto 24px;
-}
-
-.hero-stats {
-  display: flex;
-  justify-content: center;
-  gap: 32px;
-  margin-top: 24px;
-}
-
-.stat {
-  text-align: center;
-}
-
-.stat-value {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--primary-light);
-}
-
-.stat-label {
-  font-size: 0.75rem;
-  color: var(--text-muted);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-
-/* Date filter pills */
-.filter-bar {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 8px;
-  margin-bottom: 40px;
-}
-
-.filter-pill {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  padding: 6px 14px;
-  border-radius: 20px;
-  font-size: 0.8rem;
-  color: var(--text-secondary);
-  cursor: pointer;
-  transition: all var(--duration) var(--ease-out);
-}
-
-.filter-pill:hover, .filter-pill.active {
-  background: rgba(124, 58, 237, 0.15);
-  border-color: var(--border-hover);
-  color: var(--primary-light);
-}
-
-/* ===== PRODUCT GRID ===== */
-.product-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-  gap: 24px;
-  padding-bottom: 60px;
-}
-
-/* ===== PRODUCT CARD ===== */
-.product-card {
-  background: var(--bg-card);
-  backdrop-filter: blur(8px);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
-  overflow: hidden;
-  text-decoration: none;
-  color: inherit;
-  transition: all var(--duration) var(--ease-out);
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-}
-
-.product-card:hover {
-  transform: translateY(-4px);
-  border-color: var(--border-hover);
-  box-shadow: var(--shadow-glow);
-}
-
-.card-image {
-  width: 100%;
-  height: 180px;
-  background: linear-gradient(135deg, var(--bg-raised), var(--bg-card));
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  position: relative;
-}
-
-.card-image::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 60px;
-  background: linear-gradient(to top, var(--bg-card), transparent);
-}
-
-.card-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.card-placeholder {
-  width: 56px;
-  height: 56px;
-  border-radius: var(--radius-md);
-  background: linear-gradient(135deg, var(--primary), var(--secondary));
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 0.6;
-}
-
-.card-placeholder svg {
-  width: 28px;
-  height: 28px;
-  color: white;
-}
-
-.card-content {
-  padding: 20px;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-}
-
-.card-meta {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 12px;
-}
-
-.card-date {
-  font-size: 0.75rem;
-  color: var(--text-muted);
-  font-weight: 500;
-}
-
-.card-score {
-  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
-  color: white;
-  padding: 3px 10px;
-  border-radius: 20px;
-  font-size: 0.75rem;
-  font-weight: 700;
-}
-
-.card-title {
-  font-size: 1.125rem;
-  font-weight: 700;
-  letter-spacing: -0.01em;
-  margin-bottom: 8px;
-  line-height: 1.3;
-}
-
-.card-description {
-  color: var(--text-secondary);
-  font-size: 0.875rem;
-  margin-bottom: 16px;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  flex: 1;
-  line-height: 1.6;
-}
-
-.card-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-}
-
-.tag {
-  background: rgba(124, 58, 237, 0.1);
-  color: var(--primary-light);
-  padding: 3px 10px;
-  border-radius: 6px;
-  font-size: 0.7rem;
-  font-weight: 500;
-  border: 1px solid rgba(124, 58, 237, 0.15);
-}
-
-.tag.category {
-  background: rgba(6, 182, 212, 0.1);
-  color: var(--secondary);
-  border-color: rgba(6, 182, 212, 0.15);
-}
-
-/* ===== PRODUCT DETAIL PAGE ===== */
-.detail-back {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  color: var(--text-secondary);
-  text-decoration: none;
-  font-size: 0.875rem;
-  font-weight: 500;
-  margin-bottom: 24px;
-  padding: 8px 16px;
-  border-radius: var(--radius-sm);
-  transition: all var(--duration) var(--ease-out);
-  cursor: pointer;
-}
-
-.detail-back:hover {
-  color: var(--text-primary);
-  background: var(--bg-hover);
-}
-
-.product-detail {
-  background: var(--bg-card);
-  backdrop-filter: blur(8px);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-xl);
-  overflow: hidden;
-}
-
-.detail-header {
-  padding: 40px;
-  background: linear-gradient(135deg, rgba(124,58,237,0.06), rgba(6,182,212,0.04));
-  border-bottom: 1px solid var(--border);
-}
-
-.detail-header .card-meta {
-  margin-bottom: 16px;
-}
-
-.detail-title {
-  font-size: 2rem;
-  font-weight: 800;
-  letter-spacing: -0.03em;
-  margin-bottom: 12px;
-  line-height: 1.2;
-}
-
-.detail-subtitle {
-  color: var(--text-secondary);
-  font-size: 1rem;
-  margin-bottom: 24px;
+  font-family: 'Noto Sans SC', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--c-bg);
+  color: var(--c-text);
   line-height: 1.7;
-  max-width: 700px;
+  font-size: 15px;
 }
 
-.detail-meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  align-items: center;
-}
+a { color: inherit; text-decoration: none; }
+img { display:block; max-width:100%; }
 
-.detail-score {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
-  color: white;
-  padding: 8px 18px;
-  border-radius: var(--radius-sm);
-  font-weight: 700;
-  font-size: 0.95rem;
-}
+/* ─── Layout ─── */
+.container { max-width:720px; margin:0 auto; padding:0 24px; }
+.container-wide { max-width:960px; margin:0 auto; padding:0 24px; }
 
-.detail-links {
-  display: flex;
-  gap: 12px;
+/* ─── Header ─── */
+.site-header {
+  position:sticky; top:0; z-index:50;
+  background:rgba(255,255,255,.85);
+  backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--c-border);
 }
-
-.btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 10px 20px;
-  border-radius: var(--radius-sm);
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 0.875rem;
-  transition: all var(--duration) var(--ease-out);
-  cursor: pointer;
-  border: none;
+.site-header .container-wide {
+  display:flex; align-items:center; justify-content:space-between;
+  height:56px;
 }
-
-.btn svg {
-  width: 16px;
-  height: 16px;
+.site-logo {
+  display:flex; align-items:center; gap:8px;
+  font-weight:700; font-size:1rem; color:var(--c-text);
 }
-
-.btn-primary {
-  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
-  color: white;
+.site-logo svg { color:var(--c-accent); }
+.site-nav { display:flex; gap:4px; }
+.site-nav a {
+  padding:6px 14px; border-radius:6px; font-size:.875rem;
+  font-weight:500; color:var(--c-text-2);
+  transition:all .15s var(--ease);
 }
+.site-nav a:hover { color:var(--c-text); background:var(--c-accent-l); }
+.site-nav a.active { color:var(--c-accent); background:var(--c-accent-l); }
 
-.btn-primary:hover {
-  box-shadow: var(--shadow-glow);
-  transform: translateY(-1px);
+/* ─── Hero ─── */
+.hero {
+  padding:48px 0 40px;
+  border-bottom:1px solid var(--c-border);
+  margin-bottom:40px;
 }
-
-.btn-secondary {
-  background: var(--bg-raised);
-  color: var(--text-primary);
-  border: 1px solid var(--border);
+.hero h1 {
+  font-size:clamp(1.75rem,4vw,2.25rem);
+  font-weight:700; letter-spacing:-.02em;
+  line-height:1.25; margin-bottom:8px;
 }
-
-.btn-secondary:hover {
-  border-color: var(--border-hover);
-  background: var(--bg-hover);
+.hero p { color:var(--c-text-2); font-size:1rem; margin-bottom:20px; }
+.hero-stats {
+  display:flex; gap:24px;
 }
+.hero-stat { display:flex; align-items:baseline; gap:6px; }
+.hero-stat strong { font-size:1.25rem; font-weight:700; color:var(--c-accent); }
+.hero-stat span { font-size:.8rem; color:var(--c-text-3); }
 
-.detail-body {
-  display: grid;
-  grid-template-columns: 1fr 360px;
-  gap: 0;
-}
-
-.detail-main {
-  padding: 40px;
-  border-right: 1px solid var(--border);
-}
-
-.detail-section {
-  margin-bottom: 36px;
-}
-
-.detail-section:last-child {
-  margin-bottom: 0;
-}
-
-.detail-section h2 {
-  font-size: 1.125rem;
-  font-weight: 700;
-  margin-bottom: 16px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  letter-spacing: -0.01em;
-}
-
-.detail-section h2 .icon {
-  width: 28px;
-  height: 28px;
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 14px;
-  flex-shrink: 0;
-}
-
-.detail-section h2 .icon.purple { background: rgba(124,58,237,0.15); }
-.detail-section h2 .icon.cyan   { background: rgba(6,182,212,0.15); }
-.detail-section h2 .icon.pink   { background: rgba(244,114,182,0.15); }
-.detail-section h2 .icon.amber  { background: rgba(245,158,11,0.15); }
-.detail-section h2 .icon.green  { background: rgba(34,197,94,0.15); }
-
-.detail-section p {
-  color: var(--text-secondary);
-  line-height: 1.8;
-  font-size: 0.95rem;
-}
-
-.detail-list {
-  list-style: none;
-}
-
-.detail-list li {
-  padding: 10px 0;
-  border-bottom: 1px solid var(--border);
-  color: var(--text-secondary);
-  font-size: 0.95rem;
-  display: flex;
-  align-items: flex-start;
-  gap: 10px;
-}
-
-.detail-list li:last-child {
-  border-bottom: none;
-}
-
-.detail-list li::before {
-  content: '';
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: var(--primary);
-  flex-shrink: 0;
-  margin-top: 8px;
-}
-
-.competitors-list {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.competitor-item {
-  background: var(--bg-raised);
-  padding: 16px;
-  border-radius: var(--radius-md);
-  border: 1px solid var(--border);
-}
-
-.competitor-name {
-  font-weight: 600;
-  margin-bottom: 4px;
-  font-size: 0.95rem;
-}
-
-.competitor-name a {
-  color: var(--primary-light);
-  text-decoration: none;
-  transition: color var(--duration);
-  cursor: pointer;
-}
-
-.competitor-name a:hover {
-  color: var(--secondary);
-}
-
-.competitor-comparison {
-  color: var(--text-muted);
-  font-size: 0.85rem;
-  line-height: 1.6;
-}
-
-/* Sidebar */
-.detail-sidebar {
-  padding: 40px 32px;
-  display: flex;
-  flex-direction: column;
-  gap: 28px;
-  background: rgba(0,0,0,0.15);
-}
-
-.sidebar-block h3 {
-  font-size: 0.8rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--text-muted);
-  margin-bottom: 14px;
-}
-
-.screenshot-gallery {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.screenshot-item {
-  border-radius: var(--radius-md);
-  overflow: hidden;
-  border: 1px solid var(--border);
-}
-
-.screenshot-item img {
-  width: 100%;
-  display: block;
-}
-
-.sidebar-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-}
-
-.sidebar-meta-item {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px 0;
-  border-bottom: 1px solid var(--border);
-  font-size: 0.875rem;
-}
-
-.sidebar-meta-item:last-child {
-  border-bottom: none;
-}
-
-.sidebar-meta-item .label {
-  color: var(--text-muted);
-}
-
-.sidebar-meta-item .value {
-  color: var(--text-secondary);
-  font-weight: 500;
-}
-
-/* ===== FOOTER ===== */
-footer {
-  background: var(--bg-glass);
-  backdrop-filter: blur(var(--glass-blur));
-  border-top: 1px solid var(--border);
-  padding: 32px 0;
-  text-align: center;
-  color: var(--text-muted);
-  font-size: 0.8rem;
-  margin-top: 0;
-}
-
-footer a {
-  color: var(--primary-light);
-  text-decoration: none;
-  transition: color var(--duration);
-  cursor: pointer;
-}
-
-footer a:hover {
-  color: var(--secondary);
-}
-
-footer .footer-links {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-  margin-bottom: 12px;
-}
-
-/* ===== EMPTY STATE ===== */
-.empty-state {
-  text-align: center;
-  padding: 80px 20px;
-  color: var(--text-muted);
-}
-
-.empty-state-icon {
-  width: 64px;
-  height: 64px;
-  margin: 0 auto 16px;
-  border-radius: 50%;
-  background: var(--bg-card);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid var(--border);
-}
-
-.empty-state-icon svg {
-  width: 28px;
-  height: 28px;
-  color: var(--text-muted);
-}
-
-.empty-state h2 {
-  font-size: 1.25rem;
-  margin-bottom: 8px;
-  color: var(--text-secondary);
-}
-
-/* ===== BLOG-STYLE DAILY POSTS ===== */
-.blog-feed {
-  max-width: 800px;
-  margin: 0 auto;
-  padding-bottom: 60px;
-}
+/* ─── Blog Feed ─── */
+.blog-feed { padding-bottom:60px; }
 
 .blog-post {
-  margin-bottom: 48px;
-  padding-bottom: 48px;
-  border-bottom: 1px solid var(--border);
+  margin-bottom:48px;
+  padding-bottom:40px;
+  border-bottom:1px solid var(--c-border-l);
 }
+.blog-post:last-child { border-bottom:none; margin-bottom:0; }
 
-.blog-post:last-child {
-  border-bottom: none;
-}
-
-.blog-post-header {
-  margin-bottom: 28px;
-}
-
+.blog-post-header { margin-bottom:24px; }
 .blog-post-date {
-  font-size: 0.8rem;
-  color: var(--text-muted);
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  margin-bottom: 8px;
+  font-size:.75rem; font-weight:600; color:var(--c-text-3);
+  text-transform:uppercase; letter-spacing:.06em;
+  margin-bottom:4px;
 }
-
 .blog-post-title {
-  font-size: 1.5rem;
-  font-weight: 800;
-  letter-spacing: -0.02em;
-  color: var(--text-primary);
-  line-height: 1.3;
+  font-size:1.25rem; font-weight:700; color:var(--c-text);
+}
+.blog-post-title .count {
+  font-weight:400; color:var(--c-text-3); font-size:.9rem;
 }
 
-.blog-product-entry {
-  display: flex;
-  gap: 20px;
-  padding: 20px;
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-md);
-  margin-bottom: 16px;
-  text-decoration: none;
-  color: inherit;
-  transition: all var(--duration) var(--ease-out);
-  cursor: pointer;
+/* ─── Product Entry (blog item) ─── */
+.product-entry {
+  display:flex; gap:16px; padding:16px;
+  background:var(--c-surface);
+  border:1px solid var(--c-border);
+  border-radius:var(--radius);
+  margin-bottom:12px;
+  transition:all .2s var(--ease);
+  cursor:pointer;
+}
+.product-entry:hover {
+  border-color:var(--c-accent);
+  box-shadow:var(--shadow-md);
+  transform:translateY(-1px);
+}
+.product-entry:last-child { margin-bottom:0; }
+
+.entry-thumb {
+  width:72px; height:72px; flex-shrink:0;
+  border-radius:6px; overflow:hidden;
+  background:var(--c-tag-bg);
+  display:flex; align-items:center; justify-content:center;
+}
+.entry-thumb img { width:100%; height:100%; object-fit:cover; }
+.entry-thumb .ph {
+  width:32px; height:32px; border-radius:6px;
+  background:linear-gradient(135deg,var(--c-accent),#818cf8);
+  opacity:.3;
 }
 
-.blog-product-entry:hover {
-  border-color: var(--border-hover);
-  background: var(--bg-hover);
-  transform: translateX(4px);
+.entry-body { flex:1; min-width:0; }
+.entry-name {
+  font-size:.95rem; font-weight:600; margin-bottom:4px;
+  color:var(--c-text); line-height:1.4;
+}
+.entry-desc {
+  font-size:.8rem; color:var(--c-text-2); line-height:1.6;
+  margin-bottom:8px;
+  display:-webkit-box; -webkit-line-clamp:2;
+  -webkit-box-orient:vertical; overflow:hidden;
+}
+.entry-meta { display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+.entry-score {
+  font-size:.7rem; font-weight:700; color:var(--c-accent);
+  background:var(--c-accent-l); padding:2px 8px; border-radius:4px;
+}
+.entry-tags { display:flex; gap:4px; }
+.tag {
+  font-size:.65rem; padding:2px 7px; border-radius:4px;
+  background:var(--c-tag-bg); color:var(--c-text-3);
+  font-weight:500;
 }
 
-.blog-product-thumb {
-  width: 80px;
-  height: 80px;
-  border-radius: var(--radius-sm);
-  background: var(--bg-raised);
-  flex-shrink: 0;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+/* ─── Product Detail ─── */
+.back-link {
+  display:inline-flex; align-items:center; gap:6px;
+  font-size:.85rem; font-weight:500; color:var(--c-text-3);
+  padding:8px 0; margin-bottom:20px;
+  transition:color .15s;
+}
+.back-link:hover { color:var(--c-accent); }
+
+.detail-card {
+  background:var(--c-surface);
+  border:1px solid var(--c-border);
+  border-radius:var(--radius-lg);
+  overflow:hidden;
+}
+.detail-hero {
+  padding:32px;
+  border-bottom:1px solid var(--c-border);
+}
+.detail-hero .entry-meta { margin-bottom:16px; }
+.detail-title {
+  font-size:1.75rem; font-weight:700;
+  letter-spacing:-.02em; line-height:1.3; margin-bottom:8px;
+}
+.detail-subtitle {
+  color:var(--c-text-2); font-size:.95rem;
+  line-height:1.7; margin-bottom:20px;
+}
+.detail-actions { display:flex; gap:12px; align-items:center; flex-wrap:wrap; }
+.detail-score-badge {
+  display:inline-flex; align-items:center; gap:6px;
+  background:var(--c-accent); color:#fff;
+  padding:6px 14px; border-radius:6px;
+  font-weight:600; font-size:.85rem;
+}
+.btn {
+  display:inline-flex; align-items:center; gap:6px;
+  padding:8px 16px; border-radius:6px;
+  font-weight:600; font-size:.85rem;
+  transition:all .15s var(--ease);
+  cursor:pointer; border:none;
+}
+.btn-primary { background:var(--c-accent-l); color:var(--c-accent); }
+.btn-primary:hover { background:var(--c-accent); color:#fff; }
+.btn-ghost { background:transparent; color:var(--c-text-2); border:1px solid var(--c-border); }
+.btn-ghost:hover { border-color:var(--c-accent); color:var(--c-accent); }
+
+.detail-body {
+  display:grid; grid-template-columns:1fr 300px;
+}
+.detail-main { padding:32px; }
+.detail-aside {
+  padding:32px 24px;
+  background:var(--c-bg);
+  border-left:1px solid var(--c-border);
 }
 
-.blog-product-thumb img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.section { margin-bottom:32px; }
+.section:last-child { margin-bottom:0; }
+.section-title {
+  display:flex; align-items:center; gap:8px;
+  font-size:.95rem; font-weight:600; margin-bottom:12px;
+  color:var(--c-text);
+}
+.section-title .ic {
+  width:28px; height:28px; border-radius:6px;
+  display:flex; align-items:center; justify-content:center;
+  background:var(--c-accent-l); color:var(--c-accent);
+  flex-shrink:0;
+}
+.section p { color:var(--c-text-2); line-height:1.8; font-size:.9rem; }
+
+.use-case-list { list-style:none; }
+.use-case-list li {
+  padding:8px 0; border-bottom:1px solid var(--c-border-l);
+  color:var(--c-text-2); font-size:.9rem;
+  display:flex; align-items:flex-start; gap:8px;
+}
+.use-case-list li:last-child { border-bottom:none; }
+.use-case-list li::before {
+  content:''; width:5px; height:5px; border-radius:50%;
+  background:var(--c-accent); flex-shrink:0; margin-top:8px;
 }
 
-.blog-product-thumb .thumb-placeholder {
-  width: 36px;
-  height: 36px;
-  border-radius: 8px;
-  background: linear-gradient(135deg, var(--primary), var(--secondary));
-  opacity: 0.5;
+.competitor-card {
+  padding:14px; background:var(--c-surface);
+  border:1px solid var(--c-border); border-radius:var(--radius);
+  margin-bottom:10px;
 }
+.competitor-card:last-child { margin-bottom:0; }
+.competitor-name { font-weight:600; font-size:.9rem; margin-bottom:2px; }
+.competitor-name a { color:var(--c-accent); }
+.competitor-name a:hover { text-decoration:underline; }
+.competitor-desc { color:var(--c-text-3); font-size:.8rem; }
 
-.blog-product-body {
-  flex: 1;
-  min-width: 0;
+.aside-block { margin-bottom:24px; }
+.aside-block:last-child { margin-bottom:0; }
+.aside-label {
+  font-size:.7rem; font-weight:600; text-transform:uppercase;
+  letter-spacing:.06em; color:var(--c-text-3); margin-bottom:10px;
 }
-
-.blog-product-name {
-  font-size: 1.05rem;
-  font-weight: 700;
-  margin-bottom: 6px;
-  color: var(--text-primary);
+.screenshot-img {
+  border-radius:var(--radius); overflow:hidden;
+  border:1px solid var(--c-border); margin-bottom:8px;
 }
-
-.blog-product-desc {
-  font-size: 0.875rem;
-  color: var(--text-secondary);
-  line-height: 1.6;
-  margin-bottom: 10px;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+.aside-tags { display:flex; flex-wrap:wrap; gap:6px; }
+.meta-row {
+  display:flex; justify-content:space-between;
+  padding:8px 0; border-bottom:1px solid var(--c-border-l);
+  font-size:.85rem;
 }
+.meta-row:last-child { border-bottom:none; }
+.meta-row .label { color:var(--c-text-3); }
+.meta-row .value { color:var(--c-text-2); font-weight:500; }
 
-.blog-product-meta {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  flex-wrap: wrap;
+/* ─── Archive Table ─── */
+.archive-wrap {
+  background:var(--c-surface);
+  border:1px solid var(--c-border);
+  border-radius:var(--radius-lg);
+  overflow:hidden;
 }
-
-.blog-product-score {
-  font-size: 0.75rem;
-  font-weight: 700;
-  color: var(--primary-light);
-  background: rgba(124,58,237,0.12);
-  padding: 2px 8px;
-  border-radius: 4px;
-}
-
-.blog-product-tags {
-  display: flex;
-  gap: 4px;
-}
-
-.blog-product-tags .tag {
-  font-size: 0.65rem;
-  padding: 2px 8px;
-}
-
-.post-count {
-  font-size: 0.8rem;
-  color: var(--text-muted);
-  font-weight: 400;
-}
-
-/* ===== ARCHIVE TABLE ===== */
-.archive-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
+.archive-table { width:100%; border-collapse:collapse; }
 .archive-table th {
-  text-align: left;
-  font-size: 0.75rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--text-muted);
-  padding: 12px 16px;
-  border-bottom: 1px solid var(--border);
+  text-align:left; font-size:.7rem; font-weight:600;
+  text-transform:uppercase; letter-spacing:.06em;
+  color:var(--c-text-3); padding:12px 20px;
+  background:var(--c-bg); border-bottom:1px solid var(--c-border);
 }
-
 .archive-table td {
-  padding: 14px 16px;
-  border-bottom: 1px solid var(--border);
-  font-size: 0.9rem;
-  vertical-align: top;
+  padding:14px 20px; border-bottom:1px solid var(--c-border-l);
+  font-size:.9rem; vertical-align:top;
+}
+.archive-table tr:last-child td { border-bottom:none; }
+.archive-table tr:hover td { background:var(--c-accent-l); }
+.archive-date {
+  white-space:nowrap; font-weight:600;
+  color:var(--c-accent); width:110px;
+}
+.archive-products { color:var(--c-text-2); line-height:1.8; }
+.archive-products a {
+  color:var(--c-text); font-weight:500;
+  transition:color .15s;
+}
+.archive-products a:hover { color:var(--c-accent); }
+.archive-count {
+  width:50px; text-align:center;
+  color:var(--c-text-3); font-weight:600;
 }
 
-.archive-table tr:hover td {
-  background: var(--bg-hover);
+/* ─── Empty State ─── */
+.empty {
+  text-align:center; padding:80px 24px;
+  color:var(--c-text-3);
 }
+.empty-icon {
+  width:56px; height:56px; margin:0 auto 16px;
+  border-radius:50%; background:var(--c-tag-bg);
+  display:flex; align-items:center; justify-content:center;
+  color:var(--c-text-3);
+}
+.empty h2 { font-size:1.1rem; color:var(--c-text-2); margin-bottom:4px; }
+.empty p { font-size:.9rem; }
 
-.archive-table .date-cell {
-  white-space: nowrap;
-  font-weight: 600;
-  color: var(--primary-light);
-  width: 120px;
+/* ─── Footer ─── */
+.site-footer {
+  border-top:1px solid var(--c-border);
+  padding:24px 0; text-align:center;
+  color:var(--c-text-3); font-size:.8rem;
 }
+.footer-links {
+  display:flex; justify-content:center; gap:20px;
+  margin-bottom:8px;
+}
+.footer-links a {
+  color:var(--c-text-2); font-size:.85rem;
+  transition:color .15s;
+}
+.footer-links a:hover { color:var(--c-accent); }
 
-.archive-table .products-cell {
-  color: var(--text-secondary);
-  line-height: 1.7;
+/* ─── Responsive ─── */
+@media (max-width:900px) {
+  .detail-body { grid-template-columns:1fr; }
+  .detail-aside { border-left:none; border-top:1px solid var(--c-border); }
 }
-
-.archive-table .products-cell a {
-  color: var(--text-primary);
-  text-decoration: none;
-  font-weight: 500;
-  transition: color var(--duration);
-  cursor: pointer;
-}
-
-.archive-table .products-cell a:hover {
-  color: var(--primary-light);
-}
-
-.archive-table .count-cell {
-  width: 60px;
-  text-align: center;
-  color: var(--text-muted);
-  font-weight: 600;
-}
-
-/* ===== RESPONSIVE ===== */
-@media (max-width: 900px) {
-  .detail-body {
-    grid-template-columns: 1fr;
-  }
-  .detail-main {
-    border-right: none;
-    border-bottom: 1px solid var(--border);
-    padding: 24px;
-  }
-  .detail-sidebar {
-    padding: 24px;
-  }
-  .product-grid {
-    grid-template-columns: 1fr;
-  }
-  .hero h1 {
-    font-size: 1.75rem;
-  }
-  .detail-header {
-    padding: 24px;
-  }
-  .detail-title {
-    font-size: 1.5rem;
-  }
-  .blog-feed {
-    padding: 0 8px;
-  }
-  .blog-product-entry {
-    gap: 14px;
-  }
-  .blog-product-thumb {
-    width: 64px;
-    height: 64px;
-  }
-  .blog-post-title {
-    font-size: 1.25rem;
-  }
-  .archive-table .date-cell {
-    width: 100px;
-  }
-  .archive-table td {
-    padding: 12px;
-    font-size: 0.85rem;
-  }
-}
-
-@media (max-width: 480px) {
-  header .container {
-    flex-direction: column;
-    height: auto;
-    padding: 12px 16px;
-    gap: 8px;
-  }
-  nav {
-    width: 100%;
-    justify-content: center;
-  }
-  .hero {
-    padding: 32px 0 24px;
-  }
-  .container {
-    padding: 0 16px;
-  }
-  .blog-product-entry {
-    flex-direction: column;
-    gap: 12px;
-  }
-  .blog-product-thumb {
-    width: 100%;
-    height: 140px;
-  }
-  .blog-post {
-    margin-bottom: 32px;
-    padding-bottom: 32px;
-  }
-  .archive-table {
-    font-size: 0.8rem;
-  }
-  .archive-table .date-cell {
-    width: 80px;
-    font-size: 0.75rem;
-  }
-}
-
-/* ===== SCROLLBAR ===== */
-::-webkit-scrollbar {
-  width: 6px;
-}
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-::-webkit-scrollbar-thumb {
-  background: var(--border);
-  border-radius: 3px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: var(--text-muted);
+@media (max-width:640px) {
+  .hero { padding:32px 0 28px; margin-bottom:28px; }
+  .hero-stats { gap:16px; }
+  .product-entry { gap:12px; padding:12px; }
+  .entry-thumb { width:56px; height:56px; }
+  .blog-post { margin-bottom:32px; padding-bottom:28px; }
+  .detail-hero { padding:24px; }
+  .detail-main { padding:24px; }
+  .detail-aside { padding:24px; }
+  .detail-title { font-size:1.4rem; }
+  .archive-table th, .archive-table td { padding:10px 14px; }
+  .archive-date { width:90px; font-size:.8rem; }
 }
 """
-
     css_file = SITE_DIR / "styles.css"
     css_file.parent.mkdir(parents=True, exist_ok=True)
     with open(css_file, 'w', encoding='utf-8') as f:
         f.write(css)
 
-def svg_icon(name):
-    """返回内联 SVG 图标"""
-    icons = {
-        'radar': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a10 10 0 0 1 0 20"/><path d="M12 2a6 6 0 0 1 0 12"/><circle cx="12" cy="8" r="1" fill="currentColor"/></svg>',
-        'arrow-left': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>',
-        'external': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>',
-        'smartphone': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>',
-        'target': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>',
-        'bulb': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5A4.61 4.61 0 0 1 8.91 14"/></svg>',
-        'palette': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r="0.5" fill="currentColor"/><circle cx="17.5" cy="10.5" r="0.5" fill="currentColor"/><circle cx="8.5" cy="7.5" r="0.5" fill="currentColor"/><circle cx="6.5" cy="12.5" r="0.5" fill="currentColor"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"/></svg>',
-        'zap': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>',
-        'bar-chart': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="20" x2="12" y2="10"/><line x1="18" y1="20" x2="18" y2="4"/><line x1="6" y1="20" x2="6" y2="16"/></svg>',
-        'swords': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="14.5 17.5 3 6 3 3 6 3 17.5 14.5"/><line x1="13" y1="19" x2="19" y2="13"/><line x1="16" y1="16" x2="20" y2="20"/><line x1="19" y1="21" x2="21" y2="19"/><polyline points="14.5 6.5 18 3 21 3 21 6 17.5 9.5"/><line x1="5" y1="14" x2="9" y2="18"/><line x1="7" y1="17" x2="4" y2="20"/><line x1="3" y1="19" x2="5" y2="21"/></svg>',
-        'inbox': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 16 12 14 15 10 15 8 12 2 12"/><path d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"/></svg>',
-        'github': '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>',
-        'calendar': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>',
-        'trending': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>',
-        'database': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>',
-    }
-    return icons.get(name, '')
 
-def generate_index_page(reports):
-    """生成首页 - 博客风格，每天一篇，只显示最近14天"""
-    recent_reports = reports[:14]
+# ─── Header / Footer fragments ────────────────────────────────────────
 
-    posts_html = ""
-    for report in recent_reports:
+def header_html(active=''):
+    nav_items = [
+        ('/', '每日精选', 'daily'),
+        ('/archive.html', '归档', 'archive'),
+    ]
+    nav = ''
+    for href, label, key in nav_items:
+        cls = ' class="active"' if active == key else ''
+        nav += f'<a href="{p(href)}"{cls}>{label}</a>'
+    nav += f'<a href="https://github.com/terranc/aI-product-daily-peport" target="_blank">{icon("github")}</a>'
+
+    return f"""<header class="site-header">
+  <div class="container-wide">
+    <a href="{p("/")}" class="site-logo">{icon("radar")} AI 产品雷达</a>
+    <nav class="site-nav">{nav}</nav>
+  </div>
+</header>"""
+
+
+def footer_html():
+    return f"""<footer class="site-footer">
+  <div class="container">
+    <div class="footer-links">
+      <a href="{p("/archive.html")}">历史归档</a>
+      <a href="https://github.com/terranc/aI-product-daily-peport" target="_blank">GitHub</a>
+    </div>
+    <p>AI 产品雷达 · 自动化 AI 产品发现与分析</p>
+  </div>
+</footer>"""
+
+
+# ─── Page: Index (blog style) ─────────────────────────────────────────
+
+def generate_index(reports):
+    recent = reports[:14]
+
+    posts_html = ''
+    for report in recent:
         date = report.get('date', '')
         products = report.get('products', [])
         count = len(products)
 
-        # 中文星期
         try:
             dt = datetime.strptime(date, '%Y-%m-%d')
             weekdays = ['周一', '周二', '周三', '周四', '周五', '周六', '周日']
-            weekday = weekdays[dt.weekday()]
-            date_display = f"{date} {weekday}"
-        except:
-            date_display = date
+            date_label = f"{date} {weekdays[dt.weekday()]}"
+        except Exception:
+            date_label = date
 
-        entries_html = ""
-        for product in products:
-            analysis = product.get('analysis', {})
-            score = analysis.get('score', 0)
-            tags = product.get('tags', [])[:3]
-            tags_html = ''.join([f'<span class="tag">{t}</span>' for t in tags])
+        entries = ''
+        for prd in products:
+            a = prd.get('analysis', {})
+            score = a.get('score', 0)
+            tags = prd.get('tags', [])[:3]
+            tags_h = ''.join(f'<span class="tag">{t}</span>' for t in tags)
 
-            screenshot = product.get('screenshotUrl', '')
-            app_screenshots = product.get('appStoreScreenshots', [])
-            image_url = screenshot if screenshot else (app_screenshots[0] if app_screenshots else '')
+            img_url = prd.get('screenshotUrl') or (prd.get('appStoreScreenshots', [''])[0] if prd.get('appStoreScreenshots') else '')
+            thumb = f'<img src="{p("/" + img_url)}" alt="{prd["name"]}" loading="lazy">' if img_url else '<div class="ph"></div>'
 
-            if image_url:
-                thumb_html = f'<img src="{p("/" + image_url)}" alt="{product["name"]}" loading="lazy">'
-            else:
-                thumb_html = '<div class="thumb-placeholder"></div>'
-
-            entries_html += f"""
-        <a href="{p("/products/" + product['slug'].lower() + ".html")}" class="blog-product-entry">
-          <div class="blog-product-thumb">{thumb_html}</div>
-          <div class="blog-product-body">
-            <div class="blog-product-name">{product['name']}</div>
-            <p class="blog-product-desc">{product.get('description', '')[:150]}</p>
-            <div class="blog-product-meta">
-              <span class="blog-product-score">{score}/10</span>
-              <div class="blog-product-tags">{tags_html}</div>
-            </div>
+            link = p("/products/" + prd['slug'].lower() + ".html")
+            entries += f"""
+      <a href="{link}" class="product-entry">
+        <div class="entry-thumb">{thumb}</div>
+        <div class="entry-body">
+          <div class="entry-name">{prd['name']}</div>
+          <p class="entry-desc">{prd.get('description', '')[:150]}</p>
+          <div class="entry-meta">
+            <span class="entry-score">{score}/10</span>
+            <div class="entry-tags">{tags_h}</div>
           </div>
-        </a>"""
+        </div>
+      </a>"""
 
         posts_html += f"""
-      <article class="blog-post">
-        <div class="blog-post-header">
-          <div class="blog-post-date">{date_display}</div>
-          <h2 class="blog-post-title">今日精选 <span class="post-count">({count} 个产品)</span></h2>
-        </div>
-        {entries_html}
-      </article>"""
+    <article class="blog-post">
+      <div class="blog-post-header">
+        <div class="blog-post-date">{date_label}</div>
+        <h2 class="blog-post-title">今日精选 <span class="count">· {count} 个产品</span></h2>
+      </div>
+      {entries}
+    </article>"""
 
-    total = len([p for r in reports for p in r.get('products', [])])
-    total_days = len(reports)
+    total = sum(len(r.get('products', [])) for r in reports)
 
     html = f"""<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI 产品雷达 - 每日 AI 应用发现</title>
+  <title>AI 产品雷达 · 每日 AI 应用发现</title>
   <link rel="stylesheet" href="{p("/styles.css")}">
 </head>
 <body>
-  <header>
-    <div class="container">
-      <a href="{p("/")}" class="logo">
-        <span class="logo-icon">{svg_icon("radar")}</span>
-        AI 产品雷达
-      </a>
-      <nav>
-        <a href="{p("/")}" class="active">每日精选</a>
-        <a href="{p("/archive.html")}">归档</a>
-        <a href="https://github.com/terranc/aI-product-daily-peport" target="_blank">GitHub</a>
-      </nav>
-    </div>
-  </header>
-
+  {header_html('daily')}
   <main>
     <div class="container">
       <div class="hero">
         <h1>每日 AI 应用发现</h1>
         <p>追踪最值得关注的 AI 创新产品，每日精选 3 个，每周深度分析 1 个</p>
         <div class="hero-stats">
-          <div class="stat">
-            <div class="stat-value">{total}</div>
-            <div class="stat-label">已收录</div>
-          </div>
-          <div class="stat">
-            <div class="stat-value">{total_days}</div>
-            <div class="stat-label">期数</div>
-          </div>
+          <div class="hero-stat"><strong>{total}</strong><span>已收录</span></div>
+          <div class="hero-stat"><strong>{len(reports)}</strong><span>期</span></div>
         </div>
       </div>
-
       <div class="blog-feed">
-        {posts_html if posts_html else f'''<div class="empty-state">
-          <div class="empty-state-icon">{svg_icon("inbox")}</div>
-          <h2>暂无产品数据</h2>
-          <p>运行每日抓取脚本后，这里将显示精选的 AI 产品</p>
-        </div>'''}
+        {posts_html if posts_html else '<div class="empty"><div class="empty-icon">{icon("inbox")}</div><h2>暂无数据</h2><p>运行每日抓取后将在此显示</p></div>'}
       </div>
     </div>
   </main>
-
-  <footer>
-    <div class="container">
-      <div class="footer-links">
-        <a href="{p("/archive.html")}">历史归档</a>
-        <a href="https://github.com/terranc/aI-product-daily-peport" target="_blank">GitHub</a>
-      </div>
-      <p>AI 产品雷达 &mdash; 自动化 AI 产品发现与分析</p>
-    </div>
-  </footer>
+  {footer_html()}
 </body>
 </html>"""
 
-    index_file = SITE_DIR / "index.html"
-    with open(index_file, 'w', encoding='utf-8') as f:
-        f.write(html)
+    (SITE_DIR / "index.html").write_text(html, encoding='utf-8')
+
+
+# ─── Page: Product Detail ─────────────────────────────────────────────
 
 def generate_product_pages(all_products):
-    """生成产品详情页"""
-    products_dir = SITE_DIR / "products"
-    products_dir.mkdir(parents=True, exist_ok=True)
+    out_dir = SITE_DIR / "products"
+    out_dir.mkdir(parents=True, exist_ok=True)
 
-    for product in all_products:
-        analysis = product.get('analysis', {})
-        score = analysis.get('score', 0)
-        tags = product.get('tags', [])
+    for prd in all_products:
+        a = prd.get('analysis', {})
+        score = a.get('score', 0)
+        tags = prd.get('tags', [])
+        tags_h = ''.join(f'<span class="tag">{t}</span>' for t in tags)
 
-        tags_html = ''.join([f'<span class="tag category">{t}</span>' for t in tags])
+        use_cases = a.get('useCases', [])
+        uc_h = ''.join(f'<li>{c}</li>' for c in use_cases)
 
-        use_cases = analysis.get('useCases', [])
-        use_cases_html = ''.join([f'<li>{case}</li>' for case in use_cases])
-
-        competitors = analysis.get('competitors', [])
-        competitors_html = ''
-        for comp in competitors:
-            competitors_html += f"""
-            <div class="competitor-item">
-              <div class="competitor-name"><a href="{comp.get('url', '#')}" target="_blank">{comp.get('name', '')}</a></div>
-              <div class="competitor-comparison">{comp.get('comparison', '')}</div>
+        competitors = a.get('competitors', [])
+        comp_h = ''
+        for c in competitors:
+            comp_h += f"""<div class="competitor-card">
+              <div class="competitor-name"><a href="{c.get('url','#')}" target="_blank">{c.get('name','')}</a></div>
+              <div class="competitor-desc">{c.get('comparison','')}</div>
             </div>"""
 
-        screenshot = product.get('screenshotUrl', '')
-        app_screenshots = product.get('appStoreScreenshots', [])
-
-        screenshots_html = '<div class="screenshot-gallery">'
+        screenshot = prd.get('screenshotUrl', '')
+        app_ss = prd.get('appStoreScreenshots', [])
+        ss_h = ''
         if screenshot:
-            screenshots_html += f'<div class="screenshot-item"><img src="{p("/" + screenshot)}" alt="{product["name"]}"></div>'
-        for ss in app_screenshots:
-            screenshots_html += f'<div class="screenshot-item"><img src="{p("/" + ss)}" alt="App Screenshot"></div>'
-        screenshots_html += '</div>'
+            ss_h += f'<div class="screenshot-img"><img src="{p("/" + screenshot)}" alt="{prd["name"]}"></div>'
+        for s in app_ss:
+            ss_h += f'<div class="screenshot-img"><img src="{p("/" + s)}" alt="截图"></div>'
 
-        website_url = product.get('url', '') or product.get('homepage', '')
-        website_btn = f'<a href="{website_url}" target="_blank" class="btn btn-primary">{svg_icon("external")} 访问官网</a>' if website_url else ''
-
-        appstore_url = product.get('appStoreUrl', '')
-        appstore_btn = f'<a href="{appstore_url}" target="_blank" class="btn btn-secondary">{svg_icon("smartphone")} App Store</a>' if appstore_url else ''
+        url = prd.get('url') or prd.get('homepage', '')
+        btn_web = f'<a href="{url}" target="_blank" class="btn btn-primary">{icon("external")} 访问官网</a>' if url else ''
+        btn_app = f'<a href="{prd["appStoreUrl"]}" target="_blank" class="btn btn-ghost">{icon("phone")} App Store</a>' if prd.get('appStoreUrl') else ''
 
         html = f"""<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{product['name']} - AI 产品雷达</title>
+  <title>{prd['name']} · AI 产品雷达</title>
   <link rel="stylesheet" href="{p("/styles.css")}">
 </head>
 <body>
-  <header>
-    <div class="container">
-      <a href="{p("/")}" class="logo">
-        <span class="logo-icon">{svg_icon("radar")}</span>
-        AI 产品雷达
-      </a>
-      <nav>
-        <a href="{p("/")}">每日精选</a>
-        <a href="{p("/archive.html")}">归档</a>
-        <a href="https://github.com/terranc/aI-product-daily-peport" target="_blank">GitHub</a>
-      </nav>
-    </div>
-  </header>
-
+  {header_html()}
   <main>
-    <div class="container">
-      <a href="{p("/")}" class="detail-back">{svg_icon("arrow-left")} 返回首页</a>
-
-      <article class="product-detail">
-        <div class="detail-header">
-          <div class="card-meta">
-            <span class="card-date">{product.get('date', 'Unknown')}</span>
-            <div class="card-tags" style="display:flex;gap:6px;">{tags_html}</div>
+    <div class="container-wide">
+      <a href="{p("/")}" class="back-link">{icon("arrow")} 返回首页</a>
+      <article class="detail-card">
+        <div class="detail-hero">
+          <div class="entry-meta">
+            <span class="blog-post-date">{prd.get('date','')}</span>
+            <div class="entry-tags">{tags_h}</div>
           </div>
-          <h1 class="detail-title">{product['name']}</h1>
-          <p class="detail-subtitle">{product.get('description', '')}</p>
-          <div class="detail-meta">
-            <span class="detail-score">{svg_icon("bar-chart")} 评分 {score}/10</span>
-            <div class="detail-links">
-              {website_btn}
-              {appstore_btn}
-            </div>
+          <h1 class="detail-title">{prd['name']}</h1>
+          <p class="detail-subtitle">{prd.get('description','')}</p>
+          <div class="detail-actions">
+            <span class="detail-score-badge">{icon("chart")} 评分 {score}/10</span>
+            {btn_web}{btn_app}
           </div>
         </div>
-
         <div class="detail-body">
           <div class="detail-main">
-            <div class="detail-section">
-              <h2><span class="icon purple">{svg_icon("target")}</span> 目标受众</h2>
-              <p>{analysis.get('targetAudience', '待分析')}</p>
+            <div class="section">
+              <h2 class="section-title"><span class="ic">{icon("target")}</span> 目标受众</h2>
+              <p>{a.get('targetAudience','待分析')}</p>
             </div>
-
-            <div class="detail-section">
-              <h2><span class="icon cyan">{svg_icon("bulb")}</span> 使用场景</h2>
-              <ul class="detail-list">
-                {use_cases_html if use_cases_html else '<li>待补充</li>'}
-              </ul>
+            <div class="section">
+              <h2 class="section-title"><span class="ic">{icon("bulb")}</span> 使用场景</h2>
+              <ul class="use-case-list">{uc_h if uc_h else '<li>待补充</li>'}</ul>
             </div>
-
-            <div class="detail-section">
-              <h2><span class="icon pink">{svg_icon("palette")}</span> 设计初衷</h2>
-              <p>{analysis.get('designIntent', '待分析')}</p>
+            <div class="section">
+              <h2 class="section-title"><span class="ic">{icon("palette")}</span> 设计初衷</h2>
+              <p>{a.get('designIntent','待分析')}</p>
             </div>
-
-            <div class="detail-section">
-              <h2><span class="icon amber">{svg_icon("zap")}</span> 解决什么问题</h2>
-              <p>{analysis.get('problemSolved', '待分析')}</p>
+            <div class="section">
+              <h2 class="section-title"><span class="ic">{icon("zap")}</span> 解决什么问题</h2>
+              <p>{a.get('problemSolved','待分析')}</p>
             </div>
-
-            <div class="detail-section">
-              <h2><span class="icon green">{svg_icon("trending")}</span> 评分理由</h2>
-              <p>{analysis.get('scoreReason', '待分析')}</p>
+            <div class="section">
+              <h2 class="section-title"><span class="ic">{icon("chart")}</span> 评分理由</h2>
+              <p>{a.get('scoreReason','待分析')}</p>
             </div>
-
-            <div class="detail-section">
-              <h2><span class="icon purple">{svg_icon("swords")}</span> 对标竞品</h2>
-              <div class="competitors-list">
-                {competitors_html if competitors_html else '<p style="color:var(--text-muted)">暂无竞品分析</p>'}
-              </div>
+            <div class="section">
+              <h2 class="section-title"><span class="ic">{icon("swords")}</span> 对标竞品</h2>
+              {comp_h if comp_h else '<p style="color:var(--c-text-3)">暂无竞品分析</p>'}
             </div>
           </div>
-
-          <aside class="detail-sidebar">
-            <div class="sidebar-block">
-              <h3>产品截图</h3>
-              {screenshots_html if (screenshot or app_screenshots) else '<p style="color:var(--text-muted);font-size:0.875rem;">暂无截图</p>'}
+          <aside class="detail-aside">
+            <div class="aside-block">
+              <div class="aside-label">产品截图</div>
+              {ss_h if ss_h else '<p style="color:var(--c-text-3);font-size:.85rem">暂无截图</p>'}
             </div>
-
-            <div class="sidebar-block">
-              <h3>标签</h3>
-              <div class="sidebar-tags">{tags_html}</div>
+            <div class="aside-block">
+              <div class="aside-label">标签</div>
+              <div class="aside-tags">{tags_h}</div>
             </div>
-
-            <div class="sidebar-block">
-              <h3>元数据</h3>
-              <div class="sidebar-meta-item">
-                <span class="label">首次发现</span>
-                <span class="value">{product.get('firstSeen', 'Unknown')[:10]}</span>
-              </div>
-              <div class="sidebar-meta-item">
-                <span class="label">来源渠道</span>
-                <span class="value">{', '.join(product.get('sourceChannels', []))}</span>
-              </div>
-              <div class="sidebar-meta-item">
-                <span class="label">产品类型</span>
-                <span class="value">{product.get('type', 'unknown')}</span>
-              </div>
+            <div class="aside-block">
+              <div class="aside-label">元数据</div>
+              <div class="meta-row"><span class="label">首次发现</span><span class="value">{prd.get('firstSeen','')[:10]}</span></div>
+              <div class="meta-row"><span class="label">来源渠道</span><span class="value">{', '.join(prd.get('sourceChannels',[]))}</span></div>
+              <div class="meta-row"><span class="label">产品类型</span><span class="value">{prd.get('type','')}</span></div>
             </div>
           </aside>
         </div>
       </article>
     </div>
   </main>
-
-  <footer>
-    <div class="container">
-      <div class="footer-links">
-        <a href="{p("/")}">返回首页</a>
-        <a href="https://github.com/terranc/aI-product-daily-peport" target="_blank">GitHub</a>
-      </div>
-      <p>AI 产品雷达</p>
-    </div>
-  </footer>
+  {footer_html()}
 </body>
 </html>"""
 
-        product_file = products_dir / f"{product['slug'].lower()}.html"
-        with open(product_file, 'w', encoding='utf-8') as f:
-            f.write(html)
+        (out_dir / f"{prd['slug'].lower()}.html").write_text(html, encoding='utf-8')
 
-def generate_archive_page(reports):
-    """生成归档页面 - 表格形式，每行显示日期和当天产品"""
-    rows_html = ""
-    for report in reports:
-        date = report['date']
-        products = report.get('products', [])
-        count = len(products)
 
-        # 产品名称列表，用中文逗号分隔
-        product_links = []
+# ─── Page: Archive ────────────────────────────────────────────────────
+
+def generate_archive(reports):
+    rows = ''
+    for rpt in reports:
+        date = rpt['date']
+        products = rpt.get('products', [])
+        links = []
         for prd in products:
-            name = prd['name']
-            link = p("/products/" + prd['slug'].lower() + ".html")
-            product_links.append(f'<a href="{link}">{name}</a>')
-
-        products_str = '、'.join(product_links) if product_links else '<span style="color:var(--text-muted)">暂无</span>'
-
-        rows_html += f"""
+            href = p("/products/" + prd['slug'].lower() + ".html")
+            links.append(f'<a href="{href}">{prd["name"]}</a>')
+        joined = '、'.join(links) if links else '<span style="color:var(--c-text-3)">暂无</span>'
+        rows += f"""
         <tr>
-          <td class="date-cell">{date}</td>
-          <td class="products-cell">{products_str}</td>
-          <td class="count-cell">{count}</td>
+          <td class="archive-date">{date}</td>
+          <td class="archive-products">{joined}</td>
+          <td class="archive-count">{len(products)}</td>
         </tr>"""
+
+    table = f"""<table class="archive-table">
+        <thead><tr><th>日期</th><th>精选产品</th><th>数量</th></tr></thead>
+        <tbody>{rows}</tbody>
+      </table>""" if rows else '<div class="empty"><h2>暂无历史数据</h2></div>'
 
     html = f"""<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>历史归档 - AI 产品雷达</title>
+  <title>历史归档 · AI 产品雷达</title>
   <link rel="stylesheet" href="{p("/styles.css")}">
 </head>
 <body>
-  <header>
-    <div class="container">
-      <a href="{p("/")}" class="logo">
-        <span class="logo-icon">{svg_icon("radar")}</span>
-        AI 产品雷达
-      </a>
-      <nav>
-        <a href="{p("/")}">每日精选</a>
-        <a href="{p("/archive.html")}" class="active">归档</a>
-        <a href="https://github.com/terranc/aI-product-daily-peport" target="_blank">GitHub</a>
-      </nav>
-    </div>
-  </header>
-
+  {header_html('archive')}
   <main>
-    <div class="container">
-      <div class="hero" style="padding-bottom:24px;">
-        <h1 style="font-size:2rem;">历史归档</h1>
+    <div class="container-wide">
+      <div class="hero" style="padding-bottom:24px;margin-bottom:28px;">
+        <h1 style="font-size:1.75rem;">历史归档</h1>
         <p>按日期浏览所有精选产品，共 {len(reports)} 期</p>
       </div>
-
-      <div style="max-width:900px; margin:0 auto; padding-bottom:60px; background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius-lg); overflow:hidden;">
-        {f'''<table class="archive-table">
-          <thead>
-            <tr>
-              <th>日期</th>
-              <th>精选产品</th>
-              <th>数量</th>
-            </tr>
-          </thead>
-          <tbody>
-            {rows_html}
-          </tbody>
-        </table>''' if rows_html else '<p style="color:var(--text-muted);text-align:center;padding:60px 20px;">暂无历史数据</p>'}
-      </div>
+      <div class="archive-wrap">{table}</div>
     </div>
   </main>
-
-  <footer>
-    <div class="container">
-      <div class="footer-links">
-        <a href="{p("/")}">返回首页</a>
-        <a href="https://github.com/terranc/aI-product-daily-peport" target="_blank">GitHub</a>
-      </div>
-      <p>AI 产品雷达</p>
-    </div>
-  </footer>
+  {footer_html()}
 </body>
 </html>"""
 
-    archive_file = SITE_DIR / "archive.html"
-    with open(archive_file, 'w', encoding='utf-8') as f:
-        f.write(html)
+    (SITE_DIR / "archive.html").write_text(html, encoding='utf-8')
+
+
+# ─── Main ─────────────────────────────────────────────────────────────
 
 def main():
-    print("🔨 构建静态网站...")
-
+    print("🔨 构建静态网站（浅色版）...")
     if SITE_DIR.exists():
         shutil.rmtree(SITE_DIR)
     SITE_DIR.mkdir(parents=True)
 
-    print("  📁 复制静态资源...")
     copy_assets()
-
-    print("  📊 加载产品数据...")
     reports = load_daily_reports()
-
-    if not reports:
-        print("  ⚠️ 没有找到报告数据")
-
-    print("  🎨 生成样式...")
-    generate_global_css()
+    generate_css()
 
     all_products = []
-    for report in reports:
-        for product in report.get('products', []):
-            product['date'] = report['date']
-            all_products.append(product)
+    for rpt in reports:
+        for prd in rpt.get('products', []):
+            prd['date'] = rpt['date']
+            all_products.append(prd)
 
-    print("  📝 生成首页...")
-    generate_index_page(reports)
-
-    print("  📝 生成产品详情页...")
+    generate_index(reports)
     generate_product_pages(all_products)
+    generate_archive(reports)
 
-    print("  📝 生成归档页...")
-    generate_archive_page(reports)
+    print(f"✅ 完成：{SITE_DIR}  ({len(all_products)} 个产品页)")
 
-    print(f"\n✅ 网站已生成: {SITE_DIR}")
-    print(f"   - 首页: {SITE_DIR}/index.html")
-    print(f"   - 产品页: {len(all_products)} 个")
-    print(f"   - 子路径: {BASE_PATH}")
 
 if __name__ == '__main__':
     main()
