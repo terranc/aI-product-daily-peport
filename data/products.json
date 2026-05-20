@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-05-20T04:05:48.686866+00:00",
+  "lastUpdated": "2026-05-20T21:23:25.778095",
   "products": [
     {
       "id": "dafa9686fbe1",
@@ -120,7 +120,7 @@
         "weeklyViews": 0,
         "growthRate": 0,
         "featuredInDaily": true,
-        "featuredInWeekly": false
+        "featuredInWeekly": true
       },
       "screenshotUrl": null,
       "appStoreScreenshots": [],

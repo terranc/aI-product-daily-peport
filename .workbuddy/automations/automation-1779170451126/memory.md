@@ -40,6 +40,27 @@
 
 ---
 
+## 2026-05-20 15:36
+
+- **状态**：✅ 成功
+- **抓取数**：225 个候选产品（Twitter 50 + V2EX 39 + Reddit 60 + HackerNews 26 + Product Hunt 50）
+- **去重后**：225 个（数据库 50 个冷却期内产品均未命中）
+- **过滤后**：精选 5 个面向用户的产品
+- **精选 TOP 5**：
+  1. Google Pics - AI 图像生成与编辑（Google I/O 2026，评分 9）
+  2. Vocabi - 阅读时翻译记忆单词（评分 8）
+  3. calog.cc - AI 卡路里追踪器/南亚食物（评分 8）
+  4. Krea 2 - 风格控制 AI 图像生成（评分 8）
+  5. Motion - AI 视频动态设计代理（评分 7）
+- **截图**：webshot.site API 返回 429 限流，截图跳过
+- **部署**：main + gh-pages 推送成功
+- **踩坑**：
+  - product_id 含 `/` 字符导致截图脚本创建子目录失败，需清理特殊字符
+  - webshot.site API 限流频繁，需等待 Retry-After 或改用其他截图方案
+  - Product Hunt 全站 Cloudflare 保护，WebFetch 无法直接抓取产品详情页
+
+---
+
 ## 注意事项（供下次执行参考）
 
 - git/python 命令需用 `env -i HOME=$HOME PATH=...` 避免 GVM 劫持
