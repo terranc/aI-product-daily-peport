@@ -1169,6 +1169,9 @@ def main():
     generate_all_products_json(all_products)
     generate_tags_page()
 
+    # 自定义域名 CNAME 文件
+    (SITE_DIR / "CNAME").write_text("ai-daily.asdasd.vip", encoding="utf-8")
+
     print(f"✅ 完成：{SITE_DIR}  ({len(all_products)} 个产品页)")
 
 
