@@ -779,7 +779,7 @@ def generate_index(reports):
     <div class="container">
       <div class="hero">
         <h1>每日 AI 应用发现</h1>
-        <p>追踪最值得关注的 AI 创新产品，每日精选 5 个，每周深度分析 1 个</p>
+        <p>追踪最值得关注的 AI 创新产品，每日精选 5 个产品，每周深度回顾 1 个持续增长的产品</p>
         <div class="hero-stats">
           <div class="hero-stat"><strong>{total}</strong><span>已收录</span></div>
           <div class="hero-stat"><strong>{len(reports)}</strong><span>期</span></div>
