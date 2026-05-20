@@ -575,8 +575,9 @@ def generate_index(reports):
     }}
     .product-modal-overlay.active {{ display:block; }}
     .product-modal-container {{
-      position:relative; max-width:800px; margin:0 auto;
-      min-height:100vh; background:var(--c-bg);
+      position:relative; max-width:1120px; width:90%; margin:40px auto;
+      min-height:auto; background:var(--c-bg);
+      border-radius:var(--radius); box-shadow:0 8px 32px rgba(0,0,0,.2);
     }}
     .product-modal-close {{
       position:sticky; top:0; z-index:10;
