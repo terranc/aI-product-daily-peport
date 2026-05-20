@@ -1,3 +1,0 @@
-[mcp_servers.exa]
-url = "https://mcp.exa.ai/mcp"
-env_http_headers = { "x-api-key" = "EXA_API_KEY" }
