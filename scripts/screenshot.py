@@ -23,7 +23,9 @@ def take_website_screenshot(url, product_id):
 
     ASSETS_DIR.mkdir(parents=True, exist_ok=True)
     timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-    filename = f"{product_id}_{timestamp}.png"
+    # 清理 product_id 中的特殊字符，避免创建子目录
+    safe_id = product_id.replace('/', '_').replace('\\', '_').replace(':', '_')
+    filename = f"{safe_id}_{timestamp}.png"
     output_file = ASSETS_DIR / filename
 
     try:

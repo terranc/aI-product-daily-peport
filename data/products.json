@@ -3178,6 +3178,71 @@
         "金融工具"
       ],
       "rank": 5
+    },
+    {
+      "id": "producthunt.com/r/p/1151227",
+      "name": "Google Pics",
+      "slug": "google-pics",
+      "url": "https://workspace.google.com/products/pics/",
+      "type": "saas",
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1151227?app_id=339",
+      "firstSeen": "2026-05-20T07:47:06.512236+00:00",
+      "cooldownExpiresAt": "2026-06-03T07:47:06.517770+00:00"
+    },
+    {
+      "id": "producthunt.com/r/p/1148466",
+      "name": "Vocabi",
+      "slug": "vocabi",
+      "url": "https://chromewebstore.google.com/detail/vocabi",
+      "type": "website",
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1148466?app_id=339",
+      "firstSeen": "2026-05-20T07:47:06.512236+00:00",
+      "cooldownExpiresAt": "2026-06-03T07:47:06.517770+00:00"
+    },
+    {
+      "id": "producthunt.com/r/p/1142446",
+      "name": "calog.cc",
+      "slug": "calog-cc",
+      "url": "https://calog.cc",
+      "type": "saas",
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1142446?app_id=339",
+      "firstSeen": "2026-05-20T07:47:06.512236+00:00",
+      "cooldownExpiresAt": "2026-06-03T07:47:06.517770+00:00"
+    },
+    {
+      "id": "producthunt.com/r/p/1149496",
+      "name": "Krea 2",
+      "slug": "krea-2",
+      "url": "https://krea.ai",
+      "type": "saas",
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1149496?app_id=339",
+      "firstSeen": "2026-05-20T07:47:06.512236+00:00",
+      "cooldownExpiresAt": "2026-06-03T07:47:06.517770+00:00"
+    },
+    {
+      "id": "producthunt.com/r/p/1144780",
+      "name": "Motion",
+      "slug": "motion",
+      "url": "https://www.producthunt.com/r/p/1144780",
+      "type": "saas",
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1144780?app_id=339",
+      "firstSeen": "2026-05-20T07:47:06.512236+00:00",
+      "cooldownExpiresAt": "2026-06-03T07:47:06.517770+00:00"
     }
   ],
   "tracking": {

@@ -1,260 +1,297 @@
 {
   "date": "2026-05-20",
-  "generatedAt": "2026-05-20T04:05:48.684299+00:00",
-  "summary": {
-    "totalCrawled": 193,
-    "afterDedup": 192,
-    "afterFilter": 64,
-    "selectedCount": 5
-  },
+  "generatedAt": "2026-05-20T07:47:06.512236+00:00",
+  "productCount": 5,
   "products": [
     {
-      "name": "Octave TTS — 用自然语言描述任何 AI 声音",
-      "slug": "octave-tts",
-      "description": "Hume AI 推出的新一代文本转语音模型，支持用自然语言描述声音特征和情感表达，让 AI 语音合成真正理解情绪语境。",
-      "url": "https://www.hume.ai",
-      "homepage": "https://www.hume.ai",
-      "sourceUrl": "https://www.producthunt.com/p/hume-2/octave-tts-2",
+      "id": "producthunt.com/r/p/1151227",
+      "name": "Google Pics",
+      "slug": "google-pics",
+      "description": "Google 在 I/O 2026 发布的 AI 图像生成与编辑工具，集成到 Google Workspace。支持元素级精细编辑，使用 Nano Banana 模型，可直接在 Docs、Slides 等应用中生成和编辑 AI 图像。",
+      "url": "https://workspace.google.com/products/pics/",
+      "homepage": "https://workspace.google.com/products/pics/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI图像生成",
+        "Google Workspace",
+        "设计工具",
+        "图片编辑"
+      ],
       "sourceChannels": [
         "producthunt"
       ],
-      "screenshotUrl": "assets/screenshots/unknown_20260520_120453.png",
-      "appStoreScreenshots": [],
-      "appStoreUrl": null,
-      "tags": [
-        "文本转语音",
-        "AI 语音",
-        "情感计算",
-        "内容创作",
-        "Hume AI"
-      ],
-      "type": "product",
-      "firstSeen": "2026-05-20",
+      "sourceUrl": "https://www.producthunt.com/r/p/1151227?app_id=339",
+      "firstSeen": "2026-05-20T07:47:06.512236+00:00",
       "analysis": {
+        "targetAudience": "Google Workspace 用户、内容创作者、设计师、需要快速生成和编辑图片的职场人士",
+        "useCases": [
+          "在 Google Docs 中直接生成配图",
+          "为 Google Slides 演示文稿创建 AI 插图",
+          "对现有图片进行元素级精细编辑（如替换背景、调整物体）",
+          "为社交媒体快速制作视觉内容",
+          "在 Google Drive 中管理和编辑 AI 生成的图像"
+        ],
+        "designIntent": "Google 看准了 AI 设计工具这个下一个主战场，在 Workspace 中原生集成 AI 图像能力。核心理念是让非专业设计师也能在日常办公中轻松创建和编辑高质量视觉内容，不需要切换到专业设计软件。",
+        "problemSolved": "传统办公场景中，创建配图需要切换到 Photoshop/Canva 等工具，流程割裂。Google Pics 让图像生成和编辑成为办公流程的自然延伸，元素级编辑能力解决了 AI 生成图片'差不多但不精确'的痛点。",
+        "tags": [
+          "AI图像生成",
+          "Google Workspace",
+          "设计工具",
+          "图片编辑",
+          "Nano Banana"
+        ],
         "score": 9,
-        "scoreReason": "来自 Hume AI（情感计算领域领先者）的技术实力有保障。自然语言描述声音是真正的范式转变，解决了 TTS 行业长期存在的'声音选择困难'问题。情感语境感知能力让语音合成从'能听'升级到'有感情'。",
-        "targetAudience": "内容创作者、播客制作者、有声书出版商、游戏开发者、需要高质量语音合成的开发者",
-        "useCases": [
-          "用自然语言描述想要的声音（如'温暖的中年女性声音，语速稍慢'）",
-          "为角色配音时控制情感表达（如'带着悲伤但克制的语气'）",
-          "批量生成不同情感风格的语音内容",
-          "为无障碍应用提供更自然的语音输出",
-          "快速原型制作中的语音演示"
-        ],
-        "designIntent": "传统 TTS 工具的声音选择是基于预设列表的，用户需要从几十个固定声音中挑选。Octave TTS 的创新在于让用户用自然语言描述声音，AI 理解后生成对应的声音。这大幅降低了声音定制的门槛，让非专业人士也能创造出专业级的语音内容。",
-        "problemSolved": "传统 TTS 的声音选择受限于预设库，用户无法精确描述自己想要的声音特征。Octave TTS 通过自然语言理解，让用户可以像描述一个人一样描述声音，同时支持情感语境感知，解决了'声音表达不自然'的行业痛点。",
+        "scoreReason": "Google 级别的产品力，集成到全球最广泛使用的办公套件中，Nano Banana 模型的元素级编辑能力是差异化亮点。AI 设计工具市场即将爆发，Google 的入场具有标志性意义。",
         "competitors": [
           {
-            "name": "ElevenLabs",
-            "url": "https://elevenlabs.io",
-            "comparison": "声音克隆能力强，但声音选择仍基于预设或克隆，缺乏自然语言描述能力"
+            "name": "Canva",
+            "url": "https://www.canva.com",
+            "comparison": "Canva 在模板丰富度和设计元素库上仍有积累优势，但 Google Pics 的 Workspace 原生集成和元素级 AI 编辑代表了下一代设计工具的方向"
           },
           {
-            "name": "Play.ht",
-            "url": "https://play.ht",
-            "comparison": "支持多种声音，但情感控制需要通过 SSML 标签，操作复杂"
+            "name": "Adobe Firefly",
+            "url": "https://firefly.adobe.com",
+            "comparison": "Adobe 在专业设计领域根基深厚，但 Google Pics 面向普通办公用户，门槛更低，集成更无缝"
           },
           {
-            "name": "Murf AI",
-            "url": "https://murf.ai",
-            "comparison": "界面友好，但声音定制化程度有限，不支持自然语言描述"
+            "name": "Midjourney",
+            "url": "https://www.midjourney.com",
+            "comparison": "Midjourney 在艺术风格生成上领先，但 Google Pics 更注重实用性和编辑精确度，两者定位有差异"
           }
         ]
-      },
-      "rawData": {
-        "rank": 2,
-        "nameEn": "Octave TTS",
-        "descriptionEn": "Describe any AI voice and prompt its emotional delivery. A new text-to-speech model from Hume AI that understands emotional context."
-      },
-      "id": "ddd866fb3e87"
+      }
     },
     {
-      "name": "VidNotes — YouTube 视频一键转笔记",
-      "slug": "vidnotes",
-      "description": "用 AI 将 YouTube 视频一键转化为结构化笔记。粘贴视频链接即可获得完整、有组织的学习笔记。",
-      "url": "https://vidnotes.ai",
-      "homepage": "https://vidnotes.ai",
-      "sourceUrl": "https://v.redd.it/0uwlz29cr72h1",
-      "sourceChannels": [
-        "reddit"
-      ],
-      "screenshotUrl": "assets/screenshots/unknown_20260520_120501.png",
-      "appStoreScreenshots": [],
+      "id": "producthunt.com/r/p/1148466",
+      "name": "Vocabi",
+      "slug": "vocabi",
+      "description": "浏览器翻译与词汇记忆插件，阅读网页时一键翻译、保存、记忆生词。支持 10 种语言，使用间隔重复算法帮助长期记忆。",
+      "url": "https://chromewebstore.google.com/detail/vocabi",
+      "homepage": "https://chromewebstore.google.com/detail/vocabi",
+      "type": "website",
+      "appStoreName": null,
       "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
       "tags": [
-        "视频笔记",
-        "AI 学习",
-        "YouTube",
-        "知识管理",
-        "生产力工具"
+        "语言学习",
+        "浏览器插件",
+        "词汇记忆",
+        "翻译工具"
       ],
-      "type": "product",
-      "firstSeen": "2026-05-20",
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1148466?app_id=339",
+      "firstSeen": "2026-05-20T07:47:06.512236+00:00",
       "analysis": {
-        "score": 7,
-        "scoreReason": "解决了真实的学习痛点，YouTube 作为知识来源的地位日益重要。产品已有实际用户（Reddit 发布帖），且思路清晰。但市场已有类似产品（如 NoteGPT），差异化程度有待观察。",
-        "targetAudience": "学生、自学者、内容研究者、需要从视频中提取知识的知识工作者",
+        "targetAudience": "外语学习者、需要阅读外文资料的学生和职场人士、语言爱好者",
         "useCases": [
-          "将 YouTube 教程视频转化为可复习的笔记",
-          "学术讲座视频的快速内容提取",
-          "会议录像的要点整理",
-          "播客视频版的内容消化",
-          "多语言视频的学习笔记生成"
+          "阅读英文网页时一键翻译并保存生词",
+          "利用间隔重复算法定期复习已保存的单词",
+          "在浏览新闻、论文时积累专业词汇",
+          "跨语言阅读时快速理解上下文",
+          "构建个人词汇库并追踪学习进度"
         ],
-        "designIntent": "YouTube 是全球最大的知识库之一，但视频格式天然不利于快速消化和复习。VidNotes 的设计初衷是打通'视频观看'和'知识内化'之间的鸿沟，让 AI 自动完成从视频到笔记的转化，用户只需专注于理解内容。",
-        "problemSolved": "学习者在观看 YouTube 教程时面临'看完就忘'的困境。手动记笔记会分散注意力，不记笔记又记不住。VidNotes 通过 AI 自动提取视频关键信息并结构化整理，让用户可以专注于理解而非记录。",
-        "competitors": [
-          {
-            "name": "NoteGPT",
-            "url": "https://notegpt.io",
-            "comparison": "功能类似，但 VidNotes 可能在笔记结构化方面有差异化优势"
-          },
-          {
-            "name": "Glasp",
-            "url": "https://glasp.co",
-            "comparison": "侧重社交化学习笔记，与视频转笔记有交集但定位不同"
-          },
-          {
-            "name": "YouTube Transcript API",
-            "url": "https://github.com/jdepoix/youtube-transcript-api",
-            "comparison": "开源方案，但需要技术能力，VidNotes 提供了更友好的用户体验"
-          }
-        ]
-      },
-      "rawData": {
-        "rank": 3,
-        "nameEn": "VidNotes",
-        "descriptionEn": "Turn YouTube videos into structured notes with AI. Paste a YouTube link and get comprehensive, organized notes."
-      },
-      "id": "ffff2c3f031c"
-    },
-    {
-      "name": "造梦 App — AI 驱动的梦境引导",
-      "slug": "造梦-app",
-      "description": "利用 AI 生成催眠脚本，配合 TTS 转化为音频，在睡眠中播放以引导特定主题的梦境。",
-      "url": "https://www.v2ex.com/t/1211270",
-      "homepage": "https://www.v2ex.com/t/1211270",
-      "sourceUrl": "https://www.v2ex.com/t/1211270",
-      "sourceChannels": [
-        "v2ex"
-      ],
-      "screenshotUrl": "assets/screenshots/unknown_20260520_120508.png",
-      "appStoreScreenshots": [],
-      "appStoreUrl": null,
-      "tags": [
-        "AI 催眠",
-        "梦境引导",
-        "睡眠科技",
-        "创意工具",
-        "心理健康"
-      ],
-      "type": "product",
-      "firstSeen": "2026-05-20",
-      "analysis": {
-        "score": 7,
-        "scoreReason": "概念新颖，将 AI 生成能力应用到睡眠场景，属于蓝海市场。虽然目前只是 V2EX 上的想法讨论，但技术可行性较高。需要注意的是，'引导梦境'的科学依据尚不充分，产品需要谨慎表述。",
-        "targetAudience": "对梦境探索感兴趣的用户、希望改善睡眠质量的人群、创意工作者、心理学爱好者",
-        "useCases": [
-          "生成主题化梦境引导音频（如飞行梦、冒险梦）",
-          "配合智能手环检测 REM 睡眠阶段精准播放",
-          "个性化催眠脚本生成（根据用户偏好定制）",
-          "梦境日记和梦境主题分析",
-          "创意工作者的灵感激发工具"
+        "designIntent": "传统背单词 App 需要用户手动输入或从词库选择，与实际阅读场景脱节。Vocabi 把词汇学习嵌入到自然阅读流程中，在用户遇到生词的真实时刻进行记忆，提高学习效率。",
+        "problemSolved": "解决了'查了就忘'的问题——用户在阅读中查词后，Vocabi 自动保存并通过间隔重复强化记忆，让碎片化的阅读变成系统的词汇积累过程。",
+        "tags": [
+          "语言学习",
+          "浏览器插件",
+          "词汇记忆",
+          "间隔重复",
+          "翻译"
         ],
-        "designIntent": "梦境是人类潜意识的窗口，但大多数人无法控制自己的梦境内容。造梦 App 的设计初衷是利用 AI 的生成能力和精准时序控制，让普通人也能体验'清明梦'（清醒梦），将梦境变成可探索的创意空间。",
-        "problemSolved": "传统催眠音频千篇一律，无法个性化。造梦 App 通过 AI 生成个性化催眠脚本，结合精准的播放时序控制，理论上可以在 REM 睡眠阶段引导特定主题的梦境。这为梦境探索和睡眠改善提供了新的技术路径。",
-        "competitors": [
-          {
-            "name": "Calm",
-            "url": "https://calm.com",
-            "comparison": "冥想和睡眠应用，但缺乏 AI 个性化梦境引导功能"
-          },
-          {
-            "name": "Lucidity",
-            "url": "https://lucidity.ai",
-            "comparison": "清明梦训练应用，但基于传统方法，缺乏 AI 生成能力"
-          },
-          {
-            "name": "Slumber",
-            "url": "https://slumber.com",
-            "comparison": "睡眠故事应用，但内容固定，缺乏 AI 个性化生成"
-          }
-        ]
-      },
-      "rawData": {
-        "rank": 4,
-        "nameEn": "造梦 App",
-        "descriptionEn": "Use AI to generate dream-inducing audio scripts and play them during sleep to guide specific dreams."
-      },
-      "id": "73af7d0d083d"
-    },
-    {
-      "name": "Aurora — 透明可解释的量化 AI",
-      "slug": "aurora",
-      "description": "一款'玻璃盒'量化 AI，本地运行，每个结论都有数据引用，在定量数据上实现零幻觉。",
-      "url": "https://reddit.com/r/SideProject/comments/1ti9sd5/i_built_a_glassbox_ai_that_doe",
-      "homepage": "https://reddit.com/r/SideProject/comments/1ti9sd5/i_built_a_glassbox_ai_that_doe",
-      "sourceUrl": "https://reddit.com/r/SideProject/comments/1ti9sd5/i_built_a_glassbox_ai_that_doe",
-      "sourceChannels": [
-        "reddit"
-      ],
-      "screenshotUrl": "assets/screenshots/unknown_20260520_120516.png",
-      "appStoreScreenshots": [],
-      "appStoreUrl": null,
-      "tags": [
-        "可解释 AI",
-        "量化分析",
-        "本地 AI",
-        "零幻觉",
-        "金融工具"
-      ],
-      "type": "product",
-      "firstSeen": "2026-05-20",
-      "analysis": {
         "score": 8,
-        "scoreReason": "直击 AI 行业最大的信任痛点。'玻璃盒'概念（相对于黑盒）在 AI 治理日益重要的今天非常有价值。开源且本地运行的特性也满足了数据安全需求。但产品成熟度和功能丰富度有待观察。",
-        "targetAudience": "金融分析师、数据科学家、研究人员、需要可信赖 AI 分析的专业人士",
-        "useCases": [
-          "金融数据分析时确保结论有据可查",
-          "科研数据处理中避免 AI 幻觉导致的错误",
-          "合规审计中提供可追溯的分析路径",
-          "医疗数据分析中确保结论的可靠性",
-          "商业决策中基于真实数据的 AI 辅助分析"
-        ],
-        "designIntent": "当前 AI 最大的信任危机来自于'幻觉'——AI 会自信地给出错误答案。Aurora 的设计初衷是打造一个'透明'的 AI 系统：所有分析都在本地进行，每个结论都附带数据来源引用，用户可以验证 AI 的推理过程。这是 AI 从'能用'到'可信'的关键一步。",
-        "problemSolved": "AI 在定量分析领域的最大障碍是幻觉问题。一个在财报分析中'编造'数据的 AI 可能导致严重的投资损失。Aurora 通过本地运行和数据引用机制，在技术层面解决了这个问题，让 AI 在金融、科研等高风险场景中变得可用。",
+        "scoreReason": "将词汇学习无缝融入阅读场景是聪明的设计，间隔重复算法确保记忆效果。Chrome 插件形式降低了使用门槛，10 种语言支持覆盖主流需求。",
         "competitors": [
           {
-            "name": "ChatGPT with Code Interpreter",
-            "url": "https://chat.openai.com",
-            "comparison": "数据分析能力强，但存在幻觉风险，且数据上传到云端"
+            "name": "Rememberry",
+            "url": "https://www.rememberry.in",
+            "comparison": "Rememberry 功能更全面但更复杂，Vocabi 胜在简洁和专注核心体验"
           },
           {
-            "name": "Julius AI",
-            "url": "https://julius.ai",
-            "comparison": "AI 数据分析工具，但基于云端，无法保证零幻觉"
-          },
-          {
-            "name": "Hex",
-            "url": "https://hex.tech",
-            "comparison": "数据协作平台，AI 辅助分析但缺乏本地运行和数据引用机制"
+            "name": "Vocabular",
+            "url": "https://vocabular-app.com",
+            "comparison": "Vocabular 支持 Android 和 Chrome，Vocabi 在 Chrome 上的体验更流畅"
           }
         ]
-      },
-      "rawData": {
-        "rank": 5,
-        "nameEn": "Aurora",
-        "descriptionEn": "A glass-box quantitative AI that runs locally, cites every claim, and has zero hallucination on quantitative data."
-      },
-      "id": "54becac83ce8"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1142446",
+      "name": "calog.cc",
+      "slug": "calog-cc",
+      "description": "基于对话的 AI 卡路里追踪器，专注南亚/印度食物。用自然语言描述饮食或拍照，AI 自动估算热量和营养成分，无需手动搜索食物数据库。",
+      "url": "https://calog.cc",
+      "homepage": "https://calog.cc",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "健康管理",
+        "AI卡路里追踪",
+        "南亚食物",
+        "营养分析"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1142446?app_id=339",
+      "firstSeen": "2026-05-20T07:47:06.512236+00:00",
+      "analysis": {
+        "targetAudience": "关注健康的南亚/印度裔人群、需要追踪饮食热量的健身爱好者、喜欢家常菜的用户",
+        "useCases": [
+          "用自然语言描述一顿饭（如'一碗鸡肉咖喱配两个印度烤饼'），AI 自动计算热量",
+          "拍摄食物照片，AI 识别并估算营养成分",
+          "追踪每日蛋白质、碳水、脂肪摄入",
+          "记录运动并关联饮食数据",
+          "在没有标准食物数据的地区也能准确追踪热量"
+        ],
+        "designIntent": "主流卡路里追踪 App（如 MyFitnessPal）的食物数据库以西式食物为主，南亚家常菜很难找到匹配项。calog.cc 用 AI 对话方式解决这个问题——用户用任何语言描述食物，AI 都能理解并估算。",
+        "problemSolved": "解决了南亚食物热量追踪的长期痛点：传统 App 的食物库不覆盖印度/巴基斯坦家常菜，手动录入繁琐且不准确。AI 对话式输入让追踪变得轻松自然。",
+        "tags": [
+          "健康管理",
+          "AI卡路里追踪",
+          "南亚食物",
+          "营养分析",
+          "对话式AI"
+        ],
+        "score": 8,
+        "scoreReason": "精准切入被忽视的细分市场（南亚食物），AI 对话式输入比传统搜索+选择体验好一个量级。已有 iOS App，说明产品已具备一定成熟度。",
+        "competitors": [
+          {
+            "name": "MyFitnessPal",
+            "url": "https://www.myfitnesspal.com",
+            "comparison": "MyFitnessPal 食物库最全面但以西式为主，南亚食物覆盖差；calog.cc 用 AI 弥补了数据库不足"
+          },
+          {
+            "name": "Nutrionix",
+            "url": "https://www.nutritionix.com",
+            "comparison": "Nutrionix 支持自然语言输入但不专注南亚食物，calog.cc 在特定文化场景下更精准"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1149496",
+      "name": "Krea 2",
+      "slug": "krea-2",
+      "description": "Krea AI 推出的自研图像生成基础模型，专注风格控制和情绪板功能。支持通过参考图片精确控制输出风格，15 秒内生成高质量图像。",
+      "url": "https://krea.ai",
+      "homepage": "https://krea.ai",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI图像生成",
+        "风格控制",
+        "情绪板",
+        "创意设计"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1149496?app_id=339",
+      "firstSeen": "2026-05-20T07:47:06.512236+00:00",
+      "analysis": {
+        "targetAudience": "创意设计师、品牌视觉工作者、需要一致风格输出的内容创作者",
+        "useCases": [
+          "通过情绪板（Moodboard）精确控制图像风格",
+          "品牌视觉一致性生成——上传参考图，AI 按照指定风格批量生成",
+          "为项目快速创建风格化的视觉概念图",
+          "在创意前期用 AI 快速探索不同视觉方向",
+          "生成具有特定艺术风格的社交媒体素材"
+        ],
+        "designIntent": "当前 AI 图像生成的最大痛点是'风格不可控'——用户想要特定风格但只能靠文字描述碰运气。Krea 2 通过情绪板功能让创作者可以精确指定视觉风格，实现可预测的风格化输出。",
+        "problemSolved": "解决了 AI 图像生成'开盲盒'的问题。通过情绪板和风格参考，创作者可以精确控制输出的视觉风格，大幅减少反复尝试的时间成本。",
+        "tags": [
+          "AI图像生成",
+          "风格控制",
+          "情绪板",
+          "创意设计",
+          "基础模型"
+        ],
+        "score": 8,
+        "scoreReason": "自研基础模型+风格控制是真正的技术差异化，情绪板功能直击创作者痛点。15 秒生成速度在同类产品中属于领先水平。",
+        "competitors": [
+          {
+            "name": "Midjourney",
+            "url": "https://www.midjourney.com",
+            "comparison": "Midjourney 风格多样但控制精度不如 Krea 2 的情绪板功能"
+          },
+          {
+            "name": "Stable Diffusion",
+            "url": "https://stability.ai",
+            "comparison": "SD 开源灵活但使用门槛高，Krea 2 在易用性和风格控制上更优"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1144780",
+      "name": "Motion",
+      "slug": "motion",
+      "description": "AI 视频动态设计代理，输入文字描述即可生成专业的动态图形和动画效果。面向需要动效但不会 After Effects 的创作者。",
+      "url": "https://www.producthunt.com/r/p/1144780",
+      "homepage": "https://www.producthunt.com/r/p/1144780",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI视频",
+        "动态设计",
+        "动画生成",
+        "创意工具"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1144780?app_id=339",
+      "firstSeen": "2026-05-20T07:47:06.512236+00:00",
+      "analysis": {
+        "targetAudience": "社交媒体内容创作者、短视频制作者、需要动态效果但不会专业动画软件的设计师",
+        "useCases": [
+          "为社交媒体视频添加专业的动态图形效果",
+          "快速生成产品展示动画",
+          "制作文字动画和标题动效",
+          "为演示文稿添加动态过渡效果",
+          "为品牌视频创建一致的动态视觉风格"
+        ],
+        "designIntent": "After Effects 等专业动态设计工具学习曲线陡峭，大多数创作者只能用简单的模板。Motion 用 AI 代理的方式，让创作者用文字描述就能获得'有品味'的动态设计效果。",
+        "problemSolved": "解决了动态设计的专业门槛问题。不会 AE/Figma 动效的创作者也能通过文字描述获得专业级的动态图形效果，大幅降低了视频制作的视觉质量门槛。",
+        "tags": [
+          "AI视频",
+          "动态设计",
+          "动画生成",
+          "创意工具",
+          "视频制作"
+        ],
+        "score": 7,
+        "scoreReason": "动态设计是视频内容的高价值环节，AI 代理方式降低了专业门槛。但市场需要验证 AI 生成的动效是否真的'有品味'，实际效果有待观察。",
+        "competitors": [
+          {
+            "name": "Runway",
+            "url": "https://runwayml.com",
+            "comparison": "Runway 在 AI 视频生成上领先，Motion 专注于动态设计这个更细分的领域"
+          },
+          {
+            "name": "Jitter",
+            "url": "https://jitter.video",
+            "comparison": "Jitter 提供更手动的动效设计，Motion 用 AI 代理方式更自动化"
+          }
+        ]
+      }
     }
-  ],
-  "sources": {
-    "hackernews": 30,
-    "reddit": 60,
-    "producthunt": 15,
-    "twitter": 50,
-    "v2ex": 38
-  },
-  "productCount": 4
+  ]
 }
