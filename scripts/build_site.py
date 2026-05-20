@@ -185,17 +185,34 @@ img { display:block; max-width:100%; }
 }
 .blog-post:last-child { border-bottom:none; margin-bottom:0; }
 
-.blog-post-header { margin-bottom:24px; }
+.blog-post-header {
+  margin-bottom:24px;
+  display:flex; align-items:center; gap:14px;
+}
+.blog-post-header::after {
+  content:''; flex:1; height:1px; background:var(--c-border-l);
+}
 .blog-post-date {
   font-size:.75rem; font-weight:600; color:var(--c-text-3);
   text-transform:uppercase; letter-spacing:.06em;
-  margin-bottom:4px;
 }
 .blog-post-title {
   font-size:1.25rem; font-weight:700; color:var(--c-text);
 }
 .blog-post-title .count {
   font-weight:400; color:var(--c-text-3); font-size:.9rem;
+}
+.day-post-title {
+  display:flex; align-items:center; gap:10px;
+  font-size:1.75rem;
+  line-height:1.2;
+}
+.day-post-title .count {
+  padding:3px 9px;
+  border:1px solid var(--c-border);
+  border-radius:6px;
+  background:var(--c-surface);
+  font-weight:600; color:var(--c-text-3); font-size:.8rem;
 }
 
 /* ─── Product Entry (blog item) ─── */
@@ -692,11 +709,11 @@ def generate_index(reports):
         try:
             dt = datetime.strptime(date, '%Y-%m-%d')
             weekdays = ['周一', '周二', '周三', '周四', '周五', '周六', '周日']
-            date_label = f"{date} {weekdays[dt.weekday()]}"
             title_date = f"{dt.month}月{dt.day}日"
+            weekday_label = weekdays[dt.weekday()]
         except Exception:
-            date_label = date
             title_date = date
+            weekday_label = ''
 
         entries = ''
         for prd in products:
@@ -725,8 +742,7 @@ def generate_index(reports):
         posts_html += f"""
     <article class="blog-post">
       <div class="blog-post-header">
-        <div class="blog-post-date">{date_label}</div>
-        <h2 class="blog-post-title">{title_date} <span class="count">· {count} 个产品</span></h2>
+        <h2 class="blog-post-title day-post-title">{title_date}{f' <span class="count">{weekday_label}</span>' if weekday_label else ''}</h2>
       </div>
       {entries}
     </article>"""
