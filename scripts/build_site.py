@@ -375,6 +375,35 @@ a[data-fancybox] { display:block; text-decoration:none; }
 }
 .source-link:hover { color:var(--c-accent-d); }
 
+/* ─── Weekly Deep Dive ─── */
+.weekly-reference {
+  display:flex; align-items:center; justify-content:space-between; gap:12px;
+  padding:14px 16px; margin-bottom:20px;
+  background:var(--c-accent-l);
+  border:1px solid var(--c-border);
+  border-radius:var(--radius);
+  color:var(--c-text-2); font-size:.88rem;
+}
+.weekly-reference a {
+  display:inline-flex; align-items:center; gap:6px;
+  color:var(--c-accent); font-weight:600;
+}
+.weekly-reference a:hover { color:var(--c-accent-d); }
+.weekly-metric-grid {
+  display:grid; grid-template-columns:repeat(3,1fr); gap:10px;
+  margin-bottom:24px;
+}
+.weekly-metric {
+  padding:12px; background:var(--c-bg);
+  border:1px solid var(--c-border-l);
+  border-radius:var(--radius);
+}
+.weekly-metric strong {
+  display:block; font-size:1.25rem; color:var(--c-accent);
+  line-height:1.2; margin-bottom:2px;
+}
+.weekly-metric span { font-size:.75rem; color:var(--c-text-3); }
+
 /* ─── Archive Table ─── */
 .archive-wrap {
   background:var(--c-surface);
@@ -478,6 +507,11 @@ a[data-fancybox] { display:block; text-decoration:none; }
   .detail-title { font-size:1.75rem; }
   .archive-table th, .archive-table td { padding:14px 20px; }
   .archive-date { width:110px; font-size:.9rem; }
+}
+@media (max-width:767px) {
+  .weekly-reference { display:block; }
+  .weekly-reference a { margin-top:8px; }
+  .weekly-metric-grid { grid-template-columns:1fr; }
 }
 """
     css_file = SITE_DIR / "styles.css"
@@ -961,6 +995,143 @@ def generate_archive(reports):
     (SITE_DIR / "archive.html").write_text(html, encoding='utf-8')
 
 
+def weekly_detail_href(date, slug, depth=0):
+    return rel(f"weekly/{date}-{slug.lower()}.html", depth)
+
+
+def render_weekly_value(value):
+    if isinstance(value, list):
+        if not value:
+            return '<p style="color:var(--c-text-3)">待补充</p>'
+        items = ''.join(f'<li>{item}</li>' for item in value)
+        return f'<ul class="use-case-list">{items}</ul>'
+    return f'<p>{value or "待补充"}</p>'
+
+
+def render_weekly_detail_content(report, prd, depth=0):
+    a = prd.get('analysis', {})
+    deep = prd.get('weeklyDeepDive') or prd.get('deepDive') or {}
+    metrics = prd.get('growthMetrics', {})
+    source_daily = prd.get('sourceDailyReport', {})
+    source_href = source_daily.get('detailHref') or f"products/{prd.get('slug', '').lower()}.html"
+    source_date = source_daily.get('date', '')
+    source_link = rel(source_href, depth) if source_href else '#'
+
+    score = a.get('score', 0)
+    tags = prd.get('tags', [])
+    tags_h = ''.join(f'<a href="{rel(f"tags.html?tag={t}", depth)}" class="tag">{t}</a>' for t in tags)
+
+    sections = [
+        ('增长证据', 'chart', deep.get('growthEvidence') or deep.get('growthData')),
+        ('社区反馈', 'bulb', deep.get('communityFeedback') or deep.get('communityActivity')),
+        ('近期更新', 'zap', deep.get('recentUpdates') or deep.get('updateFrequency')),
+        ('市场定位', 'target', deep.get('marketPosition')),
+        ('差异化', 'palette', deep.get('differentiation')),
+        ('风险挑战', 'swords', deep.get('risksAndChallenges')),
+        ('后续观察', 'chart', deep.get('outlook')),
+    ]
+
+    sections_h = ''
+    for title, icon_name, value in sections:
+        sections_h += f"""
+            <div class="section">
+              <h2 class="section-title"><span class="ic">{icon(icon_name)}</span> {title}</h2>
+              {render_weekly_value(value)}
+            </div>"""
+
+    channels = metrics.get('channels', [])
+    channel_text = ', '.join(channels) if channels else ', '.join(prd.get('sourceChannels', []))
+    url = prd.get('url') or prd.get('homepage', '')
+    btn_web = f'<a href="{url}" target="_blank" class="btn btn-primary">{icon("external")} 访问官网</a>' if url else ''
+    source_ref = f'{source_date} 每日产品详情' if source_date else '每日产品详情'
+
+    return f"""<div id="weekly-detail-content">
+      <article class="detail-card">
+        <div class="detail-hero">
+          <div class="entry-meta">
+            <span class="blog-post-date">{report.get('date','')}</span>
+            <div class="entry-tags">{tags_h}</div>
+          </div>
+          <h1 class="detail-title">{prd['name']} · 每周深度分析</h1>
+          <p class="detail-subtitle">{prd.get('description','')}</p>
+          <div class="detail-actions">
+            <span class="detail-score-badge">{score}</span>
+            {btn_web}
+          </div>
+        </div>
+        <div class="detail-body">
+          <div class="detail-main">
+            <div class="weekly-reference">
+              <span>本篇深度分析基于该产品入选每日简报后的持续跟踪。</span>
+              <a href="{source_link}">{icon("external")} {source_ref}</a>
+            </div>
+            <div class="weekly-metric-grid">
+              <div class="weekly-metric"><strong>{metrics.get('daysSinceDailyFeature', 0)}</strong><span>距日报入选天数</span></div>
+              <div class="weekly-metric"><strong>{metrics.get('recentMentions', 0)}</strong><span>近 7 天提及</span></div>
+              <div class="weekly-metric"><strong>{metrics.get('growthScore', 0)}</strong><span>增长分数</span></div>
+            </div>
+            {sections_h}
+          </div>
+          <aside class="detail-aside">
+            <div class="aside-block">
+              <div class="aside-label">引用日报</div>
+              <div class="source-links"><a href="{source_link}" class="source-link">{icon("external")} {source_ref}</a></div>
+            </div>
+            <div class="aside-block">
+              <div class="aside-label">标签</div>
+              <div class="aside-tags">{tags_h}</div>
+            </div>
+            <div class="aside-block">
+              <div class="aside-label">跟踪渠道</div>
+              <p style="color:var(--c-text-2);font-size:.85rem">{channel_text or '暂无'}</p>
+            </div>
+            <div class="aside-block">
+              <div class="aside-label">元数据</div>
+              <div class="meta-row"><span class="label">周报日期</span><span class="value">{report.get('date','')}</span></div>
+              <div class="meta-row"><span class="label">首次日报</span><span class="value">{source_date}</span></div>
+              <div class="meta-row"><span class="label">产品类型</span><span class="value">{prd.get('type','')}</span></div>
+            </div>
+          </aside>
+        </div>
+      </article>
+    </div>"""
+
+
+def generate_weekly_detail_pages(reports):
+    out_dir = SITE_DIR / "weekly"
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    for report in reports:
+        date = report.get('date', '')
+        for prd in report.get('products', []):
+            slug = prd.get('slug', '').lower()
+            if not date or not slug:
+                continue
+
+            detail_content = render_weekly_detail_content(report, prd, depth=1)
+            html = f"""<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{prd['name']} 每周深度分析 · AI 产品雷达</title>
+  <link rel="stylesheet" href="{rel("styles.css", 1)}">
+</head>
+<body>
+  {header_html('weekly', 1)}
+  <main>
+    <div class="container-wide">
+      <a href="{rel("weekly.html", 1)}" class="back-link">{icon("arrow")} 返回每周深度</a>
+      {detail_content}
+    </div>
+  </main>
+  {footer_html(1)}
+</body>
+</html>"""
+
+            (out_dir / f"{date}-{slug}.html").write_text(html, encoding='utf-8')
+
+
 def generate_weekly(reports):
     """生成每周深度分析页面"""
     recent = reports[:10]  # 显示最近10期
@@ -988,7 +1159,7 @@ def generate_weekly(reports):
             img_url = prd.get('screenshotUrl') or (prd.get('appStoreScreenshots', [''])[0] if prd.get('appStoreScreenshots') else '')
             thumb = f'<img src="{rel(img_url, 0)}" alt="{prd["name"]}" loading="lazy">' if img_url else '<div class="ph"></div>'
 
-            link = rel("products/" + prd['slug'].lower() + ".html", 0)
+            link = weekly_detail_href(date, prd['slug'], 0)
             entries += f"""
       <a href="{link}" class="product-entry" data-slug="{prd['slug'].lower()}">
         <div class="entry-thumb">{thumb}</div>
@@ -1270,6 +1441,7 @@ def main():
 
     generate_index(daily_reports)
     generate_weekly(weekly_reports)
+    generate_weekly_detail_pages(weekly_reports)
     generate_product_pages(all_products)
     generate_archive(daily_reports)
     generate_all_products_json(all_products)
