@@ -8,6 +8,7 @@
 import hashlib
 import json
 import os
+import re
 import subprocess
 import sys
 import requests
@@ -138,65 +139,58 @@ def fetch_reddit():
 
 
 def fetch_producthunt():
-    """Product Hunt - 通过 Exa 搜索最新产品"""
+    """Product Hunt - 通过官方 RSS 获取最新产品"""
     print("  🚀 Product Hunt...")
     products = []
-
-    # 读取 API key
-    exa_key = os.environ.get("EXA_API_KEY", "")
-    if not exa_key:
-        # 尝试从 secrets 文件读取
-        secrets_file = Path.home() / ".config" / "shell" / "env.secrets.sh"
-        if secrets_file.exists():
-            for line in secrets_file.read_text().splitlines():
-                if line.startswith("export EXA_API_KEY="):
-                    exa_key = line.split("=", 1)[1].strip().strip("'\"")
-                elif line.startswith("EXA_API_KEY="):
-                    exa_key = line.split("=", 1)[1].strip().strip("'\"")
-
-    if not exa_key:
-        print("     ⚠️ EXA_API_KEY 未设置，跳过 Product Hunt")
-        return products
-
     try:
-        # 使用 Exa REST API 搜索 Product Hunt 最新产品
-        resp = requests.post(
-            "https://api.exa.ai/search",
-            headers={
-                "x-api-key": exa_key,
-                "Content-Type": "application/json",
-            },
-            json={
-                "query": "new AI app launched site:producthunt.com",
-                "numResults": 15,
-                "type": "auto",
-                "contents": {
-                    "text": {"maxCharacters": 500},
-                },
-            },
-            timeout=30,
-        )
-        resp.raise_for_status()
-        data = resp.json()
+        import feedparser
+        feed = feedparser.parse("https://www.producthunt.com/feed")
 
-        for item in data.get("results", []):
-            title = item.get("title", "")
-            url = item.get("url", "")
-            snippet = item.get("text", "") or ""
+        for entry in feed.entries:
+            title = entry.get("title", "")
+            link = entry.get("link", "")  # PH 讨论页链接
+
+            # 从 content 中提取产品官网链接
+            product_url = ""
+            for c in entry.get("content", []):
+                url_match = re.search(
+                    r'href="(https://www\.producthunt\.com/r/[^"]+)"',
+                    c.get("value", ""),
+                )
+                if url_match:
+                    product_url = url_match.group(1)
+                    break
+
+            # 提取简介（去 HTML 标签）
+            summary = ""
+            for c in entry.get("content", []):
+                raw = c.get("value", "")
+                # 去掉 HTML 标签，保留文本
+                summary = re.sub(r"<[^>]+>", "", raw).strip()
+                # 去掉 "Discussion | Link" 等固定文本
+                summary = re.sub(r"\s*Discussion\s*\|.*$", "", summary).strip()
+                break
+
+            # 发布时间
+            published = entry.get("published", "")
+
+            # 用产品名作为 ID
+            product_id = re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")
+
             products.append({
-                "id": f"ph_{url.split('/')[-1] if '/' in url else str(len(products))}",
+                "id": f"ph_{product_id}",
                 "name": title,
-                "description": snippet[:500],
-                "url": url,
-                "source_url": url,
+                "description": summary[:500],
+                "url": product_url or link,
+                "source_url": link,
                 "score": 0,
                 "source": "producthunt",
-                "timestamp": item.get("publishedDate", ""),
+                "timestamp": published,
             })
 
         print(f"     {len(products)} 个")
-    except requests.exceptions.HTTPError as e:
-        print(f"     Exa API 错误: {e}")
+    except ImportError:
+        print("     ⚠️ feedparser 未安装，跳过")
     except Exception as e:
         print(f"     错误: {e}")
 
