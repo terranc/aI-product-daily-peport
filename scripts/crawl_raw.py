@@ -5,6 +5,7 @@
 输出 JSON 供 agent 做 LLM 分析
 """
 
+import hashlib
 import json
 import os
 import subprocess
@@ -16,6 +17,48 @@ from pathlib import Path
 OUTPUT_FILE = Path("/Volumes/EXTEND/aI-product-daily-peport/data/raw-candidates.json")
 USER_AGENT = "agent-reach/1.0"
 TWITTER_CLI = str(Path.home() / ".local" / "bin" / "twitter")
+
+
+def generate_product_id(product):
+    """
+    生成产品唯一标识：
+    1. 有官网 URL → 用标准化后的域名+路径（去掉 www、协议、尾部斜杠）
+    2. APP 有 App Store URL → 用 App Store ID
+    3. 其他 → 用产品原名（小写、去空格）
+    """
+    import re
+    from urllib.parse import urlparse
+
+    url = product.get("url", "") or product.get("homepage", "")
+    name = product.get("name", "")
+
+    # 1. 有 URL → 用域名+路径作为 ID
+    if url:
+        parsed = urlparse(url)
+        domain = parsed.netloc.lower()
+        # 去掉 www.
+        domain = re.sub(r'^www\.', '', domain)
+        path = parsed.path.rstrip('/').lower()
+        # 去掉常见的非产品页面路径
+        if path in ('', '/', '/home', '/index.html'):
+            path = ''
+        if domain:
+            raw_id = f"{domain}{path}"
+            # 标准化：只保留字母数字和点斜杠
+            raw_id = re.sub(r'[^a-z0-9./]', '', raw_id)
+            if raw_id:
+                return raw_id
+
+    # 2. 用产品原名作为 fallback
+    if name:
+        # 小写、去特殊字符、取前50字符
+        clean = re.sub(r'[^a-z0-9\s]', '', name.lower()).strip()[:50]
+        clean = re.sub(r'\s+', '-', clean)
+        if clean:
+            return clean
+
+    # 3. 最终 fallback
+    return hashlib.md5(json.dumps(product, sort_keys=True).encode()).hexdigest()[:12]
 
 
 def fetch_hackernews():
@@ -289,16 +332,22 @@ def main():
     # 按热度排序
     all_products.sort(key=lambda x: x.get("score", 0), reverse=True)
 
-    # 基于 URL 去重
-    seen_urls = set()
-    unique = []
+    # 生成统一的产品 ID
     for p in all_products:
-        url = p.get("url", "") or p.get("source_url", "")
-        if url and url not in seen_urls:
-            seen_urls.add(url)
-            unique.append(p)
-        elif not url:
-            unique.append(p)
+        p["product_id"] = generate_product_id(p)
+
+    # 基于 product_id 去重（跨渠道同一产品只保留热度最高的）
+    seen_ids = {}
+    for p in all_products:
+        pid = p["product_id"]
+        if pid not in seen_ids:
+            seen_ids[pid] = p
+        else:
+            # 保留热度更高的
+            if p.get("score", 0) > seen_ids[pid].get("score", 0):
+                seen_ids[pid] = p
+
+    unique = list(seen_ids.values())
 
     # 统计各渠道数量
     channels = {}

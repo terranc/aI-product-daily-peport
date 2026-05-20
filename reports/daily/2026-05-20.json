@@ -9,65 +9,6 @@
   },
   "products": [
     {
-      "name": "Saner.AI — 首款 ADHD 友好的 AI 助手",
-      "slug": "sanerai",
-      "description": "首款专为 ADHD（注意力缺陷多动障碍）用户设计的 AI 助手，整合笔记、邮件和日历管理，帮助注意力障碍人群更好地管理数字生活。",
-      "url": "https://saner.ai",
-      "homepage": "https://saner.ai",
-      "sourceUrl": "https://www.producthunt.com/products/saner-ai/launches/saner-ai-4",
-      "sourceChannels": [
-        "producthunt"
-      ],
-      "screenshotUrl": "assets/screenshots/unknown_20260520_120445.png",
-      "appStoreScreenshots": [],
-      "appStoreUrl": null,
-      "tags": [
-        "AI 助手",
-        "ADHD",
-        "生产力工具",
-        "笔记管理",
-        "健康科技"
-      ],
-      "type": "product",
-      "firstSeen": "2026-05-20",
-      "analysis": {
-        "score": 8,
-        "scoreReason": "精准切入了一个被严重忽视的细分市场。ADHD 人群在全球占比约 5-8%，但几乎没有专门为他们设计的 AI 工具。产品定位清晰，痛点真实，且已有 Product Hunt 上线记录，说明已进入实际运营阶段。",
-        "targetAudience": "ADHD 患者、注意力容易分散的知识工作者、需要结构化信息管理的用户",
-        "useCases": [
-          "ADHD 用户管理日常笔记和待办事项",
-          "邮件分类和优先级排序，减少信息过载",
-          "日历智能提醒，避免遗漏重要会议",
-          "将散乱的信息自动整理成结构化笔记",
-          "为注意力障碍用户提供简化的操作界面"
-        ],
-        "designIntent": "市面上的 AI 助手大多是为'正常'用户设计的，界面复杂、功能繁多，反而加重了 ADHD 用户的认知负担。Saner.AI 的设计初衷是打造一个'减法'产品——通过 AI 自动处理信息筛选和整理，让用户只需关注最重要的事。",
-        "problemSolved": "ADHD 患者在数字生活中面临严重的信息过载和注意力分散问题。普通笔记和日历工具需要用户主动整理，而 ADHD 用户恰恰缺乏这种自驱力。Saner.AI 通过 AI 自动化信息管理，降低了组织生活的门槛。",
-        "competitors": [
-          {
-            "name": "Notion AI",
-            "url": "https://notion.so",
-            "comparison": "功能全面但界面复杂，对 ADHD 用户不友好，缺乏针对注意力障碍的特殊设计"
-          },
-          {
-            "name": "Todoist",
-            "url": "https://todoist.com",
-            "comparison": "任务管理工具，但需要用户主动输入和组织，缺乏 AI 自动化能力"
-          },
-          {
-            "name": "Motion",
-            "url": "https://usemotion.com",
-            "comparison": "AI 日历工具，但面向普通用户，未针对 ADHD 群体做特殊优化"
-          }
-        ]
-      },
-      "rawData": {
-        "rank": 1,
-        "nameEn": "Saner.AI",
-        "descriptionEn": "First ADHD-friendly AI assistant for notes, email, calendar. Designed specifically for people with attention disorders to manage their digital life."
-      }
-    },
-    {
       "name": "Octave TTS — 用自然语言描述任何 AI 声音",
       "slug": "octave-tts",
       "description": "Hume AI 推出的新一代文本转语音模型，支持用自然语言描述声音特征和情感表达，让 AI 语音合成真正理解情绪语境。",
@@ -124,7 +65,8 @@
         "rank": 2,
         "nameEn": "Octave TTS",
         "descriptionEn": "Describe any AI voice and prompt its emotional delivery. A new text-to-speech model from Hume AI that understands emotional context."
-      }
+      },
+      "id": "ddd866fb3e87"
     },
     {
       "name": "VidNotes — YouTube 视频一键转笔记",
@@ -183,7 +125,8 @@
         "rank": 3,
         "nameEn": "VidNotes",
         "descriptionEn": "Turn YouTube videos into structured notes with AI. Paste a YouTube link and get comprehensive, organized notes."
-      }
+      },
+      "id": "ffff2c3f031c"
     },
     {
       "name": "造梦 App — AI 驱动的梦境引导",
@@ -242,7 +185,8 @@
         "rank": 4,
         "nameEn": "造梦 App",
         "descriptionEn": "Use AI to generate dream-inducing audio scripts and play them during sleep to guide specific dreams."
-      }
+      },
+      "id": "73af7d0d083d"
     },
     {
       "name": "Aurora — 透明可解释的量化 AI",
@@ -301,7 +245,8 @@
         "rank": 5,
         "nameEn": "Aurora",
         "descriptionEn": "A glass-box quantitative AI that runs locally, cites every claim, and has zero hallucination on quantitative data."
-      }
+      },
+      "id": "54becac83ce8"
     }
   ],
   "sources": {
@@ -310,5 +255,6 @@
     "producthunt": 15,
     "twitter": 50,
     "v2ex": 38
-  }
+  },
+  "productCount": 4
 }
