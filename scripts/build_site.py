@@ -900,7 +900,7 @@ def generate_product_pages(all_products):
   {header_html('', 1)}
   <main>
     <div class="container-wide">
-      <a href="{rel("index.html", 1)}" class="back-link">{icon("arrow")} 返回首页</a>
+      <a href="{home_href(1)}" class="back-link">{icon("arrow")} 返回首页</a>
       {detail_content}
     </div>
   </main>
