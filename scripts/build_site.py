@@ -847,9 +847,14 @@ def generate_index(reports):
       if (e.target === modal) closeProductModal();
     }});
 
+    function isFancyboxOpen() {{
+      return document.querySelector('.fancybox__container') !== null;
+    }}
+
     // ESC 关闭
     document.addEventListener('keydown', function(e) {{
       if (e.key === 'Escape' && modal.classList.contains('active')) {{
+        if (isFancyboxOpen()) return;
         closeProductModal();
       }}
     }});
