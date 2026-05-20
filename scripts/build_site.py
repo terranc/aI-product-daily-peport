@@ -827,7 +827,7 @@ def generate_index(reports):
           throw new Error('详情主体不存在');
         }}
       }} catch (err) {{
-        window.location.href = detailUrl;
+        modalBody.innerHTML = '<div style="text-align:center;padding:40px;color:var(--c-text-3)">加载失败，请<a href="' + detailUrl + '" style="color:var(--c-accent);font-weight:600">打开详情页</a></div>';
       }}
 
       modal.scrollTop = 0;
