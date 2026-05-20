@@ -41,6 +41,16 @@ def load_daily_reports():
     return reports
 
 
+def load_weekly_reports():
+    weekly_dir = REPORTS_DIR / "weekly"
+    reports = []
+    if weekly_dir.exists():
+        for json_file in sorted(weekly_dir.glob("*.json"), reverse=True):
+            with open(json_file, 'r', encoding='utf-8') as f:
+                reports.append(json.load(f))
+    return reports
+
+
 def copy_assets():
     assets_dir = BASE_DIR / "assets"
     site_assets = SITE_DIR / "assets"
@@ -475,7 +485,8 @@ a[data-fancybox] { display:block; text-decoration:none; }
 
 def header_html(active='', depth=0):
     nav_items = [
-        ('index.html', '每日精选', 'daily'),
+        ('index.html', '每日简报', 'daily'),
+        ('weekly.html', '每周深度', 'weekly'),
         ('archive.html', '归档', 'archive'),
     ]
     nav = ''
@@ -502,6 +513,130 @@ def footer_html(depth=0):
     <p>AI 产品雷达 · 自动化 AI 产品发现与分析</p>
   </div>
 </footer>"""
+
+
+def render_product_detail_content(prd, depth=0):
+    a = prd.get('analysis', {})
+    score = a.get('score', 0)
+    tags = prd.get('tags', [])
+    tags_h = ''.join(f'<a href="{rel(f"tags.html?tag={t}", depth)}" class="tag">{t}</a>' for t in tags)
+
+    use_cases = a.get('useCases', [])
+    uc_h = ''.join(f'<li>{c}</li>' for c in use_cases)
+
+    competitors = a.get('competitors', [])
+    comp_h = ''
+    for c in competitors:
+        comp_h += f"""<div class="competitor-card">
+              <div class="competitor-name"><a href="{c.get('url','#')}" target="_blank">{c.get('name','')}</a></div>
+              <div class="competitor-desc">{c.get('comparison','')}</div>
+            </div>"""
+
+    screenshot = prd.get('screenshotUrl', '')
+    app_ss = prd.get('appStoreScreenshots', [])
+    ss_h = ''
+    if screenshot:
+        # 本地网站截图，用相对路径
+        ss_h += f'<a href="{rel(screenshot, depth)}" data-fancybox="gallery" data-caption="{prd["name"]}"><div class="screenshot-img"><img src="{rel(screenshot, depth)}" alt="{prd["name"]}" loading="lazy"></div></a>'
+    for s in app_ss:
+        # App Store 截图是远程 URL，直接引用
+        ss_h += f'<a href="{s}" data-fancybox="gallery" data-caption="App Store 截图"><div class="screenshot-img"><img src="{s}" alt="App Store 截图" loading="lazy"></div></a>'
+
+    # 数据来源链接
+    raw = prd.get('rawData', {})
+    source_links = []
+    channel_labels = {'hackernews': 'Hacker News', 'reddit': 'Reddit', 'twitter': 'Twitter', 'github': 'GitHub'}
+
+    # 优先使用报告中的 sourceUrl 字段
+    source_url = prd.get('sourceUrl', '')
+    if source_url:
+        ch = prd.get('sourceChannels', ['未知'])[0]
+        label = channel_labels.get(ch, ch)
+        source_links.append(f'<a href="{source_url}" target="_blank" class="source-link">{icon("external")} {label}</a>')
+    else:
+        # 回退到 rawData 中的链接
+        for ch in prd.get('sourceChannels', []):
+            label = channel_labels.get(ch, ch)
+            if ch == 'hackernews':
+                url = raw.get('hn_url') or raw.get('source_url', '')
+            elif ch == 'reddit':
+                url = raw.get('redditUrl') or raw.get('source_url', '')
+            elif ch == 'twitter':
+                url = raw.get('twitterUrl') or raw.get('source_url', '')
+            else:
+                url = raw.get('source_url') or raw.get('url', '')
+            if url:
+                source_links.append(f'<a href="{url}" target="_blank" class="source-link">{icon("external")} {label}</a>')
+    source_h = ''.join(source_links) if source_links else '<span style="color:var(--c-text-3);font-size:.85rem">暂无</span>'
+
+    url = prd.get('url') or prd.get('homepage', '')
+    btn_web = f'<a href="{url}" target="_blank" class="btn btn-primary">{icon("external")} 访问官网</a>' if url else ''
+    btn_app = f'<a href="{prd["appStoreUrl"]}" target="_blank" class="btn btn-ghost">{icon("phone")} App Store</a>' if prd.get('appStoreUrl') else ''
+
+    return f"""<div id="product-detail-content">
+      <article class="detail-card">
+        <div class="detail-hero">
+          <div class="entry-meta">
+            <span class="blog-post-date">{prd.get('date','')}</span>
+            <div class="entry-tags">{tags_h}</div>
+          </div>
+          <h1 class="detail-title">{prd['name']}</h1>
+          <p class="detail-subtitle">{prd.get('description','')}</p>
+          <div class="detail-actions">
+            <span class="detail-score-badge">{score}</span>
+            {btn_web}{btn_app}
+          </div>
+        </div>
+        <div class="detail-body">
+          <div class="detail-main">
+            <div class="section">
+              <h2 class="section-title"><span class="ic">{icon("target")}</span> 目标受众</h2>
+              <p>{a.get('targetAudience','待分析')}</p>
+            </div>
+            <div class="section">
+              <h2 class="section-title"><span class="ic">{icon("bulb")}</span> 使用场景</h2>
+              <ul class="use-case-list">{uc_h if uc_h else '<li>待补充</li>'}</ul>
+            </div>
+            <div class="section">
+              <h2 class="section-title"><span class="ic">{icon("palette")}</span> 设计初衷</h2>
+              <p>{a.get('designIntent','待分析')}</p>
+            </div>
+            <div class="section">
+              <h2 class="section-title"><span class="ic">{icon("zap")}</span> 解决什么问题</h2>
+              <p>{a.get('problemSolved','待分析')}</p>
+            </div>
+            <div class="section">
+              <h2 class="section-title"><span class="ic">{icon("chart")}</span> 评分理由</h2>
+              <p>{a.get('scoreReason','待分析')}</p>
+            </div>
+            <div class="section">
+              <h2 class="section-title"><span class="ic">{icon("swords")}</span> 对标竞品</h2>
+              {comp_h if comp_h else '<p style="color:var(--c-text-3)">暂无竞品分析</p>'}
+            </div>
+          </div>
+          <aside class="detail-aside">
+            <div class="aside-block">
+              <div class="aside-label">产品截图</div>
+              {ss_h if ss_h else '<p style="color:var(--c-text-3);font-size:.85rem">暂无截图</p>'}
+            </div>
+            <div class="aside-block">
+              <div class="aside-label">标签</div>
+              <div class="aside-tags">{tags_h}</div>
+            </div>
+            <div class="aside-block">
+              <div class="aside-label">数据来源</div>
+              <div class="source-links">{source_h}</div>
+            </div>
+            <div class="aside-block">
+              <div class="aside-label">元数据</div>
+              <div class="meta-row"><span class="label">首次发现</span><span class="value">{prd.get('firstSeen','')[:10]}</span></div>
+              <div class="meta-row"><span class="label">来源渠道</span><span class="value">{', '.join(prd.get('sourceChannels',[]))}</span></div>
+              <div class="meta-row"><span class="label">产品类型</span><span class="value">{prd.get('type','')}</span></div>
+            </div>
+          </aside>
+        </div>
+      </article>
+    </div>"""
 
 
 # ─── Page: Index (blog style) ─────────────────────────────────────────
@@ -577,7 +712,8 @@ def generate_index(reports):
     .product-modal-container {{
       position:relative; max-width:1120px; width:90%; margin:40px auto;
       min-height:auto; background:var(--c-bg);
-      border-radius:var(--radius); box-shadow:0 8px 32px rgba(0,0,0,.2);
+      border-radius:var(--radius-lg); box-shadow:0 8px 32px rgba(0,0,0,.2);
+      overflow:hidden;
     }}
     .product-modal-close {{
       position:sticky; top:0; z-index:10;
@@ -591,24 +727,9 @@ def generate_index(reports):
     }}
     .product-modal-close .title {{ font-weight:600; font-size:.9rem; color:var(--c-text); }}
     .product-modal-body {{
-      padding:16px; padding-bottom:60px;
+      padding:0;
     }}
-    .product-modal-body .detail-card {{ border:none; box-shadow:none; padding:0; }}
-    .product-modal-body .detail-hero {{ padding:0 0 16px; }}
-    .product-modal-body .detail-body {{ display:block; }}
-    .product-modal-body .detail-main {{ padding:0; }}
-    .product-modal-body .detail-aside {{ padding:16px 0; border-left:none; border-top:1px solid var(--c-border); margin-top:16px; }}
-    .product-modal-body .back-link {{ display:none; }}
-    .product-modal-body .section {{ margin-bottom:20px; }}
-    .product-modal-body h1 {{ font-size:1.3rem; }}
-
-    /* Modal 内截图样式 */
-    .product-modal-body .screenshot-img {{
-      cursor:pointer; transition: transform .2s;
-    }}
-    .product-modal-body .screenshot-img:hover {{
-      transform:scale(1.02);
-    }}
+    .fancybox__container {{ z-index:10000; }}
   </style>
 </head>
 <body>
@@ -650,77 +771,65 @@ def generate_index(reports):
     const modalBody = document.getElementById('modal-body');
     const modalTitle = document.getElementById('modal-title');
 
-    // 大屏设备用 Modal，手机端正常跳转
+    // 大屏设备用 Modal，手机端和无 JS 环境保持普通链接跳转
     const isDesktop = window.matchMedia('(min-width: 769px)').matches;
     if (isDesktop) {{
-      document.querySelectorAll('.product-entry[data-slug]').forEach(card => {{
+      document.querySelectorAll('.product-entry[href]').forEach(card => {{
         card.addEventListener('click', function(e) {{
+          if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
           e.preventDefault();
-          const slug = this.dataset.slug;
           const name = this.querySelector('.entry-name')?.textContent || '';
-          openProductModal(slug, name);
+          openProductModal(this.getAttribute('href'), name);
         }});
       }});
     }}
 
-    async function openProductModal(slug, name) {{
+    function rebaseModalUrls(root, baseUrl) {{
+      root.querySelectorAll('[src]').forEach(el => {{
+        const value = el.getAttribute('src');
+        if (value && !value.startsWith('http') && !value.startsWith('data:')) {{
+          el.setAttribute('src', new URL(value, baseUrl).href);
+        }}
+      }});
+      root.querySelectorAll('[href]').forEach(el => {{
+        const value = el.getAttribute('href');
+        if (value && !value.startsWith('http') && !value.startsWith('#') && !value.startsWith('mailto:')) {{
+          el.setAttribute('href', new URL(value, baseUrl).href);
+        }}
+      }});
+    }}
+
+    async function openProductModal(detailUrl, name) {{
       modalTitle.textContent = name;
       modalBody.innerHTML = '<div style="text-align:center;padding:40px;color:var(--c-text-3)">加载中...</div>';
       modal.classList.add('active');
       document.body.style.overflow = 'hidden';
 
       try {{
-        const resp = await fetch('products/' + slug + '.html');
+        const resp = await fetch(detailUrl);
+        if (!resp.ok) throw new Error('HTTP ' + resp.status);
         const html = await resp.text();
         const parser = new DOMParser();
         const doc = parser.parseFromString(html, 'text/html');
 
-        // 提取详情页主体内容
-        const article = doc.querySelector('.detail-card');
-        if (article) {{
-          // 修正图片路径（从 products/ 子目录到根目录）
-          article.querySelectorAll('img').forEach(img => {{
-            const src = img.getAttribute('src');
-            if (src && !src.startsWith('http')) {{
-              img.src = '../' + src;
-            }}
-          }});
-          // 修正链接路径
-          article.querySelectorAll('a[href]').forEach(a => {{
-            const href = a.getAttribute('href');
-            if (href && !href.startsWith('http') && !href.startsWith('#')) {{
-              if (href.startsWith('../')) {{
-                // 已经是正确路径
-              }} else {{
-                a.href = '../' + href;
-              }}
-            }}
-          }});
-          // 修正 fancybox 路径
-          article.querySelectorAll('[data-fancybox]').forEach(el => {{
-            const href = el.getAttribute('href');
-            if (href && !href.startsWith('http') && !href.startsWith('../')) {{
-              el.href = '../' + href;
-            }}
-          }});
+        const detailContent = doc.querySelector('#product-detail-content');
+        if (detailContent) {{
+          rebaseModalUrls(detailContent, new URL(detailUrl, window.location.href).href);
 
-          modalBody.innerHTML = '';
-          modalBody.appendChild(article);
-
-          // 绑定 Fancybox
+          modalBody.replaceChildren(detailContent);
           if (typeof Fancybox !== 'undefined') {{
-            Fancybox.bind(modalBody.querySelectorAll('[data-fancybox]'), {{
-              parentEl: modalBody
+            Fancybox.bind(modalBody, '[data-fancybox]', {{
+              Thumbs: false,
+              parentEl: document.body
             }});
           }}
         }} else {{
-          modalBody.innerHTML = '<div style="text-align:center;padding:40px;color:var(--c-text-3)">内容加载失败</div>';
+          throw new Error('详情主体不存在');
         }}
       }} catch (err) {{
-        modalBody.innerHTML = '<div style="text-align:center;padding:40px;color:var(--c-text-3)">加载失败: ' + err.message + '</div>';
+        window.location.href = detailUrl;
       }}
 
-      // 滚动到顶部
       modal.scrollTop = 0;
     }}
 
@@ -758,62 +867,7 @@ def generate_product_pages(all_products):
     out_dir.mkdir(parents=True, exist_ok=True)
 
     for prd in all_products:
-        a = prd.get('analysis', {})
-        score = a.get('score', 0)
-        tags = prd.get('tags', [])
-        tags_h = ''.join(f'<a href="../tags.html?tag={t}" class="tag">{t}</a>' for t in tags)
-
-        use_cases = a.get('useCases', [])
-        uc_h = ''.join(f'<li>{c}</li>' for c in use_cases)
-
-        competitors = a.get('competitors', [])
-        comp_h = ''
-        for c in competitors:
-            comp_h += f"""<div class="competitor-card">
-              <div class="competitor-name"><a href="{c.get('url','#')}" target="_blank">{c.get('name','')}</a></div>
-              <div class="competitor-desc">{c.get('comparison','')}</div>
-            </div>"""
-
-        screenshot = prd.get('screenshotUrl', '')
-        app_ss = prd.get('appStoreScreenshots', [])
-        ss_h = ''
-        if screenshot:
-            # 本地网站截图，用相对路径
-            ss_h += f'<a href="{rel(screenshot, 1)}" data-fancybox="gallery" data-caption="{prd["name"]}"><div class="screenshot-img"><img src="{rel(screenshot, 1)}" alt="{prd["name"]}" loading="lazy"></div></a>'
-        for s in app_ss:
-            # App Store 截图是远程 URL，直接引用
-            ss_h += f'<a href="{s}" data-fancybox="gallery" data-caption="App Store 截图"><div class="screenshot-img"><img src="{s}" alt="App Store 截图" loading="lazy"></div></a>'
-
-        # 数据来源链接
-        raw = prd.get('rawData', {})
-        source_links = []
-        channel_labels = {'hackernews': 'Hacker News', 'reddit': 'Reddit', 'twitter': 'Twitter', 'github': 'GitHub'}
-
-        # 优先使用报告中的 sourceUrl 字段
-        source_url = prd.get('sourceUrl', '')
-        if source_url:
-            ch = prd.get('sourceChannels', ['未知'])[0]
-            label = channel_labels.get(ch, ch)
-            source_links.append(f'<a href="{source_url}" target="_blank" class="source-link">{icon("external")} {label}</a>')
-        else:
-            # 回退到 rawData 中的链接
-            for ch in prd.get('sourceChannels', []):
-                label = channel_labels.get(ch, ch)
-                if ch == 'hackernews':
-                    url = raw.get('hn_url') or raw.get('source_url', '')
-                elif ch == 'reddit':
-                    url = raw.get('redditUrl') or raw.get('source_url', '')
-                elif ch == 'twitter':
-                    url = raw.get('twitterUrl') or raw.get('source_url', '')
-                else:
-                    url = raw.get('source_url') or raw.get('url', '')
-                if url:
-                    source_links.append(f'<a href="{url}" target="_blank" class="source-link">{icon("external")} {label}</a>')
-        source_h = ''.join(source_links) if source_links else '<span style="color:var(--c-text-3);font-size:.85rem">暂无</span>'
-
-        url = prd.get('url') or prd.get('homepage', '')
-        btn_web = f'<a href="{url}" target="_blank" class="btn btn-primary">{icon("external")} 访问官网</a>' if url else ''
-        btn_app = f'<a href="{prd["appStoreUrl"]}" target="_blank" class="btn btn-ghost">{icon("phone")} App Store</a>' if prd.get('appStoreUrl') else ''
+        detail_content = render_product_detail_content(prd, depth=1)
 
         html = f"""<!DOCTYPE html>
 <html lang="zh-CN">
@@ -837,68 +891,7 @@ def generate_product_pages(all_products):
   <main>
     <div class="container-wide">
       <a href="{rel("index.html", 1)}" class="back-link">{icon("arrow")} 返回首页</a>
-      <article class="detail-card">
-        <div class="detail-hero">
-          <div class="entry-meta">
-            <span class="blog-post-date">{prd.get('date','')}</span>
-            <div class="entry-tags">{tags_h}</div>
-          </div>
-          <h1 class="detail-title">{prd['name']}</h1>
-          <p class="detail-subtitle">{prd.get('description','')}</p>
-          <div class="detail-actions">
-            <span class="detail-score-badge">{score}</span>
-            {btn_web}{btn_app}
-          </div>
-        </div>
-        <div class="detail-body">
-          <div class="detail-main">
-            <div class="section">
-              <h2 class="section-title"><span class="ic">{icon("target")}</span> 目标受众</h2>
-              <p>{a.get('targetAudience','待分析')}</p>
-            </div>
-            <div class="section">
-              <h2 class="section-title"><span class="ic">{icon("bulb")}</span> 使用场景</h2>
-              <ul class="use-case-list">{uc_h if uc_h else '<li>待补充</li>'}</ul>
-            </div>
-            <div class="section">
-              <h2 class="section-title"><span class="ic">{icon("palette")}</span> 设计初衷</h2>
-              <p>{a.get('designIntent','待分析')}</p>
-            </div>
-            <div class="section">
-              <h2 class="section-title"><span class="ic">{icon("zap")}</span> 解决什么问题</h2>
-              <p>{a.get('problemSolved','待分析')}</p>
-            </div>
-            <div class="section">
-              <h2 class="section-title"><span class="ic">{icon("chart")}</span> 评分理由</h2>
-              <p>{a.get('scoreReason','待分析')}</p>
-            </div>
-            <div class="section">
-              <h2 class="section-title"><span class="ic">{icon("swords")}</span> 对标竞品</h2>
-              {comp_h if comp_h else '<p style="color:var(--c-text-3)">暂无竞品分析</p>'}
-            </div>
-          </div>
-          <aside class="detail-aside">
-            <div class="aside-block">
-              <div class="aside-label">产品截图</div>
-              {ss_h if ss_h else '<p style="color:var(--c-text-3);font-size:.85rem">暂无截图</p>'}
-            </div>
-            <div class="aside-block">
-              <div class="aside-label">标签</div>
-              <div class="aside-tags">{tags_h}</div>
-            </div>
-            <div class="aside-block">
-              <div class="aside-label">数据来源</div>
-              <div class="source-links">{source_h}</div>
-            </div>
-            <div class="aside-block">
-              <div class="aside-label">元数据</div>
-              <div class="meta-row"><span class="label">首次发现</span><span class="value">{prd.get('firstSeen','')[:10]}</span></div>
-              <div class="meta-row"><span class="label">来源渠道</span><span class="value">{', '.join(prd.get('sourceChannels',[]))}</span></div>
-              <div class="meta-row"><span class="label">产品类型</span><span class="value">{prd.get('type','')}</span></div>
-            </div>
-          </aside>
-        </div>
-      </article>
+      {detail_content}
     </div>
   </main>
   {footer_html(1)}
@@ -956,6 +949,90 @@ def generate_archive(reports):
 </html>"""
 
     (SITE_DIR / "archive.html").write_text(html, encoding='utf-8')
+
+
+def generate_weekly(reports):
+    """生成每周深度分析页面"""
+    recent = reports[:10]  # 显示最近10期
+
+    posts_html = ''
+    for report in recent:
+        date = report.get('date', '')
+        products = report.get('products', [])
+        count = len(products)
+
+        try:
+            dt = datetime.strptime(date, '%Y-%m-%d')
+            weekdays = ['周一', '周二', '周三', '周四', '周五', '周六', '周日']
+            date_label = f"{date} {weekdays[dt.weekday()]}"
+        except Exception:
+            date_label = date
+
+        entries = ''
+        for prd in products:
+            a = prd.get('analysis', {})
+            score = a.get('score', 0)
+            tags = prd.get('tags', [])[:3]
+            tags_h = ''.join(f'<span class="tag">{t}</span>' for t in tags)
+
+            img_url = prd.get('screenshotUrl') or (prd.get('appStoreScreenshots', [''])[0] if prd.get('appStoreScreenshots') else '')
+            thumb = f'<img src="{rel(img_url, 0)}" alt="{prd["name"]}" loading="lazy">' if img_url else '<div class="ph"></div>'
+
+            link = rel("products/" + prd['slug'].lower() + ".html", 0)
+            entries += f"""
+      <a href="{link}" class="product-entry" data-slug="{prd['slug'].lower()}">
+        <div class="entry-thumb">{thumb}</div>
+        <div class="entry-body">
+          <div class="entry-name">{prd['name']}</div>
+          <p class="entry-desc">{prd.get('description', '')[:150]}</p>
+          <div class="entry-meta">
+            <span class="entry-score">{score}</span>
+            <div class="entry-tags">{tags_h}</div>
+          </div>
+        </div>
+      </a>"""
+
+        posts_html += f"""
+    <article class="blog-post">
+      <div class="blog-post-header">
+        <div class="blog-post-date">{date_label}</div>
+        <h2 class="blog-post-title">本周深度分析 <span class="count">· {count} 个产品</span></h2>
+      </div>
+      {entries}
+    </article>"""
+
+    total = sum(len(r.get('products', [])) for r in reports)
+
+    html = f"""<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每周深度分析 · AI 产品雷达</title>
+  <link rel="stylesheet" href="{rel("styles.css", 0)}">
+</head>
+<body>
+  {header_html('weekly', 0)}
+  <main>
+    <div class="container">
+      <div class="hero">
+        <h1>每周深度分析</h1>
+        <p>每周精选 1 个 AI 产品进行深度调研分析，挖掘产品价值、竞品对比、市场定位</p>
+        <div class="hero-stats">
+          <div class="hero-stat"><strong>{total}</strong><span>已分析</span></div>
+          <div class="hero-stat"><strong>{len(reports)}</strong><span>期</span></div>
+        </div>
+      </div>
+      <div class="blog-feed">
+        {posts_html if posts_html else '<div class="empty"><div class="empty-icon">' + icon("inbox") + '</div><h2>暂无数据</h2><p>运行每周深度分析后将在此显示</p></div>'}
+      </div>
+    </div>
+  </main>
+  {footer_html(0)}
+</body>
+</html>"""
+
+    (SITE_DIR / "weekly.html").write_text(html, encoding='utf-8')
 
 
 # ─── Data: All Products JSON ─────────────────────────────────────────
@@ -1162,25 +1239,36 @@ def main():
     SITE_DIR.mkdir(parents=True)
 
     copy_assets()
-    reports = load_daily_reports()
+    daily_reports = load_daily_reports()
+    weekly_reports = load_weekly_reports()
     generate_css()
 
     all_products = []
-    for rpt in reports:
+    for rpt in daily_reports:
         for prd in rpt.get('products', []):
             prd['date'] = rpt['date']
             all_products.append(prd)
 
-    generate_index(reports)
+    # 周报产品也加入产品页生成（如果尚未存在）
+    existing_slugs = {p.get('slug', '').lower() for p in all_products}
+    for rpt in weekly_reports:
+        for prd in rpt.get('products', []):
+            prd['date'] = rpt['date']
+            if prd.get('slug', '').lower() not in existing_slugs:
+                all_products.append(prd)
+                existing_slugs.add(prd.get('slug', '').lower())
+
+    generate_index(daily_reports)
+    generate_weekly(weekly_reports)
     generate_product_pages(all_products)
-    generate_archive(reports)
+    generate_archive(daily_reports)
     generate_all_products_json(all_products)
     generate_tags_page()
 
     # 自定义域名 CNAME 文件
     (SITE_DIR / "CNAME").write_text("ai-daily.asdasd.vip", encoding="utf-8")
 
-    print(f"✅ 完成：{SITE_DIR}  ({len(all_products)} 个产品页)")
+    print(f"✅ 完成：{SITE_DIR}  ({len(all_products)} 个产品页, {len(weekly_reports)} 期周报)")
 
 
 if __name__ == '__main__':

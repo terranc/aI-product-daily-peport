@@ -45,3 +45,4 @@ env_http_headers = { "x-api-key" = "EXA_API_KEY" }
 - 变更尽量小而明确，避免顺手重构无关代码。
 - 不提交密钥、令牌、Cookie 或其他凭据。
 - 提交信息使用 Conventional Commits，例如 `chore(config): add project mcp config`。
+- 每次修改网站、生成器、数据或文档后，都要重建 `docs/`，提交并推送到 GitHub，同时更新 `gh-pages` 分支，确保 GitHub Pages 同步到最新版本。
