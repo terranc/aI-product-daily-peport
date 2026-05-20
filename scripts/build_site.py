@@ -534,7 +534,7 @@ def generate_index(reports):
 
             link = rel("products/" + prd['slug'].lower() + ".html", 0)
             entries += f"""
-      <a href="{link}" class="product-entry">
+      <a href="{link}" class="product-entry" data-slug="{prd['slug'].lower()}">
         <div class="entry-thumb">{thumb}</div>
         <div class="entry-body">
           <div class="entry-name">{prd['name']}</div>
@@ -564,6 +564,50 @@ def generate_index(reports):
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AI 产品雷达 · 每日 AI 应用发现</title>
   <link rel="stylesheet" href="{rel("styles.css", 0)}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js" defer></script>
+  <style>
+    /* ── Product Detail Modal ── */
+    .product-modal-overlay {{
+      display:none; position:fixed; inset:0; z-index:9000;
+      background:rgba(0,0,0,.5); backdrop-filter:blur(4px);
+      overflow-y:auto; -webkit-overflow-scrolling:touch;
+    }}
+    .product-modal-overlay.active {{ display:block; }}
+    .product-modal-container {{
+      position:relative; max-width:800px; margin:0 auto;
+      min-height:100vh; background:var(--c-bg);
+    }}
+    .product-modal-close {{
+      position:sticky; top:0; z-index:10;
+      display:flex; align-items:center; justify-content:space-between;
+      padding:12px 16px; background:var(--c-surface);
+      border-bottom:1px solid var(--c-border);
+    }}
+    .product-modal-close button {{
+      background:none; border:none; cursor:pointer;
+      font-size:1rem; color:var(--c-text-2); padding:4px 8px;
+    }}
+    .product-modal-close .title {{ font-weight:600; font-size:.9rem; color:var(--c-text); }}
+    .product-modal-body {{
+      padding:16px; padding-bottom:60px;
+    }}
+    .product-modal-body .detail-card {{ border:none; box-shadow:none; padding:0; }}
+    .product-modal-body .detail-hero {{ padding:0 0 16px; }}
+    .product-modal-body .detail-body {{ flex-direction:column; }}
+    .product-modal-body .detail-aside {{ order:-1; }}
+    .product-modal-body .back-link {{ display:none; }}
+    .product-modal-body .section {{ margin-bottom:20px; }}
+    .product-modal-body h1 {{ font-size:1.3rem; }}
+
+    /* Modal 内截图样式 */
+    .product-modal-body .screenshot-img {{
+      cursor:pointer; transition: transform .2s;
+    }}
+    .product-modal-body .screenshot-img:hover {{
+      transform:scale(1.02);
+    }}
+  </style>
 </head>
 <body>
   {header_html('daily', 0)}
@@ -582,7 +626,122 @@ def generate_index(reports):
       </div>
     </div>
   </main>
+
+  <!-- 产品详情 Modal -->
+  <div class="product-modal-overlay" id="product-modal">
+    <div class="product-modal-container">
+      <div class="product-modal-close">
+        <span class="title" id="modal-title"></span>
+        <button onclick="closeProductModal()" aria-label="关闭">✕ 关闭</button>
+      </div>
+      <div class="product-modal-body" id="modal-body">
+        <div style="text-align:center;padding:40px;color:var(--c-text-3)">加载中...</div>
+      </div>
+    </div>
+  </div>
+
   {footer_html(0)}
+
+  <script>
+    // 手机端 Modal 逻辑
+    const isMobile = window.matchMedia('(max-width: 768px)').matches;
+    const modal = document.getElementById('product-modal');
+    const modalBody = document.getElementById('modal-body');
+    const modalTitle = document.getElementById('modal-title');
+
+    if (isMobile) {{
+      document.querySelectorAll('.product-entry[data-slug]').forEach(card => {{
+        card.addEventListener('click', function(e) {{
+          e.preventDefault();
+          const slug = this.dataset.slug;
+          const name = this.querySelector('.entry-name')?.textContent || '';
+          openProductModal(slug, name);
+        }});
+      }});
+    }}
+
+    async function openProductModal(slug, name) {{
+      modalTitle.textContent = name;
+      modalBody.innerHTML = '<div style="text-align:center;padding:40px;color:var(--c-text-3)">加载中...</div>';
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+
+      try {{
+        const resp = await fetch('products/' + slug + '.html');
+        const html = await resp.text();
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(html, 'text/html');
+
+        // 提取详情页主体内容
+        const article = doc.querySelector('.detail-card');
+        if (article) {{
+          // 修正图片路径（从 products/ 子目录到根目录）
+          article.querySelectorAll('img').forEach(img => {{
+            const src = img.getAttribute('src');
+            if (src && !src.startsWith('http')) {{
+              img.src = '../' + src;
+            }}
+          }});
+          // 修正链接路径
+          article.querySelectorAll('a[href]').forEach(a => {{
+            const href = a.getAttribute('href');
+            if (href && !href.startsWith('http') && !href.startsWith('#')) {{
+              if (href.startsWith('../')) {{
+                // 已经是正确路径
+              }} else {{
+                a.href = '../' + href;
+              }}
+            }}
+          }});
+          // 修正 fancybox 路径
+          article.querySelectorAll('[data-fancybox]').forEach(el => {{
+            const href = el.getAttribute('href');
+            if (href && !href.startsWith('http') && !href.startsWith('../')) {{
+              el.href = '../' + href;
+            }}
+          }});
+
+          modalBody.innerHTML = '';
+          modalBody.appendChild(article);
+
+          // 绑定 Fancybox
+          if (typeof Fancybox !== 'undefined') {{
+            Fancybox.bind(modalBody.querySelectorAll('[data-fancybox]'), {{
+              parentEl: modalBody
+            }});
+          }}
+        }} else {{
+          modalBody.innerHTML = '<div style="text-align:center;padding:40px;color:var(--c-text-3)">内容加载失败</div>';
+        }}
+      }} catch (err) {{
+        modalBody.innerHTML = '<div style="text-align:center;padding:40px;color:var(--c-text-3)">加载失败: ' + err.message + '</div>';
+      }}
+
+      // 滚动到顶部
+      modal.scrollTop = 0;
+    }}
+
+    function closeProductModal() {{
+      modal.classList.remove('active');
+      document.body.style.overflow = '';
+      // 解绑 Fancybox
+      if (typeof Fancybox !== 'undefined') {{
+        try {{ Fancybox.close(); }} catch(e) {{}}
+      }}
+    }}
+
+    // 点击遮罩关闭
+    modal.addEventListener('click', function(e) {{
+      if (e.target === modal) closeProductModal();
+    }});
+
+    // ESC 关闭
+    document.addEventListener('keydown', function(e) {{
+      if (e.key === 'Escape' && modal.classList.contains('active')) {{
+        closeProductModal();
+      }}
+    }});
+  </script>
 </body>
 </html>"""
 
