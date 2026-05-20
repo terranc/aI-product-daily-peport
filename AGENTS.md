@@ -29,12 +29,14 @@
 ## MCP 配置
 
 - 根目录 `.mcp.json` 从旧 WorkBuddy 的 `config/mcporter.json` 迁移而来，但不能写入真实 API key。
-- Exa MCP 使用环境变量 `EXA_API_KEY` 注入：`https://mcp.exa.ai/mcp?exaApiKey=${EXA_API_KEY}`。
-- 如果 Codex 没有自动读取项目级 `.mcp.json`，可将同等配置写入 `~/.codex/config.toml`：
+- Codex 官方项目级 MCP 配置在 `.codex/config.toml`，当前通过 `env_http_headers` 从本机环境变量 `EXA_API_KEY` 读取 Exa key。
+- 不要把 Exa key 写入 `.mcp.json`、`.codex/config.toml`、README、脚本或提交记录。
+- Codex 配置示例：
 
 ```toml
 [mcp_servers.exa]
-url = "https://mcp.exa.ai/mcp?exaApiKey=${EXA_API_KEY}"
+url = "https://mcp.exa.ai/mcp"
+env_http_headers = { "x-api-key" = "EXA_API_KEY" }
 ```
 
 ## 工作偏好

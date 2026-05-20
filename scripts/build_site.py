@@ -822,8 +822,14 @@ def generate_product_pages(all_products):
   <title>{prd['name']} · AI 产品雷达</title>
   <link rel="stylesheet" href="{rel("styles.css", 1)}">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
-  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js" defer></script>
-  <script>document.addEventListener('DOMContentLoaded', () => Fancybox.bind('[data-fancybox]'));</script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {{
+      if (typeof Fancybox !== 'undefined') {{
+        Fancybox.bind('[data-fancybox]', {{Thumbs: false}});
+      }}
+    }});
+  </script>
 </head>
 <body>
   {header_html('', 1)}
