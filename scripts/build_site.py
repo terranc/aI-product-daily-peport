@@ -648,15 +648,18 @@ def generate_index(reports):
     const modalBody = document.getElementById('modal-body');
     const modalTitle = document.getElementById('modal-title');
 
-    // 所有产品卡片点击都打开 Modal
-    document.querySelectorAll('.product-entry[data-slug]').forEach(card => {{
-      card.addEventListener('click', function(e) {{
-        e.preventDefault();
-        const slug = this.dataset.slug;
-        const name = this.querySelector('.entry-name')?.textContent || '';
-        openProductModal(slug, name);
+    // 大屏设备用 Modal，手机端正常跳转
+    const isDesktop = window.matchMedia('(min-width: 769px)').matches;
+    if (isDesktop) {{
+      document.querySelectorAll('.product-entry[data-slug]').forEach(card => {{
+        card.addEventListener('click', function(e) {{
+          e.preventDefault();
+          const slug = this.dataset.slug;
+          const name = this.querySelector('.entry-name')?.textContent || '';
+          openProductModal(slug, name);
+        }});
       }});
-    }});
+    }}
 
     async function openProductModal(slug, name) {{
       modalTitle.textContent = name;
