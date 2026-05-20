@@ -1,0 +1,252 @@
+[
+  {
+    "rank": 1,
+    "name": "Saner.AI",
+    "nameZh": "Saner.AI — 首款 ADHD 友好的 AI 助手",
+    "description": "First ADHD-friendly AI assistant for notes, email, calendar. Designed specifically for people with attention disorders to manage their digital life.",
+    "descriptionZh": "首款专为 ADHD（注意力缺陷多动障碍）用户设计的 AI 助手，整合笔记、邮件和日历管理，帮助注意力障碍人群更好地管理数字生活。",
+    "url": "https://www.producthunt.com/products/saner-ai/launches/saner-ai-4",
+    "productUrl": "https://saner.ai",
+    "source": "producthunt",
+    "targetAudience": "ADHD 患者、注意力容易分散的知识工作者、需要结构化信息管理的用户",
+    "useCases": [
+      "ADHD 用户管理日常笔记和待办事项",
+      "邮件分类和优先级排序，减少信息过载",
+      "日历智能提醒，避免遗漏重要会议",
+      "将散乱的信息自动整理成结构化笔记",
+      "为注意力障碍用户提供简化的操作界面"
+    ],
+    "designIntent": "市面上的 AI 助手大多是为'正常'用户设计的，界面复杂、功能繁多，反而加重了 ADHD 用户的认知负担。Saner.AI 的设计初衷是打造一个'减法'产品——通过 AI 自动处理信息筛选和整理，让用户只需关注最重要的事。",
+    "problemSolved": "ADHD 患者在数字生活中面临严重的信息过载和注意力分散问题。普通笔记和日历工具需要用户主动整理，而 ADHD 用户恰恰缺乏这种自驱力。Saner.AI 通过 AI 自动化信息管理，降低了组织生活的门槛。",
+    "tags": [
+      "AI 助手",
+      "ADHD",
+      "生产力工具",
+      "笔记管理",
+      "健康科技"
+    ],
+    "score": 8,
+    "scoreReason": "精准切入了一个被严重忽视的细分市场。ADHD 人群在全球占比约 5-8%，但几乎没有专门为他们设计的 AI 工具。产品定位清晰，痛点真实，且已有 Product Hunt 上线记录，说明已进入实际运营阶段。",
+    "competitors": [
+      {
+        "name": "Notion AI",
+        "url": "https://notion.so",
+        "comparison": "功能全面但界面复杂，对 ADHD 用户不友好，缺乏针对注意力障碍的特殊设计"
+      },
+      {
+        "name": "Todoist",
+        "url": "https://todoist.com",
+        "comparison": "任务管理工具，但需要用户主动输入和组织，缺乏 AI 自动化能力"
+      },
+      {
+        "name": "Motion",
+        "url": "https://usemotion.com",
+        "comparison": "AI 日历工具，但面向普通用户，未针对 ADHD 群体做特殊优化"
+      }
+    ],
+    "screenshotUrl": "assets/screenshots/unknown_20260520_120445.png",
+    "appStoreScreenshots": [],
+    "appStoreName": null,
+    "appStoreUrl": null
+  },
+  {
+    "rank": 2,
+    "name": "Octave TTS",
+    "nameZh": "Octave TTS — 用自然语言描述任何 AI 声音",
+    "description": "Describe any AI voice and prompt its emotional delivery. A new text-to-speech model from Hume AI that understands emotional context.",
+    "descriptionZh": "Hume AI 推出的新一代文本转语音模型，支持用自然语言描述声音特征和情感表达，让 AI 语音合成真正理解情绪语境。",
+    "url": "https://www.producthunt.com/p/hume-2/octave-tts-2",
+    "productUrl": "https://www.hume.ai",
+    "source": "producthunt",
+    "targetAudience": "内容创作者、播客制作者、有声书出版商、游戏开发者、需要高质量语音合成的开发者",
+    "useCases": [
+      "用自然语言描述想要的声音（如'温暖的中年女性声音，语速稍慢'）",
+      "为角色配音时控制情感表达（如'带着悲伤但克制的语气'）",
+      "批量生成不同情感风格的语音内容",
+      "为无障碍应用提供更自然的语音输出",
+      "快速原型制作中的语音演示"
+    ],
+    "designIntent": "传统 TTS 工具的声音选择是基于预设列表的，用户需要从几十个固定声音中挑选。Octave TTS 的创新在于让用户用自然语言描述声音，AI 理解后生成对应的声音。这大幅降低了声音定制的门槛，让非专业人士也能创造出专业级的语音内容。",
+    "problemSolved": "传统 TTS 的声音选择受限于预设库，用户无法精确描述自己想要的声音特征。Octave TTS 通过自然语言理解，让用户可以像描述一个人一样描述声音，同时支持情感语境感知，解决了'声音表达不自然'的行业痛点。",
+    "tags": [
+      "文本转语音",
+      "AI 语音",
+      "情感计算",
+      "内容创作",
+      "Hume AI"
+    ],
+    "score": 9,
+    "scoreReason": "来自 Hume AI（情感计算领域领先者）的技术实力有保障。自然语言描述声音是真正的范式转变，解决了 TTS 行业长期存在的'声音选择困难'问题。情感语境感知能力让语音合成从'能听'升级到'有感情'。",
+    "competitors": [
+      {
+        "name": "ElevenLabs",
+        "url": "https://elevenlabs.io",
+        "comparison": "声音克隆能力强，但声音选择仍基于预设或克隆，缺乏自然语言描述能力"
+      },
+      {
+        "name": "Play.ht",
+        "url": "https://play.ht",
+        "comparison": "支持多种声音，但情感控制需要通过 SSML 标签，操作复杂"
+      },
+      {
+        "name": "Murf AI",
+        "url": "https://murf.ai",
+        "comparison": "界面友好，但声音定制化程度有限，不支持自然语言描述"
+      }
+    ],
+    "screenshotUrl": "assets/screenshots/unknown_20260520_120453.png",
+    "appStoreScreenshots": [],
+    "appStoreName": null,
+    "appStoreUrl": null
+  },
+  {
+    "rank": 3,
+    "name": "VidNotes",
+    "nameZh": "VidNotes — YouTube 视频一键转笔记",
+    "description": "Turn YouTube videos into structured notes with AI. Paste a YouTube link and get comprehensive, organized notes.",
+    "descriptionZh": "用 AI 将 YouTube 视频一键转化为结构化笔记。粘贴视频链接即可获得完整、有组织的学习笔记。",
+    "url": "https://v.redd.it/0uwlz29cr72h1",
+    "productUrl": "https://vidnotes.ai",
+    "source": "reddit",
+    "targetAudience": "学生、自学者、内容研究者、需要从视频中提取知识的知识工作者",
+    "useCases": [
+      "将 YouTube 教程视频转化为可复习的笔记",
+      "学术讲座视频的快速内容提取",
+      "会议录像的要点整理",
+      "播客视频版的内容消化",
+      "多语言视频的学习笔记生成"
+    ],
+    "designIntent": "YouTube 是全球最大的知识库之一，但视频格式天然不利于快速消化和复习。VidNotes 的设计初衷是打通'视频观看'和'知识内化'之间的鸿沟，让 AI 自动完成从视频到笔记的转化，用户只需专注于理解内容。",
+    "problemSolved": "学习者在观看 YouTube 教程时面临'看完就忘'的困境。手动记笔记会分散注意力，不记笔记又记不住。VidNotes 通过 AI 自动提取视频关键信息并结构化整理，让用户可以专注于理解而非记录。",
+    "tags": [
+      "视频笔记",
+      "AI 学习",
+      "YouTube",
+      "知识管理",
+      "生产力工具"
+    ],
+    "score": 7,
+    "scoreReason": "解决了真实的学习痛点，YouTube 作为知识来源的地位日益重要。产品已有实际用户（Reddit 发布帖），且思路清晰。但市场已有类似产品（如 NoteGPT），差异化程度有待观察。",
+    "competitors": [
+      {
+        "name": "NoteGPT",
+        "url": "https://notegpt.io",
+        "comparison": "功能类似，但 VidNotes 可能在笔记结构化方面有差异化优势"
+      },
+      {
+        "name": "Glasp",
+        "url": "https://glasp.co",
+        "comparison": "侧重社交化学习笔记，与视频转笔记有交集但定位不同"
+      },
+      {
+        "name": "YouTube Transcript API",
+        "url": "https://github.com/jdepoix/youtube-transcript-api",
+        "comparison": "开源方案，但需要技术能力，VidNotes 提供了更友好的用户体验"
+      }
+    ],
+    "screenshotUrl": "assets/screenshots/unknown_20260520_120501.png",
+    "appStoreScreenshots": [],
+    "appStoreName": null,
+    "appStoreUrl": null
+  },
+  {
+    "rank": 4,
+    "name": "造梦 App",
+    "nameZh": "造梦 App — AI 驱动的梦境引导",
+    "description": "Use AI to generate dream-inducing audio scripts and play them during sleep to guide specific dreams.",
+    "descriptionZh": "利用 AI 生成催眠脚本，配合 TTS 转化为音频，在睡眠中播放以引导特定主题的梦境。",
+    "url": "https://www.v2ex.com/t/1211270",
+    "productUrl": "https://www.v2ex.com/t/1211270",
+    "source": "v2ex",
+    "targetAudience": "对梦境探索感兴趣的用户、希望改善睡眠质量的人群、创意工作者、心理学爱好者",
+    "useCases": [
+      "生成主题化梦境引导音频（如飞行梦、冒险梦）",
+      "配合智能手环检测 REM 睡眠阶段精准播放",
+      "个性化催眠脚本生成（根据用户偏好定制）",
+      "梦境日记和梦境主题分析",
+      "创意工作者的灵感激发工具"
+    ],
+    "designIntent": "梦境是人类潜意识的窗口，但大多数人无法控制自己的梦境内容。造梦 App 的设计初衷是利用 AI 的生成能力和精准时序控制，让普通人也能体验'清明梦'（清醒梦），将梦境变成可探索的创意空间。",
+    "problemSolved": "传统催眠音频千篇一律，无法个性化。造梦 App 通过 AI 生成个性化催眠脚本，结合精准的播放时序控制，理论上可以在 REM 睡眠阶段引导特定主题的梦境。这为梦境探索和睡眠改善提供了新的技术路径。",
+    "tags": [
+      "AI 催眠",
+      "梦境引导",
+      "睡眠科技",
+      "创意工具",
+      "心理健康"
+    ],
+    "score": 7,
+    "scoreReason": "概念新颖，将 AI 生成能力应用到睡眠场景，属于蓝海市场。虽然目前只是 V2EX 上的想法讨论，但技术可行性较高。需要注意的是，'引导梦境'的科学依据尚不充分，产品需要谨慎表述。",
+    "competitors": [
+      {
+        "name": "Calm",
+        "url": "https://calm.com",
+        "comparison": "冥想和睡眠应用，但缺乏 AI 个性化梦境引导功能"
+      },
+      {
+        "name": "Lucidity",
+        "url": "https://lucidity.ai",
+        "comparison": "清明梦训练应用，但基于传统方法，缺乏 AI 生成能力"
+      },
+      {
+        "name": "Slumber",
+        "url": "https://slumber.com",
+        "comparison": "睡眠故事应用，但内容固定，缺乏 AI 个性化生成"
+      }
+    ],
+    "screenshotUrl": "assets/screenshots/unknown_20260520_120508.png",
+    "appStoreScreenshots": [],
+    "appStoreName": null,
+    "appStoreUrl": null
+  },
+  {
+    "rank": 5,
+    "name": "Aurora",
+    "nameZh": "Aurora — 透明可解释的量化 AI",
+    "description": "A glass-box quantitative AI that runs locally, cites every claim, and has zero hallucination on quantitative data.",
+    "descriptionZh": "一款'玻璃盒'量化 AI，本地运行，每个结论都有数据引用，在定量数据上实现零幻觉。",
+    "url": "https://reddit.com/r/SideProject/comments/1ti9sd5/i_built_a_glassbox_ai_that_doe",
+    "productUrl": "https://reddit.com/r/SideProject/comments/1ti9sd5/i_built_a_glassbox_ai_that_doe",
+    "source": "reddit",
+    "targetAudience": "金融分析师、数据科学家、研究人员、需要可信赖 AI 分析的专业人士",
+    "useCases": [
+      "金融数据分析时确保结论有据可查",
+      "科研数据处理中避免 AI 幻觉导致的错误",
+      "合规审计中提供可追溯的分析路径",
+      "医疗数据分析中确保结论的可靠性",
+      "商业决策中基于真实数据的 AI 辅助分析"
+    ],
+    "designIntent": "当前 AI 最大的信任危机来自于'幻觉'——AI 会自信地给出错误答案。Aurora 的设计初衷是打造一个'透明'的 AI 系统：所有分析都在本地进行，每个结论都附带数据来源引用，用户可以验证 AI 的推理过程。这是 AI 从'能用'到'可信'的关键一步。",
+    "problemSolved": "AI 在定量分析领域的最大障碍是幻觉问题。一个在财报分析中'编造'数据的 AI 可能导致严重的投资损失。Aurora 通过本地运行和数据引用机制，在技术层面解决了这个问题，让 AI 在金融、科研等高风险场景中变得可用。",
+    "tags": [
+      "可解释 AI",
+      "量化分析",
+      "本地 AI",
+      "零幻觉",
+      "金融工具"
+    ],
+    "score": 8,
+    "scoreReason": "直击 AI 行业最大的信任痛点。'玻璃盒'概念（相对于黑盒）在 AI 治理日益重要的今天非常有价值。开源且本地运行的特性也满足了数据安全需求。但产品成熟度和功能丰富度有待观察。",
+    "competitors": [
+      {
+        "name": "ChatGPT with Code Interpreter",
+        "url": "https://chat.openai.com",
+        "comparison": "数据分析能力强，但存在幻觉风险，且数据上传到云端"
+      },
+      {
+        "name": "Julius AI",
+        "url": "https://julius.ai",
+        "comparison": "AI 数据分析工具，但基于云端，无法保证零幻觉"
+      },
+      {
+        "name": "Hex",
+        "url": "https://hex.tech",
+        "comparison": "数据协作平台，AI 辅助分析但缺乏本地运行和数据引用机制"
+      }
+    ],
+    "screenshotUrl": "assets/screenshots/unknown_20260520_120516.png",
+    "appStoreScreenshots": [],
+    "appStoreName": null,
+    "appStoreUrl": null
+  }
+]

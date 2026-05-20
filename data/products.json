@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-05-20T03:02:24.764999+00:00",
+  "lastUpdated": "2026-05-20T04:05:48.686866+00:00",
   "products": [
     {
       "id": "dafa9686fbe1",
@@ -3093,6 +3093,91 @@
         "source": "v2ex",
         "source_url": "https://www.v2ex.com/t/1213899"
       }
+    },
+    {
+      "name": "Saner.AI",
+      "nameZh": "Saner.AI — 首款 ADHD 友好的 AI 助手",
+      "url": "https://saner.ai",
+      "source": "producthunt",
+      "addedAt": "2026-05-20T04:05:48.686854+00:00",
+      "cooldownExpiresAt": "2026-06-03T04:05:48.686843+00:00",
+      "score": 8,
+      "tags": [
+        "AI 助手",
+        "ADHD",
+        "生产力工具",
+        "笔记管理",
+        "健康科技"
+      ],
+      "rank": 1
+    },
+    {
+      "name": "Octave TTS",
+      "nameZh": "Octave TTS — 用自然语言描述任何 AI 声音",
+      "url": "https://www.hume.ai",
+      "source": "producthunt",
+      "addedAt": "2026-05-20T04:05:48.686858+00:00",
+      "cooldownExpiresAt": "2026-06-03T04:05:48.686843+00:00",
+      "score": 9,
+      "tags": [
+        "文本转语音",
+        "AI 语音",
+        "情感计算",
+        "内容创作",
+        "Hume AI"
+      ],
+      "rank": 2
+    },
+    {
+      "name": "VidNotes",
+      "nameZh": "VidNotes — YouTube 视频一键转笔记",
+      "url": "https://vidnotes.ai",
+      "source": "reddit",
+      "addedAt": "2026-05-20T04:05:48.686861+00:00",
+      "cooldownExpiresAt": "2026-06-03T04:05:48.686843+00:00",
+      "score": 7,
+      "tags": [
+        "视频笔记",
+        "AI 学习",
+        "YouTube",
+        "知识管理",
+        "生产力工具"
+      ],
+      "rank": 3
+    },
+    {
+      "name": "造梦 App",
+      "nameZh": "造梦 App — AI 驱动的梦境引导",
+      "url": "https://www.v2ex.com/t/1211270",
+      "source": "v2ex",
+      "addedAt": "2026-05-20T04:05:48.686863+00:00",
+      "cooldownExpiresAt": "2026-06-03T04:05:48.686843+00:00",
+      "score": 7,
+      "tags": [
+        "AI 催眠",
+        "梦境引导",
+        "睡眠科技",
+        "创意工具",
+        "心理健康"
+      ],
+      "rank": 4
+    },
+    {
+      "name": "Aurora",
+      "nameZh": "Aurora — 透明可解释的量化 AI",
+      "url": "https://reddit.com/r/SideProject/comments/1ti9sd5/i_built_a_glassbox_ai_that_doe",
+      "source": "reddit",
+      "addedAt": "2026-05-20T04:05:48.686865+00:00",
+      "cooldownExpiresAt": "2026-06-03T04:05:48.686843+00:00",
+      "score": 8,
+      "tags": [
+        "可解释 AI",
+        "量化分析",
+        "本地 AI",
+        "零幻觉",
+        "金融工具"
+      ],
+      "rank": 5
     }
   ],
   "tracking": {

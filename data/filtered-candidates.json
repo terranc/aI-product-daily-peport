@@ -1,13 +1,6 @@
 {
   "fetchedAt": "2026-05-20T12:01:24.435430",
-  "totalCount": 193,
-  "channels": {
-    "twitter": 50,
-    "v2ex": 38,
-    "reddit": 60,
-    "hackernews": 30,
-    "producthunt": 15
-  },
+  "totalCount": 192,
   "products": [
     {
       "id": "tw_2056284797899567459",
@@ -1439,16 +1432,6 @@
       "score": 1,
       "source": "hackernews",
       "timestamp": "2026-05-19T23:44:24Z"
-    },
-    {
-      "id": "hn_48201080",
-      "name": "Show HN: We built an AI strategy agent that runs consulting-style workflows",
-      "description": "Before this, I worked in strategy consulting at McKinsey and later in product and corporate strategy roles at Cisco. One pain point I kept seeing: many teams need high-quality strategic analysis, but they do not have a realistic way to get it.<p>If you are a large company, you can hire a consulting firm. But that often costs $100K+ and takes months. If you are a smaller or mid-sized team, you usually rely on internal analysis, spreadsheets, scattered research, or ChatGPT. Those can help, but the",
-      "url": "https://nitrolens.ai/",
-      "source_url": "https://news.ycombinator.com/item?id=48201080",
-      "score": 1,
-      "source": "hackernews",
-      "timestamp": "2026-05-19T23:29:49Z"
     },
     {
       "id": "hn_48200980",
