@@ -642,23 +642,21 @@ def generate_index(reports):
 
   {footer_html(0)}
 
-  <script>
-    // 手机端 Modal 逻辑
-    const isMobile = window.matchMedia('(max-width: 768px)').matches;
+    <script>
+    // Modal 逻辑（所有设备）
     const modal = document.getElementById('product-modal');
     const modalBody = document.getElementById('modal-body');
     const modalTitle = document.getElementById('modal-title');
 
-    if (isMobile) {{
-      document.querySelectorAll('.product-entry[data-slug]').forEach(card => {{
-        card.addEventListener('click', function(e) {{
-          e.preventDefault();
-          const slug = this.dataset.slug;
-          const name = this.querySelector('.entry-name')?.textContent || '';
-          openProductModal(slug, name);
-        }});
+    // 所有产品卡片点击都打开 Modal
+    document.querySelectorAll('.product-entry[data-slug]').forEach(card => {{
+      card.addEventListener('click', function(e) {{
+        e.preventDefault();
+        const slug = this.dataset.slug;
+        const name = this.querySelector('.entry-name')?.textContent || '';
+        openProductModal(slug, name);
       }});
-    }}
+    }});
 
     async function openProductModal(slug, name) {{
       modalTitle.textContent = name;
