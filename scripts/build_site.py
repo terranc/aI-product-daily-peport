@@ -595,8 +595,9 @@ def generate_index(reports):
     }}
     .product-modal-body .detail-card {{ border:none; box-shadow:none; padding:0; }}
     .product-modal-body .detail-hero {{ padding:0 0 16px; }}
-    .product-modal-body .detail-body {{ flex-direction:column; }}
-    .product-modal-body .detail-aside {{ order:-1; }}
+    .product-modal-body .detail-body {{ display:block; }}
+    .product-modal-body .detail-main {{ padding:0; }}
+    .product-modal-body .detail-aside {{ padding:16px 0; border-left:none; border-top:1px solid var(--c-border); margin-top:16px; }}
     .product-modal-body .back-link {{ display:none; }}
     .product-modal-body .section {{ margin-bottom:20px; }}
     .product-modal-body h1 {{ font-size:1.3rem; }}
