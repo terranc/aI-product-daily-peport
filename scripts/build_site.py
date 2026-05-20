@@ -23,6 +23,11 @@ def rel(path, depth=0):
     return f"{prefix}{clean}"
 
 
+def home_href(depth=0):
+    """生成首页目录链接，避免在导航里暴露 index.html。"""
+    return '../' * depth if depth else './'
+
+
 def load_products():
     products_file = DATA_DIR / "products.json"
     if products_file.exists():
@@ -485,19 +490,19 @@ a[data-fancybox] { display:block; text-decoration:none; }
 
 def header_html(active='', depth=0):
     nav_items = [
-        ('index.html', '每日简报', 'daily'),
+        (home_href(depth), '每日简报', 'daily'),
         ('weekly.html', '每周深度', 'weekly'),
         ('archive.html', '归档', 'archive'),
     ]
     nav = ''
     for href, label, key in nav_items:
         cls = ' class="active"' if active == key else ''
-        nav += f'<a href="{rel(href, depth)}"{cls}>{label}</a>'
+        nav += f'<a href="{href if href.startswith(".") else rel(href, depth)}"{cls}>{label}</a>'
     nav += f'<a href="https://github.com/terranc/aI-product-daily-peport" target="_blank">{icon("github")}</a>'
 
     return f"""<header class="site-header">
   <div class="container-wide">
-    <a href="{rel("index.html", depth)}" class="site-logo">{icon("radar")} AI 产品雷达</a>
+    <a href="{home_href(depth)}" class="site-logo">{icon("radar")} AI 产品雷达</a>
     <nav class="site-nav">{nav}</nav>
   </div>
 </header>"""
