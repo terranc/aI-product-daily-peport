@@ -693,8 +693,10 @@ def generate_index(reports):
             dt = datetime.strptime(date, '%Y-%m-%d')
             weekdays = ['周一', '周二', '周三', '周四', '周五', '周六', '周日']
             date_label = f"{date} {weekdays[dt.weekday()]}"
+            title_date = f"{dt.month}月{dt.day}日"
         except Exception:
             date_label = date
+            title_date = date
 
         entries = ''
         for prd in products:
@@ -724,7 +726,7 @@ def generate_index(reports):
     <article class="blog-post">
       <div class="blog-post-header">
         <div class="blog-post-date">{date_label}</div>
-        <h2 class="blog-post-title">今日精选 <span class="count">· {count} 个产品</span></h2>
+        <h2 class="blog-post-title">{title_date} <span class="count">· {count} 个产品</span></h2>
       </div>
       {entries}
     </article>"""
