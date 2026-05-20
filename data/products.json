@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-05-19T15:01:46.346154+00:00",
+  "lastUpdated": "2026-05-20T03:02:24.764999+00:00",
   "products": [
     {
       "id": "dafa9686fbe1",
@@ -2674,6 +2674,424 @@
             "comparison": "Quorum 是企业级政府事务软件，功能全面但价格和复杂度对小企业不友好"
           }
         ]
+      }
+    },
+    {
+      "id": "nitrolens-ai-strategy-agent",
+      "name": "NitroLens - AI 战略咨询代理",
+      "slug": "nitrolens-ai-strategy-agent",
+      "description": "NitroLens 是一个运行麦肯锡风格工作流的 AI 战略咨询代理。由前麦肯锡战略顾问和 Cisco 产品战略负责人打造，将传统咨询公司需要 10 万美元以上、耗时数月才能完成的战略分析，压缩为 AI 驱动的快速迭代流程。",
+      "url": "https://nitrolens.ai/",
+      "homepage": "https://nitrolens.ai/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [
+        "web"
+      ],
+      "categories": [
+        "商业工具",
+        "AI应用"
+      ],
+      "tags": [
+        "AI战略咨询",
+        "商业分析",
+        "自动化工作流",
+        "企业管理",
+        "决策支持"
+      ],
+      "firstSeen": "2026-05-20T03:02:24.764999+00:00",
+      "lastSeen": "2026-05-20T03:02:24.764999+00:00",
+      "cooldownExpiresAt": "2026-06-03T03:02:24.764999+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-20T03:02:24.764999+00:00",
+          "channel": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48201080",
+          "title": "Show HN: We built an AI strategy agent that runs consulting-style workflows"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "中小型企业的创始人、产品负责人和战略团队",
+        "useCases": [
+          "市场进入策略分析",
+          "产品战略规划",
+          "投资决策支持",
+          "竞争对手情报",
+          "季度战略复盘"
+        ],
+        "designIntent": "将传统管理咨询公司的分析方法论封装为 AI 工作流，让中小企业也能获得接近顶级咨询质量的战略分析",
+        "problemSolved": "传统战略咨询价格高昂且交付周期长，中小企业无力承担。NitroLens 通过 AI 代理模拟咨询工作流，将战略分析从奢侈品变为日常工具",
+        "score": 7,
+        "scoreReason": "创始人具有真实麦肯锡背景，产品切中中小企业战略分析刚需，AI 代理执行咨询工作流概念新颖",
+        "competitors": [
+          {
+            "name": "McKinsey/BCG/Bain",
+            "url": "https://www.mckinsey.com",
+            "comparison": "传统咨询质量高但价格昂贵、交付慢"
+          },
+          {
+            "name": "ChatGPT/Claude",
+            "url": "https://chatgpt.com",
+            "comparison": "通用 AI 需用户自建分析框架，NitroLens 内置专业方法论"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "hn_48201080",
+        "name": "Show HN: We built an AI strategy agent that runs consulting-style workflows",
+        "url": "https://nitrolens.ai/",
+        "hn_url": "https://news.ycombinator.com/item?id=48201080",
+        "score": 1,
+        "timestamp": "2026-05-19T23:29:49Z",
+        "source": "hackernews",
+        "source_url": "https://news.ycombinator.com/item?id=48201080"
+      }
+    },
+    {
+      "id": "clippie-pro-ai-video-clipper",
+      "name": "Clippie Pro - AI 自动短视频剪辑器",
+      "slug": "clippie-pro-ai-video-clipper",
+      "description": "Clippie Pro 是一款 Windows 桌面应用，使用 AI 自动将长视频和播客剪辑成适合社交媒体传播的病毒式短视频。已有真实收入验证。",
+      "url": "https://clippie.pro",
+      "homepage": "https://clippie.pro",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [
+        "windows"
+      ],
+      "categories": [
+        "视频工具",
+        "AI应用"
+      ],
+      "tags": [
+        "AI视频剪辑",
+        "内容创作",
+        "短视频制作",
+        "播客剪辑",
+        "社交媒体"
+      ],
+      "firstSeen": "2026-05-20T03:02:24.764999+00:00",
+      "lastSeen": "2026-05-20T03:02:24.764999+00:00",
+      "cooldownExpiresAt": "2026-06-03T03:02:24.764999+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-20T03:02:24.764999+00:00",
+          "channel": "reddit",
+          "url": "https://reddit.com/r/SaaS/comments/1ti1ovv/hit_a_58_conversion_rate_on_my_first_6_sales_239/",
+          "title": "Hit a 5.8% conversion rate on my first 6 sales ($239)"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "内容创作者、播客主播、社交媒体运营人员",
+        "useCases": [
+          "播客切片",
+          "课程内容拆分",
+          "会议精华提取",
+          "直播回放剪辑",
+          "产品演示短视频"
+        ],
+        "designIntent": "解决内容创作者一鱼多吃的核心需求，通过 AI 自动识别高光时刻和合适的切片点",
+        "problemSolved": "手动剪辑长视频的短视频切片耗时数小时，Clippie Pro 通过 AI 将过程压缩到分钟级别",
+        "score": 6,
+        "scoreReason": "已有真实收入验证，5.8%转化率表现不错。短视频剪辑是高频刚需。但桌面应用分发受限，终身授权模式可持续性存疑",
+        "competitors": [
+          {
+            "name": "OpusClip",
+            "url": "https://www.opus.pro",
+            "comparison": "OpusClip 是头部玩家，Web 端功能更全面但价格更高"
+          },
+          {
+            "name": "Descript",
+            "url": "https://www.descript.com",
+            "comparison": "Descript 功能远超短视频剪辑，Clippie Pro 更专注垂直场景"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "reddit_1ti1ovv",
+        "name": "Hit a 5.8% conversion rate on my first 6 sales ($239), but I honestly suck at marketing",
+        "url": "https://i.redd.it/um52i2sb162h1.png",
+        "redditUrl": "https://reddit.com/r/SaaS/comments/1ti1ovv/hit_a_58_conversion_rate_on_my_first_6_sales_239/",
+        "score": 2,
+        "timestamp": "2026-05-20T05:54:48",
+        "source": "reddit",
+        "source_url": "https://reddit.com/r/SaaS/comments/1ti1ovv/hit_a_58_conversion_rate_on_my_first_6_sales_239/"
+      }
+    },
+    {
+      "id": "pezus-kids-food-safety-ai",
+      "name": "Pezus - AI 儿童食品安全检测助手",
+      "slug": "pezus-kids-food-safety-ai",
+      "description": "Pezus 是一款专为家长设计的 AI 食品安全检测应用。用户只需拍一张食品照片，AI 即可基于营养学知识库分析食品成分，输出针对儿童的食用建议。",
+      "url": "https://apps.apple.com/app/pezus",
+      "homepage": "https://apps.apple.com/app/pezus",
+      "type": "app",
+      "appStoreName": "Pezus",
+      "appStoreUrl": "https://apps.apple.com/app/pezus",
+      "platforms": [
+        "ios"
+      ],
+      "categories": [
+        "健康工具",
+        "AI应用"
+      ],
+      "tags": [
+        "儿童健康",
+        "食品安全",
+        "AI图像识别",
+        "家长工具",
+        "营养分析"
+      ],
+      "firstSeen": "2026-05-20T03:02:24.764999+00:00",
+      "lastSeen": "2026-05-20T03:02:24.764999+00:00",
+      "cooldownExpiresAt": "2026-06-03T03:02:24.764999+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-20T03:02:24.764999+00:00",
+          "channel": "v2ex",
+          "url": "https://www.v2ex.com/t/1213924",
+          "title": "[送码] 作为一名容易焦虑的奶爸，我 vibe 了一款 App"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "有幼儿的家长，特别是对孩子食物过敏、营养搭配有焦虑感的父母",
+        "useCases": [
+          "超市购物辅助",
+          "外出就餐检查",
+          "零食审查",
+          "辅食搭配参考",
+          "过敏原筛查"
+        ],
+        "designIntent": "将复杂的食品营养学知识通过 AI 图像识别技术封装为拍照即查的极简交互体验",
+        "problemSolved": "家长在给孩子选择食品时面临信息过载和专业知识不足的双重困境，Pezus 将反复查询的痛点简化为一次拍照",
+        "score": 7,
+        "scoreReason": "切入家长对儿童食品安全的真实焦虑，拍照即查交互极简。开发者以自身痛点出发，V2EX 社区反响积极。但需关注 AI 在食品安全领域的准确性风险",
+        "competitors": [
+          {
+            "name": "薄荷健康",
+            "url": "https://www.boohee.com",
+            "comparison": "薄荷健康侧重成人卡路里追踪，Pezus 专注儿童食品安全，交互更简单"
+          },
+          {
+            "name": "Yuka",
+            "url": "https://yuka.io",
+            "comparison": "Yuka 是欧洲流行的食品扫描应用，Pezus 更贴合中国家长需求"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "v2ex_1213924",
+        "name": "[送码] 作为一名容易焦虑的奶爸，我 vibe 了一款 App",
+        "url": "https://www.v2ex.com/t/1213924",
+        "score": 2,
+        "timestamp": 1779199004,
+        "source": "v2ex",
+        "source_url": "https://www.v2ex.com/t/1213924"
+      }
+    },
+    {
+      "id": "youshort-youtube-ai-assistant",
+      "name": "YouShort - YouTube AI 问答助手",
+      "slug": "youshort-youtube-ai-assistant",
+      "description": "YouShort 是一款 Chrome 浏览器扩展，在 YouTube 视频旁边提供 AI 问答功能。用户输入问题后，AI 会回答问题并精确告诉你答案在视频中的具体时间位置。",
+      "url": "https://chromewebstore.google.com/detail/youshort",
+      "homepage": "https://chromewebstore.google.com/detail/youshort",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [
+        "web"
+      ],
+      "categories": [
+        "学习工具",
+        "AI应用"
+      ],
+      "tags": [
+        "YouTube助手",
+        "AI问答",
+        "学习工具",
+        "Chrome扩展",
+        "视频检索"
+      ],
+      "firstSeen": "2026-05-20T03:02:24.764999+00:00",
+      "lastSeen": "2026-05-20T03:02:24.764999+00:00",
+      "cooldownExpiresAt": "2026-06-03T03:02:24.764999+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-20T03:02:24.764999+00:00",
+          "channel": "reddit",
+          "url": "https://reddit.com/r/SideProject/comments/1ti3tw4/i_made_chatgpt_but_for_youtube_got_200_downloads/",
+          "title": "I made ChatGPT, but for YouTube. Got 200 downloads already from Instagram"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "经常观看 YouTube 教程和长视频的学习者、开发者、学生",
+        "useCases": [
+          "编程教程答疑",
+          "课程学习辅助",
+          "产品评测对比",
+          "会议录像检索",
+          "播客内容定位"
+        ],
+        "designIntent": "将 YouTube 视频从线性观看体验升级为可查询的知识库体验，用自然语言与视频对话",
+        "problemSolved": "YouTube 海量优质内容因视频线性结构导致信息检索极其低效，YouShort 将 O(n) 线性搜索压缩为 O(1) 即时问答",
+        "score": 6,
+        "scoreReason": "切中 YouTube 学习者高频痛点，一周 200 次下载有自然增长潜力。但 YouTube 已内置 AI 摘要功能，存在被平台吞噬的风险",
+        "competitors": [
+          {
+            "name": "Glasp YouTube Summarizer",
+            "url": "https://glasp.co",
+            "comparison": "Glasp 侧重总结而非问答，YouShort 的交互式问答更适合解决特定问题"
+          },
+          {
+            "name": "YouTube 内置 AI 摘要",
+            "url": "https://youtube.com",
+            "comparison": "YouTube 自身 AI 摘要仅提供整体总结，不支持精准定位查询"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "reddit_1ti3tw4",
+        "name": "I made ChatGPT, but for YouTube. Got 200 downloads already from Instagram",
+        "url": "https://v.redd.it/m7xl66b7g62h1",
+        "redditUrl": "https://reddit.com/r/SideProject/comments/1ti3tw4/i_made_chatgpt_but_for_youtube_got_200_downloads/",
+        "score": 1,
+        "timestamp": "2026-05-20T07:18:01",
+        "source": "reddit",
+        "source_url": "https://reddit.com/r/SideProject/comments/1ti3tw4/i_made_chatgpt_but_for_youtube_got_200_downloads/"
+      }
+    },
+    {
+      "id": "fastmoro-ai-video-platform",
+      "name": "FastMoro AI - 一站式 AI 视频图像生成平台",
+      "slug": "fastmoro-ai-video-platform",
+      "description": "FastMoro AI 是一个整合了 Veo 3.1、Seedance 2.0、ChatGPT Image 2.0、Happy Horse 1.0 等主流 AI 模型的一站式视频和图像生成平台。",
+      "url": "https://fastmoroai.com/",
+      "homepage": "https://fastmoroai.com/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [
+        "web"
+      ],
+      "categories": [
+        "创意工具",
+        "AI应用"
+      ],
+      "tags": [
+        "AI视频生成",
+        "AI图像生成",
+        "多模态创作",
+        "内容制作",
+        "创意工具"
+      ],
+      "firstSeen": "2026-05-20T03:02:24.764999+00:00",
+      "lastSeen": "2026-05-20T03:02:24.764999+00:00",
+      "cooldownExpiresAt": "2026-06-03T03:02:24.764999+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-20T03:02:24.764999+00:00",
+          "channel": "v2ex",
+          "url": "https://www.v2ex.com/t/1213899",
+          "title": "做了一个集成了 Veo 3.1、Seedance 2.0、ChatGPT Image 2.0、Happy Horse 1.0 的一站式 AI 视频/图像平台"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "短视频创作者、自媒体运营、电商产品视频制作者、设计师",
+        "useCases": [
+          "产品展示视频",
+          "社交媒体素材",
+          "概念视频预览",
+          "动态海报制作",
+          "个人创意表达"
+        ],
+        "designIntent": "解决 AI 视频/图像生成领域模型碎片化问题，将主流模型整合到统一界面",
+        "problemSolved": "当前 AI 视频生成市场模型众多、平台分散，用户需注册多个账号。FastMoro 通过一站式整合消除工具切换税",
+        "score": 6,
+        "scoreReason": "一站式整合多模态模型切中碎片化痛点，支持中英双语有本土化优势。但作为模型聚合平台壁垒较低，AI 视频生成赛道竞争激烈",
+        "competitors": [
+          {
+            "name": "Runway",
+            "url": "https://runwayml.com",
+            "comparison": "Runway 自研模型质量高但价格贵，FastMoro 整合多模型且价格更亲民"
+          },
+          {
+            "name": "即梦 Jimeng",
+            "url": "https://jimeng.jianying.com",
+            "comparison": "即梦背靠字节抖音生态，FastMoro 在模型多样性上有优势但生态和流量远不及"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "v2ex_1213899",
+        "name": "做了一个集成了 Veo 3.1、Seedance 2.0、ChatGPT Image 2.0、Happy Horse 1.0 的一站式 AI 视频/图像平台",
+        "url": "https://www.v2ex.com/t/1213899",
+        "score": 0,
+        "timestamp": 1779192289,
+        "source": "v2ex",
+        "source_url": "https://www.v2ex.com/t/1213899"
       }
     }
   ],
