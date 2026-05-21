@@ -3243,6 +3243,91 @@
       "sourceUrl": "https://www.producthunt.com/r/p/1144780?app_id=339",
       "firstSeen": "2026-05-20T07:47:06.512236+00:00",
       "cooldownExpiresAt": "2026-06-03T07:47:06.517770+00:00"
+    },
+    {
+      "id": "avenor-ai-workspace",
+      "name": "Avenor",
+      "url": "https://avenorigin.com/",
+      "firstSeen": "2026-05-21T04:04:41.937989+00:00",
+      "cooldownExpiresAt": "2026-06-04T00:00:00",
+      "tags": [
+        "AI工作区",
+        "桌面应用",
+        "自动化",
+        "一键安装",
+        "全能助理"
+      ],
+      "sourceChannels": [
+        "twitter"
+      ]
+    },
+    {
+      "id": "drowsebook-reading-app",
+      "name": "Drowsebook（入梦书）",
+      "url": "https://apps.apple.com/us/app/drowsebook-read-aloud-ebooks/id6768475647",
+      "firstSeen": "2026-05-21T04:04:41.937989+00:00",
+      "cooldownExpiresAt": "2026-06-04T00:00:00",
+      "tags": [
+        "睡前听书",
+        "本地阅读",
+        "TTS",
+        "环境音",
+        "隐私优先"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ]
+    },
+    {
+      "id": "poplingo-browser-translate",
+      "name": "Poplingo",
+      "url": "https://poplingo.leoku.dev",
+      "firstSeen": "2026-05-21T04:04:41.937989+00:00",
+      "cooldownExpiresAt": "2026-06-04T00:00:00",
+      "tags": [
+        "浏览器翻译",
+        "AI翻译",
+        "沉浸阅读",
+        "多模型",
+        "Chrome扩展"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ]
+    },
+    {
+      "id": "songforge-crucible",
+      "name": "SongForge Crucible",
+      "url": "https://songforgeai.com/crucible",
+      "firstSeen": "2026-05-21T04:04:41.937989+00:00",
+      "cooldownExpiresAt": "2026-06-04T00:00:00",
+      "tags": [
+        "歌词创作",
+        "AI诊断",
+        "音乐工具",
+        "创意写作",
+        "免费工具"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ]
+    },
+    {
+      "id": "trainy-ai-roleplay",
+      "name": "Trainy",
+      "url": "https://www.trainy.me/roleplay",
+      "firstSeen": "2026-05-21T04:04:41.937989+00:00",
+      "cooldownExpiresAt": "2026-06-04T00:00:00",
+      "tags": [
+        "AI学习",
+        "角色扮演",
+        "产品管理",
+        "模拟训练",
+        "技能提升"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ]
     }
   ],
   "tracking": {
