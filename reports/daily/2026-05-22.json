@@ -1,0 +1,317 @@
+{
+  "date": "2026-05-22",
+  "generatedAt": "2026-05-22T04:04:07.467360+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "getinvenio.com",
+      "name": "Invenio",
+      "slug": "invenio",
+      "description": "本地 AI 搜索 Mac 视频和照片库，无需上传云端，输入自然语言即可精准定位媒体内容",
+      "url": "https://getinvenio.com/",
+      "homepage": "https://getinvenio.com/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260522_120242.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI搜索",
+        "本地隐私",
+        "视频编辑",
+        "Mac应用"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/invenio",
+      "firstSeen": "2026-05-22T04:04:07.467360+00:00",
+      "analysis": {
+        "targetAudience": "视频编辑师、摄影师、内容创作者，需要频繁在大量媒体素材中查找特定内容的 Mac 用户",
+        "useCases": [
+          "视频编辑时快速定位特定场景镜头",
+          "在海量照片库中搜索特定人物或物体",
+          "用自然语言描述找视频中的精确帧",
+          "管理个人媒体库中的回忆片段",
+          "为社交媒体内容快速找到合适的素材"
+        ],
+        "design初衷": "传统媒体库搜索依赖手动标签或文件名，效率极低。Invenio 利用本地 AI 视觉理解能力，让用户用日常语言就能搜索视频和照片内容，且所有处理都在本地完成，保护隐私。",
+        "problemSolved": "解决了视频编辑和摄影工作者在大量媒体素材中搜索特定内容的痛点，无需手动打标签，无需上传云端，本地 AI 即可理解画面内容并精准检索。",
+        "tags": [
+          "AI视觉搜索",
+          "本地优先",
+          "隐私保护",
+          "媒体管理",
+          "视频编辑"
+        ],
+        "score": 8,
+        "scoreReason": "本地 AI 媒体搜索解决了真实痛点，隐私优先的设计理念符合当下趋势。对视频编辑师来说是效率利器，但目前仅支持 Mac 平台，受众有限。",
+        "competitors": [
+          {
+            "name": "Eagle",
+            "url": "https://eagle.cool/",
+            "comparison": "Eagle 侧重素材管理和手动标签，缺乏 AI 语义搜索能力"
+          },
+          {
+            "name": "Google Photos",
+            "url": "https://photos.google.com/",
+            "comparison": "Google Photos 有 AI 搜索但需上传云端，隐私性不如 Invenio"
+          },
+          {
+            "name": "Adobe Bridge",
+            "url": "https://www.adobe.com/products/bridge.html",
+            "comparison": "Adobe Bridge 是传统文件管理器，无 AI 搜索功能"
+          }
+        ]
+      }
+    },
+    {
+      "id": "autosubtitles.com",
+      "name": "AutoSubtitles 2.0",
+      "slug": "autosubtitles-2",
+      "description": "浏览器端 AI 字幕生成器，自动生成精准字幕和动画字幕效果，支持 20+ 语言",
+      "url": "https://autosubtitles.com/",
+      "homepage": "https://autosubtitles.com/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260522_120250.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI字幕",
+        "视频制作",
+        "内容创作",
+        "多语言"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/autosubtitles",
+      "firstSeen": "2026-05-22T04:04:07.467360+00:00",
+      "analysis": {
+        "targetAudience": "短视频创作者、YouTuber、社交媒体内容制作者，需要为视频添加专业字幕的创作者",
+        "useCases": [
+          "为短视频自动生成同步字幕",
+          "制作 TikTok/Reels 风格的动画字幕效果",
+          "多语言视频内容的字幕翻译",
+          "播客视频版的字幕添加",
+          "在线课程视频的字幕制作"
+        ],
+        "design初衷": "视频字幕制作传统上需要专业软件和大量手动操作。AutoSubtitles 2.0 通过 AI 语音识别自动生成字幕，并提供类似 CapCut 风格的动画字幕模板，让普通创作者也能制作专业级字幕效果。",
+        "problemSolved": "解决了视频创作者字幕制作耗时耗力的问题，将原本需要数小时的字幕工作缩短到几秒，同时提供吸引眼球的动画字幕效果提升视频完播率。",
+        "tags": [
+          "AI语音识别",
+          "字幕生成",
+          "动画字幕",
+          "浏览器工具",
+          "内容创作"
+        ],
+        "score": 8,
+        "scoreReason": "2.0 版本大幅提升编辑速度，浏览器端即用无需安装，动画字幕效果紧跟短视频趋势。适合中小创作者，但专业影视制作可能需要更精细的控制。",
+        "competitors": [
+          {
+            "name": "CapCut",
+            "url": "https://www.capcut.com/",
+            "comparison": "CapCut 是全功能视频编辑器，字幕只是其中一项功能，AutoSubtitles 更专注字幕领域"
+          },
+          {
+            "name": "Descript",
+            "url": "https://www.descript.com/",
+            "comparison": "Descript 是全功能播客/视频编辑工具，价格更高，AutoSubtitles 更轻量免费"
+          },
+          {
+            "name": "VEED.io",
+            "url": "https://www.veed.io/",
+            "comparison": "VEED 是在线视频编辑平台，字幕功能类似但需要付费订阅"
+          }
+        ]
+      }
+    },
+    {
+      "id": "apps.apple.com/us/app/ai-local-recorder/id6762428280",
+      "name": "AI Local Recorder",
+      "slug": "ai-local-recorder",
+      "description": "离线语音录音器，支持 AI 本地转写，所有数据保留在设备上，无需联网",
+      "url": "https://apps.apple.com/us/app/ai-local-recorder/id6762428280",
+      "homepage": "https://apps.apple.com/us/app/ai-local-recorder/id6762428280",
+      "type": "app",
+      "appStoreName": "AI Local Recorder",
+      "appStoreUrl": "https://apps.apple.com/us/app/ai-local-recorder/id6762428280",
+      "screenshotUrl": "assets/screenshots/unknown_20260522_120258.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "语音录音",
+        "AI转写",
+        "离线隐私",
+        "iOS应用"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://apps.apple.com/us/app/ai-local-recorder/id6762428280",
+      "firstSeen": "2026-05-22T04:04:07.467360+00:00",
+      "analysis": {
+        "targetAudience": "记者、律师、研究人员、学生等需要录音转写但关注隐私的用户",
+        "useCases": [
+          "会议录音后自动生成文字记录",
+          "课堂讲座的语音转文字笔记",
+          "采访录音的快速转写",
+          "灵感记录后自动整理为文字",
+          "法庭、医疗等敏感场景的离线录音转写"
+        ],
+        "design初衷": "市面上的语音转文字工具大多需要将音频上传到云端处理，存在隐私泄露风险。AI Local Recorder 利用设备端 AI 模型实现完全离线的语音转写，让敏感场景下的录音转写变得安全可靠。",
+        "problemSolved": "解决了隐私敏感场景下语音转写的需求，所有音频和转写结果都保留在本地设备上，不经过任何云端服务，适合处理机密信息的专业人士。",
+        "tags": [
+          "离线AI",
+          "语音转文字",
+          "隐私优先",
+          "本地处理",
+          "iOS"
+        ],
+        "score": 8,
+        "scoreReason": "完全离线的 AI 转写在隐私保护上做到了极致，对记者、律师等敏感行业用户非常有价值。但离线模型精度可能不如云端方案，且仅支持 iOS。",
+        "competitors": [
+          {
+            "name": "Otter.ai",
+            "url": "https://otter.ai/",
+            "comparison": "Otter.ai 功能更全面但需要云端处理，隐私性不如 AI Local Recorder"
+          },
+          {
+            "name": "Whisper",
+            "url": "https://github.com/openai/whisper",
+            "comparison": "Whisper 是开源模型，AI Local Recorder 将其封装为易用的 iOS 应用"
+          },
+          {
+            "name": "Google AI Edge Eloquent",
+            "url": "https://blog.google/technology/ai/google-ai-edge-eloquent/",
+            "comparison": "Google 的离线听写应用，定位类似但刚推出，生态尚不成熟"
+          }
+        ]
+      }
+    },
+    {
+      "id": "apps.apple.com/us/app/framed-mockup-studio/id6766568592",
+      "name": "Framed",
+      "slug": "framed",
+      "description": "Mac 原生应用，将截图、视频和代码片段变成精美产品视觉素材，适合发布和展示",
+      "url": "https://apps.apple.com/us/app/framed-mockup-studio/id6766568592?mt=12",
+      "homepage": "https://apps.apple.com/us/app/framed-mockup-studio/id6766568592?mt=12",
+      "type": "app",
+      "appStoreName": "Framed: Mockup Studio",
+      "appStoreUrl": "https://apps.apple.com/us/app/framed-mockup-studio/id6766568592?mt=12",
+      "screenshotUrl": "assets/screenshots/unknown_20260522_120306.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "产品展示",
+        "视觉设计",
+        "Mac应用",
+        "截图美化"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/framed-mockup-studio",
+      "firstSeen": "2026-05-22T04:04:07.467360+00:00",
+      "analysis": {
+        "targetAudience": "独立开发者、产品经理、市场营销人员，需要为产品发布制作精美视觉素材的创作者",
+        "useCases": [
+          "为 App Store 产品页面制作展示截图",
+          "为 Product Hunt 发布制作精美产品图",
+          "将代码片段变成可分享的精美图片",
+          "为社交媒体制作产品宣传视觉",
+          "为技术博客制作配图和演示素材"
+        ],
+        "design初衷": "独立开发者和小团队在产品发布时，往往需要花费大量时间制作展示素材。Framed 将这个过程简化为拖拽操作，内置多种设备框架、背景和标注工具，让非设计师也能快速产出专业级产品视觉。",
+        "problemSolved": "解决了独立开发者和小团队产品展示素材制作的痛点，无需学习 Figma 或 Photoshop，用 Mac 原生应用即可快速产出高质量的产品截图和演示素材。",
+        "tags": [
+          "产品展示",
+          "Mac原生",
+          "快速设计",
+          "独立开发者",
+          "App Store优化"
+        ],
+        "score": 7,
+        "scoreReason": "解决了独立开发者产品展示的真实痛点，Mac 原生体验流畅。但功能相对垂直，受众有限，且可能面临 Figma 等通用设计工具的竞争。",
+        "competitors": [
+          {
+            "name": "CleanShot X",
+            "url": "https://cleanshot.com/",
+            "comparison": "CleanShot X 是截图工具+标注，Framed 更专注于产品展示模板"
+          },
+          {
+            "name": "Figma",
+            "url": "https://www.figma.com/",
+            "comparison": "Figma 是通用设计工具，学习成本高，Framed 更轻量专注"
+          },
+          {
+            "name": "Shottr",
+            "url": "https://shottr.cc/",
+            "comparison": "Shottr 是轻量截图标注工具，无产品展示模板功能"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ghostsnap",
+      "name": "GhostSnap",
+      "slug": "ghostsnap",
+      "description": "批量截图自动压缩工具，一次粘贴多张截图到 AI 对话，节省 Token 消耗",
+      "url": "https://www.producthunt.com/products/ghostsnap",
+      "homepage": "https://www.producthunt.com/products/ghostsnap",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260522_120314.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "截图工具",
+        "AI效率",
+        "批量处理",
+        "Mac应用"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/ghostsnap",
+      "firstSeen": "2026-05-22T04:04:07.467360+00:00",
+      "analysis": {
+        "targetAudience": "频繁使用 AI 对话工具（ChatGPT、Claude 等）的用户，需要批量发送截图给 AI 分析的效率工作者",
+        "useCases": [
+          "将多张截图一次性粘贴到 AI 对话中",
+          "压缩截图体积节省 AI Token 消耗",
+          "批量截图后统一管理发送",
+          "为 AI 提供多角度视觉上下文",
+          "减少截图文件占用的存储空间"
+        ],
+        "design初衷": "在使用 AI 对话工具时，每次粘贴图片都会消耗大量 Token。GhostSnap 通过自动压缩（最高 80%）和批量粘贴功能，让用户能更高效地向 AI 提供视觉上下文，同时节省 Token 费用。",
+        "problemSolved": "解决了 AI 对话场景下多张截图粘贴繁琐、Token 消耗大的痛点，将多步操作简化为一次 Cmd+V，同时自动压缩减少 Token 开销。",
+        "tags": [
+          "AI工作流",
+          "截图压缩",
+          "效率工具",
+          "Token优化",
+          "Mac工具"
+        ],
+        "score": 7,
+        "scoreReason": "精准解决了 AI 对话场景下的截图效率问题，压缩功能实用。但场景相对垂直，仅在频繁使用 AI 对话工具的用户中有价值。",
+        "competitors": [
+          {
+            "name": "CleanShot X",
+            "url": "https://cleanshot.com/",
+            "comparison": "CleanShot X 有云上传和分享功能，但无专门的 AI Token 优化压缩"
+          },
+          {
+            "name": "Shottr",
+            "url": "https://shottr.cc/",
+            "comparison": "Shottr 是轻量截图工具，无批量压缩和 AI 适配功能"
+          },
+          {
+            "name": "CloudApp",
+            "url": "https://www.getcloudapp.com/",
+            "comparison": "CloudApp 是截图+云分享工具，侧重分享链接而非 AI 对话场景"
+          }
+        ]
+      }
+    }
+  ]
+}

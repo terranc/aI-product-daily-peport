@@ -3328,6 +3328,96 @@
       "sourceChannels": [
         "hackernews"
       ]
+    },
+    {
+      "id": "getinvenio.com",
+      "name": "Invenio",
+      "slug": "invenio",
+      "url": "https://getinvenio.com/",
+      "description": "本地 AI 搜索 Mac 视频和照片库，无需上传云端，输入自然语言即可精准定位媒体内容",
+      "tags": [
+        "AI搜索",
+        "本地隐私",
+        "视频编辑",
+        "Mac应用"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "firstSeen": "2026-05-22T04:04:07.467360+00:00",
+      "cooldownExpiresAt": "2026-06-05T04:04:07"
+    },
+    {
+      "id": "autosubtitles.com",
+      "name": "AutoSubtitles 2.0",
+      "slug": "autosubtitles-2",
+      "url": "https://autosubtitles.com/",
+      "description": "浏览器端 AI 字幕生成器，自动生成精准字幕和动画字幕效果，支持 20+ 语言",
+      "tags": [
+        "AI字幕",
+        "视频制作",
+        "内容创作",
+        "多语言"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "firstSeen": "2026-05-22T04:04:07.467360+00:00",
+      "cooldownExpiresAt": "2026-06-05T04:04:07"
+    },
+    {
+      "id": "apps.apple.com/us/app/ai-local-recorder/id6762428280",
+      "name": "AI Local Recorder",
+      "slug": "ai-local-recorder",
+      "url": "https://apps.apple.com/us/app/ai-local-recorder/id6762428280",
+      "description": "离线语音录音器，支持 AI 本地转写，所有数据保留在设备上，无需联网",
+      "tags": [
+        "语音录音",
+        "AI转写",
+        "离线隐私",
+        "iOS应用"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "firstSeen": "2026-05-22T04:04:07.467360+00:00",
+      "cooldownExpiresAt": "2026-06-05T04:04:07"
+    },
+    {
+      "id": "apps.apple.com/us/app/framed-mockup-studio/id6766568592",
+      "name": "Framed",
+      "slug": "framed",
+      "url": "https://apps.apple.com/us/app/framed-mockup-studio/id6766568592?mt=12",
+      "description": "Mac 原生应用，将截图、视频和代码片段变成精美产品视觉素材，适合发布和展示",
+      "tags": [
+        "产品展示",
+        "视觉设计",
+        "Mac应用",
+        "截图美化"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "firstSeen": "2026-05-22T04:04:07.467360+00:00",
+      "cooldownExpiresAt": "2026-06-05T04:04:07"
+    },
+    {
+      "id": "ghostsnap",
+      "name": "GhostSnap",
+      "slug": "ghostsnap",
+      "url": "https://www.producthunt.com/products/ghostsnap",
+      "description": "批量截图自动压缩工具，一次粘贴多张截图到 AI 对话，节省 Token 消耗",
+      "tags": [
+        "截图工具",
+        "AI效率",
+        "批量处理",
+        "Mac应用"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "firstSeen": "2026-05-22T04:04:07.467360+00:00",
+      "cooldownExpiresAt": "2026-06-05T04:04:07"
     }
   ],
   "tracking": {

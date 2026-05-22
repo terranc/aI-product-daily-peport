@@ -61,8 +61,27 @@
 
 ---
 
+## 2026-05-21 12:00
+
+- **状态**：✅ 成功
+- **抓取数**：227 个候选产品（Twitter 50 + V2EX 40 + HackerNews 27 + Reddit 60 + Product Hunt 50）
+- **去重后**：223 个（数据库 4 个冷却期内产品命中）
+- **过滤后**：精选 5 个面向用户的产品
+- **精选 TOP 5**：
+  1. Avenor - 一键安装AI全能工作区（评分 9）
+  2. Drowsebook（入梦书）- 睡前听书/本地阅读App（评分 8）
+  3. Poplingo - AI浏览器翻译与沉浸阅读（评分 8）
+  4. SongForge Crucible - AI歌词八维诊断工具（评分 8）
+  5. Trainy - AI角色扮演产品学习平台（评分 7）
+- **截图**：5 张网站截图全部成功
+- **部署**：main + gh-pages 推送成功
+- **踩坑**：Twitter 推文页面加载经常出错，需要通过搜索找到产品实际官网 URL
+
+---
+
 ## 注意事项（供下次执行参考）
 
 - git/python 命令需用 `env -i HOME=$HOME PATH=...` 避免 GVM 劫持
 - JSON 报告务必用 `json.dump()` 生成，不要手写包含中文引号的 JSON 字符串
 - drea App Store 搜索有可能命中同名游戏，需注意核验应用名称匹配
+- Twitter 推文页面（x.com）经常返回加载错误，需通过 WebSearch 找到产品实际官网
