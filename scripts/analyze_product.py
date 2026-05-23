@@ -6,6 +6,16 @@
 
 import json
 import re
+import sys
+from pathlib import Path
+
+# 导入 LLM 分析器
+sys.path.insert(0, str(Path(__file__).parent))
+try:
+    from llm_analyzer import get_analyzer
+    HAS_LLM = True
+except ImportError:
+    HAS_LLM = False
 
 
 # ─── 技术性产品过滤器 ────────────────────────────────────────────────
@@ -138,8 +148,20 @@ ANALYSIS_PROMPT = """请分析以下 AI 产品，提供结构化分析：
 def analyze_product(product):
     """
     分析单个产品
-    这里我们先用简单的规则系统，后续可以接入真实 LLM API
+    优先使用 LLM，回退到规则系统
     """
+    # 尝试使用 LLM 分析
+    if HAS_LLM:
+        analyzer = get_analyzer()
+        if analyzer.is_available():
+            print(f"  🤖 使用 LLM 分析: {product.get('name', 'Unknown')}")
+            result = analyzer.analyze_product_basic(product)
+            if result:
+                return result
+            print(f"  ⚠️  LLM 分析失败，回退到规则系统")
+    
+    # 回退到规则系统
+    print(f"  📊 使用规则系统分析: {product.get('name', 'Unknown')}")
     name = product.get('name', '')
     description = product.get('description', '')
     url = product.get('url', '')

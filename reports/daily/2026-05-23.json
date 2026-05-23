@@ -13,7 +13,7 @@
       "type": "app",
       "appStoreName": "Nota: AI Notes & Voice",
       "appStoreUrl": "https://apps.apple.com/my/app/nota-ai-notes-voice/id6762107658",
-      "screenshotUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1153413_20260523_135301.png",
       "appStoreScreenshots": [],
       "tags": [
         "AI笔记",
@@ -63,7 +63,7 @@
       "type": "saas",
       "appStoreName": null,
       "appStoreUrl": null,
-      "screenshotUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1153090_20260523_135221.png",
       "appStoreScreenshots": [],
       "tags": [
         "Slack集成",
@@ -113,7 +113,7 @@
       "type": "app",
       "appStoreName": "Reader Alive",
       "appStoreUrl": null,
-      "screenshotUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1152321_20260523_135238.png",
       "appStoreScreenshots": [],
       "tags": [
         "AI阅读",
@@ -163,7 +163,7 @@
       "type": "app",
       "appStoreName": "Tacet",
       "appStoreUrl": null,
-      "screenshotUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1152268_20260523_135301.png",
       "appStoreScreenshots": [],
       "tags": [
         "认知健康",

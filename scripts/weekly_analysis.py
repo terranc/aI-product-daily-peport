@@ -2,6 +2,7 @@
 """
 每周深度分析脚本
 从已进入每日简报、且首次入选至少 10 天后的产品中挑选持续活跃对象。
+采用 LLM 驱动的七维分析框架（回退到规则系统）。
 """
 
 import json
@@ -13,6 +14,13 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 
 from product_db import load_products
+
+# 导入 LLM 分析器
+try:
+    from llm_analyzer import get_analyzer
+    HAS_LLM = True
+except ImportError:
+    HAS_LLM = False
 
 BASE_DIR = Path("/Volumes/EXTEND/aI-product-daily-peport")
 REPORTS_DIR = BASE_DIR / "reports"
@@ -238,27 +246,7 @@ def generate_weekly_deep_dive(candidate, date_str=None):
             "growthScore": candidate["growth_score"],
             "channels": channels,
         },
-        "weeklyDeepDive": {
-            # 新增：七维深度分析框架
-            "problemDefinition": generate_problem_definition(product, analysis),
-            "aiIndispensability": generate_ai_indispensability(product, analysis),
-            "workflowEmbedding": generate_workflow_embedding(product, analysis),
-            "monetization": generate_monetization(product, analysis),
-            "moatAnalysis": generate_moat_analysis(product, analysis),
-            "competitivePositioning": generate_competitive_positioning(product, analysis),
-            "fourQuestionsValidation": generate_four_questions(product, analysis),
-            # 保留原有字段作为补充
-            "growthEvidence": (
-                f"首次进入每日简报已 {candidate['days_since_daily']} 天，"
-                f"最近 {RECENT_MENTION_DAYS} 天仍有 {len(recent_mentions)} 次可追踪提及。"
-            ),
-            "communityFeedback": (
-                f"近期提及主要来自 {', '.join(channels)}。"
-                if channels else "近期有持续提及，但来源渠道信息不足。"
-            ),
-            "risksAndChallenges": generate_risks(product),
-            "outlook": generate_outlook(product, analysis),
-        },
+        "weeklyDeepDive": generate_weekly_deep_dive_content(product, analysis, candidate, channels, recent_mentions),
     }
 
     return {
@@ -266,6 +254,55 @@ def generate_weekly_deep_dive(candidate, date_str=None):
         "generatedAt": datetime.now(timezone.utc).isoformat(),
         "productCount": 1,
         "products": [report_product],
+    }
+
+
+def generate_weekly_deep_dive_content(product, analysis, candidate, channels, recent_mentions):
+    """生成周报深度分析内容 - 优先使用 LLM，回退到规则系统"""
+    # 尝试使用 LLM 进行深度分析
+    if HAS_LLM:
+        analyzer = get_analyzer()
+        if analyzer.is_available():
+            print(f"    🤖 使用 LLM 进行七维深度分析...")
+            llm_result = analyzer.analyze_product_deep(product)
+            if llm_result:
+                # LLM 分析成功，补充增长证据等字段
+                llm_result["growthEvidence"] = (
+                    f"首次进入每日简报已 {candidate['days_since_daily']} 天，"
+                    f"最近 {RECENT_MENTION_DAYS} 天仍有 {len(recent_mentions)} 次可追踪提及。"
+                )
+                llm_result["communityFeedback"] = (
+                    f"近期提及主要来自 {', '.join(channels)}。"
+                    if channels else "近期有持续提及，但来源渠道信息不足。"
+                )
+                llm_result["risksAndChallenges"] = generate_risks(product)
+                llm_result["outlook"] = generate_outlook(product, analysis)
+                print(f"    ✅ LLM 分析完成")
+                return llm_result
+            print(f"    ⚠️  LLM 分析失败，回退到规则系统")
+    
+    # 回退到规则系统
+    print(f"    📊 使用规则系统进行七维分析...")
+    return {
+        # 七维深度分析框架（规则系统版本）
+        "problemDefinition": generate_problem_definition(product, analysis),
+        "aiIndispensability": generate_ai_indispensability(product, analysis),
+        "workflowEmbedding": generate_workflow_embedding(product, analysis),
+        "monetization": generate_monetization(product, analysis),
+        "moatAnalysis": generate_moat_analysis(product, analysis),
+        "competitivePositioning": generate_competitive_positioning(product, analysis),
+        "fourQuestionsValidation": generate_four_questions(product, analysis),
+        # 补充字段
+        "growthEvidence": (
+            f"首次进入每日简报已 {candidate['days_since_daily']} 天，"
+            f"最近 {RECENT_MENTION_DAYS} 天仍有 {len(recent_mentions)} 次可追踪提及。"
+        ),
+        "communityFeedback": (
+            f"近期提及主要来自 {', '.join(channels)}。"
+            if channels else "近期有持续提及，但来源渠道信息不足。"
+        ),
+        "risksAndChallenges": generate_risks(product),
+        "outlook": generate_outlook(product, analysis),
     }
 
 
