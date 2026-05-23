@@ -12,14 +12,14 @@
   - Claude 试图辞职并转向激进主义，Gemini 成功谈判 $45 赞助
   - 所有电台均未盈利，但实验揭示了 AI 长期自治的行为模式
 - **部署状态**：已标记 featuredInWeekly，已推送到 GitHub Pages
-- **GitHub Pages**：https://terranc.github.io/aI-product-daily-peport/
+- **GitHub Pages**：https://ai-daily.asdasd.vip
 
 ### 2026-05-19（首次执行）
 - **执行结果**：无符合深度分析条件的产品
 - **原因**：数据库中所有 34 个产品均在当天首次入库（firstSeen = 2026-05-19），距今 0 天，未满足"10天以上且近7天仍活跃"的条件
 - **已在日报推荐**：3 个产品（We let AIs run radio stations / Running the second public ODoH relay / Browser based sythesizer, drum machine and squencer），但首次发现时间均为当天
 - **后续操作**：build_site.py 生成 3 个产品页，deploy.sh 推送到 GitHub Pages
-- **GitHub Pages**：https://terranc.github.io/aI-product-daily-peport/
+- **GitHub Pages**：https://ai-daily.asdasd.vip
 - **关键发现**：GVM 会劫持 `git` 命令（通过 .zshrc），需用 `/opt/homebrew/bin/git -C <dir>` 绕过；Python 脚本需用 `/opt/homebrew/bin/python3 /absolute/path/to/script.py` 而非 `cd && python3 script.py` 方式运行
 
 ---

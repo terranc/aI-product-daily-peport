@@ -1,0 +1,257 @@
+{
+  "date": "2026-05-23",
+  "generatedAt": "2026-05-23T05:47:17.935228+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "producthunt.com/r/p/1153413",
+      "name": "Nota: AI Notes & Voice",
+      "slug": "nota-ai-notes-voice",
+      "description": "A multi-modal AI notes app for iPhone, iPad, Mac and Apple Watch. Supports voice transcription, scans, sketches, and text with built-in AI search and summarization.",
+      "url": "https://nota.talk/",
+      "homepage": "https://nota.talk/",
+      "type": "app",
+      "appStoreName": "Nota: AI Notes & Voice",
+      "appStoreUrl": "https://apps.apple.com/my/app/nota-ai-notes-voice/id6762107658",
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI笔记",
+        "语音转文字",
+        "Apple生态",
+        "知识管理"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1153413?app_id=339",
+      "firstSeen": "2026-05-23T05:47:17.935228+00:00",
+      "analysis": {
+        "targetAudience": "需要高效记录灵感、会议内容和学习笔记的 iPhone/Mac 用户",
+        "useCases": [
+          "会议录音自动转文字并生成摘要",
+          "手绘草图和扫描文档统一管理",
+          "多设备间笔记同步与 AI 搜索",
+          "语音快速记录灵感想法",
+          "Apple Watch 上快速语音备忘"
+        ],
+        "designIntent": "让笔记回归最自然的输入方式：说话、画图、拍照，AI 负责整理和提炼。面向 Apple 全生态用户，强调本地优先和隐私保护。",
+        "problemSolved": "传统笔记应用需要手动打字整理，语音笔记难以检索。Nota 通过 AI 自动转录、摘要和搜索，解决了记了找不到、录了用不上的痛点。",
+        "score": 8,
+        "scoreReason": "Apple 全生态覆盖，本地优先设计，AI 功能实用不花哨。免费版功能完整，适合日常笔记场景。",
+        "competitors": [
+          {
+            "name": "Notion",
+            "url": "https://notion.so",
+            "comparison": "Notion 更侧重团队协作和知识库，Nota 更专注个人快速记录和语音场景"
+          },
+          {
+            "name": "Notta",
+            "url": "https://notta.ai",
+            "comparison": "Notta 主打会议转录，Nota 功能更全面，覆盖手绘、扫描等多模态输入"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1153090",
+      "name": "Faby - Slack Virtual Coworker",
+      "slug": "faby-virtual-coworker",
+      "description": "A virtual coworker living in Slack with its own computer, browser, and coding environment. Completes real tasks end-to-end from Slack messages.",
+      "url": "https://www.usefaby.com/",
+      "homepage": "https://www.usefaby.com/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "Slack集成",
+        "AI自动化",
+        "远程协作",
+        "虚拟助手"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1153090?app_id=339",
+      "firstSeen": "2026-05-23T05:47:17.935228+00:00",
+      "analysis": {
+        "targetAudience": "使用 Slack 进行团队协作的中小团队和远程办公团队",
+        "useCases": [
+          "在 Slack 中指派任务，AI 自动完成调研和报告",
+          "自动化处理重复性工作流（数据收集、文档生成）",
+          "跨工具协作（浏览器、代码环境、文档）",
+          "异步团队中的任务分发和进度跟踪",
+          "减少会议沟通，用 Slack 消息驱动工作"
+        ],
+        "designIntent": "把 AI agent 做成一个真正的同事，住在你已有的工作流（Slack）里，而不是又一个需要单独打开的工具。",
+        "problemSolved": "团队协作中大量时间花在沟通和工具切换上。Faby 让 AI 直接在 Slack 中接收并执行任务，减少上下文切换和沟通成本。",
+        "score": 8,
+        "scoreReason": "概念新颖，AI 不是工具而是同事。与 Slack 深度集成，降低使用门槛。适合已有 Slack 工作流的团队快速上手。",
+        "competitors": [
+          {
+            "name": "Clawd",
+            "url": "https://clawd.ai",
+            "comparison": "Clawd 更侧重 AI agent 编排，Faby 更注重与 Slack 的无缝集成和端到端任务执行"
+          },
+          {
+            "name": "MultiOn",
+            "url": "https://multion.ai",
+            "comparison": "MultiOn 是通用浏览器 agent，Faby 专注 Slack 场景下的团队协作任务"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1152321",
+      "name": "Reader Alive",
+      "slug": "reader-alive",
+      "description": "AI ebook reader for iPhone and iPad. Import EPUB, PDF, AZW3, and MOBI, then translate chapters, listen with natural text-to-speech, summarize dense sections, and ask questions.",
+      "url": "https://www.producthunt.com/products/reader-alive",
+      "homepage": "https://www.producthunt.com/products/reader-alive",
+      "type": "app",
+      "appStoreName": "Reader Alive",
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI阅读",
+        "电子书",
+        "语音朗读",
+        "翻译"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1152321?app_id=339",
+      "firstSeen": "2026-05-23T05:47:17.935228+00:00",
+      "analysis": {
+        "targetAudience": "喜欢阅读英文电子书但语言能力有限，或希望更高效吸收书籍内容的读者",
+        "useCases": [
+          "阅读英文书籍时实时翻译章节",
+          "通勤时用语音听书",
+          "读完一章后让 AI 生成摘要",
+          "对书中内容提问获得解释",
+          "支持多种电子书格式导入"
+        ],
+        "designIntent": "让每个人都能无障碍地阅读任何语言的电子书，AI 帮你跨越语言障碍、节省阅读时间、加深理解。",
+        "problemSolved": "阅读外文电子书时查词翻译打断节奏，长篇内容难以抓住重点。Reader Alive 通过翻译、语音和 AI 问答，让阅读体验更流畅。",
+        "score": 8,
+        "scoreReason": "解决真实痛点：外文阅读障碍。支持主流电子书格式，AI 功能（翻译、摘要、问答）围绕阅读场景设计，实用性强。",
+        "competitors": [
+          {
+            "name": "Apple Books",
+            "url": "https://apple.com/apple-books",
+            "comparison": "Apple Books 是通用阅读器，缺乏 AI 翻译和摘要功能"
+          },
+          {
+            "name": "Readwise Reader",
+            "url": "https://readwise.io/read",
+            "comparison": "Readwise 更侧重高亮和笔记管理，Reader Alive 更专注 AI 辅助阅读体验"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1152268",
+      "name": "Tacet",
+      "slug": "tacet-brain-monitor",
+      "description": "Brain monitor for cognitive health scores. Passively analyzes phone tapping patterns to track attention, fatigue, and sleep quality without extra hardware.",
+      "url": "https://www.producthunt.com/products/tacet",
+      "homepage": "https://www.producthunt.com/products/tacet",
+      "type": "app",
+      "appStoreName": "Tacet",
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "认知健康",
+        "脑科学",
+        "被动监测",
+        "数字健康"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1152268?app_id=339",
+      "firstSeen": "2026-05-23T05:47:17.935228+00:00",
+      "analysis": {
+        "targetAudience": "关注大脑健康、希望了解自身认知状态的上班族和知识工作者",
+        "useCases": [
+          "每天被动监测大脑认知状态",
+          "追踪注意力和疲劳度变化趋势",
+          "评估睡眠质量对认知的影响",
+          "发现不良用脑习惯并改善",
+          "长期跟踪认知健康变化"
+        ],
+        "designIntent": "像智能手表监测身体一样监测大脑。通过手机触摸行为这种零成本数据源，让每个人都能了解自己的大脑状态。",
+        "problemSolved": "传统脑健康监测需要专业设备和医疗场景。Tacet 用手机触摸行为作为代理指标，实现日常化、无感知的认知健康追踪。",
+        "score": 8,
+        "scoreReason": "技术路线独特：用手机触摸节奏推断认知状态，无需额外硬件。被动监测设计降低使用门槛，适合长期追踪。",
+        "competitors": [
+          {
+            "name": "NeuroNation",
+            "url": "https://neuronation.com",
+            "comparison": "NeuroNation 侧重认知训练游戏，Tacet 侧重被动监测和状态追踪"
+          },
+          {
+            "name": "Endel",
+            "url": "https://endel.io",
+            "comparison": "Endel 用 AI 生成个性化声音辅助专注，Tacet 直接监测大脑状态变化"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1153101",
+      "name": "Shroomie",
+      "slug": "shroomie",
+      "description": "AI-powered news app that makes reading fun and habit-forming. Bite-sized interactive stories, and a mushroom garden that grows as you read daily.",
+      "url": "http://shroomie.app/",
+      "homepage": "http://shroomie.app/",
+      "type": "app",
+      "appStoreName": "Shroomie",
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI新闻",
+        "游戏化",
+        "阅读习惯",
+        "碎片化阅读"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1153101?app_id=339",
+      "firstSeen": "2026-05-23T05:47:17.935228+00:00",
+      "analysis": {
+        "targetAudience": "想了解时事但觉得传统新闻太枯燥的年轻用户",
+        "useCases": [
+          "每天花 5 分钟浏览 AI 精选的趣味新闻摘要",
+          "通过蘑菇花园游戏化机制养成阅读习惯",
+          "互动式阅读体验（不仅仅是看文字）",
+          "获取个性化新闻推荐",
+          "利用碎片时间高效获取信息"
+        ],
+        "designIntent": "把新闻阅读从义务变成乐趣。AI 负责提炼重点，游戏化机制负责坚持，让获取信息不再痛苦。",
+        "problemSolved": "传统新闻应用信息过载、内容冗长，年轻人缺乏阅读动力。Shroomie 通过 AI 摘要加游戏化设计，降低了新闻消费的门槛。",
+        "score": 8,
+        "scoreReason": "游戏化加 AI 摘要的组合很有创意，蘑菇花园机制增加趣味性和留存。适合碎片化阅读场景。",
+        "competitors": [
+          {
+            "name": "Apple News",
+            "url": "https://apple.com/apple-news",
+            "comparison": "Apple News 内容全面但缺乏趣味性设计，信息过载问题未解决"
+          },
+          {
+            "name": "Artifact",
+            "url": "https://artifact.news",
+            "comparison": "Artifact 侧重个性化推荐，Shroomie 更强调趣味性和习惯养成"
+          }
+        ]
+      }
+    }
+  ]
+}

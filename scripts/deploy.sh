@@ -27,4 +27,4 @@ git push origin gh-pages --force
 
 echo ""
 echo "✅ 部署完成！"
-echo "📡 GitHub Pages: https://terranc.github.io/aI-product-daily-peport/"
+echo "📡 GitHub Pages: https://ai-daily.asdasd.vip"

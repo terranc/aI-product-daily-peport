@@ -5,8 +5,7 @@
 - 项目从 WorkBuddy 迁移而来，旧目录为 `/Users/terranc/WorkBuddy/2026-05-19-task-19`，不要修改旧目录内容。
 - 当前项目路径为 `/Volumes/EXTEND/aI-product-daily-peport`。
 - GitHub 仓库为 `terranc/aI-product-daily-peport`。
-- GitHub Pages 地址为 `https://terranc.github.io/aI-product-daily-peport/`。
-- 自定义域名历史记录为 `https://ai-daily.asdasd.vip/`。
+- GitHub Pages 地址为 `https://ai-daily.asdasd.vip`（已绑定自定义域名）。
 
 ## 功能范围
 

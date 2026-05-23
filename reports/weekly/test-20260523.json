@@ -1,0 +1,44 @@
+{
+  "productName": "We let AIs run radio stations",
+  "productSlug": "we-let-ais-run-radio-stations",
+  "analysisDate": "2026-05-23",
+  "sevenDimensionAnalysis": {
+    "problemDefinition": {
+      "painPoint": "日常效率提升",
+      "previousSolution": "人工处理",
+      "painIntensity": "高频刚需"
+    },
+    "aiIndispensability": {
+      "coreLeverage": "效率",
+      "aiRole": "核心能力",
+      "withoutAI": "无法成立"
+    },
+    "workflowEmbedding": {
+      "userJourney": "发现需求 → 日常效率提升 → 获得结果",
+      "embeddingDepth": "点状工具",
+      "switchingCost": "低"
+    },
+    "monetization": {
+      "pricingModel": "订阅制",
+      "roiLogic": "提升效率节省时间成本",
+      "payingWillingness": "明确"
+    },
+    "moatAnalysis": {
+      "dataMoat": "公开数据",
+      "workflowMoat": "较弱",
+      "networkEffect": "无",
+      "platformRisk": "高"
+    },
+    "competitivePositioning": {
+      "workflowComparison": "相比ChatGPT，AI优先设计",
+      "keyDifferentiator": "Hacker News 热度高（259分）；产品描述清晰完整；有可用产品链接",
+      "survivalNiche": "服务创业者和市场营销人员"
+    },
+    "fourQuestionsValidation": {
+      "highFrequencyNeed": true,
+      "aiIndispensable": true,
+      "workflowEmbedded": true,
+      "monetizationClear": true
+    }
+  }
+}

@@ -239,6 +239,15 @@ def generate_weekly_deep_dive(candidate, date_str=None):
             "channels": channels,
         },
         "weeklyDeepDive": {
+            # 新增：七维深度分析框架
+            "problemDefinition": generate_problem_definition(product, analysis),
+            "aiIndispensability": generate_ai_indispensability(product, analysis),
+            "workflowEmbedding": generate_workflow_embedding(product, analysis),
+            "monetization": generate_monetization(product, analysis),
+            "moatAnalysis": generate_moat_analysis(product, analysis),
+            "competitivePositioning": generate_competitive_positioning(product, analysis),
+            "fourQuestionsValidation": generate_four_questions(product, analysis),
+            # 保留原有字段作为补充
             "growthEvidence": (
                 f"首次进入每日简报已 {candidate['days_since_daily']} 天，"
                 f"最近 {RECENT_MENTION_DAYS} 天仍有 {len(recent_mentions)} 次可追踪提及。"
@@ -247,12 +256,6 @@ def generate_weekly_deep_dive(candidate, date_str=None):
                 f"近期提及主要来自 {', '.join(channels)}。"
                 if channels else "近期有持续提及，但来源渠道信息不足。"
             ),
-            "recentUpdates": "基于产品库近期 mentions 继续跟踪，尚未接入独立版本更新源。",
-            "marketPosition": (
-                f"在{', '.join(use_cases[:2])}场景中，面向{target}提供差异化能力。"
-                if use_cases else f"面向{target}，仍需要继续观察具体市场定位。"
-            ),
-            "differentiation": analysis.get("scoreReason", "差异化信息待补充。"),
             "risksAndChallenges": generate_risks(product),
             "outlook": generate_outlook(product, analysis),
         },
@@ -263,6 +266,210 @@ def generate_weekly_deep_dive(candidate, date_str=None):
         "generatedAt": datetime.now(timezone.utc).isoformat(),
         "productCount": 1,
         "products": [report_product],
+    }
+
+
+def generate_problem_definition(product, analysis):
+    """生成问题定义维度"""
+    use_cases = analysis.get("useCases", [])
+    target = analysis.get("targetAudience", "")
+    description = product.get("description", "")
+
+    # 痛点陈述
+    pain_point = use_cases[0] if use_cases else description[:100] if description else "待补充"
+
+    # 原有方案推断
+    previous_solution = "人工处理" if "AI" in product.get("name", "") else "传统工具"
+
+    # 痛感强度判断（基于评分和使用频率）
+    score = analysis.get("score", 5)
+    pain_intensity = "高频刚需" if score >= 7 else "低频痒点"
+
+    return {
+        "painPoint": pain_point,
+        "previousSolution": previous_solution,
+        "painIntensity": pain_intensity
+    }
+
+
+def generate_ai_indispensability(product, analysis):
+    """生成AI不可替代性维度"""
+    tags = product.get("tags", [])
+    name = product.get("name", "")
+    description = product.get("description", "")
+
+    # 核心杠杆判断
+    core_leverage = "效率"
+    if "分析" in description or "洞察" in description:
+        core_leverage = "体验"
+    elif "成本" in description:
+        core_leverage = "成本"
+    elif "合规" in description:
+        core_leverage = "合规"
+
+    # AI角色判断
+    ai_role = "核心能力"
+    if "ChatGPT" in tags or "Claude" in tags:
+        ai_role = "核心能力"
+    elif "AI" in name:
+        ai_role = "核心能力"
+
+    # 反事实验证
+    without_ai = "无法成立" if ai_role == "核心能力" else "仍可运作"
+
+    return {
+        "coreLeverage": core_leverage,
+        "aiRole": ai_role,
+        "withoutAI": without_ai
+    }
+
+
+def generate_workflow_embedding(product, analysis):
+    """生成工作流嵌入维度"""
+    use_cases = analysis.get("useCases", [])
+
+    # 用户旅程（简化版）
+    user_journey = "产品入口 → 核心功能 → 结果输出"
+    if len(use_cases) > 0:
+        user_journey = f"发现需求 → {use_cases[0]} → 获得结果"
+
+    # 嵌入深度判断
+    embedding_depth = "点状工具"
+    if product.get("appStoreUrl") or product.get("homepage"):
+        embedding_depth = "流程嵌入"
+
+    # 迁移成本
+    switching_cost = "低"
+    tags = product.get("tags", [])
+    if "企业" in tags or "团队" in tags:
+        switching_cost = "中"
+
+    return {
+        "userJourney": user_journey,
+        "embeddingDepth": embedding_depth,
+        "switchingCost": switching_cost
+    }
+
+
+def generate_monetization(product, analysis):
+    """生成商业化路径维度"""
+    description = product.get("description", "")
+    tags = product.get("tags", [])
+
+    # 定价模式推断
+    pricing_model = "订阅制"
+    if "开源项目" in tags:
+        pricing_model = "开源/增值服务"
+
+    # ROI逻辑
+    roi_logic = "提升效率节省时间成本"
+    if "收入" in description or "转化" in description:
+        roi_logic = "直接带来收入增长"
+
+    # 付费意愿
+    paying_willingness = "需培养"
+    score = analysis.get("score", 5)
+    if score >= 8:
+        paying_willingness = "明确"
+
+    return {
+        "pricingModel": pricing_model,
+        "roiLogic": roi_logic,
+        "payingWillingness": paying_willingness
+    }
+
+
+def generate_moat_analysis(product, analysis):
+    """生成护城河分析维度"""
+    tags = product.get("tags", [])
+    description = product.get("description", "")
+
+    # 数据壁垒
+    data_moat = "公开数据"
+    if "私有" in description or "独家" in description:
+        data_moat = "私有数据优势"
+
+    # 工作流壁垒
+    workflow_moat = "较弱"
+    if product.get("appStoreUrl"):
+        workflow_moat = "应用集成"
+
+    # 网络效应
+    network_effect = "无"
+    if "社区" in tags or "协作" in tags:
+        network_effect = "有"
+
+    # 平台风险
+    platform_risk = "高"
+    if "开源项目" in tags:
+        platform_risk = "中"
+    if "垂直" in description or "细分" in description:
+        platform_risk = "中"
+
+    return {
+        "dataMoat": data_moat,
+        "workflowMoat": workflow_moat,
+        "networkEffect": network_effect,
+        "platformRisk": platform_risk
+    }
+
+
+def generate_competitive_positioning(product, analysis):
+    """生成竞品位势对比维度"""
+    competitors = analysis.get("competitors", [])
+    use_cases = analysis.get("useCases", [])
+
+    # 工作流对比
+    workflow_comparison = "与现有工具对比待补充"
+    if competitors and len(competitors) > 0:
+        # 提取竞品名称
+        comp = competitors[0]
+        if isinstance(comp, dict):
+            comp_name = comp.get("name", "竞品")
+        else:
+            comp_name = str(comp)
+        workflow_comparison = f"相比{comp_name}，AI优先设计"
+
+    # 关键差异点
+    key_differentiator = analysis.get("scoreReason", "待分析")
+    if len(key_differentiator) > 100:
+        key_differentiator = key_differentiator[:100] + "..."
+
+    # 生存利基
+    survival_niche = "细分市场"
+    target = analysis.get("targetAudience", "")
+    if target:
+        survival_niche = f"服务{target}"
+
+    return {
+        "workflowComparison": workflow_comparison,
+        "keyDifferentiator": key_differentiator,
+        "survivalNiche": survival_niche
+    }
+
+
+def generate_four_questions(product, analysis):
+    """生成四问验证"""
+    score = analysis.get("score", 5)
+    use_cases = analysis.get("useCases", [])
+
+    # 是高频刚需吗？
+    high_frequency = score >= 6
+
+    # AI是否不可替代？
+    ai_indispensable = "AI" in product.get("name", "") or "AI" in product.get("description", "")
+
+    # 是否深度嵌入工作流？
+    workflow_embedded = product.get("appStoreUrl") is not None or len(use_cases) >= 2
+
+    # 商业化路径是否清晰？
+    monetization_clear = score >= 7
+
+    return {
+        "highFrequencyNeed": high_frequency,
+        "aiIndispensable": ai_indispensable,
+        "workflowEmbedded": workflow_embedded,
+        "monetizationClear": monetization_clear
     }
 
 
