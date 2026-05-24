@@ -1,0 +1,317 @@
+{
+  "date": "2026-05-24",
+  "generatedAt": "2026-05-24T13:48:05.908386+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "producthunt.com/r/p/1152473",
+      "name": "iPromise - 你的AI专注伙伴",
+      "slug": "ipromise-ai-focus-buddy",
+      "description": "一款基于「身体陪伴」(Body Doubling) 原理的 macOS 专注应用。它在 Mac 的刘海区域显示一个虚拟伙伴，利用「有人在旁边看着你」的心理效应帮助 ADHD 用户和远程工作者进入深度工作状态，告别拖延和分心。AI 驱动的陪伴角色会根据你的工作节奏调整互动方式。",
+      "url": "https://apps.apple.com/us/app/ipromise-your-ai-focus-buddy/id6756086425",
+      "homepage": "https://apps.apple.com/us/app/ipromise-your-ai-focus-buddy/id6756086425",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": "https://apps.apple.com/us/app/ipromise-your-ai-focus-buddy/id6756086425",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1152473_20260524_214555.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "专注工具",
+        "ADHD友好",
+        "macOS",
+        "身体陪伴",
+        "AI陪伴"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1152473?app_id=339",
+      "firstSeen": "2026-05-24T13:48:05.908386+00:00",
+      "analysis": {
+        "targetAudience": "ADHD 患者、远程工作者、需要外部监督来保持专注的自由职业者和学生",
+        "useCases": [
+          "深度工作时开启虚拟陪伴，利用身体陪伴效应提高专注力",
+          "ADHD 用户借助外部监督机制克服启动困难和分心",
+          "番茄工作法结合 AI 陪伴角色进行时间管理",
+          "远程办公时营造「有人在旁边工作」的氛围感"
+        ],
+        "designIntent": "身体陪伴(Body Doubling)是心理学中被验证有效的 ADHD 应对策略——当有他人在场时，人们更容易保持专注。iPromise 将这一原理数字化，通过 Mac 刘海区域常驻的 AI 虚拟伙伴，让独处工作者获得「被陪伴」的心理暗示，从而降低拖延、提升执行功能。",
+        "problemSolved": "独处工作者（尤其是 ADHD 人群）常常缺乏外部结构和监督，导致拖延和注意力涣散。传统专注工具（如番茄钟）只提供时间框架，无法解决「启动困难」和「维持专注」的根本心理需求。iPromise 通过 AI 陪伴角色模拟「他人在场」效应，从心理学层面提升专注力。",
+        "tags": [
+          "专注工具",
+          "ADHD友好",
+          "macOS",
+          "身体陪伴",
+          "AI陪伴"
+        ],
+        "score": 8,
+        "scoreReason": "将成熟的心理学概念（身体陪伴）转化为数字化产品，创意独特且解决真实痛点。AI 的加入让陪伴角色能动态适配用户状态，而非静态的装饰。局限在于平台仅限 macOS，受众相对垂直。",
+        "competitors": [
+          {
+            "name": "Focusmate",
+            "url": "https://www.focusmate.com",
+            "comparison": "真人视频陪伴工作，效果更强但需要预约和社交互动，不如 iPromise 便捷无压力"
+          },
+          {
+            "name": "Forest",
+            "url": "https://www.forestapp.cc",
+            "comparison": "通过种树游戏激励专注，但缺乏身体陪伴的心理机制，更偏向游戏化激励"
+          },
+          {
+            "name": "Endel",
+            "url": "https://endel.io",
+            "comparison": "AI 生成专注音景，从听觉维度辅助专注，与 iPromise 的视觉陪伴互补而非直接竞争"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1152999",
+      "name": "JAMtime.ai - AI吉他效果器",
+      "slug": "jamtime-ai-guitar-pedal",
+      "description": "颠覆传统吉他效果器操作方式的 AI 工具。乐手只需用自然语言描述想要的音色——比如「给我一个温暖干净的清音，带一点复古弹簧混响」——AI 便会自动调节出对应的效果参数。支持 VST/AU 插件格式，可集成到任何主流 DAW 中。",
+      "url": "https://jamtime.ai",
+      "homepage": "https://jamtime.ai",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1152999_20260524_214602.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI音乐",
+        "吉他效果器",
+        "音频处理",
+        "自然语言",
+        "音乐创作"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1152999?app_id=339",
+      "firstSeen": "2026-05-24T13:48:05.908386+00:00",
+      "analysis": {
+        "targetAudience": "吉他手、音乐制作人、音频工程师，尤其是对复杂效果器参数调节感到头疼的音乐创作者",
+        "useCases": [
+          "用自然语言描述想要的吉他音色，AI 自动配置效果链和参数",
+          "快速尝试不同音色风格，加速音乐创作和录音流程",
+          "作为 VST/AU 插件在 DAW 中直接使用，无缝融入现有工作流",
+          "学习和探索效果器参数组合，理解不同效果链对音色的影响"
+        ],
+        "designIntent": "传统吉他效果器需要音乐人花大量时间扭旋钮、调参数才能找到理想音色，门槛高、耗时长。JAMtime.ai 的设计初衷是让音色设计回归「音乐性」而非「技术性」——你只需要描述想要的感觉，AI 帮你完成信号处理链的配置。",
+        "problemSolved": "音色设计是音乐制作中最耗时但最关键的环节之一。新手面对数百个参数无从下手，老手也需要反复试错。JAMtime.ai 通过自然语言→音频信号处理的 AI 映射，将音色设计从「技术操作」变为「创意描述」，大幅降低门槛并加速创作流程。",
+        "tags": [
+          "AI音乐",
+          "吉他效果器",
+          "音频处理",
+          "自然语言",
+          "音乐创作"
+        ],
+        "score": 8,
+        "scoreReason": "AI 与音乐创作的结合点选得非常精准——效果器调参是音乐人公认的痛点。自然语言到 DSP 参数的映射技术含量高，实用性强。局限在于目前专注吉他效果器，未来可扩展到更多乐器和音频处理场景。",
+        "competitors": [
+          {
+            "name": "Neural DSP",
+            "url": "https://neuraldsp.com",
+            "comparison": "AI 建模的吉他音箱模拟，音质出色但需要手动调节参数，缺乏自然语言交互"
+          },
+          {
+            "name": "ToneX",
+            "url": "https://www.ikmultimedia.com/products/tonex",
+            "comparison": "AI 驱动的音色捕捉和建模，功能强大但操作流程仍偏技术化"
+          },
+          {
+            "name": "Guitar Rig 7",
+            "url": "https://www.native-instruments.com/en/products/komplete/guitar/guitar-rig-7",
+            "comparison": "老牌吉他效果软件，效果库庞大但不具备 AI 辅助音色设计能力"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1152985",
+      "name": "Nugget AI - 客户访谈秒变产品路线图",
+      "slug": "nugget-ai-customer-interviews-to-roadmap",
+      "description": "面向产品经理的 AI 客户研究工具。录制或上传客户访谈后，Nugget AI 自动转录、提取痛点和功能需求，聚合主题并自动生成 PRD（产品需求文档）。支持实时转录，让 PM 从繁琐的访谈整理中解放出来，专注于洞察和决策。",
+      "url": "https://nggt.ai",
+      "homepage": "https://nggt.ai",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1152985_20260524_214554.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "产品管理",
+        "客户研究",
+        "AI分析",
+        "PRD生成",
+        "用户洞察"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1152985?app_id=339",
+      "firstSeen": "2026-05-24T13:48:05.908386+00:00",
+      "analysis": {
+        "targetAudience": "产品经理、创业者、用户体验研究员，以及任何需要从客户访谈中提取可执行洞察的产品团队",
+        "useCases": [
+          "录制客户访谈后自动转写、提取痛点和功能需求",
+          "跨多个访谈聚合主题，发现高频需求和用户模式",
+          "基于访谈证据自动生成 PRD，缩短从研究到开发的周期",
+          "实时转录功能支持远程访谈，边聊边出洞察"
+        ],
+        "designIntent": "产品团队最大的时间黑洞之一是将客户访谈转化为可执行的产品决策——手动整理录音、标注要点、归纳主题通常需要数小时。Nugget AI 的设计初衷是将这一流程自动化，让 PM 把时间花在「理解用户」而非「整理录音」上，并确保每个产品决策都有用户证据支撑。",
+        "problemSolved": "客户访谈后整理录音和归纳洞察是 PM 最耗时的重复性工作，且人工整理容易遗漏关键信息。Nugget AI 通过实时转录 + AI 分析，将这一流程从数小时缩短到几分钟，同时通过自动聚合确保不遗漏重要用户信号。",
+        "tags": [
+          "产品管理",
+          "客户研究",
+          "AI分析",
+          "PRD生成",
+          "用户洞察"
+        ],
+        "score": 8,
+        "scoreReason": "精准切入 PM 工作流中的高频痛点（访谈整理）。从转录→分析→聚合→PRD 的完整链路设计合理。$19/月起价对独立开发者和小团队友好。局限在于依赖访谈质量，且需与现有产品工具链集成。",
+        "competitors": [
+          {
+            "name": "Dovetail",
+            "url": "https://dovetail.com",
+            "comparison": "老牌用户研究分析平台，功能全面但偏重企业级，学习曲线较陡，AI 功能为后期添加"
+          },
+          {
+            "name": "Condens",
+            "url": "https://condens.io",
+            "comparison": "用户研究分析库，擅长跨研究项目的数据组织，但缺少端到端的 PRD 生成能力"
+          },
+          {
+            "name": "Otter.ai",
+            "url": "https://otter.ai",
+            "comparison": "通用会议转录工具，转录能力强但缺乏产品管理领域的垂直分析功能"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1138517",
+      "name": "Prosed - 内容档案一键成书",
+      "slug": "prosed-content-to-book",
+      "description": "将创作者多年的 Newsletter、播客、社交媒体帖子、课程等内容自动组装为可出版的书籍手稿。Prosed 的 Inkwell 引擎分析你的写作风格和声音，将分散的内容碎片重构成结构完整的书稿，保留你的个人风格。",
+      "url": "https://tryprosed.com",
+      "homepage": "https://tryprosed.com",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1138517_20260524_214602.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "内容创作",
+        "AI出版",
+        "知识管理",
+        "内容重组",
+        "个人品牌"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1138517?app_id=339",
+      "firstSeen": "2026-05-24T13:48:05.908386+00:00",
+      "analysis": {
+        "targetAudience": "长期产出内容但从未整理成书的创作者、博主、播客主播、讲师和内容营销人员",
+        "useCases": [
+          "将多年的 Newsletter 文章自动重组为书籍手稿",
+          "播客内容转文字后整合成主题性书籍",
+          "社交媒体帖子按主题聚类后形成结构化内容",
+          "在线课程讲义转化为可出版的教学书籍"
+        ],
+        "designIntent": "许多创作者积累了数年甚至十数年的优质内容，分散在 Newsletter、博客、播客等不同平台，但从未有时间将它们整理成书。Prosed 的设计初衷是解决「书已经在你的内容里，你只是没时间组装它」这个痛点——通过 AI 分析你的写作风格和内容主题，自动完成从碎片到书稿的重构。",
+        "problemSolved": "将多年分散内容整理成书需要大量的人工编辑和结构化工作，许多创作者因此放弃了出书的想法。Prosed 通过 AI 驱动的风格分析和内容重组，将这一过程自动化，同时保留创作者的独特声音，让「出书」从数月工程变为几天内可完成的流程。",
+        "tags": [
+          "内容创作",
+          "AI出版",
+          "知识管理",
+          "内容重组",
+          "个人品牌"
+        ],
+        "score": 8,
+        "scoreReason": "独特的产品定位填补了「内容创作者→作者」的转化空白。Inkwell 风格分析引擎让重组后的书稿保持个人声音是关键差异化。市场空间大——每个长期创作者都是潜在用户。局限在于最终书稿仍需人工润色，且出版渠道整合待完善。",
+        "competitors": [
+          {
+            "name": "Sudowrite",
+            "url": "https://www.sudowrite.com",
+            "comparison": "AI 小说写作助手，面向创意写作而非内容重组，侧重点不同"
+          },
+          {
+            "name": "Jasper",
+            "url": "https://www.jasper.ai",
+            "comparison": "通用 AI 内容生成平台，可辅助写书但缺乏内容档案扫描和重组能力"
+          },
+          {
+            "name": "Descript",
+            "url": "https://www.descript.com",
+            "comparison": "音视频编辑转文字工具，可提供原始素材但无法自动组装成书稿结构"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1152523",
+      "name": "motionvid.ai - AI动态视频编辑器",
+      "slug": "motionvid-ai-video-editor",
+      "description": "AI 驱动的动态图形和视频生成平台。无需 After Effects 技能，只需输入文字描述即可在几分钟内生成带有旁白和配乐的专业动态视频。内置海量横竖版模板，适合社交媒体营销、产品演示和品牌宣传。",
+      "url": "https://motionvid.ai",
+      "homepage": "https://motionvid.ai",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1152523_20260524_214610.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "视频生成",
+        "动态图形",
+        "AI创作",
+        "社交媒体",
+        "营销工具"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1152523?app_id=339",
+      "firstSeen": "2026-05-24T13:48:05.908386+00:00",
+      "analysis": {
+        "targetAudience": "社交媒体营销人员、内容创作者、中小企业主，以及任何需要快速制作专业动态视频但缺乏设计技能的用户",
+        "useCases": [
+          "输入产品描述自动生成社交媒体推广视频",
+          "快速制作品牌宣传片和产品演示动画",
+          "为博客或 Newsletter 内容创建配套视频",
+          "批量生成不同尺寸和格式的广告素材用于多渠道投放"
+        ],
+        "designIntent": "专业动态图形设计（Motion Graphics）长期被 After Effects 等复杂工具垄断，学习曲线陡峭、制作周期长。motionvid.ai 的设计初衷是让任何人都能「描述即所得」——通过自然语言描述创意想法，AI 在几分钟内生成媲美专业水准的动态视频，让视觉内容创作回归创意本身而非技术操作。",
+        "problemSolved": "中小企业和独立创作者需要专业视频内容来吸引受众，但雇佣设计师或自学 After Effects 的成本和时间投入过高。motionvid.ai 将动态视频制作从「专业设计技能」民主化为「文字描述」，大幅降低高质量视频内容的制作门槛和成本。",
+        "tags": [
+          "视频生成",
+          "动态图形",
+          "AI创作",
+          "社交媒体",
+          "营销工具"
+        ],
+        "score": 7,
+        "scoreReason": "AI 视频生成赛道竞争激烈，但 motionvid.ai 专注「动态图形」这一细分领域，与 Runway、Pika 等形成差异化。模板驱动的方案适合商业场景。评分 7 是因为赛道已有多个强力竞争者，差异化优势需要时间验证。",
+        "competitors": [
+          {
+            "name": "Runway",
+            "url": "https://runwayml.com",
+            "comparison": "AI 视频生成先驱，功能更全面（含 Gen-4 视频模型），但偏向影视级创作而非商业模板"
+          },
+          {
+            "name": "Synthesia",
+            "url": "https://www.synthesia.io",
+            "comparison": "AI 数字人视频生成，专注虚拟主播和企业培训场景，而非动态图形设计"
+          },
+          {
+            "name": "Canva",
+            "url": "https://www.canva.com",
+            "comparison": "全能设计平台，视频编辑功能不断增强，但动态图形能力仍偏基础"
+          }
+        ]
+      }
+    }
+  ]
+}
