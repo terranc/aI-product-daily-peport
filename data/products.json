@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-05-25T10:21:23.828788+00:00",
+  "lastUpdated": "2026-05-25T10:28:05.442431",
   "products": [
     {
       "id": "dafa9686fbe1",
@@ -4568,6 +4568,336 @@
       "screenshotUrl": "assets/screenshots/unknown_20260525_181941.png",
       "appStoreScreenshots": [],
       "rawData": {}
+    },
+    {
+      "id": "producthunt.com/r/p/1146582",
+      "name": "Runway Agent",
+      "nameZh": "Runway Agent - 对话式 AI 视频创作代理",
+      "slug": "runway-agent",
+      "description": "Runway Agent 是一个对话式 AI 视频创作工具，你只需要用文字描述你想要的视频效果，它就能自动生成带有剪辑、配乐、音效和字幕的完整视频。无需任何视频编辑技能，像聊天一样做视频。",
+      "url": "https://runwayml.com",
+      "homepage": "https://runwayml.com",
+      "type": "saas",
+      "tags": [
+        "AI视频创作",
+        "对话式生成",
+        "视频编辑",
+        "内容创作",
+        "Runway"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "firstSeen": "2026-05-25T10:28:05.442431",
+      "cooldownExpiresAt": "2026-06-08T10:28:05.442431",
+      "metrics": {
+        "featuredInDaily": [
+          "2026-05-25"
+        ],
+        "featuredInWeekly": []
+      },
+      "analysis": {
+        "targetAudience": "社交媒体内容创作者、营销人员、独立创业者，以及所有想制作视频但没有剪辑技能的人",
+        "useCases": [
+          "用一句话描述需求，快速生成产品宣传短视频",
+          "为社交媒体（TikTok/Instagram）批量制作短内容",
+          "将博客文章或文字内容一键转为视频",
+          "制作带有专业配音和字幕的品牌广告片",
+          "快速迭代创意概念的视频原型"
+        ],
+        "designIntent": "Runway 希望让视频创作像聊天一样简单。传统视频制作需要掌握剪辑软件、配乐、字幕等多个工具，Runway Agent 将这些全部整合到一个对话界面中，用户只需描述需求，AI 完成全部制作流程。这是对视频创作民主化的一次尝试。",
+        "problemSolved": "解决三个核心痛点：1）视频制作门槛高，非专业人士难以制作高质量视频；2）从创意到成品周期长，传统流程需要数天甚至数周；3）多工具切换繁琐，剪辑、配音、字幕需要不同软件协作。Runway Agent 把整个过程压缩到一次对话中。",
+        "tags": [
+          "AI视频创作",
+          "对话式生成",
+          "视频编辑",
+          "内容创作",
+          "Runway"
+        ],
+        "score": 9,
+        "scoreReason": "Runway 是 AI 视频领域的头部玩家，Agent 产品标志着从「工具辅助」到「AI 代理」的范式转变。产品由专业团队打磨，生成质量高，且面向最广泛的内容创作者群体。唯一的扣分点是定价可能对普通用户偏高。",
+        "competitors": [
+          {
+            "name": "Pika",
+            "url": "https://pika.art",
+            "comparison": "Pika 更聚焦于单镜头 AI 视频生成，Runway Agent 则覆盖从剪辑到成品的完整流程，定位更接近「视频制作代理」而非「视频生成工具」"
+          },
+          {
+            "name": "Synthesia",
+            "url": "https://www.synthesia.io",
+            "comparison": "Synthesia 专注 AI 数字人播报视频，Runway Agent 的创作范围更广，支持多种视频风格和类型"
+          },
+          {
+            "name": "剪映/CapCut",
+            "url": "https://www.capcut.com",
+            "comparison": "剪映是传统视频编辑工具，虽然有 AI 辅助功能，但本质上仍需手动操作；Runway Agent 是完全代理式的创作体验"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1153461",
+      "name": "Orchestria",
+      "nameZh": "Orchestria - AI 音乐引擎，像指挥家一样控制每一轨",
+      "slug": "orchestria",
+      "description": "Orchestria 是全球首个支持分轨控制的 AI 音乐引擎。不同于其他「黑箱」式 AI 音乐生成器，它把音乐拆分成独立的音轨（鼓、贝斯、旋律、和声等），让你用自然语言单独控制每一轨的风格和效果，100% 免版税商用。",
+      "url": "https://www.orchestria.tech",
+      "homepage": "https://www.orchestria.tech",
+      "type": "saas",
+      "tags": [
+        "AI音乐创作",
+        "分轨控制",
+        "免版税音乐",
+        "音乐制作",
+        "创意工具"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "firstSeen": "2026-05-25T10:28:05.442431",
+      "cooldownExpiresAt": "2026-06-08T10:28:05.442431",
+      "metrics": {
+        "featuredInDaily": [
+          "2026-05-25"
+        ],
+        "featuredInWeekly": []
+      },
+      "analysis": {
+        "targetAudience": "独立音乐人、视频创作者、播客制作人、游戏开发者，以及所有需要原创背景音乐但缺乏音乐制作能力的人",
+        "useCases": [
+          "为 YouTube/B站视频创作原创背景音乐",
+          "独立音乐人快速生成编曲草稿，然后精细调整",
+          "游戏开发者生成不同场景的游戏配乐",
+          "播客制作专属片头片尾音乐",
+          "广告公司快速产出多版本配乐方案"
+        ],
+        "designIntent": "现有 AI 音乐工具的痛点在于「不可控」——你拿到的是一个混合好的成品，无法修改其中的鼓点、贝斯线或旋律。Orchestria 的设计哲学是「AI 负责生成，人类负责指挥」，把音乐拆成独立音轨，让创作者像指挥家一样精准控制每个声部。",
+        "problemSolved": "1）传统 AI 音乐工具是黑箱，生成后无法修改细节；2）请音乐人制作原创音乐成本高、周期长；3）版权音乐库风格雷同，缺乏独特性。Orchestria 提供了可控、可商用、可精细调整的 AI 音乐创作方案。",
+        "tags": [
+          "AI音乐创作",
+          "分轨控制",
+          "免版税音乐",
+          "音乐制作",
+          "创意工具"
+        ],
+        "score": 8,
+        "scoreReason": "分轨控制是 AI 音乐领域的真正创新，解决了「黑箱生成」的核心痛点。100% 免版税商用对内容创作者极具吸引力。扣分点在于目前音乐生成质量相比专业制作仍有差距，且需要一定的音乐理解力才能发挥全部潜力。",
+        "competitors": [
+          {
+            "name": "Suno",
+            "url": "https://suno.com",
+            "comparison": "Suno 是目前最流行的 AI 音乐生成器，但生成的是混合音轨，无法单独调整；Orchestria 的分轨控制是其核心差异"
+          },
+          {
+            "name": "Udio",
+            "url": "https://www.udio.com",
+            "comparison": "Udio 同样是一键式音乐生成，风格多样但缺乏精细控制；Orchestria 面向的是「需要控制权」的专业用户群体"
+          },
+          {
+            "name": "Epidemic Sound",
+            "url": "https://www.epidemicsound.com",
+            "comparison": "Epidemic Sound 是版权音乐库，提供的是预制的现成音乐；Orchestria 则是生成独一无二的原创音乐"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1149391",
+      "name": "Our Stories",
+      "nameZh": "Our Stories - AI 多语言睡前故事，连接双语家庭的亲子时光",
+      "slug": "our-stories",
+      "description": "Our Stories 是一款面向双语/多语言家庭的 AI 故事创作工具。父母可以用母语为孩子生成个性化睡前故事，即使远方的祖父母也能用他们的语言录制朗读，让孩子在多种语言环境中成长，感受跨越距离的爱。",
+      "url": "https://readourstories.org",
+      "homepage": "https://readourstories.org",
+      "type": "webapp",
+      "tags": [
+        "AI故事创作",
+        "双语育儿",
+        "家庭教育",
+        "亲子互动",
+        "多语言"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "firstSeen": "2026-05-25T10:28:05.442431",
+      "cooldownExpiresAt": "2026-06-08T10:28:05.442431",
+      "metrics": {
+        "featuredInDaily": [
+          "2026-05-25"
+        ],
+        "featuredInWeekly": []
+      },
+      "analysis": {
+        "targetAudience": "海外华人家庭、跨国婚姻家庭、移民家庭，以及所有希望孩子保留家庭语言的父母",
+        "useCases": [
+          "父母用母语为孩子生成个性化睡前故事",
+          "远方的祖父母录制用家乡话朗读的故事",
+          "帮助孩子在居住国语言和家庭语言之间保持平衡",
+          "将家庭旅行、生日等日常经历编成双语故事",
+          "作为双语学校的辅助教学工具"
+        ],
+        "designIntent": "创始团队的洞察是：双语家庭的父母最大的焦虑不是「孩子会不会说当地语言」，而是「孩子会不会忘记我们的语言」。Our Stories 的设计初衷是用 AI 故事创作降低「保持家庭语言」的门槛，同时通过远程朗读功能让分隔两地的亲人也能参与孩子的成长。",
+        "problemSolved": "1）双语家庭缺乏母语儿童内容资源，尤其在非主流语言中；2）远方的祖父母无法参与孩子的睡前仪式；3）传统双语教育工具枯燥，缺乏情感连接。Our Stories 通过 AI 个性化故事解决了内容匮乏问题，通过远程朗读解决了距离问题。",
+        "tags": [
+          "AI故事创作",
+          "双语育儿",
+          "家庭教育",
+          "亲子互动",
+          "多语言"
+        ],
+        "score": 8,
+        "scoreReason": "切入了一个被忽视但真实存在的细分市场——双语家庭的语言传承焦虑。产品设计充满情感温度，AI 技术服务于人文关怀。扣分点在于目标用户群体相对小众，且需要持续的内容质量把控来保持家长信任。",
+        "competitors": [
+          {
+            "name": "Sleepytale",
+            "url": "https://www.sleepytale.com",
+            "comparison": "Sleepytale 也是 AI 儿童故事工具，支持多语言和多种朗读声音，但更偏重通用睡前故事；Our Stories 的核心差异化在于「双语家庭」场景和「远程朗读」功能"
+          },
+          {
+            "name": "Unuhi",
+            "url": "https://apps.apple.com/app/id1394567278",
+            "comparison": "Unuhi 提供预设的双语电子书，内容是固定的而非个性化生成；Our Stories 的 AI 生成能力提供了无限的内容可能性"
+          },
+          {
+            "name": "LOTE4Kids",
+            "url": "https://lote4kids.com",
+            "comparison": "LOTE4Kids 是面向图书馆的多语言儿童内容平台，偏机构服务；Our Stories 更面向家庭和个体用户"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1123370",
+      "name": "Bulkmark",
+      "nameZh": "Bulkmark - 把 Twitter 书签变成你的 AI 知识库",
+      "slug": "bulkmark",
+      "description": "Bulkmark 是一款 AI 驱动的 Twitter/X 书签管理工具。它会自动同步你收藏的推文、智能分类打标签、生成每周知识摘要邮件，把那个「收藏了就等于看了」的书签坟场变成真正可检索、可利用的个人知识库。",
+      "url": "https://bulkmark.io",
+      "homepage": "https://bulkmark.io",
+      "type": "saas",
+      "tags": [
+        "书签管理",
+        "知识管理",
+        "Twitter工具",
+        "AI摘要",
+        "信息整理"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "firstSeen": "2026-05-25T10:28:05.442431",
+      "cooldownExpiresAt": "2026-06-08T10:28:05.442431",
+      "metrics": {
+        "featuredInDaily": [
+          "2026-05-25"
+        ],
+        "featuredInWeekly": []
+      },
+      "analysis": {
+        "targetAudience": "重度 Twitter/X 用户、知识工作者、研究人员、创业者，以及所有「收藏了但从不回头看」的人",
+        "useCases": [
+          "自动整理数百条收藏的推文，按主题分类",
+          "每周收到 AI 生成的收藏精华摘要邮件",
+          "通过全文搜索快速找到半年前收藏的那条推文",
+          "将收藏的行业洞察转化为结构化的知识笔记",
+          "跟踪某个领域的 KOL 收藏动态，发现优质内容"
+        ],
+        "designIntent": "Twitter 书签功能设计上是一个「收集」工具而非「消费」工具，导致大量有价值的内容被收藏后永不见天日。Bulkmark 的设计初衷是将「被动收藏」转变为「主动知识管理」，让书签从信息的终点变成知识的起点。",
+        "problemSolved": "1）Twitter 书签缺乏组织和搜索功能，收藏越多越难找回；2）有价值的推文信息被淹没在时间线中，没有转化为长期知识；3）用户缺乏一个轻量级的「稍后阅读+知识整理」工作流。Bulkmark 通过 AI 自动分类和摘要解决了这些问题。",
+        "tags": [
+          "书签管理",
+          "知识管理",
+          "Twitter工具",
+          "AI摘要",
+          "信息整理"
+        ],
+        "score": 7,
+        "scoreReason": "精准击中 Twitter 重度用户的真实痛点，「收藏即遗忘」是普遍现象。AI 自动分类和摘要的功能设计合理，周报邮件是一个聪明的触达方式。扣分点在于功能相对单一，护城河较浅，大厂（如 Readwise、Notion）可以快速跟进。",
+        "competitors": [
+          {
+            "name": "Readwise Reader",
+            "url": "https://readwise.io/read",
+            "comparison": "Readwise 是更全面的阅读和标注管理工具，覆盖文章、书籍、推文等多种来源；Bulkmark 专注于 Twitter 书签这一细分场景，更轻量、更专注"
+          },
+          {
+            "name": "Dewey",
+            "url": "https://getdewey.co",
+            "comparison": "Dewey 也是 Twitter 书签管理工具，功能更简洁；Bulkmark 的 AI 摘要和每周邮件功能提供了更深层的知识管理能力"
+          },
+          {
+            "name": "Raindrop.io",
+            "url": "https://raindrop.io",
+            "comparison": "Raindrop 是通用网页书签管理工具，覆盖全平台但缺乏 AI 智能分析；Bulkmark 的 AI 能力让书签从「存储」升级为「理解」"
+          }
+        ]
+      }
+    },
+    {
+      "id": "v2ex.com/t/1215376",
+      "name": "知多多",
+      "nameZh": "知多多 - 40+ 儿童趣味学习小游戏合集",
+      "slug": "zhiduo",
+      "description": "知多多是一个面向儿童的趣味学习工具合集网站，包含 40+ 个独立小游戏和学习工具，覆盖语言文字、数学、逻辑思维、记忆专注、棋类、音乐与创意等方向。无广告、打开即玩、不逐关解锁，让孩子在游戏中学习。",
+      "url": "https://zhiduo.cc/zh",
+      "homepage": "https://zhiduo.cc/zh",
+      "type": "webapp",
+      "tags": [
+        "儿童教育",
+        "趣味学习",
+        "小游戏",
+        "中文教育",
+        "家长工具"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "firstSeen": "2026-05-25T10:28:05.442431",
+      "cooldownExpiresAt": "2026-06-08T10:28:05.442431",
+      "metrics": {
+        "featuredInDaily": [
+          "2026-05-25"
+        ],
+        "featuredInWeekly": []
+      },
+      "analysis": {
+        "targetAudience": "3-12 岁儿童及其家长，尤其是寻找高质量、无广告的在线学习资源的中国家庭",
+        "useCases": [
+          "孩子在周末或假期通过游戏练习识字和拼音",
+          "通过逻辑思维游戏培养孩子的推理能力",
+          "利用记忆游戏帮助孩子提升专注力",
+          "用棋类游戏进行亲子互动",
+          "音乐启蒙，通过简单的乐器模拟培养乐感"
+        ],
+        "designIntent": "开发者是一位家长，设计了这些自家孩子爱玩的内容后决定分享给更多人。设计初衷是「让孩子在玩中学」，每个小工具都讲究即开即用、无广告打扰、不依赖复杂的引导。",
+        "problemSolved": "1）国内儿童在线学习资源要么收费昂贵，要么广告泛滥；2）大多数学习 App 需要下载安装，门槛高；3）传统学习工具枯燥，难以吸引孩子主动使用。知多多通过网页即开即用的方式降低了使用门槛，40+ 游戏覆盖多元学习需求。",
+        "tags": [
+          "儿童教育",
+          "趣味学习",
+          "小游戏",
+          "中文教育",
+          "家长工具"
+        ],
+        "score": 7,
+        "scoreReason": "产品完成度高，40+ 游戏种类丰富，无广告、免费开放的设计体现了开发者的诚意。作为中文儿童教育工具填补了一定的市场空白。扣分点在于部分游戏的深度和可玩性有待提升，且目前缺乏 AI 个性化学习路径的智能推荐。",
+        "competitors": [
+          {
+            "name": "洪恩识字",
+            "url": "https://www.ihuman.com",
+            "comparison": "洪恩是商业化儿童教育 App，内容精良但需付费订阅；知多多免费且覆盖面更广，但专业性不如洪恩"
+          },
+          {
+            "name": "Khan Academy Kids",
+            "url": "https://learn.khanacademy.org/khan-academy-kids",
+            "comparison": "可汗学院儿童版是英文为主的免费学习平台，课程体系完整；知多多更侧重中文场景和趣味游戏体验"
+          },
+          {
+            "name": "宝宝巴士",
+            "url": "https://www.babybus.com",
+            "comparison": "宝宝巴士是国内最大的儿童教育 App 开发商，内容海量；知多多的差异化在于网页端即开即用和独立开发者的小而美体验"
+          }
+        ]
+      }
     }
   ],
   "tracking": {
