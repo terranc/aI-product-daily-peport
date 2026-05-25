@@ -124,3 +124,23 @@
 - JSON 报告务必用 `json.dump()` 生成，不要手写包含中文引号的 JSON 字符串
 - drea App Store 搜索有可能命中同名游戏，需注意核验应用名称匹配
 - Twitter 推文页面（x.com）经常返回加载错误，需通过 WebSearch 找到产品实际官网
+
+---
+
+## 2026-05-24 21:40
+
+- **状态**：✅ 成功
+- **抓取数**：162 个候选产品（Twitter 50 + Product Hunt 50 + V2EX 37 + HackerNews 25，Reddit 0）
+- **去重后**：158 个（数据库 59 个冷却期内产品中 4 个命中：Reader Alive, Faby, Nota, Shroomie）
+- **过滤后**：精选 5 个面向用户的产品（大量 Twitter 日文广告、技术讨论帖、Agent 框架被排除）
+- **精选 TOP 5**：
+  1. iPromise - 你的AI专注伙伴/AI身体陪伴Mac应用（评分 8）
+  2. JAMtime.ai - AI吉他效果器/自然语言调音（评分 8）
+  3. Nugget AI - 客户访谈秒变产品路线图（评分 8）
+  4. Prosed - 内容档案一键成书（评分 8）
+  5. motionvid.ai - AI动态视频编辑器（评分 7）
+- **截图**：5 张网站截图全部成功
+- **部署**：main + gh-pages 推送成功
+- **踩坑**：
+  - Product Hunt 全站 Cloudflare 保护，WebFetch 无法直接抓取产品详情，改用 WebSearch + 第三方平台获取产品信息
+  - raw-candidates 的 sourceChannel 字段在查询时需要取 `sourceChannel` 和 `source` 两个可能的字段名

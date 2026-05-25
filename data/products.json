@@ -2745,7 +2745,7 @@
         "weeklyViews": 0,
         "growthRate": 0,
         "featuredInDaily": true,
-        "featuredInWeekly": false
+        "featuredInWeekly": true
       },
       "screenshotUrl": null,
       "appStoreScreenshots": [],
