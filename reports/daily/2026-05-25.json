@@ -1,0 +1,312 @@
+{
+  "date": "2026-05-25",
+  "generatedAt": "2026-05-25T10:21:23.828788+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "treasury.sh",
+      "name": "Treasury - AI 个人理财助手",
+      "slug": "treasury-ai-personal-finance",
+      "description": "一款 AI 驱动的个人理财应用，支持自然语言查询财务状况、自动检测订阅浪费、追踪净资产，并提供个性化省钱建议。连接 12000+ 银行，256-bit 加密，App Store 评分 5.0。",
+      "url": "https://treasury.sh/",
+      "homepage": "https://treasury.sh/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260525_181902.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "个人理财",
+        "AI 财务助手",
+        "订阅管理",
+        "资产管理"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=48260789",
+      "firstSeen": "2026-05-25T10:21:23.828788+00:00",
+      "analysis": {
+        "targetAudience": "希望更智能管理个人财务、减少不必要开支、做更好理财决策的普通消费者",
+        "useCases": [
+          "用自然语言询问「这个月我在哪儿花得最多」",
+          "自动检测不再使用的订阅服务并提醒取消",
+          "追踪净资产变化趋势，了解财务健康状况",
+          "获取基于雇主、家庭状况和消费模式的个性化省钱建议",
+          "为旅行、购房等人生目标创建独立预算并追踪进度"
+        ],
+        "designIntent": "传统理财 App 只展示数据，Treasury 告诉你数据意味着什么以及下一步该怎么做。它把 AI 洞察融入个人财务管理的全流程，让用户不仅能看清钱去了哪里，更能获得可执行的行动建议。",
+        "problemSolved": "大多数人不知道自己每月有多少钱花在了已不再使用的订阅上，也不清楚自己的真实净资产变化趋势。Treasury 通过 AI 自然语言查询和智能分析，让财务管理从「被动看账单」变成「主动优化财务健康」。",
+        "tags": [
+          "个人理财",
+          "AI 财务助手",
+          "订阅管理",
+          "资产管理"
+        ],
+        "score": 9,
+        "scoreReason": "产品设计精良，AI 自然语言查询+智能建议的组合远超传统理财 App。5.0 评分、银行级安全、覆盖 12000+ 金融机构，是一款真正把 AI 能力融入日常场景的标杆产品。",
+        "competitors": [
+          {
+            "name": "Mint",
+            "url": "https://mint.intuit.com/",
+            "comparison": "Mint 已于 2024 年关闭，Treasury 在 AI 智能分析和自然语言交互方面远超 Mint 的能力范围"
+          },
+          {
+            "name": "Copilot Money",
+            "url": "https://copilot.money/",
+            "comparison": "Copilot 设计精美但 AI 能力较弱，Treasury 的自然语言查询和个性化建议更具实用价值"
+          },
+          {
+            "name": "YNAB",
+            "url": "https://www.ynab.com/",
+            "comparison": "YNAB 侧重预算方法论，Treasury 侧重 AI 驱动的洞察和自动化优化，理念不同"
+          }
+        ]
+      }
+    },
+    {
+      "id": "helio.im",
+      "name": "Helio - AI 原生团队工作空间",
+      "slug": "helio-ai-native-team-workspace",
+      "description": "将 AI 作为全职同事纳入团队的工作空间。AI 在同一个频道沟通、在同一块任务板领活干活、在同一流程中接受人类审核。支持 Slack/Lark/Teams 互通，集成 GitHub/Linear/Vercel 等工具。",
+      "url": "https://www.helio.im/",
+      "homepage": "https://www.helio.im/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260525_181914.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "团队协作",
+        "AI 同事",
+        "工作空间",
+        "自动化"
+      ],
+      "sourceChannels": [
+        "twitter"
+      ],
+      "sourceUrl": "https://x.com/dingyi/status/2058836256386334934",
+      "firstSeen": "2026-05-25T10:21:23.828788+00:00",
+      "analysis": {
+        "targetAudience": "追求效率提升的创业团队、一人公司、小型技术团队，希望将 AI 深度整合到日常工作流中",
+        "useCases": [
+          "AI 同事自主在任务面板领取工单并推进执行",
+          "AI 在统一频道中与人类同步汇报进展和讨论",
+          "AI 编写代码提交 diff，人类负责审核",
+          "高风险操作（如发送邮件）需人类一键审批后执行",
+          "AI 参与会议记录决策、创建后续任务"
+        ],
+        "designIntent": "不是给聊天软件加 AI 机器人，而是重新定义团队协作：AI 是第一公民，有观点、会反驳、能推进工作。它使用和人类完全相同的频道、工单、审批流程，让「与 AI 协作」像「与同事协作」一样自然。",
+        "problemSolved": "现有 AI 工具（Copilot、ChatGPT）都是「工具」模式——你需要主动提问才能获得帮助。Helio 将 AI 升级为「同事」模式——AI 主动领取任务、自主推进工作，真正释放团队生产力。",
+        "tags": [
+          "团队协作",
+          "AI 同事",
+          "工作空间",
+          "自动化"
+        ],
+        "score": 9,
+        "scoreReason": "理念超前——将 AI 从工具升级为同事是整个 AI 应用范式的重大突破。六个工作模块（频道/任务/编码/队友/邮件/会议）覆盖团队协作全流程，集成 Slack/Lark/GitHub 等主流工具，实用性强。",
+        "competitors": [
+          {
+            "name": "Notion AI",
+            "url": "https://www.notion.so/product/ai",
+            "comparison": "Notion AI 是文档内的 AI 助手，Helio 是将 AI 作为团队正式成员融入工作流，范式根本不同"
+          },
+          {
+            "name": "Linear",
+            "url": "https://linear.app/",
+            "comparison": "Linear 是优秀的项目管理工具但无 AI 同事概念，Helio 的 AI 可以像人类一样在 Linear 面板上操作工单"
+          },
+          {
+            "name": "Devin",
+            "url": "https://www.cognition.ai/",
+            "comparison": "Devin 专注 AI 编码代理，Helio 覆盖更广——AI 同事参与编码、沟通、邮件、会议等全方位工作"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1150296",
+      "name": "Freu AI - Mac 桌面自动化代理",
+      "slug": "freu-ai-mac-automation",
+      "description": "一款 Mac AI 桌面自动化代理，通过观察用户操作自动学习工作流并编译为可复用的自动化技能。支持任何桌面应用，无需编码，零运行成本，本地执行确保隐私。Product Hunt #3 当日产品。",
+      "url": "https://www.freu.ai/",
+      "homepage": "https://www.freu.ai/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260525_181922.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "桌面自动化",
+        "Mac 工具",
+        "AI 代理",
+        "工作流"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/freu-cli",
+      "firstSeen": "2026-05-25T10:21:23.828788+00:00",
+      "analysis": {
+        "targetAudience": "Mac 用户中需要频繁重复操作的办公人员、设计师、运营人员，无需编程基础",
+        "useCases": [
+          "观察用户操作一次，自动编译为可复用的自动化技能",
+          "跨应用工作流自动化（如从网页提取数据→填入 Excel→发送邮件）",
+          "用自然语言描述需求，AI 自动完成桌面操作",
+          "本地执行确保数据隐私，零云端成本",
+          "适用于 Salesforce、SAP 等企业软件的重复性操作自动化"
+        ],
+        "designIntent": "传统 RPA 工具需要编程或复杂配置，普通人用不了。Freu AI 让自动化回归直觉——你只需要做一遍，AI 看着学会，下次自动替你完成。零代码、零运行成本，把桌面自动化的门槛降到零。",
+        "problemSolved": "大量办公室工作存在重复性操作（数据录入、报表生成、跨系统搬运信息），传统自动化方案要么太贵（企业 RPA），要么太难（需编程）。Freu AI 让任何人都能用自然语言让 AI 帮自己干活。",
+        "tags": [
+          "桌面自动化",
+          "Mac 工具",
+          "AI 代理",
+          "工作流"
+        ],
+        "score": 8,
+        "scoreReason": "Product Hunt #3 当日产品（106 upvotes），概念极具吸引力。零代码+零运行成本+本地执行的组合解决了 RPA 长期存在的门槛问题。但作为 Mac 限定工具，用户群相对有限。",
+        "competitors": [
+          {
+            "name": "Bardeen",
+            "url": "https://www.bardeen.ai/",
+            "comparison": "Bardeen 是浏览器自动化工具，Freu AI 覆盖桌面全应用，范围更广"
+          },
+          {
+            "name": "UiPath",
+            "url": "https://www.uipath.com/",
+            "comparison": "UiPath 面向企业级 RPA，需专业部署，Freu AI 面向个人用户，操作门槛极低"
+          },
+          {
+            "name": "Keyboard Maestro",
+            "url": "https://www.keyboardmaestro.com/",
+            "comparison": "传统 Mac 自动化工具，功能强大但需手动配置，Freu AI 的 AI 观察学习模式更直观"
+          }
+        ]
+      }
+    },
+    {
+      "id": "voxxy.io",
+      "name": "Voxxy - macOS 语音转文字工具",
+      "slug": "voxxy-macos-voice-to-text",
+      "description": "一款极简 macOS 菜单栏语音转文字工具，按住热键说话、松开即粘贴到任意文本框。基于 Whisper 本地运行，支持 35+ 种语言，无需联网和注册，一次性付费 €8.99。",
+      "url": "https://www.voxxy.io",
+      "homepage": "https://www.voxxy.io",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260525_181933.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "语音转文字",
+        "macOS 工具",
+        "隐私保护",
+        "本地 AI"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=48260645",
+      "firstSeen": "2026-05-25T10:21:23.828788+00:00",
+      "analysis": {
+        "targetAudience": "Mac 用户中需要频繁文字输入的人群，特别是有多语言输入需求或注重隐私的用户",
+        "useCases": [
+          "在任意 Mac 应用中按住热键口述，松开自动粘贴文字",
+          "多语言场景下快速语音输入（支持中英日韩等 35+ 语言）",
+          "不想打字时用语音回复邮件、消息、文档",
+          "全离线使用，无需担心语音数据被上传到云端",
+          "作为系统听写功能的高质量替代方案"
+        ],
+        "designIntent": "Mac 自带听写功能体验一般，第三方方案大多需要联网或订阅。Voxxy 追求极致的简单和隐私——按住热键说话，松开粘贴，全程本地处理，一次性买断。",
+        "problemSolved": "Mac 上的语音输入要么体验粗糙（系统自带），要么需要联网和订阅（第三方云服务），要么不支持多语言。Voxxy 用 OpenAI Whisper + Core ML 在本地实现高质量多语言语音识别，既保护隐私又无需持续付费。",
+        "tags": [
+          "语音转文字",
+          "macOS 工具",
+          "隐私保护",
+          "本地 AI"
+        ],
+        "score": 8,
+        "scoreReason": "极简设计和强大的本地 AI 能力形成完美结合。35+ 语言、Whisper 驱动、一次性付费——解决了 Mac 语音输入长期存在的痛点。唯一的局限是需要 macOS 26+，用户群受限于最新系统。",
+        "competitors": [
+          {
+            "name": "Mac 内置听写",
+            "url": "https://support.apple.com/guide/mac-help/",
+            "comparison": "系统自带但准确度和语言支持有限，Voxxy 的 Whisper 引擎准确率更高，多语言支持更强"
+          },
+          {
+            "name": "Superwhisper",
+            "url": "https://superwhisper.com/",
+            "comparison": "功能相似的 Mac 语音工具，但采用订阅制，Voxxy 一次性付费更有吸引力"
+          },
+          {
+            "name": "Otter.ai",
+            "url": "https://otter.ai/",
+            "comparison": "云端会议转录工具，适用场景不同，Voxxy 更轻量且完全本地化"
+          }
+        ]
+      }
+    },
+    {
+      "id": "v2ex.com/t/1215297",
+      "name": "Spicy AI - 毒舌 AI 诊断工具",
+      "slug": "spicy-ai-roast-tool",
+      "description": "一款反传统的「毒舌」AI 工具，不走温柔鼓励路线，专门用犀利吐槽帮你诊断简历空洞、社交媒体自嗨和恋爱聊天中的问题。支持简历分析、X（Twitter）内容诊断、恋爱聊天军师三个场景。",
+      "url": "https://spicyai.icu",
+      "homepage": "https://spicyai.icu",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260525_181941.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 诊断",
+        "简历优化",
+        "社交媒体分析",
+        "娱乐工具"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "sourceUrl": "https://www.v2ex.com/t/1215297",
+      "firstSeen": "2026-05-25T10:21:23.828788+00:00",
+      "analysis": {
+        "targetAudience": "求职者、社交媒体创作者、在感情中困惑的年轻人——任何需要被「骂醒」的人",
+        "useCases": [
+          "上传简历 PDF/DOCX/纯文本，AI 毒舌诊断空洞、模板化问题",
+          "输入 X（Twitter）账号数据，分析内容是否在自我感动",
+          "粘贴聊天记录或上传截图，AI 分析恋爱关系中谁在上头谁在敷衍",
+          "帮助求职者发现「回去等通知」的简历风险",
+          "娱乐化地帮助用户审视自己忽视的问题"
+        ],
+        "designIntent": "市面上所有 AI 产品都在温柔鼓励、积极肯定，Spicy AI 反其道而行——用毒舌吐槽的方式让用户直面问题。作者的理念是「与其听 100 句好话，不如被一句真话骂醒」。",
+        "problemSolved": "大多数人写简历、做社交媒体内容时容易陷入自我感动而不自知。传统 AI 助手只会给出模糊的正向反馈，Spicy AI 的毒舌模式让人不得不正视真实问题——虽然方式粗暴，但反馈更有价值。",
+        "tags": [
+          "AI 诊断",
+          "简历优化",
+          "社交媒体分析",
+          "娱乐工具"
+        ],
+        "score": 7,
+        "scoreReason": "定位独特——在 AI 产品普遍「温柔」的背景下，毒舌风格就是最大的差异化。三个场景（简历/X诊断/恋爱军师）精准切中用户「不知道自己有问题」的痛点。但目前是 MVP 阶段，功能打磨和毒舌程度还有提升空间。",
+        "competitors": [
+          {
+            "name": "ChatGPT",
+            "url": "https://chat.openai.com/",
+            "comparison": "ChatGPT 默认温和鼓励，Spicy AI 刻意毒舌——同是 AI 对话，人格截然相反"
+          },
+          {
+            "name": "Resume Worded",
+            "url": "https://resumeworded.com/",
+            "comparison": "专业简历评分工具，反馈偏技术和量化，不如 Spicy AI 的毒舌风格有趣和直击痛点"
+          },
+          {
+            "name": "Teal",
+            "url": "https://www.tealhq.com/",
+            "comparison": "求职管理工具，侧重简历追踪和关键词匹配，不提供 Spicy AI 式的「骂醒」反馈"
+          }
+        ]
+      }
+    }
+  ]
+}

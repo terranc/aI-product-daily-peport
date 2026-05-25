@@ -24,8 +24,24 @@
 
 ---
 
+### 2026-05-25
+- **执行结果**：成功完成深度分析
+- **选中产品**：NitroLens - AI 战略咨询代理（从 22 个候选中选出）
+- **选择理由**：前麦肯锡+Cisco 战略顾问 Ian Chou 打造，4 个专业 AI Agent 模拟咨询团队，30+ 战略框架内置，切中"咨询民主化"赛道
+- **深度报告**：已保存至 `reports/weekly/2026-05-25.json`
+- **关键发现**：
+  - 创始人 Ian Chou 拥有真实麦肯锡+Cisco 产品战略双重背景，华科毕业
+  - 4-Agent 架构（LEAD/EVIDENCE/FRAMEWORKS/RECOMMENDATION）+ 状态机运行时 + Python 分析引擎
+  - Beta 测试 20 家公司（YC→Fortune 500），90% 满意度
+  - HN 热度极低（1 赞 0 评论），主战场在 LinkedIn
+  - 最大威胁：OpenAI+McKinsey 联盟（2026年2月），但中端市场存在巨大空白
+- **部署状态**：已标记 featuredInWeekly，已推送到 GitHub Pages
+- **GitHub Pages**：https://ai-daily.asdasd.vip
+
+---
+
 ## 技术注意事项
 
-1. **环境问题**：必须用 `/opt/homebrew/bin/python3` 和 `/opt/homebrew/bin/git` 绕过 GVM 环境劫持
-2. **数据结构**：products.json 中 `products` 数组包含所有产品，字段 `metrics.featuredInWeekly` 控制是否已周刊推荐
-3. **候选筛选**：`recommendedInDaily` + 非 `featuredInWeekly` + `score > 0`
+1. **环境问题**：必须用 `SHELL=/bin/bash` + `/opt/homebrew/bin/python3` 和 `/opt/homebrew/bin/git` 绕过 zsh GVM 钩子
+2. **数据结构**：products.json 中 `products` 数组包含所有产品，`metrics.featuredInDaily`/`metrics.featuredInWeekly` 在嵌套 metrics 对象中，`analysis.score` 在 analysis 对象中
+3. **候选筛选**：`metrics.featuredInDaily` + 非 `metrics.featuredInWeekly` + `analysis.score > 0`
