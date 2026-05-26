@@ -1157,6 +1157,10 @@ def render_weekly_detail_content(report, prd, depth=0):
         </div>
         <div class="detail-body">
           <div class="detail-main">
+            <div class="weekly-reference">
+              <span>本篇深度分析基于该产品入选每日简报后的持续跟踪。</span>
+              <a href="{source_link}" class="source-link">{icon("external")} {source_ref}</a>
+            </div>
             <div class="weekly-metric-grid">
               <div class="weekly-metric"><strong>{days_metric}</strong><span>距首次发现天数</span></div>
               <div class="weekly-metric"><strong>{mentions_metric}</strong><span>近 7 天提及</span></div>
