@@ -1062,7 +1062,14 @@ def render_weekly_value(value):
             label = camel_to_label(k)
             rows += f'<div class="kv-row"><span class="kv-label">{label}</span><span class="kv-value">{v}</span></div>'
         return f'<div class="kv-grid">{rows}</div>'
-    return f'<p>{value or "待补充"}</p>'
+    if isinstance(value, str):
+        # 兼容遗留字符串：识别 1./2./3. 分段，渲染为 <ol>
+        ordered_items = re.findall(r'\d+[\.\、](.*?)(?=\d+[\.\、]|$)', value, re.DOTALL)
+        if len(ordered_items) >= 2:
+            items = ''.join(f'<li>{item.strip().rstrip("；").strip()}</li>' for item in ordered_items if item.strip())
+            if items:
+                return f'<ol class="use-case-list">{items}</ol>'
+        return f'<p>{value or "待补充"}</p>'
 
 
 def render_weekly_detail_content(report, prd, depth=0):
@@ -1070,9 +1077,29 @@ def render_weekly_detail_content(report, prd, depth=0):
     deep = prd.get('weeklyDeepDive') or prd.get('deepDive') or {}
     metrics = prd.get('growthMetrics', {})
     source_daily = prd.get('sourceDailyReport', {})
+    first_seen = prd.get('firstSeen', '')
+    
+    # 计算距首次发现天数
+    days_since_first_seen = 0
+    if first_seen:
+        try:
+            first_dt = datetime.fromisoformat(first_seen.replace('Z', '+00:00'))
+            report_dt = datetime.fromisoformat(report.get('date', '') + 'T00:00:00+08:00')
+            days_since_first_seen = max(0, (report_dt.date() - first_dt.date()).days)
+        except:
+            pass
+    
+    # 指标回退逻辑：优先使用 growthMetrics，否则用 firstSeen 计算
+    days_metric = metrics.get('daysSinceDailyFeature') or days_since_first_seen
+    mentions_metric = metrics.get('recentMentions', 0)
+    growth_metric = metrics.get('growthScore', 0)
+    
+    # 引用日报链接（仅当存在 sourceDailyReport 时显示）
+    has_source_daily = bool(source_daily.get('date'))
     source_href = source_daily.get('detailHref') or f"products/{prd.get('slug', '').lower()}.html"
     source_date = source_daily.get('date', '')
-    source_link = rel(source_href, depth) if source_href else '#'
+    source_link = rel(source_href, depth) if has_source_daily else '#'
+    source_ref = f'{source_date} 每日产品详情' if source_date else '每日产品详情'
 
     score = a.get('score', 0)
     tags = prd.get('tags', [])
@@ -1100,7 +1127,19 @@ def render_weekly_detail_content(report, prd, depth=0):
     channel_text = ', '.join(channels) if channels else ', '.join(prd.get('sourceChannels', []))
     url = prd.get('url') or prd.get('homepage', '')
     btn_web = f'<a href="{url}" target="_blank" class="btn btn-primary">{icon("external")} 访问官网</a>' if url else ''
-    source_ref = f'{source_date} 每日产品详情' if source_date else '每日产品详情'
+    
+    # 首次发现日期显示（取 date 部分）
+    first_seen_date = first_seen[:10] if first_seen else ''
+    
+    # 侧栏：引用日报区块（仅当存在 sourceDailyReport 时显示）
+    if has_source_daily:
+        source_block = f'''            <div class="aside-block">
+              <div class="aside-label">引用日报</div>
+              <div class="source-links"><a href="{source_link}" class="source-link">{icon("external")} {source_ref}</a></div>
+            </div>
+'''
+    else:
+        source_block = ''
 
     return f"""<div id="weekly-detail-content">
       <article class="detail-card">
@@ -1118,23 +1157,15 @@ def render_weekly_detail_content(report, prd, depth=0):
         </div>
         <div class="detail-body">
           <div class="detail-main">
-            <div class="weekly-reference">
-              <span>本篇深度分析基于该产品入选每日简报后的持续跟踪。</span>
-              <a href="{source_link}" class="source-link">{icon("external")} {source_ref}</a>
-            </div>
             <div class="weekly-metric-grid">
-              <div class="weekly-metric"><strong>{metrics.get('daysSinceDailyFeature', 0)}</strong><span>距日报入选天数</span></div>
-              <div class="weekly-metric"><strong>{metrics.get('recentMentions', 0)}</strong><span>近 7 天提及</span></div>
-              <div class="weekly-metric"><strong>{metrics.get('growthScore', 0)}</strong><span>增长分数</span></div>
+              <div class="weekly-metric"><strong>{days_metric}</strong><span>距首次发现天数</span></div>
+              <div class="weekly-metric"><strong>{mentions_metric}</strong><span>近 7 天提及</span></div>
+              <div class="weekly-metric"><strong>{growth_metric}</strong><span>增长分数</span></div>
             </div>
             {sections_h}
           </div>
           <aside class="detail-aside">
-            <div class="aside-block">
-              <div class="aside-label">引用日报</div>
-              <div class="source-links"><a href="{source_link}" class="source-link">{icon("external")} {source_ref}</a></div>
-            </div>
-            <div class="aside-block">
+{source_block}            <div class="aside-block">
               <div class="aside-label">标签</div>
               <div class="aside-tags">{tags_h}</div>
             </div>
@@ -1145,15 +1176,13 @@ def render_weekly_detail_content(report, prd, depth=0):
             <div class="aside-block">
               <div class="aside-label">元数据</div>
               <div class="meta-row"><span class="label">周报日期</span><span class="value">{report.get('date','')}</span></div>
-              <div class="meta-row"><span class="label">首次日报</span><span class="value">{source_date}</span></div>
+              <div class="meta-row"><span class="label">首次发现</span><span class="value">{first_seen_date}</span></div>
               <div class="meta-row"><span class="label">产品类型</span><span class="value">{prd.get('type','')}</span></div>
             </div>
           </aside>
         </div>
       </article>
     </div>"""
-
-
 def generate_weekly_detail_pages(reports):
     out_dir = SITE_DIR / "weekly"
     out_dir.mkdir(parents=True, exist_ok=True)
