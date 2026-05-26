@@ -1018,11 +1018,50 @@ def weekly_detail_href(date, slug, depth=0):
 
 
 def render_weekly_value(value):
+    import re
+
+    def camel_to_label(key):
+        """将 camelCase/snake_case key 转换为可读的中文标签"""
+        # 特殊映射
+        label_map = {
+            'betaStatus': 'Beta 状态',
+            'betaCustomers': '测试客户',
+            'userSatisfaction': '用户满意度',
+            'hnTraction': 'HN 热度',
+            'linkedinFollowers': 'LinkedIn 粉丝',
+            'productHunt': 'Product Hunt',
+            'claimedMetrics': '官方指标',
+            'overview': '全景概述',
+            'positioning': '市场定位',
+            'threats': '主要威胁',
+            'opportunity': '市场机会',
+            'vsGenericAI': 'vs 通用 AI',
+            'vsTraditionalConsulting': 'vs 传统咨询',
+            'vsOtherAIStartups': 'vs 其他 AI 创业公司',
+        }
+        if key in label_map:
+            return label_map[key]
+
+        # 默认：camelCase -> 空格分隔，首字母大写
+        result = re.sub(r'([A-Z])', r' \1', key).strip()
+        result = result.replace('_', ' ')
+        # 合并连续空格
+        result = re.sub(r'\s+', ' ', result)
+        return result.title()
+
     if isinstance(value, list):
         if not value:
             return '<p style="color:var(--c-text-3)">待补充</p>'
         items = ''.join(f'<li>{item}</li>' for item in value)
         return f'<ul class="use-case-list">{items}</ul>'
+    if isinstance(value, dict):
+        if not value:
+            return '<p style="color:var(--c-text-3)">待补充</p>'
+        rows = ''
+        for k, v in value.items():
+            label = camel_to_label(k)
+            rows += f'<div class="kv-row"><span class="kv-label">{label}</span><span class="kv-value">{v}</span></div>'
+        return f'<div class="kv-grid">{rows}</div>'
     return f'<p>{value or "待补充"}</p>'
 
 
@@ -1043,8 +1082,8 @@ def render_weekly_detail_content(report, prd, depth=0):
         ('增长证据', 'chart', deep.get('growthEvidence') or deep.get('growthData')),
         ('社区反馈', 'bulb', deep.get('communityFeedback') or deep.get('communityActivity')),
         ('近期更新', 'zap', deep.get('recentUpdates') or deep.get('updateFrequency')),
-        ('市场定位', 'target', deep.get('marketPosition')),
-        ('差异化', 'palette', deep.get('differentiation')),
+        ('市场定位', 'target', deep.get('marketPosition') or deep.get('competitivePositioning')),
+        ('差异化', 'palette', deep.get('differentiation') or (deep.get('competitivePositioning', {}).get('keyDifferentiator') if isinstance(deep.get('competitivePositioning'), dict) else None)),
         ('风险挑战', 'swords', deep.get('risksAndChallenges')),
         ('后续观察', 'chart', deep.get('outlook')),
     ]
@@ -1081,7 +1120,7 @@ def render_weekly_detail_content(report, prd, depth=0):
           <div class="detail-main">
             <div class="weekly-reference">
               <span>本篇深度分析基于该产品入选每日简报后的持续跟踪。</span>
-              <a href="{source_link}">{icon("external")} {source_ref}</a>
+              <a href="{source_link}" class="source-link">{icon("external")} {source_ref}</a>
             </div>
             <div class="weekly-metric-grid">
               <div class="weekly-metric"><strong>{metrics.get('daysSinceDailyFeature', 0)}</strong><span>距日报入选天数</span></div>
@@ -1119,6 +1158,130 @@ def generate_weekly_detail_pages(reports):
     out_dir = SITE_DIR / "weekly"
     out_dir.mkdir(parents=True, exist_ok=True)
 
+    # Modal HTML 模板（复用首页的产品详情 modal）
+    modal_html = """
+  <!-- 产品详情 Modal -->
+  <div class="product-modal-overlay" id="product-modal">
+    <div class="product-modal-container">
+      <div class="product-modal-close">
+        <span class="title" id="modal-title"></span>
+        <button onclick="closeProductModal()" aria-label="关闭">✕ 关闭</button>
+      </div>
+      <div class="product-modal-body" id="modal-body">
+        <div style="text-align:center;padding:40px;color:var(--c-text-3)">加载中...</div>
+      </div>
+    </div>
+  </div>"""
+
+    modal_css = """
+    <style>
+    /* ── Product Detail Modal ── */
+    .product-modal-overlay {
+      display:none; position:fixed; inset:0; z-index:9000;
+      background:rgba(0,0,0,.5); backdrop-filter:blur(4px);
+      overflow-y:auto; -webkit-overflow-scrolling:touch;
+    }
+    .product-modal-overlay.active { display:block; }
+    .product-modal-container {
+      position:relative; max-width:1120px; width:90%; margin:40px auto;
+      min-height:auto; background:var(--c-bg);
+      border-radius:var(--radius-lg); box-shadow:0 8px 32px rgba(0,0,0,.2);
+      overflow:hidden;
+    }
+    .product-modal-close {
+      position:sticky; top:0; z-index:10;
+      display:flex; align-items:center; justify-content:space-between;
+      padding:12px 16px; background:var(--c-surface);
+      border-bottom:1px solid var(--c-border);
+    }
+    .product-modal-close button {
+      background:none; border:none; cursor:pointer;
+      font-size:1rem; color:var(--c-text-2); padding:4px 8px;
+    }
+    .product-modal-close .title { font-weight:600; font-size:.9rem; color:var(--c-text); }
+    .product-modal-body {
+      padding:0;
+    }
+    </style>"""
+
+    modal_js = """
+    <script>
+    // Modal 逻辑（所有设备）
+    const modal = document.getElementById('product-modal');
+    const modalBody = document.getElementById('modal-body');
+    const modalTitle = document.getElementById('modal-title');
+
+    // 大屏设备用 Modal，手机端和无 JS 环境保持普通链接跳转
+    const isDesktop = window.matchMedia('(min-width: 769px)').matches;
+    if (isDesktop) {
+      document.querySelectorAll('.source-link[href]').forEach(card => {
+        card.addEventListener('click', function(e) {
+          if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+          e.preventDefault();
+          const name = this.textContent?.trim() || '产品详情';
+          openProductModal(this.getAttribute('href'), name);
+        });
+      });
+    }
+
+    function rebaseModalUrls(root, baseUrl) {
+      root.querySelectorAll('[src]').forEach(el => {
+        const value = el.getAttribute('src');
+        if (value && !value.startsWith('http') && !value.startsWith('data:')) {
+          el.setAttribute('src', new URL(value, baseUrl).href);
+        }
+      });
+      root.querySelectorAll('[href]').forEach(el => {
+        const value = el.getAttribute('href');
+        if (value && !value.startsWith('http') && !value.startsWith('#') && !value.startsWith('mailto:')) {
+          el.setAttribute('href', new URL(value, baseUrl).href);
+        }
+      });
+    }
+
+    async function openProductModal(detailUrl, name) {
+      modalTitle.textContent = name;
+      modalBody.innerHTML = '<div style="text-align:center;padding:40px;color:var(--c-text-3)">加载中...</div>';
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+
+      try {
+        const resp = await fetch(detailUrl);
+        if (!resp.ok) throw new Error('HTTP ' + resp.status);
+        const html = await resp.text();
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(html, 'text/html');
+
+        const detailContent = doc.querySelector('#product-detail-content');
+        if (detailContent) {
+          rebaseModalUrls(detailContent, new URL(detailUrl, window.location.href).href);
+          modalBody.replaceChildren(detailContent);
+        } else {
+          throw new Error('详情主体不存在');
+        }
+      } catch (err) {
+        modalBody.innerHTML = '<div style="text-align:center;padding:40px;color:var(--c-text-3)">加载失败，请<a href="' + detailUrl + '" style="color:var(--c-accent);font-weight:600">打开详情页</a></div>';
+      }
+
+      modal.scrollTop = 0;
+    }
+
+    function closeProductModal() {
+      modal.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    modal.addEventListener('click', function(e) {
+      if (e.target === modal) closeProductModal();
+    });
+
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' && modal.classList.contains('active')) {
+        closeProductModal();
+      }
+    });
+    </script>"""
+
     for report in reports:
         date = report.get('date', '')
         for prd in report.get('products', []):
@@ -1134,6 +1297,7 @@ def generate_weekly_detail_pages(reports):
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{prd['name']} 每周深度分析 · AI 产品雷达</title>
   <link rel="stylesheet" href="{rel("styles.css", 1)}">
+  {modal_css}
 </head>
 <body>
   {header_html('weekly', 1)}
@@ -1143,7 +1307,9 @@ def generate_weekly_detail_pages(reports):
       {detail_content}
     </div>
   </main>
+  {modal_html}
   {footer_html(1)}
+  {modal_js}
 </body>
 </html>"""
 

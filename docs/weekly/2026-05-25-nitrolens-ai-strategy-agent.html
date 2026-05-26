@@ -5,6 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NitroLens - AI 战略咨询代理 每周深度分析 · AI 产品雷达</title>
   <link rel="stylesheet" href="../styles.css">
+  
+    <style>
+    /* ── Product Detail Modal ── */
+    .product-modal-overlay {
+      display:none; position:fixed; inset:0; z-index:9000;
+      background:rgba(0,0,0,.5); backdrop-filter:blur(4px);
+      overflow-y:auto; -webkit-overflow-scrolling:touch;
+    }
+    .product-modal-overlay.active { display:block; }
+    .product-modal-container {
+      position:relative; max-width:1120px; width:90%; margin:40px auto;
+      min-height:auto; background:var(--c-bg);
+      border-radius:var(--radius-lg); box-shadow:0 8px 32px rgba(0,0,0,.2);
+      overflow:hidden;
+    }
+    .product-modal-close {
+      position:sticky; top:0; z-index:10;
+      display:flex; align-items:center; justify-content:space-between;
+      padding:12px 16px; background:var(--c-surface);
+      border-bottom:1px solid var(--c-border);
+    }
+    .product-modal-close button {
+      background:none; border:none; cursor:pointer;
+      font-size:1rem; color:var(--c-text-2); padding:4px 8px;
+    }
+    .product-modal-close .title { font-weight:600; font-size:.9rem; color:var(--c-text); }
+    .product-modal-body {
+      padding:0;
+    }
+    </style>
 </head>
 <body>
   <header class="site-header">
@@ -34,7 +64,7 @@
           <div class="detail-main">
             <div class="weekly-reference">
               <span>本篇深度分析基于该产品入选每日简报后的持续跟踪。</span>
-              <a href="../products/nitrolens-ai-strategy-agent.html"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg> 每日产品详情</a>
+              <a href="../products/nitrolens-ai-strategy-agent.html" class="source-link"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg> 每日产品详情</a>
             </div>
             <div class="weekly-metric-grid">
               <div class="weekly-metric"><strong>0</strong><span>距日报入选天数</span></div>
@@ -44,7 +74,7 @@
             
             <div class="section">
               <h2 class="section-title"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></span> 增长证据</h2>
-              <p>{'betaStatus': '公开 Beta，限量免费名额（1,000 积分/用户）', 'betaCustomers': '20 家公司（从 YC 创业公司到财富 500 强）', 'userSatisfaction': '90% 受访用户表示输出超出预期（10 人中 9 人）', 'hnTraction': '仅 1 赞 0 评论（极低），发布时间 2026-05-20', 'linkedinFollowers': '4,736（Ian Chou 个人账号）', 'productHunt': 'AI Hunt 收录，2 票', 'claimedMetrics': '缩短洞察时间 70%，年度战略运营节省 $500,000+'}</p>
+              <div class="kv-grid"><div class="kv-row"><span class="kv-label">Beta 状态</span><span class="kv-value">公开 Beta，限量免费名额（1,000 积分/用户）</span></div><div class="kv-row"><span class="kv-label">测试客户</span><span class="kv-value">20 家公司（从 YC 创业公司到财富 500 强）</span></div><div class="kv-row"><span class="kv-label">用户满意度</span><span class="kv-value">90% 受访用户表示输出超出预期（10 人中 9 人）</span></div><div class="kv-row"><span class="kv-label">HN 热度</span><span class="kv-value">仅 1 赞 0 评论（极低），发布时间 2026-05-20</span></div><div class="kv-row"><span class="kv-label">LinkedIn 粉丝</span><span class="kv-value">4,736（Ian Chou 个人账号）</span></div><div class="kv-row"><span class="kv-label">Product Hunt</span><span class="kv-value">AI Hunt 收录，2 票</span></div><div class="kv-row"><span class="kv-label">官方指标</span><span class="kv-value">缩短洞察时间 70%，年度战略运营节省 $500,000+</span></div></div>
             </div>
             <div class="section">
               <h2 class="section-title"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5A4.61 4.61 0 0 1 8.91 14"/></svg></span> 社区反馈</h2>
@@ -56,19 +86,19 @@
             </div>
             <div class="section">
               <h2 class="section-title"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></span> 市场定位</h2>
-              <p>{'overview': "NitroLens 处于'AI 战略咨询民主化'这一新兴赛道的早期阶段。赛道有强劲的宏观顺风：BCG 指出 80% 战略任务可被 AI 自动化，咨询市场预计从 2024 年 $140B 增长到 2030 年 $728B，OpenAI 与四大咨询公司的 2026 年联盟验证了 AI+咨询融合的大趋势。", 'positioning': "定位于'专业人士的 AI 战略伙伴'而非'替代咨询公司的工具'。强调方法论严谨性而非速度，强调定制化而非通用回答。目标客户是那些已有战略需求但无力承担传统咨询费用的团队。", 'threats': '最大的威胁不是竞品创业公司，而是传统咨询公司自身的 AI 化。McKinsey 的 QuantumBlack（5,000 AI 专家）、BCG X（3,000 工程师）正在将 AI 能力嵌入其核心服务。OpenAI Frontier 联盟更是让这些巨头获得了顶级 AI 基础设施支持。NitroLens 需要在巨头全面觉醒前建立品牌和护城河。', 'opportunity': '大咨询公司的 AI 化主要面向大型企业客户，中端市场（$50M-$500M 收入的公司）存在巨大的服务空白。这些公司有战略需求但无力支付传统咨询费用，也不是大咨询公司 AI 产品的目标客户。NitroLens 的价格定位和自助 SaaS 形态天然匹配这个市场。'}</p>
+              <div class="kv-grid"><div class="kv-row"><span class="kv-label">Workflow Comparison</span><span class="kv-value">与传统咨询（McKinsey等）相比，它是标准化、即时、低成本的数字化工作流，而非定制化、人力密集的服务流程；与通用AI（ChatGPT等）相比，它是深度嵌入战略决策流程、具备预设专业框架和协作逻辑的垂直工作流，而非开放式的对话工具；与CT Labs等新兴AI分析工具相比，它更聚焦于完整的战略咨询模拟，而非单一的数据分析或模型测试。</span></div><div class="kv-row"><span class="kv-label">Key Differentiator</span><span class="kv-value">1. ‘AI原生咨询工作流’：将顶级咨询公司的团队分工（策略师、研究员等）、方法论（30+框架）和协作过程通过多Agent状态机工程化实现，这是简单的‘LLM+Prompt’或单一工具无法比拟的；2. 创始人背景带来的领域可信度与产品设计深度。</span></div><div class="kv-row"><span class="kv-label">Survival Niche</span><span class="kv-value">服务于‘付不起麦肯锡，但看不上ChatGPT’的中小企业主和业务负责人市场。在‘顶级咨询质量’和‘通用AI便捷性’之间，占据‘专业级、结构化、可负担的AI战略分析’这一空白利基。其生存依赖于持续深化垂直工作流复杂度，并建立行业特定的分析模板和数据连接。</span></div></div>
             </div>
             <div class="section">
               <h2 class="section-title"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r=".5" fill="currentColor"/><circle cx="17.5" cy="10.5" r=".5" fill="currentColor"/><circle cx="8.5" cy="7.5" r=".5" fill="currentColor"/><circle cx="6.5" cy="12.5" r=".5" fill="currentColor"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"/></svg></span> 差异化</h2>
-              <p>{'vsGenericAI': '不是 Chat 界面包装。核心差异在于：（1）状态机驱动的多 Agent 架构而非单次对话；（2）内置 30+ 战略框架而非依赖用户提示工程；（3）假设驱动方法论 + 压力测试流程而非直接输出答案；（4）Python 分析引擎支持数据可视化而非纯文本。', 'vsTraditionalConsulting': '核心差异不在质量（咨询公司仍有方法论和数据积累优势），而在速度（分钟 vs. 月）、价格（SaaS 订阅 vs. $200K+）和持续性（嵌入工作流 vs. 项目制）。NitroLens 是工具，不是服务。', 'vsOtherAIStartups': '差异在于领域深度而非通用性。NitroLens 不做通用 Agent 平台，不追求覆盖所有商业场景，而是深度聚焦战略分析方法论这一垂直领域。30+ 框架、咨询工作流设计、假设树引擎都是领域知识的工程化表达。'}</p>
+              <p>1. ‘AI原生咨询工作流’：将顶级咨询公司的团队分工（策略师、研究员等）、方法论（30+框架）和协作过程通过多Agent状态机工程化实现，这是简单的‘LLM+Prompt’或单一工具无法比拟的；2. 创始人背景带来的领域可信度与产品设计深度。</p>
             </div>
             <div class="section">
               <h2 class="section-title"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="14.5 17.5 3 6 3 3 6 3 17.5 14.5"/><line x1="13" y1="19" x2="19" y2="13"/><line x1="16" y1="16" x2="20" y2="20"/><line x1="19" y1="21" x2="21" y2="19"/><polyline points="14.5 6.5 18 3 21 3 21 6 17.5 9.5"/><line x1="5" y1="14" x2="9" y2="18"/><line x1="7" y1="17" x2="4" y2="20"/><line x1="3" y1="19" x2="5" y2="21"/></svg></span> 风险挑战</h2>
-              <p>待补充</p>
+              <p>大厂威胁: 高。大厂（如OpenAI）可能通过更强大的基础模型和生态合作（如已与麦肯锡联盟）提供类似能力；大型咨询公司自身也在推进AI化。但大厂缺乏垂直领域的深度工作流设计，咨询公司则受限于传统业务模型和成本结构。；工作流壁垒: 中高。壁垒来自：1. 专有工作流设计：模拟真实咨询团队协作的‘四Agent状态机架构’和集成30+战略框架的复杂逻辑链，具有工程和领域知识复合门槛；2. 用户习惯与数据积累：随着使用，平台会积累用户特定的战略问题、行业数据和调整偏好，优化Agent表现，增加切换成本。；生存利基: 服务于‘付不起麦肯锡，但看不上ChatGPT’的中小企业主和业务负责人市场。在‘顶级咨询质量’和‘通用AI便捷性’之间，占据‘专业级、结构化、可负担的AI战略分析’这一空白利基。其生存依赖于持续深化垂直工作流复杂度，并建立行业特定的分析模板和数据连接。</p>
             </div>
             <div class="section">
               <h2 class="section-title"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></span> 后续观察</h2>
-              <p>待补充</p>
+              <p>市场机会: 服务于‘付不起麦肯锡，但看不上ChatGPT’的中小企业主和业务负责人市场。在‘顶级咨询质量’和‘通用AI便捷性’之间，占据‘专业级、结构化、可负担的AI战略分析’这一空白利基。其生存依赖于持续深化垂直工作流复杂度，并建立行业特定的分析模板和数据连接。；网络效应: 无</p>
             </div>
           </div>
           <aside class="detail-aside">
@@ -96,6 +126,19 @@
     </div>
     </div>
   </main>
+  
+  <!-- 产品详情 Modal -->
+  <div class="product-modal-overlay" id="product-modal">
+    <div class="product-modal-container">
+      <div class="product-modal-close">
+        <span class="title" id="modal-title"></span>
+        <button onclick="closeProductModal()" aria-label="关闭">✕ 关闭</button>
+      </div>
+      <div class="product-modal-body" id="modal-body">
+        <div style="text-align:center;padding:40px;color:var(--c-text-3)">加载中...</div>
+      </div>
+    </div>
+  </div>
   <footer class="site-footer">
   <div class="container">
     <div class="footer-links">
@@ -105,5 +148,82 @@
     <p>AI 产品雷达 · 自动化 AI 产品发现与分析</p>
   </div>
 </footer>
+  
+    <script>
+    // Modal 逻辑（所有设备）
+    const modal = document.getElementById('product-modal');
+    const modalBody = document.getElementById('modal-body');
+    const modalTitle = document.getElementById('modal-title');
+
+    // 大屏设备用 Modal，手机端和无 JS 环境保持普通链接跳转
+    const isDesktop = window.matchMedia('(min-width: 769px)').matches;
+    if (isDesktop) {
+      document.querySelectorAll('.source-link[href]').forEach(card => {
+        card.addEventListener('click', function(e) {
+          if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+          e.preventDefault();
+          const name = this.textContent?.trim() || '产品详情';
+          openProductModal(this.getAttribute('href'), name);
+        });
+      });
+    }
+
+    function rebaseModalUrls(root, baseUrl) {
+      root.querySelectorAll('[src]').forEach(el => {
+        const value = el.getAttribute('src');
+        if (value && !value.startsWith('http') && !value.startsWith('data:')) {
+          el.setAttribute('src', new URL(value, baseUrl).href);
+        }
+      });
+      root.querySelectorAll('[href]').forEach(el => {
+        const value = el.getAttribute('href');
+        if (value && !value.startsWith('http') && !value.startsWith('#') && !value.startsWith('mailto:')) {
+          el.setAttribute('href', new URL(value, baseUrl).href);
+        }
+      });
+    }
+
+    async function openProductModal(detailUrl, name) {
+      modalTitle.textContent = name;
+      modalBody.innerHTML = '<div style="text-align:center;padding:40px;color:var(--c-text-3)">加载中...</div>';
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+
+      try {
+        const resp = await fetch(detailUrl);
+        if (!resp.ok) throw new Error('HTTP ' + resp.status);
+        const html = await resp.text();
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(html, 'text/html');
+
+        const detailContent = doc.querySelector('#product-detail-content');
+        if (detailContent) {
+          rebaseModalUrls(detailContent, new URL(detailUrl, window.location.href).href);
+          modalBody.replaceChildren(detailContent);
+        } else {
+          throw new Error('详情主体不存在');
+        }
+      } catch (err) {
+        modalBody.innerHTML = '<div style="text-align:center;padding:40px;color:var(--c-text-3)">加载失败，请<a href="' + detailUrl + '" style="color:var(--c-accent);font-weight:600">打开详情页</a></div>';
+      }
+
+      modal.scrollTop = 0;
+    }
+
+    function closeProductModal() {
+      modal.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    modal.addEventListener('click', function(e) {
+      if (e.target === modal) closeProductModal();
+    });
+
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' && modal.classList.contains('active')) {
+        closeProductModal();
+      }
+    });
+    </script>
 </body>
 </html>
