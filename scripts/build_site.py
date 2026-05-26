@@ -1318,7 +1318,9 @@ def generate_weekly_detail_pages(reports):
 
 def generate_weekly(reports):
     """生成每周深度分析页面"""
-    recent = reports[:10]  # 显示最近10期
+    # 过滤掉无效报告（缺少 date 或 products 字段）
+    valid_reports = [r for r in reports if r.get('date') and r.get('products')]
+    recent = valid_reports[:10]  # 显示最近10期
 
     posts_html = ''
     for report in recent:
