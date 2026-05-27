@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-05-25T10:28:05.442431",
+  "lastUpdated": "2026-05-27T04:07:00.937742+00:00",
   "products": [
     {
       "id": "dafa9686fbe1",
@@ -4898,6 +4898,126 @@
           }
         ]
       }
+    },
+    {
+      "id": "producthunt.com/r/p/1154343",
+      "name": "Yansu — 主动式 AI 应用构建工具",
+      "slug": "yansu",
+      "description": "主动式 AI 应用构建工具，通过观察你的工作模式自动发现重复任务，并在你开口之前就将最佳模式转化为定制化软件。无需手动流程映射或空白画布起步，AI 会自动识别你的工作习惯并生成专属应用。",
+      "url": "https://yansu.app/",
+      "homepage": "https://yansu.app/",
+      "type": "saas",
+      "tags": [
+        "AI 应用构建",
+        "工作流自动化",
+        "主动式 AI",
+        "低代码",
+        "生产力工具"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1154343",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1154343_20260527_120553.png",
+      "firstSeen": "2026-05-27T12:00:00+08:00",
+      "lastSeen": "2026-05-27T12:00:00+08:00",
+      "cooldownExpiresAt": "2026-06-10T04:07:00.937026"
+    },
+    {
+      "id": "producthunt.com/r/p/1155865",
+      "name": "SelectPrism — AI 智能招聘面试平台",
+      "slug": "selectprism",
+      "description": "AI 代理驱动的智能招聘面试平台，通过自适应评估和技能智能引擎自动筛选、面试并评估候选人，帮助团队更快找到合适人才。支持反作弊检测和基于技能的评分体系。",
+      "url": "https://selectprism.ai/",
+      "homepage": "https://selectprism.ai/",
+      "type": "saas",
+      "tags": [
+        "AI 招聘",
+        "智能面试",
+        "HR 科技",
+        "技能评估",
+        "AI 代理"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1155865",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1155865_20260527_120603.png",
+      "firstSeen": "2026-05-27T12:00:00+08:00",
+      "lastSeen": "2026-05-27T12:00:00+08:00",
+      "cooldownExpiresAt": "2026-06-10T04:07:00.937026"
+    },
+    {
+      "id": "producthunt.com/r/p/1149886",
+      "name": "Brew — AI 原生邮件营销平台",
+      "slug": "brew",
+      "description": "AI 原生的邮件营销平台，用自然语言描述营销活动或自动化流程，AI 自动生成在任何收件箱中都完美渲染的品牌邮件。让邮件设计像跟 Claude 聊天一样简单。",
+      "url": "https://brew.new/",
+      "homepage": "https://brew.new/",
+      "type": "saas",
+      "tags": [
+        "AI 邮件营销",
+        "营销自动化",
+        "AI 设计",
+        "内容生成",
+        "SaaS"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1149886",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1149886_20260527_120614.png",
+      "firstSeen": "2026-05-27T12:00:00+08:00",
+      "lastSeen": "2026-05-27T12:00:00+08:00",
+      "cooldownExpiresAt": "2026-06-10T04:07:00.937026"
+    },
+    {
+      "id": "producthunt.com/r/p/1153469",
+      "name": "AI Shadowing — AI 视频影子跟读语言学习",
+      "slug": "ai-shadowing",
+      "description": "将任何 YouTube 视频转化为交互式语言影子跟读课程。AI 自动生成精准字幕并按句子拆分，支持调速、重复和录音对比，让用户在观看感兴趣的内容时自然习得外语发音和表达。",
+      "url": "https://aishadowing.net/",
+      "homepage": "https://aishadowing.net/",
+      "type": "saas",
+      "tags": [
+        "AI 语言学习",
+        "影子跟读",
+        "口语训练",
+        "YouTube 学习",
+        "教育科技"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1153469",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1153469_20260527_120625.png",
+      "firstSeen": "2026-05-27T12:00:00+08:00",
+      "lastSeen": "2026-05-27T12:00:00+08:00",
+      "cooldownExpiresAt": "2026-06-10T04:07:00.937026"
+    },
+    {
+      "id": "producthunt.com/r/p/1155776",
+      "name": "DodoForm — AI 多模态数据采集表单",
+      "slug": "dodoform",
+      "description": "将语音、照片、手写笔记等任意形式的非结构化沟通内容，自动转化为干净的结构化数据。内置 100+ 模板、AI 分析和原生集成，让数据采集像聊天一样自然。",
+      "url": "https://www.dodoform.com/",
+      "homepage": "https://www.dodoform.com/",
+      "type": "saas",
+      "tags": [
+        "AI 表单",
+        "多模态数据采集",
+        "语音转结构化数据",
+        "现场服务",
+        "低代码"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1155776",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1155776_20260527_120632.png",
+      "firstSeen": "2026-05-27T12:00:00+08:00",
+      "lastSeen": "2026-05-27T12:00:00+08:00",
+      "cooldownExpiresAt": "2026-06-10T04:07:00.937026"
     }
   ],
   "tracking": {

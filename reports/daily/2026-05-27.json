@@ -1,0 +1,322 @@
+{
+  "date": "2026-05-27",
+  "generatedAt": "2026-05-27T12:00:00+08:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "producthunt.com/r/p/1154343",
+      "name": "Yansu — 主动式 AI 应用构建工具",
+      "slug": "yansu",
+      "description": "主动式 AI 应用构建工具，通过观察你的工作模式自动发现重复任务，并在你开口之前就将最佳模式转化为定制化软件。无需手动流程映射或空白画布起步，AI 会自动识别你的工作习惯并生成专属应用。",
+      "url": "https://yansu.app/",
+      "homepage": "https://yansu.app/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1154343_20260527_120553.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 应用构建",
+        "工作流自动化",
+        "主动式 AI",
+        "低代码",
+        "生产力工具"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1154343",
+      "firstSeen": "2026-05-27T12:00:00+08:00",
+      "analysis": {
+        "targetAudience": "追求自动化工作流的团队与个人效率爱好者，以及希望将重复工作转化为工具但缺乏编程能力的知识工作者",
+        "useCases": [
+          "AI 自动识别重复性工作任务并生成专属工具",
+          "将团队协作中的固定流程转化为定制化应用",
+          "无需编程快速搭建内部审批/管理工具",
+          "替代手工 Excel 表格和邮件流转的低效流程",
+          "为知识工作者创建个性化工作台"
+        ],
+        "designIntent": "传统的无代码/AI 应用构建工具仍需用户主动描述需求并手动设计。Yansu 试图成为「主动式」工具——在你意识到需要某个应用之前，AI 已经观察你的工作模式并自动生成。这代表了从「响应式 AI」到「预判式 AI」的范式转变。",
+        "problemSolved": "大多数知识工作者每天在重复性任务上浪费大量时间，但既缺乏编程能力也缺乏时间去学习使用复杂的自动化工具。Yansu 通过 AI 自动识别工作模式并构建应用，填补了「想自动化但不会做」的鸿沟。",
+        "tags": [
+          "AI 应用构建",
+          "工作流自动化",
+          "主动式 AI",
+          "低代码",
+          "生产力工具"
+        ],
+        "score": 9,
+        "scoreReason": "PH #3 获得 272 票验证了市场认可度。从「让用户告诉 AI 做什么」到「AI 自己发现该做什么」的理念跨越，代表了 AI 工具的下一个进化方向。产品概念非常前沿，且已落地可用的产品形态。",
+        "competitors": [
+          {
+            "name": "Retool",
+            "url": "https://retool.com",
+            "comparison": "老牌低代码内部工具平台，功能强大但需手动搭建，不具备主动发现工作模式的 AI 能力"
+          },
+          {
+            "name": "Zapier",
+            "url": "https://zapier.com",
+            "comparison": "工作流自动化领域的领导者，但需用户手动配置触发和动作，Yansu 的主动发现机制是差异化优势"
+          },
+          {
+            "name": "Glide",
+            "url": "https://glide.com",
+            "comparison": "无代码应用构建工具，体验优秀但用户仍需主动设计应用，缺乏 AI 的预判能力"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1155865",
+      "name": "SelectPrism — AI 智能招聘面试平台",
+      "slug": "selectprism",
+      "description": "AI 代理驱动的智能招聘面试平台，通过自适应评估和技能智能引擎自动筛选、面试并评估候选人，帮助团队更快找到合适人才。支持反作弊检测和基于技能的评分体系。",
+      "url": "https://selectprism.ai/",
+      "homepage": "https://selectprism.ai/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1155865_20260527_120603.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 招聘",
+        "智能面试",
+        "HR 科技",
+        "技能评估",
+        "AI 代理"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1155865",
+      "firstSeen": "2026-05-27T12:00:00+08:00",
+      "analysis": {
+        "targetAudience": "面临大量简历筛选压力的 HR 团队、技术招聘经理，以及需要标准化面试流程的中大型企业",
+        "useCases": [
+          "大规模技术岗位候选人初筛",
+          "AI 代理执行标准化第一轮面试",
+          "基于技能的候选人水平评估与排序",
+          "减少人工筛选中的无意识偏见",
+          "缩短从简历到 offer 的整体招聘周期"
+        ],
+        "designIntent": "传统招聘中，HR 需要花费大量时间阅读简历和进行首轮筛选面试，而这些时间中的大部分是在重复问相同的基础问题。SelectPrism 让 AI 代理接管这部分重复性工作，让人类招聘官专注于需要判断力和同理心的高价值环节。",
+        "problemSolved": "技术招聘中简历量巨大但质量参差，人工筛选耗时且容易遗漏优秀候选人。AI 面试代理可 7×24 进行标准化面试，同时通过技能智能引擎减少「只看简历关键词」带来的偏见，提高招聘效率与公平性。",
+        "tags": [
+          "AI 招聘",
+          "智能面试",
+          "HR 科技",
+          "技能评估",
+          "AI 代理"
+        ],
+        "score": 8,
+        "scoreReason": "PH #6 获得 100 票。AI 面试是 HR 科技中的热门赛道，但 SelectPrism 的「Agentic」定位（AI 代理自主完成完整面试闭环）比简单的「AI 筛选简历」更进一步，对高招聘量企业具有明确的 ROI 价值。",
+        "competitors": [
+          {
+            "name": "Greenhouse",
+            "url": "https://greenhouse.io",
+            "comparison": "传统 ATS（应聘者追踪系统）领导者，功能全面但 AI 能力相对有限，仍以人工流程为主"
+          },
+          {
+            "name": "HireVue",
+            "url": "https://hirevue.com",
+            "comparison": "视频面试平台先驱，侧重录制和回放而非 AI 代理主动对话与实时评估"
+          },
+          {
+            "name": "Eightfold",
+            "url": "https://eightfold.ai",
+            "comparison": "AI 人才智能平台，侧重人才匹配和内部流动，不如 SelectPrism 在面试执行环节深入"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1149886",
+      "name": "Brew — AI 原生邮件营销平台",
+      "slug": "brew",
+      "description": "AI 原生的邮件营销平台，用自然语言描述营销活动或自动化流程，AI 自动生成在任何收件箱中都完美渲染的品牌邮件。让邮件设计像跟 Claude 聊天一样简单。",
+      "url": "https://brew.new/",
+      "homepage": "https://brew.new/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1149886_20260527_120614.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 邮件营销",
+        "营销自动化",
+        "AI 设计",
+        "内容生成",
+        "SaaS"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1149886",
+      "firstSeen": "2026-05-27T12:00:00+08:00",
+      "analysis": {
+        "targetAudience": "需要频繁发送营销邮件的市场团队、电商运营人员、创业者和中小企业主",
+        "useCases": [
+          "用自然语言快速生成品牌邮件模板",
+          "设计多步骤自动化营销流程",
+          "A/B 测试不同风格的邮件设计",
+          "新闻简报的快速设计与发送",
+          "节假日和促销活动的批量营销邮件"
+        ],
+        "designIntent": "现有的邮件营销工具虽然功能强大，但设计一封好看的邮件仍然需要繁琐的拖拽操作或 HTML 知识。Brew 的愿景是让邮件设计像跟 AI 对话一样简单——说出你要什么，AI 帮你做出来。",
+        "problemSolved": "中小企业市场团队缺乏专业设计师，发送的营销邮件往往视觉效果不佳影响转化率。Brew 通过 AI 让任何人都能通过自然语言生成专业级邮件，大幅降低邮件营销的设计和制作门槛。",
+        "tags": [
+          "AI 邮件营销",
+          "营销自动化",
+          "AI 设计",
+          "内容生成",
+          "SaaS"
+        ],
+        "score": 8,
+        "scoreReason": "精准击中邮件营销中「设计难」的痛点，将 Claude 级别的 AI 设计能力带入邮件场景。虽然邮件营销是成熟市场，但 AI 原生的设计体验是明显的差异化优势，对非专业设计人员尤其友好。",
+        "competitors": [
+          {
+            "name": "Mailchimp",
+            "url": "https://mailchimp.com",
+            "comparison": "老牌邮件营销平台，功能全面但设计流程仍需较多手动操作，AI 功能正在追赶中"
+          },
+          {
+            "name": "Beehiiv",
+            "url": "https://beehiiv.com",
+            "comparison": "面向创作者的新闻简报平台，侧重内容创作和读者增长，AI 设计能力不如 Brew 深入"
+          },
+          {
+            "name": "ConvertKit",
+            "url": "https://convertkit.com",
+            "comparison": "创作者经济场景的邮件工具，自动化流程强大但模板设计灵活度有限"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1153469",
+      "name": "AI Shadowing — AI 视频影子跟读语言学习",
+      "slug": "ai-shadowing",
+      "description": "将任何 YouTube 视频转化为交互式语言影子跟读课程。AI 自动生成精准字幕并按句子拆分，支持调速、重复和录音对比，让用户在观看感兴趣的内容时自然习得外语发音和表达。",
+      "url": "https://aishadowing.net/",
+      "homepage": "https://aishadowing.net/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1153469_20260527_120625.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 语言学习",
+        "影子跟读",
+        "口语训练",
+        "YouTube 学习",
+        "教育科技"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1153469",
+      "firstSeen": "2026-05-27T12:00:00+08:00",
+      "analysis": {
+        "targetAudience": "希望在真实语境中提升口语和听力的语言学习者，特别是自学外语但缺乏口语练习环境的用户",
+        "useCases": [
+          "用喜欢的 YouTube 视频练习英语/日语/德语等外语发音",
+          "影子跟读训练提升口语流利度和语调自然度",
+          "通过真实视频内容学习地道表达和俚语",
+          "备考雅思/托福口语的跟读练习",
+          "用兴趣驱动保持长期语言学习的动力"
+        ],
+        "designIntent": "作者自己学习德语时发现，虽然 YouTube 上有海量真实语言材料，但从「看视频」到「练习口语」之间存在巨大鸿沟——需要手动找字幕、手动暂停重复、无法对比发音。AI Shadowing 就是为填平这个鸿沟而生。",
+        "problemSolved": "传统语言学习 App（如 Duolingo）的内容脱离真实语境，而直接看 YouTube 又缺乏结构化的练习机制。AI Shadowing 将「真实内容」和「结构化学习」结合在一起，让用户用自己真正感兴趣的内容来练习语言。",
+        "tags": [
+          "AI 语言学习",
+          "影子跟读",
+          "口语训练",
+          "YouTube 学习",
+          "教育科技"
+        ],
+        "score": 8,
+        "scoreReason": "「用你自己选的 YouTube 视频学语言」这个切入角度非常巧妙——既解决了传统语言学习内容枯燥的问题，又充分利用了 YouTube 的海量真实语料。产品体验简洁专注，切中自学者的核心痛点。",
+        "competitors": [
+          {
+            "name": "Duolingo",
+            "url": "https://duolingo.com",
+            "comparison": "游戏化语言学习最大的平台，但内容为预制课程，缺乏真实语境和口语跟读的深度练习"
+          },
+          {
+            "name": "Elsa Speak",
+            "url": "https://elsaspeak.com",
+            "comparison": "AI 发音纠正工具，精准度优秀但无视频内容集成，用户不能自选学习材料"
+          },
+          {
+            "name": "Lingopie",
+            "url": "https://lingopie.com",
+            "comparison": "通过 Netflix 学语言，主打被动观看和字幕学习，缺乏 AI Shadowing 的主动跟读和录音对比机制"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1155776",
+      "name": "DodoForm — AI 多模态数据采集表单",
+      "slug": "dodoform",
+      "description": "将语音、照片、手写笔记等任意形式的非结构化沟通内容，自动转化为干净的结构化数据。内置 100+ 模板、AI 分析和原生集成，让数据采集像聊天一样自然。",
+      "url": "https://www.dodoform.com/",
+      "homepage": "https://www.dodoform.com/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1155776_20260527_120632.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 表单",
+        "多模态数据采集",
+        "语音转结构化数据",
+        "现场服务",
+        "低代码"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1155776",
+      "firstSeen": "2026-05-27T12:00:00+08:00",
+      "analysis": {
+        "targetAudience": "需要从客户、员工或现场收集数据的业务团队和运营人员，特别是在巡检、保险、医疗等行业的一线工作者",
+        "useCases": [
+          "现场巡检中用语音记录问题并自动生成结构化报告",
+          "客户反馈收集（拍照+语音即可，无需填表）",
+          "医疗/保险理赔表单的数据录入简化",
+          "展会/活动现场的快速信息采集",
+          "内部审批流程的多模态数据入口"
+        ],
+        "designIntent": "传统表单工具要求用户按照预设格式填写，但在很多现实场景中（现场工作、客户沟通），人们更习惯用语音、拍照等自然方式传递信息。DodoForm 的使命是让「数据采集」这个动作对人类更友好——你只管用最自然的方式表达，AI 负责把信息结构化。",
+        "problemSolved": "很多业务的瓶颈不在流程本身，而在「数据怎么进来」——现场人员不愿填复杂的表单、客户嫌麻烦不反馈。DodoForm 通过多模态 AI 降低数据录入门槛，提高一线业务的数据采集效率与完整度。",
+        "tags": [
+          "AI 表单",
+          "多模态数据采集",
+          "语音转结构化数据",
+          "现场服务",
+          "低代码"
+        ],
+        "score": 8,
+        "scoreReason": "PH #8 获得 97 票。找到了一个被忽略的市场缝隙——让「填表单」这件事变得对人类更友好。语音/图片直接转结构化数据的能力在多个垂直场景（巡检、保险、医疗）有明确价值。100+ 模板为快速落地提供了基础。",
+        "competitors": [
+          {
+            "name": "Typeform",
+            "url": "https://typeform.com",
+            "comparison": "交互式表单体验最佳，但仍为传统的文本输入模式，不支持语音/图片等非结构化输入"
+          },
+          {
+            "name": "Jotform",
+            "url": "https://jotform.com",
+            "comparison": "传统在线表单工具，功能全面但缺乏 AI 驱动的多模态数据采集能力"
+          },
+          {
+            "name": "Google Forms",
+            "url": "https://forms.google.com",
+            "comparison": "免费易用但功能基础，完全没有 AI 辅助能力，只能处理纯文本输入"
+          }
+        ]
+      }
+    }
+  ]
+}
