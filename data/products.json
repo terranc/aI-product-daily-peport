@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-05-27T04:07:00.937742+00:00",
+  "lastUpdated": "2026-05-28T04:08:53.026024+00:00",
   "products": [
     {
       "id": "dafa9686fbe1",
@@ -5018,6 +5018,416 @@
       "firstSeen": "2026-05-27T12:00:00+08:00",
       "lastSeen": "2026-05-27T12:00:00+08:00",
       "cooldownExpiresAt": "2026-06-10T04:07:00.937026"
+    },
+    {
+      "id": "producthunt.com/r/p/1154630",
+      "name": "Bluedot 2.1",
+      "slug": "bluedot-2-1",
+      "description": "一款无需 AI 机器人加入会议的智能笔记工具。通过 Apple Watch 一键录音，自动同步到 Claude 进行转录、总结和分析。支持线上和线下会议，笔记可同步到 CRM 或 ATS 系统。",
+      "url": "https://www.bluedothq.com/",
+      "homepage": "https://www.bluedothq.com/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "会议笔记",
+        "Apple Watch",
+        "AI 转录",
+        "Claude 集成",
+        "生产力工具"
+      ],
+      "firstSeen": "2026-05-28T04:08:53.026024+00:00",
+      "lastSeen": "2026-05-28T04:08:53.026024+00:00",
+      "cooldownExpiresAt": "2026-06-11T04:08:53.026024+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-28T04:08:53.026024+00:00",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/products/bluedot-2",
+          "title": "Bluedot 2.1"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "需要高效记录会议内容的职场人士、远程工作者和商务人员",
+        "useCases": [
+          "会议中一键启动 Apple Watch 录音，会后自动生成笔记",
+          "将线下对话录音同步到 Claude 进行智能总结",
+          "课堂或讲座内容的实时转录和要点提取",
+          "客户沟通记录的自动归档和 CRM 同步",
+          "面试或重要对话的回溯和分析"
+        ],
+        "designIntent": "Bluedot 的设计初衷是解决传统会议记录工具的痛点——不需要 AI 机器人加入会议，不打扰对话流程，通过 Apple Watch 这一最不起眼的设备完成录音，让笔记记录变得无感和自然。",
+        "problemSolved": "传统会议记录要么需要专人做笔记，要么需要 AI 机器人加入会议（这在很多场景下不被接受）。Bluedot 通过 Apple Watch 录音 + Claude 智能处理的方式，让会议记录变得隐形、自动且高效。",
+        "score": 9,
+        "scoreReason": "巧妙利用 Apple Watch 这一随身设备实现无感录音，绕过 AI 机器人加入会议的尴尬，与 Claude 深度集成提供高质量转录和总结。产品定位清晰，解决真实痛点，界面简洁。",
+        "tags": [
+          "会议笔记",
+          "Apple Watch",
+          "AI 转录",
+          "Claude 集成",
+          "生产力工具"
+        ],
+        "competitors": [
+          {
+            "name": "Fathom",
+            "url": "https://fathom.video/",
+            "comparison": "Fathom 是 AI 机器人加入会议的方案，Bluedot 则强调「无机器人」理念，通过手表录音更加不打扰"
+          },
+          {
+            "name": "Otter.ai",
+            "url": "https://otter.ai/",
+            "comparison": "Otter 是通用语音转录工具，Bluedot 更聚焦会议场景且深度整合 Claude 进行智能分析"
+          },
+          {
+            "name": "Fireflies.ai",
+            "url": "https://fireflies.ai/",
+            "comparison": "Fireflies 同样需要机器人加入会议，Bluedot 的手表录音方案更加轻量和隐私友好"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1154630_20260528_120634.png",
+      "appStoreScreenshots": [],
+      "rawData": {}
+    },
+    {
+      "id": "producthunt.com/r/p/1146179",
+      "name": "Oasis Browser for Mac",
+      "slug": "oasis-browser-for-mac",
+      "description": "一款以隐私为先的 AI 浏览器。内置 AI 助手可以理解你的标签页、浏览历史和页面内容，帮你规划、搜索和行动。支持匿名训练，提供企业级安全保护和专注的工作环境。",
+      "url": "https://kahana.co/",
+      "homepage": "https://kahana.co/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "AI 浏览器",
+        "隐私保护",
+        "Mac 应用",
+        "智能标签管理",
+        "生产力工具"
+      ],
+      "firstSeen": "2026-05-28T04:08:53.026024+00:00",
+      "lastSeen": "2026-05-28T04:08:53.026024+00:00",
+      "cooldownExpiresAt": "2026-06-11T04:08:53.026024+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-28T04:08:53.026024+00:00",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/products/kahana",
+          "title": "Oasis Browser for Mac"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "重视隐私保护且希望借助 AI 提升浏览效率的 Mac 用户",
+        "useCases": [
+          "AI 助手跨标签页搜索和总结信息，无需手动切换",
+          "根据浏览历史和标签页自动规划工作任务",
+          "在隐私保护模式下使用 AI 处理敏感工作内容",
+          "企业环境中安全浏览内部系统并借助 AI 提效",
+          "替代传统浏览器，统一管理工作和个人的浏览体验"
+        ],
+        "designIntent": "Oasis Browser 试图在 AI 时代重新定义浏览器——不是给 Chrome 加个 AI 侧边栏，而是从底层设计一个 AI 原生浏览器，让 AI 能真正理解你的浏览上下文，同时确保隐私不会因此被泄露。",
+        "problemSolved": "传统浏览器加上 AI 插件往往意味着数据上传到第三方服务器，隐私风险高。Oasis 在本地处理 AI 任务，匿名训练模型，让用户既能享受 AI 辅助浏览的便利，又不必担心数据泄露。",
+        "score": 8,
+        "scoreReason": "AI 浏览器赛道正在升温，Oasis 的「隐私优先 + AI 原生」定位精准命中了 Mac 高端用户的核心关切。虽然市场竞争激烈（Arc、SigmaOS 等），但隐私牌是强有力的差异化。",
+        "tags": [
+          "AI 浏览器",
+          "隐私保护",
+          "Mac 应用",
+          "智能标签管理",
+          "生产力工具"
+        ],
+        "competitors": [
+          {
+            "name": "Arc Browser",
+            "url": "https://arc.net/",
+            "comparison": "Arc 注重标签管理和空间组织，但 AI 集成相对有限，Oasis 更强调 AI 深度整合和隐私保护"
+          },
+          {
+            "name": "SigmaOS",
+            "url": "https://sigmaos.com/",
+            "comparison": "SigmaOS 也有 AI 功能但以工作区管理见长，Oasis 的隐私优先定位更突出"
+          },
+          {
+            "name": "Dia Browser",
+            "url": "https://www.diabrowser.com/",
+            "comparison": "同属 AI 浏览器赛道，Dia 聚焦创意工作流，Oasis 更偏向隐私和安全性"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1146179_20260528_120646.png",
+      "appStoreScreenshots": [],
+      "rawData": {}
+    },
+    {
+      "id": "producthunt.com/r/p/1145388",
+      "name": "Hayley",
+      "slug": "hayley",
+      "description": "一款 AI 语音思考伴侣应用。你对着它自由说出想法，它会反馈三点：一个关于你真正在表达什么的洞察、一个跨会话检测到的模式、以及一个值得深思的问题。不是聊天机器人，不做治疗，没有议程。",
+      "url": "https://hayleyapp.com/",
+      "homepage": "https://hayleyapp.com/",
+      "type": "app",
+      "appStoreName": "Hayley App",
+      "appStoreUrl": "https://apps.apple.com/app/hayley/id6767863655",
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "AI 思考伴侣",
+        "语音交互",
+        "自我反思",
+        "心理健康",
+        "iOS 应用"
+      ],
+      "firstSeen": "2026-05-28T04:08:53.026024+00:00",
+      "lastSeen": "2026-05-28T04:08:53.026024+00:00",
+      "cooldownExpiresAt": "2026-06-11T04:08:53.026024+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-28T04:08:53.026024+00:00",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/products/hayley-your-thinking-companion",
+          "title": "Hayley"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "希望理清思绪、进行深度自我反思的个人用户，对心理健康和内在成长有兴趣的人群",
+        "useCases": [
+          "每天花 60 秒对着 Hayley 说出心中所想，获得 AI 反馈的洞察",
+          "在决策困难时通过语音表达来梳理思路",
+          "跟踪长期思维模式，发现自己的认知习惯和盲点",
+          "作为非临床的日常心智练习工具，补充冥想或日记习惯",
+          "在创作瓶颈期通过自由表达激发新的思考角度"
+        ],
+        "designIntent": "Hayley 的设计哲学是「不给建议，只做镜子」。它刻意不做成聊天机器人或 AI 治疗师，而是通过三个精心设计的反馈维度（洞察、模式、问题），帮助用户自己发现自己真正在想什么。",
+        "problemSolved": "人们在日常生活中很少有安全、无评判的空间来自由表达内心想法。Hayley 提供了一个低门槛、高隐私的语音出口，不试图「修复」用户，而是帮助用户更清晰地看见自己的思维模式。",
+        "score": 8,
+        "scoreReason": "在 AI 产品普遍追求「更聪明、更有用」的潮流中，Hayley 选择了一条更克制、更人性化的路线。它巧妙地避开了「AI 治疗师」的伦理雷区，定位为思考工具而非心理健康产品，设计理念成熟。",
+        "tags": [
+          "AI 思考伴侣",
+          "语音交互",
+          "自我反思",
+          "心理健康",
+          "iOS 应用"
+        ],
+        "competitors": [
+          {
+            "name": "Wysa",
+            "url": "https://www.wysa.com/",
+            "comparison": "Wysa 定位为 AI 心理健康聊天机器人，有临床框架；Hayley 刻意不做治疗，更偏重自我反思引导"
+          },
+          {
+            "name": "Rosebud",
+            "url": "https://www.rosebud.app/",
+            "comparison": "Rosebud 是 AI 日记工具，偏重文字输入；Hayley 以语音为主，反馈形式更结构化"
+          },
+          {
+            "name": "Pi",
+            "url": "https://pi.ai/",
+            "comparison": "Pi 是通用情感陪伴 AI，Hayley 则聚焦「反馈而非对话」，不做闲聊"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1145388_20260528_120655.png",
+      "appStoreScreenshots": [],
+      "rawData": {}
+    },
+    {
+      "id": "producthunt.com/r/p/1103562",
+      "name": "BankStatementLab",
+      "slug": "bankstatementlab",
+      "description": "利用 AI 自动从任何银行的 PDF 对账单中提取交易数据。上传文件即可获得结构化的 Excel、CSV 或 JSON 数据。支持全球各类银行的对账单格式。",
+      "url": "https://www.bankstatementlab.com/en",
+      "homepage": "https://www.bankstatementlab.com/en",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "银行对账单",
+        "AI 数据提取",
+        "财务工具",
+        "PDF 转换",
+        "个人理财"
+      ],
+      "firstSeen": "2026-05-28T04:08:53.026024+00:00",
+      "lastSeen": "2026-05-28T04:08:53.026024+00:00",
+      "cooldownExpiresAt": "2026-06-11T04:08:53.026024+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-28T04:08:53.026024+00:00",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/products/bankstatementlab",
+          "title": "BankStatementLab"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "需要处理银行对账单的会计、财务人员、小微企业主，以及需要整理个人财务的普通用户",
+        "useCases": [
+          "将 PDF 格式的银行对账单一键转为 Excel 表格进行财务分析",
+          "跨多个银行账户的对账单统一格式导入记账软件",
+          "企业财务审计时快速提取交易记录用于核对",
+          "个人用户整理年度消费记录用于报税或预算管理",
+          "贷款申请时将多份对账单快速标准化提交给银行"
+        ],
+        "designIntent": "银行对账单的 PDF 格式解析一直是个繁琐的手工活。BankStatementLab 的设计初衷就是用 AI 视觉识别技术，让任何格式的银行对账单都能被自动解析为结构化数据，消除手工录入的痛苦。",
+        "problemSolved": "传统银行对账单处理要么靠人工逐条录入（耗时易错），要么用 OCR 工具（识别率低、格式不兼容）。BankStatementLab 用 AI 技术解决了跨银行、跨语言、跨格式的对账单智能解析问题。",
+        "score": 8,
+        "scoreReason": "这是一个典型的「AI 解决老问题」的产品。银行对账单解析是一个真实且广泛存在的痛点，AI 视觉识别技术的成熟度恰好可以解决。产品功能专注，输出格式实用（Excel/CSV/JSON），免费增值模式合理。",
+        "tags": [
+          "银行对账单",
+          "AI 数据提取",
+          "财务工具",
+          "PDF 转换",
+          "个人理财"
+        ],
+        "competitors": [
+          {
+            "name": "Docparser",
+            "url": "https://docparser.com/",
+            "comparison": "Docparser 是通用文档解析工具，BankStatementLab 专注银行对账单场景，识别准确率更高"
+          },
+          {
+            "name": "Tabula",
+            "url": "https://tabula.technology/",
+            "comparison": "Tabula 是开源 PDF 表格提取工具，但需要手动选择区域，不如 AI 自动化"
+          },
+          {
+            "name": "Nanonets",
+            "url": "https://nanonets.com/",
+            "comparison": "Nanonets 是通用 OCR AI 平台，功能更广但设置更复杂，BankStatementLab 即开即用更简单"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1103562_20260528_120702.png",
+      "appStoreScreenshots": [],
+      "rawData": {}
+    },
+    {
+      "id": "producthunt.com/r/p/1155253",
+      "name": "ReplylessAI Sequences",
+      "slug": "replylessai-sequences",
+      "description": "一款内置 AI 的邮件客户端，帮助用户在个人邮箱中直接发送邮件序列（Sequences），无需购买昂贵的营销工具。支持自动分类收件箱、AI 草稿生成、跟进序列管理，让外联邮件变得简单高效。",
+      "url": "https://replyless.ai/",
+      "homepage": "https://replyless.ai/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "AI 邮件",
+        "邮件序列",
+        "收件箱管理",
+        "销售工具",
+        "Gmail"
+      ],
+      "firstSeen": "2026-05-28T04:08:53.026024+00:00",
+      "lastSeen": "2026-05-28T04:08:53.026024+00:00",
+      "cooldownExpiresAt": "2026-06-11T04:08:53.026024+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-28T04:08:53.026024+00:00",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/products/replylessai",
+          "title": "ReplylessAI Sequences"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "需要进行外联和客户沟通的创业者、自由职业者、小型销售团队",
+        "useCases": [
+          "在 Gmail/Outlook 中直接创建和管理邮件外联序列",
+          "AI 自动将收件箱邮件分类为客户、Newsletter、交易等类别",
+          "利用 AI 快速生成个性化的跟进邮件草稿",
+          "设置自动化跟进规则，根据客户回复自动触发下一步",
+          "替代昂贵的 Sales Engagement 工具，在邮箱内完成轻量外联"
+        ],
+        "designIntent": "ReplylessAI 的设计思路是「把邮件外联能力带回你的邮箱」。你不必学习复杂的 Salesloft 或 Outreach，也不用为小规模外联支付高昂费用——在熟悉的 Gmail 界面里就能完成序列邮件的创建和跟踪。",
+        "problemSolved": "目前要做邮件外联序列要么购买昂贵的销售工具（Salesloft、Outreach），要么手动一条条发邮件。ReplylessAI 提供了轻量级、低价位的替代方案，让个人和小团队也能用上专业的邮件序列功能。",
+        "score": 8,
+        "scoreReason": "切中了一个被大厂商忽视的市场——小团队和个人创业者的邮件外联需求。AI 自动分类和草稿功能直接提升效率，「在邮箱里完成一切」的理念降低了使用门槛。定价合理，差异化定位清晰。",
+        "tags": [
+          "AI 邮件",
+          "邮件序列",
+          "收件箱管理",
+          "销售工具",
+          "Gmail"
+        ],
+        "competitors": [
+          {
+            "name": "Superhuman",
+            "url": "https://superhuman.com/",
+            "comparison": "Superhuman 聚焦邮件速度和体验，但缺少邮件序列和外联功能，ReplylessAI 更偏向销售场景"
+          },
+          {
+            "name": "Mixmax",
+            "url": "https://mixmax.com/",
+            "comparison": "Mixmax 有序列功能但更侧重日程安排和模板，ReplylessAI 的 AI 分类和草稿更智能"
+          },
+          {
+            "name": "Outreach",
+            "url": "https://www.outreach.io/",
+            "comparison": "Outreach 是专业销售外联平台，功能全面但价格昂贵，ReplylessAI 定位轻量和低价"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1155253_20260528_120710.png",
+      "appStoreScreenshots": [],
+      "rawData": {}
     }
   ],
   "tracking": {
