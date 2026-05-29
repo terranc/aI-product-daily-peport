@@ -2,3 +2,12 @@
 .agents/
 .opencode/
 .claude/
+
+# Trellis runtime and cache
+.trellis/.runtime/
+.trellis/scripts/common/__pycache__/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
