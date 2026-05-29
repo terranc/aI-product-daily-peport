@@ -6,6 +6,7 @@ AI 产品雷达 — 静态网站生成器
 
 import json
 import shutil
+import urllib.parse
 from datetime import datetime
 from pathlib import Path
 
@@ -629,6 +630,24 @@ def render_product_detail_content(prd, depth=0):
     btn_web = f'<a href="{url}" target="_blank" class="btn btn-primary">{icon("external")} 访问官网</a>' if url else ''
     btn_app = f'<a href="{prd["appStoreUrl"]}" target="_blank" class="btn btn-ghost">{icon("phone")} App Store</a>' if prd.get('appStoreUrl') else ''
 
+    # ChatGPT 呼出按钮
+    product_name = prd.get('name', '')
+    product_url = url
+    product_slug = prd.get('slug', '').lower()
+
+    chatgpt_prompt = f"""你正在协助分析以下产品：
+
+产品：{product_name}
+网址：{product_url}
+产品分析简报：https://ai-daily.asdasd.vip/products/{product_slug}.html
+
+对于这个产品，我还想进一步沟通。
+请关注其真实需求、核心价值、实现逻辑、竞争优势、商业模式以及可复制或可改进的机会，并避免停留在表面的功能描述。
+------"""
+
+    encoded_prompt = urllib.parse.quote(chatgpt_prompt)
+    btn_chatgpt = f'<a href="https://chatgpt.com/?q={encoded_prompt}" target="_blank" class="btn btn-ghost" style="background:linear-gradient(135deg,#10a37f 0%,#1a7f64 100%);color:#fff;border:none;">💬 ChatGPT 分析</a>'
+
     return f"""<div id="product-detail-content">
       <article class="detail-card">
         <div class="detail-hero">
@@ -640,7 +659,7 @@ def render_product_detail_content(prd, depth=0):
           <p class="detail-subtitle">{prd.get('description','')}</p>
           <div class="detail-actions">
             <span class="detail-score-badge">{score}</span>
-            {btn_web}{btn_app}
+            {btn_web}{btn_app}{btn_chatgpt}
           </div>
         </div>
         <div class="detail-body">
