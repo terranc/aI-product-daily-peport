@@ -182,3 +182,22 @@
 - **踩坑**：
   - Product Hunt 全站 Cloudflare 保护，WebFetch 无法直接抓取产品详情，改用 WebSearch + 第三方平台获取产品信息
   - raw-candidates 的 sourceChannel 字段在查询时需要取 `sourceChannel` 和 `source` 两个可能的字段名
+
+---
+
+## 2026-05-28 12:00
+
+- **状态**：✅ 成功
+- **抓取数**：230 个候选产品（Twitter 50 + V2EX 40 + Reddit 60 + HN 30 + Product Hunt 50）
+- **去重后**：230 个（自动去重 0 命中，但 3 个昨日精选产品 SelectPrism/Brew/DodoForm 出现在候选列表中，手动排除）
+- **过滤后**：精选 5 个面向用户的产品（本期 Twitter/V2EX/Reddit/HN 以开发讨论和技术工具为主，PH 贡献全部精选）
+- **精选 TOP 5**：
+  1. Bluedot 2.1 — Apple Watch 录音 + Claude 智能会议笔记（评分 9）
+  2. Oasis Browser for Mac — 隐私优先 AI 浏览器（评分 8）
+  3. Hayley — AI 语音思考伴侣（评分 8）
+  4. BankStatementLab — AI 银行对账单智能提取（评分 8）
+  5. ReplylessAI Sequences — AI 邮箱内邮件序列工具（评分 8）
+- **截图**：5 张网站截图全部成功
+- **部署**：main + gh-pages 推送成功
+- **踩坑**：
+  - 自动化 product_id 去重失效：raw-candidates 的 product_id 格式为 `producthunt.com/r/p/1154630`，数据库中为简短 ID（如 `selectprism`），两者不匹配。需在 LLM 分析阶段手动排除近期已推荐产品

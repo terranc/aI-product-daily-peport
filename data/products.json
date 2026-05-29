@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-05-28T04:08:53.026024+00:00",
+  "lastUpdated": "2026-05-29T12:07:03.508834",
   "products": [
     {
       "id": "dafa9686fbe1",
@@ -5428,6 +5428,111 @@
       "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1155253_20260528_120710.png",
       "appStoreScreenshots": [],
       "rawData": {}
+    },
+    {
+      "id": "producthunt.com/r/p/1156046",
+      "name": "Octolane",
+      "slug": "octolane",
+      "description": "AI 自动驾驶 CRM——用对话替代手动录入。通过聊天指令管理客户关系，AI 自动从邮件、日历中提取信息更新 CRM，识别网站访客，自动发送跟进邮件，让销售团队彻底告别繁琐的数据录入工作。",
+      "url": "https://www.octolane.com/",
+      "homepage": "https://www.octolane.com/",
+      "type": "saas",
+      "tags": [
+        "CRM",
+        "AI销售",
+        "自动化",
+        "GTM"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/posts/octolane",
+      "firstSeen": "2026-05-29T12:07:03.508834",
+      "cooldownExpiresAt": "2026-06-12T12:07:03"
+    },
+    {
+      "id": "producthunt.com/r/p/1156750",
+      "name": "CircadiaOS",
+      "slug": "circadiaos",
+      "description": "纯软件 AI 睡眠优化系统——无需昂贵的智能床垫或传感器。连接现有的可穿戴设备和智能恒温器，通过 AI 学习睡眠模式，每晚自动调节室温，用月费 $19.99 实现 3000 美元床垫 Pod 的效果。",
+      "url": "https://www.producthunt.com/products/circadiaos",
+      "homepage": "https://www.producthunt.com/products/circadiaos",
+      "type": "app",
+      "tags": [
+        "睡眠优化",
+        "健康AI",
+        "可穿戴",
+        "智能家居"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/posts/circadiaos",
+      "firstSeen": "2026-05-29T12:07:03.508834",
+      "cooldownExpiresAt": "2026-06-12T12:07:03"
+    },
+    {
+      "id": "producthunt.com/r/p/1157172",
+      "name": "Growati",
+      "slug": "growati",
+      "description": "YouTube 后期制作自动驾驶工具——AI 自动生成个性化标题、描述、缩略图和章节，并根据视频表现数据持续优化更新。专为被后期制作耗尽精力的创作者设计，每个视频可节省 4-8 小时。",
+      "url": "https://www.producthunt.com/products/growati",
+      "homepage": "https://www.producthunt.com/products/growati",
+      "type": "saas",
+      "tags": [
+        "YouTube",
+        "内容创作",
+        "AI自动化",
+        "视频后期"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/posts/growati",
+      "firstSeen": "2026-05-29T12:07:03.508834",
+      "cooldownExpiresAt": "2026-06-12T12:07:03"
+    },
+    {
+      "id": "producthunt.com/r/p/1157151",
+      "name": "Sublern",
+      "slug": "sublern",
+      "description": "浏览器 AI 字幕翻译扩展——在 YouTube、Netflix、TED 等 10+ 视频平台上，鼠标悬停任意字幕单词即可获得即时翻译、发音和例句。将看视频变成高效的外语学习方式。",
+      "url": "https://sublern.pro",
+      "homepage": "https://sublern.pro",
+      "type": "website",
+      "tags": [
+        "语言学习",
+        "字幕翻译",
+        "浏览器扩展",
+        "AI翻译"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/posts/sublern",
+      "firstSeen": "2026-05-29T12:07:03.508834",
+      "cooldownExpiresAt": "2026-06-12T12:07:03"
+    },
+    {
+      "id": "producthunt.com/r/p/1155135",
+      "name": "Curlo",
+      "slug": "curlo",
+      "description": "AI 本地音频资产管理器——专为 macOS 设计，用自然语言描述即可搜索本地音效库和音乐库。完全本地运行的 AI 模型保护隐私，支持语义搜索、元数据管理、UCS 分类。",
+      "url": "https://curlo.ahrisy.com/",
+      "homepage": "https://curlo.ahrisy.com/",
+      "type": "app",
+      "tags": [
+        "音频管理",
+        "AI搜索",
+        "隐私优先",
+        "创意工具"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/posts/curlo",
+      "firstSeen": "2026-05-29T12:07:03.508834",
+      "cooldownExpiresAt": "2026-06-12T12:07:03"
     }
   ],
   "tracking": {

@@ -1,0 +1,317 @@
+{
+  "date": "2026-05-29",
+  "generatedAt": "2026-05-29T12:07:03.508834",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "producthunt.com/r/p/1156046",
+      "name": "Octolane",
+      "slug": "octolane",
+      "description": "AI 自动驾驶 CRM——用对话替代手动录入。通过聊天指令管理客户关系，AI 自动从邮件、日历中提取信息更新 CRM，识别网站访客，自动发送跟进邮件，让销售团队彻底告别繁琐的数据录入工作。",
+      "url": "https://www.octolane.com/",
+      "homepage": "https://www.octolane.com/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260529_120441.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "CRM",
+        "AI销售",
+        "自动化",
+        "GTM"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/posts/octolane",
+      "firstSeen": "2026-05-29T12:07:03.508834",
+      "analysis": {
+        "targetAudience": "销售团队和创始人，尤其是需要高效管理客户关系但厌倦手动录入数据的中小团队",
+        "useCases": [
+          "通过自然语言指令管理销售流程，如给客户发跟进邮件",
+          "自动从 Gmail 和日历中提取客户交互信息更新 CRM",
+          "识别网站匿名访客并自动关联到客户档案",
+          "自动发送个性化跟进邮件，提升转化率",
+          "实时查看卡住的交易和销售管道状态"
+        ],
+        "designIntent": "传统 CRM 最大的痛点是数据录入。Octolane 用对话式交互和 AI Agent 取代重复劳动，让 CRM 真正自动驾驶。",
+        "problemSolved": "解决了销售人员因繁琐的 CRM 数据维护而降低工作效率的问题。通过 AI 自动化数据录入和跟进，让团队把时间花在真正有价值的关系建立上。",
+        "tags": [
+          "CRM",
+          "AI销售",
+          "自动化",
+          "GTM",
+          "对话式"
+        ],
+        "score": 8,
+        "scoreReason": "AI-native 的 CRM 方向很有前景，直接解决了销售团队的核心痛点。对话式交互降低了使用门槛，自动化能力减少了数据录入负担。",
+        "competitors": [
+          {
+            "name": "Attio",
+            "url": "https://attio.com/",
+            "comparison": "Attio 也是 AI 原生 CRM，但更偏向数据驱动；Octolane 更强调对话式交互和自动化执行"
+          },
+          {
+            "name": "HubSpot",
+            "url": "https://www.hubspot.com/",
+            "comparison": "HubSpot 功能全面但臃肿，Octolane 更轻量且 AI 能力更原生"
+          },
+          {
+            "name": "Folk",
+            "url": "https://folk.app/",
+            "comparison": "Folk 注重简洁的联系人管理，Octolane 在自动化和 AI Agent 能力上更进一步"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1156750",
+      "name": "CircadiaOS",
+      "slug": "circadiaos",
+      "description": "纯软件 AI 睡眠优化系统——无需昂贵的智能床垫或传感器。连接现有的可穿戴设备和智能恒温器，通过 AI 学习睡眠模式，每晚自动调节室温，用月费 $19.99 实现 3000 美元床垫 Pod 的效果。",
+      "url": "https://www.producthunt.com/products/circadiaos",
+      "homepage": "https://www.producthunt.com/products/circadiaos",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260529_120451.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "睡眠优化",
+        "健康AI",
+        "可穿戴",
+        "智能家居"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/posts/circadiaos",
+      "firstSeen": "2026-05-29T12:07:03.508834",
+      "analysis": {
+        "targetAudience": "关注睡眠质量的健康意识人群，尤其是已有智能手表和智能家居设备的用户",
+        "useCases": [
+          "连接 Apple Watch/Oura 等设备，AI 分析个人睡眠数据",
+          "根据睡眠阶段自动调节卧室温度，优化深度睡眠",
+          "生成个性化的睡眠改善建议和环境调整方案",
+          "长期追踪睡眠趋势，持续优化温度策略",
+          "与 Nest/Ecobee 恒温器联动，实现全自动化"
+        ],
+        "designIntent": "市面上的睡眠优化方案要么需要购买 3000 美元的智能床垫，要么依赖单一传感器。CircadiaOS 用纯软件方案连接用户已有的设备，通过 AI 算法实现同等效果。",
+        "problemSolved": "解决了高品质睡眠优化门槛过高的问题。用户不需要购买昂贵的新硬件，就能获得基于 AI 的个性化睡眠温度管理。",
+        "tags": [
+          "睡眠优化",
+          "健康AI",
+          "可穿戴",
+          "智能家居",
+          "IoT"
+        ],
+        "score": 7,
+        "scoreReason": "用软件方案替代昂贵硬件的思路很聪明，降低了睡眠优化的门槛。与主流可穿戴设备和智能家居的兼容性是亮点。",
+        "competitors": [
+          {
+            "name": "Eight Sleep",
+            "url": "https://eightsleep.com/",
+            "comparison": "Eight Sleep 需要购买专用智能床垫（$2000+），CircadiaOS 纯软件方案，成本低一个数量级"
+          },
+          {
+            "name": "SleepScore",
+            "url": "https://www.sleepscore.com/",
+            "comparison": "SleepScore 主要做睡眠追踪和评分，CircadiaOS 更进一步实现了环境自动调控"
+          },
+          {
+            "name": "Nest (Google)",
+            "url": "https://store.google.com/category/thermostats",
+            "comparison": "Nest 恒温器本身有基础调度功能，CircadiaOS 在其之上增加了 AI 驱动的个性化睡眠温度优化"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1157172",
+      "name": "Growati",
+      "slug": "growati",
+      "description": "YouTube 后期制作自动驾驶工具——AI 自动生成个性化标题、描述、缩略图和章节，并根据视频表现数据持续优化更新。专为被后期制作耗尽精力的创作者设计，每个视频可节省 4-8 小时。",
+      "url": "https://www.producthunt.com/products/growati",
+      "homepage": "https://www.producthunt.com/products/growati",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260529_120500.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "YouTube",
+        "内容创作",
+        "AI自动化",
+        "视频后期"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/posts/growati",
+      "firstSeen": "2026-05-29T12:07:03.508834",
+      "analysis": {
+        "targetAudience": "YouTube 内容创作者，尤其是独立创作者和中小团队",
+        "useCases": [
+          "AI 自动生成符合 YouTube 算法优化的视频标题和描述",
+          "根据视频内容智能生成缩略图，提升点击率",
+          "自动为长视频生成章节时间戳",
+          "根据视频发布后的表现数据，自动调整标题和描述",
+          "批量管理多个视频的后期元数据优化"
+        ],
+        "designIntent": "YouTube 创作者最大的隐性成本不是拍摄，而是后期制作。Growati 用 AI 将重复性工作自动化，并且能根据数据反馈持续迭代优化。",
+        "problemSolved": "解决了 YouTube 创作者后期制作耗时过长的问题。通过 AI 自动生成和优化元数据，让创作者把精力集中在内容创作本身。",
+        "tags": [
+          "YouTube",
+          "内容创作",
+          "AI自动化",
+          "视频后期",
+          "SEO优化"
+        ],
+        "score": 7,
+        "scoreReason": "精准切入 YouTube 创作者的痛点，AI 自动生成标题/缩略图/描述是刚需。根据表现数据自动优化是差异化亮点。",
+        "competitors": [
+          {
+            "name": "TubeBuddy",
+            "url": "https://www.tubebuddy.com/",
+            "comparison": "TubeBuddy 提供 SEO 工具和 A/B 测试，但主要是辅助工具；Growati 更强调全自动化"
+          },
+          {
+            "name": "vidIQ",
+            "url": "https://vidiq.com/",
+            "comparison": "vidIQ 擅长数据分析和关键词研究，Growati 在内容生成和自动化方面更深入"
+          },
+          {
+            "name": "Canva",
+            "url": "https://www.canva.com/",
+            "comparison": "Canva 是通用设计工具，Growati 专为 YouTube 缩略图和元数据优化，更聚焦"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1157151",
+      "name": "Sublern",
+      "slug": "sublern",
+      "description": "浏览器 AI 字幕翻译扩展——在 YouTube、Netflix、TED 等 10+ 视频平台上，鼠标悬停任意字幕单词即可获得即时翻译、发音和例句。将看视频变成高效的外语学习方式。",
+      "url": "https://sublern.pro",
+      "homepage": "https://sublern.pro",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260529_120511.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "语言学习",
+        "字幕翻译",
+        "浏览器扩展",
+        "AI翻译"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/posts/sublern",
+      "firstSeen": "2026-05-29T12:07:03.508834",
+      "analysis": {
+        "targetAudience": "外语学习者，尤其是通过看视频学语言的人群",
+        "useCases": [
+          "在 YouTube 看英语视频时，悬停不认识的单词获取中文翻译",
+          "在 Netflix 看外语剧集时即时查看单词释义和发音",
+          "将生词保存到个人词典，后续复习",
+          "在 TED 演讲中学习专业词汇和表达",
+          "通过上下文例句加深对单词的理解"
+        ],
+        "designIntent": "传统字幕翻译要么全屏翻译丢失原文，要么需要暂停查词打断节奏。Sublern 的悬停翻译让用户在不中断观看的情况下即时获取词义。",
+        "problemSolved": "解决了外语学习者看视频时频繁查词打断节奏的问题。通过悬停即时翻译，让视频观看和语言学习无缝融合。",
+        "tags": [
+          "语言学习",
+          "字幕翻译",
+          "浏览器扩展",
+          "AI翻译",
+          "Netflix"
+        ],
+        "score": 7,
+        "scoreReason": "悬停翻译的交互设计很巧妙，解决了语言学习中的真实痛点。支持多平台是加分项。",
+        "competitors": [
+          {
+            "name": "Language Reactor",
+            "url": "https://languagereactor.com/",
+            "comparison": "Language Reactor 也提供双语字幕，但更偏向完整课程体验；Sublern 更轻量"
+          },
+          {
+            "name": "Dualsub",
+            "url": "https://addons.mozilla.org/firefox/addon/dualsub/",
+            "comparison": "Dualsub 双语字幕显示原文和翻译；Sublern 支持悬停单个单词，更灵活"
+          },
+          {
+            "name": "Immersive Translate",
+            "url": "https://immersivetranslate.com/",
+            "comparison": "Immersive Translate 是通用网页翻译工具；Sublern 专注视频字幕场景"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1155135",
+      "name": "Curlo",
+      "slug": "curlo",
+      "description": "AI 本地音频资产管理器——专为 macOS 设计，用自然语言描述即可搜索本地音效库和音乐库。完全本地运行的 AI 模型保护隐私，支持语义搜索、元数据管理、UCS 分类。",
+      "url": "https://curlo.ahrisy.com/",
+      "homepage": "https://curlo.ahrisy.com/",
+      "type": "app",
+      "appStoreName": "Curlo - Audio Asset Manager",
+      "appStoreUrl": "https://apps.apple.com/us/app/curlo-audio-asset-manager/id6759231617",
+      "screenshotUrl": "assets/screenshots/unknown_20260529_120523.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "音频管理",
+        "AI搜索",
+        "隐私优先",
+        "创意工具"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/posts/curlo",
+      "firstSeen": "2026-05-29T12:07:03.508834",
+      "analysis": {
+        "targetAudience": "音效设计师、视频编辑、游戏开发者、音乐制作人等需要管理大量本地音频素材的专业人士",
+        "useCases": [
+          "用自然语言描述搜索音效，如雨声中的雷鸣",
+          "搜索相似音效，快速找到匹配的素材",
+          "自动管理音频文件的元数据和标签",
+          "按 UCS 分类标准组织音效库",
+          "预览和比较搜索结果中的音频文件"
+        ],
+        "designIntent": "专业音频工作者的音效库通常包含数千甚至数万个文件，传统搜索效率极低。Curlo 用本地 AI 模型实现语义搜索，同时完全离线运行保护隐私。",
+        "problemSolved": "解决了音频专业人士在海量本地音效库中快速找到合适素材的痛点。语义搜索取代了关键词匹配，本地 AI 运行确保了商业音频素材的隐私安全。",
+        "tags": [
+          "音频管理",
+          "AI搜索",
+          "隐私优先",
+          "创意工具",
+          "macOS"
+        ],
+        "score": 8,
+        "scoreReason": "精准定位音频专业人士的小众但刚需市场，语义搜索是真正的差异化能力。完全本地运行的 AI 模型对隐私敏感的商业音频工作流非常重要。",
+        "competitors": [
+          {
+            "name": "Soundly",
+            "url": "https://www.soundly.com/",
+            "comparison": "Soundly 是云端音效管理工具，支持搜索和协作；Curlo 强调本地化和隐私保护"
+          },
+          {
+            "name": "BaseHead",
+            "url": "https://basehead.com/",
+            "comparison": "BaseHead 是传统音效管理软件，依赖文件名和标签搜索；Curlo 的 AI 语义搜索更智能"
+          },
+          {
+            "name": "Splice",
+            "url": "https://splice.com/",
+            "comparison": "Splice 是云端音效市场和管理平台；Curlo 专注本地库管理，适合有自有素材库的用户"
+          }
+        ]
+      }
+    }
+  ]
+}
