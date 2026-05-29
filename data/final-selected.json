@@ -1,0 +1,59 @@
+[
+  {
+    "id": "ph_kim-personal-health-assistant",
+    "name": "Kim Personal Health Assistant",
+    "description": "The intelligence layer for Apple Health\n          \n          \n            Discussion\n            |\n            Link",
+    "url": "https://www.producthunt.com/r/p/1156976?app_id=339",
+    "source_url": "https://www.producthunt.com/products/kim-personal-health-assistant",
+    "score": 0,
+    "source": "producthunt",
+    "timestamp": "2026-05-27T01:32:18-07:00",
+    "product_id": "producthunt.com/r/p/1156976"
+  },
+  {
+    "id": "ph_robinhood-agentic-trading",
+    "name": "Robinhood Agentic Trading",
+    "description": "Let your agent trade\n          \n          \n            Discussion\n            |\n            Link",
+    "url": "https://www.producthunt.com/r/p/1157637?app_id=339",
+    "source_url": "https://www.producthunt.com/products/robinhood",
+    "score": 0,
+    "source": "producthunt",
+    "timestamp": "2026-05-27T22:21:51-07:00",
+    "product_id": "producthunt.com/r/p/1157637"
+  },
+  {
+    "id": "v2ex_1216410",
+    "name": "自己做的一个口播提词工具，更新到了 1.5.6，走稿跟读更丝滑",
+    "description": "随声提词这个 app 能做什么？简单说：它不是传统手动滚屏提词器，而是“你说到哪，稿子跟到哪”，靠语音识别自动走稿，特别适合口播、自媒体、练演讲，或者单纯就想练练面对观众/面对视频说话演讲/自己大声朗读的。\r\n\r\n1.5.6 主要更新：\r\n\r\n - 长文跟读稳定性优化，滚动不卡，加了丝滑跟读动效\r\n\r\n - 跳读增强：随便跳到后面读也能定位，不用手点，“看哪打哪”\r\n\r\n - 长按可重新定位预读点，调速自由\r\n\r\n - 跟读过程中可调整字体/布局，不打断进度\r\n\r\n - 导入/分享体验优化，自动按口播习惯微调格式\r\n\r\n - 剩余时间显示更准 + 当前时钟\r\n\r\n - 实验性音频优化：会议室、地铁、户外等背景音场景下识别更稳\r\n\r\n - 一个小密码：支持低语 / 耳语 / 远距离跟读，不用贴脸喊\r\n\r\n免费就能用核心功能。\r\n大陆苹果商店，2026.06.01 前所有会员套餐限时 2 折。\r\n\r\nApp Store 或 Play Store 搜索“随声提词”或“SpeechCue”就行。\r\n\r\nhttps://www.speechcue.pro/\r\n\r\n欢迎体验",
+    "url": "https://www.v2ex.com/t/1216410",
+    "source_url": "https://www.v2ex.com/t/1216410",
+    "score": 1,
+    "source": "v2ex",
+    "node": "create",
+    "timestamp": 1780026454,
+    "product_id": "v2ex.com/t/1216410"
+  },
+  {
+    "id": "ph_neuralagent-2-5",
+    "name": "NeuralAgent 2.5",
+    "description": "Talk to your computer, it responds and gets things done.\n          \n          \n            Discussion\n            |\n            Link",
+    "url": "https://www.producthunt.com/r/p/1157517?app_id=339",
+    "source_url": "https://www.producthunt.com/products/neuralagent",
+    "score": 0,
+    "source": "producthunt",
+    "timestamp": "2026-05-27T16:23:44-07:00",
+    "product_id": "producthunt.com/r/p/1157517"
+  },
+  {
+    "id": "ph_1156203",
+    "name": "Pawse.ai",
+    "description": "An acoustic regulation system for dogs",
+    "url": "https://pawse.ai",
+    "source_url": "https://www.producthunt.com/posts/pawse-ai",
+    "score": 0,
+    "source": "producthunt",
+    "author": "pawse",
+    "timestamp": "2026-05-27T00:00:00Z",
+    "product_id": "producthunt.com/r/p/1156203"
+  }
+]

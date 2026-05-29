@@ -62,6 +62,8 @@ LLM_MODEL=gpt-4o-mini
 - products.json 是对象包装结构，读取时需要 `data['products']`
 - webshot.site 截图服务可能返回 429/500，需要容错
 
-## 已知问题 (2026-05-28)
+## 已知问题
 
-- **product_id 自动去重失效**：raw-candidates 的 `product_id`（如 `producthunt.com/r/p/1154630`）与数据库 `products[].id`（如简短 slug）格式不一致，导致基于 product_id 的自动去重始终为 0。当前解决方案：执行流程中增加 LLM 分析阶段手动检查近期报告中的精选产品，排除已推荐的项目。
+- **product_id 自动去重失效**：raw-candidates 的 `product_id`（如 `producthunt.com/r/p/1154630`）与数据库 `products[].id`（如简短 slug）格式不一致，导致基于 product_id 的自动去重始终为 0。当前解决方案：执行流程中增加 LLM 分析阶段手动检查近期报告中的精选产品，排除已推荐的项目。(2026-05-28)
+- **Reddit 渠道抓取为 0**：2026-05-29 Reddit 渠道返回 0 条结果，可能与 Reddit API 限流或 RSS 源变更有关。(2026-05-29)
+- **PH 页面 Cloudflare 保护**：Product Hunt 详情页被 Cloudflare 保护，无法通过 WebFetch 直接抓取。URL 验证改为通过搜索引擎查找产品官网。(2026-05-29)

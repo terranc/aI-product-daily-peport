@@ -1,0 +1,285 @@
+[
+  {
+    "id": "ph_kim-personal-health-assistant",
+    "name": "Kim：AI健康助手",
+    "description": "Apple Health的智能分析层，将健康数据转化为个性化洞察和建议",
+    "url": "https://www.oculimedical.com/",
+    "source_url": "https://www.producthunt.com/products/kim-personal-health-assistant",
+    "score": 0,
+    "source": "producthunt",
+    "timestamp": "2026-05-27T01:32:18-07:00",
+    "product_id": "producthunt.com/r/p/1156976",
+    "analysis": {
+      "targetAudience": "关注健康数据、使用Apple Health的iPhone用户，特别是希望从健康数据中获得个性化洞察的人群",
+      "useCases": [
+        "分析Apple Health中的健康数据趋势",
+        "获得基于个人数据的健康建议",
+        "追踪补充剂、习惯或营养变化的效果",
+        "通过语音或文字与AI健康助手互动",
+        "整合食物、睡眠、运动等多维度健康信息"
+      ],
+      "designIntent": "将Apple Health的原始数据转化为可操作的健康洞察，通过AI帮助用户理解自己的身体状况，找到真正适合自己的健康方案。",
+      "problemSolved": "解决了Apple Health数据丰富但难以解读的问题，帮助用户从海量健康数据中提取有价值的个性化建议，而不是面对一堆数字无从下手。",
+      "tags": [
+        "健康管理",
+        "AI助手",
+        "Apple Health",
+        "数据分析",
+        "个性化建议"
+      ],
+      "score": 8,
+      "scoreReason": "将AI与Apple Health深度整合，解决了健康数据解读的痛点。产品定位清晰，面向明确的用户群体。但需要验证AI建议的准确性和用户实际使用效果。",
+      "competitors": [
+        {
+          "name": "Apple Health",
+          "url": "https://www.apple.com/health/",
+          "comparison": "Apple Health是数据聚合平台，而Kim是智能分析层，提供AI驱动的洞察和建议"
+        },
+        {
+          "name": "Whoop",
+          "url": "https://www.whoop.com/",
+          "comparison": "Whoop需要专用硬件，而Kim直接利用现有Apple Health数据，使用门槛更低"
+        },
+        {
+          "name": "Oura Ring",
+          "url": "https://ouraring.com/",
+          "comparison": "Oura Ring是硬件+软件方案，Kim是纯软件方案，专注于数据分析和洞察"
+        }
+      ]
+    },
+    "homepage": "https://www.oculimedical.com/",
+    "type": "app",
+    "screenshotUrl": "assets/screenshots/ph_kim-personal-health-assistant_20260529_142503.png",
+    "appStoreScreenshots": [
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d9/fe/18/d9fe1826-7313-826f-78f4-e700b7e7dc1a/explore.jpg/392x696bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3d/b7/86/3db78650-e461-2814-6da7-f30e671396aa/_U65b0_U589e_U76841_U5f20_U641c_U7d22__U82f1_U8bed.png/392x696bb.png",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/11/31/40/113140db-69de-b210-a185-bfd51cd2b665/without.jpg/392x696bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/25/28/12/252812ad-2e12-a0c6-9317-e00f425b6211/make.jpg/392x696bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/00/f7/23/00f72360-315c-45df-3218-6def8bfccfac/get_curious.jpg/392x696bb.jpg"
+    ],
+    "appStoreName": "rednote",
+    "appStoreUrl": "https://apps.apple.com/us/app/rednote/id741292507?uo=4"
+  },
+  {
+    "id": "ph_robinhood-agentic-trading",
+    "name": "Robinhood AI代理交易",
+    "description": "让AI代理自动执行股票交易，开创自主金融新时代",
+    "url": "https://robinhood.com/",
+    "source_url": "https://www.producthunt.com/products/robinhood",
+    "score": 0,
+    "source": "producthunt",
+    "timestamp": "2026-05-27T22:21:51-07:00",
+    "product_id": "producthunt.com/r/p/1157637",
+    "analysis": {
+      "targetAudience": "使用Robinhood平台的散户投资者，特别是希望通过AI自动化交易策略的用户",
+      "useCases": [
+        "授权AI代理自动执行股票交易",
+        "连接第三方AI智能体进行投资管理",
+        "实现无需人工确认的自动化交易",
+        "通过MCP协议接入各种AI工具",
+        "让AI代理管理投资组合"
+      ],
+      "designIntent": "将金融服务从AI辅助建议升级为AI自主执行，让用户可以将交易决策权委托给AI代理，实现真正的自主金融。",
+      "problemSolved": "解决了传统金融交易中AI只能提供建议但无法执行的痛点，让用户可以真正让AI代理管理资金，提高交易效率和策略执行能力。",
+      "tags": [
+        "AI交易",
+        "自主金融",
+        "Robinhood",
+        "MCP协议",
+        "自动化投资"
+      ],
+      "score": 9,
+      "scoreReason": "开创性的产品，将AI代理与金融交易深度结合，是首家向散户提供自主AI交易服务的主流券商。但需要关注风险控制和用户教育问题。",
+      "competitors": [
+        {
+          "name": "Alpaca",
+          "url": "https://alpaca.markets/",
+          "comparison": "Alpaca提供API交易接口，而Robinhood Agentic Trading提供完整的AI代理交易解决方案"
+        },
+        {
+          "name": "QuantConnect",
+          "url": "https://www.quantconnect.com/",
+          "comparison": "QuantConnect是量化交易平台，需要编程能力；Robinhood Agentic Trading面向普通散户，使用门槛更低"
+        },
+        {
+          "name": "TradeStation",
+          "url": "https://www.tradestation.com/",
+          "comparison": "TradeStation提供传统交易平台，Robinhood Agentic Trading专注于AI代理自动化交易"
+        }
+      ]
+    },
+    "homepage": "https://robinhood.com/",
+    "type": "saas",
+    "screenshotUrl": "assets/screenshots/ph_robinhood-agentic-trading_20260529_142522.png",
+    "appStoreScreenshots": [],
+    "appStoreName": null,
+    "appStoreUrl": null
+  },
+  {
+    "id": "v2ex_1216410",
+    "name": "随声提词（SpeakFlow）",
+    "description": "语音识别智能提词器，你说到哪稿子跟到哪，专为口播和演讲设计",
+    "url": "https://www.promptai-app.cn/",
+    "source_url": "https://www.v2ex.com/t/1216410",
+    "score": 1,
+    "source": "v2ex",
+    "node": "create",
+    "timestamp": 1780026454,
+    "product_id": "v2ex.com/t/1216410",
+    "analysis": {
+      "targetAudience": "内容创作者、口播主播、自媒体从业者、需要练习演讲的人群",
+      "useCases": [
+        "口播视频拍摄时的实时提词",
+        "演讲练习时的智能跟读",
+        "直播时的台词提示",
+        "录制播客或有声内容时的稿件跟随",
+        "教学或培训时的讲稿提示"
+      ],
+      "designIntent": "通过语音识别技术实现真正的智能提词，让提词器能够理解用户的语速和节奏，自动调整滚动速度，提供更自然的提词体验。",
+      "problemSolved": "解决了传统提词器需要手动控制滚动速度、容易与语速不同步的问题，让内容创作者可以专注于内容表达，而不是操作设备。",
+      "tags": [
+        "提词器",
+        "语音识别",
+        "口播工具",
+        "内容创作",
+        "自媒体"
+      ],
+      "score": 7,
+      "scoreReason": "解决了口播场景的真实痛点，语音识别跟读功能实用性强。但需要验证识别准确率和不同口音的适配性，市场竞争激烈。",
+      "competitors": [
+        {
+          "name": "Teleprompter Premium",
+          "url": "https://apps.apple.com/app/teleprompter-premium/id1046688825",
+          "comparison": "Teleprompter Premium是传统手动滚动提词器，而随声提词通过语音识别实现自动跟读"
+        },
+        {
+          "name": "BigVu",
+          "url": "https://www.bigvu.tv/",
+          "comparison": "BigVu是专业视频制作平台，提供提词功能但价格较高；随声提词更轻量、专注于提词体验"
+        },
+        {
+          "name": "PromptSmart",
+          "url": "https://promptsmart.com/",
+          "comparison": "PromptSmart也提供语音识别提词，但主要面向专业演讲者；随声提词更贴近国内内容创作者需求"
+        }
+      ]
+    },
+    "homepage": "https://www.promptai-app.cn/",
+    "type": "app",
+    "screenshotUrl": "assets/screenshots/v2ex_1216410_20260529_142537.png",
+    "appStoreScreenshots": [],
+    "appStoreName": "SpeakFlow - Voice Teleprompter",
+    "appStoreUrl": "https://apps.apple.com/us/app/speakflow-voice-teleprompter/id6761644502?uo=4"
+  },
+  {
+    "id": "ph_neuralagent-2-5",
+    "name": "NeuralAgent 2.5：桌面AI助手",
+    "description": "与电脑对话，让它响应并完成任务，真正的桌面级AI自动化代理",
+    "url": "https://github.com/0xk1h0/NeuralAgent",
+    "source_url": "https://www.producthunt.com/products/neuralagent",
+    "score": 0,
+    "source": "producthunt",
+    "timestamp": "2026-05-27T16:23:44-07:00",
+    "product_id": "producthunt.com/r/p/1157517",
+    "analysis": {
+      "targetAudience": "需要在桌面环境中自动化任务的用户，特别是希望用自然语言控制电脑的普通用户",
+      "useCases": [
+        "通过语音或文字指令控制电脑完成任务",
+        "自动化重复性的桌面操作",
+        "跨应用程序的工作流程自动化",
+        "智能代理并行处理多个任务",
+        "学习和模仿用户的操作习惯"
+      ],
+      "designIntent": "打造真正的桌面AI助手，不仅能够对话，还能够实际操作电脑完成工作，让AI从对话伙伴升级为工作伙伴。",
+      "problemSolved": "解决了传统AI助手只能提供建议但无法实际操作电脑的问题，让用户可以用自然语言驱动电脑完成复杂任务。",
+      "tags": [
+        "桌面AI",
+        "任务自动化",
+        "语音控制",
+        "智能代理",
+        "电脑助手"
+      ],
+      "score": 8,
+      "scoreReason": "实现了AI从对话到行动的跨越，功能强大且实用。但需要关注安全性、隐私保护和不同操作系统的适配性。",
+      "competitors": [
+        {
+          "name": "Microsoft Copilot",
+          "url": "https://copilot.microsoft.com/",
+          "comparison": "Microsoft Copilot集成在Office生态中，而NeuralAgent专注于桌面级别的通用任务自动化"
+        },
+        {
+          "name": "Apple Intelligence",
+          "url": "https://www.apple.com/apple-intelligence/",
+          "comparison": "Apple Intelligence是系统级AI，而NeuralAgent是跨平台的独立AI代理工具"
+        },
+        {
+          "name": "AutoHotkey",
+          "url": "https://www.autohotkey.com/",
+          "comparison": "AutoHotkey需要编程知识，而NeuralAgent通过自然语言交互，使用门槛更低"
+        }
+      ]
+    },
+    "homepage": "https://github.com/0xk1h0/NeuralAgent",
+    "type": "app",
+    "screenshotUrl": "assets/screenshots/ph_neuralagent-2-5_20260529_142549.png",
+    "appStoreScreenshots": [],
+    "appStoreName": null,
+    "appStoreUrl": null
+  },
+  {
+    "id": "ph_1156203",
+    "name": "Pawse.ai：狗狗声学调节系统",
+    "description": "AI驱动的狗狗声学调节系统，为主人外出时的狗狗创造舒缓的声音环境",
+    "url": "https://pawse.ai",
+    "source_url": "https://www.producthunt.com/posts/pawse-ai",
+    "score": 0,
+    "source": "producthunt",
+    "author": "pawse",
+    "timestamp": "2026-05-27T00:00:00Z",
+    "product_id": "producthunt.com/r/p/1156203",
+    "analysis": {
+      "targetAudience": "养狗人士，特别是需要外出工作、担心狗狗独处时焦虑的宠物主人",
+      "useCases": [
+        "主人外出时为狗狗播放舒缓音频",
+        "根据狗狗品种、年龄和情况定制声音环境",
+        "帮助狗狗缓解分离焦虑",
+        "支持狗狗睡眠和放松",
+        "通过Apple TV或iPad播放音频"
+      ],
+      "designIntent": "利用AI生成科学的音频环境，根据狗狗的听觉特性和压力生理学，定制个性化的声学调节方案，帮助狗狗在主人外出时保持平静。",
+      "problemSolved": "解决了狗狗独处时的分离焦虑问题，通过科学的音频方案帮助狗狗放松，减少破坏性行为，让主人更安心地外出。",
+      "tags": [
+        "宠物科技",
+        "AI音频",
+        "狗狗健康",
+        "分离焦虑",
+        "声学调节"
+      ],
+      "score": 7,
+      "scoreReason": "创新性地将AI音频技术应用于宠物健康领域，解决了养狗人士的真实痛点。但需要验证音频效果的科学性和用户实际使用体验。",
+      "competitors": [
+        {
+          "name": "Through a Dog's Ear",
+          "url": "https://www.dogcalmingmusic.com/",
+          "comparison": "Through a Dog's Ear提供预录制的狗狗舒缓音乐，而Pawse.ai使用AI生成个性化音频环境"
+        },
+        {
+          "name": "RelaxMyDog",
+          "url": "https://relaxmydog.com/",
+          "comparison": "RelaxMyDog提供流媒体音乐服务，而Pawse.ai根据狗狗具体情况定制音频，更加个性化"
+        },
+        {
+          "name": "iCalmPet",
+          "url": "https://www.icalmpet.com/",
+          "comparison": "iCalmPet提供专用硬件播放设备，而Pawse.ai利用现有Apple设备，使用更便捷"
+        }
+      ]
+    },
+    "homepage": "https://pawse.ai",
+    "type": "saas",
+    "screenshotUrl": "assets/screenshots/ph_1156203_20260529_142603.png",
+    "appStoreScreenshots": [],
+    "appStoreName": null,
+    "appStoreUrl": null
+  }
+]

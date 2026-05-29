@@ -24,18 +24,6 @@
     "product_id": "x.com/nba/status/2051478867299172591"
   },
   {
-    "id": "tw_2043785346115154380",
-    "name": "Sticky notes fall off. Get lost. Pile up.  DeskBoard Buddy replaces the chaos with a clean glass whi",
-    "description": "Sticky notes fall off. Get lost. Pile up.\n\nDeskBoard Buddy replaces the chaos with a clean glass whiteboard — right on your desk.\n\nYour tasks. Always visible. Always under control.",
-    "url": "https://x.com/deskboardbuddy/status/2043785346115154380",
-    "source_url": "https://x.com/deskboardbuddy/status/2043785346115154380",
-    "score": 5896,
-    "source": "twitter",
-    "author": "deskboardbuddy",
-    "timestamp": "2026-04-13T20:16:12+00:00",
-    "product_id": "x.com/deskboardbuddy/status/2043785346115154380"
-  },
-  {
     "id": "tw_2059550600908738702",
     "name": "昨天见了一个非常牛逼的Agent团队，我敢说在国内绝对是T0的级别（之前DPSK还找他们搞了点Agent数据）  刚好聊到了这两天推上吵得非常热闹的AI产品（Agent）要不要用Python的话题  ",
     "description": "昨天见了一个非常牛逼的Agent团队，我敢说在国内绝对是T0的级别（之前DPSK还找他们搞了点Agent数据）\n\n刚好聊到了这两天推上吵得非常热闹的AI产品（Agent）要不要用Python的话题\n\n他们Founder说的很直接：SB才在Agent项目里用Python🤣\n\nTS适合100%Agent项目，主要有几个原因：\n\n第一，Agent最终大多时候会在产品里。\n\n不管你做的是Chat界面、工作流面板、浏览器插件、Copilot，还是IDE扩展、Slack/Discord/网页工具，TS天然离这些更近。\n\n前端是TS，后端也是TS，中间的tool schema、事件流、UI状态都能共用一套类型。\n\n如果你用Python那就会变成：\n\n模型服务在Py、后端在Node、前端在TS\n一份schema要复制三份\n\n如果某个字段名大小写错了，你的Agent马上就给死给你看。\n\n第二，Agent很依赖异步和事件流。\n\nAgent不是一次请求一次回答这么简单。\n\n它要边想边输出，边调用工具，边等用户确认，边更新UI，边处理取消、重试、超时、恢复。\n\nTS/Node在事件驱动、stream、WebS",
@@ -46,18 +34,6 @@
     "author": "MaxForAI",
     "timestamp": "2026-05-27T08:21:42+00:00",
     "product_id": "x.com/maxforai/status/2059550600908738702"
-  },
-  {
-    "id": "tw_2060012873578140011",
-    "name": "开源 TTS 卷成这样，某些群体怕是要高兴坏了。  清华 OpenBMB 刚放出一个叫 VoxCPM2 的东西，我看完确实沉默了。  参数 2B，训练数据 200 万小时多语言音频，输出 48kHz ",
-    "description": "开源 TTS 卷成这样，某些群体怕是要高兴坏了。\n\n清华 OpenBMB 刚放出一个叫 VoxCPM2 的东西，我看完确实沉默了。\n\n参数 2B，训练数据 200 万小时多语言音频，输出 48kHz 录音棚级音质。这几个数字摆出来，传统 TTS 基本可以退场了。\n\n但最让人警觉的不是这个。\n\n它不用 Tokenizer。\n\n传统方案是把音频切成离散 token 再生成，这个过程信息损失很严重，声音听起来总差一点意思。VoxCPM2 直接在连续潜空间做扩散自回归，音色、情绪、呼吸节奏，全给你保留下来。\n\n指标给你列一下：\n\n① 支持 30 种语言加 9 种中文方言，普通话、粤语、闽南语随便切\n② RTX 4090 跑下来实时率 0.13，流式输出几乎感觉不到延迟\n③ 不需要参考音频，用自然语言描述就能直接生成声音\n④ 声音克隆可以调情绪、语速、口癖，想让它说话磕巴都行\n⑤ 终极克隆模式：给一段参考音频加文本，连呼吸节奏都能复刻出来\n\n协议是 Apache 2.0，商用友好，GitHub 已经破万星，连续霸榜 Trending。\n\n播客、有声书、游戏配音、短视频旁白，开源方案现在完全够用，",
-    "url": "https://x.com/XAMTO_AI/status/2060012873578140011",
-    "source_url": "https://x.com/XAMTO_AI/status/2060012873578140011",
-    "score": 1107,
-    "source": "twitter",
-    "author": "XAMTO_AI",
-    "timestamp": "2026-05-28T14:58:36+00:00",
-    "product_id": "x.com/xamtoai/status/2060012873578140011"
   },
   {
     "id": "tw_2049221455943205188",
@@ -130,18 +106,6 @@
     "author": "realNyarime",
     "timestamp": "2026-05-28T18:04:03+00:00",
     "product_id": "x.com/realnyarime/status/2060059543820963975"
-  },
-  {
-    "id": "tw_2059976049476124866",
-    "name": "最值得关注的开源项目（按影响力和信息差排序）    ---   S 级：必须关注    1. Pi (pi-mono) — 54K stars，MIT，Armin Ronacher 出品   - Fl",
-    "description": "最值得关注的开源项目（按影响力和信息差排序）\n\n  ---\n  S 级：必须关注\n\n  1. Pi (pi-mono) — 54K stars，MIT，Armin Ronacher 出品\n  - Flask/Jinja2 作者的新作，系统 prompt 不到 1000 token，靠\"懒加载技能\"运行\n  - 支持 fork 和二次开发，token 效率极高\n  - 信息差原因：中国社区对 Armin Ronacher 的认知还停留在 Flask，不知道他已经杀入 AI Agent 赛道\n\n  2. Claw Code — 192K stars，MIT，Python/Rust 重写\n  - 2026 年 3 月 Claude Code 源码泄露后，社区 clean-room 重写\n  - GitHub 历史上最快达到 100K stars 的仓库\n  - 信息差原因：国内几乎没有报道这个项目，但它已经是 star 数最高的 AI 编程工具\n\n  3. Hermes Agent — 167K stars，Nous Research 出品\n  - 自我改进的 CLI Agent，持久记忆 ",
-    "url": "https://x.com/seclink/status/2059976049476124866",
-    "source_url": "https://x.com/seclink/status/2059976049476124866",
-    "score": 533,
-    "source": "twitter",
-    "author": "seclink",
-    "timestamp": "2026-05-28T12:32:17+00:00",
-    "product_id": "x.com/seclink/status/2059976049476124866"
   },
   {
     "id": "tw_2060168086159045028",
@@ -264,42 +228,6 @@
     "product_id": "x.com/cellinlab/status/2060177767447015721"
   },
   {
-    "id": "tw_2059952936395096181",
-    "name": "咱们出来混这行之前  能不能先把 newapi 的基本配置给学会了  太丢人了吧 https://t.co/g0ZRikrxTA",
-    "description": "咱们出来混这行之前\n\n能不能先把 newapi 的基本配置给学会了\n\n太丢人了吧 https://t.co/g0ZRikrxTA",
-    "url": "https://x.com/passluo/status/2059952936395096181",
-    "source_url": "https://x.com/passluo/status/2059952936395096181",
-    "score": 199,
-    "source": "twitter",
-    "author": "passluo",
-    "timestamp": "2026-05-28T11:00:26+00:00",
-    "product_id": "x.com/passluo/status/2059952936395096181"
-  },
-  {
-    "id": "tw_2059977052829495643",
-    "name": "不知不觉，TypeScript 成了 AI 应用层的主流语言。  2026年，谁还在用 Python 写 coding agent，谁就是小丑。",
-    "description": "不知不觉，TypeScript 成了 AI 应用层的主流语言。\n\n2026年，谁还在用 Python 写 coding agent，谁就是小丑。",
-    "url": "https://x.com/austinit/status/2059977052829495643",
-    "source_url": "https://x.com/austinit/status/2059977052829495643",
-    "score": 192,
-    "source": "twitter",
-    "author": "austinit",
-    "timestamp": "2026-05-28T12:36:16+00:00",
-    "product_id": "x.com/austinit/status/2059977052829495643"
-  },
-  {
-    "id": "tw_2060026309502206336",
-    "name": "OpenCodeReview 是阿里巴巴开源的 AI 代码审查 CLI 工具。它读取 Git diff，将变更文件送入可配置的 LLM Agent 进行审查，生成结构化的行级评论。  https://",
-    "description": "OpenCodeReview 是阿里巴巴开源的 AI 代码审查 CLI 工具。它读取 Git diff，将变更文件送入可配置的 LLM Agent 进行审查，生成结构化的行级评论。\n\nhttps://t.co/xcF3ek1Hym https://t.co/pn1P44o2Z2",
-    "url": "https://x.com/QingQ77/status/2060026309502206336",
-    "source_url": "https://x.com/QingQ77/status/2060026309502206336",
-    "score": 159,
-    "source": "twitter",
-    "author": "QingQ77",
-    "timestamp": "2026-05-28T15:52:00+00:00",
-    "product_id": "x.com/qingq77/status/2060026309502206336"
-  },
-  {
     "id": "v2ex_1216280",
     "name": "各位现在的主力手机是哪款？",
     "description": "参考一下。",
@@ -360,18 +288,6 @@
     "product_id": "x.com/jfgai/status/2060154047622168820"
   },
   {
-    "id": "tw_2060181514823082281",
-    "name": "想学习harness，最好的办法就是向Claude code学习，于是乎我决定让AI带着我手搓一个Claude code  CLI，以此来深入的了解Claude code  harness是怎么做的 ",
-    "description": "想学习harness，最好的办法就是向Claude code学习，于是乎我决定让AI带着我手搓一个Claude code  CLI，以此来深入的了解Claude code  harness是怎么做的\n\n我把这个过程做成了一个教程，从简单到复杂，每一步都实操验证，目前只完成了7天的初级内容，能够帮助新人朋友了解一下coding Agent的基本流程和使用。\n\n在未来两周我会继续把剩下的内容补充齐全，由于是作为教学版本，所有很多内容我会做阉割，代码实现上会是简单版本，然后把Claude code的的实现更多的以文字和图的形式来讲清楚，便于理解，现在项目已开源，欢迎大家提意见\n\nhttps://t.co/dSMUwrM0G9",
-    "url": "https://x.com/bozhou_ai/status/2060181514823082281",
-    "source_url": "https://x.com/bozhou_ai/status/2060181514823082281",
-    "score": 102,
-    "source": "twitter",
-    "author": "bozhou_ai",
-    "timestamp": "2026-05-29T02:08:44+00:00",
-    "product_id": "x.com/bozhouai/status/2060181514823082281"
-  },
-  {
     "id": "tw_2059970820265623847",
     "name": "小红书封面的风格这样，与臧师傅的比，怎么样？ https://t.co/JeQije49q4",
     "description": "小红书封面的风格这样，与臧师傅的比，怎么样？ https://t.co/JeQije49q4",
@@ -406,18 +322,6 @@
     "author": "Kubai087",
     "timestamp": "2026-05-29T04:30:01+00:00",
     "product_id": "x.com/kubai087/status/2060217070302929203"
-  },
-  {
-    "id": "tw_2059993791139033410",
-    "name": "阿里 ATA 这篇文章有点骚，把 Claude Code 从本地 CLI 工具部署到云端、通过魔改 SDK 实现 HTTP 流式调用，并利用沙箱实现多用户隔离。 https://t.co/w8JA3u",
-    "description": "阿里 ATA 这篇文章有点骚，把 Claude Code 从本地 CLI 工具部署到云端、通过魔改 SDK 实现 HTTP 流式调用，并利用沙箱实现多用户隔离。 https://t.co/w8JA3uzPkX",
-    "url": "https://x.com/hongming731/status/2059993791139033410",
-    "source_url": "https://x.com/hongming731/status/2059993791139033410",
-    "score": 80,
-    "source": "twitter",
-    "author": "hongming731",
-    "timestamp": "2026-05-28T13:42:47+00:00",
-    "product_id": "x.com/hongming731/status/2059993791139033410"
   },
   {
     "id": "tw_2060061914341028154",
@@ -480,42 +384,6 @@
     "product_id": "x.com/op7418/status/2060186234518184286"
   },
   {
-    "id": "tw_2060081425982927329",
-    "name": "opus 4.8 ultracode 开了60多个agent, 跑了半小时.   结果数据格式有问题.......最后也没输出🤣 https://t.co/jQONGHSgse",
-    "description": "opus 4.8 ultracode 开了60多个agent, 跑了半小时. \n\n结果数据格式有问题.......最后也没输出🤣 https://t.co/jQONGHSgse",
-    "url": "https://x.com/hylarucoder/status/2060081425982927329",
-    "source_url": "https://x.com/hylarucoder/status/2060081425982927329",
-    "score": 60,
-    "source": "twitter",
-    "author": "hylarucoder",
-    "timestamp": "2026-05-28T19:31:01+00:00",
-    "product_id": "x.com/hylarucoder/status/2060081425982927329"
-  },
-  {
-    "id": "tw_2059992640322678861",
-    "name": "100 美刀开 claude 还是 codex，求大佬推荐🥺",
-    "description": "100 美刀开 claude 还是 codex，求大佬推荐🥺",
-    "url": "https://x.com/Nicebabycat/status/2059992640322678861",
-    "source_url": "https://x.com/Nicebabycat/status/2059992640322678861",
-    "score": 56,
-    "source": "twitter",
-    "author": "Nicebabycat",
-    "timestamp": "2026-05-28T13:38:12+00:00",
-    "product_id": "x.com/nicebabycat/status/2059992640322678861"
-  },
-  {
-    "id": "tw_2059973800465502450",
-    "name": "事到如今，Codex vs Claude code  你觉得哪个更好？",
-    "description": "事到如今，Codex vs Claude code\n\n你觉得哪个更好？",
-    "url": "https://x.com/lxfater/status/2059973800465502450",
-    "source_url": "https://x.com/lxfater/status/2059973800465502450",
-    "score": 55,
-    "source": "twitter",
-    "author": "lxfater",
-    "timestamp": "2026-05-28T12:23:21+00:00",
-    "product_id": "x.com/lxfater/status/2059973800465502450"
-  },
-  {
     "id": "v2ex_1216361",
     "name": "在即将面临 35 岁斩杀线的迷茫与抉择",
     "description": "本人 34 岁,学历非统招大专学历在某 985 院校做科研助理的岗位,日常的工作内容是全栈开发以及 C++项目的开发工作,目前我面临的困境就是,工资比较低每个月入不敷出,这份工作的收入是我上家收入的 0.5 倍,月平均算下来每个月大概 8k 的样子,上家工作是电网外包被裁员了,之后找了半个多月最终接受了这个 985 的编外招聘的 offer,由于那段时间我要准备结婚事宜还有房子装修的事情,自己也准备提升下学历,目前在自考本科,考虑到在学校工作比较近而且不加班就暂时先在这做了,到目前做了两年了.现在的想法是准备桶跑路,由于结婚跟装修加彩礼一下子花费比较多,彩礼跟五金这些结婚相关的花费,我父母承担了大部分,目前我手上大概是房贷 14w 的房贷加 4w 的装修贷,分摊到月还款加起来大概每个月还 7000,装修贷大概明年中期还完,目前每月的收入覆盖不了贷款的费用,所以每个月家里得转个三四千块钱,还好父母都有退休,也在工作的,能勉强维持这个脆弱的经济运转.我老婆这边是独生女虽然在武汉本地有房子,但是她妈今年确诊了中度的老年痴呆,经济上估计也不会协助我,去年检查吃药花了 3 万多,她收入稍微比我低",
@@ -564,18 +432,6 @@
     "product_id": "x.com/nashsu/status/2060181076224721053"
   },
   {
-    "id": "tw_2060041999332573521",
-    "name": "不知不觉，Java 竟然成了 Agentic AI  开发的主流语言。😂",
-    "description": "不知不觉，Java 竟然成了 Agentic AI  开发的主流语言。😂",
-    "url": "https://x.com/xiongchun007/status/2060041999332573521",
-    "source_url": "https://x.com/xiongchun007/status/2060041999332573521",
-    "score": 23,
-    "source": "twitter",
-    "author": "xiongchun007",
-    "timestamp": "2026-05-28T16:54:21+00:00",
-    "product_id": "x.com/xiongchun007/status/2060041999332573521"
-  },
-  {
     "id": "v2ex_1212366",
     "name": "你有一款 AI 设备（项链）挂在脖子上，你最希望它有什么功能",
     "description": "如题，如果你有这样一款设备，能见你所见，最希望它拥有什么功能？譬如会议总结，lifelog ，等等",
@@ -610,30 +466,6 @@
     "node": "share",
     "timestamp": 1779936048,
     "product_id": "v2ex.com/t/1216101"
-  },
-  {
-    "id": "v2ex_1216035",
-    "name": "我终于找到了 24 小时进行 coding 的终极方法，你可以在帖子当中看到最佳的 Vibe coding 助手",
-    "description": "当我撰写这条帖子的时候，我现在正在使用 UU 远程控制。\r\n用手机来进行远程控制我的电脑。\r\n我现在有两台 Windows 设备，我都安装了这款软件。\r\n当我出去玩的时候。我用我的手机进行控制，可以远程的非常流畅的进行 Coding 。\r\n对于输入来说我在我的手机端又下载了豆包输入法。豆包输入法有一个非常厉害的一个功能，就是语音输入。\r\n这解决了我在远程控制被输入文字带来的不便。现在感觉非常良好，甚至感觉 24 小时都可以进行 Coding 。\r\n如果你也有更好的解决这个痛点的办法，可以在评论区回复一下。非常感谢大家。",
-    "url": "https://www.v2ex.com/t/1216035",
-    "source_url": "https://www.v2ex.com/t/1216035",
-    "score": 12,
-    "source": "v2ex",
-    "node": "share",
-    "timestamp": 1779895745,
-    "product_id": "v2ex.com/t/1216035"
-  },
-  {
-    "id": "tw_2060177567550984694",
-    "name": "#claude   我靠！段子成真了！  在CC客户端不会复现，直接调用API可以复现  达里奥，真有你的🧐 https://t.co/GwxhXkTbQY",
-    "description": "#claude \n\n我靠！段子成真了！\n\n在CC客户端不会复现，直接调用API可以复现\n\n达里奥，真有你的🧐 https://t.co/GwxhXkTbQY",
-    "url": "https://x.com/bettycyoder/status/2060177567550984694",
-    "source_url": "https://x.com/bettycyoder/status/2060177567550984694",
-    "score": 11,
-    "source": "twitter",
-    "author": "bettycyoder",
-    "timestamp": "2026-05-29T01:53:03+00:00",
-    "product_id": "x.com/bettycyoder/status/2060177567550984694"
   },
   {
     "id": "tw_2059555803296637285",
@@ -683,30 +515,6 @@
     "product_id": "x.com/imwsl90/status/2059800004169252960"
   },
   {
-    "id": "v2ex_1216205",
-    "name": "开启 Codex 桌宠",
-    "description": "Codex 的宠物真的挺可爱。\r\n\r\n以防有人不知道，我再发一下开启流程：\r\n\r\n1. 在输入框里打 `/`\r\n2. 选择「宠物」\r\n3. 或者去「设置 → 外观 → 宠物」里选一个\r\n\r\n我现在选的是 Seedy ，会趴在桌面上看你写代码，还会弹出任务进展提示。\r\n\r\n一个没什么生产力必要、但非常有情绪价值的小功能。",
-    "url": "https://www.v2ex.com/t/1216205",
-    "source_url": "https://www.v2ex.com/t/1216205",
-    "score": 7,
-    "source": "v2ex",
-    "node": "share",
-    "timestamp": 1779956089,
-    "product_id": "v2ex.com/t/1216205"
-  },
-  {
-    "id": "v2ex_1212263",
-    "name": "实现 token 自由了，可以干些什么有意思有意义的事情",
-    "description": "感谢公司大方，不限制 token 使用，公司也鼓励大家往 one person company 方向走，希望消耗了 token 之后，大家都可以养成一些新时代的技能。\r\n\r\n刚加入 vibe coding 行列不久，思维都还停留在老旧的传统的阶段，目前有哪些东西可以学习，并快速用到自己的工作流上面的？\r\n\r\n目前配置是：\r\n1.飞书 Openclaw 搭 gpt-5.5 用来专业领域论文搜寻-论文深度解读&可行性分析-形成专利想法写专利或者复现论文方法和当前方法做对比\r\n2.本地开发用 Codex CLI （ GPT-5.5 ）\r\n\r\n总感觉这么用有点浪费，还有什么更多的建议吗？",
-    "url": "https://www.v2ex.com/t/1212263",
-    "source_url": "https://www.v2ex.com/t/1212263",
-    "score": 7,
-    "source": "v2ex",
-    "node": "ideas",
-    "timestamp": 1778594075,
-    "product_id": "v2ex.com/t/1212263"
-  },
-  {
     "id": "tw_2060177850494570965",
     "name": "如果你已经在 V2EX 上开设了自己的节点，那么你同时也有了最新的测试服上的 Chat 功能的访问权限。这样的话，节点里的主题就可以通过 Chat 功能获得一种实时 RAG 体验——用聊天的方式从自己",
     "description": "如果你已经在 V2EX 上开设了自己的节点，那么你同时也有了最新的测试服上的 Chat 功能的访问权限。这样的话，节点里的主题就可以通过 Chat 功能获得一种实时 RAG 体验——用聊天的方式从自己的节点主题中整理信息。 https://t.co/Z0pDXdP9NL",
@@ -717,30 +525,6 @@
     "author": "Livid",
     "timestamp": "2026-05-29T01:54:10+00:00",
     "product_id": "x.com/livid/status/2060177850494570965"
-  },
-  {
-    "id": "v2ex_1216154",
-    "name": "我自己感觉 codex 极大的扩展了个人的能力者不用说，但是用多了似乎也会有更多精神问题",
-    "description": "我用多了我感觉有一种抽干了自己感觉\r\n这是一种直觉，人在高度亢奋中做了很多事情，最后会变得极度厌烦\r\n原来以为自己做不了的，突然能做了，但是最终发现就算有 codex 加持有些你也做不不了的挫败感\r\n证明了自己的认知边界其实非常狭窄\r\n我似乎感觉 ai 每天和我交流的时间变的比真实人类多了之后\r\n会产生一种心理疾病\r\n我每天睡眠时间极度不稳定了\r\n思维也越来越像 ai \r\n有些问题极度敏锐，有些越来越模糊\r\n本质上就感觉似乎进入了一个精神病院一样\r\n只是随便想想\r\n只有重度使用的人才会感觉到吧",
-    "url": "https://www.v2ex.com/t/1216154",
-    "source_url": "https://www.v2ex.com/t/1216154",
-    "score": 6,
-    "source": "v2ex",
-    "node": "share",
-    "timestamp": 1779946403,
-    "product_id": "v2ex.com/t/1216154"
-  },
-  {
-    "id": "v2ex_1215194",
-    "name": "关于零碎数据存放问题",
-    "description": "- 不少人把数据放 github 吧，但毕竟还是不太稳，偶尔好像需要翻墙才行。\r\n- 有些东西比较昂贵，但随着行业整体发展，慢慢变得廉价。\r\n- 不知道是否有某家公司，能够强力手腕，大手笔，提供一些零碎数据存放功能，且稳定。\r\n- 假如有这样的公司，那必然是一家非常靠谱的公司才行。应该处于龙头大哥地位。\r\n- 比如说，我想把某些网站的配置，放到某个网上，我各种设备，都能拉取。\r\n- 目前急切需求是，某些网站或论坛，不提供黑名单，或者有限黑名单功能。\r\n  - 所以我希望自己定义黑名单，把那些黑名单，放到我的个人数据仓库里，再写个油猴脚本，各个设备，比如手机、电脑，都能拉取配置。",
-    "url": "https://www.v2ex.com/t/1215194",
-    "source_url": "https://www.v2ex.com/t/1215194",
-    "score": 6,
-    "source": "v2ex",
-    "node": "ideas",
-    "timestamp": 1779673282,
-    "product_id": "v2ex.com/t/1215194"
   },
   {
     "id": "hn_48317997",
@@ -765,29 +549,6 @@
     "product_id": "scrolodex.app"
   },
   {
-    "id": "hn_48314162",
-    "name": "Show HN: Tokenscope – see what your Claude Code session cost",
-    "description": "",
-    "url": "https://github.com/wartzar-bee/tokenscope",
-    "source_url": "https://news.ycombinator.com/item?id=48314162",
-    "score": 4,
-    "source": "hackernews",
-    "timestamp": "2026-05-28T19:25:49Z",
-    "product_id": "github.com/wartzarbee/tokenscope"
-  },
-  {
-    "id": "tw_2059641826462863794",
-    "name": "你们公司开发 agent 采用的编程语言是什么?🫡",
-    "description": "你们公司开发 agent 采用的编程语言是什么?🫡",
-    "url": "https://x.com/hylarucoder/status/2059641826462863794",
-    "source_url": "https://x.com/hylarucoder/status/2059641826462863794",
-    "score": 4,
-    "source": "twitter",
-    "author": "hylarucoder",
-    "timestamp": "2026-05-27T14:24:12+00:00",
-    "product_id": "x.com/hylarucoder/status/2059641826462863794"
-  },
-  {
     "id": "v2ex_1216292",
     "name": "[收藏] 商汤科技开源了一系列办公场景的 Skills 包",
     "description": "上周我在 WaytoAGI 的共学直播里看到了商汤最新的 skills 包，体验了一下，感觉挺不错的，这里分享给佬友们哈\r\n\r\n先放 repo： https://github.com/OpenSenseNova/SenseNova-Skills\r\n\r\n这个 skills 包，一共有五个场景\r\n\r\n1. 图片&可视化\r\n\r\nsn-infographic：接入的是他们的 SenseNova U1 的开源模型，尤其是信息图（具体名字是 SenseNova U1-8B-MoT-Infographic ）可以把一个很粗糙的想法，直接做成信息图，先理解内容，再决定布局和视觉风格。这个模型我专门测过，效果和 Nano Banana 和 Image2 差不了多少\r\nhttps://i.imgur.com/P8Bfa37.png\r\nhttps://i.imgur.com/ZhpriN5.png\r\nhttps://i.imgur.com/PNK5FVF.png\r\n\r\n2. PPT 生成\r\n\r\n打工人神器，里面两个小 skills\r\nsn-ppt-standard：做的是可编辑的商务 PPT \r\nsn-pp",
@@ -798,18 +559,6 @@
     "node": "share",
     "timestamp": 1779980642,
     "product_id": "v2ex.com/t/1216292"
-  },
-  {
-    "id": "v2ex_1216144",
-    "name": "从 0 开始 vibe coding，产品上线一个月 1500+用户，我对用户增长的一些思考",
-    "description": "从 0 开始 vibe coding ，产品上线一个月 1500+用户，我对用户增长的一些思考\r\n\r\n全程 0 推广，一个月收获 1500+的用户，显然我们的产品没有大爆，但也还在稳步推进的过程中，其中还是有很多做的好与不好的地方，权当给这一个月以来的运营成果一些复盘。\r\n我们做的是一款叫“连连 AI”的小程序，核心的功能是让 AI 来帮你找人并自动沟通。因为我们做的是一个平台类的产品，用 AI 来帮你找人并自动沟通，不同于单纯的工具产品，找人是一个双边的过程，所以必然会涉及到平台产品冷启动的难题。\r\n不花钱做冷启动，核心在于以下几点：\r\n\r\n1.善用线下活动\r\n很多人以为冷启动只是单纯发帖子，但排除你本身就具有流量或者因意外爆火的情况，大部分人想通过线上的帖子获得足够多的用户一定是很难的，特别是在最初最初的冷启动阶段。\r\n流量是马太效应及其严重的东西。没流量，平台上就没人，即使你拉了几个人来到平台上，别人一看上面都是一些你自己生产的垃圾内容，马上就走人了。\r\n所以初期，一定要善用线下活动。线下活动具有几点优势：（ 1 ）足够可观的接触面。通过好的线下活动，你能够接触到几十、上百人，这",
-    "url": "https://www.v2ex.com/t/1216144",
-    "source_url": "https://www.v2ex.com/t/1216144",
-    "score": 4,
-    "source": "v2ex",
-    "node": "share",
-    "timestamp": 1779943838,
-    "product_id": "v2ex.com/t/1216144"
   },
   {
     "id": "hn_48315903",
@@ -832,17 +581,6 @@
     "source": "hackernews",
     "timestamp": "2026-05-28T21:13:13Z",
     "product_id": "pwn2nimron.com/blog"
-  },
-  {
-    "id": "hn_48314899",
-    "name": "Show HN: Open-source browser agent that runs 24/7",
-    "description": "",
-    "url": "https://github.com/sediman-agent/sediman-browse",
-    "source_url": "https://news.ycombinator.com/item?id=48314899",
-    "score": 3,
-    "source": "hackernews",
-    "timestamp": "2026-05-28T20:21:59Z",
-    "product_id": "github.com/sedimanagent/sedimanbrowse"
   },
   {
     "id": "hn_48314225",
@@ -977,17 +715,6 @@
     "source": "hackernews",
     "timestamp": "2026-05-28T21:04:51Z",
     "product_id": "github.com/jmilinovich/grove"
-  },
-  {
-    "id": "hn_48315201",
-    "name": "Show HN: Rig – Local-first code graph for coding agents, in one npx command",
-    "description": "",
-    "url": "https://github.com/Astralchemist/rig",
-    "source_url": "https://news.ycombinator.com/item?id=48315201",
-    "score": 2,
-    "source": "hackernews",
-    "timestamp": "2026-05-28T20:44:37Z",
-    "product_id": "github.com/astralchemist/rig"
   },
   {
     "id": "hn_48314268",
@@ -1218,18 +945,6 @@
     "product_id": "v2ex.com/t/1216410"
   },
   {
-    "id": "v2ex_1216104",
-    "name": "《HelloGitHub》第 122 期",
-    "description": "> 兴趣是最好的老师，**HelloGitHub** 让你对开源感兴趣！\r\n\r\n![]( https://img2024.cnblogs.com/blog/759200/202605/759200-20260528010416351-1683856834.jpg)\r\n\r\n## 简介\r\n**HelloGitHub** 分享 GitHub 上有趣、入门级的开源项目。\r\n\r\n> [github.com/521xueweihan/HelloGitHub]( https://github.com/521xueweihan/HelloGitHub)\r\n\r\n这里有实战项目、入门教程、黑科技、开源书籍、大厂开源项目等，涵盖多种编程语言 Python 、Java 、Go 、C/C++、Swift...让你在短时间内感受到开源的魅力，爱上开源！\r\n\r\n---\r\n> 以下为本期内容｜每月 **28** 号更新\r\n\r\n### C 项目\r\n1 、[ds4]( https://hellogithub.com/periodical/statistics/click?target=https://github.com",
-    "url": "https://www.v2ex.com/t/1216104",
-    "source_url": "https://www.v2ex.com/t/1216104",
-    "score": 1,
-    "source": "v2ex",
-    "node": "share",
-    "timestamp": 1779936667,
-    "product_id": "v2ex.com/t/1216104"
-  },
-  {
     "id": "v2ex_1215421",
     "name": "你的\"最爱宝可梦\"是哪只？这个网站正在用全 1025 只宝可梦的黑影等你去点亮",
     "description": "宝可梦社区里流传着一句话：**每一只宝可梦都是某个人的最爱**。\r\n\r\n这句话听起来像是情怀，但有人做了一个网站，想用实际数据来证明它——[favoritepokemon.online]( https://favoritepokemon.online/)\r\n\r\n---\r\n\r\n**它是怎么运作的？**\r\n\r\n网站收录了全系列 1025 只宝可梦，每一只初始状态都是黑色剪影。你需要：\r\n\r\n1. 搜索你最爱的那只宝可梦（按名字或图鉴编号）\r\n2. 填上你的训练师名字\r\n3. 写一句它为什么是你的最爱\r\n\r\n提交后，那只宝可梦就从黑影变成彩色，被\"点亮\"了。**每台设备只能声明一次**，所以每个选择都是认真的。\r\n\r\n---\r\n\r\n**有意思的设计细节**\r\n\r\n未被认领的宝可梦只显示编号，看不到名字和外形。这意味着，如果你认不出来就无法选它——这个规则让每一次\"点亮\"都变得有意义：你必须真的认识它，才能说它是你的最爱。\r\n\r\n目前排行榜第一是**妙蛙种子**，而皮卡丘和喷火龙并没有占据榜首。越是真心喜欢宝可梦的玩家，往往选的越不是最出名的那只。\r\n\r\n---\r\n\r\n**最打动人的部分**\r",
@@ -1240,17 +955,6 @@
     "node": "ideas",
     "timestamp": 1779719556,
     "product_id": "v2ex.com/t/1215421"
-  },
-  {
-    "id": "ph_spotsnow",
-    "name": "SpotsNow",
-    "description": "Track who's advertising across podcasts w/ campaign insights\n          \n          \n            Discussion\n            |\n            Link",
-    "url": "https://www.producthunt.com/r/p/1146232?app_id=339",
-    "source_url": "https://www.producthunt.com/products/spotsnow",
-    "score": 0,
-    "source": "producthunt",
-    "timestamp": "2026-05-13T08:48:53-07:00",
-    "product_id": "producthunt.com/r/p/1146232"
   },
   {
     "id": "ph_pitch-agent",
@@ -1264,50 +968,6 @@
     "product_id": "producthunt.com/r/p/1155361"
   },
   {
-    "id": "ph_pancake",
-    "name": "Pancake",
-    "description": "OpenClaw in Slack that makes your company autonomous\n          \n          \n            Discussion\n            |\n            Link",
-    "url": "https://www.producthunt.com/r/p/1152111?app_id=339",
-    "source_url": "https://www.producthunt.com/products/pancake-6",
-    "score": 0,
-    "source": "producthunt",
-    "timestamp": "2026-05-20T16:50:00-07:00",
-    "product_id": "producthunt.com/r/p/1152111"
-  },
-  {
-    "id": "ph_crew44",
-    "name": "Crew44",
-    "description": "Turn coding agents into specialist teams\n          \n          \n            Discussion\n            |\n            Link",
-    "url": "https://www.producthunt.com/r/p/1156940?app_id=339",
-    "source_url": "https://www.producthunt.com/products/crew44",
-    "score": 0,
-    "source": "producthunt",
-    "timestamp": "2026-05-27T00:32:57-07:00",
-    "product_id": "producthunt.com/r/p/1156940"
-  },
-  {
-    "id": "ph_revolte",
-    "name": "Revolte",
-    "description": "AI for Software Engineering\n          \n          \n            Discussion\n            |\n            Link",
-    "url": "https://www.producthunt.com/r/p/1145256?app_id=339",
-    "source_url": "https://www.producthunt.com/products/revolte",
-    "score": 0,
-    "source": "producthunt",
-    "timestamp": "2026-05-12T05:56:22-07:00",
-    "product_id": "producthunt.com/r/p/1145256"
-  },
-  {
-    "id": "ph_stage",
-    "name": "Stage",
-    "description": "Screen recording for demos, bugs, and updates\n          \n          \n            Discussion\n            |\n            Link",
-    "url": "https://www.producthunt.com/r/p/1156789?app_id=339",
-    "source_url": "https://www.producthunt.com/products/stage-5",
-    "score": 0,
-    "source": "producthunt",
-    "timestamp": "2026-05-26T18:44:31-07:00",
-    "product_id": "producthunt.com/r/p/1156789"
-  },
-  {
     "id": "ph_parastore",
     "name": "Parastore",
     "description": "Simulate real store with LLM-powered synthetic consumer\n          \n          \n            Discussion\n            |\n            Link",
@@ -1319,28 +979,6 @@
     "product_id": "producthunt.com/r/p/1156989"
   },
   {
-    "id": "ph_launchos",
-    "name": "LaunchOS",
-    "description": "Bring Back the Classic Launchpad Experience on macOS 26+\n          \n          \n            Discussion\n            |\n            Link",
-    "url": "https://www.producthunt.com/r/p/1156977?app_id=339",
-    "source_url": "https://www.producthunt.com/products/launchos",
-    "score": 0,
-    "source": "producthunt",
-    "timestamp": "2026-05-27T01:34:54-07:00",
-    "product_id": "producthunt.com/r/p/1156977"
-  },
-  {
-    "id": "ph_neuralagent-2-5",
-    "name": "NeuralAgent 2.5",
-    "description": "Talk to your computer, it responds and gets things done.\n          \n          \n            Discussion\n            |\n            Link",
-    "url": "https://www.producthunt.com/r/p/1157517?app_id=339",
-    "source_url": "https://www.producthunt.com/products/neuralagent",
-    "score": 0,
-    "source": "producthunt",
-    "timestamp": "2026-05-27T16:23:44-07:00",
-    "product_id": "producthunt.com/r/p/1157517"
-  },
-  {
     "id": "ph_accountycat",
     "name": "AccountyCat",
     "description": "A focus companion that actually gets context\n          \n          \n            Discussion\n            |\n            Link",
@@ -1350,39 +988,6 @@
     "source": "producthunt",
     "timestamp": "2026-05-22T10:19:47-07:00",
     "product_id": "producthunt.com/r/p/1153540"
-  },
-  {
-    "id": "ph_somerch",
-    "name": "SoMerch",
-    "description": "Merch for distributed teams, handled end to end\n          \n          \n            Discussion\n            |\n            Link",
-    "url": "https://www.producthunt.com/r/p/1149603?app_id=339",
-    "source_url": "https://www.producthunt.com/products/somerch",
-    "score": 0,
-    "source": "producthunt",
-    "timestamp": "2026-05-18T00:24:19-07:00",
-    "product_id": "producthunt.com/r/p/1149603"
-  },
-  {
-    "id": "ph_memori",
-    "name": "Memori",
-    "description": "Persistent memory from agent trace, not just conversation\n          \n          \n            Discussion\n            |\n            Link",
-    "url": "https://www.producthunt.com/r/p/1141931?app_id=339",
-    "source_url": "https://www.producthunt.com/products/memori-labs",
-    "score": 0,
-    "source": "producthunt",
-    "timestamp": "2026-05-07T19:34:46-07:00",
-    "product_id": "producthunt.com/r/p/1141931"
-  },
-  {
-    "id": "ph_granite",
-    "name": "Granite",
-    "description": "A vault for every document that matters\n          \n          \n            Discussion\n            |\n            Link",
-    "url": "https://www.producthunt.com/r/p/1157102?app_id=339",
-    "source_url": "https://www.producthunt.com/products/granite",
-    "score": 0,
-    "source": "producthunt",
-    "timestamp": "2026-05-27T04:35:05-07:00",
-    "product_id": "producthunt.com/r/p/1157102"
   },
   {
     "id": "ph_robinhood-agentic-trading",
@@ -1407,17 +1012,6 @@
     "product_id": "producthunt.com/r/p/1157293"
   },
   {
-    "id": "ph_marked-3",
-    "name": "Marked 3",
-    "description": "Preview and Publish your Markdown\n          \n          \n            Discussion\n            |\n            Link",
-    "url": "https://www.producthunt.com/r/p/1157043?app_id=339",
-    "source_url": "https://www.producthunt.com/products/marked-2",
-    "score": 0,
-    "source": "producthunt",
-    "timestamp": "2026-05-27T03:17:01-07:00",
-    "product_id": "producthunt.com/r/p/1157043"
-  },
-  {
     "id": "ph_kim-personal-health-assistant",
     "name": "Kim Personal Health Assistant",
     "description": "The intelligence layer for Apple Health\n          \n          \n            Discussion\n            |\n            Link",
@@ -1440,28 +1034,6 @@
     "product_id": "producthunt.com/r/p/1157197"
   },
   {
-    "id": "ph_angel-match-4-0",
-    "name": "Angel Match 4.0",
-    "description": "A database of 125K+ angels and VCs to raise your seed round\n          \n          \n            Discussion\n            |\n            Link",
-    "url": "https://www.producthunt.com/r/p/1157577?app_id=339",
-    "source_url": "https://www.producthunt.com/products/angel-match",
-    "score": 0,
-    "source": "producthunt",
-    "timestamp": "2026-05-27T19:18:30-07:00",
-    "product_id": "producthunt.com/r/p/1157577"
-  },
-  {
-    "id": "ph_kugelaudio",
-    "name": "KugelAudio",
-    "description": "Real-time text-to-speech model you can self-host\n          \n          \n            Discussion\n            |\n            Link",
-    "url": "https://www.producthunt.com/r/p/1157452?app_id=339",
-    "source_url": "https://www.producthunt.com/products/kugelaudio",
-    "score": 0,
-    "source": "producthunt",
-    "timestamp": "2026-05-27T13:30:22-07:00",
-    "product_id": "producthunt.com/r/p/1157452"
-  },
-  {
     "id": "ph_calling-skills-for-ai-agents",
     "name": "Calling Skills for AI Agents",
     "description": "Add voice and video calling via your coding agent\n          \n          \n            Discussion\n            |\n            Link",
@@ -1482,17 +1054,6 @@
     "source": "producthunt",
     "timestamp": "2026-05-14T11:16:40-07:00",
     "product_id": "producthunt.com/r/p/1147138"
-  },
-  {
-    "id": "ph_extend",
-    "name": "Extend",
-    "description": "Parse any PDF layout with SOTA accuracy for AI pipelines\n          \n          \n            Discussion\n            |\n            Link",
-    "url": "https://www.producthunt.com/r/p/1156458?app_id=339",
-    "source_url": "https://www.producthunt.com/products/extend-2",
-    "score": 0,
-    "source": "producthunt",
-    "timestamp": "2026-05-26T08:41:04-07:00",
-    "product_id": "producthunt.com/r/p/1156458"
   },
   {
     "id": "ph_powabase",
@@ -1572,94 +1133,6 @@
     "product_id": "producthunt.com/r/p/1156372"
   },
   {
-    "id": "ph_bobca",
-    "name": "BobCA",
-    "description": "A sovereign agent that learns to code with your preferences\n          \n          \n            Discussion\n            |\n            Link",
-    "url": "https://www.producthunt.com/r/p/1155920?app_id=339",
-    "source_url": "https://www.producthunt.com/products/bob-s-workshop",
-    "score": 0,
-    "source": "producthunt",
-    "timestamp": "2026-05-25T21:17:14-07:00",
-    "product_id": "producthunt.com/r/p/1155920"
-  },
-  {
-    "id": "ph_gengo",
-    "name": "GenGo",
-    "description": "Transform selected text anywhere on macOS\n          \n          \n            Discussion\n            |\n            Link",
-    "url": "https://www.producthunt.com/r/p/1156702?app_id=339",
-    "source_url": "https://www.producthunt.com/products/gengo-2",
-    "score": 0,
-    "source": "producthunt",
-    "timestamp": "2026-05-26T14:31:12-07:00",
-    "product_id": "producthunt.com/r/p/1156702"
-  },
-  {
-    "id": "ph_macsim-by-studio-practice",
-    "name": "MacSIM by Studio Practice",
-    "description": "Preview any URL on every Mac screen at once\n          \n          \n            Discussion\n            |\n            Link",
-    "url": "https://www.producthunt.com/r/p/1152269?app_id=339",
-    "source_url": "https://www.producthunt.com/products/mac-screen-simulator-studio-practice",
-    "score": 0,
-    "source": "producthunt",
-    "timestamp": "2026-05-20T23:42:58-07:00",
-    "product_id": "producthunt.com/r/p/1152269"
-  },
-  {
-    "id": "ph_agenticcalling-ai",
-    "name": "AgenticCalling AI",
-    "description": "Give your AI the power to make phone calls\n          \n          \n            Discussion\n            |\n            Link",
-    "url": "https://www.producthunt.com/r/p/1156249?app_id=339",
-    "source_url": "https://www.producthunt.com/products/agenticcalling-ai",
-    "score": 0,
-    "source": "producthunt",
-    "timestamp": "2026-05-26T03:43:30-07:00",
-    "product_id": "producthunt.com/r/p/1156249"
-  },
-  {
-    "id": "ph_aviquill",
-    "name": "Aviquill",
-    "description": "A calm canvas for visual thinkers with messy minds\n          \n          \n            Discussion\n            |\n            Link",
-    "url": "https://www.producthunt.com/r/p/1155192?app_id=339",
-    "source_url": "https://www.producthunt.com/products/aviquill",
-    "score": 0,
-    "source": "producthunt",
-    "timestamp": "2026-05-25T00:57:37-07:00",
-    "product_id": "producthunt.com/r/p/1155192"
-  },
-  {
-    "id": "ph_mojito",
-    "name": "Mojito",
-    "description": "Type to search for any emoji, symbol, or gif in seconds\n          \n          \n            Discussion\n            |\n            Link",
-    "url": "https://www.producthunt.com/r/p/1155611?app_id=339",
-    "source_url": "https://www.producthunt.com/products/mojito-2",
-    "score": 0,
-    "source": "producthunt",
-    "timestamp": "2026-05-25T09:41:44-07:00",
-    "product_id": "producthunt.com/r/p/1155611"
-  },
-  {
-    "id": "ph_pawse-ai",
-    "name": "Pawse.ai",
-    "description": "An acoustic regulation system for dogs\n          \n          \n            Discussion\n            |\n            Link",
-    "url": "https://www.producthunt.com/r/p/1156203?app_id=339",
-    "source_url": "https://www.producthunt.com/products/pawse-ai",
-    "score": 0,
-    "source": "producthunt",
-    "timestamp": "2026-05-26T03:02:57-07:00",
-    "product_id": "producthunt.com/r/p/1156203"
-  },
-  {
-    "id": "ph_archi-flow",
-    "name": "Archi-Flow",
-    "description": "Visualize cloud architecture with live traffic simulations\n          \n          \n            Discussion\n            |\n            Link",
-    "url": "https://www.producthunt.com/r/p/1156402?app_id=339",
-    "source_url": "https://www.producthunt.com/products/archi-flow",
-    "score": 0,
-    "source": "producthunt",
-    "timestamp": "2026-05-26T07:14:01-07:00",
-    "product_id": "producthunt.com/r/p/1156402"
-  },
-  {
     "id": "ph_local-panel",
     "name": "Local Panel",
     "description": "Local SSH server manager with no subscriptions or installs\n          \n          \n            Discussion\n            |\n            Link",
@@ -1702,17 +1175,6 @@
     "source": "producthunt",
     "timestamp": "2026-05-22T06:43:25-07:00",
     "product_id": "producthunt.com/r/p/1153409"
-  },
-  {
-    "id": "ph_jott",
-    "name": "Jott",
-    "description": "Capture quick written or voice notes from your Mac's notch\n          \n          \n            Discussion\n            |\n            Link",
-    "url": "https://www.producthunt.com/r/p/1156260?app_id=339",
-    "source_url": "https://www.producthunt.com/products/jott-before-you-forget",
-    "score": 0,
-    "source": "producthunt",
-    "timestamp": "2026-05-26T04:03:32-07:00",
-    "product_id": "producthunt.com/r/p/1156260"
   },
   {
     "id": "v2ex_1216435",
@@ -1811,18 +1273,6 @@
     "product_id": "v2ex.com/t/1215999"
   },
   {
-    "id": "v2ex_1215827",
-    "name": "codex 的 Pets 能根据使用情况升级就好了",
-    "description": "就像宝可梦养成一样哈哈哈",
-    "url": "https://www.v2ex.com/t/1215827",
-    "source_url": "https://www.v2ex.com/t/1215827",
-    "score": 0,
-    "source": "v2ex",
-    "node": "ideas",
-    "timestamp": 1779848811,
-    "product_id": "v2ex.com/t/1215827"
-  },
-  {
     "id": "v2ex_1214783",
     "name": "如果用 AI 写一个小网游，每周玩法的胜利者会直接获得跟 ai 交流的机会，就跟龙珠一样，如此循环往复，有搞头么",
     "description": "一个突如其来的想法",
@@ -1845,17 +1295,5 @@
     "node": "ideas",
     "timestamp": 1778230824,
     "product_id": "v2ex.com/t/1211223"
-  },
-  {
-    "id": "v2ex_1210839",
-    "name": "AI 新工业革命-学习并工业化人的工作能力",
-    "description": "起因：当使用 codex 工作的时候，忽然就想到一个话题：下一次工业革命的奇点：ai 开启学习模式，观摩人的重复性或者逻辑性工作并替代之,然后所有人就变成了为 ai 打工。\r\n\r\n与 gpt 沟通了一下，这个话题现在很多人都在讨论或者设想了，微软说要推出学习型操作系统 Frontier Firm （前沿公司）。\r\n\r\n资本家眼里只有利润，ai 和人，哪个更便宜肯定哪个赢定了，你们觉得这个奇点会不会很快到来",
-    "url": "https://www.v2ex.com/t/1210839",
-    "source_url": "https://www.v2ex.com/t/1210839",
-    "score": 0,
-    "source": "v2ex",
-    "node": "ideas",
-    "timestamp": 1778132750,
-    "product_id": "v2ex.com/t/1210839"
   }
 ]
