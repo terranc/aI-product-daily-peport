@@ -169,16 +169,26 @@
     }
 
     function rebaseModalUrls(root, baseUrl) {
+      // 修复：如果 baseUrl 是产品详情页，使用根页面作为基准，避免相对路径计算错误
+      let adjustedBase = baseUrl;
+      try {
+        const urlObj = new URL(baseUrl);
+        if (urlObj.pathname.startsWith('/products/') || urlObj.pathname.startsWith('/weekly/')) {
+          // 使用根页面作为基准
+          adjustedBase = urlObj.origin + '/';
+        }
+      } catch (e) {}
+
       root.querySelectorAll('[src]').forEach(el => {
         const value = el.getAttribute('src');
         if (value && !value.startsWith('http') && !value.startsWith('data:')) {
-          el.setAttribute('src', new URL(value, baseUrl).href);
+          el.setAttribute('src', new URL(value, adjustedBase).href);
         }
       });
       root.querySelectorAll('[href]').forEach(el => {
         const value = el.getAttribute('href');
         if (value && !value.startsWith('http') && !value.startsWith('#') && !value.startsWith('mailto:')) {
-          el.setAttribute('href', new URL(value, baseUrl).href);
+          el.setAttribute('href', new URL(value, adjustedBase).href);
         }
       });
     }

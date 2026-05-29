@@ -716,16 +716,28 @@
     }
 
     function rebaseModalUrls(root, baseUrl) {
+      // 修复：如果 baseUrl 是产品详情页，使用根页面作为基准，避免相对路径计算错误
+      // 例如：从 /products/xxx.html 页面加载时，如果 baseUrl 是 /products/xxx.html
+      // 那么 products/yyy.html 会被错误解析为 /products/products/yyy.html
+      let adjustedBase = baseUrl;
+      try {
+        const urlObj = new URL(baseUrl);
+        if (urlObj.pathname.startsWith('/products/')) {
+          // 使用根页面作为基准
+          adjustedBase = urlObj.origin + '/';
+        }
+      } catch (e) {}
+
       root.querySelectorAll('[src]').forEach(el => {
         const value = el.getAttribute('src');
         if (value && !value.startsWith('http') && !value.startsWith('data:')) {
-          el.setAttribute('src', new URL(value, baseUrl).href);
+          el.setAttribute('src', new URL(value, adjustedBase).href);
         }
       });
       root.querySelectorAll('[href]').forEach(el => {
         const value = el.getAttribute('href');
         if (value && !value.startsWith('http') && !value.startsWith('#') && !value.startsWith('mailto:')) {
-          el.setAttribute('href', new URL(value, baseUrl).href);
+          el.setAttribute('href', new URL(value, adjustedBase).href);
         }
       });
     }
