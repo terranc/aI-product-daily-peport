@@ -893,6 +893,11 @@ def generate_index(reports):
     }}
 
     async function openProductModal(detailUrl, name, updateHistory = true) {{
+      // 将相对路径转为绝对路径（基于网站根目录），避免在产品详情页点击时路径解析错误
+      // 例如：在 /products/xxx.html 页面点击时，products/yyy.html 会被错误解析为 /products/products/yyy.html
+      const absoluteUrl = new URL(detailUrl, window.location.origin + '/').href;
+      detailUrl = absoluteUrl;
+
       modalTitle.textContent = name;
       modalBody.innerHTML = '<div style="text-align:center;padding:40px;color:var(--c-text-3)">加载中...</div>';
       modal.classList.add('active');

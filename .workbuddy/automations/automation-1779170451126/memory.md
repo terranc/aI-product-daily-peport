@@ -1,5 +1,25 @@
 # 自动化执行历史 - AI产品雷达-每日抓取
 
+## 2026-05-29 16:03
+
+- **状态**：✅ 成功
+- **抓取数**：167 个候选产品（Twitter 50 + V2EX 39 + HackerNews 28 + Product Hunt 50，Reddit 0）
+- **去重后**：167 个（自动 product_id 去重与数据库不匹配，手动排除 5 个近期已推荐产品：Kim、Robinhood AI、SpeakFlow、NeuralAgent、Pawse.ai）
+- **过滤后**：精选 5 个面向用户的产品（大量 Twitter 开发讨论、V2EX 闲聊帖、HN 开源项目被排除）
+- **精选 TOP 5**：
+  1. Clipline — AI 视频剪辑 Telegram 机器人（评分 8）
+  2. KeptWell — AI 家庭医疗文档管理中心（评分 8）
+  3. Sublern — AI 视频字幕悬浮翻译（评分 8）
+  4. Pitch Agent — AI 品牌演示文稿生成器（评分 7）
+  5. Firecoach AI — AI 销售角色扮演训练平台（评分 7）
+- **截图**：5 张网站截图全部成功
+- **部署**：main + gh-pages 推送成功
+- **踩坑**：无新增踩坑
+
+---
+
+# 自动化执行历史 - AI产品雷达-每日抓取
+
 ## 2026-05-27 12:00
 
 - **状态**：✅ 成功
