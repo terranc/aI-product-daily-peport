@@ -643,7 +643,10 @@ def render_product_detail_content(prd, depth=0):
 
 对于这个产品，我还想进一步沟通。
 请关注其真实需求、核心价值、实现逻辑、竞争优势、商业模式以及可复制或可改进的机会，并避免停留在表面的功能描述。
-------"""
+------
+
+
+"""
 
     encoded_prompt = urllib.parse.quote(chatgpt_prompt)
     btn_chatgpt = f'<a href="https://chatgpt.com/?q={encoded_prompt}" target="_blank" class="btn btn-ghost" style="background:linear-gradient(135deg,#10a37f 0%,#1a7f64 100%);color:#fff;border:none;">💬 ChatGPT 分析</a>'
@@ -846,6 +849,8 @@ def generate_index(reports):
     const modal = document.getElementById('product-modal');
     const modalBody = document.getElementById('modal-body');
     const modalTitle = document.getElementById('modal-title');
+    let isModalOpen = false;
+    let lastListUrl = null;  // 记住列表页 URL
 
     // 大屏设备用 Modal，手机端和无 JS 环境保持普通链接跳转
     const isDesktop = window.matchMedia('(min-width: 769px)').matches;
@@ -875,11 +880,18 @@ def generate_index(reports):
       }});
     }}
 
-    async function openProductModal(detailUrl, name) {{
+    async function openProductModal(detailUrl, name, updateHistory = true) {{
       modalTitle.textContent = name;
       modalBody.innerHTML = '<div style="text-align:center;padding:40px;color:var(--c-text-3)">加载中...</div>';
       modal.classList.add('active');
       document.body.style.overflow = 'hidden';
+      isModalOpen = true;
+
+      // 更新 URL（只在用户点击时更新，popstate 触发时不更新）
+      if (updateHistory) {{
+        lastListUrl = window.location.href;
+        history.pushState({{ productModal: true, url: detailUrl }}, '', detailUrl);
+      }}
 
       try {{
         const resp = await fetch(detailUrl);
@@ -909,12 +921,19 @@ def generate_index(reports):
       modal.scrollTop = 0;
     }}
 
-    function closeProductModal() {{
+    function closeProductModal(updateHistory = true) {{
+      if (!isModalOpen) return;
       modal.classList.remove('active');
       document.body.style.overflow = '';
+      isModalOpen = false;
       // 解绑 Fancybox
       if (typeof Fancybox !== 'undefined') {{
         try {{ Fancybox.close(); }} catch(e) {{}}
+      }}
+      // 还原 URL（只在用户操作时更新，popstate 触发时不更新）
+      if (updateHistory && lastListUrl) {{
+        history.pushState({{}}, '', lastListUrl);
+        lastListUrl = null;
       }}
     }}
 
@@ -934,6 +953,30 @@ def generate_index(reports):
         closeProductModal();
       }}
     }});
+
+    // 监听浏览器前进/后退
+    window.addEventListener('popstate', function(e) {{
+      if (e.state && e.state.productModal) {{
+        // 用户后退到产品详情页，重新打开 modal
+        const detailUrl = e.state.url;
+        const name = detailUrl.split('/').pop().replace('.html', '');
+        openProductModal(detailUrl, decodeURIComponent(name), false);
+      }} else if (isModalOpen) {{
+        // 用户后退离开产品详情页，关闭 modal
+        closeProductModal(false);
+      }}
+    }});
+
+    // 页面加载时检查 URL 是否为产品详情页
+    (function() {{
+      const path = window.location.pathname;
+      const match = path.match(/\\/products\\/([a-z0-9-]+)\\.html$/i);
+      if (match && isDesktop) {{
+        const slug = match[1];
+        const detailUrl = window.location.href;
+        openProductModal(detailUrl, slug, false);
+      }}
+    }})();
   </script>
 </body>
 </html>"""

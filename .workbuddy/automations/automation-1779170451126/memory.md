@@ -201,3 +201,21 @@
 - **部署**：main + gh-pages 推送成功
 - **踩坑**：
   - 自动化 product_id 去重失效：raw-candidates 的 product_id 格式为 `producthunt.com/r/p/1154630`，数据库中为简短 ID（如 `selectprism`），两者不匹配。需在 LLM 分析阶段手动排除近期已推荐产品
+
+---
+
+## 2026-05-29 14:12
+
+- **状态**：✅ 成功
+- **抓取数**：168 个候选产品（Twitter 50 + V2EX 38 + HackerNews 30 + Product Hunt 50，Reddit 0）
+- **去重后**：161 个（7 个冷却期内产品命中）
+- **过滤后**：精选 5 个面向用户的产品（大量 Twitter 讨论帖、技术工具、开源项目被排除）
+- **精选 TOP 5**：
+  1. Kim：AI健康助手 — Apple Health的智能分析层（评分 8）
+  2. Robinhood AI代理交易 — 让AI代理自动执行股票交易（评分 9）
+  3. 随声提词（SpeakFlow）— 语音识别智能提词器（评分 7）
+  4. NeuralAgent 2.5：桌面AI助手 — 与电脑对话完成任务（评分 8）
+  5. Pawse.ai：狗狗声学调节系统 — AI驱动的狗狗声学调节（评分 7）
+- **截图**：5 张网站截图全部成功
+- **部署**：main + gh-pages 推送成功
+- **踩坑**：无新增踩坑

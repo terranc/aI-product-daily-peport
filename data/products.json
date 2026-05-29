@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-05-29T14:29:59.556377",
+  "lastUpdated": "2026-05-29T08:06:16.543012+00:00",
   "products": [
     {
       "id": "dafa9686fbe1",
@@ -5511,7 +5511,8 @@
       ],
       "sourceUrl": "https://www.producthunt.com/posts/sublern",
       "firstSeen": "2026-05-29T12:07:03.508834",
-      "cooldownExpiresAt": "2026-06-12T12:07:03"
+      "cooldownExpiresAt": "2026-06-12T12:07:03",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1157151_20260529_160647.png"
     },
     {
       "id": "producthunt.com/r/p/1155135",
@@ -5887,6 +5888,372 @@
       },
       "metrics": {},
       "screenshotUrl": "assets/screenshots/ph_1156203_20260529_142603.png",
+      "appStoreScreenshots": [],
+      "rawData": {}
+    },
+    {
+      "id": "producthunt.com/r/p/1158020",
+      "name": "Clipline — AI 视频剪辑 Telegram 机器人",
+      "slug": "clipline-ai-video-cutter-telegram",
+      "description": "Clipline 是一款 AI 驱动的视频剪辑工具，通过 Telegram 机器人形式提供服务。用户只需发送 YouTube 链接或上传 MP4 文件，AI 会自动识别视频中的高光时刻，添加时尚字幕和引人注目的文字横幅，生成适合 Shorts、Reels 和 TikTok 的竖版短视频。",
+      "url": "https://www.clipline.click/",
+      "homepage": "https://www.clipline.click/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [
+        "AI视频剪辑",
+        "短视频创作",
+        "Telegram机器人"
+      ],
+      "tags": [
+        "AI视频剪辑",
+        "短视频创作",
+        "Telegram机器人"
+      ],
+      "firstSeen": "2026-05-29T08:06:16.543012+00:00",
+      "lastSeen": "2026-05-29T08:06:16.543012+00:00",
+      "cooldownExpiresAt": "2026-06-12T08:06:16.543012+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-29T08:06:16.543012+00:00",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/r/p/1158020",
+          "title": "Clipline — AI 视频剪辑 Telegram 机器人"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "短视频内容创作者、社交媒体运营人员和自媒体博主",
+        "useCases": [
+          "将 YouTube 长视频自动剪辑为 TikTok/Reels 短视频",
+          "去除视频中的静音片段，保留精彩部分",
+          "自动添加字幕和文字横幅，提升视频吸引力",
+          "支持人脸追踪和智能裁剪，自动适配竖屏比例",
+          "通过 Telegram 一键操作，无需专业剪辑软件"
+        ],
+        "designIntent": "Clipline 看到了短视频创作者的核心痛点：从长视频中提取精华片段既耗时又需要专业技能。通过将 AI 剪辑能力嵌入 Telegram 这个最常用的即时通讯工具，极大降低了视频剪辑的门槛。团队希望让每个人都像专业剪辑师一样高效产出短视频内容。",
+        "problemSolved": "传统视频剪辑需要专业软件和技能，从长视频中提取精华片段通常需要数小时。Clipline 通过 AI 自动识别高光时刻、智能裁剪和字幕生成，将这个过程压缩到几秒钟，让创作者可以专注于内容策略而非技术操作。",
+        "score": 8,
+        "scoreReason": "Clipline 的创新点在于将 AI 视频剪辑能力以 Telegram 机器人的形式提供，使用门槛极低。AI 自动识别高光、添加字幕、智能裁剪的核心能力切中了短视频创作者的真实痛点。但目前仅支持竖版短视频输出，功能范围相对有限。",
+        "competitors": [
+          {
+            "name": "CapCut",
+            "url": "https://www.capcut.com/",
+            "comparison": "CapCut 是功能全面的视频编辑器，但需要手动操作；Clipline 通过 AI 全自动化实现一键剪辑"
+          },
+          {
+            "name": "Opus Clip",
+            "url": "https://www.opus.pro/",
+            "comparison": "Opus Clip 是类似的 AI 视频剪辑工具，但需要注册账号和网页操作；Clipline 通过 Telegram 机器人提供更轻量的使用体验"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1158020_20260529_160627.png",
+      "appStoreScreenshots": [],
+      "rawData": {}
+    },
+    {
+      "id": "producthunt.com/r/p/1158354",
+      "name": "KeptWell — AI 家庭医疗文档管理中心",
+      "slug": "keptwell-family-medical-records",
+      "description": "KeptWell 是一个 AI 驱动的家庭医疗文档管理中心。当家人面对严重疾病时，各种医疗文件、检查报告、治疗方案往往散乱无序。KeptWell 帮助用户上传所有医疗文档，AI 自动阅读、理解并整理成通俗易懂的英文摘要，让整个家庭都能轻松理解复杂的医疗信息，保持信息同步。",
+      "url": "https://keptwell.org/",
+      "homepage": "https://keptwell.org/",
+      "type": "app",
+      "appStoreName": "KeptWell Care",
+      "appStoreUrl": "https://apps.apple.com/br/app/keptwell-care/id6762662005",
+      "platforms": [],
+      "categories": [
+        "AI医疗文档",
+        "家庭健康管理",
+        "医疗信息整理"
+      ],
+      "tags": [
+        "AI医疗文档",
+        "家庭健康管理",
+        "医疗信息整理"
+      ],
+      "firstSeen": "2026-05-29T08:06:16.543012+00:00",
+      "lastSeen": "2026-05-29T08:06:16.543012+00:00",
+      "cooldownExpiresAt": "2026-06-12T08:06:16.543012+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-29T08:06:16.543012+00:00",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/r/p/1158354",
+          "title": "KeptWell — AI 家庭医疗文档管理中心"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "有家人面临严重疾病的家庭，需要管理大量医疗文档的人群",
+        "useCases": [
+          "上传并整理家人的各类医疗文档和检查报告",
+          "将复杂的医疗术语转化为通俗易懂的摘要",
+          "让多位家庭成员同步了解病情和治疗进展",
+          "建立完整的家庭医疗档案，方便随时查阅",
+          "在就医时快速调取相关病史和用药记录"
+        ],
+        "designIntent": "KeptWell 源于一个真实的痛点：当家人罹患严重疾病时，家庭成员需要处理海量的医疗文件，但这些文件往往充满专业术语，普通人难以理解。KeptWell 通过 AI 自动解读医疗文档，将其转化为人人都能看懂的语言，让家庭成员能够共同参与医疗决策。",
+        "problemSolved": "面对严重疾病时，家庭往往需要管理数十甚至上百份医疗文档，这些文件格式各异、术语晦涩。KeptWell 将所有文档集中管理，AI 自动提取关键信息并用简单语言解释，消除了医疗信息的不对称，让每个人都能理解家人的病情和治疗方案。",
+        "score": 8,
+        "scoreReason": "KeptWell 解决了一个真实且普遍的痛点——家庭医疗文档管理。AI 自动解读医疗文档的能力非常实用，尤其对于没有医学背景的家庭成员。产品的使命驱动型定位很有温度，但目标市场相对小众，主要面向有严重疾病患者的家庭。",
+        "competitors": [
+          {
+            "name": "MyChart",
+            "url": "https://www.mychart.org/",
+            "comparison": "MyChart 是医院系统自带的患者门户，但只能查看本院数据；KeptWell 支持跨医院文档统一管理"
+          },
+          {
+            "name": "Apple Health Records",
+            "url": "https://www.apple.com/health/",
+            "comparison": "Apple Health Records 可以聚合健康数据，但侧重数据展示；KeptWell 侧重文档理解和信息解读"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1158354_20260529_160638.png",
+      "appStoreScreenshots": [],
+      "rawData": {}
+    },
+    {
+      "id": "producthunt.com/r/p/1157151",
+      "name": "Sublern — AI 视频字幕悬浮翻译",
+      "slug": "sublern-video-subtitle-translator",
+      "description": "Sublern 是一款浏览器扩展，支持在 YouTube、Netflix、TED 等 10+ 视频平台上悬停翻译字幕中的任意单词。鼠标悬停到字幕单词上即可获得即时翻译、例句和发音，无需离开视频页面。支持 Chrome 和 Firefox 浏览器。",
+      "url": "https://www.producthunt.com/products/sublern",
+      "homepage": "https://www.producthunt.com/products/sublern",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [
+        "AI翻译",
+        "视频学习",
+        "浏览器扩展",
+        "语言学习"
+      ],
+      "tags": [
+        "AI翻译",
+        "视频学习",
+        "浏览器扩展",
+        "语言学习"
+      ],
+      "firstSeen": "2026-05-29T08:06:16.543012+00:00",
+      "lastSeen": "2026-05-29T08:06:16.543012+00:00",
+      "cooldownExpiresAt": "2026-06-12T08:06:16.543012+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-29T08:06:16.543012+00:00",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/r/p/1157151",
+          "title": "Sublern — AI 视频字幕悬浮翻译"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "通过视频学习外语的用户，尤其是观看英语视频的中文学习者",
+        "useCases": [
+          "在 YouTube 视频中悬停查看生词翻译和发音",
+          "在 Netflix 看剧时即时理解不认识的单词",
+          "在 TED 演讲视频中边看边学专业词汇",
+          "获取单词的上下文例句，加深理解",
+          "无需切换页面或打开词典，保持观看沉浸感"
+        ],
+        "designIntent": "Sublern 洞察到语言学习者在观看外语视频时的常见困扰：遇到不认识的单词需要暂停、打开词典、搜索、再返回视频，这个过程严重打断学习节奏。通过浏览器扩展将翻译能力直接嵌入视频字幕，实现了'零打断'的沉浸式语言学习体验。",
+        "problemSolved": "观看外语视频学习时，频繁查词会打断心流状态。Sublern 将翻译能力无缝集成到视频字幕中，鼠标悬停即可获得翻译和发音，让学习者在不中断观看的情况下理解每个单词，大幅提升了视频学习的效率和体验。",
+        "score": 8,
+        "scoreReason": "Sublern 的交互设计非常优雅——悬停翻译完美融入视频观看体验，零打断学习节奏。支持 10+ 主流视频平台覆盖面广，Chrome/Firefox 双平台支持。作为浏览器扩展，安装和使用门槛极低。但功能相对单一，主要价值在于语言学习场景。",
+        "competitors": [
+          {
+            "name": "Language Reactor",
+            "url": "https://www.languagereactor.com/",
+            "comparison": "Language Reactor 也提供视频双语字幕，但功能更复杂；Sublern 的悬停翻译更轻量直观"
+          },
+          {
+            "name": "Immersive Translate",
+            "url": "https://immersivetranslate.com/",
+            "comparison": "Immersive Translate 支持全文翻译；Sublern 专注于字幕中的单词级翻译，更适合语言学习场景"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1157151_20260529_160647.png",
+      "appStoreScreenshots": [],
+      "rawData": {}
+    },
+    {
+      "id": "producthunt.com/r/p/1155361",
+      "name": "Pitch Agent — AI 品牌演示文稿生成器",
+      "slug": "pitch-agent-ai-presentations",
+      "description": "Pitch Agent 是演示文稿平台 Pitch 推出的 AI 代理，能够根据用户输入自动生成符合品牌规范的演示文稿。它不只是生成幻灯片，而是理解品牌风格、色彩和排版，生成的内容可以直接编辑和分享，是团队演示文稿制作的全新方式。",
+      "url": "https://pitch.com/blog/introducing-pitch-agent",
+      "homepage": "https://pitch.com",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [
+        "AI演示文稿",
+        "品牌一致性",
+        "团队协作",
+        "办公效率"
+      ],
+      "tags": [
+        "AI演示文稿",
+        "品牌一致性",
+        "团队协作",
+        "办公效率"
+      ],
+      "firstSeen": "2026-05-29T08:06:16.543012+00:00",
+      "lastSeen": "2026-05-29T08:06:16.543012+00:00",
+      "cooldownExpiresAt": "2026-06-12T08:06:16.543012+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-29T08:06:16.543012+00:00",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/r/p/1155361",
+          "title": "Pitch Agent — AI 品牌演示文稿生成器"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "需要频繁制作演示文稿的企业团队、市场部门和商务人员",
+        "useCases": [
+          "输入简要描述，自动生成符合品牌风格的演示文稿",
+          "保持团队所有演示文稿的品牌视觉一致性",
+          "快速制作客户提案和销售演示",
+          "将会议笔记或大纲转化为专业幻灯片",
+          "团队协作编辑 AI 生成的演示文稿"
+        ],
+        "designIntent": "Pitch Agent 的核心理念是：AI 生成的演示文稿不应该是千篇一律的模板化内容，而应该完全符合每个企业的品牌规范。通过深度集成品牌系统（色彩、字体、排版），Pitch Agent 让 AI 生成的每一页幻灯片都像专业设计师制作的一样，同时保持完全可编辑。",
+        "problemSolved": "企业团队制作演示文稿时面临两大痛点：一是耗时，从零制作一份专业幻灯片通常需要数小时；二是品牌一致性难以保证，不同人制作的演示文稿风格各异。Pitch Agent 通过 AI 自动生成加上品牌系统约束，同时解决了效率和一致性两个问题。",
+        "score": 7,
+        "scoreReason": "Pitch Agent 的品牌一致性能力是差异化亮点，解决了 AI 生成内容难以融入企业品牌体系的问题。与 Pitch 平台深度集成，生成的内容完全可编辑。但需要用户已有 Pitch 账号和品牌设置，对于非 Pitch 用户的吸引力有限。",
+        "competitors": [
+          {
+            "name": "Gamma",
+            "url": "https://gamma.app/",
+            "comparison": "Gamma 是更通用的 AI 演示文稿工具，使用门槛更低；Pitch Agent 在品牌一致性方面更强"
+          },
+          {
+            "name": "Beautiful.ai",
+            "url": "https://www.beautiful.ai/",
+            "comparison": "Beautiful.ai 强调智能排版；Pitch Agent 强调品牌规范和团队协作"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1155361_20260529_160657.png",
+      "appStoreScreenshots": [],
+      "rawData": {}
+    },
+    {
+      "id": "producthunt.com/r/p/1155201",
+      "name": "Firecoach AI — AI 销售角色扮演训练平台",
+      "slug": "firecoach-ai-sales-roleplay",
+      "description": "Firecoach AI 是一个 AI 驱动的销售角色扮演训练平台，模拟真实销售场景进行实战演练。支持销售全流程的场景模拟，包括需求挖掘、产品演示、异议处理和成交谈判。AI 会根据销售代表的表现提供实时反馈和改进建议，帮助销售团队在不消耗真实客户资源的情况下提升技能。",
+      "url": "https://firecoach.ai/",
+      "homepage": "https://firecoach.ai/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [
+        "AI销售培训",
+        "角色扮演",
+        "B2B SaaS",
+        "销售赋能"
+      ],
+      "tags": [
+        "AI销售培训",
+        "角色扮演",
+        "B2B SaaS",
+        "销售赋能"
+      ],
+      "firstSeen": "2026-05-29T08:06:16.543012+00:00",
+      "lastSeen": "2026-05-29T08:06:16.543012+00:00",
+      "cooldownExpiresAt": "2026-06-12T08:06:16.543012+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-05-29T08:06:16.543012+00:00",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/r/p/1155201",
+          "title": "Firecoach AI — AI 销售角色扮演训练平台"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "B2B 销售团队、销售管理者和销售培训负责人",
+        "useCases": [
+          "模拟真实客户电话进行销售演练",
+          "练习处理常见客户异议和拒绝话术",
+          "新人销售的快速上手培训",
+          "资深销售的技能提升和话术优化",
+          "团队销售能力的量化评估和对比"
+        ],
+        "designIntent": "Firecoach AI 看到了销售培训中的核心矛盾：最好的练习方式是实战，但实战的成本很高（消耗真实客户资源、可能丢单）。通过 AI 模拟真实销售场景，Firecoach 让销售代表可以在零风险的环境中反复练习，像运动员通过模拟训练提升竞技水平一样。",
+        "problemSolved": "传统销售培训要么是理论授课（缺乏实战感），要么是角色扮演（需要搭档、成本高、覆盖面小）。Firecoach AI 通过 AI 模拟任意客户角色和场景，让每个销售代表都能随时随地进行高质量的实战演练，且培训成本大幅降低。",
+        "score": 7,
+        "scoreReason": "Firecoach AI 的 AI 角色扮演模拟真实销售场景，为销售团队提供了低成本高频次的练习机会。全流程覆盖（从需求挖掘到成交）体现了对销售业务的深度理解。但 B2B 销售训练市场已有多个竞品，差异化主要在于 AI 模拟的真实度。",
+        "competitors": [
+          {
+            "name": "Second Nature AI",
+            "url": "https://www.secondnature.ai/",
+            "comparison": "Second Nature 也是 AI 销售训练工具，侧重语音交互；Firecoach 更侧重全流程场景模拟"
+          },
+          {
+            "name": "Quantified",
+            "url": "https://www.quantified.ai/",
+            "comparison": "Quantified 提供销售能力评估和培训；Firecoach 更专注于 AI 角色扮演这一核心体验"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1155201_20260529_160707.png",
       "appStoreScreenshots": [],
       "rawData": {}
     }
