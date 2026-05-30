@@ -1,0 +1,322 @@
+{
+  "date": "2026-05-30",
+  "generatedAt": "2026-05-30T05:01:02.953544+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "ph_drafted-4",
+      "name": "Drafted",
+      "slug": "drafted",
+      "description": "AI 家居设计工具，几秒内生成定制房屋平面图、立面图和 3D 设计，支持免费 PDF 和 CAD 下载",
+      "url": "https://www.drafted.ai/",
+      "homepage": "https://www.drafted.ai/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260530_125859.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI设计",
+        "家居",
+        "建筑",
+        "平面图",
+        "3D渲染"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1158437?app_id=339",
+      "firstSeen": "2026-05-30T05:01:02.953544+00:00",
+      "analysis": {
+        "targetAudience": "准备装修或建房的房主、室内设计师、建筑爱好者",
+        "useCases": [
+          "输入房屋轮廓，AI 自动生成多种平面布局方案",
+          "选择房间配置后即时生成立面图和 3D 渲染效果",
+          "下载免费 PDF 和 CAD 文件用于施工或进一步设计",
+          "探索 85,000+ AI 生成的房屋设计灵感",
+          "快速迭代不同风格和布局，无需专业设计软件"
+        ],
+        "designIntent": "降低房屋设计门槛，让普通人也能像专业设计师一样快速探索和生成房屋方案。通过 AI 将草图瞬间转化为完整的建筑图纸。",
+        "problemSolved": "传统房屋设计需要雇佣设计师或学习复杂 CAD 软件，成本高、周期长。Drafted 让用户在几秒内获得专业级设计方案，大幅缩短从构想到可视化的过程。",
+        "tags": [
+          "AI设计",
+          "家居",
+          "建筑",
+          "平面图",
+          "3D渲染"
+        ],
+        "score": 9,
+        "scoreReason": "解决真实刚需——房屋设计是高价值、低频但高痛点场景。AI 生成质量看起来很高，支持 PDF/CAD 导出很实用。85,000+ 设计库形成内容壁垒。",
+        "competitors": [
+          {
+            "name": "Coohom",
+            "url": "https://www.coohom.com/",
+            "comparison": "Coohom 更偏向室内设计渲染，Drafted 聚焦于房屋平面图和建筑设计全流程"
+          },
+          {
+            "name": "Spacely AI",
+            "url": "https://spacely.ai/",
+            "comparison": "Spacely AI 专注室内设计风格迁移，Drafted 覆盖从平面图到 3D 的完整建筑设计链"
+          },
+          {
+            "name": "Snaptrude",
+            "url": "https://snaptrude.com/",
+            "comparison": "Snaptrude 是专业建筑设计协作工具，Drafted 更轻量、更面向普通用户"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ph_agent-a-by-ahrefs",
+      "name": "Agent A by Ahrefs",
+      "slug": "agent-a-by-ahrefs",
+      "description": "基于 Ahrefs 170T+ 索引数据的 AI 营销代理，自动分析、构建并执行营销洞察",
+      "url": "https://ahrefs.com/agent-a",
+      "homepage": "https://ahrefs.com/agent-a",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260530_125925.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI营销",
+        "SEO",
+        "数据分析",
+        "内容营销",
+        "竞品分析"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1158026?app_id=339",
+      "firstSeen": "2026-05-30T05:01:02.953544+00:00",
+      "analysis": {
+        "targetAudience": "数字营销人员、SEO 从业者、内容营销团队、中小企业市场负责人",
+        "useCases": [
+          "让 AI 自动分析竞品网站的 SEO 策略和内容布局",
+          "基于海量数据生成内容营销计划和关键词策略",
+          "自动监控竞品动态并生成应对建议",
+          "生成技术 SEO 审计报告和优化建议",
+          "用自然语言提问获取营销数据洞察"
+        ],
+        "designIntent": "将 Ahrefs 十四年积累的 170 万亿+索引页面数据与 AI 代理结合，让用户通过对话式交互完成复杂的营销分析和执行任务，从手动查数据转变为 AI 自主行动。",
+        "problemSolved": "传统 SEO 和营销分析需要手动查阅大量数据、交叉比对多个工具。Agent A 将数据查询、分析、报告生成和策略建议整合为一个 AI 代理，大幅降低营销决策的时间成本。",
+        "tags": [
+          "AI营销",
+          "SEO",
+          "数据分析",
+          "内容营销",
+          "竞品分析"
+        ],
+        "score": 9,
+        "scoreReason": "Ahrefs 数据壁垒极强（170T+ 页面索引），AI 代理化是 SaaS 行业趋势。$99/月定价对专业营销人员有吸引力。从工具到代理的范式转变值得关注。",
+        "competitors": [
+          {
+            "name": "Jasper AI",
+            "url": "https://www.jasper.ai/",
+            "comparison": "Jasper 专注内容生成，Agent A 覆盖从数据分析到策略执行的完整营销链"
+          },
+          {
+            "name": "Semrush AI",
+            "url": "https://www.semrush.com/",
+            "comparison": "Semrush 提供类似 SEO 工具但 AI 代理化程度不如 Agent A，数据规模也较小"
+          },
+          {
+            "name": "HubSpot AI",
+            "url": "https://www.hubspot.com/",
+            "comparison": "HubSpot 是 CRM+营销平台，Agent A 更聚焦于 SEO 和竞品数据分析"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ph_granite",
+      "name": "Granite",
+      "slug": "granite",
+      "description": "AI 文档保管库，自动读取、分类并永久保存重要文档，支持自然语言搜索",
+      "url": "https://granite.co/",
+      "homepage": "https://granite.co/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260530_125940.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "文档管理",
+        "AI搜索",
+        "个人效率",
+        "信息整理",
+        "数据保管"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1157102?app_id=339",
+      "firstSeen": "2026-05-30T05:01:02.953544+00:00",
+      "analysis": {
+        "targetAudience": "有大量纸质/电子文档需要管理的个人和家庭，尤其是处理税务、保险、租赁合同等重要文件的用户",
+        "useCases": [
+          "上传税务表单、房产证、保险单等重要文档，AI 自动分类归档",
+          "用自然语言提问快速找到几年前的某份合同",
+          "上传扫描件或照片，AI 自动提取关键信息并结构化存储",
+          "永久保存所有重要文档，不再担心丢失或遗忘",
+          "收到邮件附件后自动归档到正确类别"
+        ],
+        "designIntent": "打造个人和家庭的永久文档保险箱，通过 AI 自动理解、分类和检索文档，让用户永远不需要手动整理文件夹。",
+        "problemSolved": "重要文档散落在邮件、云端、纸质文件中，需要时很难找到。Granite 通过 AI 自动读取和分类，结合自然语言搜索，让文档管理从被动变为主动。",
+        "tags": [
+          "文档管理",
+          "AI搜索",
+          "个人效率",
+          "信息整理",
+          "数据保管"
+        ],
+        "score": 8,
+        "scoreReason": "文档管理是刚需但长期被忽视的领域。AI 自动分类+自然语言搜索的组合解决了真实痛点。永久保存的定位差异化明显。",
+        "competitors": [
+          {
+            "name": "Notion",
+            "url": "https://www.notion.so/",
+            "comparison": "Notion 是通用知识管理工具，Granite 专注文档保管和自动分类，更垂直"
+          },
+          {
+            "name": "DocuSearch",
+            "url": "https://docusearch.ai/",
+            "comparison": "DocuSearch 侧重文档搜索，Granite 覆盖从上传到分类到搜索的完整链路"
+          },
+          {
+            "name": "Adobe Acrobat",
+            "url": "https://www.adobe.com/acrobat.html",
+            "comparison": "Adobe 是 PDF 编辑工具，Granite 是 AI 驱动的文档保管和检索平台"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ph_ava-studio",
+      "name": "Ava Studio",
+      "slug": "ava-studio",
+      "description": "AI 原生创意工作室，从文字提示到病毒式传播视频，支持角色一致性和动作指导",
+      "url": "https://www.avastudio.com/",
+      "homepage": "https://www.avastudio.com/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260530_125950.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI视频",
+        "内容创作",
+        "广告制作",
+        "创意工具",
+        "视频生成"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1151178?app_id=339",
+      "firstSeen": "2026-05-30T05:01:02.953544+00:00",
+      "analysis": {
+        "targetAudience": "内容创作者、社交媒体营销人员、小型广告团队、独立创业者",
+        "useCases": [
+          "输入文字描述，AI 生成完整的视频广告素材",
+          "指导角色动作和镜头运动，生成连贯的视频片段",
+          "保持角色在不同场景中的外观一致性",
+          "快速制作适合 TikTok、Instagram Reels 等平台的短视频",
+          "无需视频编辑技能即可产出专业级广告内容"
+        ],
+        "designIntent": "打造第一个 AI 原生创意工作室，让任何人都能从一个提示词出发，生成病毒式传播的视频内容，彻底消除视频制作的技术门槛。",
+        "problemSolved": "视频广告制作传统上需要专业设备、剪辑技能和团队协作。Ava Studio 将视频制作简化为文字描述，AI 自动完成从创意到成品的全流程。",
+        "tags": [
+          "AI视频",
+          "内容创作",
+          "广告制作",
+          "创意工具",
+          "视频生成"
+        ],
+        "score": 8,
+        "scoreReason": "视频内容需求爆发式增长，AI 视频生成是热门赛道。Ava Studio 强调角色一致性和动作指导，比通用 AI 视频工具更实用。面向营销场景定位清晰。",
+        "competitors": [
+          {
+            "name": "InVideo",
+            "url": "https://invideo.io/",
+            "comparison": "InVideo 是模板驱动的视频编辑器，Ava Studio 是 AI 原生的从提示到视频的生成工具"
+          },
+          {
+            "name": "Pika",
+            "url": "https://pika.art/",
+            "comparison": "Pika 专注 AI 视频生成，Ava Studio 更强调广告营销场景和角色一致性"
+          },
+          {
+            "name": "Runway",
+            "url": "https://runwayml.com/",
+            "comparison": "Runway 是通用 AI 视频工具，Ava Studio 定位更垂直于营销广告创作"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ph_accountycat",
+      "name": "AccountyCat",
+      "slug": "accountycat",
+      "description": "macOS AI 专注力伴侣，坐在菜单栏里感知你在做什么，分心时轻轻提醒",
+      "url": "https://accountycat.com/",
+      "homepage": "https://accountycat.com/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260530_130004.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "专注力",
+        "效率工具",
+        "Mac应用",
+        "AI提醒",
+        "开源"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1153540?app_id=339",
+      "firstSeen": "2026-05-30T05:01:02.953544+00:00",
+      "analysis": {
+        "targetAudience": "Mac 用户、远程工作者、自由职业者、需要提升专注力的知识工作者",
+        "useCases": [
+          "在菜单栏运行，AI 实时感知当前工作上下文",
+          "当你偏离任务时，AI 判断是否需要提醒而非简单弹窗",
+          "基于活动窗口标题理解你在做什么，提供情境化反馈",
+          "开源且隐私优先，所有数据本地处理",
+          "替代传统的番茄钟或屏蔽类工具，更智能地管理注意力"
+        ],
+        "designIntent": "重新定义专注力工具——不是靠屏蔽和惩罚，而是通过 AI 理解你当前的工作上下文，在真正需要时才介入提醒。开源和隐私优先确保用户信任。",
+        "problemSolved": "传统专注力工具（如 Forest、Focus）依赖预设规则和屏蔽列表，缺乏对实际工作状态的理解。AccountyCat 通过 AI 感知上下文，让提醒更精准、更人性化。",
+        "tags": [
+          "专注力",
+          "效率工具",
+          "Mac应用",
+          "AI提醒",
+          "开源"
+        ],
+        "score": 7,
+        "scoreReason": "概念新颖——用 AI 上下文感知替代传统屏蔽式专注力工具。开源+隐私优先是加分项。但作为菜单栏小工具，市场天花板有限。",
+        "competitors": [
+          {
+            "name": "Focus",
+            "url": "https://www.focusapp.ai/",
+            "comparison": "Focus 是 macOS 原生专注模式增强工具，依赖系统级屏蔽；AccountyCat 用 AI 上下文感知更灵活"
+          },
+          {
+            "name": "Forest",
+            "url": "https://www.forestapp.cc/",
+            "comparison": "Forest 是游戏化专注力 App（种树），AccountyCat 是 AI 驱动的上下文感知提醒工具"
+          },
+          {
+            "name": "Cold Turkey",
+            "url": "https://getcoldturkey.com/",
+            "comparison": "Cold Turkey 是严格的网站/App 屏蔽工具，AccountyCat 更轻量、更智能、不强制屏蔽"
+          }
+        ]
+      }
+    }
+  ]
+}
