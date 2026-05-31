@@ -1,5 +1,23 @@
 # 自动化执行历史 - AI产品雷达-每日抓取
 
+## 2026-05-30 12:10
+
+- **状态**：✅ 成功
+- **抓取数**：138 个候选产品（Twitter 50 + V2EX 38 + Product Hunt 50，HN SSL 错误，Reddit 0）
+- **去重后**：137 个（1 个冷却期命中：造梦 App）
+- **过滤后**：精选 5 个面向用户的产品（大量 Twitter 开发讨论、V2EX 闲聊帖、技术工具被排除）
+- **精选 TOP 5**：
+  1. Drafted — AI 家居设计工具（评分 9）
+  2. Agent A by Ahrefs — AI 营销代理（评分 9）
+  3. Granite — AI 文档保管库（评分 8）
+  4. Ava Studio — AI 视频广告创意工作室（评分 8）
+  5. AccountyCat — macOS AI 专注力伴侣（评分 7）
+- **截图**：5 张网站截图全部成功
+- **部署**：main + gh-pages 推送成功
+- **踩坑**：gh-pages subtree split 报 "not an ancestor" 错误，改用 `git push origin $(subtree split):gh-pages --force` 成功
+
+---
+
 ## 2026-05-29 16:03
 
 - **状态**：✅ 成功
