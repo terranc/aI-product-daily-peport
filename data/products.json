@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-06-01T11:58:33.168578+08:00",
+  "lastUpdated": "2026-06-01T12:33:23.716903+08:00",
   "products": [
     {
       "id": "dafa9686fbe1",
@@ -4594,7 +4594,9 @@
         "featuredInDaily": [
           "2026-05-25"
         ],
-        "featuredInWeekly": []
+        "featuredInWeekly": [
+          "2026-06-01"
+        ]
       },
       "analysis": {
         "targetAudience": "社交媒体内容创作者、营销人员、独立创业者，以及所有想制作视频但没有剪辑技能的人",
