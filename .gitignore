@@ -11,3 +11,8 @@
 __pycache__/
 *.pyc
 *.pyo
+
+# Temporary crawl/analysis data (may contain URL patterns that trigger secret scanning)
+data/raw-candidates.json
+data/deduped-candidates.json
+data/selected_products_temp.json

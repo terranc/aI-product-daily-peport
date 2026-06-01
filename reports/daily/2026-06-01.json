@@ -1,0 +1,328 @@
+{
+  "date": "2026-06-01",
+  "generatedAt": "2026-06-01T11:58:33.168578+08:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "producthunt.com/r/p/1133330",
+      "name": "Clipto - 本地 AI 媒体搜索引擎",
+      "slug": "clipto",
+      "description": "完全本地化的 AI 媒体搜索工具，支持对 TB 级视频、音频、会议记录和文件进行自然语言搜索，无需上传云端，隐私优先。",
+      "url": "https://www.producthunt.com/products/clipto-ai",
+      "homepage": "https://clipto.ai",
+      "type": "app",
+      "appStoreName": "Clipto.AI - Notes & Transcribe",
+      "appStoreUrl": "https://apps.apple.com/us/app/clipto-ai-notes-transcribe/id6755061471?uo=4",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1133330_20260601_115742.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "本地AI",
+        "媒体搜索",
+        "隐私优先",
+        "创意工具",
+        "Mac应用"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1133330?app_id=339",
+      "firstSeen": "2026-06-01T11:58:33.168578+08:00",
+      "analysis": {
+        "targetAudience": "处理大量音视频素材的创意工作者、记者、播客制作者和内容创作者",
+        "useCases": [
+          "在海量会议录音中搜索特定讨论内容",
+          "通过自然语言描述找到某段视频素材",
+          "快速定位播客中提到的某个话题时间点",
+          "搜索本地存储的设计素材和文档",
+          "整理和检索个人媒体库中的记忆片段"
+        ],
+        "designIntent": "像 Google Photos 但完全本地运行。创意工作者每天产生大量音视频素材，传统文件管理器无法理解内容语义，Clipto 通过本地 AI 让你用自然语言搜索 TB 级媒体库。",
+        "problemSolved": "解决了媒体文件\"存了找不到\"的痛点——文件名和文件夹无法表达内容含义，而云端 AI 搜索服务又存在隐私风险。Clipto 在本地完成所有 AI 推理，兼顾搜索能力和数据安全。",
+        "tags": [
+          "本地AI",
+          "媒体搜索",
+          "隐私优先",
+          "创意工具",
+          "Mac应用"
+        ],
+        "score": 8,
+        "scoreReason": "完全本地的 AI 媒体搜索是真实需求，隐私优先的设计理念符合当下趋势。Mac 原生应用体验流畅，但目前仅支持 macOS 限制了用户覆盖面。",
+        "competitors": [
+          {
+            "name": "Eagle",
+            "url": "https://eagle.cool",
+            "comparison": "Eagle 是素材管理工具但缺乏 AI 语义搜索能力，Clipto 的自然语言搜索是核心差异化"
+          },
+          {
+            "name": "Google Photos",
+            "url": "https://photos.google.com",
+            "comparison": "Google Photos 有强大的 AI 搜索但需要上传云端，Clipto 完全本地运行保护隐私"
+          },
+          {
+            "name": "Rewind AI",
+            "url": "https://rewind.ai",
+            "comparison": "Rewind 侧重屏幕录制和回溯，Clipto 聚焦媒体文件的语义搜索，场景更垂直"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1151393",
+      "name": "Second Brain - AI 跨平台持久记忆层",
+      "slug": "second-brain-ai",
+      "description": "为 Claude、ChatGPT、Cursor 等 AI 工具提供持久化记忆层，自托管在 Cloudflare 免费套餐上，一次存储，所有 AI 工具可调用。",
+      "url": "https://www.thesecondbrain.dev/",
+      "homepage": "https://www.thesecondbrain.dev/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1151393_20260601_115751.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI记忆",
+        "跨平台",
+        "自托管",
+        "知识管理",
+        "MCP"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1151393?app_id=339",
+      "firstSeen": "2026-06-01T11:58:33.168578+08:00",
+      "analysis": {
+        "targetAudience": "同时使用多个 AI 工具的知识工作者和开发者，需要跨平台保持上下文一致性",
+        "useCases": [
+          "在 Claude 中存储项目背景，切换到 Cursor 时自动加载",
+          "保存个人偏好和决策记录，让所有 AI 助手了解你的工作风格",
+          "团队共享知识库，所有成员的 AI 工具都能访问",
+          "跨会话保留研究笔记和分析结论",
+          "自托管避免敏感数据上传第三方"
+        ],
+        "designIntent": "每个 AI 对话都从零开始，项目背景、决策记录、个人偏好在关闭聊天后消失。Second Brain 构建统一的记忆层，让一次存储的信息在所有 AI 工具中可用。",
+        "problemSolved": "解决了 AI 工具\"失忆\"的核心痛点——不同 AI 平台各自为政，用户需要反复输入相同上下文。Second Brain 作为中间记忆层打通了信息孤岛。",
+        "tags": [
+          "AI记忆",
+          "跨平台",
+          "自托管",
+          "知识管理",
+          "MCP"
+        ],
+        "score": 8,
+        "scoreReason": "精准切入 AI 工具生态的痛点，Cloudflare 免费自托管方案降低了使用门槛。MCP 协议支持使其具备良好的扩展性，但目前需要一定技术能力来部署。",
+        "competitors": [
+          {
+            "name": "Mem0",
+            "url": "https://mem0.ai",
+            "comparison": "Mem0 是商业化的 AI 记忆平台，功能更全面但需要付费；Second Brain 免费自托管更灵活"
+          },
+          {
+            "name": "Zep",
+            "url": "https://www.getzep.com",
+            "comparison": "Zep 专注开发者 API，Second Brain 面向终端用户更易上手"
+          },
+          {
+            "name": "Notion AI",
+            "url": "https://www.notion.so/product/ai",
+            "comparison": "Notion AI 在笔记生态内提供 AI 能力，Second Brain 是跨平台的独立记忆层"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1159225",
+      "name": "Marqly 5.0 - AI 智能书签管理器",
+      "slug": "marqly",
+      "description": "AI 驱动的书签管理器，自动对保存的链接进行智能标签分类和语义搜索，支持跨平台同步和阅读模式。",
+      "url": "https://www.marqly.com/",
+      "homepage": "https://www.marqly.com/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1159225_20260601_115759.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI书签",
+        "知识管理",
+        "浏览器扩展",
+        "语义搜索",
+        "跨平台"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1159225?app_id=339",
+      "firstSeen": "2026-06-01T11:58:33.168578+08:00",
+      "analysis": {
+        "targetAudience": "经常在网上收集和整理信息的研究者、学生、产品经理和知识工作者",
+        "useCases": [
+          "自动给收藏的链接打上语义标签，告别手动分类",
+          "用自然语言搜索之前保存的所有书签",
+          "跨浏览器和设备同步书签及标签",
+          "开启阅读模式专注阅读已保存的长文",
+          "按主题自动聚合相关书签形成知识集合"
+        ],
+        "designIntent": "浏览器原生书签功能简陋，第三方书签工具又缺乏智能化。Marqly 用 AI 自动理解链接内容并分类，让书签管理从手动整理变为智能组织。",
+        "problemSolved": "解决了\"收藏了1000个链接但找不到想要的那个\"的问题。传统书签只能按文件夹手动分类，Marqly 通过 AI 语义理解让书签变得可搜索、可发现。",
+        "tags": [
+          "AI书签",
+          "知识管理",
+          "浏览器扩展",
+          "语义搜索",
+          "跨平台"
+        ],
+        "score": 7,
+        "scoreReason": "书签管理是真实刚需，AI 自动标签是实用创新。5.0 版本说明产品在持续迭代，但市场中书签工具竞争激烈，差异化需要持续加强。",
+        "competitors": [
+          {
+            "name": "Raindrop.io",
+            "url": "https://raindrop.io",
+            "comparison": "Raindrop 是主流书签工具但缺乏 AI 能力，Marqly 的智能标签是核心差异"
+          },
+          {
+            "name": "Pocket",
+            "url": "https://getpocket.com",
+            "comparison": "Pocket 侧重稍后阅读，Marqly 更强调书签的智能组织和发现"
+          },
+          {
+            "name": "Memex",
+            "url": "https://worldbrain.io",
+            "comparison": "Memex 支持网页标注和搜索，但 AI 自动分类能力不如 Marqly"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1153540",
+      "name": "AccountyCat - AI 上下文感知专注伴侣",
+      "slug": "accountycat",
+      "description": "macOS 菜单栏常驻的 AI 专注助手，通过理解你当前的工作上下文来智能提醒，而非简单粗暴地屏蔽应用。开源、隐私优先，可完全离线运行。",
+      "url": "https://accountycat.com/",
+      "homepage": "https://accountycat.com/",
+      "type": "app",
+      "appStoreName": "Authenticator App - Authkey",
+      "appStoreUrl": "https://apps.apple.com/us/app/authenticator-app-authkey/id6447845767?uo=4",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1153540_20260601_115808.png",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/24/fb/91/24fb91ba-c838-69df-91ec-d5993d33067a/1af5244b-1b8c-4bcd-afe3-2d36630f2556_5.5A_Englisht_U0028U.S._U0029.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/87/84/96/87849656-7df8-34fd-e251-cc560833b9d6/d77e2a82-920b-4322-8e84-e2d3313094bc_5.5B_Englisht_U0028U.S._U0029.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/4f/6d/45/4f6d456f-5e71-0221-6d2e-2e95c17a96c9/33a67fb2-8193-4996-9afa-b27d67261e5f_5.5C_Englisht_U0028U.S._U0029.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/12/b8/44/12b844e4-f33e-30ce-9b54-6eb1ce7fe094/8578bb8e-92c6-49bf-8705-cfa20524a4d6_5.5D_Englisht_U0028U.S._U0029.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/4d/83/f9/4d83f915-5137-c3fa-bd20-a6b5b433b219/f3b73909-6869-49f9-844c-bbeba137ead7_5.5E_Englisht_U0028U.S._U0029.jpg/392x696bb.jpg"
+      ],
+      "tags": [
+        "专注效率",
+        "AI助手",
+        "macOS",
+        "开源",
+        "隐私优先"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1153540?app_id=339",
+      "firstSeen": "2026-06-01T11:58:33.168578+08:00",
+      "analysis": {
+        "targetAudience": "容易分心的 Mac 用户，尤其是需要深度工作的开发者、写作者和设计师",
+        "useCases": [
+          "在写代码时自动识别并提醒你切换到了社交媒体",
+          "深度工作模式下智能判断何时该休息",
+          "根据工作内容自适应调整提醒策略",
+          "学习你的工作模式后越用越精准",
+          "开源可审计，隐私敏感用户也能放心使用"
+        ],
+        "designIntent": "传统专注工具靠白名单/黑名单暴力屏蔽，AccountyCat 用 AI 理解你正在做什么，只在真正偏离时才提醒。它像一个懂你工作节奏的伙伴，而不是一个死板的计时器。",
+        "problemSolved": "解决了专注工具\"一刀切\"的痛点——屏蔽所有社交软件可能错过重要消息，不屏蔽又容易分心。AccountyCat 通过上下文感知实现了智能平衡。",
+        "tags": [
+          "专注效率",
+          "AI助手",
+          "macOS",
+          "开源",
+          "隐私优先"
+        ],
+        "score": 8,
+        "scoreReason": "用 AI 理解上下文来管理专注力是真正的产品创新，解决了传统专注工具的核心矛盾。开源+离线运行的设计让它在隐私和信任上占优，但目前仅限 macOS。",
+        "competitors": [
+          {
+            "name": "Focus",
+            "url": "https://focusmate.com",
+            "comparison": "Focus 通过真人搭档 Accountability 实现专注，AccountyCat 用 AI 自动感知，无需预约"
+          },
+          {
+            "name": "Freedom",
+            "url": "https://freedom.to",
+            "comparison": "Freedom 是跨平台屏蔽工具，AccountyCat 更智能但仅限 Mac"
+          },
+          {
+            "name": "Cold Turkey",
+            "url": "https://getcoldturkey.com",
+            "comparison": "Cold Turkey 以强制性著称，AccountyCat 更温和智能，不会误伤正常工作"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1158173",
+      "name": "Basedash - AI 嵌入式产品分析",
+      "slug": "basedash-embedded-analytics",
+      "description": "AI 原生的嵌入式分析平台，让 SaaS 产品能通过自然语言生成图表并将 AI 分析能力直接嵌入自己的产品中，支持行级安全和白标定制。",
+      "url": "https://www.basedash.com/lp/embedded-analytics",
+      "homepage": "https://www.basedash.com/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1158173_20260601_115815.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "嵌入式分析",
+        "AI BI",
+        "SaaS工具",
+        "数据可视化",
+        "开发者工具"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1158173?app_id=339",
+      "firstSeen": "2026-06-01T11:58:33.168578+08:00",
+      "analysis": {
+        "targetAudience": "SaaS 产品团队，需要在自己的产品中为客户提供数据分析和 AI 洞察能力",
+        "useCases": [
+          "在 SaaS 产品中嵌入 AI 驱动的数据看板",
+          "让最终用户用自然语言查询自己的业务数据",
+          "为客户提供白标定制的分析仪表盘",
+          "通过行级安全确保客户只能看到自己的数据",
+          "用一个 iframe 快速集成完整的分析能力"
+        ],
+        "designIntent": "每个 SaaS 产品都需要数据分析功能，但自建 BI 工具成本巨大。Basedash 让产品团队用一个 iframe 就能嵌入完整的 AI 分析能力，让最终用户在产品内直接与数据对话。",
+        "problemSolved": "解决了 SaaS 产品\"数据分析能力缺失\"的问题——自建 BI 耗时耗力，第三方 BI 工具又难以嵌入产品。Basedash 提供开箱即用的嵌入式 AI 分析。",
+        "tags": [
+          "嵌入式分析",
+          "AI BI",
+          "SaaS工具",
+          "数据可视化",
+          "开发者工具"
+        ],
+        "score": 7,
+        "scoreReason": "嵌入式 AI 分析是 SaaS 产品的刚需，Basedash 的 iframe 集成方式降低了技术门槛。但目标用户偏 B2B 开发者，受众面相对较窄。",
+        "competitors": [
+          {
+            "name": "Metabase",
+            "url": "https://www.metabase.com",
+            "comparison": "Metabase 是开源 BI 工具但嵌入能力弱，Basedash 专为嵌入场景设计"
+          },
+          {
+            "name": "Retool",
+            "url": "https://retool.com",
+            "comparison": "Retool 偏内部工具搭建，Basedash 专注于面向终端用户的嵌入式分析"
+          },
+          {
+            "name": "Preset",
+            "url": "https://preset.io",
+            "comparison": "Preset 基于 Apache Superset，部署复杂；Basedash 的 iframe 方式更轻量"
+          }
+        ]
+      }
+    }
+  ]
+}
