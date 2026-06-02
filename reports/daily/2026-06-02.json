@@ -1,0 +1,268 @@
+{
+  "date": "2026-06-02",
+  "generatedAt": "2026-06-02T04:00:33.288814+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "producthunt.com/r/p/1156590",
+      "name": "Mina Meeting Assistant - AI 会议实时参与助手",
+      "slug": "mina-meeting-assistant",
+      "description": "Mina 是一款能主动参与会议的 AI 助手，不仅做笔记，还能实时回答问题、从你的工具中拉取上下文、在会议进行时推动工作进展。适用于销售通话、面试、站会和团队协作。",
+      "url": "https://www.producthunt.com/products/mina-meeting-assistant",
+      "homepage": "https://www.producthunt.com/products/mina-meeting-assistant",
+      "type": "saas",
+      "tags": [
+        "AI会议助手",
+        "实时协作",
+        "会议笔记",
+        "销售工具"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1156590?app_id=339",
+      "analysis": {
+        "targetAudience": "需要高效会议协作的商务人士、销售团队、招聘人员和远程团队",
+        "useCases": [
+          "销售通话中实时查询产品信息和客户资料",
+          "面试过程中自动记录关键回答并生成评估",
+          "站会中实时追踪任务状态和待办事项",
+          "客户会议中即时调取相关文档和历史记录"
+        ],
+        "designIntent": "传统会议助手只能做被动记录，Mina 的设计初衷是让 AI 成为会议中的积极参与者，在对话进行时就能响应和执行，而不仅仅是会后整理。",
+        "problemSolved": "解决会议中信息查找中断讨论流、会后行动项遗忘、以及被动记录无法满足实时需求的问题。",
+        "tags": [
+          "AI会议助手",
+          "实时协作",
+          "智能笔记",
+          "企业效率"
+        ],
+        "score": 8,
+        "scoreReason": "从被动记录到主动参与的范式转变很有价值，但需要验证在复杂会议场景中的稳定性和隐私保护能力。",
+        "competitors": [
+          {
+            "name": "Otter.ai",
+            "url": "https://otter.ai",
+            "comparison": "Otter 专注转录和摘要，Mina 更强调实时参与和执行能力"
+          },
+          {
+            "name": "Fireflies.ai",
+            "url": "https://fireflies.ai",
+            "comparison": "Fireflies 侧重会议记录和搜索，Mina 的差异化在于主动响应和工具集成"
+          }
+        ]
+      },
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260602_115838.png",
+      "appStoreScreenshots": [],
+      "firstSeen": "2026-06-02T04:00:33.288814+00:00"
+    },
+    {
+      "id": "producthunt.com/r/p/1159599",
+      "name": "Typeahead - Mac 全局 AI 自动补全",
+      "slug": "typeahead",
+      "description": "Typeahead 是一款运行在 Mac 上的 AI 写作助手，能在所有应用的文本框中提供实时内联建议。本地运行、注重隐私，一次性购买无订阅。像手机输入法的智能联想，但覆盖整个 Mac 系统。",
+      "url": "https://www.typeahead.ai/",
+      "homepage": "https://www.typeahead.ai/",
+      "type": "app",
+      "tags": [
+        "AI写作",
+        "Mac应用",
+        "自动补全",
+        "隐私优先"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1159599?app_id=339",
+      "analysis": {
+        "targetAudience": "频繁在 Mac 上写作的用户，包括文案、邮件、文档撰写者",
+        "useCases": [
+          "在邮件客户端中快速补全回复内容",
+          "在笔记和文档编辑器中辅助写作",
+          "在聊天应用中加速消息输入",
+          "在代码编辑器的注释和文档中提供写作建议"
+        ],
+        "designIntent": "将手机输入法的智能联想体验带到桌面端，让 AI 写作辅助无缝融入所有文本输入场景，而不是局限于特定编辑器。",
+        "problemSolved": "解决传统 AI 写作工具只能在特定应用中使用的问题，以及在不同写作场景间频繁切换工具的摩擦。",
+        "tags": [
+          "系统级AI",
+          "写作辅助",
+          "Mac工具",
+          "隐私保护"
+        ],
+        "score": 8,
+        "scoreReason": "系统级 AI 自动补全的概念新颖且实用，本地运行保障隐私。但需要验证在不同应用中的兼容性和建议质量。",
+        "competitors": [
+          {
+            "name": "MacWhisper",
+            "url": "https://macwhisper.com",
+            "comparison": "MacWhisper 专注语音转文字，Typeahead 专注文本输入辅助"
+          },
+          {
+            "name": "TextExpander",
+            "url": "https://textexpander.com",
+            "comparison": "TextExpander 是静态片段扩展，Typeahead 是动态 AI 补全"
+          }
+        ]
+      },
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260602_115850.png",
+      "appStoreScreenshots": [],
+      "firstSeen": "2026-06-02T04:00:33.288814+00:00"
+    },
+    {
+      "id": "producthunt.com/r/p/1160180",
+      "name": "Stella - Mac 本地 AI 文件语义搜索",
+      "slug": "stella",
+      "description": "Stella 是一款 Mac 本地文件搜索工具，支持用自然语言描述来查找文件，而非依赖文件名。完全离线运行，保护隐私。比如描述「上周会议的产品规格书」，Stella 就能找到它。",
+      "url": "https://www.producthunt.com/products/stella-4",
+      "homepage": "https://www.producthunt.com/products/stella-4",
+      "type": "app",
+      "tags": [
+        "AI搜索",
+        "本地文件",
+        "语义搜索",
+        "隐私优先"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1160180?app_id=339",
+      "analysis": {
+        "targetAudience": "文件管理困难的 Mac 用户，尤其是知识工作者和创意人员",
+        "useCases": [
+          "用自然语言描述查找模糊记得的文档",
+          "搜索图片、PDF、笔记等不同类型文件",
+          "在大量文件中快速定位特定会议或项目相关资料",
+          "替代 Spotlight 进行更智能的文件检索"
+        ],
+        "designIntent": "Spotlight 只能按文件名和关键词搜索，Stella 的设计初衷是让搜索基于文件内容的语义理解，用日常语言就能找到想要的东西。",
+        "problemSolved": "解决文件名不规范或忘记文件名时无法找到文件的痛点，以及传统搜索工具无法理解文件语义内容的局限。",
+        "tags": [
+          "语义搜索",
+          "文件管理",
+          "Mac工具",
+          "本地AI"
+        ],
+        "score": 8,
+        "scoreReason": "解决了一个真实且普遍的痛点，本地运行保障隐私。但索引大量文件时的性能和准确率需要实际验证。",
+        "competitors": [
+          {
+            "name": "Recall",
+            "url": "https://recall.ai",
+            "comparison": "Recall 侧重信息回顾和知识管理，Stella 专注本地文件语义搜索"
+          },
+          {
+            "name": "Spotlight (内置)",
+            "url": "https://apple.com",
+            "comparison": "macOS 内置搜索只能按文件名和关键词匹配，不支持语义理解"
+          }
+        ]
+      },
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260602_115859.png",
+      "appStoreScreenshots": [],
+      "firstSeen": "2026-06-02T04:00:33.288814+00:00"
+    },
+    {
+      "id": "producthunt.com/r/p/1143223",
+      "name": "Web Clipper for NotebookLM - NotebookLM 网页剪藏扩展",
+      "slug": "web-clipper-notebooklm",
+      "description": "Chrome 扩展程序，让你一键将网页、PDF、YouTube 视频、Twitter 帖子、Reddit 讨论甚至 AI 聊天记录直接剪藏到 Google NotebookLM，省去下载再上传的繁琐步骤。",
+      "url": "https://www.producthunt.com/products/web-clipper-for-notebooklm",
+      "homepage": "https://www.producthunt.com/products/web-clipper-for-notebooklm",
+      "type": "website",
+      "tags": [
+        "浏览器扩展",
+        "NotebookLM",
+        "内容收集",
+        "知识管理"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1143223?app_id=339",
+      "analysis": {
+        "targetAudience": "Google NotebookLM 的重度用户和知识管理爱好者",
+        "useCases": [
+          "浏览网页时一键将文章加入 NotebookLM 知识库",
+          "将 YouTube 视频直接剪藏用于 AI 问答",
+          "收集 Twitter 讨论和 Reddit 帖子作为研究素材",
+          "将在线 PDF 直接导入 NotebookLM 进行分析"
+        ],
+        "designIntent": "NotebookLM 是强大的 AI 知识问答工具，但内容导入流程繁琐。这个扩展的初衷是消除从浏览到知识库之间的摩擦。",
+        "problemSolved": "解决 NotebookLM 用户需要先下载文件再手动上传的重复性工作，大幅缩短从发现信息到 AI 分析的路径。",
+        "tags": [
+          "生产力工具",
+          "知识管理",
+          "Chrome扩展",
+          "AI助手"
+        ]
+      },
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260602_115909.png",
+      "appStoreScreenshots": [],
+      "firstSeen": "2026-06-02T04:00:33.288814+00:00"
+    },
+    {
+      "id": "v2ex.com/t/1217183",
+      "name": "NoteDeep - AI 流式编辑智能笔记",
+      "slug": "notedeep",
+      "description": "NoteDeep 是一款支持 AI 流式编辑和甘特图的笔记应用。AI 助手可直接在笔记中流式输出内容，支持划选文本进行上下文问答，同时内置甘特图、思维导图、Mermaid 等丰富功能。",
+      "url": "https://www.notedeep.com",
+      "homepage": "https://www.notedeep.com",
+      "type": "website",
+      "tags": [
+        "AI笔记",
+        "甘特图",
+        "流式编辑",
+        "知识管理"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "sourceUrl": "https://www.v2ex.com/t/1217183",
+      "analysis": {
+        "targetAudience": "需要 AI 辅助写作和项目管理的知识工作者和独立开发者",
+        "useCases": [
+          "在笔记中直接使用 AI 流式生成和编辑内容",
+          "划选文本进行上下文问答和深度分析",
+          "用甘特图管理项目进度和任务依赖",
+          "用思维导图进行头脑风暴和知识梳理"
+        ],
+        "designIntent": "大多数笔记工具的 AI 功能只是简单的对话框，NoteDeep 将 AI 深度嵌入编辑流程，让 AI 输出直接成为笔记内容的一部分，同时整合甘特图等项目管理功能。",
+        "problemSolved": "解决在笔记和 AI 对话之间频繁复制粘贴的割裂体验，以及笔记工具与项目管理工具分离导致的信息碎片化问题。",
+        "tags": [
+          "智能笔记",
+          "AI编辑",
+          "项目管理",
+          "独立开发"
+        ],
+        "score": 7,
+        "scoreReason": "AI 流式编辑直接嵌入笔记的思路很好，甘特图整合是差异化亮点。但作为独立开发者产品，长期维护和功能完善度需要观察。",
+        "competitors": [
+          {
+            "name": "Notion",
+            "url": "https://notion.so",
+            "comparison": "Notion 功能全面但 AI 集成较浅，NoteDeep 的 AI 流式编辑更深入"
+          },
+          {
+            "name": "Obsidian",
+            "url": "https://obsidian.md",
+            "comparison": "Obsidian 有丰富的插件生态但 AI 功能依赖第三方，NoteDeep 内置 AI 编辑体验更统一"
+          }
+        ]
+      },
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260602_115919.png",
+      "appStoreScreenshots": [],
+      "firstSeen": "2026-06-02T04:00:33.288814+00:00"
+    }
+  ]
+}

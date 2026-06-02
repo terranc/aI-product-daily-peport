@@ -68,3 +68,5 @@ LLM_MODEL=gpt-4o-mini
 - **Reddit 渠道抓取为 0**：2026-05-29 Reddit 渠道返回 0 条结果，可能与 Reddit API 限流或 RSS 源变更有关。(2026-05-29)
 - **PH 页面 Cloudflare 保护**：Product Hunt 详情页被 Cloudflare 保护，无法通过 WebFetch 直接抓取。URL 验证改为通过搜索引擎查找产品官网。(2026-05-29)
 - **gh-pages subtree split 失败**：`subtree split` 后 `push origin gh-pages` 报 "not an ancestor" 错误。解决方案：改用 `git push origin $(subtree split --prefix=docs):gh-pages --force` 一步完成。(2026-05-30)
+- **字段路径纠正**：自动任务脚本中 `recommendedInDaily` 实际字段为 `metrics.featuredInDaily`，`featuredInWeekly` 为 `metrics.featuredInWeekly`。评分字段为 `analysis.score`。(2026-06-02)
+- **周报 JSON 缺失字段**：手动写入周报 JSON 时容易遗漏 `sourceDailyReport` 和 `growthMetrics` 字段，导致详情页"近 7 天提及"和"增长分数"显示为 0。这两个字段由 `weekly_analysis.py` 正常流程生成，手动写报告时需补充。(2026-06-02)

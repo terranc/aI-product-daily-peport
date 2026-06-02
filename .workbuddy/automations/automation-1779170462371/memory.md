@@ -40,6 +40,20 @@
 
 ---
 
+### 2026-06-02
+- **执行结果**：成功完成深度分析（需手动补充字段）
+- **选中产品**：Helio - AI Native Team Workspace
+- **选择理由**：AI 同事 + 人类混合协作工作空间，产品定位独特，日报入选后持续有 Twitter 提及
+- **深度报告**：已保存至 `reports/weekly/2026-06-02.json`
+- **问题修复**：
+  - 周报 JSON 缺少 `sourceDailyReport` 和 `growthMetrics` 字段，已手动补充
+  - 周报详情页"引用日报"显示位置和格式不对，已修复 `build_site.py`
+  - "近 7 天提及"和"增长分数"显示为 0 的问题已修复（原因是数据缺失）
+- **部署状态**：已标记 featuredInWeekly，已推送到 GitHub Pages
+- **GitHub Pages**：https://ai-daily.asdasd.vip
+
+---
+
 ## 技术注意事项
 
 1. **环境问题**：必须用 `SHELL=/bin/bash` + `/opt/homebrew/bin/python3` 和 `/opt/homebrew/bin/git` 绕过 zsh GVM 钩子
