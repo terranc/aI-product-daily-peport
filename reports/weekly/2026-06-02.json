@@ -1,0 +1,69 @@
+{
+  "date": "2026-06-02",
+  "generatedAt": "2026-06-02T10:01:11.217477+08:00",
+  "productCount": 1,
+  "products": [
+    {
+      "id": "helio.im",
+      "name": "Helio - AI 原生团队工作空间",
+      "slug": "helio-ai-native-team-workspace",
+      "description": "Helio 是一款将 AI 作为全职同事纳入团队工作流的 AI 原生工作空间。AI 拥有独立身份、头像和邮箱，与人类在同一频道沟通、同一任务板领活干活、同一流程中接受审核。支持 Slack/Lark/Teams/Discord 互通，集成 GitHub/Linear/Vercel/Gmail/Zoom 等主流工具，提供统一频道、任务管理、编码会话、邮件处理和会议支持六大协作模块。",
+      "url": "https://www.helio.im/",
+      "homepage": "https://www.helio.im/",
+      "type": "desktop_app",
+      "tags": [
+        "团队协作",
+        "AI 同事",
+        "工作空间",
+        "自动化",
+        "编码协作",
+        "任务管理",
+        "AI Workforce"
+      ],
+      "sourceChannels": [
+        "twitter"
+      ],
+      "sourceUrl": "https://x.com/dingyi/status/2058836256386334934",
+      "firstSeen": "2026-05-25T10:21:23.828788+00:00",
+      "analysis": {
+        "targetAudience": "追求效率提升的创业团队、一人公司、小型技术团队，以及希望将 AI 深度整合到日常工作流中的 AI Native 组织",
+        "useCases": [
+          "AI 同事在统一频道中与人类同步汇报进展和讨论任务",
+          "AI 自主在任务面板领取工单并推进执行，人类审核后 ship",
+          "AI 编写代码提交 diff，人类负责代码审查",
+          "AI 处理真实收件箱（Gmail），起草邮件后交由人类审批",
+          "AI 参与线上会议实时转录、捕捉决策并分配后续任务",
+          "多个 AI 同事之间协同工作（如 Wave 与 Coda 共同梳理需求、编码、测试）"
+        ],
+        "designIntent": "重新定义 AI 在团队中的角色定位——从被动响应的工具变为主动工作的同事。核心哲学是通过提供连续、高质量的上下文来降低人的认知负荷和决策成本，而非追求 AI 能执行多少任务。",
+        "problemSolved": "解决当前 AI 工具化泛滥带来的核心痛点：每次对话都需要重复上下文、AI 无法主动发起工作、人机协作缺乏信任机制。Helio 通过完整的身份系统、权限分级和审批流程，让人类能够放心地将任务委派给 AI。",
+        "score": 9,
+        "scoreReason": "2026 年 AI 应用范式的重大突破——将 AI 从工具升级为同事。产品设计精良，六大协作模块覆盖团队工作全流程。创始人王文锋（94年生）的愿景清晰，团队 9 人全是 AI 多面手，内部已实现 100% AI 编码。内测发布即引发病毒传播（官网自动扩容 4 次），资深产品人评价其为「2023 年以来看到的第二牛的东西」。三重安全护栏（工具白名单 + 任务审批 + 权限分级）解决了 AI 大规模应用的信任问题。",
+        "competitors": [
+          {
+            "name": "Slack AI",
+            "url": "https://slack.com/ai",
+            "comparison": "Slack AI 是侧边栏的助手按钮，被动响应；Helio 将 AI 作为频道中的正式成员主动工作，范式根本不同"
+          },
+          {
+            "name": "Notion AI",
+            "url": "https://www.notion.so/product/ai",
+            "comparison": "Notion AI 是文档内的 AI 助手，聚焦内容生成；Helio 覆盖编码、沟通、邮件、会议等全方位工作流"
+          },
+          {
+            "name": "Devin",
+            "url": "https://www.cognition.ai/",
+            "comparison": "Devin 专注单兵编码任务；Helio 解决团队协作问题，AI 同事参与多角色协作而非单点执行"
+          }
+        ]
+      },
+      "weeklyDeepDive": {
+        "growthData": "4 月 24 日在即刻发布内测帖后引爆传播，官网申请列表一夜之间自动扩容 4 次。用户参与热情极高，有用户在不到 24 小时内提交了大几十条产品建议。产品迭代速度极快，借助 AI coding 每天至少发一个正式版本。",
+        "communityActivity": "社交媒体讨论热度高，被腾讯新闻、搜狐、今日头条、知乎、AI 地域等多家媒体深度报道。LinkedIn 上发布了产品理念帖。即刻内测帖引发大量自发传播。资深产品人评价其为「2023 年以来看到的第二牛的东西，第一是模型本身」。",
+        "updateFrequency": "日更级别。借助 AI coding 实践，每天至少发布一个正式版本，体验级反馈 3 小时内可闭环，新功能 1 天可上线。团队已完成 100% AI 编码。",
+        "marketPosition": "定义了新品类 AI Workforce（AI 劳动力），定位介于传统 IM（Slack/飞书）和 AI Agent 框架（LangGraph/CrewAI）之间。面向管理者与团队使用组织语言推广，官网 demo 以生产事故处理为例展示 AI 自主协作能力。办公地址位于旧金山 600 California St。",
+        "differentiation": "三重安全护栏（工具白名单 + 任务审批 + 权限分级 Trust/Always/Onetime）解决了 AI 大规模应用的信任问题。AI 同事拥有持续上下文（知道群聊历史和「昨天」指代的内容）、异步工作模式和完整身份系统。底层 Infra 全自研（如同特斯拉自研三电），以追求极致的产品可控性和迭代速度。团队内部成员自称「Agent 体验工程师」，组织结构小组化高度自治。"
+      }
+    }
+  ]
+}
