@@ -63,6 +63,25 @@
         "updateFrequency": "日更级别。借助 AI coding 实践，每天至少发布一个正式版本，体验级反馈 3 小时内可闭环，新功能 1 天可上线。团队已完成 100% AI 编码。",
         "marketPosition": "定义了新品类 AI Workforce（AI 劳动力），定位介于传统 IM（Slack/飞书）和 AI Agent 框架（LangGraph/CrewAI）之间。面向管理者与团队使用组织语言推广，官网 demo 以生产事故处理为例展示 AI 自主协作能力。办公地址位于旧金山 600 California St。",
         "differentiation": "三重安全护栏（工具白名单 + 任务审批 + 权限分级 Trust/Always/Onetime）解决了 AI 大规模应用的信任问题。AI 同事拥有持续上下文（知道群聊历史和「昨天」指代的内容）、异步工作模式和完整身份系统。底层 Infra 全自研（如同特斯拉自研三电），以追求极致的产品可控性和迭代速度。团队内部成员自称「Agent 体验工程师」，组织结构小组化高度自治。"
+      },
+      "sourceDailyReport": {
+        "date": "2026-06-01",
+        "productSlug": "helio-ai-native-team-workspace",
+        "detailHref": "products/helio-ai-native-team-workspace.html"
+      },
+      "growthMetrics": {
+        "daysSinceDailyFeature": 7,
+        "recentMentions": 1,
+        "mentionTimeline": [
+          {
+            "date": "2026-05-25T10:21:23.828788+00:00",
+            "channel": "twitter"
+          }
+        ],
+        "growthScore": 85,
+        "channels": [
+          "twitter"
+        ]
       }
     }
   ]

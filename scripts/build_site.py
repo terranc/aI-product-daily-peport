@@ -1202,6 +1202,14 @@ def render_weekly_detail_content(report, prd, depth=0):
               {render_weekly_value(value)}
             </div>"""
 
+    # 正文末尾：引用日报 section（仅当存在 sourceDailyReport 时显示）
+    if has_source_daily:
+        sections_h += f"""
+            <div class="section">
+              <h2 class="section-title">引用日报</h2>
+              <p><a href="{source_link}" class="source-link">{source_ref}</a></p>
+            </div>"""
+
     channels = metrics.get('channels', [])
     channel_text = ', '.join(channels) if channels else ', '.join(prd.get('sourceChannels', []))
     url = prd.get('url') or prd.get('homepage', '')
@@ -1210,16 +1218,6 @@ def render_weekly_detail_content(report, prd, depth=0):
     # 首次发现日期显示（取 date 部分）
     first_seen_date = first_seen[:10] if first_seen else ''
     
-    # 侧栏：引用日报区块（仅当存在 sourceDailyReport 时显示）
-    if has_source_daily:
-        source_block = f'''            <div class="aside-block">
-              <div class="aside-label">引用日报</div>
-              <div class="source-links"><a href="{source_link}" class="source-link">{icon("external")} {source_ref}</a></div>
-            </div>
-'''
-    else:
-        source_block = ''
-
     return f"""<div id="weekly-detail-content">
       <article class="detail-card">
         <div class="detail-hero">
@@ -1236,10 +1234,6 @@ def render_weekly_detail_content(report, prd, depth=0):
         </div>
         <div class="detail-body">
           <div class="detail-main">
-            <div class="weekly-reference">
-              <span>本篇深度分析基于该产品入选每日简报后的持续跟踪。</span>
-              <a href="{source_link}" class="source-link">{icon("external")} {source_ref}</a>
-            </div>
             <div class="weekly-metric-grid">
               <div class="weekly-metric"><strong>{days_metric}</strong><span>距首次发现天数</span></div>
               <div class="weekly-metric"><strong>{mentions_metric}</strong><span>近 7 天提及</span></div>
@@ -1248,7 +1242,7 @@ def render_weekly_detail_content(report, prd, depth=0):
             {sections_h}
           </div>
           <aside class="detail-aside">
-{source_block}            <div class="aside-block">
+            <div class="aside-block">
               <div class="aside-label">标签</div>
               <div class="aside-tags">{tags_h}</div>
             </div>
