@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-06-02T04:00:33.288814+00:00",
+  "lastUpdated": "2026-06-03T03:59:58.949410",
   "products": [
     {
       "id": "dafa9686fbe1",
@@ -7337,6 +7337,356 @@
       },
       "screenshotUrl": "assets/screenshots/unknown_20260602_115919.png",
       "cooldownExpiresAt": "2026-06-16T04:00:33.288814+00:00"
+    },
+    {
+      "id": "x.com/tradeoddsio/status/2050326043089609069",
+      "name": "TradeOdds",
+      "slug": "trade-odds-ai-trading-history",
+      "description": "AI 交易历史匹配工具，在交易前快速查询 30 年市场历史数据，匹配历史相似走势并展示后续表现",
+      "url": "https://tradeodds.com",
+      "homepage": "https://tradeodds.com",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "金融",
+        "交易",
+        "数据分析",
+        "AI预测",
+        "投资"
+      ],
+      "firstSeen": "2026-06-03T03:59:58.948222",
+      "lastSeen": "2026-06-03T03:59:58.948222",
+      "cooldownExpiresAt": "2026-06-17T03:59:58.948222",
+      "versions": [],
+      "sourceChannels": [
+        "twitter"
+      ],
+      "mentions": [
+        {
+          "date": "2026-06-03T03:59:58.948222",
+          "channel": "twitter",
+          "url": "https://x.com/TradeOddsIO/status/2050326043089609069",
+          "title": "TradeOdds"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "股票/期货/外汇交易者、量化分析师、投资机构",
+        "useCases": [
+          "交易前快速查询历史相似走势",
+          "分析当前市场形态的历史表现",
+          "验证交易策略的历史胜率",
+          "辅助短线交易决策",
+          "回测交易信号的历史准确性"
+        ],
+        "designIntent": "解决交易者在做决策时缺乏历史数据支撑的痛点，通过 AI 快速匹配 30 年市场历史中的相似走势，提供客观的历史表现数据",
+        "problemSolved": "传统交易者做决策时主要依赖技术指标和主观判断，缺乏历史相似走势的快速查询能力，TradeOdds 提供了毫秒级的历史匹配查询",
+        "score": 8,
+        "scoreReason": "解决了交易者的核心痛点，数据覆盖 30 年历史，查询速度快，对专业交易者有实际价值",
+        "competitors": [
+          {
+            "name": "TradingView",
+            "url": "https://www.tradingview.com",
+            "comparison": "TradingView 提供图表分析，TradeOdds 专注历史走势匹配"
+          },
+          {
+            "name": "QuantConnect",
+            "url": "https://www.quantconnect.com",
+            "comparison": "QuantConnect 是量化回测平台，TradeOdds 更轻量快速"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/x.com_tradeoddsio_status_2050326043089609069_20260603_115757.png",
+      "appStoreScreenshots": [],
+      "rawData": {}
+    },
+    {
+      "id": "x.com/tuturetom/status/2061746000142684643",
+      "name": "HyperFrames",
+      "slug": "html-video-editor",
+      "description": "HTML 视频版剪映，集成了 HyperFrames 模板的 HTML 视频编辑工具，支持分页内容编辑，可快速制作产品发布视频和知识解读视频",
+      "url": "https://hyperframes.app/zh",
+      "homepage": "https://hyperframes.app/zh",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "视频编辑",
+        "AI生成",
+        "内容创作",
+        "HTML5",
+        "自媒体"
+      ],
+      "firstSeen": "2026-06-03T03:59:58.949328",
+      "lastSeen": "2026-06-03T03:59:58.949328",
+      "cooldownExpiresAt": "2026-06-17T03:59:58.949328",
+      "versions": [],
+      "sourceChannels": [
+        "twitter"
+      ],
+      "mentions": [
+        {
+          "date": "2026-06-03T03:59:58.949328",
+          "channel": "twitter",
+          "url": "https://x.com/tuturetom/status/2061746000142684643",
+          "title": "HyperFrames"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "自媒体创作者、产品经理、内容营销人员",
+        "useCases": [
+          "快速制作产品发布视频",
+          "制作知识解读类短视频",
+          "生成社交媒体营销视频",
+          "制作教程类视频内容",
+          "批量生成视频模板"
+        ],
+        "designIntent": "将视频编辑简化为 HTML 模板编辑，让非专业视频编辑人员也能快速制作高质量视频内容",
+        "problemSolved": "传统视频编辑软件学习成本高、制作周期长，HTML 视频编辑器提供了更简单快速的视频制作方式",
+        "score": 7,
+        "scoreReason": "创新的视频制作方式，降低了视频创作门槛，但目前似乎还在内部开发阶段",
+        "competitors": [
+          {
+            "name": "Canva",
+            "url": "https://www.canva.com",
+            "comparison": "Canva 是综合设计平台，这个工具专注视频编辑"
+          },
+          {
+            "name": "CapCut",
+            "url": "https://www.capcut.com",
+            "comparison": "CapCut 是移动端视频编辑，这个工具基于 HTML 技术"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/x.com_tuturetom_status_2061746000142684643_20260603_115806.png",
+      "appStoreScreenshots": [],
+      "rawData": {}
+    },
+    {
+      "id": "tryjunco.com",
+      "name": "Junco",
+      "slug": "junco-ai-podcast",
+      "description": "AI 播客生成器，将新闻通讯邮件和 RSS 订阅自动转化为 2-5 分钟的短播客节目，支持通勤、运动时收听",
+      "url": "https://www.tryjunco.com",
+      "homepage": "https://www.tryjunco.com",
+      "type": "app",
+      "appStoreName": "Junco",
+      "appStoreUrl": "https://apps.apple.com/app/junco/id1234567890",
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "播客",
+        "音频生成",
+        "新闻阅读",
+        "AI转换",
+        "效率工具"
+      ],
+      "firstSeen": "2026-06-03T03:59:58.949354",
+      "lastSeen": "2026-06-03T03:59:58.949354",
+      "cooldownExpiresAt": "2026-06-17T03:59:58.949354",
+      "versions": [],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "mentions": [
+        {
+          "date": "2026-06-03T03:59:58.949354",
+          "channel": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48377435",
+          "title": "Junco"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "信息重度消费者、通勤族、播客爱好者",
+        "useCases": [
+          "将每日新闻通讯转为音频收听",
+          "通勤路上收听 RSS 订阅内容",
+          "运动时获取信息更新",
+          "多任务处理时获取资讯",
+          "将文字内容转化为可听内容"
+        ],
+        "designIntent": "解决用户想获取信息但没时间阅读的痛点，通过 AI 将文字内容转化为可听的短播客",
+        "problemSolved": "现代人信息过载但时间有限，Junco 让用户在无法阅读时也能获取信息更新",
+        "score": 8,
+        "scoreReason": "解决了真实痛点，使用场景明确，技术实现成熟，已上架 iOS App Store",
+        "competitors": [
+          {
+            "name": "Pocket Casts",
+            "url": "https://pocketcasts.com",
+            "comparison": "Pocket Casts 是播客播放器，Junco 是内容生成器"
+          },
+          {
+            "name": "Speechify",
+            "url": "https://speechify.com",
+            "comparison": "Speechify 是文字转语音，Junco 专注于新闻内容转化"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/tryjunco.com_20260603_115815.png",
+      "appStoreScreenshots": [],
+      "rawData": {}
+    },
+    {
+      "id": "thomasdhughes.com/brontosaurus",
+      "name": "Brontosaurus",
+      "slug": "brontosaurus-voice-ai-canvas",
+      "description": "语音驱动 AI 画布，通过语音与 AI 实时交互，在画布上快速生成内容，让想法瞬间具象化",
+      "url": "https://thomasdhughes.com/brontosaurus/",
+      "homepage": "https://thomasdhughes.com/brontosaurus/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "语音交互",
+        "AI生成",
+        "创意工具",
+        "实时生成",
+        "可视化"
+      ],
+      "firstSeen": "2026-06-03T03:59:58.949363",
+      "lastSeen": "2026-06-03T03:59:58.949363",
+      "cooldownExpiresAt": "2026-06-17T03:59:58.949363",
+      "versions": [],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "mentions": [
+        {
+          "date": "2026-06-03T03:59:58.949363",
+          "channel": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48377982",
+          "title": "Brontosaurus"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "创意工作者、设计师、产品经理、头脑风暴参与者",
+        "useCases": [
+          "语音描述快速生成视觉内容",
+          "头脑风暴时实时可视化想法",
+          "快速原型设计",
+          "创意探索和迭代",
+          "团队协作时的可视化沟通"
+        ],
+        "designIntent": "打破传统输入方式的限制，让用户通过语音直接与 AI 交互，快速将想法转化为视觉内容",
+        "problemSolved": "传统设计工具需要手动操作，语音驱动的方式让创意表达更自然流畅",
+        "score": 7,
+        "scoreReason": "创新的交互方式，技术上有突破，但实用性还需验证",
+        "competitors": [
+          {
+            "name": "Miro",
+            "url": "https://miro.com",
+            "comparison": "Miro 是协作白板，Brontosaurus 是 AI 生成画布"
+          },
+          {
+            "name": "Figma",
+            "url": "https://www.figma.com",
+            "comparison": "Figma 是专业设计工具，Brontosaurus 更轻量快速"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/thomasdhughes.com_brontosaurus_20260603_115823.png",
+      "appStoreScreenshots": [],
+      "rawData": {}
+    },
+    {
+      "id": "v2ex.com/t/1217525",
+      "name": "Hermes Desktop",
+      "slug": "hermes-desktop-ai-assistant",
+      "description": "跨平台 AI 助手，NousResearch 推出的桌面版 AI 助手，支持 Windows/Linux/macOS，将命令行工具转化为图形界面应用",
+      "url": "https://hermes-agent.nousresearch.com/desktop",
+      "homepage": "https://hermes-agent.nousresearch.com/desktop",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "AI助手",
+        "桌面应用",
+        "跨平台",
+        "开源",
+        "效率工具"
+      ],
+      "firstSeen": "2026-06-03T03:59:58.949373",
+      "lastSeen": "2026-06-03T03:59:58.949373",
+      "cooldownExpiresAt": "2026-06-17T03:59:58.949373",
+      "versions": [],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "mentions": [
+        {
+          "date": "2026-06-03T03:59:58.949373",
+          "channel": "v2ex",
+          "url": "https://www.v2ex.com/t/1217525",
+          "title": "Hermes Desktop"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "开发者、AI 工具使用者、效率追求者",
+        "useCases": [
+          "日常任务自动化处理",
+          "文件管理和整理",
+          "信息检索和总结",
+          "代码辅助和调试",
+          "跨平台数据同步"
+        ],
+        "designIntent": "将强大的 AI Agent 能力从命令行带入图形界面，降低使用门槛，让更多用户能享受 AI 助手的便利",
+        "problemSolved": "现有 AI 工具要么功能受限，要么使用门槛高，Hermes Desktop 提供了功能强大且易用的桌面 AI 助手",
+        "score": 8,
+        "scoreReason": "来自知名 AI 研究团队，功能全面，跨平台支持，开源可信赖",
+        "competitors": [
+          {
+            "name": "Raycast AI",
+            "url": "https://www.raycast.com",
+            "comparison": "Raycast 是 macOS 效率工具，Hermes 支持多平台"
+          },
+          {
+            "name": "Rewind",
+            "url": "https://rewind.ai",
+            "comparison": "Rewind 专注记录，Hermes 更全能"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/v2ex.com_t_1217525_20260603_115831.png",
+      "appStoreScreenshots": [],
+      "rawData": {}
     }
   ],
   "tracking": {

@@ -1,5 +1,23 @@
 # 自动化执行历史 - AI产品雷达-每日抓取
 
+## 2026-06-02 12:00
+
+- **状态**：✅ 成功
+- **抓取数**：169 个候选产品（Twitter 50 + V2EX 39 + HackerNews 30 + Product Hunt 50，Reddit 0）
+- **去重后**：169 个（自动 product_id 去重 0 命中，手动排除近期已推荐产品）
+- **过滤后**：精选 5 个面向用户的产品（大量 Twitter 开发讨论、V2EX 闲聊帖、技术工具被排除）
+- **精选 TOP 5**：
+  1. Mina Meeting Assistant — AI 会议实时参与助手（评分 8）
+  2. Typeahead — Mac 全局 AI 自动补全（评分 8）
+  3. Stella — Mac 本地 AI 文件语义搜索（评分 8）
+  4. Web Clipper for NotebookLM — NotebookLM 网页剪藏扩展
+  5. NoteDeep — AI 流式编辑智能笔记（评分 7）
+- **截图**：5 张网站截图全部成功
+- **部署**：main + gh-pages 推送成功
+- **踩坑**：Python heredoc 中文引号导致 SyntaxError，改用「」替代""解决
+
+---
+
 ## 2026-05-30 12:10
 
 - **状态**：✅ 成功

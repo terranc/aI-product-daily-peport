@@ -1,32 +1,42 @@
 {
-  "producthunt.com/r/p/1154630": {
-    "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1154630_20260528_120634.png",
-    "appStoreScreenshots": [],
-    "appStoreName": null,
-    "appStoreUrl": null
-  },
-  "producthunt.com/r/p/1146179": {
-    "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1146179_20260528_120646.png",
-    "appStoreScreenshots": [],
-    "appStoreName": null,
-    "appStoreUrl": null
-  },
-  "producthunt.com/r/p/1145388": {
-    "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1145388_20260528_120655.png",
-    "appStoreScreenshots": [],
-    "appStoreName": null,
-    "appStoreUrl": null
-  },
-  "producthunt.com/r/p/1103562": {
-    "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1103562_20260528_120702.png",
-    "appStoreScreenshots": [],
-    "appStoreName": null,
-    "appStoreUrl": null
-  },
-  "producthunt.com/r/p/1155253": {
-    "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1155253_20260528_120710.png",
-    "appStoreScreenshots": [],
-    "appStoreName": null,
-    "appStoreUrl": null
-  }
+  "generatedAt": "2026-06-03T11:58:39+08:00",
+  "totalCount": 5,
+  "successCount": 5,
+  "results": [
+    {
+      "id": "x.com/tradeoddsio/status/2050326043089609069",
+      "name": "TradeOdds - AI 交易历史匹配工具",
+      "url": "https://tradeodds.com",
+      "screenshotPath": "assets/screenshots/x.com_tradeoddsio_status_2050326043089609069_20260603_115757.png",
+      "success": true
+    },
+    {
+      "id": "x.com/tuturetom/status/2061746000142684643",
+      "name": "HTML 视频版剪映 (HyperFrames)",
+      "url": "https://hyperframes.app/zh",
+      "screenshotPath": "assets/screenshots/x.com_tuturetom_status_2061746000142684643_20260603_115806.png",
+      "success": true
+    },
+    {
+      "id": "tryjunco.com",
+      "name": "Junco - AI 播客生成器",
+      "url": "https://www.tryjunco.com",
+      "screenshotPath": "assets/screenshots/tryjunco.com_20260603_115815.png",
+      "success": true
+    },
+    {
+      "id": "thomasdhughes.com/brontosaurus",
+      "name": "Brontosaurus - 语音驱动 AI 画布",
+      "url": "https://thomasdhughes.com/brontosaurus/",
+      "screenshotPath": "assets/screenshots/thomasdhughes.com_brontosaurus_20260603_115823.png",
+      "success": true
+    },
+    {
+      "id": "v2ex.com/t/1217525",
+      "name": "Hermes Desktop - 跨平台 AI 助手",
+      "url": "https://hermes-agent.nousresearch.com/desktop",
+      "screenshotPath": "assets/screenshots/v2ex.com_t_1217525_20260603_115831.png",
+      "success": true
+    }
+  ]
 }
