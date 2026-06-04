@@ -1,0 +1,298 @@
+{
+  "date": "2026-06-04",
+  "generatedAt": "2026-06-04T04:00:33.645160+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "producthunt.com/r/p/1158366",
+      "name": "Overline",
+      "slug": "overline",
+      "description": "实时 AI 字幕与翻译 — 直接在浏览器视频上方添加实时 AI 字幕和翻译，支持 10 种语言，无需切换标签页。支持 YouTube、Netflix、Twitch、Zoom 等任何网页视频。",
+      "url": "https://overline.live/",
+      "homepage": "https://overline.live/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260604_115849.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI字幕",
+        "视频翻译",
+        "浏览器扩展",
+        "无障碍",
+        "实时翻译"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1158366?app_id=339",
+      "firstSeen": "2026-06-04T04:00:33.645160+00:00",
+      "analysis": {
+        "targetAudience": "观看外语视频但语言不通的全球用户，包括学习者、跨国团队和内容消费者",
+        "useCases": [
+          "在 YouTube 上观看外语教程时实时显示中文字幕",
+          "Netflix 看美剧时实时翻译对白",
+          "Zoom 跨国会议实时字幕辅助理解",
+          "Coursera 等在线课程的多语言辅助学习",
+          "Twitch 直播实时翻译弹幕和主播语音"
+        ],
+        "designIntent": "打破视频消费中的语言壁垒，让用户无需等待字幕组或手动切换翻译工具，直接在观看视频的同时获取实时字幕和翻译。基于 Chrome 扩展形态实现零安装门槛。",
+        "problemSolved": "大多数视频没有字幕或只有单一语言字幕，跨语言视频消费体验差，需要频繁切换翻译工具或依赖不准确的自动字幕。Overline 让任何视频都能即刻拥有双语字幕。",
+        "tags": [
+          "AI字幕",
+          "视频翻译",
+          "浏览器扩展",
+          "无障碍",
+          "实时翻译"
+        ],
+        "score": 8,
+        "scoreReason": "解决了真实的跨语言视频消费痛点，产品形态轻量（Chrome 扩展），10 语种覆盖广泛。但依赖浏览器环境，无法用于原生桌面应用。",
+        "competitors": [
+          {
+            "name": "Language Reactor",
+            "url": "https://www.languagereactor.com/",
+            "comparison": "Language Reactor 专注于 Netflix/YouTube 双语字幕学习体验，Overline 覆盖更广（任意网页视频），但 Language Reactor 的语言学习功能更深入"
+          },
+          {
+            "name": "Live Captions (Windows 11)",
+            "url": "https://support.microsoft.com/",
+            "comparison": "Windows 11 自带实时字幕功能，但仅限系统音频，不支持翻译且语种有限；Overline 的翻译能力和跨平台网页支持更强"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1161523",
+      "name": "RadianceKit",
+      "slug": "radiancekit",
+      "description": "Mac 原生 3D 高斯溅射应用 — 导入照片或视频，用 Apple Silicon GPU 本地训练，一键生成逼真 3D 场景，无需云端、无需命令行。",
+      "url": "https://www.radiancekit.de/",
+      "homepage": "https://www.radiancekit.de/",
+      "type": "app",
+      "appStoreName": "RadianceKit",
+      "appStoreUrl": "https://apps.apple.com/us/app/radiancekit/id6760346035?mt=12",
+      "screenshotUrl": "assets/screenshots/unknown_20260604_115858.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "3D建模",
+        "高斯溅射",
+        "Mac应用",
+        "Apple Silicon",
+        "图像处理"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1161523?app_id=339",
+      "firstSeen": "2026-06-04T04:00:33.645160+00:00",
+      "analysis": {
+        "targetAudience": "摄影爱好者、3D 内容创作者、社交媒体创作者以及对 3D 扫描感兴趣的 Mac 用户",
+        "useCases": [
+          "将手机拍摄的照片转化为可交互的 3D 场景分享到社交媒体",
+          "产品摄影后快速生成 3D 产品展示模型",
+          "旅行照片转为沉浸式 3D 回忆",
+          "为游戏/设计项目快速生成 3D 素材",
+          "教学演示 3D 高斯溅射技术的入门工具"
+        ],
+        "designIntent": "将前沿的 3D Gaussian Splatting 技术从命令行/研究工具转变为普通用户可用的 Mac 原生应用，降低 3D 场景重建的使用门槛。完全本地运行，保护用户隐私。",
+        "problemSolved": "3D Gaussian Splatting 技术强大但使用门槛极高（需要命令行、GPU 配置、专业知识），普通用户无法触及。RadianceKit 将整个流程封装为拖拽式 GUI，让 Mac 用户一键生成 3D 场景。",
+        "tags": [
+          "3D建模",
+          "高斯溅射",
+          "Mac应用",
+          "Apple Silicon",
+          "图像处理"
+        ],
+        "score": 8,
+        "scoreReason": "将前沿 AI 3D 技术带给普通用户，完全本地运行保护隐私，原生 Mac 体验。但受限于 Apple Silicon 性能，大型场景训练时间较长，且输出格式兼容性有限。",
+        "competitors": [
+          {
+            "name": "Luma AI",
+            "url": "https://lumalabs.ai/",
+            "comparison": "Luma AI 的 Genie 也是照片转 3D 工具，但依赖云端处理且需要排队，RadianceKit 完全本地运行更快更隐私"
+          },
+          {
+            "name": "Polycam",
+            "url": "https://poly.cam/",
+            "comparison": "Polycam 是 iOS 端主流 3D 扫描应用，但使用 NeRF 技术且需要手机扫描而非照片输入，RadianceKit 支持从普通照片重建"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1161669",
+      "name": "TaskGPT",
+      "slug": "taskgpt",
+      "description": "MacOS 语音 AI 助手 — 通过自然语言语音指令控制 Mac，自动执行文件管理、网页浏览、系统操作等任务，支持 BYOK（自带 API Key）。",
+      "url": "https://taskgpt.us/",
+      "homepage": "https://taskgpt.us/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260604_115910.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "语音助手",
+        "Mac应用",
+        "AI自动化",
+        "自然语言",
+        "效率工具"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1161669?app_id=339",
+      "firstSeen": "2026-06-04T04:00:33.645160+00:00",
+      "analysis": {
+        "targetAudience": "希望用语音高效控制 Mac 的专业人士、效率工具爱好者和无法使用键盘的场景用户",
+        "useCases": [
+          "用语音指令让 Mac 自动整理桌面文件",
+          "语音搜索网页并打开特定内容",
+          "双手忙碌时通过语音完成系统操作",
+          "批量文件移动/重命名等重复操作语音自动化",
+          "快速创建提醒、日历事件等效率任务"
+        ],
+        "designIntent": "让 Mac 用户像使用 Siri 一样但更强大地通过自然语言控制电脑，专注于实际任务执行而非简单问答。BYOK 模式让用户可以使用自己偏好的 AI 模型。",
+        "problemSolved": "macOS 原生 Siri 能力有限，无法执行复杂文件操作和系统级任务；Apple Intelligence 功能逐步推出但覆盖场景不够。TaskGPT 提供更强大的语音控制能力，将 AI 能力与 Mac 系统操作深度集成。",
+        "tags": [
+          "语音助手",
+          "Mac应用",
+          "AI自动化",
+          "自然语言",
+          "效率工具"
+        ],
+        "score": 7,
+        "scoreReason": "填补了 Siri 和 Apple Intelligence 之间的功能空白，BYOK 模式灵活。但作为小众独立应用，稳定性和长期维护能力存疑，且语音识别在嘈杂环境下可能受限。",
+        "competitors": [
+          {
+            "name": "Apple Intelligence",
+            "url": "https://www.apple.com/apple-intelligence/",
+            "comparison": "Apple Intelligence 是系统级 AI，覆盖更广但功能推进缓慢；TaskGPT 更聚焦于实际任务执行"
+          },
+          {
+            "name": "Raycast AI",
+            "url": "https://www.raycast.com/",
+            "comparison": "Raycast 是 Mac 上最强的效率启动器，AI 功能强大但主要面向键盘操作；TaskGPT 主打语音交互"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1157670",
+      "name": "Mirowl",
+      "slug": "mirowl",
+      "description": "本地 OCR AI 截图搜索工具 — 用 Rust/Tauri 构建的 Mac 原生应用，在本地索引并搜索所有截图和图片，通过文字内容找到你遗忘的截图。",
+      "url": "https://www.mirowl.com/",
+      "homepage": "https://www.mirowl.com/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260604_115924.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "OCR",
+        "截图管理",
+        "本地搜索",
+        "Mac应用",
+        "效率工具"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1157670?app_id=339",
+      "firstSeen": "2026-06-04T04:00:33.645160+00:00",
+      "analysis": {
+        "targetAudience": "频繁截图的 Mac 用户，包括设计师、开发者、产品经理和知识工作者",
+        "useCases": [
+          "搜索曾经截图但忘记保存位置的网页内容",
+          "通过截图中的文字关键词快速定位信息",
+          "管理大量截图素材库，按内容而非文件名检索",
+          "找回聊天记录截图中的关键信息",
+          "快速查找发票、合同等截图文件"
+        ],
+        "designIntent": "解决 Mac 用户「截图很多但找不到」的普遍痛点。用本地 OCR 让每张截图的内容都可搜索，无需上传云端，保护隐私的同时提供智能搜索体验。",
+        "problemSolved": "macOS 截图功能方便但截图管理极差，用户积累了大量截图却无法通过内容检索。Spotlight 的图片搜索能力有限且不精确。Mirowl 通过本地 OCR 建立截图索引，让「按图搜文」成为可能。",
+        "tags": [
+          "OCR",
+          "截图管理",
+          "本地搜索",
+          "Mac应用",
+          "效率工具"
+        ],
+        "score": 7,
+        "scoreReason": "解决了截图管理的真实痛点，Rust/Tauri 技术栈保证了性能和轻量。但产品成熟度有待验证，且对于截图量少的用户可能价值有限。",
+        "competitors": [
+          {
+            "name": "Eagle",
+            "url": "https://eagle.cool/",
+            "comparison": "Eagle 是强大的素材管理工具，支持标签和颜色搜索，但不支持 OCR 文字搜索，且偏重设计素材管理"
+          },
+          {
+            "name": "Hookshot",
+            "url": "https://hookshot.app/",
+            "comparison": "Hookshot 是 Mac 截图增强工具，专注于截图操作和标注，不提供内容搜索功能"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1162051",
+      "name": "The Piece",
+      "slug": "the-piece",
+      "description": "AI 情侣争执调解应用 — 当情侣发生小争执时，让 AI 充当公正裁判，分别听取双方观点后给出调解建议，用幽默和理性化解矛盾。",
+      "url": "https://thepiece.app/en",
+      "homepage": "https://thepiece.app/en",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260604_115932.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI调解",
+        "情侣应用",
+        "关系健康",
+        "趣味工具",
+        "情感AI"
+      ],
+      "sourceChannels": [
+        "producthunt",
+        "hackernews"
+      ],
+      "sourceUrl": "https://thepiece.app/en",
+      "firstSeen": "2026-06-04T04:00:33.645160+00:00",
+      "analysis": {
+        "targetAudience": "年轻情侣和夫妻，尤其是经常因小事争论但希望以有趣方式解决的伴侣",
+        "useCases": [
+          "「谁该洗碗」等家务分工争执的趣味调解",
+          "旅行计划分歧时的第三方视角建议",
+          "节日送礼选择困难时的 AI 建议",
+          "将日常小矛盾转化为增进感情的互动游戏",
+          "作为情侣日常互动的趣味话题来源"
+        ],
+        "designIntent": "将 AI 融入情侣关系场景，用轻松有趣的方式帮助伴侣化解日常小矛盾。创始人（CPTO + Head of Product）从自身情侣经历出发打造，产品体验融入了真实生活洞察。",
+        "problemSolved": "情侣间的日常小争执往往不需要严肃调解，但又确实影响心情。The Piece 提供了一个「第三方视角」，用 AI 的理性和幽默打破僵局，让争执变成增进了解的机会。",
+        "tags": [
+          "AI调解",
+          "情侣应用",
+          "关系健康",
+          "趣味工具",
+          "情感AI"
+        ],
+        "score": 7,
+        "scoreReason": "创意独特，将 AI 应用于情侣关系这一日常场景，趣味性强。但市场天花板有限，且 AI 调解的准确性和文化适配性有待验证。",
+        "competitors": [
+          {
+            "name": "Squabbly AI",
+            "url": "https://www.squabbly.ai/",
+            "comparison": "Squabbly 也是 AI 争执裁判，但采用语音交互形式；The Piece 更注重对话式调解流程"
+          },
+          {
+            "name": "Couples Court",
+            "url": "https://couplescourt.space/",
+            "comparison": "Couples Court 更偏向截图分析争执内容，The Piece 强调双方分别陈述的结构化调解流程"
+          }
+        ]
+      }
+    }
+  ]
+}
