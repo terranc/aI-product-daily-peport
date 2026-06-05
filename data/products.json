@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-06-03T03:59:58.949410",
+  "lastUpdated": "2026-06-05T03:59:22.483991+00:00",
   "products": [
     {
       "id": "dafa9686fbe1",
@@ -7983,6 +7983,355 @@
           }
         ]
       }
+    },
+    {
+      "id": "v2ex.com/t/1218076",
+      "name": "BriefFeed",
+      "slug": "brieffeed-ai-insights",
+      "description": "AI 浏览器扩展插件，为你在社交媒体中已阅读的帖子生成简短摘要、AI 洞察和收藏，支持 Twitter/即刻/微博/Product Hunt 等多平台",
+      "url": "https://brieffeed.app/zh-CN/",
+      "homepage": "https://brieffeed.app/zh-CN/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "浏览器扩展",
+        "信息摘要",
+        "AI洞察",
+        "社交媒体",
+        "效率工具"
+      ],
+      "firstSeen": "2026-06-05T03:59:22.483991+00:00",
+      "lastSeen": "2026-06-05T03:59:22.483991+00:00",
+      "cooldownExpiresAt": "2026-06-19T03:59:22",
+      "versions": [],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "mentions": [
+        {
+          "date": "2026-06-05T03:59:22.483991+00:00",
+          "channel": "v2ex",
+          "url": "https://www.v2ex.com/t/1218076",
+          "title": "BriefFeed"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "每日在多个社交媒体平台浏览大量信息、需要高效筛选和回顾内容的知识工作者和信息重度消费者",
+        "useCases": [
+          "在 Twitter/即刻/微博信息流中快速浏览 AI 生成的帖子摘要，节省阅读时间",
+          "每天结束时查看 AI 洞察报告，回顾当天阅读过的关键线索和话题",
+          "一键收藏重要帖子并同步到 Notion，建立个人知识库",
+          "跨平台（公众号、Product Hunt、GitHub 等）统一获取阅读线索整理"
+        ],
+        "designIntent": "解决社交媒体信息过载问题，通过 AI 自动为用户已阅读的内容生成摘要和洞察，帮助用户在海量信息中快速判断哪些值得深入阅读，哪些可以跳过。只处理用户主动浏览过的内容，保护隐私。",
+        "problemSolved": "现代用户每天在 Twitter、即刻、微博等多个平台浏览大量信息，但常常看完就忘、无法有效回顾和整理。BriefFeed 通过 AI 摘要和每日洞察报告，让用户不用重新翻阅就能回顾当天的关键信息。",
+        "score": 8,
+        "scoreReason": "解决真实的信息过载痛点，支持多平台（包括中文平台即刻、微博），隐私设计克制（只处理已浏览内容），Chrome 扩展形式使用门槛低。不足是目前仍为公测版，功能覆盖面还在扩展中。",
+        "competitors": [
+          {
+            "name": "HARPA AI",
+            "url": "https://harpa.ai/",
+            "comparison": "HARPA 是更通用的浏览器 AI 自动化工具，功能更重但更复杂；BriefFeed 专注社交媒体摘要，轻量易用"
+          },
+          {
+            "name": "Readmigo",
+            "url": "https://readmigo.cn/",
+            "comparison": "Readmigo 专注英文原版书阅读辅助；BriefFeed 聚焦社交媒体信息流的实时摘要和洞察"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/v2ex.com_t_1218076_20260605_115805.png",
+      "appStoreScreenshots": [],
+      "rawData": {}
+    },
+    {
+      "id": "producthunt.com/r/p/1160971",
+      "name": "Franz 6",
+      "slug": "franz-6-unified-messaging-ai",
+      "description": "全平台消息聚合桌面应用，将 WhatsApp、Slack、Telegram、Gmail、Outlook、Signal 等统一到一个窗口，内置私有 AI 助手支持聊天摘要、语音转写和邮件草拟",
+      "url": "https://meetfranz.com/",
+      "homepage": "https://meetfranz.com/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "消息聚合",
+        "AI助手",
+        "隐私优先",
+        "效率工具",
+        "桌面应用"
+      ],
+      "firstSeen": "2026-06-05T03:59:22.483991+00:00",
+      "lastSeen": "2026-06-05T03:59:22.483991+00:00",
+      "cooldownExpiresAt": "2026-06-19T03:59:22",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-06-05T03:59:22.483991+00:00",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/products/franz-messenger",
+          "title": "Franz 6"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "同时使用多个即时通讯和邮件平台的职场人士、远程团队成员，以及重视隐私的用户",
+        "useCases": [
+          "在一个窗口中同时管理 WhatsApp、Slack、Telegram、Gmail 等所有通讯渠道",
+          "AI 自动摘要长聊天记录，快速了解错过的讨论要点",
+          "AI 语音消息转文字，不用戴耳机也能在办公场合查看语音消息",
+          "AI 辅助邮件草拟和收件箱分类，提升邮件处理效率",
+          "使用工作空间功能隔离不同项目或角色的通讯"
+        ],
+        "designIntent": "解决现代职场人被迫在十几个通讯工具间频繁切换的痛苦。Franz 6 在经典消息聚合基础上增加了本地运行的 AI 助手，所有 AI 处理在设备端完成，对话数据不会上传到云端，兼顾效率和隐私。",
+        "problemSolved": "职场人士平均使用 5-8 个通讯工具，频繁切换不仅打断工作流，还容易遗漏重要消息。Franz 6 将所有渠道聚合到一个界面，配合 AI 自动摘要和智能分类，让用户不再因切换工具而分心。",
+        "score": 8,
+        "scoreReason": "成熟产品的大版本升级，消息聚合+私有 AI 的组合差异化明显。本地 AI 处理保护隐私是核心卖点。不足是高级功能需要付费订阅，免费版功能有限。",
+        "competitors": [
+          {
+            "name": "Mailspring",
+            "url": "https://www.getmailspring.com/",
+            "comparison": "Mailspring 专注邮件客户端，功能更深入但不支持即时通讯聚合"
+          },
+          {
+            "name": "Rambox",
+            "url": "https://rambox.app/",
+            "comparison": "Rambox 是类似的多应用聚合工具，但 AI 功能较弱，隐私保护不如 Franz 6 的本地 AI 方案"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1160971_20260605_115813.png",
+      "appStoreScreenshots": [],
+      "rawData": {}
+    },
+    {
+      "id": "x.com/evanwritesx/status/2062543550336901370",
+      "name": "Typeless",
+      "slug": "typeless-ai-voice-input",
+      "description": "AI 语音输入法，按住快捷键说话，AI 自动润饰并直接输入到当前窗口，比打字快 4 倍，支持中英文混合和多平台",
+      "url": "https://www.typeless.com/",
+      "homepage": "https://www.typeless.com/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "语音输入",
+        "AI输入法",
+        "效率工具",
+        "跨平台",
+        "Mac应用"
+      ],
+      "firstSeen": "2026-06-05T03:59:22.483991+00:00",
+      "lastSeen": "2026-06-05T03:59:22.483991+00:00",
+      "cooldownExpiresAt": "2026-06-19T03:59:22",
+      "versions": [],
+      "sourceChannels": [
+        "twitter"
+      ],
+      "mentions": [
+        {
+          "date": "2026-06-05T03:59:22.483991+00:00",
+          "channel": "twitter",
+          "url": "https://x.com/EvanWritesX/status/2062543550336901370",
+          "title": "Typeless"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "经常需要大量文字输入的知识工作者、内容创作者、以及追求输入效率的 Mac/iOS 用户",
+        "useCases": [
+          "按住 Option+Space 说话，AI 润饰后直接输入到任意应用窗口",
+          "中英文混合语音输入，AI 自动识别语言并正确排版",
+          "在 iPhone 上替代原生语音输入，获得更高质量的文字输出",
+          "快速记录灵感、写邮件、聊天回复，比打字效率提升 4 倍",
+          "支持 Mac、Windows、iOS、Android 全平台覆盖"
+        ],
+        "designIntent": "取代 Apple 原生语音输入的痛点——中英文混合识别差、输出需要大量手动修改。Typeless 通过 AI 后处理将语音识别结果自动润饰为高质量文字，让用户真正实现「说话即输入」的流畅体验。",
+        "problemSolved": "传统语音输入识别准确率低、不支持中英文混合、输出格式混乱需要大量手动编辑，导致用户宁愿打字也不愿用语音。Typeless 通过 AI 润饰层解决了这些痛点，让语音输入真正实用。",
+        "score": 8,
+        "scoreReason": "解决了语音输入的核心痛点（准确率和润饰），全平台覆盖，使用方式极简（按住快捷键即用）。用户口碑很好，多人自发推荐。不足是需要付费订阅，免费额度有限。",
+        "competitors": [
+          {
+            "name": "Wispr Flow",
+            "url": "https://www.wisprflow.ai/",
+            "comparison": "Wispr Flow 也是 AI 语音输入工具，但更偏向英文市场；Typeless 在中文和中英混合场景表现更好"
+          },
+          {
+            "name": "Apple 原生语音输入",
+            "url": "https://www.apple.com/",
+            "comparison": "系统内置免费但 AI 润饰能力弱，中英文混合体验差，输出需要大量手动修改"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/x.com_evanwritesx_status_2062543550336901370_20260605_115822.png",
+      "appStoreScreenshots": [],
+      "rawData": {}
+    },
+    {
+      "id": "producthunt.com/r/p/1162759",
+      "name": "Smart Runner",
+      "slug": "smart-runner-ai-running-coach",
+      "description": "AI 跑步训练教练应用，每次跑步后自动分析表现并动态调整后续训练计划，从 5K 到马拉松全覆盖",
+      "url": "https://runnerapp.pro/",
+      "homepage": "https://runnerapp.pro/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "跑步训练",
+        "AI教练",
+        "运动健康",
+        "个性化计划",
+        "iOS应用"
+      ],
+      "firstSeen": "2026-06-05T03:59:22.483991+00:00",
+      "lastSeen": "2026-06-05T03:59:22.483991+00:00",
+      "cooldownExpiresAt": "2026-06-19T03:59:22",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-06-05T03:59:22.483991+00:00",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/products/smart-runner",
+          "title": "Smart Runner"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "从初跑到进阶的跑步爱好者，尤其是不想花高价请私教、但希望获得个性化训练指导的跑者",
+        "useCases": [
+          "根据个人目标（首次 5K、马拉松备赛等）自动生成个性化训练计划",
+          "每次跑步后 AI 自动评估表现，动态调整后续训练强度和节奏",
+          "无需近期比赛成绩即可开始，适合跑步新手和回归训练者",
+          "支持 Apple Watch 同步，跑步数据自动采集",
+          "从 5K 到马拉松的全阶段训练覆盖"
+        ],
+        "designIntent": "传统跑步训练计划是静态的——制定后不管实际表现如何都按计划执行。Smart Runner 通过 AI 在每次跑步后重新评估跑者状态，动态调整计划，让训练更贴合个人实际能力和发展节奏。",
+        "problemSolved": "静态训练计划无法适应跑者的实际状态波动（受伤、疲劳、超预期表现等），导致训练效果不佳甚至增加受伤风险。Smart Runner 的 AI 动态调整让训练计划始终匹配跑者当前水平。",
+        "score": 7,
+        "scoreReason": "AI 动态调整训练计划是核心差异化，解决了传统静态计划的痛点。UI 设计简洁，上手门槛低。不足是目前仅支持 iOS/Apple Watch，Android 用户暂时无法使用。",
+        "competitors": [
+          {
+            "name": "Runathon AI",
+            "url": "https://www.producthunt.com/products/runathon-ai",
+            "comparison": "同样是 AI 跑步教练，但 Smart Runner 的「每次跑步后自动调整」机制更细粒度"
+          },
+          {
+            "name": "Nike Run Club",
+            "url": "https://www.nike.com/nrc-app",
+            "comparison": "Nike Run Club 有教练指导但以固定计划为主，个性化程度不如 Smart Runner 的动态调整"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1162759_20260605_115832.png",
+      "appStoreScreenshots": [],
+      "rawData": {}
+    },
+    {
+      "id": "producthunt.com/r/p/1158294",
+      "name": "Walkable",
+      "slug": "walkable-safety-navigation",
+      "description": "安全优先的步行导航应用，基于 AI 分析为行人规划最安全的步行路线，而非最短路线",
+      "url": "https://www.walkable.app/",
+      "homepage": "https://www.walkable.app/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "步行导航",
+        "安全出行",
+        "AI路线规划",
+        "城市生活",
+        "地图应用"
+      ],
+      "firstSeen": "2026-06-05T03:59:22.483991+00:00",
+      "lastSeen": "2026-06-05T03:59:22.483991+00:00",
+      "cooldownExpiresAt": "2026-06-19T03:59:22",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-06-05T03:59:22.483991+00:00",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/products/walkable-2",
+          "title": "Walkable"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "注重步行安全的城市居民，尤其是夜间出行者、独自步行的女性、以及对城市治安敏感的用户",
+        "useCases": [
+          "夜间步行回家时，AI 规划照明充足、人流较多的安全路线",
+          "在不熟悉的城市区域步行时，避开治安较差的街区",
+          "独自出行时选择经过监控摄像头覆盖区域的路线",
+          "日常通勤步行路线的安全性评估和优化",
+          "旅行时在陌生城市安全步行探索"
+        ],
+        "designIntent": "现有地图应用（Google Maps、高德等）的步行导航以「最短距离」或「最短时间」为目标，完全忽略了安全性维度。Walkable 引入安全作为路线规划的核心指标，通过 AI 综合分析照明条件、犯罪数据、人流密度等因素，为行人提供真正安心的步行路线。",
+        "problemSolved": "城市步行导航长期以效率为唯一目标，忽视了行人（尤其夜间和独行者）的安全需求。Walkable 填补了这一空白，让「安全到达」和「快速到达」同样重要。",
+        "score": 7,
+        "scoreReason": "切入了一个被忽视但真实存在的需求——步行安全导航。AI 路线规划维度（照明、犯罪、人流）有实际价值。不足是数据覆盖范围有限，目前可能仅支持部分城市。",
+        "competitors": [
+          {
+            "name": "Google Maps",
+            "url": "https://maps.google.com/",
+            "comparison": "Google Maps 步行导航以最短距离/时间为目标，不考虑安全性维度"
+          },
+          {
+            "name": "Citizen",
+            "url": "https://www.citizen.com/",
+            "comparison": "Citizen 侧重犯罪实时警报，不提供路线规划；Walkable 将安全信息融入导航决策"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {}
     }
   ],
   "tracking": {
