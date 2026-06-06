@@ -1,0 +1,371 @@
+{
+  "date": "2026-06-06",
+  "generatedAt": "2026-06-06T10:43:27.048566+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "producthunt.com/r/p/1158959",
+      "name": "Koji by Brilliant",
+      "slug": "koji-by-brilliant",
+      "description": "Brilliant 推出的 AI 个人辅导家教，集成在课程中，支持语音和文字交互，通过可视化组件帮助学生理解数学、科学和计算机科学概念。当学生卡住时，Koji 会引导而非直接给出答案。",
+      "url": "https://brilliant.org/",
+      "homepage": "https://brilliant.org/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1158959_20260606_184137.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI教育",
+        "个人辅导",
+        "STEM学习",
+        "自适应学习"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1158959?app_id=339",
+      "firstSeen": "2026-06-06T10:43:27.048566+00:00",
+      "analysis": {
+        "targetAudience": "STEM 学科学生和终身学习者，尤其是需要个性化辅导的自学者",
+        "useCases": [
+          "数学/科学/计算机课程学习中遇到难题时获得引导式解答",
+          "通过语音与 AI 家教实时互动，像真人辅导一样提问",
+          "利用可视化组件理解抽象概念（如函数图像、分子结构）",
+          "课后自主复习时获得针对性的薄弱环节强化",
+          "家长为孩子寻找安全可靠的 AI 学习辅助工具"
+        ],
+        "designIntent": "Brilliant 认为传统在线课程缺乏个性化反馈，学生卡住时只能看答案。Koji 作为内置 AI 家教，通过对话式引导帮助学生真正理解知识点，而非简单给出答案，旨在让每个家庭都能获得世界级的一对一辅导体验。",
+        "problemSolved": "解决了在线 STEM 学习中缺乏即时个性化反馈的问题。传统网课学生遇到困难只能反复看视频或搜索答案，而 Koji 能像真人教师一样识别学生的困惑点，通过苏格拉底式提问引导学生自己找到答案。",
+        "tags": [
+          "AI教育",
+          "个人辅导",
+          "STEM学习",
+          "自适应学习",
+          "语音交互"
+        ],
+        "score": 8,
+        "scoreReason": "Brilliant 是知名的 STEM 教育平台，Koji 将 AI 辅导深度集成到课程体验中，可视化组件和引导式教学设计成熟。但目前仅覆盖 Brilliant 自有课程内容，适用范围有限。",
+        "competitors": [
+          {
+            "name": "Khan Academy Khanmigo",
+            "url": "https://khanacademy.org/khan-labs",
+            "comparison": "Khan Academy 的 AI 辅导覆盖更广泛的基础教育科目，但 Brilliant 在 STEM 领域的交互式可视化体验更胜一筹"
+          },
+          {
+            "name": "Duolingo Max",
+            "url": "https://duolingo.com/max",
+            "comparison": "Duolingo Max 专注语言学习的 AI 辅导，两者都在各自垂直领域做到了深度集成，但 Koji 的 STEM 可视化能力更独特"
+          },
+          {
+            "name": "Photomath",
+            "url": "https://photomath.com/",
+            "comparison": "Photomath 专注数学题拍照解答，更偏工具属性；Koji 则强调教学过程和概念理解"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "rawData": {
+        "source": "producthunt",
+        "source_url": "https://www.producthunt.com/r/p/1158959?app_id=339"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1163341",
+      "name": "Leni",
+      "slug": "leni",
+      "description": "专为严肃投资者打造的 AI 平台，覆盖房地产投资（CRE）和私募股权（PE）领域。基于 21,000+ 决策追踪和每日处理 1 亿+ 行数据，提供金融级精度的尽职调查、报告生成和投资决策支持。",
+      "url": "https://leni.co/",
+      "homepage": "https://leni.co/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1163341_20260606_184150.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI金融",
+        "投资分析",
+        "房地产投资",
+        "私募股权",
+        "尽职调查"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1163341?app_id=339",
+      "firstSeen": "2026-06-06T10:43:27.048566+00:00",
+      "analysis": {
+        "targetAudience": "房地产投资（CRE）和私募股权（PE）领域的专业投资机构和基金经理",
+        "useCases": [
+          "自动化投资尽职调查流程，快速审查大量财务文件",
+          "生成金融级精度的投资报告和组合分析",
+          "实时处理大规模投资数据集，发现潜在投资机会",
+          "简化投后管理和资产绩效追踪",
+          "辅助投资决策，提供可验证的 AI 分析结论"
+        ],
+        "designIntent": "Leni 针对金融投资行业对数据精度和可验证性的极高要求，构建了一个金融级 AI 平台。不同于通用 AI 工具，Leni 的每个输出都有完整的决策追踪链，确保投资专业人士可以信任并审计 AI 的分析结果。",
+        "problemSolved": "解决了投资专业人士在尽职调查和报告生成中面临的大量重复性手工工作。传统方式需要团队花费数周审查文件和制作报告，Leni 将这一过程自动化，同时保持金融行业所需的精度和可追溯性。",
+        "tags": [
+          "AI金融",
+          "投资分析",
+          "房地产投资",
+          "私募股权",
+          "尽职调查"
+        ],
+        "score": 8,
+        "scoreReason": "Leni 在 PH 获得 224 票并拿下当日第一，说明市场认可度高。金融级精度和决策追踪是核心差异化优势，但目标用户群体较窄（专业投资机构），普通投资者难以直接使用。",
+        "competitors": [
+          {
+            "name": "Ramp Intelligence",
+            "url": "https://ramp.com/intelligence",
+            "comparison": "Ramp 专注企业支出管理和财务自动化，更偏运营层面；Leni 专注于投资决策和尽职调查，定位更垂直"
+          },
+          {
+            "name": "Datarails",
+            "url": "https://datarails.com/",
+            "comparison": "Datarails 帮助 FP&A 团队自动化财务报告，两者都用 AI 提升财务工作效率，但 Leni 更聚焦投资领域"
+          },
+          {
+            "name": "Visible.vc",
+            "url": "https://visible.vc/",
+            "comparison": "Visible.vc 帮助 VC 管理投后关系和报告，Leni 的 AI 能力更深度地嵌入投资分析流程"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "rawData": {
+        "source": "producthunt",
+        "source_url": "https://www.producthunt.com/r/p/1163341?app_id=339"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1164006",
+      "name": "LocalClicky",
+      "slug": "localclicky",
+      "description": "Mac 菜单栏语音助手，完全离线运行。使用 Whisper.cpp 进行本地语音转录，Ollama（qwen3/gemma4）进行 AI 推理，支持连续对话式指令执行，无需联网即可控制电脑。",
+      "url": "https://github.com/dikshantrajput/LocalClicky",
+      "homepage": "https://github.com/dikshantrajput/LocalClicky",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1164006_20260606_184158.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "语音助手",
+        "本地AI",
+        "Mac工具",
+        "隐私优先",
+        "离线AI"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1164006?app_id=339",
+      "firstSeen": "2026-06-06T10:43:27.048566+00:00",
+      "analysis": {
+        "targetAudience": "注重隐私的 Mac 用户，尤其是不愿将语音数据上传云端的开发者和创意工作者",
+        "useCases": [
+          "语音控制 Mac 执行日常操作（打开应用、搜索文件、调整设置）",
+          "在不方便打字时通过语音与电脑交互（如做饭、开车时）",
+          "隐私敏感场景下使用 AI 助手（不录音不上传）",
+          "连续对话式多步骤任务执行（先搜索再打开再操作）",
+          "为行动不便用户提供无障碍语音操控方案"
+        ],
+        "designIntent": "LocalClicky 的核心理念是「AI 助手不需要联网」。通过将 Whisper 语音识别和 Ollama 大模型推理全部放在本地运行，用户可以完全离线地用语音控制 Mac，没有任何数据离开设备。说「Computer」即可唤醒，支持连续对话。",
+        "problemSolved": "解决了用户想用语音控制电脑但担心隐私泄露的矛盾。Siri 等云端语音助手会将录音发送到服务器，而 LocalClicky 所有处理都在本地完成，用户可以放心使用语音交互而不必担心隐私问题。",
+        "tags": [
+          "语音助手",
+          "本地AI",
+          "Mac工具",
+          "隐私优先",
+          "离线AI"
+        ],
+        "score": 8,
+        "scoreReason": "完全离线的语音控制是强有力的差异化卖点，Whisper+Ollama 的技术栈成熟可靠。开源免费降低了使用门槛。但需要用户具备一定的技术能力来安装和配置 Ollama 环境。",
+        "competitors": [
+          {
+            "name": "MacWhisper",
+            "url": "https://macwhisper.com/",
+            "comparison": "MacWhisper 专注语音转文字，不做命令执行；LocalClicky 是完整的语音控制方案，能理解意图并执行操作"
+          },
+          {
+            "name": "Wispr Flow",
+            "url": "https://wisprflow.ai/",
+            "comparison": "Wispr Flow 是云端语音输入工具，需要联网；LocalClicky 完全离线运行，隐私性更强"
+          },
+          {
+            "name": "Apple Siri",
+            "url": "https://apple.com/siri",
+            "comparison": "Siri 是系统内置语音助手但依赖云端处理；LocalClicky 用开源模型替代，隐私性远超 Siri，但功能覆盖度和自然度仍有差距"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "rawData": {
+        "source": "producthunt",
+        "source_url": "https://www.producthunt.com/r/p/1164006?app_id=339"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1156581",
+      "name": "Kai for Chrome",
+      "slug": "kai-for-chrome",
+      "description": "Chrome 浏览器扩展，本地运行的 AI 会议转录和摘要工具。支持 Google Meet、Zoom、Teams，100% 设备端处理，无需注册账号。按 ⌘⇧K 即可获得干净的会议转录和摘要。",
+      "url": "https://hirekai.ai/meetings",
+      "homepage": "https://hirekai.ai/meetings",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1156581_20260606_184208.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI会议",
+        "会议转录",
+        "Chrome扩展",
+        "本地处理",
+        "隐私优先"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1156581?app_id=339",
+      "firstSeen": "2026-06-06T10:43:27.048566+00:00",
+      "analysis": {
+        "targetAudience": "频繁参加线上会议的职场人士，尤其是注重会议内容隐私的企业用户",
+        "useCases": [
+          "Google Meet/Zoom/Teams 会议实时转录，会后快速回顾要点",
+          "自动生成会议摘要和行动项，省去手动整理笔记的时间",
+          "在不允许第三方录音的会议中本地转录（无需会议机器人）",
+          "跨国团队会议中辅助理解不同口音的发言内容",
+          "法律/医疗等敏感行业会议的隐私安全转录"
+        ],
+        "designIntent": "Kai 的设计理念是「会议转录不需要机器人闯入」。传统会议 AI 工具（如 Otter、Fireflies）需要作为额外参与者加入会议，会显示「XX 正在录制」的通知，让参会者不适。Kai 通过 Chrome 扩展在本地捕获音频，完全不干扰会议流程。",
+        "problemSolved": "解决了会议转录中的两个核心痛点：一是隐私顾虑（会议内容被上传到第三方服务器），二是会议干扰（AI 机器人作为参会者加入会让部分人感到不适）。Kai 的本地处理方案同时解决了这两个问题。",
+        "tags": [
+          "AI会议",
+          "会议转录",
+          "Chrome扩展",
+          "本地处理",
+          "隐私优先"
+        ],
+        "score": 8,
+        "scoreReason": "本地处理+无机器人加入是明确的差异化优势，Chrome 扩展形态降低了使用门槛。但本地处理对设备性能有一定要求，且目前仅支持浏览器内会议，桌面客户端会议需另寻方案。",
+        "competitors": [
+          {
+            "name": "Otter.ai",
+            "url": "https://otter.ai/",
+            "comparison": "Otter 是最流行的会议转录工具之一，但需要作为参会者加入会议且数据上传云端；Kai 完全本地处理且不干扰会议"
+          },
+          {
+            "name": "Fireflies.ai",
+            "url": "https://fireflies.ai/",
+            "comparison": "Fireflies 提供 AI 会议助手功能更丰富（分析、CRM 集成），但依赖云端；Kai 更轻量但隐私性更强"
+          },
+          {
+            "name": "Granola",
+            "url": "https://granola.so/",
+            "comparison": "Granola 也是本地优先的会议笔记工具，两者定位相似，但 Kai 作为 Chrome 扩展更轻量，无需安装桌面应用"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "rawData": {
+        "source": "producthunt",
+        "source_url": "https://www.producthunt.com/r/p/1156581?app_id=339"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1100116",
+      "name": "Moodloom",
+      "slug": "moodloom",
+      "description": "无广告的 Pinterest 替代品，使用 AI 内容过滤打造干净的视觉发现体验。专注于时尚、家居装饰和艺术领域，支持应用内购物，社区驱动的内容策展。",
+      "url": "https://moodloom.xyz/",
+      "homepage": "https://moodloom.xyz/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1100116_20260606_184217.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI内容过滤",
+        "视觉发现",
+        "无广告",
+        "Pinterest替代",
+        "时尚家居"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1100116?app_id=339",
+      "firstSeen": "2026-06-06T10:43:27.048566+00:00",
+      "analysis": {
+        "targetAudience": "对 Pinterest 广告泛滥和 AI 生成内容spam 感到厌烦的视觉内容爱好者，尤其是时尚和家居装饰领域的用户",
+        "useCases": [
+          "浏览和收藏高质量的时尚穿搭灵感图片",
+          "发现和保存家居装饰设计参考",
+          "探索艺术作品和创意设计素材",
+          "在无广告干扰的环境中进行视觉内容策展",
+          "通过 AI 过滤屏蔽 AI 生成的垃圾内容和低质量图片"
+        ],
+        "designIntent": "Moodloom 的创立动机是对 Pinterest 现状的不满——广告越来越多、AI 生成的低质量内容泛滥、用户体验持续下降。Moodloom 通过 AI 内容过滤和社区策展机制，重建一个干净、高质量的视觉发现平台。",
+        "problemSolved": "解决了 Pinterest 用户面临的广告过载和 AI 内容泛滥问题。Pinterest 近年来广告密度大幅增加，且 AI 生成的同质化图片充斥信息流，严重影响了用户发现真实灵感的体验。Moodloom 用 AI 过滤 AI，还用户一个干净的视觉空间。",
+        "tags": [
+          "AI内容过滤",
+          "视觉发现",
+          "无广告",
+          "Pinterest替代",
+          "时尚家居"
+        ],
+        "score": 7,
+        "scoreReason": "无广告+AI 过滤的定位精准击中 Pinterest 痛点，垂直于时尚/家居/艺术领域的策略也很聪明。但 Pinterest 的网络效应和内容生态难以撼动，Moodloom 需要持续的优质内容供给才能留住用户。",
+        "competitors": [
+          {
+            "name": "Pinterest",
+            "url": "https://pinterest.com/",
+            "comparison": "Pinterest 是行业巨头，内容生态丰富但广告泛滥、AI 内容泛滥；Moodloom 提供更干净的替代体验但内容规模远小"
+          },
+          {
+            "name": "Are.na",
+            "url": "https://arena.co/",
+            "comparison": "Are.na 是创意工作者喜爱的视觉收集工具，更偏策展和研究；Moodloom 更偏消费级的视觉发现和购物"
+          },
+          {
+            "name": "Etsy",
+            "url": "https://etsy.com/",
+            "comparison": "Etsy 专注手工艺品和独特商品市场；Moodloom 的购物功能是辅助性的，核心价值在于视觉灵感发现"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": false,
+        "featuredInWeekly": false
+      },
+      "rawData": {
+        "source": "producthunt",
+        "source_url": "https://www.producthunt.com/r/p/1100116?app_id=339"
+      }
+    }
+  ]
+}
