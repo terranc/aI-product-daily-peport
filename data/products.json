@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-06-06T10:43:27.048566+00:00",
+  "lastUpdated": "2026-06-07T04:33:54.611359+00:00",
   "products": [
     {
       "id": "dafa9686fbe1",
@@ -8756,6 +8756,351 @@
         "source": "producthunt",
         "source_url": "https://www.producthunt.com/r/p/1100116?app_id=339"
       }
+    },
+    {
+      "id": "producthunt.com/products/clarafy",
+      "name": "Clarafy",
+      "slug": "clarafy",
+      "description": "AI 浏览器扩展，一键将杂乱输入转化为精美文本。支持语音输入，自动感知应用场景（Discord、Gmail、ChatGPT 等），实时优化写作风格。",
+      "url": "https://www.producthunt.com/products/clarafy",
+      "homepage": "https://www.producthunt.com/products/clarafy",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "AI写作",
+        "浏览器扩展",
+        "文本优化",
+        "语音输入"
+      ],
+      "firstSeen": "2026-06-07T04:33:54.611359+00:00",
+      "lastSeen": "2026-06-07T04:33:54.611359+00:00",
+      "cooldownExpiresAt": "2026-06-21T04:33:54.611359+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-06-07T04:33:54.611359+00:00",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/products/clarafy",
+          "title": "Clarafy"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "需要在各类网络平台快速输入高质量文本的普通用户和内容创作者",
+        "useCases": [
+          "在 Gmail 中将草稿邮件一键润色为专业商务邮件",
+          "在 Discord/Slack 中将口语化消息转化为得体回复",
+          "语音输入后自动整理为结构化文本",
+          "在 ChatGPT 对话框中快速优化提示词",
+          "社交媒体发帖前一键检查语气和拼写"
+        ],
+        "designIntent": "解决用户在不同平台输入时需要反复修改措辞的痛点，通过浏览器扩展直接在输入框内实时优化文本，无需切换到独立的写作工具。",
+        "problemSolved": "用户在多平台沟通时经常需要花费大量时间调整文本语气和格式，Clarafy 让杂乱的思维输入直接变成精美文本，大幅缩短从想法到表达的距离。",
+        "score": 7,
+        "scoreReason": "产品概念清晰，解决真实痛点，浏览器扩展形式使用门槛低。但与 Grammarly、Quillbot 等成熟产品存在直接竞争，差异化不够明显。",
+        "competitors": [
+          {
+            "name": "Grammarly",
+            "url": "https://www.grammarly.com",
+            "comparison": "Grammarly 侧重语法纠错和风格建议，Clarafy 更强调一键转化和场景感知"
+          },
+          {
+            "name": "Quillbot",
+            "url": "https://quillbot.com",
+            "comparison": "Quillbot 是独立页面的改写工具，Clarafy 直接嵌入浏览器输入框，使用更无缝"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {}
+    },
+    {
+      "id": "producthunt.com/products/veltrix-ai",
+      "name": "Veltrix AI",
+      "slug": "veltrix-ai",
+      "description": "AI 财务副驾驶，整合 QuickBooks、Xero 和 HubSpot 数据，用自然语言查询现金流、利润率和业务增长指标，帮助中小企业主快速理解财务状况。",
+      "url": "https://veltrix.com/finance",
+      "homepage": "https://veltrix.com/finance",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "AI财务",
+        "现金流管理",
+        "中小企业",
+        "数据分析"
+      ],
+      "firstSeen": "2026-06-07T04:33:54.611359+00:00",
+      "lastSeen": "2026-06-07T04:33:54.611359+00:00",
+      "cooldownExpiresAt": "2026-06-21T04:33:54.611359+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-06-07T04:33:54.611359+00:00",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/products/veltrix-ai",
+          "title": "Veltrix AI"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "中小企业主和财务负责人，需要快速理解复杂财务数据但缺乏专业财务分析能力",
+        "useCases": [
+          "用自然语言询问本月现金流状况和趋势",
+          "对比不同渠道的销售转化率和利润贡献",
+          "快速生成月度财务摘要报告",
+          "监控关键财务指标的异常波动",
+          "整合 CRM 和财务数据进行业务分析"
+        ],
+        "designIntent": "将分散在多个 SaaS 工具中的财务和业务数据统一整合，通过 AI 自然语言交互让非财务背景的创业者也能轻松理解复杂的财务指标。",
+        "problemSolved": "中小企业主通常需要在 QuickBooks、Xero、HubSpot 等多个工具间切换才能拼凑出完整的业务画面，Veltrix 将这些数据统一到一个 AI 界面中，用对话代替手动查询。",
+        "score": 8,
+        "scoreReason": "精准切入中小企业财务分析痛点，多平台数据整合能力强，AI 对话式交互降低了财务分析门槛。产品定位清晰，有明确的付费场景。",
+        "competitors": [
+          {
+            "name": "Fathom",
+            "url": "https://fathomhq.com",
+            "comparison": "Fathom 专注财务报表可视化，Veltrix 增加了 CRM 数据整合和 AI 自然语言查询"
+          },
+          {
+            "name": "Float",
+            "url": "https://www.float.com",
+            "comparison": "Float 侧重现金流预测，Veltrix 更偏向多数据源整合和即时问答"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {}
+    },
+    {
+      "id": "notaru.ai",
+      "name": "Notaru",
+      "slug": "notaru",
+      "description": "AI 原生笔记管理应用，输入一行文字即可自动归类为任务、联系人、事件、项目或日记，并自动建立关联。写一句话，AI 帮你整理一切。",
+      "url": "https://notaru.ai/",
+      "homepage": "https://notaru.ai/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "AI笔记",
+        "知识管理",
+        "自动整理",
+        "生产力工具"
+      ],
+      "firstSeen": "2026-06-07T04:33:54.611359+00:00",
+      "lastSeen": "2026-06-07T04:33:54.611359+00:00",
+      "cooldownExpiresAt": "2026-06-21T04:33:54.611359+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "mentions": [
+        {
+          "date": "2026-06-07T04:33:54.611359+00:00",
+          "channel": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48430027",
+          "title": "Notaru"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "需要快速记录想法但厌倦手动整理笔记的知识工作者和创意人群",
+        "useCases": [
+          "快速记录一个想法，AI 自动归类到对应项目",
+          "输入「明天和张三开会」自动创建事件和联系人",
+          "语音或文字速记后自动整理为结构化笔记",
+          "跨笔记自动建立关联，发现隐藏的知识连接",
+          "用自然语言搜索过往所有笔记内容"
+        ],
+        "designIntent": "颠覆传统笔记应用「先分类再记录」的模式，改为「先记录，AI 自动整理」，让用户的注意力始终在内容本身而非组织结构上。",
+        "problemSolved": "大多数笔记应用的分类和整理功能反而成了使用负担，用户要么堆积大量未整理的笔记，要么花过多时间在组织上。Notaru 用 AI 自动完成分类和关联，让记录回归简单。",
+        "score": 8,
+        "scoreReason": "「写一行字，AI 自动整理」的定位非常清晰且有吸引力，解决了笔记应用最大的使用摩擦。产品理念先进，但需要验证 AI 分类的准确性和用户信任度。",
+        "competitors": [
+          {
+            "name": "Notion AI",
+            "url": "https://www.notion.so",
+            "comparison": "Notion 是全能工作空间，AI 是附加功能；Notaru 以 AI 整理为核心，体验更轻量"
+          },
+          {
+            "name": "MyMind",
+            "url": "https://mymind.com",
+            "comparison": "MyMind 也是 AI 自动整理思路，但 Notaru 增加了任务和事件等结构化输出"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {}
+    },
+    {
+      "id": "producthunt.com/products/manus-shopify-connector",
+      "name": "Manus Shopify Connector",
+      "slug": "manus-shopify-connector",
+      "description": "通过一个对话窗口管理整个 Shopify 店铺：从建站、上架商品到运营推广，用自然语言描述你的商业想法，AI 自动生成并管理完整的电商店铺。",
+      "url": "https://manus.im/blog/manus-shopify-connector",
+      "homepage": "https://manus.im",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "AI电商",
+        "Shopify",
+        "店铺管理",
+        "自动化运营"
+      ],
+      "firstSeen": "2026-06-07T04:33:54.611359+00:00",
+      "lastSeen": "2026-06-07T04:33:54.611359+00:00",
+      "cooldownExpiresAt": "2026-06-21T04:33:54.611359+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-06-07T04:33:54.611359+00:00",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/products/manus-shopify-connector",
+          "title": "Manus Shopify Connector"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "想要快速开设电商店铺但缺乏技术和运营经验的创业者和小商家",
+        "useCases": [
+          "用一句话描述品牌定位，AI 自动生成完整店铺",
+          "自然语言管理商品上架、定价和库存",
+          "AI 自动生成产品描述和 SEO 文案",
+          "对话式管理营销活动和折扣策略",
+          "一站式查看店铺运营数据和优化建议"
+        ],
+        "designIntent": "将 Shopify 店铺管理的复杂操作简化为一个对话窗口，让不懂技术的创业者也能通过自然语言完成从建站到运营的全流程。",
+        "problemSolved": "Shopify 虽然是最流行的电商平台，但店铺搭建和运营仍需要大量时间和专业知识。Manus Connector 让用户用对话代替点击，大幅降低了电商创业的门槛。",
+        "score": 8,
+        "scoreReason": "Manus 本身是知名的 AI Agent 平台，与 Shopify 的集成具有实际商业价值。解决的真实痛点明确，目标用户清晰。但需要验证 AI 生成的店铺质量是否达到商用标准。",
+        "competitors": [
+          {
+            "name": "Shopify Magic",
+            "url": "https://www.shopify.com/magic",
+            "comparison": "Shopify 官方 AI 功能分散在各模块，Manus 提供统一的对话式管理体验"
+          },
+          {
+            "name": "Ocoya",
+            "url": "https://www.ocoya.com",
+            "comparison": "Ocoya 专注 AI 内容营销，Manus 覆盖建站到运营的全流程"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {}
+    },
+    {
+      "id": "producthunt.com/products/chatpilot-2",
+      "name": "ChatPilot",
+      "slug": "chatpilot",
+      "description": "ChatGPT 对话管理 Chrome 扩展，支持批量删除、归档对话，为消息添加时间戳，提供快速导航功能。解决 ChatGPT 缺乏对话管理工具的痛点。",
+      "url": "https://chatpilot.app/",
+      "homepage": "https://chatpilot.app/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "ChatGPT",
+        "对话管理",
+        "浏览器扩展",
+        "效率工具"
+      ],
+      "firstSeen": "2026-06-07T04:33:54.611359+00:00",
+      "lastSeen": "2026-06-07T04:33:54.611359+00:00",
+      "cooldownExpiresAt": "2026-06-21T04:33:54.611359+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-06-07T04:33:54.611359+00:00",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/products/chatpilot-2",
+          "title": "ChatPilot"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "重度 ChatGPT 用户，对话列表堆积混乱需要高效管理",
+        "useCases": [
+          "批量删除过期或无用的 ChatGPT 对话",
+          "将重要对话归档便于后续查找",
+          "为对话添加时间戳快速定位历史记录",
+          "快速在大量对话间导航切换",
+          "定期清理对话列表保持界面整洁"
+        ],
+        "designIntent": "填补 ChatGPT 原生界面在对话管理方面的功能缺失，让用户能够像管理邮件一样高效管理 AI 对话历史。",
+        "problemSolved": "ChatGPT 用户在长期使用后会积累大量对话，原生界面仅支持逐个删除，效率极低。ChatPilot 提供批量操作和归档功能，解决了对话历史管理的刚需。",
+        "score": 7,
+        "scoreReason": "解决 ChatGPT 用户的真实痛点，Chrome 扩展形式易于安装使用。但功能较为单一，且高度依赖 ChatGPT 平台，如果 OpenAI 补充原生管理功能则面临被替代风险。",
+        "competitors": [
+          {
+            "name": "ChatGPT 原生功能",
+            "url": "https://chatgpt.com",
+            "comparison": "ChatGPT 目前仅支持逐个删除对话，缺乏批量管理和归档功能"
+          },
+          {
+            "name": "AIPRM",
+            "url": "https://aiprm.com",
+            "comparison": "AIPRM 专注提示词管理，ChatPilot 专注对话历史管理，功能互补"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {}
     }
   ],
   "tracking": {
