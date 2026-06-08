@@ -14,9 +14,10 @@ ASSETS_DIR = Path("/Volumes/EXTEND/aI-product-daily-peport/assets/screenshots")
 WEBSHOT_API = "https://webshot.site/api/capture"
 
 
-def take_website_screenshot(url, product_id):
+def take_website_screenshot(url, product_id, max_retries=2):
     """
     使用 webshot.site API 截取网站截图，保存到本地
+    支持 429（速率限制）和 530（服务端临时故障）自动重试
     """
     if not url:
         return None
@@ -28,38 +29,53 @@ def take_website_screenshot(url, product_id):
     filename = f"{safe_id}_{timestamp}.png"
     output_file = ASSETS_DIR / filename
 
-    try:
-        response = requests.post(
-            WEBSHOT_API,
-            json={'url': url, 'format': 'png', 'mode': 'desktop_viewport'},
-            timeout=120,
-        )
-
-        if response.status_code == 200:
-            with open(output_file, 'wb') as f:
-                f.write(response.content)
-            print(f"  📸 网站截图: {filename} ({len(response.content) // 1024}KB)")
-            return str(output_file.relative_to("/Volumes/EXTEND/aI-product-daily-peport"))
-
-        elif response.status_code == 429:
-            wait = int(response.headers.get('Retry-After', 60))
-            print(f"  ⏰ 速率限制，等待 {wait} 秒后重试...")
-            time.sleep(wait)
+    for attempt in range(max_retries + 1):
+        try:
             response = requests.post(
                 WEBSHOT_API,
                 json={'url': url, 'format': 'png', 'mode': 'desktop_viewport'},
                 timeout=120,
             )
+
             if response.status_code == 200:
                 with open(output_file, 'wb') as f:
                     f.write(response.content)
-                print(f"  📸 网站截图（重试）: {filename}")
+                size_kb = len(response.content) // 1024
+                retry_tag = "（重试）" if attempt > 0 else ""
+                print(f"  📸 网站截图{retry_tag}: {filename} ({size_kb}KB)")
                 return str(output_file.relative_to("/Volumes/EXTEND/aI-product-daily-peport"))
 
-        print(f"  ❌ 截图失败 HTTP {response.status_code}")
+            elif response.status_code == 429:
+                wait = int(response.headers.get('Retry-After', 60))
+                print(f"  ⏰ 速率限制（429），等待 {wait} 秒后重试...")
+                time.sleep(wait)
+                continue
 
-    except Exception as e:
-        print(f"  ❌ 截图错误: {e}")
+            elif response.status_code == 530:
+                if attempt < max_retries:
+                    wait = 300  # 5 分钟
+                    print(f"  ⚠️ 服务端临时故障（530），等待 {wait // 60} 分钟后重试（{attempt + 1}/{max_retries}）...")
+                    time.sleep(wait)
+                    continue
+                else:
+                    print(f"  ❌ 截图失败 HTTP 530（已重试 {max_retries} 次，放弃）")
+
+            else:
+                print(f"  ❌ 截图失败 HTTP {response.status_code}")
+                break
+
+        except requests.exceptions.Timeout:
+            if attempt < max_retries:
+                wait = 300
+                print(f"  ⚠️ 请求超时，等待 {wait // 60} 分钟后重试（{attempt + 1}/{max_retries}）...")
+                time.sleep(wait)
+                continue
+            else:
+                print(f"  ❌ 截图超时（已重试 {max_retries} 次，放弃）")
+
+        except Exception as e:
+            print(f"  ❌ 截图错误: {e}")
+            break
 
     return None
 
