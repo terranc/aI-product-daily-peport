@@ -1,0 +1,317 @@
+{
+  "date": "2026-06-08",
+  "generatedAt": "2026-06-08T07:00:10.907582+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "producthunt.com/r/p/1162631",
+      "name": "Dreambeans by Google Labs",
+      "slug": "dreambeans-google-labs",
+      "description": "谷歌实验室推出的AI个性化每日故事应用。在用户授权下，整合Gmail、日历、Google相册、YouTube、搜索记录等数据，每日生成个性化故事内容，并用AI生成配图。",
+      "url": "https://labs.google/dreambeans",
+      "homepage": "https://labs.google/dreambeans",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI个性化",
+        "每日故事",
+        "Google生态",
+        "数据整合",
+        "内容生成"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/google-labs",
+      "firstSeen": "2026-06-08T07:00:10.907582+00:00",
+      "analysis": {
+        "targetAudience": "谷歌生态用户，尤其是希望从海量信息中获取个性化内容洞察的知识工作者和内容消费者",
+        "useCases": [
+          "每日获取基于个人数据的AI生成故事，发现被忽略的生活细节",
+          "通过AI配图将日常事件可视化，形成个人时间线",
+          "整合多个谷歌服务数据，获得跨平台的内容洞察",
+          "作为个人数字日记的AI增强版，自动记录和解读生活"
+        ],
+        "designIntent": "谷歌希望通过Dreambeans展示其Personal Intelligence技术的能力，将分散在各谷歌服务中的用户数据转化为有温度的个性化内容，让用户重新发现被信息洪流淹没的生活细节。",
+        "problemSolved": "现代人每天接触海量信息但难以从中发现与自己相关的有意义内容。Dreambeans通过AI主动整合用户数据并生成故事，解决了信息过载与个性化洞察缺失的矛盾。",
+        "tags": [
+          "AI个性化",
+          "每日故事",
+          "Google生态",
+          "数据整合",
+          "内容生成"
+        ],
+        "score": 9,
+        "scoreReason": "谷歌官方出品，技术实力雄厚，Personal Intelligence与Nano Banana 2模型的结合代表了AI个性化内容的前沿方向。但目前仅向Ultra订阅用户开放，且需要深度授权谷歌数据，隐私敏感用户可能犹豫。",
+        "competitors": [
+          {
+            "name": "Google Discover",
+            "url": "https://discover.google.com",
+            "comparison": "Discover基于搜索历史推荐内容，Dreambeans则整合多维度个人数据生成原创故事，后者更具个性化深度"
+          },
+          {
+            "name": "Apple Intelligence Stories",
+            "url": "https://www.apple.com/apple-intelligence/",
+            "comparison": "苹果的AI功能偏向系统级集成，Dreambeans更专注于内容创作和叙事体验"
+          },
+          {
+            "name": "Rewind AI",
+            "url": "https://www.rewind.ai",
+            "comparison": "Rewind记录屏幕和音频，Dreambeans则将数据转化为叙事内容，前者偏工具后者偏体验"
+          }
+        ]
+      }
+    },
+    {
+      "id": "shunbox.app",
+      "name": "Shunbox",
+      "slug": "shunbox",
+      "description": "AI驱动的智能邮件分拣管理工具，专为Gmail用户设计。通过对话式设置自动构建邮件分类规则，提供紧急度评分、AI草稿建议和零留存隐私保护。",
+      "url": "https://www.shunbox.app/",
+      "homepage": "https://www.shunbox.app/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI邮件管理",
+        "智能分拣",
+        "隐私保护",
+        "Gmail",
+        "效率工具"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=48439105",
+      "firstSeen": "2026-06-08T07:00:10.907582+00:00",
+      "analysis": {
+        "targetAudience": "邮件过载的Gmail用户，尤其是需要高效处理大量邮件的知识工作者、自由职业者和小团队管理者",
+        "useCases": [
+          "自动将邮件按紧急度和类型分拣到不同优先级通道",
+          "获取每封邮件的紧急度评分和建议处理时间线",
+          "一键生成AI回复草稿，减少回复时间",
+          "零留存设计确保邮件内容不被永久存储，保护隐私"
+        ],
+        "designIntent": "Shunbox的零留存理念是对当前AI邮件工具的一次反思——大多数工具会存储和学习用户邮件数据，而Shunbox选择在分拣完成后立即删除内容，用对话式交互替代传统表单设置，降低使用门槛。",
+        "problemSolved": "邮件过载是现代知识工作者的普遍痛点，传统邮件客户端的过滤规则设置复杂且不够智能。Shunbox通过AI对话式设置和智能分拣，让用户在打开收件箱前就已完成邮件分类和优先级排序。",
+        "tags": [
+          "AI邮件管理",
+          "智能分拣",
+          "隐私保护",
+          "Gmail",
+          "效率工具"
+        ],
+        "score": 8,
+        "scoreReason": "零留存隐私设计是一大亮点，对话式设置大幅降低了使用门槛。但目前仅支持Gmail，且AI分拣准确度有待实际验证。作为Hacker News上的Show HN项目，成熟度还需观察。",
+        "competitors": [
+          {
+            "name": "Superhuman",
+            "url": "https://superhuman.com",
+            "comparison": "Superhuman是成熟的AI邮件客户端，功能全面但采用订阅制且不强调隐私；Shunbox更轻量且零留存"
+          },
+          {
+            "name": "SaneBox",
+            "url": "https://www.sanebox.com",
+            "comparison": "SaneBox提供AI邮件分拣但会存储用户数据用于训练；Shunbox的零留存设计在隐私方面更有优势"
+          },
+          {
+            "name": "Spark Mail",
+            "url": "https://sparkmailapp.com",
+            "comparison": "Spark是全功能邮件客户端，AI功能偏向回复建议；Shunbox专注于分拣这一核心痛点"
+          }
+        ]
+      }
+    },
+    {
+      "id": "audiotap.app",
+      "name": "AudioTap",
+      "slug": "audiotap",
+      "description": "macOS原生通话录音应用，通过ScreenCaptureKit捕获系统音频，使用WhisperKit和WeSpeaker进行本地AI转写和说话人识别，仅支持Apple Silicon。",
+      "url": "https://audiotap.app/",
+      "homepage": "https://audiotap.app/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "通话录音",
+        "本地AI转写",
+        "Mac应用",
+        "隐私保护",
+        "会议记录"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=48437758",
+      "firstSeen": "2026-06-08T07:00:10.907582+00:00",
+      "analysis": {
+        "targetAudience": "经常参加线上会议的Mac用户，尤其是非母语英语使用者需要理解不同口音和语速的职场人士",
+        "useCases": [
+          "录制Zoom/Teams/Google Meet等视频会议并自动转写",
+          "通过说话人识别区分不同发言者，方便后续回顾",
+          "非母语者回放会议录音，反复确认关键信息",
+          "本地处理确保敏感会议内容不上传云端"
+        ],
+        "designIntent": "开发者作为非英语母语者，在工作会议中经常难以理解不同口音和语速。AudioTap的设计初衷是让这类用户能够录制会议、本地转写并区分说话人，无需依赖云端服务，既保护隐私又支持离线使用。",
+        "problemSolved": "线上会议中非母语者常因口音和语速问题遗漏关键信息，而现有的会议转录工具大多需要云端处理，存在隐私风险和网络依赖。AudioTap通过Apple Silicon本地运行AI模型，同时解决隐私和可用性问题。",
+        "tags": [
+          "通话录音",
+          "本地AI转写",
+          "Mac应用",
+          "隐私保护",
+          "会议记录"
+        ],
+        "score": 8,
+        "scoreReason": "本地AI转写+说话人识别的组合在隐私和功能上都很出色，ScreenCaptureKit的系统级音频捕获方式也很优雅。但仅支持Apple Silicon限制了受众，且目前仅在HN上发布，产品成熟度待验证。",
+        "competitors": [
+          {
+            "name": "Otter.ai",
+            "url": "https://otter.ai",
+            "comparison": "Otter是云端会议转录的领导者，功能全面但数据存储在云端；AudioTap完全本地处理，隐私性更强"
+          },
+          {
+            "name": "MacWhisper",
+            "url": "https://macwhisper.com",
+            "comparison": "MacWhisper专注通用语音转文字，AudioTap则专门针对通话场景优化，支持系统音频捕获和说话人识别"
+          },
+          {
+            "name": "Fireflies.ai",
+            "url": "https://fireflies.ai",
+            "comparison": "Fireflies提供云端会议录制和AI分析，功能更丰富但依赖网络；AudioTap更轻量且完全离线"
+          }
+        ]
+      }
+    },
+    {
+      "id": "github.com/hanxiao/omni-macos",
+      "name": "Omni",
+      "slug": "omni-macos",
+      "description": "macOS本地多模态语义搜索工具，由Han Xiao开发。支持文本、代码、PDF、图片、音频、视频的跨模态搜索，完全离线运行，无需联网。",
+      "url": "https://hanxiao.io/omni/",
+      "homepage": "https://hanxiao.io/omni/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "本地搜索",
+        "多模态",
+        "语义搜索",
+        "Mac应用",
+        "隐私优先"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=48437701",
+      "firstSeen": "2026-06-08T07:00:10.907582+00:00",
+      "analysis": {
+        "targetAudience": "拥有大量本地文件的Mac用户，包括开发者、研究人员、内容创作者，注重隐私且需要跨文件类型搜索",
+        "useCases": [
+          "用自然语言搜索本地所有文件，包括文字、图片、代码、PDF等",
+          "通过语义理解找到相关文件，即使关键词不完全匹配",
+          "搜索图片中的文字内容或视频中的场景",
+          "完全离线使用，确保敏感文件不被上传到任何服务器"
+        ],
+        "designIntent": "Omni的设计理念是将所有文件类型放入一个统一的向量空间，用户可以用自然语言进行跨模态搜索。开发者Han Xiao（Jina AI创始人）将其定位为100%本地运行的搜索引擎，强调隐私和离线能力。",
+        "problemSolved": "macOS自带的Spotlight搜索基于关键词匹配，无法理解语义，且不支持图片/视频内容搜索。Omni通过本地AI模型实现语义理解和跨模态搜索，让用户能用自然语言找到任何类型的本地文件。",
+        "tags": [
+          "本地搜索",
+          "多模态",
+          "语义搜索",
+          "Mac应用",
+          "隐私优先"
+        ],
+        "score": 8,
+        "scoreReason": "跨模态语义搜索+完全本地运行的组合非常有吸引力，Han Xiao的技术背景也增加了可信度。但本地AI模型对硬件要求较高，搜索质量依赖模型能力，且目前仅支持macOS。",
+        "competitors": [
+          {
+            "name": "macOS Spotlight",
+            "url": "https://support.apple.com/guide/mac-help/search-mac-mh40585/mac",
+            "comparison": "Spotlight是系统自带搜索，基于关键词匹配，不支持语义搜索和跨模态搜索；Omni的AI能力远超Spotlight"
+          },
+          {
+            "name": "Recoll",
+            "url": "https://www.lesbonscomptes.com/recoll/",
+            "comparison": "Recoll是开源的本地全文搜索工具，但不支持AI语义搜索和多模态搜索；Omni更现代且功能更强"
+          },
+          {
+            "name": "DEVONthink",
+            "url": "https://www.devontechnologies.com/products/devonthink",
+            "comparison": "DEVONthink是知识管理工具，有AI分类功能但不是搜索引擎；Omni专注于搜索这一核心功能"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nailtherole.com",
+      "name": "NailTheRole",
+      "slug": "nailtherole",
+      "description": "AI简历定制生成器。通过对话式建档建立个人经历库，然后针对每个岗位描述一键生成高度定制化的简历PDF，支持中英文双语。",
+      "url": "https://nailtherole.com",
+      "homepage": "https://nailtherole.com",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI简历",
+        "求职工具",
+        "个性化生成",
+        "双语支持",
+        "按需付费"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=48440860",
+      "firstSeen": "2026-06-08T07:00:10.907582+00:00",
+      "analysis": {
+        "targetAudience": "正在求职的专业人士，尤其是需要针对不同岗位定制简历的海投者和跨行业求职者",
+        "useCases": [
+          "通过对话建立完整的个人经历档案，无需填写繁琐表单",
+          "针对每个目标岗位一键生成高度定制化的简历",
+          "中英文双语简历生成，支持国际化求职",
+          "批量生成多份简历，大幅提升海投效率"
+        ],
+        "designIntent": "传统简历制作要么用通用模板不够针对性，要么每次手动调整太耗时。NailTheRole用对话式建档替代表单填写，用AI智能匹配JD与经历，让每份简历都针对具体岗位量身定制。",
+        "problemSolved": "求职者面对大量岗位时，为每个岗位手动调整简历既耗时又容易遗漏关键匹配点。NailTheRole通过AI自动分析JD并重组简历内容，让求职者能高效地为每个岗位生成最佳匹配的简历。",
+        "tags": [
+          "AI简历",
+          "求职工具",
+          "个性化生成",
+          "双语支持",
+          "按需付费"
+        ],
+        "score": 8,
+        "scoreReason": "对话式建档和AI智能匹配的设计很实用，按需付费模式对海投者友好。但AI生成的简历质量取决于模型能力和用户输入的完整度，且缺乏ATS兼容性验证功能。",
+        "competitors": [
+          {
+            "name": "Teal",
+            "url": "https://www.tealhq.com",
+            "comparison": "Teal提供简历追踪和优化功能，但AI定制化程度不如NailTheRole；NailTheRole更专注于一键生成"
+          },
+          {
+            "name": "Kickresume",
+            "url": "https://kickresume.com",
+            "comparison": "Kickresume有AI简历写作功能，但采用订阅制；NailTheRole的按需付费模式更灵活"
+          },
+          {
+            "name": "Resume.io",
+            "url": "https://resume.io",
+            "comparison": "Resume.io是传统简历模板工具，AI功能有限；NailTheRole的对话式建档和JD智能匹配是核心差异化"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -54,8 +54,27 @@
 
 ---
 
+### 2026-06-08
+- **执行结果**：成功完成深度分析
+- **选中产品**：Treasury - AI 个人理财助手（从 62 个候选中选出，评分 9）
+- **选择理由**：前微软工程师 Junead Khan 放弃$22万年薪创业，AI-native 理财应用，Mint 关闭后的市场空白，App Store 5.0 评分，定价$7.92/月（最低档），AI 记忆与上下文是独有功能
+- **深度报告**：已保存至 `reports/weekly/2026-06-08.json`
+- **关键发现**：
+  - 创始人 Junead Khan：前微软软件工程师（2年），北卡教堂山分校毕业，曾任职谷歌、摩根大通
+  - 辞职创业视频在社交媒体走红，被 Moneycontrol、IndianStartupNews 等媒体报道
+  - 产品2025年10月 Product Hunt 首发，12月 iOS 上线
+  - AI 记忆与上下文、AI 自动分类是唯一独有功能（竞品均不具备）
+  - 定价$7.92/月（$95/年）与 Copilot 并列最低，但 AI 功能远超竞品
+  - 12000+ 银行连接，256-bit 加密，只读访问
+  - 个人理财应用市场 2026 年预计 $165-207 亿，CAGR 20-25%
+- **部署状态**：已标记 featuredInWeekly，已推送到 GitHub Pages
+- **GitHub Pages**：https://ai-daily.asdasd.vip
+
+---
+
 ## 技术注意事项
 
 1. **环境问题**：必须用 `SHELL=/bin/bash` + `/opt/homebrew/bin/python3` 和 `/opt/homebrew/bin/git` 绕过 zsh GVM 钩子
 2. **数据结构**：products.json 中 `products` 数组包含所有产品，`metrics.featuredInDaily`/`metrics.featuredInWeekly` 在嵌套 metrics 对象中，`analysis.score` 在 analysis 对象中
 3. **候选筛选**：`metrics.featuredInDaily` + 非 `metrics.featuredInWeekly` + `analysis.score > 0`
+4. **产品名匹配**：产品名称可能包含描述后缀（如 "Treasury - AI 个人理财助手"），匹配时用 URL 或 slug 更可靠
