@@ -1,5 +1,23 @@
 # 自动化执行历史 - AI产品雷达-每日抓取
 
+## 2026-06-08 12:00
+
+- **状态**：✅ 成功
+- **抓取数**：80 个候选产品（HN 30 + Product Hunt 50，Reddit/Twitter/V2EX SSL 错误）
+- **去重后**：80 个（73 个数据库冷却期内产品均未命中候选）
+- **过滤后**：精选 5 个面向用户的产品（HN 以 Show HN 开发项目为主，PH 贡献较多 AI 产品）
+- **精选 TOP 5**：
+  1. Dreambeans by Google Labs — AI 个性化每日故事（评分 9）
+  2. Shunbox — AI 智能邮件分拣管理（评分 8）
+  3. AudioTap — macOS 通话录音+本地 AI 转写（评分 8）
+  4. Omni — macOS 本地多模态语义搜索（评分 8）
+  5. NailTheRole — AI 简历定制生成器（评分 8）
+- **截图**：webshot.site 返回 HTTP 530，截图跳过
+- **部署**：main + gh-pages 推送成功
+- **踩坑**：Reddit/Twitter/V2EX 三个渠道均因 SSL 错误无法抓取，仅获取到 HN + PH
+
+---
+
 ## 2026-06-07 12:00
 
 - **状态**：✅ 成功

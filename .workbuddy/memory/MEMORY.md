@@ -65,7 +65,7 @@ LLM_MODEL=gpt-4o-mini
 ## 已知问题
 
 - **product_id 自动去重失效**：raw-candidates 的 `product_id`（如 `producthunt.com/r/p/1154630`）与数据库 `products[].id`（如简短 slug）格式不一致，导致基于 product_id 的自动去重始终为 0。当前解决方案：执行流程中增加 LLM 分析阶段手动检查近期报告中的精选产品，排除已推荐的项目。(2026-05-28)
-- **Reddit 渠道抓取为 0**：2026-05-29 Reddit 渠道返回 0 条结果，可能与 Reddit API 限流或 RSS 源变更有关。(2026-05-29)
+- **Reddit JSON API 已被禁止**：Reddit 对未认证请求返回 403 HTML。解决方案：改用 RSS feed（`.rss`）解析，已修复并验证可用。(2026-06-08)
 - **PH 页面 Cloudflare 保护**：Product Hunt 详情页被 Cloudflare 保护，无法通过 WebFetch 直接抓取。URL 验证改为通过搜索引擎查找产品官网。(2026-05-29)
 - **gh-pages subtree split 失败**：`subtree split` 后 `push origin gh-pages` 报 "not an ancestor" 错误。解决方案：改用 `git push origin $(subtree split --prefix=docs):gh-pages --force` 一步完成。(2026-05-30)
 - **字段路径纠正**：自动任务脚本中 `recommendedInDaily` 实际字段为 `metrics.featuredInDaily`，`featuredInWeekly` 为 `metrics.featuredInWeekly`。评分字段为 `analysis.score`。(2026-06-02)

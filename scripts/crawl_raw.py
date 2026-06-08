@@ -11,6 +11,7 @@ import os
 import re
 import subprocess
 import sys
+import xml.etree.ElementTree as ET
 import requests
 from datetime import datetime
 from pathlib import Path
@@ -103,34 +104,54 @@ def fetch_hackernews():
 
 
 def fetch_reddit():
-    """Reddit - 通过公开 JSON API"""
+    """Reddit - 通过 RSS Feed（JSON API 已被 Reddit 禁止）"""
     print("  🟠 Reddit...")
     products = []
     subreddits = ["SideProject", "SaaS", "startups", "IndieApps"]
     try:
         for sub in subreddits:
-            url = f"https://www.reddit.com/r/{sub}/new.json?limit=15"
+            url = f"https://www.reddit.com/r/{sub}/new/.rss?limit=15"
             resp = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=15)
             if resp.status_code != 200:
                 continue
-            for child in resp.json().get("data", {}).get("children", []):
-                post = child.get("data", {})
-                title = post.get("title", "")
-                selftext = (post.get("selftext") or "")[:500]
-                post_url = post.get("url", "")
-                permalink = f"https://reddit.com{post.get('permalink', '')}"
-                # 优先用外部链接，否则用帖子链接
-                link = post_url if post_url and "reddit.com" not in post_url else permalink
+            # Parse Atom XML
+            root = ET.fromstring(resp.content)
+            ns = {"atom": "http://www.w3.org/2005/Atom"}
+            for entry in root.findall("atom:entry", ns):
+                title_el = entry.find("atom:title", ns)
+                title = title_el.text.strip() if title_el is not None and title_el.text else ""
+                # id is like "reddit.com/r/SideProject/abc123/..."
+                id_el = entry.find("atom:id", ns)
+                post_id = id_el.text.strip().split("/")[-1] if id_el is not None and id_el.text else ""
+                # link: try to find external link, fallback to Reddit permalink
+                links = entry.findall("atom:link", ns)
+                permalink = ""
+                external_url = ""
+                for link in links:
+                    href = link.get("href", "")
+                    if "/comments/" in href and not external_url:
+                        permalink = href
+                    elif "reddit.com" not in href and href.startswith("http"):
+                        external_url = href
+                # content: sometimes contains the post body
+                content_el = entry.find("atom:content", ns)
+                content = ""
+                if content_el is not None and content_el.text:
+                    content = re.sub(r"<[^>]+>", "", content_el.text)[:500]
+                # published
+                pub_el = entry.find("atom:published", ns)
+                published = pub_el.text if pub_el is not None and pub_el.text else ""
+                link = external_url if external_url else permalink
                 products.append({
-                    "id": f"reddit_{post.get('id', '')}",
+                    "id": f"reddit_{post_id}",
                     "name": title,
-                    "description": selftext,
+                    "description": content,
                     "url": link,
                     "source_url": permalink,
-                    "score": post.get("score", 0),
+                    "score": 0,  # RSS 不提供 score
                     "source": "reddit",
                     "subreddit": sub,
-                    "timestamp": datetime.fromtimestamp(post.get("created_utc", 0)).isoformat(),
+                    "timestamp": published,
                 })
         print(f"     {len(products)} 个")
     except Exception as e:
