@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-06-08T07:00:10.907582+00:00",
+  "lastUpdated": "2026-06-10T13:00:07.255915",
   "products": [
     {
       "id": "dafa9686fbe1",
@@ -9506,6 +9506,420 @@
       "screenshotUrl": "assets/screenshots/unknown_20260608_153010.png",
       "appStoreScreenshots": [],
       "rawData": {}
+    },
+    {
+      "id": "producthunt.com/r/p/1167099",
+      "name": "Kimi Work",
+      "slug": "kimi-work",
+      "description": "The AI desktop for knowledge work。知识工作者，包括金融分析师、研究人员、数据处理者和办公自动化需求者。将 AI 从对话式问答升级为可执行任务的桌面智能体，让 AI 成为能直接操作文件、浏览器与代码的数字员工，提升知识工作的效率与连续性。",
+      "url": "https://www.kimi.com/zh-cn/products/kimi-work",
+      "homepage": "https://www.kimi.com/zh-cn/products/kimi-work",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "AI 桌面应用",
+        "知识工作",
+        "自动化",
+        "金融数据",
+        "多智能体协作"
+      ],
+      "firstSeen": "2026-06-10T13:00:07.255915",
+      "lastSeen": "2026-06-10T13:00:07.255915",
+      "cooldownExpiresAt": "2026-06-24T13:00:07.255915",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-06-10T13:00:07.255915",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/products/kimi-ai-assistant",
+          "title": "Kimi Work"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "知识工作者，包括金融分析师、研究人员、数据处理者和办公自动化需求者",
+        "useCases": [
+          "文档批量处理与自动摘要生成",
+          "定时信息监控与行业简报生成",
+          "在线数据抓取与网站自动化",
+          "自动化报告生成（PPT/Excel）",
+          "金融实时分析与财报调取"
+        ],
+        "designIntent": "将 AI 从对话式问答升级为可执行任务的桌面智能体，让 AI 成为能直接操作文件、浏览器与代码的数字员工，提升知识工作的效率与连续性。",
+        "problemSolved": "解决传统知识工作中效率瓶颈、工具分散、数据访问繁琐、工作连续性中断等问题，通过本地化、自动化与全天候运行，减少重复操作，加速决策与创作流程。",
+        "tags": [
+          "AI 桌面应用",
+          "知识工作",
+          "自动化",
+          "金融数据",
+          "多智能体协作"
+        ],
+        "score": 9,
+        "scoreReason": "Kimi Work 是一个功能强大的 AI 桌面工作台，集成了本地文件操作、浏览器自动化、定时任务、多智能体协作和金融数据，覆盖了知识工作者的多个核心场景，具有很高的实用价值。",
+        "competitors": [
+          {
+            "name": "Notion AI",
+            "url": "https://www.notion.so/",
+            "comparison": "Notion AI 侧重于笔记和文档协作，而 Kimi Work 更强调桌面级自动化与金融数据集成"
+          },
+          {
+            "name": "Microsoft Copilot",
+            "url": "https://copilot.microsoft.com/",
+            "comparison": "Copilot 集成在 Office 生态中，Kimi Work 更专注于本地文件操作和浏览器自动化"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/unknown_20260610_125848.png",
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "producthunt.com/r/p/1167099",
+        "name": "Kimi Work",
+        "url": "https://www.kimi.com/zh-cn/products/kimi-work",
+        "source": "producthunt",
+        "source_url": "https://www.producthunt.com/products/kimi-ai-assistant"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1055677",
+      "name": "TravelMind",
+      "slug": "travelmind",
+      "description": "AI-powered city discovery built on taste, not reviews。旅行者和本地居民，尤其是面对信息过载和决策疲劳的用户。颠覆传统依赖用户评分和评论的旅行推荐模式，通过理解用户的个人口味与偏好来生成推荐，成为用户的私人旅行顾问。",
+      "url": "https://travelmindapp.com/",
+      "homepage": "https://travelmindapp.com/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "AI 旅行",
+        "个性化推荐",
+        "城市发现",
+        "口味匹配",
+        "旅行规划"
+      ],
+      "firstSeen": "2026-06-10T13:00:07.255915",
+      "lastSeen": "2026-06-10T13:00:07.255915",
+      "cooldownExpiresAt": "2026-06-24T13:00:07.255915",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-06-10T13:00:07.255915",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/products/travelmind-city-discovery-reimagined",
+          "title": "TravelMind"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "旅行者和本地居民，尤其是面对信息过载和决策疲劳的用户",
+        "useCases": [
+          "陌生城市快速获取个性化推荐",
+          "本地居民探索城市中未被发现的小众去处",
+          "旅行规划时获取符合个人口味的短名单",
+          "避免千篇一律的旅游推荐"
+        ],
+        "designIntent": "颠覆传统依赖用户评分和评论的旅行推荐模式，通过理解用户的个人口味与偏好来生成推荐，成为用户的私人旅行顾问。",
+        "problemSolved": "解决旅行规划中的信息过载、决策疲劳、同质化推荐和虚假评论影响等问题，提供更可靠、更个性化的推荐依据。",
+        "tags": [
+          "AI 旅行",
+          "个性化推荐",
+          "城市发现",
+          "口味匹配",
+          "旅行规划"
+        ],
+        "score": 8,
+        "scoreReason": "TravelMind 创新性地将口味匹配应用于旅行推荐，避免了传统评分系统的同质化问题，为用户提供更个性化的城市发现体验。",
+        "competitors": [
+          {
+            "name": "TripAdvisor",
+            "url": "https://www.tripadvisor.com/",
+            "comparison": "TripAdvisor 依赖大众评分，TravelMind 基于个人口味生成推荐"
+          },
+          {
+            "name": "Google Maps",
+            "url": "https://maps.google.com/",
+            "comparison": "Google Maps 提供通用信息，TravelMind 提供个性化口味匹配推荐"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/unknown_20260610_125858.png",
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "producthunt.com/r/p/1055677",
+        "name": "TravelMind",
+        "url": "https://travelmindapp.com/",
+        "source": "producthunt",
+        "source_url": "https://www.producthunt.com/products/travelmind-city-discovery-reimagined"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1165382",
+      "name": "Signal Recorder SR-7",
+      "slug": "signal-recorder-sr-7",
+      "description": "On-device voice recorder that transcribes + exports Markdown。思考者、作家、内容创作者和知识工作者，特别是使用 Markdown 和个人知识管理系统的用户。提供一个近乎模拟的纯净工作流程，在 AI 时代重拾“仅仅记录你的想法”的实践，为用户创造一个安静的空间来捕捉和整理想法。",
+      "url": "https://fieldbw.com/sr-7",
+      "homepage": "https://fieldbw.com/sr-7",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "语音录音",
+        "本地转录",
+        "Markdown",
+        "隐私优先",
+        "Apple 生态"
+      ],
+      "firstSeen": "2026-06-10T13:00:07.255915",
+      "lastSeen": "2026-06-10T13:00:07.255915",
+      "cooldownExpiresAt": "2026-06-24T13:00:07.255915",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-06-10T13:00:07.255915",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/products/signal-recorder-sr-7",
+          "title": "Signal Recorder SR-7"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "思考者、作家、内容创作者和知识工作者，特别是使用 Markdown 和个人知识管理系统的用户",
+        "useCases": [
+          "随时录制想法、会议对话和观察笔记",
+          "将录音自动转化为可搜索的 Markdown 文本",
+          "通过本地 MCP 服务器让 AI 工具分析录音内容",
+          "跨设备同步录音和转录文本",
+          "与 Obsidian 等知识管理工具集成"
+        ],
+        "designIntent": "提供一个近乎模拟的纯净工作流程，在 AI 时代重拾“仅仅记录你的想法”的实践，为用户创造一个安静的空间来捕捉和整理想法。",
+        "problemSolved": "解决传统录音工具的隐私担忧、网络依赖、文件格式不通用、跨设备同步复杂和与 AI 工具集成困难等问题。",
+        "tags": [
+          "语音录音",
+          "本地转录",
+          "Markdown",
+          "隐私优先",
+          "Apple 生态"
+        ],
+        "score": 8,
+        "scoreReason": "Signal Recorder SR-7 专注于本地优先、隐私至上，深度整合 Apple 生态与 Markdown 工作流，为知识工作者提供了一个纯净、高效的想法捕捉系统。",
+        "competitors": [
+          {
+            "name": "Otter.ai",
+            "url": "https://otter.ai/",
+            "comparison": "Otter.ai 依赖云端处理，SR-7 完全本地化，隐私性更强"
+          },
+          {
+            "name": "Apple Voice Memos",
+            "url": "https://www.apple.com/voice-memos/",
+            "comparison": "Voice Memos 功能简单，SR-7 提供 AI 摘要、Markdown 导出和本地 MCP 服务器"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/unknown_20260610_125907.png",
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "producthunt.com/r/p/1165382",
+        "name": "Signal Recorder SR-7",
+        "url": "https://fieldbw.com/sr-7",
+        "source": "producthunt",
+        "source_url": "https://www.producthunt.com/products/signal-recorder-sr-7"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1164399",
+      "name": "Reve 2.0",
+      "slug": "reve-20",
+      "description": "Generate and edit 4K images through layout-based control。创意专业人士、平面设计师、内容创作者和寻求人机协作创作的用户。为生成式AI提供一种可控、可配置的创作方式，通过分离规划与渲染的架构，将图像重新定义为可编程的代码，实现前所未有的可控性和创作参与度。",
+      "url": "https://app.reve.com/",
+      "homepage": "https://app.reve.com/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "AI 图像生成",
+        "4K 分辨率",
+        "布局控制",
+        "人机协作",
+        "创意设计"
+      ],
+      "firstSeen": "2026-06-10T13:00:07.255915",
+      "lastSeen": "2026-06-10T13:00:07.255915",
+      "cooldownExpiresAt": "2026-06-24T13:00:07.255915",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-06-10T13:00:07.255915",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/products/reve-2-0",
+          "title": "Reve 2.0"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "创意专业人士、平面设计师、内容创作者和寻求人机协作创作的用户",
+        "useCases": [
+          "数字艺术创作与迭代设计",
+          "高质量平面设计（海报、包装等）",
+          "印刷媒体生产（原生 4K 分辨率）",
+          "人机协作项目（AI 代理辅助创作）",
+          "复杂场景构建（精确布局控制）"
+        ],
+        "designIntent": "为生成式AI提供一种可控、可配置的创作方式，通过分离规划与渲染的架构，将图像重新定义为可编程的代码，实现前所未有的可控性和创作参与度。",
+        "problemSolved": "解决现有AI图像生成模型不可控、迭代创作质量衰减、高分辨率放大问题、文字渲染不精确和创作工作流割裂等问题。",
+        "tags": [
+          "AI 图像生成",
+          "4K 分辨率",
+          "布局控制",
+          "人机协作",
+          "创意设计"
+        ],
+        "score": 9,
+        "scoreReason": "Reve 2.0 通过创新的“图像即代码”理念和分离规划与渲染的架构，提供了前所未有的可控性和高质量迭代能力，是AI图像生成领域的重要突破。",
+        "competitors": [
+          {
+            "name": "Midjourney",
+            "url": "https://www.midjourney.com/",
+            "comparison": "Midjourney 侧重美学但可控性有限，Reve 2.0 提供精确的布局和文字控制"
+          },
+          {
+            "name": "DALL-E 3",
+            "url": "https://openai.com/dall-e-3",
+            "comparison": "DALL-E 3 易用但迭代质量衰减，Reve 2.0 支持无损迭代编辑"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/unknown_20260610_125913.png",
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "producthunt.com/r/p/1164399",
+        "name": "Reve 2.0",
+        "url": "https://app.reve.com/",
+        "source": "producthunt",
+        "source_url": "https://www.producthunt.com/products/reve-2-0"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1164142",
+      "name": "BooBar",
+      "slug": "boobar",
+      "description": "AI Dynamic Island for your Mac。需要高效管理数字工作流的 Mac 用户，包括开发者、知识工作者和内容创作者。为 Mac 用户提供一个不打断当前工作流程的、集中且平静的信息入口，将各种动态以“AI Dynamic Island”的形式统一收纳在菜单栏。",
+      "url": "https://boobar.app/",
+      "homepage": "https://boobar.app/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "Mac 工具",
+        "AI 动态岛",
+        "文件管理",
+        "工作流优化",
+        "本地优先"
+      ],
+      "firstSeen": "2026-06-10T13:00:07.255915",
+      "lastSeen": "2026-06-10T13:00:07.255915",
+      "cooldownExpiresAt": "2026-06-24T13:00:07.255915",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-06-10T13:00:07.255915",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/products/boobar",
+          "title": "BooBar"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "需要高效管理数字工作流的 Mac 用户，包括开发者、知识工作者和内容创作者",
+        "useCases": [
+          "下载与文件状态监控",
+          "信息收集与智能笔记创建",
+          "编码任务状态跟踪",
+          "邮件验证码自动捕获",
+          "自然语言文件检索"
+        ],
+        "designIntent": "为 Mac 用户提供一个不打断当前工作流程的、集中且平静的信息入口，将各种动态以“AI Dynamic Island”的形式统一收纳在菜单栏。",
+        "problemSolved": "解决 Mac 上工作流频繁中断、信息分散管理困难、文件组织负担重和任务状态跟踪不便等问题。",
+        "tags": [
+          "Mac 工具",
+          "AI 动态岛",
+          "文件管理",
+          "工作流优化",
+          "本地优先"
+        ],
+        "score": 8,
+        "scoreReason": "BooBar 创新性地将 AI 动态岛概念引入 Mac 菜单栏，有效解决了工作流中断和信息分散问题，为用户提供了一个平静、高效的信息管理入口。",
+        "competitors": [
+          {
+            "name": "Dropzone",
+            "url": "https://aptonic.com/",
+            "comparison": "Dropzone 是文件拖放工具，BooBar 提供 AI 驱动的智能监控和笔记功能"
+          },
+          {
+            "name": "BetterTouchTool",
+            "url": "https://folivora.ai/",
+            "comparison": "BetterTouchTool 侧重手势和快捷键，BooBar 专注于 AI 驱动的文件和任务监控"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/unknown_20260610_125920.png",
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "producthunt.com/r/p/1164142",
+        "name": "BooBar",
+        "url": "https://boobar.app/",
+        "source": "producthunt",
+        "source_url": "https://www.producthunt.com/products/boobar"
+      }
     }
   ],
   "tracking": {
