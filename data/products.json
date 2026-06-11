@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-06-10T13:00:07.255915",
+  "lastUpdated": "2026-06-11T03:58:52.006594+00:00",
   "products": [
     {
       "id": "dafa9686fbe1",
@@ -9920,6 +9920,346 @@
         "source": "producthunt",
         "source_url": "https://www.producthunt.com/products/boobar"
       }
+    },
+    {
+      "id": "producthunt.com/r/p/1166177",
+      "name": "Napkin Math",
+      "slug": "napkin-math",
+      "description": "个性化 AI 饮食日记与营养教练，帮你理解长期饮食习惯，告别卡路里焦虑",
+      "url": "https://napkinmath.club/",
+      "homepage": "https://napkinmath.club/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "AI 营养",
+        "饮食日记",
+        "健康管理",
+        "个性化分析"
+      ],
+      "firstSeen": "2026-06-11T03:58:52.006594+00:00",
+      "lastSeen": "2026-06-11T03:58:52.006594+00:00",
+      "cooldownExpiresAt": "2026-06-25T03:58:52.006594+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-06-11T03:58:52.006594+00:00",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/r/p/1166177?app_id=339",
+          "title": "Napkin Math"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "关注饮食健康但不想被卡路里数字绑架的普通人",
+        "useCases": [
+          "每日拍照记录饮食，AI 自动识别食物并分析营养",
+          "查看每周/每月饮食模式，发现潜在的营养不均衡",
+          "获得个性化的饮食建议，而非通用的健康方案",
+          "马拉松训练期间追踪营养摄入与体能需求的匹配度"
+        ],
+        "designIntent": "让饮食记录变得自然愉悦，而不是一种负担。通过 AI 理解你的饮食模式，而非简单地计算卡路里数字。",
+        "problemSolved": "传统饮食追踪 App 要求手动输入每餐食物和精确克数，使用门槛高且容易放弃。Napkin Math 用 AI 降低记录门槛，让使用者关注长期趋势而非单次数值。",
+        "score": 8,
+        "scoreReason": "YC 孵化项目，产品理念清晰——用趋势分析替代卡路里焦虑。AI 自动识别食物降低了使用门槛，适合长期坚持。但目前仅 iOS 平台，且营养建议的个性化深度有待验证。",
+        "competitors": [
+          {
+            "name": "MyFitnessPal",
+            "url": "https://www.myfitnesspal.com/",
+            "comparison": "传统卡路里计算工具，需要手动输入每种食物的克数，使用门槛高"
+          },
+          {
+            "name": "Lifesum",
+            "url": "https://lifesum.com/",
+            "comparison": "综合健康管理 App，功能全面但饮食记录仍偏传统，AI 个性化程度不足"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/unknown_20260611_115900.png",
+      "appStoreScreenshots": [],
+      "rawData": {}
+    },
+    {
+      "id": "producthunt.com/r/p/1167872",
+      "name": "Zingle",
+      "slug": "zingle",
+      "description": "AI 语境词汇学习工具，在真实故事和自定义内容中学习单词，告别死记硬背",
+      "url": "https://learnzingle.com/",
+      "homepage": "https://learnzingle.com/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "AI 语言学习",
+        "词汇记忆",
+        "阅读学习",
+        "个性化教育"
+      ],
+      "firstSeen": "2026-06-11T03:58:52.006594+00:00",
+      "lastSeen": "2026-06-11T03:58:52.006594+00:00",
+      "cooldownExpiresAt": "2026-06-25T03:58:52.006594+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-06-11T03:58:52.006594+00:00",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/r/p/1167872?app_id=339",
+          "title": "Zingle"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "正在学习外语（尤其是英语）的阅读爱好者和语言学习者",
+        "useCases": [
+          "阅读英文文章时，AI 自动标注适合你水平的生词并提供语境解释",
+          "导入自己感兴趣的阅读材料，AI 从中提取值得学习的词汇",
+          "通过语境理解而非死记硬背来记忆单词",
+          "追踪词汇学习进度，形成个性化的复习循环"
+        ],
+        "designIntent": "让词汇学习回归阅读本身——在真实语境中遇到、理解、记住单词，而非在单词表中机械重复。",
+        "problemSolved": "传统词汇 App（如百词斩、Quizlet）依赖孤立的单词卡片和重复测试，记忆效果差且枯燥。Zingle 让学习发生在自然阅读过程中，通过语境关联大幅提升记忆留存率。",
+        "score": 8,
+        "scoreReason": "语境学习是语言学界公认最高效的方法，Zingle 将其产品化做得很好。AI 根据用户水平动态调整词汇标注难度，真正实现了个性化。但目前仅支持英语学习，语种覆盖有限。",
+        "competitors": [
+          {
+            "name": "LingQ",
+            "url": "https://www.lingq.com/",
+            "comparison": "老牌阅读学习平台，支持多语种，但 AI 个性化程度和界面现代化不如 Zingle"
+          },
+          {
+            "name": "Readwise Reader",
+            "url": "https://readwise.io/read",
+            "comparison": "阅读管理工具，有高亮和笔记功能，但缺乏 AI 驱动的词汇学习闭环"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/unknown_20260611_115907.png",
+      "appStoreScreenshots": [],
+      "rawData": {}
+    },
+    {
+      "id": "producthunt.com/r/p/1168019",
+      "name": "Hero Studio Photos",
+      "slug": "hero-studio-photos",
+      "description": "拍一张照片，AI 自动生成电商级别的商品展示图，支持多角度和场景化呈现",
+      "url": "https://herostuff.com/",
+      "homepage": "https://herostuff.com/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "AI 产品摄影",
+        "电商工具",
+        "图片生成",
+        "二手交易"
+      ],
+      "firstSeen": "2026-06-11T03:58:52.006594+00:00",
+      "lastSeen": "2026-06-11T03:58:52.006594+00:00",
+      "cooldownExpiresAt": "2026-06-25T03:58:52.006594+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-06-11T03:58:52.006594+00:00",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/r/p/1168019?app_id=339",
+          "title": "Hero Studio Photos"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "在 eBay、闲鱼等平台出售闲置物品或经营小生意的个人卖家",
+        "useCases": [
+          "用手机随手拍一张商品照片，AI 生成专业级产品展示图",
+          "自动去除杂乱背景，生成白底或场景化的商品图",
+          "从一张照片生成多角度展示效果，提升商品吸引力",
+          "无需摄影设备和专业技能，降低商品拍照门槛"
+        ],
+        "designIntent": "让每个人都能拍出电商级的商品照片。一张手机随拍 = 一组专业展示图，大幅降低二手交易和小商家的产品摄影成本。",
+        "problemSolved": "普通用户出售闲置物品时，拍照质量直接影响成交率和价格。专业产品摄影成本高、流程复杂，Hero Studio 用 AI 将其简化为「拍一张」的动作。",
+        "score": 8,
+        "scoreReason": "精准切入电商卖家的真实痛点——商品拍照。一张照片生成多角度展示图的体验非常直观，对 eBay/闲鱼卖家有直接的经济价值。但生成质量是否稳定、是否支持所有品类有待验证。",
+        "competitors": [
+          {
+            "name": "Photoroom",
+            "url": "https://www.photoroom.com/",
+            "comparison": "AI 背景移除和产品图编辑工具，功能成熟但侧重背景处理，多角度生成能力弱"
+          },
+          {
+            "name": "Pixelcut",
+            "url": "https://www.pixelcut.ai/",
+            "comparison": "AI 电商图片编辑工具，支持背景移除和美化，但缺乏从单张照片生成多角度展示的能力"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/unknown_20260611_115914.png",
+      "appStoreScreenshots": [],
+      "rawData": {}
+    },
+    {
+      "id": "producthunt.com/r/p/1167299",
+      "name": "veridive",
+      "slug": "veridive",
+      "description": "AI 视频内容搜索引擎，通过对话找到 YouTube、播客、讲座中那关键的 30 秒",
+      "url": "https://veridive.com/",
+      "homepage": "https://veridive.com/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "AI 视频搜索",
+        "播客分析",
+        "知识检索",
+        "内容摘要"
+      ],
+      "firstSeen": "2026-06-11T03:58:52.006594+00:00",
+      "lastSeen": "2026-06-11T03:58:52.006594+00:00",
+      "cooldownExpiresAt": "2026-06-25T03:58:52.006594+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-06-11T03:58:52.006594+00:00",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/r/p/1167299?app_id=339",
+          "title": "veridive"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "需要从长视频/播客中快速获取信息的研究者、学生和内容消费者",
+        "useCases": [
+          "输入问题，从 YouTube 视频中精确定位回答该问题的片段（精确到秒）",
+          "听完一期播客后搜索某个话题的讨论位置，无需从头回放",
+          "从长篇讲座视频中快速找到核心观点和关键论据",
+          "对比多个视频源中对同一话题的不同观点"
+        ],
+        "designIntent": "视频和播客是信息密度最高的内容形式，但检索效率极低。veridive 让你可以像搜索文字一样搜索视频内容，并给出精确到秒的引用。",
+        "problemSolved": "面对 2 小时的播客或 1 小时的讲座，用户想知道「某个话题在哪讨论过」只能靠进度条盲找。veridive 通过 AI 语义理解将视频转化为可搜索的知识库。",
+        "score": 8,
+        "scoreReason": "「视频内容的 Google」这个定位非常有价值。精确到秒的引用式回答解决了长视频消费的核心痛点。但目前依赖转录质量，对非英语内容和口音重的视频支持可能有限。",
+        "competitors": [
+          {
+            "name": "Glasp",
+            "url": "https://glasp.co/",
+            "comparison": "YouTube 视频摘要和笔记工具，侧重高亮和社交分享，缺乏对话式深度检索能力"
+          },
+          {
+            "name": "NoteGPT",
+            "url": "https://notegpt.io/",
+            "comparison": "AI 视频笔记工具，支持 YouTube 摘要生成，但检索精度和引用能力不如 veridive"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/unknown_20260611_115923.png",
+      "appStoreScreenshots": [],
+      "rawData": {}
+    },
+    {
+      "id": "producthunt.com/r/p/1166698",
+      "name": "NudgeFile",
+      "slug": "nudgefile",
+      "description": "AI 文件自动整理工具，监控文件夹变化，自动分类、重命名和去重",
+      "url": "https://www.nudgefile.com/",
+      "homepage": "https://www.nudgefile.com/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "AI 文件管理",
+        "自动化",
+        "本地 AI",
+        "效率工具"
+      ],
+      "firstSeen": "2026-06-11T03:58:52.006594+00:00",
+      "lastSeen": "2026-06-11T03:58:52.006594+00:00",
+      "cooldownExpiresAt": "2026-06-25T03:58:52.006594+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-06-11T03:58:52.006594+00:00",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/r/p/1166698?app_id=339",
+          "title": "NudgeFile"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "文件混乱、下载文件夹堆积如山的 Windows 用户和数字极简主义者",
+        "useCases": [
+          "设置规则后自动监控下载文件夹，新文件按类型和内容自动归类到对应目录",
+          "AI 根据文件内容智能重命名，告别 IMG_20260611.jpg 式的无意义文件名",
+          "自动检测重复文件，释放磁盘空间",
+          "为不同项目文件夹设置不同的整理规则，实现工作流自动化"
+        ],
+        "designIntent": "文件整理是每个人都知道该做但总是拖延的事情。NudgeFile 用 AI 把这个过程完全自动化——你不需要手动整理，文件自己会找到正确的位置。",
+        "problemSolved": "下载文件夹堆积、文件命名混乱、重复文件占用空间是普遍的数字生活痛点。手动整理耗时且容易半途而废，NudgeFile 让文件管理变成「设置一次，永远自动」的事情。",
+        "score": 7,
+        "scoreReason": "文件自动整理是刚需场景，本地 AI 处理保护了隐私。但目前仅支持 Windows 平台，且 AI 重命名的准确性和规则配置的灵活性需要实际验证。",
+        "competitors": [
+          {
+            "name": "Hazel",
+            "url": "https://www.noodlesoft.com/",
+            "comparison": "macOS 经典文件整理工具，基于规则而非 AI，灵活但需要手动配置规则"
+          },
+          {
+            "name": "DropIt",
+            "url": "https://www.dropit.org/",
+            "comparison": "开源文件自动分类工具，功能实用但界面老旧，缺乏 AI 智能理解能力"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/unknown_20260611_115930.png",
+      "appStoreScreenshots": [],
+      "rawData": {}
     }
   ],
   "tracking": {

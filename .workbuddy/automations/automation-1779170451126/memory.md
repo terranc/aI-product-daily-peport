@@ -1,5 +1,23 @@
 # 自动化执行历史 - AI产品雷达-每日抓取
 
+## 2026-06-10 12:52
+
+- **状态**：✅ 成功
+- **抓取数**：230 个候选产品（Twitter 50 + V2EX 40 + HackerNews 30 + Reddit 60 + Product Hunt 50）
+- **去重后**：228 个（自动 product_id 去重命中 2 个：Dreambeans by Google Labs、Manus Shopify Connector）
+- **过滤后**：精选 5 个面向用户的产品（全部来自 Product Hunt，排除技术讨论帖、开发工具等）
+- **精选 TOP 5**：
+  1. Kimi Work — Kimi 桌面 AI 工作台（评分 9）
+  2. TravelMind — AI 口味匹配旅行推荐（评分 8）
+  3. Signal Recorder SR-7 — 本地语音录音+转写+Markdown（评分 8）
+  4. Reve 2.0 — AI 图像生成 4K 布局控制（评分 9）
+  5. BooBar — Mac AI 动态岛文件管理（评分 8）
+- **截图**：5 张网站截图全部成功
+- **部署**：main + gh-pages 推送成功
+- **踩坑**：无新增踩坑
+
+---
+
 ## 2026-06-08 12:00
 
 - **状态**：✅ 成功
