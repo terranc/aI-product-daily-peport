@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-06-11T03:58:52.006594+00:00",
+  "lastUpdated": "2026-06-12T04:00:20.149860+00:00",
   "products": [
     {
       "id": "dafa9686fbe1",
@@ -10258,6 +10258,351 @@
         "featuredInWeekly": false
       },
       "screenshotUrl": "assets/screenshots/unknown_20260611_115930.png",
+      "appStoreScreenshots": [],
+      "rawData": {}
+    },
+    {
+      "id": "producthunt.com/r/p/1167625",
+      "name": "Asmi AI",
+      "slug": "asmi-ai",
+      "description": "AI 真实世界代办助手，通过拨打电话帮用户完成现实世界中的个人事务，如预约、订餐、咨询等",
+      "url": "https://www.asmiai.com/",
+      "homepage": "https://www.asmiai.com/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "AI助手",
+        "语音交互",
+        "生活服务",
+        "自动化"
+      ],
+      "firstSeen": "2026-06-12T04:00:20.149860+00:00",
+      "lastSeen": "2026-06-12T04:00:20.149860+00:00",
+      "cooldownExpiresAt": "2026-06-26T04:00:20",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-06-12T04:00:20.149860+00:00",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/r/p/1167625?app_id=339",
+          "title": "Asmi AI"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "忙碌的职场人士和需要代办日常事务的普通用户",
+        "useCases": [
+          "代打电话预约餐厅、牙医等",
+          "代为咨询商家服务和价格",
+          "代为预约维修、家政等生活服务",
+          "处理跨国语言障碍的电话沟通",
+          "批量处理多项待办电话任务"
+        ],
+        "designIntent": "让 AI 像真人助理一样拨打电话处理现实世界事务，解决用户没时间或不方便亲自打电话的痛点。通过自然语言下达指令，AI 自动完成电话沟通。",
+        "problemSolved": "解决了现代人时间碎片化、不愿打电话处理琐事的问题。很多事务需要电话沟通但用户不愿花时间排队等候，Asmi 通过 AI 代拨电话让用户从繁琐的电话事务中解放出来。",
+        "score": 8,
+        "scoreReason": "将 AI 从数字世界延伸到真实世界的电话沟通场景，概念新颖且实用。目前主要覆盖英语电话场景，中文支持和覆盖范围有待验证。",
+        "competitors": [
+          {
+            "name": "Dola",
+            "url": "https://www.dola.me/",
+            "comparison": "Dola 通过日历集成管理日程，Asmi 直接拨打电话处理事务，更接近真人助理"
+          },
+          {
+            "name": "Fyxer.ai",
+            "url": "https://fyxer.ai/",
+            "comparison": "Fyxer 专注邮件和会议 AI 助手，Asmi 覆盖更广泛的真实世界电话任务"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/unknown_20260612_115842.png",
+      "appStoreScreenshots": [],
+      "rawData": {}
+    },
+    {
+      "id": "producthunt.com/r/p/1168301",
+      "name": "Airbrush Studio",
+      "slug": "airbrush-studio",
+      "description": "AI 驱动的桌面照片编辑器，无需手动调整即可获得专业级人像精修和照片增强效果",
+      "url": "https://airbrush.com/airbrush-studio",
+      "homepage": "https://airbrush.com/airbrush-studio",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "AI修图",
+        "照片编辑",
+        "人像精修",
+        "桌面应用"
+      ],
+      "firstSeen": "2026-06-12T04:00:20.149860+00:00",
+      "lastSeen": "2026-06-12T04:00:20.149860+00:00",
+      "cooldownExpiresAt": "2026-06-26T04:00:20",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-06-12T04:00:20.149860+00:00",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/r/p/1168301?app_id=339",
+          "title": "Airbrush Studio"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "摄影师、内容创作者和需要快速美化照片的普通用户",
+        "useCases": [
+          "人像照片一键精修和皮肤优化",
+          "产品照片背景清理和增强",
+          "批量处理大量照片的后期工作",
+          "去除照片中不需要的物体或人物",
+          "社交媒体素材快速美化"
+        ],
+        "designIntent": "将专业级照片编辑能力通过 AI 自动化，让不懂修图的用户也能获得摄影师级别的照片效果。支持 macOS 和 Windows 桌面端，本地处理保护隐私。",
+        "problemSolved": "传统照片编辑需要学习 Photoshop 等复杂工具的专业技能，Airbrush Studio 通过 AI 一键完成人像精修、皮肤优化、物体移除等操作，大幅降低了专业修图的门槛。",
+        "score": 8,
+        "scoreReason": "AI 照片编辑赛道竞争激烈但仍有空间，Airbrush Studio 的桌面端定位和本地处理是差异化优势。功能覆盖面广，从人像到产品照片都能处理。",
+        "competitors": [
+          {
+            "name": "Luminar Neo",
+            "url": "https://skylum.com/luminar-neo",
+            "comparison": "Luminar 是老牌 AI 修图工具，功能更全面但价格更高；Airbrush 更轻量易上手"
+          },
+          {
+            "name": "Remove.bg",
+            "url": "https://www.remove.bg/",
+            "comparison": "Remove.bg 专注背景移除，Airbrush Studio 提供更完整的人像精修和编辑功能"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/unknown_20260612_115850.png",
+      "appStoreScreenshots": [],
+      "rawData": {}
+    },
+    {
+      "id": "producthunt.com/r/p/1166749",
+      "name": "Juno",
+      "slug": "juno",
+      "description": "AI 慢性病健康伴侣，为 fibromyalgia、POTS、ME/CFS、子宫内膜异位症等慢性病患者提供症状追踪和早期预警",
+      "url": "https://apps.apple.com/us/app/juno-chronic-illness-support/id6749455368",
+      "homepage": "https://apps.apple.com/us/app/juno-chronic-illness-support/id6749455368",
+      "type": "app",
+      "appStoreName": "Juno: Chronic Illness Support",
+      "appStoreUrl": "https://apps.apple.com/us/app/juno-chronic-illness-support/id6749455368",
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "AI健康",
+        "慢性病管理",
+        "症状追踪",
+        "医疗AI"
+      ],
+      "firstSeen": "2026-06-12T04:00:20.149860+00:00",
+      "lastSeen": "2026-06-12T04:00:20.149860+00:00",
+      "cooldownExpiresAt": "2026-06-26T04:00:20",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-06-12T04:00:20.149860+00:00",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/r/p/1166749?app_id=339",
+          "title": "Juno"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "全球超过 10 亿慢性病患者，特别是纤维肌痛、POTS、ME/CFS 等复杂慢性病患者",
+        "useCases": [
+          "日常症状记录和追踪",
+          "慢性病发作（flare）早期预警",
+          "与 AI 对话描述症状获得理解和支持",
+          "生成症状报告辅助就医沟通",
+          "识别症状模式和触发因素"
+        ],
+        "designIntent": "为慢性病患者提供一个真正理解他们日常痛苦的 AI 伴侣。不同于通用健康 App，Juno 专注于慢性病这一被严重忽视的领域，通过 AI 理解和追踪复杂的症状模式。",
+        "problemSolved": "慢性病患者面临诊断难、日常管理复杂、就医时难以准确描述症状等问题。Juno 通过 AI 帮助患者轻松追踪症状、检测发作前兆、生成就医报告，让患者感到被理解和被支持。",
+        "score": 9,
+        "scoreReason": "精准切入全球 10 亿+ 慢性病患者的巨大市场，YC 背书，App Store 已上线。AI 在医疗健康领域的高价值应用，兼具社会意义和商业潜力。",
+        "competitors": [
+          {
+            "name": "Ada Health",
+            "url": "https://ada.com/",
+            "comparison": "Ada 是通用症状检查工具，Juno 专注于慢性病的长期管理和情感支持"
+          },
+          {
+            "name": "Bearable",
+            "url": "https://bearable.app/",
+            "comparison": "Bearable 提供症状追踪但缺乏 AI 对话支持，Juno 的 AI 伴侣功能是核心差异"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/unknown_20260612_115900.png",
+      "appStoreScreenshots": [],
+      "rawData": {}
+    },
+    {
+      "id": "producthunt.com/r/p/1166408",
+      "name": "iArt.ai",
+      "slug": "iart-ai",
+      "description": "AI 动态图形创作工具，通过文字描述或上传设计稿即可生成广播级动画视频，无需 After Effects",
+      "url": "https://www.iart.ai/",
+      "homepage": "https://www.iart.ai/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "AI动画",
+        "动态图形",
+        "视频创作",
+        "设计工具"
+      ],
+      "firstSeen": "2026-06-12T04:00:20.149860+00:00",
+      "lastSeen": "2026-06-12T04:00:20.149860+00:00",
+      "cooldownExpiresAt": "2026-06-26T04:00:20",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-06-12T04:00:20.149860+00:00",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/r/p/1166408?app_id=339",
+          "title": "iArt.ai"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "内容创作者、市场营销人员和需要动态图形但不具备动画技能的设计师",
+        "useCases": [
+          "将文字脚本自动转化为动态解说视频",
+          "将 Figma 设计稿一键动态化",
+          "根据音频节奏生成同步动态排版",
+          "制作社交媒体短视频片头和片尾",
+          "数据可视化动画快速生成"
+        ],
+        "designIntent": "做 AI 时代的 After Effects 替代品。专注于精确的矢量动态图形（motion graphics），而非 AI 视频生成的实景画面。让用户用自然语言描述就能获得广播级动画。",
+        "problemSolved": "传统动态图形制作需要 After Effects 等专业工具的深厚技能，学习曲线陡峭。iArt.ai 将动画制作简化为文字描述，30 秒生成专业级动态图形，大幅降低了动画内容创作门槛。",
+        "score": 8,
+        "scoreReason": "精准定位动态图形这一细分市场，与 Sora/Runway 的实景视频生成形成差异化。支持 Figma 导入和音频同步等实用功能，对内容创作者有实际价值。",
+        "competitors": [
+          {
+            "name": "Runway",
+            "url": "https://runwayml.com/",
+            "comparison": "Runway 专注 AI 视频生成（实景画面），iArt 专注精确的矢量动态图形"
+          },
+          {
+            "name": "Canva Animate",
+            "url": "https://www.canva.com/",
+            "comparison": "Canva 提供简单动画模板，iArt 通过 AI 生成定制化专业级动态图形"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/unknown_20260612_115909.png",
+      "appStoreScreenshots": [],
+      "rawData": {}
+    },
+    {
+      "id": "producthunt.com/r/p/1168727",
+      "name": "Riven",
+      "slug": "riven",
+      "description": "Apple Watch 健身追踪器，通过运动传感器自动检测动作、计算次数并评估肌肉力竭程度",
+      "url": "https://apps.apple.com/us/app/riven-gym-workout-tracker/id6770362701",
+      "homepage": "https://apps.apple.com/us/app/riven-gym-workout-tracker/id6770362701",
+      "type": "app",
+      "appStoreName": "Riven: Gym Workout Tracker",
+      "appStoreUrl": "https://apps.apple.com/us/app/riven-gym-workout-tracker/id6770362701",
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "AI健身",
+        "Apple Watch",
+        "运动追踪",
+        "肌肉训练"
+      ],
+      "firstSeen": "2026-06-12T04:00:20.149860+00:00",
+      "lastSeen": "2026-06-12T04:00:20.149860+00:00",
+      "cooldownExpiresAt": "2026-06-26T04:00:20",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-06-12T04:00:20.149860+00:00",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/r/p/1168727?app_id=339",
+          "title": "Riven"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "使用 Apple Watch 的健身爱好者，特别是进行力量训练的用户",
+        "useCases": [
+          "自动检测和计数力量训练动作",
+          "评估每组训练接近肌肉力竭的程度（0-100分）",
+          "追踪训练进度和力量增长趋势",
+          "无需手动记录，全程自动识别",
+          "通过重复速度下降判断真实肌肉疲劳"
+        ],
+        "designIntent": "利用 Apple Watch 已有的运动传感器，通过 AI 算法实现无需额外设备的智能健身追踪。核心创新在于通过重复速度下降（rep speed loss）这一科学指标来评估真实的肌肉力竭程度。",
+        "problemSolved": "力量训练者难以判断每组训练是否真正达到了肌肉力竭，传统追踪需要手动记录。Riven 通过 Apple Watch 传感器自动检测动作并用科学方法评估训练强度，让训练更高效。",
+        "score": 8,
+        "scoreReason": "基于运动科学原理（重复速度下降评估力竭），技术路线靠谱。Apple Watch 无需额外设备的方案降低了使用门槛，对健身人群有实际价值。",
+        "competitors": [
+          {
+            "name": "Strong",
+            "url": "https://www.strong.app/",
+            "comparison": "Strong 是主流力量训练追踪 App 但需要手动记录，Riven 全自动检测"
+          },
+          {
+            "name": "HEVY",
+            "url": "https://hevy.com/",
+            "comparison": "HEVY 社交健身追踪功能丰富，Riven 的 AI 自动检测和力竭评估是核心差异"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/unknown_20260612_115916.png",
       "appStoreScreenshots": [],
       "rawData": {}
     }

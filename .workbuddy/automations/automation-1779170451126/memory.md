@@ -1,5 +1,23 @@
 # 自动化执行历史 - AI产品雷达-每日抓取
 
+## 2026-06-11 12:00
+
+- **状态**：✅ 成功
+- **抓取数**：219 个候选产品（Twitter 50 + V2EX 30 + HackerNews 29 + Reddit 60 + Product Hunt 50）
+- **去重后**：212 个（7 个冷却期内产品命中：Kimi Work、TravelMind、Signal Recorder SR-7、Reve 2.0、BooBar、Whistle、Mic Drop 3.0）
+- **过滤后**：精选 5 个面向用户的产品（大量 Twitter 开发讨论/Fable5 热潮、V2EX 闲聊帖、Reddit 讨论帖、HN 开发工具被排除）
+- **精选 TOP 5**：
+  1. Napkin Math — AI 饮食日记与营养教练（评分 8）
+  2. Zingle — AI 语境词汇学习工具（评分 8）
+  3. Hero Studio Photos — AI 电商产品摄影（评分 8）
+  4. veridive — AI 视频内容搜索引擎（评分 8）
+  5. NudgeFile — AI 文件自动整理工具（评分 7）
+- **截图**：5 张网站截图全部成功
+- **部署**：main + gh-pages 推送成功
+- **踩坑**：products.json 中有 5 个历史产品（Saner.AI 等）缺少 id 字段，更新截图时需用 .get('id') 跳过
+
+---
+
 ## 2026-06-10 12:52
 
 - **状态**：✅ 成功
