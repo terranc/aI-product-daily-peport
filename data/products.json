@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-06-12T04:00:20.149860+00:00",
+  "lastUpdated": "2026-06-13T12:00:10.244641",
   "products": [
     {
       "id": "dafa9686fbe1",
@@ -10605,6 +10605,167 @@
       "screenshotUrl": "assets/screenshots/unknown_20260612_115916.png",
       "appStoreScreenshots": [],
       "rawData": {}
+    },
+    {
+      "id": "producthunt.com/r/p/1169266",
+      "name": "Meet Warren 3.0",
+      "slug": "meet-warren-3",
+      "description": "AI 语音理财规划助手，通过语音对话为你创建长期财务计划、可视化目标并回答假设性问题，无专业术语，免费使用。",
+      "url": "https://meetwarren.co.uk/meet-warren-3-0",
+      "homepage": "https://meetwarren.co.uk/",
+      "type": "saas",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1169266_20260613_115841.png",
+      "tags": [
+        "AI理财",
+        "语音助手",
+        "财务规划",
+        "个人金融"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "firstSeen": "2026-06-13T12:00:10.244641",
+      "cooldownExpiresAt": "2026-06-27T12:00:10.244641",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "recommendedDate": "2026-06-13"
+      },
+      "analysis": {
+        "targetAudience": "需要专业理财规划但不想花大价钱请财务顾问的普通用户",
+        "score": 8,
+        "scoreReason": "将 AI 语音能力与个人理财深度结合，解决了真实痛点（财务规划门槛高）。3.0 版本将仪表盘升级为「任务控制中心」，功能更完善。免费模式降低了试用门槛。但在国内使用可能受限于英国金融市场。"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1168743",
+      "name": "Bond",
+      "slug": "bond",
+      "description": "AI 幕僚长，连接你的工作工具，学习公司运作方式，将零散的请求转化为已完成的任务。面向 CEO 和高管的智能待办助手。",
+      "url": "https://www.bondapp.io/",
+      "homepage": "https://www.bondapp.io/",
+      "type": "saas",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1168743_20260613_115850.png",
+      "tags": [
+        "AI助手",
+        "任务管理",
+        "企业效率",
+        "幕僚长",
+        "自动化"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "firstSeen": "2026-06-13T12:00:10.244641",
+      "cooldownExpiresAt": "2026-06-27T12:00:10.244641",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "recommendedDate": "2026-06-13"
+      },
+      "analysis": {
+        "targetAudience": "创始人和高管，需要一个能自动执行日常任务的 AI 副手",
+        "score": 8,
+        "scoreReason": "从「AI 回答问题」进化到「AI 执行任务」，代表了 AI 助手的下一个范式。PH 259 票获得当日第一说明市场需求强烈。目前仅开放 Beta，功能完整度待验证。"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1168304",
+      "name": "OwnClip",
+      "slug": "ownclip",
+      "description": "macOS 原生录屏工具，本地优先架构配合设备端 AI，支持录制、编辑、分享全流程，数据不出本机。",
+      "url": "https://ownclip.io",
+      "homepage": "https://ownclip.io",
+      "type": "app",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1168304_20260613_115857.png",
+      "tags": [
+        "屏幕录制",
+        "macOS",
+        "AI隐私",
+        "视频编辑",
+        "本地优先"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "firstSeen": "2026-06-13T12:00:10.244641",
+      "cooldownExpiresAt": "2026-06-27T12:00:10.244641",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "recommendedDate": "2026-06-13"
+      },
+      "analysis": {
+        "targetAudience": "注重隐私的 macOS 用户，需要快速录制和编辑屏幕内容",
+        "score": 7,
+        "scoreReason": "本地优先 + AI 隐私的定位切中了当下用户对数据安全的关切。macOS 原生开发保证了性能。但录屏工具市场竞争激烈，差异化主要在隐私策略上，AI 功能的深度有待观察。"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1169527",
+      "name": "Tide",
+      "slug": "tide-voice-notes",
+      "description": "AI 层叠语音笔记，将录音变成精美的多层声音作品，支持叠加多轨旋律、可视化声波，一次付费无订阅。",
+      "url": "https://apps.apple.com/app/tide-beautiful-voice-notes/id6776111874",
+      "homepage": "https://apps.apple.com/app/tide-beautiful-voice-notes/id6776111874",
+      "type": "app",
+      "appStoreName": "Tide - Beautiful Voice Notes",
+      "appStoreUrl": "https://apps.apple.com/app/tide-beautiful-voice-notes/id6776111874",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1169527_20260613_115904.png",
+      "tags": [
+        "语音笔记",
+        "AI创作",
+        "音频编辑",
+        "音乐灵感",
+        "一次性付费"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "firstSeen": "2026-06-13T12:00:10.244641",
+      "cooldownExpiresAt": "2026-06-27T12:00:10.244641",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "recommendedDate": "2026-06-13"
+      },
+      "analysis": {
+        "targetAudience": "音乐创作者、播客制作者和任何想用声音记录灵感的人",
+        "score": 7,
+        "scoreReason": "将语音备忘录提升到艺术创作层面是很有创意的方向。买断制 $12.99 无订阅的定价策略很有吸引力。但目标用户较窄（音乐/声音创作者），大众使用场景有限。"
+      }
+    },
+    {
+      "id": "v2ex.com/t/1220035",
+      "name": "记住 JiZhu",
+      "slug": "jizhu",
+      "description": "AI 微信聊天转待办提醒工具，复制聊天内容到 App，AI 自动拆分任务、识别时间并创建提醒通知。",
+      "url": "https://github.com/fusae/jizhu",
+      "homepage": "https://github.com/fusae/jizhu",
+      "type": "app",
+      "screenshotUrl": "assets/screenshots/v2ex.com_t_1220035_20260613_115911.png",
+      "tags": [
+        "AI效率",
+        "微信助手",
+        "待办提醒",
+        "聊天管理",
+        "任务提取"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "firstSeen": "2026-06-13T12:00:10.244641",
+      "cooldownExpiresAt": "2026-06-27T12:00:10.244641",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "recommendedDate": "2026-06-13"
+      },
+      "analysis": {
+        "targetAudience": "经常在微信等聊天工具中收到工作任务和时间安排的人",
+        "score": 7,
+        "scoreReason": "精准解决了一个非常具体的痛点（聊天消息中的任务遗忘），AI 解析能力让操作极简（复制粘贴即可）。开源免费，社区驱动。但目前功能较单一，依赖用户主动复制粘贴，缺少与微信的直接集成。"
+      }
     }
   ],
   "tracking": {

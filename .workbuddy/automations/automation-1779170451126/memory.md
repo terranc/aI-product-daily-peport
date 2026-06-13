@@ -1,5 +1,22 @@
 # 自动化执行历史 - AI产品雷达-每日抓取
 
+## 2026-06-12 12:00
+
+- **状态**：✅ 成功
+- **抓取数**：184 个候选产品（Twitter 50 + HackerNews 30 + V2EX 39 + Reddit 15 + Product Hunt 50）
+- **去重后**：180 个（4 个昨日精选产品命中：Napkin Math、Zingle、veridive、Hero Studio Photos）
+- **过滤后**：精选 5 个面向用户的产品（Twitter 以 Claude Fable 5 开发讨论为主，V2EX/Reddit 闲聊帖，PH 贡献全部精选）
+- **精选 TOP 5**：
+  1. Asmi AI — AI 真实世界代办助手/电话代拨（评分 8）
+  2. Airbrush Studio — AI 桌面照片编辑器/人像精修（评分 8）
+  3. Juno — AI 慢性病健康伴侣/YC 背书（评分 9）
+  4. iArt.ai — AI 动态图形创作工具/AE 替代品（评分 8）
+  5. Riven — Apple Watch 肌肉力竭检测追踪器（评分 8）
+- **截图**：5 张网站截图全部成功
+- **部署**：main + gh-pages 推送成功
+
+---
+
 ## 2026-06-11 12:00
 
 - **状态**：✅ 成功
