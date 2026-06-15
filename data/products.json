@@ -10766,6 +10766,261 @@
         "score": 7,
         "scoreReason": "精准解决了一个非常具体的痛点（聊天消息中的任务遗忘），AI 解析能力让操作极简（复制粘贴即可）。开源免费，社区驱动。但目前功能较单一，依赖用户主动复制粘贴，缺少与微信的直接集成。"
       }
+    },
+    {
+      "id": "producthunt.com/r/p/1170418",
+      "name": "CakewordAI",
+      "slug": "cakewordai",
+      "description": "AI 视觉语言学习工具，用摄像头对准任何物体即可学习 9 种语言的词汇名称",
+      "url": "https://apps.apple.com/app/cakeword-snap-learn/id6738896465",
+      "homepage": "https://www.producthunt.com/products/cakewordai",
+      "type": "app",
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "firstSeen": "2026-06-15T03:52:43.254169+00:00",
+      "cooldownExpiresAt": "2026-06-29T00:00:00",
+      "metrics": {
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "analysis": {
+        "targetAudience": "儿童及语言学习者，尤其是希望通过实物互动学习外语的用户",
+        "useCases": [
+          "用摄像头对准日常物品，即时学习该物品在目标语言中的名称和发音",
+          "将识别的物体生成精美贴纸，建立个人词汇图鉴",
+          "通过 Word Dex 收集系统激励持续学习",
+          "支持 9 种语言切换，适合多语言环境学习",
+          "家长引导孩子在家中边玩边学外语"
+        ],
+        "designIntent": "将语言学习从课本搬到现实世界，通过 AI 视觉识别让「看到即学到」成为可能。利用贴纸收集的游戏化机制降低学习枯燥感。",
+        "problemSolved": "传统词汇学习依赖死记硬背，缺乏场景关联。CakewordAI 让用户在真实环境中直接建立「物体-词汇」的视觉关联，大幅提升记忆效率。",
+        "tags": [
+          "AI视觉识别",
+          "语言学习",
+          "儿童教育",
+          "实物教学",
+          "游戏化学习"
+        ],
+        "score": 8,
+        "scoreReason": "AI 视觉识别 + 语言学习的结合非常自然，游戏化的贴纸收集机制增加了趣味性。离线识别保护隐私。但目前仅支持 iOS，且 9 种语言覆盖面有限。",
+        "competitors": [
+          {
+            "name": "Google Lens",
+            "url": "https://lens.google.com",
+            "comparison": "Google Lens 侧重翻译和信息查询，缺乏系统化的词汇学习和收集机制"
+          },
+          {
+            "name": "Memrise",
+            "url": "https://www.memrise.com",
+            "comparison": "Memrise 是成熟的语言学习平台，但依赖课程卡片而非实物互动"
+          }
+        ]
+      }
+    },
+    {
+      "id": "traceapp.info",
+      "name": "Trace",
+      "slug": "trace",
+      "description": "Mac 本地离线会议转录工具，支持通话中标记重点，所有数据在本机处理",
+      "url": "https://traceapp.info",
+      "homepage": "https://traceapp.info",
+      "type": "app",
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "firstSeen": "2026-06-15T03:52:43.254181+00:00",
+      "cooldownExpiresAt": "2026-06-29T00:00:00",
+      "metrics": {
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "analysis": {
+        "targetAudiences": "需要记录和回顾会议内容的职场人士，尤其是重视隐私的用户",
+        "useCases": [
+          "Mac 菜单栏常驻，一键开启会议录音和实时转写",
+          "通话过程中实时标记关键要点，方便事后回顾",
+          "所有音频和转录数据完全在本地处理，无需上传云端",
+          "会后快速搜索会议记录中的关键词",
+          "将会议转录导出为文本笔记"
+        ],
+        "designIntent": "解决会议记录的两大痛点：一是依赖云端服务带来的隐私顾虑，二是会后回看冗长录音的低效。通过本地 AI 转写 + 实时标记，让会议记录既安全又高效。",
+        "problemSolved": "市面上主流会议转录工具（如 Otter.ai、Fireflies）都需要将音频上传到云端处理，涉及敏感商业信息泄露风险。Trace 实现完全本地化的 AI 转写，同时提供通话中标记功能，解决了隐私和效率的双重问题。",
+        "tags": [
+          "本地AI",
+          "会议转录",
+          "隐私优先",
+          "Mac应用",
+          "效率工具"
+        ],
+        "score": 8,
+        "scoreReason": "完全本地处理是核心差异化优势，对商务人士极具吸引力。菜单栏常驻设计降低了使用门槛。通话中标记功能是竞品少有的实用特性。扣分点是仅支持 Mac 平台。",
+        "competitors": [
+          {
+            "name": "Otter.ai",
+            "url": "https://otter.ai",
+            "comparison": "Otter.ai 功能更全面但依赖云端，隐私性不如 Trace"
+          },
+          {
+            "name": "MacWhisper",
+            "url": "https://macwhisper.com",
+            "comparison": "MacWhisper 侧重录音转写，缺少实时标记和会议管理功能"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1169774",
+      "name": "CueBuddy",
+      "slug": "cuebuddy",
+      "description": "AI 语音跟随提词器，iOS 应用，说话时脚本自动滚动，告别手动翻页",
+      "url": "https://apps.apple.com/app/cuebuddy/id6762567822",
+      "homepage": "https://www.producthunt.com/products/cuebuddy",
+      "type": "app",
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "firstSeen": "2026-06-15T03:52:43.254184+00:00",
+      "cooldownExpiresAt": "2026-06-29T00:00:00",
+      "metrics": {
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "analysis": {
+        "targetAudiences": "短视频创作者、自媒体人、在线课程讲师、演讲者等需要录制口播视频的用户",
+        "useCases": [
+          "录制短视频时，脚本跟随语速自动滚动，无需手动翻页",
+          "全屏提词模式配合镜像翻转，适配不同拍摄角度",
+          "调整字体大小和颜色，适配不同光线环境",
+          "录制在线课程和教程，保持自然的讲解节奏",
+          "练习演讲时作为智能提词辅助"
+        ],
+        "designIntent": "解决单人录制口播视频时「念稿不自然」和「手动翻页打断节奏」的痛点。通过语音识别实现脚本自动跟随，让创作者专注于内容表达。",
+        "problemSolved": "传统提词器需要手动翻页或依赖固定滚动速度，与说话节奏不匹配导致录制不自然。CueBuddy 通过 AI 语音识别实现脚本与语速同步，大幅降低口播视频的录制难度。",
+        "tags": [
+          "AI提词器",
+          "语音识别",
+          "视频创作",
+          "iOS应用",
+          "自媒体工具"
+        ],
+        "score": 7,
+        "scoreReason": "语音跟随提词是短视频创作者的真实刚需，解决了手动翻页的痛点。iOS 原生应用体验流畅。扣分点是功能相对单一，且目前仅支持 iOS 平台。",
+        "competitors": [
+          {
+            "name": "BigVu",
+            "url": "https://www.bigvu.tv",
+            "comparison": "BigVu 是功能更全面的提词器平台，但价格更高且语音跟随功能不如 CueBuddy 精准"
+          },
+          {
+            "name": "Teleprompter Premium",
+            "url": "https://apps.apple.com/app/teleprompter-premium/id1532594968",
+            "comparison": "Teleprompter Premium 支持自定义滚动速度，但缺乏 AI 语音跟随能力"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1168807",
+      "name": "PixelForge",
+      "slug": "pixelforge",
+      "description": "AI 照片转游戏素材工具，上传照片即可生成游戏就绪的角色精灵图",
+      "url": "https://pixel-forge.net/",
+      "homepage": "https://pixel-forge.net/",
+      "type": "website",
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "firstSeen": "2026-06-15T03:52:43.254186+00:00",
+      "cooldownExpiresAt": "2026-06-29T00:00:00",
+      "metrics": {
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "analysis": {
+        "targetAudiences": "独立游戏开发者、像素艺术爱好者、Game Jam 参与者",
+        "useCases": [
+          "上传真人照片，自动生成 4 方向行走动画的角色精灵包",
+          "将照片转化为像素风格的游戏角色，直接导入 Godot/Unity",
+          "快速生成 Game Jam 参赛作品的角色素材，节省美术时间",
+          "为个人项目生成独特的像素风角色",
+          "将宠物或朋友的照片变成游戏中的 NPC"
+        ],
+        "designIntent": "降低独立游戏开发的美术门槛。传统像素角色制作需要逐帧绘制，PixelForge 通过 AI 实现「一张照片→完整精灵包」的自动化流程。",
+        "problemSolved": "独立开发者往往擅长编程但缺乏美术能力，像素角色制作是独立游戏开发的主要瓶颈之一。PixelForge 让开发者用一张照片就能获得可用的游戏角色素材。",
+        "tags": [
+          "AI图像生成",
+          "游戏开发",
+          "像素艺术",
+          "独立游戏",
+          "素材生成"
+        ],
+        "score": 7,
+        "scoreReason": "精准解决独立游戏开发者的美术痛点，$5 的定价非常亲民。支持 Godot/Unity 导出实用性高。扣分点是目前仅支持 RPG 风格角色，应用场景较窄。",
+        "competitors": [
+          {
+            "name": "Meshy",
+            "url": "https://www.meshy.ai",
+            "comparison": "Meshy 侧重 3D 模型生成，PixelForge 专注 2D 像素精灵，定位不同"
+          },
+          {
+            "name": "PicSo",
+            "url": "https://picso.app",
+            "comparison": "PicSo 是通用 AI 绘图工具，缺乏针对游戏素材的专项优化"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1157109",
+      "name": "Journey Now",
+      "slug": "journey-now",
+      "description": "AI 学习副驾驶，将任何你想学习的目标转化为个性化 30 天路径计划",
+      "url": "https://journey.now/",
+      "homepage": "https://journey.now/",
+      "type": "website",
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "firstSeen": "2026-06-15T03:52:43.254187+00:00",
+      "cooldownExpiresAt": "2026-06-29T00:00:00",
+      "metrics": {
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "analysis": {
+        "targetAudiences": "有学习目标但缺乏系统规划的自学者，如想学编程、写作、健身等技能的人群",
+        "useCases": [
+          "输入想学习的技能，AI 自动生成 30 天个性化学习路径",
+          "每日获得针对性的练习任务和反思提示",
+          "根据学习进度动态调整计划难度和节奏",
+          "查看朋友的学习进度，形成社交监督",
+          "追踪多个学习目标的并行进展"
+        ],
+        "designIntent": "解决「知道要学什么但不知道怎么开始」的问题。通过 AI 将模糊的学习愿望转化为具体可执行的每日任务，同时用社交元素增加坚持的动力。",
+        "problemSolved": "大多数人购买课程或制定学习计划后很快放弃，核心原因是缺乏个性化的路径规划和持续的执行动力。Journey Now 通过 AI 动态调整 + 社交监督来解决这个「开始容易坚持难」的问题。",
+        "tags": [
+          "AI学习规划",
+          "个性化路径",
+          "习惯养成",
+          "目标追踪",
+          "社交学习"
+        ],
+        "score": 7,
+        "scoreReason": "AI 个性化学习路径是真实需求，30 天的结构化设计降低了启动门槛。社交元素增加了坚持动力。扣分点是 AI 路径的质量依赖底层模型能力，缺乏详细的功能介绍。",
+        "competitors": [
+          {
+            "name": "Habitica",
+            "url": "https://habitica.com",
+            "comparison": "Habitica 用游戏化机制管理习惯，但缺乏 AI 驱动的个性化路径规划"
+          },
+          {
+            "name": "Coursera",
+            "url": "https://www.coursera.org",
+            "comparison": "Coursera 提供结构化课程但缺乏 AI 个性化调整和社交监督功能"
+          }
+        ]
+      }
     }
   ],
   "tracking": {
