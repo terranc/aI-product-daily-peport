@@ -1,6 +1,6 @@
 {
   "date": "2026-06-15",
-  "generatedAt": "2026-06-15T04:05:33.017576+00:00",
+  "generatedAt": "2026-06-15T04:07:55.194586+00:00",
   "productCount": 5,
   "products": [
     {
@@ -8,9 +8,13 @@
       "name": "Memoriq",
       "slug": "memoriq",
       "description": "一款私密的 AI 记忆保险库，支持保存和管理来自 ChatGPT、Claude 等平台的对话历史。",
-      "url": "https://memoriq.me/",
-      "homepage": "https://memoriq.me/",
+      "url": "https://www.producthunt.com/r/p/1170951?app_id=339",
+      "homepage": "https://www.producthunt.com/r/p/1170951?app_id=339",
       "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1170951_20260615_120548.png",
+      "appStoreScreenshots": [],
       "tags": [
         "AI 记忆",
         "知识管理",
@@ -20,7 +24,8 @@
       "sourceChannels": [
         "producthunt"
       ],
-      "sourceUrl": "https://www.producthunt.com/r/p/1170951?app_id=339",
+      "sourceUrl": "https://www.producthunt.com/products/memoriq",
+      "firstSeen": "2026-06-15T04:01:38.384889+00:00",
       "analysis": {
         "targetAudience": "使用 AI 助手进行深度工作或学习的用户。",
         "useCases": [
@@ -55,21 +60,20 @@
             "comparison": ""
           }
         ]
-      },
-      "firstSeen": "2026-06-15T04:05:33.017576+00:00",
-      "appStoreName": null,
-      "appStoreUrl": null,
-      "screenshotUrl": null,
-      "appStoreScreenshots": []
+      }
     },
     {
       "id": "producthunt.com/r/p/1171217",
       "name": "Slashy",
       "slug": "slashy",
       "description": "一个 AI 原生的邮件助手，能以你的语气起草回复、分类邮件并追踪待办。",
-      "url": "https://slashy.ai/",
-      "homepage": "https://slashy.ai/",
+      "url": "https://www.producthunt.com/r/p/1171217?app_id=339",
+      "homepage": "https://www.producthunt.com/r/p/1171217?app_id=339",
       "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1171217_20260615_120144.png",
+      "appStoreScreenshots": [],
       "tags": [
         "AI 邮件",
         "办公自动化",
@@ -79,7 +83,8 @@
       "sourceChannels": [
         "producthunt"
       ],
-      "sourceUrl": "https://www.producthunt.com/r/p/1171217?app_id=339",
+      "sourceUrl": "https://www.producthunt.com/products/slashy-3",
+      "firstSeen": "2026-06-15T04:01:38.385423+00:00",
       "analysis": {
         "targetAudience": "需要处理大量邮件、追求高效沟通的职场人士。",
         "useCases": [
@@ -114,21 +119,20 @@
             "comparison": ""
           }
         ]
-      },
-      "firstSeen": "2026-06-15T04:05:33.017576+00:00",
-      "appStoreName": null,
-      "appStoreUrl": null,
-      "screenshotUrl": null,
-      "appStoreScreenshots": []
+      }
     },
     {
       "id": "producthunt.com/r/p/1139531",
       "name": "Allergo",
       "slug": "allergo",
       "description": "利用 AI 生成多语言过敏原翻译卡片，帮助旅行者在海外安全饮食。",
-      "url": "https://allergo.app/",
-      "homepage": "https://allergo.app/",
+      "url": "https://www.producthunt.com/r/p/1139531?app_id=339",
+      "homepage": "https://www.producthunt.com/r/p/1139531?app_id=339",
       "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1139531_20260615_120152.png",
+      "appStoreScreenshots": [],
       "tags": [
         "旅行工具",
         "健康安全",
@@ -138,7 +142,8 @@
       "sourceChannels": [
         "producthunt"
       ],
-      "sourceUrl": "https://www.producthunt.com/r/p/1139531?app_id=339",
+      "sourceUrl": "https://www.producthunt.com/products/allergo-allergy-translation-cards",
+      "firstSeen": "2026-06-15T04:01:38.385428+00:00",
       "analysis": {
         "targetAudience": "有食物过敏或饮食限制的旅行者。",
         "useCases": [
@@ -168,80 +173,20 @@
             "comparison": ""
           }
         ]
-      },
-      "firstSeen": "2026-06-15T04:05:33.017576+00:00",
-      "appStoreName": null,
-      "appStoreUrl": null,
-      "screenshotUrl": null,
-      "appStoreScreenshots": []
-    },
-    {
-      "id": "producthunt.com/r/p/1169603",
-      "name": "LocIn AI",
-      "slug": "locin-ai",
-      "description": "AI 驱动的应用本地化工具，能够根据品牌语调自动翻译并优化应用内容。",
-      "url": "https://locin.ai/",
-      "homepage": "https://locin.ai/",
-      "type": "website",
-      "tags": [
-        "AI 本地化",
-        "开发者工具",
-        "翻译",
-        "品牌语调"
-      ],
-      "sourceChannels": [
-        "producthunt"
-      ],
-      "sourceUrl": "https://www.producthunt.com/r/p/1169603?app_id=339",
-      "analysis": {
-        "targetAudience": "需要进行 App 或网站国际化的开发者和产品经理。",
-        "useCases": [
-          "根据品牌语调自动翻译应用文案",
-          "管理多语言翻译项目",
-          "优化本地化内容"
-        ],
-        "designIntent": "用 AI 理解语调（Tone-aware）来提升本地化的质量，而非死板的机器翻译。",
-        "problemSolved": "传统翻译工具难以把握品牌语调，导致本地化内容生硬。",
-        "tags": [
-          "AI 本地化",
-          "开发者工具",
-          "翻译",
-          "品牌语调"
-        ],
-        "score": 7.0,
-        "scoreReason": "解决了本地化中的一个高级痛点（语调一致性），对出海团队有吸引力。",
-        "competitors": [
-          {
-            "name": "Lokalise",
-            "url": "",
-            "comparison": ""
-          },
-          {
-            "name": "Crowdin",
-            "url": "",
-            "comparison": ""
-          },
-          {
-            "name": "DeepL",
-            "url": "",
-            "comparison": ""
-          }
-        ]
-      },
-      "firstSeen": "2026-06-15T04:05:33.017576+00:00",
-      "appStoreName": null,
-      "appStoreUrl": null,
-      "screenshotUrl": null,
-      "appStoreScreenshots": []
+      }
     },
     {
       "id": "producthunt.com/r/p/1170971",
       "name": "Taste Lab",
       "slug": "taste-lab",
       "description": "通过 AI 提取任何网站的设计 DNA，包括配色、字体和布局风格。",
-      "url": "https://taste.lab/",
-      "homepage": "https://taste.lab/",
+      "url": "https://www.producthunt.com/r/p/1170971?app_id=339",
+      "homepage": "https://www.producthunt.com/r/p/1170971?app_id=339",
       "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1170971_20260615_120159.png",
+      "appStoreScreenshots": [],
       "tags": [
         "UI 设计",
         "设计分析",
@@ -251,7 +196,8 @@
       "sourceChannels": [
         "producthunt"
       ],
-      "sourceUrl": "https://www.producthunt.com/r/p/1170971?app_id=339",
+      "sourceUrl": "https://www.producthunt.com/products/taste-lab",
+      "firstSeen": "2026-06-15T04:01:38.385432+00:00",
       "analysis": {
         "targetAudience": "UI/UX 设计师、前端开发、产品经理。",
         "useCases": [
@@ -286,12 +232,66 @@
             "comparison": ""
           }
         ]
-      },
-      "firstSeen": "2026-06-15T04:05:33.017576+00:00",
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1169603",
+      "name": "LocIn AI",
+      "slug": "locin-ai",
+      "description": "AI 驱动的应用本地化工具，能够根据品牌语调自动翻译并优化应用内容。",
+      "url": "https://www.producthunt.com/r/p/1169603?app_id=339",
+      "homepage": "https://www.producthunt.com/r/p/1169603?app_id=339",
+      "type": "website",
       "appStoreName": null,
       "appStoreUrl": null,
-      "screenshotUrl": null,
-      "appStoreScreenshots": []
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1169603_20260615_120455.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 本地化",
+        "开发者工具",
+        "翻译",
+        "品牌语调"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/locin-ai",
+      "firstSeen": "2026-06-15T04:01:38.385436+00:00",
+      "analysis": {
+        "targetAudience": "需要进行 App 或网站国际化的开发者和产品经理。",
+        "useCases": [
+          "根据品牌语调自动翻译应用文案",
+          "管理多语言翻译项目",
+          "优化本地化内容"
+        ],
+        "designIntent": "用 AI 理解语调（Tone-aware）来提升本地化的质量，而非死板的机器翻译。",
+        "problemSolved": "传统翻译工具难以把握品牌语调，导致本地化内容生硬。",
+        "tags": [
+          "AI 本地化",
+          "开发者工具",
+          "翻译",
+          "品牌语调"
+        ],
+        "score": 7.0,
+        "scoreReason": "解决了本地化中的一个高级痛点（语调一致性），对出海团队有吸引力。",
+        "competitors": [
+          {
+            "name": "Lokalise",
+            "url": "",
+            "comparison": ""
+          },
+          {
+            "name": "Crowdin",
+            "url": "",
+            "comparison": ""
+          },
+          {
+            "name": "DeepL",
+            "url": "",
+            "comparison": ""
+          }
+        ]
+      }
     }
   ]
 }
