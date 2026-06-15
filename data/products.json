@@ -9174,10 +9174,10 @@
         ]
       },
       "metrics": {
-        "weeklyViews": 0,
+        "weeklyViews": 1,
         "growthRate": 0,
         "featuredInDaily": true,
-        "featuredInWeekly": false
+        "featuredInWeekly": true
       },
       "screenshotUrl": "assets/screenshots/unknown_20260608_152933.png",
       "appStoreScreenshots": [],

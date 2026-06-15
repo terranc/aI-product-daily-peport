@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dreambeans by Google Labs 每周深度分析 · AI 产品雷达</title>
+  <link rel="stylesheet" href="../styles.css">
+  
+    <style>
+    /* ── Product Detail Modal ── */
+    .product-modal-overlay {
+      display:none; position:fixed; inset:0; z-index:9000;
+      background:rgba(0,0,0,.5); backdrop-filter:blur(4px);
+      overflow-y:auto; -webkit-overflow-scrolling:touch;
+    }
+    .product-modal-overlay.active { display:block; }
+    .product-modal-container {
+      position:relative; max-width:1120px; width:90%; margin:40px auto;
+      min-height:auto; background:var(--c-bg);
+      border-radius:var(--radius-lg); box-shadow:0 8px 32px rgba(0,0,0,.2);
+      overflow:hidden;
+    }
+    .product-modal-close {
+      position:sticky; top:0; z-index:10;
+      display:flex; align-items:center; justify-content:space-between;
+      padding:12px 16px; background:var(--c-surface);
+      border-bottom:1px solid var(--c-border);
+    }
+    .product-modal-close button {
+      background:none; border:none; cursor:pointer;
+      font-size:1rem; color:var(--c-text-2); padding:4px 8px;
+    }
+    .product-modal-close .title { font-weight:600; font-size:.9rem; color:var(--c-text); }
+    .product-modal-body {
+      padding:0;
+    }
+    </style>
+</head>
+<body>
+  <header class="site-header">
+  <div class="container-wide">
+    <a href="../" class="site-logo"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a10 10 0 0 1 0 20"/><path d="M12 2a6 6 0 0 1 0 12"/><circle cx="12" cy="8" r="1" fill="currentColor"/></svg> AI 产品雷达</a>
+    <nav class="site-nav"><a href="../">每日简报</a><a href="../weekly.html" class="active">每周深度</a><a href="../archive.html">归档</a><a href="https://github.com/terranc/aI-product-daily-peport" target="_blank"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a></nav>
+  </div>
+</header>
+  <main>
+    <div class="container-wide">
+      <a href="../weekly.html" class="back-link"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg> 返回每周深度</a>
+      <div id="weekly-detail-content">
+      <article class="detail-card">
+        <div class="detail-hero">
+          <div class="entry-meta">
+            <span class="blog-post-date">2026-06-15</span>
+            <div class="entry-tags"><a href="../tags.html?tag=AI个性化" class="tag">AI个性化</a><a href="../tags.html?tag=每日故事" class="tag">每日故事</a><a href="../tags.html?tag=Google生态" class="tag">Google生态</a><a href="../tags.html?tag=数据整合" class="tag">数据整合</a><a href="../tags.html?tag=Personal Intelligence" class="tag">Personal Intelligence</a><a href="../tags.html?tag=数字健康" class="tag">数字健康</a><a href="../tags.html?tag=反末日刷屏" class="tag">反末日刷屏</a></div>
+          </div>
+          <h1 class="detail-title">Dreambeans by Google Labs · 每周深度分析</h1>
+          <p class="detail-subtitle">谷歌实验室推出的AI个性化每日故事应用。在用户授权下，整合Gmail、日历、Google相册、YouTube、搜索记录等数据，利用Personal Intelligence技术与Nano Banana 2图像模型，每日生成10-14条个性化视觉故事。定位为"反末日刷屏"的数字健康产品，仅向美国Google AI Ultra订阅用户（$100/月）开放。2026年6月3日发布，Product Hunt当日排名第一。</p>
+          <div class="detail-actions">
+            <span class="detail-score-badge">9</span>
+            <a href="https://labs.google/dreambeans" target="_blank" class="btn btn-primary"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg> 访问官网</a>
+          </div>
+        </div>
+        <div class="detail-body">
+          <div class="detail-main">
+            <div class="weekly-metric-grid">
+              <div class="weekly-metric"><strong>7</strong><span>距首次发现天数</span></div>
+              <div class="weekly-metric"><strong>0</strong><span>近 7 天提及</span></div>
+              <div class="weekly-metric"><strong>0</strong><span>增长分数</span></div>
+            </div>
+            
+            <div class="section">
+              <h2 class="section-title"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></span> 增长证据</h2>
+              <ol class="use-case-list"><li>4亿（CAGR</li><li>2%），Dreambeans占据"AI个性化叙事"这一独特细分。</li></ol>
+            </div>
+            <div class="section">
+              <h2 class="section-title"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5A4.61 4.61 0 0 1 8.91 14"/></svg></span> 社区反馈</h2>
+              <p>Product Hunt排名第1（6月7日），TechCrunch详细评测（命名趣味性+功能分析），Google官方博客首发。中文科技媒体（IT之家、至顶网、新浪科技、腾讯新闻）均有报道。Reddit和Twitter讨论集中于隐私授权的利弊权衡。候补名单机制制造了稀缺感和期待感。目前未发现大量独立用户深度评测（因Ultra订阅门槛限制了早期用户规模）。</p>
+            </div>
+            <div class="section">
+              <h2 class="section-title"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></span> 近期更新</h2>
+              <p>实验性产品，发布仅12天。Google Labs历史上从实验到正式产品的周期通常为3-12个月（如NotebookLM从2023年实验到2024年正式发布）。团队采取分阶段推出策略，从单一语言活跃用户开始监控性能和优化功能。预期会逐步扩展地区、语言和订阅层级。</p>
+            </div>
+            <div class="section">
+              <h2 class="section-title"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></span> 市场定位</h2>
+              <p>"Personal Intelligence"赛道的标杆产品。Google是全球唯一同时拥有Gmail（18亿用户）、Calendar、Photos（10亿+用户）、YouTube（25亿用户）、Search（85%市场份额）五大用户数据源的公司。Dreambeans将这些数据壁垒转化为消费级体验，在"AI个性化叙事"细分市场具有无可匹敌的数据优势。直接竞争对手Bond（初创公司）在数据维度和用户触达上差距悬殊。</p>
+            </div>
+            <div class="section">
+              <h2 class="section-title"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r=".5" fill="currentColor"/><circle cx="17.5" cy="10.5" r=".5" fill="currentColor"/><circle cx="8.5" cy="7.5" r=".5" fill="currentColor"/><circle cx="6.5" cy="12.5" r=".5" fill="currentColor"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"/></svg></span> 差异化</h2>
+              <p>1）数据维度：5大Google服务交叉分析，任何竞品无法复制；2）内容生成：不是推荐已有内容，而是用Nano Banana 2创造原创视觉叙事；3）隐私模型：独立于Gemini/AI Mode的隐私设置，用户完全掌控；4）数字健康设计：每天仅10-14个故事，刻意限制使用时长；5）行动闭环：故事内嵌一键行动按钮，从洞察直达现实世界。</p>
+            </div>
+            <div class="section">
+              <h2 class="section-title"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="14.5 17.5 3 6 3 3 6 3 17.5 14.5"/><line x1="13" y1="19" x2="19" y2="13"/><line x1="16" y1="16" x2="20" y2="20"/><line x1="19" y1="21" x2="21" y2="19"/><polyline points="14.5 6.5 18 3 21 3 21 6 17.5 9.5"/><line x1="5" y1="14" x2="9" y2="18"/><line x1="7" y1="17" x2="4" y2="20"/><line x1="3" y1="19" x2="5" y2="21"/></svg></span> 风险挑战</h2>
+              None
+            </div>
+            <div class="section">
+              <h2 class="section-title"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></span> 后续观察</h2>
+              None
+            </div>
+          </div>
+          <aside class="detail-aside">
+            <div class="aside-block">
+              <div class="aside-label">标签</div>
+              <div class="aside-tags"><a href="../tags.html?tag=AI个性化" class="tag">AI个性化</a><a href="../tags.html?tag=每日故事" class="tag">每日故事</a><a href="../tags.html?tag=Google生态" class="tag">Google生态</a><a href="../tags.html?tag=数据整合" class="tag">数据整合</a><a href="../tags.html?tag=Personal Intelligence" class="tag">Personal Intelligence</a><a href="../tags.html?tag=数字健康" class="tag">数字健康</a><a href="../tags.html?tag=反末日刷屏" class="tag">反末日刷屏</a></div>
+            </div>
+            <div class="aside-block">
+              <div class="aside-label">跟踪渠道</div>
+              <p style="color:var(--c-text-2);font-size:.85rem">producthunt</p>
+            </div>
+            <div class="aside-block">
+              <div class="aside-label">元数据</div>
+              <div class="meta-row"><span class="label">周报日期</span><span class="value">2026-06-15</span></div>
+              <div class="meta-row"><span class="label">首次发现</span><span class="value">2026-06-08</span></div>
+              <div class="meta-row"><span class="label">产品类型</span><span class="value">AI 个性化内容应用</span></div>
+            </div>
+          </aside>
+        </div>
+      </article>
+    </div>
+    </div>
+  </main>
+  
+  <!-- 产品详情 Modal -->
+  <div class="product-modal-overlay" id="product-modal">
+    <div class="product-modal-container">
+      <div class="product-modal-close">
+        <span class="title" id="modal-title"></span>
+        <button onclick="closeProductModal()" aria-label="关闭">✕ 关闭</button>
+      </div>
+      <div class="product-modal-body" id="modal-body">
+        <div style="text-align:center;padding:40px;color:var(--c-text-3)">加载中...</div>
+      </div>
+    </div>
+  </div>
+  <footer class="site-footer">
+  <div class="container">
+    <div class="footer-links">
+      <a href="../archive.html">历史归档</a>
+      <a href="https://github.com/terranc/aI-product-daily-peport" target="_blank">GitHub</a>
+    </div>
+    <p>AI 产品雷达 · 自动化 AI 产品发现与分析</p>
+  </div>
+</footer>
+  
+    <script>
+    // Modal 逻辑（所有设备）
+    const modal = document.getElementById('product-modal');
+    const modalBody = document.getElementById('modal-body');
+    const modalTitle = document.getElementById('modal-title');
+
+    // 大屏设备用 Modal，手机端和无 JS 环境保持普通链接跳转
+    const isDesktop = window.matchMedia('(min-width: 769px)').matches;
+    if (isDesktop) {
+      document.querySelectorAll('.source-link[href]').forEach(card => {
+        card.addEventListener('click', function(e) {
+          if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+          e.preventDefault();
+          const name = this.textContent?.trim() || '产品详情';
+          openProductModal(this.getAttribute('href'), name);
+        });
+      });
+    }
+
+    function rebaseModalUrls(root, baseUrl) {
+      // 修复：如果 baseUrl 是产品详情页，使用根页面作为基准，避免相对路径计算错误
+      let adjustedBase = baseUrl;
+      try {
+        const urlObj = new URL(baseUrl);
+        if (urlObj.pathname.startsWith('/products/') || urlObj.pathname.startsWith('/weekly/')) {
+          // 使用根页面作为基准
+          adjustedBase = urlObj.origin + '/';
+        }
+      } catch (e) {}
+
+      root.querySelectorAll('[src]').forEach(el => {
+        const value = el.getAttribute('src');
+        if (value && !value.startsWith('http') && !value.startsWith('data:')) {
+          el.setAttribute('src', new URL(value, adjustedBase).href);
+        }
+      });
+      root.querySelectorAll('[href]').forEach(el => {
+        const value = el.getAttribute('href');
+        if (value && !value.startsWith('http') && !value.startsWith('#') && !value.startsWith('mailto:')) {
+          el.setAttribute('href', new URL(value, adjustedBase).href);
+        }
+      });
+    }
+
+    async function openProductModal(detailUrl, name) {
+      modalTitle.textContent = name;
+      modalBody.innerHTML = '<div style="text-align:center;padding:40px;color:var(--c-text-3)">加载中...</div>';
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+
+      try {
+        const resp = await fetch(detailUrl);
+        if (!resp.ok) throw new Error('HTTP ' + resp.status);
+        const html = await resp.text();
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(html, 'text/html');
+
+        const detailContent = doc.querySelector('#product-detail-content');
+        if (detailContent) {
+          rebaseModalUrls(detailContent, new URL(detailUrl, window.location.href).href);
+          modalBody.replaceChildren(detailContent);
+        } else {
+          throw new Error('详情主体不存在');
+        }
+      } catch (err) {
+        modalBody.innerHTML = '<div style="text-align:center;padding:40px;color:var(--c-text-3)">加载失败，请<a href="' + detailUrl + '" style="color:var(--c-accent);font-weight:600">打开详情页</a></div>';
+      }
+
+      modal.scrollTop = 0;
+    }
+
+    function closeProductModal() {
+      modal.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    modal.addEventListener('click', function(e) {
+      if (e.target === modal) closeProductModal();
+    });
+
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' && modal.classList.contains('active')) {
+        closeProductModal();
+      }
+    });
+    </script>
+</body>
+</html>
