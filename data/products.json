@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-06-13T12:00:10.244641",
+  "lastUpdated": "2026-06-16T11:59:20.777480",
   "products": [
     {
       "id": "dafa9686fbe1",
@@ -11336,6 +11336,323 @@
       "firstSeen": "2026-06-15T04:05:33.017576+00:00",
       "lastSeen": "2026-06-15T04:05:33.017576+00:00",
       "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1170971_20260615_120159.png"
+    },
+    {
+      "id": "producthunt.com/r/p/1166979",
+      "name": "Wobo 2.0",
+      "slug": "wobo-2",
+      "description": "像 Tinder 一样刷选职位，AI 帮你自动投递简历。上传简历后 Wobo 扫描全市场匹配岗位，你只需左右滑动选择，AI 代理自动完成申请表填写和投递。",
+      "url": "https://www.wobo.ai/",
+      "homepage": "https://www.wobo.ai/",
+      "type": "app",
+      "tags": [
+        "AI求职工具",
+        "自动投递",
+        "简历匹配",
+        "求职效率"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1166979",
+      "firstSeen": "2026-06-16T11:58:12.750048",
+      "cooldownExpiresAt": "2026-06-30T11:59:20.777480",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1166979_20260616_115830.png",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/02/58/86/025886ff-c68f-97aa-9a41-8f435067d4f6/7112d37d-6e38-46bf-9fa3-e8be536c4652_21.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/28/47/fa/2847fae0-6b83-8b61-22eb-dcbf8ccbc38f/d6a80cb8-9901-4c7d-bf2c-7ddc2c5a68e8_22.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/ea/8f/3a/ea8f3aa5-8278-851f-b630-bc8d1fbfcb58/5f2309c5-bc1e-4422-8cb1-825b18d289d5_23.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/45/02/cc/4502ccfb-e7ea-f9ef-62a5-f56b66194967/39f4b157-37c3-4030-9ef9-3516198de8ac_24.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/f8/9e/4d/f89e4d7d-4fdf-c2bd-4f8e-5106f7ad62c1/a25ed3d4-43e1-4190-a3af-a4ffe3da5153_25.png/392x696bb.png"
+      ],
+      "appStoreName": "Weibo intl.",
+      "appStoreUrl": "https://apps.apple.com/us/app/weibo-intl/id1215210046?uo=4",
+      "analysis": {
+        "targetAudience": "正在找工作或想跳槽的职场人士，尤其是海投简历感到疲惫的求职者",
+        "useCases": [
+          "批量投递岗位时自动填写各类申请表",
+          "根据简历智能匹配最合适的职位",
+          "用滑动交互快速筛选感兴趣的岗位",
+          "让 AI 代写针对性的求职信",
+          "追踪投递状态和面试进展"
+        ],
+        "designIntent": "解决求职过程中反复填写申请表、投递效率低下的痛点。用 Tinder 式的交互让找工作变得像刷社交软件一样轻松，AI 负责繁琐的文书工作。",
+        "problemSolved": "传统求职需要在不同平台重复填写个人信息和上传简历，耗时耗力。Wobo 将匹配和投递流程自动化，用户只需做选择决策。",
+        "tags": [
+          "AI求职工具",
+          "自动投递",
+          "简历匹配",
+          "滑动交互"
+        ],
+        "score": 8,
+        "scoreReason": "将 AI 能力与日常求职场景深度结合，交互设计直观有趣。解决的是真实且普遍的痛点，目标用户群体广泛。但需注意隐私和数据安全问题。",
+        "competitors": [
+          {
+            "name": "Sprout",
+            "url": "https://www.usesprout.com/",
+            "comparison": "类似的 AI 求职工具，也支持自动投递，但 Wobo 的滑动交互更轻量"
+          },
+          {
+            "name": "Sorce.jobs",
+            "url": "https://www.sorce.jobs/",
+            "comparison": "同为 Tinder for Jobs 概念，但 Sorce 更侧重企业端匹配"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "totalMentions": 1
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1163285",
+      "name": "AutoEdit",
+      "slug": "autoedit",
+      "description": "基于 Claude AI 的 Premiere Pro 视频编辑插件。用自然语言描述你想剪辑的内容，AI 自动完成粗剪，将数小时的剪辑工作压缩到几分钟。",
+      "url": "https://www.autoeditai.net/",
+      "homepage": "https://www.autoeditai.net/",
+      "type": "saas",
+      "tags": [
+        "AI视频剪辑",
+        "Premiere Pro",
+        "创作者工具",
+        "效率提升"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1163285",
+      "firstSeen": "2026-06-16T11:58:12.750048",
+      "cooldownExpiresAt": "2026-06-30T11:59:20.777480",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1163285_20260616_115838.png",
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "analysis": {
+        "targetAudience": "使用 Premiere Pro 的视频创作者、自媒体博主和小型制作团队",
+        "useCases": [
+          "用自然语言指令完成视频粗剪",
+          "AI 自动识别并去除无效片段（NG镜头、重复内容）",
+          "根据脚本自动对齐时间线素材",
+          "音乐节拍同步剪辑",
+          "批量处理多条时间线的粗剪任务"
+        ],
+        "designIntent": "视频创作者在粗剪阶段花费大量时间在机械性操作上。AutoEdit 让 AI 理解创作者意图，自动完成重复性剪辑工作，让人专注于创意决策。",
+        "problemSolved": "Premiere Pro 用户在粗剪阶段需要反复浏览素材、标记入出点、排列时间线，这些工作耗时且重复。AutoEdit 通过 AI 理解自然语言指令，将这一流程自动化。",
+        "tags": [
+          "AI视频剪辑",
+          "Premiere Pro插件",
+          "创作者工具"
+        ],
+        "score": 8,
+        "scoreReason": "精准切入视频创作工作流中最耗时的粗剪环节，作为 Premiere Pro 原生插件降低了使用门槛。Claude AI 的理解能力为自然语言交互提供了可靠基础。",
+        "competitors": [
+          {
+            "name": "Claude Cut",
+            "url": "https://www.premierecopilot.com/en/claude-cut",
+            "comparison": "同样基于 Claude 的 PR 插件，但 AutoEdit 的 Creator Mode 更侧重全自动粗剪"
+          },
+          {
+            "name": "Descript",
+            "url": "https://www.descript.com/",
+            "comparison": "独立剪辑工具，功能更全但需要迁移工作流，AutoEdit 嵌入 PR 无需切换"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "totalMentions": 1
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1171345",
+      "name": "EmailFlow.AI",
+      "slug": "emailflow-ai",
+      "description": "像 Claude Design 一样设计邮件通讯。输入文字描述即可生成品牌风格一致的精美邮件模板，支持自动化发送和 A/B 测试，将邮件营销从设计到发送全流程 AI 化。",
+      "url": "https://emailflow.ai/",
+      "homepage": "https://emailflow.ai/",
+      "type": "saas",
+      "tags": [
+        "AI邮件营销",
+        " newsletter设计",
+        "自动化营销",
+        "品牌一致性"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1171345",
+      "firstSeen": "2026-06-16T11:58:12.750048",
+      "cooldownExpiresAt": "2026-06-30T11:59:20.777480",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1171345_20260616_115847.png",
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "analysis": {
+        "targetAudience": "中小企业主、市场营销人员和独立创作者，需要定期发送邮件通讯但缺乏设计资源",
+        "useCases": [
+          "用自然语言描述快速生成品牌风格的邮件模板",
+          "自动扫描网站提取品牌色彩和风格",
+          "AI 生成邮件内容文案",
+          "自动化邮件序列和触发条件设置",
+          "A/B 测试优化打开率和点击率"
+        ],
+        "designIntent": "邮件营销是中小企业最常用但也最费时的营销手段之一。EmailFlow.AI 让非设计人员也能快速产出专业级邮件通讯，降低邮件营销的执行门槛。",
+        "problemSolved": "传统邮件营销需要设计师制作模板、文案撰写内容、运营配置发送流程，协作成本高。EmailFlow.AI 将设计、内容和发送整合为一个 AI 驱动的流程。",
+        "tags": [
+          "AI邮件设计",
+          "营销自动化",
+          "内容生成"
+        ],
+        "score": 7,
+        "scoreReason": "将 AI 能力融入邮件营销全流程，从设计到发送一站式解决。对中小企业和独立创作者有很强的实用价值。但邮件营销赛道竞争激烈，需观察实际效果。",
+        "competitors": [
+          {
+            "name": "Mailchimp",
+            "url": "https://mailchimp.com/",
+            "comparison": "传统邮件营销平台，模板设计需手动操作，AI 能力有限"
+          },
+          {
+            "name": "Beehiiv",
+            "url": "https://www.beehiiv.com/",
+            "comparison": "Newsletter 平台，侧重订阅管理，邮件设计仍需较多手动调整"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "totalMentions": 1
+      }
+    },
+    {
+      "id": "hackernews.dirac-app",
+      "name": "Dirac",
+      "slug": "dirac",
+      "description": "面向创业者的 AI 邮件助手。自动读取收件箱、学习你的写作风格，每天早上推送摘要、优先级排序和已拟好的回复草稿，让你从邮件焦虑中解放出来。",
+      "url": "https://www.dirac.app/",
+      "homepage": "https://www.dirac.app/",
+      "type": "app",
+      "tags": [
+        "AI邮件管理",
+        "创业者工具",
+        "邮件摘要",
+        "自动草稿"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=dirac",
+      "firstSeen": "2026-06-16T11:58:12.750048",
+      "cooldownExpiresAt": "2026-06-30T11:59:20.777480",
+      "screenshotUrl": "assets/screenshots/hackernews.dirac-app_20260616_115856.png",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/74/3c/1b/743c1b73-9a0f-4635-665d-029757dae5b9/4d7c1f33-2838-4536-8dd0-858dc216476e_AppStore_iPhone_5.5_Bilder_1242x2208px_1.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/7d/d5/5b/7dd55b3b-8117-bac4-881e-aca47a012fab/29e5b955-1d26-4626-9439-1490106b35aa_AppStore_iPhone_5.5_Bilder_1242x2208px_2.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/45/37/c9/4537c9fb-97ec-eb66-e998-e01d69b17110/620091fd-9b54-41d9-af1e-e968fbe44019_AppStore_iPhone_5.5_Bilder_1242x2208px_3.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/be/31/06/be310600-ca39-4250-8da1-a0e3117d705c/83d19f13-2c20-4af3-bbd5-758dfcb286d9_AppStore_iPhone_5.5_Bilder_1242x2208px_4.png/392x696bb.png"
+      ],
+      "appStoreName": "Dirac Live",
+      "appStoreUrl": "https://apps.apple.com/us/app/dirac-live/id1439901949?uo=4",
+      "analysis": {
+        "targetAudience": "每天被大量邮件淹没的创业者、自由职业者和小型团队负责人",
+        "useCases": [
+          "每天早上获取收件箱智能摘要和优先级排序",
+          "AI 学习你的写作风格后自动起草回复",
+          "快速浏览邮件要点而无需逐封阅读",
+          "自动识别需要立即处理的重要邮件",
+          "批量处理低优先级邮件（归档、简单回复）"
+        ],
+        "designIntent": "创业者每天花大量时间处理邮件，但大部分邮件不需要深度阅读。Dirac 通过 AI 理解邮件内容和用户偏好，将邮件处理从被动响应变为主动管理。",
+        "problemSolved": "邮件过载是知识工作者的普遍痛点。Dirac 的 Morning Brief 功能让用户在几分钟内了解全天邮件要点，AI 草稿功能将回复效率提升数倍。",
+        "tags": [
+          "AI邮件助手",
+          "创业者效率",
+          "智能摘要"
+        ],
+        "score": 7,
+        "scoreReason": "精准切入创业者邮件焦虑的痛点，Morning Brief 概念实用且差异化明显。但邮件隐私是敏感话题，用户信任建立需要时间。",
+        "competitors": [
+          {
+            "name": "Superhuman",
+            "url": "https://superhuman.com/",
+            "comparison": "高端邮件客户端，侧重速度和快捷操作，AI 能力不如 Dirac 深入"
+          },
+          {
+            "name": "Shortwave",
+            "url": "https://www.shortwave.com/",
+            "comparison": "AI 邮件客户端，功能类似但 Dirac 更聚焦创业者场景"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "totalMentions": 1
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1170372",
+      "name": "NomNak",
+      "slug": "nomnak",
+      "description": "通过朋友推荐找餐厅的社交美食应用。保存想去的餐厅、分享吃过的美食、建立个人美食护照。朋友的地图就是你最好的餐厅指南。",
+      "url": "https://www.nomnak.com/",
+      "homepage": "https://www.nomnak.com/",
+      "type": "app",
+      "tags": [
+        "社交美食",
+        "餐厅推荐",
+        "朋友分享",
+        "美食地图"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1170372",
+      "firstSeen": "2026-06-16T11:58:12.750048",
+      "cooldownExpiresAt": "2026-06-30T11:59:20.777480",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1170372_20260616_115904.png",
+      "appStoreScreenshots": [],
+      "appStoreName": "NomNak",
+      "appStoreUrl": "https://apps.apple.com/us/app/nomnak/id6771077168?uo=4",
+      "analysis": {
+        "targetAudience": "喜欢探索美食的年轻人、经常出差旅行需要找当地好餐厅的人",
+        "useCases": [
+          "查看朋友去过并推荐的餐厅",
+          "分享自己的美食体验和照片",
+          "出差或旅行时通过朋友地图发现当地美食",
+          "建立个人美食收藏夹和美食护照",
+          "对餐厅给出 Love/Ok/Skip 评价帮助朋友决策"
+        ],
+        "designIntent": "大众点评等平台的匿名评价难以建立信任，而朋友的真实推荐往往更可靠。NomNak 将社交关系引入餐厅发现，让找餐厅变成一种社交体验。",
+        "problemSolved": "传统餐厅推荐依赖陌生人评分，信息真假难辨。NomNak 通过朋友的真实用餐体验和照片提供更可信的推荐，降低「踩雷」概率。",
+        "tags": [
+          "社交美食",
+          "餐厅发现",
+          "朋友推荐"
+        ],
+        "score": 6,
+        "scoreReason": "社交推荐找餐厅的思路有差异化，朋友背书比匿名评分更可信。但冷启动难度大——需要足够多的朋友在平台上才有价值。App 已上架 App Store。",
+        "competitors": [
+          {
+            "name": "大众点评",
+            "url": "https://www.dianping.com/",
+            "comparison": "国内最大的餐厅评价平台，但依赖陌生人评分，信息可信度参差不齐"
+          },
+          {
+            "name": "Yelp",
+            "url": "https://www.yelp.com/",
+            "comparison": "海外主流餐厅评价平台，同样面临虚假评价问题，缺乏社交推荐机制"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "totalMentions": 1
+      }
     }
   ],
   "tracking": {
