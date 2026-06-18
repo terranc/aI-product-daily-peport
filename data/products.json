@@ -12058,6 +12058,286 @@
         "source": "producthunt",
         "source_url": "https://www.producthunt.com/products/peak-see-what-your-kids-are-texting"
       }
+    },
+    {
+      "id": "tw_2046351272182227212",
+      "name": "Serus",
+      "slug": "serus",
+      "description": "暗网数据扫描工具，可扫描超过1000亿条暗网记录，查找泄露的个人信息",
+      "url": "https://x.com/serus_ai/status/2046351272182227212",
+      "homepage": "https://x.com/serus_ai/status/2046351272182227212",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/tw_2046351272182227212_20260618_132824.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "安全",
+        "暗网",
+        "数据保护",
+        "隐私"
+      ],
+      "sourceChannels": [
+        "twitter"
+      ],
+      "sourceUrl": "https://x.com/serus_ai/status/2046351272182227212",
+      "firstSeen": "2026-06-18T13:29:36.042323",
+      "analysis": {
+        "targetAudience": "关注个人信息安全的普通用户和企业安全团队",
+        "useCases": [
+          "检查个人账号是否在暗网泄露",
+          "监控企业敏感信息泄露",
+          "安全事件响应和取证",
+          "隐私保护评估"
+        ],
+        "designIntent": "帮助用户主动发现个人信息在暗网的泄露情况，提供及时的安全预警，让用户能够采取措施保护自己的数字身份。",
+        "problemSolved": "解决个人信息泄露后用户无法主动发现的问题，通过AI技术自动扫描海量暗网数据，提供精准的泄露检测服务。",
+        "tags": [
+          "安全",
+          "暗网",
+          "数据保护",
+          "隐私"
+        ],
+        "score": 7,
+        "scoreReason": "产品定位清晰，解决真实的安全需求，但市场相对小众，且依赖暗网数据的持续更新和准确性。",
+        "competitors": [
+          {
+            "name": "Have I Been Pwned",
+            "url": "https://haveibeenpwned.com/",
+            "comparison": "主要检查公开数据泄露，不涉及暗网"
+          },
+          {
+            "name": "SpyCloud",
+            "url": "https://spycloud.com/",
+            "comparison": "企业级暗网监控，价格较高"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-07-02T13:29:36.048464"
+    },
+    {
+      "id": "tw_2067039941960327204",
+      "name": "baoyu-design",
+      "slug": "baoyu-design",
+      "description": "基于 Claude Design 的本地动画视频生成工具，可导出 MP4 格式",
+      "url": "https://x.com/dotey/status/2067039941960327204",
+      "homepage": "https://x.com/dotey/status/2067039941960327204",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/tw_2067039941960327204_20260618_132833.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "视频生成",
+        "动画",
+        "AI创作",
+        "本地工具"
+      ],
+      "sourceChannels": [
+        "twitter"
+      ],
+      "sourceUrl": "https://x.com/dotey/status/2067039941960327204",
+      "firstSeen": "2026-06-18T13:29:36.042335",
+      "analysis": {
+        "targetAudience": "内容创作者、自媒体运营者、视频制作爱好者",
+        "useCases": [
+          "生成社交媒体动画视频",
+          "制作产品演示动画",
+          "创建教育内容动画",
+          "个人创意视频制作"
+        ],
+        "designIntent": "让普通用户能够通过提示词在本地生成高质量的动画视频，解决Claude Design网页版无法下载视频的问题。",
+        "problemSolved": "解决AI生成动画视频后无法下载和本地保存的问题，提供更便捷的视频创作工作流。",
+        "tags": [
+          "视频生成",
+          "动画",
+          "AI创作",
+          "本地工具"
+        ],
+        "score": 8,
+        "scoreReason": "填补了AI动画视频生成后无法本地保存的空白，实用性高，但依赖Claude Design的更新和稳定性。",
+        "competitors": [
+          {
+            "name": "Runway",
+            "url": "https://runwayml.com/",
+            "comparison": "云端视频生成，需要付费，但功能更全面"
+          },
+          {
+            "name": "Pika",
+            "url": "https://pika.art/",
+            "comparison": "AI视频生成平台，但不支持本地导出"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-07-02T13:29:36.048478"
+    },
+    {
+      "id": "tw_2067132501051756638",
+      "name": "微信支付 AI 专属卡",
+      "slug": "wechat-pay-ai-card",
+      "description": "微信支付推出的AI专属卡功能，将AI能力融入支付场景",
+      "url": "https://x.com/Fenng/status/2067132501051756638",
+      "homepage": "https://x.com/Fenng/status/2067132501051756638",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/tw_2067132501051756638_20260618_132841.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "支付",
+        "AI",
+        "金融科技",
+        "微信"
+      ],
+      "sourceChannels": [
+        "twitter"
+      ],
+      "sourceUrl": "https://x.com/Fenng/status/2067132501051756638",
+      "firstSeen": "2026-06-18T13:29:36.042338",
+      "analysis": {
+        "targetAudience": "微信支付用户、金融科技爱好者、AI应用探索者",
+        "useCases": [
+          "AI辅助的智能支付体验",
+          "个性化金融服务推荐",
+          "AI驱动的消费分析",
+          "智能理财助手"
+        ],
+        "designIntent": "将AI能力深度融入支付场景，为用户提供更智能、个性化的金融服务体验。",
+        "problemSolved": "解决传统支付工具缺乏智能化和个性化的问题，让AI真正服务于用户的日常金融生活。",
+        "tags": [
+          "支付",
+          "AI",
+          "金融科技",
+          "微信"
+        ],
+        "score": 9,
+        "scoreReason": "背靠微信生态，用户基数大，AI与支付的结合具有创新性，市场潜力巨大。",
+        "competitors": [
+          {
+            "name": "支付宝",
+            "url": "https://www.alipay.com/",
+            "comparison": "也在探索AI支付功能，但尚未推出类似专属卡"
+          },
+          {
+            "name": "Apple Pay",
+            "url": "https://www.apple.com/apple-pay/",
+            "comparison": "支付体验好，但缺乏AI智能化功能"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-07-02T13:29:36.048481"
+    },
+    {
+      "id": "v2ex_1221053",
+      "name": "Brivionix",
+      "slug": "brivionix",
+      "description": "GPT模型池平台，提供GPT-5.5/5.4/5.3等最新模型访问",
+      "url": "https://www.v2ex.com/t/1221053",
+      "homepage": "https://www.v2ex.com/t/1221053",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/v2ex_1221053_20260618_132848.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI模型",
+        "GPT",
+        "API服务",
+        "开发者工具"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "sourceUrl": "https://www.v2ex.com/t/1221053",
+      "firstSeen": "2026-06-18T13:29:36.042340",
+      "analysis": {
+        "targetAudience": "AI开发者、研究人员、需要高性能AI模型的用户",
+        "useCases": [
+          "访问最新GPT模型进行开发",
+          "AI研究和实验",
+          "高性能AI应用开发",
+          "模型性能对比测试"
+        ],
+        "designIntent": "提供一个稳定的GPT模型池，让用户能够便捷地访问最新的AI模型，降低使用门槛。",
+        "problemSolved": "解决用户无法直接访问最新GPT模型的问题，提供更稳定、便捷的API服务。",
+        "tags": [
+          "AI模型",
+          "GPT",
+          "API服务",
+          "开发者工具"
+        ],
+        "score": 6,
+        "scoreReason": "提供有价值的模型访问服务，但属于API中转类服务，创新性有限，且依赖OpenAI的模型更新。",
+        "competitors": [
+          {
+            "name": "OpenAI API",
+            "url": "https://platform.openai.com/",
+            "comparison": "官方API，但可能有访问限制"
+          },
+          {
+            "name": "Anthropic API",
+            "url": "https://www.anthropic.com/",
+            "comparison": "Claude模型API，提供不同模型选择"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-07-02T13:29:36.048483"
+    },
+    {
+      "id": "tw_2066802414787899720",
+      "name": "Redfox",
+      "slug": "redfox",
+      "description": "全网自媒体数据工具，一站式打通11个主流平台的数据分析",
+      "url": "https://x.com/ZMKC404/status/2066802414787899720",
+      "homepage": "https://x.com/ZMKC404/status/2066802414787899720",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/tw_2066802414787899720_20260618_132856.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "自媒体",
+        "数据分析",
+        "内容创作",
+        "多平台"
+      ],
+      "sourceChannels": [
+        "twitter"
+      ],
+      "sourceUrl": "https://x.com/ZMKC404/status/2066802414787899720",
+      "firstSeen": "2026-06-18T13:29:36.042342",
+      "analysis": {
+        "targetAudience": "自媒体创作者、内容运营者、MCN机构",
+        "useCases": [
+          "监控多平台账号数据",
+          "检测热点话题和爆款内容",
+          "内容合规性检查",
+          "竞品分析和数据对比"
+        ],
+        "designIntent": "为自媒体创作者提供一站式的数据分析工具，帮助他们更高效地管理多平台内容和账号。",
+        "problemSolved": "解决自媒体创作者需要在多个平台间切换查看数据的问题，提供统一的数据分析和管理界面。",
+        "tags": [
+          "自媒体",
+          "数据分析",
+          "内容创作",
+          "多平台"
+        ],
+        "score": 8,
+        "scoreReason": "解决自媒体创作者的真实痛点，支持多平台数据整合，API调用成本低，实用性强。",
+        "competitors": [
+          {
+            "name": "新榜",
+            "url": "https://newrank.cn/",
+            "comparison": "国内主流自媒体数据平台，但API调用成本较高"
+          },
+          {
+            "name": "飞瓜数据",
+            "url": "https://www.feigua.cn/",
+            "comparison": "专注于短视频数据分析，平台覆盖相对较少"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-07-02T13:29:36.048484"
     }
   ],
   "tracking": {
