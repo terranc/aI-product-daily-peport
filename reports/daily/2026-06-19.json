@@ -1,0 +1,282 @@
+{
+  "date": "2026-06-19",
+  "generatedAt": "2026-06-19T12:13:10.377681",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "producthunt.com/products/adapt3",
+      "name": "Adapt",
+      "slug": "adapt",
+      "description": "AI 公司大脑，集成 Slack 等工具，自动完成工作任务",
+      "url": "https://adapt.com/",
+      "homepage": "https://adapt.com/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_products_adapt3_20260619_121203.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI办公",
+        "Slack集成",
+        "工作自动化",
+        "公司大脑"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/adapt-3",
+      "firstSeen": "2026-06-19T12:13:10.377681",
+      "analysis": {
+        "targetAudience": "使用 Slack 协作的中小团队和企业，尤其是需要跨工具信息整合的团队",
+        "useCases": [
+          "自动汇总 Slack 中的项目讨论和决策",
+          "跨工具检索公司知识库信息",
+          "自动生成会议纪要和任务分配",
+          "监控多个 SaaS 工具的数据变化并主动汇报"
+        ],
+        "designIntent": "将分散在各个 SaaS 工具中的公司信息统一到一个 AI 大脑中，让团队不再在多个工具间反复切换查找信息，AI 主动完成原本需要人工整合的工作。",
+        "problemSolved": "解决团队信息分散在 Slack、邮件、文档等多个工具中，查找和整合信息耗时耗力的问题。Adapt 通过 AI 自动聚合上下文并执行任务，减少重复劳动。",
+        "tags": [
+          "AI办公",
+          "Slack集成",
+          "工作自动化",
+          "公司大脑"
+        ],
+        "score": 8,
+        "scoreReason": "定位清晰，解决了团队信息碎片化的刚需；Slack 集成降低了使用门槛；PH 124 票说明社区认可度高。但竞品较多（Notion AI、Coda AI），需要看实际执行效果。",
+        "competitors": [
+          {
+            "name": "Notion AI",
+            "url": "https://www.notion.so/product/ai",
+            "comparison": "Notion AI 更侧重文档协作，Adapt 更侧重跨工具信息聚合和任务执行"
+          },
+          {
+            "name": "Coda AI",
+            "url": "https://coda.io/product",
+            "comparison": "Coda 偏向文档和数据库构建，Adapt 更偏向自动化工作流"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/products/voiceos",
+      "name": "VoiceOS",
+      "slug": "voiceos",
+      "description": "语音操控电脑的 AI 操作系统，像 JARVIS 一样用语音完成工作",
+      "url": "https://www.voiceos.com/",
+      "homepage": "https://www.voiceos.com/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_products_voiceos_20260619_121211.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "语音助手",
+        "桌面自动化",
+        "AI操作",
+        "效率工具"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/voiceos",
+      "firstSeen": "2026-06-19T12:13:10.377681",
+      "analysis": {
+        "targetAudience": "需要高效操控电脑的办公人员、内容创作者、以及追求 JARVIS 体验的科技爱好者",
+        "useCases": [
+          "用语音发送消息、搜索网页、操控应用",
+          "语音控制电脑完成多步骤工作流",
+          "免键盘输入进行文档编辑和邮件撰写",
+          "语音自动化日常重复操作（打开应用、切换窗口等）"
+        ],
+        "designIntent": "打造真正的语音操作系统，让用户通过自然语言直接操控 Mac 和 Windows 电脑，消除应用间切换的摩擦，最大化专注力和生产力。",
+        "problemSolved": "解决传统语音助手只能执行简单指令的局限，提供能够理解复杂意图并执行跨应用工作流的桌面级语音操控能力。",
+        "tags": [
+          "语音助手",
+          "桌面自动化",
+          "AI操作",
+          "效率工具"
+        ],
+        "score": 8,
+        "scoreReason": "概念极具吸引力（JARVIS 体验），Mac/Windows 双平台覆盖；但语音操控的准确率和应用场景深度是关键挑战，需要实际体验验证。",
+        "competitors": [
+          {
+            "name": "Apple Siri",
+            "url": "https://www.apple.com/siri/",
+            "comparison": "Siri 仅限 Apple 生态且功能有限，VoiceOS 覆盖 Mac+Windows 且支持复杂工作流"
+          },
+          {
+            "name": "Microsoft Copilot",
+            "url": "https://copilot.microsoft.com/",
+            "comparison": "Copilot 偏向内容生成，VoiceOS 偏向系统操控和自动化"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/products/audiencecue",
+      "name": "AudienceCue",
+      "slug": "audiencecue",
+      "description": "将 YouTube 评论转化为带引用的洞察报告，AI 分析受众情感和内容创意",
+      "url": "https://www.producthunt.com/products/audiencecue",
+      "homepage": "https://www.producthunt.com/products/audiencecue",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_products_audiencecue_20260619_121219.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "YouTube分析",
+        "受众洞察",
+        "内容创作",
+        "AI报告"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/audiencecue",
+      "firstSeen": "2026-06-19T12:13:10.377681",
+      "analysis": {
+        "targetAudience": "YouTube 内容创作者、品牌营销团队、社交媒体运营者",
+        "useCases": [
+          "分析视频评论区的受众情感倾向",
+          "从评论中挖掘内容创意和用户需求",
+          "生成带引用来源的受众洞察报告",
+          "监控频道/播放列表的用户反馈趋势"
+        ],
+        "designIntent": "帮助创作者和营销人员从海量 YouTube 评论中提取有价值的洞察，通过 AI 自动生成结构化报告，让受众理解不再依赖人工逐条阅读。",
+        "problemSolved": "解决 YouTube 创作者面对海量评论无法高效提取洞察的问题，通过 AI 自动分析评论情感、提取关键信息，并生成可分享的洞察报告。",
+        "tags": [
+          "YouTube分析",
+          "受众洞察",
+          "内容创作",
+          "AI报告"
+        ],
+        "score": 7,
+        "scoreReason": "解决了内容创作者的真实痛点，评论分析+引用溯源的设计很实用；但市场规模受限于 YouTube 生态，且竞品（Viral Ideas 等）已有类似功能。",
+        "competitors": [
+          {
+            "name": "Viral Ideas",
+            "url": "https://viralideas.io/",
+            "comparison": "Viral Ideas 更侧重内容创意生成，AudienceCue 更侧重评论深度分析和报告"
+          },
+          {
+            "name": "Mine My Reviews",
+            "url": "https://minemyreviews.com/",
+            "comparison": "Mine My Reviews 覆盖多平台评论，AudienceCue 专注 YouTube 生态"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/products/clawease",
+      "name": "ClawEase",
+      "slug": "clawease",
+      "description": "AI 商业运营助手，自动处理客户咨询、预约确认，支持电话/WhatsApp/网页",
+      "url": "https://www.producthunt.com/products/clawease",
+      "homepage": "https://www.producthunt.com/products/clawease",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_products_clawease_20260619_121227.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI客服",
+        "预约管理",
+        "小企业",
+        "多渠道"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/clawease",
+      "firstSeen": "2026-06-19T12:13:10.377681",
+      "analysis": {
+        "targetAudience": "诊所、美容院、健身房等需要预约服务的小型企业主",
+        "useCases": [
+          "自动接听电话并处理预约请求",
+          "通过 WhatsApp 自动回复客户咨询",
+          "实时检查可用时段并完成预约确认",
+          "跨渠道统一管理客户预约信息"
+        ],
+        "designIntent": "为小型服务企业提供一个 AI 驱动的全能运营助手，自动处理客户咨询和预约流程，让企业主从繁琐的电话和消息回复中解放出来。",
+        "problemSolved": "解决小型服务企业（诊所、美容院等）人工处理预约电话和消息耗时耗力的问题，通过 AI 自动化多渠道预约流程，减少漏单和错单。",
+        "tags": [
+          "AI客服",
+          "预约管理",
+          "小企业",
+          "多渠道"
+        ],
+        "score": 7,
+        "scoreReason": "精准切入小企业预约管理的刚需场景，多渠道（电话/WhatsApp/网页）覆盖是亮点；但需要验证 AI 在预约场景中的对话质量和客户接受度。",
+        "competitors": [
+          {
+            "name": "Calendly",
+            "url": "https://calendly.com/",
+            "comparison": "Calendly 是自助预约工具，ClawEase 是 AI 主动代为处理预约的全托管方案"
+          },
+          {
+            "name": "My AI Front Desk",
+            "url": "https://www.myaifrontdesk.com/",
+            "comparison": "My AI Front Desk 偏向电话应答，ClawEase 覆盖电话+WhatsApp+网页多渠道"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/products/dopami",
+      "name": "Dopami",
+      "slug": "dopami",
+      "description": "AI 驱动的 ADHD 家务管理应用，根据能量和紧迫度智能排列任务",
+      "url": "https://www.dopami.app/",
+      "homepage": "https://www.dopami.app/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_products_dopami_20260619_121234.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "ADHD",
+        "家务管理",
+        "AI任务",
+        "心理健康"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/dopami",
+      "firstSeen": "2026-06-19T12:13:10.377681",
+      "analysis": {
+        "targetAudience": "ADHD 人群及其家人，需要家务管理辅助的成年人",
+        "useCases": [
+          "根据当前能量水平推荐最合适的家务任务",
+          "将模糊的大任务拆分为可执行的小步骤",
+          "智能排序家务优先级（能量/时间/紧迫度/影响）",
+          "减少做家务时的心理负担和决策疲劳"
+        ],
+        "designIntent": "专为 ADHD 人群设计的家务管理应用，通过 AI 算法根据用户的能量状态和任务属性智能推荐最合适的家务，消除'不知道该做什么'的心理负担。",
+        "problemSolved": "解决 ADHD 人群面对家务时的决策疲劳和启动困难，通过 AI 智能排序和拆分任务，让用户在合适的能量状态下完成合适的家务。",
+        "tags": [
+          "ADHD",
+          "家务管理",
+          "AI任务",
+          "心理健康"
+        ],
+        "score": 7,
+        "scoreReason": "精准切入 ADHD 人群的真实痛点，AI 根据能量状态推荐任务的设计很有创意；但目标用户群相对小众，需要验证算法在实际场景中的有效性。",
+        "competitors": [
+          {
+            "name": "Tiimo",
+            "url": "https://www.tiimo.app/",
+            "comparison": "Tiimo 是通用的 ADHD 日程管理工具，Dopami 专注家务场景且有能量感知算法"
+          },
+          {
+            "name": "Sweepy",
+            "url": "https://sweepyapp.com/",
+            "comparison": "Sweepy 是家庭家务分配工具，没有针对 ADHD 的特殊设计和 AI 智能排序"
+          }
+        ]
+      }
+    }
+  ]
+}

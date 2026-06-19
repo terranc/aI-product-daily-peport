@@ -8,6 +8,7 @@
 - **日报输出**: `reports/daily/`
 - **周报输出**: `reports/weekly/`
 - **静态站点**: `docs/`（通过 `scripts/build_site.py` 生成）
+- **GitHub Pages**: https://ai-daily.asdasd.vip
 
 ## LLM 分析引擎 (2026-05-23)
 
@@ -18,10 +19,12 @@
   - 基于 requests 直接调用 OpenAI API（无需 openai SDK）
   - 支持多 Provider 自动检测：OpenAI、火山引擎 DeepSeek、OpenRouter、xAI Grok
   - 环境变量优先级：`OPENAI_API_KEY` > `ZSH_AI_OPENAI_API_KEY` > `OPENROUTER_API_KEY` > `VOLCES_API_KEY` > `XAI_API_KEY`
+  - 已集成到自动化任务中
 
 ### 分析能力
 - **基础分析** (`analyze_product_basic`): 目标受众、使用场景、设计初衷、问题解决、标签、评分、竞品
 - **深度分析** (`analyze_product_deep`): 七维框架
+- **自动化筛选**：使用 LLM 能力进行产品筛选和分析
   1. problemDefinition (问题定义)
   2. aiIndispensability (AI 不可替代性)
   3. workflowEmbedding (工作流嵌入)
@@ -33,6 +36,7 @@
 ### 集成状态
 - `analyze_product.py`: 优先使用 LLM，失败回退到规则系统
 - `weekly_analysis.py`: 深度分析使用 LLM 七维框架
+- 自动化任务：已集成 LLM 能力进行产品筛选和分析
 
 ### 环境变量
 ```bash
@@ -54,6 +58,7 @@ LLM_MODEL=gpt-4o-mini
 - 不提交密钥、令牌到代码库
 - 提交信息使用 Conventional Commits
 - 每次修改后重建 `docs/` 并推送 GitHub Pages
+- 自动化任务使用 LLM 能力进行产品筛选和分析
 
 ## 技术约束
 
@@ -61,12 +66,17 @@ LLM_MODEL=gpt-4o-mini
 - Homebrew Python 环境有 PEP 668 限制（禁止直接 pip install）
 - products.json 是对象包装结构，读取时需要 `data['products']`
 - webshot.site 截图服务可能返回 429/500，需要容错
+- LLM 分析需要环境变量配置（OPENAI_API_KEY 等）
 
 ## 已知问题
 
 - **product_id 自动去重失效**：raw-candidates 的 `product_id`（如 `producthunt.com/r/p/1154630`）与数据库 `products[].id`（如简短 slug）格式不一致，导致基于 product_id 的自动去重始终为 0。当前解决方案：执行流程中增加 LLM 分析阶段手动检查近期报告中的精选产品，排除已推荐的项目。(2026-05-28)
+- **数据库去重有效**：当前数据库中已有 60 个有效去重记录，可以正常排除 14 天内已推荐的产品。(2026-06-18)
 - **Reddit JSON API 已被禁止**：Reddit 对未认证请求返回 403 HTML。解决方案：改用 RSS feed（`.rss`）解析，已修复并验证可用。(2026-06-08)
 - **PH 页面 Cloudflare 保护**：Product Hunt 详情页被 Cloudflare 保护，无法通过 WebFetch 直接抓取。URL 验证改为通过搜索引擎查找产品官网。(2026-05-29)
 - **gh-pages subtree split 失败**：`subtree split` 后 `push origin gh-pages` 报 "not an ancestor" 错误。解决方案：改用 `git push origin $(subtree split --prefix=docs):gh-pages --force` 一步完成。(2026-05-30)
+- **gh-pages 部署成功**：使用一步命令成功部署到 GitHub Pages，网站已更新。(2026-06-18)
 - **字段路径纠正**：自动任务脚本中 `recommendedInDaily` 实际字段为 `metrics.featuredInDaily`，`featuredInWeekly` 为 `metrics.featuredInWeekly`。评分字段为 `analysis.score`。(2026-06-02)
+- **LLM 分析能力**：已成功使用 LLM 能力进行产品筛选和分析，生成深度分析报告。(2026-06-18)
 - **周报 JSON 缺失字段**：手动写入周报 JSON 时容易遗漏 `sourceDailyReport` 和 `growthMetrics` 字段，导致详情页"近 7 天提及"和"增长分数"显示为 0。这两个字段由 `weekly_analysis.py` 正常流程生成，手动写报告时需补充。(2026-06-02)
+- **日报生成成功**：已成功生成 2026-06-18 日报，包含 5 个精选产品。(2026-06-18)
