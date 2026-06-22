@@ -1,5 +1,15 @@
 # AI Product Radar - 自动化任务记忆
 
+## 2026-06-22 执行摘要
+- 抓取 184 个候选（Twitter 50、V2EX 39、HN 30、Reddit 15、PH 50）
+- 数据库去重 0 个（所有候选产品均为新发现）
+- 过滤技术性产品 61 个，非产品内容 4 个
+- LLM 精选 TOP 5：Adapt（8分）、WorkClaw（8分）、Pixlie（7分）、Mutter AI Dictation（7分）、CADAM（7分）
+- 4/5 张截图成功（Adapt 截图失败）
+- 已部署到 GitHub Pages（main + gh-pages）
+- 产品数据库更新至 217 个产品
+- 使用 LLM 能力进行产品筛选和分析
+
 ## 2026-06-19 执行摘要
 - 抓取 65 个候选（Reddit 15、Product Hunt 50），HN/Twitter/V2EX 因网络问题未获取
 - 数据库去重 1 个，过滤技术性产品 21 个

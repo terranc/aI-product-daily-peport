@@ -1,0 +1,72 @@
+{
+  "date": "2026-06-22",
+  "generatedAt": "2026-06-22T04:27:04.165136+00:00",
+  "productCount": 1,
+  "products": [
+    {
+      "id": "producthunt.com/r/p/1166749",
+      "name": "Juno",
+      "slug": "juno",
+      "description": "AI 慢性病健康伴侣，由 YC P26 孵化，为全球 10 亿+ 慢性病患者提供语音对话式症状追踪、模式识别、发作预警和就医报告生成。基于牛津大学和 UCL 的医学研究，已覆盖 12.5 万患者，月经常性收入 $80K+。",
+      "url": "https://junocompanion.com/",
+      "homepage": "https://junocompanion.com/",
+      "type": "app",
+      "tags": [
+        "AI健康",
+        "慢性病管理",
+        "症状追踪",
+        "医疗AI",
+        "语音交互",
+        "数字健康"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/juno-13",
+      "firstSeen": "2026-06-12T04:00:20.149860+00:00",
+      "analysis": {
+        "targetAudience": "全球 10 亿+ 慢性病患者，特别是纤维肌痛、POTS、ME/CFS、子宫内膜异位症、狼疮、多发性硬化症等复杂慢性病患者",
+        "useCases": [
+          "日常语音对话记录症状，无需手动打字",
+          "AI 自动识别症状模式和触发因素",
+          "生成专业就医报告 PDF，提前给医生看",
+          "能量管理和 pace 调度，预防慢性病发作",
+          "长期健康数据纵向分析，缩短诊断路径"
+        ],
+        "designIntent": "为慢性病患者提供一个真正理解他们日常痛苦的 AI 伴侣。不同于通用健康 App，Juno 专注于慢性病这一被严重忽视的领域，通过 AI 理解和追踪复杂的症状模式。",
+        "problemSolved": "慢性病患者面临诊断难（平均 7.6 年）、日常管理复杂、就医时 15 分钟要解释数年症状等问题。Juno 通过 AI 每日对话积累纵向健康数据，自动生成就医报告，让患者感到被理解和支持。",
+        "score": 9,
+        "scoreReason": "精准切入全球 10 亿+ 慢性病患者的巨大市场，YC Spring 2026 孵化，2 人团队做到 12.5 万用户和 $80K+ MRR。基于牛津和 UCL 的医学研究，1000+ 患者深度访谈打磨产品。语音交互设计完美适配慢性病脑雾症状。9000+ App Store 五星评价验证产品价值。可穿戴设备集成路线图打开增长空间。",
+        "competitors": [
+          {
+            "name": "Bearable",
+            "url": "https://bearable.app/",
+            "comparison": "传统症状追踪器，手动记录为主，缺乏 AI 对话和纵向分析能力"
+          },
+          {
+            "name": "Hello Heart / Nia",
+            "url": "https://www.helloheart.com/",
+            "comparison": "专注心血管疾病 AI 助手，覆盖面窄，Juno 支持 10+ 种慢性病"
+          },
+          {
+            "name": "K Health",
+            "url": "https://khealth.com/",
+            "comparison": "面向医生端的 AI 工具，Juno 直接服务患者端，更注重日常陪伴"
+          },
+          {
+            "name": "Curable",
+            "url": "https://www.curable.health/",
+            "comparison": "基于认知行为疗法的慢性疼痛管理，Juno 更侧重 AI 数据分析和就医辅助"
+          }
+        ]
+      },
+      "weeklyDeepDive": {
+        "growthData": "2026年2月：2万下载；4月：5万用户+200万对话；5月：8万用户+$50K MRR；6月：12.5万患者+$80K+ MRR。6个月增长 6.25 倍，主要靠有机内容驱动。",
+        "communityActivity": "App Store 9000+ 五星评价，Reddit r/chronicillness 社区活跃讨论，Product Hunt 两次 launch（2月和6月），YC 官方 launch page。创始人 Isaac Tolley 和 Marshall Gould 在 LinkedIn 活跃分享增长数据。",
+        "updateFrequency": "2025年10月首发，2026年2月第二次 PH launch，6月第三次 PH launch（v2.0）。产品迭代频繁，已集成可穿戴设备数据接入。",
+        "marketPosition": "全球慢性病管理市场巨大（CDC 数据：3/4 美国成人有至少一种慢性病），但 AI 伴聊+数据追踪的细分赛道竞争者稀少。Juno 是目前唯一将语音 AI + 纵向健康档案 + 就医报告生成三合一的产品。",
+        "differentiation": "1. 语音交互适配脑雾症状；2. 基于 1000+ 患者访谈的 Spoon Theory/Pacing 设计；3. 纵向健康档案自动生成就医 PDF；4. 牛津+UCL 医学研究背书；5. 2 人团队做到 12.5 万用户，极高的运营效率。"
+      }
+    }
+  ]
+}
