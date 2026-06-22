@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-06-19T12:13:10.377681",
+  "lastUpdated": "2026-06-22T04:01:34.091738Z",
   "products": [
     {
       "id": "dafa9686fbe1",
@@ -12742,6 +12742,291 @@
         "source": "producthunt",
         "source_url": "https://www.producthunt.com/products/dopami",
         "description": "AI 驱动的 ADHD 家务管理应用，根据能量和紧迫度智能排列任务"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1174117",
+      "name": "Adapt - 企业智能大脑",
+      "slug": "adapt",
+      "description": "为企业打造的 AI 智能大脑，连接所有工具，统一企业知识，让 AI 代理基于公司上下文进行推理和行动。",
+      "url": "https://adapt.com",
+      "homepage": "https://adapt.com",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "企业AI",
+        "知识管理",
+        "AI代理",
+        "团队协作",
+        "智能办公"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/posts/1174117",
+      "firstSeen": "2026-06-22T04:01:34.091649Z",
+      "cooldownExpiresAt": "2026-07-06T04:01:34.091299Z",
+      "analysis": {
+        "targetAudience": "企业团队、知识工作者、需要统一企业信息的公司",
+        "useCases": [
+          "企业知识库统一管理，让所有员工和AI代理共享公司知识",
+          "AI代理基于企业上下文自动执行工作任务",
+          "跨工具数据整合，打破信息孤岛",
+          "新员工入职时快速获取公司知识",
+          "自动化重复性办公任务"
+        ],
+        "designIntent": "打造一个连接企业所有工具的统一知识层，让AI能够理解公司上下文并自主执行工作，解决企业信息分散、知识无法有效利用的问题。",
+        "problemSolved": "解决企业内部信息孤岛问题，让分散在不同工具中的知识能够被AI统一理解和利用，提高团队协作效率和决策质量。",
+        "score": 8,
+        "scoreReason": "产品定位清晰，解决企业知识管理的实际痛点，将AI能力融入现有工作流程，具有明确的商业价值。但需要深入了解企业现有工具栈的集成深度。",
+        "competitors": [
+          {
+            "name": "Notion AI",
+            "url": "https://notion.so",
+            "comparison": "Notion AI 更侧重于文档协作，而 Adapt 更强调跨工具知识整合和AI代理自主行动。"
+          },
+          {
+            "name": "Glean",
+            "url": "https://glean.com",
+            "comparison": "Glean 专注于企业搜索，Adapt 则更进一步，让AI能够基于知识自主执行任务。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-06-22"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1157988",
+      "name": "WorkClaw - Slack AI 协作助手",
+      "slug": "workclaw",
+      "description": "在 Slack 中工作的协作型、主动型 AI 同事，能够研究、编写代码、提交 PR 并协调整个团队。",
+      "url": "https://www.workclaw.com",
+      "homepage": "https://www.workclaw.com",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/ph_workclaw_20260622_120034.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "团队协作",
+        "AI助手",
+        "Slack集成",
+        "自动化",
+        "开发工具"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/posts/1157988",
+      "firstSeen": "2026-06-22T04:01:34.091673Z",
+      "cooldownExpiresAt": "2026-07-06T04:01:34.091299Z",
+      "analysis": {
+        "targetAudience": "使用 Slack 的开发团队、产品经理、需要自动化协作流程的团队",
+        "useCases": [
+          "AI 自动研究问题并提供解决方案",
+          "自动生成代码并提交 PR",
+          "协调团队成员的工作任务",
+          "自动化日常团队沟通和任务分配",
+          "实时监控项目进度并提供洞察"
+        ],
+        "designIntent": "打造一个真正融入团队工作流程的AI同事，不是简单的聊天机器人，而是能够主动工作、承担责任的团队成员。",
+        "problemSolved": "解决团队协作中的信息过载和重复性工作问题，让AI承担部分协调和执行工作，释放人类专注于创造性任务。",
+        "score": 8,
+        "scoreReason": "产品概念新颖，将AI定位为团队成员而非工具，解决了团队协作的实际痛点。Slack集成降低了使用门槛，但需要验证AI代理的可靠性和安全性。",
+        "competitors": [
+          {
+            "name": "GitHub Copilot",
+            "url": "https://github.com/features/copilot",
+            "comparison": "Copilot 专注于代码生成，WorkClaw 则覆盖更广泛的团队协作场景。"
+          },
+          {
+            "name": "Slack AI",
+            "url": "https://slack.com/ai",
+            "comparison": "Slack AI 是 Slack 官方的AI功能，WorkClaw 则提供更深度的代理能力和跨工具集成。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-06-22"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1176012",
+      "name": "Pixlie - AI 视频工作室",
+      "slug": "pixlie",
+      "description": "AI 视频工作室：文本和图像转视频，提供真正的控制能力，不仅仅是点击生成。",
+      "url": "https://apps.apple.com/app/pixlie/id6758238801",
+      "homepage": "https://apps.apple.com/app/pixlie/id6758238801",
+      "type": "app",
+      "appStoreName": "Photica・Live Photo AI Animator",
+      "appStoreUrl": "https://apps.apple.com/us/app/photica-live-photo-ai-animator/id6673907297?uo=4",
+      "screenshotUrl": "assets/screenshots/ph_pixlie_20260622_120045.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "视频创作",
+        "AI生成",
+        "内容创作",
+        "移动端",
+        "创意工具"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/posts/1176012",
+      "firstSeen": "2026-06-22T04:01:34.091692Z",
+      "cooldownExpiresAt": "2026-07-06T04:01:34.091299Z",
+      "analysis": {
+        "targetAudience": "内容创作者、社交媒体运营者、小型企业营销人员、需要快速制作视频的个人",
+        "useCases": [
+          "将文字脚本快速转换为视频内容",
+          "将图片素材转换为动态视频",
+          "制作社交媒体短视频广告",
+          "创建产品演示视频",
+          "制作教育或培训视频"
+        ],
+        "designIntent": "让视频创作变得简单易用，即使没有专业视频编辑技能，也能通过AI快速制作高质量视频，同时提供足够的控制能力满足专业需求。",
+        "problemSolved": "解决传统视频制作门槛高、耗时长的问题，让个人和小团队也能快速制作专业级视频内容。",
+        "score": 7,
+        "scoreReason": "解决了内容创作者的实际痛点，提供了比简单生成工具更多的控制能力。移动端应用便于随时创作，但需要验证生成质量和控制精度。",
+        "competitors": [
+          {
+            "name": "Pika",
+            "url": "https://pika.art",
+            "comparison": "Pika 更侧重于AI视频生成，Pixlie 则强调创作过程中的控制和编辑能力。"
+          },
+          {
+            "name": "CapCut",
+            "url": "https://capcut.com",
+            "comparison": "CapCut 是功能全面的视频编辑工具，Pixlie 则专注于AI驱动的快速视频生成。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-06-22"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1175765",
+      "name": "Mutter AI 听写 - 私密语音转文字",
+      "slug": "mutter-ai-dictation",
+      "description": "私密的 AI 听写工具，支持离线操作，将语音想法直接转化为完成的文稿。",
+      "url": "https://www.muttervoice.com",
+      "homepage": "https://www.muttervoice.com",
+      "type": "app",
+      "appStoreName": "Wispr Flow: AI Voice Keyboard",
+      "appStoreUrl": "https://apps.apple.com/us/app/wispr-flow-ai-voice-keyboard/id6497229487?uo=4",
+      "screenshotUrl": "assets/screenshots/ph_mutter-ai-dictation_20260622_120053.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "语音输入",
+        "隐私保护",
+        "离线工具",
+        "Mac应用",
+        "生产力"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/posts/1175765",
+      "firstSeen": "2026-06-22T04:01:34.091710Z",
+      "cooldownExpiresAt": "2026-07-06T04:01:34.091299Z",
+      "analysis": {
+        "targetAudience": "注重隐私的专业人士、作家、记者、需要语音输入的Mac用户",
+        "useCases": [
+          "通过语音快速记录想法和笔记",
+          "在不方便打字时进行文字输入",
+          "保护敏感信息的语音转文字",
+          "离线环境下的语音输入",
+          "将语音想法直接转化为邮件或文档"
+        ],
+        "designIntent": "提供一个注重隐私的AI听写工具，让用户能够在完全离线的情况下使用语音输入，保护敏感信息不被上传到云端。",
+        "problemSolved": "解决语音输入工具的隐私顾虑，让用户在需要处理敏感信息时也能放心使用语音输入功能。",
+        "score": 7,
+        "scoreReason": "解决了隐私敏感用户的实际需求，离线模式是重要卖点。Mac平台限制了用户范围，但目标用户群体明确。",
+        "competitors": [
+          {
+            "name": "Dragon NaturallySpeaking",
+            "url": "https://nuance.com/dragon.html",
+            "comparison": "Dragon 是专业的语音识别软件，但需要在线服务，Mutter 强调离线隐私。"
+          },
+          {
+            "name": "macOS 原生听写",
+            "url": "https://support.apple.com/guide/mac-help/use-dictation-mh40583/mac",
+            "comparison": "macOS 原生听写功能免费但需要联网，Mutter 提供更好的隐私保护。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-06-22"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1174756",
+      "name": "CADAM - AI 3D 建模工具",
+      "slug": "cadam",
+      "description": "AI 版 Tinkercad，通过自然语言描述生成参数化 3D 模型，支持交互式调整。",
+      "url": "https://adam.new/cadam",
+      "homepage": "https://adam.new/cadam",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/ph_cadam_20260622_120102.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "3D建模",
+        "AI生成",
+        "设计工具",
+        "开源",
+        "CAD"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/posts/1174756",
+      "firstSeen": "2026-06-22T04:01:34.091726Z",
+      "cooldownExpiresAt": "2026-07-06T04:01:34.091299Z",
+      "analysis": {
+        "targetAudience": "3D打印爱好者、设计师、工程师、需要快速创建3D模型的用户",
+        "useCases": [
+          "通过文字描述快速生成3D模型",
+          "将图片转换为3D模型",
+          "参数化调整模型尺寸和细节",
+          "导出标准格式用于3D打印或CAD软件",
+          "教育和原型设计场景"
+        ],
+        "designIntent": "降低3D建模的门槛，让非专业用户也能通过自然语言创建精确的3D模型，同时保持参数化控制能力满足专业需求。",
+        "problemSolved": "解决传统3D建模学习曲线陡峭的问题，让创意想法能够快速转化为可制造的3D模型。",
+        "score": 7,
+        "scoreReason": "开源且面向终端用户，解决了3D建模的实际痛点。支持参数化控制是重要优势，但需要验证生成质量和格式兼容性。",
+        "competitors": [
+          {
+            "name": "Tinkercad",
+            "url": "https://tinkercad.com",
+            "comparison": "Tinkercad 是入门级3D建模工具，CADAM 通过AI进一步降低了使用门槛。"
+          },
+          {
+            "name": "OpenSCAD",
+            "url": "https://openscad.org",
+            "comparison": "OpenSCAD 是参数化建模工具，CADAM 通过自然语言输入提供了更友好的界面。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-06-22"
       }
     }
   ],
