@@ -1,0 +1,310 @@
+{
+  "date": "2026-06-23",
+  "generatedAt": "2026-06-23T03:57:28.326619Z",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "explainnotice.com",
+      "name": "ExplainNotice",
+      "slug": "explainnotice",
+      "description": "AI 账单/通知摘要工具，上传 PDF 或图片即可自动提取关键信息，用简单语言解释复杂的水电账单、医疗账单、保险信函和政府通知。",
+      "url": "https://explainnotice.com",
+      "homepage": "https://explainnotice.com",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/explainnotice.com_20260623_115734.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI文档解析",
+        "生活工具",
+        "账单管理",
+        "隐私保护"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=48638999",
+      "firstSeen": "2026-06-23T03:57:28.326619Z",
+      "analysis": {
+        "targetAudience": "需要处理复杂账单和通知的普通消费者，尤其是对英文账单理解有困难的用户",
+        "useCases": [
+          "解析水电账单，找出隐藏费用和错误扣款",
+          "理解医疗账单中的专业术语和收费项目",
+          "翻译保险信函和政府通知的关键信息",
+          "快速提取截止日期、应付金额等关键字段"
+        ],
+        "designIntent": "很多日常通知（水电账单、医疗账单、保险信函等）对普通人来说难以理解。ExplainNotice 旨在用 AI 帮助用户快速提取关键信息，降低理解门槛。",
+        "problemSolved": "解决了普通人面对复杂英文账单和通知时的理解困难，帮助用户快速掌握关键信息，避免因误解而产生的经济损失。",
+        "tags": [
+          "AI文档解析",
+          "生活工具",
+          "账单管理",
+          "隐私保护"
+        ],
+        "score": 8,
+        "scoreReason": "解决了真实且普遍的痛点——普通人看不懂复杂账单。产品形态简单直接，上传即用，隐私优先。在 AI 文档解析赛道中有明确的用户价值。",
+        "competitors": [
+          {
+            "name": "Explain My Bill",
+            "url": "https://explain-my-bill.com",
+            "comparison": "功能类似但 ExplainNotice 覆盖范围更广，不仅限于账单，还包括保险信函和政府通知"
+          },
+          {
+            "name": "Explains.app",
+            "url": "https://www.explains.app",
+            "comparison": "侧重法律文档解析，ExplainNotice 更偏向日常生活文档"
+          },
+          {
+            "name": "Docsumo",
+            "url": "https://www.docsumo.com",
+            "comparison": "企业级文档处理工具，ExplainNotice 面向个人用户，更轻量"
+          }
+        ]
+      }
+    },
+    {
+      "id": "getalai.com",
+      "name": "Alai 2.0",
+      "slug": "alai-2",
+      "description": "AI 设计伙伴，专注于品牌一致的演示文稿、社交媒体图片和信息图表生成，支持从文档导入并自动保持视觉风格统一。",
+      "url": "https://getalai.com",
+      "homepage": "https://getalai.com",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/getalai.com_20260623_115740.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI设计",
+        "演示文稿",
+        "品牌一致性",
+        "社交媒体"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/alai",
+      "firstSeen": "2026-06-23T03:57:28.326619Z",
+      "analysis": {
+        "targetAudience": "需要频繁制作演示文稿和社交媒体内容的市场营销人员、创业者和内容创作者",
+        "useCases": [
+          "快速生成品牌风格统一的演示文稿",
+          "制作社交媒体图片和信息图表",
+          "从现有文档导入并重新设计视觉风格",
+          "批量生成多平台适配的视觉内容"
+        ],
+        "designIntent": "Alai 2.0 不只是简单的 AI 演示工具，而是定位为「品牌设计系统」，帮助用户在保持视觉一致性的前提下高效产出各类设计内容。",
+        "problemSolved": "解决了非设计人员制作专业演示和社交媒体内容时的效率和品牌一致性问题，让一个人也能完成过去需要设计团队的工作。",
+        "tags": [
+          "AI设计",
+          "演示文稿",
+          "品牌一致性",
+          "社交媒体"
+        ],
+        "score": 8,
+        "scoreReason": "品牌一致性是 AI 设计工具的核心痛点，Alai 2.0 直接切入这个方向。支持演示文稿、社交媒体、信息图表等多种输出格式，覆盖面广。刚发布即获 PH 关注，市场时机好。",
+        "competitors": [
+          {
+            "name": "Gamma",
+            "url": "https://gamma.app",
+            "comparison": "Gamma 侧重 AI 演示文稿生成，Alai 2.0 强调品牌一致性和多格式输出"
+          },
+          {
+            "name": "Beautiful.ai",
+            "url": "https://www.beautiful.ai",
+            "comparison": "Beautiful.ai 专注于演示文稿，Alai 2.0 覆盖社交媒体和信息图表等更多场景"
+          },
+          {
+            "name": "Canva",
+            "url": "https://www.canva.com",
+            "comparison": "Canva 是通用设计工具，Alai 2.0 用 AI 自动化设计流程，更适合高频产出需求"
+          }
+        ]
+      }
+    },
+    {
+      "id": "notchkin.app",
+      "name": "Notchkin",
+      "slug": "notchkin",
+      "description": "住在 MacBook 刘海里的笔记应用，点击刘海即可快速记录想法，完全本地存储，无需账号和云端同步。",
+      "url": "https://notchkin.app",
+      "homepage": "https://notchkin.app",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/notchkin.app_20260623_115751.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "macOS效率",
+        "笔记工具",
+        "隐私优先",
+        "刘海应用"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/notchkin",
+      "firstSeen": "2026-06-23T03:57:28.326619Z",
+      "analysis": {
+        "targetAudience": "使用 MacBook 的创意工作者和效率爱好者，重视隐私和快速记录的用户",
+        "useCases": [
+          "灵感闪现时快速点击刘海记录想法",
+          "会议中快速记下关键要点",
+          "日常待办事项和短笔记管理",
+          "保护隐私的个人日记记录"
+        ],
+        "designIntent": "利用 MacBook 刘海这个「被浪费」的空间，创造一个随时可用的快速笔记入口。完全本地存储的设计体现了对隐私的极致追求。",
+        "problemSolved": "解决了快速记录想法时需要打开笔记应用的摩擦，同时满足了用户对隐私和数据本地化的强烈需求。",
+        "tags": [
+          "macOS效率",
+          "笔记工具",
+          "隐私优先",
+          "刘海应用"
+        ],
+        "score": 7,
+        "scoreReason": "创意十足地利用了 MacBook 刘海空间，交互方式新颖。本地优先、无账号的设计理念切中隐私痛点。但功能相对简单，受众较窄。",
+        "competitors": [
+          {
+            "name": "NotchBox",
+            "url": "https://apps.apple.com/us/app/notchbox-easier-drag-drop/id6737410946",
+            "comparison": "NotchBox 侧重拖放功能，Notchkin 专注笔记记录"
+          },
+          {
+            "name": "NotchNotes",
+            "url": "https://notchnotes.org",
+            "comparison": "功能类似的刘海笔记应用，Notchkin 更强调极简和隐私"
+          },
+          {
+            "name": "Sticky Notes",
+            "url": "https://www.apple.com/macos/sticky-notes/",
+            "comparison": "系统自带便签需要手动打开窗口，Notchkin 提供更快的触发方式"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wartable.co",
+      "name": "War Table",
+      "slug": "wartable",
+      "description": "5 个 AI 模型（Claude、GPT-5、Gemini、Grok、Qwen）同时辩论你的难题，每轮从不同角度论证，最终给出一个可辩护的结论。",
+      "url": "https://wartable.co",
+      "homepage": "https://wartable.co",
+      "type": "app",
+      "appStoreName": "3 Card War Table Game",
+      "appStoreUrl": "https://apps.apple.com/us/app/3-card-war-table-game/id1514897130?uo=4",
+      "screenshotUrl": "assets/screenshots/wartable.co_20260623_115758.png",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/e6/d7/4e/e6d74e59-33f7-a3fd-f933-ee804639e183/pr_source.png/406x228bb.png"
+      ],
+      "tags": [
+        "AI决策",
+        "多模型辩论",
+        "思维工具",
+        "iOS应用"
+      ],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "sourceUrl": "https://www.reddit.com/r/SideProject/comments/1ud5qqj/i_built_an_app_where_5_ai_models_debate_your/",
+      "firstSeen": "2026-06-23T03:57:28.326619Z",
+      "analysis": {
+        "targetAudience": "面临重要决策的创业者、职场人士和学生，需要多角度思考的用户",
+        "useCases": [
+          "评估是否接受一份工作 offer",
+          "分析是否应该搬到另一个城市",
+          "权衡创业方向和商业模式选择",
+          "重大人生决策的多角度论证",
+          "学习如何从正反两面思考问题"
+        ],
+        "designIntent": "单一 AI 往往给出「一方面...另一方面」的平衡答案，缺乏明确倾向。War Table 通过让 5 个不同 AI 模型从锁定角色进行辩论，迫使每个模型给出明确立场，最终帮助用户做出更有依据的决策。",
+        "problemSolved": "解决了单一 AI 回答缺乏深度和明确立场的问题，通过多模型对抗机制提供更全面、更有深度的决策参考。",
+        "tags": [
+          "AI决策",
+          "多模型辩论",
+          "思维工具",
+          "iOS应用"
+        ],
+        "score": 8,
+        "scoreReason": "创新的多模型辩论机制，解决了 AI 辅助决策的核心痛点——单一模型容易给出模棱两可的回答。5 个模型各持立场的辩论形式直观有趣，实用性强。",
+        "competitors": [
+          {
+            "name": "DebateAI.app",
+            "url": "https://apps.apple.com/us/app/debateai-app/id6756220308",
+            "comparison": "类似概念但 War Table 的 5 模型辩论机制更成熟，三轮辩论结构更清晰"
+          },
+          {
+            "name": "Opper AI Roundtable",
+            "url": "https://opper.ai/ai-roundtable",
+            "comparison": "Opper 支持 200+ 模型投票，War Table 聚焦 5 个主流模型的深度辩论"
+          },
+          {
+            "name": "ChatGPT",
+            "url": "https://chat.openai.com",
+            "comparison": "单一模型回答，缺乏多角度对抗论证的深度"
+          }
+        ]
+      }
+    },
+    {
+      "id": "haqq.ai/mobile-app",
+      "name": "HAQQ Legal AI",
+      "slug": "haqq-legal-ai",
+      "description": "手机上的免费 AI 法律助手，提供法律研究、文档分析和法律问答，让每个人都能获得法律信息，不依赖人脉或律师费。",
+      "url": "https://haqq.ai/mobile-app",
+      "homepage": "https://haqq.ai",
+      "type": "app",
+      "appStoreName": "HAQQ Legal AI",
+      "appStoreUrl": "https://apps.apple.com/us/app/haqq-legal-ai/id6760749447?uo=4",
+      "screenshotUrl": "assets/screenshots/haqq.ai_mobile-app_20260623_115807.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI法律",
+        "移动应用",
+        "免费工具",
+        "法律普及"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/haqq-mobile-app",
+      "firstSeen": "2026-06-23T03:57:28.326619Z",
+      "analysis": {
+        "targetAudience": "需要法律帮助但负担不起律师费的普通人，以及需要快速法律研究的法律从业者",
+        "useCases": [
+          "上传合同或法律文档获取 AI 分析摘要",
+          "快速查询法律相关问题获得初步指引",
+          "理解租赁协议、雇佣合同等日常法律文档",
+          "法律从业者快速检索法律信息"
+        ],
+        "designIntent": "HAQQ 的理念是「理解法律情况不应该取决于你认识谁或是否负担得起律师费」。通过移动端 AI 法律助手，降低法律信息的获取门槛。",
+        "problemSolved": "解决了普通人获取法律信息的高门槛问题——律师费昂贵、法律术语难懂、不知道从哪里开始。HAQQ 让每个人都能在手机上获得基本的法律帮助。",
+        "tags": [
+          "AI法律",
+          "移动应用",
+          "免费工具",
+          "法律普及"
+        ],
+        "score": 7,
+        "scoreReason": "法律 AI 是一个有巨大社会价值的赛道，HAQQ 免费策略降低了使用门槛。移动端优先的设计让用户可以随时随地获取法律帮助。但法律准确性和责任边界需要关注。",
+        "competitors": [
+          {
+            "name": "DoNotPay",
+            "url": "https://donotpay.com",
+            "comparison": "DoNotPay 侧重特定法律场景（如取消订阅、申诉罚单），HAQQ 更通用"
+          },
+          {
+            "name": "LegalMate",
+            "url": "https://legalmate.ai",
+            "comparison": "LegalMate 面向企业法务，HAQQ 面向个人用户，更轻量"
+          },
+          {
+            "name": "LawGeex",
+            "url": "https://www.lawgeex.com",
+            "comparison": "LawGeex 专注于合同审查的企业级方案，HAQQ 是消费级移动应用"
+          }
+        ]
+      }
+    }
+  ]
+}

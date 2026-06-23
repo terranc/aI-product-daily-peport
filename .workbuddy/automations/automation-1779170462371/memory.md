@@ -89,6 +89,25 @@
 
 ---
 
+### 2026-06-22
+- **执行结果**：成功完成深度分析
+- **选中产品**：Juno - AI 慢性病健康伴侣（从 115 个候选中选出，评分 9）
+- **选择理由**：YC Spring 2026 孵化，2 人团队做到 12.5 万用户和 $80K+ MRR，基于牛津+UCL 医学研究，1000+ 患者深度访谈，语音交互适配脑雾症状，9000+ App Store 五星评价
+- **深度报告**：已保存至 `reports/weekly/2026-06-22.json`
+- **关键发现**：
+  - 创始人 Marshall Gould（牛津基因组医学硕士，排名1）+ Isaac Tolley（UCL 分子生物学，排名2），两人均有慢性病亲身经历
+  - 2025年10月首发，2026年2月第二次 PH launch，6月第三次 launch（v2.0）
+  - 6个月增长 6.25 倍：2月2万→4月5万→5月8万+$50K MRR→6月12.5万+$80K MRR
+  - 融资 $575K（Forbes），YC 标准 deal $500K/7%
+  - 技术栈：Anthropic Claude + LiveKit 语音 + ElevenLabs/Fish Audio TTS
+  - 竞品：Bearable（手动记录）、Hello Heart/Nia（心血管窄赛道）、K Health（医生端）、Curable（CBT疗法）
+  - 差异化：语音 AI + 纵向健康档案 + 就医 PDF 三合一，Spoon Theory/Pacing 设计
+  - 可穿戴设备集成路线图（HRV/步数/睡眠）即将上线
+- **部署状态**：已标记 featuredInWeekly，已推送到 GitHub Pages
+- **GitHub Pages**：https://ai-daily.asdasd.vip
+
+---
+
 ## 技术注意事项
 
 1. **环境问题**：必须用 `SHELL=/bin/bash` + `/opt/homebrew/bin/python3` 和 `/opt/homebrew/bin/git` 绕过 zsh GVM 钩子
