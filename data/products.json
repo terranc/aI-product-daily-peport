@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-06-23T03:57:28.326619Z",
+  "lastUpdated": "2026-06-27T04:00:43.733431+00:00",
   "products": [
     {
       "id": "dafa9686fbe1",
@@ -13426,6 +13426,441 @@
       "screenshotUrl": "assets/screenshots/haqq.ai_mobile-app_20260623_115807.png",
       "appStoreScreenshots": [],
       "rawData": {}
+    },
+    {
+      "id": "producthunt.com/r/p/1179668",
+      "name": "Swimio - AI 游泳教练",
+      "slug": "swimio",
+      "description": "AI 驱动的游泳训练应用，结合 Apple Watch 实时追踪和个性化训练计划，帮助游泳者提升表现。",
+      "url": "https://apps.apple.com/cn/app/swimio-ai-swim-coach/id6749207394",
+      "homepage": "https://www.swimio.app/",
+      "type": "app",
+      "appStoreName": "Swimio: AI Swim Coach",
+      "appStoreUrl": "https://apps.apple.com/us/app/swimio-ai-swim-coach/id6749207394?uo=4",
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "AI 训练",
+        "游泳",
+        "Apple Watch",
+        "健身",
+        "可穿戴设备"
+      ],
+      "firstSeen": "2026-06-27T04:00:43.733366+00:00",
+      "lastSeen": "2026-06-27T04:00:43.733376+00:00",
+      "cooldownExpiresAt": "2026-07-11T04:00:43.729260+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-06-27T04:00:43.733379+00:00",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/r/p/1179668",
+          "title": "Swimio - AI 游泳教练"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "游泳爱好者和专业游泳运动员",
+        "useCases": [
+          "个性化游泳训练计划生成",
+          "Apple Watch 实时游泳数据追踪",
+          "游泳表现分析和改进建议",
+          "训练进度跟踪和统计"
+        ],
+        "designIntent": "解决传统游泳训练缺乏个性化指导的问题，利用 AI 和可穿戴设备提供专业级教练服务。",
+        "problemSolved": "游泳者缺乏个性化训练指导，传统教练费用高昂且时间受限。Swimio 通过 AI 提供随时随地的专业指导。",
+        "tags": [
+          "AI 训练",
+          "游泳",
+          "Apple Watch",
+          "健身",
+          "可穿戴设备"
+        ],
+        "score": 8,
+        "scoreReason": "AI 与可穿戴设备的深度结合，在垂直领域（游泳）提供专业级服务。Product Hunt 获得 119 票，用户反馈积极。",
+        "competitors": [
+          {
+            "name": "MySwimPro",
+            "url": "https://www.myswimpro.com/",
+            "comparison": "MySwimPro 更侧重社区和内容，Swimio 的 AI 个性化训练更强"
+          },
+          {
+            "name": "Swim.com",
+            "url": "https://www.swim.com/",
+            "comparison": "Swim.com 是社交平台，Swimio 是训练工具，定位不同"
+          },
+          {
+            "name": "Form Swim",
+            "url": "https://www.formswim.com/",
+            "comparison": "Form 专注泳镜硬件，Swimio 是纯软件解决方案"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1179668_20260627_115920.png",
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "producthunt.com/r/p/1179668",
+        "name": "Swimio",
+        "url": "https://apps.apple.com/cn/app/swimio-ai-swim-coach/id6749207394",
+        "source": "producthunt",
+        "source_url": "https://www.producthunt.com/r/p/1179668"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1179465",
+      "name": "Dub Ninja - AI 自主 DJ",
+      "slug": "dub-ninja",
+      "description": "全自动 AI DJ，持续挖掘、混音并实时解说地下电子音乐，24/7 不间断播放。",
+      "url": "https://www.dubninja.com/",
+      "homepage": "https://www.dubninja.com/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "AI 音乐",
+        "DJ",
+        "电子音乐",
+        "自动化",
+        "音乐发现"
+      ],
+      "firstSeen": "2026-06-27T04:00:43.733395+00:00",
+      "lastSeen": "2026-06-27T04:00:43.733396+00:00",
+      "cooldownExpiresAt": "2026-07-11T04:00:43.733387+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-06-27T04:00:43.733399+00:00",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/r/p/1179465",
+          "title": "Dub Ninja - AI 自主 DJ"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "电子音乐爱好者、DJ、音乐主播",
+        "useCases": [
+          "24/7 自动播放地下电子音乐",
+          "实时发现和推荐新音乐",
+          "音乐直播和电台节目制作",
+          "音乐发现和探索"
+        ],
+        "designIntent": "解决人工 DJ 无法 24/7 工作的限制，用 AI 实现永不间断的音乐发现和混音体验。",
+        "problemSolved": "电子音乐爱好者难以持续发现优质地下音乐，人工 DJ 受限于时间和精力。Dub Ninja 用 AI 实现全天候音乐服务。",
+        "tags": [
+          "AI 音乐",
+          "DJ",
+          "电子音乐",
+          "自动化",
+          "音乐发现"
+        ],
+        "score": 8,
+        "scoreReason": "创新的 AI 应用场景，将 AI 能力融入音乐娱乐领域。Product Hunt 获得 83 票，技术实现有新意。",
+        "competitors": [
+          {
+            "name": "Radiooooo",
+            "url": "https://radiooooo.com/",
+            "comparison": "Radiooooo 是按年代和国家探索音乐，Dub Ninja 是实时 AI 混音"
+          },
+          {
+            "name": "AI DJ by Amazon",
+            "url": "https://www.amazon.com/music/unlimited",
+            "comparison": "Amazon 的 AI DJ 功能有限，Dub Ninja 更专注于地下电子音乐"
+          },
+          {
+            "name": "Mubert",
+            "url": "https://mubert.com/",
+            "comparison": "Mubert 生成 AI 音乐，Dub Ninja 混音和推荐真实音乐"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1179465_20260627_115927.png",
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "producthunt.com/r/p/1179465",
+        "name": "Dub Ninja",
+        "url": "https://www.dubninja.com/",
+        "source": "producthunt",
+        "source_url": "https://www.producthunt.com/r/p/1179465"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1155431",
+      "name": "Tough Tongue AI - AI 销售训练师",
+      "slug": "tough-tongue-ai-for-sales",
+      "description": "生产级语音 AI 代理，用于销售对话训练，帮助销售团队在安全环境中练习高难度对话。",
+      "url": "https://www.toughtongueai.com/",
+      "homepage": "https://www.toughtongueai.com/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "AI 训练",
+        "销售",
+        "语音 AI",
+        "企业培训",
+        "角色扮演"
+      ],
+      "firstSeen": "2026-06-27T04:00:43.733405+00:00",
+      "lastSeen": "2026-06-27T04:00:43.733406+00:00",
+      "cooldownExpiresAt": "2026-07-11T04:00:43.733403+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-06-27T04:00:43.733409+00:00",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/r/p/1155431",
+          "title": "Tough Tongue AI - AI 销售训练师"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "销售团队、销售经理、销售培训师",
+        "useCases": [
+          "销售对话模拟训练",
+          "面试和晋升准备练习",
+          "客户服务场景演练",
+          "实时销售辅助和指导"
+        ],
+        "designIntent": "解决销售培训成本高、实战机会少的痛点，用 AI 提供无限次高质量模拟训练。",
+        "problemSolved": "销售团队缺乏安全的练习环境，传统培训成本高且效果有限。Tough Tongue AI 提供随时可用的 AI 训练伙伴。",
+        "tags": [
+          "AI 训练",
+          "销售",
+          "语音 AI",
+          "企业培训",
+          "角色扮演"
+        ],
+        "score": 8,
+        "scoreReason": "精准切入销售培训痛点，语音 AI 技术成熟度高。产品已上线，有明确的商业化路径。",
+        "competitors": [
+          {
+            "name": "Gong",
+            "url": "https://www.gong.io/",
+            "comparison": "Gong 侧重通话分析，Tough Tongue AI 侧重训练模拟"
+          },
+          {
+            "name": "Chorus.ai",
+            "url": "https://chorus.ai/",
+            "comparison": "Chorus 是对话智能平台，Tough Tongue AI 是训练工具"
+          },
+          {
+            "name": "SalesLoft",
+            "url": "https://www.salesloft.com/",
+            "comparison": "SalesLoft 是销售平台，Tough Tongue AI 专注训练场景"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1155431_20260627_115935.png",
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "producthunt.com/r/p/1155431",
+        "name": "Tough Tongue AI for Sales",
+        "url": "https://www.toughtongueai.com/",
+        "source": "producthunt",
+        "source_url": "https://www.producthunt.com/r/p/1155431"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1180381",
+      "name": "CubeOne - AI 演示文稿编辑器",
+      "slug": "cubeone-ai-slide-editor",
+      "description": "AI 驱动的演示文稿编辑器，从描述或导入 PPT 生成完全可编辑的幻灯片，每个元素都可拖拽调整。",
+      "url": "https://www.getcube.one/",
+      "homepage": "https://www.getcube.one/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "AI 设计",
+        "演示文稿",
+        "生产力",
+        "PPT",
+        "自动化"
+      ],
+      "firstSeen": "2026-06-27T04:00:43.733413+00:00",
+      "lastSeen": "2026-06-27T04:00:43.733414+00:00",
+      "cooldownExpiresAt": "2026-07-11T04:00:43.733412+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-06-27T04:00:43.733416+00:00",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/r/p/1180381",
+          "title": "CubeOne - AI 演示文稿编辑器"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "商务人士、市场营销人员、教育工作者",
+        "useCases": [
+          "快速生成专业演示文稿",
+          "导入 PPT 并用 AI 优化设计",
+          "自定义模板和品牌元素",
+          "团队协作编辑幻灯片"
+        ],
+        "designIntent": "解决传统演示文稿制作耗时、设计门槛高的问题，用 AI 让每个人都能做出专业级 PPT。",
+        "problemSolved": "制作精美 PPT 需要设计技能和大量时间。CubeOne 让用户通过简单描述就能获得专业设计的演示文稿。",
+        "tags": [
+          "AI 设计",
+          "演示文稿",
+          "生产力",
+          "PPT",
+          "自动化"
+        ],
+        "score": 7,
+        "scoreReason": "成熟的 AI 应用场景，解决了实际痛点。与 Gamma、Beautiful.ai 竞争，需要差异化优势。",
+        "competitors": [
+          {
+            "name": "Gamma",
+            "url": "https://gamma.app/",
+            "comparison": "Gamma 是 AI 幻灯片工具，CubeOne 更强调可编辑性"
+          },
+          {
+            "name": "Beautiful.ai",
+            "url": "https://www.beautiful.ai/",
+            "comparison": "Beautiful.ai 自动设计更强，CubeOne 元素可编辑性更好"
+          },
+          {
+            "name": "Tome",
+            "url": "https://tome.app/",
+            "comparison": "Tome 更侧重叙事，CubeOne 更传统幻灯片体验"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1180381_20260627_115941.png",
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "producthunt.com/r/p/1180381",
+        "name": "AI Slide Editor by CubeOne",
+        "url": "https://www.getcube.one/",
+        "source": "producthunt",
+        "source_url": "https://www.producthunt.com/r/p/1180381"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1179087",
+      "name": "Nimt - AI 搜索助手",
+      "slug": "nimt",
+      "description": "AI 搜索助手，集成在 Slack 中，帮助企业监控和优化在 AI 搜索引擎中的表现。",
+      "url": "https://www.nimt.ai/",
+      "homepage": "https://www.nimt.ai/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "AI 搜索",
+        "SEO",
+        "Slack",
+        "数据分析",
+        "品牌监控"
+      ],
+      "firstSeen": "2026-06-27T04:00:43.733424+00:00",
+      "lastSeen": "2026-06-27T04:00:43.733425+00:00",
+      "cooldownExpiresAt": "2026-07-11T04:00:43.733419+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-06-27T04:00:43.733428+00:00",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/r/p/1179087",
+          "title": "Nimt - AI 搜索助手"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "市场营销团队、SEO 从业者、品牌经理",
+        "useCases": [
+          "监控 AI 搜索引擎中的品牌提及",
+          "分析 AI 搜索表现数据",
+          "优化内容以提升 AI 搜索可见度",
+          "生成 AI 搜索优化报告"
+        ],
+        "designIntent": "解决企业在 AI 搜索时代缺乏监控和优化工具的问题，将 AI 搜索管理融入团队日常工作流。",
+        "problemSolved": "随着 ChatGPT、Perplexity 等 AI 搜索兴起，企业需要新的工具来监控和优化在 AI 搜索中的表现。",
+        "tags": [
+          "AI 搜索",
+          "SEO",
+          "Slack",
+          "数据分析",
+          "品牌监控"
+        ],
+        "score": 7,
+        "scoreReason": "切入新兴的 AI 搜索优化赛道，Product Hunt 获得 109 票。市场需求明确，但需要验证用户付费意愿。",
+        "competitors": [
+          {
+            "name": "Profound",
+            "url": "https://www.profound.co/",
+            "comparison": "Profound 是独立平台，Nimt 集成在 Slack 中更便捷"
+          },
+          {
+            "name": "Otterly.ai",
+            "url": "https://otterly.ai/",
+            "comparison": "Otterly.ai 是专业工具，Nimt 更轻量级"
+          },
+          {
+            "name": "Ahrefs",
+            "url": "https://ahrefs.com/",
+            "comparison": "Ahrefs 是传统 SEO 工具，Nimt 专注 AI 搜索"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1179087_20260627_115947.png",
+      "appStoreScreenshots": [],
+      "rawData": {
+        "id": "producthunt.com/r/p/1179087",
+        "name": "Nimt",
+        "url": "https://www.nimt.ai/",
+        "source": "producthunt",
+        "source_url": "https://www.producthunt.com/r/p/1179087"
+      }
     }
   ],
   "tracking": {
