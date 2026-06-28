@@ -1,5 +1,15 @@
 # AI Product Radar - 自动化任务记忆
 
+## 2026-06-27 执行摘要
+- 抓取 184 个候选（Twitter 50、V2EX 39、HN 30、Reddit 15、PH 50）
+- 数据库去重 0 个（所有候选产品均为新发现）
+- 过滤技术性产品 119 个，剩余 65 个
+- LLM 精选 TOP 5：Swimio（8分）、Dub Ninja（8分）、Tough Tongue AI（8分）、CubeOne（7分）、Nimt（7分）
+- 5/5 张截图全部成功
+- 已部署到 GitHub Pages（main + gh-pages）
+- 产品数据库更新至 227 个产品
+- 使用 LLM 能力进行产品筛选和分析
+
 ## 2026-06-23 执行摘要
 - 抓取 182 个候选（Twitter 50、V2EX 37、HN 30、Reddit 15、PH 50）
 - 数据库去重 3 个（LoomStack、Pixlie、WorkClaw 为昨日已推荐）

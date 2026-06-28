@@ -1,0 +1,282 @@
+{
+  "date": "2026-06-28",
+  "generatedAt": "2026-06-28T11:57:33.550439",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "x.com/sacccc/status/2070779893197987919",
+      "name": "Mineradio",
+      "slug": "mineradio",
+      "description": "一款以电影镜头、粒子视觉和歌词舞台为核心的沉浸式音乐可视化播放器，将音乐体验从听觉升维至视觉盛宴。",
+      "url": "https://github.com/XxHuberrr/Mineradio",
+      "homepage": "https://github.com/XxHuberrr/Mineradio",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260628_115619.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "音乐",
+        "可视化",
+        "沉浸式体验",
+        "开源"
+      ],
+      "sourceChannels": [
+        "twitter"
+      ],
+      "sourceUrl": "https://x.com/Saccc_c/status/2070779893197987919",
+      "firstSeen": "2026-06-28T11:57:33.550439",
+      "analysis": {
+        "targetAudience": "音乐爱好者、内容创作者、追求沉浸式视听体验的年轻用户",
+        "useCases": [
+          "日常听歌时获得电影级视觉享受",
+          "社交媒体分享音乐可视化片段",
+          "派对或直播时作为视觉背景",
+          "音乐创作者展示作品时的配套视觉"
+        ],
+        "designIntent": "打破传统音乐播放器仅停留在听觉层面的局限，通过AI驱动的电影镜头语言、粒子特效和歌词舞台，将每一首歌变成一场视觉演出。作者在国内外平台发布后迅速火爆，体现了用户对音乐可视化体验的强烈需求。",
+        "problemSolved": "传统音乐播放器界面单调，用户只能被动聆听。Mineradio通过AI实时生成与音乐节奏同步的视觉画面，让听歌变成多感官沉浸体验，解决了音乐消费形式单一的痛点。",
+        "tags": [
+          "音乐可视化",
+          "沉浸式播放器",
+          "AI视觉生成",
+          "开源项目"
+        ],
+        "score": 8,
+        "scoreReason": "音乐可视化是一个真正将AI融入日常娱乐场景的产品方向，Mineradio的电影级视觉效果和粒子系统质量出色，开源社区关注度高。相比传统音乐播放器，它提供了全新的多感官体验维度。",
+        "competitors": [
+          {
+            "name": "Tuneon Music",
+            "url": "https://tuneonmusic.com",
+            "comparison": "在线音乐可视化工具，功能较基础，缺乏AI驱动的电影级镜头语言"
+          },
+          {
+            "name": "捏Ta",
+            "url": "https://nieta.art",
+            "comparison": "AI驱动的交互式可视化平台，侧重角色扮演和故事生成，音乐可视化不是核心"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1181124",
+      "name": "Folio AI",
+      "slug": "folio-ai",
+      "description": "深度集成 Claude 的 AI 演示文稿工具，直接嵌入 PowerPoint 和 Google Slides，让 AI 生成真正可编辑的专业幻灯片。",
+      "url": "https://get-folio.ai/",
+      "homepage": "https://get-folio.ai/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260628_115627.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI办公",
+        "演示文稿",
+        "PowerPoint",
+        "效率工具"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/folio-ai?launch=folio-ai",
+      "firstSeen": "2026-06-28T11:57:33.550439",
+      "analysis": {
+        "targetAudience": "咨询顾问、金融分析师、企业管理者等需要频繁制作专业演示文稿的职场人士",
+        "useCases": [
+          "快速生成咨询级专业演示文稿",
+          "在PowerPoint中直接调用AI优化现有幻灯片",
+          "团队协作中实时调整和迭代演示内容",
+          "将数据和想法快速转化为可视化叙事"
+        ],
+        "designIntent": "市面上的AI演示工具（Gamma、Tome等）大多要求用户离开熟悉的PowerPoint环境。Folio AI选择深度嵌入PowerPoint和Google Slides，让用户在不改变工作习惯的前提下获得AI增强能力，同时确保生成的内容是真正可编辑的形状而非图片。",
+        "problemSolved": "传统AI演示工具生成的内容往往不可编辑（导出为图片），且需要用户切换到新平台。Folio AI解决了这两个核心痛点：内容完全可编辑，且无需离开现有工作流。",
+        "tags": [
+          "AI演示",
+          "PowerPoint插件",
+          "Claude集成",
+          "办公效率"
+        ],
+        "score": 8,
+        "scoreReason": "Folio AI精准切入了一个高频刚需场景——制作演示文稿。深度集成PowerPoint而非另起炉灶的策略非常聪明，Claude级别的语言理解能力确保了内容质量。对咨询和金融行业的专业用户有极强吸引力。",
+        "competitors": [
+          {
+            "name": "Gamma",
+            "url": "https://gamma.app",
+            "comparison": "独立的AI演示平台，需要用户离开PowerPoint，生成内容不可直接编辑为幻灯片格式"
+          },
+          {
+            "name": "Beautiful.ai",
+            "url": "https://www.beautiful.ai",
+            "comparison": "模板驱动的演示工具，AI能力主要在排版层面，缺乏深度内容理解和生成"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1179784",
+      "name": "Nada",
+      "slug": "nada",
+      "description": "用哼唱、唱歌或口哨即可作曲的AI应用，实时将人声转化为MIDI和多轨音乐作品。",
+      "url": "https://tunelab.id/",
+      "homepage": "https://tunelab.id/",
+      "type": "app",
+      "appStoreName": "Nada: Compose Music With Voice",
+      "appStoreUrl": "https://apps.apple.com/app/nada-compose-music-with-voice/id6755638816",
+      "screenshotUrl": "assets/screenshots/unknown_20260628_115634.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "音乐创作",
+        "语音识别",
+        "AI作曲",
+        "移动端"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/nada-2",
+      "firstSeen": "2026-06-28T11:57:33.550439",
+      "analysis": {
+        "targetAudience": "音乐创作者、独立音乐人、有创作冲动但缺乏乐器技能的普通人",
+        "useCases": [
+          "随时随地用哼唱捕捉灵感旋律",
+          "将人声哼唱转化为可编辑的MIDI音符",
+          "用不同乐器音色重新演绎哼唱的旋律",
+          "非专业人士也能快速创作音乐小样"
+        ],
+        "designIntent": "很多人心中有旋律但无法用乐器表达。Nada通过AI实时语音识别和MIDI转换，让哼唱成为最自然的作曲方式。无论是在通勤路上还是灵感突现时，掏出手机哼几句就能开始创作。",
+        "problemSolved": "传统音乐创作需要乐器技能或MIDI键盘等硬件设备，门槛较高。Nada将创作门槛降到最低——只需会哼歌，AI负责将声音转化为可编辑的音乐作品，让音乐创作真正人人可及。",
+        "tags": [
+          "语音作曲",
+          "MIDI转换",
+          "AI音乐",
+          "移动创作"
+        ],
+        "score": 8,
+        "scoreReason": "Nada将AI语音识别与音乐创作完美结合，解决了'脑中有旋律但无法表达'的普遍痛点。操作极其简单——哼唱即可，但背后的技术含量很高。免费且已有App Store版本，用户获取门槛低。",
+        "competitors": [
+          {
+            "name": "Suno",
+            "url": "https://suno.com",
+            "comparison": "AI生成完整歌曲，但需要文字描述输入，缺乏Nada那种直接哼唱的自然交互方式"
+          },
+          {
+            "name": "Udio",
+            "url": "https://udio.com",
+            "comparison": "AI音乐生成平台，侧重完整歌曲创作，不支持实时语音转MIDI"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1179786",
+      "name": "SayCraft",
+      "slug": "saycraft",
+      "description": "通过团队会议对话实时生成可运行Web应用的AI协作平台，说完即得，边聊边建。",
+      "url": "https://saycraft.ai/",
+      "homepage": "https://saycraft.ai/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260628_115640.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "Vibe Coding",
+        "语音开发",
+        "团队协作",
+        "快速原型"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/saycraft",
+      "firstSeen": "2026-06-28T11:57:33.550439",
+      "analysis": {
+        "targetAudience": "产品经理、创业团队、非技术背景的项目负责人，需要快速将想法变为可运行原型",
+        "useCases": [
+          "团队会议中边讨论边生成产品原型",
+          "产品经理用语音描述需求，AI实时构建Web应用",
+          "创业团队快速验证想法，会议结束即有可分享的Demo",
+          "远程团队协作开发，语音驱动应用迭代"
+        ],
+        "designIntent": "传统Vibe Coding需要用户在文本框中输入描述，而SayCraft更进一步——让团队在自然会议对话中就能驱动应用构建。AI实时理解多人讨论内容，自动生成可运行的Web应用，实现了'说完即得'的极致效率。",
+        "problemSolved": "从想法到可运行原型通常需要数天甚至数周。SayCraft将这个过程压缩到一次会议的时间——团队成员围坐讨论，AI实时将对话转化为代码，会议结束时每个人都能拿到一个可分享的预览链接。",
+        "tags": [
+          "语音驱动开发",
+          "AI协作",
+          "实时原型",
+          "Vibe Coding"
+        ],
+        "score": 8,
+        "scoreReason": "SayCraft将Vibe Coding推向了新的交互维度——从文本输入升级为语音对话，从单人操作升级为团队协作。这种'会议即开发'的模式非常有想象力，特别适合需要快速验证想法的产品团队。",
+        "competitors": [
+          {
+            "name": "Bolt.new",
+            "url": "https://bolt.new",
+            "comparison": "文本驱动的AI全栈开发平台，需要手动输入描述，不支持语音交互和多人协作"
+          },
+          {
+            "name": "Lovable",
+            "url": "https://lovable.dev",
+            "comparison": "AI应用构建工具，侧重单人使用，缺乏SayCraft的会议协作和实时语音驱动能力"
+          }
+        ]
+      }
+    },
+    {
+      "id": "v2ex.com/t/1223287",
+      "name": "Flipword",
+      "slug": "flipword",
+      "description": "浏览器英语学习插件，让中文网页自然'长出'英语单词，在日常浏览中不知不觉提升词汇量。",
+      "url": "https://github.com/host452b/Flipword",
+      "homepage": "https://github.com/host452b/Flipword",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260628_115647.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "语言学习",
+        "浏览器插件",
+        "沉浸式阅读",
+        "英语教育"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "sourceUrl": "https://www.v2ex.com/t/1223287",
+      "firstSeen": "2026-06-28T11:57:33.550439",
+      "analysis": {
+        "targetAudience": "想提升英语词汇量但苦于传统背单词方式枯燥的中文互联网用户",
+        "useCases": [
+          "浏览中文网页时自动将部分词汇替换为英文，在语境中自然习得",
+          "阅读英文文档时高亮核心词汇，辅助理解",
+          "鼠标悬停查看词汇的上下文解码面板，深入理解词义",
+          "日常上网过程中无痛积累英语词汇"
+        ],
+        "designIntent": "传统背单词App（百词斩、墨墨等）需要专门抽时间，容易吃灰。Flipword的核心理念是'不用专门去背，让中文网页自然长出英语'，将语言学习嵌入用户已有的浏览习惯中，实现零额外时间成本的词汇积累。",
+        "problemSolved": "背单词的最大痛点不是方法，而是坚持。Flipword通过将学习融入日常浏览行为，消除了'需要专门花时间'的门槛，让英语学习从'刻意练习'变成'被动吸收'，大幅降低了放弃概率。",
+        "tags": [
+          "沉浸式学习",
+          "浏览器扩展",
+          "语境记忆",
+          "零成本学习"
+        ],
+        "score": 7,
+        "scoreReason": "Flipword的'网页长出英语'理念很有创意，将语言学习从独立App场景融入了浏览器使用场景。虽然技术实现不复杂，但产品思路清晰，对有英语学习需求的用户有实际价值。开源且免费。",
+        "competitors": [
+          {
+            "name": "Toucan",
+            "url": "https://jointoucan.com",
+            "comparison": "类似的浏览器语言学习扩展，但主要支持多语言学习，中文到英文的体验不如Flipword专注"
+          },
+          {
+            "name": "沉浸式翻译",
+            "url": "https://immersivetranslate.com",
+            "comparison": "侧重双语对照翻译，目的是理解内容而非学习词汇，教育属性较弱"
+          }
+        ]
+      }
+    }
+  ]
+}

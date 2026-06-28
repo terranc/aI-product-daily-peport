@@ -13861,6 +13861,121 @@
         "source": "producthunt",
         "source_url": "https://www.producthunt.com/r/p/1179087"
       }
+    },
+    {
+      "id": "x.com/sacccc/status/2070779893197987919",
+      "name": "Mineradio",
+      "slug": "mineradio",
+      "description": "一款以电影镜头、粒子视觉和歌词舞台为核心的沉浸式音乐可视化播放器",
+      "url": "https://github.com/XxHuberrr/Mineradio",
+      "type": "app",
+      "tags": [
+        "音乐",
+        "可视化",
+        "沉浸式体验",
+        "开源"
+      ],
+      "firstSeen": "2026-06-28T11:57:45.506914",
+      "cooldownExpiresAt": "2026-07-12T11:57:45.506926",
+      "analysis": {
+        "score": 8
+      },
+      "metrics": {
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1181124",
+      "name": "Folio AI",
+      "slug": "folio-ai",
+      "description": "深度集成Claude的AI演示文稿工具，直接嵌入PowerPoint和Google Slides",
+      "url": "https://get-folio.ai/",
+      "type": "saas",
+      "tags": [
+        "AI办公",
+        "演示文稿",
+        "PowerPoint",
+        "效率工具"
+      ],
+      "firstSeen": "2026-06-28T11:57:45.506914",
+      "cooldownExpiresAt": "2026-07-12T11:57:45.506926",
+      "analysis": {
+        "score": 8
+      },
+      "metrics": {
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1179784",
+      "name": "Nada",
+      "slug": "nada",
+      "description": "用哼唱、唱歌或口哨即可作曲的AI应用，实时将人声转化为MIDI和多轨音乐",
+      "url": "https://tunelab.id/",
+      "type": "app",
+      "tags": [
+        "音乐创作",
+        "语音识别",
+        "AI作曲",
+        "移动端"
+      ],
+      "firstSeen": "2026-06-28T11:57:45.506914",
+      "cooldownExpiresAt": "2026-07-12T11:57:45.506926",
+      "analysis": {
+        "score": 8
+      },
+      "metrics": {
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1179786",
+      "name": "SayCraft",
+      "slug": "saycraft",
+      "description": "通过团队会议对话实时生成可运行Web应用的AI协作平台",
+      "url": "https://saycraft.ai/",
+      "type": "saas",
+      "tags": [
+        "Vibe Coding",
+        "语音开发",
+        "团队协作",
+        "快速原型"
+      ],
+      "firstSeen": "2026-06-28T11:57:45.506914",
+      "cooldownExpiresAt": "2026-07-12T11:57:45.506926",
+      "analysis": {
+        "score": 8
+      },
+      "metrics": {
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "v2ex.com/t/1223287",
+      "name": "Flipword",
+      "slug": "flipword",
+      "description": "浏览器英语学习插件，让中文网页自然长出英语单词，在日常浏览中提升词汇量",
+      "url": "https://github.com/host452b/Flipword",
+      "type": "app",
+      "tags": [
+        "语言学习",
+        "浏览器插件",
+        "沉浸式阅读",
+        "英语教育"
+      ],
+      "firstSeen": "2026-06-28T11:57:45.506914",
+      "cooldownExpiresAt": "2026-07-12T11:57:45.506926",
+      "analysis": {
+        "score": 7
+      },
+      "metrics": {
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      }
     }
   ],
   "tracking": {

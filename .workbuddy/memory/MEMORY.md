@@ -81,3 +81,5 @@ LLM_MODEL=gpt-4o-mini
 - **周报 JSON 缺失字段**：手动写入周报 JSON 时容易遗漏 `sourceDailyReport` 和 `growthMetrics` 字段，导致详情页"近 7 天提及"和"增长分数"显示为 0。这两个字段由 `weekly_analysis.py` 正常流程生成，手动写报告时需补充。(2026-06-02)
 - **日报生成成功**：已成功生成 2026-06-18 日报，包含 5 个精选产品。(2026-06-18)
 - **日报生成成功**：已成功生成 2026-06-19 日报，包含 5 个精选产品（Adapt、VoiceOS、AudienceCue、ClawEase、Dopami）。(2026-06-19)
+- **日报生成成功**：已成功生成 2026-06-27 日报，包含 5 个精选产品（Swimio、Dub Ninja、Tough Tongue AI、CubeOne、Nimt）。(2026-06-27)
+- **产品数据库更新**：数据库已更新至 227 个产品。(2026-06-27)
