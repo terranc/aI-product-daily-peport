@@ -1,325 +1,295 @@
 {
   "date": "2026-07-12",
-  "generatedAt": "2026-07-12T00:57:00+08:00",
+  "generatedAt": "2026-07-12T04:00:50.903705+00:00",
   "productCount": 5,
   "products": [
     {
-      "id": "producthunt.com/r/p/1164597",
-      "name": "Toyo",
-      "slug": "toyo",
-      "description": "Toyo 是一个常驻 iMessage 的 AI 执行助理，支持文字、语音消息和电话通话。它能帮你处理收件箱、管理日历、安排会议、发送跟进提醒，还能自动生成邮件草稿和会议简报。面向创始人、创业者和小企业主，解决日常行政事务消耗大量时间的问题，让你能把精力集中在真正重要的工作上。",
-      "url": "https://toyo.ai",
-      "homepage": "https://toyo.ai",
-      "type": "saas",
+      "id": "producthunt.com/r/p/1191918",
+      "name": "Mispher",
+      "slug": "mispher",
+      "description": "macOS 本地语音工作站：语音转文字、文本改写、实时翻译、AI 代理。完全离线运行，无需云服务，保护隐私。",
+      "url": "https://github.com/dsaad68/mispher",
+      "homepage": "https://github.com/dsaad68/mispher",
+      "type": "app",
       "appStoreName": null,
       "appStoreUrl": null,
-      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1164597_20260712_010345.png",
+      "screenshotUrl": "assets/screenshots/unknown_20260712_120101.png",
       "appStoreScreenshots": [],
       "tags": [
-        "AI 助理",
-        "执行助理",
-        "iMessage",
-        "效率工具",
-        "日历管理"
+        "语音转文字",
+        "本地AI",
+        "macOS",
+        "隐私保护",
+        "翻译"
       ],
       "sourceChannels": [
         "producthunt"
       ],
-      "sourceUrl": "https://www.producthunt.com/products/toyo",
-      "firstSeen": "2026-07-12T00:57:00+08:00",
+      "sourceUrl": "https://www.producthunt.com/products/mispher-agentic-transcription-for-mac",
+      "firstSeen": "2026-07-12T04:00:50.903705+00:00",
       "analysis": {
-        "targetAudience": "创始人、创业者、小企业主，以及被日常行政事务缠身的知识工作者",
+        "targetAudience": "Mac 用户，需要高效语音输入和文本处理的专业人士、写作者、开发者",
         "useCases": [
-          "每日收件箱分类和邮件草稿自动生成",
-          "会议安排、改期和参会人沟通",
-          "电话语音指令处理日程和跟进事项",
-          "承诺和待办事项追踪与提醒",
-          "会议前自动生成背景简报、会后自动生成纪要"
+          "在任何应用中通过语音快速输入文字",
+          "选中文本后进行 AI 改写润色（正式/简洁/友好等风格）",
+          "实时翻译多语言内容",
+          "通过本地 AI 代理进行问答和工具调用",
+          "完全离线的隐私敏感场景使用"
         ],
-        "designIntent": "Toyo 的核心理念是让 AI 充当一个真实可用的执行助理，而不是另一个需要学习的新工具。它直接驻留在用户日常使用的 iMessage 中，通过文字、语音或电话与用户交互，主动完成收件箱分类、日程管理、跟进提醒等工作，让创始人可以专注于真正的核心工作。",
-        "problemSolved": "创始人和小企业主每天花费大量时间处理邮件、日历和跟进事项，雇佣人类执行助理成本太高且为时过早。Toyo 填补了这一空白，以极低的成本提供 7×24 小时的 AI 执行助理服务，处理日常行政琐事，让用户能专注于深度工作。",
+        "designIntent": "将 macOS 上分散的语音输入、文本处理、翻译和 AI 代理功能整合为一个统一的本地工具。设计理念是\"一切在本地运行\"，用户无需上传数据到云端即可获得 AI 能力。",
+        "problemSolved": "现有 macOS 语音工具要么功能单一（仅转写），要么依赖云端服务存在隐私风险。Mispher 在一个应用中集成了语音转写、改写、翻译和 AI 代理四大功能，且全部在本地运行，解决了隐私与功能不可兼得的痛点。",
         "tags": [
-          "AI 助理",
-          "执行助理",
-          "iMessage",
-          "效率工具",
-          "日历管理"
+          "语音转文字",
+          "本地AI",
+          "macOS",
+          "隐私保护",
+          "文本改写",
+          "翻译"
         ],
         "score": 8,
-        "scoreReason": "产品定位精准，直接解决了创始人群体最痛的行政事务消耗问题。iMessage 原生集成降低了使用门槛，电话通话功能使其在同类产品中差异化明显。定价合理（$29/月起），商业模式清晰。",
+        "scoreReason": "功能集成度高且全部本地运行，在 AI 隐私意识日益增强的背景下具有独特价值。作为开源项目可审计代码，但对非技术用户上手门槛略高。",
         "competitors": [
           {
-            "name": "Clara Labs",
-            "url": "https://claralabs.com",
-            "comparison": "Clara 主要通过邮件进行日程协调，而 Toyo 覆盖更广（邮件+日历+跟进+电话），且通过 iMessage 原生集成提供更流畅的体验"
+            "name": "MacWhisper",
+            "url": "https://www.macwhisper.com",
+            "comparison": "同为 macOS 语音转文字工具，但 MacWhisper 侧重音频文件转写，缺少 Mispher 的 AI 代理和实时改写功能"
           },
           {
-            "name": "Milo",
-            "url": "https://milo.com",
-            "comparison": "Milo 专注于邮件管理，Toyo 在邮件之外还包含电话通话、语音笔记和主动跟进提醒等功能"
-          },
-          {
-            "name": "x.ai",
-            "url": "https://x.ai",
-            "comparison": "x.ai 曾是日程安排 AI 的先驱，Toyo 在日程之外增加了完整的执行助理能力，且更深度集成 iMessage"
+            "name": "Apple Dictation",
+            "url": "https://support.apple.com",
+            "comparison": "系统内置的语音输入功能，功能单一，不支持 AI 改写、翻译和代理"
           }
         ]
       }
     },
     {
-      "id": "producthunt.com/r/p/1191785",
-      "name": "ChatCut",
-      "slug": "chatcut",
-      "description": "ChatCut 是一个内置于 ChatGPT 的 AI 视频编辑器，用户通过自然语言描述即可完成视频剪辑、添加字幕、生成动态图形、配乐等操作。它支持从 YouTube 抓取素材、自动生成 AI 视频和图片，并能理解品牌风格，生成符合品牌调性的视频内容。面向营销人员、内容创作者和小企业主。",
-      "url": "https://chatcut.io",
-      "homepage": "https://chatcut.io",
+      "id": "producthunt.com/r/p/1189393",
+      "name": "Yasmine Works",
+      "slug": "yasmine-works",
+      "description": "Slack 中的 AI 同事，能真正帮你完成工作：回复邮件、核对财务、修复代码、执行运营任务。连接 1200+ 应用，使用你自己的 Claude 订阅。",
+      "url": "https://yasmine.works",
+      "homepage": "https://yasmine.works",
       "type": "saas",
       "appStoreName": null,
       "appStoreUrl": null,
-      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1191785_20260712_010354.png",
+      "screenshotUrl": "assets/screenshots/unknown_20260712_120109.png",
       "appStoreScreenshots": [],
       "tags": [
-        "AI 视频编辑",
-        "ChatGPT 插件",
-        "内容创作",
-        "营销工具",
-        "自动剪辑"
-      ],
-      "sourceChannels": [
-        "producthunt"
-      ],
-      "sourceUrl": "https://www.producthunt.com/products/chatcut-ai-video-editor",
-      "firstSeen": "2026-07-12T00:57:00+08:00",
-      "analysis": {
-        "targetAudience": "营销人员、内容创作者、小企业主，以及没有专业视频剪辑技能但需要快速产出视频的用户",
-        "useCases": [
-          "社交媒体短视频自动剪辑和字幕添加",
-          "产品广告片从素材到成片的一站式生成",
-          "博主口播视频的精简、字幕和动效添加",
-          "品牌宣传片自动匹配品牌色和 Logo",
-          "用文字描述快速生成完整的视频草稿"
-        ],
-        "designIntent": "ChatCut 的核心理念是让视频编辑变得像说话一样简单。它不是一个需要学习操作的复杂软件，而是嵌入 ChatGPT 对话中的 AI 剪辑师。用户用自然语言描述想要的视频效果，ChatCut 理解需求后在真实时间线上完成剪辑、加字幕、配乐等一系列操作，且所有修改都可以通过对话迭代。",
-        "problemSolved": "传统视频编辑软件学习曲线陡峭，专业工具（如 Premiere、Final Cut）操作复杂，而简单的模板化工具又缺乏灵活性。ChatCut 让用户无需掌握任何剪辑技能，仅通过自然语言描述就能生成专业质量的视频，大幅降低了视频内容创作的门槛。",
-        "tags": [
-          "AI 视频编辑",
-          "ChatGPT 插件",
-          "内容创作",
-          "营销工具",
-          "自动剪辑"
-        ],
-        "score": 7,
-        "scoreReason": "产品思路新颖，ChatGPT 内编辑视频的体验很吸引人。功能覆盖了剪辑、字幕、动效、配乐等主要需求。但基于信用的定价模式可能导致高频用户成本较高，复杂项目的精确控制能力还有待验证。",
-        "competitors": [
-          {
-            "name": "Runway",
-            "url": "https://runwayml.com",
-            "comparison": "Runway 是独立的 AI 视频编辑平台，功能更强大但需要专门打开使用；ChatCut 嵌入 ChatGPT，使用场景更自然流畅"
-          },
-          {
-            "name": "Descript",
-            "url": "https://descript.com",
-            "comparison": "Descript 以文本编辑视频著称，但 ChatCut 的优势在于完全通过自然语言驱动，无需理解时间线概念"
-          },
-          {
-            "name": "Opus Clip",
-            "url": "https://opusclip.com",
-            "comparison": "Opus Clip 专注于长视频转短视频切片，ChatCut 更偏向从零开始的完整剪辑工作流"
-          }
-        ]
-      }
-    },
-    {
-      "id": "producthunt.com/r/p/1192582",
-      "name": "RepStandard",
-      "slug": "repstandard",
-      "description": "RepStandard 是一款 AI 驱动的健身追踪应用，通过计算机视觉实时识别和计数用户的健身动作（如深蹲、俯卧撑、跳跃等），无需佩戴任何可穿戴设备。它提供个性化的 AI 训练计划、营养指导和进度追踪，结合社交功能让用户分享训练成果。",
-      "url": "https://repstandard.co",
-      "homepage": "https://repstandard.co",
-      "type": "app",
-      "appStoreName": "RepStandard - Home Workouts",
-      "appStoreUrl": "https://apps.apple.com/us/app/repstandard-home-workouts/id6761927539?uo=4",
-      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1192582_20260712_010402.png",
-      "appStoreScreenshots": [],
-      "tags": [
-        "AI 健身",
-        "计算机视觉",
-        "运动追踪",
-        "健身 App",
-        "姿势检测"
-      ],
-      "sourceChannels": [
-        "producthunt"
-      ],
-      "sourceUrl": "https://www.producthunt.com/products/repstandard",
-      "firstSeen": "2026-07-12T00:57:00+08:00",
-      "analysis": {
-        "targetAudience": "健身爱好者、家庭健身用户，以及希望无需可穿戴设备就能自动追踪训练进度的人",
-        "useCases": [
-          "用手机摄像头自动计数深蹲、俯卧撑等动作",
-          "AI 根据个人目标和设备条件生成个性化训练计划",
-          "追踪营养摄入并获取饮食建议",
-          "记录训练进度并分析长期趋势",
-          "在社交平台上分享训练成果、互相激励"
-        ],
-        "designIntent": "RepStandard 旨在解决健身追踪的两个核心痛点：手动记录麻烦和可穿戴设备门槛高。通过计算机视觉技术，用户只需把手机放在面前，AI 就能自动识别动作、计数并分析动作质量，让健身追踪变得完全无感。同时结合 AI 训练计划和社交功能，打造一个完整的健身生态。",
-        "problemSolved": "传统的健身追踪要么依赖 Apple Watch 等可穿戴设备（成本高、需要佩戴），要么需要手动记录（容易忘记、不准确）。RepStandard 仅用手机摄像头就能自动完成动作识别、计数和分析，大幅降低了健身追踪的门槛，让用户更专注于训练本身。",
-        "tags": [
-          "AI 健身",
-          "计算机视觉",
-          "运动追踪",
-          "健身 App",
-          "姿势检测"
-        ],
-        "score": 7,
-        "scoreReason": "计算机视觉应用于健身追踪是一个实用性很强的方向，无需额外硬件的优势明显。AI 个性化训练计划增加了附加值。但动作识别的准确度在不同光线、角度下的表现需要实测验证，社交功能是否能形成社区粘性存疑。",
-        "competitors": [
-          {
-            "name": "RepCount",
-            "url": "https://repcount.com",
-            "comparison": "RepCount 也是一个 AI 动作计数工具，但 RepStandard 在计数之外还提供 AI 训练计划和营养指导，更加全面"
-          },
-          {
-            "name": "Tempo",
-            "url": "https://tempo.fit",
-            "comparison": "Tempo 需要专用硬件设备，而 RepStandard 仅需手机摄像头即可工作，门槛更低"
-          },
-          {
-            "name": "Apple Fitness+",
-            "url": "https://www.apple.com/apple-fitness-plus/",
-            "comparison": "Fitness+ 依赖 Apple Watch 且不提供 AI 动作计数功能，RepStandard 在自动追踪方面更具优势"
-          }
-        ]
-      }
-    },
-    {
-      "id": "producthunt.com/r/p/1180569",
-      "name": "ConnectMachine 2.0",
-      "slug": "connectmachine-2",
-      "description": "ConnectMachine 2.0 是一款 AI 驱动的智能名片和联系人管理平台。它让你创建多张虚拟名片（可针对不同场景自定义展示信息），通过二维码、AirDrop 等方式分享。内置 AI 管家可以自动整理联系人、智能分类、补充信息，甚至帮你记住和每个人的对话内容。",
-      "url": "https://connectmachine.ai",
-      "homepage": "https://connectmachine.ai",
-      "type": "app",
-      "appStoreName": "ConnectWise Control",
-      "appStoreUrl": "https://apps.apple.com/us/app/connectwise-control/id423995707?uo=4",
-      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1180569_20260712_010408.png",
-      "appStoreScreenshots": [
-        "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/65/3b/5c/653b5c13-56a8-9ce1-4ef5-72295edb5f9f/mzl.njsfulgi.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/d8/7a/0b/d87a0bb4-d5d9-e002-b903-36c816d947d0/mzl.amzvzveq.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/7f/35/78/7f3578ff-8d58-8d47-fda4-0a2cefa043d4/mzl.dtfgblrd.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/ff/2f/dd/ff2fddde-2a9c-ff60-2e01-c1c93384f3b4/mzl.klgxnwjs.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/0a/e6/98/0ae698b7-f1a8-1f66-c534-7c68eafdd35a/mzl.hrirvgrt.png/392x696bb.png"
-      ],
-      "tags": [
-        "AI 名片",
-        "联系人管理",
-        "社交网络",
-        "人脉管理",
-        "AI 管家"
-      ],
-      "sourceChannels": [
-        "producthunt"
-      ],
-      "sourceUrl": "https://www.producthunt.com/products/connectmachine-2",
-      "firstSeen": "2026-07-12T00:57:00+08:00",
-      "analysis": {
-        "targetAudience": "商务人士、创业者、投资人、高管，以及需要频繁社交和建立人脉的专业人士",
-        "useCases": [
-          "创建多张虚拟名片，针对商务、社交等不同场景展示不同信息",
-          "扫描纸质名片自动转为数字联系人",
-          "AI 管家自动整理联系人并智能分类",
-          "记录与每个人的对话内容，方便后续跟进",
-          "通过加密频道发送消息，保持联系安全私密"
-        ],
-        "designIntent": "ConnectMachine 希望重新定义名片——不是一张静态的信息卡片，而是一个 AI 驱动的联系人管理中枢。传统纸质名片容易丢失、信息更新困难，而普通的数字名片也只是把名片电子化。ConnectMachine 让 AI 主动帮助你管理人脉，自动补充联系人信息、提醒跟进时机，让每一次社交都能转化为有价值的人脉资产。",
-        "problemSolved": "商务人士在社交场合收到大量纸质名片，后续管理困难、信息更新需要重新发送、容易忘记与每个人的交谈内容。ConnectMachine 通过 AI 驱动的数字名片和联系人管理系统，让名片的创建、分享、管理和跟进变得智能化，不再丢失任何有价值的人脉信息。",
-        "tags": [
-          "AI 名片",
-          "联系人管理",
-          "社交网络",
-          "人脉管理",
-          "AI 管家"
-        ],
-        "score": 7,
-        "scoreReason": "将 AI 应用于人脉管理是一个高价值场景，特别是 AI 自动整理和智能分类功能实用性强。免费版功能已经可用，付费版 $5.99/月价格合理。但用户需要同时安装 App，对接收方来说没有安装门槛是一大优势。",
-        "competitors": [
-          {
-            "name": "Lihi",
-            "url": "https://lihi.io",
-            "comparison": "Lihi 是更传统的数字名片工具，主要注重名片的样式和分享体验；ConnectMachine 在此基础上增加了 AI 管家、联系人类别管理和智能分析"
-          },
-          {
-            "name": "HiHello",
-            "url": "https://hihello.com",
-            "comparison": "HiHello 是知名数字名片平台，功能成熟但 AI 能力较弱；ConnectMachine 的 AI 管家和自动分类是其差异化优势"
-          },
-          {
-            "name": "Beaconstac",
-            "url": "https://beaconstac.com",
-            "comparison": "Beaconstac 侧重 NFC 名片硬件方案，ConnectMachine 更注重软件和 AI 驱动的联系人管理体验"
-          }
-        ]
-      }
-    },
-    {
-      "id": "producthunt.com/r/p/1187857",
-      "name": "Scarlett.",
-      "slug": "scarlett",
-      "description": "Scarlett 是一个常驻 Slack 和 iMessage 的 AI 同事，不是聊天机器人，而是真正的团队成员。它能连接 3000+ 工具（CRM、项目管理、分析平台等），执行多步骤工作流程，如拉取销售数据生成报表、自动分派客服工单、协调团队任务等。由 Claude 驱动，具备深度上下文理解能力。",
-      "url": "https://tryscarlett.ai",
-      "homepage": "https://tryscarlett.ai",
-      "type": "saas",
-      "appStoreName": null,
-      "appStoreUrl": null,
-      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1187857_20260712_010418.png",
-      "appStoreScreenshots": [],
-      "tags": [
-        "AI 同事",
-        "Slack 集成",
-        "工作流自动化",
+        "AI助手",
+        "Slack",
         "团队协作",
-        "AI Agent"
+        "自动化",
+        "生产力"
       ],
       "sourceChannels": [
         "producthunt"
       ],
-      "sourceUrl": "https://www.producthunt.com/products/scarlett-ai-co-worker",
-      "firstSeen": "2026-07-12T00:57:00+08:00",
+      "sourceUrl": "https://www.producthunt.com/products/yasmine-works",
+      "firstSeen": "2026-07-12T04:00:50.903705+00:00",
       "analysis": {
-        "targetAudience": "使用 Slack 的远程团队、运营经理、销售团队，以及希望自动化重复性工作流程的中小企业",
+        "targetAudience": "创业团队和中小企业，希望用 AI 减少重复性工作",
         "useCases": [
-          "自动拉取 CRM 数据并在 Slack 频道生成销售报告",
-          "客服工单自动分派和升级处理",
-          "项目状态日报自动生成和发布",
-          "费用报告审批流程自动化",
-          "日常站会摘要和待办事项跟进"
+          "在 Slack 中直接让 AI 回复 40 封未读邮件",
+          "AI 自动核对 Stripe 账单和财务报表",
+          "在 Notion、Gmail、GitHub 之间跨工具执行任务",
+          "自动修复代码 Bug 并生成 PR",
+          "管理 1200+ 应用集成的工作流"
         ],
-        "designIntent": "Scarlett 的核心理念是创造一个真正的 AI 同事，而不是一个问答机器人。它不是被动等待提问，而是作为一个主动的团队成员参与工作流。它拥有自己的云电脑，可以写代码、生成文档、操作数据库，真正地「干活」而不是「聊天」。",
-        "problemSolved": "团队在日常运营中有大量重复性工作流（数据拉取、报告生成、工单分派等），通常需要人工手动处理或复杂的自动化配置。Scarlett 让团队成员只需在 Slack 中用自然语言说一句话，就能让 AI 完成端到端的任务执行，无需任何自动化工程背景。",
+        "designIntent": "与其他 AI 工具给出建议列表不同，Yasmine 直接帮你完成实际工作——邮件帮你写好草稿、财务帮你核对、代码帮你修好。核心理念是\"不只是告诉你怎么做，而是直接帮你做完\"。",
+        "problemSolved": "现有 AI 助手（如 ChatGPT）只给出建议和步骤，用户仍需手动执行。Yasmine 在 Slack 中像一个真正的同事，能跨平台执行实际任务，从邮件回复到代码修复都能一站式完成，大幅减少人工操作。",
         "tags": [
-          "AI 同事",
-          "Slack 集成",
-          "工作流自动化",
-          "团队协作",
-          "AI Agent"
+          "AI助手",
+          "Slack",
+          "自动化",
+          "团队效率",
+          "邮件处理"
         ],
-        "score": 7,
-        "scoreReason": "Scarlett 定位独特——不是聊天机器人而是真正干活的同事。3000+ 集成覆盖面广，Claude 驱动的自然语言理解能力强。但依赖 Slack 生态绑定用户，对不使用 Slack 的团队无效；复杂工作流可能仍需要一定调试。",
+        "score": 8,
+        "scoreReason": "真正\"完成工作\"而非\"给出建议\"的 AI 工具，1200+ 集成覆盖面广，使用用户自己的 Claude 订阅保障数据安全。但依赖 Claude 订阅增加了使用门槛。",
         "competitors": [
           {
-            "name": "Cove",
-            "url": "https://cove.ai",
-            "comparison": "Cove 也是一个 AI 工作流助手，但 Scarlett 更深度的 Slack 集成和端到端任务执行能力是主要差异点"
+            "name": "Viktor",
+            "url": "https://viktor.ai",
+            "comparison": "类似 Slack AI 同事产品，但使用重售的 credits 模式而非 BYOK，数据隔离不如 Yasmine"
           },
           {
-            "name": "Glean",
-            "url": "https://glean.com",
-            "comparison": "Glean 侧重企业搜索和知识管理，Scarlett 则侧重工作流执行和任务自动化"
+            "name": "Claude Tag by Anthropic",
+            "url": "https://claude.ai",
+            "comparison": "Anthropic 官方方案，仅限 Claude Enterprise 用户，集成数量远少于 Yasmine"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1189541",
+      "name": "Bono AI",
+      "slug": "bono-ai",
+      "description": "AI 内容策略师：和你聊 10 分钟，就能生成博客文章、社媒内容、Newsletter——都用你的语气写。自动跨渠道分发，持续学习你的品牌声音。",
+      "url": "https://heybono.ai",
+      "homepage": "https://heybono.ai",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260712_120119.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "内容创作",
+        "AI写作",
+        "品牌营销",
+        "社媒管理",
+        "Newsletter"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/bono-ai",
+      "firstSeen": "2026-07-12T04:00:50.903705+00:00",
+      "analysis": {
+        "targetAudience": "独立创作者、咨询顾问、创业者，需要持续产出内容但时间有限的个人或小团队",
+        "useCases": [
+          "10 分钟语音对话生成一篇完整博客文章",
+          "自动将一篇内容改写成适用于多个社媒平台的版本",
+          "持续学习用户的品牌语调，输出风格一致的内容",
+          "管理博客、Newsletter、LinkedIn、Twitter 多平台分发",
+          "跟踪内容表现并优化策略"
+        ],
+        "designIntent": "解决独立创作者\"没时间持续产出内容\"的问题。不是一次性写作工具，而是一个持续学习的 AI 内容策略师——通过对话了解你的故事、观点和语调，帮你建立长期的内容体系。",
+        "problemSolved": "内容创作者面临持续产出和时间有限的矛盾。Bono AI 不需用户动手写作，通过对话就能产出高质量内容，且能学习个人品牌语调，实现跨平台一致分发。",
+        "tags": [
+          "内容创作",
+          "AI写作",
+          "品牌建设",
+          "社媒营销",
+          "个人品牌"
+        ],
+        "score": 7,
+        "scoreReason": "对话式内容生成本身很有吸引力，持续学习品牌语调的设计理念很好。但内容质量控制和学习效果需要实际使用验证。",
+        "competitors": [
+          {
+            "name": "Jasper AI",
+            "url": "https://www.jasper.ai",
+            "comparison": "功能更全面的 AI 写作平台，但缺少 Bono AI 的持续品牌学习和对话式内容策略"
           },
           {
-            "name": "Zapier",
-            "url": "https://zapier.com",
-            "comparison": "Zapier 是无代码自动化平台，需要用户手动配置流程；Scarlett 通过自然语言交互大幅降低了自动化门槛"
+            "name": "Writer",
+            "url": "https://writer.com",
+            "comparison": "企业级 AI 写作工具，更侧重品牌合规，Bono AI 更侧重个人创作者"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1191329",
+      "name": "Monogram AI",
+      "slug": "monogram-ai",
+      "description": "AI 的视觉化交互界面：不再回复文本段落，而是生成可交互的图表、地图、表单等视觉组件。由 Udemy 创始人打造，获 4000 万美元种子轮融资。",
+      "url": "https://monogram.ai",
+      "homepage": "https://monogram.ai",
+      "type": "app",
+      "appStoreName": "Monogram AI",
+      "appStoreUrl": "https://apps.apple.com/us/app/monogram-ai/id6772350876?uo=4",
+      "screenshotUrl": "assets/screenshots/unknown_20260712_120133.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI交互",
+        "视觉化",
+        "消费级AI",
+        "iOS",
+        "数据可视化"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/monogram-ai",
+      "firstSeen": "2026-07-12T04:00:50.903705+00:00",
+      "analysis": {
+        "targetAudience": "普通消费者，厌倦了纯文本对话式 AI，希望更直观交互体验的用户",
+        "useCases": [
+          "用可视化界面比较不同电动车参数",
+          "通过交互式地图规划旅行行程",
+          "可视化对比菜谱和营养成分",
+          "用图表形式分析数据并交互筛选",
+          "在手机上快速获取视觉化的决策辅助信息"
+        ],
+        "designIntent": "认为当前 AI 的\"对话框\"交互模式相当于 80 年代的命令行界面。Monogram 要成为 AI 的\"图形界面\"，用视觉化的交互方式降低认知负荷，让 AI 更接近人类自然的信息处理方式。",
+        "problemSolved": "现有的 AI 聊天机器人输出大段文本，用户需要费力阅读和理解。Monogram 将 AI 的输出直接转化为可视化的交互界面（图表、地图、对比表），让信息一目了然，大幅降低理解成本。",
+        "tags": [
+          "AI交互",
+          "视觉AI",
+          "iOS",
+          "消费级",
+          "数据可视化"
+        ],
+        "score": 7,
+        "scoreReason": "理念创新——AI 的图形界面是未被充分开发的方向，4000 万美元融资和 Udemy 创始人的背书加分。但目前功能演示有限，实际体验有待验证。",
+        "competitors": [
+          {
+            "name": "ChatGPT",
+            "url": "https://chatgpt.com",
+            "comparison": "主流 AI 对话产品，以文本为主，不支持 Monogram 的交互式视觉输出"
+          },
+          {
+            "name": "Perplexity AI",
+            "url": "https://perplexity.ai",
+            "comparison": "AI 搜索引擎，答案包含媒体内容但不可交互，Monogram 的视觉组件可点击筛选"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1190503",
+      "name": "Glimpse",
+      "slug": "glimpse",
+      "description": "AI 竞争情报系统：24/7 监控竞品定价策略、功能发布、招聘动向、广告投放等 17+ 数据源。自动生成战备卡，Slack 内实时推送。",
+      "url": "https://www.glimpsehq.io",
+      "homepage": "https://www.glimpsehq.io",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260712_120144.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "竞争情报",
+        "SaaS",
+        "市场分析",
+        "销售工具",
+        "自动化"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/glimpse-17",
+      "firstSeen": "2026-07-12T04:00:50.903705+00:00",
+      "analysis": {
+        "targetAudience": "产品经理、竞争分析团队、销售团队，需要实时掌握竞品动态",
+        "useCases": [
+          "监控竞品定价页面变化，自动通知销售团队",
+          "跟踪竞品招聘动向，预判其产品方向",
+          "自动生成竞品战备卡（Battle Card），帮助销售应对",
+          "监控 17+ 数据源（定价页、博客、社媒、广告库等）",
+          "Slack 内实时推送带分析说明的竞品动态"
+        ],
+        "designIntent": "竞争情报工具通常需要手动收集和分析信息。Glimpse 要做的是\"自动化竞争情报分析师\"——24/7 自动监控，AI 分析变化意义，将最重要的信息推送到团队已在使用的工具中。",
+        "problemSolved": "竞品监控通常依赖人工手动追踪，费力且容易遗漏。Glimpse 的 AI 代理自动监控 17+ 数据源，检测变化后不仅通知发生了什么，还会分析为什么重要并提供应对策略。",
+        "tags": [
+          "竞争情报",
+          "商业分析",
+          "销售赋能",
+          "自动化监控",
+          "Slack"
+        ],
+        "score": 7,
+        "scoreReason": "将 AI Agent 应用于竞争情报领域非常实用，17+ 数据源覆盖全面。但作为刚起步的产品，数据源深度和准确性需持续观察。",
+        "competitors": [
+          {
+            "name": "Klue",
+            "url": "https://klue.com",
+            "comparison": "知名的竞争情报平台，功能更全面但价格较高。Glimpse 更侧重 AI 自动分析和 Slack 集成"
+          },
+          {
+            "name": "Crayon",
+            "url": "https://www.crayon.co",
+            "comparison": "成熟的企业级竞争情报工具。Glimpse 的差异化在于 AI 原生、轻量化和实时推送"
           }
         ]
       }

@@ -1,6 +1,6 @@
 {
-  "version": "1.0",
-  "lastUpdated": "2026-07-11T17:04:47.029382+00:00",
+  "version": 1,
+  "lastUpdated": "2026-07-12T04:02:13.003043+00:00",
   "products": [
     {
       "id": "dafa9686fbe1",
@@ -14382,6 +14382,317 @@
       "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1187857_20260712_010418.png",
       "appStoreScreenshots": [],
       "rawData": {}
+    },
+    {
+      "id": "producthunt.com/r/p/1191918",
+      "name": "Mispher",
+      "slug": "mispher",
+      "description": "macOS 本地语音工作站：语音转文字、文本改写、实时翻译、AI 代理。完全离线运行，无需云服务，保护隐私。",
+      "url": "https://github.com/dsaad68/mispher",
+      "homepage": "https://github.com/dsaad68/mispher",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260712_120101.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "语音转文字",
+        "本地AI",
+        "macOS",
+        "隐私保护",
+        "翻译"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/mispher-agentic-transcription-for-mac",
+      "firstSeen": "2026-07-12T04:00:50.903705+00:00",
+      "lastSeen": "2026-07-12T04:00:50.903705+00:00",
+      "featuredInDaily": true,
+      "featuredInWeekly": false,
+      "cooldownExpiresAt": "2026-07-26T04:02:13.003043+00:00",
+      "analysis": {
+        "targetAudience": "Mac 用户，需要高效语音输入和文本处理的专业人士、写作者、开发者",
+        "useCases": [
+          "在任何应用中通过语音快速输入文字",
+          "选中文本后进行 AI 改写润色（正式/简洁/友好等风格）",
+          "实时翻译多语言内容",
+          "通过本地 AI 代理进行问答和工具调用",
+          "完全离线的隐私敏感场景使用"
+        ],
+        "designIntent": "将 macOS 上分散的语音输入、文本处理、翻译和 AI 代理功能整合为一个统一的本地工具。设计理念是\"一切在本地运行\"，用户无需上传数据到云端即可获得 AI 能力。",
+        "problemSolved": "现有 macOS 语音工具要么功能单一（仅转写），要么依赖云端服务存在隐私风险。Mispher 在一个应用中集成了语音转写、改写、翻译和 AI 代理四大功能，且全部在本地运行，解决了隐私与功能不可兼得的痛点。",
+        "tags": [
+          "语音转文字",
+          "本地AI",
+          "macOS",
+          "隐私保护",
+          "文本改写",
+          "翻译"
+        ],
+        "score": 8,
+        "scoreReason": "功能集成度高且全部本地运行，在 AI 隐私意识日益增强的背景下具有独特价值。作为开源项目可审计代码，但对非技术用户上手门槛略高。",
+        "competitors": [
+          {
+            "name": "MacWhisper",
+            "url": "https://www.macwhisper.com",
+            "comparison": "同为 macOS 语音转文字工具，但 MacWhisper 侧重音频文件转写，缺少 Mispher 的 AI 代理和实时改写功能"
+          },
+          {
+            "name": "Apple Dictation",
+            "url": "https://support.apple.com",
+            "comparison": "系统内置的语音输入功能，功能单一，不支持 AI 改写、翻译和代理"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1189393",
+      "name": "Yasmine Works",
+      "slug": "yasmine-works",
+      "description": "Slack 中的 AI 同事，能真正帮你完成工作：回复邮件、核对财务、修复代码、执行运营任务。连接 1200+ 应用，使用你自己的 Claude 订阅。",
+      "url": "https://yasmine.works",
+      "homepage": "https://yasmine.works",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260712_120109.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI助手",
+        "Slack",
+        "团队协作",
+        "自动化",
+        "生产力"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/yasmine-works",
+      "firstSeen": "2026-07-12T04:00:50.903705+00:00",
+      "lastSeen": "2026-07-12T04:00:50.903705+00:00",
+      "featuredInDaily": true,
+      "featuredInWeekly": false,
+      "cooldownExpiresAt": "2026-07-26T04:02:13.003043+00:00",
+      "analysis": {
+        "targetAudience": "创业团队和中小企业，希望用 AI 减少重复性工作",
+        "useCases": [
+          "在 Slack 中直接让 AI 回复 40 封未读邮件",
+          "AI 自动核对 Stripe 账单和财务报表",
+          "在 Notion、Gmail、GitHub 之间跨工具执行任务",
+          "自动修复代码 Bug 并生成 PR",
+          "管理 1200+ 应用集成的工作流"
+        ],
+        "designIntent": "与其他 AI 工具给出建议列表不同，Yasmine 直接帮你完成实际工作——邮件帮你写好草稿、财务帮你核对、代码帮你修好。核心理念是\"不只是告诉你怎么做，而是直接帮你做完\"。",
+        "problemSolved": "现有 AI 助手（如 ChatGPT）只给出建议和步骤，用户仍需手动执行。Yasmine 在 Slack 中像一个真正的同事，能跨平台执行实际任务，从邮件回复到代码修复都能一站式完成，大幅减少人工操作。",
+        "tags": [
+          "AI助手",
+          "Slack",
+          "自动化",
+          "团队效率",
+          "邮件处理"
+        ],
+        "score": 8,
+        "scoreReason": "真正\"完成工作\"而非\"给出建议\"的 AI 工具，1200+ 集成覆盖面广，使用用户自己的 Claude 订阅保障数据安全。但依赖 Claude 订阅增加了使用门槛。",
+        "competitors": [
+          {
+            "name": "Viktor",
+            "url": "https://viktor.ai",
+            "comparison": "类似 Slack AI 同事产品，但使用重售的 credits 模式而非 BYOK，数据隔离不如 Yasmine"
+          },
+          {
+            "name": "Claude Tag by Anthropic",
+            "url": "https://claude.ai",
+            "comparison": "Anthropic 官方方案，仅限 Claude Enterprise 用户，集成数量远少于 Yasmine"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1189541",
+      "name": "Bono AI",
+      "slug": "bono-ai",
+      "description": "AI 内容策略师：和你聊 10 分钟，就能生成博客文章、社媒内容、Newsletter——都用你的语气写。自动跨渠道分发，持续学习你的品牌声音。",
+      "url": "https://heybono.ai",
+      "homepage": "https://heybono.ai",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260712_120119.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "内容创作",
+        "AI写作",
+        "品牌营销",
+        "社媒管理",
+        "Newsletter"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/bono-ai",
+      "firstSeen": "2026-07-12T04:00:50.903705+00:00",
+      "lastSeen": "2026-07-12T04:00:50.903705+00:00",
+      "featuredInDaily": true,
+      "featuredInWeekly": false,
+      "cooldownExpiresAt": "2026-07-26T04:02:13.003043+00:00",
+      "analysis": {
+        "targetAudience": "独立创作者、咨询顾问、创业者，需要持续产出内容但时间有限的个人或小团队",
+        "useCases": [
+          "10 分钟语音对话生成一篇完整博客文章",
+          "自动将一篇内容改写成适用于多个社媒平台的版本",
+          "持续学习用户的品牌语调，输出风格一致的内容",
+          "管理博客、Newsletter、LinkedIn、Twitter 多平台分发",
+          "跟踪内容表现并优化策略"
+        ],
+        "designIntent": "解决独立创作者\"没时间持续产出内容\"的问题。不是一次性写作工具，而是一个持续学习的 AI 内容策略师——通过对话了解你的故事、观点和语调，帮你建立长期的内容体系。",
+        "problemSolved": "内容创作者面临持续产出和时间有限的矛盾。Bono AI 不需用户动手写作，通过对话就能产出高质量内容，且能学习个人品牌语调，实现跨平台一致分发。",
+        "tags": [
+          "内容创作",
+          "AI写作",
+          "品牌建设",
+          "社媒营销",
+          "个人品牌"
+        ],
+        "score": 7,
+        "scoreReason": "对话式内容生成本身很有吸引力，持续学习品牌语调的设计理念很好。但内容质量控制和学习效果需要实际使用验证。",
+        "competitors": [
+          {
+            "name": "Jasper AI",
+            "url": "https://www.jasper.ai",
+            "comparison": "功能更全面的 AI 写作平台，但缺少 Bono AI 的持续品牌学习和对话式内容策略"
+          },
+          {
+            "name": "Writer",
+            "url": "https://writer.com",
+            "comparison": "企业级 AI 写作工具，更侧重品牌合规，Bono AI 更侧重个人创作者"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1191329",
+      "name": "Monogram AI",
+      "slug": "monogram-ai",
+      "description": "AI 的视觉化交互界面：不再回复文本段落，而是生成可交互的图表、地图、表单等视觉组件。由 Udemy 创始人打造，获 4000 万美元种子轮融资。",
+      "url": "https://monogram.ai",
+      "homepage": "https://monogram.ai",
+      "type": "app",
+      "appStoreName": "Monogram AI",
+      "appStoreUrl": "https://apps.apple.com/us/app/monogram-ai/id6772350876?uo=4",
+      "screenshotUrl": "assets/screenshots/unknown_20260712_120133.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI交互",
+        "视觉化",
+        "消费级AI",
+        "iOS",
+        "数据可视化"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/monogram-ai",
+      "firstSeen": "2026-07-12T04:00:50.903705+00:00",
+      "lastSeen": "2026-07-12T04:00:50.903705+00:00",
+      "featuredInDaily": true,
+      "featuredInWeekly": false,
+      "cooldownExpiresAt": "2026-07-26T04:02:13.003043+00:00",
+      "analysis": {
+        "targetAudience": "普通消费者，厌倦了纯文本对话式 AI，希望更直观交互体验的用户",
+        "useCases": [
+          "用可视化界面比较不同电动车参数",
+          "通过交互式地图规划旅行行程",
+          "可视化对比菜谱和营养成分",
+          "用图表形式分析数据并交互筛选",
+          "在手机上快速获取视觉化的决策辅助信息"
+        ],
+        "designIntent": "认为当前 AI 的\"对话框\"交互模式相当于 80 年代的命令行界面。Monogram 要成为 AI 的\"图形界面\"，用视觉化的交互方式降低认知负荷，让 AI 更接近人类自然的信息处理方式。",
+        "problemSolved": "现有的 AI 聊天机器人输出大段文本，用户需要费力阅读和理解。Monogram 将 AI 的输出直接转化为可视化的交互界面（图表、地图、对比表），让信息一目了然，大幅降低理解成本。",
+        "tags": [
+          "AI交互",
+          "视觉AI",
+          "iOS",
+          "消费级",
+          "数据可视化"
+        ],
+        "score": 7,
+        "scoreReason": "理念创新——AI 的图形界面是未被充分开发的方向，4000 万美元融资和 Udemy 创始人的背书加分。但目前功能演示有限，实际体验有待验证。",
+        "competitors": [
+          {
+            "name": "ChatGPT",
+            "url": "https://chatgpt.com",
+            "comparison": "主流 AI 对话产品，以文本为主，不支持 Monogram 的交互式视觉输出"
+          },
+          {
+            "name": "Perplexity AI",
+            "url": "https://perplexity.ai",
+            "comparison": "AI 搜索引擎，答案包含媒体内容但不可交互，Monogram 的视觉组件可点击筛选"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1190503",
+      "name": "Glimpse",
+      "slug": "glimpse",
+      "description": "AI 竞争情报系统：24/7 监控竞品定价策略、功能发布、招聘动向、广告投放等 17+ 数据源。自动生成战备卡，Slack 内实时推送。",
+      "url": "https://www.glimpsehq.io",
+      "homepage": "https://www.glimpsehq.io",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260712_120144.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "竞争情报",
+        "SaaS",
+        "市场分析",
+        "销售工具",
+        "自动化"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/glimpse-17",
+      "firstSeen": "2026-07-12T04:00:50.903705+00:00",
+      "lastSeen": "2026-07-12T04:00:50.903705+00:00",
+      "featuredInDaily": true,
+      "featuredInWeekly": false,
+      "cooldownExpiresAt": "2026-07-26T04:02:13.003043+00:00",
+      "analysis": {
+        "targetAudience": "产品经理、竞争分析团队、销售团队，需要实时掌握竞品动态",
+        "useCases": [
+          "监控竞品定价页面变化，自动通知销售团队",
+          "跟踪竞品招聘动向，预判其产品方向",
+          "自动生成竞品战备卡（Battle Card），帮助销售应对",
+          "监控 17+ 数据源（定价页、博客、社媒、广告库等）",
+          "Slack 内实时推送带分析说明的竞品动态"
+        ],
+        "designIntent": "竞争情报工具通常需要手动收集和分析信息。Glimpse 要做的是\"自动化竞争情报分析师\"——24/7 自动监控，AI 分析变化意义，将最重要的信息推送到团队已在使用的工具中。",
+        "problemSolved": "竞品监控通常依赖人工手动追踪，费力且容易遗漏。Glimpse 的 AI 代理自动监控 17+ 数据源，检测变化后不仅通知发生了什么，还会分析为什么重要并提供应对策略。",
+        "tags": [
+          "竞争情报",
+          "商业分析",
+          "销售赋能",
+          "自动化监控",
+          "Slack"
+        ],
+        "score": 7,
+        "scoreReason": "将 AI Agent 应用于竞争情报领域非常实用，17+ 数据源覆盖全面。但作为刚起步的产品，数据源深度和准确性需持续观察。",
+        "competitors": [
+          {
+            "name": "Klue",
+            "url": "https://klue.com",
+            "comparison": "知名的竞争情报平台，功能更全面但价格较高。Glimpse 更侧重 AI 自动分析和 Slack 集成"
+          },
+          {
+            "name": "Crayon",
+            "url": "https://www.crayon.co",
+            "comparison": "成熟的企业级竞争情报工具。Glimpse 的差异化在于 AI 原生、轻量化和实时推送"
+          }
+        ]
+      }
     }
   ],
   "tracking": {

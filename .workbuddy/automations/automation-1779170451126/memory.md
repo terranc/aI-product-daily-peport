@@ -1,5 +1,16 @@
 # AI Product Radar - 自动化任务记忆
 
+## 2026-07-12 执行摘要
+- 抓取 153 个候选（Twitter 50、V2EX 8、HN 30、Reddit 15、PH 50）
+- 数据库去重 0 个（所有冷却产品已过期）
+- 过滤技术性产品和非产品内容后精选 TOP 5
+- 精选 TOP 5：Toyo（8分）、ChatCut（7分）、RepStandard（7分）、ConnectMachine 2.0（7分）、Scarlett.（7分）
+- 5/5 张截图全部成功（ConnectMachine 有 5 张 App Store 截图）
+- 已部署到 GitHub Pages（main + gh-pages）
+- 产品数据库更新至 237 个产品
+- 修复了 products.json 中 5 个产品缺失 id 字段的问题（Saner.AI、Octave TTS、VidNotes、造梦 App、Aurora）
+- 使用 LLM 能力进行产品筛选和分析
+
 ## 2026-06-28 执行摘要
 - 抓取 183 个候选（Twitter 50、V2EX 38、HN 30、Reddit 15、PH 50）
 - 数据库去重 20 个冷却中的产品
