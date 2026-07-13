@@ -6390,6 +6390,10 @@
             "comparison": "HubSpot 是 CRM+营销平台，Agent A 更聚焦于 SEO 和竞品数据分析"
           }
         ]
+      },
+      "metrics": {
+        "featuredInDaily": true,
+        "featuredInWeekly": true
       }
     },
     {
@@ -6717,7 +6721,7 @@
         "weeklyViews": 0,
         "growthRate": 0,
         "featuredInDaily": true,
-        "featuredInWeekly": false
+        "featuredInWeekly": true
       },
       "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1158026_20260531_115932.png",
       "appStoreScreenshots": [],
