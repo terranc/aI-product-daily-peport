@@ -1,6 +1,6 @@
 {
-  "version": 2,
-  "lastUpdated": "2026-07-13T11:58:28.956617+08:00",
+  "version": 3,
+  "lastUpdated": "2026-07-14T04:01:02.607857+00:00",
   "products": [
     {
       "id": "dafa9686fbe1",
@@ -15022,6 +15022,356 @@
       },
       "cooldownExpiresAt": "2026-07-27T11:58:28.956617+08:00",
       "addedAt": "2026-07-13T11:58:28.956617+08:00"
+    },
+    {
+      "id": "producthunt.com/products/toyo",
+      "name": "Toyo",
+      "slug": "toyo",
+      "description": "AI 执行助理，常驻 iMessage，支持语音通话。能自动分类邮件、以你的口吻起草回复、端到端安排会议、准备会议简报、追踪后续事项。无需下载新应用，像与真人助理一样交流。",
+      "url": "https://toyo.ai/",
+      "homepage": "https://toyo.ai/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "AI助理",
+        "效率工具",
+        "iMessage",
+        "日程管理"
+      ],
+      "firstSeen": "2026-07-14T04:01:02.607857+00:00",
+      "lastSeen": "2026-07-14T04:01:02.607857+00:00",
+      "cooldownExpiresAt": "2026-07-28T04:01:02.607857+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-07-14T04:01:02.607857+00:00",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/products/toyo",
+          "title": "Toyo"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "忙碌的创业者、自由职业者和小团队管理者，需要行政助理但还不到全职雇佣阶段的职场人士。",
+        "useCases": [
+          "自动分类和回复邮件，仅将需要亲自处理的事项推送给用户",
+          "通过 iMessage 或语音安排会议、协调日程",
+          "会议前自动生成简报，包含对方背景和上次交谈内容",
+          "追踪通话和邮件中的承诺事项，主动提醒跟进"
+        ],
+        "designIntent": "Toyo 的设计理念是「住在消息里的执行助理」，而不是又一个需要下载和学习的独立应用。它通过 iMessage 这个用户每天使用的工具提供服务，大幅降低了使用门槛。主动拨打电话的功能让它从被动问答升级为主动服务。",
+        "problemSolved": "创业者和小团队管理者每天花费大量时间在邮件分类、日程协调、会议准备和后续跟进等行政事务上。Toyo 自动处理这些重复性工作，让用户专注于核心业务，同时避免重要事项被遗漏。",
+        "score": 8,
+        "scoreReason": "产品定位精准，iMessage 集成降低了使用门槛，主动通话功能有差异化优势。但仅支持 iOS 用户，且深度依赖 Apple 生态，覆盖范围有限。",
+        "competitors": [
+          {
+            "name": "Clara Labs",
+            "url": "https://claralabs.com",
+            "comparison": "Clara 专注于邮件日程协调，而 Toyo 覆盖更广（邮件+日历+通话+承诺追踪），且通过 iMessage 交互更自然。"
+          },
+          {
+            "name": "Milo",
+            "url": "https://milo.com",
+            "comparison": "Milo 是面向家庭的 AI 助手，Toyo 更偏向职场行政场景，且支持主动通话功能。"
+          },
+          {
+            "name": "Zoom AI Companion",
+            "url": "https://zoom.us/ai-companion",
+            "comparison": "Zoom AI 主要服务于会议场景，Toyo 覆盖邮件、日历、通话等更广泛的行政工作流。"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/producthunt.com_products_toyo_20260714_115854.png",
+      "appStoreScreenshots": [],
+      "rawData": {}
+    },
+    {
+      "id": "producthunt.com/products/repstandard",
+      "name": "RepStandard",
+      "slug": "repstandard",
+      "description": "用手机摄像头实时计数你的健身动作次数。放下手机，对着摄像头做俯卧撑、深蹲、仰卧起坐和平板支撑，AI 自动计数并追踪动作质量。无需任何设备，无需健身房。",
+      "url": "https://repstandard.co",
+      "homepage": "https://repstandard.co",
+      "type": "app",
+      "appStoreName": "RepStandard - Home Workouts",
+      "appStoreUrl": "https://apps.apple.com/cn/app/repstandard-home-workouts/id6761927539",
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "健身",
+        "AI视觉",
+        "居家锻炼",
+        "动作计数"
+      ],
+      "firstSeen": "2026-07-14T04:01:02.607857+00:00",
+      "lastSeen": "2026-07-14T04:01:02.607857+00:00",
+      "cooldownExpiresAt": "2026-07-28T04:01:02.607857+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-07-14T04:01:02.607857+00:00",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/products/repstandard",
+          "title": "RepStandard"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "居家健身爱好者、不想去健身房但希望有训练数据追踪的人群，以及注重动作质量的健身初学者。",
+        "useCases": [
+          "在家做俯卧撑、深蹲时自动计数，无需手动记录",
+          "通过摄像头实时分析动作质量，纠正不良姿势",
+          "累积经验值升级段位（从 Sheep 到 Sigma），游戏化激励持续锻炼",
+          "生成训练证书，分享训练成果到社交网络"
+        ],
+        "designIntent": "RepStandard 想让健身计数变得像拍照一样简单——放下手机、站好、开始训练，摄像头自动完成计数和追踪。它用游戏化段位系统解决「坚持不下去」的问题，让每次训练都有看得见的成长路径。",
+        "problemSolved": "居家健身最大的两个痛点：一是手动计数分散注意力、容易忘记；二是缺乏激励难以坚持。RepStandard 用 AI 视觉解放双手，用段位和成就系统建立持续锻炼的正反馈循环。",
+        "score": 7,
+        "scoreReason": "AI 视觉计数技术成熟，产品体验流畅，游戏化设计能有效提升用户留存。但目前仅支持 4 种动作，覆盖面有限，且需要手机支架和合适的光线环境。",
+        "competitors": [
+          {
+            "name": "RepCounter AI",
+            "url": "https://www.repcounterai.app/",
+            "comparison": "RepCounter 功能类似但更偏向工具型，RepStandard 的游戏化段位系统和证书分享功能更具社交激励。"
+          },
+          {
+            "name": "Fitbod",
+            "url": "https://fitbod.me",
+            "comparison": "Fitbod 是全面的健身规划和追踪应用，RepStandard 专注于动作计数这一个场景，更轻量、更专注。"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/producthunt.com_products_repstandard_20260714_115908.png",
+      "appStoreScreenshots": [],
+      "rawData": {}
+    },
+    {
+      "id": "producthunt.com/products/breathinginlabour",
+      "name": "Breathing In Labour",
+      "slug": "breathing-in-labour",
+      "description": "专为分娩准备的呼吸训练应用。内置针对产程不同阶段（早期宫缩、扩张期、用力期）的专业呼吸技巧，极简无广告界面，离线可用。帮助准妈妈在分娩过程中保持冷静、缓解疼痛。",
+      "url": "",
+      "homepage": "",
+      "type": "app",
+      "appStoreName": "Breathing in Labour",
+      "appStoreUrl": "https://apps.apple.com/cn/app/breathing-in-labour/id6758552923",
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "孕期健康",
+        "呼吸训练",
+        "分娩准备",
+        "健康管理"
+      ],
+      "firstSeen": "2026-07-14T04:01:02.607857+00:00",
+      "lastSeen": "2026-07-14T04:01:02.607857+00:00",
+      "cooldownExpiresAt": "2026-07-28T04:01:02.607857+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-07-14T04:01:02.607857+00:00",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/products/breathing-in-labour",
+          "title": "Breathing In Labour"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "孕晚期准妈妈（尤其希望自然分娩者）、助产士、导乐（doula），以及希望以非药物方式管理分娩疼痛的孕期女性。",
+        "useCases": [
+          "孕晚期每天 5-10 分钟规律练习，为自然分娩建立身体记忆",
+          "产程中实时跟随呼吸引导，降低疼痛感知、保持体力",
+          "宫缩间隙通过箱式呼吸（Box Breathing）保持冷静",
+          "用力期使用下降呼吸（Descending Breath）保护盆底肌"
+        ],
+        "designIntent": "Breathing In Labour 针对一个非常具体但重要的场景——分娩呼吸。它基于循证医学验证的呼吸技巧，针对产程不同阶段设计不同的呼吸模式。离线可用确保在产房中也能正常使用，极简设计减少产妇在紧张状态下的认知负担。",
+        "problemSolved": "大多数孕期呼吸指导依赖产前课程或书籍，产妇在产程中很难记住具体技巧。这个应用提供了实时、可视化的呼吸引导，让产前练习和产中执行无缝衔接，有效缓解分娩焦虑和疼痛。",
+        "score": 7,
+        "scoreReason": "切入点精准且具有高用户粘性，解决了真实未被充分满足的需求。但受众群体相对狭窄（仅限孕期女性），市场规模有限。产品功能相对单一，付费转化可能面临挑战。",
+        "competitors": [
+          {
+            "name": "GentleBirth",
+            "url": "https://gentlebirth.com",
+            "comparison": "GentleBirth 提供更全面的分娩准备课程（含冥想和 affirmations），Breathing In Labour 更聚焦于呼吸技巧本身，更轻量。"
+          },
+          {
+            "name": "Expectful",
+            "url": "https://expectful.com",
+            "comparison": "Expectful 是孕期冥想应用，覆盖面更广但呼吸技巧的专业深度不如 Breathing In Labour。"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "rawData": {}
+    },
+    {
+      "id": "melodusk.ai",
+      "name": "Melodusk",
+      "slug": "melodusk",
+      "description": "运行在浏览器中的 AI 音乐生成器。支持多语言界面、生成记录追踪，可通过文字提示生成完整的音乐创意。无需安装，打开浏览器即可创作，适合音乐创作入门和灵感探索。",
+      "url": "https://melodusk.ai",
+      "homepage": "https://melodusk.ai",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "AI音乐",
+        "创意工具",
+        "音乐生成",
+        "浏览器应用"
+      ],
+      "firstSeen": "2026-07-14T04:01:02.607857+00:00",
+      "lastSeen": "2026-07-14T04:01:02.607857+00:00",
+      "cooldownExpiresAt": "2026-07-28T04:01:02.607857+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "mentions": [
+        {
+          "date": "2026-07-14T04:01:02.607857+00:00",
+          "channel": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48901280",
+          "title": "Melodusk"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "音乐创作初学者、需要快速生成音乐灵感的创作者、播客和视频内容制作者，以及对 AI 音乐生成技术感兴趣的探索者。",
+        "useCases": [
+          "通过文字提示快速生成音乐 demo 和灵感片段",
+          "为播客、视频内容生成背景音乐",
+          "音乐爱好者探索不同风格和曲风的创作可能性",
+          "教育场景中演示 AI 音乐生成技术原理"
+        ],
+        "designIntent": "Melodusk 想让音乐创作像打字一样简单。它完全运行在浏览器中，无需安装任何软件，降低了音乐制作的技术门槛。多语言界面支持让全球用户都能用自己的语言进行创作。",
+        "problemSolved": "传统音乐制作需要专业的 DAW 软件、乐理知识和硬件设备，门槛极高。Melodusk 让没有任何音乐基础的普通人也能通过文字描述生成完整的音乐作品，将音乐创作从专业领域带入大众日常。",
+        "score": 7,
+        "scoreReason": "产品完成度高，浏览器运行零安装的设计降低了使用门槛。AI 音乐生成赛道竞争激烈（Suno、Udio 等），Melodusk 需要在音质和差异化功能上持续突破。",
+        "competitors": [
+          {
+            "name": "Suno",
+            "url": "https://suno.com",
+            "comparison": "Suno 是目前最主流的 AI 音乐生成平台，音质和曲风多样性领先。Melodusk 的优势在于完全浏览器运行，无需注册即可尝试。"
+          },
+          {
+            "name": "Udio",
+            "url": "https://udio.com",
+            "comparison": "Udio 同样提供高质量 AI 音乐生成，Melodusk 的多语言界面和生成追踪功能有一定差异化。"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/melodusk.ai_20260714_115921.png",
+      "appStoreScreenshots": [],
+      "rawData": {}
+    },
+    {
+      "id": "producthunt.com/products/connectmachine2",
+      "name": "ConnectMachine 2.0",
+      "slug": "connectmachine-2-0",
+      "description": "AI 驱动的数字名片与人脉管理工具。创建多张个性化数字名片，用摄像头扫描纸质名片，AI 自动提取信息并归类和补充。内置 AI 助手可回答人脉相关的自然语言问题，自动记录每次会面的上下文。",
+      "url": "https://www.connectmachine.ai/",
+      "homepage": "https://www.connectmachine.ai/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "数字名片",
+        "人脉管理",
+        "AI助手",
+        "商务社交"
+      ],
+      "firstSeen": "2026-07-14T04:01:02.607857+00:00",
+      "lastSeen": "2026-07-14T04:01:02.607857+00:00",
+      "cooldownExpiresAt": "2026-07-28T04:01:02.607857+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-07-14T04:01:02.607857+00:00",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/products/connectmachine-2",
+          "title": "ConnectMachine 2.0"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "创业者、投资人、商务人士、销售团队，以及经常参加行业会议和社交活动、需要高效管理人脉的职场人士。",
+        "useCases": [
+          "创建多张个性化数字名片（创始人/投资人/演讲者等不同身份），按场景选择性分享",
+          "用摄像头扫描纸质名片或二维码，AI 自动提取并补充联系信息",
+          "用自然语言查询人脉，AI 自动回忆见面背景和谈话要点",
+          "AI 会议记录功能，自动为每次会面生成摘要"
+        ],
+        "designIntent": "ConnectMachine 想做的是「你人脉圈的私人 AI 管家」，而不仅仅是另一个数字名片应用。它用 AI 解决传统名片管理的两大痛点：信息录入繁琐（自动扫描提取）和关系记忆模糊（AI 记录上下文）。强调隐私优先，无社交 Feed、无通知干扰。",
+        "problemSolved": "商务社交中收集的纸质名片和联系方式容易丢失，即使数字化后也难以记住谁是谁、在哪里见过、当时聊了什么。ConnectMachine 的 AI 能记住每次会面的上下文，让零散的社交关系变成可检索的人脉数据库。",
+        "score": 7,
+        "scoreReason": "AI 在名片管理和人脉记忆场景中的应用非常自然，解决了真实痛点。隐私优先的设计理念符合高端用户需求。但市场竞争激烈（如 CamCard、HiHello），需要更强的 AI 差异化功能。",
+        "competitors": [
+          {
+            "name": "HiHello",
+            "url": "https://hihello.com",
+            "comparison": "HiHello 是主流的数字名片应用，功能成熟但 AI 能力较弱。ConnectMachine 的 AI 对话查询和自动记忆功能是其核心差异化优势。"
+          },
+          {
+            "name": "CamCard",
+            "url": "https://camcard.com",
+            "comparison": "CamCard 擅长名片扫描识别，但缺少 AI 人脉管理和自然语言查询功能。ConnectMachine 的 AI Concierge 提供了更智能的人脉管理体验。"
+          },
+          {
+            "name": "Linq",
+            "url": "https://linqapp.com",
+            "comparison": "Linq 专注于数字名片分享，ConnectMachine 更强调 AI 驱动的联系人管理和网络洞察。"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/producthunt.com_products_connectmachine2_20260714_115931.png",
+      "appStoreScreenshots": [],
+      "rawData": {}
     }
   ],
   "tracking": {
