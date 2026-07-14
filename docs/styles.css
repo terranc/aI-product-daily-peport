@@ -69,8 +69,8 @@ img { display:block; max-width:100%; }
 .nav-starred { display:inline-flex; align-items:center; gap:5px; position:relative; }
 .nav-starred .nav-label { font-size:.875rem; }
 .nav-starred .star-ic { width:15px; height:15px; }
-.nav-starred.active { color:var(--c-amber); background:#fffbeb; }
-.nav-starred.active .star-ic { fill:var(--c-amber); }
+.nav-starred.active { color:var(--c-accent); background:var(--c-accent-l); box-shadow: inset 0 0 0 1px var(--c-accent); }
+.nav-starred.active .star-ic { fill:var(--c-accent); }
 .star-count-badge { display:none; min-width:18px; height:18px; padding:0 5px; border-radius:9px; background:var(--c-amber); color:#fff; font-size:.65rem; font-weight:700; line-height:18px; text-align:center; }
 
 /* ─── Hero ─── */

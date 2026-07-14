@@ -374,8 +374,8 @@ img { display:block; max-width:100%; }
 .nav-starred { display:inline-flex; align-items:center; gap:5px; position:relative; }
 .nav-starred .nav-label { font-size:.875rem; }
 .nav-starred .star-ic { width:15px; height:15px; }
-.nav-starred.active { color:var(--c-amber); background:#fffbeb; }
-.nav-starred.active .star-ic { fill:var(--c-amber); }
+.nav-starred.active { color:var(--c-accent); background:var(--c-accent-l); box-shadow: inset 0 0 0 1px var(--c-accent); }
+.nav-starred.active .star-ic { fill:var(--c-accent); }
 .star-count-badge { display:none; min-width:18px; height:18px; padding:0 5px; border-radius:9px; background:var(--c-amber); color:#fff; font-size:.65rem; font-weight:700; line-height:18px; text-align:center; }
 
 /* ─── Hero ─── */
@@ -1978,6 +1978,7 @@ def generate_starred_page():
       position:relative; transition:all .2s var(--ease);
     }
     .product-item:hover { border-color:var(--c-accent); box-shadow:var(--shadow-md); transform:translateY(-1px); }
+    .product-link { display:flex; gap:16px; flex:1; min-width:0; text-decoration:none; color:inherit; }
     .product-thumb {
       width:64px; height:64px; flex-shrink:0; border-radius:6px;
       overflow:hidden; background:var(--c-tag-bg);
@@ -1987,7 +1988,6 @@ def generate_starred_page():
     .product-thumb .ph { width:28px; height:28px; border-radius:6px; background:linear-gradient(135deg,var(--c-accent),#818cf8); opacity:.3; }
     .product-info { flex:1; min-width:0; }
     .product-name { font-size:.95rem; font-weight:600; margin-bottom:4px; }
-    .product-name a { color:inherit; }
     .product-desc { font-size:.8rem; color:var(--c-text-2); line-height:1.6; margin-bottom:8px; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
     .product-meta { display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
     .product-score { font-size:1.1rem; font-weight:800; color:var(--c-accent); min-width:28px; text-align:center; }
@@ -1995,7 +1995,7 @@ def generate_starred_page():
     .product-tags { display:flex; gap:4px; }
     .product-tags .mini-tag { font-size:.6rem; padding:1px 6px; border-radius:3px; background:var(--c-tag-bg); color:var(--c-text-3); }
     .unstar-btn {
-      position:absolute; top:10px; right:10px;
+      position:absolute; top:10px; right:10px; z-index:2;
       width:26px; height:26px; border-radius:50%;
       border:none; background:var(--c-tag-bg); color:var(--c-text-3);
       font-size:.75rem; cursor:pointer; display:flex; align-items:center; justify-content:center;
@@ -2031,16 +2031,18 @@ def generate_starred_page():
       const tags = (p.tags || []).slice(0, 3).map(t => `<span class="mini-tag">${t}</span>`).join('');
       return `
         <div class="product-item" data-slug="${slug}">
-          <a href="products/${slug}.html" class="product-thumb">${thumb}</a>
-          <div class="product-info">
-            <div class="product-name"><a href="products/${slug}.html">${p.name}</a></div>
-            <p class="product-desc">${p.description || ''}</p>
-            <div class="product-meta">
-              <span class="product-score">${p.score || '-'}</span>
-              <span class="product-date">${p.date}</span>
-              <div class="product-tags">${tags}</div>
+          <a href="products/${slug}.html" class="product-link">
+            <div class="product-thumb">${thumb}</div>
+            <div class="product-info">
+              <div class="product-name">${p.name}</div>
+              <p class="product-desc">${p.description || ''}</p>
+              <div class="product-meta">
+                <span class="product-score">${p.score || '-'}</span>
+                <span class="product-date">${p.date}</span>
+                <div class="product-tags">${tags}</div>
+              </div>
             </div>
-          </div>
+          </a>
           <button class="unstar-btn" data-slug="${slug}" onclick="unstarProduct(this)" title="取消标星" aria-label="取消标星">✕</button>
         </div>`;
     }
