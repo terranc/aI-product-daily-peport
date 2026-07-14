@@ -145,6 +145,161 @@ document.addEventListener('DOMContentLoaded', function() {
 """
 
 
+# ─── Modal 核心（产品详情弹窗，供星标页等列表页复用）─────────────────
+MODAL_CORE_JS = r"""
+// Modal 状态与核心函数（变量名与首页一致，保证 Modal HTML 的 onclick 可用）
+let modal, modalBody, modalTitle, isModalOpen = false, lastListUrl = null;
+
+function _ensureModalRefs() {
+  if (!modal) {
+    modal = document.getElementById('product-modal');
+    modalBody = document.getElementById('modal-body');
+    modalTitle = document.getElementById('modal-title');
+  }
+}
+
+function rebaseModalUrls(root, baseUrl) {
+  let adjustedBase = baseUrl;
+  try {
+    const urlObj = new URL(baseUrl);
+    if (urlObj.pathname.startsWith('/products/') || urlObj.pathname.startsWith('/weekly/')) {
+      adjustedBase = urlObj.origin + '/';
+    }
+  } catch (e) {}
+  root.querySelectorAll('[src]').forEach(el => {
+    const value = el.getAttribute('src');
+    if (value && !value.startsWith('http') && !value.startsWith('data:')) {
+      el.setAttribute('src', new URL(value, adjustedBase).href);
+    }
+  });
+  root.querySelectorAll('[href]').forEach(el => {
+    const value = el.getAttribute('href');
+    if (value && !value.startsWith('http') && !value.startsWith('#') && !value.startsWith('mailto:')) {
+      el.setAttribute('href', new URL(value, adjustedBase).href);
+    }
+  });
+}
+
+async function openProductModal(detailUrl, name, updateHistory = true) {
+  _ensureModalRefs();
+  const absoluteUrl = new URL(detailUrl, window.location.origin + '/').href;
+  detailUrl = absoluteUrl;
+  modalTitle.textContent = name;
+  modalBody.innerHTML = '<div style="text-align:center;padding:40px;color:var(--c-text-3)">加载中...</div>';
+  modal.classList.add('active');
+  document.body.style.overflow = 'hidden';
+  isModalOpen = true;
+  if (updateHistory) {
+    lastListUrl = window.location.href;
+    history.pushState({ productModal: true, url: detailUrl }, '', detailUrl);
+  }
+  try {
+    const resp = await fetch(detailUrl);
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    const html = await resp.text();
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(html, 'text/html');
+    const detailContent = doc.querySelector('#product-detail-content');
+    if (detailContent) {
+      rebaseModalUrls(detailContent, new URL(detailUrl, window.location.href).href);
+      modalBody.replaceChildren(detailContent);
+      if (typeof initStarButtons === 'function') initStarButtons(modalBody);
+      if (typeof Fancybox !== 'undefined') {
+        Fancybox.bind(modalBody, '[data-fancybox]', { Thumbs: false, parentEl: document.body });
+      }
+    } else {
+      throw new Error('详情主体不存在');
+    }
+  } catch (err) {
+    modalBody.innerHTML = '<div style="text-align:center;padding:40px;color:var(--c-text-3)">加载失败，请<a href="' + detailUrl + '" style="color:var(--c-accent);font-weight:600">打开详情页</a></div>';
+  }
+  modal.scrollTop = 0;
+}
+
+function closeProductModal(updateHistory = true) {
+  if (!isModalOpen) return;
+  _ensureModalRefs();
+  modal.classList.remove('active');
+  document.body.style.overflow = '';
+  isModalOpen = false;
+  if (typeof Fancybox !== 'undefined') {
+    try { Fancybox.close(); } catch(e) {}
+  }
+  if (updateHistory && lastListUrl) {
+    history.pushState({}, '', lastListUrl);
+    lastListUrl = null;
+  }
+}
+
+function _isFancyboxOpen() {
+  return document.querySelector('.fancybox__container') !== null;
+}
+
+// 遮罩点击关闭
+document.addEventListener('click', function(e) {
+  _ensureModalRefs();
+  if (e.target === modal) closeProductModal();
+});
+
+// ESC 关闭
+document.addEventListener('keydown', function(e) {
+  _ensureModalRefs();
+  if (e.key === 'Escape' && modal.classList.contains('active')) {
+    if (_isFancyboxOpen()) return;
+    closeProductModal();
+  }
+});
+
+// 浏览器前进/后退
+window.addEventListener('popstate', function(e) {
+  _ensureModalRefs();
+  if (e.state && e.state.productModal) {
+    const detailUrl = e.state.url;
+    const name = detailUrl.split('/').pop().replace('.html', '');
+    openProductModal(detailUrl, decodeURIComponent(name), false);
+  } else if (isModalOpen) {
+    closeProductModal(false);
+  }
+});
+
+// 页面加载时检查 URL 是否为产品详情页（深度链接）
+(function() {
+  _ensureModalRefs();
+  const path = window.location.pathname;
+  const match = path.match(/\/products\/([a-z0-9-]+)\.html$/i);
+  if (match && window.matchMedia('(min-width: 769px)').matches) {
+    const slug = match[1];
+    openProductModal(window.location.href, slug, false);
+  }
+})();
+"""
+
+
+# ─── Modal 样式与 HTML（共享）─────────────────────────────────────────
+MODAL_CSS = """
+    .product-modal-overlay { display:none; position:fixed; inset:0; z-index:9000; background:rgba(0,0,0,.5); backdrop-filter:blur(4px); overflow-y:auto; -webkit-overflow-scrolling:touch; }
+    .product-modal-overlay.active { display:block; }
+    .product-modal-container { position:relative; max-width:1120px; width:90%; margin:40px auto; min-height:auto; background:var(--c-bg); border-radius:var(--radius-lg); box-shadow:0 8px 32px rgba(0,0,0,.2); overflow:hidden; }
+    .product-modal-close { position:sticky; top:0; z-index:10; display:flex; align-items:center; justify-content:space-between; padding:12px 16px; background:var(--c-surface); border-bottom:1px solid var(--c-border); }
+    .product-modal-close button { background:none; border:none; cursor:pointer; font-size:1rem; color:var(--c-text-2); padding:4px 8px; }
+    .product-modal-close .title { font-weight:600; font-size:.9rem; color:var(--c-text); }
+    .product-modal-body { padding:0; }
+    .fancybox__container { z-index:10000; }
+"""
+
+MODAL_HTML = """  <div class="product-modal-overlay" id="product-modal">
+    <div class="product-modal-container">
+      <div class="product-modal-close">
+        <span class="title" id="modal-title"></span>
+        <button onclick="closeProductModal()" aria-label="关闭">✕ 关闭</button>
+      </div>
+      <div class="product-modal-body" id="modal-body">
+        <div style="text-align:center;padding:40px;color:var(--c-text-3)">加载中...</div>
+      </div>
+    </div>
+  </div>"""
+
+
 # ─── CSS ──────────────────────────────────────────────────────────────
 
 def generate_css():
@@ -1987,6 +2142,20 @@ def generate_starred_page():
     window.addEventListener('storage', function(e) {
       if (e.key === STAR_KEY) refreshFromStorage();
     });
+
+    // 星标页：产品点击用 Modal 打开详情（桌面端，事件委托适配动态渲染）
+    (function() {
+      if (!window.matchMedia('(min-width: 769px)').matches) return;
+      document.addEventListener('click', function(e) {
+        const link = e.target.closest('.product-item a[href]');
+        if (!link) return;
+        if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+        e.preventDefault();
+        const item = link.closest('.product-item');
+        const name = (item && item.querySelector('.product-name')) ? item.querySelector('.product-name').textContent.trim() : '';
+        openProductModal(link.getAttribute('href'), name);
+      });
+    })();
 """
 
     html = f"""<!DOCTYPE html>
@@ -1996,8 +2165,11 @@ def generate_starred_page():
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>星标项目 · AI 产品雷达</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js" defer></script>
   <style>
 {css}
+{MODAL_CSS}
   </style>
 </head>
 <body>
@@ -2014,10 +2186,12 @@ def generate_starred_page():
       </div>
     </div>
   </main>
+  {MODAL_HTML}
   {footer_html(0)}
 
   <script>
 {STAR_JS}
+{MODAL_CORE_JS}
 {js}
   </script>
 </body>
