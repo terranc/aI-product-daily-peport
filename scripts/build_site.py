@@ -82,8 +82,67 @@ def icon(name):
         'swords': '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="14.5 17.5 3 6 3 3 6 3 17.5 14.5"/><line x1="13" y1="19" x2="19" y2="13"/><line x1="16" y1="16" x2="20" y2="20"/><line x1="19" y1="21" x2="21" y2="19"/><polyline points="14.5 6.5 18 3 21 3 21 6 17.5 9.5"/><line x1="5" y1="14" x2="9" y2="18"/><line x1="7" y1="17" x2="4" y2="20"/><line x1="3" y1="19" x2="5" y2="21"/></svg>',
         'inbox': '<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 16 12 14 15 10 15 8 12 2 12"/><path d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"/></svg>',
         'github': '<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>',
+        'star': '<svg class="star-ic" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>',
     }
     return icons.get(name, '')
+
+
+# ─── 标星功能：共享 JS（详情页 + 首页 Modal 共用，基于 localStorage）────
+STAR_JS = r"""
+const STAR_KEY = 'ai_radar_starred';
+function getStarredSlugs() {
+  try { return JSON.parse(localStorage.getItem(STAR_KEY) || '[]'); } catch(e) { return []; }
+}
+function saveStarredSlugs(arr) {
+  try { localStorage.setItem(STAR_KEY, JSON.stringify(arr)); } catch(e) {}
+}
+function isStarred(slug) {
+  if (!slug) return false;
+  return getStarredSlugs().indexOf(String(slug).toLowerCase()) !== -1;
+}
+function toggleStar(btn) {
+  const slug = (btn.getAttribute('data-slug') || '').toLowerCase();
+  if (!slug) return;
+  let arr = getStarredSlugs();
+  const idx = arr.indexOf(slug);
+  const nowStarred = idx === -1;
+  if (nowStarred) { arr.push(slug); } else { arr.splice(idx, 1); }
+  saveStarredSlugs(arr);
+  refreshStarButton(btn);
+  updateStarBadges();
+  window.dispatchEvent(new CustomEvent('star-changed', { detail: { slug: slug, starred: nowStarred } }));
+}
+function refreshStarButton(btn) {
+  if (!btn || !btn.classList || !btn.classList.contains('btn-star')) return;
+  const slug = (btn.getAttribute('data-slug') || '').toLowerCase();
+  const starred = isStarred(slug);
+  if (starred) {
+    btn.classList.add('is-starred');
+    btn.setAttribute('aria-pressed', 'true');
+  } else {
+    btn.classList.remove('is-starred');
+    btn.setAttribute('aria-pressed', 'false');
+  }
+  const lbl = btn.querySelector('.star-label');
+  if (lbl) lbl.textContent = starred ? '已标星' : '标星';
+}
+function updateStarBadges() {
+  const count = getStarredSlugs().length;
+  document.querySelectorAll('.star-count-badge').forEach(el => {
+    el.textContent = count > 0 ? String(count) : '';
+    el.style.display = count > 0 ? '' : 'none';
+  });
+}
+function initStarButtons(root) {
+  (root || document).querySelectorAll('.btn-star[data-slug]').forEach(btn => {
+    refreshStarButton(btn);
+  });
+}
+document.addEventListener('DOMContentLoaded', function() {
+  updateStarBadges();
+  initStarButtons(document);
+});
+"""
 
 
 # ─── CSS ──────────────────────────────────────────────────────────────
@@ -156,6 +215,13 @@ img { display:block; max-width:100%; }
 }
 .site-nav a:hover { color:var(--c-text); background:var(--c-accent-l); }
 .site-nav a.active { color:var(--c-accent); background:var(--c-accent-l); }
+/* 星标导航项 */
+.nav-starred { display:inline-flex; align-items:center; gap:5px; position:relative; }
+.nav-starred .nav-label { font-size:.875rem; }
+.nav-starred .star-ic { width:15px; height:15px; }
+.nav-starred.active { color:var(--c-amber); background:#fffbeb; }
+.nav-starred.active .star-ic { fill:var(--c-amber); }
+.star-count-badge { display:none; min-width:18px; height:18px; padding:0 5px; border-radius:9px; background:var(--c-amber); color:#fff; font-size:.65rem; font-weight:700; line-height:18px; text-align:center; }
 
 /* ─── Hero ─── */
 .hero {
@@ -313,6 +379,13 @@ img { display:block; max-width:100%; }
 .btn-primary:hover { background:var(--c-accent); color:#fff; }
 .btn-ghost { background:transparent; color:var(--c-text-2); border:1px solid var(--c-border); }
 .btn-ghost:hover { border-color:var(--c-accent); color:var(--c-accent); }
+/* 标星按钮 */
+.btn-star { gap:6px; }
+.btn-star .star-ic { transition: fill .15s var(--ease), transform .15s var(--ease); }
+.btn-star:hover .star-ic { transform: scale(1.15); }
+.btn-star.is-starred { color:var(--c-amber); border-color:var(--c-amber); background:#fffbeb; }
+.btn-star.is-starred .star-ic { fill:var(--c-amber); }
+.btn-star.is-starred:hover { background:#fef3c7; }
 
 .detail-body {
   display:grid; grid-template-columns:1fr 300px;
@@ -545,11 +618,17 @@ def header_html(active='', depth=0):
         (home_href(depth), '每日简报', 'daily'),
         ('weekly.html', '每周深度', 'weekly'),
         ('archive.html', '归档', 'archive'),
+        ('starred.html', '星标', 'starred'),
     ]
     nav = ''
     for href, label, key in nav_items:
-        cls = ' class="active"' if active == key else ''
-        nav += f'<a href="{href if href.startswith(".") else rel(href, depth)}"{cls}>{label}</a>'
+        href_attr = href if href.startswith('.') else rel(href, depth)
+        if key == 'starred':
+            cls = ' class="nav-starred active"' if active == 'starred' else ' class="nav-starred"'
+            nav += f'<a href="{href_attr}"{cls}>{icon("star")}<span class="nav-label">{label}</span><span class="star-count-badge"></span></a>'
+        else:
+            cls = ' class="active"' if active == key else ''
+            nav += f'<a href="{href_attr}"{cls}>{label}</a>'
     nav += f'<a href="https://github.com/terranc/aI-product-daily-peport" target="_blank">{icon("github")}</a>'
 
     return f"""<header class="site-header">
@@ -651,6 +730,9 @@ def render_product_detail_content(prd, depth=0):
     encoded_prompt = urllib.parse.quote(chatgpt_prompt)
     btn_chatgpt = f'<a href="https://chatgpt.com/?q={encoded_prompt}" target="_blank" class="btn btn-ghost" style="background:linear-gradient(135deg,#10a37f 0%,#1a7f64 100%);color:#fff;border:none;">💬 ChatGPT 分析</a>'
 
+    # 标星按钮（基于 localStorage，初始未标星状态由 JS 刷新）
+    btn_star = f'<button type="button" class="btn btn-ghost btn-star" data-slug="{product_slug}" onclick="toggleStar(this)" aria-pressed="false">{icon("star")}<span class="star-label">标星</span></button>'
+
     return f"""<div id="product-detail-content">
       <article class="detail-card">
         <div class="detail-hero">
@@ -662,7 +744,7 @@ def render_product_detail_content(prd, depth=0):
           <p class="detail-subtitle">{prd.get('description','')}</p>
           <div class="detail-actions">
             <span class="detail-score-badge">{score}</span>
-            {btn_web}{btn_app}{btn_chatgpt}
+            {btn_web}{btn_app}{btn_chatgpt}{btn_star}
           </div>
         </div>
         <div class="detail-body">
@@ -845,6 +927,9 @@ def generate_index(reports):
   {footer_html(0)}
 
     <script>
+    // 标星功能（共享）
+{STAR_JS}
+
     // Modal 逻辑（所有设备）
     const modal = document.getElementById('product-modal');
     const modalBody = document.getElementById('modal-body');
@@ -922,6 +1007,7 @@ def generate_index(reports):
           rebaseModalUrls(detailContent, new URL(detailUrl, window.location.href).href);
 
           modalBody.replaceChildren(detailContent);
+          initStarButtons(modalBody);
           if (typeof Fancybox !== 'undefined') {{
             Fancybox.bind(modalBody, '[data-fancybox]', {{
               Thumbs: false,
@@ -1036,6 +1122,9 @@ def generate_product_pages(all_products):
     </div>
   </main>
   {footer_html(1)}
+  <script>
+{STAR_JS}
+  </script>
 </body>
 </html>"""
 
@@ -1312,6 +1401,8 @@ def generate_weekly_detail_pages(reports):
 
     modal_js = """
     <script>
+    // 标星功能（共享）
+""" + STAR_JS + """
     // Modal 逻辑（所有设备）
     const modal = document.getElementById('product-modal');
     const modalBody = document.getElementById('modal-body');
@@ -1372,6 +1463,7 @@ def generate_weekly_detail_pages(reports):
         if (detailContent) {
           rebaseModalUrls(detailContent, new URL(detailUrl, window.location.href).href);
           modalBody.replaceChildren(detailContent);
+          initStarButtons(modalBody);
         } else {
           throw new Error('详情主体不存在');
         }
@@ -1713,6 +1805,228 @@ def generate_tags_page():
     (SITE_DIR / "tags.html").write_text(html, encoding='utf-8')
 
 
+# ─── Page: Starred ───────────────────────────────────────────────────
+
+def generate_starred_page():
+    """生成星标项目列表页，客户端 JS 读取 localStorage + all-products.json 渲染已标星产品"""
+    css = """
+    .star-hero { text-align:center; padding:40px 0 24px; }
+    .star-hero h1 { font-size:1.75rem; font-weight:700; margin-bottom:8px; display:flex; align-items:center; justify-content:center; gap:8px; }
+    .star-hero h1 .star-ic { width:24px; height:24px; fill:var(--c-amber); stroke:var(--c-amber); }
+    .star-hero p { color:var(--c-text-2); }
+    .star-count { font-size:.85rem; color:var(--c-text-3); margin-top:8px; }
+    .product-list { max-width:800px; margin:0 auto; padding-bottom:40px; }
+    .product-item {
+      display:flex; gap:16px; padding:16px;
+      background:var(--c-surface); border:1px solid var(--c-border);
+      border-radius:var(--radius); margin-bottom:12px;
+      position:relative; transition:all .2s var(--ease);
+    }
+    .product-item:hover { border-color:var(--c-accent); box-shadow:var(--shadow-md); transform:translateY(-1px); }
+    .product-thumb {
+      width:64px; height:64px; flex-shrink:0; border-radius:6px;
+      overflow:hidden; background:var(--c-tag-bg);
+      display:flex; align-items:center; justify-content:center;
+    }
+    .product-thumb img { width:100%; height:100%; object-fit:cover; }
+    .product-thumb .ph { width:28px; height:28px; border-radius:6px; background:linear-gradient(135deg,var(--c-accent),#818cf8); opacity:.3; }
+    .product-info { flex:1; min-width:0; }
+    .product-name { font-size:.95rem; font-weight:600; margin-bottom:4px; }
+    .product-name a { color:inherit; }
+    .product-desc { font-size:.8rem; color:var(--c-text-2); line-height:1.6; margin-bottom:8px; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+    .product-meta { display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+    .product-score { font-size:1.1rem; font-weight:800; color:var(--c-accent); min-width:28px; text-align:center; }
+    .product-date { font-size:.7rem; color:var(--c-text-3); }
+    .product-tags { display:flex; gap:4px; }
+    .product-tags .mini-tag { font-size:.6rem; padding:1px 6px; border-radius:3px; background:var(--c-tag-bg); color:var(--c-text-3); }
+    .unstar-btn {
+      position:absolute; top:10px; right:10px;
+      width:26px; height:26px; border-radius:50%;
+      border:none; background:var(--c-tag-bg); color:var(--c-text-3);
+      font-size:.75rem; cursor:pointer; display:flex; align-items:center; justify-content:center;
+      transition:all .15s var(--ease); flex-shrink:0;
+    }
+    .unstar-btn:hover { background:#fee2e2; color:#dc2626; transform:scale(1.1); }
+    .load-more-btn {
+      display:inline-block; margin:24px auto; padding:12px 32px;
+      background:var(--c-accent-l); color:var(--c-accent);
+      border:1px solid var(--c-accent); border-radius:var(--radius);
+      font-weight:600; font-size:.9rem; cursor:pointer;
+      transition:all .15s var(--ease); text-decoration:none;
+    }
+    .load-more-btn:hover { background:var(--c-accent); color:#fff; }
+    .loading { text-align:center; padding:40px; color:var(--c-text-3); }
+    .no-results { text-align:center; padding:60px 20px; color:var(--c-text-3); }
+    .no-results .empty-ic { font-size:2.5rem; margin-bottom:12px; }
+"""
+
+    js = """
+    const PAGE_SIZE = 5;
+    let starredProducts = [];
+    let allProducts = [];
+    let shown = 0;
+
+    function renderProduct(p) {
+      const slug = (p.slug || '').toLowerCase();
+      const thumb = p.screenshotUrl
+        ? `<img src="${p.screenshotUrl}" alt="${p.name}" loading="lazy">`
+        : (p.appStoreScreenshots && p.appStoreScreenshots.length
+          ? `<img src="${p.appStoreScreenshots[0]}" alt="${p.name}" loading="lazy">`
+          : '<div class="ph"></div>');
+      const tags = (p.tags || []).slice(0, 3).map(t => `<span class="mini-tag">${t}</span>`).join('');
+      return `
+        <div class="product-item" data-slug="${slug}">
+          <a href="products/${slug}.html" class="product-thumb">${thumb}</a>
+          <div class="product-info">
+            <div class="product-name"><a href="products/${slug}.html">${p.name}</a></div>
+            <p class="product-desc">${p.description || ''}</p>
+            <div class="product-meta">
+              <span class="product-score">${p.score || '-'}</span>
+              <span class="product-date">${p.date}</span>
+              <div class="product-tags">${tags}</div>
+            </div>
+          </div>
+          <button class="unstar-btn" data-slug="${slug}" onclick="unstarProduct(this)" title="取消标星" aria-label="取消标星">✕</button>
+        </div>`;
+    }
+
+    function renderBatch() {
+      const list = document.getElementById('product-list');
+      const end = Math.min(shown + PAGE_SIZE, starredProducts.length);
+      for (let i = shown; i < end; i++) {
+        list.insertAdjacentHTML('beforeend', renderProduct(starredProducts[i]));
+      }
+      shown = end;
+      const existingBtn = document.getElementById('load-more');
+      if (existingBtn) existingBtn.remove();
+      if (shown < starredProducts.length) {
+        const btn = document.createElement('button');
+        btn.id = 'load-more';
+        btn.className = 'load-more-btn';
+        btn.textContent = `查看更多（剩余 ${starredProducts.length - shown} 个）`;
+        btn.onclick = renderBatch;
+        list.appendChild(btn);
+      }
+    }
+
+    function unstarProduct(btn) {
+      const slug = (btn.getAttribute('data-slug') || '').toLowerCase();
+      if (!slug) return;
+      let arr = getStarredSlugs();
+      const idx = arr.indexOf(slug);
+      if (idx !== -1) {
+        arr.splice(idx, 1);
+        saveStarredSlugs(arr);
+      }
+      const item = btn.closest('.product-item');
+      if (item) {
+        item.style.transition = 'opacity .2s, transform .2s';
+        item.style.opacity = '0';
+        item.style.transform = 'translateX(20px)';
+        setTimeout(() => {
+          item.remove();
+          starredProducts = starredProducts.filter(p => (p.slug || '').toLowerCase() !== slug);
+          updateCount();
+          if (starredProducts.length === 0) showEmpty();
+        }, 200);
+      }
+      updateStarBadges();
+      window.dispatchEvent(new CustomEvent('star-changed', { detail: { slug: slug, starred: false } }));
+    }
+
+    function updateCount() {
+      const el = document.getElementById('star-count');
+      if (el) el.textContent = `共 ${starredProducts.length} 个标星产品`;
+    }
+
+    function showEmpty() {
+      document.getElementById('product-list').innerHTML =
+        '<div class="no-results">' +
+        '<div class="empty-ic">⭐</div>' +
+        '<p>还没有标星的产品</p>' +
+        '<p style="font-size:.85rem;margin-top:8px">在产品详情页点击「标星」按钮，即可在此处查看</p>' +
+        '<a href="./" class="load-more-btn" style="display:inline-block;margin-top:20px">去发现产品</a>' +
+        '</div>';
+    }
+
+    function renderList() {
+      const list = document.getElementById('product-list');
+      list.innerHTML = '';
+      shown = 0;
+      if (starredProducts.length === 0) {
+        showEmpty();
+        return;
+      }
+      updateCount();
+      renderBatch();
+    }
+
+    function refreshFromStorage() {
+      const slugs = getStarredSlugs();
+      const slugSet = new Set(slugs.map(s => String(s).toLowerCase()));
+      starredProducts = allProducts.filter(p => slugSet.has((p.slug || '').toLowerCase()));
+      starredProducts.sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+      renderList();
+    }
+
+    async function init() {
+      try {
+        const resp = await fetch('all-products.json');
+        allProducts = await resp.json();
+      } catch (e) {
+        document.getElementById('product-list').innerHTML = '<div class="no-results">数据加载失败，请刷新重试</div>';
+        return;
+      }
+      refreshFromStorage();
+    }
+
+    init();
+
+    // 监听标星变化实时同步（Modal 内取消标星 / 其他标签页）
+    window.addEventListener('star-changed', function() { refreshFromStorage(); });
+    window.addEventListener('storage', function(e) {
+      if (e.key === STAR_KEY) refreshFromStorage();
+    });
+"""
+
+    html = f"""<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>星标项目 · AI 产品雷达</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+{css}
+  </style>
+</head>
+<body>
+  {header_html('starred', 0)}
+  <main>
+    <div class="container">
+      <div class="star-hero">
+        <h1>{icon("star")} 星标项目</h1>
+        <p>你标记为值得关注的产品</p>
+        <div class="star-count" id="star-count"></div>
+      </div>
+      <div class="product-list" id="product-list">
+        <div class="loading">正在加载标星数据...</div>
+      </div>
+    </div>
+  </main>
+  {footer_html(0)}
+
+  <script>
+{STAR_JS}
+{js}
+  </script>
+</body>
+</html>"""
+
+    (SITE_DIR / "starred.html").write_text(html, encoding='utf-8')
+    print(f"  ⭐ 星标列表页: starred.html")
+
+
 # ─── Main ─────────────────────────────────────────────────────────────
 
 def main():
@@ -1748,6 +2062,7 @@ def main():
     generate_archive(daily_reports)
     generate_all_products_json(all_products)
     generate_tags_page()
+    generate_starred_page()
 
     # 自定义域名 CNAME 文件
     (SITE_DIR / "CNAME").write_text("ai-daily.asdasd.vip", encoding="utf-8")

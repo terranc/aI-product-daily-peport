@@ -65,6 +65,13 @@ img { display:block; max-width:100%; }
 }
 .site-nav a:hover { color:var(--c-text); background:var(--c-accent-l); }
 .site-nav a.active { color:var(--c-accent); background:var(--c-accent-l); }
+/* 星标导航项 */
+.nav-starred { display:inline-flex; align-items:center; gap:5px; position:relative; }
+.nav-starred .nav-label { font-size:.875rem; }
+.nav-starred .star-ic { width:15px; height:15px; }
+.nav-starred.active { color:var(--c-amber); background:#fffbeb; }
+.nav-starred.active .star-ic { fill:var(--c-amber); }
+.star-count-badge { display:none; min-width:18px; height:18px; padding:0 5px; border-radius:9px; background:var(--c-amber); color:#fff; font-size:.65rem; font-weight:700; line-height:18px; text-align:center; }
 
 /* ─── Hero ─── */
 .hero {
@@ -222,6 +229,13 @@ img { display:block; max-width:100%; }
 .btn-primary:hover { background:var(--c-accent); color:#fff; }
 .btn-ghost { background:transparent; color:var(--c-text-2); border:1px solid var(--c-border); }
 .btn-ghost:hover { border-color:var(--c-accent); color:var(--c-accent); }
+/* 标星按钮 */
+.btn-star { gap:6px; }
+.btn-star .star-ic { transition: fill .15s var(--ease), transform .15s var(--ease); }
+.btn-star:hover .star-ic { transform: scale(1.15); }
+.btn-star.is-starred { color:var(--c-amber); border-color:var(--c-amber); background:#fffbeb; }
+.btn-star.is-starred .star-ic { fill:var(--c-amber); }
+.btn-star.is-starred:hover { background:#fef3c7; }
 
 .detail-body {
   display:grid; grid-template-columns:1fr 300px;
