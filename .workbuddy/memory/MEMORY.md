@@ -10,6 +10,16 @@
 - **静态站点**: `docs/`（通过 `scripts/build_site.py` 生成）
 - **GitHub Pages**: https://ai-daily.asdasd.vip
 
+## 站点功能：产品标星 (2026-07-15)
+
+- 基于浏览器 localStorage 的产品收藏功能（无后端），key 为 `ai_radar_starred`，存 slug 数组
+- 产品详情页 detail-actions 区有标星按钮（`btn-star` + `data-slug` + `onclick="toggleStar(this)"`）
+- 顶部导航有「星标」入口 + 数量徽章（`.star-count-badge`，JS 动态更新）
+- `starred.html` 星标列表页：fetch `all-products.json` + localStorage 过滤渲染，支持取消标星与实时同步
+- 共享 `STAR_JS` 常量在详情页/首页/周报/星标页统一注入；Modal 注入 DOM 后手动 `initStarButtons()`（解决动态注入不执行 script）
+- 相关代码在 `scripts/build_site.py` 的 `STAR_JS` 常量、`header_html()`、`render_product_detail_content()`、`generate_starred_page()` 中
+- 星标列表页点击产品用 Modal 打开详情（与首页一致）：共享 `MODAL_CORE_JS`/`MODAL_CSS`/`MODAL_HTML` 常量，事件委托绑定 `.product-item a[href]`
+
 ## LLM 分析引擎 (2026-05-23)
 
 已完成从"关键词匹配"到"LLM 驱动"的策略升级：
@@ -83,3 +93,5 @@ LLM_MODEL=gpt-4o-mini
 - **日报生成成功**：已成功生成 2026-06-19 日报，包含 5 个精选产品（Adapt、VoiceOS、AudienceCue、ClawEase、Dopami）。(2026-06-19)
 - **日报生成成功**：已成功生成 2026-06-27 日报，包含 5 个精选产品（Swimio、Dub Ninja、Tough Tongue AI、CubeOne、Nimt）。(2026-06-27)
 - **产品数据库更新**：数据库已更新至 227 个产品。(2026-06-27)
+- **日报生成成功**：已成功生成 2026-07-14 日报，包含 5 个精选产品（Toyo、RepStandard、Breathing In Labour、Melodusk、ConnectMachine 2.0）。(2026-07-14)
+- **产品数据库更新**：数据库已更新至 252 个产品（新增 5 个）。(2026-07-14)
