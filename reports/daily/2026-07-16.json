@@ -1,0 +1,297 @@
+{
+  "date": "2026-07-16",
+  "generatedAt": "2026-07-16T04:15:27.028772+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "x.com/gkxspace/status/2077198977967993081",
+      "name": "Airtap AI — iMessage 操控云端手机的 AI 助理",
+      "slug": "airtap-ai",
+      "description": "Airtap AI 是一个 iMessage 驱动的个人 AI 执行平台。你发短信给它，它就能操控一台云端真手机，替你完成上网查资料、刷 Reddit、订餐、监控价格等任务。核心架构分为三层：云端 AI 大脑做决策、AutoPilot 执行点击滑动等操作、云端手机或真机运行。无需 VPN 和安装额外 App，发短信就能用。",
+      "url": "https://airtap.ai",
+      "homepage": "https://airtap.ai",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260716_121442.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 助手",
+        "手机自动化",
+        "iMessage",
+        "云端手机",
+        "生活效率"
+      ],
+      "sourceChannels": [
+        "twitter"
+      ],
+      "sourceUrl": "https://x.com/gkxspace/status/2077198977967993081",
+      "firstSeen": "2026-07-16T04:14:42.841579+00:00",
+      "analysis": {
+        "targetAudience": "需要远程操控手机完成各类网络任务的普通用户和 AI 极客",
+        "useCases": [
+          "发短信让 AI 帮你刷 Reddit 找产品需求和海外资讯",
+          "让 AI 自动蹲点抢购限量商品或监控价格变化",
+          "跨 App 执行复杂操作流程（如查资料→整理→发送）",
+          "给 Claude/Codex 等 AI Agent 赋予手机操作能力",
+          "无需翻墙即可访问海外平台获取信息"
+        ],
+        "designIntent": "打破传统 AI 助手只能“回答问题”的局限，让 AI 能像人一样真实操作手机 App，真正从“说”变为“做”",
+        "problemSolved": "解决了用户不方便翻墙、不想装一堆 App 但需要获取海外信息、执行重复性手机操作的问题",
+        "tags": [
+          "AI 助手",
+          "手机自动化",
+          "iMessage",
+          "云端手机",
+          "生活效率"
+        ],
+        "score": 8,
+        "scoreReason": "理念创新且实用，架构清晰，解决了真实痛点；但 Agent 集成门槛略高，普通用户可能需要时间适应",
+        "competitors": [
+          {
+            "name": "Browser Use",
+            "url": "https://browser-use.com",
+            "comparison": "偏向浏览器自动化而非手机操作，Airtap 优势在移动端"
+          },
+          {
+            "name": "AutoGlass",
+            "url": "https://autoglass.ai",
+            "comparison": "类似概念但聚焦特定场景，Airtap 更通用灵活"
+          }
+        ]
+      }
+    },
+    {
+      "id": "x.com/esandurrani/status/2072083052109635633",
+      "name": "Honen — AI 企业培训与课程创建平台",
+      "slug": "honen",
+      "description": "Honen 是一个 AI 驱动的企业培训/课程创建平台，由 StudyFetch 公司推出。用户上传文档、视频、链接等素材，Honen 在数分钟内将其转化为包含九种学习方式（阅读、播客、测验、游戏等）的完整课程。内置 AI 导师支持语音和文字互动。已与 NVIDIA 合作，面向 25 万高中生提供 AI 培训课程。",
+      "url": "https://honen.com",
+      "homepage": "https://honen.com",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260716_121449.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "企业培训",
+        "AI 课程",
+        "教育科技",
+        "NVIDIA 合作",
+        "知识管理"
+      ],
+      "sourceChannels": [
+        "twitter"
+      ],
+      "sourceUrl": "https://x.com/esandurrani/status/2072083052109635633",
+      "firstSeen": "2026-07-16T04:14:42.841579+00:00",
+      "analysis": {
+        "targetAudience": "企业培训团队、教育机构和内容创作者",
+        "useCases": [
+          "将公司内部手册快速转化为结构化培训课程",
+          "与 NVIDIA 合作开展大规模 AI 技能培训",
+          "教师创建互动课程并实时追踪学生进度",
+          "个人创作者将专业知识打包成互动课程",
+          "企业新员工入职培训和持续学习"
+        ],
+        "designIntent": "解决传统课程开发耗时数月的痛点，让 AI 在几分钟内把任何领域的专业知识转化为高质量互动课程",
+        "problemSolved": "传统课程开发周期长（教材更新需 3-5 年 vs 技能半年过时），Honen 将课程开发从数月缩短到分钟级",
+        "tags": [
+          "企业培训",
+          "AI 课程",
+          "教育科技",
+          "NVIDIA 合作",
+          "知识管理"
+        ],
+        "score": 8,
+        "scoreReason": "合作伙伴阵容强大（NVIDIA），覆盖客户量大（25 万学生），技术落地成熟；具体定价和效果还需观察",
+        "competitors": [
+          {
+            "name": "Teachable",
+            "url": "https://teachable.com",
+            "comparison": "传统课程平台，缺乏 AI 即时生成课程能力"
+          },
+          {
+            "name": "360Learning",
+            "url": "https://360learning.com",
+            "comparison": "协作式学习平台，Honen 的 AI Native 特性更高效"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1196386",
+      "name": "QuickQuill — 本地私有 AI 会议记录工具",
+      "slug": "quickquill",
+      "description": "QuickQuill 是一款 Mac 上的本地私有 AI 会议记录工具。转录和总结全部在设备上完成，无需联网、无需注册、不依赖云端。支持会议转录、AI 摘要、实时字幕和翻译、多种导出格式。买断制（$49 首发价），无订阅费。",
+      "url": "https://quickquill.app",
+      "homepage": "https://quickquill.app",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260716_121456.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "会议记录",
+        "AI 转录",
+        "隐私安全",
+        "Mac 应用",
+        "买断制"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1196386",
+      "firstSeen": "2026-07-16T04:14:42.841579+00:00",
+      "analysis": {
+        "targetAudience": "注重隐私、需要会议记录的职场人士和学生",
+        "useCases": [
+          "录制工作会议并自动生成摘要和行动项",
+          "在飞机/无网络环境下转录访谈录音",
+          "实时字幕翻译帮助跨语言沟通",
+          "搜索历史会议记录中的关键信息",
+          "导出 SRT 字幕或带字幕视频"
+        ],
+        "designIntent": "解决云端会议记录工具必须联网、数据可能被滥用的隐私担忧，实现完全本地化的 AI 会议笔记",
+        "problemSolved": "云端会议记录工具需要联网、需机器人入会、数据有隐私泄露风险；QuickQuill 纯本地运行，无账号无云端",
+        "tags": [
+          "会议记录",
+          "AI 转录",
+          "隐私安全",
+          "Mac 应用",
+          "买断制"
+        ],
+        "score": 8,
+        "scoreReason": "本地隐私理念出色，买断制定价合理，功能完整；但仅限 Mac 平台，Windows/移动端缺位",
+        "competitors": [
+          {
+            "name": "Otter.ai",
+            "url": "https://otter.ai",
+            "comparison": "云端转录，隐私不如 QuickQuill，但跨平台更好"
+          },
+          {
+            "name": "Fireflies.ai",
+            "url": "https://fireflies.ai",
+            "comparison": "需要机器人入会，AI 功能强但云端存储"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1196852",
+      "name": "nudge — AI 周计划排程助手",
+      "slug": "nudge",
+      "description": "nudge 是一款 AI 驱动的周计划排程工具。把任务丢进去（支持 Markdown/TODO.md），AI 根据截止日期和生活习惯自动排满整周的日程，自动避开睡眠、用餐、健身和深度工作时间。支持日历/列表/看板三视图。由东京一位 20 岁工程系学生独立开发。",
+      "url": "https://usenudge.so",
+      "homepage": "https://usenudge.so",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "时间管理",
+        "AI 排程",
+        "周计划",
+        "效率工具",
+        "Markdown"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1196852",
+      "firstSeen": "2026-07-16T04:14:42.841579+00:00",
+      "analysis": {
+        "targetAudience": "需要时间规划帮助的职场人士、学生和自由职业者",
+        "useCases": [
+          "把散落的待办事项一键排入周历",
+          "导入 TODO.md 文件自动生成周计划",
+          "在学习/工作之间自动平衡时间分配",
+          "管理包含固定事件的复杂日程",
+          "快速调整因突发情况打乱的计划"
+        ],
+        "designIntent": "消除“我知道要做什么但不知道什么时候做”的决策疲劳，让 AI 接管日程规划的认知负担",
+        "problemSolved": "每天消耗 15 分钟以上手动排日程的效率损失，AI 将规划从人工变成自动",
+        "tags": [
+          "时间管理",
+          "AI 排程",
+          "周计划",
+          "效率工具",
+          "Markdown"
+        ],
+        "score": 7,
+        "scoreReason": "解决真实痛点且理念清晰，学生独立开发值得鼓励；但日历同步仍在路线图中，功能有待完善",
+        "competitors": [
+          {
+            "name": "Motion",
+            "url": "https://usemotion.com",
+            "comparison": "功能更完整但价格更高（$29/月），nudge 性价比突出"
+          },
+          {
+            "name": "Akiflow",
+            "url": "https://akiflow.com",
+            "comparison": "更重度的日程管理，nudge 更轻量快速"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1193751",
+      "name": "EQK-2AI — AI 动态均衡器",
+      "slug": "eqk-2ai",
+      "description": "EQK-2AI 是 Mac 上首款 AI 动态均衡器应用。它通过 AI 实时分析每首歌的开篇音频特征，自动调整 EQ 曲线以获得最佳听感。支持逐应用独立 EQ、3985 款耳机校正配置（AutoEq 数据库）、10 段参量调音台。100% 本地运行，买断制无需订阅（约 ¥86）。",
+      "url": "https://eqk-2ai.com",
+      "homepage": "https://eqk-2ai.com",
+      "type": "app",
+      "appStoreName": "Qudelix",
+      "appStoreUrl": "https://apps.apple.com/us/app/qudelix/id1515641059?uo=4",
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 音频",
+        "均衡器",
+        "Mac 应用",
+        "买断制",
+        "音质优化"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1193751",
+      "firstSeen": "2026-07-16T04:14:42.841579+00:00",
+      "analysis": {
+        "targetAudience": "Mac 用户中追求音质极致的音乐爱好者和耳机发烧友",
+        "useCases": [
+          "用 AI 自动优化 Apple Music/Spotify 每首歌的音质",
+          "为不同耳机加载专属校正曲线补偿频响缺陷",
+          "为不同应用（音乐/视频/会议）设置独立 EQ",
+          "视频创作者精确监控音频输出",
+          "在不上传数据的情况下获得专业级 EQ"
+        ],
+        "designIntent": "将 AI 实时分析引入桌面音频领域，消除手动调 EQ 的专业门槛，让每首歌自动获得最佳音色",
+        "problemSolved": "传统 EQ 需要专业知识手动调节，且无法针对每首歌动态优化；EQK 用 AI 实现了逐曲自动调音",
+        "tags": [
+          "AI 音频",
+          "均衡器",
+          "Mac 应用",
+          "买断制",
+          "音质优化"
+        ],
+        "score": 7,
+        "scoreReason": "AI 应用场景新颖，本地处理保护隐私，价格合理；但受众偏小众，仅限 Mac 平台",
+        "competitors": [
+          {
+            "name": "eqMac",
+            "url": "https://eqmac.app",
+            "comparison": "开源免费但无 AI 动态调音，EQK 的 AI 能力是核心差异"
+          },
+          {
+            "name": "SoundSource",
+            "url": "https://rogueamoeba.com/soundsource/",
+            "comparison": "功能全面的 Mac 音频工具，但无 AI 实时 EQ"
+          }
+        ]
+      }
+    }
+  ]
+}
