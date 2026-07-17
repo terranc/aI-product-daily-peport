@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "lastUpdated": "2026-07-16T04:15:27.028772+00:00",
+  "lastUpdated": "2026-07-17T03:57:58.796946+00:00",
   "products": [
     {
       "id": "dafa9686fbe1",
@@ -16106,6 +16106,322 @@
       "screenshotUrl": null,
       "appStoreScreenshots": [],
       "rawData": {}
+    },
+    {
+      "id": "producthunt.com/products/breadcromb",
+      "name": "Breadcromb - AI 知识浏览器",
+      "originalName": "Breadcromb",
+      "slug": "breadcromb",
+      "description": "Breadcromb 是一款从头为知识工作者打造的 AI 浏览器。与传统浏览器将每个标签页和会话视为孤立不同，Breadcromb 持续捕获你在浏览中看到、读到和写下的所有内容，自动构建私有的本地知识图谱。支持语义搜索、AI 代理在知识图谱上执行操作（总结、关联、草稿回复），以及团队协作共享。数据默认存储在本地，用户完全掌控隐私。",
+      "url": "https://www.producthunt.com/products/breadcromb",
+      "homepage": "https://www.producthunt.com/products/breadcromb",
+      "type": "saas",
+      "screenshotUrl": "assets/screenshots/producthunt.com_products_breadcromb_20260717_115758.png",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI浏览器",
+        "知识管理",
+        "本地知识图谱",
+        "隐私优先",
+        "知识工作"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/breadcromb",
+      "firstSeen": "2026-07-17T03:57:58.796946+00:00",
+      "cooldownExpiresAt": "2026-07-31T03:57:58.796946+00:00",
+      "analysis": {
+        "targetAudience": "知识工作者、研究人员、信息过载的职场人士，需要跨会话保持 AI 上下文记忆的用户",
+        "useCases": [
+          "自动构建个人浏览知识库，零配置即可索引所有浏览内容",
+          "通过语义搜索快速定位之前看过的信息，跨周/月检索",
+          "让 AI 代理基于已积累的知识进行总结、撰写和关联分析",
+          "团队内分享特定知识子图，加速新成员 onboarding",
+          "离线环境下使用本地知识图谱进行全文搜索"
+        ],
+        "designIntent": "解决 AI 工具每次对话从零开始的「失忆症」——你花大量时间阅读和学习，但 AI 无法记住你已经知道的内容。Breadcromb 让浏览本身成为知识积累的过程，浏览器不再只是窗口，而是长期记忆层。",
+        "problemSolved": "传统浏览器将每个标签页视为独立会话，AI 工具没有跨会话的记忆。Breadcromb 持续捕获和索引浏览内容，构建可被 AI 代理操作的私人知识图谱，解决信息碎片化和重复学习的痛点。",
+        "tags": [
+          "AI浏览器",
+          "知识管理",
+          "本地知识图谱",
+          "隐私优先",
+          "知识工作"
+        ],
+        "score": 8,
+        "scoreReason": "定位清晰——AI 浏览器是当前热门赛道，Breadcromb 的本地优先+知识图谱方案在隐私和智能之间取得了很好的平衡。自动构建知识图谱无需用户额外操作，降低了使用门槛。但产品较新，生态还在发展。",
+        "competitors": [
+          {
+            "name": "BrowserOS",
+            "url": "https://browseros.ai",
+            "comparison": "BrowserOS 也强调隐私和本地 AI，但 Breadcromb 的知识图谱自动构建能力更突出，且支持更细粒度的团队分享"
+          },
+          {
+            "name": "Comet (Perplexity)",
+            "url": "https://comet.ai",
+            "comparison": "Comet 侧重 AI 搜索增强，Breadcromb 侧重完整的浏览记忆和知识管理，场景更广泛"
+          },
+          {
+            "name": "ChatCrumbs",
+            "url": "https://chatcrumbs.com",
+            "comparison": "ChatCrumbs 主要捕获 AI 聊天记录，Breadcromb 覆盖所有网页浏览和文档，范围更全面"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/products/clipmatch",
+      "name": "ClipMatch - AI 视频素材匹配工具",
+      "originalName": "ClipMatch",
+      "slug": "clipmatch",
+      "description": "ClipMatch 是一款 AI 视频编辑器，让你从相册中选取素材，通过 AI 自动将脚本每一行匹配到最佳视频片段。无需时间线编辑，支持 AI 辅助写稿，一键导出适配 Instagram、TikTok、YouTube Shorts 和 LinkedIn 的短视频。",
+      "url": "https://clipmatch.io",
+      "homepage": "https://clipmatch.io",
+      "type": "saas",
+      "screenshotUrl": "assets/screenshots/producthunt.com_products_clipmatch_20260717_115806.png",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI视频",
+        "短视频创作",
+        "社交媒体",
+        "内容创作",
+        "自动化编辑"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/clipmatch",
+      "firstSeen": "2026-07-17T03:57:58.796946+00:00",
+      "cooldownExpiresAt": "2026-07-31T03:57:58.796946+00:00",
+      "analysis": {
+        "targetAudience": "内容创作者、社媒运营、小企业主、需要批量生产短视频但缺乏剪辑技能的用户",
+        "useCases": [
+          "将旅行随手拍的素材快速变成社交媒体短视频",
+          "产品演示素材自动匹配解说脚本生成营销视频",
+          "活动记录素材一键导出多平台适配版本",
+          "UGC 内容创作者批量生产不同主题的短视频",
+          "餐厅/小店主用手机素材制作探店推广视频"
+        ],
+        "designIntent": "消除短视频创作中最痛苦的部分——面对空白时间线和海量素材无从下手。ClipMatch 让用户先写脚本（或让 AI 帮忙写），然后 AI 自动从相册中找到最匹配的画面，把编辑从技术活变成选择题。",
+        "problemSolved": "传统视频编辑需要手动拖拽时间线、反复试错匹配画面和台词，门槛高且耗时。ClipMatch 用 AI 自动完成脚本到画面的匹配，几分钟就能产出一条成品短视频。",
+        "tags": [
+          "AI视频",
+          "短视频创作",
+          "社交媒体",
+          "内容创作",
+          "自动化编辑"
+        ],
+        "score": 8,
+        "scoreReason": "直击内容创作者的刚需——短视频爆发时代，ClipMatch 的「脚本驱动+自动匹配」模式比传统时间线编辑高效得多。无需剪辑技能即可产出成品视频，市场空间大。不过 AI 匹配在抽象场景下还不够完美，需要人工微调。",
+        "competitors": [
+          {
+            "name": "Opus Clip",
+            "url": "https://opus.pro",
+            "comparison": "Opus Clip 侧重长视频切短，ClipMatch 侧重从零散的原始素材创作新视频，场景不同"
+          },
+          {
+            "name": "CapCut",
+            "url": "https://capcut.com",
+            "comparison": "CapCut 是功能全面的剪辑工具，ClipMatch 专注自动化脚本匹配，更简单但功能也较少"
+          },
+          {
+            "name": "Reap",
+            "url": "https://reap.com",
+            "comparison": "Reap 侧重批量翻新已有内容，ClipMatch 侧重从原始相册素材创作脚本化内容"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/products/eqkeqwithai",
+      "name": "EQK - Mac 动态 AI 均衡器",
+      "originalName": "EQK",
+      "slug": "eqk",
+      "description": "EQK 是首款 Mac 动态 AI 均衡器应用，支持实时逐曲调音。AI 自动分析每首歌曲的音频特征并动态调整音色曲线，支持应用独立 EQ 通道、3985 款耳机校正配置、10 段参量调音台。100% 本地运行，无需注册，买断制无订阅。",
+      "url": "https://www.neurokitai.com/zh/products/eqk",
+      "homepage": "https://www.neurokitai.com/zh/products/eqk",
+      "type": "app",
+      "screenshotUrl": "assets/screenshots/producthunt.com_products_eqkeqwithai_20260717_115813.png",
+      "appStoreName": "EQK",
+      "appStoreUrl": "https://apps.apple.com/us/app/eqk/id1563126973?uo=4",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/4d/90/eb/4d90eb90-40f6-9c7a-01d8-ba97cfbccec1/c7f6f5c6-dd2b-49bd-a340-40762dace527_IMG_2597.PNG/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/9a/9e/57/9a9e5777-ad3c-44ec-381d-531072dbb359/2c0ff161-9462-4833-814a-3196793957da_IMG_2601.PNG/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/fb/a4/99/fba4994c-382e-1aed-99b4-4bf5b4f30838/4072fa84-5763-4b66-b4f6-03e59f909e8b_IMG_2219.PNG/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/f0/78/65/f0786575-0039-89cb-05de-5ce70bf76550/e19e99ee-b7b1-4800-87a3-f466e3b8687f_IMG_2598.PNG/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/19/e9/17/19e91770-9c47-db98-b048-edfc11e5d864/d694f7e9-e1cb-465b-8302-2068b67fbaa5_IMG_2599.PNG/392x696bb.png"
+      ],
+      "tags": [
+        "AI音频",
+        "均衡器",
+        "Mac应用",
+        "音乐发烧友",
+        "买断制"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/eqk-eq-with-ai",
+      "firstSeen": "2026-07-17T03:57:58.796946+00:00",
+      "cooldownExpiresAt": "2026-07-31T03:57:58.796946+00:00",
+      "analysis": {
+        "targetAudience": "Mac 音乐发烧友、耳机爱好者、视频创作者、对音质有要求的隐私敏感用户",
+        "useCases": [
+          "在 Apple Music 或 Spotify 中自动优化每首歌的音质",
+          "为不同耳机加载专属校正曲线，补偿频响缺陷",
+          "视频剪辑时分配独立 EQ 通道，精准控制人声和背景音乐",
+          "多应用并行时每个应用有独立 EQ 设置互不干扰",
+          "离线环境下的纯本地音质优化"
+        ],
+        "designIntent": "传统均衡器需要用户手动调参，不懂音频知识的人很难用好。EQK 用 AI 实时分析每首歌的音频特征并自动适配优化曲线，让不懂均衡器的普通用户也能获得专业级的听音体验。",
+        "problemSolved": "普通用户不会调均衡器，专业均衡器操作复杂且多为订阅制。EQK 用 AI 自动完成调音，买断制无订阅，100% 本地运行保护隐私。",
+        "tags": [
+          "AI音频",
+          "均衡器",
+          "Mac应用",
+          "音乐发烧友",
+          "买断制"
+        ],
+        "score": 7,
+        "scoreReason": "有趣的细分场景——AI 音频均衡是一个尚未被大厂垄断的蓝海市场。EQK 的本地优先和买断制在隐私和成本上都有优势。但用户群相对小众（Mac 发烧友），且需要持续积累耳机校正库。",
+        "competitors": [
+          {
+            "name": "eqMac",
+            "url": "https://eqmac.app",
+            "comparison": "eqMac 也是 Mac 均衡器，但 EQK 的 AI 实时逐曲分析和 AutoEq 耳机校正库是差异化优势"
+          },
+          {
+            "name": "SoundSource",
+            "url": "https://rogueamoeba.com/soundsource/",
+            "comparison": "SoundSource 是系统级音频工具，功能更全面但无 AI 自动调音，EQK 在智能化上更胜一筹"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/products/paradigm3",
+      "name": "Paradigm - AI 个性化学习系统",
+      "originalName": "Paradigm",
+      "slug": "paradigm",
+      "description": "Paradigm 是一款 AI 驱动的个性化学习系统，能将任意学习目标转化为自适应学习路径。支持语音互动教学、编程实操沙箱、互动笔记、智能测验和进度追踪。AI 导师会观察你的学习状态并主动介入，所有互动实时评分，形成可验证的技能证明而非传统成绩单。",
+      "url": "https://www.paradigm.study",
+      "homepage": "https://www.paradigm.study",
+      "type": "saas",
+      "screenshotUrl": "assets/screenshots/producthunt.com_products_paradigm3_20260717_115819.png",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI教育",
+        "个性化学习",
+        "自适应学习",
+        "AI导师",
+        "技能认证"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/paradigm-3",
+      "firstSeen": "2026-07-17T03:57:58.796946+00:00",
+      "cooldownExpiresAt": "2026-07-31T03:57:58.796946+00:00",
+      "analysis": {
+        "targetAudience": "自学者、备考学生、想转行学编程的职场人、对传统教育体系不满的终身学习者",
+        "useCases": [
+          "备考 SAT/GRE 等标准化考试，AI 生成针对性练习和模拟题",
+          "零基础学编程，在 AI 引导的实操沙箱中一步步搭建项目",
+          "学习任何自定主题（从祖母的食谱到解剖学图谱）生成个性化课程",
+          "语音交互式学习，像跟真人导师一样对话式学习",
+          "生成可验证的技能证明，替代传统成绩单用于求职"
+        ],
+        "designIntent": "创始人 Scott Fan 在大学期间发现真正有价值的学习都发生在课程大纲之外，决心构建一所他理想中存在的大学——AI 不再是课程附带的聊天机器人，而是一个能构建任意学习场景、记住你所有学习经历并实时评分的全能导师。",
+        "problemSolved": "传统在线教育是「课件+聊天机器人」的拼接，学习路径固定、缺乏个性化、没有真正的技能认证。Paradigm 用一个统一的 AI 导师覆盖从课程生成到实战演练到技能认证的全流程。",
+        "tags": [
+          "AI教育",
+          "个性化学习",
+          "自适应学习",
+          "AI导师",
+          "技能认证"
+        ],
+        "score": 7,
+        "scoreReason": "教育是 AI 最有价值的应用方向之一，Paradigm 的「自适应路径+实操沙箱+技能认证」组合很有野心。创始人有技术背景（OpenClaw/ShellBench），团队执行力值得期待。但教育产品获客成本高，且需要持续优化 AI 教学质量。",
+        "competitors": [
+          {
+            "name": "Khan Academy (Khanmigo)",
+            "url": "https://www.khanacademy.org",
+            "comparison": "Khanmigo 是 AI 辅导工具，但 Paradigm 的实操编程沙箱和技能认证体系更深入"
+          },
+          {
+            "name": "Quizlet (Q-Chat)",
+            "url": "https://quizlet.com",
+            "comparison": "Quizlet 侧重闪卡和测验，Paradigm 提供完整的自适应学习路径和语音交互"
+          }
+        ]
+      }
+    },
+    {
+      "id": "v2ex.com/t/1227947",
+      "name": "乡音阁 - AI 方言配音平台",
+      "originalName": "乡音阁",
+      "slug": "xiangyinge",
+      "description": "乡音阁是一款专注于中文方言的 AI 语音合成云平台，支持粤语、四川话、东北话、上海话、陕西话、闽南语等 10+ 种中文方言的语音合成。提供 30+ 种不同音色，支持声音复刻（上传 10-60 秒录音克隆声音）、REST API，无需注册即可试用。面向内容创作、文化传承和商业应用。",
+      "url": "https://xiangyinge.com",
+      "homepage": "https://xiangyinge.com/zh",
+      "type": "saas",
+      "screenshotUrl": "assets/screenshots/v2ex.com_t_1227947_20260717_115825.png",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI语音",
+        "方言合成",
+        "内容创作",
+        "文化传承",
+        "TTS"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "sourceUrl": "https://v2ex.com/t/1227947",
+      "firstSeen": "2026-07-17T03:57:58.796946+00:00",
+      "cooldownExpiresAt": "2026-07-31T03:57:58.796946+00:00",
+      "analysis": {
+        "targetAudience": "短视频创作者、播客制作人、方言文化传承者、需要方言配音的商业用户（导航/广播/客服）",
+        "useCases": [
+          "为短视频添加地道方言配音，增强地域特色和情感连接",
+          "方言文化类内容创作（纪录片、播客、教学材料）",
+          "导航和公共广播系统的方言语音定制",
+          "直播带货中用方言拉近与本地观众的距离",
+          "用 AI 技术留存和活化濒危方言"
+        ],
+        "designIntent": "中文方言正在快速流失，同时内容创作者对方言配音有强烈需求却找不到好工具。乡音阁用 AI 技术让方言语音合成变得简单可及，既服务商业场景也助力文化传承。",
+        "problemSolved": "市面上 TTS 工具几乎只支持普通话，方言配音需要找真人录制，成本高且效率低。乡音阁支持 10+ 种中文方言的 AI 合成，免费体验 500 字符，大大降低了方言内容创作的门槛。",
+        "tags": [
+          "AI语音",
+          "方言合成",
+          "内容创作",
+          "文化传承",
+          "TTS"
+        ],
+        "score": 7,
+        "scoreReason": "填补了中文方言 TTS 这个明确的空白市场，产品完成度高（10+方言、30+音色、API），且免费试用的策略降低了获客门槛。面对方言市场虽然相对小众但粘性高，且有文化传承的社会价值。",
+        "competitors": [
+          {
+            "name": "微软 Azure TTS",
+            "url": "https://azure.microsoft.com/zh-cn/products/ai-services/text-to-speech",
+            "comparison": "微软 TTS 支持部分中文方言但种类较少，乡音阁专注中文方言且音色更丰富地道"
+          },
+          {
+            "name": "百度智能云 TTS",
+            "url": "https://cloud.baidu.com/product/speech/tts",
+            "comparison": "百度支持部分方言，但乡音阁在方言种类（10+种）和音色多样性（30+）上更有优势"
+          }
+        ]
+      }
     }
   ],
   "tracking": {
