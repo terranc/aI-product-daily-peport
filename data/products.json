@@ -1,6 +1,6 @@
 {
-  "version": 3,
-  "lastUpdated": "2026-07-17T03:57:58.796946+00:00",
+  "version": 4,
+  "lastUpdated": "2026-07-18T04:01:10.547884+00:00",
   "products": [
     {
       "id": "dafa9686fbe1",
@@ -16422,6 +16422,131 @@
           }
         ]
       }
+    },
+    {
+      "id": "producthunt.com/r/p/1197503",
+      "name": "FlightGlitch",
+      "slug": "flightglitch",
+      "description": "AI 驱动的错误票价检测工具，24/7 扫描数千条航线，当航空公司意外将 900 美元的航班标价为 140 美元时立即发出警报，帮旅客省下 60% 的机票费用。",
+      "url": "https://flightglitch.com",
+      "homepage": "https://flightglitch.com",
+      "type": "website",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1197503_20260718_115913.png",
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "tags": [
+        "旅行",
+        "机票折扣",
+        "AI监控",
+        "省钱工具"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1197503",
+      "firstSeen": "2026-07-18T04:01:10.547884+00:00",
+      "cooldownExpiresAt": "2026-08-01T04:01:10.547884+00:00"
+    },
+    {
+      "id": "producthunt.com/r/p/1196663",
+      "name": "ChikitAI",
+      "slug": "chikitai",
+      "description": "多语言、多专科的 AI 医疗平台，为患者提供症状自检、AI 分诊评估，为医疗机构提供智能预分诊和工作流自动化，支持 EHR 集成和量子级安全加密。",
+      "url": "https://chikit.ai",
+      "homepage": "https://chikit.ai",
+      "type": "website",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1196663_20260718_115919.png",
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "tags": [
+        "医疗AI",
+        "症状分诊",
+        "智慧医疗",
+        "多语言"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1196663",
+      "firstSeen": "2026-07-18T04:01:10.547884+00:00",
+      "cooldownExpiresAt": "2026-08-01T04:01:10.547884+00:00"
+    },
+    {
+      "id": "producthunt.com/r/p/1197816",
+      "name": "Aye",
+      "slug": "aye",
+      "description": "一款 AI 浏览器，内置可教学的 AI 实习生，能理解网页内容、自动执行浏览任务（如下载视频、处理邮件、运营社交账号），支持将重复流程保存为技能一键复用。",
+      "url": "https://zh.okaapps.com/product/6760281977",
+      "homepage": "https://zh.okaapps.com/product/6760281977",
+      "type": "website",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1197816_20260718_120040.png",
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "tags": [
+        "AI浏览器",
+        "自动化",
+        "浏览器助手",
+        "效率工具"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1197816",
+      "firstSeen": "2026-07-18T04:01:10.547884+00:00",
+      "cooldownExpiresAt": "2026-08-01T04:01:10.547884+00:00"
+    },
+    {
+      "id": "producthunt.com/r/p/1198652",
+      "name": "Scribble Party",
+      "slug": "scribble-party",
+      "description": "一个本地优先的白板录制工作室，面向教师和创作者。在无限画布上绘制、添加实时摄像头气泡（自动去背景）、录制旁白，所有数据本地保存，无需注册、无云端上传。",
+      "url": "https://scribbling.party",
+      "homepage": "https://scribbling.party",
+      "type": "website",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1198652_20260718_120020.png",
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "tags": [
+        "教育工具",
+        "白板录制",
+        "隐私优先",
+        "教学"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1198652",
+      "firstSeen": "2026-07-18T04:01:10.547884+00:00",
+      "cooldownExpiresAt": "2026-08-01T04:01:10.547884+00:00"
+    },
+    {
+      "id": "producthunt.com/r/p/1197696",
+      "name": "Weave",
+      "slug": "weave",
+      "description": "一款 AI 语音思维导图工具，将口头思考实时转化为可视化知识图谱。你说话，它画图——半成形的想法变成虚线卡片，随思考变化自动整理，支持回放、导出和会议记录。",
+      "url": "https://sayweave.com",
+      "homepage": "https://sayweave.com",
+      "type": "website",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1197696_20260718_120025.png",
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "tags": [
+        "思维导图",
+        "语音转思维",
+        "知识管理",
+        "会议记录"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1197696",
+      "firstSeen": "2026-07-18T04:01:10.547884+00:00",
+      "cooldownExpiresAt": "2026-08-01T04:01:10.547884+00:00"
     }
   ],
   "tracking": {

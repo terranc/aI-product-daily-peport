@@ -1,0 +1,283 @@
+{
+  "date": "2026-07-18",
+  "generatedAt": "2026-07-18T04:01:10.547884+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "producthunt.com/r/p/1197503",
+      "name": "FlightGlitch",
+      "slug": "flightglitch",
+      "description": "AI 驱动的错误票价检测工具，24/7 扫描数千条航线，当航空公司意外将 900 美元的航班标价为 140 美元时立即发出警报，帮旅客省下 60% 的机票费用。",
+      "url": "https://flightglitch.com",
+      "homepage": "https://flightglitch.com",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1197503_20260718_115913.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "旅行",
+        "机票折扣",
+        "AI监控",
+        "省钱工具"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1197503",
+      "firstSeen": "2026-07-18T04:01:10.547884+00:00",
+      "analysis": {
+        "targetAudience": "频繁出行的旅客和寻找超值机票的旅行爱好者",
+        "useCases": [
+          "发现航空公司错误定价的超低价机票",
+          "设置常用机场的票价监控提醒",
+          "在错误票价被修复前快速预订",
+          "获取历史票价趋势分析"
+        ],
+        "designIntent": "利用 AI 算法 24/7 扫描全球航线定价数据，在航空公司发现并修复定价错误之前，第一时间通知用户，让普通旅客也能享受到只有内部人士才知道的超低价机票。",
+        "problemSolved": "解决了普通旅客很难及时发现航空公司短暂出现的错误定价（通常只持续几小时），导致错过大幅折扣的问题。AI 自动化监控比手动搜索快得多。",
+        "tags": [
+          "旅行",
+          "机票折扣",
+          "AI监控",
+          "省钱工具"
+        ],
+        "score": 7,
+        "scoreReason": "实用性强、需求明确，但市场竞争激烈（类似产品较多），且错误票价的时效性极短，需要用户快速决策。",
+        "competitors": [
+          {
+            "name": "FareGlitch",
+            "url": "https://fareglitch.com.au",
+            "comparison": "功能类似但覆盖航线范围不同"
+          },
+          {
+            "name": "Secret Flying",
+            "url": "https://secretflying.com",
+            "comparison": "人工发现为主，FlightGlitch 的 AI 自动化扫描速度更快"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1196663",
+      "name": "ChikitAI",
+      "slug": "chikitai",
+      "description": "多语言、多专科的 AI 医疗平台，为患者提供症状自检、AI 分诊评估，为医疗机构提供智能预分诊和工作流自动化，支持 EHR 集成和量子级安全加密。",
+      "url": "https://chikit.ai",
+      "homepage": "https://chikit.ai",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1196663_20260718_115919.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "医疗AI",
+        "症状分诊",
+        "智慧医疗",
+        "多语言"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1196663",
+      "firstSeen": "2026-07-18T04:01:10.547884+00:00",
+      "analysis": {
+        "targetAudience": "需要快速分诊的医疗机构和希望在家进行症状自检的患者",
+        "useCases": [
+          "患者在家进行 AI 症状自检和分诊评估",
+          "医院急诊预分诊减少等待时间",
+          "多语言问诊支持不同语言患者",
+          "与 EHR 系统集成优化诊疗流程"
+        ],
+        "designIntent": "打造一个多语言、多专科的 AI 医疗平台，让患者能在家完成初步症状评估，同时帮助医疗机构降低分诊成本、提高诊疗效率。采用量子级安全加密保护患者数据。",
+        "problemSolved": "解决医疗资源紧张环境下，非紧急患者占用急诊资源的问题，以及语言障碍导致的分诊不准确问题。AI 预分诊能有效降低医院分诊成本。",
+        "tags": [
+          "医疗AI",
+          "症状分诊",
+          "智慧医疗",
+          "多语言"
+        ],
+        "score": 8,
+        "scoreReason": "AI 在医疗分诊领域有明确的社会价值和商业潜力，技术壁垒高、合规要求严格，但产品仍处于早期阶段，需要验证临床准确率。",
+        "competitors": [
+          {
+            "name": "Ada Health",
+            "url": "https://ada.com",
+            "comparison": "国际知名的症状评估应用，ChikitAI 更侧重医疗机构端集成"
+          },
+          {
+            "name": "Babylon Health",
+            "url": "https://babylonhealth.com",
+            "comparison": "提供类似 AI 问诊服务，但 ChikitAI 提供多语言和量子安全加密差异化"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1197816",
+      "name": "Aye",
+      "slug": "aye",
+      "description": "一款 AI 浏览器，内置可教学的 AI 实习生，能理解网页内容、自动执行浏览任务（如下载视频、处理邮件、运营社交账号），支持将重复流程保存为技能一键复用。",
+      "url": "https://zh.okaapps.com/product/6760281977",
+      "homepage": "https://zh.okaapps.com/product/6760281977",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1197816_20260718_120040.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI浏览器",
+        "自动化",
+        "浏览器助手",
+        "效率工具"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1197816",
+      "firstSeen": "2026-07-18T04:01:10.547884+00:00",
+      "analysis": {
+        "targetAudience": "需要自动化处理浏览器重复操作的知识工作者、运营人员和创作者",
+        "useCases": [
+          "自动下载社交媒体视频（X/Telegram/Reddit）",
+          "自动处理客服邮件并生成回复草稿",
+          "运营多平台社交账号的内容发布",
+          "定时执行重复浏览器任务",
+          "网页信息跨标签收集和整理"
+        ],
+        "designIntent": "基于 Chrome 内核打造一款内置 AI 实习生的浏览器，让用户可以用自然语言教会 AI 执行各种浏览器操作，将重复性工作自动化，同时确保所有敏感操作都需要用户确认。",
+        "problemSolved": "解决知识工作者每天花费大量时间在浏览器中执行重复操作（如下载、回复、发布、整理）的问题，无需编写代码或配置复杂 API，用自然语言即可创建自动化流程。",
+        "tags": [
+          "AI浏览器",
+          "自动化",
+          "浏览器助手",
+          "效率工具"
+        ],
+        "score": 8,
+        "scoreReason": "产品概念出色、落地扎实，将 AI Agent 能力与浏览器深度融合，使用门槛极低。但依赖浏览器生态，复杂流程的稳定性有待验证。",
+        "competitors": [
+          {
+            "name": "Browser Use",
+            "url": "https://browseruse.com",
+            "comparison": "类似 AI 浏览器自动化工具，Aye 的可教学技能机制更灵活"
+          },
+          {
+            "name": "Arc Browser",
+            "url": "https://arc.net",
+            "comparison": "Arc 侧重浏览体验重构，Aye 侧重 AI 自动化任务执行"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1198652",
+      "name": "Scribble Party",
+      "slug": "scribble-party",
+      "description": "一个本地优先的白板录制工作室，面向教师和创作者。在无限画布上绘制、添加实时摄像头气泡（自动去背景）、录制旁白，所有数据本地保存，无需注册、无云端上传。",
+      "url": "https://scribbling.party",
+      "homepage": "https://scribbling.party",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1198652_20260718_120020.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "教育工具",
+        "白板录制",
+        "隐私优先",
+        "教学"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1198652",
+      "firstSeen": "2026-07-18T04:01:10.547884+00:00",
+      "analysis": {
+        "targetAudience": "需要制作白板教学视频的教师和创作故事板的创作者",
+        "useCases": [
+          "录制白板教学课程视频",
+          "创作故事板和视觉讲解",
+          "制作产品演示和操作指南",
+          "录制带有实时头像的在线课程"
+        ],
+        "designIntent": "为隐私敏感的教育工作者提供一个本地优先的白板录制工具，无需注册、无需上传云端、所有数据保存在本地设备，让制作教学视频像使用实体白板一样简单和私密。",
+        "problemSolved": "解决现有白板录制工具强制上传云端、需要注册账号、有隐私泄露风险的问题。零安装、零注册、本地保存的模式大幅降低了教师制作视频内容的技术门槛。",
+        "tags": [
+          "教育工具",
+          "白板录制",
+          "隐私优先",
+          "教学"
+        ],
+        "score": 7,
+        "scoreReason": "隐私优先的设计理念切中痛点，轻量级工具执行到位，但功能相对单一，缺乏协作和高级编辑能力，适合特定场景而非通用工具。",
+        "competitors": [
+          {
+            "name": "Loom",
+            "url": "https://loom.com",
+            "comparison": "Loom 是云端录制工具，Scribble Party 强调本地优先和隐私保护"
+          },
+          {
+            "name": "Explain Everything",
+            "url": "https://explaineverything.com",
+            "comparison": "功能更丰富的交互式白板，但需要注册和付费，Scribble Party 完全免费且无需账号"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1197696",
+      "name": "Weave",
+      "slug": "weave",
+      "description": "一款 AI 语音思维导图工具，将口头思考实时转化为可视化知识图谱。你说话，它画图——半成形的想法变成虚线卡片，随思考变化自动整理，支持回放、导出和会议记录。",
+      "url": "https://sayweave.com",
+      "homepage": "https://sayweave.com",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1197696_20260718_120025.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "思维导图",
+        "语音转思维",
+        "知识管理",
+        "会议记录"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1197696",
+      "firstSeen": "2026-07-18T04:01:10.547884+00:00",
+      "analysis": {
+        "targetAudience": "需要梳理复杂思路的知识工作者、项目经理、产品经理和创意人员",
+        "useCases": [
+          "将口头思考实时转化为思维导图",
+          "会议自动记录并生成可视化笔记",
+          "梳理复杂决策的利弊和风险分析",
+          "导出思维导图为 Markdown/PNG/SVG 用于分享"
+        ],
+        "designIntent": "创造一种全新的思考记录方式：用户只需说话，AI 就能将零散的想法自动组织成结构化的知识图谱，并主动提出被忽略的问题，帮助用户更深入全面地思考。",
+        "problemSolved": "解决传统思维导图工具需要手动拖拽、打断思考流的问题。Weave 让用户保持思考的连贯性，AI 在后台自动完成结构化整理，还能在适当的时候提出有价值的追问。",
+        "tags": [
+          "思维导图",
+          "语音转思维",
+          "知识管理",
+          "会议记录"
+        ],
+        "score": 8,
+        "scoreReason": "产品理念创新、交互体验流畅，将语音输入与知识图谱结合的方式很自然。但语音转思维的准确度依赖模型能力，长期使用付费门槛可能较高。",
+        "competitors": [
+          {
+            "name": "Miro",
+            "url": "https://miro.com",
+            "comparison": "Miro 是手动协作白板，Weave 的 AI 语音自动制图是完全不同的交互范式"
+          },
+          {
+            "name": "Obsidian",
+            "url": "https://obsidian.md",
+            "comparison": "Obsidian 是手动笔记工具，Weave 更强调实时语音到结构化思维的转换"
+          }
+        ]
+      }
+    }
+  ]
+}
