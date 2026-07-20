@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "lastUpdated": "2026-07-18T04:01:10.547884+00:00",
+  "lastUpdated": "2026-07-20T04:01:07.665922+00:00",
   "products": [
     {
       "id": "dafa9686fbe1",
@@ -16547,6 +16547,411 @@
       "sourceUrl": "https://www.producthunt.com/r/p/1197696",
       "firstSeen": "2026-07-18T04:01:10.547884+00:00",
       "cooldownExpiresAt": "2026-08-01T04:01:10.547884+00:00"
+    },
+    {
+      "id": "producthunt.com/r/p/1199790",
+      "name": "Rewisp",
+      "slug": "rewisp",
+      "description": "Rewisp 是一款为 Mac 打造的\"环境记忆\"应用，能够在设备端读取屏幕上的文本内容，帮你记住看到的一切。它可以捕捉承诺（如\"我周五发给你\"）并按时提醒，支持语义搜索（按意思找内容，不只是关键词），追踪页面变化（\"周二以来有什么更新？\"），跟踪数字变化（体重、成绩等），还能从保存的信息中自动填写表单。每晚一次静默摘要。完全隐私保护：截图即时丢弃，所有数据仅存储在本地 SQLite 文件中，默认不离开设备。开源免费（MIT 协议）。",
+      "url": "https://github.com/yashmitb/rewisp",
+      "homepage": "https://github.com/yashmitb/rewisp",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "AI记忆",
+        "Mac工具",
+        "生产力",
+        "隐私优先",
+        "开源"
+      ],
+      "firstSeen": "2026-07-20T04:01:07.665922+00:00",
+      "lastSeen": "2026-07-20T04:01:07.665922+00:00",
+      "cooldownExpiresAt": "2026-08-03T04:01:07.665922+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-07-20T04:01:07.665922+00:00",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/posts/rewisp-an-ambient-memory-for-your-mac",
+          "title": "Rewisp"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "需要记忆辅助的知识工作者、Mac 重度用户、经常处理多任务的人群",
+        "useCases": [
+          "在工作中查看大量文档和信息时自动记录重要内容，事后通过语义搜索快速找回",
+          "捕捉聊天中做出的承诺（\"我周五前给你\"），到期自动提醒兑现",
+          "追踪网页或文档内容的变化（如价格、项目进度、维基百科更新）",
+          "跟踪健康数据（体重、化验指标）随时间的变化趋势",
+          "自动保存个人资料信息，在填表时快速填入（不含密码）"
+        ],
+        "designIntent": "解决信息过载时代\"看过就忘\"的普遍痛点。传统的笔记工具需要手动记录，而截图工具又缺乏搜索能力。Rewisp 的设计理念是让计算机被动地帮你记住一切，在需要时通过自然语言就能找回，就像给自己装了一个外挂大脑。强调隐私优先——所有处理在设备端完成，截图即时丢弃。",
+        "problemSolved": "解决了数字生活中信息碎片化导致的关键信息丢失问题。你不再需要手动记录每次看到的电话号码、会议时间、网页链接等琐碎信息，Rewisp 会自动捕捉并索引这些内容。当需要再次找到时，通过语义搜索或自然语言提问即可快速定位，大幅减少\"我记得看过但找不到了\"的挫败感。",
+        "tags": [
+          "AI记忆",
+          "Mac工具",
+          "生产力",
+          "隐私优先",
+          "开源"
+        ],
+        "score": 8,
+        "scoreReason": "Rewisp 将 AI 能力完美融入了日常使用场景——不需要学习成本，安装后自动运行。语义搜索、承诺捕捉、变化追踪等功能都基于端侧 AI 实现，隐私保护设计出色。开源免费更增加了可信度。作为 v0.9 版本，功能已相当完整，未来可期。",
+        "competitors": [
+          {
+            "name": "Rewind AI",
+            "url": "https://rewind.ai",
+            "comparison": "Rewind 功能更全面（支持音频录制），但需要更多系统资源且不是开源。Rewisp 更轻量、开源免费。"
+          },
+          {
+            "name": "macOS 自带 Screenshot/Notes",
+            "url": "",
+            "comparison": "系统自带工具缺乏语义搜索和智能提醒能力，Rewisp 的 AI 特性是质变。"
+          },
+          {
+            "name": "Mem.ai",
+            "url": "https://mem.ai",
+            "comparison": "Mem 是云端的 AI 笔记工具，需要手动输入。Rewisp 自动捕获屏幕内容，且数据完全本地化。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "totalMentions": 0,
+        "trendDirection": "stable"
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": []
+    },
+    {
+      "id": "nodehealth.app",
+      "name": "Node Health",
+      "slug": "node-health",
+      "description": "Node Health 是一款 iOS 健康数据管理应用，专门用于集中管理你的化验报告和生物标志物。支持手动输入、PDF 上传和摄像头扫描三种方式导入化验单。智能识别 230+ 种生物标志物，根据年龄、性别提供个性化参考区间。通过彩色编码图表追踪生物标志物的长期变化趋势。数据端到端加密存储在设备上，可选的 iCloud 同步也在个人云端账户内完成。核心追踪功能永久免费。",
+      "url": "https://nodehealth.app",
+      "homepage": "https://nodehealth.app",
+      "type": "app",
+      "appStoreName": "Node Health: Biomarker Tracker",
+      "appStoreUrl": "https://apps.apple.com/us/app/node-health-biomarker-tracker/id6751248320?uo=4",
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "健康管理",
+        "化验追踪",
+        "AI OCR",
+        "隐私保护",
+        "生物标志物"
+      ],
+      "firstSeen": "2026-07-20T04:01:07.665922+00:00",
+      "lastSeen": "2026-07-20T04:01:07.665922+00:00",
+      "cooldownExpiresAt": "2026-08-03T04:01:07.665922+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-07-20T04:01:07.665922+00:00",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/posts/node-health",
+          "title": "Node Health"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "注重健康数据管理的个人用户、慢性病患者、健身爱好者、生物黑客",
+        "useCases": [
+          "将分散在不同医院和体检中心的化验报告统一管理",
+          "追踪血糖、胆固醇、维生素D等关键指标的长期变化趋势",
+          "在就医前整理历史检测数据，与医生进行高效沟通",
+          "慢病患者（糖尿病、高血脂等）持续追踪关键指标变化",
+          "通过监测睾酮、铁蛋白等指标优化运动和营养策略"
+        ],
+        "designIntent": "解决化验报告分散在不同医院、格式各异、难以对比追踪的痛点。市面上虽然有健康管理应用，但大多聚焦于运动步数等基础数据，对化验报告的深度管理关注不足。Node Health 希望让每个人都能像管理财务一样管理自己的健康数据，建立个人健康基线。",
+        "problemSolved": "解决了化验报告管理中的核心痛点：不同医院的报告格式不一、纸质报告易丢失、跨时间对比困难、指标含义不清晰。Node Health 将所有报告集中管理，提供个性化参考区间和解读，帮助用户看懂化验单、追踪趋势、做出更明智的健康决策。",
+        "tags": [
+          "健康管理",
+          "化验追踪",
+          "AI OCR",
+          "隐私保护",
+          "生物标志物"
+        ],
+        "score": 7,
+        "scoreReason": "Node Health 精准切入了一个真实且持续的需求——化验报告管理。AI OCR 技术让录入便捷，230+ 生物标志物覆盖全面，本地加密存储保护隐私。核心功能免费降低了使用门槛。扣分点在于目前仅支持 iOS，Android 用户无法使用。",
+        "competitors": [
+          {
+            "name": "InsideTracker",
+            "url": "https://insidetracker.com",
+            "comparison": "InsideTracker 提供付费的血液检测+分析服务，Node Health 更聚焦于管理已有的检验结果且免费核心功能。"
+          },
+          {
+            "name": "Apple Health",
+            "url": "",
+            "comparison": "Apple Health 不支持化验报告的深度管理和 OCR 扫描，Node Health 专业性更强。"
+          },
+          {
+            "name": "Everlywell",
+            "url": "https://everlywell.com",
+            "comparison": "Everlywell 主打家用检测试剂盒，Node Health 管理的是从任何渠道获取的化验结果。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "totalMentions": 0,
+        "trendDirection": "stable"
+      },
+      "screenshotUrl": "assets/screenshots/nodehealth.app_20260720_120008.png",
+      "appStoreScreenshots": []
+    },
+    {
+      "id": "duo.zeroflx.com",
+      "name": "Duo Translator",
+      "slug": "duo-translator",
+      "description": "Duo Translator 是一款免费开源的 AI 翻译和写作浏览器插件。支持网页全文翻译（双语对照显示）、划词翻译、段落翻译、AI 写作增强等功能。提供双语对照高亮显示，逐句对比原文和译文。集成多款翻译引擎（微软、谷歌、DeepL）和 AI 服务（OpenAI、DeepSeek、Gemini 等）。支持快捷操作（浮动球、快捷键、右键菜单）。用户可自定义翻译样式和规则模式（指定某些区域不翻译）。",
+      "url": "https://duo.zeroflx.com",
+      "homepage": "https://duo.zeroflx.com",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "AI翻译",
+        "浏览器插件",
+        "开源免费",
+        "双语阅读",
+        "写作助手"
+      ],
+      "firstSeen": "2026-07-20T04:01:07.665922+00:00",
+      "lastSeen": "2026-07-20T04:01:07.665922+00:00",
+      "cooldownExpiresAt": "2026-08-03T04:01:07.665922+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "mentions": [
+        {
+          "date": "2026-07-20T04:01:07.665922+00:00",
+          "channel": "v2ex",
+          "url": "https://v2ex.com/t/1228482",
+          "title": "Duo Translator"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "需要频繁阅读外文网页、跨语言写作的内容消费者和创作者",
+        "useCases": [
+          "阅读英文技术文档、新闻时一键全文翻译，双语对照阅读",
+          "在社交媒体或工作场景中快速翻译选中的文本段落",
+          "利用 AI 写作功能润色、改写或翻译输入框中的内容",
+          "学习外语时通过双语高亮功能逐句对比原文和译文",
+          "排除特定网页区域（如代码区）不翻译，提高阅读效率"
+        ],
+        "designIntent": "弥补现有翻译插件要么功能单一（仅全文翻译）、要么绑定特定 AI 服务的不足。Duo Translator 将多种翻译引擎和 AI 服务集成到一个插件中，让用户可以根据需求和预算自由选择。强调开源、免费、双语对照、可定制性强。",
+        "problemSolved": "解决了跨语言信息获取中的翻译效率和准确性问题。用户无需在多个翻译工具间切换，一个插件即可覆盖全文翻译、划词翻译、写作辅助等所有场景。双语对照功能帮助用户验证翻译质量，而规则模式可以避免代码等区域的误翻译。",
+        "tags": [
+          "AI翻译",
+          "浏览器插件",
+          "开源免费",
+          "双语阅读",
+          "写作助手"
+        ],
+        "score": 7,
+        "scoreReason": "Duo Translator 是一款实用且高质量的开源翻译插件。支持多引擎切换、双语对照高亮、AI 写作等核心功能全部免费。界面清爽，体验流畅。扣分点在于部分 AI 服务需要用户自备 API Key，对非技术用户有一定门槛。",
+        "competitors": [
+          {
+            "name": "沉浸式翻译",
+            "url": "https://immersivetranslate.com",
+            "comparison": "沉浸式翻译普及度更高，但 Duo Translator 的开源特性让用户可以自行审计和定制，且在 AI 写作方面功能更强。"
+          },
+          {
+            "name": "Google Translate 内置翻译",
+            "url": "",
+            "comparison": "Google 内置翻译仅支持全文翻译，缺乏 Duo 的双语高亮、划词翻译、规则模式等精细化功能。"
+          },
+          {
+            "name": "DeepL 浏览器插件",
+            "url": "https://www.deepl.com",
+            "comparison": "DeepL 插件只使用自家引擎且功能较少，Duo Translator 支持多引擎切换更为灵活。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "totalMentions": 0,
+        "trendDirection": "stable"
+      },
+      "screenshotUrl": "assets/screenshots/duo.zeroflx.com_20260720_120021.png",
+      "appStoreScreenshots": []
+    },
+    {
+      "id": "melodank.com",
+      "name": "melodank",
+      "slug": "melodank",
+      "description": "melodank 是一款创意 AI 工具：填写收礼人、场合和你们之间的故事，它会自动生成可修改的德语歌词和两版歌曲，满意后还可做成私密礼物页分享给对方。非常适合在生日、纪念日等场合送出独一无二的音乐礼物。",
+      "url": "https://melodank.com",
+      "homepage": "https://melodank.com",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "AI音乐",
+        "礼物生成",
+        "德语",
+        "创意工具",
+        "个性化"
+      ],
+      "firstSeen": "2026-07-20T04:01:07.665922+00:00",
+      "lastSeen": "2026-07-20T04:01:07.665922+00:00",
+      "cooldownExpiresAt": "2026-08-03T04:01:07.665922+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "mentions": [
+        {
+          "date": "2026-07-20T04:01:07.665922+00:00",
+          "channel": "v2ex",
+          "url": "https://v2ex.com/t/1228467",
+          "title": "melodank"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "有德语背景、希望送出个性化音乐礼物的人群",
+        "useCases": [
+          "为德语区朋友的生日生成一首专属歌曲作为惊喜礼物",
+          "在纪念日为伴侣创作一首记录你们故事的私人歌曲",
+          "在节庆场合（如圣诞节、毕业典礼）定制主题德语歌曲",
+          "作为创意教学工具，帮助德语学习者通过音乐记忆词汇",
+          "企业活动或团队建设中制作个性化的主题歌曲"
+        ],
+        "designIntent": "解决送礼时\"想要与众不同却缺乏创意和音乐创作能力\"的痛点。传统的礼物商店买不到个性化歌曲，而请人作曲又太贵太慢。melodank 让任何人都能通过讲述自己的故事，借助 AI 快速生成一首有温度、可分享的原创歌曲。",
+        "problemSolved": "解决了两个问题：一是送礼场景下找不到真正个性化且有情感价值的礼物，二是创作一首歌曲需要专业音乐知识和高昂成本。melodank 将 AI 音乐生成能力转化为普通人也能使用的礼物制作工具，几分钟即可完成从故事到歌曲的全流程。",
+        "tags": [
+          "AI音乐",
+          "礼物生成",
+          "德语",
+          "创意工具",
+          "个性化"
+        ],
+        "score": 6,
+        "scoreReason": "melodank 是一个小而美的创意 AI 应用，巧妙地将 AI 音乐生成能力与礼品场景结合。产品定位清晰、有趣。扣分点在于受众面较窄（需要德语背景），且音乐生成质量可能受限于底层 AI 模型能力，作为新上线产品还需验证用户体验。",
+        "competitors": [
+          {
+            "name": "Suno AI",
+            "url": "https://suno.com",
+            "comparison": "Suno 是通用的 AI 音乐生成平台，功能强大但面向大众。melodank 专攻德语歌曲礼物场景，体验更加聚焦和便捷。"
+          },
+          {
+            "name": "Udio",
+            "url": "https://udio.com",
+            "comparison": "Udio 同样主打 AI 音乐生成，melodank 在歌曲基础上增加了礼物页分享、故事转歌词等场景化功能。"
+          },
+          {
+            "name": "Jukebox (OpenAI)",
+            "url": "",
+            "comparison": "Jukebox 技术性更强但使用门槛高，melodank 面向零基础用户设计了简单的交互流程。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "totalMentions": 0,
+        "trendDirection": "stable"
+      },
+      "screenshotUrl": "assets/screenshots/melodank.com_20260720_120031.png",
+      "appStoreScreenshots": []
+    },
+    {
+      "id": "producthunt.com/r/p/1198501",
+      "name": "Timely",
+      "slug": "timely",
+      "description": "Timely 是一款 Mac 菜单栏工具，按一个快捷键即可从连接的日历（Outlook 和 Google Calendar）中获取你的可用时间，并以接收方最合适的时区展示。无需打开日历应用，无需换算时区，支持同时查询多个人的忙闲状态。完全本地运行，保护隐私。",
+      "url": "https://producthunt.com/products/timely-9",
+      "homepage": "https://producthunt.com/products/timely-9",
+      "type": "app",
+      "appStoreName": "Timely - Shift & Pay Tracker",
+      "appStoreUrl": "https://apps.apple.com/us/app/timely-shift-pay-tracker/id6745303799?uo=4",
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "日历工具",
+        "Mac应用",
+        "效率工具",
+        "时区转换",
+        "本地优先"
+      ],
+      "firstSeen": "2026-07-20T04:01:07.665922+00:00",
+      "lastSeen": "2026-07-20T04:01:07.665922+00:00",
+      "cooldownExpiresAt": "2026-08-03T04:01:07.665922+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-07-20T04:01:07.665922+00:00",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/posts/timely-9",
+          "title": "Timely"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "频繁需要安排会议的职场人士、有多人协同排期需求的团队",
+        "useCases": [
+          "需要快速回复他人\"你什么时间有空\"的询问时，一键获取日历可用时间段",
+          "跨时区会议安排，自动将你的可用时间转换为对方时区显示",
+          "同时查看多位同事的日历，找到共同的空闲时间安排会议",
+          "在与客户沟通时快速提供可用时间段，提升专业形象",
+          "避免反复打开日历应用查看和换算时区的繁琐操作"
+        ],
+        "designIntent": "解决日程安排中最常见也最烦人的痛点：每次安排会议都需要打开日历、查看可用时间、换算时区、来回确认。Timely 将这一连串操作简化为一个快捷键，在不离开当前应用的情况下瞬间获取并分享可用时间。",
+        "problemSolved": "消除了会议安排中的\"摩擦成本\"：不再需要切换到日历应用、手动换算时区、或者发送\"你周三下午有空吗？\"等来回确认的消息。一键获取格式化好的可用时间，直接粘贴发送即可。对于跨时区协作场景尤其有用。",
+        "tags": [
+          "日历工具",
+          "Mac应用",
+          "效率工具",
+          "时区转换",
+          "本地优先"
+        ],
+        "score": 6,
+        "scoreReason": "Timely 精准解决了一个小而具体的痛点，交互设计简洁优雅——一个快捷键搞定。本地运行保障隐私。扣分点在于功能比较简单，竞争对手众多（如 Calendly、x.ai 等更全面的排期工具），且作为新产品生态尚不完善。",
+        "competitors": [
+          {
+            "name": "Calendly",
+            "url": "https://calendly.com",
+            "comparison": "Calendly 是全功能的预约排期平台，功能强大但使用繁重。Timely 更轻量，专注于\"获取可用时间\"这一个动作，不作多余功能。"
+          },
+          {
+            "name": "x.ai",
+            "url": "https://x.ai",
+            "comparison": "x.ai 是 AI 排期助手，功能类似但更偏自动化流程。Timely 更强调本地、快捷键、不联网。"
+          },
+          {
+            "name": "macOS 日历自带",
+            "url": "",
+            "comparison": "系统日历缺乏一键获取可用时间的功能，需要手动查看和整理。Timely 简化了这个过程。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "totalMentions": 0,
+        "trendDirection": "stable"
+      },
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1198501_20260720_120041.png",
+      "appStoreScreenshots": []
     }
   ],
   "tracking": {
