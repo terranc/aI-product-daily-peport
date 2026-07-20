@@ -9587,7 +9587,7 @@
         "weeklyViews": 0,
         "growthRate": 0,
         "featuredInDaily": true,
-        "featuredInWeekly": false
+        "featuredInWeekly": true
       },
       "screenshotUrl": "assets/screenshots/unknown_20260610_125848.png",
       "appStoreScreenshots": [],
