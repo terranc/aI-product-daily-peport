@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "lastUpdated": "2026-07-20T04:01:07.665922+00:00",
+  "lastUpdated": "2026-07-22T05:28:38.537876+00:00",
   "products": [
     {
       "id": "dafa9686fbe1",
@@ -16952,6 +16952,351 @@
       },
       "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1198501_20260720_120041.png",
       "appStoreScreenshots": []
+    },
+    {
+      "id": "producthunt.com/r/p/1197294",
+      "name": "NeuroVidz",
+      "slug": "neurovidz",
+      "description": "NeuroVidz 是一款基于神经科学的视频/音频内容分析工具。上传视频后，它能预测人脑对画面的注意力和声音的反应——逐秒分析注意力、参与度和情感变化，给出0-100的参与度评分和具体的剪辑建议。不同于其他只分析画面的工具，NeuroVidz 同时分析画面和声音（音乐、语音、节奏、沉默），为播客、音乐视频和语音驱动的内容提供有意义的评分。",
+      "url": "https://neurovidz.com",
+      "homepage": "https://neurovidz.com",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "视频分析",
+        "神经科学",
+        "内容优化",
+        "AI剪辑",
+        "情感分析"
+      ],
+      "firstSeen": "2026-07-22T05:28:38.537876+00:00",
+      "lastSeen": "2026-07-22T05:28:38.537876+00:00",
+      "cooldownExpiresAt": "2026-08-05T05:28:38.537876+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-07-22T05:28:38.537876+00:00",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/r/p/1197294?app_id=339",
+          "title": "NeuroVidz"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "视频创作者、内容营销人员、播客制作人、视频编辑师",
+        "useCases": [
+          "上传短视频片段，获取逐秒注意力分析和剪辑建议，优化内容节奏",
+          "对比不同版本的视频剪辑，选择参与度更高的版本发布",
+          "测试播客片头的音乐和语音组合，找到最吸引听众的情感曲线",
+          "教育类视频创作者分析知识点讲解的注意力保持率，改进教学节奏"
+        ],
+        "designIntent": "大部分视频分析工具只分析画面，忽略了声音对观众注意力和情感的巨大影响。创作者只能在发布后通过观看数据猜测效果。NeuroVidz 的创始人希望打造一个在发布前就能预测观众反应的工具，同时分析画面和声音两大信号，给出可操作的剪辑建议。",
+        "problemSolved": "解决了内容创作者在发布前无法客观评估视频/音频内容质量的问题。传统做法是凭直觉剪片，发布后看数据才知道效果。NeuroVidz 让创作者在上传后1分钟内就能看到预测的参与度评分、注意力流失点和情感曲线，并给出具体的编辑建议。",
+        "score": 8,
+        "scoreReason": "神经科学驱动的视频分析理念非常独特，同时分析画面和声音的开发思路避开了大多数竞品的盲区。产品完成度高，交互优雅。适合内容创作者和营销团队，应用场景明确。扣2分是因为受众相对垂直，且价格可能对个人创作者偏高。",
+        "competitors": [
+          {
+            "name": "Veogo.ai",
+            "url": "https://www.veogo.ai/",
+            "comparison": "Veogo 主要通过社交媒体数据预测视频流量，而 NeuroVidz 直接从视频内容本身分析神经反应信号"
+          },
+          {
+            "name": "Descript",
+            "url": "https://www.descript.com/",
+            "comparison": "Descript 是一站式视频/音频编辑工具，NeuroVidz 专注于发布前的神经科学预测分析，二者互补而非直接竞争"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1197294_20260722_132844.png",
+      "appStoreScreenshots": [],
+      "rawData": {}
+    },
+    {
+      "id": "producthunt.com/r/p/1200821",
+      "name": "Backbeat Forge",
+      "slug": "backbeat-forge",
+      "description": "Backbeat Forge 是一款本地运行的 AI 鼓谱转录工具。上传完整的混音或单独的鼓轨音频，它能自动将鼓声部转录为标准的五线鼓谱，支持人工校对修正，最终导出为可打印的 PDF 鼓谱或通用 MIDI 文件。所有处理在本地完成，无需上传云端，保护隐私。内置 HTDemucs 鼓组分离引擎，支持多种音频格式输入。",
+      "url": "https://www.producthunt.com/r/p/1200821",
+      "homepage": "https://www.producthunt.com/r/p/1200821",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "音乐制作",
+        "鼓谱转录",
+        "AI音频",
+        "本地处理",
+        "音乐教育"
+      ],
+      "firstSeen": "2026-07-22T05:28:38.537876+00:00",
+      "lastSeen": "2026-07-22T05:28:38.537876+00:00",
+      "cooldownExpiresAt": "2026-08-05T05:28:38.537876+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-07-22T05:28:38.537876+00:00",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/r/p/1200821?app_id=339",
+          "title": "Backbeat Forge"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "专业鼓手、音乐制作人、编曲师、音乐教育工作者",
+        "useCases": [
+          "将录音棚录制的鼓轨快速转录为可编辑的五线谱，节省手动记谱时间",
+          "为乐队排练生成鼓谱，方便乐手阅读和练习",
+          "将 MIDI 鼓轨导入 DAW 进行进一步编曲和混音",
+          "音乐教师将学生演奏的鼓点转录为乐谱用于教学分析"
+        ],
+        "designIntent": "鼓手和制作人常常需要将音频中的鼓声部转为可读的乐谱，但现有工具要么依赖云端处理（隐私风险），要么输出钢琴卷帘而非标准鼓谱。Backbeat Forge 希望提供一个完全本地化、输出标准五线鼓谱的专业工具，让音乐人能像 Word 文档一样编辑鼓谱。",
+        "problemSolved": "解决了从鼓音频到标准五线鼓谱的全流程痛点。传统做法要么人工听写（耗时费力），要么用通用 AI 转 MIDI 工具（结果常需大量修正且输出格式不适合鼓谱）。Backbeat Forge 提供端到端的解决方案：音频输入→AI 转录→鼓谱校对→PDF/MIDI 输出，且完全离线保护隐私。",
+        "score": 7,
+        "scoreReason": "解决了音乐制作中的真实痛点，本地化处理和永久授权模式值得肯定。鼓谱转录质量在复杂混音场景下仍需人工校对，且目前仅支持鼓类乐器，适用范围相对有限。",
+        "competitors": [
+          {
+            "name": "乐谱制作软件（如 Finale、Sibelius）",
+            "url": "",
+            "comparison": "传统乐谱软件需手动输入每个音符，无法从音频自动转录"
+          },
+          {
+            "name": "通用音频转 MIDI 工具",
+            "url": "",
+            "comparison": "通用工具输出钢琴卷帘而非标准鼓谱，且不支持鼓组分离和五线谱语义编辑"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1200821_20260722_132850.png",
+      "appStoreScreenshots": [],
+      "rawData": {}
+    },
+    {
+      "id": "producthunt.com/r/p/1200923",
+      "name": "Kogvio",
+      "slug": "kogvio",
+      "description": "Kogvio 是一款浏览器扩展，让你在不离开当前页面的情况下即时理解屏幕上的任何内容。选中文本、图片或视频帧后，Kogvio 即刻给出简洁的解释。支持识别手写笔记、复杂数学公式（LaTeX 渲染）、编程代码块和专业技术图表。适用于 Chrome、Brave 和 Edge 浏览器，有免费版每日 5 次扫描和 Pro 版无限次扫描。",
+      "url": "https://chromewebstore.google.com/detail/kogvio/mllapkmnhfgoblbcajnbniocicnahdnj",
+      "homepage": "https://chromewebstore.google.com/detail/kogvio/mllapkmnhfgoblbcajnbniocicnahdnj",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "学习工具",
+        "浏览器扩展",
+        "AI解释",
+        "屏幕理解",
+        "教育"
+      ],
+      "firstSeen": "2026-07-22T05:28:38.537876+00:00",
+      "lastSeen": "2026-07-22T05:28:38.537876+00:00",
+      "cooldownExpiresAt": "2026-08-05T05:28:38.537876+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "mentions": [
+        {
+          "date": "2026-07-22T05:28:38.537876+00:00",
+          "channel": "producthunt",
+          "url": "https://www.producthunt.com/r/p/1200923?app_id=339",
+          "title": "Kogvio"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "学生、研究人员、技术文档阅读者、非母语用户",
+        "useCases": [
+          "阅读技术文档时遇到不理解的概念，直接选中让 Kogvio 解释，无需切换标签页",
+          "研究论文中的复杂图表或公式，即时获得语义解读",
+          "非母语用户阅读英文技术资料时，快速理解生僻专业术语",
+          "看教学视频时暂停某一帧，让 Kogvio 解释画面中的内容"
+        ],
+        "designIntent": "创始人发现自己在阅读在线内容时，频繁陷入「复制→打开 ChatGPT→粘贴→回来」的低效工作流。每次切换标签页都会打断专注力。Kogvio 的目标是消除这种上下文切换，让用户在阅读的自然流程中即时获得解答，保持心流状态。",
+        "problemSolved": "解决了在线学习和研究中的高频中断问题。传统做法需要多次切换标签页来查询不理解的内容，每次切换平均损失 23 分钟的恢复专注时间。Kogvio 将查询和解答无缝嵌入浏览流程，让用户在阅读的当下就能扫清理解障碍。",
+        "score": 7,
+        "scoreReason": "精准定位了学习研究中的高频痛点，交互设计简洁优雅。对手写笔记和数学公式的支持令人印象深刻。免费版 5 次/天的限制对重度用户可能不够，且仅支持 Chromium 浏览器。",
+        "competitors": [
+          {
+            "name": "Walles AI",
+            "url": "",
+            "comparison": "Walles AI 功能更丰富（含网页总结、PDF 对话），但 Kogvio 更专注于即选即解释的轻量化体验"
+          },
+          {
+            "name": "内置 AI 搜索（如 Microsoft Copilot、Google AI）",
+            "url": "",
+            "comparison": "浏览器内置 AI 需要打开侧边栏或新标签页，Kogvio 以浮层形式直接在原页面展示，干扰更小"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1200923_20260722_132857.png",
+      "appStoreScreenshots": [],
+      "rawData": {}
+    },
+    {
+      "id": "upload.sortedreceipts.com/demo",
+      "name": "Sorted Receipts",
+      "slug": "sorted-receipts",
+      "description": "Sorted Receipts 是一款面向会计师和簿记员的 AI 收据处理工具。客户只需将手机照片或 PDF 收据丢到一个共享链接中，AI 即可自动读取并分类整理所有收据，生成整洁的月结报告给簿记员。针对 Xero 的 Hubdoc 退休后留下的市场空白，为中小型簿记员和客户之间提供更智能的收据流转方案。",
+      "url": "https://upload.sortedreceipts.com/demo",
+      "homepage": "https://sortedreceipts.com",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "会计",
+        "收据管理",
+        "AI数据提取",
+        "簿记",
+        "工作效率"
+      ],
+      "firstSeen": "2026-07-22T05:28:38.537876+00:00",
+      "lastSeen": "2026-07-22T05:28:38.537876+00:00",
+      "cooldownExpiresAt": "2026-08-05T05:28:38.537876+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "mentions": [
+        {
+          "date": "2026-07-22T05:28:38.537876+00:00",
+          "channel": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=41473239",
+          "title": "Sorted Receipts"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "独立簿记员、中小型会计师事务所、自由职业者",
+        "useCases": [
+          "客户将杂乱收据（照片/PDF）上传到共享链接，AI 自动分类整理",
+          "簿记员直接获得按日期/供应商/金额分类的月结报告，无需手动录入",
+          "替代已退休的 Hubdoc，为 Xero 用户提供更智能的收据管理方案",
+          "多客户管理：每个客户端有独立的上传链接，数据自动隔离"
+        ],
+        "designIntent": "Xero 在 2026 年 5 月退休了 Hubdoc，大量独立簿记员和客户之间缺少一个简单好用的收据收集和整理工具。创始人在 HN 上分享说，受影响的用户大多是有 15-30 个客户的小型簿记员，他们的替代选择只有企业级方案（Dext）或按文档计费的方案（AutoEntry），都不够灵活和友好。",
+        "problemSolved": "解决了 Hubdoc 退休后留下的市场空白。传统方案要么价格昂贵（Dext +/月），要么按文档计费（AutoEntry），对中小型簿记员不够友好。Sorted Receipts 提供了更灵活的方式：客户通过一个链接批量上传收据，AI 自动分类、提取信息并生成报告，簿记员无需手动整理。",
+        "score": 7,
+        "scoreReason": "精准捕捉了 Hubdoc 退休后的市场缺口，产品定位清晰，解决了真实痛点。目前仍处于早期阶段，仅有 demo 可用，功能完整性和企业级可靠性有待验证。",
+        "competitors": [
+          {
+            "name": "Dext (原 Receipt Bank)",
+            "url": "https://www.dext.com/",
+            "comparison": "Dext 功能成熟但价格较高（+/月），对有 15-30 个客户的小型簿记员来说成本偏高"
+          },
+          {
+            "name": "AutoEntry",
+            "url": "https://www.autoentry.com/",
+            "comparison": "AutoEntry 按文档计费，对批量上传场景不如 Sorted Receipts 灵活"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/upload.sortedreceipts.com_demo_20260722_132903.png",
+      "appStoreScreenshots": [],
+      "rawData": {}
+    },
+    {
+      "id": "v2ex.com/t/1228933",
+      "name": "KaCutAI (咔咔找)",
+      "slug": "kacutai",
+      "description": "KaCutAI（咔咔找）是一款 macOS 本地运行的 AI 视频素材搜索引擎。它能用中文自然语言搜索本地视频库中的画面内容、人物、台词、字幕、包装文字和文件信息。所有索引和搜索在 Mac 本地完成，100% 不上传原片。支持 Apple Silicon 芯片，适合视频创作者快速定位素材，将找素材从十几分钟的拖进度条变成一句中文搜索直接跳到那一秒。",
+      "url": "https://www.kacut.app/",
+      "homepage": "https://www.kacut.app/",
+      "type": "app",
+      "appStoreName": "TestFlight",
+      "appStoreUrl": "https://testflight.apple.com/join/hkJdYKEp",
+      "platforms": [],
+      "categories": [],
+      "tags": [
+        "视频搜索",
+        "本地AI",
+        "素材管理",
+        "macOS",
+        "内容创作"
+      ],
+      "firstSeen": "2026-07-22T05:28:38.537876+00:00",
+      "lastSeen": "2026-07-22T05:28:38.537876+00:00",
+      "cooldownExpiresAt": "2026-08-05T05:28:38.537876+00:00",
+      "versions": [],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "mentions": [
+        {
+          "date": "2026-07-22T05:28:38.537876+00:00",
+          "channel": "v2ex",
+          "url": "https://www.v2ex.com/t/1228933",
+          "title": "KaCutAI (咔咔找)"
+        }
+      ],
+      "analysis": {
+        "targetAudience": "视频创作者、剪辑师、MCN/电商内容团队、自媒体博主",
+        "useCases": [
+          "用自然语言搜索本地视频素材：找到海边女生转身的画面，AI 直接定位到对应时间码",
+          "搜索视频中的台词或字幕：找到他说流量越来越贵的那一段",
+          "搜索包装文字：找到菜单里出现招牌菜三个字的地方",
+          "批量索引数百 G 的历史拍摄素材，建立可搜索的本地素材库"
+        ],
+        "designIntent": "视频创作者最痛苦的事不是剪辑，而是找素材。明明记得拍过某个镜头、某句台词、某个画面，但只能一个文件一个文件打开、反复拖进度条。KaCutAI 希望把找素材从十几分钟的手动搜索变成一句中文自然语言搜索，让 AI 直接跳到目标那一秒。",
+        "problemSolved": "解决了视频创作者本地素材查找效率低下的核心痛点。现有方案要么靠肉眼翻找（耗时），要么只能用文件名搜索（无法搜画面内容）。KaCutAI 通过本地 AI 模型对视频内容进行语义理解，实现中文自然语言搜索画面、台词、字幕等多种维度，且完全离线保护素材隐私。",
+        "score": 8,
+        "scoreReason": "精准切中视频创作者找素材的核心痛点，100% 离线处理保护隐私是一大优势。中文自然语言搜索体验流畅，使用场景明确且需求强烈。扣 2 分因为目前仅支持 macOS Apple Silicon，且处于内测阶段，稳定性和搜索准确率有待更多用户验证。",
+        "competitors": [
+          {
+            "name": "Adobe Bridge",
+            "url": "https://helpx.adobe.com/bridge.html",
+            "comparison": "Bridge 基于文件和元数据搜索，不支持自然语言语义搜索画面内容"
+          },
+          {
+            "name": "Eagle (素材管理工具)",
+            "url": "https://eagle.cool/",
+            "comparison": "Eagle 支持标签和文件夹管理，但不支持 AI 视频语义搜索"
+          }
+        ]
+      },
+      "metrics": {
+        "weeklyViews": 0,
+        "growthRate": 0,
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      },
+      "screenshotUrl": "assets/screenshots/v2ex.com_t_1228933_20260722_132910.png",
+      "appStoreScreenshots": [],
+      "rawData": {}
     }
   ],
   "tracking": {

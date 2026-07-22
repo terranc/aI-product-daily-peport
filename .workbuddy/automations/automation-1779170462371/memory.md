@@ -2,6 +2,24 @@
 
 ## 执行记录
 
+### 2026-07-20
+- **执行结果**：成功完成深度分析
+- **选中产品**：Kimi Work - 月之暗面桌面 AI Agent（从 153 个候选中选出，评分 9）
+- **选择理由**：月之暗面是中国 AI「四小龙」之一，估值 300 亿美元（半年增长 7 倍），Kimi Work 是其桌面 Agent 战略产品，定位「AI Desktop for Knowledge Work」，300 子 Agent 并行协作能力行业最高
+- **深度报告**：已保存至 `reports/weekly/2026-07-20.json`
+- **关键发现**：
+  - 创始人杨植麟（90 后 AI 天才，清华+CMU 博士），14 个月内估值从 40 亿飙升至 300 亿美元
+  - K2.6 模型：万亿参数 MoE 开源，SWE-Bench Pro 58.6% 领先所有闭源模型
+  - Cursor 使用 Kimi K2.5 作为 Composer 2 基座模型，Elon Musk 在 X 上确认
+  - 三大独有差异化：300 子 Agent 并行、WebBridge 真实浏览器控制、原生金融数据
+  - 定价 $19-$199/月，免费版可用但功能受限
+  - 用户反馈两极：实用性强 vs 稳定性不足、黑盒无调试信息
+  - 竞品：Anthropic Claude/OpenAI Codex/Google Gemini/Microsoft Copilot 全部入局
+- **部署状态**：已标记 featuredInWeekly，已推送到 GitHub Pages
+- **GitHub Pages**：https://ai-daily.asdasd.vip
+
+---
+
 ### 2026-07-13
 - **执行结果**：成功完成深度分析
 - **选中产品**：Agent A by Ahrefs（从 134 个候选中选出，评分 9）
@@ -120,15 +138,14 @@
 ### 2026-05-19（首次执行）
 - **执行结果**：无符合深度分析条件的产品
 - **原因**：数据库中所有 34 个产品均在当天首次入库（firstSeen = 2026-05-19），距今 0 天，未满足条件
-- **已在日报推荐**：3 个产品，但首次发现时间均为当天
-- **关键发现**：GVM 会劫持 `git` 命令（通过 .zshrc），需用 `/opt/homebrew/bin/git -C <dir>` 绕过；Python 脚本需用 `/opt/homebrew/bin/python3 /absolute/path/to/script.py` 而非 `cd && python3 script.py` 方式运行
-- **部署状态**：已推送到 GitHub Pages
+- **关键发现**：GVM 会劫持 `git` 命令（通过 .zshrc），需用 `env -i` 或绝对路径绕过
 
 ---
 
 ## 技术注意事项
 
-1. **环境问题**：必须用 `SHELL=/bin/bash` + `/opt/homebrew/bin/python3` 和 `/opt/homebrew/bin/git` 绕过 zsh GVM 钩子
+1. **环境问题**：必须用 `env -i HOME=$HOME PATH=/opt/homebrew/bin:/usr/bin:/bin` 绕过 zsh GVM 钩子
 2. **数据结构**：products.json 中 `products` 数组包含所有产品，`metrics.featuredInDaily`/`metrics.featuredInWeekly` 在嵌套 metrics 对象中，`analysis.score` 在 analysis 对象中
 3. **候选筛选**：`metrics.featuredInDaily` + 非 `metrics.featuredInWeekly` + `analysis.score > 0`
-4. **产品名匹配**：产品名称可能包含描述后缀（如 "Treasury - AI 个人理财助手"），匹配时用 URL 或 slug 更可靠
+4. **周报 JSON 字段**：需包含 `sourceDailyReport` 和 `type` 字段以兼容站点渲染
+5. **产品名匹配**：用 slug 匹配更可靠，避免名称重复问题
