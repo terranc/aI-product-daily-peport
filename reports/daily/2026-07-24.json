@@ -1,0 +1,287 @@
+{
+  "date": "2026-07-24",
+  "generatedAt": "2026-07-24T04:07:32.096769+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "producthunt.com/r/p/1173392",
+      "name": "Squishy",
+      "slug": "squishy",
+      "description": "一个与你信任的人共同照顾的 AI 专注力宠物。在 iPhone 和 Chrome 上使用，它会根据你们的屏幕使用情况而成长或枯萎，把屏幕时间管理变成一场有爱的合作游戏。",
+      "url": "https://squishyapp.com",
+      "homepage": "https://squishyapp.com",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1173392_20260724_120643.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "屏幕时间管理",
+        "专注力",
+        "社交应用",
+        "游戏化"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1173392",
+      "firstSeen": "2026-07-24T04:04:47.733751+00:00",
+      "analysis": {
+        "targetAudience": "受手机成瘾困扰、想通过有趣方式管理屏幕时间的年轻人",
+        "useCases": [
+          "与朋友或伴侣一起设定专注时段，互相激励",
+          "通过宠物状态可视化了解自己的屏幕使用习惯",
+          "作为番茄工作法的趣味替代方案",
+          "与异地朋友建立一种新型的社交连接",
+          "帮助家长和孩子一起管理电子设备使用时间"
+        ],
+        "designIntent": "传统屏幕时间管理工具过于惩罚性，用户容易放弃。Squishy 将自律转化成照顾宠物这种天然有责任感的体验，把枯燥的计时器变成有情感连接的小生命，让用户因为不想让 Squishy 枯萎而主动放下手机。",
+        "problemSolved": "解决了手机成瘾管理工具难以坚持的问题。传统计时器冷漠无情，而 Squishy 通过一个共享的、有情感的宠物形象，让屏幕时间管理变成一种社交互动和情感体验，两个人一起照顾一个 Squishy 的设计更是增加了责任感和趣味性。",
+        "tags": [
+          "屏幕时间管理",
+          "专注力",
+          "社交应用",
+          "游戏化"
+        ],
+        "score": 8,
+        "scoreReason": "创意独特，将屏幕时间管理与社交宠物养成的结合非常有新意。但需要双方共同参与，单人使用体验会打折扣，商业模式依赖订阅制，市场教育成本较高。",
+        "competitors": [
+          {
+            "name": "Forest",
+            "url": "https://www.forestapp.cc",
+            "comparison": "Forest 是单人种树专注，缺少社交互动和情感反馈；Squishy 的共享宠物设计更具社交粘性"
+          },
+          {
+            "name": "Opal",
+            "url": "https://www.opal.so",
+            "comparison": "Opal 功能更全面的屏幕时间管理，但机制严肃；Squishy 用游戏化和情感化方式降低心理抗拒"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1204267",
+      "name": "Rehello",
+      "slug": "rehello",
+      "description": "基于 GPT-5.6 的社交记忆助手，帮助内向者记住所遇之人的信息，让下一次对话不再尴尬。记录社交细节、设置联系提醒、快速回顾聊天话题。",
+      "url": "https://www.producthunt.com/r/p/1204267",
+      "homepage": "https://www.producthunt.com/r/p/1204267",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1204267_20260724_120648.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "社交助手",
+        "关系管理",
+        "内向外挂",
+        "个人CRM"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1204267",
+      "firstSeen": "2026-07-24T04:04:47.733751+00:00",
+      "analysis": {
+        "targetAudience": "社交焦虑者、想改善人际关系但不知如何开始的年轻人",
+        "useCases": [
+          "参加社交活动后记录新认识的人的信息",
+          "设置定期提醒与老朋友保持联系",
+          "查看社交对象的兴趣标签找到下次聊天话题",
+          "在重要社交场合前快速回顾相关人员背景",
+          "作为个人CRM管理日常社交关系"
+        ],
+        "designIntent": "很多内向者在社交场合会感到焦虑，因为很难记住别人的信息和过往聊天内容。Rehello 希望成为社交焦虑者的第二大脑，通过 AI 自动记录和提醒，让下一次对话不再尴尬，帮助用户建立更有质量的社交关系。",
+        "problemSolved": "解决了人际交往中忘记对方信息导致的社交尴尬。它不仅是通讯录，更是一个关系智能助手，帮助用户记住每个人的细节、过往对话和重要日期，让每一次互动都显得用心和体贴。",
+        "tags": [
+          "社交助手",
+          "关系管理",
+          "内向外挂",
+          "个人CRM"
+        ],
+        "score": 7,
+        "scoreReason": "直击社恐人群的痛点，产品定位精准且有同理心。但个人社交关系管理是个低频需求，如何保持日常活跃度和付费意愿是挑战。",
+        "competitors": [
+          {
+            "name": "Revere",
+            "url": "https://revere.app",
+            "comparison": "Revere 更侧重记录，Rehello 加入 GPT-5.6 的 AI 对话辅助，更具智能化"
+          },
+          {
+            "name": "Clay",
+            "url": "https://www.clay.earth",
+            "comparison": "Clay 侧重自动化关系维护，Rehello 更注重帮助用户记住和理解他人"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1203509",
+      "name": "AuraSpeak",
+      "slug": "auraspeak",
+      "description": "通过扫码即可使用的英日实时翻译工具。一方生成二维码，另一方扫码即可进入双语聊天室，消息自动翻译，无需下载任何 App，用完即走。",
+      "url": "https://www.producthunt.com/r/p/1203509",
+      "homepage": "https://www.producthunt.com/r/p/1203509",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1203509_20260724_120654.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "翻译工具",
+        "旅行",
+        "扫码聊天",
+        "英日互译"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1203509",
+      "firstSeen": "2026-07-24T04:04:47.733751+00:00",
+      "analysis": {
+        "targetAudience": "去日本旅游的英语使用者、需要英日即时沟通的商务人士",
+        "useCases": [
+          "日本旅行中与当地商家、酒店人员交流",
+          "国际会议中与日方参会者实时沟通",
+          "语言交换伙伴通过扫码进入双语聊天",
+          "在餐厅扫码点餐时翻译沟通",
+          "紧急情况下快速与他人建立基本沟通"
+        ],
+        "designIntent": "现有的翻译工具要么需要下载 App，要么操作复杂。AuraSpeak 想用最简单的交互——扫码即聊——来消除英日语言障碍。无需注册，无需下载，扫码即用，用完即走，隐私安全。",
+        "problemSolved": "解决了英日语言交流中工具启动成本高的问题。传统翻译 App 需要下载、注册、选择语言，AuraSpeak 只需一方生成二维码，另一方扫码即可进入双语聊天室，大幅降低了使用门槛。",
+        "tags": [
+          "翻译工具",
+          "旅行",
+          "扫码聊天",
+          "英日互译"
+        ],
+        "score": 7,
+        "scoreReason": "体验极致简洁，扫码即用的设计非常优雅。但仅支持英日互译，语言覆盖度有限，且需要双方都有网络，在旅游场景中可能受限。",
+        "competitors": [
+          {
+            "name": "Google Translate",
+            "url": "https://translate.google.com",
+            "comparison": "Google 翻译功能全面且免费，但操作步骤多；AuraSpeak 的扫码即聊更便捷但功能单一"
+          },
+          {
+            "name": "VoiceTra",
+            "url": "https://voicetra.nict.go.jp",
+            "comparison": "VoiceTra 是日本政府开发的免费翻译 App，支持语音且准确度高，但需要下载安装"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1198388",
+      "name": "Basement",
+      "slug": "basement",
+      "description": "AI 购物浏览器，在每一个商品页面为你汇聚 Reddit、Trustpilot、X 的真实用户评价，AI 代理帮你追踪价格并自动完成结账。",
+      "url": "https://www.basementbrowser.com",
+      "homepage": "https://www.basementbrowser.com",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1198388_20260724_120700.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI购物",
+        "比价工具",
+        "浏览器扩展",
+        "价格追踪"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1198388",
+      "firstSeen": "2026-07-24T04:04:47.733751+00:00",
+      "analysis": {
+        "targetAudience": "经常网购并希望获得更智能购物体验的消费者",
+        "useCases": [
+          "在商品详情页查看来自 Reddit/Trustpilot/X 的真实用户评价",
+          "设置价格追踪并让 AI 在降价时自动通知",
+          "AI 自动填写结账信息和优惠码",
+          "对比同款商品在不同平台的价格",
+          "浏览商品时一键获取全网比价结果"
+        ],
+        "designIntent": "现代电商购物体验是割裂的——你在一个网站看商品，却要去 Reddit 搜评价、去比价网站查价格、手动输入优惠码。Basement 想通过 AI 购物代理把所有环节集成到浏览器中，让购物回归简单。",
+        "problemSolved": "解决了在线购物信息分散的问题。Basement 把用户评价、价格追踪、自动结账等功能集中到浏览器侧边栏，AI 代理可以帮用户比价、追价、自动结账，大幅提升购物效率。",
+        "tags": [
+          "AI购物",
+          "比价工具",
+          "浏览器扩展",
+          "价格追踪"
+        ],
+        "score": 7,
+        "scoreReason": "解决了真实痛点，AI 自动结账和价格追踪功能实用性强。但作为浏览器扩展，需要用户信任其支付信息安全；且类似功能的比价工具和购物助手竞争激烈。",
+        "competitors": [
+          {
+            "name": "Honey",
+            "url": "https://www.joinhoney.com",
+            "comparison": "Honey 主要是优惠码和返现，Basement 增加了 AI 评价聚合和自动结账等更智能的功能"
+          },
+          {
+            "name": "CamelCamelCamel",
+            "url": "https://camelcamelcamel.com",
+            "comparison": "CamelCamelCamel 专注于亚马逊价格历史追踪，Basement 覆盖更多平台且有 AI 评价分析"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1203265",
+      "name": "SMASH Voice to Invoice",
+      "slug": "smash-voice-to-invoice",
+      "description": "语音生成发票工具，专为现场服务人员设计。30 秒语音描述工作内容，AI 自动匹配价格目录、计算税费，60 秒内生成专业发票。无需打字，适合双手被占用的工作场景。",
+      "url": "https://smashinvoices.com",
+      "homepage": "https://smashinvoices.com",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1203265_20260724_120707.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "语音开票",
+        "自由职业工具",
+        "AI自动化",
+        "财务管理"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1203265",
+      "firstSeen": "2026-07-24T04:04:47.733751+00:00",
+      "analysis": {
+        "targetAudience": "需要频繁开具发票的现场服务人员（电工、水管工、清洁工等）",
+        "useCases": [
+          "在施工现场完成工作后，用语音描述工作内容并直接生成发票",
+          "在车上休息时快速处理积压的报价单",
+          "通过 Gmail 扩展直接在邮件回复中插入报价",
+          "使用预设价格目录确保报价一致性",
+          "与 Xero/QuickBooks 同步实现财务自动化"
+        ],
+        "designIntent": "传统记账软件对于手被占用的现场工作人员来说效率太低。SMASH 想让人回归最自然的表达方式——说话。30 秒语音描述，AI 自动识别工作项、匹配价格目录、计算税费，让开票从 15 分钟压缩到 60 秒。",
+        "problemSolved": "解决了现场服务人员开票效率低下的问题。传统方式需要打开电脑或 App、逐项输入、计算，而 SMASH 通过语音 + AI 识别，让开票变成说话那么简单，特别适合手被占用的工作场景。",
+        "tags": [
+          "语音开票",
+          "自由职业工具",
+          "AI自动化",
+          "财务管理"
+        ],
+        "score": 7,
+        "scoreReason": "场景精准、解决真问题——现场技工确实有双手被占用的痛点。但仅支持澳大利亚 GST 税制，国际市场扩展受限；语音识别在嘈杂环境下可能不准确。",
+        "competitors": [
+          {
+            "name": "QuickBooks",
+            "url": "https://quickbooks.intuit.com",
+            "comparison": "QuickBooks 功能全面但操作复杂，适合办公室使用；SMASH 专注语音开票，适合现场工作"
+          },
+          {
+            "name": "Invoice2go",
+            "url": "https://www.invoice2go.com",
+            "comparison": "Invoice2go 模板丰富但需要手动输入；SMASH 以语音为核心的交互方式更具创新性"
+          }
+        ]
+      }
+    }
+  ]
+}

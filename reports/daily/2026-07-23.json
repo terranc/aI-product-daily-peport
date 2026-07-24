@@ -1,0 +1,322 @@
+{
+  "date": "2026-07-23",
+  "generatedAt": "2026-07-23T04:00:17.071784+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "thedaily.fm",
+      "name": "每日 FM",
+      "slug": "the-daily-fm",
+      "description": "将你关注的任何信息源（网站、X账号、Hacker News、播客等）自动生成每日 AI 播客，用听的就能跟上最新动态。",
+      "url": "https://thedaily.fm",
+      "homepage": "https://thedaily.fm",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/thedaily.fm_20260723_115906.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI播客",
+        "信息聚合",
+        "内容摘要",
+        "音频生成",
+        "个性化"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49013244",
+      "firstSeen": "2026-07-22T20:50:40Z",
+      "analysis": {
+        "targetAudience": "信息过载的职场人士、需要高效获取资讯的知识工作者",
+        "useCases": [
+          "通勤时听自己关注的行业资讯播客",
+          "将多个信息源合并为一个个性化播客",
+          "跟踪特定 X 账号的最新动态",
+          "监听 Hacker News 热门讨论",
+          "关注州立法机构的最新法案进展"
+        ],
+        "designIntent": "解决信息过载问题——人们每天有太多想读的内容但没有时间。将文字信息转化为音频，让用户在通勤、运动、做家务时也能高效获取信息。",
+        "problemSolved": "解决用户每天面对大量 RSS 订阅源、社交媒体信息和新闻文章但没时间阅读的问题。通过 AI 将文字内容转化为简短播客，让信息消费变得更轻松高效。",
+        "tags": [
+          "AI播客",
+          "信息聚合",
+          "内容摘要",
+          "音频生成",
+          "个性化"
+        ],
+        "score": 8,
+        "scoreReason": "概念新颖，将 AI 语音合成与信息聚合结合得恰到好处。用户可自定义信息源，生成个性化播客是高频使用场景。",
+        "competitors": [
+          {
+            "name": "Snipd",
+            "url": "https://www.snipd.com",
+            "comparison": "Snipd 聚焦播客笔记和片段提取，The Daily FM 更强调将任意信息源转化为完整播客体验"
+          },
+          {
+            "name": "Google NotebookLM Audio Overviews",
+            "url": "https://notebooklm.google.com",
+            "comparison": "NotebookLM 使用对话式 AI 生成讨论，The Daily FM 更侧重每日更新的信息流播客"
+          },
+          {
+            "name": "DailyBot",
+            "url": "https://dailybot.com",
+            "comparison": "DailyBot 专注团队协作日报，The Daily FM 关注个人信息消费场景"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lattics.com",
+      "name": "Lattics（类脑知识库）",
+      "slug": "lattics",
+      "description": "类脑式知识管理与 AI 写作工具，融合双向链接笔记、AI 辅助写作与深度研究功能，专为学术研究与创意写作设计。",
+      "url": "https://lattics.com",
+      "homepage": "https://lattics.com",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/lattics.com_20260723_115912.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "知识管理",
+        "AI写作",
+        "学术研究",
+        "笔记工具",
+        "卡片笔记"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "",
+      "firstSeen": "2026-07-23T03:58:59.932166+00:00",
+      "analysis": {
+        "targetAudience": "高校研究人员、博士生、专业作家、咨询顾问及需要处理复杂信息的知识工作者",
+        "useCases": [
+          "学术论文写作：从文献整理、笔记标注到自动引用排版",
+          "长篇小说创作：利用时间轴设计叙事结构",
+          "分析报告撰写：插入专业表格与交互式图表",
+          "知识库构建：将碎片化信息转化为关联的知识网络",
+          "AI 辅助翻译与写作：右键调用 AI 进行翻译、润色、重写"
+        ],
+        "designIntent": "打破传统文件夹式知识管理的局限，用「卡片 + 双向链接」模拟大脑的联想式思考方式。同时将 AI 深度集成到写作流程中，让用户在知识管理、研究和创作之间无缝切换。",
+        "problemSolved": "解决知识工作者在信息管理、研究和写作之间频繁切换工具导致的效率损耗。Lattics 将知识管理、AI 辅助写作和学术引用整合在同一个工作台中，减少上下文切换。",
+        "tags": [
+          "知识管理",
+          "AI写作",
+          "学术研究",
+          "笔记工具",
+          "卡片笔记"
+        ],
+        "score": 8,
+        "scoreReason": "将 AI 深度集成到知识管理与写作全流程，功能完整度高。本地优先架构保障数据隐私，8000+ 引用格式对学术用户极有吸引力。",
+        "competitors": [
+          {
+            "name": "Notion AI",
+            "url": "https://www.notion.so",
+            "comparison": "Notion 更偏向团队协作数据库，Lattics 在学术写作和深度研究方面更专业"
+          },
+          {
+            "name": "Obsidian",
+            "url": "https://obsidian.md",
+            "comparison": "Obsidian 知识图谱更强但缺乏内置 AI 写作辅助，Lattics 集成了完整的 AI 协作和学术引用功能"
+          },
+          {
+            "name": "Scrivener",
+            "url": "https://www.literatureandlatte.com/scrivener",
+            "comparison": "Scrivener 专注长文写作但无 AI 功能，Lattics 融合了 AI 辅助和知识管理"
+          }
+        ]
+      }
+    },
+    {
+      "id": "openchatcut.com",
+      "name": "OpenChatCut（开源 AI 视频编辑器）",
+      "slug": "openchatcut",
+      "description": "开源的对话式 AI 视频编辑器，支持 AI 智能体在真实多轨道时间线上协作剪辑，本地优先、免费导出。",
+      "url": "https://openchatcut.com",
+      "homepage": "https://openchatcut.com",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/openchatcut.com_20260723_115943.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI视频编辑",
+        "开源",
+        "内容创作",
+        "智能剪辑",
+        "本地优先"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "",
+      "firstSeen": "2026-07-23T03:58:59.932166+00:00",
+      "analysis": {
+        "targetAudience": "内容创作者、视频剪辑师、自媒体运营者及小型制作团队",
+        "useCases": [
+          "将原始素材自动剪辑为适合抖音/B站/YouTube 的成品视频",
+          "AI 自动添加字幕、配置音乐和生成转场效果",
+          "通过自然语言指令调整视频节奏和剪辑风格",
+          "同一素材生成不同时长和风格的版本适配多平台",
+          "智能体协作：接入 Codex/Claude 等 AI 代理辅助剪辑"
+        ],
+        "designIntent": "打破传统视频编辑的复杂流程，让用户通过自然语言即可完成专业级剪辑。同时保持开源和本地优先，让用户完全掌控自己的数据和创作流程。",
+        "problemSolved": "解决视频剪辑门槛高、流程繁琐的问题。传统视频软件功能复杂学习成本高，AI 视频工具又往往是黑盒无法精细调整。OpenChatCut 让 AI 在真实时间线上协作，用户可随时手动微调。",
+        "tags": [
+          "AI视频编辑",
+          "开源",
+          "内容创作",
+          "智能剪辑",
+          "本地优先"
+        ],
+        "score": 7,
+        "scoreReason": "开源+本地优先+真实时间线的组合很有吸引力，能同时兼容 AI 自动化和人工精调。但目前处于早期阶段，功能完整性和稳定性有待验证。",
+        "competitors": [
+          {
+            "name": "ChatCut",
+            "url": "https://chatcut.com",
+            "comparison": "ChatCut 是闭源商业产品，OpenChatCut 作为开源替代提供类似功能且数据本地化"
+          },
+          {
+            "name": "Runway ML",
+            "url": "https://runwayml.com",
+            "comparison": "Runway 云端 AI 视频工具，OpenChatCut 本地优先更适合隐私敏感场景"
+          },
+          {
+            "name": "Descript",
+            "url": "https://www.descript.com",
+            "comparison": "Descript 功能更成熟的 AI 视频编辑器，但付费且无 MCP 智能体集成"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nextbest.one",
+      "name": "NextBest（护肤产品推荐）",
+      "slug": "nextbest",
+      "description": "基于 Reddit 护肤社区真实讨论的产品推荐聚合平台，无广告、无 KOL 推广，靠社区口碑说话。",
+      "url": "https://nextbest.one",
+      "homepage": "https://nextbest.one",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/nextbest.one_20260723_115949.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "护肤推荐",
+        "社区口碑",
+        "Reddit数据",
+        "购物助手",
+        "成分分析"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49013731",
+      "firstSeen": "2026-07-22T21:30:13Z",
+      "analysis": {
+        "targetAudience": "护肤新手与进阶爱好者、追求真实口碑和性价比的消费者",
+        "useCases": [
+          "按肤质/问题浏览社区推荐的护肤产品",
+          "查看某产品的 Reddit 讨论热度和口碑评价",
+          "用「常规审计」功能输入现有产品获得改进建议",
+          "发现特定成分（如神经酰胺）的热门产品",
+          "寻找替代品：热门产品的平价替代或功效类似产品"
+        ],
+        "designIntent": "解决护肤行业 KOL 推广和品牌广告泛滥的问题，提供一个纯粹基于社区真实反馈的产品发现平台。数据全部来自 Reddit 真实用户讨论，没有付费推广。",
+        "problemSolved": "解决消费者在做护肤购买决策时难以区分广告和真实口碑的问题。通过聚合 Reddit 上大量真实用户的讨论数据，用量化方式展示每款产品的社区认可度。",
+        "tags": [
+          "护肤推荐",
+          "社区口碑",
+          "Reddit数据",
+          "购物助手",
+          "成分分析"
+        ],
+        "score": 7,
+        "scoreReason": "独特的数据源和价值定位，解决真实痛点。但数据完全依赖 Reddit 社区，覆盖范围有限，且商业模式不够清晰。",
+        "competitors": [
+          {
+            "name": "SkinCarisma",
+            "url": "https://skincarisma.com",
+            "comparison": "SkinCarisma 侧重成分分析，NextBest 侧重社区口碑和讨论热度"
+          },
+          {
+            "name": "INCIDecoder",
+            "url": "https://incidecoder.com",
+            "comparison": "INCIDecoder 是成分数据库，NextBest 是社区驱动的产品发现平台"
+          },
+          {
+            "name": "CosDNA",
+            "url": "https://cosdna.com",
+            "comparison": "CosDNA 偏向成分安全性分析，NextBest 更关注用户体验和口碑"
+          }
+        ]
+      }
+    },
+    {
+      "id": "skim-tech.com",
+      "name": "Skim（AI 邮件客户端）",
+      "slug": "skim",
+      "description": "轻量级开源 AI 邮件客户端，基于 Rust 构建，仅 5MB 安装包。支持离线优先、即时搜索，可选 AI 辅助（自带 API Key）。",
+      "url": "https://skim-tech.com",
+      "homepage": "https://skim-tech.com",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/skim-tech.com_20260723_115955.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "邮件客户端",
+        "开源",
+        "AI辅助",
+        "隐私优先",
+        "Rust"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "",
+      "firstSeen": "2026-07-23T03:58:59.932166+00:00",
+      "analysis": {
+        "targetAudience": "Windows 用户中的隐私意识强的专业人士、邮件量大的工作者、厌倦臃肿邮件客户端的用户",
+        "useCases": [
+          "快速搜索整个邮箱，结果即时显示（FTS5 全文搜索）",
+          "AI 辅助撰写邮件草稿，语气风格可学习用户历史邮件",
+          "一键摘要未读邮件，智能分类优先级",
+          "离线查看和管理历史邮件",
+          "通过命令面板（Ctrl+K）实现键盘流操作"
+        ],
+        "designIntent": "Windows 上缺少轻量级、尊重隐私的邮件客户端。作者想做一个不做臃肿功能、不收集数据、运行快速的邮件客户端，AI 作为可选附加功能。",
+        "problemSolved": "解决 Windows 上邮件客户端要么过于臃肿（Outlook）、要么功能太少的选择困境。Skim 在轻量级和智能之间取得平衡，且用自带 API Key 的方式避免 AI 订阅收费。",
+        "tags": [
+          "邮件客户端",
+          "开源",
+          "AI辅助",
+          "隐私优先",
+          "Rust"
+        ],
+        "score": 7,
+        "scoreReason": "Rust + Tauri 2 技术栈性能优秀，5MB 安装包很惊艳。BYOK 模式让 AI 功能灵活无锁定。但仅支持 Windows 限制了覆盖面，且缺乏日历和联系人管理。",
+        "competitors": [
+          {
+            "name": "Microsoft Outlook",
+            "url": "https://outlook.com",
+            "comparison": "Outlook 功能全面但臃肿，Skim 追求极简快速且注重隐私"
+          },
+          {
+            "name": "Thunderbird",
+            "url": "https://www.thunderbird.net",
+            "comparison": "Thunderbird 功能更丰富但缺乏 AI 能力，Skim 内置 AI 辅助"
+          },
+          {
+            "name": "Spark Mail",
+            "url": "https://sparkmailapp.com",
+            "comparison": "Spark 有 AI 功能但属于订阅制云端服务，Skim 是开源本地优先"
+          }
+        ]
+      }
+    }
+  ]
+}
