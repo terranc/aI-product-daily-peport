@@ -1,0 +1,320 @@
+#!/usr/bin/env python3
+"""
+日报处理脚本：精选写入、截图、更��数据库、���建网站
+"""
+import json
+import os
+import sys
+import time
+from datetime import datetime, timezone, timedelta
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from screenshot import process_product_screenshots
+
+NOW = datetime.now(timezone.utc)
+DATE_STR = NOW.strftime("%Y-%m-%d")
+REPORT_FILE = f"/Volumes/EXTEND/aI-product-daily-peport/reports/daily/{DATE_STR}.json"
+DB_FILE = "/Volumes/EXTEND/aI-product-daily-peport/data/products.json"
+
+# ═══════════════════════════════════════════════
+# 精选 TOP 5 产品（经过 LLM 分���筛选）
+# ═══════════════════════════════════════════════
+
+SELECTED = [
+    {
+        # 来自 raw-candidates: Wisprkey (product_id: producthunt.com/r/p/1203598)
+        # 实际产品名称为 Wispr Flow
+        "id": "producthunt.com/r/p/1203598",
+        "name": "Wispr Flow",
+        "name_zh": "Wispr Flow - AI语音输入",
+        "slug": "wispr-flow",
+        "description_zh": "Wispr Flow是一��AI语音转文字工具���支持在Mac、Windows、iOS和Android上使用。只需按住快捷键说话，就能在任何应用中生成完美格式的文本。它支持100+种语言，能自动调整语气和格式——在Slack中显得随意，在邮件中显得正式。拥有Basic、Smart和Command三种模式，分别适用于原始转写、去除冗余词汇和语音指令生成完整文稿。",
+        "url": "https://wisprflow.ai",
+        "homepage": "https://wisprflow.ai",
+        "type": "app",
+        "tags": ["语音输入", "AI写作", "效率��具", "跨平台"],
+        "sourceChannels": ["producthunt"],
+        "sourceUrl": "https://www.producthunt.com/r/p/1203598",
+        "firstSeen": NOW.isoformat(),
+        "analysis": {
+            "targetAudience": "需要高效文字输入的知识工作者、程序员、内容创作者和管理者",
+            "useCases": [
+                "在Slack/邮件/文档中快速输入文字",
+                "编程时用语音编写注释和文档",
+                "会议时快速记录想法和行动项",
+                "多语言环境下混合语音输入",
+                "在移动设备上替代键盘快速打字"
+            ],
+            "designIntent": "Wispr Flow的创始团队来自Apple和Meta，他们的愿景是让语音成为继键盘之后的默认输入层。产品设计围绕\"用自然语音获得完美文字\"展开，通过AI实时去除填充词、调整语气和匹配上下文格式，让用户无需编辑即可直接发送。",
+            "problemSolved": "传统语音输入要么准确率低，要么生成的文字需要大量后期编辑。Wispr Flow通过AI后处理解决了这个问题——你说的可能支离破碎，但输出的文字是干净、结构化、符合语境的，大幅提升了语音输入的实用性和采用率。",
+            "score": 8,
+            "scoreReason": "产品完成了从\"语音识别工具\"到\"语音输入���\"的范式转换，在40+个产品中增长迅速。跨平台覆盖完整，技术壁垒较高。目前仍处于增长期，尚未形成绝对的网络效应。",
+            "competitors": [
+                {"name": "WhisperKey", "url": "https://whisperkey.org", "comparison": "WhisperKey是开源本地方案，注重隐私但功能较为基础，无AI后处理能力"},
+                {"name": "Aqua Voice", "url": "https://aqua.voice", "comparison": "Aqua Voice同样聚焦语音输入，但平台覆盖和语言支持不如Wispr Flow全面"},
+                {"name": "macOS听写", "url": "https://support.apple.com", "comparison": "Apple原生听写功能免费但准确率和功能丰富度有限��只支持macOS"}
+            ]
+        }
+    },
+    {
+        "id": "producthunt.com/r/p/1203012",
+        "name": "canitbebuilt",
+        "name_zh": "canitbebuilt - AI硬件可行性评估",
+        "slug": "canitbebuilt",
+        "description_zh": "canitbebuilt是一个AI驱动的硬件产品可行性评估工具。只需一句话描述你的硬件创意���两分钟内即可获得：可行性结论（可建造/需修改/难度大/不可行）、三���量级（100/1000/10000���）的物料成本估算、子系统风险评级、目标市场认证门槛和3D概念模型。基于GPT-5.6 Terra，无需注册即可使用。",
+        "url": "https://canitbebuilt.com",
+        "homepage": "https://canitbebuilt.com",
+        "type": "website",
+        "tags": ["硬件评估", "产品设计", "AI工具", "创业工具"],
+        "sourceChannels": ["producthunt"],
+        "sourceUrl": "https://www.producthunt.com/r/p/1203012",
+        "firstSeen": NOW.isoformat(),
+        "analysis": {
+            "targetAudience": "硬件创业者、产品经理、电���卖家和独立创客",
+            "useCases": [
+                "验证硬件产品创意的可行性",
+                "评估产品量产成本和材料清单",
+                "了解目标市场的认证要求",
+                "在投入研发前评估技术风险",
+                "快速生成概念3D模型用于展示"
+            ],
+            "designIntent": "创始人Joginder Tanikella拥有23年硬件商业化经验，他发现大多数硬件创业者都会问同一个问题\"这个能造出来吗\"，而答案几乎总是\"能\"，但真���的成本、风险和认证障碍往往���忽视。他把自己多年积累的硬件评估经验编码��AI评估标准，让创业者能在两分钟内获得原本需要咨询专家数天的评估结果。",
+            "problemSolved": "硬件产品从创意到量产之���存在巨大的信息和认知鸿沟，传��上需要支付高昂费用咨询硬件工程师或设计公司。canitbebuilt将这一过程零成本化、即时化，帮助创业者在���入研发和模具费用前做出更明智的决策。",
+            "score": 8,
+            "scoreReason": "填补了市场空白——\"AI硬件可行性评估\"这个品类此前几乎不存在。创始人23年的行业经验转化为评估标准，准确度具有实际参考价值��限制在于BOM成本估算目前基于历史数据而非���时供应商报价，3D模型也��法导出。",
+            "competitors": [
+                {"name": "JLCPCB（嘉立创）", "url": "https://www.jlcpcb.com", "comparison": "JLCPCB侧重PCB制造和打样，无法提供完整的可行性评估和成本预测"},
+                {"name": "EnCata可行性研究", "url": "https://encata.net", "comparison": "EnCata提��专业的人工硬件可行性研究，但费用高、周期长，面向企业客户"}
+            ]
+        }
+    },
+    {
+        "id": "producthunt.com/r/p/1200227",
+        "name": "Prosed",
+        "name_zh": "Prosed - AI出书服务",
+        "slug": "prosed",
+        "description_zh": "Prosed是一项AI驱动的出书服务，能将你已有的内容（新闻通讯、博���、播客、视频、笔记等）自动整理成可出版的非虚构书稿。它通过独创的\"Inkwell\"流水线分析你的写作风格，将零散内容结构化重组为完��章节，并内置\"Typo\"编辑审校功能。最终导出为印刷就绪的PDF、ePub或DOCX格式，可直接上传至Amazon KDP等平台出版。Beta版仅47美元/本。",
+        "url": "https://tryprosed.com",
+        "homepage": "https://tryprosed.com",
+        "type": "saas",
+        "tags": ["AI写作", "出书", "内���创作", "出版工具"],
+        "sourceChannels": ["producthunt"],
+        "sourceUrl": "https://www.producthunt.com/r/p/1200227",
+        "firstSeen": NOW.isoformat(),
+        "analysis": {
+            "targetAudience": "已有大量内容积累的创作者、���客主、新闻通���写作者和课程开发者",
+            "useCases": [
+                "将多年博客文章整理成完整书稿",
+                "把播客和视频内容转录并结构化为书籍",
+                "基于行业洞察和内部通讯编写思想领导力书籍",
+                "快速将在线课程讲义整理成教材",
+                "为创业项目撰写白皮书或品牌书籍"
+            ],
+            "designIntent": "Prosed的创始人发现许多内容创作者多年来积累了海量优质内容——新闻通讯、播客、社交媒体帖子——但缺乏时间和系统化方法将其整合成书。Prosed的目标���是让AI从零开始写书（那会产生千篇一律的内容），而是作为一个\"内容组装线\"，保留作者的原汁原味，将散落的内容��畅销书结构重组。",
+            "problemSolved": "写一本书通常需要数月甚至数年时间，而大部分创作者实际上已经拥有足够的内容素材。Prosed将出书时间从数月缩��到数天，同时保持作者的个人风格和声音，解决了\"有内容但没时间整理\"的痛点。",
+            "score": 8,
+            "scoreReason": "解决了真实且明确的痛点——内容创作者\"有货但没时间出书\"。定价合理（47美元），商业模式清晰。产品创意新颖，差异化明显。不足在于Beta阶段仅限前100名用户，且目前仅支持非虚构类书籍。",
+            "competitors": [
+                {"name": "ChatGPT/Claude", "url": "https://chat.openai.com", "comparison": "通用AI聊天工具可以辅助写书，但缺乏结构化的内容组���流水线和出版级格式化"},
+                {"name": "Amazon KDP", "url": "https://kdp.amazon.com", "comparison": "KDP是出版分销平台而非��作工具，无法帮助作者整理已有内容为书稿"}
+            ]
+        }
+    },
+    {
+        "id": "producthunt.com/r/p/1204219",
+        "name": "Liso",
+        "name_zh": "Liso - 高亮转音频",
+        "slug": "liso",
+        "description_zh": "Liso是一个Chrome浏览器扩展和移动应用，让你在任何网页上高亮文字后一键转换为语音。安装扩展后，选中任意文本右键点击\"用Liso收听\"，即可生成自然语音并保存在你的音频库中。支持跨设备同步、离线播放和语速调节，完美适用于文章、新闻通���、Twitter长推文和博客。",
+        "url": "https://getliso.app",
+        "homepage": "https://getliso.app",
+        "type": "app",
+        "tags": ["文字转语音", "阅读辅助", "效���工具", "浏览器扩展"],
+        "sourceChannels": ["producthunt"],
+        "sourceUrl": "https://www.producthunt.com/r/p/1204219",
+        "firstSeen": NOW.isoformat(),
+        "analysis": {
+            "targetAudience": "需要减少屏幕阅读时间的知识工作者、通勤族、多任务处理者和视觉疲劳用户",
+            "useCases": [
+                "通勤时\"阅读\"新闻文章和行业报告",
+                "将长篇研究资料转为语音在运动时收听",
+                "保存社交媒体上的优质长文稍后收听",
+                "减少长时间屏幕阅读导致的眼睛疲劳",
+                "整理和管理阅读素材的语音收藏库"
+            ],
+            "designIntent": "Liso的核心理念是\"把你阅读的内容变成可以听的东西\"。与传统的TTS工具不同，Liso不是让你决定\"听什么\"，而是让你在浏��网页时自然地选中感兴趣的内容，一键转为语音。产品设计强调极低的操作摩擦——从高亮到收听只需两次点击。",
+            "problemSolved": "现代知识工作者每天需要消费大量文字内容，但长时间屏幕阅读导致眼疲劳、效���下降。Liso让用户在无法阅读的场景（通勤、运��、做家务）下也能消费内容，将碎片时间转化为有效学习时间。",
+            "score": 7,
+            "scoreReason": "使用场景清晰、操作极简，能解决阅读疲劳的真实痛点。但功能容易被浏览器自带TTS或Read Aloud等已有工具替代��需要更强的AI语音质量和差异化功能才能建立护城河。目前市面上类似产品较多，竞争较为激烈。",
+            "competitors": [
+                {"name": "Read Aloud", "url": "https://readaloud.app", "comparison": "Read Aloud也是浏览器TTS扩展，功能类���但Liso的收藏库和跨设备同步体验更完整"},
+                {"name": "Speechify", "url": "https://speechify.com", "comparison": "Speechify是成熟的TTS产品，功能丰富但订阅费用较高，更适合重度阅读用户"}
+            ]
+        }
+    },
+    {
+        "id": "producthunt.com/r/p/1203475",
+        "name": "Trend Seeker",
+        "name_zh": "Trend Seeker - AI市场研究",
+        "slug": "trend-seeker",
+        "description_zh": "Trend Seeker是一个AI驱动的市场情报平台，通过分析来自Reddit、招聘广告、播客、Google Trends和产品发布的14万+条信号，自动发现并验证商业创意。每��创意都附带问题陈述、来源信号、需求趋势、竞争分析、机会评分和时间演变。提供\"需求地图\"可视化、创意验证器和API接口。",
+        "url": "https://trend-seeker.app",
+        "homepage": "https://trend-seeker.app",
+        "type": "saas",
+        "tags": ["市场研究", "创业工具", "趋势分析", "���据驱动"],
+        "sourceChannels": ["producthunt"],
+        "sourceUrl": "https://www.producthunt.com/r/p/1203475",
+        "firstSeen": NOW.isoformat(),
+        "analysis": {
+            "targetAudience": "创业者、独立开发者、产品经理和想找到下一个商业机会的创客",
+            "useCases": [
+                "发现未被满足的用户需求作为创业方向",
+                "验证产品创意是否有真实的市场需求",
+                "通过需求地图��别蓝海市场空白",
+                "调研竞品生态和用户痛点分布",
+                "为产品路线图提供数据驱动的决策依据"
+            ],
+            "designIntent": "Trend Seeker的创始人Tonis Tiganik注意到每天有成千上万的人在Reddit上请求不存在的工具和服务，但这些需求信号分散在各个子版块和评论中，很快就被淹没。他构建了这个系统来持���抓取、分析和聚合这些需求信号，将其转化为结构化的商业创意。",
+            "problemSolved": "传统的市场研究要么依赖直觉猜测，要么需要投入大量时间手动调研。Trend Seeker通过AI自动聚合和分析14万+条真实需求信号���让创业者能在几分钟内找到有数据支撑的商业创意，大大降低了市场验证的时间和成本。",
+            "score": 7,
+            "scoreReason": "数据驱动的创意发现机制新颖实用，14万+信号源提供了不错的初始数据量。但信号源主要来自Reddit等英文社区，对中国市场和中文内容覆盖有限。机会评分和证据强度为决策提供了参考维度，但最终判断仍需创业者自行评估。",
+            "competitors": [
+                {"name": "Exploding Topics", "url": "https://explodingtopics.com", "comparison": "Exploding Topics追踪话题趋势热度，但Trend Seeker更侧重于具体的商业创意和用户需求信号"},
+                {"name": "SparkToro", "url": "https://sparktoro.com", "comparison": "SparkToro侧重受众分析和社交媒体洞��，而Trend Seeker专注于发现可商业化的产品创意"}
+            ]
+        }
+    }
+]
+
+
+def write_report():
+    """写入日报文件"""
+    report = {
+        "date": DATE_STR,
+        "generatedAt": NOW.isoformat(),
+        "productCount": len(SELECTED),
+        "products": []
+    }
+    for p in SELECTED:
+        report["products"].append({
+            "id": p["id"],
+            "name": p["name_zh"],
+            "slug": p["slug"],
+            "description": p["description_zh"],
+            "url": p["url"],
+            "homepage": p["homepage"],
+            "type": p["type"],
+            "appStoreName": None,
+            "appStoreUrl": None,
+            "screenshotUrl": None,
+            "appStoreScreenshots": [],
+            "tags": p["tags"],
+            "sourceChannels": p["sourceChannels"],
+            "sourceUrl": p["sourceUrl"],
+            "firstSeen": p["firstSeen"],
+            "analysis": p["analysis"]
+        })
+
+    os.makedirs(os.path.dirname(REPORT_FILE), exist_ok=True)
+    with open(REPORT_FILE, "w", encoding="utf-8") as f:
+        json.dump(report, f, ensure_ascii=False, indent=2)
+    print(f"✅ 报告已写入 {REPORT_FILE}")
+    return report
+
+
+def update_database():
+    """将新产品追加到数��库"""
+    with open(DB_FILE, "r", encoding="utf-8") as f:
+        db = json.load(f)
+
+    existing_ids = {p["id"] for p in db["products"]}
+    added = 0
+    cooldown_date = (NOW + timedelta(days=14)).isoformat()
+
+    for p in SELECTED:
+        pid = p["id"]
+        if pid in existing_ids:
+            print(f"  ⏭️ {p['name']} (id={pid}) 已存在，跳过")
+            continue
+
+        entry = {
+            "id": pid,
+            "name": p["name_zh"],
+            "slug": p["slug"],
+            "description": p["description_zh"],
+            "url": p["url"],
+            "homepage": p["homepage"],
+            "type": p["type"],
+            "appStoreName": None,
+            "appStoreUrl": None,
+            "platforms": [],
+            "categories": [],
+            "tags": p["tags"],
+            "firstSeen": p["firstSeen"],
+            "lastSeen": p["firstSeen"],
+            "cooldownExpiresAt": cooldown_date,
+            "sourceChannels": p["sourceChannels"],
+            "sourceUrl": p["sourceUrl"],
+            "metrics": {
+                "featuredInDaily": 1,
+                "featuredInWeekly": 0
+            },
+            "analysis": p["analysis"]
+        }
+        db["products"].append(entry)
+        added += 1
+        print(f"  ✅ 新���: {p['name_zh']}")
+
+    db["lastUpdated"] = NOW.isoformat()
+    db["version"] = db.get("version", 1)
+
+    with open(DB_FILE, "w", encoding="utf-8") as f:
+        json.dump(db, f, ensure_ascii=False, indent=2)
+    print(f"✅ 数据库已更新（新增 {added} ��产品，共 {len(db['products'])} 个）")
+
+
+def take_screenshots():
+    """对精选产品截图"""
+    print("\n📸 开始截图...")
+    for p in SELECTED:
+        slug = p["slug"]
+        url = p["url"]
+        print(f"\n  📷 {p['name']} ({url})...")
+        try:
+            result = process_product_screenshots({
+                "slug": slug,
+                "url": url,
+                "name": p["name"],
+                "homepage": url,
+            })
+            print(f"     screenshotUrl: {result.get('screenshotUrl')}")
+            if result.get('appStoreScreenshots'):
+                print(f"     appStore: {result.get('appStoreName')} ({len(result.get('appStoreScreenshots', []))} 张)")
+        except Exception as e:
+            print(f"     ❌ 截图失败: {e}")
+        time.sleep(3)
+
+
+def main():
+    print(f"📋 AI 产品雷达日报 - {DATE_STR}")
+    print("=" * 60)
+
+    # 写报告
+    report = write_report()
+
+    # 截图
+    take_screenshots()
+
+    # 更新数据库
+    update_database()
+
+    print(f"\n{'='*60}")
+    print(f"✅ ���报流水线完成！")
+    print(f"   精选 {len(SELECTED)} 个产品")
+    for p in SELECTED:
+        print(f"   - {p['name_zh']} (评分: {p['analysis']['score']}/10)")
+    print(f"   报告: {REPORT_FILE}")
+
+
+if __name__ == "__main__":
+    main()
