@@ -1,0 +1,294 @@
+{
+  "date": "2026-07-27",
+  "generatedAt": "2026-07-27T03:58:54.612857+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "producthunt.com/r/p/1206492",
+      "name": "PureBox",
+      "slug": "purebox",
+      "description": "PureBox 是一款 AI 驱动的 Gmail 清理工具，采用「审核优先」（review-first）的���计理念。它会自动扫描收件箱，将邮件按重要性分类为「关注」「归档」「��除」三个轨道，并给出每封邮件的分类理由，由用户一键批量确认后再执行操作，杜绝误删重要邮件的风险。",
+      "url": "https://purebox.ai",
+      "homepage": "https://purebox.ai",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1206492_20260727_115901.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "邮件管理",
+        "AI效率工具",
+        "收件箱清零",
+        "Gmail助手"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1206492",
+      "firstSeen": "2026-07-27T03:58:54.612857+00:00",
+      "analysis": {
+        "targetAudience": "每天收到大量邮件的职场人士、自由职业者和小团队管理者",
+        "useCases": [
+          "每日批量清理订阅邮件和促销通知",
+          "快速识别账单、截止日期等重要邮件",
+          "一键归档收据、确认函等需保留但不紧急的邮件",
+          "初次使用时对数千封历史邮件做全量清理"
+        ],
+        "designIntent": "针对传统邮件管理工具要么全自动（有误删风险）要么全手动（效率低）的两难困境，PureBox 采用「AI 分类 + 人工审核」的中间路线，让用户在掌控感和效率之间取得平衡。",
+        "problemSolved": "解决 Gmail 用户收件箱爆满的痛点，将分散在数千封邮件中的决策负担集中为几个批量操作，每周可节省数小���的邮件整理时间，同���完全消除误删重要邮件的焦虑。",
+        "tags": [
+          "邮件管理",
+          "AI效率工具",
+          "收件箱清零",
+          "Gmail助手"
+        ],
+        "score": 8,
+        "scoreReason": "产���定位精准，review-first 的设计既能保证安全又能提升效率，定价合理（免费版可用），但仅支持 Gmail 限制了受众面。",
+        "competitors": [
+          {
+            "name": "CleanBox",
+            "url": "https://cleanbox.ai",
+            "comparison": "CleanBox 提供更多的 AI 功能（如邮件摘要和回复建议），但 PureBox 的审核优先设计更适合对误删敏感的用户"
+          },
+          {
+            "name": "Sanebox",
+            "url": "https://www.sanebox.com",
+            "comparison": "Sanebox 是更成熟的邮件管理工具，但 PureBox 的现代化 UI 和直观的三轨分类更适合新用户"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1205894",
+      "name": "BrainFeed",
+      "slug": "brainfeed",
+      "description": "BrainFeed 是一款基于滑动交互的移动学习应用。用户设定学习目标后，AI 从已验证的新闻通讯、博客和研究资料中精选内容，生成可滑动的知识卡片。内置间隔重复���法确保学过的内容不会忘记，双击卡片即可收藏到「星空」进行定期复习。",
+      "url": "https://apps.apple.com/cn/app/brainfeed-scroll-better/id6767833159",
+      "homepage": "https://brainfeed.io",
+      "type": "app",
+      "appStoreName": "BrainFeed - Scroll Better",
+      "appStoreUrl": "https://apps.apple.com/us/app/brainfeed-scroll-better/id6767833159?uo=4",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1205894_20260727_115907.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "学习工具",
+        "间隔重复",
+        "知识管理",
+        "移动学习",
+        "个性���推荐"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1205894",
+      "firstSeen": "2026-07-27T03:58:54.612857+00:00",
+      "analysis": {
+        "targetAudience": "想在碎片时间里系统学习某个领域知识的学生、职场人和终身学习者",
+        "useCases": [
+          "通勤/排队时用滑动卡片学习感兴趣的话题",
+          "将长文章和 YouTube 视频转化为可消化的知识��片",
+          "通过间隔重复系统巩固记忆重要知识点",
+          "设定学习目标后系统自动推荐相关内容"
+        ],
+        "designIntent": "将人们每天花在社交媒体上刷屏的 90 小时转变为有意义的学习时间，用和刷抖音一样的交互手势来消费真正有价值的知识内容，从根本上解决「刷完就忘」的问��。",
+        "problemSolved": "解决碎片时间被社交媒体浪费、学过的内容容易忘记两大痛点，通过 AI 精选内容和间隔重复���制，让用户���零碎时间里也能系统性地构建知识体系。",
+        "tags": [
+          "学习工具",
+          "间隔重复",
+          "知识管理",
+          "移动学习"
+        ],
+        "score": 8,
+        "scoreReason": "概念新颖，将刷屏习惯转化为学习行为的设计巧妙，间隔重复机制扎实，但作为新产品内容库还在建���中，部分领域可能内容不足。",
+        "competitors": [
+          {
+            "name": "Blinkist",
+            "url": "https://www.blinkist.com",
+            "comparison": "Blinkist 聚焦书籍摘要，内容更结构化但更局限；BrainFeed 的内容来源更广（博客/视频/文章），格式更灵活"
+          },
+          {
+            "name": "Pocket",
+            "url": "https://getpocket.com",
+            "comparison": "Pocket 是收藏后阅读的工具，���少复习机制；BrainFeed 的核心是间隔重复和主动学习"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1206148",
+      "name": "Yoggi",
+      "slug": "yoggi",
+      "description": "Yoggi 是一款专为 3-15 岁儿童设计的 AI 聊天应用，支持文字和语音对��。它会根据孩子的年龄自动调���回答的用词和复杂度，内置严格的内容过滤和家长监控面板。支持 12 种语言，还能生成插画和进行实时语音通话。",
+      "url": "https://apps.apple.com/cn/app/yoggi-%E5%84%BF%E7%AB%A5ai%E5%AE%89%E5%85%A8%E8%81%8A%E5%A4%A9/id6785544354",
+      "homepage": "https://yoggi.app",
+      "type": "app",
+      "appStoreName": "Yoggi - AI for Kids, Safe Chat",
+      "appStoreUrl": "https://apps.apple.com/us/app/yoggi-ai-for-kids-safe-chat/id6785544354?uo=4",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1206148_20260727_115914.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "儿童AI",
+        "教育",
+        "安全聊天",
+        "语音交互",
+        "家长���制"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1206148",
+      "firstSeen": "2026-07-27T03:58:54.612857+00:00",
+      "analysis": {
+        "targetAudience": "希望让孩子安全接触 AI 技术的家长，以及 3-15 岁的儿童",
+        "useCases": [
+          "孩子用语音或文字向 AI 提问科学、历史等知识",
+          "睡前让 Yoggi 讲故事或陪聊天",
+          "家长通过监控面板了解孩子的对话内容和情绪状态",
+          "孩子通过 AI 插画功能激发创造力"
+        ],
+        "designIntent": "随着 AI 普及，儿童不可避免地��接触 AI 工具，但市面上的通用 AI 缺乏儿童安全保护。Yoggi 旨在成为儿童安全接触 AI 的第一道门槛，让家长放心、让孩子受益。",
+        "problemSolved": "解决家长担心孩子使用 AI 时接触到不当内容的问题，通过年龄适配回答、内容过滤、对话监控和家长控制等机制，为孩子提供一个安全又有教育价值的 AI 互动环境。",
+        "tags": [
+          "儿童AI",
+          "教育",
+          "安全聊天",
+          "语音交互"
+        ],
+        "score": 7,
+        "scoreReason": "市场需求明确（家长普遍担心 AI 安全），产品功能完善（语音、绘画、监控面面俱到），免费可用，但在儿童 AI 领域的竞争正在加剧。",
+        "competitors": [
+          {
+            "name": "ChatGPT (儿童模式)",
+            "url": "https://chatgpt.com",
+            "comparison": "ChatGPT 有基础的安全设置，但并非专门为儿童设计；Yoggi 的年龄自适应和家长监控功能更专业"
+          },
+          {
+            "name": "Google Gemini (家庭版)",
+            "url": "https://gemini.google.com",
+            "comparison": "Gemini 的安全过滤不如 Yoggi 严格，且缺乏针对不同年龄段的内容适配"
+          }
+        ]
+      }
+    },
+    {
+      "id": "v2ex.com/t/1229974",
+      "name": "TubeTutor",
+      "slug": "tubetutor",
+      "description": "TubeTutor 是一款 YouTube 视频 AI 分析总结工具，特色是结合字幕和画面进行视觉分析。它能从教程类视频中提取出现的工具、网页、代码和操作步骤，生成结构化笔记、思维导图和可交互的时间轴，支持多语言翻译，特别适合学习软件教程和学术讲座。",
+      "url": "https://www.tubetutor.top",
+      "homepage": "https://www.tubetutor.top",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/v2ex.com_t_1229974_20260727_115921.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "视频总结",
+        "AI��习工具",
+        "YouTube助手",
+        "教育科技"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "sourceUrl": "https://www.v2ex.com/t/1229974",
+      "firstSeen": "2026-07-27T03:58:54.612857+00:00",
+      "analysis": {
+        "targetAudience": "经常看 YouTube 教程的学习者、视频后期从业者、需要将视频内容转化为结构化笔记的学生和老师",
+        "useCases": [
+          "将英文技术教程翻译并总结为中文笔记",
+          "从屏幕录制视频中提取具体操作步骤和命令",
+          "生成视频内容的思维导图和时间轴索引",
+          "将长讲座转化为带时间戳的结构化学习材料"
+        ],
+        "designIntent": "作者做了十多年视频后期，发现现有 YouTube 总结工具只依赖字幕，无法处理以操作为主的教程类视频（如 C4D/Houdini 教学），于是结合视觉 AI 分析画面内容，填补了这个空白。",
+        "problemSolved": "解决「看教程看不懂外语 + 纯字幕总结遗漏画面操作」的双重痛点，通过视觉+文字的双通道 AI 分析，���学习效率翻倍。",
+        "tags": [
+          "视频总结",
+          "AI学习工具",
+          "YouTube助手",
+          "教育科技"
+        ],
+        "score": 8,
+        "scoreReason": "视觉分析是差异化亮点，解决了真实痛点，作者背景与产品定位契合度高，但作为个人项目在规模和稳定性上还有提升空间���",
+        "competitors": [
+          {
+            "name": "NoteGPT",
+            "url": "https://notegpt.io",
+            "comparison": "NoteGPT 也做 YouTube 总结但主要依赖字幕；TubeTutor 的视觉分析能捕捉画面中的操作细节，对教程类视频更有效"
+          },
+          {
+            "name": "SummarizeYT",
+            "url": "https://summarizeyt.com",
+            "comparison": "SummarizeYT 仅提供文字摘要，缺乏 TubeTutor 的思维导图和交互式学习功能"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ggtranslator.com",
+      "name": "GG Translator",
+      "slug": "gg-translator",
+      "description": "GG Translator 是一款游戏语音翻译工具，可以将玩家冲口而出的暴躁话语实时转化为友善建设性的表达。按住快捷键说话，松开后 AI 会自动翻译并将结果以语音或文字形式发送到游戏聊天中。支持 Windows 和 Mac，提供多种语音选择。",
+      "url": "https://ggtranslator.com",
+      "homepage": "https://ggtranslator.com",
+      "type": "app",
+      "appStoreName": "GG-Translator",
+      "appStoreUrl": "https://apps.apple.com/us/app/gg-translator/id6739273852?uo=4",
+      "screenshotUrl": "assets/screenshots/ggtranslator.com_20260727_115928.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "游戏工具",
+        "语音翻译",
+        "社交润滑",
+        "AI助手"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49063031",
+      "firstSeen": "2026-07-27T03:58:54.612857+00:00",
+      "analysis": {
+        "targetAudience": "多人竞技游戏玩家（Dota 2、Overwatch、LoL、CS2 等），希望在游戏中保持友善氛围的团队玩家",
+        "useCases": [
+          "游戏中瞬间将暴躁吐槽转为建设性建议",
+          "跨语言团队沟通时让表达更清晰友好",
+          "作为语音助手一键发出专业级的战术指令",
+          "避免因言论不当被游戏平台处罚"
+        ],
+        "designIntent": "开发者观察到游戏中的负面沟通是破坏团队合作的主要原因，而大多数玩家并非有意 toxic，只是情绪上头的本能反应。GG Translator 在情绪和表达之间加了一层「缓冲」，让玩家既能发泄又不伤害队友。",
+        "problemSolved": "解决游戏中因情绪化表达导致的团队冲突和沟通效率低下问题，用 AI 将 toxic 言论实时「翻译」为友善版本，既保留沟通意图又维护团队氛围。",
+        "tags": [
+          "游戏工具",
+          "语音翻译",
+          "社交润滑",
+          "AI助手"
+        ],
+        "score": 7,
+        "scoreReason": "创意有趣且直接解决痛点，定价合理（$5 终身），但需自备 OpenAI API 密钥增加了使用门槛，且仅覆盖部分主流游戏。",
+        "competitors": [
+          {
+            "name": "内置游戏语音系统",
+            "url": "",
+            "comparison": "游戏自带语音缺乏翻译和优化功能，GG Translator 的 AI 改写是独特的增值点"
+          },
+          {
+            "name": "DeepL / Google Translate",
+            "url": "https://translate.google.com",
+            "comparison": "普通翻译工具逐字翻译无法理解游戏语境，GG Translator 能识别游戏场景并做合语境的改写"
+          }
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "totalCandidates": 169,
+    "dedupedCount": 165,
+    "selectedCount": 5,
+    "sources": {
+      "producthunt": 3,
+      "v2ex": 1,
+      "hackernews": 1
+    }
+  }
+}
