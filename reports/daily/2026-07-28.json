@@ -1,0 +1,328 @@
+{
+  "date": "2026-07-28",
+  "generatedAt": "2026-07-28T04:00:18.230103+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "x.com/opensoftwareco/status/2071956798861353099",
+      "product_id": "x.com/opensoftwareco/status/2071956798861353099",
+      "name": "June",
+      "nameZh": "June - 私人 AI 工作空间",
+      "slug": "june-private-ai-mac",
+      "description": "June 是一款面向 Mac 的私人 AI 工作空间，将 AI 助手、语音听写、自动会议记录和本地 Agent 整合在一个应用中。���采用本地优先架构，所有数据默认存储在用户 Mac 上，使用开源 Hermes 框架运行本地 Agent，并通过可验证的机密计算后端���理远程模型调用，兼顾了功能丰富性与隐私保护。",
+      "url": "https://opensoftware.co/june",
+      "homepage": "https://opensoftware.co/june",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/x.com_opensoftwareco_status_2071956798861353099_20260728_120033.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI助手",
+        "隐私保护",
+        "语音听写",
+        "会议记录",
+        "Mac应用"
+      ],
+      "sourceChannels": [
+        "twitter"
+      ],
+      "sourceUrl": "https://x.com/OpenSoftwareCo/status/2071956798861353099",
+      "firstSeen": "2026-07-28T04:00:18.230103+00:00",
+      "analysis": {
+        "targetAudience": "注重隐私的 Mac 用户、知识工作者和需要 AI 辅助提高日常办公效率的人群",
+        "useCases": [
+          "通过语音快速撰写邮件和文档",
+          "自动记录和总结工作会议",
+          "通过本地 Agent 执行跨应用自动化任务",
+          "隐私安全地使用 AI 进行日常研究和创作",
+          "连接个人知识库进行信息检索和管理"
+        ],
+        "designIntent": "June 试图解决桌面 AI 助手的核心矛盾：最有用的 AI 助手需要访问文件、录音、日历和长期记忆，但这些权限也让它们成为异常侵入性的云应���。June 的本地优先架构让用户获得 AI 生产力的同时，保持对数据的完全控制。",
+        "problemSolved": "现有 AI 工具要么需要将所有数据上传到云端（隐私风险），要么功能受限（纯本地模型能力不足）。June 通过本地存储+可验证机密计算后端的混合架构，在隐私和功能之间找到了平衡点。",
+        "tags": [
+          "AI助手",
+          "隐私优先",
+          "Mac应用",
+          "语音听写",
+          "本地智能"
+        ],
+        "score": 8,
+        "scoreReason": "隐私架构设计创新，开源透明，功能覆盖面广（聊天+听写+会议+Agent）。但产品仍处于早期阶段，部分功能体验尚需打磨，且依赖第三方 Venice API 进行模型推理。",
+        "competitors": [
+          {
+            "name": "OpenClaw",
+            "url": "https://openclaw.ai",
+            "comparison": "同样主打本地优先个人 AI 助手，June 更侧重日常办公场景（听写、会议），而 OpenClaw 更��调基础设施层的可控性"
+          },
+          {
+            "name": "Raycast AI",
+            "url": "https://raycast.com",
+            "comparison": "Raycast 是 Mac 效率工具，AI 功能作为增值服务；June 是原生 AI 工作空间，功能更深但生态整合不如 Raycast 广泛"
+          },
+          {
+            "name": "Notion AI",
+            "url": "https://notion.ai",
+            "comparison": "Notion AI 深度绑定笔记和协作场景，June 更侧重个人桌面自动化和语音交互"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1202816",
+      "product_id": "producthunt.com/r/p/1202816",
+      "name": "Illume Labs",
+      "nameZh": "Illume Labs - 24/7 AI 健康伴侣",
+      "slug": "illume-labs-health-companion",
+      "description": "Illume 是一款 24/7 全天候 AI 健康伴侣，通过短信/文本交互连接你的可穿戴设备、营养数据、运���记录和化验结果。它整合分散的健康数据源，提供个性化的可操作洞察，支持 Wearable 同步、食物拍照记录、运动追踪和血检分析，让用户对自己的健康状况有更完整的理解。YC S26 孵化项目。",
+      "url": "https://www.illumelabs.ai",
+      "homepage": "https://www.illumelabs.ai",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1202816_20260728_120039.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI健康",
+        "智能穿戴",
+        "健康管理",
+        "个性化洞察",
+        "YC"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1202816",
+      "firstSeen": "2026-07-28T04:00:18.230103+00:00",
+      "analysis": {
+        "targetAudience": "关注健康管理的主动型用户、健身爱好者、生物黑客（biohacker）和需要持续监测健康状况的人群",
+        "useCases": [
+          "整合所有可穿戴设备和健康应用的数据到一个平台",
+          "拍照记录饮食并获取营养分析和建议",
+          "上传血检报告获取个性化解读和建议",
+          "询问为什么今天特别累并得到跨数据维度的综合分析",
+          "追踪训练恢复状态，判断是否适合��强度运动"
+        ],
+        "designIntent": "健康数据越来越丰富但却散落在不同��备和应用中。Illume 的创始团队观察到人们越来越频繁地使用 ChatGPT 问健康问题，但缺乏个性化上下文导致答案泛泛而谈。Illume 要将个人健康数据聚合成一个持续学习用户健康状况的 AI 模型，提供真正个性化的健康洞见。",
+        "problemSolved": "现有健康应用的数据孤岛问题严重，智能手表、饮食记录、血检结果互不相通。Illume 将所有数据源融合到一个 AI 模型中，实现跨维度的趋势分析和个性化建议，让用户不再需要手动拼凑自己的健康全貌。",
+        "tags": [
+          "AI健康",
+          "可穿戴",
+          "个性化��疗",
+          "健康追��",
+          "YC"
+        ],
+        "score": 9,
+        "scoreReason": "团队背景扎实（MIT ��业生+Broad Institute/ Windsurf 经验），YC S26 孵化，解决了真实痛点（健康数据碎片化）。产品理念清晰，AI+健康组合市场空间巨大。目前处于内测阶段，需验证数据整合和模型分析的准确性。",
+        "competitors": [
+          {
+            "name": "Apple Health",
+            "url": "https://apple.com/health",
+            "comparison": "Apple Health 是数据聚合平台，不做主动分析和个性化建议；Illume 的 AI 驱动跨维度分析是���核心差异化"
+          },
+          {
+            "name": "Whoop",
+            "url": "https://whoop.com",
+            "comparison": "Whoop 专注于运动恢复和睡眠分析，Illume 覆盖更广泛的健康数据（血检、饮食、遗传等），且通过文本交互���低使用门槛"
+          },
+          {
+            "name": "Levels",
+            "url": "https://levels.com",
+            "comparison": "Levels 主要聚焦血糖监测，Illume 的目标是整合所有健康数据源成为一站式健康分析平台"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1205823",
+      "product_id": "producthunt.com/r/p/1205823",
+      "name": "TouchGrass",
+      "nameZh": "TouchGrass - 智能休息提醒",
+      "slug": "touchgrass-break-reminder",
+      "description": "TouchGrass 是一款上下文感知的 Mac 休息提醒工具，与传统固定间隔提醒不同，它通过机器学习理解用户当前的活动状态：自动检测会议进行中（通过摄像头/麦克风占用判断）、��屏观影时暂停提醒、识别深度工作应用，并将真实离开电脑的时间计为休息。无��� Accessibility 权限，所有检测在本地完成，保护用户隐私。",
+      "url": "https://touchgrass.now",
+      "homepage": "https://touchgrass.now",
+      "type": "app",
+      "appStoreName": "touch grass: screen time limit",
+      "appStoreUrl": "https://apps.apple.com/us/app/touch-grass-screen-time-limit/id6739589530?uo=4",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1205823_20260728_120046.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "休息提醒",
+        "健康",
+        "Mac应用",
+        "隐私保护",
+        "工作效率"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1205823",
+      "firstSeen": "2026-07-28T04:00:18.230103+00:00",
+      "analysis": {
+        "targetAudience": "长时间在 Mac 前工作的知识工作者、程序员、设计师和对健康管理和工作效率有要求的职场人士",
+        "useCases": [
+          "深度编码/设计时自动顺延休息提醒，不打断心流状态",
+          "视频会议中自动暂停休息提醒，会议结束后恢复",
+          "离开座位倒咖啡/散步后自动将离开时间计为休息",
+          "自定义休息频率和时长，适应个人工作节奏",
+          "多显示器环境下统一管理休息提醒"
+        ],
+        "designIntent": "传统番茄钟和休息提醒工具在用户专注或开会时突然弹出，反而增加干扰。很多人因此直接关掉提醒功能。TouchGrass 的核心理念是在正确的时机提醒——理解用户当前的上下文，只在自然停顿处才给出提醒，让休息工具真正服务于用户而不是添乱。",
+        "problemSolved": "现有休息提醒工具采用固定间隔模式，经常在用户认真工作或开会时打断思路，导致用户产生抵触心理从而关闭��有提醒。TouchGrass 通过上下文感知让提醒变得智能，在不打扰用户的前提下促进健康的工作节奏。",
+        "tags": [
+          "休息提醒",
+          "效率工具",
+          "健康管理",
+          "Mac",
+          "上下文感���"
+        ],
+        "score": 7,
+        "scoreReason": "精准解决了 Mac 用户休息提醒的痛点，隐私优先设计且无需 Accessibility 权限是亮点。但定价偏高（/月），功能范围有限，且目前仅支持 macOS。",
+        "competitors": [
+          {
+            "name": "Time Out",
+            "url": "https://www.dejal.com/timeout/",
+            "comparison": "Time Out 是经典的 Mac 休息提醒工具，功能成熟但固定间隔不可感知上下文；TouchGrass 的智能会议/媒体检测是主要区别"
+          },
+          {
+            "name": "Stretchly",
+            "url": "https://hovancik.net/stretchly/",
+            "comparison": "Stretchly 是开源免费休息���醒，功能简单实用；TouchGrass 在智能化程度和用户体验上更胜一筹但需要付费"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1205941",
+      "product_id": "producthunt.com/r/p/1205941",
+      "name": "Banquish",
+      "nameZh": "Banquish - 将网页变为工作空间",
+      "slug": "banquish-web-workspace",
+      "description": "Banquish 是一款 Mac 应用，让你可以从任意网页中「抠出」需要���部分（搜索框、视频、实时价格、聊天线程等），将它们变成独立且实时的面板摆放在画布上。更强大的是，内置的 AI Agent 可以在你搭建的空间中执行任务——跨面板对比价格、监控信息变化并汇报，以及用自然语言指令构建新的工作空间。",
+      "url": "https://banquish.space",
+      "homepage": "https://banquish.space",
+      "type": "app",
+      "appStoreName": "Banquish",
+      "appStoreUrl": "https://banquish.space",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1205941_20260728_120052.png",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4e/9e/5a/4e9e5a96-b539-296c-77d4-f31ded5c8510/8c850ed6-d9e4-4c18-9375-d6e485dba7bd_iOS_01_consideraciones.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f7/c2/0b/f7c20bcf-3b2e-2f98-f0c6-e95262dada72/ee8d8252-ed13-4764-b67b-88c6e6071501_iOS_02.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/20/68/3a/20683ae3-baf7-fe7f-0cb9-4d6a06a828f5/95e12f24-85f3-4c1a-ac1b-617c1b848453_iOS_03.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/15/68/2f/15682f80-8338-9cb9-a035-74bfde952eb9/e84275a6-55a0-4b18-8458-3cdf38e361d4_iOS_04.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2e/88/a7/2e88a74f-d088-c8bd-e441-30bb6831e72c/936cf0bb-b0a0-41ec-bd64-4acb4d80e1eb_iOS_05.png/392x696bb.png"
+      ],
+      "tags": [
+        "网页剪藏",
+        "AI Agent",
+        "工作空间",
+        "Mac应用",
+        "效率工具"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1205941",
+      "firstSeen": "2026-07-28T04:00:18.230103+00:00",
+      "analysis": {
+        "targetAudience": "需要在多个网页间频繁切换的研究人员、电���运营、产品经理和信息密集型工作者",
+        "useCases": [
+          "多网站比价——将不同商品页面的价格面板放在同一画布上",
+          "租房搜索——将租房列表、地图、笔记整合到一个工作空间",
+          "竞品监控——设置面板持续监控竞品价格/库存变化，Agent 自动汇报",
+          "研究调研——将搜索结果、文章段落、数据图表汇聚到一个画布分析",
+          "项目管理——将 Trello、Slack、GitHub 等工具的实时面板整合"
+        ],
+        "designIntent": "网页标签页已经成为现代工作的瓶颈——打开十几个标签页来回切换，每个标签页都是完整页面但真正需要只是其中一小块信息。Banquish 打破这种要么全页要么没���的束缚，让用户只提取需要的信息片段，以任务为中心而非以网页为单位来组织工作。",
+        "problemSolved": "浏览器标签页管理一直是生产力瓶颈：重要信息分散在多个页面���切换耗费大量精力，且无法同时查看和操作来自不同页面的信息。Banquish 的实时剪藏+AI Agent 方案在这里找到了独特的切入点。",
+        "tags": [
+          "网页工作空间",
+          "AI Agent",
+          "标签管理",
+          "信息整合",
+          "Mac"
+        ],
+        "score": 8,
+        "scoreReason": "产品理念独特且有创新性，实时剪藏技术门槛高，AI Agent 跨面板操作是差异化亮点。免费版已经可用。但仅支持 Apple Silicon 限制了潜在用户群，AI Agent 在复杂跨面板任务时可能出现幻觉。",
+        "competitors": [
+          {
+            "name": "Arc Browser",
+            "url": "https://arc.net",
+            "comparison": "Arc 通过空间和分屏改善标签管理，但仍然是整页浏览模式；Banquish 允许只提取网页的特定部分并保持实时性"
+          },
+          {
+            "name": "Milanote",
+            "url": "https://milanote.com",
+            "comparison": "Milanote 是创意画布工具但需要手动粘贴和整理内容；Banquish 直接拉住网页实时元素，且内置 Agent 可自动化操作"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1198621",
+      "product_id": "producthunt.com/r/p/1198621",
+      "name": "Second Brain",
+      "nameZh": "Second Brain - 跨平台 AI 记忆助手",
+      "slug": "second-brain-ai-memory",
+      "description": "Second Brain 是一款跨平台（Mac/Windows）的 AI 记忆工具，自动记录你在所有设备上的工作和生活信息——文件、笔记、对话、会议、浏览内容等——构建一个随时可搜索的「外部大脑」。通过 AI 自动整理和关联信息，让你不再需要手动记录和分类，需要时通过自然语言即可检索到任何已接触过的信息��",
+      "url": "https://secondbrain.ai",
+      "homepage": "https://secondbrain.ai",
+      "type": "app",
+      "appStoreName": "Private AI Notes: Second Brain",
+      "appStoreUrl": "https://apps.apple.com/us/app/private-ai-notes-second-brain/id6786475542?uo=4",
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI记忆",
+        "知识管理",
+        "跨平台",
+        "个人信息管理",
+        "第二大脑"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1198621",
+      "firstSeen": "2026-07-28T04:00:18.230103+00:00",
+      "analysis": {
+        "targetAudience": "��息过载的知识工作者、需要管理大量项目和资料的产品经理/设计师/研究员，以及追求「零笔记」知识管理的人群",
+        "useCases": [
+          "自动记录日常浏览、阅读和对话内��，随时检索",
+          "跨设备搜索之前看过但忘记在哪里的文件和信息",
+          "AI 自动关联不同来源的信息，发现隐藏的知识关联",
+          "无需手动整理分类，AI 自动组织知识结构",
+          "与现有工作流无缝集成，不额外增加操作负担"
+        ],
+        "designIntent": "人类的记忆和工作信息散落在不同的设备和应用中，但大脑无法记住所有内容。传统的笔记工具需要手动记录和整理，这是大部分人都无法坚持的。Second Brain 想要成为真正的「被动式」记忆系统——无需用户主动输入，自动捕获和组织信息。",
+        "problemSolved": "知识工作者每天处理大量信息，但笔记和书签工具需要手动维护，容易半途而废。信息散落在不同平台导致知道看过但找不到。Second Brain 的自动捕获+AI 检索模式消除了这个痛点。",
+        "tags": [
+          "AI记忆",
+          "知识管理",
+          "自动化",
+          "跨平台",
+          "信息检索"
+        ],
+        "score": 8,
+        "scoreReason": "准确定位了知识管理中的真实痛点（被动式自动记忆），跨平台支持是优势。但自动捕获涉及大量隐私数据，用户在隐私保护和便利性之间的信任建立是最大挑战。定价和商业模式尚不清晰。",
+        "competitors": [
+          {
+            "name": "Rewind AI",
+            "url": "https://rewind.ai",
+            "comparison": "Rewind 同样做自动记忆但仅支持 Mac，且价格较高；Second Brain 跨平台支持更广"
+          },
+          {
+            "name": "Notion",
+            "url": "https://notion.ai",
+            "comparison": "Notion 需要主动记录和整理，Second Brain 是被动捕获+AI 自动组织，使用方式完全不同"
+          },
+          {
+            "name": "Mem.ai",
+            "url": "https://mem.ai",
+            "comparison": "Mem.ai 也是 AI 笔记工具但仍需主动输入；Second Brain 强调完全的被动式自动记忆"
+          }
+        ]
+      }
+    }
+  ]
+}

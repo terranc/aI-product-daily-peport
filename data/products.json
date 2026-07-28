@@ -1,7 +1,137 @@
 {
-  "version": 5,
-  "lastUpdated": "2026-07-27T03:58:54.612857+00:00",
+  "version": 6,
+  "lastUpdated": "2026-07-28T04:00:18.230103+00:00",
   "products": [
+    {
+      "id": "producthunt.com/r/p/1198621",
+      "name": "Second Brain",
+      "slug": "second-brain-ai-memory",
+      "description": "Second Brain 是一款跨平台（Mac/Windows）的 AI 记忆工具，自动记录你在所有设备上的工作和生活信息——文件、笔记、对话、会议、浏览内容等——构建一个随时可搜索的「外部大脑」。通过 AI 自动整理和关联信息，让你不再需要手动记录和分类，需要时通过自然语言即可检索到任何已接触过的信息��",
+      "url": "https://secondbrain.ai",
+      "type": "app",
+      "tags": [
+        "AI记忆",
+        "知识管理",
+        "跨平台",
+        "个人信息管理",
+        "第二大脑"
+      ],
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-07-28"
+      },
+      "analysis": {
+        "score": 8,
+        "scoreReason": "准确定位了知识管理中的真实痛点（被动式自动记忆），跨平台支持是优势。但自动捕获涉及大量隐私数据，用户在隐私保护和便利性之间的信任建立是最大挑战。定价和商业模式尚不清晰。"
+      },
+      "addedAt": "2026-07-28T04:00:18.230103+00:00",
+      "cooldownExpiresAt": "2026-07-28T23:59:59Z"
+    },
+    {
+      "id": "producthunt.com/r/p/1205941",
+      "name": "Banquish",
+      "slug": "banquish-web-workspace",
+      "description": "Banquish 是一款 Mac 应用，让你可以从任意网页中「抠出」需要���部分（搜索框、视频、实时价格、聊天线程等），将它们变成独立且实时的面板摆放在画布上。更强大的是，内置的 AI Agent 可以在你搭建的空间中执行任务——跨面板对比价格、监控信息变化并汇报，以及用自然语言指令构建新的工作空间。",
+      "url": "https://banquish.space",
+      "type": "app",
+      "tags": [
+        "网页剪藏",
+        "AI Agent",
+        "工作空间",
+        "Mac应用",
+        "效率工具"
+      ],
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-07-28"
+      },
+      "analysis": {
+        "score": 8,
+        "scoreReason": "产品理念独特且有创新性，实时剪藏技术门槛高，AI Agent 跨面板操作是差异化亮点。免费版已经可用。但仅支持 Apple Silicon 限制了潜在用户群，AI Agent 在复杂跨面板任务时可能出现幻觉。"
+      },
+      "addedAt": "2026-07-28T04:00:18.230103+00:00",
+      "cooldownExpiresAt": "2026-07-28T23:59:59Z"
+    },
+    {
+      "id": "producthunt.com/r/p/1205823",
+      "name": "TouchGrass",
+      "slug": "touchgrass-break-reminder",
+      "description": "TouchGrass 是一款上下文感知的 Mac 休息提醒工具，与传统固定间隔提醒不同，它通过机器学习理解用户当前的活动状态：自动检测会议进行中（通过摄像头/麦克风占用判断）、��屏观影时暂停提醒、识别深度工作应用，并将真实离开电脑的时间计为休息。无��� Accessibility 权限，所有检测在本地完成，保护用户隐私。",
+      "url": "https://touchgrass.now",
+      "type": "app",
+      "tags": [
+        "休息提醒",
+        "健康",
+        "Mac应用",
+        "隐私保护",
+        "工作效率"
+      ],
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-07-28"
+      },
+      "analysis": {
+        "score": 7,
+        "scoreReason": "精准解决了 Mac 用户休息提醒的痛点，隐私优先设计且无需 Accessibility 权限是亮点。但定价偏高（/月），功能范围有限，且目前仅支持 macOS。"
+      },
+      "addedAt": "2026-07-28T04:00:18.230103+00:00",
+      "cooldownExpiresAt": "2026-07-28T23:59:59Z"
+    },
+    {
+      "id": "producthunt.com/r/p/1202816",
+      "name": "Illume Labs",
+      "slug": "illume-labs-health-companion",
+      "description": "Illume 是一款 24/7 全天候 AI 健康伴侣，通过短信/文本交互连接你的可穿戴设备、营养数据、运���记录和化验结果。它整合分散的健康数据源，提供个性化的可操作洞察，支持 Wearable 同步、食物拍照记录、运动追踪和血检分析，让用户对自己的健康状况有更完整的理解。YC S26 孵化项目。",
+      "url": "https://www.illumelabs.ai",
+      "type": "saas",
+      "tags": [
+        "AI健康",
+        "智能穿戴",
+        "健康管理",
+        "个性化洞察",
+        "YC"
+      ],
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-07-28"
+      },
+      "analysis": {
+        "score": 9,
+        "scoreReason": "团队背景扎实（MIT ��业生+Broad Institute/ Windsurf 经验），YC S26 孵化，解决了真实痛点（健康数据碎片化）。产品理念清晰，AI+健康组合市场空间巨大。目前处于内测阶段，需验证数据整合和模型分析的准确性。"
+      },
+      "addedAt": "2026-07-28T04:00:18.230103+00:00",
+      "cooldownExpiresAt": "2026-07-28T23:59:59Z"
+    },
+    {
+      "id": "x.com/opensoftwareco/status/2071956798861353099",
+      "name": "June",
+      "slug": "june-private-ai-mac",
+      "description": "June 是一款面向 Mac 的私人 AI 工作空间，将 AI 助手、语音听写、自动会议记录和本地 Agent 整合在一个应用中。���采用本地优先架构，所有数据默认存储在用户 Mac 上，使用开源 Hermes 框架运行本地 Agent，并通过可验证的机密计算后端���理远程模型调用，兼顾了功能丰富性与隐私保护。",
+      "url": "https://opensoftware.co/june",
+      "type": "app",
+      "tags": [
+        "AI助手",
+        "隐私保护",
+        "语音听写",
+        "会议记录",
+        "Mac应用"
+      ],
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-07-28"
+      },
+      "analysis": {
+        "score": 8,
+        "scoreReason": "隐私架构设计创新，开源透明，功能覆盖面广（聊天+听写+会议+Agent）。但产品仍处于早期阶段，部分功能体验尚需打磨，且依赖第三方 Venice API 进行模型推理。"
+      },
+      "addedAt": "2026-07-28T04:00:18.230103+00:00",
+      "cooldownExpiresAt": "2026-07-28T23:59:59Z"
+    },
     {
       "id": "dafa9686fbe1",
       "name": "Elon Musk lost his lawsuit against Sam Altman and OpenAI",
