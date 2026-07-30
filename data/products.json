@@ -1,6 +1,6 @@
 {
   "version": 9,
-  "lastUpdated": "2026-07-29T04:03:06.376607+00:00",
+  "lastUpdated": "2026-07-30T03:57:49.478674+00:00",
   "products": [
     {
       "id": "producthunt.com/r/p/1198621",
@@ -18834,6 +18834,356 @@
           }
         ]
       }
+    },
+    {
+      "id": "producthunt.com/r/p/1188822",
+      "name": "SoundGate Guitar",
+      "slug": "soundgate-guitar",
+      "description": "SoundGate Guitar 是一款 AI 吉他学习 App，能在你弹奏时实时监听并提供音高、节奏、技巧的即时反馈。它根据你的水平和目标动态调整课程难度，内置 AI 听力训练，让自学者也能像有老师指导一样高效进步。",
+      "url": "https://www.soundgate.ai",
+      "homepage": "https://www.soundgate.ai",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI音乐",
+        "吉他学习",
+        "实时反馈",
+        "自适应教学",
+        "音乐���育"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1188822?app_id=339",
+      "firstSeen": "2026-07-30T03:57:49.478674+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-07-30"
+      },
+      "analysis": {
+        "score": 8,
+        "scoreReason": "精准定位了自学者练琴时缺乏反馈的核心痛点，AI 实时纠错和自适应课程设计实用。但吉他学习赛道已有竞品（如 Yousician）��需在 AI 反馈精度和用��体验上建立差异化。定价策略尚不���确。",
+        "targetAudience": "自学吉他但缺乏专业指导反馈的音乐爱好者",
+        "useCases": [
+          "初学者通过实时音高校准纠正弹奏错误",
+          "进阶玩家练习复杂曲目时获得技巧分析",
+          "日常练琴追踪进步曲线和练习时长",
+          "利用碎片时间进行听力训练和乐理学习",
+          "准备演出或考级前的针对性练习辅助"
+        ],
+        "designIntent": "解决自学者练琴时「不知道自己弹得对不对��的核心痛点，用 AI 替代真人老师的实时反馈角色，让每个人都能以低成本获得高质量的音乐指导。",
+        "problemSolved": "传统自学吉他面临三大难题：缺乏实时纠错（错了不自知）、没有个性化路径（一刀切教程）、���习枯燥无反馈。SoundGate 用 AI 实时监听分析提供即时反馈，并��据个人水平动态��整学习路径���",
+        "tags": [
+          "AI音乐",
+          "吉他学习",
+          "实时反馈",
+          "自适应教学",
+          "音乐教育"
+        ],
+        "competitors": [
+          {
+            "name": "Yousician",
+            "url": "https://yousician.com",
+            "comparison": "同类竞品，Yousician 更偏向游戏化教学，SoundGate 更侧重 AI 精准反馈和技巧分析"
+          },
+          {
+            "name": "Fender Play",
+            "url": "https://www.fender.com/play",
+            "comparison": "Fender 出品的吉他教学平台，课���体系成熟但缺���实时 AI 纠错功能"
+          },
+          {
+            "name": "Simply Guitar",
+            "url": "https://www.hellosimply.com/guitar",
+            "comparison": "面向初学者的视频教学 App，交互设计优秀但 AI 实时反馈能力较弱"
+          }
+        ]
+      },
+      "addedAt": "2026-07-30T03:57:49.478674+00:00",
+      "cooldownExpiresAt": "2026-08-13T23:59:59Z"
+    },
+    {
+      "id": "producthunt.com/r/p/1184808",
+      "name": "ClinicFrame",
+      "slug": "clinicframe-scribe",
+      "description": "ClinicFrame 是一款专��医疗场景设计的 AI 虚拟医疗记录员。它能实时监听医患对话，在问诊结束后���秒内自动生成结构化的临床��记（SOAP/DAP/BIRP 格式）��支持 15+ 专��、96% 转录准确率，完全符合 HIPAA ��规要求。医生无需手动记录，专注诊疗本身。",
+      "url": "https://clinicframe.com",
+      "homepage": "https://clinicframe.com",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI医疗",
+        "临床记录",
+        "医疗记录员",
+        "HIPAA合规",
+        "医生效率"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1184808?app_id=339",
+      "firstSeen": "2026-07-30T03:57:49.478674+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-07-30"
+      },
+      "analysis": {
+        "score": 8,
+        "scoreReason": "医疗���档是医生最大的行政负担之一��ClinicFrame 精准切入这一痛点。专业医疗术语识别和 HIPAA 合规是核���竞争力。但需要与现有 EHR 系统深度集成才能发挥最大价值���且医疗行业销售周期长。",
+        "targetAudience": "需要花大量时间���临床笔记的医生��心理治疗师和医疗从业者",
+        "useCases": [
+          "门诊问诊实时记录并自动生成 SOAP 格式病历",
+          "远程诊疗（Telehealth）过程中无感��录对话",
+          "心理治疗会话记录 DAP/BIRP 格���笔记",
+          "多专科（心脏科、儿科、精神科等）专科术语识别",
+          "快速复制病历到 EHR 系统，减少行政工作时间"
+        ],
+        "designIntent": "医生每天花大量时间写病历而非看病。ClinicFrame 想做医疗领域的 Granola—��让医生专注于患者，文档自动生成，彻底改变医疗文档的产出方式。",
+        "problemSolved": "医生平均每天花 2 小时以上写临床笔��，导致工作倦怠和减少��与患者的实际交流时间。ClinicFrame 通过 AI 自动转录和生成结构化病历，将笔记时间从分钟级缩短到秒级，且保持��� 96% 的医学术语识别准确���。",
+        "tags": [
+          "AI医疗",
+          "临床记录",
+          "医疗记录��",
+          "HIPAA合规",
+          "医生效率"
+        ],
+        "competitors": [
+          {
+            "name": "DeepScribe",
+            "url": "https://deepscribe.ai",
+            "comparison": "AI 医疗记录���道头部玩家，ClinicFrame 的优势在于桌面原生 App（非浏览器/机器人入会方式）和更强的隐私保障"
+          },
+          {
+            "name": "Nuance DAX",
+            "url": "https://www.nuance.com/dragon.html",
+            "comparison": "微软旗下���熟的医疗语音方案，功能全面但价格高、部署复杂；ClinicFrame 更轻量、成本��低"
+          },
+          {
+            "name": "Suki AI",
+            "url": "https://www.suki.ai",
+            "comparison": "提供 AI 医疗语音助手，ClinicFrame 专注于实时环境笔录而非语音命令驱动"
+          }
+        ]
+      },
+      "addedAt": "2026-07-30T03:57:49.478674+00:00",
+      "cooldownExpiresAt": "2026-08-13T23:59:59Z"
+    },
+    {
+      "id": "producthunt.com/r/p/1206798",
+      "name": "Edit Mind × Strava",
+      "slug": "edit-mind-strava",
+      "description": "Edit Mind 是一款连接 Strava 的运动视频剪辑工具。它���自动读取运动视频中的画面、音频和 GPS 遥测数据��与 Strava 活动（心率、速���、海拔、路线）逐帧对齐匹���。剪辑时拖动时间轴，就能看到对应的心率、速度��海拔曲线，快��定位高光时刻。支持任意相机，GoPro 等运动相机因内嵌 GPS ��位更精准。",
+      "url": "https://edit-mind.com/strava",
+      "homepage": "https://edit-mind.com",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "视频剪辑",
+        "运动数据",
+        "Strava",
+        "运动相机",
+        "AI视频"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1206798?app_id=339",
+      "firstSeen": "2026-07-30T03:57:49.478674+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-07-30"
+      },
+      "analysis": {
+        "score": 7,
+        "scoreReason": "创意十足的细分市场切入——把运���数据和视频剪辑结合，解决了运动博主找「高光时��」的痛点。但依赖 Strava 生态，用���规模受限于运动相机和 Strava 使用者，预售价 $199 对普通用户门槛偏高。",
+        "targetAudience": "骑行、跑步等运动爱好者，需要从运动视频���快速剪辑���精彩片段并展示运动数据",
+        "useCases": [
+          "骑行后自动匹配 GPS 轨迹和心率数据到视频时间轴",
+          "快速定位爬坡、冲刺等高强度运动片段进行剪辑",
+          "制作带有实时心率/速度/海拔叠加数据的运动 Vlog",
+          "运动教练分析学员的动作和数据同步回放",
+          "比赛回顾时按心率区间或速度段筛选关键片段"
+        ],
+        "designIntent": "运动博主剪辑视频时最大的痛点是「找���精彩的片段」——需要在几小时的素材里手动翻找。Edit Mind 通过 Strava API 和视频 GPS 遥测数据的自动匹配，让用户可以直接按心率、速度��运动指标搜索视频片段。",
+        "problemSolved": "运动视频剪辑需要大量时间手动翻找精彩片段，且很难将运动数据（心率、速度、海拔）与视频画面同步。Edit Mind 自动对齐运动数据和视频帧，让用户可以通过运动指标直接搜索和定位精彩瞬间。",
+        "tags": [
+          "视频剪辑",
+          "运动数据",
+          "Strava",
+          "运动相机",
+          "AI视��"
+        ],
+        "competitors": [
+          {
+            "name": "GoPro Quik",
+            "url": "https://gopro.com/en/us/shop/quik",
+            "comparison": "GoPro 官方剪辑工具，能自动生成精彩集锦但不支持 Strava 数据深度整合"
+          },
+          {
+            "name": "DaVinci Resolve",
+            "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+            "comparison": "专业剪辑软件功能强大但学习曲线陡峭，无运动数据自动匹配功能"
+          },
+          {
+            "name": "Garmin VIRB Edit",
+            "url": "https://www.garmin.com",
+            "comparison": "Garmin 自���视频工具支持数据叠加，但已停止更新且仅限 Garmin 设备"
+          }
+        ]
+      },
+      "addedAt": "2026-07-30T03:57:49.478674+00:00",
+      "cooldownExpiresAt": "2026-08-13T23:59:59Z"
+    },
+    {
+      "id": "producthunt.com/r/p/1208746",
+      "name": "Totem",
+      "slug": "totem-x-bookmarks",
+      "description": "Totem 是��款 Chrome 扩展，把���的 Twitter 书签变成沉浸式的阅读队列。每次打开新标签页，待读的书签就呈现在眼前，支持全文搜索、高亮标注、私人笔记和导出（Markdown/CSV/JSON）。本地优先设计，所有数据存储在浏览器本地，无需注册账号，无 Premium 订阅限制。还支持按热度/时间/内容类型过滤搜索，真正帮你「看完收藏的内容」。",
+      "url": "https://usetotem.xyz",
+      "homepage": "https://usetotem.xyz",
+      "type": "website",
+      "appStoreName": "Chrome Web Store",
+      "appStoreUrl": "https://chromewebstore.google.com/detail/twitter-x-bookmarks-on-ne/acpkgdfhoaalmnhjifhneghcgfnjkglo",
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "Twitter工具",
+        "书签管理",
+        "稍后阅读",
+        "Chrome扩展",
+        "���地优先"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1208746?app_id=339",
+      "firstSeen": "2026-07-30T03:57:49.478674+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-07-30"
+      },
+      "analysis": {
+        "score": 7,
+        "scoreReason": "精准击中了 Twitter 深度用户「收藏=吃灰」的痛点，新标签页阅��队列和丰富的搜索过滤是亮点。本地优先和隐私设计是差异化优势。但作为 Chrome 扩��功能上限有限，且依赖 X 平台登录态。",
+        "targetAudience": "Twitter/X 重度用户，收藏了大量帖子但从不回头看、希望系统化管理阅读内容的人",
+        "useCases": [
+          "新标签页自动显示待读的 Twitter 书签，避免被 Feed 分散注意力",
+          "用全文搜索和过滤器快速找到数月前收藏的某个帖子",
+          "高亮标注推文中的关键段落并添加私人���记",
+          "导��书签库为 Markdown/CSV/JSON，备份或迁移到其他工具",
+          "离线环境下继续阅读已缓存的收藏内容"
+        ],
+        "designIntent": "绝大���数 Twitter 用户的收藏功能只是一个「心理安全网」——收藏后再也没打开过。Totem 想打破这个模式，让书签变成真正可消费的内容队列，而不是数字垃圾场。",
+        "problemSolved": "Twitter 收藏功能的设计缺陷：书签没有分类、无法搜索、被算法 Feed 淹没。用户往往收藏后再也找不到或懒得看。Totem ��书签转化为新标签页的阅读队列，提供全文搜索和标注功能，让收藏的内容真正被消费。",
+        "tags": [
+          "Twitter工具",
+          "书签管理",
+          "稍后阅读",
+          "Chrome扩展",
+          "���地优先"
+        ],
+        "competitors": [
+          {
+            "name": "Pocket",
+            "url": "https://getpocket.com",
+            "comparison": "通用稍后阅读工具，支持多平台但不专门针对 Twitter 书签优化"
+          },
+          {
+            "name": "Notion + Save to Notion",
+            "url": "https://www.notion.so",
+            "comparison": "可手动保存推文到 Notion 但体���割裂，需要多个步骤才能完成保存"
+          },
+          {
+            "name": "readwise.io",
+            "url": "https://readwise.io",
+            "comparison": "Readwise 支持从多处导入内容但需要付费订阅，Totem 免费且本地优先"
+          }
+        ]
+      },
+      "addedAt": "2026-07-30T03:57:49.478674+00:00",
+      "cooldownExpiresAt": "2026-08-13T23:59:59Z"
+    },
+    {
+      "id": "v2ex.com/t/1230937",
+      "name": "AI私厨",
+      "slug": "ai-si-chu",
+      "description": "AI私厨是一款专注于「做饭决策」的 AI 应用。拍一下冰箱里的��材，或直接文字/语音描述，AI 就能从几千集真人烹饪视频中精准匹配��你能做的菜。支持家常菜、减脂餐、快手菜等多种分类，还提供 AI 菜谱推荐和厨房百事通问答。H5 即开即用，无需下载，覆盖安卓/iOS。",
+      "url": "https://www.aisichu.site",
+      "homepage": "https://www.aisichu.site",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI烹饪",
+        "食谱推荐",
+        "食材识别",
+        "饮食助手",
+        "生活工具"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "sourceUrl": "https://www.v2ex.com/t/1230937",
+      "firstSeen": "2026-07-30T03:57:49.478674+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-07-30"
+      },
+      "analysis": {
+        "score": 7,
+        "scoreReason": "\"拍冰箱找菜谱\"的需求非常真实、高频，特别是对于每天纠结「吃什么」的年轻上班族。AI 识别食材后匹配视频菜谱而非文��菜谱的定位有差异化。���视频匹配效果和食材识别准确率是���键考验，早期产���需验证核心体验。",
+        "targetAudience": "每天不知道吃什��、家里有食材但不会搭配的年轻上���族和做饭新手",
+        "useCases": [
+          "拍冰箱里的食材照片，AI 识别后推荐能做的菜",
+          "语音描述想吃的口味（如「酸辣的、有肉的」），AI 推荐匹配菜谱",
+          "文字搜索特定食材组合（如「鸡胸肉+���兰花+低脂」）��获取减脂餐推荐",
+          "学习烹饪中的火候、搭配等厨房知识问答",
+          "从「发现流」中浏览最新的热门菜谱视频"
+        ],
+        "designIntent": "年轻人每天面临的难题不是「不会做菜」，而是「不知道做什么」。AI私厨想用 AI 识别冰箱食材+视频菜谱库的方��，把做饭决策成本降到最低，让从「不知道吃什么」到「开始做」之间只有一个拍照的距离。",
+        "problemSolved": "每天纠结「吃什么」是高频率的日常痛点。传统菜谱 App 需要用户先想好做什么再搜索，而 AI私厨反其道而��之——基于���已有的食材推荐你能做的菜��降低决策成本。视���菜谱相比图文更直观易学。",
+        "tags": [
+          "AI烹饪",
+          "食谱推荐",
+          "食材识别",
+          "饮食助手",
+          "生活工具"
+        ],
+        "competitors": [
+          {
+            "name": "下厨房",
+            "url": "https://www.xiachufang.com",
+            "comparison": "国内最大菜谱社区，内容海量但以图文为主且需要用户主动搜索；AI私厨的拍食材推荐是差异化体验"
+          },
+          {
+            "name": "豆果美食",
+            "url": "https://www.douguo.com",
+            "comparison": "老牌美食社区，AI 功能较弱；AI私厨的视频菜谱匹配和 AI 推荐更适合快节奏用户"
+          },
+          {
+            "name": "Mealime",
+            "url": "https://www.mealime.com",
+            "comparison": "国��流行的餐食规划 App，功能完善但面向西方饮食习惯且无中文内容支持"
+          }
+        ]
+      },
+      "addedAt": "2026-07-30T03:57:49.478674+00:00",
+      "cooldownExpiresAt": "2026-08-13T23:59:59Z"
     }
   ],
   "tracking": {

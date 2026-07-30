@@ -1,272 +1,265 @@
-#!/usr/bin/env python3
-"""生成日报并更新数据库"""
+#!/opt/homebrew/bin/python3
+"""Generate daily report for 2026-07-30"""
 
 import json
 from datetime import datetime, timezone, timedelta
 
-today = "2026-07-14"
-now = datetime.now(timezone.utc)
-expires = (now + timedelta(days=14)).isoformat()
+TODAY = "2026-07-30"
+NOW = datetime.now(timezone.utc).isoformat()
 
-reports_dir = "/Volumes/EXTEND/aI-product-daily-peport/reports/daily"
-db_path = "/Volumes/EXTEND/aI-product-daily-peport/data/products.json"
-
+# Product data
 products = [
     {
-        "id": "producthunt.com/products/toyo",
-        "name": "Toyo",
-        "slug": "toyo",
-        "description": "AI 执行助理，常驻 iMessage，支持语音通话。能自动分类邮件、以你的口吻起草回复、端到端安排会议、准备会议简报、追踪后续事项。无需下载新应用，像与真人助理一样交流。",
-        "url": "https://toyo.ai/",
-        "homepage": "https://toyo.ai/",
-        "type": "website",
+        "id": "producthunt.com/r/p/1188822",
+        "name": "SoundGate Guitar",
+        "slug": "soundgate-guitar",
+        "description": "SoundGate Guitar 是一款 AI 吉他学习 App，能在你弹奏时实时监听并提供音高、节奏、技巧的即时反馈。它根据你的水平和目标动态调整课程难度，内置 AI 听力训练，让自学者也能像有老师指导一样高效进步。",
+        "url": "https://www.soundgate.ai",
+        "homepage": "https://www.soundgate.ai",
+        "type": "app",
         "appStoreName": None,
         "appStoreUrl": None,
-        "screenshotUrl": "assets/screenshots/producthunt.com_products_toyo_20260714_115854.png",
-        "appStoreScreenshots": [],
-        "tags": ["AI助理", "效率工具", "iMessage", "日程管理"],
-        "sourceChannels": ["producthunt"],
-        "sourceUrl": "https://www.producthunt.com/products/toyo",
-        "firstSeen": now.isoformat(),
-        "analysis": {
-            "targetAudience": "忙碌的创业者、自由职业者和小团队管理者，需要行政助理但还不到全职雇佣阶段的职场人士。",
-            "useCases": [
-                "自动分类和回复邮件，仅将需要亲自处理的事项推送给用户",
-                "通过 iMessage 或语音安排会议、协调日程",
-                "会议前自动生成简报，包含对方背景和上次交谈内容",
-                "追踪通话和邮件中的承诺事项，主动提醒跟进"
-            ],
-            "designIntent": "Toyo 的设计理念是「住在消息里的执行助理」，而不是又一个需要下载和学习的独立应用。它通过 iMessage 这个用户每天使用的工具提供服务，大幅降低了使用门槛。主动拨打电话的功能让它从被动问答升级为主动服务。",
-            "problemSolved": "创业者和小团队管理者每天花费大量时间在邮件分类、日程协调、会议准备和后续跟进等行政事务上。Toyo 自动处理这些重复性工作，让用户专注于核心业务，同时避免重要事项被遗漏。",
-            "score": 8,
-            "scoreReason": "产品定位精准，iMessage 集成降低了使用门槛，主动通话功能有差异化优势。但仅支持 iOS 用户，且深度依赖 Apple 生态，覆盖范围有限。",
-            "competitors": [
-                {"name": "Clara Labs", "url": "https://claralabs.com", "comparison": "Clara 专注于邮件日程协调，而 Toyo 覆盖更广（邮件+日历+通话+承诺追踪），且通过 iMessage 交互更自然。"},
-                {"name": "Milo", "url": "https://milo.com", "comparison": "Milo 是面向家庭的 AI 助手，Toyo 更偏向职场行政场景，且支持主动通话功能。"},
-                {"name": "Zoom AI Companion", "url": "https://zoom.us/ai-companion", "comparison": "Zoom AI 主要服务于会议场景，Toyo 覆盖邮件、日历、通话等更广泛的行政工作流。"}
-            ]
-        }
-    },
-    {
-        "id": "producthunt.com/products/repstandard",
-        "name": "RepStandard",
-        "slug": "repstandard",
-        "description": "用手机摄像头实时计数你的健身动作次数。放下手机，对着摄像头做俯卧撑、深蹲、仰卧起坐和平板支撑，AI 自动计数并追踪动作质量。无需任何设备，无需健身房。",
-        "url": "https://repstandard.co",
-        "homepage": "https://repstandard.co",
-        "type": "app",
-        "appStoreName": "RepStandard - Home Workouts",
-        "appStoreUrl": "https://apps.apple.com/cn/app/repstandard-home-workouts/id6761927539",
-        "screenshotUrl": "assets/screenshots/producthunt.com_products_repstandard_20260714_115908.png",
-        "appStoreScreenshots": [],
-        "tags": ["健身", "AI视觉", "居家锻炼", "动作计数"],
-        "sourceChannels": ["producthunt"],
-        "sourceUrl": "https://www.producthunt.com/products/repstandard",
-        "firstSeen": now.isoformat(),
-        "analysis": {
-            "targetAudience": "居家健身爱好者、不想去健身房但希望有训练数据追踪的人群，以及注重动作质量的健身初学者。",
-            "useCases": [
-                "在家做俯卧撑、深蹲时自动计数，无需手动记录",
-                "通过摄像头实时分析动作质量，纠正不良姿势",
-                "累积经验值升级段位（从 Sheep 到 Sigma），游戏化激励持续锻炼",
-                "生成训练证书，分享训练成果到社交网络"
-            ],
-            "designIntent": "RepStandard 想让健身计数变得像拍照一样简单——放下手机、站好、开始训练，摄像头自动完成计数和追踪。它用游戏化段位系统解决「坚持不下去」的问题，让每次训练都有看得见的成长路径。",
-            "problemSolved": "居家健身最大的两个痛点：一是手动计数分散注意力、容易忘记；二是缺乏激励难以坚持。RepStandard 用 AI 视觉解放双手，用段位和成就系统建立持续锻炼的正反馈循环。",
-            "score": 7,
-            "scoreReason": "AI 视觉计数技术成熟，产品体验流畅，游戏化设计能有效提升用户留存。但目前仅支持 4 种动作，覆盖面有限，且需要手机支架和合适的光线环境。",
-            "competitors": [
-                {"name": "RepCounter AI", "url": "https://www.repcounterai.app/", "comparison": "RepCounter 功能类似但更偏向工具型，RepStandard 的游戏化段位系统和证书分享功能更具社交激励。"},
-                {"name": "Fitbod", "url": "https://fitbod.me", "comparison": "Fitbod 是全面的健身规划和追踪应用，RepStandard 专注于动作计数这一个场景，更轻量、更专注。"}
-            ]
-        }
-    },
-    {
-        "id": "producthunt.com/products/breathinginlabour",
-        "name": "Breathing In Labour",
-        "slug": "breathing-in-labour",
-        "description": "专为分娩准备的呼吸训练应用。内置针对产程不同阶段（早期宫缩、扩张期、用力期）的专业呼吸技巧，极简无广告界面，离线可用。帮助准妈妈在分娩过程中保持冷静、缓解疼痛。",
-        "url": "",
-        "homepage": "",
-        "type": "app",
-        "appStoreName": "Breathing in Labour",
-        "appStoreUrl": "https://apps.apple.com/cn/app/breathing-in-labour/id6758552923",
         "screenshotUrl": None,
         "appStoreScreenshots": [],
-        "tags": ["孕期健康", "呼吸训练", "分娩准备", "健康管理"],
+        "tags": ["AI音乐", "吉他学习", "实时反馈", "自适应教学", "音乐���育"],
         "sourceChannels": ["producthunt"],
-        "sourceUrl": "https://www.producthunt.com/products/breathing-in-labour",
-        "firstSeen": now.isoformat(),
+        "sourceUrl": "https://www.producthunt.com/r/p/1188822?app_id=339",
+        "firstSeen": NOW,
+        "metrics": {
+            "featuredInDaily": 1,
+            "featuredInWeekly": 0,
+            "lastFeaturedDate": TODAY
+        },
         "analysis": {
-            "targetAudience": "孕晚期准妈妈（尤其希望自然分娩者）、助产士、导乐（doula），以及希望以非药物方式管理分娩疼痛的孕期女性。",
+            "score": 8,
+            "scoreReason": "精准定位了自学者练琴时缺乏反馈的核心痛点，AI 实时纠错和自适应课程设计实用。但吉他学习赛道已有竞品（如 Yousician）��需在 AI 反馈精度和用��体验上建立差异化。定价策略尚不���确。",
+            "targetAudience": "自学吉他但缺乏专业指导反馈的音乐爱好者",
             "useCases": [
-                "孕晚期每天 5-10 分钟规律练习，为自然分娩建立身体记忆",
-                "产程中实时跟随呼吸引导，降低疼痛感知、保持体力",
-                "宫缩间隙通过箱式呼吸（Box Breathing）保持冷静",
-                "用力期使用下降呼吸（Descending Breath）保护盆底肌"
+                "初学者通过实时音高校准纠正弹奏错误",
+                "进阶玩家练习复杂曲目时获得技巧分析",
+                "日常练琴追踪进步曲线和练习时长",
+                "利用碎片时间进行听力训练和乐理学习",
+                "准备演出或考级前的针对性练习辅助"
             ],
-            "designIntent": "Breathing In Labour 针对一个非常具体但重要的场景——分娩呼吸。它基于循证医学验证的呼吸技巧，针对产程不同阶段设计不同的呼吸模式。离线可用确保在产房中也能正常使用，极简设计减少产妇在紧张状态下的认知负担。",
-            "problemSolved": "大多数孕期呼吸指导依赖产前课程或书籍，产妇在产程中很难记住具体技巧。这个应用提供了实时、可视化的呼吸引导，让产前练习和产中执行无缝衔接，有效缓解分娩焦虑和疼痛。",
-            "score": 7,
-            "scoreReason": "切入点精准且具有高用户粘性，解决了真实未被充分满足的需求。但受众群体相对狭窄（仅限孕期女性），市场规模有限。产品功能相对单一，付费转化可能面临挑战。",
+            "designIntent": "解决自学者练琴时「不知道自己弹得对不对��的核心痛点，用 AI 替代真人老师的实时反馈角色，让每个人都能以低成本获得高质量的音乐指导。",
+            "problemSolved": "传统自学吉他面临三大难题：缺乏实时纠错（错了不自知）、没有个性化路径（一刀切教程）、���习枯燥无反馈。SoundGate 用 AI 实时监听分析提供即时反馈，并��据个人水平动态��整学习路径���",
+            "tags": ["AI音乐", "吉他学习", "实时反馈", "自适应教学", "音乐教育"],
             "competitors": [
-                {"name": "GentleBirth", "url": "https://gentlebirth.com", "comparison": "GentleBirth 提供更全面的分娩准备课程（含冥想和 affirmations），Breathing In Labour 更聚焦于呼吸技巧本身，更轻量。"},
-                {"name": "Expectful", "url": "https://expectful.com", "comparison": "Expectful 是孕期冥想应用，覆盖面更广但呼吸技巧的专业深度不如 Breathing In Labour。"}
+                {"name": "Yousician", "url": "https://yousician.com", "comparison": "同类竞品，Yousician 更偏向游戏化教学，SoundGate 更侧重 AI 精准反馈和技巧分析"},
+                {"name": "Fender Play", "url": "https://www.fender.com/play", "comparison": "Fender 出品的吉他教学平台，课���体系成熟但缺���实时 AI 纠错功能"},
+                {"name": "Simply Guitar", "url": "https://www.hellosimply.com/guitar", "comparison": "面向初学者的视频教学 App，交互设计优秀但 AI 实时反馈能力较弱"}
             ]
         }
     },
     {
-        "id": "melodusk.ai",
-        "name": "Melodusk",
-        "slug": "melodusk",
-        "description": "运行在浏览器中的 AI 音乐生成器。支持多语言界面、生成记录追踪，可通过文字提示生成完整的音乐创意。无需安装，打开浏览器即可创作，适合音乐创作入门和灵感探索。",
-        "url": "https://melodusk.ai",
-        "homepage": "https://melodusk.ai",
-        "type": "website",
+        "id": "producthunt.com/r/p/1184808",
+        "name": "ClinicFrame",
+        "slug": "clinicframe-scribe",
+        "description": "ClinicFrame 是一款专��医疗场景设计的 AI 虚拟医疗记录员。它能实时监听医患对话，在问诊结束后���秒内自动生成结构化的临床��记（SOAP/DAP/BIRP 格式）��支持 15+ 专��、96% 转录准确率，完全符合 HIPAA ��规要求。医生无需手动记录，专注诊疗本身。",
+        "url": "https://clinicframe.com",
+        "homepage": "https://clinicframe.com",
+        "type": "app",
         "appStoreName": None,
         "appStoreUrl": None,
-        "screenshotUrl": "assets/screenshots/melodusk.ai_20260714_115921.png",
+        "screenshotUrl": None,
         "appStoreScreenshots": [],
-        "tags": ["AI音乐", "创意工具", "音乐生成", "浏览器应用"],
-        "sourceChannels": ["hackernews"],
-        "sourceUrl": "https://news.ycombinator.com/item?id=48901280",
-        "firstSeen": now.isoformat(),
+        "tags": ["AI医疗", "临床记录", "医疗记录员", "HIPAA合规", "医生效率"],
+        "sourceChannels": ["producthunt"],
+        "sourceUrl": "https://www.producthunt.com/r/p/1184808?app_id=339",
+        "firstSeen": NOW,
+        "metrics": {
+            "featuredInDaily": 1,
+            "featuredInWeekly": 0,
+            "lastFeaturedDate": TODAY
+        },
         "analysis": {
-            "targetAudience": "音乐创作初学者、需要快速生成音乐灵感的创作者、播客和视频内容制作者，以及对 AI 音乐生成技术感兴趣的探索者。",
+            "score": 8,
+            "scoreReason": "医疗���档是医生最大的行政负担之一��ClinicFrame 精准切入这一痛点。专业医疗术语识别和 HIPAA 合规是核���竞争力。但需要与现有 EHR 系统深度集成才能发挥最大价值���且医疗行业销售周期长。",
+            "targetAudience": "需要花大量时间���临床笔记的医生��心理治疗师和医疗从业者",
             "useCases": [
-                "通过文字提示快速生成音乐 demo 和灵感片段",
-                "为播客、视频内容生成背景音乐",
-                "音乐爱好者探索不同风格和曲风的创作可能性",
-                "教育场景中演示 AI 音乐生成技术原理"
+                "门诊问诊实时记录并自动生成 SOAP 格式病历",
+                "远程诊疗（Telehealth）过程中无感��录对话",
+                "心理治疗会话记录 DAP/BIRP 格���笔记",
+                "多专科（心脏科、儿科、精神科等）专科术语识别",
+                "快速复制病历到 EHR 系统，减少行政工作时间"
             ],
-            "designIntent": "Melodusk 想让音乐创作像打字一样简单。它完全运行在浏览器中，无需安装任何软件，降低了音乐制作的技术门槛。多语言界面支持让全球用户都能用自己的语言进行创作。",
-            "problemSolved": "传统音乐制作需要专业的 DAW 软件、乐理知识和硬件设备，门槛极高。Melodusk 让没有任何音乐基础的普通人也能通过文字描述生成完整的音乐作品，将音乐创作从专业领域带入大众日常。",
-            "score": 7,
-            "scoreReason": "产品完成度高，浏览器运行零安装的设计降低了使用门槛。AI 音乐生成赛道竞争激烈（Suno、Udio 等），Melodusk 需要在音质和差异化功能上持续突破。",
+            "designIntent": "医生每天花大量时间写病历而非看病。ClinicFrame 想做医疗领域的 Granola—��让医生专注于患者，文档自动生成，彻底改变医疗文档的产出方式。",
+            "problemSolved": "医生平均每天花 2 小时以上写临床笔��，导致工作倦怠和减少��与患者的实际交流时间。ClinicFrame 通过 AI 自动转录和生成结构化病历，将笔记时间从分钟级缩短到秒级，且保持��� 96% 的医学术语识别准确���。",
+            "tags": ["AI医疗", "临床记录", "医疗记录��", "HIPAA合规", "医生效率"],
             "competitors": [
-                {"name": "Suno", "url": "https://suno.com", "comparison": "Suno 是目前最主流的 AI 音乐生成平台，音质和曲风多样性领先。Melodusk 的优势在于完全浏览器运行，无需注册即可尝试。"},
-                {"name": "Udio", "url": "https://udio.com", "comparison": "Udio 同样提供高质量 AI 音乐生成，Melodusk 的多语言界面和生成追踪功能有一定差异化。"}
+                {"name": "DeepScribe", "url": "https://deepscribe.ai", "comparison": "AI 医疗记录���道头部玩家，ClinicFrame 的优势在于桌面原生 App（非浏览器/机器人入会方式）和更强的隐私保障"},
+                {"name": "Nuance DAX", "url": "https://www.nuance.com/dragon.html", "comparison": "微软旗下���熟的医疗语音方案，功能全面但价格高、部署复杂；ClinicFrame 更轻量、成本��低"},
+                {"name": "Suki AI", "url": "https://www.suki.ai", "comparison": "提供 AI 医疗语音助手，ClinicFrame 专注于实时环境笔录而非语音命令驱动"}
             ]
         }
     },
     {
-        "id": "producthunt.com/products/connectmachine2",
-        "name": "ConnectMachine 2.0",
-        "slug": "connectmachine-2-0",
-        "description": "AI 驱动的数字名片与人脉管理工具。创建多张个性化数字名片，用摄像头扫描纸质名片，AI 自动提取信息并归类和补充。内置 AI 助手可回答人脉相关的自然语言问题，自动记录每次会面的上下文。",
-        "url": "https://www.connectmachine.ai/",
-        "homepage": "https://www.connectmachine.ai/",
+        "id": "producthunt.com/r/p/1206798",
+        "name": "Edit Mind × Strava",
+        "slug": "edit-mind-strava",
+        "description": "Edit Mind 是一款连接 Strava 的运动视频剪辑工具。它���自动读取运动视频中的画面、音频和 GPS 遥测数据��与 Strava 活动（心率、速���、海拔、路线）逐帧对齐匹���。剪辑时拖动时间轴，就能看到对应的心率、速度��海拔曲线，快��定位高光时刻。支持任意相机，GoPro 等运动相机因内嵌 GPS ��位更精准。",
+        "url": "https://edit-mind.com/strava",
+        "homepage": "https://edit-mind.com",
+        "type": "app",
+        "appStoreName": None,
+        "appStoreUrl": None,
+        "screenshotUrl": None,
+        "appStoreScreenshots": [],
+        "tags": ["视频剪辑", "运动数据", "Strava", "运动相机", "AI视频"],
+        "sourceChannels": ["producthunt"],
+        "sourceUrl": "https://www.producthunt.com/r/p/1206798?app_id=339",
+        "firstSeen": NOW,
+        "metrics": {
+            "featuredInDaily": 1,
+            "featuredInWeekly": 0,
+            "lastFeaturedDate": TODAY
+        },
+        "analysis": {
+            "score": 7,
+            "scoreReason": "创意十足的细分市场切入——把运���数据和视频剪辑结合，解决了运动博主找「高光时��」的痛点。但依赖 Strava 生态，用���规模受限于运动相机和 Strava 使用者，预售价 $199 对普通用户门槛偏高。",
+            "targetAudience": "骑行、跑步等运动爱好者，需要从运动视频���快速剪辑���精彩片段并展示运动数据",
+            "useCases": [
+                "骑行后自动匹配 GPS 轨迹和心率数据到视频时间轴",
+                "快速定位爬坡、冲刺等高强度运动片段进行剪辑",
+                "制作带有实时心率/速度/海拔叠加数据的运动 Vlog",
+                "运动教练分析学员的动作和数据同步回放",
+                "比赛回顾时按心率区间或速度段筛选关键片段"
+            ],
+            "designIntent": "运动博主剪辑视频时最大的痛点是「找���精彩的片段」——需要在几小时的素材里手动翻找。Edit Mind 通过 Strava API 和视频 GPS 遥测数据的自动匹配，让用户可以直接按心率、速度��运动指标搜索视频片段。",
+            "problemSolved": "运动视频剪辑需要大量时间手动翻找精彩片段，且很难将运动数据（心率、速度、海拔）与视频画面同步。Edit Mind 自动对齐运动数据和视频帧，让用户可以通过运动指标直接搜索和定位精彩瞬间。",
+            "tags": ["视频剪辑", "运动数据", "Strava", "运动相机", "AI视��"],
+            "competitors": [
+                {"name": "GoPro Quik", "url": "https://gopro.com/en/us/shop/quik", "comparison": "GoPro 官方剪辑工具，能自动生成精彩集锦但不支持 Strava 数据深度整合"},
+                {"name": "DaVinci Resolve", "url": "https://www.blackmagicdesign.com/products/davinciresolve", "comparison": "专业剪辑软件功能强大但学习曲线陡峭，无运动数据自动匹配功能"},
+                {"name": "Garmin VIRB Edit", "url": "https://www.garmin.com", "comparison": "Garmin 自���视频工具支持数据叠加，但已停止更新且仅限 Garmin 设备"}
+            ]
+        }
+    },
+    {
+        "id": "producthunt.com/r/p/1208746",
+        "name": "Totem",
+        "slug": "totem-x-bookmarks",
+        "description": "Totem 是��款 Chrome 扩展，把���的 Twitter 书签变成沉浸式的阅读队列。每次打开新标签页，待读的书签就呈现在眼前，支持全文搜索、高亮标注、私人笔记和导出（Markdown/CSV/JSON）。本地优先设计，所有数据存储在浏览器本地，无需注册账号，无 Premium 订阅限制。还支持按热度/时间/内容类型过滤搜索，真正帮你「看完收藏的内容」。",
+        "url": "https://usetotem.xyz",
+        "homepage": "https://usetotem.xyz",
+        "type": "website",
+        "appStoreName": "Chrome Web Store",
+        "appStoreUrl": "https://chromewebstore.google.com/detail/twitter-x-bookmarks-on-ne/acpkgdfhoaalmnhjifhneghcgfnjkglo",
+        "screenshotUrl": None,
+        "appStoreScreenshots": [],
+        "tags": ["Twitter工具", "书签管理", "稍后阅读", "Chrome扩展", "���地优先"],
+        "sourceChannels": ["producthunt"],
+        "sourceUrl": "https://www.producthunt.com/r/p/1208746?app_id=339",
+        "firstSeen": NOW,
+        "metrics": {
+            "featuredInDaily": 1,
+            "featuredInWeekly": 0,
+            "lastFeaturedDate": TODAY
+        },
+        "analysis": {
+            "score": 7,
+            "scoreReason": "精准击中了 Twitter 深度用户「收藏=吃灰」的痛点，新标签页阅��队列和丰富的搜索过滤是亮点。本地优先和隐私设计是差异化优势。但作为 Chrome 扩��功能上限有限，且依赖 X 平台登录态。",
+            "targetAudience": "Twitter/X 重度用户，收藏了大量帖子但从不回头看、希望系统化管理阅读内容的人",
+            "useCases": [
+                "新标签页自动显示待读的 Twitter 书签，避免被 Feed 分散注意力",
+                "用全文搜索和过滤器快速找到数月前收藏的某个帖子",
+                "高亮标注推文中的关键段落并添加私人���记",
+                "导��书签库为 Markdown/CSV/JSON，备份或迁移到其他工具",
+                "离线环境下继续阅读已缓存的收藏内容"
+            ],
+            "designIntent": "绝大���数 Twitter 用户的收藏功能只是一个「心理安全网」——收藏后再也没打开过。Totem 想打破这个模式，让书签变成真正可消费的内容队列，而不是数字垃圾场。",
+            "problemSolved": "Twitter 收藏功能的设计缺陷：书签没有分类、无法搜索、被算法 Feed 淹没。用户往往收藏后再也找不到或懒得看。Totem ��书签转化为新标签页的阅读队列，提供全文搜索和标注功能，让收藏的内容真正被消费。",
+            "tags": ["Twitter工具", "书签管理", "稍后阅读", "Chrome扩展", "���地优先"],
+            "competitors": [
+                {"name": "Pocket", "url": "https://getpocket.com", "comparison": "通用稍后阅读工具，支持多平台但不专门针对 Twitter 书签优化"},
+                {"name": "Notion + Save to Notion", "url": "https://www.notion.so", "comparison": "可手动保存推文到 Notion 但体���割裂，需要多个步骤才能完成保存"},
+                {"name": "readwise.io", "url": "https://readwise.io", "comparison": "Readwise 支持从多处导入内容但需要付费订阅，Totem 免费且本地优先"}
+            ]
+        }
+    },
+    {
+        "id": "v2ex.com/t/1230937",
+        "name": "AI私厨",
+        "slug": "ai-si-chu",
+        "description": "AI私厨是一款专注于「做饭决策」的 AI 应用。拍一下冰箱里的��材，或直接文字/语音描述，AI 就能从几千集真人烹饪视频中精准匹配��你能做的菜。支持家常菜、减脂餐、快手菜等多种分类，还提供 AI 菜谱推荐和厨房百事通问答。H5 即开即用，无需下载，覆盖安卓/iOS。",
+        "url": "https://www.aisichu.site",
+        "homepage": "https://www.aisichu.site",
         "type": "website",
         "appStoreName": None,
         "appStoreUrl": None,
-        "screenshotUrl": "assets/screenshots/producthunt.com_products_connectmachine2_20260714_115931.png",
+        "screenshotUrl": None,
         "appStoreScreenshots": [],
-        "tags": ["数字名片", "人脉管理", "AI助手", "商务社交"],
-        "sourceChannels": ["producthunt"],
-        "sourceUrl": "https://www.producthunt.com/products/connectmachine-2",
-        "firstSeen": now.isoformat(),
+        "tags": ["AI烹饪", "食谱推荐", "食材识别", "饮食助手", "生活工具"],
+        "sourceChannels": ["v2ex"],
+        "sourceUrl": "https://www.v2ex.com/t/1230937",
+        "firstSeen": NOW,
+        "metrics": {
+            "featuredInDaily": 1,
+            "featuredInWeekly": 0,
+            "lastFeaturedDate": TODAY
+        },
         "analysis": {
-            "targetAudience": "创业者、投资人、商务人士、销售团队，以及经常参加行业会议和社交活动、需要高效管理人脉的职场人士。",
-            "useCases": [
-                "创建多张个性化数字名片（创始人/投资人/演讲者等不同身份），按场景选择性分享",
-                "用摄像头扫描纸质名片或二维码，AI 自动提取并补充联系信息",
-                "用自然语言查询人脉，AI 自动回忆见面背景和谈话要点",
-                "AI 会议记录功能，自动为每次会面生成摘要"
-            ],
-            "designIntent": "ConnectMachine 想做的是「你人脉圈的私人 AI 管家」，而不仅仅是另一个数字名片应用。它用 AI 解决传统名片管理的两大痛点：信息录入繁琐（自动扫描提取）和关系记忆模糊（AI 记录上下文）。强调隐私优先，无社交 Feed、无通知干扰。",
-            "problemSolved": "商务社交中收集的纸质名片和联系方式容易丢失，即使数字化后也难以记住谁是谁、在哪里见过、当时聊了什么。ConnectMachine 的 AI 能记住每次会面的上下文，让零散的社交关系变成可检索的人脉数据库。",
             "score": 7,
-            "scoreReason": "AI 在名片管理和人脉记忆场景中的应用非常自然，解决了真实痛点。隐私优先的设计理念符合高端用户需求。但市场竞争激烈（如 CamCard、HiHello），需要更强的 AI 差异化功能。",
+            "scoreReason": "\"拍冰箱找菜谱\"的需求非常真实、高频，特别是对于每天纠结「吃什么」的年轻上班族。AI 识别食材后匹配视频菜谱而非文��菜谱的定位有差异化。���视频匹配效果和食材识别准确率是���键考验，早期产���需验证核心体验。",
+            "targetAudience": "每天不知道吃什��、家里有食材但不会搭配的年轻上���族和做饭新手",
+            "useCases": [
+                "拍冰箱里的食材照片，AI 识别后推荐能做的菜",
+                "语音描述想吃的口味（如「酸辣的、有肉的」），AI 推荐匹配菜谱",
+                "文字搜索特定食材组合（如「鸡胸肉+���兰花+低脂」）��获取减脂餐推荐",
+                "学习烹饪中的火候、搭配等厨房知识问答",
+                "从「发现流」中浏览最新的热门菜谱视频"
+            ],
+            "designIntent": "年轻人每天面临的难题不是「不会做菜」，而是「不知道做什么」。AI私厨想用 AI 识别冰箱食材+视频菜谱库的方��，把做饭决策成本降到最低，让从「不知道吃什么」到「开始做」之间只有一个拍照的距离。",
+            "problemSolved": "每天纠结「吃什么」是高频率的日常痛点。传统菜谱 App 需要用户先想好做什么再搜索，而 AI私厨反其道而��之——基于���已有的食材推荐你能做的菜��降低决策成本。视���菜谱相比图文更直观易学。",
+            "tags": ["AI烹饪", "食谱推荐", "食材识别", "饮食助手", "生活工具"],
             "competitors": [
-                {"name": "HiHello", "url": "https://hihello.com", "comparison": "HiHello 是主流的数字名片应用，功能成熟但 AI 能力较弱。ConnectMachine 的 AI 对话查询和自动记忆功能是其核心差异化优势。"},
-                {"name": "CamCard", "url": "https://camcard.com", "comparison": "CamCard 擅长名片扫描识别，但缺少 AI 人脉管理和自然语言查询功能。ConnectMachine 的 AI Concierge 提供了更智能的人脉管理体验。"},
-                {"name": "Linq", "url": "https://linqapp.com", "comparison": "Linq 专注于数字名片分享，ConnectMachine 更强调 AI 驱动的联系人管理和网络洞察。"}
+                {"name": "下厨房", "url": "https://www.xiachufang.com", "comparison": "国内最大菜谱社区，内容海量但以图文为主且需要用户主动搜索；AI私厨的拍食材推荐是差异化体验"},
+                {"name": "豆果美食", "url": "https://www.douguo.com", "comparison": "老牌美食社区，AI 功能较弱；AI私厨的视频菜谱匹配和 AI 推荐更适合快节奏用户"},
+                {"name": "Mealime", "url": "https://www.mealime.com", "comparison": "国��流行的餐食规划 App，功能完善但面向西方饮食习惯且无中文内容支持"}
             ]
         }
     }
 ]
 
-# 写入日报
 report = {
-    "date": today,
-    "generatedAt": now.isoformat(),
+    "date": TODAY,
+    "generatedAt": NOW,
     "productCount": len(products),
     "products": products
 }
 
-report_path = f"{reports_dir}/{today}.json"
-with open(report_path, "w", encoding="utf-8") as f:
+# Write report
+report_path = f'/Volumes/EXTEND/aI-product-daily-peport/reports/daily/{TODAY}.json'
+with open(report_path, 'w', encoding='utf-8') as f:
     json.dump(report, f, ensure_ascii=False, indent=2)
-print(f"✅ 日报已写入: {report_path}")
 
-# 更新产品数据库
-with open(db_path, "r", encoding="utf-8") as f:
+print(f"✅ Report written to {report_path}")
+print(f"   Products: {len(products)}")
+for p in products:
+    print(f"   - {p['name']} (score: {p['analysis']['score']}) [channel: {', '.join(p['sourceChannels'])}]")
+
+# Update database
+db_path = '/Volumes/EXTEND/aI-product-daily-peport/data/products.json'
+with open(db_path, 'r', encoding='utf-8') as f:
     db = json.load(f)
 
-existing_ids = set(p["id"] for p in db["products"])
-new_count = 0
-for p in products:
-    product_id = p["id"]
-    if product_id not in existing_ids:
-        db_entry = {
-            "id": product_id,
-            "name": p["name"],
-            "slug": p["slug"],
-            "description": p["description"],
-            "url": p["url"],
-            "homepage": p["homepage"],
-            "type": p["type"],
-            "appStoreName": p.get("appStoreName"),
-            "appStoreUrl": p.get("appStoreUrl"),
-            "platforms": [],
-            "categories": [],
-            "tags": p["tags"],
-            "firstSeen": p["firstSeen"],
-            "lastSeen": now.isoformat(),
-            "cooldownExpiresAt": expires,
-            "versions": [],
-            "sourceChannels": p["sourceChannels"],
-            "mentions": [{
-                "date": now.isoformat(),
-                "channel": p["sourceChannels"][0],
-                "url": p["sourceUrl"],
-                "title": p["name"]
-            }],
-            "analysis": p["analysis"],
-            "metrics": {
-                "weeklyViews": 0,
-                "growthRate": 0,
-                "featuredInDaily": True,
-                "featuredInWeekly": False
-            },
-            "screenshotUrl": p.get("screenshotUrl"),
-            "appStoreScreenshots": p.get("appStoreScreenshots", []),
-            "rawData": {}
-        }
-        db["products"].append(db_entry)
-        existing_ids.add(product_id)
-        new_count += 1
-        print(f"  ➕ 新增: {p['name']}")
+COOLDOWN_DAYS = 14
+cooldown_expiry = (datetime.now(timezone.utc) + timedelta(days=COOLDOWN_DAYS)).strftime('%Y-%m-%dT23:59:59Z')
+
+existing_ids = {p['id'] for p in db['products']}
+for product in products:
+    if product['id'] not in existing_ids:
+        product['addedAt'] = NOW
+        product['cooldownExpiresAt'] = cooldown_expiry
+        db['products'].append(product)
+        print(f"   ✅ Added to DB: {product['name']} ({product['id']})")
     else:
-        for existing in db["products"]:
-            if existing["id"] == product_id:
-                existing["cooldownExpiresAt"] = expires
-                existing["metrics"]["featuredInDaily"] = True
-                existing["lastSeen"] = now.isoformat()
-                existing["mentions"].append({
-                    "date": now.isoformat(),
-                    "channel": p["sourceChannels"][0],
-                    "url": p["sourceUrl"],
-                    "title": p["name"]
-                })
-                print(f"  🔄 更新: {p['name']}（冷却期延长至 14 天后）")
-                break
+        print(f"   ⚠️ Already in DB: {product['name']}")
 
-db["lastUpdated"] = now.isoformat()
-db["version"] = db.get("version", 1) + 1
+db['lastUpdated'] = NOW
+db['version'] = db.get('version', 1)
 
-with open(db_path, "w", encoding="utf-8") as f:
+with open(db_path, 'w', encoding='utf-8') as f:
     json.dump(db, f, ensure_ascii=False, indent=2)
 
-total = len(db["products"])
-print(f"✅ 数据库已更新: 共 {total} 个产品（新增 {new_count} 个）")
+print(f"\n✅ Database updated: {len(db['products'])} total products")
