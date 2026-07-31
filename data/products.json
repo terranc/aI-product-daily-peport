@@ -1,6 +1,6 @@
 {
   "version": 9,
-  "lastUpdated": "2026-07-30T03:57:49.478674+00:00",
+  "lastUpdated": "2026-07-31T03:59:29.583319+00:00",
   "products": [
     {
       "id": "producthunt.com/r/p/1198621",
@@ -19184,6 +19184,361 @@
       },
       "addedAt": "2026-07-30T03:57:49.478674+00:00",
       "cooldownExpiresAt": "2026-08-13T23:59:59Z"
+    },
+    {
+      "id": "apps.apple.com/us/app/keeperssmartglassescamera/id6792932390",
+      "product_id": "apps.apple.com/us/app/keeperssmartglassescamera/id6792932390",
+      "name": "Keepers - 智能眼镜 AI 记录助手",
+      "slug": "keepers",
+      "description": "Keepers 是一款专为 Meta 智能眼镜打造的 AI 相机应用。它会利用眼镜摄像头每 10 秒自动拍摄照片或视频，并由 AI 判断哪些画面值得保留（支持后台和锁屏运行），还能生成每日精彩回顾，所���素材直接存入手机——这是眼镜原生相机做���到的。",
+      "url": "https://apps.apple.com/us/app/keepers-smart-glasses-camera/id6792932390",
+      "homepage": "https://apps.apple.com/us/app/keepers-smart-glasses-camera/id6792932390",
+      "type": "app",
+      "appStoreName": "Keepers",
+      "appStoreUrl": "https://apps.apple.com/us/app/keepers-smart-glasses-camera/id6792932390",
+      "screenshotUrl": "assets/screenshots/apps.apple.com_us_app_keeperssmartglassescamera_id6792932390_20260731_115750.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "智能眼镜",
+        "AI摄影",
+        "生活���录",
+        "自动抓拍",
+        "穿���设备"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49116236",
+      "firstSeen": "2026-07-30T21:44:39Z",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-07-31"
+      },
+      "analysis": {
+        "score": 9,
+        "scoreReason": "把 AI 融入智能眼镜这一新兴硬件场景，自动筛选值得保留的瞬间，概念新颖且直击「拍了太多、懒得整理」的痛点。Meta Display 眼镜刚开放第三方开发就抢先推出，差异化明显，但依赖 Meta 平台生态、对眼镜硬件有强绑定。",
+        "targetAudience": "Meta 智能眼��用户及想无感记录生���瞬间的普通消费者",
+        "useCases": [
+          "日常出行时自动记录值得保留的画面，不用掏手机",
+          "旅行、户外活动中无感抓拍高光时刻",
+          "会议、讲座场景自动捕捉关键画面",
+          "亲子、宠物场景不错过珍贵瞬间",
+          "生成每日精彩回顾，一键整理素材"
+        ],
+        "designIntent": "Meta 眼镜的摄像头天然适合持续记录，但大量素材难以整理。开发者用 AI 自动判断画面价值，把「持续拍摄」变成「自动精选」，解决用户不想逐帧翻素材的麻烦。",
+        "problemSolved": "解决了智能眼镜拍摄素材冗杂、手工整理费时的问题：AI 每 10 秒评估一帧画面决定是否保留，素材直接同步到手机，还提供每日回顾，让记录变得无感而高效。",
+        "tags": [
+          "智能眼镜",
+          "AI摄影",
+          "生活���录",
+          "自动抓拍",
+          "穿戴设备"
+        ],
+        "competitors": [
+          {
+            "name": "Meta View",
+            "url": "https://www.meta.com/help/smart-glasses",
+            "comparison": "Meta 官方眼镜配套应用，负责基础拍摄和传输，但缺少 AI 自动筛选与每日回顾能力"
+          },
+          {
+            "name": "Snapchat for Spectacles",
+            "url": "https://www.spectacles.com",
+            "comparison": "Snap 眼镜���社交化拍摄方案，侧重分享生态，Keepers 更专注个人素材的 AI 精选与沉淀"
+          },
+          {
+            "name": "Google Recorder",
+            "url": "https://recorder.google.com",
+            "comparison": "同为 AI 自动整理语音/记录的思路，但场景是手机录音而非智能眼镜影像"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-08-14T03:59:29.583319+00:00",
+      "addedAt": "2026-07-31T03:59:29.583319+00:00"
+    },
+    {
+      "id": "producthunt.com/r/p/1210286",
+      "product_id": "producthunt.com/r/p/1210286",
+      "name": "Pally - iMessage 里的 AI 私人助手",
+      "slug": "pally",
+      "description": "Pally 是一个住在 iMessage 里的 AI 私人助手，无需下载 App 或注册账号，直接给它发短信即可使用。它能接入 WhatsApp、Gmail、日历、Notion、Slack 等，帮你标记重要消息、草拟回复、跟踪待办、做研究甚至预订餐厅，所有外发操作都会先经你确认。",
+      "url": "https://www.pally.com/",
+      "homepage": "https://www.pally.com/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1210286_20260731_115757.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI助手",
+        "iMessage",
+        "个人效率",
+        "消��自动化",
+        "生活管家"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/pally",
+      "firstSeen": "2026-07-29T19:31:47-07:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-07-31"
+      },
+      "analysis": {
+        "score": 8,
+        "scoreReason": "把 AI 助手直��嵌进 iMessage，交互零学习成本、自然融入日常沟通，是同类产品里少有的「对话即服务」形态。上���文聚合能力强、隐私边界（零保留 + 外发确认）设计得当，免费期内有很强口碑扩散潜力。",
+        "targetAudience": "信息过载、事务繁杂的忙碌人群，尤其是重度使用 iMessage 和 WhatsApp 的 Apple 用户",
+        "useCases": [
+          "度假归来从几百封邮件中快速定位真正重要的几条并草拟回复",
+          "让 AI 盯紧群聊中需要回复的消息，避免把朋友晾在一边",
+          "会议中自动记录并生成行动项，同步到 Notion",
+          "跟踪生日、续费等关键日期，提前提醒并代办",
+          "研究资料、预订餐厅等生活杂务一句话交给助手"
+        ],
+        "designIntent": "大多数 AI 助手要求用户打开新 App 或网页，违背「越方便越会用」的原则。Pally 让助手变成通讯录里的一个联系人，用发短信的方式完成委托，把 AI 从工具降维成「一个靠谱的朋友」。",
+        "problemSolved": "解决邮件、日历、消息分散在多平台导致的信息过载与事务遗漏：Pally 聚合上下文、主动提醒、代拟代办，同时用「外发必确认 + AI 零数据保留」守住隐私和安全的边界。",
+        "tags": [
+          "AI助手",
+          "iMessage",
+          "个人效率",
+          "消息自动化",
+          "生活管家"
+        ],
+        "competitors": [
+          {
+            "name": "Bo AI",
+            "url": "https://www.producthunt.com/products/bo-ai",
+            "comparison": "同品类「住在短信里的助手」，Bo AI 起步更早，Pally 在上下文聚合与自动化深度上更完整"
+          },
+          {
+            "name": "Google Assistant / Siri",
+            "url": "https://assistant.google.com",
+            "comparison": "系统级助手偏命令执行，缺乏跨平台上下文理解和主动跟进能力"
+          },
+          {
+            "name": "Claude / ChatGPT 官方应用",
+            "url": "https://chatgpt.com",
+            "comparison": "聊天式通用助手需要打开应用并主动发问，Pally 是常驻消息流的主动型助手"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-08-14T03:59:29.583319+00:00",
+      "addedAt": "2026-07-31T03:59:29.583319+00:00"
+    },
+    {
+      "id": "producthunt.com/r/p/1190976",
+      "product_id": "producthunt.com/r/p/1190976",
+      "name": "CraftStory - 照片级 AI 真人视频生成",
+      "slug": "craftstory",
+      "description": "CraftStory 由 OpenCV 团队打造，能把一张照片���成最长 5 分��、身份一致、口型精准的照片级真人讲解视频。支持 30+ 语言的本地化配音，内置 Video Agent 可自动写脚本、配 B-roll 和字幕，无需摄像机、影棚和剪辑团队。",
+      "url": "https://craftstory.com/",
+      "homepage": "https://craftstory.com/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1190976_20260731_115802.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI视频生成",
+        "数字人",
+        "内容营销",
+        "UGC广告",
+        "多语言本地化"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/craftstory",
+      "firstSeen": "2026-07-08T02:28:11-07:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-07-31"
+      },
+      "analysis": {
+        "score": 8,
+        "scoreReason": "长视频身份一致性是 AI 视频生成的核心难题，CraftStory 用并行扩散架构做到 5 分钟不漂移，技术壁垒明显且有 OpenCV 团队背书。营销、培训、电��场景商业价值清晰，但需关注数字人真实度带来的深度伪造伦理风险。",
+        "targetAudience": "需要批量产出真人讲解视频的市场营销团队、内容创作者、��训与电商卖家",
+        "useCases": [
+          "一张照片加一段脚本生成 UGC 风格广告",
+          "产品演示与功能介绍视频快速迭代",
+          "培训课件、SOP 讲��视频批量制作",
+          "同一脚本生成 30+ 语言本地化版本",
+          "高管发言、品牌公��的发言人视频"
+        ],
+        "designIntent": "OpenCV 团队看到现有 AI 视频工具只能生成几秒短片且人脸漂移，于是构建了保持身份一致、口型精准的长视频模型，让没有摄影团队的公司也能以极低成本产出媲美实拍的视频。",
+        "problemSolved": "解决传统视频��作成本高、周期长、改版慢的痛点：一张照片 + 脚本即可���成最长 5 分钟、口型表情自然的真人视频，支持 30+ 语言，实现「改文案就能重新生成」的高效迭代。",
+        "tags": [
+          "AI视频生成",
+          "数字人",
+          "内容营销",
+          "UGC广告",
+          "多语言本地化"
+        ],
+        "competitors": [
+          {
+            "name": "HeyGen",
+            "url": "https://www.heygen.com",
+            "comparison": "数字人视频头部玩家，模���丰富；CraftStory 在长视频身份一致性与真实感上更强"
+          },
+          {
+            "name": "Synthesia",
+            "url": "https://www.synthesia.io",
+            "comparison": "面向企业培训的视频平台，定制化程度高；CraftStory 更轻量、上手更快"
+          },
+          {
+            "name": "D-ID",
+            "url": "https://www.d-id.com",
+            "comparison": "主打照片驱动的对话视频，CraftStory 在长片段、手势表情丰富度上更胜一筹"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-08-14T03:59:29.583319+00:00",
+      "addedAt": "2026-07-31T03:59:29.583319+00:00"
+    },
+    {
+      "id": "producthunt.com/r/p/1208527",
+      "product_id": "producthunt.com/r/p/1208527",
+      "name": "Caimera - 时尚团队 AI 视觉制作平台",
+      "slug": "caimera",
+      "description": "Caimera 是面���时尚品牌的 AI 视觉制作平台，覆���从设计草图到电商上架的全流程：草图转真实感成衣渲染、平铺图批量生成���特上身图、品牌定制 AI 模特与数字孪生、一键换背景和 4K 放大等。已服务 H&M、Puma、Steve Madden ��� 1000+ 品牌。",
+      "url": "https://www.caimera.ai/",
+      "homepage": "https://www.caimera.ai/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1208527_20260731_115811.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI时尚摄影",
+        "电商视觉",
+        "AI模特",
+        "服装设计",
+        "批量出���"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/caimera-2",
+      "firstSeen": "2026-07-28T00:17:55-07:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-07-31"
+      },
+      "analysis": {
+        "score": 8,
+        "scoreReason": "深耕时尚垂直场景，从草图到电商视觉全链���覆盖，且��� H&M、Puma 等大牌背书和可量化的 ROI 数据（成本降 99.3%、销量提升 7.3 倍）。AI 模特版权与真实性披露的行业伦理问题仍需持续观察���",
+        "targetAudience": "时尚电商品牌、服装设计师、电商营销团队和广��代理公司",
+        "useCases": [
+          "平铺图批量生成模特上身图，一天完成整季目录",
+          "设计草图快速渲染成真实感成衣效果图",
+          "训练品牌专属 AI 模特与数字孪生",
+          "电商产品图批量换背景、换模特、4K 放大",
+          "生成 TikTok/Reels 等广告短视频素材"
+        ],
+        "designIntent": "传统时尚拍摄成本高昂、周期长，小品牌难以承受。Caimera 希望让品牌从「草图到上架」全流程 AI 化，用可商用、版权无忧的 AI 模特和批量工作流替代昂贵摄影棚。",
+        "problemSolved": "解��时尚品牌拍摄成本高（降低约 99%）、交付慢（提速约 10 倍）的问题，同时通过品牌定制模型保证视觉一致性、���供无限次免费修改和权益无争议的可商用���出。",
+        "tags": [
+          "AI时尚摄影",
+          "电商视觉",
+          "AI模特",
+          "���装设计",
+          "批量出图"
+        ],
+        "competitors": [
+          {
+            "name": "FASHN AI",
+            "url": "https://www.fashn.ai",
+            "comparison": "主打平铺图转模特上身图，功能单点；Caimera 覆盖从草图、目录到视频的全流程"
+          },
+          {
+            "name": "Botika",
+            "url": "https://www.botika.com",
+            "comparison": "面向电商的 AI 模特图工具，价格灵活；Caimera 在品牌定制模型和批量化能力上更强"
+          },
+          {
+            "name": "Midjourney",
+            "url": "https://www.midjourney.com",
+            "comparison": "通用图像生成，创意自由度高但不保证商品细节准确，难以用于电商正式素材"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-08-14T03:59:29.583319+00:00",
+      "addedAt": "2026-07-31T03:59:29.583319+00:00"
+    },
+    {
+      "id": "v2ex.com/t/1231165",
+      "product_id": "v2ex.com/t/1231165",
+      "name": "Fretseek - AI 吉他乐理指板学习",
+      "slug": "fretseek",
+      "description": "Fretseek 是一款 AI 驱动的吉���乐理与指板学习工具：通过一次测试了解你的水平，生成每日 10 分钟的定制练习，并根据你每天的完成表现动态调整课程内容，涵盖音阶、和弦、指法等基础乐理，让碎片时间也能系统学吉他。",
+      "url": "https://www.fretseek.com/",
+      "homepage": "https://www.fretseek.com/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/v2ex.com_t_1231165_20260731_115819.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "吉他学习",
+        "乐理教学",
+        "AI自适应",
+        "音乐教育",
+        "指板练习"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "sourceUrl": "https://www.v2ex.com/t/1231165",
+      "firstSeen": "2026-07-31T00:00:00+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-07-31"
+      },
+      "analysis": {
+        "score": 7,
+        "scoreReason": "AI 自适应课程设计有亮点，针对「每天 10 分钟」碎片化学习场���精准切入，测试-练习-反馈闭环完整。但产品较新、功能深度有限，与成熟音乐教育产品��比内容和生态尚浅，GitHub 开源也有助于快速迭代。",
+        "targetAudience": "想系统学习乐理与指板但缺乏练习计划的吉他初学者",
+        "useCases": [
+          "新手通过水平测试获得每日 10 分钟定制课程",
+          "利用碎片时间学习音阶、和弦与��法",
+          "根据每日表现动态调整后续练习难度",
+          "巩固乐理知识、理解指板音位关系",
+          "配合实体吉他练习后的自测与复习"
+        ],
+        "designIntent": "开发者发现自学吉他最大的问题是乐理枯燥、不知从何练起，于是用 AI 做了一个「先测试再给课、按表现调课」的自适应工具，让每天 10 分钟的练习更有针对性。",
+        "problemSolved": "解决吉他自学者缺乏系统性计划和反馈的痛点：AI 根据水平测试和每日表现动态生成个性化课程，把枯燥的乐理指板学习变成可坚持、可量化的每日小任务。",
+        "tags": [
+          "吉他学习",
+          "乐理教学",
+          "AI自适应",
+          "��乐教育",
+          "指板练习"
+        ],
+        "competitors": [
+          {
+            "name": "Yousician",
+            "url": "https://yousician.com",
+            "comparison": "乐器教学头部产品，游戏化程度高；Fretseek ���专注乐理指板深度和 AI 自适应"
+          },
+          {
+            "name": "Fender Play",
+            "url": "https://www.fender.com/play",
+            "comparison": "Fender 出品课程体系成熟，但缺少按个人表现动态调课的能力"
+          },
+          {
+            "name": "Simply Guitar",
+            "url": "https://www.hellosimply.com/guitar",
+            "comparison": "面向初学者的视频教学 App，交互优秀但乐理指板体系不如 Fretseek 聚焦"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-08-14T03:59:29.583319+00:00",
+      "addedAt": "2026-07-31T03:59:29.583319+00:00"
     }
   ],
   "tracking": {

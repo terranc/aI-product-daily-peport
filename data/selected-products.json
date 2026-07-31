@@ -1,0 +1,62 @@
+[
+  {
+    "id": "apps.apple.com/us/app/keeperssmartglassescamera/id6792932390",
+    "name": "Keepers",
+    "slug": "keepers",
+    "url": "https://apps.apple.com/us/app/keeperssmartglassescamera/id6792932390",
+    "homepage": "https://apps.apple.com/us/app/keeperssmartglassescamera/id6792932390",
+    "type": "app",
+    "appStoreUrl": "https://apps.apple.com/us/app/keepers-jobs-for-cleaners/id6737248043?uo=4",
+    "screenshotUrl": "assets/screenshots/apps.apple.com_us_app_keeperssmartglassescamera_id6792932390_20260731_115750.png",
+    "appStoreScreenshots": [],
+    "appStoreName": "Keepers - Jobs for Cleaners"
+  },
+  {
+    "id": "producthunt.com/r/p/1210286",
+    "name": "Pally",
+    "slug": "pally",
+    "url": "https://www.pally.com/",
+    "homepage": "https://www.pally.com/",
+    "type": "website",
+    "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1210286_20260731_115757.png",
+    "appStoreScreenshots": [],
+    "appStoreName": null,
+    "appStoreUrl": null
+  },
+  {
+    "id": "producthunt.com/r/p/1190976",
+    "name": "CraftStory",
+    "slug": "craftstory",
+    "url": "https://craftstory.com/",
+    "homepage": "https://craftstory.com/",
+    "type": "website",
+    "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1190976_20260731_115802.png",
+    "appStoreScreenshots": [],
+    "appStoreName": null,
+    "appStoreUrl": null
+  },
+  {
+    "id": "producthunt.com/r/p/1208527",
+    "name": "Caimera",
+    "slug": "caimera",
+    "url": "https://www.caimera.ai/",
+    "homepage": "https://www.caimera.ai/",
+    "type": "website",
+    "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1208527_20260731_115811.png",
+    "appStoreScreenshots": [],
+    "appStoreName": null,
+    "appStoreUrl": null
+  },
+  {
+    "id": "v2ex.com/t/1231165",
+    "name": "Fretseek",
+    "slug": "fretseek",
+    "url": "https://www.fretseek.com/",
+    "homepage": "https://www.fretseek.com/",
+    "type": "website",
+    "screenshotUrl": "assets/screenshots/v2ex.com_t_1231165_20260731_115819.png",
+    "appStoreScreenshots": [],
+    "appStoreName": null,
+    "appStoreUrl": null
+  }
+]
