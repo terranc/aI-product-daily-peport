@@ -5,7 +5,7 @@
 - 数据库去重 4 个（Honen、Wisprkey、Liso、Prosed，冷却期内）
 - LLM 过滤���术性产品后精选 TOP 5
 - 精选 TOP 5：PureBox（8分）、BrainFeed（8分）、Yoggi（7分）、TubeTutor（8分）、GG Translator（7分）
-- 来源渠道：Product Hunt 3个、V2EX 1个、Hacker News 1个
+- 来源渠道：Product Hunt 3 个、V2EX 1 个、Hacker News 1 个
 - 5/5 截图全部成功
 - 已部���到 GitHub Pages（main + gh-pages）
 - 产品数据库更新至 302 个产品（���增 5 个）
@@ -26,7 +26,7 @@
 - 数据库去重 0 个（无冷却重���）
 - LLM 过滤���术性产品后精选 TOP 5
 - 精选 TOP 5：Tag Your Photos��8分）、VoiceHop（8分）、Pinery Prose（7分）、EasyCircuit（8分）、SUB/WAVE（7分）
-- 来源渠道：Product Hunt 4个、Hacker News 1个
+- 来源渠道：Product Hunt 4个、Hacker News 1 个
 - 5/5 截图全部成功
 - 已部署到 GitHub Pages（main + gh-pages）
 - 产品数据库更新至 312 个产品（���增 5 个）
@@ -37,8 +37,20 @@
 - 数据库去重 4 个（Tag Your Photos、EasyCircuit、Pinery Prose、SUB/WAVE，冷却期内）
 - LLM 过滤技术性产品后精选 TOP 5
 - 精选 TOP 5：SoundGate Guitar��8分）、ClinicFrame（8分）、Edit Mind × Strava��7分）、Totem��7分）、AI私厨（7分���
-- 来源渠道：Product Hunt 4个、V2EX 1个
+- 来源渠道：Product Hunt 4个、V2EX 1 个
 - 5/5 ���图全部成功
 - 已部署到 GitHub Pages（main + gh-pages）
 - 产品数据库更新至 317 个产品（新增 5 个）
+- 使用内置 LLM 能力进行产品筛选和分析
+
+## 2026-07-31 执行摘要
+- 抓取 184 个候选（Twitter 50、V2EX 39、HN 30、PH 50、Reddit 15）
+- 数据库去重 4 个（SoundGate Guitar、ClinicFrame、Totem、Tag Your Photos，冷却期内）
+- LLM 过滤技术性产品后精选 TOP 5
+- 精选 TOP 5：Keepers（9分）、Pally（8分）、CraftStory（8分）、Caimera（8分）、Fretseek（7分）
+- 来源渠道：Product Hunt 3 个、Hacker News 1 个、V2EX 1 个
+- 5/5 截图全部成功；Keepers 的 appStoreUrl 被截图脚本误解析为其他 app，已手动修正为其自身 App Store 链接
+- URL 验证：Virre、Cercle、Fluent 官网无法确认，已替换为可验证官网的产品（Caimera、CraftStory、Pally）
+- 已部署到 GitHub Pages（main + gh-pages）
+- 产品数据库更新至 322 个产品（新增 5 个）
 - 使用内置 LLM 能力进行产品筛选和分析

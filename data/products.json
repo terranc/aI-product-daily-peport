@@ -1,6 +1,6 @@
 {
   "version": 9,
-  "lastUpdated": "2026-07-31T03:59:29.583319+00:00",
+  "lastUpdated": "2026-08-02T04:00:57.597926+00:00",
   "products": [
     {
       "id": "producthunt.com/r/p/1198621",
@@ -19539,6 +19539,361 @@
       },
       "cooldownExpiresAt": "2026-08-14T03:59:29.583319+00:00",
       "addedAt": "2026-07-31T03:59:29.583319+00:00"
+    },
+    {
+      "id": "producthunt.com/r/p/1210006",
+      "name": "Focus Room - 把 YouTube 变成个人学习平台",
+      "slug": "focus-room",
+      "description": "Focus Room 是一个将 YouTube 播放列表转化为结构化课程的学习平台。它去除广告、评论、推荐视频等干扰元素，支持字幕搜索、时间戳笔记、书签收藏、进度追踪，并用 AI 生成视频摘要，帮助你把被动刷视频变成主动系统化学习。",
+      "url": "https://focusroom.club",
+      "homepage": "https://focusroom.club",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "tags": [
+        "AI学习",
+        "YouTube工具",
+        "在线教育",
+        "专注效率",
+        "笔记管理"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/focus-room",
+      "firstSeen": "2026-08-01T00:00:00Z",
+      "analysis": {
+        "score": 8,
+        "scoreReason": "YouTube 承载海量教育资源，但界面为娱乐设计，广告和推荐不断打断学习。Focus Room 用「课程化」思路重构播放列表，配合字幕搜索、时间戳笔记和 AI 摘要，直击自学场景核心痛点，概念清晰、落地完整。",
+        "targetAudience": "想通过 YouTube 系统化学习的自学者、学生和终身学习者",
+        "useCases": [
+          "把 YouTube 播放列表当作一门课程，按顺序学习并跟踪进度",
+          "看教学视频时去除广告、评论和推荐流，专注学习",
+          "边看视频边记时间戳笔记，之后按时间点快速回顾",
+          "搜索视频字幕，精确定位到知识点所在的片段",
+          "收藏课程和视频，跨设备同步自己的学习档案"
+        ],
+        "designIntent": "YouTube 上教育内容极多但缺少学习结构，观看时容易被推荐算法带偏。开发者把播放列表重构成课程、把视频变成带笔记的教材，让「被动观看」变成「主动学习」。",
+        "problemSolved": "解决在 YouTube 学习时易分心、内容无结构、笔记与视频割裂的问题：无干扰播放器 + 课程化组织 + AI 摘要，形成完整的学习闭环。",
+        "tags": [
+          "AI学习",
+          "YouTube工具",
+          "在线教育",
+          "专注效率",
+          "笔记管理"
+        ],
+        "competitors": [
+          {
+            "name": "Glasp",
+            "url": "https://glasp.co",
+            "comparison": "同为 YouTube 笔记工具，Glasp 侧重高亮摘录，Focus Room 更强调课程化结构与进度管理"
+          },
+          {
+            "name": "Coursera",
+            "url": "https://www.coursera.org",
+            "comparison": "正式课程平台有系统性内容，但需付费且无法利用 YouTube 的海量免费资源"
+          },
+          {
+            "name": "Notion 学习工作流",
+            "url": "https://www.notion.com",
+            "comparison": "通用笔记工具需自己搭建学习体系，Focus Room 开箱即用、学习路径自动生成"
+          }
+        ]
+      },
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1210006_20260802_115959.png",
+      "appStoreScreenshots": [],
+      "product_id": "producthunt.com/r/p/1210006",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-08-02"
+      },
+      "cooldownExpiresAt": "2026-08-16T04:00:57.597926+00:00",
+      "addedAt": "2026-08-02T04:00:57.597926+00:00"
+    },
+    {
+      "id": "producthunt.com/r/p/1201635",
+      "name": "Halo by Scam AI - 视频通话实时深度伪造检测",
+      "slug": "halo-scam-ai",
+      "description": "Halo 是一款在 Windows 上运行的实时深度伪造检测工具：它逐帧分析视频通话中的人脸，检测合成面孔和换脸攻击，在 Zoom、Teams、Meet、WebEx 等会议进行中实时弹出警报。所有检测都在本地设备完成，不录制、不上传、不留存任何画面数据。",
+      "url": "https://www.scam.ai/halo",
+      "homepage": "https://www.scam.ai/halo",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "tags": [
+        "深度伪造检测",
+        "视频安全",
+        "反诈防骗",
+        "AI安全",
+        "企业风控"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/halo-by-scam-ai",
+      "firstSeen": "2026-08-01T00:00:00Z",
+      "analysis": {
+        "score": 8,
+        "scoreReason": "AI 换脸和语音克隆让视频通话身份欺诈激增（如 2024 年 Arup 2.5 亿美元深度伪造电汇案），Halo 在通话进行中实时标记合成人脸，且全本地处理保护隐私，安全刚需与时代痛点兼备。",
+        "targetAudience": "财务、招聘、法务、高管助理等在高风险视频通话中做关键决策的企业团队",
+        "useCases": [
+          "转账审批前实时核实对方是否被 AI 换脸冒充",
+          "远程面试中检测候选人是否使用合成面孔",
+          "法务、合规远程会议防止身份冒用",
+          "高管助理识别异常审批请求中的伪造画面",
+          "资金管理与应付账款流程增加一道 AI 风控防线"
+        ],
+        "designIntent": "深度伪造已让「视频通话里看到的人」不再可信，而云端检测跟不上实时节奏且增加隐私暴露面。开发者把检测模型放在设备本地逐帧运行，让警报在钱转出之前送达。",
+        "problemSolved": "解决视频通话中无法确认对方真实身份的问题：本地实时检测合成人脸与换脸，覆盖 Zoom/Teams/Meet 等主流会议软件，且不录制、不传输任何会议数据。",
+        "tags": [
+          "深度伪造检测",
+          "视频安全",
+          "反诈防骗",
+          "AI安全",
+          "企业风控"
+        ],
+        "competitors": [
+          {
+            "name": "Reality Defender",
+            "url": "https://realitydefender.com",
+            "comparison": "企业级媒体取证平台，侧重事后批量检测，Halo 专注通话中的实时拦截"
+          },
+          {
+            "name": "Deepware Scanner",
+            "url": "https://deepware.ai",
+            "comparison": "开源深度伪造检测工具，面向单张图片/视频文件，不支持会议实时监控"
+          },
+          {
+            "name": "Microsoft Azure AI Content Safety",
+            "url": "https://azure.microsoft.com",
+            "comparison": "云上内容安全 API，检测粒度粗且需上传数据，Halo 本地处理更重隐私"
+          }
+        ]
+      },
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1201635_20260802_120004.png",
+      "appStoreScreenshots": [],
+      "product_id": "producthunt.com/r/p/1201635",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-08-02"
+      },
+      "cooldownExpiresAt": "2026-08-16T04:00:57.597926+00:00",
+      "addedAt": "2026-08-02T04:00:57.597926+00:00"
+    },
+    {
+      "id": "producthunt.com/r/p/1211566",
+      "name": "Kopai - AI 智能体知识变现市场",
+      "slug": "kopai",
+      "description": "Kopai 是一个零代码 AI 智能体市场：专家用自然语言描述自己擅长的领域并上传文档资料，几分钟内即可构建出「像自己一样回答问题」的专属智能体，一键发布到 marketplace 按消息收费，让专业知识 7×24 小时自动变现。",
+      "url": "https://usekopai.com",
+      "homepage": "https://usekopai.com",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "tags": [
+        "AI智能体",
+        "知识变现",
+        "创作者经济",
+        "零代码",
+        "市场平台"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/kopai",
+      "firstSeen": "2026-08-01T00:00:00Z",
+      "analysis": {
+        "score": 8,
+        "scoreReason": "AI 智能体能力已足够强，却缺乏标准化的打包、定价与分发渠道。Kopai 以「AI 智能体的 App Store」切入，把专家的隐性知识变成可销售的数字服务，市场模型清晰、变现路径直接。",
+        "targetAudience": "希望把专业知识规模化变现的顾问、教师、律师、行业专家及咨询机构",
+        "useCases": [
+          "教师封装课程答疑智能体，7×24 小时回答学生问题",
+          "行业顾问将多年经验做成可售咨询智能体，摆脱时薪限制",
+          "企业为客户搭建专属咨询机器人，降低人力响应成本",
+          "内容创作者用数据分析类智能体优化社交媒体策略",
+          "跨境咨询机构通过智能体把服务拓展到全球客户"
+        ],
+        "designIntent": "专业智能体大多困在封闭平台或个人仓库里，没有分发和变现的基础设施。Kopai 提供可视化构建器、按消息计费和结算体系，让知识型从业者零代码进入 AI 服务市场。",
+        "problemSolved": "解决专业知识难以规模化交付的问题：零代码构建智能体、一键上架市场、按消息收费、Stripe 分成结算，让专家从时薪模式转向被动收入。",
+        "tags": [
+          "AI智能体",
+          "知识变现",
+          "创作者经济",
+          "零代码",
+          "市场平台"
+        ],
+        "competitors": [
+          {
+            "name": "Coze / 扣子",
+            "url": "https://www.coze.com",
+            "comparison": "字节的智能体开发平台，侧重工具能力，Kopai 更强调市场分发与知识变现"
+          },
+          {
+            "name": "Poe",
+            "url": "https://poe.com",
+            "comparison": "聊天机器人平台支持创作者变现，但构建深度与细分领域市场不如 Kopai 专注"
+          },
+          {
+            "name": "Character.AI",
+            "url": "https://character.ai",
+            "comparison": "角色扮演向的 AI 平台，Kopai 面向真实专业知识服务与商业咨询场景"
+          }
+        ]
+      },
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1211566_20260802_115907.png",
+      "appStoreScreenshots": [],
+      "product_id": "producthunt.com/r/p/1211566",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-08-02"
+      },
+      "cooldownExpiresAt": "2026-08-16T04:00:57.597926+00:00",
+      "addedAt": "2026-08-02T04:00:57.597926+00:00"
+    },
+    {
+      "id": "v2ex.com/t/1231472",
+      "name": "AI Google Earth - 地图照片 AI 风格改写工具",
+      "slug": "aigoogleearth",
+      "description": "AI Google Earth 是一个用 AI 改写 Google Maps 地标照片风格的在线工具。作者发现 Google Earth 官方的「用 Nano Banana 改地点照片风格」体验入口悄然消失，便自己复刻了一个：选择或上传地点照片，即可用 AI 生成插画风、赛博朋克风等不同风格的建筑街景图像。",
+      "url": "https://aigoogleearth.app",
+      "homepage": "https://aigoogleearth.app",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "tags": [
+        "AI图像生成",
+        "地图美化",
+        "创意工具",
+        "照片风格化",
+        "街景"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "sourceUrl": "https://www.v2ex.com/t/1231472",
+      "firstSeen": "2026-08-01T00:00:00Z",
+      "analysis": {
+        "score": 7,
+        "scoreReason": "把 AI 图像风格化能力套在地图场景上，创意有趣、门槛极低，填补了 Google 官方功能下线后的空白。虽是个人复刻项目，但需求真实、玩法轻巧，适合内容创作与趣味分享。",
+        "targetAudience": "地图与街景爱好者、设计师、内容创作者以及爱玩 AI 图像工具的普通用户",
+        "useCases": [
+          "把普通街景照片改写成插画风、赛博朋克风等艺术风格",
+          "为旅行攻略、城市介绍生成风格化的地标配图",
+          "把家乡地标变成可分享的艺术画作",
+          "制作创意社交内容与短视频素材",
+          "体验用 AI 重新「绘制」世界各地的知名地点"
+        ],
+        "designIntent": "Google Earth 曾短暂提供过用 Nano Banana 改地点照片风格的体验，让用户能「换一种画风看世界」，下线后作者发现没有替代品，于是自己动手复刻，满足这份玩地图的乐趣。",
+        "problemSolved": "填补 Google 官方地图照片风格化体验下线后的空白，让任何人都能轻松把地图场景照片改写为多种艺术风格，无需任何图像处理技能。",
+        "tags": [
+          "AI图像生成",
+          "地图美化",
+          "创意工具",
+          "照片风格化",
+          "街景"
+        ],
+        "competitors": [
+          {
+            "name": "Google Earth Nano Banana",
+            "url": "https://earth.google.com",
+            "comparison": "Google 官方实验功能，已悄然下线，AI Google Earth 是独立复刻替代品"
+          },
+          {
+            "name": "NightCafe",
+            "url": "https://nightcafe.studio",
+            "comparison": "通用 AI 艺术生成平台，功能强大但面向专业创作者，上手门槛较高"
+          },
+          {
+            "name": "美图 AI 滤镜类应用",
+            "url": "https://www.meitu.com",
+            "comparison": "偏人像美化与社交分享，地图场景专属风格化是 AI Google Earth 的差异化"
+          }
+        ]
+      },
+      "screenshotUrl": "assets/screenshots/v2ex.com_t_1231472_20260802_115918.png",
+      "appStoreScreenshots": [],
+      "product_id": "v2ex.com/t/1231472",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-08-02"
+      },
+      "cooldownExpiresAt": "2026-08-16T04:00:57.597926+00:00",
+      "addedAt": "2026-08-02T04:00:57.597926+00:00"
+    },
+    {
+      "id": "x.com/philo2022/status/2083474328679846247",
+      "name": "Dopamind - 为 ADHD 人群设计的 AI 规划助手",
+      "slug": "dopamind",
+      "description": "Dopamind 是一款专为 ADHD 人群设计的 AI 任务规划应用：语音一句话记录想法，AI 自动拆解成可执行的小步骤；独创「Vibe Working」心流专注模式，用番茄钟加 AI 鼓励推动执行；可视化多巴胺反馈把完成任务变成游戏化体验。内置药物与补剂提醒、冰箱食物保质期管理等生活管家功能。",
+      "url": "https://dopamind.app",
+      "homepage": "https://dopamind.app",
+      "type": "app",
+      "appStoreName": "Dopamind",
+      "appStoreUrl": "https://apps.apple.com/us/app/dopamind-everyday-ai-partner/id6747915249",
+      "tags": [
+        "ADHD",
+        "AI规划",
+        "任务管理",
+        "心理健康",
+        "语音输入"
+      ],
+      "sourceChannels": [
+        "twitter"
+      ],
+      "sourceUrl": "https://x.com/philo2022/status/2083474328679846247",
+      "firstSeen": "2026-08-01T00:00:00Z",
+      "analysis": {
+        "score": 7,
+        "scoreReason": "把 AI 的「替人拆解复杂任务」能力对准 ADHD 群体启动困难的核心痛点，配合多巴胺反馈机制形成差异化体验。垂直人群定位精准，但产品仍属早期，需观察任务拆解质量与留存效果。",
+        "targetAudience": "ADHD 群体以及存在任务启动困难、注意力分散问题的职场人士与学生",
+        "useCases": [
+          "用语音把脑子里的一堆想法瞬间变成待办任务",
+          "把「写一份实验报告」这类大任务 AI 自动拆成小步骤逐个击破",
+          "番茄钟 + AI 鼓励的「Vibe Working」心流专注模式",
+          "药物、补剂按时服用提醒，避免漏服",
+          "冰箱食物自动记录保质期，防止过期浪费"
+        ],
+        "designIntent": "ADHD 用户面对复杂任务容易陷入「启动瘫痪」，传统清单工具需要强大的意志力去维护。Dopamind 用 AI 替用户完成整理和拆解，再用快速反馈的多巴胺机制把执行变成游戏，成为 ADHD 人群的「外骨骼」。",
+        "problemSolved": "解决 ADHD 人群任务启动困难、规划繁琐的问题：只需开口说话，AI 负责整理、拆解并推动执行，以即时奖励维持行动动力，降低对意志力的依赖。",
+        "tags": [
+          "ADHD",
+          "AI规划",
+          "任务管理",
+          "心理健康",
+          "语音输入"
+        ],
+        "competitors": [
+          {
+            "name": "Goblin Tools",
+            "url": "https://goblin.tools",
+            "comparison": "同为面向神经多样性人群的 AI 任务拆解工具，Dopamind 多了专注模式与生活管家功能"
+          },
+          {
+            "name": "Todoist",
+            "url": "https://todoist.com",
+            "comparison": "通用任务管理标杆，功能强大但需要用户自己规划结构，对 ADHD 用户不友好"
+          },
+          {
+            "name": "Notion",
+            "url": "https://www.notion.com",
+            "comparison": "灵活度高但学习成本与搭建成本高，Dopamind 主打「不用搭建、开口即用」"
+          }
+        ]
+      },
+      "screenshotUrl": "assets/screenshots/x.com_philo2022_status_2083474328679846247_20260802_115928.png",
+      "appStoreScreenshots": [],
+      "product_id": "x.com/philo2022/status/2083474328679846247",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-08-02"
+      },
+      "cooldownExpiresAt": "2026-08-16T04:00:57.597926+00:00",
+      "addedAt": "2026-08-02T04:00:57.597926+00:00"
     }
   ],
   "tracking": {
