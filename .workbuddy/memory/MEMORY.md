@@ -108,3 +108,8 @@ LLM_MODEL=gpt-4o-mini
 - **产品数据库更新**：数据库已更新至 327 个产品（新增 5 个）。(2026-08-02)
 - **App Store 同名不同产品陷阱**：iTunes 搜索按名称匹配可能返回同名但不同的 app（如 Dopamind 被解析为 DopaMind LLC 的 id6738889403，官方实为 id6747915249）。写入报告前需用 iTunes lookup 核对 sellerName 与版本号，确认与产品官网下载页一致。(2026-08-02)
 - **手动排除跨渠道重复**：同一产品在不同渠道的 product_id 不同（如 Honen 的 Twitter 推文 URL vs 官网域名），自动去重无法覆盖。需在 LLM 分析阶段手动检查近期精选产品名称，排除重复推荐。(2026-08-02)
+- **日报生成成功**：已成功生成 2026-08-03 日报，包含 5 个精选产品（Zinley、NudgeForMe、AI Visibility、PulseNotch、MovePlaybook）。(2026-08-03)
+- **产品数据库更新**：数据库已更新至 332 个产品（新增 5 个）。(2026-08-03)
+- **官网验证新陷阱**：域名返回 200 不一定是产品官网——zenwhisper.com 实为域名售卖页（DomainMarket）。验证官网时需检查页面内容与产品描述是否匹配，不能只看 HTTP 状态码。(2026-08-03)
+- **截图脚本文件名 unknown 问题**：`process_product_screenshots` 用 `product.get('id')` 生成截图文件名，若传入 dict 只有 `product_id` 字段则文件名为 `unknown_*`。调用时需同时传 `id` 字段或事后重命名。(2026-08-03)
+- **部署验证 CDN 延迟**：push gh-pages 后 GitHub 官方域名（terranc.github.io）即时 200，自定义域名（ai-daily.asdasd.vip）有约 2-3 分钟 CDN 缓存延迟，验证时需等待或直接用官方域名确认。(2026-08-03)
