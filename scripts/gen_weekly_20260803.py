@@ -1,0 +1,77 @@
+#!/usr/bin/env python3
+"""生成 2026-08-03 每周深度分析报告 - Zinley"""
+import json
+from datetime import datetime, timezone
+
+weekly = {
+    "date": "2026-08-03",
+    "generatedAt": datetime.now(timezone.utc).isoformat(),
+    "productCount": 1,
+    "type": "weekly",
+    "sourceDailyReport": "2026-08-03",
+    "products": [
+        {
+            "id": "producthunt.com/r/p/1137855",
+            "name": "Zinley - 你的 AI 个人代表",
+            "slug": "zinley",
+            "description": "Zinley 是拥有独立电话号码、邮箱和云端电脑的 AI 个人代表：能替你接打电话、回复邮件、处理文档和日常任务，记住你的人际关系与偏好，只在需要决策时才呼叫你。",
+            "url": "https://zinley.com",
+            "homepage": "https://zinley.com",
+            "type": "saas",
+            "tags": ["AI 个人助理", "电话代理", "邮件助手", "任务自动化", "个人效率"],
+            "sourceChannels": ["producthunt"],
+            "sourceUrl": "https://www.producthunt.com/products/zinley",
+            "firstSeen": "2026-05-03T00:49:53-07:00",
+            "analysis": {
+                "score": 9,
+                "scoreReason": "【深度调研亮点】(1) 产品 Hunt 首发即登顶——2026-08-02 上线 325 upvotes / 79 评论，当日 Productivity 与 AI 双榜第一，是 8 月第 2 周最具话题性的 AI 产品。(2) 端到端三件套——独有号码+邮箱+云端电脑一体，电话能真实通话（AI 通话开头主动披露身份）、邮件可 CC 接管线程、云端电脑 24h 自主执行，远超『聊天机器人』形态，是该品类目前最完整的落地。(3) 团队硬核——来自 Google、Apple、DeepMind、Netflix、PayPal 的研究者与工程师，创始人 Khoi Nguyen 在 PH 上对身份验证、信息真实性、隐私边界等刁钻问题的回应展现了罕见的工程深度。(4) 自研判断层 Real-World Reasoning——官方评测在 1,200 个『该不该开口』决策点上达 91% 准确率（Gemini 58%、GPT Realtime 51%），每 30 分钟误插话仅 0.3 次，是『代表你说话』类 AI 的关键技术壁垒。(5) 安全先行——SOC 2 Type II 审计中、零数据保留协议（OpenAI/Anthropic/Vertex）、多层提示注入防御，缓解『把号码和邮箱交给 AI』的最大信任阻力。",
+                "targetAudience": "忙碌的职场人、创业者与自由职业者，需要有人替自己处理电话、邮件和重复性事务",
+                "useCases": [
+                    "代接/代打电话：预约、客服沟通、电话面试初筛、帮你还价，AI 在自己的线路上真实通话并给出结构化摘要",
+                    "CC 邮件让它推进日程、跟进回复，自动把会议排进日历，全程用你的语气",
+                    "整理文档、汇总数据、起草报告，在云端电脑上自主执行并输出可审阅的成果物",
+                    "拦截骚扰电话与垃圾邮件，只有重要来电才转给你",
+                    "外出时保持在线，回家后收到当日工作简报"
+                ],
+                "designIntent": "世界围着一个人转，电话、邮件、琐事都堆在一个人身上。Zinley 想成为「你的延伸」：一个拥有自己号码、收件箱和电脑的 AI 分身，按你的规则对外代表你，而不是又一个聊天机器人。",
+                "problemSolved": "解决个人时间瓶颈——每天大量重复性沟通与事务占据精力。Zinley 用持久记忆+自主执行代替人工处理，遇到需要判断的时刻才呼叫本人，让人只做真正重要的决策。",
+                "tags": ["AI 个人助理", "电话代理", "邮件助手", "任务自动化", "个人效率"],
+                "competitors": [
+                    {
+                        "name": "Lindy",
+                        "url": "https://www.lindy.ai",
+                        "comparison": "Lindy（$50/月）是 2026 年评测中最完整的个人助理，擅长 agentic 工作流与深度集成，但语音委托与电话代答弱，且无独立号码/邮箱的对外身份。Zinley 的『真实通话+邮件接管』是 Lindy 不具备的外向能力。"
+                    },
+                    {
+                        "name": "Martin",
+                        "url": "https://www.martin.ai",
+                        "comparison": "Martin（$40/月）主打『打电话给你的助理』语音委托，通话质量好，但仅覆盖语音场景，无邮箱、云端电脑与持久身份。Zinley 覆盖面更广，但 Martin 在纯语音委托上更专注。"
+                    },
+                    {
+                        "name": "Sierra / 11x / Bland AI",
+                        "url": "https://sierra.ai",
+                        "comparison": "企业级 AI 客服/外呼代理（如 2024 年 Arup 案后兴起的反欺诈场景），服务 B2B 客户热线。Zinley 面向个人，代表的是『你』而非公司，身份与记忆机制完全不同。"
+                    },
+                    {
+                        "name": "ChatGPT / Gemini 等通用助手",
+                        "url": "https://chatgpt.com",
+                        "comparison": "通用对话助手是『被动响应』，Zinley 是『主动代表』——有自己的号码和身份、能主动回电回信、跨会话保持同一记忆。后者是前者没有的『人格化代理』层。"
+                    }
+                ]
+            },
+            "weeklyDeepDive": {
+                "growthData": "Zinley Inc 成立于 2024-08-28（Palo Alto，1-10 人），2026-03-03 发布 Living System 愿景，2026-04-20 上线代表电话功能（美加），2026-08-02 Product Hunt 首发即登顶：325 upvotes / 79 评论，当日 #1（Productivity 与 AI 双分类第一），超过第二名 Capptivo（263 票）约 24%。免费层提供 2,000 积分/月 + 首个免费电话号码（15 分钟/通话、1 路并发），Plus $20、Pro $100（标注『最受欢迎』）、Max $200、企业定制；Pro 及以上开放前沿模型与 20,000 积分。公开渠道未披露 ARR/用户数，但 PH 热度、评论区投资人/创始人密集互动表明其处于增长早期的高关注阶段。",
+                "communityActivity": "社区集中在 Product Hunt 首发讨论、Discord（discord.gg/XuTEW9Ggga）与 Reddit r/chatOrion。PH 评论质量极高：投资人 Aidan Quinn（LemmeBuyIt 创始人）称『邮件三筛选+日程是唯一值得付钱的事』；多位开发者追问信任边界——团队回应『流利对话≠身份认证，高层级任务不靠听起来对』、『不知道就不编造，宁可说我会查一下再回复』、『承诺的跟进是带状态的真实事项，不是可滑掉的提醒』，这些回答在评论区获广泛认可。用户反馈两面：正面认可真实通话体验与『自己的号码』概念；顾虑集中在通话身份伪造（caller-ID 可 spoof）、不可逆动作（发送/预订/付款）的护栏与审计、以及 AI 对『关于你的断言』的错误风险。",
+                "updateFrequency": "2026-03-03 Living System 愿景文章（The Second You）→ 2026-04-10 研究文章 The Interconnection Problem（解决孤立 Agent 之间的记忆/上下文断连）→ 2026-04-20 Zinley Representative 上线（真实电话号码，美加可用，多语言多时区）→ 2026-06-11 Real-World Reasoning 发布（判断何时该说话/沉默的判断层，全端上线）→ 2026-08-02 Product Hunt 首发。更新节奏为约 1-1.5 个月一次重大能力发布，配合持续的多模型路由升级（Claude/GPT/Gemini/Kimi/Qwen/Llama/Grok/DeepSeek 按任务自动选型）。",
+                "marketPosition": "Zinley 处于『个人 AI 代表』这一新兴品类的最前沿：不是聊天机器人、不是日历/邮件单点工具，而是拥有独立身份（号码+邮箱+电脑）的端到端代理。2026 年 AI 个人助理赛道快速拥挤——Lindy（$50）、Martin（$40）、Cove（$25）、Mem Agents、ChatGPT Plus 等从不同角度切入，但多数是『工具型』（帮你做某事）而非『身份型』（代表你这个人存在）。Zinley 的独特站位：以『第二个你』为叙事，用真实电话线路+邮件身份+持久人物记忆建立『对外代表权』。最大威胁来自平台级玩家（OpenAI/Google 将代理能力免费并入系统）与企业级玩家下探个人市场；其护城河是 40+ 应用集成、人物记忆网络（person map）与 Real-World Reasoning 判断层的先发积累。",
+                "differentiation": "五点差异化：(1) 独立三件套身份——自己的电话号码（真实通话、开头披露 AI 身份、符合多州披露法规）、自己的邮箱（CC 即接管）、自己的云端电脑（24h 运行、可唤醒你授权的设备）。(2) 人物记忆网络——自动构建『你的人际关系地图』，记住每个人与你的关系、历史与偏好（Khoi 的 demo 显示 214 人记忆），私有不卖不训练。(3) Real-World Reasoning 判断层——知道何时该说话、何时该沉默，官方评测 1,200 决策点 91% 准确率、误插话 0.3 次/30min，把『代表你』从功能问题提升为判断问题。(4) 多模型路由——8 家前沿模型按任务自动选型，不绑定单一供应商。(5) 信任工程——SOC 2 Type II 审计中、零数据保留协议、多层提示注入防御、最小权限+可随时撤销的邮箱访问、不可逆动作 confirm-first + 全量行动日志，直接回应『把身份交给 AI』的最大风险。"
+            }
+        }
+    ]
+}
+
+with open('reports/weekly/2026-08-03.json', 'w', encoding='utf-8') as f:
+    json.dump(weekly, f, ensure_ascii=False, indent=2)
+
+print("周报已生成: reports/weekly/2026-08-03.json")
+print("products:", len(weekly['products']))

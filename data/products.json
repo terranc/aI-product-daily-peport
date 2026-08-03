@@ -19957,8 +19957,9 @@
       },
       "metrics": {
         "featuredInDaily": "2026-08-03",
-        "featuredInWeekly": null,
-        "timesFeatured": 1
+        "featuredInWeekly": true,
+        "timesFeatured": 2,
+        "lastWeeklyDate": "2026-08-03"
       },
       "addedAt": "2026-08-03T04:01:41+00:00",
       "cooldownExpiresAt": "2026-08-17T04:01:41+00:00"
