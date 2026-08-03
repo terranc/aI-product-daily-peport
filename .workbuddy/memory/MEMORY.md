@@ -104,3 +104,7 @@ LLM_MODEL=gpt-4o-mini
 - **产品数据库更新**：数据库已更新至 322 个产品（新增 5 个）。(2026-07-31)
 - **截图脚本 appStoreUrl 误解析**：当产品 URL 是 App Store 链接时，`process_product_screenshots` 可能把页面中其他 app 的链接解析进 appStoreUrl（如 Keepers ���解析成清洁工 app）。需要在写入报告前手动修���为产品自身的 App Store URL。(2026-07-31)
 - **URL 验证经验**：PH 候选若通过搜索引擎无法确认官网（同名产品过多或无官网），应直接替换为官网可验证的产品，不要保留无法确认的 URL。(2026-07-31)
+- **日报生成成功**：已成功生成 2026-08-02 日报，包含 5 个精选产品（Focus Room、Halo by Scam AI、Kopai、AI Google Earth、Dopamind）。(2026-08-02)
+- **产品数据库更新**：数据库已更新至 327 个产品（新增 5 个）。(2026-08-02)
+- **App Store 同名不同产品陷阱**：iTunes 搜索按名称匹配可能返回同名但不同的 app（如 Dopamind 被解析为 DopaMind LLC 的 id6738889403，官方实为 id6747915249）。写入报告前需用 iTunes lookup 核对 sellerName 与版本号，确认与产品官网下载页一致。(2026-08-02)
+- **手动排除跨渠道重复**：同一产品在不同渠道的 product_id 不同（如 Honen 的 Twitter 推文 URL vs 官网域名），自动去重无法覆盖。需在 LLM 分析阶段手动检查近期精选产品名称，排除重复推荐。(2026-08-02)

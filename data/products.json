@@ -1,6 +1,6 @@
 {
-  "version": 9,
-  "lastUpdated": "2026-08-02T04:00:57.597926+00:00",
+  "version": 10,
+  "lastUpdated": "2026-08-03T04:01:41+00:00",
   "products": [
     {
       "id": "producthunt.com/r/p/1198621",
@@ -19894,6 +19894,346 @@
       },
       "cooldownExpiresAt": "2026-08-16T04:00:57.597926+00:00",
       "addedAt": "2026-08-02T04:00:57.597926+00:00"
+    },
+    {
+      "id": "producthunt.com/r/p/1137855",
+      "name": "Zinley - 你的 AI 个人代表",
+      "slug": "zinley",
+      "description": "Zinley 是拥有独立电话号码、邮箱和云端电脑的 AI 个人代表：能替你接打电话、回复邮件、处理文档和日常任务，记住你的人际关系与偏好，只在需要决策时才呼叫你。",
+      "url": "https://zinley.com",
+      "homepage": "https://zinley.com",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "tags": [
+        "AI 个人助理",
+        "电话代理",
+        "邮件助手",
+        "任务自动化",
+        "个人效率"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/zinley",
+      "firstSeen": "2026-05-03T00:49:53-07:00",
+      "analysis": {
+        "score": 9,
+        "scoreReason": "AI 个人代表概念完整落地：独立号码/邮箱/电脑三件套齐备，持久记忆与规则机制成熟，直接解决「时间被琐事吞噬」的普遍痛点，是该品类中少见的端到端产品。",
+        "targetAudience": "忙碌的职场人、创业者与自由职业者，需要有人替自己处理电话、邮件和重复性事务",
+        "useCases": [
+          "代接/代打电话：预约、客服沟通、电话面试初筛、帮你还价",
+          "CC 邮件让它推进日程、跟进回复，自动把会议排进日历",
+          "整理文档、汇总数据、起草报告，在云端电脑上自主执行",
+          "拦截骚扰电话与垃圾邮件，只有重要来电才转给你",
+          "外出时保持在线，回家后收到当日工作简报"
+        ],
+        "designIntent": "世界围着一个人转，电话、邮件、琐事都堆在一个人身上。Zinley 想成为「你的延伸」：一个拥有自己号码、收件箱和电脑的 AI 分身，按你的规则对外代表你，而不是又一个聊天机器人。",
+        "problemSolved": "解决个人时间瓶颈——每天大量重复性沟通与事务占据精力。Zinley 用持久记忆+自主执行代替人工处理，遇到需要判断的时刻才呼叫本人，让人只做真正重要的决策。",
+        "tags": [
+          "AI 个人助理",
+          "电话代理",
+          "邮件助手",
+          "任务自动化",
+          "个人效率"
+        ],
+        "competitors": [
+          {
+            "name": "Superhuman AI",
+            "url": "https://superhuman.com",
+            "comparison": "侧重邮箱体验与 AI 写作辅助，不覆盖电话代答与跨场景自主执行"
+          },
+          {
+            "name": "Reclaim.ai",
+            "url": "https://reclaim.ai",
+            "comparison": "专注日历智能调度，不代替用户对外沟通"
+          },
+          {
+            "name": "HeyGen / 语音助理类产品",
+            "url": "https://www.heygen.com",
+            "comparison": "主打数字人内容生成，非个人事务代理"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": "2026-08-03",
+        "featuredInWeekly": null,
+        "timesFeatured": 1
+      },
+      "addedAt": "2026-08-03T04:01:41+00:00",
+      "cooldownExpiresAt": "2026-08-17T04:01:41+00:00"
+    },
+    {
+      "id": "producthunt.com/r/p/1211493",
+      "name": "NudgeForMe - 邮件跟进 AI 助手",
+      "slug": "nudgeforme",
+      "description": "NudgeForMe 扫描你已发送的邮件，找出报价、提案、介绍和审批后始终无人回复的对话，并直接在邮箱内起草语气自然的跟进邮件。默认草稿模式，发送前由你审阅。",
+      "url": "https://nudgeforme.com",
+      "homepage": "https://nudgeforme.com",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "tags": [
+        "邮件跟进",
+        "销售线索",
+        "AI 助手",
+        "商务效率",
+        "Gmail"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/nudgeforme",
+      "firstSeen": "2026-07-31T03:42:14-07:00",
+      "analysis": {
+        "score": 8,
+        "scoreReason": "切入「邮件跟进」这个最高杠杆却最常被跳过的商务场景，由处理过上百万封邮件的 Snoooz 团队打造；8/1 上线即登 PH 日榜第一（310 票），产品理解扎实。",
+        "targetAudience": "自由职业者、顾问、销售和初创团队，经常因为漏跟进而丢失线索与客户",
+        "useCases": [
+          "找出报价/提案发出后无人回复的邮件线程",
+          "自动起草语气自然的跟进邮件，放入草稿箱供审阅",
+          "批量扫描历史邮件，找回沉睡的销售线索",
+          "防止客户、伙伴与供应商的对话悄悄变冷",
+          "在 Gmail、Outlook、iCloud、Yahoo 等主流邮箱中直接工作"
+        ],
+        "designIntent": "作者处理过上百万封邮件后意识到：跟进是成交的关键一步，却最容易被忙碌的人跳过。NudgeForMe 不是又一个发信工具，而是倒过来工作——从已发送邮件里找出「无声的线索」，把漏掉的跟进机会带回来。",
+        "problemSolved": "跟进邮件被遗忘导致线索流失、客户关系降温。NudgeForMe 自动发现该跟进而没跟进的对话并起草草稿，人审后发送，兼顾自动化效率与人工掌控。",
+        "tags": [
+          "邮件跟进",
+          "销售线索",
+          "AI 助手",
+          "商务效率",
+          "Gmail"
+        ],
+        "competitors": [
+          {
+            "name": "Mixmax",
+            "url": "https://mixmax.com",
+            "comparison": "侧重跟进序列与发送自动化，不会主动从历史邮件中挖掘沉睡线索"
+          },
+          {
+            "name": "Lemlist",
+            "url": "https://lemlist.com",
+            "comparison": "冷启动外联工具，定位是主动触达而非回收漏跟"
+          },
+          {
+            "name": "Superhuman",
+            "url": "https://superhuman.com",
+            "comparison": "邮件体验优先，缺少「找回未回复线索」的专属能力"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": "2026-08-03",
+        "featuredInWeekly": null,
+        "timesFeatured": 1
+      },
+      "addedAt": "2026-08-03T04:01:41+00:00",
+      "cooldownExpiresAt": "2026-08-17T04:01:41+00:00"
+    },
+    {
+      "id": "aivisibility.pro",
+      "name": "AI Visibility - AI 品牌可见度检测",
+      "slug": "ai-visibility",
+      "description": "输入品牌名与网址，一键检测 ChatGPT、Gemini、Claude 和 Perplexity 是否在真实用户提问中推荐你的品牌，并列出你缺席的提问与顶替你的竞品。免费使用。",
+      "url": "https://aivisibility.pro",
+      "homepage": "https://aivisibility.pro",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "tags": [
+        "AI 搜索",
+        "品牌监测",
+        "SEO",
+        "营销分析",
+        "AI 时代营销"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49150752",
+      "firstSeen": "2026-08-03T03:02:49Z",
+      "analysis": {
+        "score": 8,
+        "scoreReason": "精准卡位「AI 时代 SEO」这一新生需求：一次检测覆盖四大主流 AI 助手，输出可见度分数、缺失提问与被引用来源，免费可用、报告可分享，落地价值清晰。",
+        "targetAudience": "品牌市场团队、SEO 从业者和创业者，关心自家品牌在 AI 推荐语境中的曝光度",
+        "useCases": [
+          "检查品牌是否被 ChatGPT/Claude/Gemini/Perplexity 提及",
+          "查看品牌缺席的提问，以及顶替你的竞品是谁",
+          "追踪 AI 可见度分数随内容更新的变化",
+          "对比竞品品牌，评估自己在 AI 推荐中的相对位置",
+          "生成可分享的报告，用于团队或客户汇报"
+        ],
+        "designIntent": "越来越多消费者直接向 AI 助手求推荐，搜索形态从「翻链接」变成「听答案」。该工具把「AI 是否提到你」变成可量化、可追踪、可优化的指标，帮助品牌提前布局 AI 推荐时代。",
+        "problemSolved": "传统 SEO 无法覆盖 AI 推荐场景——Google 排名再高也不代表会被 AI 助手点名。AI Visibility 用真实提问测试主流助手，让品牌看清自己在 AI 答案中的位置并找到改进方向。",
+        "tags": [
+          "AI 搜索",
+          "品牌监测",
+          "SEO",
+          "营销分析",
+          "AI 时代营销"
+        ],
+        "competitors": [
+          {
+            "name": "Semrush",
+            "url": "https://www.semrush.com",
+            "comparison": "传统 SEO 工具巨头，尚无 AI 答案可见度监测维度"
+          },
+          {
+            "name": "Ahrefs",
+            "url": "https://ahrefs.com",
+            "comparison": "侧重关键词与反向链接，不覆盖 AI 助手点名情况"
+          },
+          {
+            "name": "Otterly.ai",
+            "url": "https://otterly.ai",
+            "comparison": "同为 AI 可见度检测赛道，功能相近但覆盖助手数量与报告维度不同"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": "2026-08-03",
+        "featuredInWeekly": null,
+        "timesFeatured": 1
+      },
+      "addedAt": "2026-08-03T04:01:41+00:00",
+      "cooldownExpiresAt": "2026-08-17T04:01:41+00:00"
+    },
+    {
+      "id": "x.com/pulsenotch/status/2084086632278368323",
+      "name": "PulseNotch - 把 MacBook 刘海变成信息中枢",
+      "slug": "pulsenotch",
+      "description": "PulseNotch 将 MacBook 刘海区域变成智能信息层：随时查看通知、专注工具、下载与媒体，支持自定义阈值提醒和 AI 生成的简明简报，让你不必离开当前工作窗口。",
+      "url": "https://pulse.lumanotch.net",
+      "homepage": "https://pulse.lumanotch.net",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "tags": [
+        "macOS 应用",
+        "刘海区",
+        "通知管理",
+        "专注效率",
+        "AI 简报"
+      ],
+      "sourceChannels": [
+        "twitter"
+      ],
+      "sourceUrl": "https://x.com/pulsenotch/status/2084086632278368323",
+      "firstSeen": "2026-08-03T01:19:08+00:00",
+      "analysis": {
+        "score": 7,
+        "scoreReason": "把「反复切窗口查信息」与「深度工作」的冲突装进刘海区，用阈值提醒 + AI 摘要让信息按需到达，交互克制、原生体验好；但受众偏 Mac 重度用户与行情/投资人群，相对垂直。",
+        "targetAudience": "MacBook 重度用户、常需盯行情/多任务的人群，希望在保持专注时不漏掉关键信息",
+        "useCases": [
+          "把持仓与市场变化放进刘海区，无需切换窗口",
+          "设置个人阈值，只有关键波动才触发提醒",
+          "AI 汇总多个更新，生成一句话简明简报",
+          "在刘海区直接访问通知、专注工具、下载与媒体控制",
+          "按需生成每日/即时简报，免于反复重建上下文"
+        ],
+        "designIntent": "手动查信息会不断打断专注、反复重建上下文。PulseNotch 把高频信息放进用户本来就会看的刘海区域，做到「安静但有信号」——大多数时间不打扰，重要变化才发声。",
+        "problemSolved": "信息监控与深度工作之间的两难：频繁切换标签页破坏心流，不检查又会错过关键变化。PulseNotch 用自定义阈值 + AI 摘要平衡了关注与专注。",
+        "tags": [
+          "macOS 应用",
+          "刘海区",
+          "通知管理",
+          "专注效率",
+          "AI 简报"
+        ],
+        "competitors": [
+          {
+            "name": "NotchPulse",
+            "url": "https://apps.apple.com/cn/app/notchpulse/id6762262716",
+            "comparison": "同为刘海工具但偏通用工具层，无持仓监控与 AI 简报"
+          },
+          {
+            "name": "Bartender",
+            "url": "https://www.macbartender.com",
+            "comparison": "专注菜单栏收纳整理，不涉及信息监控"
+          },
+          {
+            "name": "TickerNotch",
+            "url": "https://notch.macmenubar.com/",
+            "comparison": "提供行情跑马灯，但缺少个性化阈值与 AI 摘要"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": "2026-08-03",
+        "featuredInWeekly": null,
+        "timesFeatured": 1
+      },
+      "addedAt": "2026-08-03T04:01:41+00:00",
+      "cooldownExpiresAt": "2026-08-17T04:01:41+00:00"
+    },
+    {
+      "id": "moveplaybook.app",
+      "name": "MovePlaybook - 搬家行动计划生成器",
+      "slug": "move-playbook",
+      "description": "输入搬家日期与距离，MovePlaybook 自动生成带具体日历日期的搬家优先级清单，支持本地保存进度、打印或导出 PDF，全程无需注册账号。",
+      "url": "https://moveplaybook.app",
+      "homepage": "https://moveplaybook.app",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "tags": [
+        "搬家",
+        "待办清单",
+        "生活工具",
+        "无需注册",
+        "本地优先"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49150966",
+      "firstSeen": "2026-08-03T03:41:26Z",
+      "analysis": {
+        "score": 7,
+        "scoreReason": "把「搬家」这件高压琐事变成按日期推进的行动计划，免注册 + 可打印 PDF 让门槛极低，体验轻量、直击痛点；但功能单一、AI 含量低，天花板有限。",
+        "targetAudience": "准备搬家的个人与家庭，尤其是想系统化安排搬家事务、怕遗漏步骤的人",
+        "useCases": [
+          "输入搬家日期自动生成带真实日期的优先级清单",
+          "区分本地搬家与长途搬家，给出不同准备方案",
+          "打印或导出 PDF，贴在冰箱上按日执行",
+          "浏览器本地保存进度，无需注册账号",
+          "搬家前中后全流程的任务规划与追踪"
+        ],
+        "designIntent": "搬家涉及上百个待办，高压之下最容易遗漏关键步骤。MovePlaybook 用「搬家日期倒推」的思路，把杂乱任务变成按日排期的行动计划，并坚持无需注册、本地优先。",
+        "problemSolved": "搬家任务庞杂、缺乏系统规划，容易遗漏水电过户、改地址等关键环节。MovePlaybook 按日期自动排期并输出可打印计划，让搬家过程清晰可控。",
+        "tags": [
+          "搬家",
+          "待办清单",
+          "生活工具",
+          "无需注册",
+          "本地优先"
+        ],
+        "competitors": [
+          {
+            "name": "Todoist",
+            "url": "https://todoist.com",
+            "comparison": "通用待办工具，无搬家专属的按日期排期逻辑"
+          },
+          {
+            "name": "Notion 搬家模板",
+            "url": "https://www.notion.com",
+            "comparison": "需自己搭建模板，无自动日期推算与打印输出"
+          },
+          {
+            "name": "搬家公司的 checklist PDF",
+            "url": "https://www.moving.com",
+            "comparison": "多为静态清单，不根据搬家日期动态排期"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": "2026-08-03",
+        "featuredInWeekly": null,
+        "timesFeatured": 1
+      },
+      "addedAt": "2026-08-03T04:01:41+00:00",
+      "cooldownExpiresAt": "2026-08-17T04:01:41+00:00"
     }
   ],
   "tracking": {
