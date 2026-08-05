@@ -20,7 +20,9 @@ from product_db import add_or_update_product, get_products_for_daily, mark_produ
 from analyze_product import analyze_product, is_application_product
 from screenshot import process_product_screenshots
 
-REPORTS_DIR = Path("/Volumes/EXTEND/aI-product-daily-peport/reports/daily")
+from _paths import BASE_DIR
+
+REPORTS_DIR = BASE_DIR / "reports/daily"
 
 def fetch_all_sources():
     """从所有渠道抓取产品"""

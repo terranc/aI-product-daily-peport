@@ -22,7 +22,7 @@ try:
 except ImportError:
     HAS_LLM = False
 
-BASE_DIR = Path("/Volumes/EXTEND/aI-product-daily-peport")
+from _paths import BASE_DIR
 REPORTS_DIR = BASE_DIR / "reports"
 DAILY_REPORTS_DIR = REPORTS_DIR / "daily"
 WEEKLY_REPORTS_DIR = REPORTS_DIR / "weekly"

@@ -10,7 +10,9 @@ import time
 from datetime import datetime
 from pathlib import Path
 
-ASSETS_DIR = Path("/Volumes/EXTEND/aI-product-daily-peport/assets/screenshots")
+from _paths import BASE_DIR
+
+ASSETS_DIR = BASE_DIR / "assets/screenshots"
 WEBSHOT_API = "https://webshot.site/api/capture"
 
 
@@ -43,7 +45,7 @@ def take_website_screenshot(url, product_id, max_retries=2):
                 size_kb = len(response.content) // 1024
                 retry_tag = "（重试）" if attempt > 0 else ""
                 print(f"  📸 网站截图{retry_tag}: {filename} ({size_kb}KB)")
-                return str(output_file.relative_to("/Volumes/EXTEND/aI-product-daily-peport"))
+                return str(output_file.relative_to(BASE_DIR))
 
             elif response.status_code == 429:
                 wait = int(response.headers.get('Retry-After', 60))

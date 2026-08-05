@@ -16,7 +16,11 @@ import requests
 from datetime import datetime
 from pathlib import Path
 
-OUTPUT_FILE = Path("/Volumes/EXTEND/aI-product-daily-peport/data/raw-candidates.json")
+try:
+    from _paths import DATA_DIR
+    OUTPUT_FILE = DATA_DIR / "raw-candidates.json"
+except ImportError:
+    OUTPUT_FILE = Path("/Volumes/EXTEND/aI-product-daily-peport/data/raw-candidates.json")
 USER_AGENT = "agent-reach/1.0"
 TWITTER_CLI = str(Path.home() / ".local" / "bin" / "twitter")
 

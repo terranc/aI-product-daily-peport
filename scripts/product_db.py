@@ -6,10 +6,12 @@
 
 import json
 import hashlib
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-DATA_FILE = Path("/Volumes/EXTEND/aI-product-daily-peport/data/products.json")
+from _paths import BASE_DIR
+
+DATA_FILE = BASE_DIR / "data/products.json"
 
 def load_products():
     """加载产品数据库"""
@@ -47,7 +49,8 @@ def check_cooldown(product, cooldown_days=14):
         return False
 
     expires = datetime.fromisoformat(product['cooldownExpiresAt'])
-    return datetime.now() < expires
+    now = datetime.now(timezone.utc) if expires.tzinfo else datetime.now()
+    return now < expires
 
 def add_or_update_product(product_data, source_channel, cooldown_days=14):
     """
@@ -166,6 +169,9 @@ def get_products_for_daily(cooldown_days=14):
     # 筛选最近发现且未推荐过的产品
     candidates = []
     for p in products:
+        if not isinstance(p.get('metrics'), dict):
+            # 旧 schema 数据没有 metrics 字段，未经过完整分析，跳过
+            continue
         if not p['metrics'].get('featuredInDaily', False):
             # 确认在冷却期内（即最近发现的）
             if check_cooldown(p, cooldown_days):

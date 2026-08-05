@@ -10,10 +10,9 @@ import urllib.parse
 from datetime import datetime
 from pathlib import Path
 
-BASE_DIR = Path("/Volumes/EXTEND/aI-product-daily-peport")
+from _paths import BASE_DIR, DATA_DIR, REPORTS_DIR
+
 SITE_DIR = BASE_DIR / "docs"
-REPORTS_DIR = BASE_DIR / "reports"
-DATA_DIR = BASE_DIR / "data"
 BASE_PATH = "/aI-product-daily-peport"
 
 
