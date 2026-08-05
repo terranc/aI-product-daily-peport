@@ -1,6 +1,6 @@
 {
   "version": 11,
-  "lastUpdated": "2026-08-05T15:54:03+00:00",
+  "lastUpdated": "2026-08-05T16:20:56.345344+00:00",
   "products": [
     {
       "id": "producthunt.com/r/p/1198621",
@@ -21508,6 +21508,332 @@
         ]
       },
       "addedAt": "2026-08-05T15:54:03+00:00"
+    },
+    {
+      "id": "producthunt.com/r/p/1215391",
+      "name": "Hansel - AI 工作记忆助手",
+      "slug": "hansel",
+      "description": "Hansel 是一款自动记录工作过程的 AI 助手，无需手动打卡或写周报。它默默记录你在电脑上的工作轨迹，随时回答「这周我做了什么」「上次那个文件在哪」这类回顾性问题，帮你找回丢失的工作上下文。",
+      "url": "https://hansel.so",
+      "homepage": "https://hansel.so",
+      "type": "app",
+      "tags": [
+        "AI 工作记忆",
+        "效率工具",
+        "时间线",
+        "知识管理",
+        "macOS"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/hansel-2",
+      "firstSeen": "2026-08-05T06:59:36+00:00",
+      "cooldownExpiresAt": "2026-08-19T16:20:56.345344+00:00",
+      "analysis": {
+        "targetAudience": "经常切换任务、需要回溯「做过什么」的知识工作者、远程办公者与自由职业者",
+        "useCases": [
+          "周报/月度总结自动生成素材",
+          "找回几天前处理过的文件与上下文",
+          "项目交接时快速梳理工作轨迹",
+          "统计各项目投入时间",
+          "回顾会议与沟通决策记录"
+        ],
+        "designIntent": "Hansel 的出发点是把「隐性工作记忆」变成可检索的资产：与其依赖人脑和零散的笔记，不如让 AI 持续记录并在需要时回答回顾性问题，把回顾成本降到最低。",
+        "problemSolved": "现代工作信息散落在几十个标签页、窗口和文件里，事后很难回答「我上周到底做了什么」。Hansel 自动捕获工作过程并支持自然语言回溯，解决了工作上下文丢失与周报难写的问题。",
+        "tags": [
+          "AI 工作记忆",
+          "效率工具",
+          "时间线",
+          "知识管理",
+          "macOS"
+        ],
+        "score": 8,
+        "scoreReason": "「AI 工作记忆」是 2026 年高潜力的生产力赛道，自动捕获+自然语言回溯的体验门槛低、价值直观。竞品 Rewind 已证明需求存在，Hansel 的差异化在于更聚焦「回答问题」而非全景回放。扣分点：同类产品拥挤，护城河取决于记录质量与隐私信任。",
+        "competitors": [
+          {
+            "name": "Rewind",
+            "url": "https://rewind.ai",
+            "comparison": "Rewind 主打全量屏幕回放与搜索，Hansel 更聚焦结构化的工作回顾问答，体量更轻"
+          },
+          {
+            "name": "Recall",
+            "url": "https://recall.ai",
+            "comparison": "Recall 面向会议纪要，Hansel 覆盖全工作场景而不只会议"
+          },
+          {
+            "name": "Rewind 类原生工具（macOS 自带屏幕使用时间等）",
+            "url": "",
+            "comparison": "系统工具只有统计没有智能问答，Hansel 提供可对话的语义检索"
+          }
+        ]
+      },
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1215391_20260806_001957.png",
+      "appStoreScreenshots": []
+    },
+    {
+      "id": "producthunt.com/r/p/1198410",
+      "name": "StepGrab - 一键生成操作教程",
+      "slug": "stepgrab",
+      "description": "StepGrab 是一款 macOS 菜单栏应用，把任何工作流自动变成编号清晰的分步教程：开始录制、点击操作，它在每次点击时截图、自动描述每个动作并生成图文指南，省去手写文档的麻烦。",
+      "url": "https://apps.apple.com/us/app/stepgrab-step-by-step-guides/id6760129490?mt=12&uo=4",
+      "homepage": "https://apps.apple.com/us/app/stepgrab-step-by-step-guides/id6760129490?mt=12&uo=4",
+      "type": "app",
+      "tags": [
+        "教程生成",
+        "效率工具",
+        "文档自动化",
+        "macOS",
+        "录屏"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/stepgrab",
+      "firstSeen": "2026-07-16T18:20:20+00:00",
+      "cooldownExpiresAt": "2026-08-19T16:20:56.345344+00:00",
+      "analysis": {
+        "targetAudience": "需要频繁输出操作文档的 SaaS 团队、技术支持、培训师与内容创作者",
+        "useCases": [
+          "软件功能演示文档自动生成",
+          "内部 SOP 与 onboarding 教程制作",
+          "客服回复用户操作问题附图文步骤",
+          "个人知识库沉淀操作流程",
+          "产品更新日志配图"
+        ],
+        "designIntent": "StepGrab 想消灭「录屏→剪辑→标注→写说明」的繁琐教程制作流程：用户只负责演示操作，AI 负责截图、描述和排版，让文档生产快过操作本身。",
+        "problemSolved": "制作图文教程通常要同时操作录屏、截图、标注和排版多个工具，耗时且枯燥。StepGrab 在一次点击录制中自动完成全部工作，把教程生产时间从小时级压缩到分钟级。",
+        "tags": [
+          "教程生成",
+          "效率工具",
+          "文档自动化",
+          "macOS",
+          "录屏"
+        ],
+        "score": 8,
+        "scoreReason": "痛点真实且场景明确：任何需要写操作文档的人都能立刻理解价值，SaaS 客服与培训是天然的付费场景。竞品少、切入角度新颖。扣分点：仅 macOS、功能相对单一，天花板取决于能否扩展到团队协作与多平台。",
+        "competitors": [
+          {
+            "name": "Tango",
+            "url": "https://www.tango.us",
+            "comparison": "Tango 是浏览器插件形式的教程生成器，StepGrab 覆盖桌面端任意应用，操作路径更完整"
+          },
+          {
+            "name": "Scribe",
+            "url": "https://scribehow.com",
+            "comparison": "Scribe 侧重团队 SOP 知识库沉淀，StepGrab 更轻量、聚焦单机快速出文档"
+          },
+          {
+            "name": "Cleanshot X 等录屏标注工具",
+            "url": "https://cleanshot.com",
+            "comparison": "录屏工具只提供素材，StepGrab 直接产出结构化教程成品"
+          }
+        ]
+      },
+      "appStoreName": "StepGrab – Step-by-Step Guides",
+      "appStoreUrl": "https://apps.apple.com/us/app/stepgrab-step-by-step-guides/id6760129490?mt=12&uo=4",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1198410_20260806_002006.png",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4b/7a/5f/4b7a5fc4-4216-add3-ed03-cb59fcfb195a/ArtBoard1.1.png/800x500bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/69/99/2f/69992fcd-87ec-f3eb-f118-ae0f8530a979/ArtBoard2.1.png/800x500bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/14/1c/b4/141cb4b7-280a-e8b9-7602-b9455a4baa16/ArtBoard3.1.png/800x500bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/68/c1/00/68c1004d-6c95-8ef0-f7c6-b59589868cd9/ArtBoard4.1.png/800x500bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5f/0e/3a/5f0e3a48-1eb2-7322-b5ba-2f6663dc4a98/ArtBoard5.1.png/800x500bb.jpg"
+      ]
+    },
+    {
+      "id": "producthunt.com/r/p/1212852",
+      "name": "gesture.live - 手势演奏电子音乐",
+      "slug": "gesture-live",
+      "description": "gesture.live 是一款基于网页的 AI 音乐演奏工具，用摄像头捕捉双手手势实时演奏电子音乐：手势控制和弦、贝斯、鼓组与效果器，无需任何乐器基础，打开网页即可即兴演出。",
+      "url": "https://gesture.live",
+      "homepage": "https://gesture.live",
+      "type": "website",
+      "tags": [
+        "AI 音乐",
+        "手势识别",
+        "创意工具",
+        "Web 应用",
+        "实时演出"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/gesture-live",
+      "firstSeen": "2026-08-02T08:50:04+00:00",
+      "cooldownExpiresAt": "2026-08-19T16:20:56.345344+00:00",
+      "analysis": {
+        "targetAudience": "零乐器基础的音乐爱好者、数字艺术家、直播主播与科技尝鲜者",
+        "useCases": [
+          "直播间即兴背景音乐演奏",
+          "派对与活动现场的互动演出",
+          "音乐教学中的节奏与和弦演示",
+          "无乐器条件下的快速创作灵感",
+          "科技艺术展览互动装置"
+        ],
+        "designIntent": "gesture.live 想打破「演奏音乐需要长期练习」的门槛：用摄像头做手势识别，让人体本身成为乐器，让每个人都能在几分钟内体验实时演奏的乐趣，强调表达而非技术。",
+        "problemSolved": "传统电子音乐制作需要键盘、控制器和乐理知识，普通用户难以入门。gesture.live 用 AI 手势识别把演奏简化为身体动作，解决了音乐创作的高门槛问题，同时为现场表演提供了新的互动形式。",
+        "tags": [
+          "AI 音乐",
+          "手势识别",
+          "创意工具",
+          "Web 应用",
+          "实时演出"
+        ],
+        "score": 8,
+        "scoreReason": "产品创意独特、演示效果直观，把 AI 视觉能力用在了大众可感知的娱乐场景，传播性强。网页即开即用、零安装是明显优势。扣分点：音乐表达深度有限、新鲜感过后留存率存疑，商业模式尚不清晰。",
+        "competitors": [
+          {
+            "name": "Skoog / 各类体感音乐硬件",
+            "url": "",
+            "comparison": "体感硬件需要购买设备，gesture.live 零硬件、摄像头即可用"
+          },
+          {
+            "name": "Ableton Live + MIDI 控制器",
+            "url": "https://www.ableton.com",
+            "comparison": "专业 DAW 功能强大但学习曲线陡峭，gesture.live 面向零基础即兴体验"
+          },
+          {
+            "name": "Move.ai 等动捕技术平台",
+            "url": "https://www.move.ai",
+            "comparison": "动捕平台面向专业制作，gesture.live 是轻量实时娱乐应用"
+          }
+        ]
+      },
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1212852_20260806_002013.png",
+      "appStoreScreenshots": []
+    },
+    {
+      "id": "producthunt.com/r/p/1214385",
+      "name": "Stynar - AI 销售外呼自动化",
+      "slug": "stynar",
+      "description": "Stynar 是一款 AI 驱动的 B2B 销售外呼（Outbound）自动化平台：AI 自动撰写并发送个性化跟进序列，所有回复汇集到一个收件箱，AI 直接帮你把会议约到日历上，把冷启动获客变成全自动流水线。",
+      "url": "https://stynar.com",
+      "homepage": "https://stynar.com",
+      "type": "saas",
+      "tags": [
+        "AI 销售",
+        "外呼自动化",
+        "B2B",
+        "邮件营销",
+        "销售效率"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/stynar",
+      "firstSeen": "2026-08-04T04:49:37+00:00",
+      "cooldownExpiresAt": "2026-08-19T16:20:56.345344+00:00",
+      "analysis": {
+        "targetAudience": "需要规模化获客的 SaaS 初创公司销售团队、独立开发者与增长负责人",
+        "useCases": [
+          "冷邮件外呼序列的自动撰写与发送",
+          "潜在客户回复的统一收件与分类",
+          "AI 自动邀约会议并同步日历",
+          "A/B 测试外呼话术与跟进节奏",
+          "销售线索的全生命周期追踪"
+        ],
+        "designIntent": "Stynar 想覆盖外呼销售的完整闭环而不是单点工具：从写邮件、发序列、收回复到约会议全部由 AI 执行，销售只需在会议出现时上场，把重复劳动完全自动化。",
+        "problemSolved": "传统外呼销售需要手动写个性化邮件、跟踪回复、反复协调会议时间，人效低且容易漏线索。Stynar 让 AI 承担整个外呼执行层，解决销售团队产能瓶颈与跟进不一致的问题。",
+        "tags": [
+          "AI 销售",
+          "外呼自动化",
+          "B2B",
+          "邮件营销",
+          "销售效率"
+        ],
+        "score": 8,
+        "scoreReason": "AI SDR 是 2026 年最热的 B2B 场景之一，需求真实、付费意愿强，市场空间大。Stynar 强调全闭环（写→发→收→约会）而非单点邮件工具，差异化清晰。扣分点：赛道竞争激烈（Artisan、11x 等），AI 外呼质量与送达率是长期考验。",
+        "competitors": [
+          {
+            "name": "Artisan",
+            "url": "https://www.artisan.co",
+            "comparison": "Artisan 主打 AI 员工（Ava）的全流程销售，Stynar 更聚焦邮件外呼闭环与轻量接入"
+          },
+          {
+            "name": "11x",
+            "url": "https://www.11x.ai",
+            "comparison": "11x 侧重语音 SDR 与多渠道触达，Stynar 以邮件序列和会议预约为核心"
+          },
+          {
+            "name": "Clay",
+            "url": "https://www.clay.com",
+            "comparison": "Clay 是数据富化与线索构建工具，Stynar 负责外呼执行层，可互补使用"
+          }
+        ]
+      },
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1214385_20260806_002019.png",
+      "appStoreScreenshots": []
+    },
+    {
+      "id": "producthunt.com/r/p/1203025",
+      "name": "Driven - AI 投资研究助手",
+      "slug": "driven",
+      "description": "Driven 是一个 AI 投资 Agent 团队：多个智能体分别负责研究、监控、策略构建与交易执行，而最终决策权始终在用户手中。已有管理超过 5 亿美元资产的投资经理在使用。",
+      "url": "https://driven.ai",
+      "homepage": "https://driven.ai",
+      "type": "saas",
+      "tags": [
+        "AI 投资",
+        "量化研究",
+        "金融科技",
+        "智能体",
+        "投资助手"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/driven-ai",
+      "firstSeen": "2026-07-22T02:16:19+00:00",
+      "cooldownExpiresAt": "2026-08-19T16:20:56.345344+00:00",
+      "analysis": {
+        "targetAudience": "希望提升研究效率的个人投资者、量化爱好者与小型资管团队",
+        "useCases": [
+          "上市公司与行业研究报告自动生成",
+          "持仓与关注标的的实时监控预警",
+          "投资策略的构建与回测",
+          "市场异动的快速解读",
+          "组合风险指标追踪"
+        ],
+        "designIntent": "Driven 想重塑「投资研究工作流」：把研究员式的调研、监控与策略分析交给多个专职 AI 智能体并行完成，同时坚持人类决策权，做用户的「投资团队」而非「黑箱交易机器」。",
+        "problemSolved": "专业投资研究需要大量人力与时间，个人投资者难以覆盖全面。Driven 用多个 AI Agent 分工完成研究、监控与策略构建，解决了研究产能不足的问题，同时把决策权保留给用户以建立信任。",
+        "tags": [
+          "AI 投资",
+          "量化研究",
+          "金融科技",
+          "智能体",
+          "投资助手"
+        ],
+        "score": 7,
+        "scoreReason": "「AI 研究团队+人类决策」的定位在金融领域信任度较高，已有 5 亿美元资产管理规模背书是亮点。扣分点：投资建议类产品面临合规与准确性风险，AI 幻觉在金融场景代价高，与彭博、AlphaSense 等专业终端的差距明显。",
+        "competitors": [
+          {
+            "name": "Bloomberg Terminal",
+            "url": "https://www.bloomberg.com",
+            "comparison": "彭博是机构级数据终端，Driven 以 AI 研究协作为核心，面向更轻量的使用场景"
+          },
+          {
+            "name": "AlphaSense",
+            "url": "https://www.alpha-sense.com",
+            "comparison": "AlphaSense 侧重市场情报搜索，Driven 提供完整的 Agent 化研究闭环"
+          },
+          {
+            "name": "Perplexity Finance",
+            "url": "https://www.perplexity.ai",
+            "comparison": "通用 AI 搜索提供资讯问答，Driven 面向投资场景提供结构化监控与策略工具"
+          }
+        ]
+      },
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1203025_20260806_002025.png",
+      "appStoreScreenshots": []
     }
   ],
   "tracking": {
