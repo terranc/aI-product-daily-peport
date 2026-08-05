@@ -113,3 +113,4 @@ LLM_MODEL=gpt-4o-mini
 - **官网验证新陷阱**：域名返回 200 不一定是产品官网——zenwhisper.com 实为域名售卖页（DomainMarket）。验证官网时需检查页面内容与产品描述是否匹配，不能只看 HTTP 状态码。(2026-08-03)
 - **截图脚本文件名 unknown 问题**：`process_product_screenshots` 用 `product.get('id')` 生成截图文件名，若传入 dict 只有 `product_id` 字段则文件名为 `unknown_*`。调用时需同时传 `id` 字段或事后重命名。(2026-08-03)
 - **部署验证 CDN 延迟**：push gh-pages 后 GitHub 官方域名（terranc.github.io）即时 200，自定义域名（ai-daily.asdasd.vip）有约 2-3 分钟 CDN 缓存延迟，验证时需等待或直接用官方域名确认。(2026-08-03)
+- **周报生成成功**：已成功生成 2026-08-03 周报，深度分析 Zinley - AI 个人代表（评分 9）。PH 首发 325 upvotes/79 评论双榜第一；三件套（号码+邮箱+云端电脑）端到端落地；Real-World Reasoning 判断层 91% 准确率；定价 Free/Plus $20/Pro $100/Max $200。(2026-08-03)

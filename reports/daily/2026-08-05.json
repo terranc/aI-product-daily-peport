@@ -1,0 +1,320 @@
+{
+  "date": "2026-08-05",
+  "generatedAt": "2026-08-05T04:03:32.613858+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "producthunt.com/r/p/1199610",
+      "name": "Hand Wave",
+      "slug": "hand-wave",
+      "description": "用 Meta 智能眼镜的摄像头实时将手语转换为文字与语音，模型完全在本地设备运行（开源、注重隐私、低延迟），支持 iOS 与网页跨平台使用。目前为持续迭代中的开源项目。",
+      "url": "https://handwave.sh",
+      "homepage": "https://handwave.sh",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1199610_20260805_120233.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "手语翻译",
+        "智能眼镜",
+        "无障碍",
+        "本地AI",
+        "开源"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1199610?app_id=339",
+      "firstSeen": "2026-08-05T12:00:00+08:00",
+      "analysis": {
+        "targetAudience": "听障人士及其家人朋友，以及关注无障碍沟通的智能眼镜用户",
+        "useCases": [
+          "佩戴 Meta 智能眼镜与手语使用者面对面实时交流",
+          "餐厅、医院、学校等场景即时理解手语内容",
+          "听障者与不懂手语的家人日常沟通",
+          "开发者研究本地化手语识别模型与边缘推理"
+        ],
+        "designIntent": "作者有亲属使用手语，深感智能眼镜摄像头在手语识别上的潜力被长期忽视。他训练了轻量神经网络，让 Meta 眼镜摄像头变成实时手语翻译器，并坚持本地推理以保护隐私、保证低延迟。",
+        "problemSolved": "手语使用者与非手语人群之间存在沟通鸿沟，依赖真人翻译成本高且不可及，现有方案多为实验室演示或需专用硬件。Hand Wave 用消费级智能眼镜实现端到端实时翻译，免费开源，让无障碍沟通随时可用。",
+        "tags": [
+          "手语翻译",
+          "智能眼镜",
+          "无障碍",
+          "本地AI",
+          "开源"
+        ],
+        "score": 9,
+        "scoreReason": "切中听障人群刚需、社会价值极高；智能眼镜+本地推理技术路线正确（低延迟+隐私），上线即获 Product Hunt 日榜第 10。目前处于 WIP、词汇以指拼为主是主要限制。",
+        "competitors": [
+          {
+            "name": "SignAll",
+            "url": "https://www.signall.us",
+            "comparison": "企业级摄像头手语识别系统，需专用设备；Hand Wave 直接跑在消费级眼镜上更轻量免费"
+          },
+          {
+            "name": "HandTalk",
+            "url": "https://www.handtalk.me",
+            "comparison": "手机端手语翻译 App；Hand Wave 免手持、实时对话更自然"
+          },
+          {
+            "name": "Handsway",
+            "url": "https://apps.apple.com/us/app/handsway/id1641972653",
+            "comparison": "手机摄像头 ASL 实时翻译，免费离线；无智能眼镜集成，Hand Wave 场景更自由"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1211832",
+      "name": "AirProof AI",
+      "slug": "airproof-ai",
+      "description": "用物理信息 AI 引擎在房间 3D 模型中实时模拟气流，拖拽净化器即可可视化气流走向、覆盖与回流，一键自动计算最佳摆放位置，无需 CFD 工程知识。",
+      "url": "https://airproofai.com",
+      "homepage": "https://airproofai.com",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1211832_20260805_120239.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "室内空气质量",
+        "气流模拟",
+        "智能家居",
+        "物理AI",
+        "健康生活"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1211832?app_id=339",
+      "firstSeen": "2026-08-05T12:00:00+08:00",
+      "analysis": {
+        "targetAudience": "关注室内空气质量的家庭用户、办公室与诊所等场所运营者，以及室内设计师与暖通顾问",
+        "useCases": [
+          "确定卧室空气净化器的最佳摆放位置",
+          "对比客厅、厨房不同摆放位置的净化效果",
+          "购买净化器前评估现有空间的放置方案",
+          "设计师为商业空间规划空气净化方案"
+        ],
+        "designIntent": "作者发现多数人凭直觉或美观摆放净化器，忽视气流科学，导致净化死角与能源浪费。他决定用物理信息 AI 让普通人也能像使用 CFD 软件一样看到室内气流，而不依赖厂商的通用经验法则。",
+        "problemSolved": "空气净化器摆放不当导致净化效率大幅下降（死区、回流、能耗浪费），而专业 CFD 模拟昂贵且门槛高。AirProof AI 让用户几分钟内获得基于物理模拟的个性化摆放建议。",
+        "tags": [
+          "室内空气质量",
+          "气流模拟",
+          "智能家居",
+          "物理AI",
+          "健康生活"
+        ],
+        "score": 8,
+        "scoreReason": "把物理模拟 AI 融入真实生活场景，切入点新颖且效果可感知；产品完成度高（拖拽可视化+一键优化）。目前仅支持预设房型，真实房间精确建模有待迭代。",
+        "competitors": [
+          {
+            "name": "厂商摆放指南",
+            "url": "https://www.dyson.com",
+            "comparison": "品牌官网的静态经验法则；AirProof AI 提供针对具体房间的动态模拟"
+          },
+          {
+            "name": "CFD 专业软件",
+            "url": "https://www.ansys.com",
+            "comparison": "功能强大但门槛高、成本贵；AirProof AI 秒级出结果、面向普通用户"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1212654",
+      "name": "CoachAI",
+      "slug": "coach-ai",
+      "description": "把 iPhone 变成私人教练：摄像头实时观看你的训练动作，逐次计数、纠正姿势、记录节奏，并根据实际完成情况动态调整训练计划；全程本地分析，不保存视频。",
+      "url": "https://coachai.tech",
+      "homepage": "https://coachai.tech",
+      "type": "app",
+      "appStoreName": "Coach.AI",
+      "appStoreUrl": "https://apps.apple.com/cn/app/coach-ai/id6504732473",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1212654_20260805_120248.png",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c5/ab/85/c5ab85ef-4dda-839c-0814-b9e4254bac1e/1.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/93/de/eb/93deeb82-61da-2b27-d1ce-bf23a45d7551/2.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f6/f2/74/f6f27438-329f-d241-999d-92b2defeb405/3.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/59/9c/65/599c65f8-6430-df19-239a-bbeee25db101/4.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/07/8a/84/078a8498-64c1-2b1c-014b-bb6d01ced6f7/5.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fb/55/10/fb5510a5-cd34-25c8-1d98-1f8569f221d8/6.png/320x480bb.jpg"
+      ],
+      "tags": [
+        "健身",
+        "AI教练",
+        "动作检测",
+        "健康",
+        "隐私优先"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1212654?app_id=339",
+      "firstSeen": "2026-08-05T12:00:00+08:00",
+      "analysis": {
+        "targetAudience": "在家健身、没有私教也想保证动作质量的健身爱好者与初学者",
+        "useCases": [
+          "居家无器械训练时实时纠正动作姿势",
+          "动作计数与节奏追踪",
+          "根据实际完成组数动态调整训练计划",
+          "结合营养计划与 AI 教练的日常指导"
+        ],
+        "designIntent": "大多数健身 App 只给静态计划，看不到用户动作。作者想让手机摄像头成为真正「看得见」你的教练，实时捕捉姿势崩坏并调整下一组，让没有器材和健身房的人也能获得结构化指导。",
+        "problemSolved": "居家健身缺乏专业指导，动作错误容易受伤且效果打折，而私教昂贵。CoachAI 用摄像头+AR 动作追踪在本地实时反馈，把私人教练装进口袋。",
+        "tags": [
+          "健身",
+          "AI教练",
+          "动作检测",
+          "健康",
+          "隐私优先"
+        ],
+        "score": 8,
+        "scoreReason": "切中居家健身无指导的普遍痛点，本地推理的隐私卖点清晰，产品已迭代语音教练等实用功能。目前仅支持 iPhone、首发面向中东市场，Android 尚缺。",
+        "competitors": [
+          {
+            "name": "Tempo",
+            "url": "https://www.tempo.fit",
+            "comparison": "带屏健身镜+AI 计数，需专用硬件；CoachAI 只用手机摄像头更轻量"
+          },
+          {
+            "name": "Fitbod",
+            "url": "https://fitbod.me",
+            "comparison": "AI 生成力量训练计划但无动作实时纠正；CoachAI 能实时看动作反馈"
+          }
+        ]
+      }
+    },
+    {
+      "id": "v2ex.com/t/1232192",
+      "name": "织诗 - AI写诗",
+      "slug": "zhi-shi-ai-poetry",
+      "description": "「三问成诗」的 AI 古诗创作 App：回答心情、牵挂、身在何处三个问题，AI 为每一句生成多个候选诗句，逐句挑选即成绝句或律诗。支持篆书朱印落款、水墨背景分享图、繁简切换，完全免费无广告。",
+      "url": "https://apps.apple.com/cn/app/ai%E5%86%99%E8%AF%97-%E5%8F%A4%E8%AF%97%E8%AF%8D%E5%88%9B%E4%BD%9C%E4%B8%8E%E8%AF%97%E6%AD%8C%E7%94%9F%E6%88%90%E5%99%A8/id6777856347",
+      "homepage": "https://apps.apple.com/cn/app/ai%E5%86%99%E8%AF%97-%E5%8F%A4%E8%AF%97%E8%AF%8D%E5%88%9B%E4%BD%9C%E4%B8%8E%E8%AF%97%E6%AD%8C%E7%94%9F%E6%88%90%E5%99%A8/id6777856347",
+      "type": "app",
+      "appStoreName": "AI写诗 - 古诗词创作与诗歌生成器",
+      "appStoreUrl": "https://apps.apple.com/cn/app/id6777856347",
+      "screenshotUrl": "assets/screenshots/v2ex.com_t_1232192_20260805_120257.png",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f2/4c/2b/f24c2b40-2c82-ae24-a7d6-ce3f1f77f85f/screenshot_67_1.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/94/c3/7f/94c37f4f-3ace-28dc-267c-1f4100a5919e/screenshot_67_2.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/dd/bb/73/ddbb7328-4044-8e83-a6ef-77b64350b66a/screenshot_67_3.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/49/f5/a6/49f5a667-b6fe-d294-7bdd-c66e8c9ae507/screenshot_67_4.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/63/8b/32/638b32b9-cc80-e18f-5b42-c093a70a3057/screenshot_67_5.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/69/2b/78/692b787c-dcce-7a66-a2a2-16a3335602ea/screenshot_67_6.png/320x480bb.jpg"
+      ],
+      "tags": [
+        "古诗词",
+        "AI创作",
+        "传统文化",
+        "免费",
+        "创作工具"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "sourceUrl": "https://www.v2ex.com/t/1232192",
+      "firstSeen": "2026-08-05T12:00:00+08:00",
+      "analysis": {
+        "targetAudience": "喜欢古诗词、想尝试创作但不懂格律的普通用户，尤其是年轻用户与诗词爱好者",
+        "useCases": [
+          "为朋友或家人写一首应景的绝句",
+          "记录当下心情的诗意表达",
+          "节日贺诗配水墨分享图发朋友圈",
+          "以趣味方式入门学习平仄、对仗"
+        ],
+        "designIntent": "作者的女朋友想写诗却卡在平仄、押韵、对仗的门槛上；市面 AI 写诗工具要么直接甩成品缺乏参与感，要么塞满订阅与广告。他做了一个让普通人逐句参与创作、完全免费无内购的古诗工具。",
+        "problemSolved": "古典诗词格律门槛高，普通人难以参与创作；现有 AI 写诗工具缺乏参与感或过度商业化。织诗用「三问成诗」的对话式创作加逐句挑选，把门槛降下来，同时保留创作乐趣。",
+        "tags": [
+          "古诗词",
+          "AI创作",
+          "传统文化",
+          "免费",
+          "创作工具"
+        ],
+        "score": 8,
+        "scoreReason": "巧妙地把 AI 融入传统文化场景，交互设计有参与感（逐句挑选、篆刻落款），免费无广告诚意足，App Store 已上架。与模板化写诗工具差异化明显，适合大众传播。",
+        "competitors": [
+          {
+            "name": "谱诗 PoetryBot",
+            "url": "https://apps.apple.com/app/id1664339685",
+            "comparison": "AI 生成唐诗宋词对联，含会员订阅；织诗主打逐句参与且完全免费"
+          },
+          {
+            "name": "智言诗",
+            "url": "https://apps.apple.com/app/id6744548574",
+            "comparison": "一键生成绝句律诗藏头诗，偏模板化；织诗三问定意境、参与感更强"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1206082",
+      "name": "ScrollToll",
+      "slug": "scrolltoll",
+      "description": "「屏幕时间健身房」：把让你沉迷的 App 锁起来，用 AI 姿态检测验证俯卧撑、深蹲等真实运动来赚取屏幕时间——身体就是解锁密码。",
+      "url": "https://getscrolltoll.app",
+      "homepage": "https://getscrolltoll.app",
+      "type": "app",
+      "appStoreName": "ScrollToll : Screen-Time Gym",
+      "appStoreUrl": "https://apps.apple.com/cn/app/id6759556869",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1206082_20260805_120305.png",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1f/3d/28/1f3d286e-4266-a1a6-2525-7e58dd89f11f/01.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/06/4a/9c/064a9c88-8bd8-5b7d-c198-be43ad683971/02.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a8/19/e0/a819e09f-8d2a-1608-71ff-bde67496775a/03.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4e/e9/2a/4ee92aa4-ad66-5cf6-7ff9-2bf4420544b0/04.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/15/56/77/15567703-cc9f-8523-57d1-728736c1f25c/05.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ae/f1/1d/aef11dc9-50ea-476e-a182-e0eca4c95732/06.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f3/cb/ff/f3cbff5c-bf6a-5fa6-cc1f-e5540ca6d2d4/07.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/34/f6/4e/34f64e90-6b08-1d0d-bc5c-55bb0ca6afbc/08.png/320x480bb.jpg"
+      ],
+      "tags": [
+        "数字健康",
+        "防沉迷",
+        "屏幕时间",
+        "健身",
+        "AI姿态检测"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1206082?app_id=339",
+      "firstSeen": "2026-08-05T12:00:00+08:00",
+      "analysis": {
+        "targetAudience": "短视频与社交媒体重度用户、想戒手机但意志力不足的学生和职场人",
+        "useCases": [
+          "睡前戒掉刷短视频的坏习惯",
+          "工作学习时锁掉娱乐 App",
+          "用运动换取屏幕时间、养成锻炼习惯",
+          "家长帮孩子建立健康的屏幕时间规则"
+        ],
+        "designIntent": "传统屏幕限制工具点一下「忽略」就破了。作者认为戒数字成瘾需要物理世界的行为打断，于是做了一台「屏幕时间健身房」：想看 App 就得先做俯卧撑、深蹲，用真实运动换取屏幕时间。",
+        "problemSolved": "短视频与社交 App 的算法不断掠夺用户时间，意志力难以对抗；传统限制工具可被轻易绕过。ScrollToll 用 AI 验证的真实运动作为解锁门槛，把刷手机变成锻炼习惯。",
+        "tags": [
+          "数字健康",
+          "防沉迷",
+          "屏幕时间",
+          "健身",
+          "AI姿态检测"
+        ],
+        "score": 7,
+        "scoreReason": "把 AI 姿态检测融入防沉迷场景，机制设计巧妙（运动换时间不可作弊），已有 3 万+ 用户验证。属于成熟产品在 Product Hunt 的再次发布，新鲜度略低。",
+        "competitors": [
+          {
+            "name": "Opal",
+            "url": "https://www.opal.so",
+            "comparison": "专注 App 屏蔽，但可用意志力绕过；ScrollToll 用 AI 验证运动解锁更强制"
+          },
+          {
+            "name": "苹果屏幕时间",
+            "url": "https://support.apple.com/zh-cn/108792",
+            "comparison": "系统自带限制，可一键忽略；ScrollToll 提供物理动作验证屏障"
+          }
+        ]
+      }
+    }
+  ]
+}
