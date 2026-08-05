@@ -18,4 +18,4 @@ data/deduped-candidates.json
 data/selected_products_temp.json
 
 # Cron 临时脚本（每次运行自动生成，不应入库）
-scripts/_cron_step*.py
+scripts/_cron_*
