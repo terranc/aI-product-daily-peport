@@ -1,0 +1,322 @@
+{
+  "date": "2026-08-06",
+  "generatedAt": "2026-08-06T07:19:57.400244+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "myhomecat.com",
+      "name": "HomeCat - AI 建筑图纸生成",
+      "slug": "homecat",
+      "description": "用手机拍一段房屋视频，HomeCat 即可自动生成可用于报建（permit-ready）的建筑图纸。面向房主、翻新业主与施工团队，把原本需要专业测绘的流程压缩到几分钟，无需上门测量。",
+      "url": "https://myhomecat.com",
+      "homepage": "https://myhomecat.com",
+      "type": "website",
+      "tags": [
+        "AI 建筑图纸",
+        "房屋翻新",
+        "视觉识别",
+        "效率工具",
+        "智能测绘"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49187965",
+      "firstSeen": "2026-08-06T07:10:00+00:00",
+      "analysis": {
+        "targetAudience": "需要翻新、改建或报建的房主，以及想快速获取房屋现状图纸的建筑设计师与施工团队",
+        "useCases": [
+          "手机拍视频快速生成房屋现状图纸",
+          "翻新改造前的尺寸与结构摸底",
+          "提交给建筑师的参考底图",
+          "房屋买卖、出租前的空间记录",
+          "施工队现场快速测量替代方案"
+        ],
+        "designIntent": "传统建筑测绘需要专业设备、上门测量与较长周期，普通人几乎无法自助完成。作者希望把「拍一段视频 → 得到可用图纸」变成可能，让 AI 视觉替代专业测绘，降低房屋改建的入门门槛。",
+        "problemSolved": "解决房屋业主获取建筑图纸难、测绘成本高、报建流程前置资料准备繁琐的问题，让普通用户也能在几分钟内拿到可供报建的平面图纸。",
+        "tags": [
+          "AI 建筑图纸",
+          "房屋翻新",
+          "视觉识别",
+          "效率工具",
+          "智能测绘"
+        ],
+        "score": 8,
+        "scoreReason": "场景真实且付费意愿强（报建是刚需），AI 视觉落点清晰；不确定性在于图纸精度是否能满足正式报建标准，以及与传统测绘工具相比的专业性差距。",
+        "competitors": [
+          {
+            "name": "MagicPlan",
+            "url": "https://www.magicplan.app",
+            "comparison": "MagicPlan 是老牌手机测量绘图工具，功能成熟；HomeCat 主打一键视频直出，门槛更低但精度有待验证"
+          },
+          {
+            "name": "CubiCasa",
+            "url": "https://www.cubicasa.com",
+            "comparison": "CubiCasa 面向房产中介的快速平面图服务，HomeCat 更聚焦业主自助与报建场景"
+          },
+          {
+            "name": "RoomScan Pro",
+            "url": "https://www.locatee.com",
+            "comparison": "RoomScan 需按墙逐段扫描，HomeCat 用视频单次拍摄即可完成，操作更简单"
+          }
+        ]
+      },
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/myhomecat.com_20260806_152033.png",
+      "appStoreScreenshots": []
+    },
+    {
+      "id": "drakeai.app",
+      "name": "DrakeAI - AI 语音记账",
+      "slug": "drakeai",
+      "description": "通过语音或文字聊天即可记账的 AI 记账工具，无需绑定银行账户。发票照片、语音备注会自动整理成结构化消费记录，保护隐私的同时让记账像发消息一样自然。",
+      "url": "https://drakeai.app",
+      "homepage": "https://drakeai.app",
+      "type": "website",
+      "tags": [
+        "AI 记账",
+        "语音输入",
+        "个人财务",
+        "消费分析",
+        "隐私友好"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49187481",
+      "firstSeen": "2026-08-06T07:10:00+00:00",
+      "analysis": {
+        "targetAudience": "讨厌手动记账、希望随手记录开销、又不想把银行账户授权给记账 App 的个人用户",
+        "useCases": [
+          "吃饭、打车后随口一句话记录开销",
+          "拍摄发票或小票自动提取金额与分类",
+          "月底自动生成消费结构与趋势分析",
+          "旅行、差旅期间零散花费的随手登记",
+          "不连银行、注重隐私的记账需求"
+        ],
+        "designIntent": "现有记账工具要么依赖银行同步（有隐私与兼容性问题），要么手动分类繁琐。作者选择「对话即记账」的形态，让 AI 从自然语言里自动提取金额、类别与备注，把记账成本降到接近零。",
+        "problemSolved": "解决记账动作繁琐、手动分类费时、以及银行同步带来的隐私顾虑，让记账融入日常聊天习惯，无需主动打开 App 操作。",
+        "tags": [
+          "AI 记账",
+          "语音输入",
+          "个人财务",
+          "消费分析",
+          "隐私友好"
+        ],
+        "score": 8,
+        "scoreReason": "切入点小巧但实用，对话式记账降低了使用门槛且隐私友好，符合个人财务工具趋势；风险是记账赛道竞争激烈（银行 App 自带记账），需靠 AI 体验与用户习惯沉淀取胜。",
+        "competitors": [
+          {
+            "name": "Copilot Money",
+            "url": "https://copilot.money",
+            "comparison": "Copilot 以银行同步与自动分类见长，DrakeAI 主打不连银行、纯对话录入，隐私卖点不同"
+          },
+          {
+            "name": "钱迹",
+            "url": "https://www.qianji.app",
+            "comparison": "钱迹是国内流行的手动记账 App，DrakeAI 的 AI 自然语言解析能省去逐项录入"
+          },
+          {
+            "name": "Snoop",
+            "url": "https://snoop.app",
+            "comparison": "Snoop 侧重智能消费洞察，DrakeAI 更强调语音/文字即时录入的轻量体验"
+          }
+        ]
+      },
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/drakeai.app_20260806_152044.png",
+      "appStoreScreenshots": []
+    },
+    {
+      "id": "producthunt.com/r/p/1206054",
+      "name": "Yokoso - 实用日语学习",
+      "slug": "yokoso",
+      "description": "面向「在日本真实生活」场景的免费日语学习应用，覆盖标牌、价格、助数词、词汇、语法与阅读练习。Web 与 iPhone 端可用，支持离线学习、自适应 JLPT 课程（至 N3）与 WaniKani 进度导入，无广告、无打卡、无付费墙。",
+      "url": "https://yokosoapp.com",
+      "homepage": "https://yokosoapp.com",
+      "type": "website",
+      "tags": [
+        "日语学习",
+        "语言教育",
+        "生活场景",
+        "免费工具",
+        "JLPT"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/yokoso-2",
+      "firstSeen": "2026-08-06T07:10:00+00:00",
+      "analysis": {
+        "targetAudience": "准备移居、留学或在日本生活工作、需要实用日语而非应试教材的成人学习者",
+        "useCases": [
+          "认读车站、商店等生活场景的标牌与价格",
+          "便利店、居酒屋等真实生活会话练习",
+          "JLPT N5-N3 的碎片化自适应备考",
+          "结合 WaniKani 进度同步复习汉字",
+          "通勤、排队等零散时间离线学习"
+        ],
+        "designIntent": "作者移居日本后发现传统课程教的日语和日常生活脱节，于是按「你真正在日本生活时用到的日语」来设计内容，并坚持免费、无广告、无打卡，让学习完全围绕真实场景与个人节奏。",
+        "problemSolved": "解决传统日语教材脱离实际生活、学习动机难持续、优质课程收费高的问题，让学习者用生活中的真实素材高效掌握实用日语。",
+        "tags": [
+          "日语学习",
+          "语言教育",
+          "生活场景",
+          "免费工具",
+          "JLPT"
+        ],
+        "score": 8,
+        "scoreReason": "场景定位精准（在日生活人群），免费无广告的诚意高，自适应与离线能力扎实；不足是覆盖面仅到 N3、iPhone 端尚在完善，与 Duolingo 等成熟产品相比生态较小。",
+        "competitors": [
+          {
+            "name": "Duolingo",
+            "url": "https://www.duolingo.com",
+            "comparison": "Duolingo 靠游戏化与庞大用户规模取胜，Yokoso 更聚焦在日生活的实用场景与 JLPT 进度"
+          },
+          {
+            "name": "Bunpro",
+            "url": "https://www.bunpro.jp",
+            "comparison": "Bunpro 专精日语语法 SRS 复习，Yokoso 覆盖更广的生活词汇与阅读场景"
+          },
+          {
+            "name": "KURASHI STUDY",
+            "url": "https://apps.apple.com/us/app/learn-japanese-kurashi-study/id1542314715",
+            "comparison": "KURASHI STUDY 也主打生活日语故事阅读，Yokoso 多了自适应难度与 WaniKani 联动"
+          }
+        ]
+      },
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1206054_20260806_152052.png",
+      "appStoreScreenshots": []
+    },
+    {
+      "id": "v2ex.com/t/1232398",
+      "name": "拉片笔记 - AI 电影拆解工具",
+      "slug": "lapian-notes",
+      "description": "全本地运行的电影拉片工具：导入影片后自动抽帧并打包交给 AI 分析，生成分段、剧情泳道时间轴、结构树与情绪曲线，支持边播放边修改。纯前端实现（React + Vite），数据只存在本地，不上传服务器，隐私安全。",
+      "url": "https://bkingfilm.github.io/lapian-notes/",
+      "homepage": "https://bkingfilm.github.io/lapian-notes/",
+      "type": "website",
+      "tags": [
+        "影视分析",
+        "AI 视频理解",
+        "创作工具",
+        "本地隐私",
+        "拉片"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "sourceUrl": "https://www.v2ex.com/t/1232398",
+      "firstSeen": "2026-08-06T07:10:00+00:00",
+      "analysis": {
+        "targetAudience": "影视从业者、影视专业学生、影评人与深度影迷，需要逐帧拆解影片叙事与视听语言的人群",
+        "useCases": [
+          "拆解电影的叙事结构与分段",
+          "生成剧情时间轴辅助拉片教学",
+          "分析导演的节奏与情绪曲线",
+          "为影评、论文整理逐帧素材",
+          "编剧/导演的自我复盘与审片"
+        ],
+        "designIntent": "拉片是影视学习与创作的核心方法，但传统手工逐帧标记极其耗时。作者用 AI 抽帧 + 字幕识别自动化拆解流程，并坚持纯前端本地运行，让分析结果与素材完全留在用户自己的设备上。",
+        "problemSolved": "解决手工拉片耗时费力、专业工具门槛高、以及把影片上传云端分析带来的版权与隐私风险，让创作者低成本获得结构化的影片拆解视图。",
+        "tags": [
+          "影视分析",
+          "AI 视频理解",
+          "创作工具",
+          "本地隐私",
+          "拉片"
+        ],
+        "score": 8,
+        "scoreReason": "工具切入点垂直且真实（拉片是硬需求），本地隐私设计与 AI 直连体验有亮点；局限在于受众较窄、主要面向影视专业人群，且依赖用户自备 AI Key。",
+        "competitors": [
+          {
+            "name": "Descript",
+            "url": "https://www.descript.com",
+            "comparison": "Descript 是面向视频剪辑的 AI 转写工具，拉片笔记专注剧情结构分析，侧重点完全不同"
+          },
+          {
+            "name": "Runway",
+            "url": "https://runwayml.com",
+            "comparison": "Runway 偏生成与云端视频理解，拉片笔记强调本地化、逐帧叙事结构而非生成能力"
+          },
+          {
+            "name": "剪映",
+            "url": "https://www.capcut.cn",
+            "comparison": "剪映是通用剪辑工具，拉片笔记的时间轴泳道与结构树更贴合电影学研究场景"
+          }
+        ]
+      },
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/v2ex.com_t_1232398_20260806_152059.png",
+      "appStoreScreenshots": []
+    },
+    {
+      "id": "v2ex.com/t/1232425",
+      "name": "LiveFaceSwap - AI 实时换脸",
+      "slug": "livefaceswap",
+      "description": "无需 GPU 即可在浏览器中实时试用的 AI 换脸网站，配套桌面应用支持 OBS 直播、视频通话等场景。在线试用版零门槛体验，桌面端面向主播与创作者提供更流畅的实时效果。",
+      "url": "https://livefaceswap.ai",
+      "homepage": "https://livefaceswap.ai",
+      "type": "website",
+      "tags": [
+        "实时换脸",
+        "直播工具",
+        "视频特效",
+        "内容创作",
+        "AI 生成"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "sourceUrl": "https://www.v2ex.com/t/1232425",
+      "firstSeen": "2026-08-06T07:10:00+00:00",
+      "analysis": {
+        "targetAudience": "直播主播、短视频创作者、视频会议趣味化需求者，以及想体验 AI 换脸的普通用户",
+        "useCases": [
+          "直播时实时切换人脸效果",
+          "短视频中替换角色/扮演他人",
+          "视频会议加入趣味互动特效",
+          "cosplay 与二次创作辅助",
+          "影视拍摄前的预演参考"
+        ],
+        "designIntent": "实时换脸传统上依赖高性能 GPU 与复杂的本地配置，作者希望把这一能力变成开箱即用的在线服务：先用网页零门槛试用建立信任，再引导直播/创作者用户使用桌面端获得更稳定流畅的实时效果。",
+        "problemSolved": "解决实时换脸工具门槛高（需要显卡与配置）、上手难的问题，让普通用户无需任何硬件即可在线体验，同时为专业场景提供桌面端方案。",
+        "tags": [
+          "实时换脸",
+          "直播工具",
+          "视频特效",
+          "内容创作",
+          "AI 生成"
+        ],
+        "score": 7,
+        "scoreReason": "产品完成度高（已有付费用户）且把复杂能力做成了零门槛在线体验，直播换脸有真实需求；但换脸涉及肖像权与伦理风险，监管与平台政策是最大不确定性，同类工具竞争也较激烈。",
+        "competitors": [
+          {
+            "name": "Reface",
+            "url": "https://reface.app",
+            "comparison": "Reface 主打短视频换脸模板，LiveFaceSwap 侧重直播实时性与 OBS 工作流集成"
+          },
+          {
+            "name": "FaceSwap",
+            "url": "https://faceswap.dev",
+            "comparison": "FaceSwap 是开源本地工具，需自备 GPU 与配置，LiveFaceSwap 在线即用门槛更低"
+          },
+          {
+            "name": "DeepFaceLive",
+            "url": "https://github.com/iperov/DeepFaceLive",
+            "comparison": "DeepFaceLive 面向技术用户本地部署，LiveFaceSwap 的网页试用与桌面端对普通用户更友好"
+          }
+        ]
+      },
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/v2ex.com_t_1232425_20260806_152105.png",
+      "appStoreScreenshots": []
+    }
+  ]
+}
