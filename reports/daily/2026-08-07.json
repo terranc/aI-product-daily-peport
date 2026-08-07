@@ -1,0 +1,287 @@
+{
+ "date": "2026-08-07",
+ "generatedAt": "2026-08-07T04:25:59+00:00",
+ "productCount": 5,
+ "products": [
+  {
+   "id": "producthunt.com/r/p/1210439",
+   "name": "Wondering - 学任何东西的 Duolingo",
+   "slug": "wondering",
+   "description": "把任意想学的主题（从量子物理到塔罗牌）拆解成一条 3 分钟一课、带视觉化、播客和互动练习的个性化学习路径，按你的基础和理解深度定制。",
+   "url": "https://wondering.app/",
+   "homepage": "https://wondering.app/",
+   "type": "app",
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/posts/wondering",
+   "firstSeen": "2026-08-07T04:25:03.571577+00:00",
+   "analysis": {
+    "targetAudience": "想系统学习新知识但没有整块时间、又受够了碎片化刷视频的终身学习者",
+    "useCases": [
+     "通勤路上用 3 分钟小课入门量子物理、AI 原理等硬核话题",
+     "把「读懂后现代家具设计」「学习斯多葛哲学」这类兴趣主题变成可执行的课程",
+     "备考或转行时按自己的基础定制学习深度，避免从零啃大部头",
+     "用互动练习和测验把被动看内容变成主动记忆",
+     "碎片时间持续学习，记录进度和知识点掌握情况"
+    ],
+    "designIntent": "创始人曾做 NotebookLM 的 Mind Maps，发现 AI 工具提升的是『给答案』的速度而不是『让人理解』的能力。他们想做一个把任何复杂主题变成结构化、短课时、可练习的学习体验的产品，让 AI 真正帮助人理解和记住，而不是替代思考。",
+    "problemSolved": "解决『想学但学不进去』的经典困境：网课太长、内容太散、没有正反馈。Wondering 用 AI 把任意主题切成 3 分钟可消化的课时，配合视觉化、播客和互动练习，让复杂知识变得可入口、可坚持、可掌握。",
+    "tags": [
+     "个性化学习",
+     "AI 课程生成",
+     "终身学习",
+     "教育",
+     "知识管理"
+    ],
+    "score": 9,
+    "scoreReason": "YC S26 背书，团队出自 NotebookLM/Meta，产品完成度和数据（1.2 万人完成 4.2 万课时）都扎实。把『任意主题变课程』这个 AI 最擅长的场景做到了体验级，是少见的 B2C AI 教育精品。",
+    "competitors": [
+     {
+      "name": "Duolingo",
+      "url": "https://www.duolingo.com",
+      "comparison": "只覆盖语言学习且课程固定，Wondering 覆盖任意主题且按个人定制"
+     },
+     {
+      "name": "Khanmigo",
+      "url": "https://www.khanmigo.ai",
+      "comparison": "偏 K12 学科辅导，Wondering 面向成人终身学习的任意主题"
+     },
+     {
+      "name": "NotebookLM",
+      "url": "https://notebooklm.google.com",
+      "comparison": "是资料整理与问答工具，Wondering 是主动的教学式学习路径"
+     }
+    ]
+   },
+   "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1210439_20260807_122517.png",
+   "appStoreScreenshots": [],
+   "appStoreName": null,
+   "appStoreUrl": null
+  },
+  {
+   "id": "useknowable.ai",
+   "name": "Knowable - 视觉 AI 辅导老师",
+   "slug": "knowable",
+   "description": "世界首个『看得见你草稿纸』的视觉 AI 辅导：学生在纸上演算数学题，AI 实时看着过程给引导式反馈，而不是直接报答案。",
+   "url": "https://useknowable.ai/",
+   "homepage": "https://useknowable.ai/",
+   "type": "website",
+   "sourceChannels": [
+    "hackernews"
+   ],
+   "sourceUrl": "https://news.ycombinator.com/item?id=49204343",
+   "firstSeen": "2026-08-07T04:25:03.571577+00:00",
+   "analysis": {
+    "targetAudience": "需要作业辅导的 K12 学生和家长，以及想保留『自己动手解题』习惯的自学者",
+    "useCases": [
+     "学生在纸上做代数/几何题，AI 实时看过程并指出卡住的一步",
+     "家长辅导孩子作业时作为耐心的『第二老师』，避免直接给答案",
+     "数学自习时获得比题库更接近真人老师的引导式反馈",
+     "远程教学中老师给学生布置『可视化解题』任务并自动批改过程",
+     "自学微积分等进阶数学时随时获得过程级纠错"
+    ],
+    "designIntent": "传统 AI 辅导是纯对话式，学生拍照上传后 AI 直接给答案，反而让学生失去了思考过程。Knowable 的视觉定位能力让它能『看着』学生写在纸上的每一步演算，像真人老师一样只在卡住的地方给提示，守护学生的思考过程。",
+    "problemSolved": "解决 AI 辅导『给答案不教方法』的通病。通过视觉理解学生的解题过程，在正确的时机给最小的提示，既避免学生抄答案，又让没有老师陪伴的学生获得真实的过程性指导。",
+    "tags": [
+     "AI 辅导",
+     "教育科技",
+     "视觉理解",
+     "数学学习",
+     "自适应学习"
+    ],
+    "score": 8,
+    "scoreReason": "『视觉接地』的辅导方式是差异化亮点，直击 AI 家教最大的体验痛点（直接给答案）。方向正确且演示完成度高，但产品尚早期，学科覆盖和商业化待验证。",
+    "competitors": [
+     {
+      "name": "Khanmigo",
+      "url": "https://www.khanmigo.ai",
+      "comparison": "对话式辅导为主，Knowable 强调看着草稿纸给过程反馈"
+     },
+     {
+      "name": "Photomath",
+      "url": "https://photomath.com",
+      "comparison": "拍照即出答案，Knowable 引导自己解出而非给答案"
+     },
+     {
+      "name": "Quizlet Q-Chat",
+      "url": "https://quizlet.com",
+      "comparison": "偏背诵与测验，Knowable 专注解题过程的视觉辅导"
+     }
+    ]
+   },
+   "screenshotUrl": "assets/screenshots/useknowable.ai_20260807_122528.png",
+   "appStoreScreenshots": [],
+   "appStoreName": null,
+   "appStoreUrl": null
+  },
+  {
+   "id": "v2ex.com/t/1232634",
+   "name": "AetherPDF - AI 直改 PDF 的 Mac 编辑器",
+   "slug": "aetherpdf",
+   "description": "Mac 原生 PDF 编辑器：自研 16 年 PDF 引擎做内容流级文字编辑，AI Agent 直接调用引擎原子能力改 PDF（替换文字、改样式、加页码），所有操作可撤销。",
+   "url": "https://apps.apple.com/cn/app/aetherpdf/id6785851686",
+   "homepage": "https://apps.apple.com/cn/app/aetherpdf/id6785851686",
+   "type": "app",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "sourceChannels": [
+    "v2ex"
+   ],
+   "sourceUrl": "https://www.v2ex.com/t/1232634",
+   "firstSeen": "2026-08-07T04:25:03.571577+00:00",
+   "analysis": {
+    "targetAudience": "经常要改合同、标书、论文 PDF 的办公人群和 Mac 用户",
+    "useCases": [
+     "把合同里所有『甲方』批量替换成公司名，AI 直接执行",
+     "把所有章节标题统一改成指定字号、颜色和字体",
+     "给整份 PDF 批量加页码、水印、页眉页脚",
+     "编辑 PDF 内容流里的文字（真正改内容，不是注释覆盖）",
+     "合并、拆分、重排页面并保留原排版一致性"
+    ],
+    "designIntent": "独立开发者用 16 年业余时间自研 PDF 核心（15 万行 C++，不依赖 PDFium），并让 AI Agent 直接调用引擎的每一项原子能力——不是套壳聊天，而是 AI 动手改文件。设计上把 AI 的指令理解和引擎的可控编辑能力结合，所有操作走 Undo/Redo 栈，让『AI 改文档』真正可用、可撤回、可信任。",
+    "problemSolved": "现有 PDF 工具要么编辑能力弱（注释层覆盖、假编辑），要么 AI 只能聊文档不能动手改。AetherPDF 用自研引擎实现内容流级真编辑，再让 AI 直接驱动编辑操作，解决了『AI 理解文档』与『真正修改文档』之间的鸿沟。",
+    "tags": [
+     "PDF 编辑器",
+     "AI Agent",
+     "macOS 应用",
+     "文档处理",
+     "效率工具"
+    ],
+    "score": 8,
+    "scoreReason": "自研 PDF 引擎的技术深度罕见（16 年积累），AI 直接驱动编辑而非套壳聊天的产品思路正确。个人开发者产品，生态和兼容性待观察，但免费版全功能+水印的诚意足。",
+    "competitors": [
+     {
+      "name": "PDF Expert",
+      "url": "https://pdfexpert.com",
+      "comparison": "编辑能力强但无 AI 直接改文档能力，AetherPDF 有原生 AI Agent 驱动"
+     },
+     {
+      "name": "PDFgear",
+      "url": "https://www.pdfgear.com",
+      "comparison": "有 AI 助手但偏对话问答，AetherPDF 是 AI 直接操作编辑动作"
+     },
+     {
+      "name": "UPDF",
+      "url": "https://updf.com",
+      "comparison": "通用 PDF 套件，无内容流级编辑和 AI 原子操作"
+     }
+    ]
+   },
+   "screenshotUrl": "assets/screenshots/v2ex.com_t_1232634_20260807_122536.png",
+   "appStoreScreenshots": []
+  },
+  {
+   "id": "producthunt.com/r/p/1214128",
+   "name": "VIDEO AI ME - 超写实 AI 演员视频生成",
+   "slug": "video-ai-me",
+   "description": "用超写实 AI 数字演员生成广告和原生营销视频，无需摄影棚和真人出镜，一键适配 TikTok、YouTube、Instagram 等平台。",
+   "url": "https://videoai.me/",
+   "homepage": "https://videoai.me/",
+   "type": "website",
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/posts/video-ai-me",
+   "firstSeen": "2026-08-07T04:25:03.571577+00:00",
+   "analysis": {
+    "targetAudience": "需要高频产出短视频广告的中小商家、电商运营和自媒体创作者",
+    "useCases": [
+     "电商卖家生成口播带货视频，AI 演员讲解产品卖点",
+     "跨境营销团队批量制作多语言广告素材",
+     "自媒体创作者快速产出原生感视频投放抖音/YouTube/Instagram",
+     "品牌方在预算有限时替代摄影棚拍摄的广告片",
+     "A/B 测试不同话术和脚本的视频素材"
+    ],
+    "designIntent": "拍一支专业广告视频的成本和门槛极高，而大多数中小商家根本用不起摄影棚和演员。VIDEO AI ME 想用超写实 AI 数字演员把视频广告的生产成本打下来，让『看起来像真人在镜头前说话』的视频可以被任何人按需生成。",
+    "problemSolved": "解决中小商家做视频广告的成本和门槛问题：不用请演员、租棚、拍摄剪辑，输入脚本即可生成有真人质感的出镜视频，并针对各平台尺寸和调性自动适配，让营销视频从『做不起』变成『按需造』。",
+    "tags": [
+     "AI 视频生成",
+     "数字人",
+     "广告营销",
+     "电商",
+     "内容创作"
+    ],
+    "score": 7,
+    "scoreReason": "超写实 AI 演员 + 多平台适配的产品定位清晰，切中中小商家短视频营销的刚需。但赛道拥挤（同类工具众多），视频真实度和口型自然度是长期竞争点。",
+    "competitors": [
+     {
+      "name": "HeyGen",
+      "url": "https://www.heygen.com",
+      "comparison": "数字人视频龙头，功能更全；VIDEO AI ME 主打广告场景一键适配"
+     },
+     {
+      "name": "Synthesia",
+      "url": "https://www.synthesia.io",
+      "comparison": "面向企业培训视频，VIDEO AI ME 更侧重营销广告素材"
+     },
+     {
+      "name": "Captions",
+      "url": "https://www.captions.ai",
+      "comparison": "偏剪辑与字幕增强，VIDEO AI ME 是生成式数字演员"
+     }
+    ]
+   },
+   "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1214128_20260807_122544.png",
+   "appStoreScreenshots": [],
+   "appStoreName": null,
+   "appStoreUrl": null
+  },
+  {
+   "id": "producthunt.com/r/p/1090720",
+   "name": "Hey Noah - 主动式 AI 高管助理",
+   "slug": "hey-noah",
+   "description": "面向创始人和高管的主动式 AI 执行助理：自动安排/改期会议、协调各方时间、跟进待办和人际关系，把会议和关系管理从日程表里解放出来。",
+   "url": "https://www.heynoah.io/",
+   "homepage": "https://www.heynoah.io/",
+   "type": "saas",
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/posts/hey-noah",
+   "firstSeen": "2026-08-07T04:25:03.571577+00:00",
+   "analysis": {
+    "targetAudience": "日程爆炸、忙于融资和扩张的创始人、CEO 及高管团队",
+    "useCases": [
+     "自动根据双方空闲时间安排和改期会议，协调与会者",
+     "会议临近时提醒参会人、通知对方高管可能迟到",
+     "跟进邮件和待办，确保合作方的承诺不被遗忘",
+     "维护外部关系：定期提醒与投资人、客户保持联系",
+     "会议结束后自动整理纪要并派发后续行动项"
+    ],
+    "designIntent": "创始人在卖掉一家 1 亿美元公司后发现：高管最贵的成本不是钱，而是时间——会议、关系和跟进琐事吃掉了大量精力。他想做一个『真正主动』的执行助理：不是等指令的机器人秘书，而是像资深 EA 一样自动把日程、关系和待办安排妥当，让创始人只做决策。",
+    "problemSolved": "解决高管『被日程和人际关系淹没』的问题：会议协调、跟进提醒、关系维护这类高频率低决策成本的事务，由 AI 主动完成，把创始人的时间和注意力还给战略决策。",
+    "tags": [
+     "AI 助理",
+     "会议管理",
+     "高管效率",
+     "SaaS",
+     "日程自动化"
+    ],
+    "score": 7,
+    "scoreReason": "创始人背景可信（前 $100M 公司创始人），『主动式而非被动式』的助理定位差异明确。但 AI 助理赛道拥挤，信任度、权限边界和与真实日历/邮件深度集成是落地关键。",
+    "competitors": [
+     {
+      "name": "x.ai / Reclaim.ai",
+      "url": "https://reclaim.ai",
+      "comparison": "偏日程排程自动化，Hey Noah 覆盖会议+关系+跟进的更广助理职责"
+     },
+     {
+      "name": "Motion",
+      "url": "https://www.usemotion.com",
+      "comparison": "偏个人任务与日历管理，Hey Noah 面向高管的主动式关系管理"
+     },
+     {
+      "name": "Sana / 其他 EA 服务",
+      "url": "https://sana.ai",
+      "comparison": "真人/半人工 EA 服务成本高，Hey Noah 是全 AI 的规模化方案"
+     }
+    ]
+   },
+   "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1090720_20260807_122552.png",
+   "appStoreScreenshots": [],
+   "appStoreName": null,
+   "appStoreUrl": null
+  }
+ ]
+}

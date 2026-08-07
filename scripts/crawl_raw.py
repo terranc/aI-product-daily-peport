@@ -302,10 +302,23 @@ def fetch_twitter():
         print(f"     ⚠️ twitter-cli 未安装: {TWITTER_CLI}")
         return products
 
+    # 加载 twitter-cli 凭据（auth_token/ct0/代理），文件不存在则用已有环境变量
+    env = dict(os.environ)
+    cred_file = Path.home() / ".twitter-cli.env"
+    if cred_file.exists():
+        try:
+            for line in cred_file.read_text(encoding="utf-8").splitlines():
+                line = line.strip()
+                if line and not line.startswith("#") and "=" in line:
+                    k, v = line.split("=", 1)
+                    env.setdefault(k.strip(), v.strip())
+        except Exception as e:
+            print(f"     凭据加载警告: {e}")
+
     try:
         result = subprocess.run(
             [TWITTER_CLI, "feed", "--type", "for-you", "-n", "50", "--json"],
-            capture_output=True, text=True, timeout=90,
+            capture_output=True, text=True, timeout=90, env=env,
         )
         if result.returncode != 0:
             print("     获取失败")
