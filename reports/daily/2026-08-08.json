@@ -1,0 +1,317 @@
+{
+  "date": "2026-08-08",
+  "generatedAt": "2026-08-08T04:18:53.510840+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "apps.apple.com/us/app/buddytheaimobilebrowser/id6788047483",
+      "name": "Buddy：内置 AI 助手的 iOS 浏览器",
+      "slug": "buddy-ai-mobile-browser",
+      "description": "Buddy 是一款把 AI 助手直接放进浏览器里的 iOS 应用。浏览网页时，AI 能与你看到相同的画面，并真正帮你完成任务——不用在聊天机器人和搜索结果之间来回切换。桌面端已有类似方案，但移动端一直缺少好用的选择。",
+      "url": "https://apps.apple.com/us/app/buddy-the-ai-mobile-browser/id6788047483",
+      "homepage": "https://apps.apple.com/us/app/buddy-the-ai-mobile-browser/id6788047483",
+      "type": "app",
+      "appStoreName": "Buddy: the AI mobile browser",
+      "appStoreUrl": "https://apps.apple.com/us/app/buddy-the-ai-mobile-browser/id6788047483?uo=4",
+      "screenshotUrl": "assets/screenshots/apps.apple.com_us_app_buddytheaimobilebrowser_id6788047483_20260808_121854.png",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/38/91/0b/38910b5b-d527-9a58-80f7-fcde0970b6bc/01-hook.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/70/7d/e0/707de09b-e93b-bb02-ed25-01e06e268d1b/02-ask.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1f/e0/a2/1fe0a229-9a64-8b93-a0a0-2db501c50b96/03-acts.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7f/79/ad/7f79ad1f-9012-2359-c599-57c6173d4362/04-flights.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a4/82/5b/a4825b04-97b2-fcf7-c5b5-4bafc5fdf0db/05-forms.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/35/e0/0b/35e00bb9-fd20-7329-eeda-891aba637e70/07-voice.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e5/ca/b2/e5cab2c8-d5f4-605f-e61f-680f039eda48/06-privacy.png/320x480bb.jpg"
+      ],
+      "tags": [
+        "AI浏览器",
+        "移动端Agent",
+        "任务自动化"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49218628",
+      "firstSeen": "2026-08-08T04:18:53.510840+00:00",
+      "analysis": {
+        "targetAudience": "希望在手机上用 AI 直接完成浏览任务的普通用户",
+        "useCases": [
+          "边浏览边向 AI 追问网页内容，无需反复切换应用",
+          "让 AI 根据当前页面直接执行操作（如填写表单、查找信息）",
+          "在手机上获得桌面级 AI 浏览器体验",
+          "购物比价、资料收集等需要多步骤操作的场景"
+        ],
+        "designIntent": "开发者发现手机上「问 AI → 看搜索结果 → 再追问」的循环非常低效，希望让 AI 与用户共享浏览器视野，成为真正能动手干活的助手，而不仅是问答机器人。",
+        "problemSolved": "解决了移动端 AI 助手与浏览器割裂的问题：过去 AI 看不到你正在看的页面，也无法替你操作；Buddy 让 AI 与你看到相同内容并能实际完成任务，减少来回切换的精力损耗。",
+        "tags": [
+          "AI浏览器",
+          "移动端Agent",
+          "任务自动化",
+          "效率工具"
+        ],
+        "score": 8,
+        "scoreReason": "移动端 AI 浏览器是稀缺品类，AI 与浏览器同屏协作的产品设计直击真实痛点。作为早期版本完成度有待观察，但方向正确、需求明确。",
+        "competitors": [
+          {
+            "name": "Arc Search",
+            "url": "https://arc.net/",
+            "comparison": "同为移动端 AI 浏览器，但 Arc Search 更偏搜索体验，Buddy 强调 AI 直接执行任务"
+          },
+          {
+            "name": "Perplexity",
+            "url": "https://www.perplexity.ai/",
+            "comparison": "问答型 AI 工具，不直接操作浏览器页面"
+          },
+          {
+            "name": "ChatGPT App",
+            "url": "https://openai.com/chatgpt/",
+            "comparison": "通用对话助手，缺少与当前浏览页面的深度协同"
+          }
+        ]
+      }
+    },
+    {
+      "id": "framewrite.cc",
+      "name": "Framewrite：把任意视频变成可用的文档",
+      "slug": "framewrite",
+      "description": "Framewrite 能把任何视频内容转化为结构化的文档，让你真正用起来——无论是会议录像、课程视频还是产品演示，都可以一键转成可检索、可引用的文字材料。",
+      "url": "https://framewrite.cc/",
+      "homepage": "https://framewrite.cc/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/framewrite.cc_20260808_121904.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "视频转文档",
+        "学习工具",
+        "会议纪要"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49218437",
+      "firstSeen": "2026-08-08T04:18:53.510840+00:00",
+      "analysis": {
+        "targetAudience": "经常看视频学习、开会或整理课程资料的人群",
+        "useCases": [
+          "把课程/培训视频转成可检索的学习笔记",
+          "会议录像一键生成纪要文档",
+          "产品演示视频转成操作说明",
+          "长视频内容快速提炼为要点文档"
+        ],
+        "designIntent": "视频信息密度高但难以检索、引用和复用，开发者希望打破「看完即忘」的困境，把视频这种难以处理的媒介转化为传统文档工作流能直接使用的形态。",
+        "problemSolved": "解决了视频内容无法像文档一样检索、引用和编辑的问题，让知识工作者不用为了找一句话反复拖动进度条，视频里的信息真正沉淀为可用的文字资产。",
+        "tags": [
+          "视频转文档",
+          "学习工具",
+          "会议纪要",
+          "效率工具"
+        ],
+        "score": 8,
+        "scoreReason": "切入「视频→文档」这一明确且高频的需求，AI 转写与结构化能力成熟度是关键。产品定位清晰，实用性强，属于看得见回报的效率工具。",
+        "competitors": [
+          {
+            "name": "Notion AI",
+            "url": "https://www.notion.com/",
+            "comparison": "笔记与知识库平台，视频转文档能力较弱，Framewrite 更专注视频输入"
+          },
+          {
+            "name": "Fireflies.ai",
+            "url": "https://fireflies.ai/",
+            "comparison": "专注会议纪要，不处理课程/演示等一般视频"
+          },
+          {
+            "name": "Whisper 系工具",
+            "url": "https://openai.com/",
+            "comparison": "只做语音转文字，缺少结构化文档输出"
+          }
+        ]
+      }
+    },
+    {
+      "id": "play.google.com/store/apps/details",
+      "name": "Utter：语音自动生成待办清单",
+      "slug": "utter-voice-todos",
+      "description": "Utter 是一款免注册的语音待办应用：说出你的想法，它自动帮你整理成待办事项。不用打开应用输入文字，也无需创建账号，张嘴就能记录。",
+      "url": "https://play.google.com/store/apps/details?id=com.utter.app&hl=en_US",
+      "homepage": "https://play.google.com/store/apps/details?id=com.utter.app&hl=en_US",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/play.google.com_store_apps_details_20260808_121911.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "语音待办",
+        "效率工具",
+        "免注册"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49218691",
+      "firstSeen": "2026-08-08T04:18:53.510840+00:00",
+      "analysis": {
+        "targetAudience": "习惯用语音快速记录想法、讨厌繁琐注册流程的移动用户",
+        "useCases": [
+          "走路、开车时随口说出待办事项",
+          "开会间隙快速记录行动项",
+          "临时灵感用语音即时存下",
+          "替代「打开备忘录打字」的繁琐流程"
+        ],
+        "designIntent": "记录待办最大的门槛是「打开应用 + 打字」的动作成本，开发者想用语音和零注册把记录成本降到最低，让记录成为零负担的自然动作。",
+        "problemSolved": "解决了待办记录成本高、容易放弃的问题：语音输入比打字快得多，免注册又消除了使用门槛，让待办工具真正被用起来而不是被安装后遗忘。",
+        "tags": [
+          "语音待办",
+          "效率工具",
+          "免注册",
+          "语音识别"
+        ],
+        "score": 7,
+        "scoreReason": "产品理念简单直接，语音转待办的需求真实存在且实现门槛不高。功能较单一、生态位竞争激烈，但免注册和极简交互是差异化亮点。",
+        "competitors": [
+          {
+            "name": "Todoist",
+            "url": "https://todoist.com/",
+            "comparison": "功能强大的任务管理，但需要注册且语音录入体验一般"
+          },
+          {
+            "name": "Google Keep",
+            "url": "https://keep.google.com/",
+            "comparison": "自带语音备忘，但整理成待办的能力较弱"
+          },
+          {
+            "name": "滴答清单",
+            "url": "https://www.dida365.com/",
+            "comparison": "中文任务管理标杆，语音输入为附属功能"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1215080",
+      "name": "Ododok：用 AirPods 数咀嚼次数",
+      "slug": "ododok",
+      "description": "Ododok 是一款利用 AirPods 内置传感器实时统计咀嚼次数的健康应用。吃饭时无需额外穿戴设备，戴上 AirPods 就能看到咀嚼次数、节奏和用餐时长，餐后还能回顾每餐数据，帮你养成细嚼慢咽的健康饮食习惯。",
+      "url": "https://apps.apple.com/kr/app/%EC%98%A4%EB%8F%84%EB%8F%85-%EB%82%98%EB%A7%8C%EC%9D%98-%EB%8B%A4%EB%9E%8C%EC%A5%90-%EC%8B%9D%EC%82%AC-%EC%BD%94%EC%B9%98-%EC%9D%BC%EC%9D%BC-%EA%B8%B0%EB%A1%9D/id6784962920",
+      "homepage": "https://apps.apple.com/kr/app/%EC%98%A4%EB%8F%84%EB%8F%85-%EB%82%98%EB%A7%8C%EC%9D%98-%EB%8B%A4%EB%9E%8C%EC%A5%90-%EC%8B%9D%EC%82%AC-%EC%BD%94%EC%B9%98-%EC%9D%BC%EC%9D%BC-%EA%B8%B0%EB%A1%9D/id6784962920",
+      "type": "app",
+      "appStoreName": "오도독 - 나만의 다람쥐 식사 코치 & 일일 기록",
+      "appStoreUrl": "https://apps.apple.com/kr/app/%EC%98%A4%EB%8F%84%EB%8F%85-%EB%82%98%EB%A7%8C%EC%9D%98-%EB%8B%A4%EB%9E%8C%EC%A5%90-%EC%8B%9D%EC%82%AC-%EC%BD%94%EC%B9%98-%EC%9D%BC%EC%9D%BC-%EA%B8%B0%EB%A1%9D/id6784962920?uo=4",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1215080_20260808_121920.png",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9f/f8/f8/9ff8f898-e528-39aa-4d3b-11c89ab122f9/home.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/23/81/0a/23810ac8-8d08-4276-fcc4-5e18fc18094b/eating.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e7/6a/41/e76a4136-7f1a-deda-6938-dd8bc0233a52/calibration.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1d/44/08/1d44082e-3e27-c8f1-a419-901f4e127197/_U1105_U1175_U1111_U1169_U1110_U1173.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cf/83/fc/cf83fcd3-660f-7c40-bf6f-dbb3ab5a8700/_U1100_U1175_U1105_U1169_U11a8.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e9/67/c0/e967c045-6675-6661-08f4-a958c97f2cad/_U110e_U1175_U11ab_U1100_U116e.png/320x480bb.jpg"
+      ],
+      "tags": [
+        "健康饮食",
+        "AirPods",
+        "细嚼慢咽"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/ododok",
+      "firstSeen": "2026-08-08T04:18:53.510840+00:00",
+      "analysis": {
+        "targetAudience": "关注饮食健康、想改善进食习惯的 AirPods 用户",
+        "useCases": [
+          "每餐实时查看咀嚼次数与速度，控制进食节奏",
+          "通过咀嚼评分了解自己是否「吃太快」",
+          "查看日/周报告，追踪饮食习惯变化",
+          "与朋友互相监督，一起养成细嚼慢咽的习惯"
+        ],
+        "designIntent": "现代人普遍吃饭过快导致消化不良和过量进食，开发者利用 AirPods 的惯性传感器实现无感咀嚼监测——不用额外手环或手动计数，让「慢点吃」这件事变得可量化、可坚持。",
+        "problemSolved": "解决了「吃饭太快」难以察觉和纠正的问题：过去需要刻意数咀嚼次数，Ododok 用已有设备自动完成统计，并用评分、报告和游戏化机制让健康饮食成为可坚持的习惯。",
+        "tags": [
+          "健康饮食",
+          "AirPods",
+          "细嚼慢咽",
+          "习惯养成"
+        ],
+        "score": 7,
+        "scoreReason": "巧妙复用 AirPods 传感器的思路新颖，健康饮食场景需求真实。产品处于早期，地区限于韩区 App Store，普适性待提升，但创意加分明显。",
+        "competitors": [
+          {
+            "name": "慢吞吞",
+            "url": "https://apps.apple.com/cn/app/id6742094566",
+            "comparison": "中文区细嚼慢咽 App，用摄像头/手表监测，Ododok 用 AirPods 更无感"
+          },
+          {
+            "name": "O-TRAINER",
+            "url": "https://www.morson.jp/o-trainer/",
+            "comparison": "日本咀嚼训练应用，侧重口腔功能训练而非日常习惯"
+          },
+          {
+            "name": "ChewRate",
+            "url": "https://github.com/agarwalvibhor99/ChewRate",
+            "comparison": "开源 AirPods 咀嚼检测原型，Ododok 产品化完成度更高"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1214599",
+      "name": "Troopr AI Scrum Master：AI 自动写站会",
+      "slug": "troopr-ai-scrum-master",
+      "description": "Troopr 是一个 AI 项目管理助手：它从真实的 Jira、GitHub 和 Slack 活动中自动生成每个人的站会更新，记住团队的工作方式，还能参加线上站会、听讨论并产出基于事实的会议报告。站会「自己写自己」，团队不再被每日例会拖累。",
+      "url": "https://www.troopr.ai/",
+      "homepage": "https://www.troopr.ai/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1214599_20260808_121927.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI站会",
+        "团队协作",
+        "敏捷管理"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/troopr",
+      "firstSeen": "2026-08-08T04:18:53.510840+00:00",
+      "analysis": {
+        "targetAudience": "使用 Jira/GitHub/Slack 的敏捷开发团队",
+        "useCases": [
+          "自动生成每日站会更新，成员无需手动填写",
+          "AI 参加线上站会并产出会议纪要报告",
+          "站会中自动汇总阻塞项、主题和行动项",
+          "将站会结论自动同步回 Jira 工单"
+        ],
+        "designIntent": "站会是敏捷团队的仪式，但「手动写更新、追着人问进度」耗费大量精力。开发者希望 AI 基于真实工作数据自动完成站会流程，让仪式从「负担」变成「自动化」，同时用数据交叉验证保证报告真实可信。",
+        "problemSolved": "解决了站会流于形式、信息失真和时间浪费的问题：Troopr 从真实工作流而非口头汇报生成更新，能发现「工单说完成但实际还在评审」等不一致，让管理者掌握真实进度。",
+        "tags": [
+          "AI站会",
+          "团队协作",
+          "敏捷管理",
+          "Scrum"
+        ],
+        "score": 8,
+        "scoreReason": "站会是高频刚需场景，Troopr 用真实工作数据驱动而非表单填写，直击敏捷团队痛点。已服务 600+ 团队验证了 PMF，产品成熟度较高。",
+        "competitors": [
+          {
+            "name": "Geekbot",
+            "url": "https://geekbot.com/",
+            "comparison": "主流 Slack 站会机器人，但依赖成员手动填写，Troopr 自动从工作流生成"
+          },
+          {
+            "name": "Range",
+            "url": "https://www.range.co/",
+            "comparison": "团队检查工具，侧重协作而非深度绑定 Jira 数据"
+          },
+          {
+            "name": "Standuply",
+            "url": "https://standuply.com/",
+            "comparison": "老牌异步站会工具，AI 化程度不及 Troopr"
+          }
+        ]
+      }
+    }
+  ]
+}
