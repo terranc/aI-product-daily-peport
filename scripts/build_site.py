@@ -2242,6 +2242,9 @@ def main():
     # 自定义域名 CNAME 文件
     (SITE_DIR / "CNAME").write_text("ai-daily.asdasd.vip", encoding="utf-8")
 
+    # 跳过 Jekyll 处理（GitHub Pages 直接发布静态文件，2026-08-08 实测修复构建失败）
+    (SITE_DIR / ".nojekyll").write_text("", encoding="utf-8")
+
     print(f"✅ 完成：{SITE_DIR}  ({len(all_products)} 个产品页, {len(weekly_reports)} 期周报)")
 
 

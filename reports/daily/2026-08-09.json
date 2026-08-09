@@ -1,0 +1,313 @@
+{
+ "date": "2026-08-09",
+ "generatedAt": "2026-08-09T04:15:40.137312+00:00",
+ "productCount": 5,
+ "products": [
+  {
+   "id": "pallix.in",
+   "name": "Pallix：AI 可见度与引用情报分析",
+   "slug": "pallix",
+   "description": "Pallix 是一个「AI 时代的 SEO 工具」：持续监控买家向 ChatGPT、Perplexity、Gemini 等 AI 搜索引擎提问时，你的品牌是否被推荐、排在第几位，并反向追踪影响每个回答的证据来源（域名、Reddit 帖、YouTube 视频等）。它把不可见的 AI 推荐过程变成可度量、可行动的指标，并给出按影响排序的修复建议（补内容、提权威、修抓取），修复后再衡量可见度变化。提供免费的一次性品牌 AI 可见度审计。",
+   "url": "https://pallix.in",
+   "homepage": "https://pallix.in",
+   "type": "saas",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/pallix.in_20260809_121600.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "AI 可见度",
+    "品牌监测",
+    "AI SEO",
+    "营销分析"
+   ],
+   "sourceChannels": [
+    "hackernews"
+   ],
+   "sourceUrl": "https://news.ycombinator.com/item?id=49226289",
+   "firstSeen": "2026-08-08T21:58:33Z",
+   "analysis": {
+    "targetAudience": "品牌营销团队、增长负责人、创始人及独立创业者",
+    "useCases": [
+     "监控品牌在 ChatGPT / Perplexity / Gemini 回答中的推荐率与位置",
+     "追踪竞品在 AI 推荐中的份额变化",
+     "定位影响 AI 回答的证据来源（域名、社区、视频）",
+     "按影响与投入排序的修复行动清单",
+     "衡量修复动作上线后的 AI 可见度提升"
+    ],
+    "designIntent": "当 AI 对话成为用户获取推荐与决策的入口，品牌必须在 AI 的「答案生态」中被看见、被正面引用。Pallix 想做成 AI 时代的 SEO 工具：不只给出一个可见度分数，还把每个答案背后的证据来源拆开，让营销团队知道该补哪篇内容、哪个渠道、哪个技术问题，形成「监测—归因—修复—度量」的闭环。",
+    "problemSolved": "品牌无法知道 AI 如何描述和推荐自己，传统 SEO 工具只覆盖搜索不覆盖对话式推荐。Pallix 把「AI 可见度」变成可追踪的核心指标，并定位每条回答的证据链，让营销动作不再盲目。",
+    "tags": [
+     "AI 可见度",
+     "品牌监测",
+     "AI SEO",
+     "营销分析"
+    ],
+    "score": 8,
+    "scoreReason": "直击 AI 时代品牌营销的全新痛点——AI 推荐已成为购买决策入口，产品从监控到修复再到度量闭环完整，免费审计降低试用门槛。细分市场较新、产品仍在早期，但方向正确、落地性强。",
+    "competitors": [
+     {
+      "name": "Aftersight",
+      "url": "https://www.aftersight.com/",
+      "comparison": "同为 AI 可见度监测赛道，Pallix 更强调证据来源归因与修复行动优先级"
+     },
+     {
+      "name": "SEMrush",
+      "url": "https://www.semrush.com/",
+      "comparison": "传统 SEO 工具巨头，覆盖关键词与排名，但不追踪 AI 对话式推荐"
+     },
+     {
+      "name": "Brandwatch",
+      "url": "https://www.brandwatch.com/",
+      "comparison": "社媒聆听与舆情分析，关注人怎么说，Pallix 关注 AI 怎么说"
+     }
+    ]
+   }
+  },
+  {
+   "id": "v2ex.com/t/1232999",
+   "name": "LumenRead：AI 阅读速度与理解力测试",
+   "slug": "lumenread",
+   "description": "LumenRead 是一个免费、无需注册的阅读训练工具：粘贴一篇文章或上传 .txt/.md 文件，选择逐词或逐句模式、设定目标速度，在引导下完成阅读，AI 会基于这篇文本现场生成 3 道理解题（事实、推理、主题），综合测出你的阅读速度（英文按 WPM、中文按 CPM）和理解率。适合鸡娃、备考和想提升阅读效率的任何人。",
+   "url": "https://lumenread.net/",
+   "homepage": "https://lumenread.net/",
+   "type": "website",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/v2ex.com_t_1232999_20260809_121609.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "阅读训练",
+    "教育工具",
+    "AI 出题",
+    "效率提升"
+   ],
+   "sourceChannels": [
+    "v2ex"
+   ],
+   "sourceUrl": "https://www.v2ex.com/t/1232999",
+   "firstSeen": "2026-08-09T01:59:04+00:00",
+   "analysis": {
+    "targetAudience": "学生、备考人群、关注孩子阅读训练的家长、想提升阅读效率的职场人",
+    "useCases": [
+     "粘贴自己关心的文章测真实阅读速度（WPM/CPM）",
+     "逐词/逐句模式训练专注与节奏",
+     "AI 生成 3 道理解题检验是否真正读进去了",
+     "中英文双语训练，上传 .txt/.md 自定义材料",
+     "家长鸡娃：每周记录孩子阅读进步曲线"
+    ],
+    "designIntent": "作者自述「为了鸡娃做了这个工具」：市面上的阅读测试要么只测速度不测理解，要么只能用固定素材。他希望用你自己想读的材料来训练，并且用 AI 现场出题，把「读得快」和「读得懂」绑在一起验证——材料不落服务器，隐私也放心。",
+    "problemSolved": "传统速读测试只给一个速度数字，读得快不等于读得懂；固定素材也与个人学习需求脱节。LumenRead 用个性化文本 + AI 实时出题，让阅读训练同时度量速度与理解，结果更真实可信。",
+    "tags": [
+     "阅读训练",
+     "教育工具",
+     "AI 出题",
+     "效率提升"
+    ],
+    "score": 7,
+    "scoreReason": "免费无账号、双语支持、AI 出题验证理解，直击速读工具「只测速不测懂」的短板，独立开发完成度高。功能相对单薄（无长期记忆与课程体系），适合作为轻量训练工具。",
+    "competitors": [
+     {
+      "name": "Spreeder",
+      "url": "https://www.spreeder.com/",
+      "comparison": "经典速读训练工具，侧重速度提升，无 AI 理解测试"
+     },
+     {
+      "name": "SwiftRead",
+      "url": "https://swiftread.com/",
+      "comparison": "RSVP 速读浏览器扩展，只测速度不验证理解"
+     },
+     {
+      "name": "Readsy",
+      "url": "https://readsyy.com/",
+      "comparison": "免费速读工具，功能简单，无 AI 出题与中英双语度量"
+     }
+    ]
+   }
+  },
+  {
+   "id": "producthunt.com/r/p/1215451",
+   "name": "StepShot：AI 把真实操作变成分步教程",
+   "slug": "stepshot",
+   "description": "StepShot 是一款 macOS 原生应用：你在 Mac 上正常操作一遍（报销、审批、配置、排障……），它实时监听点击与按键、自动拆解成带截图的步骤，用 macOS 辅助功能树直接命名步骤（如「点击保存」「输入邮箱」），再用 AI 梳理结构、润色说明，一键导出 PDF / Markdown / HTML 格式的 SOP 与培训文档。全程本地处理、无需注册，免费版可无限采集编辑、导出前 10 步。",
+   "url": "https://stepshot.app/",
+   "homepage": "https://stepshot.app/",
+   "type": "app",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1215451_20260809_121617.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "SOP 生成",
+    "教程工具",
+    "效率工具",
+    "隐私优先"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/stepshot-2",
+   "firstSeen": "2026-08-05T01:17:49-07:00",
+   "analysis": {
+    "targetAudience": "需要产出 SOP、培训材料与交付文档的产品经理、技术写作者、团队负责人和独立开发者",
+    "useCases": [
+     "新员工入职流程与系统操作 SOP",
+     "报销、审批、发布等内部流程文档",
+     "软件交付包中的安装配置说明",
+     "故障排查步骤与合规留痕记录",
+     "课程讲义与客服话术库整理"
+    ],
+    "designIntent": "写图文教程最耗时的是「记录」而不是「做事」。StepShot 把「做一遍 + 截图 + 裁剪 + 画箭头 + 写说明 + 排版」压缩成一次操作：采集时实时拆步骤、用系统辅助功能树命名（不靠 AI 猜）、AI 只做可选的结构梳理与润色，核心链路完全本地运行，打码不可逆，连密码框字符都不进内存。",
+    "problemSolved": "手写一份 12 步教程平均要 42 分钟，流程一改版就没人愿意重写。StepShot 把同样文档压缩到约 4 分钟，并让「改版后重新生成」变得几乎零成本，解决文档难写更难维护的问题。",
+    "tags": [
+     "SOP 生成",
+     "教程工具",
+     "效率工具",
+     "隐私优先"
+    ],
+    "score": 8,
+    "scoreReason": "精准击中「操作记录」这一高频痛点，AI 定位克制（不越权猜测）、本地优先与不可逆打码的隐私设计成熟，免费版无倒计时。目前仅支持 macOS 14+，受众受限但完成度高。",
+    "competitors": [
+     {
+      "name": "Scribe",
+      "url": "https://scribehow.com/",
+      "comparison": "云端 AI 工作流文档工具，需联网与账号，StepShot 本地运行更重隐私"
+     },
+     {
+      "name": "Tango",
+      "url": "https://www.tango.us/",
+      "comparison": "浏览器/桌面扩展式教程生成，云端处理，深度与排版定制不及 StepShot"
+     },
+     {
+      "name": "Stepshots",
+      "url": "https://stepshots.com/",
+      "comparison": "面向产品演示与交互式 Demo，偏营销场景，StepShot 偏内部 SOP 文档"
+     }
+    ]
+   }
+  },
+  {
+   "id": "producthunt.com/r/p/1216917",
+   "name": "Blueberry：AI 帮你回复 iMessage，不再已读不回",
+   "slug": "blueberry",
+   "description": "Blueberry 是一款 macOS 菜单栏应用：设备端 AI 分析 iMessage 聊天上下文和你的语气，自动生成符合你风格的回复草稿，你可以在菜单栏里浏览未读消息、查看草稿、一键确认发送，全程不用打开「信息」App。所有处理都在本机完成，消息数据不上传；AI 只给建议，点发送的永远是你。",
+   "url": "https://www.neurokitai.com/en/products/blueberry",
+   "homepage": "https://www.neurokitai.com/en/products/blueberry",
+   "type": "app",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1216917_20260809_121627.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "社交效率",
+    "AI 助手",
+    "macOS 工具",
+    "隐私保护"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/blueberry-6",
+   "firstSeen": "2026-08-06T15:25:45-07:00",
+   "analysis": {
+    "targetAudience": "消息过载的职场人、回复焦虑或社恐人群、想维系关系却总拖延回复的人",
+    "useCases": [
+     "菜单栏快速查看未读 iMessage 与上下文摘要",
+     "AI 按你的语气生成多条回复草稿备选",
+     "一键确认发送，无需切换到信息 App",
+     "批量处理家人、朋友、同事的高频问候",
+     "备考/开会等场景下不打断当前工作地回复重要消息"
+    ],
+    "designIntent": "「Stop Ghosting People You Actually Like」——信息过载让人习惯性已读不回，不是不想回，而是回消息的「认知负荷」太高。Blueberry 用本地 AI 把「读消息—想措辞—打字—发送」压缩成「看一眼—点发送」，同时坚持设备端处理与手动确认，让效率提升不牺牲隐私和人情味。",
+    "problemSolved": "缓解消息疲劳与回复焦虑导致的社交疏远：在菜单栏内完成回复全流程，AI 草稿模仿你的真实语气降低「开口成本」，人工确认保证不会误发，iMessage 数据不出本机消除隐私顾虑。",
+    "tags": [
+     "社交效率",
+     "AI 助手",
+     "macOS 工具",
+     "隐私保护"
+    ],
+    "score": 7,
+    "scoreReason": "场景真实、痛点高频，设备端 AI + 手动发送的设计兼顾隐私与信任，产品定位清晰。但仅支持 iMessage + macOS 单一平台，功能边界较窄，长期粘性取决于草稿质量。",
+    "competitors": [
+     {
+      "name": "Haloop（Lumo）",
+      "url": "https://haloop.ai/",
+      "comparison": "跨 WhatsApp 的关系维护助手，覆盖面更广，Blueberry 专注 iMessage 原生体验"
+     },
+     {
+      "name": "Messages for AI",
+      "url": "https://messagesfor.ai/",
+      "comparison": "面向 Claude/Codex 等 Agent 的草稿中转层，偏开发者向，Blueberry 面向普通用户"
+     },
+     {
+      "name": "Littlebird",
+      "url": "https://littlebird.ai/",
+      "comparison": "定时扫描邮件与消息提醒「谁在等你回复」，侧重提醒而非直接生成回复"
+     }
+    ]
+   }
+  },
+  {
+   "id": "reddit.com/r/sideproject/comments/1vjf4na/ibuiltafreeopensourcedescriptalternative",
+   "name": "Rescript：像编辑文本一样剪辑播客视频",
+   "slug": "rescript",
+   "description": "Rescript 是一个免费、开源的 Descript 替代品：拖入视频或音频，Whisper 模型在本机/浏览器里完成逐词转录并标注说话人，你像删字一样删掉「嗯、啊」和废话，画面就跟着被剪掉，一键去除语气词，最后导出 MP4、字幕或文稿。媒体文件全程不出设备，无账号、无上传，首次下载约 90MB 模型后可离线使用。",
+   "url": "https://github.com/wassgha/rescript",
+   "homepage": "https://github.com/wassgha/rescript",
+   "type": "tool",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/reddit.com_r_sideproject_comments_1vjf4na_ibuiltafreeopensourcedescriptalternative_20260809_121635.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "视频剪辑",
+    "播客工具",
+    "开源软件",
+    "本地 AI"
+   ],
+   "sourceChannels": [
+    "reddit",
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.reddit.com/r/SideProject/comments/1vjf4na/i_built_a_free_open_source_descript_alternative/",
+   "firstSeen": "2026-08-09T03:29:52+00:00",
+   "analysis": {
+    "targetAudience": "播客制作者、访谈与演讲视频剪辑者、视频记者、需要处理语音素材的内容创作者",
+    "useCases": [
+     "播客/访谈按文本删词精确剪辑，告别拖时间线",
+     "一键去除「嗯、啊」等语气词与静音段",
+     "说话人自动分离，多人口述结构一目了然",
+     "本地转录讲座、采访素材，涉密内容不出设备",
+     "导出 MP4/WebM 成片 + SRT 字幕 + 文稿"
+    ],
+    "designIntent": "Descript 月费 24 美元且素材要上传云端，作者用周末时间做了一个「隐私优先」的免费替代：用 Whisper 在设备上逐词转录、pyannote 分离说话人，把剪辑从「拖波形找片段」变成「删字即删画」，让语音类内容剪辑的门槛与成本同时归零。",
+    "problemSolved": "语音类内容剪辑的传统方式需要反复拖动时间线精确定位，低效且枯燥；云端剪辑工具又有订阅成本与数据隐私顾虑。Rescript 用文本编辑替代时间线操作，全本地处理解决成本与隐私两大痛点。",
+    "tags": [
+     "视频剪辑",
+     "播客工具",
+     "开源软件",
+     "本地 AI"
+    ],
+    "score": 8,
+    "scoreReason": "「删字即剪辑」的交互范式成熟好用，Whisper + pyannote 全本地运行，免费开源直接对标 Descript 的高性价比替代，隐私设计是天然卖点。首次需下载模型、依赖 WebGPU/Chromium，对硬件与网络有要求，上手门槛略高。",
+    "competitors": [
+     {
+      "name": "Descript",
+      "url": "https://www.descript.com/",
+      "comparison": "云端转录剪辑鼻祖，功能全但订阅贵、素材需上传，Rescript 免费且全本地"
+     },
+     {
+      "name": "剪映/CapCut",
+      "url": "https://www.capcut.com/",
+      "comparison": "主流大众剪辑工具，有字幕剪辑但精细度与隐私不及 Rescript"
+     },
+     {
+      "name": "Adobe Premiere",
+      "url": "https://www.adobe.com/products/premiere.html",
+      "comparison": "专业 NLE，语音转文字为附加功能，学习成本与订阅费用高"
+     }
+    ]
+   }
+  }
+ ]
+}
