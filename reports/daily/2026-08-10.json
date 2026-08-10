@@ -1,0 +1,322 @@
+{
+  "date": "2026-08-10",
+  "generatedAt": "2026-08-10T04:15:14.835641+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "whodunnitai.com",
+      "name": "WhoDunnitAI（AI 语音谋杀悬疑游戏）",
+      "slug": "whodunnitai",
+      "description": "一款由 AI 驱动的语音互动谋杀悬疑游戏：案件发生在庄园里，五名嫌疑人各怀秘密，你作为侦探直接用麦克风「审讯」AI 角色。对话是端到端语音（语音进、语音出），你可以自由提问、逼问、套话，AI 嫌疑人会撒谎、隐瞒、前后矛盾，每次对话都独一无二。案件按真实事件节奏推进，典型破案时间约 37 分钟。",
+      "url": "https://www.whodunnitai.com/",
+      "homepage": "https://www.whodunnitai.com/",
+      "type": "website",
+      "tags": [
+        "语音 AI",
+        "互动游戏",
+        "谋杀悬疑",
+        "AI 娱乐"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49238851",
+      "firstSeen": "2026-08-10T03:18:40Z",
+      "analysis": {
+        "targetAudience": "喜欢推理、悬疑和沉浸式角色扮演的玩家，以及想体验最新语音 AI 能力的尝鲜用户",
+        "useCases": [
+          "用语音审讯 AI 嫌疑人，自由提问、逼问、套话套取线索",
+          "单人沉浸式推理，随时开局体验「侦探破案」",
+          "和朋友一起观看/讨论审讯过程，共享解谜乐趣",
+          "练习提问、问询与识破谎言的沟通技巧",
+          "体验实时语音 AI 在消费级娱乐场景的最新应用"
+        ],
+        "designIntent": "作者两三年前就做出了语音推理原型，当时语音 AI 还很早期、效果不理想；如今 gpt-realtime-2.1 语音模型成熟后重做。他想证明「和 AI 角色像打电话一样自由对话」已经可以成为一款完整游戏：不再靠点选项推进剧情，而是让玩家用最自然的方式——说话——去审讯嫌疑人，每个案件有完整角色、剧情与线索推进。",
+        "problemSolved": "传统文字冒险和推理游戏只能靠选项交互，缺乏真实对话的沉浸感；真人剧本杀又需要组队和约时间。WhoDunnitAI 让单人也能用语音与 AI 角色自由对话、逼供、套话，获得接近真人互动剧本杀的体验，且每次对话都独一无二、无法背板。",
+        "tags": [
+          "语音 AI",
+          "互动游戏",
+          "谋杀悬疑",
+          "AI 娱乐"
+        ],
+        "score": 8,
+        "scoreReason": "「语音审讯嫌疑人」玩法新颖，直接把最前沿的实时语音模型用于消费级娱乐场景，产品完成度高、有真实案件内容，是 AI 互动叙事的新形态代表；缺点是案件内容量有限、依赖较贵的语音模型，长期留存待验证。",
+        "competitors": [
+          {
+            "name": "Shadows of Harrow City",
+            "url": "https://shadows.aarda.ai/",
+            "comparison": "同为 AI 审讯推理游戏，更偏文字问答，WhoDunnitAI 主打端到端语音对话与完整案件剧本"
+          },
+          {
+            "name": "Arsenic",
+            "url": "https://playarsenic.com/",
+            "comparison": "AI 谋杀谜案游戏，侧重房间探索与审讯结合，WhoDunnitAI 更聚焦纯语音审讯体验"
+          },
+          {
+            "name": "线上剧本杀 App",
+            "url": "https://www.apple.com/app-store/",
+            "comparison": "需要真人组局和固定时间，WhoDunnitAI 用 AI 角色实现单人随时开局"
+          }
+        ]
+      },
+      "screenshotUrl": "assets/screenshots/whodunnitai.com_20260810_121205.png",
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null
+    },
+    {
+      "id": "reddit.com/r/sideproject/comments/1vk6wtn/voicebarbeyonddictation1monthofprofor10",
+      "name": "VoiceBar（Mac 上的 AI 语音助手）",
+      "slug": "voicebar",
+      "description": "定位不是「又一个听写工具」，而是 Mac 的「语音层」：一个悬浮在屏幕底部的胶囊，按住 fn 即可在任何 App 里口述成文（自动根据当前输入框调整语气与格式，比如终端里是命令、邮件里是得体段落）；按住 ⌥ 选中屏幕上任意内容提问并语音朗读答案；还能把网页、笔记、高亮保存进个人资料库，之后用自然语言检索问答。支持自定义词汇、快捷短语与多语言口述转写。",
+      "url": "https://www.voicebar.ai/",
+      "homepage": "https://www.voicebar.ai/",
+      "type": "app",
+      "tags": [
+        "语音助手",
+        "macOS",
+        "AI 问答",
+        "个人知识库"
+      ],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "sourceUrl": "https://www.reddit.com/r/SideProject/comments/1vk6wtn/voicebar_beyond_dictation_1_month_of_pro_for_10/",
+      "firstSeen": "2026-08-10T01:13:01+00:00",
+      "analysis": {
+        "targetAudience": "Mac 重度用户、内容创作者、需要高频口述转文字与随时提问 AI 的知识工作者",
+        "useCases": [
+          "在任意 App 里按住热键口述成文（邮件、Slack、Notion、代码注释）",
+          "选中屏幕上任意文本向 AI 提问，并语音朗读答案",
+          "把网页、高亮和笔记收进个人资料库，之后用自然语言问答",
+          "说一种语言、转写成另一种语言的跨语言口述",
+          "自定义词汇与快捷短语（说「我的地址」自动输入整段）"
+        ],
+        "designIntent": "市面上的听写 App 只解决「语音转文字」，作者想做一个常驻 Mac 的 AI 入口：语音不只是打字，还能问屏幕上的任何东西、把值得保存的内容收进个人知识库并随时提问。所有交互收敛到「按住一个键」——让说话成为操作系统级的交互方式，而不是某个 App 里的功能。",
+        "problemSolved": "现有听写工具只管转写，问问题、查资料、保存内容都要在不同 App 间来回复制粘贴。VoiceBar 把「口述、提问、收藏、检索」串到一条热键上，解决 Mac 上「想用 AI 却要不断切换窗口」的割裂体验，并让个人沉淀的内容可被自然语言随时召回。",
+        "tags": [
+          "语音助手",
+          "macOS",
+          "AI 问答",
+          "个人知识库"
+        ],
+        "score": 8,
+        "scoreReason": "「语音层」的定位清晰，把口述、提问、资料库问答串成一条完整工作流，上下文感知排版、自定义词典等细节打磨到位；个人知识库问答是其相比成熟竞品的关键差异点。缺点是免费额度有限、生态仍待积累，且与 Wispr Flow 等竞品正面竞争。",
+        "competitors": [
+          {
+            "name": "Wispr Flow",
+            "url": "https://wisprflow.ai/",
+            "comparison": "Mac 语音听写标杆，转写质量高，但主要停留在「打字」，缺少问屏幕与资料库问答"
+          },
+          {
+            "name": "Superwhisper",
+            "url": "https://superwhisper.com/",
+            "comparison": "本地 Whisper 转写、隐私优先，功能集中在听写，交互形态更简单"
+          },
+          {
+            "name": "WhisperBar",
+            "url": "https://whisperbar.app/",
+            "comparison": "同类 Mac 菜单栏语音工具，VoiceBar 的「问屏幕 + 个人资料库」更进一步"
+          }
+        ]
+      },
+      "screenshotUrl": "assets/screenshots/reddit.com_r_sideproject_comments_1vk6wtn_voicebarbeyonddictation1monthofprofor10_20260810_121215.png",
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null
+    },
+    {
+      "id": "reddit.com/r/sideproject/comments/1vk9jgr/ishippedanaicameraapptobothstoresafew",
+      "name": "AI Vision Monitor（AI 摄像头：一句话定义监控规则）",
+      "slug": "ai-vision-monitor",
+      "description": "把任意一台闲置手机变成「用一句话描述规则」的 AI 摄像头：对它说「猫跳上料理台就提醒我」「3D 打印开始拉丝就提醒我」「出门时前门被打开就提醒我」，AI 持续分析画面，只在关心的时刻推送到你的主力手机。支持 iOS、Android，并有网页端与 Windows 连接器用于桌面查看，一台旧手机就能组建简易智能监控网络。",
+      "url": "https://aicameras.win/",
+      "homepage": "https://aicameras.win/",
+      "type": "app",
+      "tags": [
+        "计算机视觉",
+        "智能监控",
+        "自然语言",
+        "旧手机再利用"
+      ],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "sourceUrl": "https://www.reddit.com/r/SideProject/comments/1vk9jgr/i_shipped_an_ai_camera_app_to_both_stores_a_few/",
+      "firstSeen": "2026-08-10T03:19:21+00:00",
+      "analysis": {
+        "targetAudience": "想让闲置手机/平板发挥监控作用的家庭用户、宠物主、3D 打印玩家和小型工作室",
+        "useCases": [
+          "用旧手机对准宠物活动区，猫跳上料理台等场景自动提醒",
+          "3D 打印时监控打印件是否「拉丝/失败」，及时止损",
+          "出门在外监控前门是否被打开、快递是否送达",
+          "家庭办公室看护包裹、工位与重要物品",
+          "多台设备（手机 + 摄像头 + Windows 连接器）组建简易监控网络"
+        ],
+        "designIntent": "作者发现传统监控要么功能僵化、要么复杂难用：消费摄像头只会录制和简单移动侦测，专业方案又贵又难配置。他想让「监控」回归直觉——用自然语言描述你关心的场景，AI 负责理解画面并在关键时刻提醒，把闲置手机变成真正可用的智能哨兵。",
+        "problemSolved": "传统摄像头无法理解「具体发生了什么」，只能被动录制，用户要盯录像或频繁查看；专业监控系统成本高、门槛高。AI Vision Monitor 用一句话定义事件、让旧手机变废为宝，解决「想盯着特定场景却找不到简单工具」的日常痛点。",
+        "tags": [
+          "计算机视觉",
+          "智能监控",
+          "自然语言",
+          "旧手机再利用"
+        ],
+        "score": 8,
+        "scoreReason": "用一句自然语言把「摄像头」变成「理解场景的哨兵」，精准命中看猫、看打印、看门等真实需求，且已上架 iOS/Android/网页三端、免注册可试，落地程度高；按次计费的信用制可能成为高频使用门槛，但作为「AI 融入日常监控」的典型产品很有代表性。",
+        "competitors": [
+          {
+            "name": "传统智能摄像头（小米/TP-Link 等）",
+            "url": "https://www.tp-link.com/",
+            "comparison": "以录制与移动侦测为主，无法理解自然语言描述的具体事件"
+          },
+          {
+            "name": "Frigate",
+            "url": "https://frigate.video/",
+            "comparison": "开源本地 NVR，AI 物体识别强但面向技术用户，配置门槛高"
+          },
+          {
+            "name": "Aqara/HomeKit 家庭监控",
+            "url": "https://www.aqara.com/",
+            "comparison": "生态集成好，但事件仍需规则配置，不识别语义描述"
+          }
+        ]
+      },
+      "screenshotUrl": "assets/screenshots/reddit.com_r_sideproject_comments_1vk9jgr_ishippedanaicameraapptobothstoresafew_20260810_121226.png",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/96/d7/fc/96d7fcf3-cbf9-4cdd-c009-7f116af1784a/iphone65_enUS_1.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/30/9e/0d/309e0d92-f5cb-e170-210f-e2cb8d6c3469/iphone65_enUS_2.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4f/e5/a5/4fe5a527-0dad-4d74-4759-09ad5e5d0ab4/iphone65_enUS_3.png/320x480bb.jpg"
+      ],
+      "appStoreName": "AI Vision Monitor: Smart Cam",
+      "appStoreUrl": "https://apps.apple.com/us/app/ai-vision-monitor-smart-cam/id6756714222"
+    },
+    {
+      "id": "producthunt.com/r/p/1210454",
+      "name": "SoloUno（BFRB 习惯干预与陪伴）",
+      "slug": "solouno",
+      "description": "面向拔毛、抠皮、咬指甲等身体聚焦重复行为（BFRB）的习惯干预应用。每天完成一个「无习惯挑战」（从很小的时长窗口逐步拉长），冲动来袭时用引导式正念练习替代习惯行为，配合复发日志与模式分析，识别触发情境、建立不复发记录。方法融合习惯逆转训练（HRT）、认知行为疗法（CBT）与接纳承诺疗法（ACT），可配合专业治疗使用，也可独立作为自我管理工具。",
+      "url": "https://www.solouno.io/",
+      "homepage": "https://www.solouno.io/",
+      "type": "app",
+      "tags": [
+        "心理健康",
+        "行为干预",
+        "BFRB",
+        "习惯养成"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/solouno",
+      "firstSeen": "2026-07-30T00:30:38-07:00",
+      "analysis": {
+        "targetAudience": "受拔毛、抠皮、咬指甲等 BFRB 习惯困扰的人群及其家属，以及正在或曾经接受行为治疗、希望巩固效果的患者",
+        "useCases": [
+          "每天完成「无习惯挑战」，从小窗口逐步拉长，建立不复发记录",
+          "冲动来袭时用引导式正念练习替代习惯行为",
+          "记录复发并识别触发情境与行为模式",
+          "配合专业治疗完成「家庭作业」，治疗结束后维持效果",
+          "用 streak 与奖励机制激励长期坚持"
+        ],
+        "designIntent": "创始人自己患有拔毛癖，深知这类习惯「戒不掉、反反复复」的特点。市面上要么是普通习惯打卡（不理解 BFRB 的羞耻感、冲动与触发机制），要么是昂贵且有时限的治疗项目。他想把 HRT、CBT、ACT 等循证方法变成普通人用得起的日常工具——每天一个可达成的小挑战，配正念练习和复发日志。",
+        "problemSolved": "约 3% 的人受 BFRB 困扰，却几乎没有专门工具：通用习惯打卡不解决冲动管理，专业治疗贵且结束后容易反弹。SoloUno 用每日挑战 + 冲动干预 + 模式分析补上「治疗之外长期维护」的空档，让用户低成本、可持续地控制习惯。",
+        "tags": [
+          "心理健康",
+          "行为干预",
+          "BFRB",
+          "习惯养成"
+        ],
+        "score": 7,
+        "scoreReason": "直击一个被忽视但真实存在的健康痛点，循证方法（HRT/CBT/ACT）背书扎实，免费+订阅模式降低尝试门槛；缺点是产品形态偏轻量、AI 参与度有限（更多靠行为设计而非 AI 能力），故给 7 分。",
+        "competitors": [
+          {
+            "name": "通用习惯打卡 App（如 Habitica）",
+            "url": "https://habitica.com/",
+            "comparison": "只做游戏化打卡，不针对 BFRB 的冲动、羞耻与触发机制"
+          },
+          {
+            "name": "认知行为类心理健康 App",
+            "url": "https://www.woebothealth.com/",
+            "comparison": "覆盖面广但非针对 BFRB 的每日挑战式干预设计"
+          },
+          {
+            "name": "专业行为治疗项目",
+            "url": "https://www.bfrb.org/",
+            "comparison": "有效但昂贵且有时限，SoloUno 作为治疗之外的低成本日常补充"
+          }
+        ]
+      },
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1210454_20260810_121233.png",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2b/63/66/2b63666e-0248-7508-9529-707345a4164b/AppStore_5.5_-_1.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/07/30/b0/0730b073-ea64-c31e-4cf6-8782c6695a5d/AppStore_5.5_-_6.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b2/38/d5/b238d573-a399-e337-6233-072d82e02a4d/AppStore_5.5_-_7.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/80/55/e3/8055e348-6086-b446-30b2-18d99c762608/AppStore_5.5_-_3.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/57/27/82/57278251-5fc7-fd7b-e8d2-311352ae41f7/AppStore_5.5_-_4.jpg/392x696bb.jpg"
+      ],
+      "appStoreName": "SoloUno - Break BFRB Habits",
+      "appStoreUrl": "https://apps.apple.com/us/app/solouno-break-bfrb-habits/id6472174465"
+    },
+    {
+      "id": "useairo.co",
+      "name": "Airo（AI 创始人参谋）",
+      "slug": "airo",
+      "description": "面向请不起全职参谋的创始人的 AI 助手：连接 Gmail、Slack、Notion 等 100+ 应用，帮你整理文档、做表格、起草对外沟通，把散落各处的待办、承诺与线索汇总成可执行清单。核心理念是「一切皆可行动，但没有你的同意什么都不发生」——发送、删除、更新前一定停下来征求确认，按应用粒度授权、随时一键撤销。",
+      "url": "https://useairo.co/",
+      "homepage": "https://useairo.co/",
+      "type": "saas",
+      "tags": [
+        "AI 助理",
+        "创始人工具",
+        "办公自动化",
+        "SaaS"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49236682",
+      "firstSeen": "2026-08-09T22:13:39Z",
+      "analysis": {
+        "targetAudience": "早期创始人、独立开发者与一人公司经营者——请不起全职参谋又忙不过来的人",
+        "useCases": [
+          "让 AI 跨 Gmail/Slack/Notion 等应用执行任务（整理文档、做表格）",
+          "起草对外沟通内容，发送前逐条征求确认",
+          "把散落各处的待办、承诺、线索汇总成行动清单",
+          "按需连接单个应用，随时一键撤销授权",
+          "为创始人日常运营充当「AI 同事」，减轻事务性负担"
+        ],
+        "designIntent": "创始人往往同时是市场、财务、行政，真正缺的不是又一套要配置的 Agent 工具，而是一个「参谋长」。Airo 的核心理念是「一切皆可行动，但没有你的同意什么都不发生」——它跨应用替你干活，但在发送、删除、更新前一定停下来确认，用按应用授权的粒度控制与随时可撤销的连接建立信任，让 AI 做到既主动又可控。",
+        "problemSolved": "创始人没预算雇全职参谋，又没时间在日历、邮箱、文档之间来回折腾；现有 AI Agent 工具要么太技术化、要么权限失控让人不敢用。Airo 用「按应用授权 + 行动前确认」把 AI 助理做到既主动又可控，让一个人也能运转一家公司。",
+        "tags": [
+          "AI 助理",
+          "创始人工具",
+          "办公自动化",
+          "SaaS"
+        ],
+        "score": 7,
+        "scoreReason": "定位精准（请不起参谋的创始人），「先征求同意再行动」的安全设计切中 AI Agent 的信任痛点，产品已上线并积累早期用户；但同赛道竞争激烈、仍偏等待名单阶段，跨应用执行的实际效果有待验证，故给 7 分。",
+        "competitors": [
+          {
+            "name": "Team0",
+            "url": "https://team0.ai/",
+            "comparison": "同为 AI Chief of Staff，主打免配置自动学习业务，Airo 强调跨应用主动执行 + 行动前确认"
+          },
+          {
+            "name": "Motion",
+            "url": "https://www.usemotion.com/",
+            "comparison": "聚焦日历与任务自动化，Airo 覆盖邮件、文档与协作场景更广"
+          },
+          {
+            "name": "Zapier / Relay 等自动化平台",
+            "url": "https://zapier.com/",
+            "comparison": "需手动搭建流程，Airo 面向非技术创始人开箱即用"
+          }
+        ]
+      },
+      "screenshotUrl": "assets/screenshots/useairo.co_20260810_121244.png",
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null
+    }
+  ]
+}
