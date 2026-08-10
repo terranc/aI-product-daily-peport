@@ -1,0 +1,79 @@
+{
+  "date": "2026-08-10",
+  "generatedAt": "2026-08-10T04:25:08.229210+00:00",
+  "productCount": 1,
+  "type": "weekly",
+  "sourceDailyReport": "2026-08-05",
+  "products": [
+    {
+      "id": "producthunt.com/r/p/1199610",
+      "name": "Hand Wave",
+      "slug": "hand-wave",
+      "description": "用 Meta 智能眼镜的摄像头实时将手语转换为文字与语音，模型完全在本地设备运行（开源、注重隐私、低延迟），支持 iOS 与网页跨平台使用。目前为持续迭代中的开源项目。",
+      "url": "https://handwave.sh",
+      "homepage": "https://handwave.sh",
+      "type": "website",
+      "tags": [
+        "手语翻译",
+        "智能眼镜",
+        "无障碍",
+        "本地AI",
+        "开源"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1199610?app_id=339",
+      "firstSeen": "2026-08-05T12:00:00+08:00",
+      "analysis": {
+        "score": 9,
+        "scoreReason": "【深度调研亮点】(1) 首创品类——作者自述『这是第一个把 Meta 智能眼镜与指拼翻译软件整合的项目』，把无障碍沟通第一次搬上消费级可穿戴设备；Show HN 登上 Hacker News 首页 Tools 榜（2026-08-04）。产品理念非常清晰：智能眼镜是第一视角摄像头，天然适合读手语，『看着对方，翻译直接在耳边读出』。(2) 故事性强——由两名美国德州高中生（Shiven Velagapudi 与 Aadi Sanghvi）因家族里有听力障碍/手语使用者而自发开发，2025-03 从 10 小时黑客原型起步（LinkedIn 首发），一路迭代到开源正式版，并受邀在德州聋人学校（Texas School for the Deaf）现场演示、获得 NBC 5 Dallas-Fort Worth 地方媒体报道。(3) 技术路线扎实且透明——基于 Google FSBoard 数据集（300 万+字符指拼语料）训练 CNN+GRU 时序编码器（约 300 万参数，CTC 训练），用 CTC beam search + KenLM 语言模型做解码纠错（作者自述是『粗糙的自动纠错层』，诚实承认模型对短词不友好）；MediaPipe 提取手部关键点，跨平台（web + iOS + 智能眼镜），完全开源（MIT）。(4) 差异化鲜明——与 SignAll（企业级多摄像头硬件）、HandTalk（巴西 Libras avatar 输出）等商业方案不同，Hand Wave 主打『免费 + 开源 + 本地优先 + 消费级眼镜即插即用』。(5) 局限同样明显——目前以指拼（fingerspelling）为主而非完整 ASL 语法，端侧推理尚未做好（暂托管在 Modal 云上），模型对短词/相似字母易抖动，仍处 prototype 阶段，这些是后续需要验证的关键点。",
+        "targetAudience": "听障人士及其家人朋友，以及关注无障碍沟通的智能眼镜用户",
+        "useCases": [
+          "佩戴 Meta 智能眼镜与手语使用者面对面实时交流",
+          "餐厅、医院、学校等场景即时理解手语内容",
+          "听障者与不懂手语的家人日常沟通",
+          "开发者研究本地化手语识别模型与边缘推理"
+        ],
+        "designIntent": "作者有亲属使用手语，深感智能眼镜摄像头在手语识别上的潜力被长期忽视。他训练了轻量神经网络，让 Meta 眼镜摄像头变成实时手语翻译器，并坚持本地推理以保护隐私、保证低延迟。",
+        "problemSolved": "手语使用者与非手语人群之间存在沟通鸿沟，依赖真人翻译成本高且不可及，现有方案多为实验室演示或需专用硬件。Hand Wave 用消费级智能眼镜实现端到端实时翻译，免费开源，让无障碍沟通随时可用。",
+        "tags": [
+          "手语翻译",
+          "智能眼镜",
+          "无障碍",
+          "本地AI",
+          "开源"
+        ],
+        "competitors": [
+          {
+            "name": "SignAll",
+            "url": "https://www.signall.us",
+            "comparison": "企业级多摄像头 ASL 识别系统，准确率高但依赖专用硬件、部署成本高，面向机构/教室场景；Hand Wave 直接跑在消费级眼镜上，免费开源、更轻量"
+          },
+          {
+            "name": "HandTalk",
+            "url": "https://www.handtalk.me",
+            "comparison": "巴西主流手语 App，主打『文字/语音→手语』的 avatar 输出（Libras），方向与 Hand Wave 相反；Hand Wave 是『手语→语音/文字』的摄像头输入识别，且免手持、实时对话更自然"
+          },
+          {
+            "name": "Sign-Speak / CaptionASL",
+            "url": "https://www.sign-speak.com",
+            "comparison": "企业级双向（ASL→语音 与 语音→ASL）翻译平台，有 Zoom/Meet 集成与 API，商业化成熟；Hand Wave 面向个人场景、完全免费开源，但企业级能力与多语言覆盖不及"
+          },
+          {
+            "name": "Google SignGemma",
+            "url": "https://blog.google",
+            "comparison": "Google 开源端侧手语模型（2025 年底发布，ASL→英文文本），同为本地推理路线，是 Hand Wave 最值得关注的『平台级』潜在竞品；Hand Wave 的先发优势是 Meta 眼镜集成与社区口碑"
+          }
+        ]
+      },
+      "weeklyDeepDive": {
+        "growthData": "项目由两名北德州高中生于 2025-03 从个人黑客马拉松原型起步：2025-03-28 在 LinkedIn 首发『10 小时做出 Meta 眼镜手语翻译』（YOLOv11 微调原型，65+ 次互动），随后数月迭代为完整开源产品。GitHub 仓库 aadisang/hand-wave（另有 clean-room 重写版 sinarck/hand-wave）创建于 2025-03-30，MIT 许可，当前 star 数较少（1-2）、以个人贡献为主（aadisang 249 次提交、shivenv123 参与），处于极早期但持续活跃。2026-08 上旬集中爆发：Show HN（HN id=49175774）登上 Hacker News Top（Tools 榜，08-04 21:58），Product Hunt 上线（roipad 记录 Discovered 08-03，当日 PH 排名第 10），并获 NBC 5 Dallas-Fort Worth 电视报道与德州聋人学校现场演示。由于是完全免费的开源项目，无付费转化数据；增长以社区关注与媒体报道为主。",
+        "communityActivity": "社区热度集中在三条线：(1) Hacker News Show HN 讨论——作者自述『家人用手语，多年来 AI 进步很大但这个领域仍被忽视』，工程师背景的读者对 CNN+GRU+CTC+KenLM 的技术选型、FSBoard 数据集、Modal 托管方案给予专业讨论，作者逐一回应并强调『纯 FOSS、完全开源、包括模型权重』；(2) Product Hunt 用户反馈——开发者社区正面评价『端侧运行、低延迟、隐私干净，开源手语项目真正落地而不是停留在 demo hell』，同时有用户追问关键边界：FSBoard 是指拼（fingerspelling，逐字母）数据集而非完整手语语法，『手语→语音』的表述是否过度承诺——作者在评论中澄清当前以指拼为主；(3) 媒体报道与线下演示——NBC 5 Dallas-Fort Worth 报道了两位高中生的背景故事，并在德州聋人学校做现场演示，YouTube 官方 demo（'Hand Wave 1.0'）展示了 hello、neural、hairstyle、Lillian 等词汇与短语翻译。整体属于早期但高含金量的社区口碑阶段。",
+        "updateFrequency": "2025-03-28 LinkedIn 原型首发（10 小时 hack，YOLOv11）→ 2025-03-30 GitHub 仓库建立 → 2026-08-03 Product Hunt 上线 → 2026-08-04 Show HN + HN Top Tools 榜 → 2026-08-05 进入本雷达日报。作者在 HN 上明确『正在做端侧模型，低端设备性能有损耗，目前暂托管在 Modal』，表明核心迭代方向是 on-device 化；跨平台（web/iOS/眼镜）与推理服务（/v1/predict、/v1/recognize 流式平滑）均已就绪。开发活跃度为小团队持续迭代（GitHub 提交记录显示 coderabbitai/dependabot 自动维护已接入）。",
+        "marketPosition": "处于『可穿戴 + 手语识别』这一新兴交叉品类的开创者位置：2026 年 AI 手语生态已分为六大赛道——基础模型、语言学研究、企业无障碍（SignAll、Sign-Speak）、AI avatar（HandTalk、Signapse）、识别翻译（TalkSign）、智能眼镜可穿戴——但『消费级智能眼镜 + 开源本地推理』的组合 Hand Wave 目前几乎是空白位。商业玩家（SignAll 企业 kiosk、Sign-Speak 双向 API）价格高、面向机构；Google SignGemma 是最接近的开放模型竞品，但尚未与 Meta 眼镜深度集成。Hand Wave 的站位是『个人场景 + 免费开源 + 眼镜即插即用』，先发占据 Meta Ray-Ban 生态的无障碍开发者心智。最大风险：完整手语语法识别难度极高（空间关系、面部表情、非手部特征）、端侧算力瓶颈、以及 Google 等平台玩家入场后的挤压。",
+        "differentiation": "四点差异化：(1) 品类首创——作者声明是首个整合 Meta 智能眼镜与指拼翻译的项目，把无障碍沟通带到消费级可穿戴设备，第一人称视角读手语、翻译直接耳返，交互范式与手机端完全不同。(2) 完全开源免费——MIT 许可，代码 + 模型权重全部公开，无 paywall、无注册门槛，与商业 SignAll/HandTalk 形成『社区公共品』对照。(3) 本地优先的隐私/低延迟路线——MediaPipe 关键点 + 轻量 3M 参数模型，设计目标是端侧运行（当前因算力暂托管 Modal，但方向明确），视频不出设备，契合无障碍场景对隐私的高要求。(4) 技术透明且自我修正——作者在 HN/YouTube 坦诚承认模型短板（短词不友好、相似输出抖动），并用 CTC beam search + KenLM 语言模型做『粗糙自动纠错层』，这种工程叙事在开发者社区获得信任，也定义了『指拼识别先行、完整语法后补』的务实路线。"
+      }
+    }
+  ]
+}

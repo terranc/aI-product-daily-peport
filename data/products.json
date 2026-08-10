@@ -1,6 +1,6 @@
 {
   "version": 11,
-  "lastUpdated": "2026-08-10T04:15:36.826968+00:00",
+  "lastUpdated": "2026-08-10T04:25:21.749359+00:00",
   "products": [
     {
       "id": "producthunt.com/r/p/1198621",
@@ -20263,7 +20263,8 @@
       "featuredInDaily": "2026-08-05",
       "metrics": {
         "featuredInDaily": "2026-08-05",
-        "featuredInWeekly": null
+        "featuredInWeekly": true,
+        "lastFeaturedDate": "2026-08-10"
       },
       "analysis": {
         "targetAudience": "听障人士及其家人朋友，以及关注无障碍沟通的智能眼镜用户",
