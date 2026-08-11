@@ -1,0 +1,282 @@
+{
+  "date": "2026-08-11",
+  "generatedAt": "2026-08-11T04:24:51.547480+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "x.com/serusai/status/2046351272182227212",
+      "name": "Serus（暗网数据泄露扫描）",
+      "slug": "serus",
+      "description": "一款 AI 隐私保护工具，扫描超过 1000 亿条暗网记录，帮你快速查出密码、IP 地址、手机号、邮箱等个人信息是否已被泄露并流通，几秒钟即可完成免费自查。",
+      "url": "https://www.serus.ai/",
+      "homepage": "https://www.serus.ai/",
+      "type": "saas",
+      "tags": [
+        "数据安全",
+        "隐私保护",
+        "暗网监控",
+        "泄露检测"
+      ],
+      "sourceChannels": [
+        "twitter"
+      ],
+      "sourceUrl": "https://x.com/serus_ai/status/2046351272182227212",
+      "firstSeen": "2026-04-20T22:12:17+00:00",
+      "analysis": {
+        "targetAudience": "关注个人数据安全、担心账号密码已泄露的普通互联网用户",
+        "useCases": [
+          "输入邮箱或手机号，几秒查出是否出现在暗网泄露库",
+          "发现泄露后第一时间改密码、冻结账户止损",
+          "定期巡检自己和家人的账号安全状态",
+          "注册新服务前先验证自己是否已中招"
+        ],
+        "designIntent": "把「暗网监控」这种过去只有安全公司才有的能力，下沉为普通人几秒钟就能完成的免费自查工具，让数据泄露不再是「看不见的威胁」。",
+        "problemSolved": "个人信息在数据泄露事件中被批量倒卖，普通用户无从得知自己是否中招。Serus 把暗网记录扫描的门槛降到零，让隐私风险变得可见、可处理。",
+        "tags": [
+          "数据安全",
+          "隐私保护",
+          "暗网监控",
+          "泄露检测"
+        ],
+        "score": 8,
+        "scoreReason": "直击普通人最关心的隐私痛点，功能表达清晰、零门槛上手；但高度依赖暗网数据源的持续更新，实际检出率与覆盖范围有待真实场景验证。",
+        "competitors": [
+          {
+            "name": "Have I Been Pwned",
+            "url": "https://haveibeenpwned.com/",
+            "comparison": "老牌泄露查询站，覆盖面广但主要查邮箱；Serus 额外覆盖手机号、IP 等多维数据"
+          },
+          {
+            "name": "DeHashed",
+            "url": "https://dehashed.com/",
+            "comparison": "面向专业安全人员的付费搜索库，门槛高；Serus 面向普通用户且免费"
+          }
+        ]
+      },
+      "screenshotUrl": "assets/screenshots/x.com_serusai_status_2046351272182227212_20260811_122717.png",
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null
+    },
+    {
+      "id": "x.com/bkdgiffug/status/2086396317945778329",
+      "name": "陪读蛙（Read Frog）",
+      "slug": "read-frog",
+      "description": "一款开源 AI 翻译与语言学习浏览器插件，支持网页、YouTube、电子书，可接入 20 多家 AI 服务，在你看外文内容时实时双语对照翻译，把「翻译」变成「边读边学」。",
+      "url": "https://www.readfrog.app/",
+      "homepage": "https://www.readfrog.app/",
+      "type": "app",
+      "tags": [
+        "语言学习",
+        "浏览器插件",
+        "AI 翻译",
+        "沉浸式阅读"
+      ],
+      "sourceChannels": [
+        "twitter"
+      ],
+      "sourceUrl": "https://x.com/bkdgiffug/status/2086396317945778329",
+      "firstSeen": "2026-08-09T10:17:00+00:00",
+      "analysis": {
+        "targetAudience": "想通过阅读外文网页、看视频追剧等真实语境来学语言的用户",
+        "useCases": [
+          "双语对照阅读英文新闻、博客和文档",
+          "看 YouTube 外文视频时实时字幕翻译",
+          "电子书外文阅读与生词对照",
+          "自定义提示词调教翻译风格，贴近个人学习偏好"
+        ],
+        "designIntent": "把翻译工具从「只给结果」升级为「语言学习环境」，让用户沉浸在自己真正感兴趣的内容里学语言，而不是被迫啃教材。",
+        "problemSolved": "传统翻译插件只给译文、对学习没有帮助；为了学语言而只能读无趣教材的问题。陪读蛙让「学」和「用」在同一场景里完成。",
+        "tags": [
+          "语言学习",
+          "浏览器插件",
+          "AI 翻译",
+          "沉浸式阅读"
+        ],
+        "score": 8,
+        "scoreReason": "场景清晰（边读边学）、开源免费且支持 20+ AI 服务，实用性与可玩性都很强；但翻译插件赛道拥挤，长期差异化取决于学习功能的打磨深度。",
+        "competitors": [
+          {
+            "name": "沉浸式翻译",
+            "url": "https://immersivetranslate.com/",
+            "comparison": "用户量最大的双语翻译插件；陪读蛙更强调语言学习闭环与多 AI 服务自由接入"
+          },
+          {
+            "name": "Google 翻译浏览器扩展",
+            "url": "https://translate.google.com/",
+            "comparison": "免费但只做翻译、不提供学习语境；陪读蛙提供对照阅读与学习支持"
+          }
+        ]
+      },
+      "screenshotUrl": "assets/screenshots/x.com_bkdgiffug_status_2086396317945778329_20260811_122728.png",
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null
+    },
+    {
+      "id": "x.com/huahuazo/status/2086711645745590375",
+      "name": "DeepTutor（AI 个性化学习辅导）",
+      "slug": "deeptutor",
+      "description": "港大开源的个人 AI 辅导系统：把教材、论文、笔记全部喂进去，即可获得带完整推理链的解题讲解、自动出题与批改、复杂主题的结构化调研报告、抽象概念可视化，并全程记忆你的进度与薄弱环节、动态调整学习路线。GitHub 已近 3 万星。",
+      "url": "https://deeptutor.info/",
+      "homepage": "https://deeptutor.info/",
+      "type": "website",
+      "tags": [
+        "在线教育",
+        "个性化学习",
+        "开源",
+        "AI 辅导"
+      ],
+      "sourceChannels": [
+        "twitter"
+      ],
+      "sourceUrl": "https://x.com/Huahuazo/status/2086711645745590375",
+      "firstSeen": "2026-08-10T07:10:00+00:00",
+      "analysis": {
+        "targetAudience": "需要系统辅导的学生、自学者与备考人群",
+        "useCases": [
+          "把课程资料导入后按自己的进度循序渐进地学习",
+          "做错题后自动生成针对薄弱点的练习与批改",
+          "把抽象概念一键转成图表、动画等互动内容",
+          "期末阶段生成结构化知识报告、高效复习"
+        ],
+        "designIntent": "让 AI 不再是「一问一答」的通用聊天机器人，而是真正摸清你学到哪、哪里薄弱的学习伙伴，提供陪伴式的个性化辅导。",
+        "problemSolved": "通用 AI 回答没有对个人进度的记忆与适配；请家教贵、学习资源碎片化、无人监督进度的问题。DeepTutor 用开源方式把个性化辅导普及化。",
+        "tags": [
+          "在线教育",
+          "个性化学习",
+          "开源",
+          "AI 辅导"
+        ],
+        "score": 8,
+        "scoreReason": "近 3 万星的开源热度证明需求旺盛，教育是 AI 落地最受关注的赛道之一；但 agent-native 架构、自托管与 RAG 配置对普通学生仍有门槛。",
+        "competitors": [
+          {
+            "name": "Khanmigo",
+            "url": "https://www.khanmigo.com/",
+            "comparison": "头部商业 AI 辅导，封闭生态；DeepTutor 开源免费、可本地私有化部署"
+          },
+          {
+            "name": "ChatGPT 通用问答",
+            "url": "https://chatgpt.com/",
+            "comparison": "无个人进度记忆与学习路径；DeepTutor 围绕个人资料构建完整学习闭环"
+          }
+        ]
+      },
+      "screenshotUrl": "assets/screenshots/x.com_huahuazo_status_2086711645745590375_20260811_122737.png",
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null
+    },
+    {
+      "id": "x.com/mnmn94253156337/status/2086984948335136971",
+      "name": "OpenChatCut（AI 视频剪辑）",
+      "slug": "openchatcut",
+      "description": "开源、本地优先的 AI 视频剪辑工具：让 AI 直接修改一条真实、可编辑的多轨时间线，自动删除停顿和重复内容、添加字幕音乐转场、支持 LUT 调色与绿幕特效，每次修改都可预览、撤销并人工微调，可导出 MP4、SRT 字幕与 FCPXML 工程。",
+      "url": "https://openchatcut.com/",
+      "homepage": "https://openchatcut.com/",
+      "type": "app",
+      "tags": [
+        "视频剪辑",
+        "开源",
+        "创作者工具",
+        "AI 工作流"
+      ],
+      "sourceChannels": [
+        "twitter"
+      ],
+      "sourceUrl": "https://x.com/mnmn94253156337/status/2086984948335136971",
+      "firstSeen": "2026-08-11T01:16:00+00:00",
+      "analysis": {
+        "targetAudience": "做口播、教程、产品演示视频的内容创作者",
+        "useCases": [
+          "口播视频一键粗剪，自动去除停顿和重复片段",
+          "教程视频自动添加字幕、音乐与转场",
+          "产品演示加 LUT 调色、绿幕与动态图形",
+          "导出 SRT 字幕和 FCPXML 工程到专业剪辑软件继续精修"
+        ],
+        "designIntent": "把「AI 自动粗剪」和「人工精调」放进同一个项目——AI 改的是真实时间线而非模拟鼠标乱点，保证每一步都可预览、可撤销、可接管。",
+        "problemSolved": "现有 AI 剪辑要么只交付成品、无法微调，要么靠模拟鼠标操作十分脆弱；创作者被迫在「自动化」和「可控性」之间二选一的问题。",
+        "tags": [
+          "视频剪辑",
+          "开源",
+          "创作者工具",
+          "AI 工作流"
+        ],
+        "score": 7,
+        "scoreReason": "直接编辑多轨时间线的技术思路直击 AI 剪辑痛点，跨平台且开源免费；但项目较新、生态与稳定性待验证，Agent 集成对小白用户有一定门槛。",
+        "competitors": [
+          {
+            "name": "剪映 / CapCut 智能剪辑",
+            "url": "https://www.capcut.com/",
+            "comparison": "上手简单但自动化与可控程度有限；OpenChatCut 更深层、可编程、可接管"
+          },
+          {
+            "name": "Descript",
+            "url": "https://www.descript.com/",
+            "comparison": "商业 AI 剪辑标杆，云端闭源；OpenChatCut 开源免费、本地优先、隐私可控"
+          }
+        ]
+      },
+      "screenshotUrl": "assets/screenshots/x.com_mnmn94253156337_status_2086984948335136971_20260811_122744.png",
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null
+    },
+    {
+      "id": "reddit.com/r/sideproject/comments/1vl4vtj/after2monthsofworkicompletelyreworkedthe",
+      "name": "Norren（语音优先记忆助手）",
+      "slug": "norren",
+      "description": "一款语音优先的个人记忆 app：自然地用语音说出想法，之后随时可以追问，答案会从你自己的记录里检索出来，而不是通用回答。目前处于 TestFlight 公测阶段。",
+      "url": "https://testflight.apple.com/join/ked1P1WW",
+      "homepage": "https://testflight.apple.com/join/ked1P1WW",
+      "type": "app",
+      "tags": [
+        "语音笔记",
+        "个人记忆",
+        "知识管理",
+        "AI 助理"
+      ],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "sourceUrl": "https://www.reddit.com/r/SideProject/comments/1vl4vtj/after_2_months_of_work_i_completely_reworked_the/",
+      "firstSeen": "2026-08-11T02:26:18+00:00",
+      "analysis": {
+        "targetAudience": "习惯用语音记录想法、需要快速回查过往信息与笔记的个人知识管理用户",
+        "useCases": [
+          "随手用语音口述灵感、想法和待办",
+          "事后用自然语言问「我上周说过什么」并得到自己的记录",
+          "用语音备忘替代打字笔记，降低记录成本",
+          "对个人资料进行语义问答检索，而不是翻文件夹"
+        ],
+        "designIntent": "把「记录」和「找回」都压缩成说话这一件事：语音进、语音查，让 app 成为私有的、可检索的第二大脑，而不是又一个录音机。",
+        "problemSolved": "文字笔记记录成本高、事后检索困难；通用 AI 的回答不包含你的个人上下文。Norren 只从你自己的记录中找答案，保证相关且私密。",
+        "tags": [
+          "语音笔记",
+          "个人记忆",
+          "知识管理",
+          "AI 助理"
+        ],
+        "score": 7,
+        "scoreReason": "语音优先 + 个人记忆检索的形态新颖，直击「记了找不到」的痛点；但仍在测试阶段、功能边界未定，能否沉淀为使用习惯有待验证。",
+        "competitors": [
+          {
+            "name": "Mem",
+            "url": "https://get.mem.ai/",
+            "comparison": "主打 AI 记忆的笔记工具，偏文字输入；Norren 语音优先、更轻量"
+          },
+          {
+            "name": "iPhone 自带语音备忘录",
+            "url": "https://www.apple.com/ios/voice-memos/",
+            "comparison": "只录不检索；Norren 提供基于个人内容的语义问答回查"
+          }
+        ]
+      },
+      "screenshotUrl": "assets/screenshots/reddit.com_r_sideproject_comments_1vl4vtj_after2monthsofworkicompletelyreworkedthe_20260811_122752.png",
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null
+    }
+  ]
+}
