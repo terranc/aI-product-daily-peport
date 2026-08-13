@@ -1,0 +1,322 @@
+{
+ "date": "2026-08-13",
+ "generatedAt": "2026-08-13T04:09:45.247542+00:00",
+ "productCount": 5,
+ "products": [
+  {
+   "id": "reddit.com/r/sideproject/comments/1vmymmw/ispentthelast3monthsbuildingasoloai",
+   "name": "Plant Warden — AI 植物医生",
+   "slug": "plant-warden",
+   "description": "拍一张生病植物的照片，AI 立刻给出病虫害诊断和养护治疗方案，让养绿植的人不用再对着照片查半天。",
+   "url": "https://apps.apple.com/us/app/plantwarden/id6781430955",
+   "homepage": "https://apps.apple.com/us/app/plantwarden/id6781430955",
+   "type": "app",
+   "tags": [
+    "植物养护",
+    "AI 识别",
+    "园艺助手",
+    "拍照诊断"
+   ],
+   "sourceChannels": [
+    "reddit"
+   ],
+   "sourceUrl": "https://www.reddit.com/r/SideProject/comments/1vmymmw/i_spent_the_last_3_months_building_a_solo_ai/",
+   "firstSeen": "2026-08-13T02:49:02+00:00",
+   "screenshotUrl": null,
+   "appStoreScreenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4a/c2/59/4ac259f7-603f-b698-52ee-3c76d459bd55/Slide3_Diagnosis_1284x2778.jpg/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/dd/a3/68/dda3688d-80b9-5924-f17b-8dd077232930/Slide5_Soil_1284x2778.jpg/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/12/62/ce/1262ceec-27d9-be93-8fed-ca76da13c027/Slide2_Voice_1284x2778.jpg/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/69/e4/32/69e43234-4065-2225-bb04-bda1f6cd1e24/Slide1_Weather_1284x2778.jpg/320x480bb.jpg"
+   ],
+   "appStoreName": "PlantWarden",
+   "appStoreUrl": "https://apps.apple.com/us/app/plantwarden/id6781430955?uo=4",
+   "analysis": {
+    "targetAudience": "养绿植的都市人群、家庭园艺爱好者和小菜园种植者",
+    "useCases": [
+     "拍下病叶照片即时识别病虫害种类",
+     "获取针对性的治疗步骤和养护建议",
+     "日常给盆栽做健康巡检，提前发现问题",
+     "新手识别黄叶/烂根等常见问题，避免盲目浇水施肥"
+    ],
+    "designIntent": "独立开发者花 3 个月从零搭建，把植物病害诊断从「上网搜图对比」变成「拍照即得答案」，让没有园艺知识的人也能第一时间判断植物出了什么问题、该怎么救。",
+    "problemSolved": "植物生病时普通人很难判断病因，网上对比费时且容易误诊；Plant Warden 用 AI 视觉识别病虫害并给出治疗方案，降低植物养护门槛，减少「养死」的挫败感。",
+    "tags": [
+     "植物养护",
+     "AI 识别",
+     "园艺助手",
+     "拍照诊断"
+    ],
+    "score": 8,
+    "scoreReason": "养植物是普遍爱好，拍照诊断的场景亲民且 AI 视觉成熟度足够支撑；同赛道已有 PictureThis 等成熟产品，后续需要在价格和细分功能上做出差异化。",
+    "competitors": [
+     {
+      "name": "PictureThis",
+      "url": "https://www.picturethisai.com/",
+      "comparison": "老牌植物识别 App，识别库更大但偏订阅制"
+     },
+     {
+      "name": "Planta",
+      "url": "https://planta.com/",
+      "comparison": "主打浇水养护提醒，诊断功能较弱"
+     },
+     {
+      "name": "Dr. Phyto",
+      "url": "https://drphyto.app/",
+      "comparison": "欧洲市场的 AI 植物医生，侧重专家知识库与检疫合规"
+     }
+    ]
+   }
+  },
+  {
+   "id": "reddit.com/r/sideproject/comments/1vmy6b7/sparemeaniphoneappthathandlesroutine",
+   "name": "SpareMe — AI 代打客服电话",
+   "slug": "spareme",
+   "description": "输入商家电话和你的需求，AI 替你拨号、听语音菜单、排队等待、与客服沟通，最后把结果带回来，全程无需守在电话旁。",
+   "url": "https://getspareme.com/",
+   "homepage": "https://getspareme.com/",
+   "type": "website",
+   "tags": [
+    "客服电话",
+    "AI 语音代理",
+    "效率工具",
+    "生活助理"
+   ],
+   "sourceChannels": [
+    "reddit"
+   ],
+   "sourceUrl": "https://www.reddit.com/r/SideProject/comments/1vmy6b7/spareme_an_iphone_app_that_handles_routine/",
+   "firstSeen": "2026-08-13T02:27:25+00:00",
+   "screenshotUrl": "assets/screenshots/reddit.com_r_sideproject_comments_1vmy6b7_sparemeaniphoneappthathandlesroutine_20260813_120850.png",
+   "appStoreScreenshots": [],
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "analysis": {
+    "targetAudience": "被客服电话转接、无限等待折磨的美国忙碌用户",
+    "useCases": [
+     "取消订阅、账单争议等客服沟通",
+     "咨询航班改签、退换货等售后问题",
+     "预约和售后服务进度跟进",
+     "处理快递、理赔等耗时电话"
+    ],
+    "designIntent": "创始人认为客服电话最痛苦的并非对话本身，而是找时间拨打、听语音菜单、排队等待和反复说明背景；让 AI 自动完成整套流程，用户只需说明需求、等结果，并始终保留控制权。",
+    "problemSolved": "客服电话动辄耗费十几分钟在转接和等待上；SpareMe 自动拨号、导航菜单、等待并完成沟通，把结果带回来，解决「没时间打电话」和「等待太久」两大痛点。",
+    "tags": [
+     "客服电话",
+     "AI 语音代理",
+     "效率工具",
+     "生活助理"
+    ],
+    "score": 8,
+    "scoreReason": "直击美国用户普遍痛点，AI 语音代理正处风口；但客服侧对 AI 来电的接受度、语音合规与商业模式都还在验证期。",
+    "competitors": [
+     {
+      "name": "Google Pixel 通话筛选/Hold for Me",
+      "url": "https://store.google.com/",
+      "comparison": "系统内置功能，仅限 Pixel 设备且能力有限"
+     },
+     {
+      "name": "Teleme.ai",
+      "url": "https://teleme.ai/",
+      "comparison": "面向企业的 AI 通话方案，个人代办场景少"
+     },
+     {
+      "name": "传统 IVR 回拨服务",
+      "url": "https://www.google.com/",
+      "comparison": "覆盖面窄、体验差，缺乏智能对话能力"
+     }
+    ]
+   }
+  },
+  {
+   "id": "producthunt.com/r/p/1220706",
+   "name": "Linforge — Anki 卡片口语教练",
+   "slug": "linforge",
+   "description": "把 Anki 里背过的单词变成真实英语对话，AI 语音陪练在对话中实时纠正发音（精确到音素）和语法，让「背得会」变成「说得出」。",
+   "url": "https://apps.apple.com/us/app/linforge/id6785759912",
+   "homepage": "https://apps.apple.com/us/app/linforge/id6785759912",
+   "type": "app",
+   "tags": [
+    "英语口语",
+    "Anki",
+    "AI 陪练",
+    "发音纠正",
+    "语言学习"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/linforge",
+   "firstSeen": "2026-08-11T12:55:22-07:00",
+   "screenshotUrl": null,
+   "appStoreScreenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ef/6b/04/ef6b0422-63f7-0391-348c-43c04a014ea2/5.jpg/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/86/64/b0/8664b0b4-0e11-57f3-e99e-4dec4c1d775f/8.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ab/04/a6/ab04a67d-6f68-f153-4c5d-3222fa4cfbd9/2.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2e/af/db/2eafdb86-90d9-ab66-f33e-9f8fce2f5eb6/10.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/36/14/be/3614be11-ab52-38c0-d655-922ed990ce34/4.png/320x480bb.jpg"
+   ],
+   "appStoreName": "Linforge",
+   "appStoreUrl": "https://apps.apple.com/us/app/linforge/id6785759912?uo=4",
+   "analysis": {
+    "targetAudience": "用 Anki 背单词却开不了口的中高级英语学习者",
+    "useCases": [
+     "用正在背的单词生成情景对话进行练习",
+     "面试、旅行、点咖啡等场景角色扮演",
+     "打开摄像头对着眼前实物即兴练习口语",
+     "跟读 AI 用自己词汇生成的文章并获得逐句发音评分"
+    ],
+    "designIntent": "解决「背了单词却说不出口」的断层：把 Anki 间隔重复的词汇直接导入 AI 对话，让被动词汇变成主动口语，并用音素级评分在对话中实时纠错，弥补缺乏口语环境和即时反馈的空白。",
+    "problemSolved": "多数学习者的被动词汇远超口语水平，缺乏开口环境和即时纠错；Linforge 把已有 Anki 词库变成对话素材，AI 在对话中实时纠正发音和语法，打通「记忆」到「表达」。",
+    "tags": [
+     "英语口语",
+     "Anki",
+     "AI 陪练",
+     "发音纠正",
+     "语言学习"
+    ],
+    "score": 8,
+    "scoreReason": "精准切入 Anki 重度用户的痛点，音素级评分 + 本地视觉模型做场景对话是亮点；但依赖用户已有 Anki 词库，获客面相对有限。",
+    "competitors": [
+     {
+      "name": "LinqiApp",
+      "url": "https://linqiapp.com/",
+      "comparison": "真人语伴 + AI 反馈，不打通个人 Anki 词库"
+     },
+     {
+      "name": "Lingology",
+      "url": "https://lingology.app/",
+      "comparison": "AI 口语练习 + 词汇复习，偏网页应用"
+     },
+     {
+      "name": "ELSA Speak",
+      "url": "https://elsaspeak.com/",
+      "comparison": "专注发音评分，但没有 Anki 联动"
+     }
+    ]
+   }
+  },
+  {
+   "id": "producthunt.com/r/p/1216311",
+   "name": "Vidaya — AI 健康寿命评估",
+   "slug": "vidaya",
+   "description": "把可穿戴设备、血液检测和 DNA 数据汇总成一张图，输出个人「健康寿命分」（Healthspan Score），并用 AI 问答解释每个指标的含义和改善方向。",
+   "url": "https://vidaya.ai/",
+   "homepage": "https://vidaya.ai/",
+   "type": "website",
+   "tags": [
+    "健康管理",
+    "长寿科技",
+    "可穿戴数据",
+    "AI 健康分析"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/vidaya",
+   "firstSeen": "2026-08-06T00:21:22-07:00",
+   "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1216311_20260813_120907.png",
+   "appStoreScreenshots": [],
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "analysis": {
+    "targetAudience": "关注长寿与主动健康、已有可穿戴设备和体检数据的中产人群",
+    "useCases": [
+     "统一管理手环/手表、血检、基因等多源健康数据",
+     "查看 Vaya Score 健康寿命分与长期变化趋势",
+     "用 Vaya Chat AI 询问指标含义与改善建议",
+     "对比补剂、训练计划对健康指标的实测影响"
+    ],
+    "designIntent": "创始人 30 岁出头就因补剂组合不当遭遇高血压，发现来自医生、补剂品牌、Apple Watch 的信息互相矛盾且碎片化；于是把生物标志物、可穿戴数据和 DNA 汇成一个普通人能看懂的单一健康分数。",
+    "problemSolved": "健康数据分散在手环、体检报告、基因检测里，普通人看不懂也无法关联；Vidaya 用 AI 整合数据，给出一个可追踪的健康分数和可执行建议，让健康管理有据可依。",
+    "tags": [
+     "健康管理",
+     "长寿科技",
+     "可穿戴数据",
+     "AI 健康分析"
+    ],
+    "score": 7,
+    "scoreReason": "长寿/健康数据整合是热门赛道且定位清晰，AI 问答降低了理解门槛；但同类竞品密集，且健康评分的医学有效性需要长期验证。",
+    "competitors": [
+     {
+      "name": "Vitara",
+      "url": "https://www.getvitara.health/",
+      "comparison": "血检+可穿戴融合出健康分，定位相似"
+     },
+     {
+      "name": "Vitaeon Health",
+      "url": "https://vitaeon.health/",
+      "comparison": "追踪健康寿命分，侧重日常健康管家"
+     },
+     {
+      "name": "各家手表自带健康 App",
+      "url": "https://www.apple.com/health/",
+      "comparison": "只看单一设备数据，无跨平台整合与长期评分"
+     }
+    ]
+   }
+  },
+  {
+   "id": "reddit.com/r/sideproject/comments/1vmyrt5/choobiaicompanionapp",
+   "name": "Choobi — AI 心理陪伴",
+   "slug": "choobi",
+   "description": "提供四种不同性格的 AI 陪伴伙伴，加上私密日记、情绪追踪和正念练习，帮你在安全无评判的空间里倾诉、反思、认识自己，并明确不替代专业心理治疗。",
+   "url": "https://choobi.app/",
+   "homepage": "https://choobi.app/",
+   "type": "website",
+   "tags": [
+    "心理健康",
+    "AI 陪伴",
+    "情绪追踪",
+    "日记",
+    "正念"
+   ],
+   "sourceChannels": [
+    "reddit"
+   ],
+   "sourceUrl": "https://www.reddit.com/r/SideProject/comments/1vmyrt5/choobi_ai_companion_app/",
+   "firstSeen": "2026-08-13T02:56:01+00:00",
+   "screenshotUrl": "assets/screenshots/reddit.com_r_sideproject_comments_1vmyrt5_choobiaicompanionapp_20260813_120916.png",
+   "appStoreScreenshots": [],
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "analysis": {
+    "targetAudience": "需要倾诉和情绪记录、但不便或不愿寻求专业心理咨询的年轻人",
+    "useCases": [
+     "与四种不同性格的 AI 伙伴聊天倾诉",
+     "私密日记记录心情与日常",
+     "追踪情绪变化趋势，识别情绪模式",
+     "设定个人目标、做正念呼吸等落地练习"
+    ],
+    "designIntent": "提供一个私密、无评判的倾诉空间，让用户通过对话、日记和情绪追踪更好地理解自己；团队刻意把产品定位在「日常情绪支持」而非替代医疗，避免越界承诺。",
+    "problemSolved": "很多人有倾诉需求却找不到安全出口，或对看心理咨询有顾虑；Choobi 用 AI 陪伴 + 情绪数据帮助用户识别自己的情绪模式，降低自我认知和求助的门槛。",
+    "tags": [
+     "心理健康",
+     "AI 陪伴",
+     "情绪追踪",
+     "日记",
+     "正念"
+    ],
+    "score": 7,
+    "scoreReason": "需求真实、功能完整且已上线，情绪洞察是差异化点；但 AI 心理陪伴赛道拥挤，隐私安全和医疗合规是长期挑战。",
+    "competitors": [
+     {
+      "name": "Woebot",
+      "url": "https://woebothealth.com/",
+      "comparison": "循证疗法导向的 AI 心理助手，偏干预而非陪伴"
+     },
+     {
+      "name": "Replika",
+      "url": "https://replika.com/",
+      "comparison": "泛 AI 陪伴，缺乏情绪追踪与洞察"
+     },
+     {
+      "name": "Headspace / Calm",
+      "url": "https://www.headspace.com/",
+      "comparison": "侧重正念冥想，没有对话式陪伴"
+     }
+    ]
+   }
+  }
+ ]
+}
