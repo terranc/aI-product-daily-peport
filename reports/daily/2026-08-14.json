@@ -1,0 +1,312 @@
+{
+  "date": "2026-08-14",
+  "generatedAt": "2026-08-14T04:10:43.823283+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "news.ycombinator.com/item",
+      "name": "Hearth — 家庭共享 AI 工作区",
+      "slug": "hearth",
+      "description": "Hearth 是面向整个家庭的共享 AI 工作区：家庭计划、笔记、日程、成员与固定仪式统一放在一个实时同步的空间里（类似带 AI 助手的共享版 Obsidian）。最特别的是，AI 助手能基于家庭笔记直接编写并运行自定义小应用——预算追踪、航班监控、菜谱规划等，应用在沙箱中运行、遵循家庭设定的规则，联网和登录需显式审批。",
+      "url": "https://ourhearth.ai",
+      "homepage": "https://ourhearth.ai",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/news.ycombinator.com_item_20260814_120727.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "家庭",
+        "AI 助手",
+        "共享工作区",
+        "生活管理",
+        "智能家居"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49292004",
+      "firstSeen": "2026-08-13T21:18:38+00:00",
+      "analysis": {
+        "targetAudience": "希望用 AI 管理全家日常事务、共享信息的家庭用户",
+        "useCases": [
+          "全家共享笔记、日程与待办，取代群聊里的截图和零散信息",
+          "让 AI 生成预算追踪、航班监控、菜谱规划等家庭小应用",
+          "为家庭设定 AI 行为规则，审批其联网与登录操作",
+          "离线可用、多设备实时同步，出差在外也能远程打理家庭事项"
+        ],
+        "designIntent": "把家庭当作一个需要共享记忆与分工协作的微型组织，用 AI 承担‘家庭助理’角色。设计上强调 AI 的边界感——应用在沙箱运行、凭据隔离、一切操作可撤销，让家庭放心把琐事交给 AI 而不失去控制权。",
+        "problemSolved": "解决家庭信息散落在群聊、备忘录、各 App 里难以统一管理的问题；同时让不具备编程能力的家庭成员也能拥有定制化的家庭小工具，由 AI 按需求即时生成并安全运行。",
+        "tags": [
+          "家庭",
+          "AI 助手",
+          "共享工作区",
+          "生活管理"
+        ],
+        "score": 9,
+        "scoreReason": "把 AI 能力真正融入家庭生活场景，理念新颖且完成度高；‘AI 按家庭规则写应用并沙箱运行’的边界设计解决信任痛点，是典型的把 AI 带进普通生活的产品。",
+        "competitors": [
+          {
+            "name": "Obsidian",
+            "url": "https://obsidian.md",
+            "comparison": "Obsidian 是个人笔记工具，无家庭共享与 AI 应用生成能力；Hearth 强调全家共享与 AI 主动工作。"
+          },
+          {
+            "name": "Notion",
+            "url": "https://www.notion.so",
+            "comparison": "Notion 支持协作但需手动搭建，AI 功能偏问答；Hearth 让 AI 直接生成并运行应用，门槛更低。"
+          },
+          {
+            "name": "Apple Family Sharing + 备忘录",
+            "url": "https://www.icloud.com",
+            "comparison": "苹果生态仅提供基础共享，无 AI 自动化能力；Hearth 提供统一的 AI 家庭中枢。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "miragebrowser.xyz",
+      "name": "Mirage Browser — 复古互联网模拟浏览器",
+      "slug": "mirage-browser",
+      "description": "Mirage Browser 是一个实时交互的复古互联网模拟器：在地址栏输入任意网址，它就以约 1000 token/秒的速度即时生成 1998 风格的网页，点击任何链接会立即生成下一页。内置‘搜索引擎’、分类广告和百科全书，甚至能拨打页面上的电话号码与对方对话——一个能自己造出整个 90 年代互联网的怀旧游乐场。",
+      "url": "https://miragebrowser.xyz",
+      "homepage": "https://miragebrowser.xyz",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/miragebrowser.xyz_20260814_120735.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "怀旧",
+        "模拟器",
+        "AI 生成",
+        "娱乐",
+        "创意"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49292452",
+      "firstSeen": "2026-08-13T22:07:41+00:00",
+      "analysis": {
+        "targetAudience": "怀念 90 年代互联网、喜欢复古美学的极客与内容创作者",
+        "useCases": [
+          "输入任意网址体验 AI 即时生成的复古版网页",
+          "探索内置的复古搜索引擎、分类广告与百科全书",
+          "拨打页面上的模拟电话号码与 AI 角色对话",
+          "作为创意素材、直播或短视频的趣味内容来源"
+        ],
+        "designIntent": "用 AI 的高吞吐生成能力重构‘早期互联网的漫游体验’，把浏览变成一场实时生成的时空旅行。设计上刻意保留 1998 年的粗糙质感与低分辨率美学，唤起怀旧情绪并制造‘AI 造出整个互联网’的惊奇感。",
+        "problemSolved": "让怀旧者重新体验 90 年代互联网的探索乐趣，同时展示 AI 实时生成能力的趣味应用——把‘生成式浏览’变成娱乐体验，而非单纯的技术演示。",
+        "tags": [
+          "怀旧",
+          "模拟器",
+          "AI 生成",
+          "娱乐"
+        ],
+        "score": 8,
+        "scoreReason": "创意独特、即时互动性强，把 AI 生成能力转化为人人可玩的娱乐产品；受众偏极客与怀旧人群，商业化路径尚不明确，但传播潜力大。",
+        "competitors": [
+          {
+            "name": "Neocities",
+            "url": "https://neocities.org",
+            "comparison": "Neocities 是真实托管的复古个人主页服务，需人工制作；Mirage Browser 由 AI 实时生成虚拟网页，无需任何建站工作。"
+          },
+          {
+            "name": "Porkbun/老网站存档",
+            "url": "https://archive.org",
+            "comparison": "Internet Archive 展示真实历史网页，Mirage Browser 则是 AI 虚构的互动模拟，可无限生成。"
+          },
+          {
+            "name": "AI 聊天机器人游戏",
+            "url": "https://www.character.ai",
+            "comparison": "Character.AI 以对话为主；Mirage Browser 以‘浏览整个模拟互联网’为体验核心。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "blaze.money",
+      "name": "Blaze — AI 代理驱动的全球财务管理平台",
+      "slug": "blaze-money",
+      "description": "Blaze（YC S24）是一个 agentic finance 平台：AI 代理负责企业资金的移动与管理——对账、付款、发票、现金流预测等，支持 80+ 币种与 USDC 稳定币通道。用户用一句自然语言下达指令（如‘明天付给 Northstar Supplies 8750 美元’），AI 代理核查详情、遵循审批规则、选择最优结算通道并全程展示进度，人工可随时介入。",
+      "url": "https://blaze.money",
+      "homepage": "https://blaze.money",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/blaze.money_20260814_120744.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "财务",
+        "AI 代理",
+        "跨境支付",
+        "企业服务",
+        "稳定币"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49293875",
+      "firstSeen": "2026-08-14T01:44:04+00:00",
+      "analysis": {
+        "targetAudience": "需要跨境收付款与资金管理的中小企业、自由职业团队及开发者",
+        "useCases": [
+          "用自然语言指令让 AI 代理完成供应商付款并自动核验发票",
+          "AI 自动对账、整理现金流视图并预测未来 30 天现金状况",
+          "跨 80+ 币种选择最优支付通道（ACH、SPEI、PIX、USDC）",
+          "为开发者提供 MCP / REST API，把支付能力嵌入自有 AI 工作流"
+        ],
+        "designIntent": "把传统财务软件的‘菜单操作’升级为‘指令即完成’：AI 代理理解意图、核查事实、遵循审批规则并展示每一步，让财务工作从人盯系统变成人审 AI。YC 背景与稳定币通道表明其瞄准全球化、实时化的小额高频支付场景。",
+        "problemSolved": "解决中小企业跨境收付流程繁琐、对账成本高、资金可见性差的问题；让非财务专业人士也能用一句话驱动专业级资金管理，同时保留人工审批的安全护栏。",
+        "tags": [
+          "财务",
+          "AI 代理",
+          "跨境支付",
+          "企业服务"
+        ],
+        "score": 8,
+        "scoreReason": "AI 代理 + 稳定币的财务管理切入角度稀缺，YC 背书且产品完成度高；但金融合规与信任门槛高，面向企业需较长的采纳周期。",
+        "competitors": [
+          {
+            "name": "Brex",
+            "url": "https://www.brex.com",
+            "comparison": "Brex 提供企业卡与费用管理，但以人工操作为主；Blaze 由 AI 代理自动执行并支持稳定币通道。"
+          },
+          {
+            "name": "Wise",
+            "url": "https://wise.com",
+            "comparison": "Wise 主打低成本跨境汇款，无 AI 代理自动执行能力；Blaze 叠加了 agentic 的资金管理与对账。"
+          },
+          {
+            "name": "Ramp",
+            "url": "https://ramp.com",
+            "comparison": "Ramp 偏费用卡与自动化采购，AI 深度不如 Blaze；Blaze 以自然语言驱动的资金操作为核心。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "transcribe.lymestack.com",
+      "name": "LymeScribe — 本地离线语音转文字",
+      "slug": "lymescribe",
+      "description": "LymeScribe 是运行在你本机网络上的语音转文字服务（Mac / Windows）：一台电脑负责转录，其他设备共享使用。所有语音处理都在本地完成，无需上传云端，数据不出内网。面向对隐私敏感的用户，适合会议录音、口述笔记、播客素材整理等场景，本地模型即可获得干净的转写结果。",
+      "url": "https://transcribe.lymestack.com",
+      "homepage": "https://transcribe.lymestack.com",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/transcribe.lymestack.com_20260814_120752.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "语音转文字",
+        "本地部署",
+        "隐私",
+        "效率工具",
+        "离线"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49289952",
+      "firstSeen": "2026-08-13T18:18:42+00:00",
+      "analysis": {
+        "targetAudience": "重视数据隐私、不愿把语音内容上传云端的研究者、创作者与企业用户",
+        "useCases": [
+          "会议与访谈录音的本地转写，避免敏感内容外泄",
+          "口述笔记、头脑风暴即时转成文字",
+          "家庭或团队共用一台机器，局域网内多设备调用",
+          "播客、视频素材的本地字幕与文稿生成"
+        ],
+        "designIntent": "针对云端语音服务的隐私顾虑，提供‘一台机器搞定全家转录’的本地方案。设计理念是让转录能力像局域网打印机一样成为家庭/小团队的共享设施，兼顾隐私与便利。",
+        "problemSolved": "解决语音转文字服务必须上传云端带来的隐私与数据安全问题，同时降低本地部署门槛——不需要每个人单独装模型，一台共享机器即可服务整个网络。",
+        "tags": [
+          "语音转文字",
+          "本地部署",
+          "隐私",
+          "效率工具"
+        ],
+        "score": 7,
+        "scoreReason": "切中隐私敏感人群的真实痛点，本地共享架构实用；但同类本地转录工具较多，差异化主要靠易用性与共享模式，需要更强的体验打磨。",
+        "competitors": [
+          {
+            "name": "Whisper（OpenAI）",
+            "url": "https://github.com/openai/whisper",
+            "comparison": "Whisper 是命令行模型，需技术配置；LymeScribe 提供开箱即用的桌面服务与局域网共享。"
+          },
+          {
+            "name": "MacWhisper",
+            "url": "https://goodsnooze.gumroad.com/l/macwhisper",
+            "comparison": "MacWhisper 是个人 Mac 转录工具，无多设备共享能力；LymeScribe 定位为全网络共享的转录服务器。"
+          },
+          {
+            "name": "Otter.ai",
+            "url": "https://otter.ai",
+            "comparison": "Otter 是云端转录服务，数据上传服务器；LymeScribe 强调本地离线，隐私更可控。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "reddit.com/r/sideproject/comments/1vnvtpz/ibuiltquizopsturnanyarticleintoareader",
+      "name": "QuizOps — 文章一键生成阅读理解测验",
+      "slug": "quizops",
+      "description": "QuizOps 面向内容创作者与教育者：粘贴任意文章 URL，AI 在 60 秒内生成 10 道阅读理解测验题，生成分享链接后读者可在线作答。创作者能看到哪些读者理解了文章、哪些部分被遗漏——作者实测自己的 Kubernetes 文章后发现 0% 读者掌握基础概念，从而精准定位需要重写的段落。",
+      "url": "https://quiz.autoshiftops.com",
+      "homepage": "https://quiz.autoshiftops.com",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/reddit.com_r_sideproject_comments_1vnvtpz_ibuiltquizopsturnanyarticleintoareader_20260814_120759.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "内容创作",
+        "教育",
+        "测验",
+        "读者反馈",
+        "AI 生成"
+      ],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "sourceUrl": "https://www.reddit.com/r/SideProject/comments/1vnvtpz/i_built_quizops_turn_any_article_into_a_reader/",
+      "firstSeen": "2026-08-14T03:17:52+00:00",
+      "analysis": {
+        "targetAudience": "希望验证读者是否真正理解内容的博主、技术作者、教育者与课程运营者",
+        "useCases": [
+          "把技术博客、教程文章一键转成测验，发给读者检验理解度",
+          "通过答题数据定位文章中读者最容易遗漏的段落并针对性重写",
+          "在线课程配套测验，提升学员互动与留存",
+          "企业内部分享文档配套理解检查"
+        ],
+        "designIntent": "解决‘写了文章却不知道读者到底懂没懂’的反馈盲区——把 AI 生成的测验当作阅读效果的度量工具，让内容创作者获得传统数据（阅读量、停留时长）之外的理解度洞察。",
+        "problemSolved": "打破内容创作的单向输出：作者无法得知读者理解程度，读者缺乏检验与巩固手段。QuizOps 用 AI 生成测验并回收作答数据，形成‘写-读-测-改进’的闭环。",
+        "tags": [
+          "内容创作",
+          "教育",
+          "测验",
+          "读者反馈"
+        ],
+        "score": 7,
+        "scoreReason": "角度新颖、直击内容创作者痛点，AI 生成测验+读者数据闭环设计聪明；当前功能较单一，面向受众偏窄，需扩展题库形式与平台。",
+        "competitors": [
+          {
+            "name": "Quizlet",
+            "url": "https://quizlet.com",
+            "comparison": "Quizlet 面向学习者自建词卡测验，需手动制作；QuizOps 自动从文章生成并面向创作者提供读者数据分析。"
+          },
+          {
+            "name": "Kahoot!",
+            "url": "https://kahoot.com",
+            "comparison": "Kahoot 侧重课堂互动游戏化测验；QuizOps 侧重文章理解度测量与写作改进。"
+          },
+          {
+            "name": "Intercom 等反馈工具",
+            "url": "https://www.intercom.com",
+            "comparison": "通用反馈工具测的是满意度而非内容理解；QuizOps 直接量化读者对具体内容的掌握。"
+          }
+        ]
+      }
+    }
+  ]
+}
