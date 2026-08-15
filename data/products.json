@@ -1,6 +1,6 @@
 {
   "version": 11,
-  "lastUpdated": "2026-08-14T04:10:43.823283+00:00",
+  "lastUpdated": "2026-08-15T04:14:02.564990+00:00",
   "products": [
     {
       "id": "producthunt.com/r/p/1198621",
@@ -24385,6 +24385,321 @@
       "addedAt": "2026-08-14T04:10:43.823283+00:00",
       "firstSeen": "2026-08-14T03:17:52+00:00",
       "cooldownExpiresAt": "2026-08-28T04:10:43.823283+00:00"
+    },
+    {
+      "id": "x.com/hylarucoder/status/2087790005078880449",
+      "name": "Theta Wellness — AI 健康追踪管家",
+      "slug": "theta-wellness",
+      "description": "Theta Wellness 是一款专注健康管理的 AI 应用，用户可自建「痛风看板」等个性化健康看板，统一追踪血压、血脂、体重、睡眠等指标。亮点是 AI 上下文记忆：身体不舒服时随时语音记录症状，下次再出现类似情况，AI 能瞬间捞出上次的「上下文」，帮用户定位是水喝少了、运动少了还是睡眠差。产品背后是 Mirobody 健康数据标准平台（约 2000 个标准化健康指标），目前美区/新加坡/日本区开放公测。",
+      "url": "https://mirobody.ai/",
+      "homepage": "https://mirobody.ai/",
+      "type": "app",
+      "tags": [
+        "健康管理",
+        "AI 症状追踪",
+        "健康看板",
+        "慢病管理",
+        "语音记录"
+      ],
+      "sourceChannels": [
+        "twitter"
+      ],
+      "sourceUrl": "https://x.com/hylarucoder/status/2087790005078880449",
+      "firstSeen": "2026-08-13T06:35:01+00:00",
+      "lastFeaturedDate": "2026-08-15",
+      "cooldownExpiresAt": "2026-08-29T04:14:02.564990+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      },
+      "analysis": {
+        "targetAudience": "关注慢性健康管理（如痛风、三高）的普通人，尤其是想用数据 + AI 看清自己身体状况的用户",
+        "useCases": [
+          "自建痛风看板，统一追踪血压、血脂、体重、睡眠等指标",
+          "身体不适时语音记录症状，AI 检索上次的「上下文」辅助定位诱因",
+          "日常健康数据一屏聚合，观察生活方式与指标的关联",
+          "长期追踪慢病指标变化，方便与医生沟通复诊"
+        ],
+        "designIntent": "把专业健康数据平台（Mirobody 的标准化指标体系）封装成普通用户可上手的健康 App；用 AI 的长期记忆能力解决「症状反复出现却说不清原因」的痛点，让健康管理从单纯记录升级为洞察。",
+        "problemSolved": "健康数据散落在血压计、体脂秤、各 App 里难以形成统一画面，症状反复出现时难以复盘诱因；Theta 用一个可自定义看板 + AI 上下文记忆把它们串成完整的健康图景。",
+        "tags": [
+          "健康管理",
+          "AI 症状追踪",
+          "健康看板",
+          "慢病管理"
+        ],
+        "score": 8,
+        "scoreReason": "把 AI 记忆能力真正用进慢病健康管理，痛风看板 + 症状上下文检索切中真实痛点；背后有 Mirobody 标准化数据平台支撑，公测期首月免费，产品完成度高。",
+        "competitors": [
+          {
+            "name": "Apple 健康",
+            "url": "https://www.apple.com/health/",
+            "comparison": "苹果健康只做数据汇总，无 AI 症状关联分析；Theta 提供 AI 上下文记忆与个性化看板。"
+          },
+          {
+            "name": "薄荷健康",
+            "url": "https://www.boohee.com/",
+            "comparison": "偏饮食记录与社区内容，缺乏多指标 AI 关联洞察；Theta 更聚焦慢病看板场景。"
+          },
+          {
+            "name": "Whoop",
+            "url": "https://www.whoop.com/",
+            "comparison": "侧重运动恢复数据与硬件生态，国内获取难；Theta 更贴近体检与慢病管理场景。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "reddit.com/r/sideproject/comments/1vosebf/ibuiltanaimanagerthatputsmypersonalgoals",
+      "name": "AIRA — AI 个人目标问责经理",
+      "slug": "aira",
+      "description": "AIRA 是一个把个人目标「当工作管理」的 AI 助手：输入目标后，它会把目标拆解成真正的任务板（sprint 看板），每天要求你提交站会报告，AI 评估你实际做了什么并计算「失业风险分」；如果长期忽视目标，你会被正式列入「绩效改进计划（PIP）」。想增加真实约束可以绑定银行卡，风险拉满时会真的扣钱。评分与管理逻辑基于 Claude，免费使用，真金白银的惩罚可选项。",
+      "url": "https://aira-weld.vercel.app",
+      "homepage": "https://aira-weld.vercel.app",
+      "type": "website",
+      "tags": [
+        "个人管理",
+        "目标管理",
+        "AI 助理",
+        "自律",
+        "问责"
+      ],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "sourceUrl": "https://www.reddit.com/r/SideProject/comments/1vosebf/i_built_an_ai_manager_that_puts_my_personal_goals/",
+      "firstSeen": "2026-08-15T03:49:05+00:00",
+      "lastFeaturedDate": "2026-08-15",
+      "cooldownExpiresAt": "2026-08-29T04:14:02.564990+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      },
+      "analysis": {
+        "targetAudience": "立了很多目标却总拖延、需要外部约束的个体（自由职业者、创业者、学生、减肥人群）",
+        "useCases": [
+          "把模糊目标拆成 sprint 任务板，每天提交站会报告",
+          "用 AI 打分 + 失业风险分量化自己的执行表现",
+          "被列入 PIP 后强制自己回到正轨",
+          "绑定银行卡，用真实金钱后果对抗拖延"
+        ],
+        "designIntent": "把公司里行之有效的管理机制（任务板、站会、绩效改进计划）反向移植到个人目标管理，让 AI 扮演不近人情的「经理」制造真实后果，使自律不再只靠意志力。",
+        "problemSolved": "普通待办清单没有反馈与后果，目标年年立、执行力年年差；AIRA 通过打分、风险分和可选的金钱惩罚，把抽象的拖延变成可见、可量化的成本。",
+        "tags": [
+          "个人管理",
+          "目标管理",
+          "AI 助理",
+          "自律"
+        ],
+        "score": 8,
+        "scoreReason": "概念新颖且有真实产品力：任务拆解、站会评分、PIP、扣款约束形成完整闭环；作者还处理了「单日表现波动过大」的评分边界问题，说明产品逻辑经过认真打磨。",
+        "competitors": [
+          {
+            "name": "Habitica",
+            "url": "https://habitica.com",
+            "comparison": "把习惯养成游戏化，但无 AI 目标拆解与后果惩罚机制。"
+          },
+          {
+            "name": "滴答清单 / Things",
+            "url": "https://culturedcode.com/things/",
+            "comparison": "传统任务管理，无 AI 评估、风险分与 PIP 流程。"
+          },
+          {
+            "name": "StickK",
+            "url": "https://www.stickk.com",
+            "comparison": "有金钱承诺机制但无 AI 任务拆解，玩法偏手动。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "reddit.com/r/sideproject/comments/1vosf3v/shippedanaiscriptpipelineforyoutubeshorts",
+      "name": "ScriptDeck — AI YouTube 短片脚本管线",
+      "slug": "scriptdeck",
+      "description": "ScriptDeck 面向 YouTube 创作者：持续监测你关注的频道，标出远超该频道正常水平的「爆款视频」，再根据爆款评论区里观众反复提问却没人回答的信息缺口，自动生成可直接拍摄的脚本。它按视频类型采用不同的脚本契约——喜剧走「前提 + 升级」、解说走「对照事实核查」——避免 AI 把玩笑素材写成严肃科普或编造不存在的引用。",
+      "url": "https://scriptdeck.net",
+      "homepage": "https://scriptdeck.net",
+      "type": "website",
+      "tags": [
+        "内容创作",
+        "YouTube",
+        "AI 脚本",
+        "短视频",
+        "创作者工具"
+      ],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "sourceUrl": "https://www.reddit.com/r/SideProject/comments/1vosf3v/shipped_an_ai_script_pipeline_for_youtube_shorts/",
+      "firstSeen": "2026-08-15T03:50:14+00:00",
+      "lastFeaturedDate": "2026-08-15",
+      "cooldownExpiresAt": "2026-08-29T04:14:02.564990+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      },
+      "analysis": {
+        "targetAudience": "想持续产出爆款短片的 YouTube / 短视频创作者",
+        "useCases": [
+          "监测频道爆款趋势，发现「远超平均表现」的视频选题",
+          "从爆款视频评论区提取观众未被满足的信息需求",
+          "按视频类型自动生成可拍摄脚本（喜剧 / 解说差异化处理）",
+          "快速验证选题热度，减少「拍了没人看」的试错成本"
+        ],
+        "designIntent": "把「爆款分析 → 观众需求挖掘 → 脚本撰写」这条创作者每天应做的工作流自动化；核心洞察是不同视频类型有不同内容契约，先分类再写脚本，才能避免 AI 生成文不对题的内容。",
+        "problemSolved": "创作者选题靠直觉、写脚本耗时；ScriptDeck 用数据发现真正的机会（频道里超出正常水平的表现）并直接产出可拍脚本，把「拍什么、怎么写」的成本降到最低。",
+        "tags": [
+          "内容创作",
+          "YouTube",
+          "AI 脚本",
+          "短视频"
+        ],
+        "score": 8,
+        "scoreReason": "切中短视频创作的真实痛点（选题 + 脚本），作者对 AI 输出质量有深入思考（按类型分契约避免幻觉），已上线可用，对个人创作者实用性强。",
+        "competitors": [
+          {
+            "name": "Opus Clip",
+            "url": "https://www.opus.pro",
+            "comparison": "侧重把长视频切片成短视频，不做选题挖掘与原创脚本生成。"
+          },
+          {
+            "name": "TubeBuddy",
+            "url": "https://www.tubebuddy.com",
+            "comparison": "提供 SEO 与数据分析，但脚本生成能力弱。"
+          },
+          {
+            "name": "ChatGPT 等通用 LLM",
+            "url": "https://chat.openai.com",
+            "comparison": "通用模型写脚本无爆款数据支撑与类型化脚本契约。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "reddit.com/r/sideproject/comments/1vorv2y/ibuiltlocaloreitturnsthewalkyoudgivea",
+      "name": "Localore — AI 城市步行导览生成器",
+      "slug": "localore",
+      "description": "Localore 把「你带朋友散步时会讲的内容」变成一条陌生人也能跟着走的步行路线。你只需大致描述一条路线，AI 助手会帮你把它梳理成可循的路径，并保留「为什么」——先看什么、在哪里停下、指什么——这份只有本地老住户才懂的街区知识。产品面向居民而非游客，适用于任何城市。",
+      "url": "https://localore-alpha.vercel.app",
+      "homepage": "https://localore-alpha.vercel.app",
+      "type": "website",
+      "tags": [
+        "城市漫步",
+        "本地导览",
+        "AI 路线生成",
+        "文化传承",
+        "旅行"
+      ],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "sourceUrl": "https://www.reddit.com/r/SideProject/comments/1vorv2y/i_built_localore_it_turns_the_walk_youd_give_a/",
+      "firstSeen": "2026-08-15T03:21:41+00:00",
+      "lastFeaturedDate": "2026-08-15",
+      "cooldownExpiresAt": "2026-08-29T04:14:02.564990+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      },
+      "analysis": {
+        "targetAudience": "想分享本地街区知识的老住户、教师 / 地质学家等专业路线设计者、喜欢深度 City Walk 的旅行者",
+        "useCases": [
+          "把自己熟悉的街区散步路线整理成可分享的导览路径",
+          "老师把田野考察路线转成学生可跟随的行走地图",
+          "旅行者获取本地人才知道的深度路线，而非景点打卡",
+          "用 AI 把口头知识（先看什么、停在哪、指什么）结构化沉淀"
+        ],
+        "designIntent": "捕捉「地点背后的知识只存在于当地人脑子里」这一正在流失的价值，用 AI 把非结构化的口头导览转成任何人都能跟随的路径，主打居民视角而非游客视角。",
+        "problemSolved": "地图 App 只标注「在哪里」，表达不了「为什么与顺序」；Localore 用 AI 把只有本地人知道的路线知识与叙述顺序保存下来，让街区知识可传递、可分享。",
+        "tags": [
+          "城市漫步",
+          "本地导览",
+          "AI 路线生成",
+          "文化传承"
+        ],
+        "score": 7,
+        "scoreReason": "概念独到、情感价值强（街区知识传承），AI 扮演路线结构化助手的设计自然；目前处于 alpha 阶段，产品打磨与覆盖范围仍需观察。",
+        "competitors": [
+          {
+            "name": "Google Maps / Apple 地图",
+            "url": "https://maps.google.com",
+            "comparison": "提供路线导航但不表达「为什么」与叙述顺序。"
+          },
+          {
+            "name": "Atlas Obscura",
+            "url": "https://www.atlasobscura.com",
+            "comparison": "收录奇观地点但无 AI 生成与本地人定制路线。"
+          },
+          {
+            "name": "小红书 / 大众点评攻略",
+            "url": "https://www.xiaohongshu.com",
+            "comparison": "内容分散无结构化路线，质量参差。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "v2ex.com/t/1234560",
+      "name": "MiraTranslator — 开源 AI 双语翻译扩展",
+      "slug": "mira-translator",
+      "description": "MiraTranslator 是一款极致轻量、开源的网页翻译扩展：核心代码约 300KB，纯原生 JS，默认内置 Google / Bing 翻译开箱即用，也可接入 OpenAI、Claude、Gemini、DeepL、xAI Grok 或本地 Ollama。特色功能包括 YouTube 原生播放器双语字幕渲染与导出、划词生词本全网高亮与多端同步（WebDAV / Google Drive / OneDrive）、上下文感知翻译与自定义样式，并针对 Twitter / X、Reddit、GitHub 等动态页面做了专门适配，支持移动端 Firefox 与 Edge。",
+      "url": "https://chromewebstore.google.com/detail/mira-translator/hmmllfdmkbmmfffjekhmmbhhfhhnocmn",
+      "homepage": "https://github.com/os9sur/MiraTranslator",
+      "type": "website",
+      "tags": [
+        "翻译工具",
+        "浏览器扩展",
+        "双语字幕",
+        "英语学习",
+        "开源"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "sourceUrl": "https://www.v2ex.com/t/1234560",
+      "firstSeen": "2026-08-15T03:55:44+00:00",
+      "lastFeaturedDate": "2026-08-15",
+      "cooldownExpiresAt": "2026-08-29T04:14:02.564990+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      },
+      "analysis": {
+        "targetAudience": "需要阅读外文网页、看 YouTube 学英语、做沉浸式外语学习的用户",
+        "useCases": [
+          "一键翻译任意网页，内置 Google / Bing 无需配置即可用",
+          "YouTube 双语字幕沉浸式学习，可导出字幕",
+          "划词加入生词本，全网自动高亮，多端加密同步",
+          "接入本地 Ollama 或免费 Key，实现零成本翻译"
+        ],
+        "designIntent": "针对「沉浸式翻译」类工具普遍较重、依赖第三方中转的问题，做一个极致轻量、数据直连、可自定义翻译模型的开源替代，并把生词收集与同步做成完整的学习闭环。",
+        "problemSolved": "现有翻译扩展要么臃肿、要么需要付费或繁琐配置；MiraTranslator 用原生 JS 做到轻量开源、开箱即用，并打通字幕、生词、多端同步的完整学习流程。",
+        "tags": [
+          "翻译工具",
+          "浏览器扩展",
+          "双语字幕",
+          "英语学习"
+        ],
+        "score": 7,
+        "scoreReason": "轻量、开源、支持多模型与本地 Ollama，YouTube 双语字幕 + 生词本闭环实用；同类竞品多，但免费开源 + 数据直连的差异化清晰。",
+        "competitors": [
+          {
+            "name": "沉浸式翻译",
+            "url": "https://immersivetranslate.com",
+            "comparison": "同类双语翻译工具，功能全面但较重，部分高级功能需订阅。"
+          },
+          {
+            "name": "划词翻译类扩展",
+            "url": "https://chromewebstore.google.com",
+            "comparison": "一般只做划词翻译，无字幕渲染与生词本闭环。"
+          },
+          {
+            "name": "DeepL",
+            "url": "https://www.deepl.com",
+            "comparison": "翻译质量高但需 Key 或付费，无浏览器双语字幕整合。"
+          }
+        ]
+      }
     }
   ],
   "tracking": {
