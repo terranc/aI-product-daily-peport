@@ -1,0 +1,323 @@
+{
+ "date": "2026-08-16",
+ "generatedAt": "2026-08-16T04:06:50.154188+00:00",
+ "productCount": 5,
+ "products": [
+  {
+   "id": "reddit.com/r/sideproject/comments/1vpkkpi/ibuiltanaithatgradesyourphysiquefrom3",
+   "name": "FlexScan — AI 体型评估健身教练",
+   "slug": "flexscan",
+   "description": "FlexScan 是一款用视觉 AI 当「私教」的健身 Web 应用：拍正、侧、背三张照片，AI 会像教练一样逐部位评估肌肉发展水平——看不清的部位会如实标注「不可见」而不是瞎编分数，然后针对薄弱环节生成 7 天训练计划与配套饮食计划，并考虑你的器械条件与伤病限制。照片不落服务器，任何手机的浏览器都能用，无需安装 App，定价低于一杯咖啡/周。",
+   "url": "https://flexscan.app",
+   "homepage": "https://flexscan.app",
+   "type": "website",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "appStoreScreenshots": [],
+   "tags": [
+    "健身",
+    "AI 体型评估",
+    "个性化训练",
+    "饮食计划",
+    "视觉 AI"
+   ],
+   "sourceChannels": [
+    "reddit"
+   ],
+   "sourceUrl": "https://www.reddit.com/r/SideProject/comments/1vpkkpi/i_built_an_ai_that_grades_your_physique_from_3/",
+   "firstSeen": "2026-08-16T02:05:05+00:00",
+   "analysis": {
+    "targetAudience": "想获得私教级个性化训练与饮食方案、但请不起真人私教的健身人群",
+    "useCases": [
+     "上传正/侧/背三张照片，AI 逐部位评估肌肉发展水平",
+     "根据薄弱环节生成 7 天训练计划（自动过滤器械与伤病限制）",
+     "生成匹配目标的饮食计划",
+     "定期复扫体型，追踪进展并调整训练方案"
+    ],
+    "designIntent": "作者受够了千篇一律的健身模板 App，想做「像教练一样诚实」的 AI 私教：只评价能看清的部位，按个人弱项而非统一模板定制方案，把个性化训练做到普通用户负担得起的价位。",
+    "problemSolved": "传统健身 App 给所有人同一套模板，无法针对个人薄弱点定制；真人私教昂贵且门槛高。FlexScan 用 3 张照片 + 视觉 AI 把「教练评估与定制」平民化，同时以「不存照片」解决隐私顾虑。",
+    "tags": [
+     "健身",
+     "AI 体型评估",
+     "个性化训练",
+     "饮食计划",
+     "视觉 AI"
+    ],
+    "score": 8,
+    "scoreReason": "把视觉 AI 用进「私教评估」这一具体场景，落地完成度高（已上线、跨设备可用、照片不上云）；「看不清就说不清」的诚实设计体现产品思考，健身细分市场差异化明显。",
+    "competitors": [
+     {
+      "name": "HyperBody",
+      "url": "https://hyperbody.fit/",
+      "comparison": "同为照片体型分析 + 训练计划，HyperBody 还支持动作视频逐帧打分；FlexScan 主打 3 张照片快速评估、无需 App。"
+     },
+     {
+      "name": "FitScan AI",
+      "url": "https://fitscanai.com/",
+      "comparison": "提供体型评分与计划生成；FlexScan 更强调教练式诚实评估与伤病/器械过滤，定价更低。"
+     },
+     {
+      "name": "Aesthetics AI",
+      "url": "https://apps.apple.com/us/app/aesthetics-ai-physique-rated/id6755647125",
+      "comparison": "iOS 端体型评分 App；FlexScan 任何手机浏览器可用且不存储照片，覆盖更广。"
+     }
+    ]
+   },
+   "screenshotUrl": "assets/screenshots/reddit.com_r_sideproject_comments_1vpkkpi_ibuiltanaithatgradesyourphysiquefrom3_20260816_120542.png"
+  },
+  {
+   "id": "x.com/mikechongzh/status/2088700934566322306",
+   "name": "ScreenKite — AI 原生 Mac 录屏剪辑工具",
+   "slug": "screenkite",
+   "description": "ScreenKite 是一款原生 macOS 录屏 + AI 剪辑工具，主打「录完让 AI 剪」：自动录音转写为文本，按转录内容智能剪辑（自动去停顿、口误与废话），AI 自动生成 B-roll 补充画面，并支持跟随鼠标/窗口的自动缩放（hyperframe），Metal 加速导出。免订阅、一次性买断，官方称比 Screen Studio 快 3 倍，已做到 $120K ARR。",
+   "url": "https://www.screenkite.com",
+   "homepage": "https://www.screenkite.com",
+   "type": "website",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "appStoreScreenshots": [],
+   "tags": [
+    "录屏",
+    "AI 剪辑",
+    "视频创作",
+    "macOS",
+    "内容创作"
+   ],
+   "sourceChannels": [
+    "twitter"
+   ],
+   "sourceUrl": "https://x.com/mike_chong_zh/status/2088700934566322306",
+   "firstSeen": "2026-08-15T18:54:43+00:00",
+   "analysis": {
+    "targetAudience": "需要录屏并快速产出可发布视频的独立开发者、教程作者与内容创作者（macOS 用户）",
+    "useCases": [
+     "录屏后 AI 按转录文本自动剪辑，去掉停顿、口误与废话",
+     "AI 自动生成 B-roll 补充画面、自动缩放跟随鼠标与窗口",
+     "免订阅一次性买断，避免按月付费的录屏工具",
+     "Metal 加速导出，快速发布教程、演示与社媒视频"
+    ],
+    "designIntent": "作者发现市面录屏工具要么功能弱、要么像 Screen Studio 一样订阅昂贵，于是打造一款原生、极速、把 AI 剪辑内建为默认工作流的 Mac 工具，让「录完即剪好」成为常态。",
+    "problemSolved": "传统录屏后要手动逐帧剪辑、加缩放动画、补 B-roll 素材，既费时又贵；ScreenKite 用 AI 转录剪辑 + B-roll 自动生成，把发布级视频的生产时间从小时级压到分钟级，且不需要订阅。",
+    "tags": [
+     "录屏",
+     "AI 剪辑",
+     "视频创作",
+     "macOS",
+     "内容创作"
+    ],
+    "score": 8,
+    "scoreReason": "$120K ARR 验证了真实市场需求，AI 转录剪辑 + B-roll 自动生成直击教程类创作者的核心痛点，免订阅定价形成差异化；小团队出品，功能深度与稳定性待持续观察。",
+    "competitors": [
+     {
+      "name": "Screen Studio",
+      "url": "https://www.screen.studio/",
+      "comparison": "同赛道头部，主打平滑缩放与鼠标跟随，按月订阅较贵；ScreenKite 免订阅 + AI 剪辑，强调更快的原生导出。"
+     },
+     {
+      "name": "Loom",
+      "url": "https://www.loom.com/",
+      "comparison": "面向团队内部协作的录屏沟通工具；ScreenKite 面向可对外发布的成品级视频生产。"
+     },
+     {
+      "name": "Descript",
+      "url": "https://www.descript.com/",
+      "comparison": "文本驱动剪辑的全能视频工具，功能重、订阅制；ScreenKite 更轻、更聚焦录屏场景。"
+     }
+    ]
+   },
+   "screenshotUrl": "assets/screenshots/x.com_mikechongzh_status_2088700934566322306_20260816_120549.png"
+  },
+  {
+   "id": "v2ex.com/t/1234727",
+   "name": "以歌 — 聊天截图生成专属回复歌曲",
+   "slug": "songreply",
+   "description": "以歌（songreply.art）是一款「用歌曲回复聊天」的创意工具：上传微信聊天截图，告诉它你想怎么回复，AI 会解析对话语境并创作一首专属回复歌曲（支持摇滚、说唱等风格），几分钟后即可生成并发给对方。作者用闲置 GPU 自搭音乐生成模型，完全免费，把「有些话说不出口」变成「唱给你听」。",
+   "url": "https://songreply.art/",
+   "homepage": "https://songreply.art/",
+   "type": "website",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "appStoreScreenshots": [],
+   "tags": [
+    "AI 音乐",
+    "聊天回复",
+    "创意社交",
+    "歌曲生成",
+    "浪漫表达"
+   ],
+   "sourceChannels": [
+    "v2ex"
+   ],
+   "sourceUrl": "https://www.v2ex.com/t/1234727",
+   "firstSeen": "2026-08-16T03:14:52+00:00",
+   "analysis": {
+    "targetAudience": "想用更有创意、更有仪式感的方式回复聊天对象的年轻人与社交分享爱好者",
+    "useCases": [
+     "上传聊天截图，把「说不出口的话」写成一首歌发给对方",
+     "情侣间纪念日、道歉、表白的创意回复",
+     "把日常聊天做成洗脑说唱/摇滚歌曲，社交平台晒作品",
+     "免费零门槛体验 AI 音乐生成"
+    ],
+    "designIntent": "作者发现文字回复常常不够表达心意，于是用闲置 GPU 搭的音乐生成模型，把「回复」这件事浪漫化、游戏化——让要说的话变成对方能反复听的歌，让沟通更有温度。",
+    "problemSolved": "想认真回复却不知怎么开口、纯文字表达力不够；以歌把「怎么回」的难题转成「唱给你听」的情感载体，同时把 AI 音乐创作的门槛降到「上传一张截图」。",
+    "tags": [
+     "AI 音乐",
+     "聊天回复",
+     "创意社交",
+     "歌曲生成",
+     "浪漫表达"
+    ],
+    "score": 7,
+    "scoreReason": "场景切入点巧妙（聊天截图→歌曲），情感价值与社交传播性强、完全免费；目前偏个人玩票性质，歌曲质量依赖自搭模型，商业化路径尚不清晰。",
+    "competitors": [
+     {
+      "name": "Suno",
+      "url": "https://suno.com/",
+      "comparison": "主流 AI 音乐生成平台，功能全面但需自行写词与提示词；以歌直接解析聊天截图、零操作生成。"
+     },
+     {
+      "name": "Udio",
+      "url": "https://www.udio.com/",
+      "comparison": "AI 音乐生成平台，面向专业创作；以歌聚焦「回复」这一具体社交场景，更轻更聚焦。"
+     },
+     {
+      "name": "Boomy",
+      "url": "https://boomy.com/",
+      "comparison": "AI 快速成歌平台；以歌的差异化在于从聊天截图直接入口、场景化更强。"
+     }
+    ]
+   },
+   "screenshotUrl": "assets/screenshots/v2ex.com_t_1234727_20260816_120557.png"
+  },
+  {
+   "id": "reddit.com/r/sideproject/comments/1vpk6rm/ibuiltafullyondevicebusinesscardscanner",
+   "name": "Cardr — 全端侧 AI 名片扫描",
+   "slug": "cardr",
+   "description": "Cardr 是一款完全在 iPhone 端处理的名片扫描 App：拍一张纸质名片，OCR 与字段提取全部在本机完成（Vision + Apple Intelligence），名片与联系人数据不上传任何服务器，无账号、无订阅、无数据收集。v2 新增批量扫描：一次连拍一叠名片，统一校对后一键导出或存入通讯录。要求 iPhone 15 Pro/16 系列（Apple Intelligence）。",
+   "url": "https://apps.apple.com/us/app/cardr-business-card-scanner/id6784471681",
+   "homepage": "https://apps.apple.com/us/app/cardr-business-card-scanner/id6784471681",
+   "type": "app",
+   "appStoreName": "Cardr: Business Card Scanner",
+   "appStoreUrl": "https://apps.apple.com/us/app/cardr-business-card-scanner/id6784471681",
+   "appStoreScreenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3b/bd/aa/3bbdaa30-aafd-1ca9-1add-9801e62607cc/05605269-0102-45BD-86A8-0B9AE721D1A4-6.5_1.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e3/3b/c9/e33bc952-d831-9d01-fc95-c0e0b66fa98b/C15F0027-4D45-4810-A5A7-254DD40FE136-6.5_2.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a8/80/d2/a880d2d5-5ead-2af7-74f8-9b352126881b/AF515ACE-3147-43B8-8841-2B439CD90F3D-6.5_3.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/aa/7d/93/aa7d93bf-fb10-9520-6ae5-9da20096f1ec/111D7A86-2385-466D-969C-AF2401A25DD9-6.5_4.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/58/4d/85/584d85da-50d2-5131-a1f8-1d9dc469f028/38E220DB-D4E5-4AAF-85B2-51F830BB788F-6.5_5.png/320x480bb.jpg"
+   ],
+   "tags": [
+    "名片扫描",
+    "端侧 AI",
+    "隐私优先",
+    "效率工具",
+    "iOS"
+   ],
+   "sourceChannels": [
+    "reddit"
+   ],
+   "sourceUrl": "https://www.reddit.com/r/SideProject/comments/1vpk6rm/i_built_a_fully_ondevice_business_card_scanner/",
+   "firstSeen": "2026-08-16T01:45:52+00:00",
+   "analysis": {
+    "targetAudience": "注重隐私、经常收到纸质名片的商务人士、销售与创业者（iPhone 15 Pro 及以上用户）",
+    "useCases": [
+     "拍一张名片一键存入 iPhone 通讯录（姓名/职位/电话/邮箱/地址全字段）",
+     "批量扫描一叠名片，统一校对后导出",
+     "商务社交场景快速录入联系人，名片数据不出手机",
+     "无网络或对数据隐私敏感环境下的名片数字化"
+    ],
+    "designIntent": "作者受够了手动敲名片，也反感传统扫描 App 把名片数据上传云端，于是用 Apple 端侧模型做出「一张照片进通讯录」的零隐私代价体验，证明纯本地方案也能把工具做得又快又干净。",
+    "problemSolved": "手动录入名片费时易错，传统扫描工具会上传数据、需要注册订阅；Cardr 用端侧 AI 把「拍→存」压成一次快门，名片与联系人永不离开手机，隐私零妥协。",
+    "tags": [
+     "名片扫描",
+     "端侧 AI",
+     "隐私优先",
+     "效率工具",
+     "iOS"
+    ],
+    "score": 8,
+    "scoreReason": "端侧 AI 定位精准命中隐私痛点，批量扫描补齐效率短板；作者 solo 开发并已获得付费用户验证。局限在仅支持 Apple Intelligence 机型，覆盖面有限。",
+    "competitors": [
+     {
+      "name": "ABBYY Business Card Reader",
+      "url": "https://apps.apple.com/us/app/business-card-reader/id898215947",
+      "comparison": "老牌名片扫描，识别能力强但依赖云端处理、订阅制；Cardr 全端侧处理、无订阅、数据不出设备。"
+     },
+     {
+      "name": "Blinq",
+      "url": "https://apps.apple.com/us/app/blinq-digital-business-card/id1324102258",
+      "comparison": "主打数字电子名片交换与分享；Cardr 聚焦把纸质名片数字化成联系人。"
+     },
+     {
+      "name": "InCard",
+      "url": "https://apps.apple.com/us/app/incard-agentic-ai-contacts/id6446074684",
+      "comparison": "AI 名片 + 联系人管理 + 销售自动化平台，功能重；Cardr 更轻、纯本地、专注单点场景。"
+     }
+    ]
+   },
+   "screenshotUrl": null
+  },
+  {
+   "id": "elevenmusic.io/sounds",
+   "name": "ElevenMusic Sounds — AI 生成的音乐循环素材库",
+   "slug": "elevenmusic-sounds",
+   "description": "ElevenMusic Sounds 是一个 AI 生成的音乐循环（loop）素材库：提供免费的免版税鼓点、吉他、贝斯、人声循环素材，均带 BPM 与调性标签，并随用户持续生成而不断增长。创作者可以免费下载使用，也可以自己生成专属循环。作为 ElevenMusic AI 音乐创作平台的一部分，它把「别人生成的好素材」变成社区共享资源。",
+   "url": "https://elevenmusic.io/sounds",
+   "homepage": "https://elevenmusic.io/sounds",
+   "type": "website",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "appStoreScreenshots": [],
+   "tags": [
+    "AI 音乐",
+    "循环素材",
+    "免版税",
+    "音乐制作",
+    "社区创作"
+   ],
+   "sourceChannels": [
+    "hackernews"
+   ],
+   "sourceUrl": "https://news.ycombinator.com/item?id=49314834",
+   "firstSeen": "2026-08-15T22:22:10+00:00",
+   "analysis": {
+    "targetAudience": "需要免版税背景音乐/循环素材的音乐制作人、视频创作者与游戏开发者",
+    "useCases": [
+     "下载带 BPM/调性标签的鼓点、吉他、贝斯、人声循环直接用于作品",
+     "快速找到与曲风匹配的循环做 beats 与伴奏",
+     "自己生成专属循环，优质作品可沉淀进公共素材库",
+     "免费商用免版税素材，省去版权与授权成本"
+    ],
+    "designIntent": "把 AI 音乐生成从「一次性产出」变成「可持续积累的公共资产」——用户生成的作品沉淀为可搜索、带规范的素材库，越多人用越丰富，形成社区飞轮。",
+    "problemSolved": "找免版税循环素材要么质量参差、要么要付费订阅；ElevenMusic Sounds 把 AI 生成的素材标准化（BPM/调性标签）并免费开放，让素材获取与创作几乎零成本。",
+    "tags": [
+     "AI 音乐",
+     "循环素材",
+     "免版税",
+     "音乐制作",
+     "社区创作"
+    ],
+    "score": 7,
+    "scoreReason": "「生成即沉淀」的素材库模式有新意，免费免版税对独立创作者友好；但素材质量取决于用户生成内容，库的规模与质量稳定性有待观察。",
+    "competitors": [
+     {
+      "name": "Splice",
+      "url": "https://splice.com/",
+      "comparison": "主流订阅制素材库，体量庞大、覆盖广；ElevenMusic Sounds 免费 + AI 生成差异化明显。"
+     },
+     {
+      "name": "Looperman",
+      "url": "https://www.looperman.com/",
+      "comparison": "免费社区循环素材站；ElevenMusic 提供 AI 生成能力与更规范的 BPM/调性标签。"
+     },
+     {
+      "name": "Suno",
+      "url": "https://suno.com/",
+      "comparison": "AI 音乐生成平台，聚焦整曲创作；ElevenMusic Sounds 聚焦可复用的循环素材与共享库。"
+     }
+    ]
+   },
+   "screenshotUrl": "assets/screenshots/elevenmusic.io_sounds_20260816_120605.png"
+  }
+ ]
+}
