@@ -1,0 +1,98 @@
+{
+  "date": "2026-08-17",
+  "generatedAt": "2026-08-17T04:24:09.972063+00:00",
+  "productCount": 1,
+  "type": "weekly",
+  "sourceDailyReport": "2026-08-14",
+  "products": [
+    {
+      "id": "news.ycombinator.com/item",
+      "name": "Hearth — 家庭共享 AI 工作区",
+      "slug": "hearth",
+      "description": "Hearth 是面向整个家庭的共享 AI 工作区：家庭计划、笔记、日程、成员与固定仪式统一放在一个实时同步的空间里（类似带 AI 助手的共享版 Obsidian）。最特别的是，AI 助手能基于家庭笔记直接编写并运行自定义小应用——预算追踪、航班监控、菜谱规划等，应用在沙箱中运行、遵循家庭设定的规则，联网和登录需显式审批。",
+      "url": "https://ourhearth.ai",
+      "type": "website",
+      "tags": [
+        "家庭",
+        "AI 助手",
+        "共享工作区",
+        "生活管理",
+        "智能家居"
+      ],
+      "metrics": {
+        "featuredInDaily": 1
+      },
+      "analysis": {
+        "targetAudience": "希望用 AI 管理全家日常事务、共享信息的家庭用户",
+        "useCases": [
+          "全家共享笔记、日程与待办，取代群聊里的截图和零散信息",
+          "让 AI 生成预算追踪、航班监控、菜谱规划等家庭小应用",
+          "为家庭设定 AI 行为规则，审批其联网与登录操作",
+          "离线可用、多设备实时同步，出差在外也能远程打理家庭事项"
+        ],
+        "designIntent": "把家庭当作一个需要共享记忆与分工协作的微型组织，用 AI 承担‘家庭助理’角色。设计上强调 AI 的边界感——应用在沙箱运行、凭据隔离、一切操作可撤销，让家庭放心把琐事交给 AI 而不失去控制权。",
+        "problemSolved": "解决家庭信息散落在群聊、备忘录、各 App 里难以统一管理的问题；同时让不具备编程能力的家庭成员也能拥有定制化的家庭小工具，由 AI 按需求即时生成并安全运行。",
+        "tags": [
+          "家庭",
+          "AI 助手",
+          "共享工作区",
+          "生活管理"
+        ],
+        "score": 9,
+        "scoreReason": "【深度调研亮点】① 首创「家庭共享工作区 + AI 编写运行自定义应用」品类：不只做日历/笔记，agent 能基于家庭笔记直接写出可交互的预算、航班监控、菜谱小应用并在沙箱中运行，把「让软件适应你」下沉到不懂编程的普通家庭；② 安全边界设计是核心差异化：应用在浏览器锁定沙箱内运行、联网与登录走家庭策略引擎逐项审批、凭据存独立 vault（agent 永远拿不到密钥）、每设备全量副本离线可用、每次变更可追溯可撤销——\"给 agent 真实触达却不交出房子\"；③ 由 Justin Tulloss（jmtulloss，Ex-Stripe/Ex-Rdio/Ex-Palm）基于自研 Playground 库构建，同一底座还支撑建筑行业产品 ConstructionBear，\"一个领域一个 Hearth\"的 vertical harness 路线清晰，公司自用 dogfood（自家公司+家庭都跑在 Hearth 上）；④ 开源路线明确：Playground 将作为库开源、Hearth 作为 demo app 开源（bearbuild GitHub 组织已建，hearth-apps 已公开 4 个 demo 应用），理念受 Software for One / Vertical AI Maximalism 启发；⑤ 定价透明：Hearth Standard $12/月含 $8 AI 额度、$5 试用额度无时限，文件永远归用户所有——\"你付的是助理的工作，不是文件访问权\"。风险提示：beta 阶段官方提示源码未审计前勿放敏感信息，HN 发布尚早（约 9 分、讨论规模小），AI 额度机制或限制重度使用家庭。",
+        "competitors": [
+          {
+            "name": "Honeydew",
+            "url": "https://www.gethoneydew.app",
+            "comparison": "27-tool AI 家庭管理 agent（$7.99/月，两代家长测评头部），主打日程/清单/家务/语音自动化，但应用形态是工具调用而非可运行的自定义应用；Hearth 让 AI 直接产出可运行的 mini-app，可编程性更强。"
+          },
+          {
+            "name": "Nori",
+            "url": "https://www.nori.app",
+            "comparison": "AI 家庭中枢（$7.99/月），共享屏 + 语音/照片/邮件喂料，偏日历/任务/饮食；Hearth 强调 agent 主动写应用与策略审批，两者对 AI 的定位不同。"
+          },
+          {
+            "name": "Ohai / AlphaMa",
+            "url": "https://www.ohai.ai",
+            "comparison": "AI 家务助理：读邮件、管日历、派家务，面向双亲家庭运营；Hearth 以「共享工作区 + 自建应用」为底座，不是消息式助理，且主打全家人 + agent 共同编辑同一空间。"
+          },
+          {
+            "name": "Concairge",
+            "url": "https://concairge.ai",
+            "comparison": "AI 家庭计划助理（$12.95/月覆盖全家），前瞻性日程/活动发现；Hearth 不止规划，还运行 agent 编写的沙箱应用，且离线优先、凭据 vault 等安全设计更深。"
+          },
+          {
+            "name": "Cozi / TimeTree / FamilyWall",
+            "url": "https://www.cozi.com",
+            "comparison": "传统家庭管理（免费/低付费）：共享日历/清单/家务，几乎无 AI；Hearth 是 AI-native 的「家庭 OS」路线，且提供可运行应用与策略层。"
+          },
+          {
+            "name": "Hearth Display (同名硬件)",
+            "url": "https://hearthdisplay.com",
+            "comparison": "同名但不同产品：$599 墙挂家庭管理触屏（纽约 2020 年创立的硬件公司），非 AI 应用平台；注意与本产品 ourhearth.ai 区分，后者是纯软件。"
+          },
+          {
+            "name": "Obsidian / Notion",
+            "url": "https://obsidian.md",
+            "comparison": "通用知识库/协作工具，AI 偏问答与插件，面向个人/团队；Hearth 是家庭场景 + AI 主动写应用并安全运行，入门门槛低。"
+          }
+        ]
+      },
+      "addedAt": "2026-08-14T04:10:43.823283+00:00",
+      "firstSeen": "2026-08-13T21:18:38+00:00",
+      "cooldownExpiresAt": "2026-08-28T04:10:43.823283+00:00",
+      "homepage": "https://ourhearth.ai",
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49292004",
+      "weeklyDeepDive": {
+        "growthData": "产品于 2026-08-13 正式发布（Bear 官方博客 + Show HN 同步上线），目前为 beta 阶段，无公开营收/用户/融资数据（未披露）。Show HN 发布当天约 8-9 分、1 条评论线程（Algolia API 实测），属早期小规模冷启动；GitHub 组织 bearbuild 已建（hearth-apps 2026-08-13 推送、playground 2026-08-06 推送、playwright-mcp 2026-07-25），三个仓库当前均 0 stars，开源推广尚未开始。官方路线图：Playground 开源为库、Hearth 开源为 demo app、用户间共享 skills/apps、开放 ConstructionBear（同底座建筑产品）——均在「coming soon」。定价：Hearth Standard $12/月（含 $8 AI 额度），新用户 $5 试用额度无时限、无强制订阅，文件免费归用户所有。",
+        "communityActivity": "HN 讨论规模尚小但质量高：jmtulloss 亲自在评论区回应 IoT 集成问题，说明「任何有 API 的设备都可通过配置带 API token 的 proxy 接入，agent 可写 app 调用设备而不接触密钥」，并已把 Home Assistant 媒体控制 demo app 公开到 github.com/bearbuild/hearth-apps（含 Google Workspace、Presentations、Travel Map、Home Assistant 四个开源 demo）。aigregator.com 已收录产品页（2026-08-14 更新，标注 freemium/Web 平台），暂无第三方评测。整体社区热度处于起步期，讨论集中在架构理念（vertical harness / Software for One）而非使用体验。",
+        "updateFrequency": "处于活跃 beta 迭代期：2026-08-13 产品上线当日即推送 hearth-apps 仓库，2026-08-06 更新 Playground 库；HN 评论中作者表示持续打磨沙箱/策略层与 demo 应用生态。官方博客规划「未来数周数月有更多发布」，包括开源、应用共享市场和 ConstructionBear 开放访问，属高频率推进状态。",
+        "marketPosition": "家庭 AI 助手赛道 2025-2026 正经历洗牌：Milo 已于 2026 关闭、Maple 被 Wander 收购并定于 2026-12-31 关停，传统玩家（Cozi/TimeTree/FamilyWall）几乎无 AI，AI 原生新秀（Honeydew、Nori、Ohai、AlphaMa、Concairge、Kinhold）多为「日历+任务+语音」式助手或邮件解析层。Hearth 以「共享工作区 + agent 编写运行自定义应用」切入，定位更接近可编程的「家庭 OS」而非单点工具，当前同赛道无直接对位竞品；其母公司 Bear 同时以同一 Playground 底座服务建筑行业（ConstructionBear，34 类施工文档 AI 生成，2026-07 开放首批 50 用户），显示跨垂直复用能力。",
+        "differentiation": "① 应用即产物：AI 不止问答，而是写出真正运行的交互式应用（预算/航班/菜谱/家庭自动化），且每个应用可沉淀为 agent 后续工具；② 家庭级安全边界：锁定沙箱 + 策略引擎逐项审批 + 凭据 vault（密钥不出库）+ 离线全量副本 + 全量可撤销编辑历史，面向「不擅长技术也要安心」的普通家庭设计；③ 明文规则、家庭自持控制权，边界可随时查看/收回；④ 开源路线 + Playground 可编程底座，理念上把「AI harness」从工程师下沉到家庭/建筑等垂直领域；⑤ 定价模式「付费买 AI 工作、不买文件访问权」，文件永归用户。"
+      }
+    }
+  ]
+}

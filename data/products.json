@@ -1,6 +1,6 @@
 {
   "version": 11,
-  "lastUpdated": "2026-08-17T04:17:23.800783+00:00",
+  "lastUpdated": "2026-08-17T04:24:09.972063+00:00",
   "products": [
     {
       "id": "producthunt.com/r/p/1198621",
@@ -24116,7 +24116,9 @@
         "智能家居"
       ],
       "metrics": {
-        "featuredInDaily": 1
+        "featuredInDaily": 1,
+        "featuredInWeekly": true,
+        "lastFeaturedDate": "2026-08-17"
       },
       "analysis": {
         "targetAudience": "希望用 AI 管理全家日常事务、共享信息的家庭用户",
