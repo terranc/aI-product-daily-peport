@@ -1,6 +1,6 @@
 {
   "version": 11,
-  "lastUpdated": "2026-08-17T04:24:09.972063+00:00",
+  "lastUpdated": "2026-08-18T04:09:47.829104+00:00",
   "products": [
     {
       "id": "producthunt.com/r/p/1198621",
@@ -25356,6 +25356,346 @@
         ]
       },
       "screenshotUrl": "assets/screenshots/reddit.com_r_sideproject_comments_1vqftos_ibuiltdoseraamedicationmanagementappfor_20260817_121457.png"
+    },
+    {
+      "id": "producthunt.com/r/p/1222442",
+      "name": "Suno Studio 2.0 — 浏览器端生成式数字音频工作站",
+      "slug": "suno-studio-2-0",
+      "description": "Suno Studio 2.0 是 Suno 推出的浏览器端生成式 DAW（数字音频工作站）：在浏览器里就能分轨生成、编排、混音 AI 音乐，把「用提示词生成整首歌」升级成「像专业宿主软件一样逐轨创作」，让没有专业软件和乐理基础的人也能获得接近专业编曲的掌控力。",
+      "url": "https://suno.com",
+      "homepage": "https://suno.com",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1222442_20260818_120717.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "音乐生成",
+        "AI 编曲",
+        "数字音频工作站",
+        "内容创作",
+        "浏览器应用"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/suno",
+      "firstSeen": "2026-08-13T20:42:41+00:00",
+      "analysis": {
+        "targetAudience": "从专业音乐人到完全不懂乐理的内容创作者、播客主与营销人",
+        "useCases": [
+          "在浏览器里直接分轨生成并编排一首完整歌曲",
+          "把已有 demo 分轨、混音成可发布的成品",
+          "快速生成配乐、片头曲、播客背景乐",
+          "用生成式工作流做风格试验与灵感探索"
+        ],
+        "designIntent": "Suno 把 AI 音乐生成从「一键出整曲」推进到「逐轨创作」——用浏览器端 DAW 的形态，让没有专业宿主软件与乐理基础的用户也能获得近似专业编曲的掌控力，把音乐制作的门槛真正降下来。",
+        "problemSolved": "解决传统 DAW 学习成本高、AI 生曲只能整段生成无法精细修改的问题，把生成式 AI 的灵活性与专业音乐制作的精细度结合起来。",
+        "tags": [
+          "音乐生成",
+          "AI 编曲",
+          "数字音频工作站",
+          "内容创作",
+          "浏览器应用"
+        ],
+        "score": 9,
+        "scoreReason": "Suno 是 AI 音乐赛道头部产品，Studio 2.0 把「生成式 DAW」概念落地，从整曲生成进化到分轨编排与混音，功能跨度大、话题度高；扣一分在于浏览器端性能与专业混音深度仍需市场验证。",
+        "competitors": [
+          {
+            "name": "Udio",
+            "url": "https://www.udio.com",
+            "comparison": "同为 AI 音乐生成头部产品，偏整曲生成，Studio 化编排能力弱于 Suno Studio 2.0"
+          },
+          {
+            "name": "Soundraw",
+            "url": "https://soundraw.io",
+            "comparison": "面向创作者的 AI 配乐工具，以素材库加参数化生成为主，缺少分轨 DAW 工作流"
+          },
+          {
+            "name": "FL Studio",
+            "url": "https://www.image-line.com",
+            "comparison": "传统专业 DAW，功能强但学习成本高、无生成式 AI 能力"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-09-01T04:09:47.829104+00:00",
+      "lastFeaturedDate": "2026-08-18",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "x.com/yetone/status/2089329138406760639",
+      "name": "Cumora — 人机同群的 AI 团队聊天工作区",
+      "slug": "cumora",
+      "description": "Cumora 是 yetone 开源的全平台「人机同群」聊天工作区：AI Agent 不是被 @ 的工具，而是聊天群里的正式成员——有独立人设、持久记忆与在线状态，能主动发起对话、互相协作认领任务、收发真实邮件，可跑在 Cumora 云上，也可用自己 Claude Code / Codex 的订阅当 Agent 大脑（BYOA）。",
+      "url": "https://cumora.ai",
+      "homepage": "https://cumora.ai",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/x.com_yetone_status_2089329138406760639_20260818_120731.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI Agent",
+        "团队协作",
+        "开源",
+        "人机协作",
+        "聊天工作区"
+      ],
+      "sourceChannels": [
+        "twitter"
+      ],
+      "sourceUrl": "https://x.com/yetone/status/2089329138406760639",
+      "firstSeen": "2026-08-17T12:30:59+00:00",
+      "analysis": {
+        "targetAudience": "深度使用 Claude Code / Codex 等 Agent、希望让多个 AI 同事协同工作的开发者与小型团队",
+        "useCases": [
+          "把多个带人设和记忆的 AI Agent 拉进同一个团队群，和人一起协作",
+          "让 Agent 主动认领任务、互相协调不冲突，跑通多步工作流",
+          "给 Agent 配置真实邮箱，让它收发邮件处理事务",
+          "用 BYOA 模式把自己的 Claude Code / Codex 订阅变成 Agent 大脑"
+        ],
+        "designIntent": "yetone 想打破「ChatGPT 式对话框」的交互范式——AI 同事应该「住进」团队而不是「来访」，像 Slack 一样有状态、有记忆、能主动发起对话，把 multi-agent 从框架问题变成产品形态问题。",
+        "problemSolved": "解决多 Agent 协作时「无记忆、被动响应、要不停 prompt」的痛点，让人与多个 Agent 在同一个工作空间里像同事一样协作。",
+        "tags": [
+          "AI Agent",
+          "团队协作",
+          "开源",
+          "人机协作",
+          "聊天工作区"
+        ],
+        "score": 8,
+        "scoreReason": "yetone（avante.nvim 作者）出品，发布即开源且 24 小时内 GitHub 超 1300 star，产品概念「人机同群」新颖、完成度高、社区热度极高；扣分在于仍处早期、功能迭代快，稳定性与生态待观察。",
+        "competitors": [
+          {
+            "name": "Slack",
+            "url": "https://slack.com",
+            "comparison": "通用团队 IM，Agent 只是插件，不是有状态、能主动发起对话的第一等成员"
+          },
+          {
+            "name": "Taskade",
+            "url": "https://www.taskade.com",
+            "comparison": "任务管理内置 AI Agent，协作深度与自由度不及 Cumora 的人机同群模式"
+          },
+          {
+            "name": "OpenHands",
+            "url": "https://github.com/All-Hands-AI/OpenHands",
+            "comparison": "Agent 框架侧重底层编排，不提供「人机同群」的产品化体验"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-09-01T04:09:47.829104+00:00",
+      "lastFeaturedDate": "2026-08-18",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "geneinspector.pro",
+      "name": "Gene Inspector Pro — 读懂你的基因数据",
+      "slug": "gene-inspector-pro",
+      "description": "Gene Inspector Pro 把原始 DNA 测序数据转化成普通人能看懂的发现清单：上传 23andMe / Ancestry 等原始数据或自测序结果，AI 帮你挖掘健康相关的基因位点、给出可深入调查的线索，而不是丢给你一堆看不懂的学术报告。",
+      "url": "https://gene-inspector.pro/",
+      "homepage": "https://gene-inspector.pro/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/geneinspector.pro_20260818_120738.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "基因解读",
+        "健康检测",
+        "AI 分析",
+        "个性化医疗",
+        "家族遗传"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49337198",
+      "firstSeen": "2026-08-17T20:31:09+00:00",
+      "analysis": {
+        "targetAudience": "做过基因检测、想自己弄清健康风险线索的普通人，以及关注家族遗传史的家庭",
+        "useCases": [
+          "上传 23andMe 等原始基因数据，快速得到可读的发现清单",
+          "结合家族多代测序数据寻找遗传线索（作者自己测了 14 位家人）",
+          "把「医生说没办法」的疑难问题转化为可调查的基因方向",
+          "研究药物代谢、运动与营养相关的基因位点"
+        ],
+        "designIntent": "作者因儿子患病、被医生告知「学着接受」，于是花七年自学遗传学与细胞生物学，用 AI 把复杂的基因组解读做成大众可用的工具，让每个家庭都有能力去「找答案」。",
+        "problemSolved": "解决基因检测报告「给了数据但普通人看不懂、医生没时间深挖」的信息断层，把原始 DNA 数据变成可行动的研究线索。",
+        "tags": [
+          "基因解读",
+          "健康检测",
+          "AI 分析",
+          "个性化医疗",
+          "家族遗传"
+        ],
+        "score": 7,
+        "scoreReason": "创始人故事动人、切入点（解读原始基因数据）切中真实痛点且市面上少见；但医疗类产品涉及数据隐私与解读准确性责任，个人项目体量小，合规与权威性待验证。",
+        "competitors": [
+          {
+            "name": "23andMe",
+            "url": "https://www.23andme.com",
+            "comparison": "消费级基因检测龙头，报告偏常规健康与娱乐，不支持深度自助挖掘"
+          },
+          {
+            "name": "Sequencing.com",
+            "url": "https://www.sequencing.com",
+            "comparison": "提供原始数据深度分析报告，偏订阅制报告而非对话式探索"
+          },
+          {
+            "name": "Promethease",
+            "url": "https://promethease.com",
+            "comparison": "老牌原始数据解读工具，但界面极客、无 AI 引导"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-09-01T04:09:47.829104+00:00",
+      "lastFeaturedDate": "2026-08-18",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "v2ex.com/t/1235170",
+      "name": "Arcavoya — 对话式 AI 塔罗牌",
+      "slug": "arcavoya",
+      "description": "Arcavoya 是一个极简的对话式 AI 塔罗牌网站：不讲玄学、主打自我疗愈与认知，用提示词约束避免过度玄学化；内置多位不同风格的塔罗师、支持多模式对话解读，原本计划做 App 因 Apple 审核被拒后转成网页版。",
+      "url": "https://arcavoya.com",
+      "homepage": "https://arcavoya.com",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/v2ex.com_t_1235170_20260818_120745.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "塔罗牌",
+        "AI 对话",
+        "自我疗愈",
+        "极简应用",
+        "娱乐"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "sourceUrl": "https://www.v2ex.com/t/1235170",
+      "firstSeen": "2026-08-18T01:04:00+00:00",
+      "analysis": {
+        "targetAudience": "对塔罗与自我探索感兴趣、想要情绪陪伴和认知梳理的年轻人（尤其小红书用户）",
+        "useCases": [
+          "在线抽牌并获得对话式解读，替代线下付费占卜",
+          "用「自我疗愈视角」的塔罗引导做情绪梳理与反思",
+          "切换不同风格的塔罗师体验多种解读角度",
+          "作为减压、娱乐与自我认知的日常小工具"
+        ],
+        "designIntent": "作者发现塔罗 App 市场饱和、Apple 审核多次不过，于是把已部署好的接口转成网页；产品刻意「不讲玄学、讲自我疗愈和认知」，用提示词约束 AI 不走向过度玄学化，整体定位极简。",
+        "problemSolved": "解决想体验塔罗但线下贵、App 又难上架的问题，提供免费、极简、以疗愈而非迷信为导向的 AI 塔罗解读。",
+        "tags": [
+          "塔罗牌",
+          "AI 对话",
+          "自我疗愈",
+          "极简应用",
+          "娱乐"
+        ],
+        "score": 7,
+        "scoreReason": "定位差异化明确（疗愈而非玄学）、有真实用户测试迭代、从 App 转网页的落地路径务实；缺点是赛道娱乐性强、留存与付费模型弱，AI 解读深度有限。",
+        "competitors": [
+          {
+            "name": "Co-Star",
+            "url": "https://www.costarastrology.com",
+            "comparison": "占星头部 App，风格冷峻、数据驱动，不含对话式 AI 解读"
+          },
+          {
+            "name": "Labyrinthos",
+            "url": "https://labyrinthos.co",
+            "comparison": "传统塔罗学习与解读工具，非 AI 对话式"
+          },
+          {
+            "name": "ChatGPT 塔罗 Prompt",
+            "url": "https://chat.openai.com",
+            "comparison": "免费但体验割裂、无产品化包装与多角色设计"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-09-01T04:09:47.829104+00:00",
+      "lastFeaturedDate": "2026-08-18",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1221852",
+      "name": "isolate.video — 把屏幕录制变成产品宣传视频",
+      "slug": "isolate-video",
+      "description": "isolate.video 是一个 AI 产品视频编辑器：把粗糙的屏幕录制自动变成有节奏、可发布的宣传视频——自动去噪、剪辑、加字幕、动画与转场，让非专业的独立开发者也能快速做出看起来专业的 SaaS 产品演示。",
+      "url": "https://isolate.video",
+      "homepage": "https://isolate.video",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1221852_20260818_120754.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "视频编辑",
+        "录屏",
+        "AI 剪辑",
+        "产品营销",
+        "独立开发"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/isolate-video",
+      "firstSeen": "2026-08-13T06:31:41+00:00",
+      "analysis": {
+        "targetAudience": "独立开发者、SaaS 创业者与营销人员——需要快速产出产品演示视频但不会专业剪辑的人",
+        "useCases": [
+          "把录屏丢进去自动生成有字幕和动效的产品演示视频",
+          "为产品主页、Product Hunt 发布、社媒帖子批量产出短视频素材",
+          "快速迭代 A/B 不同版本的宣传片",
+          "把会议录屏、培训录屏剪辑成可分享的内容"
+        ],
+        "designIntent": "产品视频是 SaaS 冷启动的刚需，但专业剪辑工具重、外包贵，作者想用 AI 把「录制到成片」压缩到几分钟，让产品团队把时间花在打磨产品而不是剪辑上。",
+        "problemSolved": "解决录屏素材「能用但不能发」的痛点——自动完成去噪、剪辑节奏、字幕与动画，把制作成本从小时级降到分钟级。",
+        "tags": [
+          "视频编辑",
+          "录屏",
+          "AI 剪辑",
+          "产品营销",
+          "独立开发"
+        ],
+        "score": 7,
+        "scoreReason": "切入「录屏到产品视频」这个独立开发者高频刚需，AI 自动化程度高、开箱即用；但赛道同类工具不少（如 Screen Studio），差异化与稳定性需进一步验证。",
+        "competitors": [
+          {
+            "name": "Screen Studio",
+            "url": "https://www.screen.studio",
+            "comparison": "录屏美化工具标杆，偏手动精细化调整，非 AI 全自动"
+          },
+          {
+            "name": "Descript",
+            "url": "https://www.descript.com",
+            "comparison": "文本剪辑视频平台，功能全面但上手门槛高"
+          },
+          {
+            "name": "Canva",
+            "url": "https://www.canva.com",
+            "comparison": "通用模板化剪辑，无录屏智能处理与自动成片"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-09-01T04:09:47.829104+00:00",
+      "lastFeaturedDate": "2026-08-18",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      }
     }
   ],
   "tracking": {
