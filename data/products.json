@@ -1,6 +1,6 @@
 {
   "version": 11,
-  "lastUpdated": "2026-08-18T04:09:47.829104+00:00",
+  "lastUpdated": "2026-08-19T04:07:35.662240+00:00",
   "products": [
     {
       "id": "producthunt.com/r/p/1198621",
@@ -25696,6 +25696,351 @@
         "featuredInDaily": 1,
         "featuredInWeekly": false
       }
+    },
+    {
+      "id": "producthunt.com/r/p/1221930",
+      "name": "Deepmark — 书签深度搜索",
+      "slug": "deepmark",
+      "description": "把浏览器、X、Instagram、YouTube 的书签变成一个可语义搜索的私人资料库：AI 会转录、描述并“阅读”每个收藏——网页全文、推文、99 种语言的音频转写、视频画面与截图描述，再加上 AI 摘要和标签。只要记得大概内容，用自然语言就能找到，并可通过 MCP 让 AI 助理直接检索你的书签库。",
+      "url": "https://usedeepmark.com",
+      "homepage": "https://usedeepmark.com",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1221930_20260819_120609.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "书签管理",
+        "语义搜索",
+        "个人知识库",
+        "AI 转写",
+        "内容管理"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/deepmark",
+      "firstSeen": "2026-08-13T01:05:11-07:00",
+      "analysis": {
+        "targetAudience": "收藏大量网页、推文、视频却总也找不到内容的重度内容消费者与研究者",
+        "useCases": [
+          "用自然语言搜索收藏夹里“大概讲过”某话题的网页、推文或视频",
+          "把收藏的播客、视频转成可搜索的逐字稿，找回说过的话",
+          "跨 99 种语言检索，英文提问也能找到中文内容",
+          "通过 MCP 让 Claude、Cursor 等 AI 助理检索并引用你的书签库",
+          "把浏览器、X、Instagram、YouTube 的收藏统一归档管理"
+        ],
+        "designIntent": "传统书签管理器只存链接和标题，收藏的东西“存了等于没存”。Deepmark 想把收藏的内容本身（文字、音频、视频、画面）全部索引起来，让找回资料像“记得”而不是“查找”，同时把个人书签库开放给 AI 助理使用。",
+        "problemSolved": "解决收藏夹越攒越多却找不到内容、以及多平台收藏分散的问题，把散落在各处的书签统一成一个可全文、可跨语言语义搜索的私人资料库。",
+        "tags": [
+          "书签管理",
+          "语义搜索",
+          "个人知识库",
+          "AI 转写",
+          "内容管理"
+        ],
+        "score": 8,
+        "scoreReason": "把 AI 转写、视觉理解融入“书签”这个最日常的场景，语义搜索体验直接且覆盖多平台，还附赠 MCP 让 AI 助理能用上个人书签库，实用价值高；扣分点在于竞品不少、需要持续打磨索引质量与隐私承诺。",
+        "competitors": [
+          {
+            "name": "Livemarks",
+            "url": "https://livemarks.io",
+            "comparison": "同样主打“书签可搜索”，侧重 X 书签与多媒体检索，高级功能 $250/年，比 Deepmark 的无层级定价贵"
+          },
+          {
+            "name": "KeenMarks",
+            "url": "https://keenmarks.com",
+            "comparison": "AI 自动打标签 + 语义搜索 + MCP，定位最接近，但深度（音视频转写与跨语言）弱于 Deepmark"
+          },
+          {
+            "name": "Raindrop.io",
+            "url": "https://raindrop.io",
+            "comparison": "主流书签管理器，管理体验好但只按标题/标签检索，没有内容级语义搜索"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-09-02T04:07:35.662240+00:00",
+      "lastFeaturedDate": "2026-08-19",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "crammed.study",
+      "name": "Crammed — 把 PDF 变成学习计划",
+      "slug": "crammed",
+      "description": "把任意 PDF（讲义、教材、论文）在几秒内变成带真实间隔重复算法的学习卡片与复习计划：上传讲课材料自动生成卡片，支持导入 Quizlet 词库，学习、排期、制卡全部免费，并按“最弱卡片优先”自动安排复习。",
+      "url": "https://crammed.study",
+      "homepage": "https://crammed.study",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/crammed.study_20260819_120618.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "学习工具",
+        "间隔重复",
+        "记忆卡片",
+        "学生工具",
+        "PDF 转卡片"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49353559",
+      "firstSeen": "2026-08-18T22:18:11Z",
+      "analysis": {
+        "targetAudience": "学生、备考者，以及需要把大量资料快速变成记忆卡片的自学者",
+        "useCases": [
+          "把课程讲义、教材 PDF 自动转成间隔重复复习卡片",
+          "导入 Quizlet 词库继续背单词、背知识点",
+          "考前冲刺按“最弱卡片优先”高效复习",
+          "把论文、技术文档拆成可记忆的知识点长期复习",
+          "生成带复习排期的完整备考计划"
+        ],
+        "designIntent": "制卡很耗时、坚持不下去是学习工具的通病。Crammed 想用 AI 把“从资料到卡片”的时间压到几秒，再用真正的间隔重复算法接管复习排期，让学习工具真正做到“会用”，而不是只提供一堆手动维护的卡片。",
+        "problemSolved": "解决制卡耗时、复习无计划的问题——AI 自动把 PDF 拆成间隔重复卡片，并根据掌握程度优先复习最弱的卡片，降低坚持成本。",
+        "tags": [
+          "学习工具",
+          "间隔重复",
+          "记忆卡片",
+          "学生工具",
+          "PDF 转卡片"
+        ],
+        "score": 8,
+        "scoreReason": "把 AI 用在学生最痛的“整理 + 记忆”环节，制卡从数小时降到几秒，且承诺学习功能永久免费；间隔重复是经过验证的学习方法，定位清晰、受众广泛，扣分点在于赛道成熟、需要靠体验和数据沉淀差异化。",
+        "competitors": [
+          {
+            "name": "Anki",
+            "url": "https://apps.ankiweb.net",
+            "comparison": "经典间隔重复软件，算法强大但需手动制卡，无 AI 一键转 PDF 能力"
+          },
+          {
+            "name": "Quizlet",
+            "url": "https://quizlet.com",
+            "comparison": "主流卡片学习平台，AI 生成能力有限，间隔重复非核心"
+          },
+          {
+            "name": "Revisely",
+            "url": "https://revisely.com",
+            "comparison": "同为 AI 制卡/学习工具，偏英国考试市场，功能面类似"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-09-02T04:07:35.662240+00:00",
+      "lastFeaturedDate": "2026-08-19",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "metapodcast.net",
+      "name": "MetaPodcast — AI 播客搜索与逐字稿",
+      "slug": "metapodcast",
+      "description": "播客搜索引擎：对全集逐字稿做全文检索，支持浏览热门分类、保存高光片段，并在 iOS/Android 上边听边读完整 AI 生成的逐字稿。已索引 13 万+ 集播客、每日更新，把“听过就丢”的播客变成可搜索的知识库。",
+      "url": "https://metapodcast.net",
+      "homepage": "https://metapodcast.net",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/metapodcast.net_20260819_120625.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "播客",
+        "逐字稿",
+        "内容搜索",
+        "AI 摘要",
+        "移动应用"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49354953",
+      "firstSeen": "2026-08-19T00:28:42Z",
+      "analysis": {
+        "targetAudience": "播客重度听众、研究者，以及想找到“某期聊过某话题”的内容消费者",
+        "useCases": [
+          "用关键词跨数万集播客搜索某个话题、观点或人名",
+          "通勤时边听边读 AI 生成的逐字稿，快速定位重点",
+          "保存某段高光的“高光片段”便于回看",
+          "按技术、科学、健康等分类浏览热门播客内容",
+          "把播客内容当作可全文检索的知识库来研究"
+        ],
+        "designIntent": "播客是“听过就丢”的内容——不能搜索、不能定位。MetaPodcast 想把播客变成可全文检索、可跳读的知识媒介，让“我记得某期讲过”变成“搜索一下就知道哪期、几分几秒”，并沉淀高质量逐字稿。",
+        "problemSolved": "解决播客内容不可搜索、不可精确定位的问题，让用户能在数十万集节目中找到想听的内容，并边听边读、保存高光。",
+        "tags": [
+          "播客",
+          "逐字稿",
+          "内容搜索",
+          "AI 摘要",
+          "移动应用"
+        ],
+        "score": 8,
+        "scoreReason": "播客全文搜索 + 逐字稿是明确刚需，产品已积累 13 万+ 集并每日更新，iOS/Android 双端覆盖，工程完成度较高；扣分点在于逐字稿质量与版权边界仍需观察。",
+        "competitors": [
+          {
+            "name": "Snipd",
+            "url": "https://www.snipd.com",
+            "comparison": "AI 播客高光与笔记工具，社区活跃，但全文跨节目搜索弱于 MetaPodcast"
+          },
+          {
+            "name": "Podwise",
+            "url": "https://podwise.ai",
+            "comparison": "AI 播客摘要/逐字稿工具，侧重单集摘要而非跨节目全文搜索"
+          },
+          {
+            "name": "Apple Podcasts / Spotify",
+            "url": "https://www.apple.com/apple-podcasts/",
+            "comparison": "内建搜索仅覆盖标题与描述，不支持逐字稿全文检索"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-09-02T04:07:35.662240+00:00",
+      "lastFeaturedDate": "2026-08-19",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "v2ex.com/t/1235541",
+      "name": "易览 AI — AI 四柱八字分析助手",
+      "slug": "ylanai",
+      "description": "由 AI 驱动的四柱八字（BaZi）分析工具：涵盖学业、事业、财富、婚姻感情、健康、家庭等 12 个分析专题，已接入微信 Bot，可以用中文自然语言对命盘连续追问，把传统命理变成可交互、可解释的分析助手。",
+      "url": "https://ylan.ai",
+      "homepage": "https://ylan.ai",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/v2ex.com_t_1235541_20260819_120634.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "四柱八字",
+        "命理",
+        "传统文化",
+        "AI 解读",
+        "微信 Bot"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "sourceUrl": "https://www.v2ex.com/t/1235541",
+      "firstSeen": "2026-08-19T03:25:22+00:00",
+      "analysis": {
+        "targetAudience": "对八字命理感兴趣、想用 AI 解读自己命盘的华语用户",
+        "useCases": [
+          "输入生辰八字生成命盘与性格、事业、财运等分析",
+          "就学业、感情、健康等 12 个专题逐一深入追问",
+          "在微信里直接和 AI 命理助手对话咨询",
+          "为家人朋友做合盘、看关系与事业匹配度",
+          "把传统文化命理知识当作可交互的知识服务体验"
+        ],
+        "designIntent": "把传统四柱八字排盘与解读结构化，用 AI 把“玄学”变成可交互、可追问的分析助手，降低普通人理解命盘的门槛，同时沉淀传统文化知识，并接入微信 Bot 贴近国内用户使用习惯。",
+        "problemSolved": "解决传统算命依赖“大师”、解读不透明、无法交互追问的问题，把八字分析变成按需、可解释、可反复咨询的数字化服务。",
+        "tags": [
+          "四柱八字",
+          "命理",
+          "传统文化",
+          "AI 解读",
+          "微信 Bot"
+        ],
+        "score": 7,
+        "scoreReason": "传统文化 + AI 的垂类产品，中文市场独特、已重构迭代并接入微信 Bot，产品完成度不错；扣分点在于命理赛道的科学性争议带来受众与合规限制，且同类竞品已较多。",
+        "competitors": [
+          {
+            "name": "观象八字",
+            "url": "https://www.ba-zi.ai",
+            "comparison": "免费 AI 八字排盘解读，基于 Gemini，重报告生成"
+          },
+          {
+            "name": "知命",
+            "url": "https://zhiming.io",
+            "comparison": "AI 八字命理与每日运势，功能相近"
+          },
+          {
+            "name": "8words.ai",
+            "url": "https://www.8words.ai",
+            "comparison": "八字排盘 + 学习路径，更偏知识教育向"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-09-02T04:07:35.662240+00:00",
+      "lastFeaturedDate": "2026-08-19",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "v2ex.com/t/1235297",
+      "name": "PortWise — 股票投研 AI Agent",
+      "slug": "portwise",
+      "description": "面向自主投资者的“个人投资运行环境”：记住你的自选股与投资逻辑，把“每周复盘组合风险”“盯财报”“监控异动”等任务变成持续运行的自动化流程，结果通过微信、飞书等 IM 通道主动推送，重要变化才来找你。",
+      "url": "https://portwise.io",
+      "homepage": "https://portwise.io",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/v2ex.com_t_1235297_20260819_120642.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "股票投资",
+        "AI Agent",
+        "实时监控",
+        "投研",
+        "IM 通知"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "sourceUrl": "https://www.v2ex.com/t/1235297",
+      "firstSeen": "2026-08-18T06:53:38+00:00",
+      "analysis": {
+        "targetAudience": "独立投资者、需要持续跟踪个股与财报行情的散户和研究员",
+        "useCases": [
+          "设定“每周复盘组合风险”“财报前检查”等定时研究任务",
+          "自选股的价格、波动、财报、新闻条件持续监控",
+          "重大异动或逻辑变化主动推送到微信、飞书",
+          "对推送结果直接追问细节，不用反复打开 App",
+          "跟踪加密资产的链上持仓与杠杆风险"
+        ],
+        "designIntent": "通用 AI 聊天一问一答就停，投资研究却是需要持续盯着的重复劳动。PortWise 想把一次提问变成持续运行的任务，让 AI 替你盯盘、按计划研究，只在重要变化时才带着证据回来找你，而不是让你每天自己刷行情。",
+        "problemSolved": "解决投资者需要每天盯盘、重复查资料却无人代劳的问题，把投研从“人工盯盘”变成“设置一次、持续运行、重要才提醒”的自动化流程。",
+        "tags": [
+          "股票投资",
+          "AI Agent",
+          "实时监控",
+          "投研",
+          "IM 通知"
+        ],
+        "score": 7,
+        "scoreReason": "“持续运行的投资 Agent + IM 推送”定位明确，已打通微信、飞书，面向中国投资者的场景很接地气；扣分点在于同类“AI 投资助手”不少，数据源质量与推送准确性需持续验证。",
+        "competitors": [
+          {
+            "name": "同花顺/问财",
+            "url": "https://www.iwencai.com",
+            "comparison": "传统行情 + AI 问答，强在数据全，但缺少持续任务与自定义监控流程"
+          },
+          {
+            "name": "FinChat",
+            "url": "https://finchat.io",
+            "comparison": "海外 AI 投研平台，数据专业但面向英文市场、无微信/飞书推送"
+          },
+          {
+            "name": "Koyfin",
+            "url": "https://www.koyfin.com",
+            "comparison": "专业投研数据平台，偏分析工具，非 Agent 式持续监控"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-09-02T04:07:35.662240+00:00",
+      "lastFeaturedDate": "2026-08-19",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      }
     }
   ],
   "tracking": {
@@ -25703,5 +26048,5 @@
     "weeklyDeepDive": [],
     "lastDailyUpdate": "2026-08-17T04:17:23.800783+00:00"
   },
-  "totalCount": 415
+  "totalCount": 425
 }
