@@ -1,0 +1,330 @@
+{
+ "date": "2026-08-20",
+ "generatedAt": "2026-08-20T04:27:00.452424+00:00",
+ "productCount": 5,
+ "products": [
+  {
+   "id": "getklo.com",
+   "name": "Klo — 说话式 AI 视频剪辑器",
+   "slug": "klo",
+   "description": "原生 macOS 视频剪辑器，用自然语言指挥 AI 完成剪辑：说「剪掉冷场」「逐字加字幕」「让节奏有回忆感」，它就会在真实时间线上执行——剪辑、调色、字幕、AI 配乐与配音、卡点剪辑，最高支持 4K 的 H.264/HEVC/ProRes 输出，素材全程不出本机。还内置 MCP 服务器，可让 Claude Code、Codex 或 Cursor 直接驱动整条时间线。免费 10 次试用，Pro 版 $30/月。",
+   "url": "https://getklo.com/",
+   "homepage": "https://getklo.com/",
+   "type": "website",
+   "tags": [
+    "AI 视频剪辑",
+    "语音驱动",
+    "本地处理",
+    "macOS",
+    "创作者工具"
+   ],
+   "sourceChannels": [
+    "hackernews"
+   ],
+   "sourceUrl": "https://news.ycombinator.com/item?id=49368915",
+   "firstSeen": "2026-08-20T00:19:00Z",
+   "analysis": {
+    "targetAudience": "有剪辑需求但不想学专业软件的内容创作者、短视频/播客博主与独立视频作者",
+    "useCases": [
+     "用一句话指令完成「剪掉冷场、加字幕、卡点」等常规剪辑动作",
+     "让 AI 自动生成配乐、配音并做卡点剪辑",
+     "通过 MCP 让 Claude Code、Cursor 等编程 Agent 直接驱动时间线",
+     "本地处理敏感素材，无需上传云端",
+     "导出 H.264/HEVC/ProRes，最高 4K 交付"
+    ],
+    "designIntent": "传统剪辑软件学习成本高，作者想把专业剪辑能力封装成 AI Agent，让「剪辑」回归语言指令本身——用户只需说出想要的效果，剩下的由 AI 在真实时间线上完成。",
+    "problemSolved": "解决普通人剪辑门槛高、专业软件操作繁琐的问题，把剪辑、调色、字幕、配乐等专业能力变成一句自然语言指令，同时通过本地处理保护素材隐私。",
+    "tags": [
+     "AI 视频剪辑",
+     "语音驱动",
+     "本地处理",
+     "macOS",
+     "创作者工具"
+    ],
+    "score": 9,
+    "scoreReason": "把 AI 剪辑能力做进「说话」这一最自然的交互，30 天迭代 40 个版本、功能闭环完整，还开放 MCP 供编程 Agent 驱动，创新性突出；扣分点在于仅限 macOS、订阅价格偏高。",
+    "competitors": [
+     {
+      "name": "剪映/CapCut",
+      "url": "https://www.capcut.com",
+      "comparison": "模板化剪辑门槛低，但缺乏语言驱动；Klo 主打「说话即剪辑」与本地私有处理"
+     },
+     {
+      "name": "Descript",
+      "url": "https://www.descript.com",
+      "comparison": "同为文本/语音驱动剪辑的代表，Klo 更聚焦 macOS 原生体验与素材不出本机"
+     },
+     {
+      "name": "Adobe Premiere Pro",
+      "url": "https://www.adobe.com/products/premiere.html",
+      "comparison": "专业但学习曲线陡峭，Klo 用 AI Agent 抹平操作复杂度"
+     }
+    ]
+   },
+   "screenshotUrl": "assets/screenshots/getklo.com_20260820_120759.png",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "appStoreScreenshots": []
+  },
+  {
+   "id": "v2ex.com/t/1235837",
+   "name": "神火 AI — AI 设计师团队",
+   "slug": "shenhuoai",
+   "description": "让 AI 生图不再是「写提示词抽卡」，而是像雇了一位设计师：平台内置不同方向的 AI 设计师，把需求、文案和参考图发过去，它会先理解 Brief、必要时追问，再给出设计方向与积分预估，确认后才出图，不满意可继续修改。支持网页、小程序和桌面客户端，也提供 Agent Skill 可在 Codex、Claude Code、Cursor 里直接调用。",
+   "url": "https://www.shenhuoai.com",
+   "homepage": "https://www.shenhuoai.com",
+   "type": "website",
+   "tags": [
+    "AI 设计",
+    "电商设计",
+    "海报生成",
+    "Agent",
+    "设计工作流"
+   ],
+   "sourceChannels": [
+    "v2ex"
+   ],
+   "sourceUrl": "https://www.v2ex.com/t/1235837",
+   "firstSeen": "2026-08-20T03:55:25+00:00",
+   "analysis": {
+    "targetAudience": "需要海报、电商主图、Banner、运营图但不想外包设计师的中小商家与运营人员",
+    "useCases": [
+     "一句话生成低糖气泡水等商品的电商主图",
+     "制作活动海报、Banner 与各类运营图片",
+     "在 Codex / Claude Code / Cursor 中通过 Agent Skill 直接发起设计任务",
+     "提交需求后由 AI 追问细节、给出设计方向与积分预估再出图"
+    ],
+    "designIntent": "作者想让 AI 生图更像「和设计师合作」而非「抽卡」——通过理解 Brief、追问、确认、修改的完整流程，把设计交付标准化，并把入口延伸到编程 Agent 里。",
+    "problemSolved": "解决 AI 生图「提示词难写、结果不可控、反复抽卡」的问题，把设计需求变成可对话、可修改的交付流程，降低中文电商/运营场景的设计成本。",
+    "tags": [
+     "AI 设计",
+     "电商设计",
+     "海报生成",
+     "Agent",
+     "设计工作流"
+    ],
+    "score": 8,
+    "scoreReason": "针对「AI 生图像抽卡」的痛点给出设计师式工作流，还打通 Agent Skill 渠道、支持网页/小程序/桌面多端，对中文电商运营场景非常实用；扣分点在于产品仍在起步阶段，出图质量稳定性需时间验证。",
+    "competitors": [
+     {
+      "name": "稿定设计",
+      "url": "https://www.gaoding.com",
+      "comparison": "模板化设计平台，神火 AI 更强调 AI 对话式、可修改的设计交付"
+     },
+     {
+      "name": "Midjourney",
+      "url": "https://www.midjourney.com",
+      "comparison": "通用生图工具但需自行调提示词，神火 AI 面向中文电商与运营场景"
+     },
+     {
+      "name": "Canva AI",
+      "url": "https://www.canva.com",
+      "comparison": "模板 + AI 生成，神火 AI 聚焦「设计师式」的多轮追问与确认交付"
+     }
+    ]
+   },
+   "screenshotUrl": "assets/screenshots/v2ex.com_t_1235837_20260820_122644.png",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "appStoreScreenshots": []
+  },
+  {
+   "id": "v2ex.com/t/1235799",
+   "name": "小分身 — 自进化 AI 写作助手",
+   "slug": "xiaofenshen",
+   "description": "会「记住你写作风格」的 AI 写作应用：根据你持续提供的文本、每日对话和公众号文章数据表现，沉淀出独特写作风格与专属记忆；自动定时抓取热点、挖掘选题灵感并搜索真实资料来源，再按你的风格成文。内置 AI 写作编辑器，支持 Agent 对话式生成、精细化润色、搜图插图，已打通公众号大部分功能。",
+   "url": "https://xiaofenshen.com",
+   "homepage": "https://xiaofenshen.com",
+   "type": "website",
+   "tags": [
+    "AI 写作",
+    "风格模仿",
+    "公众号",
+    "热点追踪",
+    "内容创作"
+   ],
+   "sourceChannels": [
+    "v2ex"
+   ],
+   "sourceUrl": "https://www.v2ex.com/t/1235799",
+   "firstSeen": "2026-08-20T02:46:59+00:00",
+   "analysis": {
+    "targetAudience": "公众号、自媒体等需要高频产出、又希望保持个人文风的内容创作者",
+    "useCases": [
+     "让 AI 按你的既有文风自动起草公众号文章",
+     "自动抓热点、挖选题并搜索真实资料支撑写作",
+     "对话式生成 + 精细润色、搜图插图一体化编辑",
+     "长期使用沉淀文章、图片、对话、阅读数据，让 AI 越来越懂你"
+    ],
+    "designIntent": "通用 AI 写作输出千篇一律，作者想做一个「自进化」的写作分身——通过持续学习用户的文本与数据表现，让 AI 真正复刻并长期保持用户的个人风格，形成资产复利。",
+    "problemSolved": "解决 AI 写作「风格千篇一律、不了解作者」的问题，让 AI 学会个人文风并可持续产出，同时沉淀创作者的数字资产、打通公众号发布链路。",
+    "tags": [
+     "AI 写作",
+     "风格模仿",
+     "公众号",
+     "热点追踪",
+     "内容创作"
+    ],
+    "score": 8,
+    "scoreReason": "「记住写作风格 + 热点追踪 + 公众号打通」直接命中中文自媒体高频痛点，风格复刻与资产沉淀有差异化；扣分点在于文风模仿的稳定性和原创性边界需要长期验证。",
+    "competitors": [
+     {
+      "name": "秘塔写作猫",
+      "url": "https://xiezuocat.com",
+      "comparison": "偏润色与校对，小分身更强调个人风格记忆与热点选题追踪"
+     },
+     {
+      "name": "Notion AI",
+      "url": "https://www.notion.com",
+      "comparison": "通用 AI 写作，不针对公众号场景与个人风格复刻"
+     },
+     {
+      "name": "火山写作",
+      "url": "https://www.writingo.net",
+      "comparison": "中文写作助手，小分身更聚焦「风格自进化 + 公众号打通」"
+     }
+    ]
+   },
+   "screenshotUrl": "assets/screenshots/v2ex.com_t_1235799_20260820_122644.png",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "appStoreScreenshots": []
+  },
+  {
+   "id": "producthunt.com/r/p/1226370",
+   "name": "Vois — AI 语音工作室",
+   "slug": "vois",
+   "description": "被称为「ElevenLabs 平替」的 AI 语音生成工作室：100+ 音色、600+ 语言与口音，按角色而非按字符计费，宣称无限生成；面向播客、游戏、短视频创作者，可快速把文本转成自然语音、克隆音色并做音频后期，还有 iOS 端随时创作。2026 年 8 月以 2.0 版本上线 Product Hunt，$10/月起、首发价终身锁定。",
+   "url": "https://vois.so/",
+   "homepage": "https://vois.so/",
+   "type": "app",
+   "tags": [
+    "AI 语音",
+    "TTS",
+    "音色克隆",
+    "播客",
+    "创作者工具"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/vois-2-0",
+   "firstSeen": "2026-08-18T20:48:11-07:00",
+   "analysis": {
+    "targetAudience": "需要大量配音的播客主、游戏玩家、短视频与有声内容创作者",
+    "useCases": [
+     "用 600+ 语言口音快速生成配音",
+     "克隆自己的音色做个性化有声内容",
+     "为播客、短视频批量生成语音素材",
+     "在 iOS 端随时录制、转换与后期处理音频"
+    ],
+    "designIntent": "ElevenLabs 按字符计费成本高企，作者想用「订阅不限量」的定价和丰富音色库，把专业级 AI 语音生成变成创作者随手可用的工具。",
+    "problemSolved": "解决 AI 配音「按量计费贵、音色选择少、流程复杂」的问题，以固定订阅 + 大量音色 + 移动端覆盖日常配音需求。",
+    "tags": [
+     "AI 语音",
+     "TTS",
+     "音色克隆",
+     "播客",
+     "创作者工具"
+    ],
+    "score": 8,
+    "scoreReason": "用「无限生成 + 首发低价」正面切入 ElevenLabs 的收费痛点，音色与语言覆盖广且有 iOS 端，对内容创作者吸引力强；扣分点在于与头部竞品在音质与生态上的差距需要实测验证。",
+    "competitors": [
+     {
+      "name": "ElevenLabs",
+      "url": "https://elevenlabs.io",
+      "comparison": "行业标杆但按字符计费较贵，Vois 主打订阅不限量"
+     },
+     {
+      "name": "Murf AI",
+      "url": "https://murf.ai",
+      "comparison": "成熟配音平台，Vois 更强调性价比与移动端体验"
+     },
+     {
+      "name": "PlayHT",
+      "url": "https://play.ht",
+      "comparison": "AI 语音生成服务，Vois 以按角色订阅与 App 端差异化"
+     }
+    ]
+   },
+   "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1226370_20260820_120958.png",
+   "appStoreName": "VOIS - AI Voice Studio Pro",
+   "appStoreUrl": "https://apps.apple.com/us/app/vois-ai-voice-studio-pro/id6744572349",
+   "appStoreScreenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/59/be/5a/59be5a8b-a6a4-0b65-4ecf-adb05dcdbe4e/Slide_A.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/50/2e/65/502e6579-45b2-f364-b007-21e876f26841/Slide_B.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/84/66/bf/8466bf87-8afc-aac6-3c10-64f07597ee48/Slide_C.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7d/7c/bc/7d7cbc9a-1221-4033-0c09-5658f41f9d2d/Slide_D.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a5/a1/8d/a5a18d17-d2d8-c23c-82b7-3834aeee7fac/Slide_E.png/320x480bb.jpg"
+   ]
+  },
+  {
+   "id": "producthunt.com/r/p/1221280",
+   "name": "monolog — 聊天式个人记忆库",
+   "slug": "monolog",
+   "description": "一款「和自己聊天」的 AI 记忆应用：不用先想好标题和分类，像发消息一样随手记下想法，AI 会记住一切，之后靠「我记得说过什么」就能找回。笔记支持双向链接、层级标签、间隔复习和统计视图，数据存在 iCloud、注重隐私，覆盖 iOS 与 Android。",
+   "url": "https://getmonolog.app/en/",
+   "homepage": "https://getmonolog.app/en/",
+   "type": "app",
+   "tags": [
+    "AI 记忆",
+    "第二大脑",
+    "笔记应用",
+    "个人知识库",
+    "随手记录"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/monolog-2",
+   "firstSeen": "2026-08-12T04:57:23-07:00",
+   "analysis": {
+    "targetAudience": "追求低门槛记录、希望 AI 帮忙找回过往想法与知识的个人知识管理爱好者",
+    "useCases": [
+     "不设标题分类，随手以对话方式记录想法",
+     "用「我记得…」式自然语言检索过去的笔记与想法",
+     "双向链接 + 层级标签编织个人知识网络",
+     "间隔复习巩固学习内容，统计视图复盘知识积累"
+    ],
+    "designIntent": "传统笔记 App 强迫先分类再记录，作者想消除「记录前的仪式感」，用聊天的方式零负担捕捉想法，再靠 AI 记忆与链接机制帮用户日后找回。",
+    "problemSolved": "解决「想记却嫌麻烦、记了找不到」的双重痛点，把记录门槛降到聊天级别，再用 AI 记忆和双向链接提升检索与复用效率。",
+    "tags": [
+     "AI 记忆",
+     "第二大脑",
+     "笔记应用",
+     "个人知识库",
+     "随手记录"
+    ],
+    "score": 7,
+    "scoreReason": "「聊天式零门槛记录 + AI 记忆检索」切中笔记类产品的经典痛点，双向链接与间隔复习功能完整、隐私友好；扣分点在于 AI 记忆检索的准确性待验证，且第二大脑赛道竞争激烈。",
+    "competitors": [
+     {
+      "name": "Notion",
+      "url": "https://www.notion.com",
+      "comparison": "功能强大的通用笔记，monolog 以零门槛聊天式记录与 AI 记忆差异化"
+     },
+     {
+      "name": "Obsidian",
+      "url": "https://obsidian.md",
+      "comparison": "双向链接鼻祖，monolog 更强调 AI 记忆与移动端体验"
+     },
+     {
+      "name": "Rewind",
+      "url": "https://www.rewind.ai",
+      "comparison": "全量记录型 AI 记忆产品，monolog 聚焦主动记录与知识管理"
+     }
+    ]
+   },
+   "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1221280_20260820_121006.png",
+   "appStoreName": "monolog - Your Second Brain",
+   "appStoreUrl": "https://apps.apple.com/us/app/monolog-your-second-brain/id6751247984",
+   "appStoreScreenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c7/ad/a5/c7ada5b6-f44d-a648-f1d7-063ce2c6c63e/Slide1.jpg/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/21/0d/46/210d4652-b011-ba01-dd2d-c884cc3aacaa/Slide2.jpg/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bd/41/5a/bd415ab9-d082-e9b7-8685-1fd5600ade7f/Slide3.jpg/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/87/69/3b/87693bb2-adbb-2b1b-8c84-250c1b43fa6f/Slide4.jpg/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/84/e9/04/84e9047b-b05f-2bce-bc50-8fe5ed724f22/Slide5.jpg/320x480bb.jpg"
+   ]
+  }
+ ]
+}
