@@ -1,6 +1,6 @@
 {
  "version": 11,
- "lastUpdated": "2026-08-20T04:27:00.452424+00:00",
+ "lastUpdated": "2026-08-21T04:13:16.816074+00:00",
  "products": [
   {
    "id": "producthunt.com/r/p/1198621",
@@ -26389,6 +26389,375 @@
     "featuredInDaily": 1,
     "lastFeaturedDate": "2026-08-20"
    }
+  },
+  {
+   "id": "producthunt.com/r/p/1226404",
+   "name": "Revy — AI 时尚衣橱助手",
+   "slug": "revy",
+   "description": "把整个衣橱数字化：拍照自动抠图建档，AI 根据场合、天气与风格推荐穿搭，还能把心仪穿搭挂上联盟链接变现。倡导「穿已有的，买缺的」，减少冲动消费。",
+   "url": "https://getrevy.app/",
+   "homepage": "https://getrevy.app/",
+   "type": "app",
+   "tags": [
+    "时尚穿搭",
+    "AI 搭配",
+    "虚拟衣橱",
+    "可持续时尚",
+    "生活方式"
+   ],
+   "metrics": {
+    "featuredInDaily": 1,
+    "lastFeaturedDate": "2026-08-21"
+   },
+   "analysis": {
+    "targetAudience": "想每天穿得体面又不想乱买、关注可持续时尚的年轻消费者",
+    "useCases": [
+     "把衣橱里所有衣物拍照数字化，自动抠图、分类、归档",
+     "用一句话描述场合与心情，让 AI 推荐当天穿搭",
+     "按晚宴、约会、面试等场景快速搭配成套",
+     "上传喜欢的穿搭图，用现有衣物 AI 复刻同款",
+     "创作者把穿搭挂联盟链接，从每笔成交赚佣金"
+    ],
+    "designIntent": "创始人自己每天面对满柜子衣服却总穿那几件，想把「看见全部衣物」这件事做成产品：把衣橱数字化交给 AI 管理，让穿搭决策从「翻衣柜纠结」变成「一句话出方案」，同时引导用户少买多用、减轻时尚业的环境负担。",
+    "problemSolved": "解决「衣橱里全是衣服却不知道穿什么」的日常痛点——数字衣橱 + AI 场景化推荐让出门搭配只需 30 秒；并通过「先穿已有的」降低冲动消费，兼顾环保叙事。",
+    "tags": [
+     "时尚穿搭",
+     "AI 搭配",
+     "虚拟衣橱",
+     "可持续时尚",
+     "生活方式"
+    ],
+    "score": 8,
+    "scoreReason": "切入点是真实高频的生活场景（每天穿什么），AI 抠图建档+场景化推荐落地清晰，App Store 已上架、免费+订阅模式成熟；竞品多（LTK、ShopMy）但「先衣橱后购物」的定位有差异化，扣分在差异化深度仍需观察。",
+    "competitors": [
+     {
+      "name": "LTK",
+      "url": "https://www.shopltk.com",
+      "comparison": "侧重博主变现与导购，Revy 从自有衣橱出发再谈购物，路径相反"
+     },
+     {
+      "name": "ShopMy",
+      "url": "https://shopmy.com",
+      "comparison": "创作者联盟营销工具，Revy 把联盟链接直接挂在穿搭上更轻量"
+     },
+     {
+      "name": "Stylebook",
+      "url": "https://www.stylebookapp.com",
+      "comparison": "传统虚拟衣橱应用，缺少 AI 场景化推荐与变现能力"
+     }
+    ]
+   },
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/revy-the-fashion-app",
+   "firstSeen": "2026-08-19T05:03:32+00:00",
+   "addedAt": "2026-08-21T04:13:16.816074+00:00",
+   "cooldownExpiresAt": "2026-09-04T04:13:16.816074+00:00",
+   "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1226404_20260821_120923.png",
+   "appStoreName": "Revy: The Fashion App",
+   "appStoreUrl": "https://apps.apple.com/us/app/revy-the-fashion-app/id6670368779?uo=4",
+   "appStoreScreenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3c/92/c0/3c92c062-2842-3d41-02ac-f8f5aac450f4/Digitize.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/96/1f/c3/961fc3f8-d68d-73a5-9a81-1863c2129529/2.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/81/4c/eb/814ceb5c-a5aa-c7e1-e2fa-c397100b83ee/3.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d2/e1/1c/d2e11c8b-5d2d-3a36-74df-5fa1747ec78a/4.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/96/fa/4a/96fa4a16-4456-2b12-b99c-fc23dba16704/5.png/320x480bb.jpg"
+   ]
+  },
+  {
+   "id": "producthunt.com/r/p/1227258",
+   "name": "Lifelong — 全家健康档案管家",
+   "slug": "lifelong",
+   "description": "把全家人的健康记录、用药、症状、就诊与穿戴数据收进一个私密空间，每人一份独立健康档案，AI 助手 Alo 帮你串起整个家庭的健康脉络，异地也能共同照护。",
+   "url": "https://trylifelong.com/",
+   "homepage": "https://trylifelong.com/",
+   "type": "app",
+   "tags": [
+    "家庭健康",
+    "健康管理",
+    "照护",
+    "AI 助手",
+    "隐私"
+   ],
+   "metrics": {
+    "featuredInDaily": 1,
+    "lastFeaturedDate": "2026-08-21"
+   },
+   "analysis": {
+    "targetAudience": "需要照料老人、孩子健康，或与异地家人共同照护的家庭照护者",
+    "useCases": [
+     "记录每个家庭成员的用药、症状、就诊与体检记录",
+     "就医前整理问题清单，诊后保存诊疗记录与随访计划",
+     "连接 Apple Health / Apple Watch / Oura，看睡眠、心率、恢复趋势",
+     "向 AI 助手 Alo 询问某个症状、用药变化或长期趋势",
+     "异地照护父母：全家共享一份健康档案，随时掌握动态"
+    ],
+    "designIntent": "健康往往散落在不同的人和不同时刻——一句「有点不舒服」、一次换药、一个待复查的结果。Lifelong 想给家庭一个平静的私人空间把这些故事串起来，让每个成员的健康信息归属清晰，也让异地照护成为可能。",
+    "problemSolved": "解决家庭健康信息碎片化与照护者信息过载：把散落在群聊、纸质记录与记忆里的健康信息统一管理，AI 在需要时把相关上下文一次讲清，减少遗漏与重复沟通。",
+    "tags": [
+     "家庭健康",
+     "健康管理",
+     "照护",
+     "AI 助手",
+     "隐私"
+    ],
+    "score": 8,
+    "scoreReason": "家庭健康管理是被反复验证的真需求，AI 助手结合全家健康上下文的问答有实际价值；按人分空间、数据加密、不卖数据的隐私设计到位。赛道竞品密集，最终胜负取决于家庭协作体验与执行力。",
+    "competitors": [
+     {
+      "name": "HealthTimeline",
+      "url": "https://healthtimeline.ai",
+      "comparison": "个人+家庭健康时间线，AI 总结能力接近，强调疫苗与 iCloud 私有同步"
+     },
+     {
+      "name": "Family Vitals",
+      "url": "https://www.familyvitals.com",
+      "comparison": "全家+宠物的健康记录与 AI 提醒，支持最多 10 人一个订阅"
+     },
+     {
+      "name": "Mediphant",
+      "url": "https://mediphant.ai",
+      "comparison": "强调家庭照护圈共享与 AI 助手，Lifelong 更侧重个人档案与穿戴数据联动"
+     }
+    ]
+   },
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/lifelong-the-family-health-company",
+   "firstSeen": "2026-08-20T03:03:33+00:00",
+   "addedAt": "2026-08-21T04:13:16.816074+00:00",
+   "cooldownExpiresAt": "2026-09-04T04:13:16.816074+00:00",
+   "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1227258_20260821_120932.png",
+   "appStoreName": "Lifelong - Family Health",
+   "appStoreUrl": "https://apps.apple.com/us/app/lifelong-family-health/id6758003611?uo=4",
+   "appStoreScreenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/47/c0/8a/47c08a99-053c-d2e7-5b53-27e18ce03639/screenshot-1.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/99/50/16/99501618-f5f5-84cb-e73c-295e26e6b1a1/screenshot-2.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ae/5f/8f/ae5f8fcf-1973-bcbb-1364-441fb6f07d1c/screenshot-3.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b7/bf/0e/b7bf0e61-1d12-f37e-53bd-87285e857a0b/screenshot-4.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e4/34/7b/e4347bab-c724-bbbb-ad6a-1735d249f363/screenshot-5.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/09/0b/06/090b0622-c7fb-0b47-56ed-9a95e48d957a/screenshot-6.png/320x480bb.jpg"
+   ]
+  },
+  {
+   "id": "producthunt.com/r/p/1215949",
+   "name": "HyNote for Mac — 本地私密 AI 笔记转录",
+   "slug": "hynote",
+   "description": "Mac 上的系统级录音 + 实时转录 + AI 摘要笔记应用：录制任意 App 的会议音频，全程本地处理、隐私 100% 不外泄，无需机器人进会，自动生成结构化摘要与待办。",
+   "url": "https://hynote.ai/",
+   "homepage": "https://hynote.ai/",
+   "type": "app",
+   "tags": [
+    "AI 笔记",
+    "会议转录",
+    "本地隐私",
+    "语音转文字",
+    "效率工具"
+   ],
+   "metrics": {
+    "featuredInDaily": 1,
+    "lastFeaturedDate": "2026-08-21"
+   },
+   "analysis": {
+    "targetAudience": "高频开会的职场人、学生与课程/播客学习者，尤其注重录音隐私的用户",
+    "useCases": [
+     "录制 Zoom/Meet/Teams 等任意 Mac 应用音频，实时转文字",
+     "自动生成结构化摘要、关键要点与待办事项",
+     "线下会议、访谈离线录音，回网后再转写",
+     "把 PDF、视频、网页链接导入生成笔记摘要",
+     "Apple Watch 随手录灵感，Mac/iPhone/网页多端同步"
+    ],
+    "designIntent": "传统会议记录要么需要机器人进会打扰流程、要么把音频上传云端。HyNote 想在 Mac 上做到「系统级录音 + 本地处理」，既不用机器人打扰会议，又守住隐私底线，让 AI 笔记成为日常标配而非可选项。",
+    "problemSolved": "解决会议/课堂记录繁琐与隐私顾虑：无需邀请机器人、无需上传云端，即可获得实时转写、发言人标注、结构化摘要与待办，录音与转写数据保留在本地。",
+    "tags": [
+     "AI 笔记",
+     "会议转录",
+     "本地隐私",
+     "语音转文字",
+     "效率工具"
+    ],
+    "score": 8,
+    "scoreReason": "「本地转录 100% 私有」是当下 AI 录音工具稀缺且有真实差异化的卖点，系统级录音体验完整（实时转写、发言人识别、跨设备同步）。同类竞品多，隐私定位能否撑住取决于长期口碑。",
+    "competitors": [
+     {
+      "name": "Otter.ai",
+      "url": "https://otter.ai",
+      "comparison": "会议转录老牌但走云端处理，HyNote 主打本地私有不出设备"
+     },
+     {
+      "name": "LocalScribe",
+      "url": "https://localscribe.app",
+      "comparison": "同为本地转录，但仅支持 macOS 15 + Apple Silicon，HyNote 覆盖面更广"
+     },
+     {
+      "name": "Granola",
+      "url": "https://www.granola.ai",
+      "comparison": "AI 会议笔记，需接入日历与会议工具，HyNote 直接系统级录音更省事"
+     }
+    ]
+   },
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/hynote-ai",
+   "firstSeen": "2026-08-05T18:15:57+00:00",
+   "addedAt": "2026-08-21T04:13:16.816074+00:00",
+   "cooldownExpiresAt": "2026-09-04T04:13:16.816074+00:00",
+   "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1215949_20260821_120942.png",
+   "appStoreName": "HyNote: AI Note Taker, Summary",
+   "appStoreUrl": "https://apps.apple.com/us/app/hynote-ai-note-taker-summary/id6478655348?uo=4",
+   "appStoreScreenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/11/ab/6f/11ab6f18-96f5-4855-3a74-abe0f7945d1a/6.9-1.jpg/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c0/5b/db/c05bdb00-2f07-41af-67c8-7e2e0e814590/6.9-2.jpg/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c1/d0/4a/c1d04a3c-b4ff-2634-22e5-fbbf327d870c/6.9-3.jpg/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/70/77/ca/7077caea-5f15-f5c6-1ffc-cdfdb24a21a8/6.9-4.jpg/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/62/de/a3/62dea30a-4d7d-36ff-40a6-215105eeb238/6.9-6.jpg/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7d/e3/a1/7de3a14c-f114-f223-d39d-c731a584c99b/6.9-5.jpg/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/14/f1/9b/14f19b1b-a00b-bf4f-5392-1676a77adbcd/6.9-8.jpg/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b2/59/17/b259170d-d439-2e28-7be5-e0b883d98d36/6.9-7.jpg/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5f/b4/68/5fb468bf-f8ed-c4ab-60b2-6835c9eab1ec/6.9-11.jpg/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b8/cb/6d/b8cb6df7-48ec-dc9e-5e1c-94f3931a04bb/6.9-10.jpg/320x480bb.jpg"
+   ]
+  },
+  {
+   "id": "producthunt.com/r/p/1225484",
+   "name": "Dates by Agenda Hero — AI 日程魔法助手",
+   "slug": "dates-by-agenda-hero",
+   "description": "把 PDF、图片、截图或一段文字丢进去，AI 自动解析出日期、时间、地点并一键写入日历；还能把一份日程同步发布为网页、可打印 PDF 和可订阅链接，改一次处处生效。",
+   "url": "https://agendahero.com/",
+   "homepage": "https://agendahero.com/",
+   "type": "website",
+   "tags": [
+    "日历管理",
+    "AI 解析",
+    "日程共享",
+    "OCR",
+    "效率工具"
+   ],
+   "metrics": {
+    "featuredInDaily": 1,
+    "lastFeaturedDate": "2026-08-21"
+   },
+   "analysis": {
+    "targetAudience": "需要频繁处理校历、球队赛程、活动海报等纸质/图片通知的家长、教师、教练与社群组织者",
+    "useCases": [
+     "把学校或球队的 PDF 日历拖进去，AI 一键转成日历事件",
+     "手机拍一张活动海报或手写便签，自动提取时间与地点",
+     "创建一份共享日程，网页 / PDF / iCal 订阅三种格式同步发布",
+     "聚合多个外部日历，按分类隐藏不需要的事件",
+     "家庭、球队、社群共用一份「任何东西的日程」，更新一次全员同步"
+    ],
+    "designIntent": "把日期从各种文档（PDF、图片、邮件、手写）搬进日历是最繁琐的重复劳动，分发共享又常常被各平台生态割裂。Agenda Hero 用 AI 做「魔法解析器」解决录入，再用多格式同步发布解决分发，让「创建一份计划、分享给所有人」变简单。",
+    "problemSolved": "解决日程录入与分发的双重痛点：AI 从非结构化文本/图片中提取日历事件省去手工录入；一份源日程同时产出网页、打印版与订阅链接，更新一次处处生效，不再各平台各抄一份。",
+    "tags": [
+     "日历管理",
+     "AI 解析",
+     "日程共享",
+     "OCR",
+     "效率工具"
+    ],
+    "score": 7,
+    "scoreReason": "AI 解析文本/图片到日历是实用且相对小众的切入点，多格式发布（网页+PDF+iCal）确实解决真实分发痛点，App 与网页端均已上线；相比 Google 日历是补充而非替代，创新度中等偏上，扣分在功能聚焦度尚可进一步提升。",
+    "competitors": [
+     {
+      "name": "Fantastical",
+      "url": "https://flexibits.com/fantastical",
+      "comparison": "自然语言建事件很顺手，但偏个人日历体验，缺批量文档解析与多格式发布"
+     },
+     {
+      "name": "Google Calendar",
+      "url": "https://calendar.google.com",
+      "comparison": "原生日历生态强，缺 AI 批量解析与面向大众的共享日程发布"
+     },
+     {
+      "name": "Calendly",
+      "url": "https://calendly.com",
+      "comparison": "专注会议约档，不处理文档解析与共享日程分发"
+     }
+    ]
+   },
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/dates-by-agenda-hero",
+   "firstSeen": "2026-08-18T02:30:22+00:00",
+   "addedAt": "2026-08-21T04:13:16.816074+00:00",
+   "cooldownExpiresAt": "2026-09-04T04:13:16.816074+00:00",
+   "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1225484_20260821_120949.png",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "appStoreScreenshots": []
+  },
+  {
+   "id": "producthunt.com/r/p/1181417",
+   "name": "Antibot — 会主动热场的 AI 社区管家",
+   "slug": "antibot",
+   "description": "Discord 上的 AI 社区运营官：记住每位成员的兴趣与梗，群冷场时主动发起话题；用大白话指挥它建投票、整理频道、做每日回顾，还能自定义名字与性格。",
+   "url": "https://antibot.techieslab.app/",
+   "homepage": "https://antibot.techieslab.app/",
+   "type": "website",
+   "tags": [
+    "社区运营",
+    "Discord 机器人",
+    "AI 对话",
+    "社群管理",
+    "自动化"
+   ],
+   "metrics": {
+    "featuredInDaily": 1,
+    "lastFeaturedDate": "2026-08-21"
+   },
+   "analysis": {
+    "targetAudience": "Discord 服务器主理人、游戏/创作者/项目社区的运营者与版主",
+    "useCases": [
+     "群聊冷场时自动发起与成员兴趣相关的话题",
+     "用自然语言（不用斜杠命令）让它建投票、管理频道、做每日回顾",
+     "记住成员兴趣与内部梗，自然地跟进与互动",
+     "自动把长对话拆成线程、汇总每日要点、标记违规成员",
+     "三步定制 bot 的名字、头像与性格，适配服务器调性"
+    ],
+    "designIntent": "社区主理人最大的痛是「群凉了」——没时间天天手动热场。Antibot 想做一个有记忆、会主动开话题的 AI 社区运营官，把被动指令式 bot 变成主动的「气氛担当」，并用成员众筹的 token 池分摊运营成本。",
+    "problemSolved": "解决 Discord 社区冷启动与主理人 burnout：AI 主动发起对话、记住成员兴趣、自动整理与基础管理，让社区保持活跃；社区众筹 token 模式也降低了运营者的订阅负担。",
+    "tags": [
+     "社区运营",
+     "Discord 机器人",
+     "AI 对话",
+     "社群管理",
+     "自动化"
+    ],
+    "score": 7,
+    "scoreReason": "「会主动热场 + 记住兴趣」的 AI 社区管理定位新鲜有趣，自然语言指挥与无斜杠命令的设计对小白友好，社区众筹 token 池的变现思路有创意；目前仅限 Discord 且是 2026 新项目，长线效果待观察。",
+    "competitors": [
+     {
+      "name": "MEE6",
+      "url": "https://mee6.xyz",
+      "comparison": "传统命令式 Discord 管理机器人，无主动 AI 对话与记忆"
+     },
+     {
+      "name": "Carl-bot",
+      "url": "https://carl.gg",
+      "comparison": "偏提醒、记录等管理功能，非 AI 对话型"
+     },
+     {
+      "name": "Babble",
+      "url": "https://www.babble.audio",
+      "comparison": "面向社区的 AI 聊天伙伴，更偏娱乐陪聊而非社区运营"
+     }
+    ]
+   },
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/antibot",
+   "firstSeen": "2026-06-26T07:19:53+00:00",
+   "addedAt": "2026-08-21T04:13:16.816074+00:00",
+   "cooldownExpiresAt": "2026-09-04T04:13:16.816074+00:00",
+   "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1181417_20260821_120957.png",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "appStoreScreenshots": []
   }
  ],
  "tracking": {
@@ -26396,5 +26765,5 @@
   "weeklyDeepDive": [],
   "lastDailyUpdate": "2026-08-17T04:17:23.800783+00:00"
  },
- "totalCount": 425
+ "totalCount": 435
 }
