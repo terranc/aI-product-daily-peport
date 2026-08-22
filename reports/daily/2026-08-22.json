@@ -1,0 +1,323 @@
+{
+ "date": "2026-08-22",
+ "generatedAt": "2026-08-22T04:11:18.338007+00:00",
+ "productCount": 5,
+ "products": [
+  {
+   "id": "apps.apple.com/us/app/echovaultdigitallegacy/id6762042028",
+   "name": "EchoVault — 数字遗产 AI 分身",
+   "slug": "echovault",
+   "description": "趁你还在世，录制自己的真实故事与声音，训练一个「像你一样说话」的 AI Echo；离开后，家人可以随时向它提问、听它用你的声音讲述你的经历，把数字版自己留给亲人。",
+   "url": "https://apps.apple.com/us/app/echovault-digital-legacy/id6762042028",
+   "homepage": "https://apps.apple.com/us/app/echovault-digital-legacy/id6762042028",
+   "type": "app",
+   "tags": [
+    "数字遗产",
+    "AI 语音分身",
+    "情感陪伴",
+    "记忆留存",
+    "人生故事"
+   ],
+   "sourceChannels": [
+    "hackernews"
+   ],
+   "sourceUrl": "https://news.ycombinator.com/item?id=49395297",
+   "firstSeen": "2026-08-22T00:14:49+00:00",
+   "analysis": {
+    "targetAudience": "希望把人生故事、声音与想法留给家人，认真思考生命终点议题的普通人",
+    "useCases": [
+     "生前分批录制人生故事、口述历史，逐步构建个人语料库",
+     "家人用语音或文字向 AI Echo 提问，听它用自己的声音回答",
+     "作为家族记忆库，保存方言、口头禅与独特看世界的视角",
+     "给年幼的孩子留下一份「真实」的成长陪伴与人生建议",
+     "作为临终规划的一部分，与遗嘱、影像资料一起传承"
+    ],
+    "designIntent": "创始人想让「人走后还有回音」——不是做一个通用聊天机器人，而是用本人真实的故事、声音和世界观训练专属分身，强调「活着时亲手塑造」，让数字遗产不是冰冷的资料库，而是一个有温度的对话者。",
+    "problemSolved": "解决「人去世后记忆与经历随之消失」的深层痛点：通过生前录音加 AI 语音克隆，把不可替代的个人叙事留下来，家人可以持续对话、追溯往事，获得情感慰藉与家族记忆的传承。",
+    "tags": [
+     "数字遗产",
+     "AI 语音分身",
+     "情感陪伴",
+     "记忆留存",
+     "人生故事"
+    ],
+    "score": 8,
+    "scoreReason": "题材有强情感共鸣与差异化（数字遗产加语音克隆），技术路径清晰、App Store 已上架；同类产品少，但面临「声音克隆伦理与滥用」疑虑，付费模式与长期留存待观察，故给 8 分。",
+    "competitors": [
+     {
+      "name": "HereAfter AI",
+      "url": "https://www.hereafter.ai/",
+      "comparison": "同类数字遗产语音分身的先行者，EchoVault 更强调真实故事与声音的生前塑造"
+     },
+     {
+      "name": "StoryFile",
+      "url": "https://www.storyfile.com/",
+      "comparison": "偏交互式视频档案，EchoVault 侧重可随时对话的语音分身"
+     }
+    ]
+   },
+   "appStoreName": "Echovault - Digital Legacy",
+   "appStoreUrl": "https://apps.apple.com/us/app/echovault-digital-legacy/id6762042028?uo=4",
+   "appStoreScreenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a1/52/76/a15276ff-777a-5fff-348c-3a2e1954a406/Untitled_design__U00285_U0029.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5a/96/40/5a964003-f6b7-4dee-c0dd-d43874d50df7/Untitled_design__U00284_U0029.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/24/4a/28/244a2802-aca0-78df-12b0-e832fda32368/Untitled_design.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4f/e0/55/4fe05592-e8ba-ad3a-3dc9-84758a7b1cf7/Untitled_design__U00281_U0029.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/13/a4/62/13a4626f-233d-076a-f392-d07858e2307e/Untitled_design__U00283_U0029.png/320x480bb.jpg"
+   ],
+   "screenshotUrl": null
+  },
+  {
+   "id": "producthunt.com/r/p/1227792",
+   "name": "Wizstar — AI 数字人视频与虚拟主播平台",
+   "slug": "wizstar",
+   "description": "让照片里的形象「动起来」像专业演员一样表演：一键生成 AI 数字人视频、实时互动数字人与 7×24 小时 AI 直播，支持 75+ 语言口型同步，已被三星、美的、一汽大众等品牌用于营销与直播带货。",
+   "url": "https://wizstar.com/",
+   "homepage": "https://wizstar.com/",
+   "type": "website",
+   "tags": [
+    "AI 数字人",
+    "虚拟主播",
+    "AI 视频生成",
+    "直播带货",
+    "企业营销"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/wizstar",
+   "firstSeen": "2026-08-20T15:05:01+00:00",
+   "analysis": {
+    "targetAudience": "需要规模化产出营销视频、数字人直播的电商卖家、品牌市场部与内容团队",
+    "useCases": [
+     "把产品资料一键转成多语言 AI 数字人介绍视频",
+     "7×24 小时无人直播带货，AI 自动话术与实时互动",
+     "复刻企业高管数字分身做品牌传播与产品讲解",
+     "交互式数字客服，低延迟自然语音对话",
+     "通过开放 API 把数字人能力嵌入自有业务系统"
+    ],
+    "designIntent": "把专业影视级的「数字人表演」做成企业可规模化使用的基础设施：以高精度口型同步与多语言能力大幅降低视频生产成本，让品牌在营销、客服、培训全链路复用同一个数字分身。",
+    "problemSolved": "解决企业视频内容生产「贵、慢、不可规模化」的痛点——传统拍摄需要演员、场地与多语种团队，Wizstar 用数字人把单条视频的成本与周期压到接近零，并打通直播与客服场景。",
+    "tags": [
+     "AI 数字人",
+     "虚拟主播",
+     "AI 视频生成",
+     "直播带货",
+     "企业营销"
+    ],
+    "score": 7,
+    "scoreReason": "落地案例扎实（三星、美的、一汽大众等品牌背书）、产品矩阵完整（视频/互动/直播/API）；但本质是企业级工具而非消费级创新，数字人赛道拥挤、同质化竞争明显，故给 7 分。",
+    "competitors": [
+     {
+      "name": "HeyGen",
+      "url": "https://www.heygen.com/",
+      "comparison": "海外数字人视频头部，Wizstar 在中文市场与直播带货场景更本地化"
+     },
+     {
+      "name": "Synthesia",
+      "url": "https://www.synthesia.io/",
+      "comparison": "偏企业培训视频定位，Wizstar 更侧重营销与无人直播"
+     },
+     {
+      "name": "硅基智能",
+      "url": "https://www.guiji.ai/",
+      "comparison": "同为国内数字人直播方案，Wizstar 在多语言与口型同步上更突出"
+     }
+    ]
+   },
+   "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1227792_20260822_120957.png",
+   "appStoreScreenshots": [],
+   "appStoreName": null,
+   "appStoreUrl": null
+  },
+  {
+   "id": "producthunt.com/r/p/1226291",
+   "name": "Loopcase — 零关键帧的图片循环视频工具",
+   "slug": "loopcase",
+   "description": "把 UI 截图、产品 mockup、设计稿等静态图片变成无限循环的丝滑案例展示视频：选模板、调参数、导出 MP4（最高 4K），不需要任何动效或剪辑经验，全程在浏览器里完成。",
+   "url": "https://www.loopcase.app/",
+   "homepage": "https://www.loopcase.app/",
+   "type": "website",
+   "tags": [
+    "动效设计",
+    "案例展示",
+    "视频制作",
+    "设计工具",
+    "营销素材"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/loopcase",
+   "firstSeen": "2026-08-19T00:00:04+00:00",
+   "analysis": {
+    "targetAudience": "需要把静态作品变成动态展示的 UI/UX 设计师、SaaS 营销人与独立开发者",
+    "useCases": [
+     "把 Dribbble/Behance 作品做成动态展示视频",
+     "为 SaaS 落地页生成循环播放的产品演示",
+     "客户提案与销售演示用的 demo reel",
+     "把设计稿转成 LinkedIn、Twitter 上的吸睛短视频",
+     "自由职业者快速产出作品集视频"
+    ],
+    "designIntent": "创始人 Hakim 发现大量案例视频「从未被做出来」，因为动效门槛太高——于是用程序化动画引擎（模板加参数）取代关键帧，让任何人都能一键把静态图变成专业级的无缝循环视频。",
+    "problemSolved": "解决「做案例视频要学 After Effects、打关键帧、排队渲染」的高门槛问题：模板驱动加实时预览加数学级无缝循环，把专业动效制作压缩成几分钟的浏览器操作。",
+    "tags": [
+     "动效设计",
+     "案例展示",
+     "视频制作",
+     "设计工具",
+     "营销素材"
+    ],
+    "score": 7,
+    "scoreReason": "痛点真实、门槛降到零、免费版可导出真实文件，对设计师群体有清晰价值；但功能面较窄、模板数量决定上限，且「图转视频」同类工具增多，故给 7 分。",
+    "competitors": [
+     {
+      "name": "After Effects",
+      "url": "https://www.adobe.com/products/aftereffects.html",
+      "comparison": "专业动效行业标准，但学习成本高，Loopcase 主打零门槛"
+     },
+     {
+      "name": "Loopa",
+      "url": "https://loopa.art/",
+      "comparison": "AI 图转动效视频，侧重电商广告与 cinemagraph，Loopcase 更专注案例展示"
+     },
+     {
+      "name": "Veed",
+      "url": "https://www.veed.io/",
+      "comparison": "通用在线视频编辑，Loopcase 以无缝循环模板差异化"
+     }
+    ]
+   },
+   "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1226291_20260822_121029.png",
+   "appStoreScreenshots": [],
+   "appStoreName": null,
+   "appStoreUrl": null
+  },
+  {
+   "id": "reddit.com/r/sideproject/comments/1vuzyb8/mapyourbusinessprocessesthenoptimizeand",
+   "name": "GlueRun — 用语音梳理业务流程并自动化",
+   "slug": "gluerun",
+   "description": "对着产品说出你的业务流程，GlueRun 用 AI 把它转成结构化流程图，帮助小团队先看清混乱的运营流程、再决定如何自动化，避免「流程不清就上自动化」的常见失败。",
+   "url": "https://www.gluerun.com/",
+   "homepage": "https://www.gluerun.com/",
+   "type": "website",
+   "tags": [
+    "业务流程",
+    "AI 流程建模",
+    "效率工具",
+    "中小团队",
+    "流程自动化"
+   ],
+   "sourceChannels": [
+    "reddit"
+   ],
+   "sourceUrl": "https://www.reddit.com/r/SideProject/comments/1vuzyb8/map_your_business_processes_then_optimize_and/",
+   "firstSeen": "2026-08-22T02:23:19+00:00",
+   "analysis": {
+    "targetAudience": "流程混乱、想上自动化却不知从何下手的小团队、独立创业者与运营负责人",
+    "useCases": [
+     "口述现有业务流程，自动生成可视化流程图",
+     "上线自动化之前先梳理现状、找出瓶颈环节",
+     "新员工快速理解公司核心运营流程",
+     "把梳理好的流程转成自动化脚本或交接文档",
+     "定期复盘、迭代流程版本"
+    ],
+    "designIntent": "创始人观察到大量自动化项目因「实际工作流不清楚」而失败，于是从「先理解流程」切入——用自然语言对话代替昂贵咨询，让业务负责人自己就能把脑子里的流程结构化。",
+    "problemSolved": "解决中小企业「想自动化但流程一团乱」的痛点：传统做法靠高价咨询或手动画图，GlueRun 用语音加 AI 在几分钟内产出结构化流程地图，为后续自动化打下正确基础。",
+    "tags": [
+     "业务流程",
+     "AI 流程建模",
+     "效率工具",
+     "中小团队",
+     "流程自动化"
+    ],
+    "score": 7,
+    "scoreReason": "切入角度聪明（先梳理后自动化）、语音输入降低使用门槛、贴合中小团队真实痛点；但产品极早期、功能单一，需验证「流程地图到自动化」的闭环，故给 7 分。",
+    "competitors": [
+     {
+      "name": "Miro",
+      "url": "https://miro.com/",
+      "comparison": "通用白板画流程需手动绘制，GlueRun 用语音自动生成"
+     },
+     {
+      "name": "Whimsical",
+      "url": "https://whimsical.com/",
+      "comparison": "轻量图表工具，GlueRun 以 AI 对话式建模差异化"
+     },
+     {
+      "name": "Zapier 自动化",
+      "url": "https://zapier.com/",
+      "comparison": "重执行轻梳理，GlueRun 补上「先看清流程」这一环"
+     }
+    ]
+   },
+   "screenshotUrl": "assets/screenshots/reddit.com_r_sideproject_comments_1vuzyb8_mapyourbusinessprocessesthenoptimizeand_20260822_121036.png",
+   "appStoreScreenshots": [],
+   "appStoreName": null,
+   "appStoreUrl": null
+  },
+  {
+   "id": "producthunt.com/r/p/1227327",
+   "name": "新版 Calendly — AI 会议全流程助手",
+   "slug": "new-calendly",
+   "description": "把会议前、中、后的工作全部包办：AI 自动准备议程与参会人背景、会议实时记录与要点提炼、会后自动生成跟进事项并同步 CRM，让「开会」从日程工具升级为会议全流程自动化平台。",
+   "url": "https://calendly.com/",
+   "homepage": "https://calendly.com/",
+   "type": "website",
+   "tags": [
+    "会议效率",
+    "AI 助手",
+    "日程管理",
+    "企业协作",
+    "SaaS"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/calendly",
+   "firstSeen": "2026-08-20T05:17:09+00:00",
+   "analysis": {
+    "targetAudience": "每天大量开会、被会前准备和会后跟进淹没的职场人、销售与客户成功团队",
+    "useCases": [
+     "会前 AI 自动收集参会人背景、生成议程与资料包",
+     "会中实时转写、提炼决议与行动项",
+     "会后自动分发纪要、创建跟进任务并同步 CRM",
+     "会议取消或改期时自动重新调度并通知各方",
+     "从历史会议中快速检索关键决策与承诺"
+    ],
+    "designIntent": "Calendly 从「约时间的工具」升级为「管理会议整个生命周期」的平台：用 AI 吃掉会议前后的琐碎劳动，让组织者的时间回归高价值工作，同时巩固其在日程赛道的护城河。",
+    "problemSolved": "解决「会议成本远不止那 30 分钟」的问题——会前准备、会后整理、跟进同步往往消耗数倍时间；新版 Calendly 用 AI 把这段隐性劳动自动化，让会议真正只花会议时间。",
+    "tags": [
+     "会议效率",
+     "AI 助手",
+     "日程管理",
+     "企业协作",
+     "SaaS"
+    ],
+    "score": 8,
+    "scoreReason": "大厂级产品升级、AI 落地场景具体（会前/会中/会后三阶段）、用户基础巨大，有望成为会议工作流的事实标准；但作为既有巨头的版本更新，创新增量需持续观察，故给 8 分。",
+    "competitors": [
+     {
+      "name": "Motion",
+      "url": "https://www.usemotion.com/",
+      "comparison": "AI 日程自动排期，Calendly 强在全流程与会后管理"
+     },
+     {
+      "name": "Reclaim.ai",
+      "url": "https://reclaim.ai/",
+      "comparison": "AI 日历管理，Calendly 以会议前后工作流差异化"
+     },
+     {
+      "name": "Fireflies.ai",
+      "url": "https://fireflies.ai/",
+      "comparison": "会议记录与转写工具，Calendly 把记录与会前会后工作整合"
+     }
+    ]
+   },
+   "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1227327_20260822_121044.png",
+   "appStoreScreenshots": [],
+   "appStoreName": null,
+   "appStoreUrl": null
+  }
+ ]
+}
