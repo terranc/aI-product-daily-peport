@@ -1,0 +1,291 @@
+{
+  "date": "2026-08-23",
+  "generatedAt": "2026-08-23T04:12:39.461018+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "producthunt.com/r/p/1228150",
+      "name": "Pocket by Meta — AI 小游戏创作平台",
+      "slug": "pocket-by-meta",
+      "description": "Meta 推出的 AI 创作应用：用一句提示词就能生成可玩可互动的迷你游戏（gizmo），发布到类似 TikTok 的竖屏信息流中供他人游玩、点赞、收藏与二次改版（remix）。游戏支持触控、手机倾斜、音效与歌曲，还能调用相机和相册照片。",
+      "url": "https://apps.apple.com/us/app/pocket-make-gizmos/id6761221765",
+      "homepage": "https://apps.apple.com/us/app/pocket-make-gizmos/id6761221765",
+      "type": "app",
+      "appStoreName": "Pocket: Make Gizmos",
+      "appStoreUrl": "https://apps.apple.com/us/app/pocket-make-gizmos/id6761221765",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2f/f6/24/2ff624aa-bc38-5fa4-db36-886123fd7f87/Screenshot-1.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/41/29/4a/41294a25-de46-0c35-1530-c73070972fb8/Screenshot-2.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bb/c4/2c/bbc42c5e-7858-fabd-3b3c-effbe3342ea8/Screenshot-3.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f3/ae/1c/f3ae1c27-0092-ae25-a770-f89bc817a3d2/Screenshot-4.png/320x480bb.jpg"
+      ],
+      "tags": [
+        "AI 游戏创作",
+        "互动体验",
+        "UGC 平台",
+        "社交传播",
+        "创意工具"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/pocket-by-meta",
+      "firstSeen": "2026-08-21T03:32:59+00:00",
+      "analysis": {
+        "targetAudience": "喜欢玩小游戏、也喜欢动手创作的泛娱乐用户，尤其是 Z 世代社交内容消费者",
+        "useCases": [
+          "用一句提示词生成专属小游戏或互动体验",
+          "在竖屏信息流中游玩他人作品并点赞、评论、收藏",
+          "对喜欢的 gizmo 改版混音，做二次创作",
+          "把照片、歌曲融入游戏，做成个性化分享内容"
+        ],
+        "designIntent": "Meta 想验证「AI 即社交」的下一代内容形态：把创作门槛压到一句话，再借信息流传播形成 TikTok 式的病毒循环。收购 Gizmo 团队正是要把这个已验证的模式搬进自家产品矩阵，也是扎克伯格「AI 交互式内容」愿景的落地。",
+        "problemSolved": "传统游戏与互动内容开发门槛高、周期长，普通人很难表达创意；而刷视频是被动消费。Pocket 让每个人用自然语言就能创作可玩内容，把「玩」变成新的社交货币。",
+        "score": 9,
+        "scoreReason": "Meta 官方出品、背靠 Gizmo 成熟团队（Gizmo 曾获 63.5 万安装、98% 好评），模式已被验证；「一句话做游戏 + 信息流传播」直击创作与娱乐交汇点，且有 Meta 生态与流量加持，是本周最具想象力的消费级 AI 产品。",
+        "competitors": [
+          {
+            "name": "Gizmo",
+            "url": "https://gizmo.ai",
+            "comparison": "Pocket 的前身，功能几乎相同；Meta 收购其团队后已将原应用关闭，用户迁往 Pocket"
+          },
+          {
+            "name": "Roblox",
+            "url": "https://www.roblox.com",
+            "comparison": "同为 UGC 游戏平台，但需要图形化/脚本搭建，创作门槛远高于 Pocket 的一句话生成"
+          },
+          {
+            "name": "Dreams",
+            "url": "https://dreams.mediamolecule.com",
+            "comparison": "主机端创意沙盒，面向专业向创作，缺少 Pocket 的社交信息流与移动端轻创作"
+          }
+        ]
+      },
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1228150_20260823_121255.png"
+    },
+    {
+      "id": "producthunt.com/r/p/1228155",
+      "name": "Project SKY — Windows 环境 AI 陪伴助手",
+      "slug": "project-sky",
+      "description": "Windows 11 原生桌面应用，常驻后台的 AI 系统伙伴：能实时「看懂」屏幕上任意窗口的内容（圈选即 OCR、翻译、解释、总结），支持连续对话式语音指令，用本地 Obsidian 笔记库做长期记忆，还能跨应用编排自动化工作流。",
+      "url": "https://www.producthunt.com/products/project-sky",
+      "homepage": "https://www.producthunt.com/products/project-sky",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 桌面助手",
+        "Windows 11",
+        "屏幕理解",
+        "语音交互",
+        "本地自动化"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/project-sky",
+      "firstSeen": "2026-08-21T03:43:53+00:00",
+      "analysis": {
+        "targetAudience": "Windows 重度办公用户、知识工作者与开发者，追求不打断工作流的 AI 辅助",
+        "useCases": [
+          "圈选屏幕任意区域，即时 OCR、翻译、解释代码或总结内容",
+          "语音指挥 AI 跨应用完成任务，如从邮件/网页收集数据生成报表",
+          "让 AI 记住项目上下文与个人习惯，提供长期个性化协助",
+          "报错弹窗出现时让 AI 直接分析定位并给出修复建议"
+        ],
+        "designIntent": "针对「浏览器开 ChatGPT 与工作应用来回切换」的碎片化痛点，把 AI 做成常驻系统层的『环境智能』——看得见你在做什么，随时用语音或圈选呼出，像系统的一部分而非独立应用。",
+        "problemSolved": "解决 AI 工具与工作场景割裂的问题：现有对话式 AI 缺乏对用户桌面的实时感知与上下文，无法在错误出现的那一刻、在你正用的应用里直接帮忙，Project SKY 以屏幕感知 + 本地记忆 + 系统自动化把 AI 融入日常操作流。",
+        "score": 8,
+        "scoreReason": "「屏幕感知 + 常驻语音 + 本地记忆」的整合在 Windows 端尚属少见，方向切中桌面 AI 的下一形态，对 Copilot 式聊天助手构成差异化；但当前仅有聚合站佐证、无官方网站，生态与稳定性待观察，故未给满分。",
+        "competitors": [
+          {
+            "name": "Microsoft Copilot",
+            "url": "https://copilot.microsoft.com",
+            "comparison": "微软云端 AI 助手，以聊天问答为主，缺乏 Project SKY 的屏幕实时感知与本地自动化"
+          },
+          {
+            "name": "ChatGPT Desktop (Windows)",
+            "url": "https://openai.com/chatgpt/download",
+            "comparison": "桌面端对话入口，无系统级屏幕理解与跨应用操作能力"
+          },
+          {
+            "name": "Omarchy",
+            "url": "https://omarchy.com",
+            "comparison": "同为热门的系统级 AI 助手，但更偏开发者终端场景，SKY 面向更广的普通办公用户"
+          }
+        ]
+      },
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1228155_20260823_121305.png"
+    },
+    {
+      "id": "reddit.com/r/sideproject/comments/1vvuxxl/builtatravelitineraryplannersoloasaside",
+      "name": "PlanMyGetaways — AI 旅行行程规划",
+      "slug": "planmygetaways",
+      "description": "输入目的地、日期、同行人、预算、兴趣与节奏，AI 生成可编辑的逐日行程；行程刻意做得「无聊而可信」——避免不切实际的赶路安排，支持与同行人协作修订、直接比价订酒店租车、关联景点门票。",
+      "url": "https://planmygetaways.com",
+      "homepage": "https://planmygetaways.com",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 旅行规划",
+        "行程定制",
+        "旅游工具",
+        "协作编辑",
+        "比价预订"
+      ],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "sourceUrl": "https://www.reddit.com/r/SideProject/comments/1vvuxxl/built_a_travel_itinerary_planner_solo_as_a_side/",
+      "firstSeen": "2026-08-23T02:24:58+00:00",
+      "analysis": {
+        "targetAudience": "自由行游客、家庭出游与结伴旅行者，尤其是懒得做攻略、又怕 AI 行程不靠谱的普通人",
+        "useCases": [
+          "输入目的地与偏好，一键生成逐日行程",
+          "按预算、同行人、游玩节奏精细调整行程细节",
+          "与同行人协作编辑并分享最终版行程",
+          "在行程内直接比价酒店、租车、预订景点门票"
+        ],
+        "designIntent": "创始人坦言最难的不是 AI 而是「让输出无聊到可信」：早期版本行程很漂亮但安排不切实际（半天赶几百公里）。核心理念是让 AI 行程经得起真实旅行检验，宁可保守也不吹牛，并把预订闭环做进去。",
+        "problemSolved": "解决「做旅行攻略耗时」与「AI 行程不可信」的双重痛点：通用 AI 生成的行程往往华而不实，PlanMyGetaways 以真实节奏、预算约束和多人协作为标准，让 AI 行程真正可落地。",
+        "score": 8,
+        "scoreReason": "切中旅行规划这一高频刚需，差异化落在「可信度」而非花哨功能，还打通了预订与协作闭环；独立开发者产品，规模与数据待验证，但思路在同类 AI 行程工具中相当清醒务实。",
+        "competitors": [
+          {
+            "name": "Wonderplan",
+            "url": "https://wonderplan.ai",
+            "comparison": "同为 AI 行程生成器，功能相近，但缺少 PlanMyGetaways 的同行协作与直接预订闭环"
+          },
+          {
+            "name": "Layla",
+            "url": "https://layla.ai",
+            "comparison": "AI 旅行助手主打对话式推荐，行程生成与落地执行不如 PlanMyGetaways 系统化"
+          },
+          {
+            "name": "TripIt",
+            "url": "https://tripit.com",
+            "comparison": "侧重行程整理与聚合，不生成行程，定位互补而非直接竞争"
+          }
+        ]
+      },
+      "screenshotUrl": "assets/screenshots/reddit.com_r_sideproject_comments_1vvuxxl_builtatravelitineraryplannersoloasaside_20260823_121311.png"
+    },
+    {
+      "id": "producthunt.com/r/p/1225576",
+      "name": "Maccess — 用 iPhone 遥控 Mac + Mackie AI 助手",
+      "slug": "maccess",
+      "description": "把 iPhone 变成 Mac 的遥控器：虚拟触控板、键盘、实时屏幕镜像、文件互传，还支持跨网络云中继远程访问；内置 Mackie AI 助手能理解 Mac 当前状态，用语音或文字替你执行操作。",
+      "url": "https://maccess.io",
+      "homepage": "https://maccess.io",
+      "type": "app",
+      "appStoreName": "Maccess",
+      "appStoreUrl": "https://apps.apple.com/us/app/maccess/id6774586700",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f4/11/ac/f411ac86-b1aa-1bdc-ee85-a1a7830c7a2a/01-command-your-mac-from-anywhere.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8f/9c/d2/8f9cd2cc-15b8-16a7-13d6-b18905249bde/02-your-mac-trackpad-in-your-hand.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/56/5e/59/565e5991-330f-bb37-b73f-17ee3e074c22/03-control-every-screen-live.png/320x480bb.jpg"
+      ],
+      "tags": [
+        "Mac 远程控制",
+        "iPhone 遥控器",
+        "屏幕镜像",
+        "AI 助手",
+        "效率工具"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/maccess",
+      "firstSeen": "2026-08-18T06:01:22+00:00",
+      "analysis": {
+        "targetAudience": "Mac 用户中需要在沙发上、出差途中或跨设备操控电脑的办公与效率人群",
+        "useCases": [
+          "躺沙发上用 iPhone 触控板/键盘操作 Mac 看电影、翻文档",
+          "人在外面通过云中继访问家里的 Mac 取文件",
+          "语音让 Mackie AI 打开演示文稿、执行系统操作",
+          "手机实时镜像 Mac 屏幕，远程演示与协作"
+        ],
+        "designIntent": "让 Mac 摆脱桌面束缚，把手机变成随身「命令中心」：局域网免费、远程订阅，并把 Mackie AI 做成差异化卖点——AI 能看到 Mac 当前状态再执行任务，而非空泛聊天。",
+        "problemSolved": "解决「离开桌子就用不了 Mac」的痛点：此前远程方案要么仅限局域网、要么配置复杂，Maccess 用扫码配对 + 云中继把门槛降到最低，并借 AI 让远程操控更自然。",
+        "score": 7,
+        "scoreReason": "需求真实、落地路径清晰（本地免费 / Pro 订阅），Mackie AI 的「感知当前状态再执行」是亮点；但远程桌面赛道竞品众多、免费层功能有限，AI 助手成熟度有待实测，给 7 分。",
+        "competitors": [
+          {
+            "name": "Jump Desktop",
+            "url": "https://jumpdesktop.com",
+            "comparison": "老牌远程桌面工具，连接稳定但无 AI 助手，交互偏专业"
+          },
+          {
+            "name": "Remote Buddy Mobile",
+            "url": "https://iospirit.com/products/remotebuddy/mobile/",
+            "comparison": "同为 iPhone 遥控 Mac，功能接近，Maccess 多了 Mackie AI 与云中继远程"
+          },
+          {
+            "name": "Parsec",
+            "url": "https://parsec.app",
+            "comparison": "主打低延迟游戏/图形串流，面向专业与游戏场景，非日常办公遥控"
+          }
+        ]
+      },
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1225576_20260823_121321.png"
+    },
+    {
+      "id": "v2ex.com/t/1236466",
+      "name": "咩咩问他 — AI 人格侧写小程序",
+      "slug": "miemie-wenta",
+      "description": "微信小程序：选一套测法、选要测的对象（伴侣、同事、朋友、老板…），自己回答十几道选择题，AI 出具的是「对方」的侧写报告——倾向、隐藏面、相处提示与雷区；也可以测自己。全程用 Grok 4.6 从 0 到 1 开发。",
+      "url": "https://www.v2ex.com/t/1236466",
+      "homepage": "https://www.v2ex.com/t/1236466",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 人格测试",
+        "心理侧写",
+        "微信小程序",
+        "社交洞察",
+        "情感沟通"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "sourceUrl": "https://www.v2ex.com/t/1236466",
+      "firstSeen": "2026-08-22T14:01:55+00:00",
+      "analysis": {
+        "targetAudience": "对人际沟通感兴趣、想更了解伴侣/同事/家人脾性的年轻人，尤其是微信生态用户",
+        "useCases": [
+          "测对象或搭档靠不靠谱，提前判断相处雷区",
+          "了解同事或老板的行事风格，优化沟通方式",
+          "给自己做性格画像，用于自我认知与反思",
+          "分享验证、对比沟通风格，和朋友互动传播"
+        ],
+        "designIntent": "创始人用 grok4.6 从 0 到 1 做出的小程序，逆反了市面上「人格测试都是测自己」的套路——真正耗时间的社交难题是搞清对面那个人。用「答题者作答、报告写给 TA」的反向设计切入人际洞察，门槛极低。",
+        "problemSolved": "解决「看不透对方」的普遍社交困惑：市面人格测试只能认识自己，无法帮你判断伴侣是否靠谱、老板什么脾气；咩咩问他用一套间接问卷让 AI 帮你侧写他人，给出相处提示。",
+        "score": 7,
+        "scoreReason": "角度新颖、微信即搜即用、零门槛，把 AI 用于真实人际场景，具备社交传播潜力；但侧写结果科学性存疑、玩法偏轻，更像现象级小工具而非严肃产品，给 7 分。",
+        "competitors": [
+          {
+            "name": "16Personalities (MBTI)",
+            "url": "https://www.16personalities.com",
+            "comparison": "测自己的人格类型，无「侧写他人」功能，且为问卷打分而非 AI 生成报告"
+          },
+          {
+            "name": "DeepSeek / ChatGPT 直接问",
+            "url": "https://chat.deepseek.com",
+            "comparison": "通用对话可模拟分析他人，但需自己组织信息，无结构化问卷与成套报告"
+          },
+          {
+            "name": "国内趣味人格测试",
+            "url": "https://pia.test.cn",
+            "comparison": "偏娱乐自测，不针对特定他人，缺乏相处建议等实用输出"
+          }
+        ]
+      },
+      "screenshotUrl": "assets/screenshots/v2ex.com_t_1236466_20260823_121516.png"
+    }
+  ]
+}
