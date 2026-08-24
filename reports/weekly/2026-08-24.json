@@ -1,0 +1,99 @@
+{
+  "date": "2026-08-24",
+  "generatedAt": "2026-08-24T04:19:05.234454+00:00",
+  "productCount": 1,
+  "type": "weekly",
+  "sourceDailyReport": "2026-08-20",
+  "products": [
+    {
+      "id": "getklo.com",
+      "name": "Klo — 说话式 AI 视频剪辑器",
+      "slug": "klo",
+      "description": "原生 macOS 视频剪辑器，用自然语言指挥 AI 完成剪辑：说「剪掉冷场」「逐字加字幕」「让节奏有回忆感」，它就会在真实时间线上执行——剪辑、调色、字幕、AI 配乐与配音、卡点剪辑，最高支持 4K 的 H.264/HEVC/ProRes 输出，素材全程不出本机。还内置 MCP 服务器，可让 Claude Code、Codex 或 Cursor 直接驱动整条时间线。免费 10 次试用，Pro 版 $30/月。",
+      "url": "https://getklo.com/",
+      "homepage": "https://getklo.com/",
+      "type": "website",
+      "tags": [
+        "AI 视频剪辑",
+        "语音驱动",
+        "本地处理",
+        "macOS",
+        "创作者工具"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49368915",
+      "firstSeen": "2026-08-20T00:19:00Z",
+      "analysis": {
+        "targetAudience": "有剪辑需求但不想学专业软件的内容创作者、短视频/播客博主与独立视频作者",
+        "useCases": [
+          "用一句话指令完成「剪掉冷场、加字幕、卡点」等常规剪辑动作",
+          "让 AI 自动生成配乐、配音并做卡点剪辑",
+          "通过 MCP 让 Claude Code、Cursor 等编程 Agent 直接驱动时间线",
+          "本地处理敏感素材，无需上传云端",
+          "导出 H.264/HEVC/ProRes，最高 4K 交付"
+        ],
+        "designIntent": "传统剪辑软件学习成本高，作者想把专业剪辑能力封装成 AI Agent，让「剪辑」回归语言指令本身——用户只需说出想要的效果，剩下的由 AI 在真实时间线上完成。",
+        "problemSolved": "解决普通人剪辑门槛高、专业软件操作繁琐的问题，把剪辑、调色、字幕、配乐等专业能力变成一句自然语言指令，同时通过本地处理保护素材隐私。",
+        "tags": [
+          "AI 视频剪辑",
+          "语音驱动",
+          "本地处理",
+          "macOS",
+          "创作者工具"
+        ],
+        "score": 9,
+        "scoreReason": "【深度调研亮点】① 创始人叙事独特：Elvin Atwine（乌干达裔、现居旧金山）做了近 10 年剪辑师/体育摄影师后转连续创业者（Klorah 摄影生意管理、Iveyy Clothing），以「cursor for video」定位切入——「我发产品的速度比做内容快，Premiere 学不动」，7-28 LinkedIn 公开信获 100+ reactions；② 极速迭代验证执行力：2026-07-20 v1.0.0 上线，30 天发布 40 个版本（8 月上旬一度单日 5-6 版），08-22 已迭代到 v2.8.0；③ 功能闭环完整且新颖：AI 配乐（商用授权）+ 用自己声音修正旁白（声音克隆）+ 音乐自动避让人声 + 逐字点亮字幕 + 生成式转场 + YouTube 参考链接自动匹配调色 + 通用二进制（Intel 与 Apple Silicon 通吃）；④ MCP 前瞻布局：v2.4.0 起 Claude Code、Codex、Cursor、Claude Desktop 可直接驱动整条时间线，作者实测 6K RED 100GB 素材由 Claude Code 端到端剪成完整 vlog；⑤ 本地优先隐私卖点 + 诚实计费（生成失败不扣 credits、自动退款）。风险：仅限 macOS、尚无第三方媒体评测、HN 热度仍低（2 分）、$30/月定价偏高、AI 推理与语音增强依赖云端 API。",
+        "competitors": [
+          {
+            "name": "Descript (Underlord)",
+            "url": "https://www.descript.com",
+            "comparison": "文本转录驱动剪辑的开创者，Underlord agent 处理多步指令，2026-05 起开放托管 MCP（Claude 可直接驱动），Pro $24/月。Klo 差异：原生 macOS + 语音优先 + 素材本地处理，不依赖「先转写再编辑」的文本范式。"
+          },
+          {
+            "name": "OpusClip",
+            "url": "https://www.opus.pro",
+            "comparison": "长视频自动切短视频的 repurposing 工具，ClipAnything 模型 + virality 评分，MCP（OAuth）连 Claude/ChatGPT，$19/月起。Klo 是完整时间线 NLE，能精修单条视频而非只做切片分发。"
+          },
+          {
+            "name": "剪映/CapCut",
+            "url": "https://www.capcut.com",
+            "comparison": "AI 功能层叠的传统时间线编辑器（自动字幕/EditPilot/模板），免费、跨端；但缺乏自然语言驱动，素材走云端，无法由编程 Agent 驱动。"
+          },
+          {
+            "name": "Adobe Premiere Pro",
+            "url": "https://www.adobe.com/products/premiere.html",
+            "comparison": "专业 NLE 标杆，AI 仅作辅助（Auto Reframe 等），$22.99/月；学习曲线陡峭，Klo 用 AI Agent 把专业操作封装成一句话。"
+          },
+          {
+            "name": "Palmier Pro",
+            "url": "https://palmier.io",
+            "comparison": "2026 年 HN 上最接近的同路线开源竞品：macOS 编辑器 + 本地 MCP server 让 Claude/Codex 驱动时间线，免费开源；但偏 AI 生成视频导入工作流、仅支持 macOS 26，完成度与语音/配音/配乐闭环不如 Klo。"
+          },
+          {
+            "name": "Vyra / Loopdesk",
+            "url": "https://www.vyra.io",
+            "comparison": "agent-first 浏览器端提示词剪辑（Vyra 支持 MCP，Loopdesk 全流程 agent 执行，$19-20/月）；云端处理为主，Klo 强调素材不出本机 + 原生 Mac 性能。"
+          }
+        ]
+      },
+      "screenshotUrl": "assets/screenshots/getklo.com_20260820_120759.png",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "appStoreScreenshots": [],
+      "cooldownExpiresAt": "2026-09-03T04:27:00.452424+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "lastFeaturedDate": "2026-08-20"
+      },
+      "weeklyDeepDive": {
+        "growthData": "产品 2026-07-20 v1.0.0 上线，30 天迭代 40 个版本（截至 08-22 v2.8.0），官方未披露用户/营收/融资数据（未披露）。定价：免费 10 credits，Pro $30/月 50 credits，Studio $200/月 300 credits（07-30 从单一 Pro 档拆出）。增长叙事集中在创始人自证：07-24 用纯英文提示词剪完 42 分钟 96GB 6K 素材；08-11 用 Claude Code 驱动 Klo 将 6K RED 100GB+ 素材端到端剪成完整 vlog（调色、配乐、音效、标题卡、字幕全自动）；早期用户 Temidun Olowu 首日即重度使用，作者专门飞过去当面观察学习并据此推动大版本更新。Show HN（08-20）Algolia 实测 2 分、5 条评论，处于早期冷启动阶段。",
+        "communityActivity": "HN 讨论规模小但氛围友好：作者 elvniv 在评论区自嘲产品名「Klo 在德语里是厕所的意思」——「未来柏林的广告牌会很有趣」；有用户称赞落地页交互「像真的编辑器」。LinkedIn 是主要社区阵地：作者高频发布 AI 剪辑 demo（08-16 用 3 条提示词完成含调色/文字/降噪去警笛的整片剪辑，08-08 早期用户公开点赞「game changer」「坐在创始人身边看他收集反馈」）。暂无第三方媒体评测（TechCrunch 等未见），aigregator、startups.live、vuink 等聚合站已收录产品页。整体处于早期用户共创阶段，讨论集中在「AI 能否真正替代专业剪辑」的信任建立上。",
+        "updateFrequency": "极高迭代频率：07-20 上线以来 30 天 40 个版本（日均约 1.3 个），8 月上旬一度单日 5-6 版（08-07 一天 5 版、08-08 一天 6 版）。关键版本里程碑：v1.3.1 通用二进制（同时支持 Intel 与 Apple Silicon）、v2.0.0 AI 配乐 + 声音克隆 + 音乐自动避让 + 逐字字幕、v2.4.0 接入 MCP（Settings→Connections 连 Claude Code/Codex/Cursor/Claude Desktop）、v2.5.0 ElevenLabs 语音增强（A/B 对比）、v2.6.0 自由刀片 + 跨重启聊天持久化、v2.7.0 背景渲染 + 断连硬盘自动重连、v2.8.0 YouTube 参考链接零配置学习 + 调色匹配。发布节奏显示产品处于高强度打磨期，快速补全专业 NLE 能力。",
+        "marketPosition": "2026 年 AI 视频剪辑赛道呈两派：AI 增强派（CapCut、Premiere、Veed 在传统时间线上叠加 AI 功能）与 AI 主导派（Descript、Vyra、Loopdesk、OpusClip 用提示词/文本直接执行剪辑）。MCP 已成 2026 标配：Descript 2026-05 开放MCP、OpusClip/Reap/Submagic/Whipscribe/Katto 均提供 MCP 端点，另有开源 Palmier Pro（本地 MCP macOS 编辑器）与 ScriptEdit（免费本地转录编辑器）在 HN 同期冒头。Klo 卡位「AI 主导 + 原生 macOS 完整 NLE」的交叉点：既不是云端一键剪片（OpusClip），也不是传统时间线加 AI 功能（CapCut），而是本地优先、语音驱动的完整专业时间线，并以 MCP 打通编程 Agent 工作流。定价 $30/月处于 Descript（$24）与专业 NLE 之间，含 50 credits 生成额度；相比免费/开源的 Palmier Pro 与 ScriptEdit，Klo 靠产品完成度与创作闭环（配音/配乐/调色/字幕一体）换取付费空间。",
+        "differentiation": "① 「说话即剪辑」交互范式：语音/自然语言驱动真实 Premiere-grade 时间线，用户不用学时间线操作；② 本地优先：素材全程不出 Mac（媒体本地处理，AI 推理与 ElevenLabs 语音增强走云端 API）；③ MCP 服务器打通 Agent 工作流：Claude Code/Codex/Cursor/Claude Desktop 可编程驱动整条时间线，「cursor for video」叙事在开发圈有天然共鸣；④ 创作闭环完整：AI 配乐（商用授权）+ 用自己声音修正旁白（声音克隆）+ 音乐自动避让 + 逐字点亮字幕 + 生成式转场 + 品牌模板 + YouTube 参考链接调色匹配；⑤ 诚实计费：失败生成不扣 credits、自动退款，大任务按多 credits 透明计费；⑥ 创始人双重身份（10 年剪辑师 + 连续创业者），自己 dogfood 产品，产品方向贴合真实剪辑痛点而非炫技。"
+      }
+    }
+  ]
+}
