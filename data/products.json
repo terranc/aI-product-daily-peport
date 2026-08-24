@@ -1,6 +1,6 @@
 {
   "version": 11,
-  "lastUpdated": "2026-08-23T04:17:54.396503+00:00",
+  "lastUpdated": "2026-08-24T04:09:58.611154+00:00",
   "products": [
     {
       "id": "producthunt.com/r/p/1198621",
@@ -27392,6 +27392,338 @@
       },
       "addedAt": "2026-08-23T04:17:54.396503+00:00",
       "cooldownExpiresAt": "2026-09-06T04:17:54+00:00"
+    },
+    {
+      "id": "reddit.com/r/sideproject/comments/1vwqzys/webuiltalinkyoudropintoyourgroupchatsto",
+      "name": "Fenn — 群聊聚会规划 AI 助手",
+      "slug": "fenn-group-chat-hero",
+      "description": "一个把\"咱们得聚聚\"变成\"定了！\"的 AI 群聊管家。你把想办的事（周末出游、朋友聚餐、生日、拼车）丢进 iMessage 或 WhatsApp 群聊，Fenn 会自动帮大家约时间、对比地点、收集每个人的意见，并把决定转成共享日程、清单和待办，全程跟着聊天记录推进，不用任何人当\"组织者\"。",
+      "url": "https://apps.apple.com/us/app/fenn-group-chat-hero/id6761315757",
+      "homepage": "https://apps.apple.com/us/app/fenn-group-chat-hero/id6761315757",
+      "type": "app",
+      "appStoreName": "Fenn: Group Chat Hero",
+      "appStoreUrl": "https://apps.apple.com/us/app/fenn-group-chat-hero/id6761315757?uo=4",
+      "screenshotUrl": "assets/screenshots/reddit.com_r_sideproject_comments_1vwqzys_webuiltalinkyoudropintoyourgroupchatsto_20260824_120943.png",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/42/c3/4c/42c34cc4-d75f-149f-ec9b-39f128b81ce3/1335.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bb/35/35/bb353517-bc1a-a959-0f8f-0bac4d360d4d/1339.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9e/f1/e4/9ef1e4b0-942c-e63d-b5fe-cc8612f7c23b/1338.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a1/b7/77/a1b7775c-6e7e-83eb-22e5-b2b97f3bdabf/1337.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/af/a1/ca/afa1cadb-0881-81ef-ed26-6e50dfcdad3f/1336.png/320x480bb.jpg"
+      ],
+      "tags": [
+        "群聊",
+        "聚会规划",
+        "AI 助手",
+        "日程协同",
+        "社交"
+      ],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "sourceUrl": "https://www.reddit.com/r/SideProject/comments/1vwqzys/we_built_a_link_you_drop_into_your_group_chats_to/",
+      "firstSeen": "2026-08-24T03:02:26+00:00",
+      "cooldownExpiresAt": "2026-09-07T04:09:58.611154+00:00",
+      "analysis": {
+        "targetAudience": "经常在微信/WhatsApp/iMessage 群聊里张罗聚会、旅行、生日等活动的组织者和社牛用户",
+        "useCases": [
+          "周末出游/聚餐的日期协调与地点投票",
+          "生日、拼车等多人活动的分工与待办跟进",
+          "把聊天里的决定自动沉淀为共享日历与清单",
+          "群聊里没人当\"话事人\"时由 AI 主动催办推进"
+        ],
+        "designIntent": "聚会组织之所以累，是因为\"说服-协调-跟进\"全靠一个人手动反复@人。Fenn 的设计初衷是把 AI 作为群聊里的\"隐形协调员\"，让计划从口头想法自然长成可执行的日程，而不是让用户再装一个全新的规划 App。",
+        "problemSolved": "解决聚会组织中反复约时间、收集意见、追进度的高沟通成本问题；避免信息散落在聊天记录里最后不了了之，让\"我们该聚聚\"真正落地。",
+        "tags": [
+          "AI 聚会规划",
+          "群聊助手",
+          "日程协调",
+          "社交效率"
+        ],
+        "score": 9,
+        "scoreReason": "切入\"群聊里组织聚会\"这一极高频却几乎无人做好的场景，AI 承担全部协调琐事，产品形态（一条链接丢进群聊）几乎零上手成本。同类竞品少，App Store 定位清晰，潜力大。",
+        "competitors": [
+          {
+            "name": "Partiful",
+            "url": "https://partiful.com",
+            "comparison": "Partiful 侧重活动落地页与邀请管理，Fenn 更强调在群聊内由 AI 全程推进协调"
+          },
+          {
+            "name": "When2Meet",
+            "url": "https://www.when2meet.com",
+            "comparison": "When2Meet 只解决\"约时间\"一个环节且需手动操作，Fenn 覆盖从约时间到分工跟进的完整闭环"
+          },
+          {
+            "name": "Calendly",
+            "url": "https://calendly.com",
+            "comparison": "Calendly 是个人日程预约工具，面向商务场景，Fenn 面向朋友间的群聊协作"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "lastFeaturedDate": "2026-08-24"
+      }
+    },
+    {
+      "id": "x.com/fanshifu/status/2091116609427685803",
+      "name": "Voicy — 全平台 AI 语音输入插件",
+      "slug": "voicy",
+      "description": "一款跨 Windows/macOS/Linux 的轻量语音输入软件，在任何应用和网页里都能\"开口写字\"：声称 50 种语言 99% 以上识别准确率、比打字快 3 倍。基于 Groq + Whisper V3 的极简云端架构，低延迟低成本，靠长尾 SEO 获客，订阅 8.49 美元/月或 260 美元终身买断，月收入约 2 万美元。",
+      "url": "https://usevoicy.com/",
+      "homepage": "https://usevoicy.com/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "语音输入",
+        "语音转文字",
+        "效率工具",
+        "跨平台"
+      ],
+      "sourceChannels": [
+        "twitter"
+      ],
+      "sourceUrl": "https://x.com/FanShifu/status/2091116609427685803",
+      "firstSeen": "2026-08-22T10:53:45+00:00",
+      "cooldownExpiresAt": "2026-09-07T04:09:58.611154+00:00",
+      "analysis": {
+        "targetAudience": "打字效率低、追求\"开口即得\"的创作者、程序员、学生和办公人群",
+        "useCases": [
+          "在 Gmail、Outlook、Word 等办公软件里语音写邮件和文档",
+          "在 Claude Code、Cursor 等编码环境里语音输入指令",
+          "长期打字手腕疲劳人群的无键盘输入替代",
+          "多语言场景下的快速录入与听写"
+        ],
+        "designIntent": "做\"全平台通用的轻量化输入插件\"而非重应用，强调即装即用、低延迟；用买断制对抗订阅疲劳，并针对具体软件的使用场景做 SEO 落地页精准获客，是小团队务实打法的典型。",
+        "problemSolved": "解决传统语音输入工具要么平台绑定、要么延迟高体验差的问题；让\"说话代替打字\"在任何软件里都成立，降低学习成本和使用门槛。",
+        "tags": [
+          "语音输入",
+          "听写",
+          "跨平台",
+          "效率工具"
+        ],
+        "score": 8,
+        "scoreReason": "产品完成度高、跨全平台且已跑通商业模型（月入 2 万美元），极简架构下的低延迟体验是差异化点。同类语音输入工具不少，竞争激烈，扣分主要在护城河一般。",
+        "competitors": [
+          {
+            "name": "Whisper（OpenAI）",
+            "url": "https://github.com/openai/whisper",
+            "comparison": "Whisper 是开源模型底座而非开箱即用产品，Voicy 在其上做成了普通用户可用的跨平台插件"
+          },
+          {
+            "name": "MacWhisper",
+            "url": "https://goodsnooze.gumroad.com/l/macwhisper",
+            "comparison": "MacWhisper 偏本地文件转写，Voicy 主打实时在任何软件中输入"
+          },
+          {
+            "name": "Talon Voice",
+            "url": "https://talonvoice.com",
+            "comparison": "Talon 面向程序员的自定义语音控制，学习曲线陡，Voicy 面向大众即装即用"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "lastFeaturedDate": "2026-08-24"
+      }
+    },
+    {
+      "id": "x.com/binghe/status/2091195130095272088",
+      "name": "Dembrandt — 网站设计规范一键提取",
+      "slug": "dembrandt",
+      "description": "看到好网站想抄它的设计系统？Dembrandt 可以一键从任意 URL 提取色彩、字体、间距、断点等设计 Token，几秒内生成标准化的 DESIGN.md，把\"截图说不清的设计标准\"变成 AI 可直接理解和复用的规范文档。支持 Claude Code、Cursor、v0、Figma Make 等 AI 工作流，并可像 CI/CD 一样持续追踪设计系统的变更。",
+      "url": "https://www.dembrandt.com/",
+      "homepage": "https://www.dembrandt.com/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "设计系统",
+        "设计规范",
+        "设计 Token",
+        "AI 工作流"
+      ],
+      "sourceChannels": [
+        "twitter"
+      ],
+      "sourceUrl": "https://x.com/binghe/status/2091195130095272088",
+      "firstSeen": "2026-08-22T16:05:46+00:00",
+      "cooldownExpiresAt": "2026-09-07T04:09:58.611154+00:00",
+      "analysis": {
+        "targetAudience": "需要快速借鉴参考网站设计风格的设计师、前端开发者，以及用 AI 工具做产品还原的开发者",
+        "useCases": [
+          "从任意网站一键提取配色、字体、间距等设计规范",
+          "为 AI 编程工具提供标准化的 DESIGN.md 设计上下文",
+          "持续追踪竞品或自有产品的设计系统变更",
+          "在设计走查中快速比对两套设计 Token 差异"
+        ],
+        "designIntent": "解决\"设计语言难以用语言描述、截图无法传达规范\"的痛点，把隐性视觉标准显性化为可机器读取的文档，让 AI 时代的开发与设计协作有了共同的设计上下文。",
+        "problemSolved": "避免靠肉眼截图猜设计参数的低效；让 AI 生成的界面更贴近参考设计；让设计系统像代码一样可版本化、可追踪。",
+        "tags": [
+          "设计系统",
+          "设计 Token",
+          "AI 协作",
+          "效率工具"
+        ],
+        "score": 8,
+        "scoreReason": "切入 AI 设计工作流中\"设计上下文缺失\"的空白点，思路新颖且落地快，官方提供 CLI 与 MCP 多种接入方式。定位略偏开发者，大众普适性一般，故未给满分。",
+        "competitors": [
+          {
+            "name": "Figma（Design Tokens）",
+            "url": "https://www.figma.com",
+            "comparison": "Figma 的 Token 管理面向自有设计文件，Dembrandt 面向\"从任意网站逆向提取外部设计规范"
+          },
+          {
+            "name": "Stylify / 设计规范扫描类工具",
+            "url": "https://stylify.com",
+            "comparison": "同类工具多为浏览器插件截图取色，Dembrandt 输出的是结构化 DESIGN.md 且直接对接 AI 工作流"
+          },
+          {
+            "name": "v0（Vercel）",
+            "url": "https://v0.dev",
+            "comparison": "v0 是 AI 生成 UI 的平台，Dembrandt 是其上游\"喂设计标准\"的提取工具，二者互补"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "lastFeaturedDate": "2026-08-24"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1226829",
+      "name": "Glasp for Firefox — AI 网页高亮与总结",
+      "slug": "glasp-firefox",
+      "description": "Glasp 是面向研究者与学习者的网页/PDF/视频高亮工具，本次发布 Firefox 扩展版本：在任意网页、PDF 或视频上划词高亮，并一键让 AI 生成摘要，还能联动 Notion、Obsidian 等笔记工具沉淀知识。",
+      "url": "https://glasp.co/",
+      "homepage": "https://glasp.co/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "高亮",
+        "AI 摘要",
+        "知识管理",
+        "浏览器扩展"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1226829?app_id=339",
+      "firstSeen": "2026-08-19T07:08:25-07:00",
+      "cooldownExpiresAt": "2026-09-07T04:09:58.611154+00:00",
+      "analysis": {
+        "targetAudience": "经常在网页/PDF/视频上做笔记的研究者、学生、内容从业者和知识管理爱好者",
+        "useCases": [
+          "阅读长文或论文时划重点并生成章节摘要",
+          "看 YouTube 视频时高亮关键片段并记录笔记",
+          "把散落的网页高亮统一导出到 Notion/Obsidian",
+          "与 AI 对话基于已高亮内容做深度问答"
+        ],
+        "designIntent": "Glasp 从\"高亮与知识收藏\"起家，逐步把 AI 总结融入高亮闭环，目标是让每一次划词都自动沉淀为可检索、可再加工的知识资产，本次发布 Firefox 版是为了覆盖 Mozilla 生态用户。",
+        "problemSolved": "解决阅读时笔记分散、高亮内容无法二次利用的问题；AI 摘要让长内容的信息提取更快，笔记沉淀更系统。",
+        "tags": [
+          "AI 高亮",
+          "知识管理",
+          "浏览器扩展",
+          "学习工具"
+        ],
+        "score": 7,
+        "scoreReason": "产品成熟、生态完善（多平台扩展+笔记联动），AI 总结功能实用；但同类高亮工具（如 Readwise）已有较强心智，Glasp 本次只是新增 Firefox 渠道，新鲜度有限。",
+        "competitors": [
+          {
+            "name": "Readwise",
+            "url": "https://readwise.io",
+            "comparison": "Readwise 侧重跨源阅读与回顾复习，Glasp 侧重网页内高亮 + AI 总结 + 导出联动"
+          },
+          {
+            "name": "Raindrop.io",
+            "url": "https://raindrop.io",
+            "comparison": "Raindrop 是书签收藏管理，Glasp 是内容内高亮与知识加工"
+          },
+          {
+            "name": "Hypothesis",
+            "url": "https://hypothes.is",
+            "comparison": "Hypothesis 专注网页批注与团队协作，Glasp 增加 AI 总结和个人知识库沉淀"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "lastFeaturedDate": "2026-08-24"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1223324",
+      "name": "SubtitleGenerator — 浏览器内 AI 字幕生成",
+      "slug": "subtitlegenerator",
+      "description": "一个免费的在线 AI 字幕工具：把视频拖进浏览器即可自动生成字幕，识别不准的词会高亮标记方便秒改，内置 6 大风格家族共 33 种字幕样式，无需注册，视频全程留在本机不上传，适合做短视频、播客剪辑和教程字幕。",
+      "url": "https://subtitlegenerator.app/",
+      "homepage": "https://subtitlegenerator.app/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 字幕",
+        "视频编辑",
+        "短视频",
+        "创客工具"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1223324?app_id=339",
+      "firstSeen": "2026-08-15T00:15:03-07:00",
+      "cooldownExpiresAt": "2026-09-07T04:09:58.611154+00:00",
+      "analysis": {
+        "targetAudience": "短视频创作者、播客剪辑者、视频教程制作者和需要快速配字幕的普通用户",
+        "useCases": [
+          "为抖音/TikTok/YouTube 短视频生成带样式的中英文字幕",
+          "播客或访谈节目快速转写并排版字幕",
+          "游戏高光片段、Reels 等快语速内容自动识别",
+          "本地视频隐私敏感场景下的离线式字幕处理"
+        ],
+        "designIntent": "针对\"AI 字幕工具识别不准、改起来费劲、还要注册上传\"的普遍痛点，主打本地处理 + 不确定词标记 + 免注册免费，把改错字这个最烦人的环节做到最快。",
+        "problemSolved": "解决字幕生成后逐句校对耗时、样式排版复杂、以及视频隐私顾虑；让\"生成-校对-套样式-导出\"一条龙在浏览器内几分钟完成。",
+        "tags": [
+          "AI 字幕",
+          "视频工具",
+          "本地处理",
+          "短视频创作"
+        ],
+        "score": 7,
+        "scoreReason": "免费免注册、本地处理、样式丰富的组合对创作者有吸引力，交互打磨细致；但 AI 字幕赛道竞品众多且大厂入场，差异化仍需靠执行细节取胜。",
+        "competitors": [
+          {
+            "name": "AutoSubtitles",
+            "url": "https://www.autosubtitles.com",
+            "comparison": "AutoSubtitles 侧重批量处理与更多平台分发，SubtitleGenerator 强调本地隐私与快速校对"
+          },
+          {
+            "name": "CapCut 字幕",
+            "url": "https://www.capcut.com",
+            "comparison": "CapCut 是完整剪辑软件内置字幕，SubtitleGenerator 专注字幕这一个环节、更轻更快"
+          },
+          {
+            "name": "Whisper 系本地工具",
+            "url": "https://github.com/openai/whisper",
+            "comparison": "本地 Whisper 工具需要命令行或安装，SubtitleGenerator 浏览器即开即用且带样式系统"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "lastFeaturedDate": "2026-08-24"
+      }
     }
   ],
   "tracking": {
