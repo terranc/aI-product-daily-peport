@@ -1,0 +1,322 @@
+{
+  "date": "2026-08-25",
+  "generatedAt": "2026-08-25T04:14:57.937455+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "producthunt.com/r/p/1229465",
+      "name": "Trama（自然语言 Mac 自动化）",
+      "slug": "trama",
+      "description": "用一句自然语言描述重复任务，Trama 会自动生成可在 Mac 本地运行的自动化流程——支持邮件摘要、文件整理、OCR 截图提取等，出错时 AI 会解释原因并一键修复。",
+      "url": "https://usetrama.com/",
+      "homepage": "https://usetrama.com/",
+      "type": "app",
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/posts/trama",
+      "firstSeen": "2026-08-25T04:14:57.937455+00:00",
+      "analysis": {
+        "targetAudience": "想自动化日常 Mac 重复操作、但不会写代码的普通上班族与独立创作者",
+        "useCases": [
+          "每天早上自动汇总邮件并推送摘要",
+          "复制竞品链接自动触发竞品分析流程",
+          "定时整理下载文件夹与桌面文件",
+          "截图区域自动 OCR 提取文字并翻译",
+          "跨应用（Gmail/Slack/Notion 等）自动执行日常流程"
+        ],
+        "designIntent": "把传统自动化工具（快捷指令、AppleScript）的门槛降到一句自然语言。AI 负责把描述翻译成可运行的步骤、向用户解释每一步决策，并在自动化失败时自动诊断修复，让普通用户也能拥有真正属于自己的本地自动化管家。",
+        "problemSolved": "解决普通用户无法用代码或流程图创建自动化、以及云端工具无法触达本地应用的问题；自动化出错时也不需要自己排查，AI 会解释原因并提供一键修复。",
+        "tags": [
+          "Mac 自动化",
+          "自然语言",
+          "效率工具",
+          "本地优先",
+          "AI 助理"
+        ],
+        "score": 8,
+        "scoreReason": "把 AI 嵌入最日常的『重复操作自动化』场景，面向完全不懂代码的普通用户，产品完成度高、隐私本地化处理得当，且本地+自然语言的组合在竞品中稀缺。短板是依赖 macOS 15.7+，自动化能力受系统授权上限约束。",
+        "competitors": [
+          {
+            "name": "快捷指令 (Shortcuts)",
+            "url": "https://support.apple.com/guide/shortcuts/welcome/ios",
+            "comparison": "苹果内置自动化，但需手动搭建流程，没有 AI 生成与自修复能力"
+          },
+          {
+            "name": "Raycast",
+            "url": "https://www.raycast.com/",
+            "comparison": "Mac 效率启动器，自动化与 AI 能力强但需要配置，普通用户上手门槛更高"
+          },
+          {
+            "name": "TextExpander",
+            "url": "https://textexpander.com/",
+            "comparison": "侧重文本/操作宏扩展，不做完整的多步骤本地自动化"
+          }
+        ]
+      },
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1229465_20260825_120820.png",
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "tags": [
+        "Mac 自动化",
+        "自然语言",
+        "效率工具",
+        "本地优先",
+        "AI 助理"
+      ]
+    },
+    {
+      "id": "v2ex.com/t/1236996",
+      "name": "EasyReader（AI 论文阅读助手）",
+      "slug": "easyreader",
+      "description": "面向科研的 AI 论文阅读软件：按学科调校的 LLM 全文翻译、公式图表排版还原、一键思维导图与论文导读、跨库搜文献及 arxiv 语义检索。",
+      "url": "https://www.easyreader.com.cn/",
+      "homepage": "https://www.easyreader.com.cn/",
+      "type": "app",
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "sourceUrl": "https://www.v2ex.com/t/1236996",
+      "firstSeen": "2026-08-25T04:14:57.937455+00:00",
+      "analysis": {
+        "targetAudience": "需要大量阅读英文论文的高校师生、科研人员与工程师",
+        "useCases": [
+          "整篇论文 LLM 高质量翻译（按学科调校）",
+          "一键生成论文思维导图与导读",
+          "提取论文中的 LaTeX 公式",
+          "在 arxiv 论文库内进行语义匹配检索",
+          "跨库搜索并定位相关文献"
+        ],
+        "designIntent": "针对『论文阅读』这一科研刚需，把 LLM 翻译、排版还原、结构化理解整合成一套流程，解决机翻生硬、公式图表乱码、长论文读不完三大痛点，让非母语读者更快抓住论文核心。",
+        "problemSolved": "解决学术论文翻译质量差、PDF 排版还原难（公式图表乱码）以及文献检索理解效率低的问题，把『读论文』从数小时压缩到数十分钟。",
+        "tags": [
+          "论文阅读",
+          "AI 翻译",
+          "科研工具",
+          "文献检索",
+          "学习效率"
+        ],
+        "score": 7,
+        "scoreReason": "切中科研人群真实高频需求，按学科调校的翻译与排版还原是差异化亮点，并提供免费额度降低转化门槛。竞品不少（沉浸式翻译/DeepL 等），但『论文全流程』定位较独特；产品仍在迭代中，成熟度待观察。",
+        "competitors": [
+          {
+            "name": "沉浸式翻译",
+            "url": "https://immersivetranslate.com/",
+            "comparison": "浏览器通用翻译插件，不针对论文排版、公式与学科调校"
+          },
+          {
+            "name": "DeepL",
+            "url": "https://www.deepl.com/",
+            "comparison": "高质量机器翻译，但无论文结构化功能与学科模型"
+          },
+          {
+            "name": "ReadPaper",
+            "url": "https://readpaper.com/",
+            "comparison": "论文阅读翻译平台，功能相近但定位与收费方式不同"
+          }
+        ]
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "tags": [
+        "论文阅读",
+        "AI 翻译",
+        "科研工具",
+        "文献检索",
+        "学习效率"
+      ]
+    },
+    {
+      "id": "mybestlook.app",
+      "name": "MyBestLook（AI 穿搭造型师）",
+      "slug": "mybestlook",
+      "description": "上传照片即可 AI 试穿 20+ 成套造型、试 30+ 款发型发色、对网购商品虚拟试穿，还能给穿搭打分并给出诚实的 BUY/PASS 建议，已累计 150 万+ 次生成。",
+      "url": "https://mybestlook.app",
+      "homepage": "https://mybestlook.app",
+      "type": "website",
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49425597",
+      "firstSeen": "2026-08-25T04:14:57.937455+00:00",
+      "analysis": {
+        "targetAudience": "爱美但怕买错衣服的普通消费者，尤其是网购高频和想低成本换风格的用户",
+        "useCases": [
+          "网购衣服前虚拟试穿，避免退货踩雷",
+          "尝试新发型发色，不伤头发不后悔",
+          "衣橱单品一键生成 4 套不同场合搭配",
+          "试衣间拍照片让 AI 给出 BUY/PASS 建议",
+          "生成社交媒体风格写真与形象照"
+        ],
+        "designIntent": "把『时尚顾问』装进口袋：用 AI 把试穿、换发型、穿搭评分这些原本需要实体试衣间和专业人士的体验搬到线上，降低试错成本与购物后悔率。",
+        "problemSolved": "解决网购无法试穿、剪发染发风险高、衣橱『没衣服穿』和冲动消费等日常穿搭痛点，用 AI 给出客观诚实的穿搭建议而非客套话。",
+        "tags": [
+          "AI 换装",
+          "虚拟试穿",
+          "时尚",
+          "消费决策",
+          "图像生成"
+        ],
+        "score": 7,
+        "scoreReason": "面向大众的消费级 AI 应用，已积累 150 万+ 次生成证明需求真实，按次付费无订阅的模式清晰。技术门槛不算高、同质化竞争激烈，主要靠产品体验与定价取胜。",
+        "competitors": [
+          {
+            "name": "YouCam Makeup",
+            "url": "https://www.perfectcorp.com/consumer/apps/youcam-makeup",
+            "comparison": "聚焦美妆虚拟试妆与发型，不覆盖全套装扮与穿搭评分"
+          },
+          {
+            "name": "Zalando/天猫虚拟试衣",
+            "url": "https://www.zalando.com/",
+            "comparison": "电商内嵌的试穿功能，局限于平台内商品"
+          },
+          {
+            "name": "Style AI 类应用",
+            "url": "https://www.theyes.com/",
+            "comparison": "偏个性化推荐而非可视化试穿试戴"
+          }
+        ]
+      },
+      "screenshotUrl": "assets/screenshots/mybestlook.app_20260825_120929.png",
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "tags": [
+        "AI 换装",
+        "虚拟试穿",
+        "时尚",
+        "消费决策",
+        "图像生成"
+      ]
+    },
+    {
+      "id": "peerpixel.cc",
+      "name": "PeerPixel（社区互助 AI 图像生成）",
+      "slug": "peerpixel",
+      "description": "完全免费的 AI 图像生成：没有数据中心，由社区成员贡献闲置显卡互相渲染，以『像素』积分记账，加入即送 20 像素、贡献算力可得 90% 积分，真正零成本。",
+      "url": "https://peerpixel.cc/",
+      "homepage": "https://peerpixel.cc/",
+      "type": "website",
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49428420",
+      "firstSeen": "2026-08-25T04:14:57.937455+00:00",
+      "analysis": {
+        "targetAudience": "需要免费 AI 图像生成的学生、创作者与爱好者，以及有闲置 GPU 的玩家",
+        "useCases": [
+          "免费生成写实/动漫/水彩等多风格图片",
+          "打开贡献模式让闲置显卡为他人渲染赚像素",
+          "4 倍超分（AuraSR）导出高清大图",
+          "社区浏览、点赞与灵感收集",
+          "以 1-4 像素优先级加速自己的生成队列"
+        ],
+        "designIntent": "用『人人为我、我为人人』的点对点算力共享替代昂贵的数据中心，让 AI 图像生成对所有人真正免费，同时通过署名与积分建立互相贡献的社区文化。",
+        "problemSolved": "解决主流 AI 绘图工具按次收费/订阅对低频用户的成本问题，以及大量闲置 GPU 算力被浪费的问题，让免费生成可持续运转。",
+        "tags": [
+          "AI 绘图",
+          "免费",
+          "算力共享",
+          "社区",
+          "点对点"
+        ],
+        "score": 7,
+        "scoreReason": "免费+点对点算力共享的模式新颖、故事性强，具备社区传播潜力，对『免费』的坚持很有话题度。但依赖志愿者显卡，排队速度与渲染质量是短板，长期可持续性有待验证。",
+        "competitors": [
+          {
+            "name": "Bing Image Creator",
+            "url": "https://www.bing.com/images/create",
+            "comparison": "大厂补贴的免费 AI 绘图入口，但需微软账号且有使用额度限制"
+          },
+          {
+            "name": "Leonardo AI",
+            "url": "https://leonardo.ai/",
+            "comparison": "质量高但免费额度有限，核心功能需订阅"
+          },
+          {
+            "name": "Civitai",
+            "url": "https://civitai.com/",
+            "comparison": "偏专业模型社区与生成本地部署，面向进阶创作者"
+          }
+        ]
+      },
+      "screenshotUrl": "assets/screenshots/peerpixel.cc_20260825_120942.png",
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "tags": [
+        "AI 绘图",
+        "免费",
+        "算力共享",
+        "社区",
+        "点对点"
+      ]
+    },
+    {
+      "id": "producthunt.com/r/p/1229798",
+      "name": "Contrive（跨应用 AI 工作搜索台）",
+      "slug": "contrive",
+      "description": "桌面命令栏，把 Slack、Notion、Google Drive 等十几个工作应用聚合到一处，用自然语言搜索、得到带来源的 AI 答案，并能直接跨应用创建文档、分配任务、发消息。",
+      "url": "https://contrive.app/",
+      "homepage": "https://contrive.app/",
+      "type": "app",
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/posts/contrive",
+      "firstSeen": "2026-08-25T04:14:57.937455+00:00",
+      "analysis": {
+        "targetAudience": "同时使用多款协作软件、饱受『切应用找资料』之苦的知识工作者与团队",
+        "useCases": [
+          "一条命令搜遍 Slack/Notion/Drive 的全部资料",
+          "自然语言提问并得到带来源引用的答案",
+          "跨应用创建文档、分配任务、发送消息",
+          "多工作区之间切换并保持权限隔离",
+          "替代在十几个应用里分别搜索的繁琐流程"
+        ],
+        "designIntent": "把散落在十几个工作应用里的信息聚合成一个权限感知的桌面命令栏，让搜索、问答、执行一步到位，把『找资料』的上下文切换成本降到最低。",
+        "problemSolved": "解决工作信息碎片化——找资料要在 Slack/Notion/Drive 之间反复切换的问题，同时通过权限感知保证只返回用户有权限访问的内容。",
+        "tags": [
+          "工作搜索",
+          "跨应用",
+          "桌面应用",
+          "效率工具",
+          "AI 问答"
+        ],
+        "score": 7,
+        "scoreReason": "切中职场人高频痛点，AI 问答+行动一体化体验流畅，macOS/Windows 双端覆盖。但该赛道拥挤（Dropbox Dash/GoSearch 等大厂与创业公司并存），需靠执行质量与本地体验差异化。",
+        "competitors": [
+          {
+            "name": "Dropbox Dash",
+            "url": "https://www.dash.dropbox.com/",
+            "comparison": "跨应用统一搜索，背靠大厂但偏文件搜索、AI 执行能力弱"
+          },
+          {
+            "name": "GoSearch",
+            "url": "https://www.gosearch.ai/",
+            "comparison": "AI 工作区搜索问答，B2B 团队定位，深度偏企业知识库"
+          },
+          {
+            "name": "Raycast",
+            "url": "https://www.raycast.com/",
+            "comparison": "Mac 效率启动器生态丰富，但跨应用聚合搜索需自行配置集成"
+          }
+        ]
+      },
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1229798_20260825_120952.png",
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "tags": [
+        "工作搜索",
+        "跨应用",
+        "桌面应用",
+        "效率工具",
+        "AI 问答"
+      ]
+    }
+  ]
+}
