@@ -1,6 +1,6 @@
 {
   "version": 11,
-  "lastUpdated": "2026-08-25T04:15:32.729584+00:00",
+  "lastUpdated": "2026-08-26T04:12:00.606580+00:00",
   "products": [
     {
       "id": "producthunt.com/r/p/1198621",
@@ -28065,6 +28065,326 @@
         "featuredInDaily": 1,
         "lastFeaturedDate": "2026-08-25"
       }
+    },
+    {
+      "id": "producthunt.com/r/p/1204828",
+      "product_id": "producthunt.com/r/p/1204828",
+      "name": "Memoria — 本地 AI 照片搜索",
+      "slug": "memoria",
+      "description": "一款 iOS/Android 本地 AI 照片与视频搜索引擎，通过端侧 OCR、Whisper 语音转写、人脸识别与物体识别为相册建立索引，支持按文字、语音、人脸、物体即时搜索。100% 离线处理、隐私优先，一次买断无订阅。",
+      "url": "https://apps.apple.com/us/app/memoria-search-your-photos/id6782662618?uo=4",
+      "homepage": "https://apps.apple.com/us/app/memoria-search-your-photos/id6782662618?uo=4",
+      "type": "app",
+      "tags": [
+        "AI 照片搜索",
+        "本地隐私",
+        "OCR 文字识别",
+        "人脸识别",
+        "语音转写"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/memoria-5",
+      "firstSeen": "2026-07-23T10:25:12-07:00",
+      "cooldownExpiresAt": "2026-09-09T04:12:00.606580+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "lastFeaturedDate": "2026-08-26"
+      },
+      "analysis": {
+        "targetAudience": "相册动辄上万张、想按内容快速找回照片/视频片段的普通用户，以及注重隐私、不愿把照片上传云端的用户。",
+        "useCases": [
+          "凭记忆中的一句话搜到录课/会议视频里的发言片段",
+          "搜索白板照片、截图、收据里的文字内容",
+          "一键找出某位家人或朋友的全部照片",
+          "按画面内容（如“红色自行车”）搜索相册"
+        ],
+        "designIntent": "解决“数字鞋盒”问题——照片拍了成千上万张却很难找回具体瞬间。设计上坚持全程端侧处理，把隐私作为核心卖点，并因没有服务器成本而采用一次买断制替代订阅，让用户无后顾之忧地建立自己的本地记忆库。",
+        "problemSolved": "传统相册只能按时间翻找，无法搜索图片内的文字、视频里的语音和人脸。Memoria 把这些内容全部在本地索引为可搜索数据，让用户秒级找回回忆，同时保证照片永不离开设备。",
+        "tags": [
+          "AI 照片搜索",
+          "本地隐私",
+          "OCR 文字识别",
+          "人脸识别",
+          "语音转写"
+        ],
+        "score": 9,
+        "scoreReason": "把 OCR、语音转写、人脸与物体识别整合进面向普通用户的相册 App，功能完整且 100% 端侧运行，隐私定位清晰、一次买断定价友好，是“AI 融入日常场景”的典型代表。扣分点在于 Google Photos 等免费云方案功能接近，需靠隐私差异打动用户。",
+        "competitors": [
+          {
+            "name": "Google Photos",
+            "url": "https://photos.google.com",
+            "comparison": "云端相册功能强大且免费，但照片需上传服务器，隐私敏感用户不适用"
+          },
+          {
+            "name": "Apple Photos 智能搜索",
+            "url": "https://www.apple.com/icloud/photos/",
+            "comparison": "系统级相册本地搜索能力有限，无法搜视频语音，跨设备还依赖 iCloud"
+          }
+        ]
+      },
+      "appStoreName": "Memoria - Search Your Photos",
+      "appStoreUrl": "https://apps.apple.com/us/app/memoria-search-your-photos/id6782662618?uo=4",
+      "screenshotUrl": null,
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e7/bd/32/e7bd323e-5762-596d-88b3-dc8881d12d9d/Frame_1_-_EN.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5d/f9/d5/5df9d5ea-9f4f-4663-1738-3a8ec90a9a9c/Frame_2_-_EN.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/96/7a/31/967a3123-f10c-2497-f082-a62dfe676981/Frame_3_-_EN.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/67/30/6e/67306e21-3786-2188-e08e-6d79fa3b907c/Frame_4_-_EN.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/84/d5/4e/84d54ead-ce45-b780-dbe8-bd84d63e4543/Frame_5_-_EN.png/320x480bb.jpg"
+      ]
+    },
+    {
+      "id": "x.com/phibrowser/status/2086967552585163145",
+      "product_id": "x.com/phibrowser/status/2086967552585163145",
+      "name": "Phi — AI 浏览器（macOS）",
+      "slug": "phi-ai-browser",
+      "description": "一款面向 macOS 的 Chromium 内核原生 AI 浏览器（AppKit + SwiftUI），用 Spaces 与 Profiles 将工作/个人标签页和登录彻底隔离，AI 助手与代理可在同一标签页内协同工作。本地优先、开源可审计，支持 Apple 端侧模型与 Ollama/LM Studio。",
+      "url": "https://phibrowser.com",
+      "homepage": "https://phibrowser.com",
+      "type": "website",
+      "tags": [
+        "AI 浏览器",
+        "macOS",
+        "本地优先",
+        "开源",
+        "AI 代理"
+      ],
+      "sourceChannels": [
+        "twitter"
+      ],
+      "sourceUrl": "https://x.com/phibrowser/status/2086967552585163145",
+      "firstSeen": "2026-08-11T00:06:53+00:00",
+      "cooldownExpiresAt": "2026-09-09T04:12:00.606580+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "lastFeaturedDate": "2026-08-26"
+      },
+      "analysis": {
+        "targetAudience": "需要同时管理工作与个人多账号浏览、又希望 AI 助手直接在浏览器里干活的 Mac 重度用户，尤其是 Arc 浏览器的迁移者。",
+        "useCases": [
+          "用 Spaces/Profiles 隔离工作与私人登录，告别“点链接进错账号”",
+          "让 AI 代理在标签页里自动完成填表、整理资料，随时人工接管",
+          "通过配套扩展在手机上远程调用浏览器的记忆与助手",
+          "用 Apple 端侧模型或 Ollama 本地跑 AI，敏感浏览数据不出本机"
+        ],
+        "designIntent": "针对“人和 AI 代理能否共用同一个浏览器”的命题设计：让 AI 成为浏览器的一等公民，在同一个窗口、会话、标签页里与用户协作，而非被隔离在沙箱中；同时坚持原生开发、本地优先、开源可审计，把浏览器变成“认识你”的个人伙伴。",
+        "problemSolved": "现有浏览器要么只服务人、要么只服务无头机器人；Phi 让两者共存，用 Spaces/Profiles 解决多账号混乱，用本地可读的记忆文件与端侧模型解决 AI 时代的隐私问题。",
+        "tags": [
+          "AI 浏览器",
+          "macOS",
+          "本地优先",
+          "开源",
+          "AI 代理"
+        ],
+        "score": 9,
+        "scoreReason": "AI 浏览器是当前最热赛道之一，Phi 把“人机共用一个浏览器”做到原生体验，开源客户端、本地记忆与端侧模型差异化明显，自四月起高频迭代。风险是同赛道（Dia、Comet 等）竞争激烈，且目前仅支持 macOS。",
+        "competitors": [
+          {
+            "name": "Arc",
+            "url": "https://arc.net",
+            "comparison": "界面与空间管理优秀，但 AI 能力相对封闭且不开源"
+          },
+          {
+            "name": "Dia",
+            "url": "https://dia.com",
+            "comparison": "同为 AI 浏览器，主打搜索与代理执行，生态更完整但非本地优先"
+          }
+        ]
+      },
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/tw_2086967552585163145_20260826_121032.png",
+      "appStoreScreenshots": []
+    },
+    {
+      "id": "producthunt.com/r/p/1227508",
+      "product_id": "producthunt.com/r/p/1227508",
+      "name": "Assistly — 隐形 AI 实时会议助手",
+      "slug": "assistly",
+      "description": "一款 macOS/Windows 桌面应用，会议进行时实时转写，并在仅自己可见的覆盖层上给出回答要点与结构化建议。不加入会议机器人、不进入屏幕共享，会议结束自动生成纪要，免费版每月 3 次会议。",
+      "url": "https://tryassistly.com",
+      "homepage": "https://tryassistly.com",
+      "type": "website",
+      "tags": [
+        "会议助手",
+        "实时转写",
+        "隐形覆盖层",
+        "隐私",
+        "AI 副驾"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/assistly-4",
+      "firstSeen": "2026-08-20T02:11:26-07:00",
+      "cooldownExpiresAt": "2026-09-09T04:12:00.606580+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "lastFeaturedDate": "2026-08-26"
+      },
+      "analysis": {
+        "targetAudience": "需要频繁开线上会议、希望在提问瞬间获得 AI 提示又不愿让“机器人”入会打扰他人的职场人，如销售、顾问、面试者与产品经理。",
+        "useCases": [
+          "客户/面试提问瞬间，屏幕弹出参考回答要点",
+          "会议全程实时转写，多位说话人自动区分",
+          "会后自动生成决策、待办与负责人清单",
+          "与 Zoom、Google Meet、Teams 等任意会议软件搭配使用"
+        ],
+        "designIntent": "针对“会议机器人入会太显眼、事后纪要又太迟”的痛点，把 AI 助手做成只对用户可见的桌面覆盖层：实时听、实时答，却不打扰会议其他参与者，强调隐私与“无痕”体验，并提供免费额度降低试用门槛。",
+        "problemSolved": "传统会议助手需以机器人身份加入会议，参会者可见且可能被排斥；事后总结又无法在提问当下提供帮助。Assistly 以本地覆盖层实现“当刻即可用的私人副驾”，同时保证内容不进屏幕共享。",
+        "tags": [
+          "会议助手",
+          "实时转写",
+          "隐形覆盖层",
+          "隐私",
+          "AI 副驾"
+        ],
+        "score": 8,
+        "scoreReason": "切中“实时需要答案”的真实场景，无机器人、不进屏幕共享的定位解决了隐私顾虑，免费额度降低试用门槛。但该赛道同类产品密集、同质化明显，长期差异需看模型能力与本地化表现。",
+        "competitors": [
+          {
+            "name": "Fathom",
+            "url": "https://fathom.video",
+            "comparison": "主流会议纪要机器人，有入会提示且依赖会议平台支持"
+          },
+          {
+            "name": "Otter.ai",
+            "url": "https://otter.ai",
+            "comparison": "转写与纪要成熟，但以机器人/云端处理为主，实时辅助较弱"
+          }
+        ]
+      },
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/ph_assistly_20260826_121043.png",
+      "appStoreScreenshots": []
+    },
+    {
+      "id": "producthunt.com/r/p/1227963",
+      "product_id": "producthunt.com/r/p/1227963",
+      "name": "KanaSensei — 两周学会日文假名",
+      "slug": "kanasensei",
+      "description": "一个浏览器端日语假名学习 PWA，用间隔重复算法、漫画式记忆口诀与日本母语者录音，帮初学者在两周内掌握平假名与片假名，含弱项检测、连击挑战与单词练习，$2.99 一次买断解锁高级功能。",
+      "url": "https://kanasensei.dev",
+      "homepage": "https://kanasensei.dev",
+      "type": "website",
+      "tags": [
+        "日语学习",
+        "间隔重复",
+        "假名",
+        "语言学习",
+        "教育"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/kanasensei",
+      "firstSeen": "2026-08-20T12:24:28-07:00",
+      "cooldownExpiresAt": "2026-09-09T04:12:00.606580+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "lastFeaturedDate": "2026-08-26"
+      },
+      "analysis": {
+        "targetAudience": "日语零基础学习者、准备去日本旅行的人、动漫/游戏爱好者，以及被死记硬背劝退的自学者。",
+        "useCases": [
+          "每天 5 分钟碎片时间做假名间隔重复练习",
+          "去日本前集中攻克片假名，读懂外来语招牌与菜单",
+          "借助图像记忆口诀区分「つ/し」等易混假名",
+          "单词模式把假名应用到真实词汇，衔接后续日语学习"
+        ],
+        "designIntent": "把“背假名”这件枯燥的事做成认知科学驱动的沉浸练习：用间隔重复对抗遗忘曲线，用记忆口诀降低初始门槛，用日本母语者录音补足发音，把日语学习的第一道大坎变成两周内可跨越的小坡。",
+        "problemSolved": "传统假名学习靠死记硬背，缺乏互动、自适应与发音指导，初学者流失率高。KanaSensei 用 SRS + 口诀 + 原生音频的“多感官闭环”让基础字符快速内化，且免费可用。",
+        "tags": [
+          "日语学习",
+          "间隔重复",
+          "假名",
+          "语言学习",
+          "教育"
+        ],
+        "score": 8,
+        "scoreReason": "目标极其聚焦、产品完成度高，SRS+口诀+原生音频的组合科学有效，免费可用、$2.99 买断价低。局限是只覆盖假名这一小阶段，且“两周学会”的宣称需要坚持度支撑。",
+        "competitors": [
+          {
+            "name": "Duolingo",
+            "url": "https://www.duolingo.com",
+            "comparison": "泛化语言学习应用，假名部分不够深入系统"
+          },
+          {
+            "name": "Anki",
+            "url": "https://apps.ankiweb.net",
+            "comparison": "间隔重复强大但需自找卡组，无引导与发音辅助"
+          }
+        ]
+      },
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/ph_kanasensei_20260826_121052.png",
+      "appStoreScreenshots": []
+    },
+    {
+      "id": "speakenglish.tenken.co",
+      "product_id": "speakenglish.tenken.co",
+      "name": "Declaude — 把“Claude 腔”改回人话",
+      "slug": "declaude",
+      "description": "一个在线写作工具，把 Claude/ChatGPT 等 AI 生成文本中那种啰嗦、公式化的“AI 腔”改写成自然的人类语言。作者因做量子化学课程时花大量 token 和 Claude 较劲“说人话”而开发，粘贴文本即可一键清洗。",
+      "url": "https://speak-english.tenken.co/",
+      "homepage": "https://speak-english.tenken.co/",
+      "type": "website",
+      "tags": [
+        "AI 写作",
+        "文本改写",
+        "去 AI 味",
+        "内容创作",
+        "效率工具"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49443296",
+      "firstSeen": "2026-08-26T02:04:04Z",
+      "cooldownExpiresAt": "2026-09-09T04:12:00.606580+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "lastFeaturedDate": "2026-08-26"
+      },
+      "analysis": {
+        "targetAudience": "教师、内容创作者、学生等需要把 AI 生成内容改造成自然文风、又不想逐句手动润色的写作者。",
+        "useCases": [
+          "把 AI 写的课程讲义、文章一键改成人类口吻",
+          "批量清洗 AI 生成的邮件、报告中的陈词滥调",
+          "团队做“去 AI 味”写作规范前的快速预处理"
+        ],
+        "designIntent": "作者因做量子化学课程时花大量 token 与 Claude 较劲“说人话”而开发，把消除 claude-speak 的调教过程封装成一件即用工具，让普通用户不必研究提示词工程也能得到自然表达。",
+        "problemSolved": "AI 写作工具输出往往冗长、公式化、过度礼貌，用户反复提示仍难根治。Declaude 一键将这类文本转换为自然、简洁、像真人写的表达，节省大量改写与返工时间。",
+        "tags": [
+          "AI 写作",
+          "文本改写",
+          "去 AI 味",
+          "内容创作",
+          "效率工具"
+        ],
+        "score": 7,
+        "scoreReason": "痛点真实且普遍——“AI 腔”人人有感受，工具轻量即用，HN 展示引发共鸣。但定位偏小众、护城河浅，通用模型加提示词也能做类似事情，需靠稳定的改写质量形成口碑。",
+        "competitors": [
+          {
+            "name": "Hemingway Editor",
+            "url": "https://hemingwayapp.com",
+            "comparison": "标注冗长句与被动语态提升简洁度，但并非针对 AI 腔"
+          },
+          {
+            "name": "通用大模型改写",
+            "url": "https://chatgpt.com",
+            "comparison": "通用模型可做改写，但需自己设计提示词且效果不稳定"
+          }
+        ]
+      },
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/hn_49443296_20260826_121059.png",
+      "appStoreScreenshots": []
     }
   ],
   "tracking": {
