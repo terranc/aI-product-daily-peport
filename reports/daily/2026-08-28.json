@@ -1,0 +1,323 @@
+{
+ "date": "2026-08-28",
+ "generatedAt": "2026-08-28T04:08:28.325968+00:00",
+ "productCount": 5,
+ "products": [
+  {
+   "id": "chessrabbit.co",
+   "name": "ChessRabbit（AI 国际象棋复盘分析）",
+   "slug": "chessrabbit",
+   "description": "面向国际象棋爱好者的 AI 复盘分析平台。传统引擎（如 Stockfish）只会告诉你某步棋「很糟」，却说不清为什么；ChessRabbit 把 AI 与引擎评估结合，用通俗语言逐条解释每步棋的得失，让复盘真正变成学习。",
+   "url": "https://chessrabbit.co",
+   "homepage": "https://chessrabbit.co",
+   "type": "website",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/chessrabbit.co_20260828_120601.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "国际象棋",
+    "AI 复盘分析",
+    "棋局讲解",
+    "学习工具",
+    "AI 教练"
+   ],
+   "sourceChannels": [
+    "hackernews"
+   ],
+   "sourceUrl": "https://news.ycombinator.com/item?id=49473722",
+   "firstSeen": "2026-08-28T02:38:33+00:00",
+   "analysis": {
+    "targetAudience": "想提升棋力却看不懂引擎评分的国际象棋爱好者与业余棋手",
+    "useCases": [
+     "赛后逐盘复盘，理解每步棋的得失",
+     "新手学习「为什么这步棋差」的对局讲解",
+     "赛前准备与开局/残局专题训练",
+     "家长为孩子挑选的棋艺进阶工具",
+     "直播/视频创作者做棋局解说辅助"
+    ],
+    "designIntent": "国际象棋引擎给出的胜率与分数对普通玩家是黑盒，ChessRabbit 意在把「评分」翻译成能看懂的语言，充当一位讲得清道理的 AI 棋艺教练，降低复盘门槛、提升学棋效率。",
+    "problemSolved": "解决传统引擎只给数字、不解释原因的痛点，让非专业棋手也能从每一步棋中真正学到东西，把「看评分」升级为「学棋理」。",
+    "tags": [
+     "国际象棋",
+     "AI 复盘",
+     "棋局讲解",
+     "学习工具"
+    ],
+    "score": 8,
+    "scoreReason": "把冷冰冰的引擎评分变成人话讲解，切中国际象棋爱好者真实痛点，方向稀缺且体验直接；产品尚在早期、功能深度有限，故给 8 分。",
+    "competitors": [
+     {
+      "name": "Lichess 分析",
+      "url": "https://lichess.org",
+      "comparison": "免费开源且引擎分析强大，但只有评分曲线，缺少通俗的逐步行棋讲解。"
+     },
+     {
+      "name": "Chess.com Game Review",
+      "url": "https://www.chess.com",
+      "comparison": "提供带简要说明的复盘评分，用户量大，但订阅制且讲解较模板化。"
+     },
+     {
+      "name": "Stockfish",
+      "url": "https://stockfishchess.org",
+      "comparison": "最强开源引擎，性能顶尖，但面向开发者，没有面向普通玩家的解释层。"
+     }
+    ]
+   }
+  },
+  {
+   "id": "reddit.com/r/sideproject/comments/1w0ea03/ibuiltaniosappthatlocksinstagramuntilyou",
+   "name": "Dottle（AI 验证式防拖延锁屏）",
+   "slug": "dottle",
+   "description": "iOS 防拖延应用：选出会「偷走你时间」的应用并设定真实任务，启动后这些应用保持锁定，直到你提交照片或文字证明任务完成、经 AI 审核通过才解锁，把「再刷五分钟」变成「先做完事」。",
+   "url": "https://dottleapp.com",
+   "homepage": "https://dottleapp.com",
+   "type": "app",
+   "appStoreName": "Dottle: Beat Procrastination",
+   "appStoreUrl": "https://apps.apple.com/us/app/dottle-beat-procrastination/id6755637178?uo=4",
+   "screenshotUrl": "assets/screenshots/reddit.com_r_sideproject_comments_1w0ea03_ibuiltaniosappthatlocksinstagramuntilyou_20260828_120609.png",
+   "appStoreScreenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/69/08/08/6908082d-145d-e7f9-cf64-59ddf459e760/image1.jpg/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/59/57/b1/5957b12a-b4ae-2be6-4352-8a2503269907/image2.jpg/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3c/16/e6/3c16e69c-e784-e8c7-24c7-3a2fb0b1256f/image3.jpg/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c9/e7/70/c9e770e3-3962-d920-70b2-29c0a53f114a/image4.jpg/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/53/e2/26/53e2267b-9d62-9747-944b-78b811ec2206/image5.jpg/320x480bb.jpg"
+   ],
+   "tags": [
+    "防拖延",
+    "专注力",
+    "AI 验证",
+    "时间管理",
+    "健康用机"
+   ],
+   "sourceChannels": [
+    "reddit"
+   ],
+   "sourceUrl": "https://www.reddit.com/r/SideProject/comments/1w0ea03/i_built_an_ios_app_that_locks_instagram_until_you/",
+   "firstSeen": "2026-08-28T02:35:26+00:00",
+   "analysis": {
+    "targetAudience": "沉迷手机、想戒掉刷短视频与社交媒体的学生、上班族与创作者",
+    "useCases": [
+     "备考/学习时锁掉 Instagram、抖音等社交 App",
+     "写作与深度工作时的专注锁机",
+     "戒断睡前/碎片时间刷屏习惯",
+     "用「任务解锁」机制训练自律",
+     "家长为孩子设置手机使用边界"
+    ],
+    "designIntent": "屏幕使用时间限制都能被「再玩五分钟」轻松绕过，Dottle 用「完成真实任务 + AI 验证」把解锁变成需要付出努力才能获得的奖励，让意志力缺口被机制补上。",
+    "problemSolved": "解决 App 定时器可随手关闭、防沉迷工具形同虚设的问题，把「自律」转化为「先做完事才能解锁」的硬约束，并用 AI 审核挡住造假。",
+    "tags": [
+     "防拖延",
+     "专注",
+     "AI 验证",
+     "锁机"
+    ],
+    "score": 8,
+    "scoreReason": "机制创新（AI 验证任务完成才解锁）直击防沉迷工具被轻易绕过的痛点，需求真实、玩法新鲜；作为早期独立 App 生态与运营尚浅，给 8 分。",
+    "competitors": [
+     {
+      "name": "Locky: Do Tasks, Unlock Apps",
+      "url": "https://apps.apple.com/us/app/locky-do-tasks-unlock-apps/id6759135387",
+      "comparison": "同为「任务解锁」思路，偏健身/家务类任务，AI 验证与任务自由度弱于 Dottle。"
+     },
+     {
+      "name": "Opal",
+      "url": "https://www.opal.so",
+      "comparison": "主流专注/屏蔽 App，拦截能力强但依赖自觉，无 AI 验证环节。"
+     },
+     {
+      "name": "苹果屏幕使用时间",
+      "url": "https://www.apple.com.cn/screen-time/",
+      "comparison": "系统内置可一键忽略限制，无法形成强约束。"
+     }
+    ]
+   }
+  },
+  {
+   "id": "x.com/aigclink/status/2092957706231693446",
+   "name": "Microduck（Hugging Face 开源桌面小黄鸭机器人）",
+   "slug": "microduck",
+   "description": "Hugging Face 旗下 Pollen Robotics 推出的双足小黄鸭机器人：25cm 高、约 800g，能行走、坐下、摔倒后自己爬起，甚至溜旱冰；配有 15 个电机、摄像头与深度传感器，可用强化学习教它新技能，全开源，399 美元预售。",
+   "url": "https://pollen-robotics.com/microduck/",
+   "homepage": "https://pollen-robotics.com/microduck/",
+   "type": "website",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/x.com_aigclink_status_2092957706231693446_20260828_120621.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "机器人",
+    "开源硬件",
+    "强化学习",
+    "AI 玩具",
+    "桌面机器人"
+   ],
+   "sourceChannels": [
+    "twitter"
+   ],
+   "sourceUrl": "https://x.com/aigclink/status/2092957706231693446",
+   "firstSeen": "2026-08-27T12:49:37+00:00",
+   "analysis": {
+    "targetAudience": "AI 与机器人爱好者、创客、开发者以及想尝鲜的家庭用户",
+    "useCases": [
+     "桌面陪伴与展示，当「电子宠物」",
+     "用强化学习训练它走路、滑冰等新动作",
+     "开源二次开发与机器人教学实验",
+     "STEM / 编程教育演示教具",
+     "极客收藏与开箱体验"
+    ],
+    "designIntent": "让「可训练、可编程」的机器人走进普通桌面：以 399 美元的亲民价格和完整开源生态降低 AI 硬件门槛，把机器人从实验室带到日常生活，主打「可爱 + 可玩 + 可改」。",
+    "problemSolved": "解决高端人形/四足机器人价格高、封闭不可玩的痛点，提供普通人就能预购、可自行训练新技能的开源双足机器人平台。",
+    "tags": [
+     "机器人",
+     "开源硬件",
+     "强化学习",
+     "桌面玩具"
+    ],
+    "score": 8,
+    "scoreReason": "Hugging Face 出品 + 399 美元 + 全开源 + 强化学习玩法，话题性与可玩性俱佳，是普通人离「可训练机器人」最近的一次；需等到货验证实际体验，给 8 分。",
+    "competitors": [
+     {
+      "name": "Pollen Robotics Reachy Mini",
+      "url": "https://pollen-robotics.com",
+      "comparison": "同团队桌面机械臂机器人，定位专业展示与开发，形态和玩法与 Microduck 不同。"
+     },
+     {
+      "name": "Petoi Bittle",
+      "url": "https://www.petoi.com",
+      "comparison": "开源四足桌面机器人，主打编程教育，机动性与「宠物感」弱于双足小鸭。"
+     },
+     {
+      "name": "索尼 aibo",
+      "url": "https://us.aibo.com",
+      "comparison": "消费级陪伴机器人标杆，但价格高昂且闭源不可编程。"
+     }
+    ]
+   }
+  },
+  {
+   "id": "v2ex.com/t/1237766",
+   "name": "Kapinote（本地优先 AI 会议纪要）",
+   "slug": "kapinote",
+   "description": "macOS 本地优先的 AI 会议助手：直接捕获系统与麦克风音频实时转写，自动生成结构化纪要、关键决策与行动项；音频、转录与笔记全部存在本地 SQLite，默认不上传云端，可复用本机 CLI 登录或本地 Ollama 模型，免费无账号。",
+   "url": "https://kapinote.com",
+   "homepage": "https://kapinote.com",
+   "type": "app",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/v2ex.com_t_1237766_20260828_120634.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "会议纪要",
+    "本地优先",
+    "AI 转写",
+    "隐私",
+    "Mac 应用"
+   ],
+   "sourceChannels": [
+    "v2ex"
+   ],
+   "sourceUrl": "https://www.v2ex.com/t/1237766",
+   "firstSeen": "2026-08-27T00:00:00+00:00",
+   "analysis": {
+    "targetAudience": "开会多、重视会议内容隐私与数据自主权的个人与团队",
+    "useCases": [
+     "线上/线下会议实时转写与结构化纪要",
+     "会后自动提取决策、行动项与责任人",
+     "跨会议全局检索「上周决定了什么」",
+     "接入 Claude Code/Codex 等本机 Agent 查询会议上下文",
+     "敏感会议全程离线处理，数据不出本机"
+    ],
+    "designIntent": "主流会议工具把数据存进第三方云端、还会以机器人身份混入参会名单；Kapinote 坚持本地优先——转写、纪要、检索都在 Mac 本地完成，让会议助手「只干活、不偷听」，把隐私作为默认而非开关。",
+    "problemSolved": "解决云端会议纪要工具的数据隐私与机器人入会尴尬，同时通过本地 Agent 集成让会议上下文真正融入个人 AI 工作流。",
+    "tags": [
+     "会议纪要",
+     "本地优先",
+     "隐私",
+     "AI 转写"
+    ],
+    "score": 8,
+    "scoreReason": "本地优先 + Agent 工作流集成的定位清晰，正中开发者与隐私敏感人群需求，免费无账号诚意足；目前仅 macOS Apple Silicon，覆盖面有限，给 8 分。",
+    "competitors": [
+     {
+      "name": "Kapinote 同类 Otter.ai",
+      "url": "https://otter.ai",
+      "comparison": "云端转写纪要标杆，功能全但数据存云端、机器人入会。"
+     },
+     {
+      "name": "Whisper / 飞书妙记",
+      "url": "https://www.feishu.cn/product/minutes",
+      "comparison": "转写能力强、生态完整，但依赖云端且不开放给本机 Agent 自由查询。"
+     },
+     {
+      "name": "Granola",
+      "url": "https://www.granola.ai",
+      "comparison": "AI 会议笔记产品，体验佳但为云端订阅制，本地优先程度低。"
+     }
+    ]
+   }
+  },
+  {
+   "id": "producthunt.com/r/p/1231306",
+   "name": "Tellie（会跟随你说话的 Mac 刘海屏提词器）",
+   "slug": "tellie",
+   "description": "住在 Mac 刘海（notch）区域的提词器：不止按设定速度滚动，还用设备端语音识别逐字追踪你实际说出的内容——暂停、跳段、即兴发挥都能跟上；对 Zoom 与录屏不可见，语音与稿件全程不出本机，免费使用，Pro 一次性买断 29 美元。",
+   "url": "https://tellieapp.com",
+   "homepage": "https://tellieapp.com",
+   "type": "app",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1231306_20260828_120647.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "提词器",
+    "视频创作",
+    "演讲辅助",
+    "本地隐私",
+    "Mac 应用"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/tellie-2",
+   "firstSeen": "2026-08-24T21:07:48+00:00",
+   "analysis": {
+    "targetAudience": "录视频、直播、讲课与做演讲的内容创作者、主播与讲师",
+    "useCases": [
+     "口播视频录制时保持看镜头不找稿",
+     "直播/录课提词，临时加戏也能跟上",
+     "Keynote 演讲时在刘海处显示讲稿与要点",
+     "演员/主播排练台词，即兴发挥后自动归位",
+     "线上会议中提示要点，对与会者不可见"
+    ],
+    "designIntent": "传统提词器只按匀速滚动、跟不上人的节奏，Tellie 反其道而行——让提词器「等你说」，用本机语音识别逐词对位，兼顾表达的自然流畅与严格的本地隐私（语音、稿件不出 Mac）。",
+    "problemSolved": "解决演讲与录制时眼睛找稿、念错位置、即兴发挥后找不到段落等痛点，把提词从「跟着滚」变成「跟着你说」，并把隐私做成产品卖点。",
+    "tags": [
+     "提词器",
+     "视频创作",
+     "演讲",
+     "隐私"
+    ],
+    "score": 8,
+    "scoreReason": "「逐词跟随 + 刘海屏 + 全本地」的组合在提词器品类中足够差异化，创作者刚需且免费可用；Mac 独占、生态尚小，给 8 分。",
+    "competitors": [
+     {
+      "name": "PromptSmart",
+      "url": "https://www.promptsmart.com",
+      "comparison": "经典语音滚动提词器，但依赖云端语音识别且无刘海/录屏不可见特性。"
+     },
+     {
+      "name": "BigVu",
+      "url": "https://www.bigvu.tv",
+      "comparison": "面向手机拍摄的提词 App，移动端为主，Mac 桌面体验弱。"
+     },
+     {
+      "name": "Prezenter",
+      "url": "https://prezenter.com",
+      "comparison": "Mac 提词器老牌产品，功能基础，无逐词跟随与 Stagehand 教练模式。"
+     }
+    ]
+   }
+  }
+ ]
+}
