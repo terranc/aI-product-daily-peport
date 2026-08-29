@@ -1,0 +1,328 @@
+{
+  "date": "2026-08-29",
+  "generatedAt": "2026-08-29T04:10:27.246893+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "producthunt.com/r/p/1233618",
+      "name": "AureaCam（AI 实时构图评分相机）",
+      "slug": "aureacam",
+      "description": "一款把手机摄像头变成摄影构图教练的 PWA 应用：在取景时实时叠加三分法、黄金螺旋等参考线，并基于对称性、黄金比例、三分法与光照四个维度给出 0-100 的构图评分。还提供 AI 面部识别（人像拍摄指导）、光线分析与 15 节分阶段摄影课程，支持语音引导，无需下载安装即可使用。",
+      "url": "https://aureacamlandpage.netlify.app",
+      "homepage": "https://aureacamlandpage.netlify.app",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1233618_20260829_121050.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "摄影教学",
+        "构图评分",
+        "AI 相机",
+        "PWA",
+        "实时反馈"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/aureacam-learn-photo-composition",
+      "firstSeen": "2026-08-27T03:21:05+00:00",
+      "analysis": {
+        "targetAudience": "想提升构图却看不懂理论的新手摄影师、摄影爱好者与内容创作者",
+        "useCases": [
+          "日常拍摄时实时检查构图并得到评分反馈",
+          "人像拍摄时用 AI 面部识别校准距离与机位",
+          "通过 15 节课程循序渐进练习三分法与黄金比例",
+          "旅行/街拍时利用语音引导解放双手",
+          "创作者在正式拍摄前快速校准画面"
+        ],
+        "designIntent": "作者自学摄影时发现三分法、黄金比例「知道但用不出来」，于是把构图规则做进相机取景框里，用即时评分替代书本说教，让用户边拍边学、无痛入门。",
+        "problemSolved": "解决新手「看了理论但实战不会用」的断层：实时叠加参考线 + 0-100 评分 + 语音提示，把抽象的构图知识变成可操作的临场反馈，降低学习门槛。",
+        "tags": [
+          "摄影",
+          "构图",
+          "AI 辅助",
+          "教育",
+          "PWA"
+        ],
+        "score": 8,
+        "scoreReason": "把 AI 实时评分融入普通相机使用场景，定位独特、即开即用、无需安装，且免费 demo 可直接体验；产品较早期、功能深度有限，故给 8 分。",
+        "competitors": [
+          {
+            "name": "Wise Camera",
+            "url": "https://www.digiguys.com",
+            "comparison": "老牌构图辅助相机 App，提供 15 种构图参考线但缺少实时评分与分阶段课程。"
+          },
+          {
+            "name": "Aurea Cam（iOS 同名产品）",
+            "url": "https://apps.apple.com/us/app/aurea-cam-camera-composition/id6756518412",
+            "comparison": "同名不同开发者，侧重构图参考线叠加，没有评分与 AI 面部引导。"
+          },
+          {
+            "name": "PhotoPills",
+            "url": "https://www.photopills.com",
+            "comparison": "面向摄影师的综合规划工具，构图仅是其模块之一，偏专业且收费较高。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1228625",
+      "name": "Savvy（本地优先的会议耳语助手）",
+      "slug": "savvy-macos-meeting",
+      "description": "一款开源（MIT）的 macOS 会议助手：指向一个文档文件夹，它会为每个客户生成带版本的简报。会议期间保持安静，只在三种情况下开口——对方问到了简报能回答的问题、有人越过了你设定的红线、或你主动按下 Advice。每条建议都会标注来源。文档、索引与转录全部留在本机，只有摘要与音频流出。",
+      "url": "https://github.com/jamalavedra/savvy",
+      "homepage": "https://github.com/jamalavedra/savvy",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1228625_20260829_121100.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "会议助手",
+        "本地优先",
+        "隐私保护",
+        "开源",
+        "macOS"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/savvy-12",
+      "firstSeen": "2026-08-21T15:14:49+00:00",
+      "analysis": {
+        "targetAudience": "经常开客户会、需要边听边把握发言时机与底线的销售、咨询与客户成功人员",
+        "useCases": [
+          "客户会前把相关资料整理成结构化简报",
+          "会议中对方提问时获得基于自己文档的应答提示",
+          "设定「红线」并在对方越界时及时提醒",
+          "需要临时发言时一键获取建议",
+          "对隐私敏感的行业（法律、医疗、财务）会议辅助"
+        ],
+        "designIntent": "作者观察到通用会议助手依赖联网搜索、容易跑题且隐私不可控，于是做了「只基于你自己的文档」的本地优先助手：它懂你的客户、不胡编、不偷录，发言克制只在关键时刻介入。",
+        "problemSolved": "解决会议助手「答非所问」「依赖开放网络」和「全程录音上传」的痛点：以本地文档为唯一知识源，并采用「安静待命、按需介入」的交互范式，兼顾实用性与隐私。",
+        "tags": [
+          "会议",
+          "AI 助手",
+          "本地优先",
+          "隐私",
+          "开源"
+        ],
+        "score": 8,
+        "scoreReason": "「本地文档 + 按需耳语」的范式克制而清晰，隐私设计是差异化亮点，开源可审计；目前仅 macOS 且功能聚焦，故给 8 分。",
+        "competitors": [
+          {
+            "name": "Hedy AI",
+            "url": "https://www.hedy.ai",
+            "comparison": "实时会议教练，功能全面但依赖云端，支持多平台订阅制。"
+          },
+          {
+            "name": "LiveSuggest",
+            "url": "https://livesuggest.ai",
+            "comparison": "浏览器内实时建议，无需机器人入会，但知识源以临时上传为主、不绑定客户文档。"
+          },
+          {
+            "name": "Wispr Flow",
+            "url": "https://wisprflow.ai",
+            "comparison": "语音输入与会议记录工具，方向偏听写而非基于文档的发言辅助。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1207898",
+      "name": "Yomi（AI 猫咪阅读陪伴）",
+      "slug": "yomi",
+      "description": "面向 5-9 岁儿童的朗读练习应用：孩子选一篇分级故事朗读给虚拟小猫 Yomi 听，读得越多猫咪越开心。支持点按单词发音、AI 生成个性化故事（孩子选主角与情节，自动匹配阅读水平）、分级书库与温和的理解检测。无广告、无账号、无陌生人聊天、不出售数据，由芬兰教育公司 Interlinear 与阅读专家合作设计。",
+      "url": "https://helloyomi.com",
+      "homepage": "https://helloyomi.com",
+      "type": "app",
+      "appStoreName": "Yomi: Read Aloud for Kids",
+      "appStoreUrl": "https://apps.apple.com/us/app/yomi-read-aloud-for-kids/id6739611621?uo=4",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1207898_20260829_121115.png",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f0/2f/e5/f02fe58c-37dc-ff97-898b-6c7cd986637e/appstore_1.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f9/b2/7e/f9b27ee9-c60f-f351-d864-e7dcbd3be5f0/appstore_2.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f6/f0/a6/f6f0a63f-2813-d86a-56ac-80b3b5294da4/appstore_3.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6b/31/30/6b313024-52a4-7343-e235-7d6caaabb3c4/appstore_4.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/96/e3/71/96e371f5-7ec4-1082-1582-0e5af78a7695/appstore_6.png/320x480bb.jpg"
+      ],
+      "tags": [
+        "儿童教育",
+        "朗读训练",
+        "AI 陪伴",
+        "亲子阅读",
+        "无广告"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/yomi-3",
+      "firstSeen": "2026-07-27T13:37:05+00:00",
+      "analysis": {
+        "targetAudience": "5-9 岁孩子的家长，尤其是希望培养「抗拒阅读」的孩子朗读习惯的家庭",
+        "useCases": [
+          "孩子每天朗读分级故事给 Yomi 听，形成阅读习惯",
+          "遇到生词点按听发音，获得即时支持",
+          "孩子用魔法生成器创作属于自己的故事并朗读",
+          "睡前亲子共读场景的替代或补充",
+          "英语/芬兰语启蒙阶段的语音练习"
+        ],
+        "designIntent": "作者想让孩子像对宠物朗读一样练习阅读——没有评分压力、不会被纠正得难堪，一只会「饿」的小猫成为孩子每天回来读书的理由，把练习变成陪伴而非考试。",
+        "problemSolved": "解决孩子「不爱朗读、抗拒被评价」的问题：用虚拟宠物的情感反馈替代奖惩，降低朗读的心理压力，同时用 AI 生成定制故事维持新鲜感，让阅读变成有爱的日常。",
+        "tags": [
+          "儿童",
+          "阅读",
+          "AI 陪伴",
+          "教育",
+          "iOS"
+        ],
+        "score": 7,
+        "scoreReason": "「宠物式激励 + AI 故事生成」的教育设计新颖且隐私友好，直击阅读习惯养成的痛点；但应用场景较窄、依赖英文/芬兰语内容，故给 7 分。",
+        "competitors": [
+          {
+            "name": "Epic! 儿童电子图书馆",
+            "url": "https://www.getepic.com",
+            "comparison": "内容库庞大、游戏化等级，但缺乏「朗读给陪伴对象听」的情感反馈设计。"
+          },
+          {
+            "name": "Reading Eggs",
+            "url": "https://readingeggs.com",
+            "comparison": "系统化英语阅读课程，功能全面但偏应试测评感，价格较高。"
+          },
+          {
+            "name": "Tomato（阅读伙伴类）",
+            "url": "https://www.tomato.org",
+            "comparison": "同类朗读激励思路，但 Yomi 在 AI 故事生成与无广告体验上更突出。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "v2ex.com/t/1237988",
+      "name": "Stock Island（MacBook 刘海股票行情）",
+      "slug": "stock-island",
+      "description": "一款把股票与加密货币行情放进 MacBook 刘海的 macOS 应用：无需打开完整窗口，抬头一眼即可看到关注标的的最新价格。由中文独立开发者打造，灵感来自 vibeisland.app，占用感极低，适合上班摸鱼、不想被同事察觉的轻度盯盘场景；已上架海外地区。",
+      "url": "https://stock-island.com",
+      "homepage": "https://stock-island.com",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/v2ex.com_t_1237988_20260829_121124.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "股票行情",
+        "MacBook 刘海",
+        "效率工具",
+        "独立开发",
+        "加密货币"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "sourceUrl": "https://www.v2ex.com/t/1237988",
+      "firstSeen": "2026-08-28T17:08:57+00:00",
+      "analysis": {
+        "targetAudience": "工作中需要低调快速查看行情的股票/加密货币投资者与 Mac 用户",
+        "useCases": [
+          "办公时余光扫一眼关注标的价格而不打断工作",
+          "用刘海这一闲置空间代替菜单栏图标，界面更清爽",
+          "同时展示多只股票/加密货币组合",
+          "会议或共享屏幕时低调查看行情",
+          "作为桌面摆件式行情展示（自定义外观）"
+        ],
+        "designIntent": "作者觉得手机查价打断工作、券商客户端太重且太显眼，菜单栏又已挤满图标，于是受 vibeisland 启发把行情放进「没什么用」的刘海区域，做成存在感极低的行情工具。",
+        "problemSolved": "解决「轻量看盘」与「低调不打扰」的矛盾：复用 MacBook 刘海空间显示行情，无需打开任何窗口，兼顾效率与隐私感，比菜单栏工具更省心。",
+        "tags": [
+          "股票",
+          "Mac",
+          "刘海屏",
+          "效率",
+          "独立开发"
+        ],
+        "score": 7,
+        "scoreReason": "需求真实、创意巧妙（把闲置刘海变成信息屏），对中文用户尤其有共鸣；功能相对单一、仅海外上架，故给 7 分。",
+        "competitors": [
+          {
+            "name": "PulseNotch",
+            "url": "https://pulsenotch.com",
+            "comparison": "同为 MacBook 刘海信息工具，但更偏通知/信息聚合，行情只是其中一类。"
+          },
+          {
+            "name": "StockBar / 菜单栏行情工具",
+            "url": "https://www.menubarstats.com",
+            "comparison": "传统菜单栏行情方案，位置不同且图标一多更显拥挤。"
+          },
+          {
+            "name": "vibeisland.app",
+            "url": "https://vibeisland.app",
+            "comparison": "刘海可视化灵感的来源项目，偏氛围装饰而非行情数据。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "v2ex.com/t/1237991",
+      "name": "FluxDream（免登录 AI 图片编辑器）",
+      "slug": "fluxdream",
+      "description": "一个无需登录、无需付费、无需安装桌面客户端的在线 AI 图片编辑站：打开网页即可批量改图。基于 Nano Banana 与 GPT Image 等模型封装，跑在 Cloudflare Workers 上，支持文生图、图生图等常见 AI 改图流程，主打「打开就能用」的零门槛体验。",
+      "url": "https://fluxdream.com",
+      "homepage": "https://fluxdream.com",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/v2ex.com_t_1237991_20260829_121134.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 图片编辑",
+        "免登录",
+        "在线工具",
+        "文生图",
+        "独立开发"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "sourceUrl": "https://www.v2ex.com/t/1237991",
+      "firstSeen": "2026-08-28T18:29:24+00:00",
+      "analysis": {
+        "targetAudience": "需要快速改图但不愿注册、安装或折腾 API 的普通用户与内容创作者",
+        "useCases": [
+          "帮朋友/同事批量修图，无需对方安装任何软件",
+          "直接用浏览器完成去背景、换背景、扩图等操作",
+          "内容创作者快速生成配图与素材",
+          "手机端随手打开网页改图",
+          "小团队内部快速产出视觉素材"
+        ],
+        "designIntent": "作者帮朋友批量改图时受够了「开桌面工具、开 API、开命令行」的流程，决定做一个打开网页就能改、不用登录不用交钱的工具，并分享在 Cloudflare Workers 上跑 AI 工作流的踩坑经验。",
+        "problemSolved": "解决 AI 改图「门槛高、链路长」的问题：把生成模型封装成零注册的网页应用，任何人打开链接即可用，把「专业流程」压缩成「一个网址」。",
+        "tags": [
+          "AI 图片",
+          "在线编辑",
+          "免登录",
+          "文生图",
+          "工具"
+        ],
+        "score": 7,
+        "scoreReason": "「免登录即用」切中 AI 工具普遍被注册门槛劝退的痛点，落地场景实在；功能上以封装现有模型为主、创新有限，故给 7 分。",
+        "competitors": [
+          {
+            "name": "Leonardo.Ai",
+            "url": "https://leonardo.ai",
+            "comparison": "功能强大的 AI 图像平台，但需注册登录、偏向专业工作流。"
+          },
+          {
+            "name": "Ideogram",
+            "url": "https://ideogram.ai",
+            "comparison": "免费额度友好的文生图工具，仍需账号且偏生成而非快速修图。"
+          },
+          {
+            "name": "ChatGPT 图像 / GPT Image",
+            "url": "https://chatgpt.com",
+            "comparison": "通用对话式改图体验好，但有登录与订阅门槛，不如零门槛工具直接。"
+          }
+        ]
+      }
+    }
+  ]
+}
