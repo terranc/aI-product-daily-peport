@@ -1,6 +1,6 @@
 {
   "version": 11,
-  "lastUpdated": "2026-08-29T04:11:03.046649+00:00",
+  "lastUpdated": "2026-08-30T04:18:17.664970+00:00",
   "products": [
     {
       "id": "producthunt.com/r/p/1198621",
@@ -29329,6 +29329,345 @@
             "name": "ChatGPT 图像 / GPT Image",
             "url": "https://chatgpt.com",
             "comparison": "通用对话式改图体验好，但有登录与订阅门槛，不如零门槛工具直接。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "v2ex.com/t/1238109",
+      "name": "Vid2notes（会看画面的视频转笔记）",
+      "slug": "vid2notes",
+      "description": "一款“会看画面”的 AI 视频转笔记工具：转写时不仅听声音，还会抽帧让多模态模型结合字幕与截图一起理解，解决幻灯片术语、代码名词等纯音频转写听不准的问题。输出带截图、章节、时间戳和 AI 总结的图文笔记，可导出 Markdown / SRT / VTT，支持最长 10 小时视频，每天免费转 3 个。",
+      "url": "https://vid2notes.com",
+      "homepage": "https://vid2notes.com",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/v2ex.com_t_1238109_20260830_121135.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "视频转笔记",
+        "多模态",
+        "学习工具",
+        "效率工具"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "sourceUrl": "https://www.v2ex.com/t/1238109",
+      "firstSeen": "2026-08-29T20:12:42+00:00",
+      "cooldownExpiresAt": "2026-09-13T04:18:17.664970+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      },
+      "analysis": {
+        "targetAudience": "需要把教学视频、技术讲座转成结构化笔记的学习者和开发者",
+        "useCases": [
+          "网课与技术讲座一键转图文笔记",
+          "幻灯片讲解中的术语、代码准确转写",
+          "会议视频快速生成纪要",
+          "带截图与时间戳的复习材料整理",
+          "导出 SRT/VTT 字幕二次利用"
+        ],
+        "designIntent": "作者受够“一句话没听清就反复拖进度条”，且发现现有转写工具只用音频——恰恰是听不清的词（幻灯片术语、代码名词）也转不对。于是让转写“多一只眼睛”：抽帧看画面，多模态模型对着字幕和截图一起读，并按视频 MD5 缓存避免重复计算。",
+        "problemSolved": "解决纯音频转写对幻灯片术语、代码名词等视觉信息无能为力的问题；同时解决视频看完就忘、难以回查的痛点，几分钟即可生成带截图与时间戳的结构化笔记。",
+        "tags": [
+          "视频转笔记",
+          "多模态",
+          "学习工具",
+          "效率工具",
+          "Whisper"
+        ],
+        "score": 8,
+        "scoreReason": "多模态“看画面”转写切中真实痛点（术语/代码靠听觉转不准），思路差异化明显；全栈 Cloudflare 低成本实现、每天免费 3 个无需绑卡，对中文用户友好。新上线，长视频稳定性与效果仍有待验证。",
+        "competitors": [
+          {
+            "name": "讯飞听见",
+            "url": "https://www.iflyrec.com",
+            "comparison": "国内主流音频转写工具，基本只处理音频，无法理解画面中的幻灯片与代码"
+          },
+          {
+            "name": "Notion AI",
+            "url": "https://www.notion.com",
+            "comparison": "通用 AI 笔记，需手动整理视频内容，不具备视频转写与画面理解能力"
+          },
+          {
+            "name": "Memo",
+            "url": "https://memo.ac",
+            "comparison": "视频转文字笔记类产品，画面理解与多模态校对不如 Vid2notes 深入"
+          }
+        ]
+      }
+    },
+    {
+      "id": "x.com/liucong0120/status/2093547529455686083",
+      "name": "OpenMAIC（清华多智能体互动课堂）",
+      "slug": "openmaic",
+      "description": "清华大学 THU-MAIC 团队开源的多智能体互动课堂平台：输入一个主题或上传文档，几分钟生成完整课程——AI 教师与 AI 同学语音讲解、白板绘图、实时讨论，包含幻灯片、测验、交互模拟和项目制学习，可导出 PPT/HTML，还能在飞书、Slack、Telegram 等聊天应用里直接生成课堂。v1.0.0 于 2026-08-27 发布，已在清华 700+ 学生中实测两年，GitHub 两万+ star。",
+      "url": "https://open.maic.chat",
+      "homepage": "https://open.maic.chat",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/x.com_liucong0120_status_2093547529455686083_gh_20260830_121616.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI教育",
+        "多智能体",
+        "开源",
+        "课程生成",
+        "清华"
+      ],
+      "sourceChannels": [
+        "twitter"
+      ],
+      "sourceUrl": "https://x.com/liucong0120/status/2093547529455686083",
+      "firstSeen": "2026-08-29T03:53:21+00:00",
+      "cooldownExpiresAt": "2026-09-13T04:18:17.664970+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      },
+      "analysis": {
+        "targetAudience": "教师、培训师、在线教育机构以及自学者",
+        "useCases": [
+          "教师一键生成互动课件与随堂测验",
+          "机构批量生产在线互动课程",
+          "把 PDF/文档/音视频材料变成沉浸式课堂",
+          "企业内训内容快速制作",
+          "在飞书、Slack、Telegram 聊天中直接生成课堂"
+        ],
+        "designIntent": "团队想推动在线教育从“被动看视频”升级为“主动、个性化、有社交感”的课堂：用多智能体协作重现真实课堂的师生与同学互动，让任何主题一键变成沉浸式学习体验，并保持开源、可自部署、模型供应商中立。",
+        "problemSolved": "解决传统 MOOC 单向灌输、学习枯燥、个性化不足的问题；把高质量互动课程的制作门槛从数周人力降到一条提示词，几分钟出一门课。",
+        "tags": [
+          "AI教育",
+          "多智能体",
+          "开源",
+          "课程生成",
+          "清华"
+        ],
+        "score": 8,
+        "scoreReason": "清华团队背书 + 700+ 学生两年实测 + 2 万+ star + v1.0.0 刚发布（8-27），热度与实用性俱佳；“一条提示词出一门课”大幅降低教育内容生产门槛。作为开源项目，商业化和大规模稳定性仍需观察。",
+        "competitors": [
+          {
+            "name": "网易云课堂",
+            "url": "https://study.163.com",
+            "comparison": "传统在线课程平台，内容制作依赖人工，无 AI 一键生成互动课堂能力"
+          },
+          {
+            "name": "松鼠Ai",
+            "url": "https://www.squirrelai.com",
+            "comparison": "自适应学习系统，侧重个性化练习，不做多智能体互动课堂"
+          },
+          {
+            "name": "Gamma",
+            "url": "https://gamma.app",
+            "comparison": "可 AI 生成演示文稿，但没有 AI 教师/同学实时互动与课堂场景"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1217454",
+      "name": "SuperIntern（常驻聊天软件的 AI 邮件与会议助理）",
+      "slug": "superintern",
+      "description": "一款 24/7 待命的 AI 邮件与会议助理，直接住在你日常使用的聊天应用（Telegram、WhatsApp、微信、Slack、Discord）里。它会用你的语气自动草拟邮件回复（发送前必须经你批准）、安排并总结会议、把语音/截图变成待办，还能记住约定与上下文、追踪竞品动态，无需你反复提示。",
+      "url": "https://www.superintern.ai",
+      "homepage": "https://www.superintern.ai",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1217454_20260830_121250.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI助理",
+        "邮件",
+        "会议纪要",
+        "效率工具",
+        "商务"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1217454?app_id=339",
+      "firstSeen": "2026-08-07T08:11:44-07:00",
+      "cooldownExpiresAt": "2026-09-13T04:18:17.664970+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      },
+      "analysis": {
+        "targetAudience": "客户沟通频繁的销售、顾问、创始人等商务人士",
+        "useCases": [
+          "自动草拟客户邮件回复，保持你的语气",
+          "会议录音实时总结与跟进事项生成",
+          "语音口述直接发邮件",
+          "聊天中的语音/截图转待办事项",
+          "竞品动态与品牌提及追踪"
+        ],
+        "designIntent": "定位不是“你主动提问”的聊天机器人，而是“主动替你干活”的后台秘书：在收件箱、会议、跟进、待办之间默默工作，让人不必时刻提示；通过用户反馈学习其写作风格与业务规则，越用越像本人。",
+        "problemSolved": "解决商务人士每天被邮件、会议、跟进淹没的问题——在聊天 App 里就能处理邮件与会议，把客户处理容量放大 10 倍，同时所有发送前必须人工批准，保证不失控。",
+        "tags": [
+          "AI助理",
+          "邮件",
+          "会议纪要",
+          "效率工具",
+          "商务"
+        ],
+        "score": 7,
+        "scoreReason": "落地场景清晰（邮件/会议/跟进），“常驻聊天 App + 主动代劳”的体验直接，2.0 版本功能完整且有免费额度。但 AI 助理赛道竞争激烈，实际写作质量与“不失控”承诺仍需用户长期验证。",
+        "competitors": [
+          {
+            "name": "Motion",
+            "url": "https://www.usemotion.com",
+            "comparison": "侧重日程与任务自动化，不做邮件代写与聊天内互动"
+          },
+          {
+            "name": "Superhuman",
+            "url": "https://superhuman.com",
+            "comparison": "邮件客户端 + AI 辅助，必须在客户端内使用，不能住在聊天 App 里"
+          },
+          {
+            "name": "OpenClaw",
+            "url": "https://github.com/openclaw/openclaw",
+            "comparison": "开源个人 AI 助手框架，需自建自维护；SuperIntern 开箱即用"
+          }
+        ]
+      }
+    },
+    {
+      "id": "reddit.com/r/sideproject/comments/1w266xl/ibuiltanandroidnovelreaderwithan",
+      "name": "NovelForge（AI 小说阅读伴侣）",
+      "slug": "novelforge",
+      "description": "面向网文与电子书读者的安卓阅读器：边读边用本地 AI 自动构建“零剧透”的角色百科与关系图谱——识别反复出现的人物/地点并记录出场章节，随阅读进度更新，绝不剧透未来剧情；内置 Kokoro/Piper 神经语音离线朗读，支持 7+ 网文源与 EPUB 导入，无账号、无订阅、数据全在本地。",
+      "url": "https://github.com/AbhinavXT/NovelForge",
+      "homepage": "https://github.com/AbhinavXT/NovelForge",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/reddit.com_r_sideproject_comments_1w266xl_ibuiltanandroidnovelreaderwithan_20260830_121259.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "小说阅读",
+        "AI陪伴",
+        "本地AI",
+        "TTS",
+        "网文"
+      ],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "sourceUrl": "https://www.reddit.com/r/SideProject/comments/1w266xl/i_built_an_android_novel_reader_with_an/",
+      "firstSeen": "2026-08-30T03:17:38+00:00",
+      "cooldownExpiresAt": "2026-09-13T04:18:17.664970+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      },
+      "analysis": {
+        "targetAudience": "网文/轻小说重度读者，记不住人物剧情又怕被剧透的人",
+        "useCases": [
+          "长篇网文追更时快速查人物与关系",
+          "离线神经语音听书（Kokoro/Piper）",
+          "生僻角色出场章节一键回看",
+          "跨卷读系列书时保持剧情记忆连续",
+          "生成 M4B 有声书章节书签"
+        ],
+        "designIntent": "针对网文动辄上千章、角色繁多、“看到 600 章忘了 100 章的人”的痛点，让 AI 在本地默默构建随阅读进度增长的剧情档案：不联网、不上传、不剧透，彻底摆脱查 wiki 被剧透和角色混乱的困扰。",
+        "problemSolved": "解决长篇小说阅读中的三个问题：人物关系混乱记不住、查百科被剧透、语音朗读机械生硬；同时 100% 本地处理保护阅读隐私。",
+        "tags": [
+          "小说阅读",
+          "AI陪伴",
+          "本地AI",
+          "TTS",
+          "网文"
+        ],
+        "score": 7,
+        "scoreReason": "“零剧透角色百科 + 关系图谱 + 离线神经 TTS”的组合在阅读器里很少见，对网文读者是真实刚需，100% 本地处理契合隐私诉求。目前是开源安卓应用，iOS 已有相似产品 StoryCodex，UI 与生态还需打磨。",
+        "competitors": [
+          {
+            "name": "StoryCodex",
+            "url": "https://apps.apple.com/us/app/storycodex-webnovel-reader/id6770108068",
+            "comparison": "iOS 端功能几乎相同的小说阅读器，已上架 App Store，与 NovelForge 互为竞品"
+          },
+          {
+            "name": "微信读书",
+            "url": "https://weread.qq.com",
+            "comparison": "主流阅读平台，有声书为真人配音，无 AI 角色百科与零剧透档案"
+          },
+          {
+            "name": "ReadEra",
+            "url": "https://readera.org",
+            "comparison": "通用电子书阅读器，功能全面但无 AI 剧情记忆与角色图谱"
+          }
+        ]
+      }
+    },
+    {
+      "id": "v2ex.com/t/1238105",
+      "name": "Lipsync.vip（AI 嘴型同步视频）",
+      "slug": "lipsync-vip",
+      "description": "在线 AI 嘴型同步工具：上传人物/宠物/角色图片 + 一段音频，一键生成自然的口型同步视频。针对“嘴型对不上、头部乱转、面部变形、中英文效果差异大”等常见痛点做了优化，内置 Social Media Creator、Podcast、宠物、老照片等示例素材，三步操作即可快速产出短视频 Demo。",
+      "url": "https://lipsync.vip",
+      "homepage": "https://lipsync.vip",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/v2ex.com_t_1238105_20260830_121308.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI视频",
+        "嘴型同步",
+        "数字人",
+        "短视频",
+        "内容创作"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "sourceUrl": "https://www.v2ex.com/t/1238105",
+      "firstSeen": "2026-08-29T17:43:53+00:00",
+      "cooldownExpiresAt": "2026-09-13T04:18:17.664970+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      },
+      "analysis": {
+        "targetAudience": "短视频创作者、AI 数字人/UGC 内容制作人、自媒体运营",
+        "useCases": [
+          "老照片/旧照片开口说话",
+          "宠物与角色图片配音说话视频",
+          "AI 数字人口播与短视频 Demo",
+          "Podcast / 演唱内容可视化",
+          "社交媒体的 Talking Photo 素材制作"
+        ],
+        "designIntent": "作者总结同类工具的痛点（嘴型对不上、人物乱转头、表情变化大、不同语言效果差异明显、操作流程复杂）后，决定做一个“上传素材 → 添加音频 → 生成”三步走、保持简单的在线工具，并内置示例素材降低首次使用门槛。",
+        "problemSolved": "解决 AI 嘴型同步工具普遍存在的嘴型与声音对不齐、头部乱动、面部变形、操作繁琐等体验问题，让没有现成素材的用户也能直接测试效果。",
+        "tags": [
+          "AI视频",
+          "嘴型同步",
+          "数字人",
+          "短视频",
+          "内容创作"
+        ],
+        "score": 7,
+        "scoreReason": "需求直接、流程极简、自带示例素材，对短视频创作者友好，中英文效果兼顾是卖点。但嘴型同步赛道工具众多，模型效果与稳定性仍需更多真实用户反馈验证。",
+        "competitors": [
+          {
+            "name": "HeyGen",
+            "url": "https://www.heygen.com",
+            "comparison": "数字人视频平台，功能更强但更专业、价格更高、操作复杂"
+          },
+          {
+            "name": "SadTalker",
+            "url": "https://github.com/OpenTalker/SadTalker",
+            "comparison": "开源嘴型同步方案，需自行部署，没有开箱即用的在线体验"
+          },
+          {
+            "name": "D-ID",
+            "url": "https://www.d-id.com",
+            "comparison": "数字人说话视频平台，面向企业客户，免费额度有限"
           }
         ]
       }
