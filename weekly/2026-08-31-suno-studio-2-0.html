@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suno Studio 2.0 — 浏览器端生成式数字音频工作站 每周深度分析 · AI 产品雷达</title>
+  <link rel="stylesheet" href="../styles.css">
+  
+    <style>
+    /* ── Product Detail Modal ── */
+    .product-modal-overlay {
+      display:none; position:fixed; inset:0; z-index:9000;
+      background:rgba(0,0,0,.5); backdrop-filter:blur(4px);
+      overflow-y:auto; -webkit-overflow-scrolling:touch;
+    }
+    .product-modal-overlay.active { display:block; }
+    .product-modal-container {
+      position:relative; max-width:1120px; width:90%; margin:40px auto;
+      min-height:auto; background:var(--c-bg);
+      border-radius:var(--radius-lg); box-shadow:0 8px 32px rgba(0,0,0,.2);
+      overflow:hidden;
+    }
+    .product-modal-close {
+      position:sticky; top:0; z-index:10;
+      display:flex; align-items:center; justify-content:space-between;
+      padding:12px 16px; background:var(--c-surface);
+      border-bottom:1px solid var(--c-border);
+    }
+    .product-modal-close button {
+      background:none; border:none; cursor:pointer;
+      font-size:1rem; color:var(--c-text-2); padding:4px 8px;
+    }
+    .product-modal-close .title { font-weight:600; font-size:.9rem; color:var(--c-text); }
+    .product-modal-body {
+      padding:0;
+    }
+    </style>
+</head>
+<body>
+  <header class="site-header">
+  <div class="container-wide">
+    <a href="../" class="site-logo"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a10 10 0 0 1 0 20"/><path d="M12 2a6 6 0 0 1 0 12"/><circle cx="12" cy="8" r="1" fill="currentColor"/></svg> AI 产品雷达</a>
+    <nav class="site-nav"><a href="../">每日简报</a><a href="../weekly.html" class="active">每周深度</a><a href="../archive.html">归档</a><a href="../starred.html" class="nav-starred"><svg class="star-ic" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><span class="nav-label">星标</span><span class="star-count-badge"></span></a><a href="https://github.com/terranc/aI-product-daily-peport" target="_blank"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a></nav>
+  </div>
+</header>
+  <main>
+    <div class="container-wide">
+      <a href="../weekly.html" class="back-link"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg> 返回每周深度</a>
+      <div id="weekly-detail-content">
+      <article class="detail-card">
+        <div class="detail-hero">
+          <div class="entry-meta">
+            <span class="blog-post-date">2026-08-31</span>
+            <div class="entry-tags"><a href="../tags.html?tag=音乐生成" class="tag">音乐生成</a><a href="../tags.html?tag=AI 编曲" class="tag">AI 编曲</a><a href="../tags.html?tag=数字音频工作站" class="tag">数字音频工作站</a><a href="../tags.html?tag=内容创作" class="tag">内容创作</a><a href="../tags.html?tag=浏览器应用" class="tag">浏览器应用</a></div>
+          </div>
+          <h1 class="detail-title">Suno Studio 2.0 — 浏览器端生成式数字音频工作站 · 每周深度分析</h1>
+          <p class="detail-subtitle">Suno Studio 2.0 是 Suno 推出的浏览器端生成式 DAW（数字音频工作站）：在浏览器里就能分轨生成、编排、混音 AI 音乐，把「用提示词生成整首歌」升级成「像专业宿主软件一样逐轨创作」，让没有专业软件和乐理基础的人也能获得接近专业编曲的掌控力。</p>
+          <div class="detail-actions">
+            <span class="detail-score-badge">9</span>
+            <a href="https://suno.com" target="_blank" class="btn btn-primary"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg> 访问官网</a>
+          </div>
+        </div>
+        <div class="detail-body">
+          <div class="detail-main">
+            <div class="weekly-metric-grid">
+              <div class="weekly-metric"><strong>18</strong><span>距首次发现天数</span></div>
+              <div class="weekly-metric"><strong>0</strong><span>近 7 天提及</span></div>
+              <div class="weekly-metric"><strong>0</strong><span>增长分数</span></div>
+            </div>
+            
+            <div class="section">
+              <h2 class="section-title"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></span> 增长证据</h2>
+              <ol class="use-case-list"><li>5 亿美元融资、估值</li><li>5 亿；2026-06-03 宣布 4 亿美元 D 轮、投后估值 54 亿美元（Bond Capital 领投，IVP/Forerunner/USV/Alkeon/Quiet 及老股东 Matrix/Lightspeed/Menlo/Schroders 参投）；2026-08-13 Studio</li><li>0 面向 Premier 订阅上线，2026-08-14 登上 Product Hunt（129 赞）；2026-09-03 起执行新下载政策：免费 0/月、Pro 20/月、Premier 60/月，而 Studio 内多轨分轨导出不限量——把高频创作用户进一步导向 Studio。商业化数据公司未单独披露 Studio</li><li>0 的订阅转化，属未披露项。</li></ol>
+            </div>
+            <div class="section">
+              <h2 class="section-title"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5A4.61 4.61 0 0 1 8.91 14"/></svg></span> 社区反馈</h2>
+              <ol class="use-case-list"><li>8 星/19 条评论/31K 关注者，AI 摘要认为它是「极佳的灵感引擎与工作室伙伴」，但「想精细微调一首歌时容易撞墙」是反复出现的痛点；媒体侧 MusicTech 2026-01 给 Studio 初版打 6/10（缺 MIDI、无自动化、生成不稳定、伪影明显），</li><li>0 直接回应了前两项，但其评测仍发现模型会无视提示乱加合成器独奏、Chat 处于 beta、一致性未改善。</li></ol>
+            </div>
+            <div class="section">
+              <h2 class="section-title"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></span> 近期更新</h2>
+              <ol class="use-case-list"><li>5 → 2025-07 v</li><li>5+ → 2025-09-25 v5 → 2026-03-26 v</li><li>5（Voices 用自己的声音唱歌、Custom Models 上传 6 首训练个人模型、My Taste 个性化）→ 2026-08-13 Studio</li><li>0；发布记录（release notes）累计数十条，涵盖移动端（iOS/Android/Android Auto/CarPlay/iMessage 键盘）、Stem 分离、Covers/Remix、Sounds 循环采样、Sample+Mashup 等，几乎每月都有模型或功能级更新；CEO Mikey Shulman 在 2026-08-12 预告「与音乐行业合作的首个授权模型」即将推出——即 2025 年起宣布的「与艺人和音乐产业共同开创的新篇章」落地，预计年内发布。</li></ol>
+            </div>
+            <div class="section">
+              <h2 class="section-title"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></span> 市场定位</h2>
+              <p>AI 音乐生成赛道事实上的头部：以 3 亿美元 ARR 遥遥领先，主流评测（Dubspot/Versely/WOWHOW 2026 年度对比）一致把 Suno 列为「带人声完整歌曲」首选，盲测中顶级输出已与真人作品难分伯仲；竞争格局：Udio（UMG/WMG 和解后转型许可围墙花园，2026 Q2 新平台，音质派之选）、Google MusicFX/Lyria 2（免费额度最大、YouTube 生态）、Stable Audio 3（开源权重+开发者向）、Moises（分轨）、LANDR（母带发行）、Meta MusicGen（开源基准）、ElevenLabs Music（声音克隆向）；平台级威胁来自版权诉讼：华纳 2025-11 和解并达成首个大厂授权合作，但 UMG 与 Sony 仍在诉讼中，Sony 案预计 2026 年中有关键判决，可能重塑整个赛道；同时传统 DAW（Ableton/Logic/FL）正把 AI 能力内嵌进既有工作流，长期与 Suno 争夺专业用户。</p>
+            </div>
+            <div class="section">
+              <h2 class="section-title"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r=".5" fill="currentColor"/><circle cx="17.5" cy="10.5" r=".5" fill="currentColor"/><circle cx="8.5" cy="7.5" r=".5" fill="currentColor"/><circle cx="6.5" cy="12.5" r=".5" fill="currentColor"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"/></svg></span> 差异化</h2>
+              <p>① 唯一将「生成式 AI + 完整 DAW 工作流」放进浏览器的一体化产品：MIDI 片段既是创作产物、又能作为下一轮 AI 生成的 prompt，实现「人弹一段、AI 续写」的双向互作闭环，竞品无此能力；② Chat bar 让用户用自然语言设计专属效果器/合成器插件并保存复用（如「做一个带摆动的暖磁带饱和」），绕过 VST 生态门槛，是消费级产品里罕见的「用户自定义插件」能力；③ Premier 不限量导出 32-bit/48kHz 多轨分轨，把此前需要 Moises/LALAL.AI 等第三方服务的环节收进产品内，与「下载额度每月限量」的政策形成组合拳；④ 团队基因差异化：创始团队为 Kensho 前 ML 骨干（CEO Mikey Shulman 哈佛物理博士、MIT Sloan 讲师），公司超半数员工是音乐人，官方愿景「让 10 亿人每月花 10 美元做歌」；⑤ 版权策略上走「和解+授权合作」而非纯对抗：华纳合作模型即将上线，为商业化打开新空间，而 Udio 选择的是封闭围墙花园——两条路线直接对立。</p>
+            </div>
+            <div class="section">
+              <h2 class="section-title"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="14.5 17.5 3 6 3 3 6 3 17.5 14.5"/><line x1="13" y1="19" x2="19" y2="13"/><line x1="16" y1="16" x2="20" y2="20"/><line x1="19" y1="21" x2="21" y2="19"/><polyline points="14.5 6.5 18 3 21 3 21 6 17.5 9.5"/><line x1="5" y1="14" x2="9" y2="18"/><line x1="7" y1="17" x2="4" y2="20"/><line x1="3" y1="19" x2="5" y2="21"/></svg></span> 风险挑战</h2>
+              None
+            </div>
+            <div class="section">
+              <h2 class="section-title"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></span> 后续观察</h2>
+              None
+            </div>
+          </div>
+          <aside class="detail-aside">
+            <div class="aside-block">
+              <div class="aside-label">标签</div>
+              <div class="aside-tags"><a href="../tags.html?tag=音乐生成" class="tag">音乐生成</a><a href="../tags.html?tag=AI 编曲" class="tag">AI 编曲</a><a href="../tags.html?tag=数字音频工作站" class="tag">数字音频工作站</a><a href="../tags.html?tag=内容创作" class="tag">内容创作</a><a href="../tags.html?tag=浏览器应用" class="tag">浏览器应用</a></div>
+            </div>
+            <div class="aside-block">
+              <div class="aside-label">跟踪渠道</div>
+              <p style="color:var(--c-text-2);font-size:.85rem">producthunt</p>
+            </div>
+            <div class="aside-block">
+              <div class="aside-label">元数据</div>
+              <div class="meta-row"><span class="label">周报日期</span><span class="value">2026-08-31</span></div>
+              <div class="meta-row"><span class="label">首次发现</span><span class="value">2026-08-13</span></div>
+              <div class="meta-row"><span class="label">产品类型</span><span class="value">saas</span></div>
+            </div>
+          </aside>
+        </div>
+      </article>
+    </div>
+    </div>
+  </main>
+  
+  <!-- 产品详情 Modal -->
+  <div class="product-modal-overlay" id="product-modal">
+    <div class="product-modal-container">
+      <div class="product-modal-close">
+        <span class="title" id="modal-title"></span>
+        <button onclick="closeProductModal()" aria-label="关闭">✕ 关闭</button>
+      </div>
+      <div class="product-modal-body" id="modal-body">
+        <div style="text-align:center;padding:40px;color:var(--c-text-3)">加载中...</div>
+      </div>
+    </div>
+  </div>
+  <footer class="site-footer">
+  <div class="container">
+    <div class="footer-links">
+      <a href="../archive.html">历史归档</a>
+      <a href="https://github.com/terranc/aI-product-daily-peport" target="_blank">GitHub</a>
+    </div>
+    <p>AI 产品雷达 · 自动化 AI 产品发现与分析</p>
+  </div>
+</footer>
+  
+    <script>
+    // 标星功能（共享）
+
+const STAR_KEY = 'ai_radar_starred';
+function getStarredSlugs() {
+  try { return JSON.parse(localStorage.getItem(STAR_KEY) || '[]'); } catch(e) { return []; }
+}
+function saveStarredSlugs(arr) {
+  try { localStorage.setItem(STAR_KEY, JSON.stringify(arr)); } catch(e) {}
+}
+function isStarred(slug) {
+  if (!slug) return false;
+  return getStarredSlugs().indexOf(String(slug).toLowerCase()) !== -1;
+}
+function toggleStar(btn) {
+  const slug = (btn.getAttribute('data-slug') || '').toLowerCase();
+  if (!slug) return;
+  let arr = getStarredSlugs();
+  const idx = arr.indexOf(slug);
+  const nowStarred = idx === -1;
+  if (nowStarred) { arr.push(slug); } else { arr.splice(idx, 1); }
+  saveStarredSlugs(arr);
+  refreshStarButton(btn);
+  updateStarBadges();
+  window.dispatchEvent(new CustomEvent('star-changed', { detail: { slug: slug, starred: nowStarred } }));
+}
+function refreshStarButton(btn) {
+  if (!btn || !btn.classList || !btn.classList.contains('btn-star')) return;
+  const slug = (btn.getAttribute('data-slug') || '').toLowerCase();
+  const starred = isStarred(slug);
+  if (starred) {
+    btn.classList.add('is-starred');
+    btn.setAttribute('aria-pressed', 'true');
+  } else {
+    btn.classList.remove('is-starred');
+    btn.setAttribute('aria-pressed', 'false');
+  }
+  const lbl = btn.querySelector('.star-label');
+  if (lbl) lbl.textContent = starred ? '已标星' : '标星';
+}
+function updateStarBadges() {
+  const count = getStarredSlugs().length;
+  document.querySelectorAll('.star-count-badge').forEach(el => {
+    el.textContent = count > 0 ? String(count) : '';
+    el.style.display = count > 0 ? '' : 'none';
+  });
+}
+function initStarButtons(root) {
+  (root || document).querySelectorAll('.btn-star[data-slug]').forEach(btn => {
+    refreshStarButton(btn);
+  });
+}
+document.addEventListener('DOMContentLoaded', function() {
+  updateStarBadges();
+  initStarButtons(document);
+});
+
+    // Modal 逻辑（所有设备）
+    const modal = document.getElementById('product-modal');
+    const modalBody = document.getElementById('modal-body');
+    const modalTitle = document.getElementById('modal-title');
+
+    // 大屏设备用 Modal，手机端和无 JS 环境保持普通链接跳转
+    const isDesktop = window.matchMedia('(min-width: 769px)').matches;
+    if (isDesktop) {
+      document.querySelectorAll('.source-link[href]').forEach(card => {
+        card.addEventListener('click', function(e) {
+          if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+          e.preventDefault();
+          const name = this.textContent?.trim() || '产品详情';
+          openProductModal(this.getAttribute('href'), name);
+        });
+      });
+    }
+
+    function rebaseModalUrls(root, baseUrl) {
+      // 修复：如果 baseUrl 是产品详情页，使用根页面作为基准，避免相对路径计算错误
+      let adjustedBase = baseUrl;
+      try {
+        const urlObj = new URL(baseUrl);
+        if (urlObj.pathname.startsWith('/products/') || urlObj.pathname.startsWith('/weekly/')) {
+          // 使用根页面作为基准
+          adjustedBase = urlObj.origin + '/';
+        }
+      } catch (e) {}
+
+      root.querySelectorAll('[src]').forEach(el => {
+        const value = el.getAttribute('src');
+        if (value && !value.startsWith('http') && !value.startsWith('data:')) {
+          el.setAttribute('src', new URL(value, adjustedBase).href);
+        }
+      });
+      root.querySelectorAll('[href]').forEach(el => {
+        const value = el.getAttribute('href');
+        if (value && !value.startsWith('http') && !value.startsWith('#') && !value.startsWith('mailto:')) {
+          el.setAttribute('href', new URL(value, adjustedBase).href);
+        }
+      });
+    }
+
+    async function openProductModal(detailUrl, name) {
+      modalTitle.textContent = name;
+      modalBody.innerHTML = '<div style="text-align:center;padding:40px;color:var(--c-text-3)">加载中...</div>';
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+
+      try {
+        const resp = await fetch(detailUrl);
+        if (!resp.ok) throw new Error('HTTP ' + resp.status);
+        const html = await resp.text();
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(html, 'text/html');
+
+        const detailContent = doc.querySelector('#product-detail-content');
+        if (detailContent) {
+          rebaseModalUrls(detailContent, new URL(detailUrl, window.location.href).href);
+          modalBody.replaceChildren(detailContent);
+          initStarButtons(modalBody);
+        } else {
+          throw new Error('详情主体不存在');
+        }
+      } catch (err) {
+        modalBody.innerHTML = '<div style="text-align:center;padding:40px;color:var(--c-text-3)">加载失败，请<a href="' + detailUrl + '" style="color:var(--c-accent);font-weight:600">打开详情页</a></div>';
+      }
+
+      modal.scrollTop = 0;
+    }
+
+    function closeProductModal() {
+      modal.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    modal.addEventListener('click', function(e) {
+      if (e.target === modal) closeProductModal();
+    });
+
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' && modal.classList.contains('active')) {
+        closeProductModal();
+      }
+    });
+    </script>
+</body>
+</html>
