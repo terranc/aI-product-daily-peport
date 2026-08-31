@@ -1,6 +1,6 @@
 {
   "version": 11,
-  "lastUpdated": "2026-08-31T04:12:12.573440+00:00",
+  "lastUpdated": "2026-08-31T04:17:14.672253+00:00",
   "products": [
     {
       "id": "producthunt.com/r/p/1198621",
@@ -25415,7 +25415,8 @@
       "lastFeaturedDate": "2026-08-18",
       "metrics": {
         "featuredInDaily": 1,
-        "featuredInWeekly": false
+        "featuredInWeekly": true,
+        "lastFeaturedDate": "2026-08-31"
       }
     },
     {
