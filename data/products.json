@@ -1,6 +1,6 @@
 {
   "version": 11,
-  "lastUpdated": "2026-08-30T04:18:17.664970+00:00",
+  "lastUpdated": "2026-08-31T04:12:12.573440+00:00",
   "products": [
     {
       "id": "producthunt.com/r/p/1198621",
@@ -29671,6 +29671,339 @@
           }
         ]
       }
+    },
+    {
+      "id": "academa.ai",
+      "name": "Academa —— AI 生成的可视化课程视频平台",
+      "slug": "academa",
+      "description": "把技术知识\"视觉化\"讲清楚的长视频课程平台。所有课程由 AI 生成——LLM 写\"代码\"、再用计算机图形与语音合成\"编译\"成视频，目前已有人工维护的 66+ 节课（数学、物理、机器学习等），还能按需为任意技术话题在约 25 分钟内生成新讲座，并可边看边向 AI 提问。",
+      "url": "https://academa.ai/",
+      "homepage": "https://academa.ai/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/academa.ai_20260831_120843.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "教育科技",
+        "AI 视频生成",
+        "在线课程",
+        "可视化学习"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49503421",
+      "firstSeen": "2026-08-30T22:22:23+00:00",
+      "analysis": {
+        "targetAudience": "想快速看懂数学、物理、机器学习等技术概念的在校学生与自学者",
+        "useCases": [
+          "备考微积分、线性代数、统计等硬核课程时看可视化推导",
+          "让 AI 为任意冷门技术话题即时生成一段讲解视频",
+          "边看视频边提问，逐步搞懂每一处推导细节",
+          "教育者获取可复用、可修改的可视化教学素材"
+        ],
+        "designIntent": "两位计算数学方向的博士生的教育实验：把\"讲座视频\"当作代码来写，用计算机图形和 TTS 编译成视频，让 LLM 也能生成准确、可版本管理、可编辑修正的课程。这样课程不再是一次性产物，而像软件一样能持续维护。",
+        "problemSolved": "传统视频课程制作成本高、更新难，抽象的数学/技术概念又很难靠口述讲清楚。Academa 用\"视频即代码\"的方式让 LLM 自动生成可视化讲解，大幅降低课程生产成本，同时保证内容可验证、可修正。",
+        "tags": [
+          "教育科技",
+          "AI 视频生成",
+          "在线课程",
+          "可视化学习",
+          "LLM"
+        ],
+        "score": 8,
+        "scoreReason": "理念新颖（视频即代码），直接解决传统教育视频制作贵、难更新的痛点，且已积累 66+ 节手维护课程并有真实观看数据。但内容覆盖面仍有限、依赖 LLM 生成准确性，产品处于早期阶段。",
+        "competitors": [
+          {
+            "name": "3Blue1Brown",
+            "url": "https://www.youtube.com/@3blue1brown",
+            "comparison": "数学可视化讲解的标杆，但纯手工制作、产量低，无法按需生成"
+          },
+          {
+            "name": "Khan Academy",
+            "url": "https://www.khanacademy.org",
+            "comparison": "覆盖面广的免费课程平台，但可视化深度和生成效率不如 Academa"
+          },
+          {
+            "name": "Manim",
+            "url": "https://github.com/3b1b/manim",
+            "comparison": "开源数学动画引擎，需要自己写代码，Academa 把它封装成了 AI 可调用的产品"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-09-14T04:12:12.573440+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1235219",
+      "name": "Ulpaso —— 本地隐私会议笔记（免费开源）",
+      "slug": "ulpaso",
+      "description": "免费开源的 Mac 应用，在设备端本地转录会议并保存为 Markdown 笔记。无需注册账号、无需订阅，录音与转写数据不出电脑，输出通用 Markdown 便于长期存档和二次加工。",
+      "url": "https://ulpaso.app/",
+      "homepage": "https://ulpaso.app/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1235219_20260831_120852.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "会议效率",
+        "隐私保护",
+        "语音转文字",
+        "开源",
+        "Mac"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/ulpaso",
+      "firstSeen": "2026-08-28T11:50:59+00:00",
+      "analysis": {
+        "targetAudience": "注重隐私、不想为会议笔记订阅付费的职场人与自由职业者",
+        "useCases": [
+          "每周例会、客户电话实时转录成 Markdown 存档",
+          "本地搜索历史会议记录，数据不上云",
+          "离线场景下记录访谈、讲座、头脑风暴",
+          "与 Obsidian 等本地笔记工作流无缝衔接"
+        ],
+        "designIntent": "作者观察到\"记会议笔记\"这件事被订阅制 SaaS 绑架（付费、数据上云），于是做了个免费、开源、端上运行的替代品：转录在本地完成，输出就是最通用的 Markdown，用户永远拥有自己的数据。",
+        "problemSolved": "现有会议笔记工具要么收费、要么把录音上传云端带来隐私风险。Ulpaso 让用户在本地免费完成转录，且输出通用 Markdown，兼顾隐私、零成本与长期可用性。",
+        "tags": [
+          "会议效率",
+          "隐私保护",
+          "语音转文字",
+          "开源",
+          "Mac"
+        ],
+        "score": 7,
+        "scoreReason": "痛点真实、定位清晰（隐私+免费+开源），对拒绝订阅制的用户有强吸引力。但作为本地单机工具功能相对单一，缺少协作与生态能力。",
+        "competitors": [
+          {
+            "name": "Otter.ai",
+            "url": "https://otter.ai",
+            "comparison": "主流会议转录 SaaS，功能强大但数据在云端、免费额度有限"
+          },
+          {
+            "name": "Fathom",
+            "url": "https://fathom.video",
+            "comparison": "偏团队协作的会议记录工具，同样依赖云端处理"
+          },
+          {
+            "name": "Whisper",
+            "url": "https://github.com/openai/whisper",
+            "comparison": "OpenAI 开源转写引擎，Ulpaso 是把它变成普通用户开箱即用的封装"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-09-14T04:12:12.573440+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1228394",
+      "name": "PageIndex —— 可信赖的文档智能问答引擎",
+      "slug": "pageindex",
+      "description": "\"类人阅读\"的文档 AI：不依赖向量库与分块，用推理式检索从长文档中给出可溯源、可验证的答案，官方称在 FinanceBench 金融问答基准上准确率达 98.7%。提供网页版、开发者 MCP 与 API，覆盖个人、企业与开发者三类用户。",
+      "url": "https://pageindex.ai/",
+      "homepage": "https://pageindex.ai/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1228394_20260831_120859.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "企业知识管理",
+        "RAG",
+        "文档问答",
+        "金融科技",
+        "可解释 AI"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/pageindexai",
+      "firstSeen": "2026-08-21T03:03:58+00:00",
+      "analysis": {
+        "targetAudience": "需要从财报、研报、合同、政策等海量专业文档中快速取证的金融、法务与研究人员",
+        "useCases": [
+          "财报、招股书问答，答案精确引用到原文段落",
+          "合同与法规检索，规避大模型\"幻觉\"",
+          "作为企业知识库 RAG 的替代方案直接部署",
+          "开发者通过 MCP/API 把可追溯问答接入自建系统"
+        ],
+        "designIntent": "针对传统 RAG（向量检索+分块）在长文档上\"答不准、说不出处\"的问题，提出无向量的推理式检索——像人一样通读上下文再定位答案，让每个回答都带可追溯来源，优先服务金融这类高合规行业。",
+        "problemSolved": "传统 RAG 对长文档、复杂表格、跨章节问题经常答非所问且无法给出可靠出处。PageIndex 用推理式检索提升准确率（FinanceBench 98.7%）并保证答案可验证，解决\"AI 结果不可信\"的核心顾虑。",
+        "tags": [
+          "企业知识管理",
+          "RAG",
+          "文档问答",
+          "金融科技",
+          "可解释 AI"
+        ],
+        "score": 8,
+        "scoreReason": "切中 RAG 行业痛点（准确率+可溯源），有公开评测数据支撑，且提供 MCP/API 便于集成，商业化路径清晰。但作为新品牌，宣称的准确率有待独立验证，生态仍在早期。",
+        "competitors": [
+          {
+            "name": "Glean",
+            "url": "https://www.glean.com",
+            "comparison": "企业搜索与问答巨头，功能全但部署重、价格高"
+          },
+          {
+            "name": "LlamaIndex",
+            "url": "https://www.llamaindex.ai",
+            "comparison": "开源 RAG 框架，灵活但需要技术团队自己搭建，无开箱即用的可信溯源"
+          },
+          {
+            "name": "Notion AI",
+            "url": "https://www.notion.com",
+            "comparison": "文档问答的普及者，但对企业级长文档的精确溯源能力有限"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-09-14T04:12:12.573440+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "magiclayers.net",
+      "name": "Magic Layers —— 一键把图片拆成可编辑图层",
+      "slug": "magic-layers",
+      "description": "AI 工具把一张平面的 PNG/JPEG 拆成可编辑的多图层：文字、主体、装饰、背景各归一层，输出带名字的透明 PNG 供下载继续编辑。图片在本地处理、隐私友好，无需任何设计软件基础。",
+      "url": "https://magiclayers.net",
+      "homepage": "https://magiclayers.net",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/magiclayers.net_20260831_120907.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "图像处理",
+        "AI 设计工具",
+        "抠图分层",
+        "设计师效率"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49504366",
+      "firstSeen": "2026-08-31T00:40:12+00:00",
+      "analysis": {
+        "targetAudience": "设计师、电商运营、自媒体从业者等经常需要\"拆图改图\"的非专业用户",
+        "useCases": [
+          "把海报、截图里的文字单独拆出来修改",
+          "抠出主体或背景进行换背景、调色",
+          "从设计稿中提取可复用的装饰元素",
+          "把客户给的平面图快速转成可编辑的分层工作流"
+        ],
+        "designIntent": "让没有分层源文件的普通用户，也能像拿到\"源文件\"一样编辑任意图片——AI 自动识别图中文字、主体、装饰与背景并分层，省去手动抠图的繁琐步骤，降低设计修改的门槛。",
+        "problemSolved": "编辑别人给的平面图片时往往没有分层源文件，只能手动抠图或整图重做。Magic Layers 一键把平面图变成可编辑图层，显著降低设计与修改成本。",
+        "tags": [
+          "图像处理",
+          "AI 设计工具",
+          "抠图分层",
+          "设计师效率",
+          "网页应用"
+        ],
+        "score": 7,
+        "scoreReason": "需求普遍（拆图/改图是高频操作）、上手零门槛且隐私友好，与 Canva 同期推出的同名功能互相印证了市场需求。但作为单功能网页工具，护城河与生态深度有限。",
+        "competitors": [
+          {
+            "name": "Canva Magic Layers",
+            "url": "https://www.canva.com",
+            "comparison": "大厂同功能，集成在完整编辑器中，生态强但需订阅"
+          },
+          {
+            "name": "remove.bg",
+            "url": "https://www.remove.bg",
+            "comparison": "主打一键抠背景，功能聚焦但只能分离主体与背景两层"
+          },
+          {
+            "name": "Photoshop AI 工具",
+            "url": "https://www.adobe.com/products/photoshop.html",
+            "comparison": "专业级能力但学习成本与价格高，面向专业设计师"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-09-14T04:12:12.573440+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1234433",
+      "name": "OpenTag —— 住在 Slack/Teams 里的 AI 同事",
+      "slug": "opentag",
+      "description": "在 Slack 和 Teams 里直接\"雇佣\"的 AI 同事：给它一个目标，它会连接你授权的工具（HubSpot、Gmail、GitHub、Stripe 等），完成报告、跟进、分诊和周期性任务，并把带来源的结果发回对话线程。由开源团队 CopilotKit 打造。",
+      "url": "https://www.tryopentag.com/",
+      "homepage": "https://www.tryopentag.com/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1234433_20260831_120914.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "企业协作",
+        "AI Agent",
+        "Slack",
+        "自动化办公",
+        "团队效率"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/opentag",
+      "firstSeen": "2026-08-27T14:52:16+00:00",
+      "analysis": {
+        "targetAudience": "想用 AI 处理日常重复协作工作、又不愿切换工具的成长型团队",
+        "useCases": [
+          "在 Slack 里让 AI 生成周报/复盘并定时发送到频道",
+          "自动把会议纪要与待办跟进成草稿、负责人和下一步",
+          "跨 HubSpot、Stripe 等工具汇总数据并解读",
+          "消息与工单分诊，自动归类指派"
+        ],
+        "designIntent": "把 AI 从\"另一个标签页\"变成\"同一个频道里的同事\"——不用学新界面，直接在团队协作的地方用自然语言下达任务，AI 像同事一样展示计划步骤、执行并回传带来源的结果，降低企业采用 AI 的门槛。",
+        "problemSolved": "团队用 AI 往往要切换到独立工具或写代码，协作场景割裂。OpenTag 让 AI 直接入驻 Slack/Teams，以对话方式完成真实工作流（报告、跟进、分诊），并保持每一步可查看、结果带来源。",
+        "tags": [
+          "企业协作",
+          "AI Agent",
+          "Slack",
+          "自动化办公",
+          "团队效率"
+        ],
+        "score": 7,
+        "scoreReason": "定位精准（AI 同事驻留聊天工具）、有知名开源团队背书、连接器生态清晰。但\"AI 同事\"赛道拥挤，安全与效果依赖企业数据接入，尚处早期验证阶段。",
+        "competitors": [
+          {
+            "name": "Slack AI",
+            "url": "https://slack.com",
+            "comparison": "平台原生 AI，集成度最高但偏问答摘要，自主执行能力弱"
+          },
+          {
+            "name": "Zapier Agents",
+            "url": "https://zapier.com",
+            "comparison": "自动化巨头，能力强但配置门槛高、偏流程自动化而非对话式同事"
+          },
+          {
+            "name": "Lindy",
+            "url": "https://www.lindy.ai",
+            "comparison": "通用 AI 同事类产品，功能广但接入 Slack 的深度与专注度不如 OpenTag"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-09-14T04:12:12.573440+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      }
     }
   ],
   "tracking": {
@@ -29679,5 +30012,5 @@
     "lastDailyUpdate": "2026-08-27T04:11:02.657525+00:00",
     "lastDaily": "2026-08-27"
   },
-  "totalCount": 464
+  "totalCount": 484
 }
