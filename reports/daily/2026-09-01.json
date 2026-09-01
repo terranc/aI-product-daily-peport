@@ -1,0 +1,322 @@
+{
+  "date": "2026-09-01",
+  "generatedAt": "2026-09-01T12:06:00.816134+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "producthunt.com/r/p/1237043",
+      "name": "Happy Shrimp（阿里 AI 音乐创作）",
+      "slug": "happy-shrimp",
+      "description": "阿里巴巴推出的 AI 音乐生成工具：输入一句描述情绪、故事或音乐风格的提示词，即可生成包含旋律、编曲、歌词与演唱的完整歌曲。支持自填歌词由 AI 谱曲演唱、纯音乐生成，覆盖中国风、流行、R&B/灵魂乐、嘻哈、摇滚、放克、电子、古典、爵士等风格，无需任何乐理知识。",
+      "url": "https://www.happyshrimp.ai/",
+      "homepage": "https://www.happyshrimp.ai/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1237043_20260901_200612.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 音乐",
+        "创作工具",
+        "文生音乐",
+        "阿里巴巴",
+        "内容创作"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/happy-shrimp",
+      "firstSeen": "2026-08-31T04:01:50+00:00",
+      "analysis": {
+        "targetAudience": "想快速创作原创歌曲的普通用户、短视频与自媒体创作者、写词人及音乐爱好者",
+        "useCases": [
+          "输入一句情绪或故事描述，直接生成带演唱的完整歌曲",
+          "自己写好歌词，让 AI 谱曲并演唱成 Demo",
+          "生成纯音乐/伴奏用于视频、播客与直播配乐",
+          "指定曲风、乐器、唱腔与情绪走向，微调生成结果",
+          "快速产出多版本作品用于灵感试听与选曲"
+        ],
+        "designIntent": "阿里巴巴通过 Token Hub 把 AI 音乐生成做成面向大众的消费级应用：先让模型建立歌曲结构、节奏、和声的\"语法\"与情绪、能量、歌词意图的\"语义\"，再生成音频，从而更贴合创作意图。首日即与太合音乐合作探索艺人共创，走\"AI 工具+正版音乐生态\"路线。",
+        "problemSolved": "解决普通人没有乐理知识、不会作曲编曲，却想拥有一首原创歌曲的问题；把写歌从需要数小时到数天的专业流程压缩成一句话描述。也让创作者可以零门槛验证灵感、快速产出作品。",
+        "tags": [
+          "AI 音乐",
+          "创作工具",
+          "文生音乐",
+          "阿里巴巴",
+          "内容创作"
+        ],
+        "score": 8,
+        "scoreReason": "背靠阿里模型能力，\"一句话生成完整歌曲\"体验完整，中文曲风与本土音乐生态是差异化优势，话题度很高；但 Beta 阶段生成质量、编辑能力与商用版权条款仍待验证，综合给 8 分。",
+        "competitors": [
+          {
+            "name": "Suno",
+            "url": "https://suno.com/",
+            "comparison": "AI 音乐生成的头号玩家，海外社区成熟、曲风库大；Happy Shrimp 的优势在中文曲风理解与本土音乐集团合作。"
+          },
+          {
+            "name": "Udio",
+            "url": "https://www.udio.com/",
+            "comparison": "同样主打提示词生成高质量歌曲，欧美口碑好；中文歌词与中文曲风支持上 Happy Shrimp 更本土化。"
+          },
+          {
+            "name": "天工 SkyMusic",
+            "url": "https://www.tiangong.cn/",
+            "comparison": "国内较早的 AI 音乐产品，中文歌曲生成有积累；Happy Shrimp 背靠阿里模型与太合音乐，生态潜力更大。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1234734",
+      "name": "Sider Code（AI 重塑任意网页）",
+      "slug": "sider-code",
+      "description": "Sider 浏览器扩展新增的 AI 功能：用一句大白话描述你想怎么改某个网页，AI 理解页面结构后直接改写布局、隐藏干扰、提取信息、增删元素，改动会被记住并在下次访问时自动生效，全程无需写任何代码。",
+      "url": "https://sider.ai/agents/code",
+      "homepage": "https://sider.ai/agents/code",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1234734_20260901_200652.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "浏览器扩展",
+        "网页定制",
+        "无代码",
+        "效率工具",
+        "AI 助手"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/sider-code-customize-any-website",
+      "firstSeen": "2026-08-28T09:05:09+00:00",
+      "analysis": {
+        "targetAudience": "对常用网站有\"要是能改成这样就好了\"想法的普通网民和重度浏览器用户",
+        "useCases": [
+          "把资讯站一键改成暗色/极简阅读模式，去广告去干扰",
+          "让信息密集的页面按自己的使用习惯重排布局",
+          "在页面上直接添加提取、总结等操作按钮",
+          "保存每个网站的个性化改造，下次访问自动生效",
+          "用自然语言说明需求，让 AI 解释页面结构再精准修改"
+        ],
+        "designIntent": "让网页从\"网站方说了算\"变成\"用户说了算\"：与其让用户学用户脚本或挨个找功能单一的扩展，不如用 AI 直接理解并改写页面，并把改动持久化复用。Sider 团队把它做成旗下 AI 浏览器套件中的一环，降低网页定制的门槛。",
+        "problemSolved": "解决\"网站界面不适合我但我也改不了\"的长期痛点：以前改网页要么写代码、装用户脚本，要么装一堆单一功能扩展；现在一句话就能完成个性化改造，且改动可保存、可自动复用。",
+        "tags": [
+          "浏览器扩展",
+          "网页定制",
+          "无代码",
+          "效率工具",
+          "AI 助手"
+        ],
+        "score": 8,
+        "scoreReason": "概念新颖、门槛极低，\"一句话改任何网站\"直击普通用户真实痛点，且能记住改动形成长期价值；但需要用户脚本权限、个别站点受限，且 Sider 本体是付费扩展生态，综合给 8 分。",
+        "competitors": [
+          {
+            "name": "Dark Reader",
+            "url": "https://darkreader.org/",
+            "comparison": "老牌暗色模式扩展，只解决单一问题；Sider Code 能做布局重构、增删元素等更复杂的改造。"
+          },
+          {
+            "name": "uBlock Origin",
+            "url": "https://ublockorigin.com/",
+            "comparison": "广告拦截类扩展，能力集中在\"去掉\"；Sider Code 还能\"新增与重构\"，能力范围更广。"
+          },
+          {
+            "name": "Stylish",
+            "url": "https://userstyles.world/",
+            "comparison": "网页样式自定义社区，需手动写 CSS 模板；Sider Code 用自然语言即可，无技术门槛。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mirroredgeai.com/waves",
+      "name": "Waves（AI 音频修复）",
+      "slug": "waves-audio-repair",
+      "description": "一款桌面音频修复工具：把录音的频谱可视化，用\"框选\"圈出噪音区域精准修复；内置 11 项自动检测（60Hz 电流声、咔哒声、房间回声等）和 26 种一键修复（嘶声、爆音、唇齿音、回声、削波等），还能清理视频音轨并原样导出视频。所有处理都在本地完成，不上传。",
+      "url": "https://mirroredgeai.com/waves/",
+      "homepage": "https://mirroredgeai.com/waves/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/mirroredgeai.com_waves_20260901_200702.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "音频修复",
+        "本地优先",
+        "内容创作",
+        "播客工具",
+        "桌面应用"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49520481",
+      "firstSeen": "2026-09-01T11:24:18+00:00",
+      "analysis": {
+        "targetAudience": "播客制作者、音视频内容创作者，以及需要修复老录音（旧唱片、磁带、蜡筒）的收藏者",
+        "useCases": [
+          "一键消除录音中的电流声、嘶声、爆音等常见瑕疵",
+          "用框选方式只修某段特定噪音，不影响其它内容",
+          "抢救老旧唱片/磁带转录音频（官方演示修复了 1912 年蜡筒录音）",
+          "修复视频音轨并原样导出重建后的视频",
+          "通过 MCP 让 AI 助手自动完成检测、框选与修复流程"
+        ],
+        "designIntent": "把\"音频修复\"从专业音频软件的复杂操作中解放出来：频谱+框选的可视化交互，配合自动检测与一键修复，让没有音频工程背景的人也能修出干净的声音。坚持本地优先、无账号无上传，把隐私作为核心卖点，并顺应 AI Agent 趋势提供 MCP 接口。",
+        "problemSolved": "解决普通人面对专业 DAW 无从下手的问题，把\"找问题、修问题\"变成可视化框选和一句诊断；也让老录音的抢救变得可行，修完可以立即试听、后悔可撤销。",
+        "tags": [
+          "音频修复",
+          "本地优先",
+          "内容创作",
+          "播客工具",
+          "桌面应用"
+        ],
+        "score": 8,
+        "scoreReason": "框选频谱+自动诊断+一键修复的交互非常直观，本地处理契合隐私需求，MCP 集成还很前沿；但导出需要订阅（$29/月）、目前主要面向 Mac，受众相对垂直，给 8 分。",
+        "competitors": [
+          {
+            "name": "Adobe Podcast Enhance",
+            "url": "https://podcast.adobe.com/enhance",
+            "comparison": "云端一键去噪增强，傻瓜但需上传音频且控制力弱；Waves 本地处理+精准框选控制更强、更隐私。"
+          },
+          {
+            "name": "iZotope RX",
+            "url": "https://www.izotope.com/products/rx.html",
+            "comparison": "专业音频修复标杆，功能强大但学习曲线陡、价格高；Waves 面向普通创作者更易上手。"
+          },
+          {
+            "name": "Auphonic",
+            "url": "https://auphonic.com/",
+            "comparison": "自动化播客后期处理服务，批量能力强但交互式修复弱；Waves 更侧重手动精准修复。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "apps.microsoft.com/detail/9nkkk5k5s4ct",
+      "name": "Edify（Windows 本地 AI 视频剪辑）",
+      "slug": "edify-windows-nle",
+      "description": "一款 Windows 原生非线性视频剪辑软件（NLE），内置本地 AI 字幕与配音功能，并支持 OpenFX 特效插件标准。素材处理与 AI 能力都在本地完成，适合注重隐私、想在一体化原生应用里完成剪辑+字幕+配音的 Windows 创作者。",
+      "url": "https://apps.microsoft.com/detail/9nkkk5k5s4ct",
+      "homepage": "https://apps.microsoft.com/detail/9nkkk5k5s4ct",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/apps.microsoft.com_detail_9nkkk5k5s4ct_20260901_200710.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "视频剪辑",
+        "本地 AI",
+        "字幕生成",
+        "配音",
+        "Windows"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49519285",
+      "firstSeen": "2026-09-01T08:00:32+00:00",
+      "analysis": {
+        "targetAudience": "Windows 平台的视频创作者、自媒体与 YouTube 创作者，以及希望素材不出本地的剪辑用户",
+        "useCases": [
+          "在本地为视频自动生成/翻译字幕，无需上传素材到云端",
+          "用本地 AI 为视频添加配音/旁白",
+          "通过 OpenFX 标准加载丰富的第三方特效滤镜",
+          "完成剪辑、转场、调色等一体化 NLE 工作流",
+          "离线环境下完成从剪辑到字幕配音的全流程"
+        ],
+        "designIntent": "瞄准 Windows 上\"原生+本地 AI\"视频剪辑的空白：多数 AI 视频功能都在云端，而专业剪辑依赖 Adobe Premiere 等重软件。Edify 希望把 NLE 剪辑与本地 AI 字幕配音打包进一个原生应用，兼顾隐私、性能与专业扩展。",
+        "problemSolved": "解决 Windows 用户\"专业剪辑软件贵且重、AI 功能又要上传云端\"的两难；本地 AI 让字幕配音不泄露素材，原生性能与 OpenFX 生态提供专业级扩展能力。",
+        "tags": [
+          "视频剪辑",
+          "本地 AI",
+          "字幕生成",
+          "配音",
+          "Windows"
+        ],
+        "score": 7,
+        "scoreReason": "\"Windows 原生+本地 AI 字幕配音+OpenFX\"的定位填补市场空白，隐私与性能是明显亮点；但作为新晋 NLE，剪辑功能成熟度和生态仍需时间追赶 Premiere/DaVinci，综合给 7 分。",
+        "competitors": [
+          {
+            "name": "DaVinci Resolve",
+            "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+            "comparison": "免费专业 NLE 标杆，剪辑调色强大但 AI 字幕主要依赖云端；Edify 的本地 AI 字幕配音是差异化优势。"
+          },
+          {
+            "name": "Adobe Premiere Pro",
+            "url": "https://www.adobe.com/products/premiere.html",
+            "comparison": "行业标准，功能最全但订阅贵、AI 功能依赖云服务；Edify 更轻量、本地化、无订阅负担。"
+          },
+          {
+            "name": "剪映专业版",
+            "url": "https://lv.ulikecam.com/",
+            "comparison": "国内大众剪辑首选，AI 功能丰富但资源多在云端；Edify 主打本地隐私与专业 OpenFX 扩展。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "meelang.com",
+      "name": "MeeLang（Google Meet 实时翻译）",
+      "slug": "meelang",
+      "description": "一个 Chrome 扩展，把 Google Meet 会议里的实时语音翻译成字幕，以浮动字幕形式显示在会议画面上：延迟低于 400ms、支持 30+ 语言，翻译与双语记录都保存在本地浏览器。无需邀请机器人入会、无需注册账号，安装即用。",
+      "url": "https://meelang.com/",
+      "homepage": "https://meelang.com/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/meelang.com_20260901_200719.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "实时翻译",
+        "会议工具",
+        "Chrome 扩展",
+        "跨语言协作",
+        "字幕"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49518593",
+      "firstSeen": "2026-09-01T06:20:22+00:00",
+      "analysis": {
+        "targetAudience": "经常参加跨语言 Google Meet 会议的职场人、留学生、远程协作团队与外贸从业者",
+        "useCases": [
+          "跨语言会议中实时查看对方语言的翻译字幕",
+          "会后回看、搜索双语会议记录",
+          "听力跟不上的场合配合字幕跟上讨论节奏",
+          "导出会议双语逐字稿存档备查",
+          "后续扩展用于 Zoom/Teams 会议的实时翻译"
+        ],
+        "designIntent": "作者调研后发现市面上 Google Meet 实时翻译工具体验普遍不佳，于是用 Claude Code 快速自建了一个更轻、更快、更私密的方案：强调\"不邀请机器人、不注册、内容只留在自己浏览器里\"，把会议翻译做成零门槛的个人工具。",
+        "problemSolved": "解决跨语言会议中\"听不懂、跟不上\"的即时痛点：此前要么依赖付费会议机器人、要么用体验差的翻译工具；MeeLang 做到亚秒级延迟、双语记录本地保存，兼顾效率与隐私。",
+        "tags": [
+          "实时翻译",
+          "会议工具",
+          "Chrome 扩展",
+          "跨语言协作",
+          "字幕"
+        ],
+        "score": 7,
+        "scoreReason": "直击跨语言会议的日常痛点，延迟低、隐私好、零门槛上手，免费额度与清晰路线图完整；但目前仅支持 Google Meet（Zoom/Teams 在规划中），功能面较窄，给 7 分。",
+        "competitors": [
+          {
+            "name": "Interprefy",
+            "url": "https://www.interprefy.com/",
+            "comparison": "企业级会议口译/翻译平台，专业但面向大客户、部署重；MeeLang 轻量个人向、免费额度友好。"
+          },
+          {
+            "name": "Google Meet 自带字幕翻译",
+            "url": "https://workspace.google.com/",
+            "comparison": "Meet 内置字幕支持部分语言翻译，但语种与体验有限；MeeLang 语种更多、延迟更低、有双语记录。"
+          },
+          {
+            "name": "飞书妙记/腾讯会议字幕",
+            "url": "https://www.feishu.cn/",
+            "comparison": "国内会议软件自带 AI 字幕翻译，生态内体验好；但不适用于 Google Meet 场景，MeeLang 专注谷歌生态。"
+          }
+        ]
+      }
+    }
+  ]
+}
