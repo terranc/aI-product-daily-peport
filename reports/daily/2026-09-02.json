@@ -1,0 +1,322 @@
+{
+ "date": "2026-09-02",
+ "generatedAt": "2026-09-02T04:09:53.382044+00:00",
+ "productCount": 5,
+ "products": [
+  {
+   "id": "producthunt.com/r/p/1235226",
+   "name": "Radar by Particle（播客搜索引擎）",
+   "slug": "radar-by-particle",
+   "description": "由前 Twitter 工程师创立的 Particle 推出的播客搜索引擎：已转录超过 13 万个播客（每天新增约 2 万集），支持按人物、品牌、关键词与语义全文检索播客内容，可追踪提及、提取带时间戳的高光片段，并支持设置提醒。底层由 Particle Podcast Intelligence API 驱动，供 AI Agent 通过 API/MCP 调用。",
+   "url": "https://radar.particle.pro/",
+   "homepage": "https://radar.particle.pro/",
+   "type": "saas",
+   "tags": [
+    "播客搜索",
+    "音频智能",
+    "语义检索",
+    "品牌监控",
+    "AI Agent"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/posts/radar-by-particle",
+   "analysis": {
+    "targetAudience": "需要从播客中挖掘信息的研究者、投资者、公关市场人员与内容从业者",
+    "useCases": [
+     "搜索某位专家/CEO 在播客中的原话与最新观点",
+     "监控品牌与竞品在播客中的提及，设置邮件/Slack/Webhook 提醒",
+     "按话题（如「AI 记笔记工具」）检索全网播客的深度讨论",
+     "提取带时间戳的高光片段，用于内容创作与素材收集",
+     "通过 API/MCP 让 AI Agent 直接检索播客知识库"
+    ],
+    "designIntent": "播客是信息密度极高却长期不可被搜索的内容形态。Particle 想把「网页可搜索」的能力复制到音频领域：先把 13 万+ 播客全部转录并理解语义，再做搜索与追踪，同时开放 API 给 AI Agent 生态，让「对音频失明的 Agent」也能消费播客知识。",
+    "problemSolved": "解决播客内容无法全文检索、品牌/人物提及难以追踪、以及 AI Agent 只能看到文字世界而看不到音频世界的问题，把藏在播客里的观点与情报变成可查询、可监控、可调用的数据。",
+    "tags": [
+     "播客搜索",
+     "音频智能",
+     "语义检索",
+     "品牌监控",
+     "AI Agent"
+    ],
+    "score": 8,
+    "scoreReason": "播客全文搜索是真实且被忽视的需求，13 万+ 播客的转录规模与实体/语义检索能力目前领先，获 TechCrunch 报道且已吸引对冲基金付费关注；但个人订阅 $29/月起偏贵，核心价值更偏向 B 端 API。",
+    "competitors": [
+     {
+      "name": "Listen Notes",
+      "url": "https://www.listennotes.com/",
+      "comparison": "老牌播客搜索与 API 服务，索引量大；但实体追踪、语义检索与高光片段提取的深度不及 Radar。"
+     },
+     {
+      "name": "Podscan",
+      "url": "https://www.podscan.fm/",
+      "comparison": "主打播客品牌监控与广告追踪，与 Radar 的监控场景重叠；Radar 的转录规模与语义理解更强。"
+     },
+     {
+      "name": "Apple Podcasts / YouTube",
+      "url": "https://podcasts.apple.com/",
+      "comparison": "只支持标题与简介元数据搜索，无法检索播客音频内容本身。"
+     }
+    ]
+   },
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1235226_20260902_120624.png",
+   "appStoreScreenshots": [],
+   "firstSeen": "2026-08-28T12:06:22-07:00"
+  },
+  {
+   "id": "producthunt.com/r/p/1224981",
+   "name": "Fotor 视频 Agent（Video Agent by Fotor）",
+   "slug": "video-agent-by-fotor",
+   "description": "用聊天创建与编辑精确动态图形和视频的 AI 工具：自动编排场景、节奏、视觉特效与动态文字，输出可编辑的多轨时间线——文字、数字、Logo、图表在渲染前都可随时修改，无需 After Effects。输入脚本或上传 PDF 即可生成，制作解说视频从 3-5 天缩短到约 40 分钟。",
+   "url": "https://www.fotor.com/video/",
+   "homepage": "https://www.fotor.com/video/",
+   "type": "saas",
+   "tags": [
+    "AI 视频",
+    "动态图形",
+    "视频创作",
+    "营销素材",
+    "信息图"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/posts/video-agent-by-fotor",
+   "analysis": {
+    "targetAudience": "需要快速产出解说视频、营销素材与动态图表的创始人、市场人和内容创作者",
+    "useCases": [
+     "把脚本/想法一键生成产品宣传片与解说视频",
+     "上传 PDF 或数据，生成可编辑的动画信息图",
+     "临发布前修改文案、数字、Logo，无需整段重新生成",
+     "为社媒营销制作动态文字与转场动效",
+     "不会 After Effects 的人也能做出 AE 级动效"
+    ],
+    "designIntent": "传统 AI 视频是「黑盒」——生成即死文件，改一个字都要从头再来。Fotor 想打破这一点：让 Agent 输出结构化的多轨时间线工程，把「生成」与「精修」分离，文字、数字、图表保持参数化可编辑，真正服务于高频迭代的商业内容生产。",
+    "problemSolved": "解决 AI 生成视频不可编辑、改一处就要重新生成整个视频、以及专业动效工具（AE）学习成本过高的问题，把复杂动效制作变成对话式、可复用的工作流。",
+    "tags": [
+     "AI 视频",
+     "动态图形",
+     "视频创作",
+     "营销素材",
+     "信息图"
+    ],
+    "score": 8,
+    "scoreReason": "精准击中「AI 视频不可编辑」这一真实痛点，可编辑多轨时间线的设计务实且有差异化；上线即登 Product Hunt 当日第一（377 upvotes）；局限是复杂场景的渲染质量与动效可控性仍需实战验证。",
+    "competitors": [
+     {
+      "name": "After Effects",
+      "url": "https://www.adobe.com/products/aftereffects.html",
+      "comparison": "专业动效标杆，功能强大但学习曲线陡峭；Video Agent 以对话式生成简化了这一流程。"
+     },
+     {
+      "name": "CapCut / 剪映",
+      "url": "https://www.capcut.com/",
+      "comparison": "大众化剪辑工具，模板丰富；但缺少「文字生成可编辑工程」的 Agent 式自动编排。"
+     },
+     {
+      "name": "Synthesia",
+      "url": "https://www.synthesia.io/",
+      "comparison": "AI 数字人口播视频为主，聚焦解说类；动态图形与数据可视化编辑能力弱。"
+     }
+    ]
+   },
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1224981_20260902_120631.png",
+   "appStoreScreenshots": [],
+   "firstSeen": "2026-08-17T05:24:54-07:00"
+  },
+  {
+   "id": "producthunt.com/r/p/1226965",
+   "name": "Sayscroll（AI 语音跟随提词器）",
+   "slug": "sayscroll-ai-teleprompter",
+   "description": "会「听你说话」的 AI 提词器：通过实时语音识别，你说到哪文字就滚动到哪，支持 60+ 种语言甚至同一段落中英混排；即兴发挥时自动等待，回到稿件时自动锁定位置。纯浏览器使用、无需安装，脚本不出本机，内置录屏可直接出片。",
+   "url": "https://sayscroll.com/",
+   "homepage": "https://sayscroll.com/",
+   "type": "website",
+   "tags": [
+    "AI 提词器",
+    "语音识别",
+    "内容创作",
+    "直播",
+    "演讲"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/posts/sayscroll",
+   "analysis": {
+    "targetAudience": "短视频创作者、主播、演讲者、课程讲师等需要对着镜头或观众说话的人群",
+    "useCases": [
+     "录制口播/短视频时提词，一遍过不用重拍",
+     "直播或演示时保持眼神交流、自然表达",
+     "演讲排练时即兴发挥，说完自动回到稿件位置",
+     "中英混排或多语言稿件跟随提词",
+     "内置录制功能直接产出成片保存到本机"
+    ],
+    "designIntent": "传统提词器要么固定速度滚屏僵硬，要么需要昂贵的硬件或专人操作。Sayscroll 用语音识别让「稿子跟着人走」：说慢它等、说快它追、即兴也能自动找回位置，把提词变成打开浏览器就能用的轻量工具，并强调脚本本地处理保护隐私。",
+    "problemSolved": "解决传统提词器滚屏速度僵硬、需要昂贵硬件或人工操作、以及录制反复重拍浪费时间的问题，让单人即可完成自然流畅的口播录制。",
+    "tags": [
+     "AI 提词器",
+     "语音识别",
+     "内容创作",
+     "直播",
+     "演讲"
+    ],
+    "score": 7,
+    "scoreReason": "语音跟随式提词是清晰真实的场景创新，浏览器即用、隐私友好、60+ 语言覆盖实用；但同类工具不少、功能相对单一，壁垒主要靠识别准确率与体验打磨，综合给 7 分。",
+    "competitors": [
+     {
+      "name": "PromptSmart Pro",
+      "url": "https://www.promptsmart.com/",
+      "comparison": "老牌语音跟随提词器，移动端体验成熟；Sayscroll 主打浏览器即开即用与多语言混排。"
+     },
+     {
+      "name": "BigStage Teleprompter",
+      "url": "https://www.bigstage.ai/",
+      "comparison": "网页提词器并带 AI 助手；Sayscroll 的实时语音跟随与内置录屏更贴合录制场景。"
+     },
+     {
+      "name": "Teleprompter.com",
+      "url": "https://teleprompter.com/",
+      "comparison": "传统固定/手动速度提词器，无语音跟随，适合对预算敏感的基础需求。"
+     }
+    ]
+   },
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1226965_20260902_120640.png",
+   "appStoreScreenshots": [],
+   "firstSeen": "2026-08-19T09:49:36-07:00"
+  },
+  {
+   "id": "producthunt.com/r/p/1233229",
+   "name": "Ask My Wardrobe（AI 虚拟试衣衣橱）",
+   "slug": "ask-my-wardrobe",
+   "description": "AI 虚拟试衣与智能衣橱工具：上传自己的照片和想试穿的衣服，几秒内看到上身效果，免费且无需注册。还提供数字衣橱管理、每日穿搭规划（可同步日历）、穿搭分享给朋友征求意见等功能，帮助用户「买前先看到上身效果」。",
+   "url": "https://askmywardrobe.com/",
+   "homepage": "https://askmywardrobe.com/",
+   "type": "website",
+   "tags": [
+    "AI 试衣",
+    "时尚",
+    "虚拟穿搭",
+    "电商",
+    "购物决策"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/posts/ask-my-wardrobe",
+   "analysis": {
+    "targetAudience": "常网购服装但担心「买回来不合适」的消费者与时尚爱好者",
+    "useCases": [
+     "网购前把衣服虚拟穿在身上，判断合不合适再下单",
+     "用已有衣物搭配新单品，规划每日穿搭",
+     "生成穿搭图分享给朋友，快速收集意见",
+     "建立个人数字衣橱与穿搭日历，同步日历 App",
+     "按天气与场合获得穿搭建议"
+    ],
+    "designIntent": "线上买衣服是「开盲盒」：看不到上身效果、退货率高、浪费钱和时间。Ask My Wardrobe 想把「买前试穿」变成几秒钟的事——上传照片即可试衣，并围绕穿搭决策补齐衣橱管理、规划与分享的完整链路，降低冲动消费与退货成本。",
+    "problemSolved": "解决网购服装无法试穿导致的高退货率、日常穿搭决策困难、以及衣橱管理混乱的问题，把「猜合不合适」变成「先看效果再决定」。",
+    "tags": [
+     "AI 试衣",
+     "时尚",
+     "虚拟穿搭",
+     "电商",
+     "购物决策"
+    ],
+    "score": 7,
+    "scoreReason": "AI 试衣是电商的明确大需求，产品覆盖试穿→规划→分享的完整链路，免费无门槛上手快；但虚拟试衣效果「方向对但不够完美」，与淘宝、Google 等巨头试衣功能的差异化尚需时间证明，给 7 分。",
+    "competitors": [
+     {
+      "name": "Zyler",
+      "url": "https://www.zyler.com/",
+      "comparison": "面向电商品牌的虚拟试衣 SDK，B 端接入；Ask My Wardrobe 直接服务 C 端消费者，免费开箱即用。"
+     },
+     {
+      "name": "淘宝 / Google AI 试衣",
+      "url": "https://www.taobao.com/",
+      "comparison": "平台内置试衣功能，流量巨大但功能单一；Ask My Wardrobe 更聚焦个人衣橱管理与穿搭规划。"
+     },
+     {
+      "name": "Stylebook",
+      "url": "https://www.stylebookapp.com/",
+      "comparison": "本地衣橱管理 App，重在整理与规划，无 AI 试穿与生成能力。"
+     }
+    ]
+   },
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1233229_20260902_120647.png",
+   "appStoreScreenshots": [],
+   "firstSeen": "2026-08-26T09:37:00-07:00"
+  },
+  {
+   "id": "reddit.com/r/sideproject/comments/1w4x5tf/onthericeanaimarketpublicationthatruns8",
+   "name": "OnTheRice（AI 市场情报）",
+   "slug": "ontherice",
+   "description": "面向金融与地缘政治的 AI 语义情报平台：用 8 个 AI 模型扫描全网信息，经「发现→验证→语义→仲裁→收敛→脉搏」六层流水线处理，输出带证据权重排序的买卖信号，8 项检查全部通过才下结论、否则明确标注「NO CALL」。公开记录每次预测的对错，所有输出均注明为研究用途而非投资建议。",
+   "url": "https://ontherice.org/",
+   "homepage": "https://ontherice.org/",
+   "type": "saas",
+   "tags": [
+    "AI 投研",
+    "金融情报",
+    "语义分析",
+    "地缘政治",
+    "信号生成"
+   ],
+   "sourceChannels": [
+    "reddit"
+   ],
+   "sourceUrl": "https://www.reddit.com/r/SideProject/comments/1w4x5tf/ontherice_an_ai_market_publication_that_runs_8/",
+   "analysis": {
+    "targetAudience": "关注金融市场与宏观地缘信息、希望更快获取高质量情报的投资者与研究者",
+    "useCases": [
+     "每日获取由 AI 多模型聚合的证据卡片与市场信号",
+     "追踪特定公司/事件的矛盾证据与独立信号收敛",
+     "用公开的预测对错记录评估信号源的可靠性",
+     "在主流媒体报道前捕捉早期信号",
+     "作为研究辅助工具交叉验证自己的投资判断"
+    ],
+    "designIntent": "作者是一位新加坡的急救员，他把医学里「先看证据再行动」的思维带进了 AI 投研：不先下结论再找理由。OnTheRice 用多模型交叉验证 + 公开「对错记录」构建可审计、透明的 AI 情报流，试图对抗市面上「听起来很自信」的 AI 投顾。",
+    "problemSolved": "解决信息过载下散户与研究者难以覆盖碎片化市场信息、以及 AI 投研工具黑箱不可信、无法验证的问题——用证据加权和公开预测记录让结论可追溯。",
+    "tags": [
+     "AI 投研",
+     "金融情报",
+     "语义分析",
+     "地缘政治",
+     "信号生成"
+    ],
+    "score": 7,
+    "scoreReason": "「证据加权 + 公开预测记录」的透明化设计在 AI 投研赛道很有差异化，多模型交叉与收敛/矛盾检测思路扎实；但产品很新、真实胜率尚未被时间验证，且明确声明非投资建议，实际效用需持续观察，给 7 分。",
+    "competitors": [
+     {
+      "name": "Bloomberg Terminal",
+      "url": "https://www.bloomberg.com/professional/",
+      "comparison": "专业金融终端，数据权威但价格昂贵且无 AI 语义分析与预测记录。"
+     },
+     {
+      "name": "Koyfin",
+      "url": "https://www.koyfin.com/",
+      "comparison": "面向个人投资者的数据分析平台，偏图表与财务数据，不做语义情报与信号验证。"
+     },
+     {
+      "name": "Seeking Alpha / 传统财经媒体",
+      "url": "https://seekingalpha.com/",
+      "comparison": "观点型财经内容为主，缺乏多模型交叉验证与公开的对错追踪机制。"
+     }
+    ]
+   },
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/reddit.com_r_sideproject_comments_1w4x5tf_onthericeanaimarketpublicationthatruns8_20260902_120655.png",
+   "appStoreScreenshots": [],
+   "firstSeen": "2026-09-02T02:09:08+00:00"
+  }
+ ]
+}
