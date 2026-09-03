@@ -1,0 +1,315 @@
+{
+  "date": "2026-09-03",
+  "generatedAt": "2026-09-03T04:08:59.312224+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "x.com/miwaailearning/status/2095071295746576886",
+      "name": "Hyperknow（AI 一对一学习伙伴）",
+      "slug": "hyperknow",
+      "description": "把教材、课件和不会的题变成一套个性化课程的 AI 学习智能体：生成课程、cheatsheet、闪卡和练习题，还能用白板一步步讲解抽象概念，并记住你的学习方式，像一个长期陪伴的私人老师。由哥伦比亚大学华人本科生团队打造，获真格基金 100 万美元种子轮投资。",
+      "url": "https://www.hyperknow.io/",
+      "homepage": "https://www.hyperknow.io/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/x.com_miwaailearning_status_2095071295746576886_20260903_120546.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 教育",
+        "学习助手",
+        "智能辅导",
+        "课程生成"
+      ],
+      "sourceChannels": [
+        "twitter"
+      ],
+      "sourceUrl": "https://x.com/MiWaAilearning/status/2095071295746576886",
+      "firstSeen": "2026-09-02T08:48:16+00:00",
+      "analysis": {
+        "targetAudience": "大中学生及终身学习者，需要把教材/课件转化为真正学得懂的知识的自学者",
+        "useCases": [
+          "把上百页课件和文献自动提炼成 cheatsheet、闪卡和练习题",
+          "针对不会的题目分步讲解，用白板拆解抽象概念",
+          "按自己的学习风格生成个性化课程，从头系统学一门课",
+          "导入 LMS 课程与截止日期，自动生成复习计划和待办"
+        ],
+        "designIntent": "团队认为「看起来复杂的知识并不是真的难，而是没有被讲好」，立志把整个学习过程放进一个为学习而生的平台，让认知成为可积累的资产；它不是聊天框套壳，而是主动式学习智能体，覆盖预习、上课、复习备考的完整闭环。",
+        "problemSolved": "解决学生面对大量教材课件不知道从哪下手、通用 AI 只会给答案而不会「教会」的问题；把碎片化知识重组为可理解、可复用、可迁移的结构，让学习有长期陪伴感。",
+        "tags": [
+          "AI 教育",
+          "学习助手",
+          "智能辅导",
+          "课程生成",
+          "学生工具"
+        ],
+        "score": 9,
+        "scoreReason": "华人本科生团队、获真格 100 万美元种子轮，产品形态完整（课程/cheatsheet/白板讲解/记忆学习风格），主动式教学而非聊天框套壳，教育赛道需求明确且天花板高。",
+        "competitors": [
+          {
+            "name": "Khanmigo",
+            "url": "https://www.khanmigo.ai",
+            "comparison": "Khan Academy 的 AI 助教，同样强调引导而非直接给答案，但更多绑定 Khan 自有课程体系，灵活性不如 Hyperknow"
+          },
+          {
+            "name": "Quizlet",
+            "url": "https://quizlet.com",
+            "comparison": "以闪卡和练习题为主，缺少 1:1 课程生成、白板讲解与主动式辅导"
+          },
+          {
+            "name": "通用 AI 聊天工具",
+            "url": "https://chat.openai.com",
+            "comparison": "ChatGPT/豆包等被动问答，需要用户自己组织学习过程，不会记住个人学习风格"
+          }
+        ]
+      }
+    },
+    {
+      "id": "apartmentfaxnyc.com",
+      "name": "Apartment Fax（纽约公寓历史报告）",
+      "slug": "apartment-fax",
+      "description": "签约前 1 美元即可获取纽约任意公寓的完整历史报告：聚合 HPD、DOB、311 等公开住房记录，覆盖违规、虫害备案、漏水、施工、驱逐史等信号，帮租客在看样板房之外了解这栋楼真实的「档案」，再决定要问房东什么。",
+      "url": "https://apartmentfaxnyc.com/",
+      "homepage": "https://apartmentfaxnyc.com/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/apartmentfaxnyc.com_20260903_120556.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "租房",
+        "住房报告",
+        "房屋历史",
+        "纽约",
+        "信息聚合"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49544811",
+      "firstSeen": "2026-09-03T01:17:52+00:00",
+      "analysis": {
+        "targetAudience": "在纽约租房、签约前想核实公寓真实状况的租客，以及替客户把关的房产经纪人",
+        "useCases": [
+          "签约前 1 美元查询目标公寓的违规记录、311 投诉、蟑螂老鼠备案",
+          "核实建筑是否有过漏水、施工纠纷或被驱逐的历史",
+          "识别长期反复出现的居住问题，签约前向房东/中介提出针对性问题"
+        ],
+        "designIntent": "作者们自己看房时被 HPD/DOB/311 等分散的政府系统折磨，于是把公开住房记录聚合为一份报告，让普通人不用逐个系统查询就能掌握建筑的「病史」。",
+        "problemSolved": "解决租客与房东之间严重的信息不对称——只看样板房无法了解建筑的违规史、虫害史和驱逐史；把分散在多个政府数据库的公开信息一键汇总，把「看房踩坑」变成「带着问题去签约」。",
+        "tags": [
+          "租房",
+          "住房报告",
+          "房屋历史",
+          "纽约",
+          "信息聚合"
+        ],
+        "score": 8,
+        "scoreReason": "切中真实租房痛点、1 美元无门槛定价、数据全部来自官方公开记录可信度高；但仅限纽约、报告覆盖范围取决于公开数据的完整性。",
+        "competitors": [
+          {
+            "name": "Who Owns What",
+            "url": "https://whoownswhat.justfix.org",
+            "comparison": "免费的纽约房产拥有者与违规查询工具，但偏房东画像，不聚合租客关心的完整居住历史"
+          },
+          {
+            "name": "Localize.city",
+            "url": "https://www.localize.city",
+            "comparison": "房产数据聚合平台，覆盖更广但更偏买家与投资者，定价更高"
+          },
+          {
+            "name": "纽约市 HPD 官方门户",
+            "url": "https://hpdonline.hpdnyc.org",
+            "comparison": "数据免费但需在多个系统间手工查询，体验远不如一站式报告"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dehurdle.com/register",
+      "name": "Dehurdle（AI 高难度对话演练）",
+      "slug": "dehurdle",
+      "description": "用超逼真的 AI 语音模拟对手，练习销售谈判、客户异议、裁员沟通等高难度对话：AI 实时扮演 125 个国家的客户/面试官，支持上传公司话术和 Deck 生成定制场景，并对语速、眼神接触、措辞给出逐句打分与改进建议，音视频本地处理不留存。",
+      "url": "https://dehurdle.com/",
+      "homepage": "https://dehurdle.com/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/dehurdle.com_register_20260903_120605.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "沟通训练",
+        "AI 陪练",
+        "销售培训",
+        "谈判演练",
+        "职场技能"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49542430",
+      "firstSeen": "2026-09-02T20:56:11+00:00",
+      "analysis": {
+        "targetAudience": "销售、顾问、HR 及需要应对高难度客户沟通和谈判的职场人，以及想给团队做沟通培训的企业",
+        "useCases": [
+          "练习企业 SaaS 销售中的价格异议、价值谈判等高频场景",
+          "上传公司话术库/Deck/通话录音，AI 生成符合自家标准的定制演练",
+          "复盘语速、眼神与措辞，拿到逐句改进建议和「说服时刻」分析",
+          "30 天训练计划，用可量化分数跟踪团队沟通能力提升"
+        ],
+        "designIntent": "把「课堂培训」变成「有 AI 对手的真实演练」，让沟通技巧从理论变成肌肉记忆；同时承诺音视频零留存、本地处理，适合企业内部敏感场景。",
+        "problemSolved": "高难度谈话（涨价、客户拒绝、裁员、反馈）没有安全环境反复练习；传统培训低效且缺少反馈闭环。AI 模拟+实时打分提供零风险、可量化、可复盘的演练场。",
+        "tags": [
+          "沟通训练",
+          "AI 陪练",
+          "销售培训",
+          "谈判演练",
+          "职场技能"
+        ],
+        "score": 8,
+        "scoreReason": "面向真实企业场景，SOC 2/ISO 27001/GDPR 合规、企业级隐私设计，实时语音+眼神反馈体验完整，有 Deloitte 等大客户背书，企业付费意愿明确。",
+        "competitors": [
+          {
+            "name": "Yoodli",
+            "url": "https://yoodli.ai",
+            "comparison": "AI 演讲/沟通教练，偏单向表达分析与练习，缺少实时多角色对手对话模拟"
+          },
+          {
+            "name": "VirtualSpeech",
+            "url": "https://virtualspeech.com",
+            "comparison": "VR/在线演讲与面试练习，场景偏公开演讲，缺乏针对销售异议的对抗式演练"
+          },
+          {
+            "name": "传统沟通培训机构",
+            "url": "https://www.vitalsmarts.com",
+            "comparison": "线下课程体系成熟但无 AI 对手和即时反馈，成本高、难规模化"
+          }
+        ]
+      }
+    },
+    {
+      "id": "thelingo.xyz",
+      "name": "TheLingo（电竞化语言学习）",
+      "slug": "thelingo",
+      "description": "把语言学习做成电竞：与真人进行限时 1v1 口语对战，由 AI 盲审裁判打分，用 Fluent Score 排行榜证明水平；还有「大师实验室」向 AI 学生讲解语法赚掌握度积分，以及按文化主题组织的语言社群。",
+      "url": "https://thelingo.xyz",
+      "homepage": "https://thelingo.xyz",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/thelingo.xyz_20260903_120615.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "语言学习",
+        "电竞化",
+        "口语练习",
+        "AI 裁判",
+        "游戏化"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49544661",
+      "firstSeen": "2026-09-03T00:55:16+00:00",
+      "analysis": {
+        "targetAudience": "学语言难以坚持、喜欢游戏化与竞技氛围的年轻人（尤其 Gen Z），以及想通过真实对抗检验口语水平的学习者",
+        "useCases": [
+          "与真人进行限时口语对战，AI 盲审裁判即时打分",
+          "用 Fluent Score 排行榜直观量化自己的语言水平",
+          "加入西班牙/法语/日语等文化主题社群，边聊美食、电影、音乐边练语言",
+          "在「大师实验室」给 AI 学生讲解语法概念，换取掌握度积分"
+        ],
+        "designIntent": "作者观察到在线学语言的动机是「连接」而日常练习却是「孤独」，于是把语言学习做成电竞：有对手、有裁判、有排行榜，让每天的口语练习本身成为社交与竞技。",
+        "problemSolved": "解决语言学习坚持难、开口难的问题：用对抗感和即时反馈替代孤立的打卡，让「学了很多却不敢说」的人有一个低压力的竞技场练胆量、练流利度。",
+        "tags": [
+          "语言学习",
+          "电竞化",
+          "口语练习",
+          "AI 裁判",
+          "游戏化"
+        ],
+        "score": 7,
+        "scoreReason": "概念新颖，AI 盲审裁判+排行榜+社群机制的差异化明显，在线 demo 可直接体验；但目前仅 44 人 waitlist、尚未正式上线，落地效果待验证。",
+        "competitors": [
+          {
+            "name": "Duolingo",
+            "url": "https://www.duolingo.com",
+            "comparison": "单人打卡式学习，无真人对抗和竞技排名，坚持动力机制不同"
+          },
+          {
+            "name": "Tandem",
+            "url": "https://www.tandem.net",
+            "comparison": "真人语伴互换平台，有社交但无竞技排名与 AI 裁判机制"
+          },
+          {
+            "name": "通用 AI 对话练习",
+            "url": "https://chat.openai.com",
+            "comparison": "免费但无对手感、无排行榜反馈，练习动力不足"
+          }
+        ]
+      }
+    },
+    {
+      "id": "theyfell.com",
+      "name": "TheyFell（AI 创业讣告生成器）",
+      "slug": "theyfell",
+      "description": "一个专门「唱反调」的 AI：输入任何网站或产品的 URL，它读取真实内容后写出这家公司「应得的讣告」和死因。免费生成可分享的讣告卡片，也可付费把讣告邮件寄给创始人，或下单实体装裱讣告。上线至今已「埋葬」337 个产品。",
+      "url": "https://theyfell.com/",
+      "homepage": "https://theyfell.com/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/theyfell.com_20260903_120623.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 文案",
+        "黑色幽默",
+        "创业文化",
+        "社交分享",
+        "趣味工具"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49543617",
+      "firstSeen": "2026-09-02T22:45:39+00:00",
+      "analysis": {
+        "targetAudience": "创业圈、产品经理、开发者，以及想在社交媒体上用幽默方式自嘲或「拷问」一个项目的从业者",
+        "useCases": [
+          "输入任意网站/产品 URL，AI 生成它「应得的讣告」与死因",
+          "生成 9:16/方形/横版讣告卡片，分享到 X、Reddit、微信等社交平台",
+          "花 4.99 美元把讣告连同卡片寄到产品创始人的邮箱",
+          "花 299 美元给整批加速器项目/offsite 写群像讣告，现场宣读"
+        ],
+        "designIntent": "作者受够了「每个 AI 都说你做得很好」，于是做了一个诚实甚至刻薄的 AI：只读产品真实页面、写它应得的讣告，也把它用在自己身上自嘲，倡导对产品保持清醒的反思。",
+        "problemSolved": "回应 AI 反馈永远赞美、创业圈自我感觉良好的问题：用黑色幽默提供一种「诚实的第三方视角」，同时本身成为有传播力的社交货币。",
+        "tags": [
+          "AI 文案",
+          "黑色幽默",
+          "创业文化",
+          "社交分享",
+          "趣味工具"
+        ],
+        "score": 7,
+        "scoreReason": "传播力极强（HN/Reddit 双热帖、337 份讣告），商业模式清晰（卡片/实体印刷/邮件/整批讣告）；但本质是玩梗工具，长期价值有限，适合作为文化现象关注。",
+        "competitors": [
+          {
+            "name": "Roast My Resume 类毒舌 AI 工具",
+            "url": "https://www.roastmyresume.com",
+            "comparison": "同为「毒舌 AI」品类，但面向个人简历而非产品/公司"
+          },
+          {
+            "name": "Startup 死亡倒计时类玩梗站",
+            "url": "https://www.failory.com",
+            "comparison": "静态内容为主，无个性化 AI 生成与付费分享闭环"
+          },
+          {
+            "name": "Cards Against Humanity 类幽默品牌",
+            "url": "https://cardsagainsthumanity.com",
+            "comparison": "通用幽默卡片，无 AI 个性化生成和产品定向吐槽"
+          }
+        ]
+      }
+    }
+  ]
+}
