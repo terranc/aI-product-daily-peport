@@ -1,0 +1,329 @@
+{
+  "date": "2026-09-04",
+  "generatedAt": "2026-09-04T04:12:22.028496+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "producthunt.com/r/p/1238755",
+      "name": "Tidy（Mac 本地 AI 语法修正）",
+      "slug": "tidy",
+      "description": "在任何 Mac 应用里一键修正拼写与语法：选中文本按下快捷键，修正版就地替换；另一个快捷键能把「AI 味」浓的段落改回自然的人类语气，@提及、日期时间不会被改动。完全运行在 macOS 内置模型上（需 macOS 26 + Apple Intelligence），本地处理、不上传任何内容，免费使用。",
+      "url": "https://greene-squares.github.io/tidy-releases/",
+      "homepage": "https://greene-squares.github.io/tidy-releases/",
+      "type": "app",
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/posts/tidy-6",
+      "firstSeen": "2026-09-01T19:04:06+00:00",
+      "analysis": {
+        "targetAudience": "经常在 Slack、Gmail、文档里写作，又被拼写错误和「AI 腔」困扰的 Mac 用户",
+        "useCases": [
+          "在 Slack 里发送前一键修正错别字、大小写与语法",
+          "把同事或大模型生成的「AI 味」段落还原成自然的人类语气",
+          "在 Gmail、Docs、Notes 等应用获得统一且好用的拼写检查",
+          "写邮件或文档时快速就地润色，无需复制粘贴到别的工具"
+        ],
+        "designIntent": "作者受够了各应用拼写检查参差不齐（Slack 几乎不检查、Gmail/Docs/Notes 各查各的），于是做了一个「一个快捷键在任何地方都好用」的本地修正工具；不收集数据、不上传文本，靠 macOS 自带模型实现，并把「去 AI 味」做成第二个快捷键，免费供给所有 Mac 用户。",
+        "problemSolved": "解决「每个应用拼写检查质量不一 + 要润色就得复制去别的工具」的割裂体验；同时解决 AI 协作时代整段文字一股机器味、人工改回又累的返工问题，把修正收敛到一个系统级快捷键里。",
+        "tags": [
+          "Mac 工具",
+          "语法修正",
+          "本地 AI",
+          "写作助手",
+          "隐私优先"
+        ],
+        "score": 8,
+        "scoreReason": "需求真实高频（人人都写消息和文档），本地隐私方案干净利落，「去 AI 味」这个反向功能精准切中当下协作痛点；缺点是依赖 macOS 26 + Apple Intelligence，覆盖范围受限。",
+        "competitors": [
+          {
+            "name": "Grammarly",
+            "url": "https://www.grammarly.com",
+            "comparison": "云端语法校对老牌，功能更全但要联网订阅，隐私路线与 Tidy 的纯本地处理相反"
+          },
+          {
+            "name": "Wispr Flow",
+            "url": "https://www.wisprflow.com",
+            "comparison": "同为 Mac 端 AI 写作工具，主打语音输入，Tidy 主打就地改写与去 AI 味"
+          },
+          {
+            "name": "macOS 自带拼写检查",
+            "url": "https://www.apple.com/macos",
+            "comparison": "免费但各应用表现不一致，正是 Tidy 想补的洞"
+          }
+        ]
+      },
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1238755_20260904_120652.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "Mac 工具",
+        "语法修正",
+        "本地 AI",
+        "写作助手",
+        "隐私优先"
+      ]
+    },
+    {
+      "id": "v2ex.com/t/1239341",
+      "name": "CapTran（iOS 本地实时翻译与转录）",
+      "slug": "captran",
+      "description": "一款依赖 iOS 本地模型的设备端实时翻译与音视频转录工具：通过系统屏幕广播捕获其他 App 的音频，在设备上完成语音识别和翻译，以画中画悬浮字幕显示在其他 App 上方；也可导入音视频文件转录并导出 SRT/TXT 字幕。纯离线、不上传音频、不收集数据，模型下载后断网也能用。",
+      "url": "https://apps.apple.com/cn/app/captran-ai-live-translation/id6801756535",
+      "homepage": "https://apps.apple.com/cn/app/captran-ai-live-translation/id6801756535",
+      "type": "app",
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "sourceUrl": "https://www.v2ex.com/t/1239341",
+      "firstSeen": "2026-09-03T15:11:49+00:00",
+      "analysis": {
+        "targetAudience": "常看 YouTube/Twitch 外文直播、需要实时字幕翻译的 iPhone 用户，以及要给音视频加字幕的内容创作者",
+        "useCases": [
+          "看口音重的外文直播时实时生成中文字幕",
+          "直播或视频会议场景用画中画悬浮字幕，不遮挡内容",
+          "导入音频/视频文件，在设备端转写并导出 SRT/TXT 字幕",
+          "断网环境下离线完成语音转写与翻译"
+        ],
+        "designIntent": "作者追外文直播时觉得讯飞听见好用但订阅太贵，发现 iOS 26 已内置本地语音模型后手搓了这款工具，想验证「系统级本地模型能否替代付费云转录」，主打零上传、纯离线的隐私路线，并附送 50 个永久 Pro 兑换码回馈社区。",
+        "problemSolved": "解决外文直播/视频实时字幕「好用但贵且要上传」的痛点：把语音识别和翻译全部压到设备端，让实时字幕免费、离线可用、内容不出手机。",
+        "tags": [
+          "实时翻译",
+          "语音转文字",
+          "本地 AI",
+          "字幕",
+          "iOS 工具"
+        ],
+        "score": 8,
+        "scoreReason": "精准抓住「实时字幕贵且不隐私」的痛点，纯本地方案在 iOS 上少见，对华语用户尤其实用；缺点是依赖 iOS 26 本地模型能力，翻译质量受系统模型限制。",
+        "competitors": [
+          {
+            "name": "讯飞听见",
+            "url": "https://www.iflyrec.com",
+            "comparison": "云转录准确率行业领先，但订阅费用高、音频需上传云端"
+          },
+          {
+            "name": "YPlayer",
+            "url": "https://www.engineerdraft.com/yplayer",
+            "comparison": "同为本地识别方案并支持实时翻译，但偏 macOS 播放器场景"
+          },
+          {
+            "name": "通义听悟",
+            "url": "https://tingwu.aliyun.com",
+            "comparison": "阿里云转录工具，功能全但为云端处理，需联网"
+          }
+        ]
+      },
+      "appStoreName": "CapTran：跨 App 实时翻译字幕",
+      "appStoreUrl": "https://apps.apple.com/cn/app/captran-%E8%B7%A8-app-%E5%AE%9E%E6%97%B6%E7%BF%BB%E8%AF%91%E5%AD%97%E5%B9%95/id6801756535?uo=4",
+      "screenshotUrl": "assets/screenshots/v2ex.com_t_1239341_20260904_120659.png",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0f/28/a0/0f28a078-4577-2595-d06c-6c828c23cc5f/Screenshot-2026-08-13_22-43-11.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f3/5b/7e/f35b7e9e-9b63-de10-d5b7-d0b13cbbdc8c/Screenshot-2026-08-13_23-21-04.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/76/22/88/762288ce-e6e5-17f1-28e9-d0a370fadc30/Screenshot-2026-08-16_10-14-05.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/61/ee/6b/61ee6bdf-5335-3e5d-33f0-d51afb745dc0/Screenshot-2026-08-13_22-43-58.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/da/88/12/da8812c7-9ee2-6164-a5a5-65f80f1cfcda/Screenshot-2026-08-13_23-02-32.png/320x480bb.jpg"
+      ],
+      "tags": [
+        "实时翻译",
+        "语音转文字",
+        "本地 AI",
+        "字幕",
+        "iOS 工具"
+      ]
+    },
+    {
+      "id": "producthunt.com/r/p/1224803",
+      "name": "WaseiGo（日语和制英语词汇学习）",
+      "slug": "waseigo",
+      "description": "专门攻克日语里 1000+ 个「看起来像英语、意思却完全不同」的和制英语（wasei-eigo）：比如 consent 是电源插座、viking 是自助餐、cunning 是作弊。每个词配水彩插画的双语对话、母语级音频和「先猜后学」测验。英语学习者与日语母语者双向可用，一次性买断、无订阅。",
+      "url": "https://waseigo.take-lab.com/",
+      "homepage": "https://waseigo.take-lab.com/",
+      "type": "app",
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/posts/waseigo",
+      "firstSeen": "2026-08-17T08:48:20+00:00",
+      "analysis": {
+        "targetAudience": "学日语的英语母语者、准备赴日的旅行者，以及想避免「日式英语」直译闹笑话的日语母语英语学习者",
+        "useCases": [
+          "系统学习 1000+ 个和制英语词及其真实含义",
+          "赴日前快速避开「伪英语」沟通陷阱",
+          "日语母语者学英语时避免直译和制英语闹笑话",
+          "用插画对话、母语音频和三种测验巩固记忆"
+        ],
+        "designIntent": "作者发现市面上的日语学习工具都忽视「和制英语」这个高频陷阱——这些词看着像英语、意思却全变，是外国人在日本沟通翻车的重灾区，于是把每个词做成「误会发生→真实英语登场」的小故事，让记忆有上下文、有画面。",
+        "problemSolved": "解决外语学习者面对「伪英语」查词典也查不明白的困惑，用情境化内容把词义差异讲透，双向惠及学日语的英语者和学英语的日语者。",
+        "tags": [
+          "语言学习",
+          "日语",
+          "词汇",
+          "和制英语",
+          "教育"
+        ],
+        "score": 7,
+        "scoreReason": "切入点独特、内容打磨精细（插画/母语音频/测验/买断制），在语言学习赛道差异化明显；缺点是只覆盖和制英语单一细分，属补充型工具。",
+        "competitors": [
+          {
+            "name": "Duolingo",
+            "url": "https://www.duolingo.com",
+            "comparison": "泛日语学习主流 App，但不会专门讲透和制英语的陷阱"
+          },
+          {
+            "name": "Memrise",
+            "url": "https://www.memrise.com",
+            "comparison": "侧重记忆法词汇，缺少「伪英语」的语境与故事化解释"
+          },
+          {
+            "name": "Made-in-Japan English",
+            "url": "https://apps.apple.com/us/app/made-in-japan-english/id1224478818",
+            "comparison": "同类小众 App，但内容深度与交互远不如 WaseiGo"
+          }
+        ]
+      },
+      "appStoreName": "WaseiGo",
+      "appStoreUrl": "https://apps.apple.com/us/app/waseigo/id6785002228?uo=4",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1224803_20260904_120710.png",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/14/a7/69/14a769d4-2c8c-2be9-3e59-90a29b6a4b50/01-home.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/87/8d/ad/878dad4b-486a-9ca1-032f-cf1de19b38f8/02-conversation.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3e/d9/08/3ed90804-1a7c-6a7e-7189-ae8c69924402/03-dictionary.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3c/9e/9a/3c9e9a7f-1e5d-2036-dc86-2fa49f63e299/04-quiz.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/54/10/01/541001b1-e694-537b-0b39-424e139e0a35/05-feedback.png/320x480bb.jpg"
+      ],
+      "tags": [
+        "语言学习",
+        "日语",
+        "词汇",
+        "和制英语",
+        "教育"
+      ]
+    },
+    {
+      "id": "producthunt.com/r/p/1238473",
+      "name": "Stitch AI（AI 刺绣数字化）",
+      "slug": "stitch-ai",
+      "description": "首个「刺绣数字化」AI Agent：读取你的设计图，像专业打版师一样逐区域规划针法、挑选线色，15 秒内在浏览器里交付逼真 3D 样机、可直接上机的 Tajima DST 文件和生产单。还会诚实列出刺绣无法还原的部分（如渐变、过细细节），避免到机器上才翻车。目前免费。",
+      "url": "https://dynamicmockups.com/stitch/",
+      "homepage": "https://dynamicmockups.com/stitch/",
+      "type": "saas",
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/posts/stitch-ai-by-dynamic-mockups",
+      "firstSeen": "2026-09-01T12:39:23+00:00",
+      "analysis": {
+        "targetAudience": "服装定制/印花打版从业者、电商与按需打印（POD）卖家，以及想做刺绣产品的设计师",
+        "useCases": [
+          "上传 logo 15 秒生成刺绣针法方案与 3D 样机",
+          "直接导出 Tajima DST 上机文件与生产单",
+          "向客户报价前快速拿到针数预估",
+          "逐区域微调线色、针角、密度、3D 泡棉效果"
+        ],
+        "designIntent": "团队发现刺绣数字化这个传统工序（外包要 24 小时以上、专业软件几千美金、学习曲线陡）与样机设计完全脱节，于是把「专业打版师的经验」压缩进一个 AI Agent，让设计图到可上机文件一步到位，样机与生产文件同源。",
+        "problemSolved": "解决刺绣数字化行业「贵、慢、要专门人才」的三重门槛，并把「样机」与「生产文件」统一到同一套流程，减少反复改稿和整件报废的损失。",
+        "tags": [
+          "AI Agent",
+          "刺绣",
+          "服装定制",
+          "自动化",
+          "设计工具"
+        ],
+        "score": 7,
+        "scoreReason": "把 AI 落进一个极少被科技改造的传统工艺环节，痛点真实、产出可直接生产，是「AI 融入普通应用场景」的典型样本；缺点是受众垂直，依赖刺绣行业认知。",
+        "competitors": [
+          {
+            "name": "Wilcom EmbroideryStudio",
+            "url": "https://www.wilcom.com",
+            "comparison": "专业刺绣打版软件，功能强但价格高、学习成本陡"
+          },
+          {
+            "name": "传统外包打版服务",
+            "url": "https://www.embroidery.com",
+            "comparison": "单图 10–50 美元、24 小时周转，无法即时预览样机"
+          },
+          {
+            "name": "Printful 等 POD 平台",
+            "url": "https://www.printful.com",
+            "comparison": "提供刺绣选项但需人工打版，用户不能自助数字化"
+          }
+        ]
+      },
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1238473_20260904_120719.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI Agent",
+        "刺绣",
+        "服装定制",
+        "自动化",
+        "设计工具"
+      ]
+    },
+    {
+      "id": "producthunt.com/r/p/1227707",
+      "name": "deepeye（AI 深度伪造检测）",
+      "slug": "deepeye",
+      "description": "一站式 AI 深度伪造检测工具：Chrome 右键扫描图片、iOS 相册检测、WhatsApp 转发可疑消息、通话中实时监测克隆声音。单次扫描同时分析图像、文本、语音三层，基于服务全球 211+ 国家金融机构的 deepidv 企业级检测引擎，免费版每月 10 次扫描。",
+      "url": "https://www.deepidv.com/deepeye",
+      "homepage": "https://www.deepidv.com/deepeye",
+      "type": "website",
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/posts/deepeye-by-deepidv",
+      "firstSeen": "2026-08-20T13:26:24+00:00",
+      "analysis": {
+        "targetAudience": "经常接收图片/语音/视频消息、担心被骗或被伪造内容误导的普通网民，以及媒体从业者",
+        "useCases": [
+          "Chrome 右键扫描可疑图片，识别 GAN 伪影与改图痕迹",
+          "把可疑消息转发给 WhatsApp 机器人检测 AI 生成文本",
+          "通话/视频会议中实时监测克隆声音",
+          "结合 C2PA 来源元数据验证内容的真实来源"
+        ],
+        "designIntent": "团队把服务金融机构的身份验证引擎（识别 AI 生成的人脸、声音、文本）下沉成普通消费者工具，让「鉴假」能力出现在用户本来就待着的地方（浏览器、相册、WhatsApp），而不是要用户主动上传到检测站。",
+        "problemSolved": "解决普通人在 AI 生成内容泛滥时代「肉眼无法分辨真假」的无力感，把企业级伪造检测能力打包成零门槛的免费工具，覆盖图片、文本、语音三大欺骗入口。",
+        "tags": [
+          "深度伪造",
+          "AI 安全",
+          "浏览器扩展",
+          "反诈骗",
+          "媒体鉴别"
+        ],
+        "score": 7,
+        "scoreReason": "选题切中 AI 时代最大焦虑之一（深度伪造诈骗），企业级引擎背书加多端覆盖完整；但免费额度有限，个人场景的实际检测准确率仍需观望。",
+        "competitors": [
+          {
+            "name": "Reality Defender",
+            "url": "https://www.realitydefender.com",
+            "comparison": "面向企业的深度伪造检测平台，能力更强但不对普通用户开放"
+          },
+          {
+            "name": "AI or Not",
+            "url": "https://www.aiornot.com",
+            "comparison": "网页上传检测图片/音频，缺少浏览器与通话场景的实时集成"
+          },
+          {
+            "name": "Microsoft Video Authenticator",
+            "url": "https://www.microsoft.com",
+            "comparison": "微软官方检测工具，能力较强但形态偏研究/企业"
+          }
+        ]
+      },
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1227707_20260904_120730.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "深度伪造",
+        "AI 安全",
+        "浏览器扩展",
+        "反诈骗",
+        "媒体鉴别"
+      ]
+    }
+  ]
+}
