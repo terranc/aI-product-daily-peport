@@ -1,6 +1,6 @@
 {
   "version": 11,
-  "lastUpdated": "2026-09-04T04:12:22.028496+00:00",
+  "lastUpdated": "2026-09-05T04:14:47.298616+00:00",
   "products": [
     {
       "id": "producthunt.com/r/p/1198621",
@@ -31390,6 +31390,364 @@
         "lastFeaturedDate": "2026-09-04"
       },
       "cooldownExpiresAt": "2026-09-18T04:12:22.028496+00:00"
+    },
+    {
+      "id": "producthunt.com/r/p/1239691",
+      "name": "Readr（AI 电子书阅读器）",
+      "slug": "readr",
+      "description": "一款可以「对话」的免费开源电子书阅读器：读到不懂的段落选中即问，答案以书中原文引用为据显示在页边，超出书本的部分会明确标注来源；内置设备端神经语音，可从当前页开始朗读、自动翻页续听；自带 API Key 或用 Mac 上的本地 Ollama 模型，无账号、无服务器、无遥测，支持 iPhone/iPad/Mac。",
+      "url": "https://readr-ai.github.io/",
+      "homepage": "https://readr-ai.github.io/",
+      "type": "app",
+      "appStoreName": "Readr: AI Ebook Reader",
+      "appStoreUrl": "https://apps.apple.com/us/app/readr-ai-ebook-reader/id6789784856?uo=4",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1239691_20260905_120640.png",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/78/af/8f/78af8f1b-cfae-dd07-fe65-c85c72dbf6e2/01-home.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/10/df/2e/10df2e1c-8a3b-23ea-18b2-2d6ce190f33d/02-reader.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fd/af/78/fdaf78cf-7823-2491-62a8-46a344a34947/03-ask.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/88/ea/80/88ea8057-c3af-da07-0fea-9d20d7336891/04-appearance.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/48/df/af/48dfafe0-6e69-6dce-e34a-e4dd1d3be082/05-reader-dark.png/320x480bb.jpg"
+      ],
+      "tags": [
+        "AI 阅读",
+        "电子书",
+        "边读边问",
+        "本地朗读",
+        "开源免费"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/readr-3",
+      "firstSeen": "2026-09-02T18:30:59+00:00",
+      "analysis": {
+        "targetAudience": "经常读电子书、希望边读边答疑解惑的深度读者与学习型用户",
+        "useCases": [
+          "读英文原著或技术书遇到不懂的段落，选中直接问「这句话什么意思」，答案带书中出处",
+          "读到科幻/科学设定时追问「这在现实中成立吗」，AI 明确区分书内知识与外部常识",
+          "眼睛累了按 Listen 从当前页开始听书，阅读与听书进度无缝衔接",
+          "读完把高亮和批注一键整理成 Markdown 笔记或文章草稿",
+          "隐私场景：配本地 Ollama 模型，整本书记录不出设备"
+        ],
+        "designIntent": "作者自己读书时总把不懂的段落复制到聊天窗口提问，答完再回书里找位置，深感割裂，于是把「提问」直接做进阅读器：答案落在页边、以书本原文为引用基准，既防 AI 胡编，也把好奇心的兔子洞拉回书本身；朗读、笔记导出都围绕「不打断阅读流」设计。",
+        "problemSolved": "解决「读书想查证/提问必须跳出书本开浏览器、回来还要找阅读位置」的割裂体验；并以「书中引用优先」的答案机制对抗大模型幻觉，让提问与阅读融为一体，同时提供免费开源+BYO Key 的隐私友好方案。",
+        "tags": [
+          "AI 阅读",
+          "电子书",
+          "边读边问",
+          "本地朗读",
+          "开源免费"
+        ],
+        "score": 8,
+        "scoreReason": "产品思路克制且完成度高——把 AI 问答内嵌进阅读流并强制引用书中原文，直击深度读者真实痛点，PH 首发即上每日榜前列；免费开源、隐私架构干净（BYO Key/本地模型）。扣分点：AI 问答需自备 API Key 有入门门槛，且不支持 Kindle 加密书。",
+        "competitors": [
+          {
+            "name": "Apple Books",
+            "url": "https://www.apple.com/apple-books/",
+            "comparison": "苹果自带阅读生态，界面流畅但无边读边问与本地朗读能力"
+          },
+          {
+            "name": "Kindle",
+            "url": "https://www.amazon.com/kindle",
+            "comparison": "购书生态最强，但阅读器无 AI 问答，笔记导出受限"
+          },
+          {
+            "name": "ElevenReader",
+            "url": "https://elevenreader.io",
+            "comparison": "ElevenLabs 的有声书朗读器，只解决「听」不解决「问」"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-09-05"
+      },
+      "cooldownExpiresAt": "2026-09-19T04:14:47.298616+00:00"
+    },
+    {
+      "id": "producthunt.com/r/p/1239062",
+      "name": "Dyson CameraJet（AI 摄像头冲牙牙刷）",
+      "slug": "dyson-camerajet",
+      "description": "Dyson 首款带摄像头的电动牙刷：刷头内置 10 万像素微距镜头，以 28 帧/秒实时扫描牙缝，Gap Optical Targeting™ AI（经 47 万张牙科图像训练）在 100 毫秒内识别牙缝并精准喷射漱口水完成冲牙，刷牙与牙线一步到位；Wi-Fi/蓝牙连接 MyDyson App 可实时观看口腔内画面，售价 499 美元，9 月 1 日全球发布。",
+      "url": "https://www.dyson.com/discover/news/latest/introducing-camerajet",
+      "homepage": "https://www.dyson.com/discover/news/latest/introducing-camerajet",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1239062_20260905_120713.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "智能硬件",
+        "口腔护理",
+        "AI 视觉",
+        "消费电子",
+        "健康科技"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/posts/dyson-camerajet",
+      "firstSeen": "2026-09-02T05:33:12+00:00",
+      "analysis": {
+        "targetAudience": "重视口腔健康、愿意为「刷牙+冲牙一步到位」买单的品质型消费者与科技尝鲜者",
+        "useCases": [
+          "日常刷牙时同步完成牙缝清洁，不再单独用牙线或水牙线",
+          "通过 MyDyson App 实时查看口腔内画面，自查清洁盲区与牙龈状况",
+          "牙龈敏感人群：锥形喷射比传统针式水牙线更温和、覆盖面更广",
+          "作为高端健康礼物送给家人，替代传统电动牙刷"
+        ],
+        "designIntent": "Dyson 把航空级工程思路带入口腔护理：美国人牙线使用率仅约 1/3、多数人刷牙不足两分钟，于是用「摄像头+机器学习+精密流体」把冲牙并入刷牙动作，让专业级牙缝清洁变成刷牙时的全自动行为，降低口腔护理门槛；历经 6 年研发、用 47 万张牙科图像训练检测模型。",
+        "problemSolved": "解决「刷牙和牙线是两步操作、大多数人懒得做或做不对」的口腔护理困境：AI 实时识别牙缝并定点喷射，刷牙的同时完成冲牙，把需要技巧的牙线动作自动化，同时不录像不存图（摄像头仅在工作时启用），化解浴室摄像头隐私顾虑。",
+        "tags": [
+          "智能硬件",
+          "口腔护理",
+          "AI 视觉",
+          "消费电子",
+          "健康科技"
+        ],
+        "score": 8,
+        "scoreReason": "把 AI 视觉朴素地塞进每天两次的刷牙场景，解决真实健康问题且有 Dyson 级工程背书（28 帧/秒识别、100ms 响应、470K 图像训练），发布即获 Verge/Wired 等全球媒体刷屏，是「AI 融入日常场景」的教科书案例；扣分点是 499 美元高价与专用低泡耗材抬高使用成本。",
+        "competitors": [
+          {
+            "name": "Oral-B iO",
+            "url": "https://oralb.com",
+            "comparison": "高端智能电动牙刷，有压力传感与 App，但无摄像头牙缝识别与冲牙"
+          },
+          {
+            "name": "Waterpik 水牙线",
+            "url": "https://www.waterpik.com",
+            "comparison": "独立冲牙设备，需单独操作且针式水流较刺激牙龈"
+          },
+          {
+            "name": "Philips Sonicare",
+            "url": "https://www.philips.com",
+            "comparison": "声波牙刷标杆，有 App 引导但无 AI 牙缝定位冲牙"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-09-05"
+      },
+      "cooldownExpiresAt": "2026-09-19T04:14:47.298616+00:00"
+    },
+    {
+      "id": "gotvisor.com",
+      "name": "Visor（儿童安全版 YouTube）",
+      "slug": "visor",
+      "description": "专为儿童打造的 YouTube 观看层：孩子只能看家长审核批准的频道，无广告、无 Shorts、无算法推荐；孩子可自由发起观看请求、家长一键批准，每周推送「周报」回顾孩子看了什么、看了多久。让孩子在 iPhone/iPad 上安全观看 YouTube 优质内容。",
+      "url": "https://gotvisor.com",
+      "homepage": "https://gotvisor.com",
+      "type": "app",
+      "appStoreName": "Visor: Family Approved YouTube",
+      "appStoreUrl": "https://apps.apple.com/us/app/visor-family-approved-youtube/id6744246412?uo=4",
+      "screenshotUrl": "assets/screenshots/gotvisor.com_20260905_120704.png",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0a/07/6a/0a076a39-a137-a7d2-3e38-aaabd4a7953d/Preview_2_-_6.9_U0022.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ce/4b/bd/ce4bbd49-5e80-4d3c-e815-cc4facc1da9e/Preview_3_-_6.9_U0022.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/10/1a/7b/101a7b93-6546-b5c2-0472-512030e46db5/Preview_1_-_6.9_U0022.png/320x480bb.jpg"
+      ],
+      "tags": [
+        "儿童安全",
+        "家庭育儿",
+        "视频平台",
+        "家长控制",
+        "无广告"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49568668",
+      "firstSeen": "2026-09-04T18:56:11+00:00",
+      "analysis": {
+        "targetAudience": "担心孩子刷 YouTube 看到不合适内容、又不想彻底禁用的家长（尤其 4-12 岁孩子家庭）",
+        "useCases": [
+          "孩子自主探索科学、手工、游戏等频道，家长在后台审批频道白名单",
+          "替代 YouTube Kids：彻底去掉广告、Shorts 与诡异推荐流",
+          "每周查看孩子的观看内容与时长周报，掌握屏幕时间",
+          "老人带娃的家庭统一管理观看内容，避免「隔代放养」"
+        ],
+        "designIntent": "作者为孩子找儿童视频时受够了「YouTube 有大量好内容、但推荐流与广告完全不可控」，于是做了一款「孩子请求、家长批准」的中间层：保留 YouTube 优质内容，同时把算法推荐、广告、Shorts 全部拿掉，让家长掌控边界而不是一刀切禁用；周报功能把「事后检查」变成常态机制。",
+        "problemSolved": "解决「开放 YouTube 怕孩子看到不该看的、禁用又失去优质学习内容」的两难；把内容过滤从「事后检查」变成「事前审批」，并给家长每周一次的观看回顾，重建可控的儿童屏幕时间，缓解家长监控焦虑。",
+        "tags": [
+          "儿童安全",
+          "家庭育儿",
+          "视频平台",
+          "家长控制",
+          "无广告"
+        ],
+        "score": 7,
+        "scoreReason": "痛点真实且方案克制——只做白名单+周报，不做花哨功能，HN 发布即获好评，「家长批、孩子看」的模型比一刀切限制更符合真实育儿场景；扣分点是作为 YouTube 转译层长期依赖平台生态，商业模式与内容供给的可持续性有待观察。",
+        "competitors": [
+          {
+            "name": "YouTube Kids",
+            "url": "https://kids.youtube.com",
+            "comparison": "官方儿童版，但仍有广告与自动推荐流，白名单控制不如 Visor 严格"
+          },
+          {
+            "name": "Kidoodle.TV",
+            "url": "https://www.kidoodle.tv",
+            "comparison": "付费儿童流媒体，内容库自营、无 YouTube 白名单模式"
+          },
+          {
+            "name": "YouTube Premium 家庭版",
+            "url": "https://www.youtube.com/premium",
+            "comparison": "只去广告，无法按频道白名单过滤推荐内容"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-09-05"
+      },
+      "cooldownExpiresAt": "2026-09-19T04:14:47.298616+00:00"
+    },
+    {
+      "id": "reddit.com/r/sideproject/comments/1w7owe5/a_journal_you_talk_to_instead_of_type_with_an_ai",
+      "name": "Emotica（语音情绪日记）",
+      "slug": "emotica",
+      "description": "一款「说」出来的情绪日记 App：对着手机说一句话，10 秒完成一次记录，语音转写与情绪分析全部在设备端完成；AI 教练记住你的情绪模式与目标，提供个性化建议、冥想与肯定练习；支持 Apple Watch 快速打卡、Apple Health 心率/睡眠联动，无账号、隐私优先，支持中文在内的 7 种语言。",
+      "url": "https://apps.apple.com/us/app/emotica-understand-emotions/id6757162931",
+      "homepage": "https://apps.apple.com/us/app/emotica-understand-emotions/id6757162931",
+      "type": "app",
+      "appStoreName": "Emotica: Understand Emotions",
+      "appStoreUrl": "https://apps.apple.com/us/app/emotica-understand-emotions/id6757162931?uo=4",
+      "screenshotUrl": "assets/screenshots/reddit.com_r_sideproject_comments_1w7owe5_a_journal_you_talk_to_instead_of_type_with_an_ai_20260905_120653.png",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/af/76/2e/af762e42-ed86-29b5-fcdf-d81c36915e4d/2.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/24/5e/83/245e839a-a257-7e50-38ba-2452e7f50ba1/4.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8a/0a/34/8a0a3408-4e8e-5e10-bbbc-316cf32477df/3.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5b/88/5b/5b885b8a-9133-3226-40b3-0a2817ed7887/5.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a5/9e/a4/a59ea46d-b40e-db12-2b83-7681379079b0/3.jpg/320x480bb.jpg"
+      ],
+      "tags": [
+        "情绪日记",
+        "心理健康",
+        "语音记录",
+        "设备端 AI",
+        "隐私优先"
+      ],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "sourceUrl": "https://www.reddit.com/r/SideProject/comments/1w7owe5/a_journal_you_talk_to_instead_of_type_with_an_ai/",
+      "firstSeen": "2026-09-05T03:01:51+00:00",
+      "analysis": {
+        "targetAudience": "想坚持记录情绪与自我觉察、但懒得打字的年轻人，以及注重隐私的心理健康关注者",
+        "useCases": [
+          "睡前或通勤时说一句话记录当天情绪，10 秒完成、不用打字",
+          "向 AI 教练倾诉，得到基于个人历史记录的建议而非通用套话",
+          "用「情绪云」可视化看情绪如何随时间漂移，识别触发因素与规律",
+          "Apple Watch 数字表冠快速打卡，联动 Apple Health 心率/睡眠数据分析",
+          "冥想、肯定语、睡眠音频由 AI 按当下情绪状态推荐"
+        ],
+        "designIntent": "作者发现「打字是日记的天敌」——多数人睡前懒得写一段话，于是把日记入口改成语音：说一句即一条记录，转写在 iPhone 本地完成；AI 教练与洞察引擎也全部设备端运行，把隐私做成核心卖点，让情绪记录成为低门槛的日常习惯，而非又一个云端数据仓库。",
+        "problemSolved": "解决「想记录情绪但坚持不下来」的日记痛点（语音 10 秒完成记录），以及情绪类 App 普遍把最私密的日记上传云端带来的信任问题（设备端 AI + 无账号）；AI 教练把零散记录变成可执行的自我认知与情绪成长路径。",
+        "tags": [
+          "情绪日记",
+          "心理健康",
+          "语音记录",
+          "设备端 AI",
+          "隐私优先"
+        ],
+        "score": 7,
+        "scoreReason": "语音入口 + 设备端 AI 的组合切中「日记坚持难」与「情绪数据隐私」两大真实痛点，独立评测认可其完成度与隐私设计，还支持中文；扣分点是订阅制（Pro 约 30 美元/年）把 AI 教练等核心能力放在付费墙后，且情绪/日记赛道竞争激烈。",
+        "competitors": [
+          {
+            "name": "Daylio",
+            "url": "https://daylio.net",
+            "comparison": "老牌情绪打卡工具，图表丰富但 AI 能力弱、无语音日记"
+          },
+          {
+            "name": "Reflectly",
+            "url": "https://reflectly.app",
+            "comparison": "AI 情绪日记先行者，但以云端处理为主、隐私路线相反"
+          },
+          {
+            "name": "Apple Journal",
+            "url": "https://www.apple.com/newsroom/2023/12/apple-journal-app-makes-reflecting-on-life-easy/",
+            "comparison": "系统自带日记，无 AI 教练、无情绪模式分析"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-09-05"
+      },
+      "cooldownExpiresAt": "2026-09-19T04:14:47.298616+00:00"
+    },
+    {
+      "id": "tesoro.help",
+      "name": "Tesoro.help（学校信息 AI 客服）",
+      "slug": "tesoro-help",
+      "description": "一位父亲为女儿高中做的「非官方 AI 客服」：每天 4 次爬取学校官网、PDF、Google Docs、日历与学区页面共 949 个公开文件，用 AI 直接回答铃声安排、校车、选课、午餐等家长高频问题，每条答案附来源页面与读取日期；同时提供只读 MCP 接口，可接入 ChatGPT/Claude/Hermes 等 AI 助手。",
+      "url": "https://tesoro.help/",
+      "homepage": "https://tesoro.help/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/tesoro.help_20260905_120725.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "家校沟通",
+        "AI 问答",
+        "信息聚合",
+        "教育科技",
+        "MCP"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49569854",
+      "firstSeen": "2026-09-04T20:29:35+00:00",
+      "analysis": {
+        "targetAudience": "被学校碎片化信息折磨的家长（尤其美国公立高中家长），以及关注「AI 聚合机构公开信息」做法的教育科技爱好者",
+        "useCases": [
+          "家长直接提问「明天几点放学/校车几点到」，AI 从 PDF 日程给出带读取日期的答案",
+          "查选课、体育选拔、课外辅导、IEP 等分散在多个页面和文件里的信息",
+          "通过 MCP 在 ChatGPT/Claude 对话中直接问学校事务，不用离开聊天",
+          "给同类学校或机构做「公开信息 AI 化」的参考范式"
+        ],
+        "designIntent": "作者孩子刚上高中，发现学校把信息撒在官网、PDF、Google Docs、日历等多个渠道，连学校自带搜索都搜不到 PDF 里的答案，于是做了这个聚合爬虫+AI 问答站：所有答案必须来自学校公开页面并标注读取日期，登录墙内的内容（成绩、作业）一律不碰，透明可追溯，做「学校的非官方信息助手」。",
+        "problemSolved": "解决「学校信息碎片化、官网搜索搜不进 PDF/Doc、家长找答案靠人肉翻页」的沟通黑洞；以「答案必须可溯源+标注时效」的设计回应 AI 幻觉担忧，并证明小成本个人项目也能把机构公开信息变成可用的问答服务。",
+        "tags": [
+          "家校沟通",
+          "AI 问答",
+          "信息聚合",
+          "教育科技",
+          "MCP"
+        ],
+        "score": 7,
+        "scoreReason": "场景极度真实（学校信息黑洞是普遍痛点），实现克制透明（949 个文件、答案带来源与日期、只读 MCP），HN 讨论热烈，可复制性强；扣分点是单一学校、个人维护的长期可持续性存疑，对中文读者而言属海外场景。",
+        "competitors": [
+          {
+            "name": "学校官方站内搜索",
+            "url": "https://tesoro.capousd.org",
+            "comparison": "只能搜网页正文，搜不进 PDF 与 Google Docs 内容"
+          },
+          {
+            "name": "Remind / Schoology",
+            "url": "https://www.remind.com",
+            "comparison": "家校通知工具，单向推送信息，不做聚合问答"
+          },
+          {
+            "name": "通用 AI 搜索（Perplexity 等）",
+            "url": "https://www.perplexity.ai",
+            "comparison": "无学校私有页面深度索引，答案不标注读取时效"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-09-05"
+      },
+      "cooldownExpiresAt": "2026-09-19T04:14:47.298616+00:00"
     }
   ],
   "tracking": {
@@ -31398,5 +31756,5 @@
     "lastDailyUpdate": "2026-08-27T04:11:02.657525+00:00",
     "lastDaily": "2026-08-27"
   },
-  "totalCount": 504
+  "totalCount": 509
 }
