@@ -31761,7 +31761,13 @@
       "appStoreUrl": null,
       "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1232929_20260906_121333.png",
       "appStoreScreenshots": [],
-      "tags": [],
+      "tags": [
+        "家庭故事",
+        "语音转动画",
+        "口述历史",
+        "情感记录",
+        "AI 短片"
+      ],
       "sourceChannels": [
         "producthunt"
       ],
@@ -31824,7 +31830,13 @@
       "appStoreUrl": null,
       "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1239306_20260906_121341.png",
       "appStoreScreenshots": [],
-      "tags": [],
+      "tags": [
+        "积木定制",
+        "AI 生成",
+        "3D 建模",
+        "创意玩具",
+        "个性化礼物"
+      ],
       "sourceChannels": [
         "producthunt"
       ],
@@ -31887,7 +31899,13 @@
       "appStoreUrl": null,
       "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1238058_20260906_121103.png",
       "appStoreScreenshots": [],
-      "tags": [],
+      "tags": [
+        "语音助手",
+        "iOS",
+        "屏幕理解",
+        "手机自动化",
+        "AI 助理"
+      ],
       "sourceChannels": [
         "producthunt"
       ],
@@ -31950,7 +31968,13 @@
       "appStoreUrl": null,
       "screenshotUrl": null,
       "appStoreScreenshots": [],
-      "tags": [],
+      "tags": [
+        "会议纪要",
+        "语音转文字",
+        "macOS",
+        "办公效率",
+        "AI 总结"
+      ],
       "sourceChannels": [
         "v2ex"
       ],
@@ -32013,7 +32037,13 @@
       "appStoreUrl": null,
       "screenshotUrl": "assets/screenshots/vibeflirting.com_20260906_121206.png",
       "appStoreScreenshots": [],
-      "tags": [],
+      "tags": [
+        "AI 写真",
+        "约会交友",
+        "照片生成",
+        "形象优化",
+        "Tinder"
+      ],
       "sourceChannels": [
         "hackernews"
       ],

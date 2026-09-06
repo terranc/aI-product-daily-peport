@@ -57,7 +57,14 @@
       "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1232929_20260906_121333.png",
       "appStoreScreenshots": [],
       "appStoreName": null,
-      "appStoreUrl": null
+      "appStoreUrl": null,
+      "tags": [
+        "家庭故事",
+        "语音转动画",
+        "口述历史",
+        "情感记录",
+        "AI 短片"
+      ]
     },
     {
       "id": "producthunt.com/r/p/1239306",
@@ -113,7 +120,14 @@
       "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1239306_20260906_121341.png",
       "appStoreScreenshots": [],
       "appStoreName": null,
-      "appStoreUrl": null
+      "appStoreUrl": null,
+      "tags": [
+        "积木定制",
+        "AI 生成",
+        "3D 建模",
+        "创意玩具",
+        "个性化礼物"
+      ]
     },
     {
       "id": "producthunt.com/r/p/1238058",
@@ -169,7 +183,14 @@
       "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1238058_20260906_121103.png",
       "appStoreScreenshots": [],
       "appStoreName": null,
-      "appStoreUrl": null
+      "appStoreUrl": null,
+      "tags": [
+        "语音助手",
+        "iOS",
+        "屏幕理解",
+        "手机自动化",
+        "AI 助理"
+      ]
     },
     {
       "id": "v2ex.com/t/1239732",
@@ -225,7 +246,14 @@
       "screenshotUrl": null,
       "appStoreScreenshots": [],
       "appStoreName": null,
-      "appStoreUrl": null
+      "appStoreUrl": null,
+      "tags": [
+        "会议纪要",
+        "语音转文字",
+        "macOS",
+        "办公效率",
+        "AI 总结"
+      ]
     },
     {
       "id": "vibeflirting.com",
@@ -281,7 +309,14 @@
       "screenshotUrl": "assets/screenshots/vibeflirting.com_20260906_121206.png",
       "appStoreScreenshots": [],
       "appStoreName": null,
-      "appStoreUrl": null
+      "appStoreUrl": null,
+      "tags": [
+        "AI 写真",
+        "约会交友",
+        "照片生成",
+        "形象优化",
+        "Tinder"
+      ]
     }
   ]
 }
