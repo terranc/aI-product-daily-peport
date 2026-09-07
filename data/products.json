@@ -1,6 +1,6 @@
 {
   "version": 11,
-  "lastUpdated": "2026-09-06T04:19:34.478000+00:00",
+  "lastUpdated": "2026-09-07T04:29:16.114995+00:00",
   "products": [
     {
       "id": "producthunt.com/r/p/1198621",
@@ -32092,6 +32092,316 @@
             "comparison": "只能做小调整，VibeFlirting 能生成全新角度与风格"
           }
         ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1240025",
+      "name": "Omi AI 记忆助手",
+      "slug": "omi",
+      "description": "一款全能型 AI 记忆助手应用，能自动记录你看到和听到的一切，生成可搜索的转录文本、摘要、待办事项和记忆网络。支持手机、电脑、手表和可穿戴设备，离线可用，隐私优先。",
+      "url": "https://www.omi.me/",
+      "homepage": "https://www.omi.me/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI助手",
+        "会议记录",
+        "效率工具",
+        "记忆增强"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1240025?app_id=339",
+      "firstSeen": "2026-09-07T04:06:52.388237+00:00",
+      "lastUpdated": "2026-09-07T04:29:16.114995+00:00",
+      "cooldownExpiresAt": "2026-09-21T04:28:28.051966+00:00",
+      "analysis": {
+        "targetAudience": "需要提升信息获取和记忆效率的职场人士、学生、研究者和内容创作者。",
+        "useCases": [
+          "会议自动记录与要点提取，生成行动项并同步到日历和任务管理工具",
+          "课堂/讲座实时录音转写，自动整理知识点和复习摘要",
+          "日常对话备忘，搜索\"上次谁说了什么\"快速找回对话细节",
+          "灵感捕捉，语音记录想法后自动整理为结构化笔记",
+          "多语言会议实时翻译与双语对照转录"
+        ],
+        "designIntent": "让每个人拥有一个永不遗忘的\"第二大脑\"，通过被动式记录减少认知负担。产品强调隐私保护和数据自主权，用户可以选择本地运行、端到端加密，甚至完全脱离云服务。",
+        "problemSolved": "解决了现代信息过载下\"听过就忘\"的痛点——重要会议内容、对话细节、灵感想法经常在忙碌中流失。传统笔记需要主动记录，而 Omi 通过被动捕捉 + AI 结构化，让信息自然沉淀为可检索的知识。",
+        "score": 8,
+        "scoreReason": "产品完成度高，覆盖多平台且有硬件生态（Pendant/Glass），商业模式清晰（免费+订阅）。AI 记忆助手赛道竞争激烈（Rewatch、Fathom 等），但 Omi 的差异化在于更全面的\"个人第二大脑\"定位和开源硬件策略。",
+        "competitors": [
+          {
+            "name": "Fathom",
+            "url": "https://fathom.video/",
+            "comparison": "Fathom 专注 Zoom 会议记录，垂直场景做得更深；Omi 覆盖更广泛（会议/日常/对话），且支持可穿戴设备，定位是更广义的个人记忆助手。"
+          },
+          {
+            "name": "Rewatch",
+            "url": "https://rewatch.com/",
+            "comparison": "Rewatch 偏团队级会议知识库，强调协作和视频门户；Omi 更偏向个人使用场景，注重隐私和数据所有权。"
+          },
+          {
+            "name": "Notion AI Notes",
+            "url": "https://www.notion.so/product/ai",
+            "comparison": "Notion AI 是笔记工具内的 AI 增强功能，需主动记录；Omi 是被动式全场景捕捉，在\"不干预\"的体验上更胜一筹。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "lastFeaturedDate": "2026-09-07",
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1051020",
+      "name": "Tadata",
+      "slug": "tadata",
+      "description": "嵌入 Slack 的 AI 员工助手，自动提供会议准备、客户研究、线索丰富化和个性化外发内容。无需切换工具，Tadata 在你聊天的地方主动推送工作成果。",
+      "url": "https://www.tadata.com/",
+      "homepage": "https://www.tadata.com/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "销售效率",
+        "AI员工",
+        "Slack集成",
+        "GTM自动化"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1051020?app_id=339",
+      "firstSeen": "2026-09-07T04:06:52.388237+00:00",
+      "lastUpdated": "2026-09-07T04:29:16.114995+00:00",
+      "cooldownExpiresAt": "2026-09-21T04:28:28.051966+00:00",
+      "analysis": {
+        "targetAudience": "B2B 销售团队、GTM 运营人员和需要高频客户沟通的业务团队。",
+        "useCases": [
+          "会议前自动准备客户简报：公司最新动态、历史沟通记录、关键联系人",
+          "销售线索研究与丰富化：自动补充公司信息、决策人背景、互动信号",
+          "通话中实时回答：从 CRM、产品文档和历史案例中快速检索答案",
+          "会后自动生成跟进邮件、下一步行动和 CRM 更新草稿",
+          "GTM 运营自动化：数据清洗、线索分配、报表生成"
+        ],
+        "designIntent": "把 AI 助手从\"另一个标签页\"变成\"你团队中的一员\"——它不等待你提问，而是主动出现在 Slack 里，推送准备好的工作成果。核心设计哲学是：减少工具切换，让 AI 嵌入工作流最自然的地方。",
+        "problemSolved": "解决了销售团队在多个工具（CRM、邮箱、日历、LinkedIn）之间反复切换查找信息的效率痛点。传统 AI 销售工具是独立平台，需要主动打开使用；Tadata 直接嵌入 Slack，像同事一样主动交付结果。",
+        "score": 7,
+        "scoreReason": "切入点精准（Slack 原生 AI 销售员工），产品定位清晰，避开了与 Salesforce Einstein 等巨头的正面竞争。但销售 AI 赛道拥挤（Regie、Outplay、Gong 等），需要在垂直场景上做深差异化。",
+        "competitors": [
+          {
+            "name": "Regie AI",
+            "url": "https://www.regie.ai/",
+            "comparison": "Regie 专注销售内容生成和外发序列优化，偏内容侧；Tadata 更强调端到端的销售流程辅助（会前准备/会中回答/会后跟进），且原生嵌入 Slack。"
+          },
+          {
+            "name": "Gong",
+            "url": "https://www.gong.io/",
+            "comparison": "Gong 是对话智能平台，侧重通话分析和收入洞察，属于分析型工具；Tadata 更偏向执行型 AI 员工，主动产出工作成果而非只做分析。"
+          },
+          {
+            "name": "Salesforce Einstein",
+            "url": "https://www.salesforce.com/products/einstein/overview/",
+            "comparison": "Einstein 是 CRM 巨头内置的 AI 能力，功能全面但绑定 Salesforce 生态；Tadata 更轻量、更聚焦 Slack 原生体验，适合不想重 CRM 的团队。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "lastFeaturedDate": "2026-09-07",
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1239349",
+      "name": "Causal AI 画布",
+      "slug": "causal-canvas",
+      "description": "面向创意工作者的 AI 驱动无限画布工具，支持在空间画布上放置笔记、图片、文件和链接，AI 能理解整体布局并辅助整理思路、头脑风暴和生成路线图。",
+      "url": "https://causal.so/",
+      "homepage": "https://causal.so/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "创意工具",
+        "无限画布",
+        "AI协作",
+        "项目规划"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1239349?app_id=339",
+      "firstSeen": "2026-09-07T04:06:52.388237+00:00",
+      "lastUpdated": "2026-09-07T04:29:16.114995+00:00",
+      "cooldownExpiresAt": "2026-09-21T04:28:28.051966+00:00",
+      "analysis": {
+        "targetAudience": "设计师、产品经理、创作者、创业者和需要视觉化思考规划的创意工作者。",
+        "useCases": [
+          "产品设计前期调研：把灵感图、竞品截图、用户反馈放在画布上，AI 辅助归类整理",
+          "创业项目规划：从想法到路线图，AI 在画布上直接生成结构化计划和里程碑",
+          "品牌视觉探索：收集参考图、配色方案和风格素材，AI 识别关联并建议方向",
+          "会议白板记录：把讨论中的想法和决策以空间方式留存，后续 AI 生成会议纪要",
+          "故事板/分镜创作：在画布上排列视觉素材，AI 根据布局理解叙事逻辑"
+        ],
+        "designIntent": "打破传统文档工具的\"页面思维\"，给创意工作者一个真正符合空间思考方式的工作环境。核心创新是让 AI 理解画布上元素的相对位置关系——不仅知道内容是什么，还知道它们在空间中的关系，从而提供更有上下文的智能辅助。",
+        "problemSolved": "解决了创意工作者在多个工具间切换的痛点——灵感在 Pinterest、笔记在 Notion、文件在 Drive、计划在表格。Causal 把所有素材放在一张无限画布上，AI 还能理解空间关系并主动整理，让发散思维有了落脚点。",
+        "score": 7,
+        "scoreReason": "定位差异化明显（空间 AI 画布 vs 传统 AI 笔记），\"AI 理解布局关系\"是有趣的技术切入点。但 Miro/FigJam 已有 AI 功能，且 Notion/Coda 等工具也在往视觉化方向发展，需要持续强化空间 AI 的独特价值。",
+        "competitors": [
+          {
+            "name": "Miro AI",
+            "url": "https://miro.com/ai/",
+            "comparison": "Miro 是成熟的团队协作白板，AI 功能更偏向模板生成和卡片分类；Causal 更聚焦个人创意工作流，AI 对空间关系的理解是其差异化。"
+          },
+          {
+            "name": "Notion AI",
+            "url": "https://www.notion.so/product/ai",
+            "comparison": "Notion 是页面化文档结构，AI 增强围绕文本和数据库；Causal 的画布范式更适合视觉化、发散式的创意过程。"
+          },
+          {
+            "name": "Heptabase",
+            "url": "https://heptabase.com/",
+            "comparison": "Heptabase 是卡片式知识库，侧重知识管理和学习；Causal 更偏向项目规划和创意产出，AI 生成能力更强。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "lastFeaturedDate": "2026-09-07",
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1240413",
+      "name": "Chalked for Mac",
+      "slug": "chalked",
+      "description": "macOS 原生 AI 回复助手，通过辅助功能读取当前对话窗口，结合你的日历和工作上下文，自动在消息应用中准备好回复草稿，一键插入。隐私优先，数据留在本地。",
+      "url": "https://usechalked.com/",
+      "homepage": "https://usechalked.com/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "效率工具",
+        "AI写作",
+        "Mac应用",
+        "办公助手"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1240413?app_id=339",
+      "firstSeen": "2026-09-07T04:06:52.388237+00:00",
+      "lastUpdated": "2026-09-07T04:29:16.114995+00:00",
+      "cooldownExpiresAt": "2026-09-21T04:28:28.051966+00:00",
+      "analysis": {
+        "targetAudience": "需要高频处理消息沟通的 macOS 用户，包括项目经理、自由职业者、创业者和客服人员。",
+        "useCases": [
+          "iMessage 工作沟通：对方问周二是否有空，Chalked 结合日历自动生成可用时间建议",
+          "项目沟通回复：自动引用之前的承诺和预算约束，确保回复前后一致",
+          "快速确认会议：根据日程安排推荐空闲时段，一键插入回复",
+          "全局语音输入：按住 fn 键在任何应用中语音转文字输入",
+          "承诺追踪：自动记录对话中的约定事项，作为后续回复的事实依据"
+        ],
+        "designIntent": "做一个\"不打扰\"的 AI 助手——它不弹通知、不抢焦点，只是安静地在你正在打字的地方准备好回复。核心设计理念是：AI 应该融入操作系统层，而不是又一个需要打开的 App。所有数据处理尽可能本地化，保护隐私。",
+        "problemSolved": "解决了日常消息回复的认知负担——每次回复都需要回忆上下文、查日历、确认之前承诺，这些琐碎切换消耗大量注意力。Chalked 被动读取上下文并准备好草稿，让用户只需审阅和发送。",
+        "score": 7,
+        "scoreReason": "产品定位精准（Mac 原生上下文回复助手），\"sourced commitment\"（可溯源承诺）架构是不错的差异化设计，隐私取向加分。但功能场景偏窄（目前仅支持一对一 iMessage），且 macOS 沙盒限制可能影响功能边界。",
+        "competitors": [
+          {
+            "name": "TextBlaze",
+            "url": "https://textblaze.me/",
+            "comparison": "TextBlaze 是模板化文本快捷输入，靠用户预设模板触发；Chalked 是 AI 动态生成回复，无需预设，更智能但确定性更低。"
+          },
+          {
+            "name": "Raycast AI",
+            "url": "https://www.raycast.com/ai",
+            "comparison": "Raycast 是启动器类工具，AI 写作需要手动触发；Chalked 是被动式、上下文感知的回复准备，集成度更高但功能更聚焦。"
+          },
+          {
+            "name": "Mailbutler / Superhuman AI",
+            "url": "https://superhuman.com/ai",
+            "comparison": "Superhuman AI 专注邮件场景的智能回复；Chalked 覆盖消息类沟通（iMessage 起步），且是系统级而非应用内的解决方案。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "lastFeaturedDate": "2026-09-07",
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1238997",
+      "name": "Atlas（World Labs）",
+      "slug": "atlas-world-labs",
+      "description": "李飞飞团队推出的多模态世界模型，能将文本、图片、视频和 3D 输入转换为具有精确相机控制的高清视频。支持长达 1 分钟 1440p 视频生成、空间重建和真实场景 3D 化。",
+      "url": "https://www.worldlabs.ai/blog/atlas",
+      "homepage": "https://www.worldlabs.ai/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "视频生成",
+        "世界模型",
+        "AIGC",
+        "3D内容"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1238997?app_id=339",
+      "firstSeen": "2026-09-07T04:06:52.388237+00:00",
+      "lastUpdated": "2026-09-07T04:29:16.114995+00:00",
+      "cooldownExpiresAt": "2026-09-21T04:28:28.051966+00:00",
+      "analysis": {
+        "targetAudience": "视频创作者、游戏开发者、VFX 设计师、建筑师和需要高质量空间内容生成的创意专业人士。",
+        "useCases": [
+          "影视前期预览：从参考图和镜头脚本生成连贯的预演视频，精确控制每个镜头运动",
+          "游戏场景制作：将概念图转化为可漫游的 3D 环境，加速美术资产生产",
+          "建筑可视化：从设计图生成带镜头运动的建筑漫游视频",
+          "广告创意制作：快速生成不同版本的产品视频广告，降低试错成本",
+          "真实场景数字孪生：从实拍视频重建 3D 空间，用于 VR/AR 和虚拟制作"
+        ],
+        "designIntent": "让 AI 真正理解三维空间，而不只是生成像素级的视频帧。Atlas 的核心是\"世界模型\"——它把所有输入（文本/图像/视频/3D）映射到一个共享的空间上下文中，生成的不是随机画面，而是一个几何一致、可以从任意视角查看的虚拟世界。",
+        "problemSolved": "解决了当前视频生成模型\"相机不受控、内容不一致、3D 感弱\"的核心痛点。传统文生视频模型只能给你一段视频，Atlas 让你像导演一样设计镜头轨迹、控制视角、保持空间一致性，并能输出真正可用的 3D 资产。",
+        "score": 8,
+        "scoreReason": "技术突破级产品，李飞飞背书的 World Labs 团队背景扎实，世界模型是 AI 视频下一阶段的核心方向。相机精确控制和 3D 输出是显著差异化。但目前还是技术展示阶段，产品化程度和可用性还需观察，且面向专业创作者市场，C 端渗透路径不明确。",
+        "competitors": [
+          {
+            "name": "OpenAI Sora",
+            "url": "https://openai.com/sora",
+            "comparison": "Sora 是文生视频标杆，视频质量和时长领先，但相机控制和空间一致性较弱；Atlas 强调世界模型范式，相机精确可控且能输出 3D。"
+          },
+          {
+            "name": "Runway Gen-3",
+            "url": "https://runwayml.com/",
+            "comparison": "Runway 是成熟的 AI 视频创作平台，有完整的编辑器和工作流；Atlas 更侧重底层世界模型能力，在空间一致性和 3D 输出上更具技术优势。"
+          },
+          {
+            "name": "Luma AI",
+            "url": "https://lumalabs.ai/",
+            "comparison": "Luma 专注 3D 重建和 NeRF 视频生成，产品化程度高；Atlas 的世界模型更通用（支持文生/图生/重建多种模式），且视频分辨率和时长更有优势。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "lastFeaturedDate": "2026-09-07",
+        "featuredInWeekly": false
       }
     }
   ],
