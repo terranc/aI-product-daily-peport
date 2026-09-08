@@ -1,0 +1,322 @@
+{
+  "date": "2026-09-08",
+  "generatedAt": "2026-09-08T04:14:02.155045+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "producthunt.com/r/p/1239706",
+      "name": "Higgsfield Genjutsu 视频重制",
+      "slug": "genjutsu",
+      "description": "一款 AI 视频动作迁移与元素替换工具。它能从现有视频中提取动作和镜头语言，然后将人物、场景、服装或产品替换为你指定的新形象——支持 Motion Transfer（保留动作重建场景）和 Object Swap（替换指定元素保留其余）两种模式，无需写复杂提示词，上传参考图即可生成最高 1080p 的视频。",
+      "url": "https://higgsfield.ai/genjutsu",
+      "homepage": "https://higgsfield.ai/genjutsu",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1239706_20260908_121057.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 视频",
+        "内容创作",
+        "动作迁移",
+        "营销工具",
+        "图像生成"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1239706?app_id=339",
+      "firstSeen": "2026-09-02T11:56:29-07:00",
+      "analysis": {
+        "targetAudience": "短视频创作者、营销人员、广告从业者、AI 内容创作者和网红博主，需要快速产出多版本视频内容的创意团队。",
+        "useCases": [
+          "同一表演视频生成多个不同人物/服装/场景版本，用于 A/B 测试不同受众反应",
+          "广告素材本地化：把同一个广告的主角换成不同市场的面孔和场景",
+          "AI 网红内容生产：用一套动作素材生成不同形象的多平台内容",
+          "服装电商：快速更换模特身上的衣服款式，展示同一款式不同颜色",
+          "内容再利用：把随手拍的手机素材改成精致的商业风格视频"
+        ],
+        "designIntent": "Genjutsu 的设计初衷是解决视频内容生产中\"动作和镜头最难拍、但换脸换景最频繁\"的矛盾。传统 AI 视频生成是从零开始，动作和镜头语言往往不自然；而 Genjutsu 从真实视频出发，保留最难的部分（动作、镜头、节奏），只替换你想改变的元素，让 AI 真正服务于创意迭代而非从零创作。",
+        "problemSolved": "传统视频内容生产中，要做不同版本的素材需要反复重拍，成本高、周期长。通用 AI 视频生成工具虽然能从零生成，但动作和镜头语言往往不自然、不符合专业标准。Genjutsu 通过保留真实视频的动作骨架、只替换视觉元素，既保证了质量又实现了快速迭代，解决了\"想快又想好\"的两难。",
+        "tags": [
+          "AI 视频",
+          "内容创作",
+          "动作迁移",
+          "营销工具",
+          "图像生成"
+        ],
+        "score": 8,
+        "scoreReason": "产品定位清晰，抓住了 AI 视频生成的一个关键痛点——动作和镜头才是视频的骨架，从零生成往往不够专业。Motion Transfer + Object Swap 的双模式设计实用，面向创作者和营销人员的场景明确。Higgsfield 本身有视频 AI 技术积累，不是蹭热度的项目。但目前 30 秒时长限制偏短，且同类竞品（Runway、Pika）也在快速迭代。",
+        "competitors": [
+          {
+            "name": "Runway Gen-3 / Motion Brush",
+            "url": "https://runwayml.com",
+            "comparison": "Runway 是 AI 视频编辑领域的领导者，功能全面，包括 Motion Brush（局部动画）、Gen-3 文生视频等。Genjutsu 的差异化在于更聚焦\"保留动作、替换元素\"这一特定工作流，操作更简单直接；但 Runway 的生态和功能广度远超 Genjutsu。"
+          },
+          {
+            "name": "Pika 3.0",
+            "url": "https://pika.art",
+            "comparison": "Pika 以文生视频和图生视频见长，最近也在加入物体替换和编辑功能。Pika 的优势是生成质量高、社区活跃；Genjutsu 的优势是更专业的动作迁移和对象替换能力，面向商业内容生产的场景更明确。"
+          },
+          {
+            "name": "Kling AI（可灵）",
+            "url": "https://klingai.com",
+            "comparison": "Kling 是快手推出的 AI 视频生成工具，支持角色一致性和视频编辑功能，在中文市场增长很快。Kling 更偏向全流程视频生成；Genjutsu 更聚焦于\"基于现有视频做局部重制\"这一垂直场景。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1243245",
+      "name": "Clipnote AI 对话存档",
+      "slug": "clipnote",
+      "description": "一款 AI 对话保存和管理工具，让你的 ChatGPT、Claude 等对话在关闭标签页后仍然可以保留。支持通过 MCP 直接让 AI 保存对话，也可以手动粘贴内容。支持 Markdown/HTML 多格式存储、分类收藏、版本历史和一键分享，把散落在各个 AI 聊天窗口中的有价值内容统一管理起来。",
+      "url": "https://clipnote.one/",
+      "homepage": "https://clipnote.one/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1243245_20260908_121304.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "效率工具",
+        "知识管理",
+        "AI 对话",
+        "MCP",
+        "生产力"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1243245?app_id=339",
+      "firstSeen": "2026-09-06T18:55:40-07:00",
+      "analysis": {
+        "targetAudience": "重度使用 AI 工具的知识工作者、开发者、产品经理和内容创作者，经常在多个 AI 平台切换但找不到好方法保存有价值对话的人群。",
+        "useCases": [
+          "保存 AI 生成的代码片段和技术方案，建立个人知识库",
+          "收集 AI 协助撰写的文案和创意，方便后续复用和修改",
+          "把与 AI 的研究对话整理成结构化的笔记，用于写作或汇报",
+          "团队共享有价值的 AI 对话记录，避免重复提问和探索",
+          "把分散在 ChatGPT/Claude/Gemini 中的重要对话统一归档"
+        ],
+        "designIntent": "Clipnote 的设计初衷是解决\"AI 对话用完即丢、有价值的内容散落在各个聊天窗口难以找回\"的问题。创始人自己经常在 AI 对话中生成代码、草稿和想法，但关掉标签页就找不到了，于是做了这个工具——既支持通过 MCP 让 AI 直接保存，也支持手动粘贴，把短暂的对话变成持久的知识资产。",
+        "problemSolved": "AI 聊天窗口的对话历史搜索体验差、跨平台不统一、导出麻烦，导致大量有价值的 AI 生成内容用完即弃。Clipnote 提供了统一的存储和管理界面，支持 MCP 一键保存和手动粘贴两种方式，加上版本历史、分类收藏和分享功能，把 AI 对话从\"临时聊天\"升级为\"可复用的知识资产\"。",
+        "tags": [
+          "效率工具",
+          "知识管理",
+          "AI 对话",
+          "MCP",
+          "生产力"
+        ],
+        "score": 7,
+        "scoreReason": "产品切中了 AI 重度用户的真实痛点——对话散、找不回、难复用。MCP 集成是很好的差异化切入点，直接让 AI 帮你保存，降低了使用门槛。PH 上线 105 票排名第 8，有一定市场验证。但竞品较多（ChatGPT 本身的历史功能、各种导出插件、Notion AI 等），需要在体验和生态上持续拉开差距。",
+        "competitors": [
+          {
+            "name": "ChatGPT 自带历史记录",
+            "url": "https://chat.openai.com",
+            "comparison": "ChatGPT 等 AI 平台自带历史记录和搜索功能，且越来越完善（如 OpenAI 的 Memory 功能）。Clipnote 的优势是跨平台统一管理、更好的组织和分享功能；劣势是多了一层工具，用户需要额外养成保存习惯。"
+          },
+          {
+            "name": "SaveChat / ChatGPT Export 插件",
+            "url": "https://chromewebstore.google.com",
+            "comparison": "Chrome 网上应用店有大量 AI 对话导出插件，功能从简单导出生成 PDF 到同步到 Notion/Obsidian 不等，很多还是免费的。Clipnote 需要在管理体验、分享功能、MCP 集成等方面提供更多价值才能 justify 独立产品的定位。"
+          },
+          {
+            "name": "Notion / Obsidian + AI 插件",
+            "url": "https://www.notion.so",
+            "comparison": "很多用户直接把 AI 对话复制到 Notion 或 Obsidian 中管理，这些笔记工具有强大的组织、搜索和链接能力。Clipnote 的优势是专为 AI 对话设计的体验（MCP 一键保存、版本历史等）；劣势是无法替代笔记工具的全功能知识管理。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1242964",
+      "name": "Remind 会议简报",
+      "slug": "remind",
+      "description": "一款 macOS 菜单栏应用，提供全屏会议提醒和 AI 会议简报功能。会议开始前自动接管整个屏幕显示提醒，同时用你自己的 AI API Key（Claude/OpenAI/Gemini/Grok）研究参会人背景、扫描邮件和 Slack 对话、生成简明的参会简报，让你在走进会议室前就做好准备。",
+      "url": "https://remind.ing/",
+      "homepage": "https://remind.ing/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1242964_20260908_121126.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "效率工具",
+        "会议助手",
+        "Mac 应用",
+        "AI 简报",
+        "BYOK"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1242964?app_id=339",
+      "firstSeen": "2026-09-06T09:10:46-07:00",
+      "analysis": {
+        "targetAudience": "会议密集的职场人士、销售和客户成功经理、创业者和企业管理者，每天需要参加多个外部会议且需要快速了解背景的人群。",
+        "useCases": [
+          "客户会议前自动研究对方公司背景和参会人信息，生成谈话要点",
+          "面试候选人前快速浏览候选人背景和简历亮点",
+          "团队会议前提取相关邮件和 Slack 讨论，确保不遗漏重要上下文",
+          "销售电话前自动生成客户公司最新动态和关键人物信息",
+          "合作伙伴会议前整理过往交流记录和待办事项"
+        ],
+        "designIntent": "Remind 的设计初衷是解决\"会议提醒只能告诉你该开会了，却不告诉你该准备什么\"的痛点。全屏强制提醒解决了\"看着工作忘了开会时间\"的问题，AI 简报则把原本需要手动搜索的背景调研自动化，让用户从\"准时到场\"升级为\"有备而来\"。",
+        "problemSolved": "传统日历提醒只是时间通知，参会人经常毫无准备就走进会议室，导致效率低下。手动做会议背景调研又耗时耗力。Remind 通过 BYOK（自带 API Key）模式，在本地用 AI 自动完成会议背景调研，既解决了准备不足的问题，又通过数据不出本地保护了隐私。",
+        "tags": [
+          "效率工具",
+          "会议助手",
+          "Mac 应用",
+          "AI 简报",
+          "BYOK"
+        ],
+        "score": 7,
+        "scoreReason": "产品定位精准，把简单的会议提醒升级为 AI 准备助手是很好的切入点。BYOK 模式在隐私敏感的企业场景中有独特优势——数据不经过第三方服务器。但功能相对单一，竞品（如 Notion Calendar、Reclaim AI）也在加入 AI 准备功能，护城河需要持续加深。",
+        "competitors": [
+          {
+            "name": "Notion Calendar",
+            "url": "https://www.notion.so/product/calendar",
+            "comparison": "Notion Calendar（原 Cron）是功能全面的智能日历，集成 Notion 工作区，正在加入 AI 会议准备功能。它的优势在于生态整合和用户基数大；Remind 的优势是更专注、全屏提醒更有冲击力、BYOK 模式隐私性更强。"
+          },
+          {
+            "name": "Reclaim AI",
+            "url": "https://reclaim.ai",
+            "comparison": "Reclaim 是 AI 日程管理工具，重点在自动排程和任务调度，会议提醒只是附属功能。Remind 完全聚焦于会议提醒+简报这一个场景，做的更深更专——比如全屏接管、多显示器支持、多数据源整合的简报都是 Reclaim 没有的。"
+          },
+          {
+            "name": "Calendly + 各类会议工具",
+            "url": "https://calendly.com",
+            "comparison": "Calendly 等工具主要解决的是预约环节，而 Remind 解决的是会议开始前的准备环节。两者不直接竞争，但 Calendly 等大平台如果加入 AI 会前准备功能，会对 Remind 形成挤压。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1243162",
+      "name": "Tucky 侧边笔记",
+      "slug": "tucky",
+      "description": "一款 macOS 侧边栏笔记应用，笔记以细条形式停靠在屏幕边缘，鼠标悬停即可展开。内置 AI agent 支持写作辅助、信息检索和跨应用操作，支持 60 多种语言的语音听写。数据本地加密存储，可连接 Gmail、Google Calendar、Notion、GitHub 等服务，让信息随手可得。",
+      "url": "https://tucky.app/",
+      "homepage": "https://tucky.app/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1243162_20260908_121139.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "效率工具",
+        "笔记应用",
+        "Mac 应用",
+        "AI 助手",
+        "语音输入"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1243162?app_id=339",
+      "firstSeen": "2026-09-06T14:09:48-07:00",
+      "analysis": {
+        "targetAudience": "Mac 用户中的知识工作者、创始人、产品经理和内容创作者，需要快速捕捉想法、频繁在多个应用间切换的人群。",
+        "useCases": [
+          "工作时随手记录灵感和待办，不打断当前工作流",
+          "用语音快速记录会议笔记和想法，打字跟不上时更高效",
+          "让 AI 基于笔记内容生成邮件回复、文档大纲或任务清单",
+          "从 Gmail/Calendar/Notion 中快速查找信息，无需切换应用",
+          "团队成员共享的重要信息一键整理归档到笔记中"
+        ],
+        "designIntent": "Tucky 的设计初衷是解决\"想法很多但散落各处、记录时又会打断工作流\"的痛点。创始人作为创业者深感笔记散落在各个应用中难以管理，于是设计了屏幕边缘停靠的交互方式——平时是一条细线不占空间，需要时鼠标一移就能展开，把笔记和 AI 助手放到随手可及的位置。",
+        "problemSolved": "传统笔记应用需要打开窗口、切换应用，打断工作流；而便签类工具又功能太简单、无法深度处理信息。Tucky 把笔记停靠在屏幕边缘，降低了记录的心理门槛，同时内置 AI agent 将\"记录\"升级为\"记录+处理+行动\"，让零散的想法能够就地转化为成果。",
+        "tags": [
+          "效率工具",
+          "笔记应用",
+          "Mac 应用",
+          "AI 助手",
+          "语音输入"
+        ],
+        "score": 7,
+        "scoreReason": "产品交互设计有新意——屏幕边缘停靠确实解决了\"记笔记打断工作流\"的真实痛点。PH 上线获 165 票排名第 2，市场反馈不错。但同类产品较多（SideNotes、Sidefari 等），AI 功能也越来越标配，能否在差异化上持续突破是关键。",
+        "competitors": [
+          {
+            "name": "SideNotes",
+            "url": "https://www.apptorium.com/sidenotes",
+            "comparison": "SideNotes 是 Mac 上成熟的侧边栏笔记应用，功能稳定、用户口碑好，但没有 AI 功能。Tucky 的核心差异化是内置 AI agent 和语音输入，从\"笔记工具\"升级为\"笔记 + 智能助手\"，但在笔记功能的完善度和稳定性上还需要追赶。"
+          },
+          {
+            "name": "Notion + 各类笔记应用",
+            "url": "https://www.notion.so",
+            "comparison": "Notion、Obsidian 等笔记应用功能强大但都是重型应用，打开和切换成本高。Tucky 走的是轻量、随手可得的路线，定位是\"手边的便签+AI\"，而不是\"完整的知识库\"，两者是互补而非替代关系。"
+          },
+          {
+            "name": "Raycast",
+            "url": "https://www.raycast.com",
+            "comparison": "Raycast 是 Mac 上的启动器/效率工具，也有笔记和 AI 功能，但交互方式是键盘命令式的。Tucky 是视觉化的侧边栏停靠，更适合鼠标/触控板用户和需要视觉浏览笔记的场景，两者在效率工具赛道上有部分重叠但交互范式完全不同。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1241043",
+      "name": "Scriptly 语音提词器",
+      "slug": "scriptly",
+      "description": "一款 iOS 语音控制提词器应用。它能实时识别你的语速，自动调整文字滚动速度——你说快它就快，你说慢它就慢，暂停时它也会停下来。支持 Apple Watch 远程控制、脚本组织管理和本地存储隐私保护，让内容创作者录视频时无需手动调节提词器速度。",
+      "url": "https://apps.apple.com/us/app/script-video-teleprompter/id6754469405",
+      "homepage": "https://apps.apple.com/us/app/script-video-teleprompter/id6754469405",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1241043_20260908_121149.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "内容创作",
+        "提词器",
+        "iOS 应用",
+        "语音识别",
+        "视频工具"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1241043?app_id=339",
+      "firstSeen": "2026-09-04T01:09:19-07:00",
+      "analysis": {
+        "targetAudience": "短视频创作者、YouTuber、播客主播、在线教育讲师、企业培训师和演讲者，所有需要对着镜头念稿的内容创作者。",
+        "useCases": [
+          "录制 YouTube/TikTok/小红书视频时，提词器自动跟随语速滚动",
+          "演讲和演示前的练习，不用反复调整提词器速度",
+          "在线课程录制时讲师自然讲解，字幕自动同步生成",
+          "采访和新闻播报时主持人无需手动控制提词器",
+          "语言学习者跟读练习，语速自动适应学习者节奏"
+        ],
+        "designIntent": "Scriptly 的设计初衷是解决传统提词器\"固定速度需要人去适应机器\"的反人类设计。创始人作为内容创作者深受其苦——语速忽快忽慢时要手动调速、忘词暂停时提词器还在往前走。于是把语音识别和提词器结合，让机器跟着人走，而不是反过来。",
+        "problemSolved": "传统提词器需要预设滚动速度，实际录制时人说话的节奏总是变化的——紧张时快、思考时慢、忘词时停——导致频繁 NG 重录。Scriptly 用端侧语音识别实时跟踪语速，自动同步滚动，消除了提词器和人之间的节奏差，让录制更自然、重拍更少。",
+        "tags": [
+          "内容创作",
+          "提词器",
+          "iOS 应用",
+          "语音识别",
+          "视频工具"
+        ],
+        "score": 7,
+        "scoreReason": "产品切入点虽小但痛点真实，\"语音跟随\"的核心功能直击传统提词器的最大问题。端侧语音识别保护隐私，也是很好的卖点。PH 上线获 155 票排名第 3，反响不错。但赛道相对小众，且 VoiceScroll、Prompterly 等竞品也有类似功能，需要拓展更多差异化能力。",
+        "competitors": [
+          {
+            "name": "VoiceScroll",
+            "url": "https://www.voice-scroll.com",
+            "comparison": "VoiceScroll 同样是语音控制的提词器 App，也是端侧识别、一次性付费，功能非常相似。Scriptly 的差异化在 Apple Watch 控制、脚本管理等更完整的创作工具链，但核心功能高度重合，竞争激烈。"
+          },
+          {
+            "name": "Prompterly",
+            "url": "https://www.prompterly.app",
+            "comparison": "Prompterly 是功能更全面的专业提词器应用，除了语音同步还有 4K 录制、多格式导入、镜像模式等专业功能。Scriptly 更聚焦于语音跟随这一个核心体验，更轻量更专注，但功能广度不及 Prompterly。"
+          },
+          {
+            "name": "Teleprompter Mirror（硬件提词器）",
+            "url": "https://telepromptermirror.com",
+            "comparison": "专业硬件提词器（如 Teleprompter Mirror + 单反）是演播室级方案，效果最好但价格贵、便携性差。Scriptly 等手机提词器 App 面向的是个人创作者和移动场景，成本极低、随时随地可用，是降维替代关系。"
+          }
+        ]
+      }
+    }
+  ]
+}
