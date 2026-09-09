@@ -32760,6 +32760,351 @@
         "featuredInWeekly": false,
         "lastFeaturedDate": "2026-09-08"
       }
+    },
+    {
+      "id": "producthunt.com/r/p/1244304",
+      "name": "Trancy Air 全局翻译",
+      "slug": "trancy-air",
+      "description": "一键热键驱动的全局 AI 翻译工具，支持屏幕取词翻译、输入翻译和语音翻译，在任何应用中都能即时使用。",
+      "url": "https://www.trancy.org/trancy-air",
+      "homepage": "https://www.trancy.org/trancy-air",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260909_121350.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "翻译工具",
+        "效率工具",
+        "AI 翻译",
+        "桌面应用",
+        "热键工具"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "firstSeen": "2026-09-07T19:16:29-07:00",
+      "lastUpdated": "2026-09-09T04:13:50.133952+00:00",
+      "cooldownExpiresAt": "2026-09-23T04:13:50.133952+00:00",
+      "analysis": {
+        "targetAudience": "需要跨语言沟通的职场人士、学生和经常浏览外文内容的用户",
+        "useCases": [
+          "浏览外文网站时选中文字即时翻译",
+          "写邮件/聊天时用母语输入，一键翻译为目标语言发送",
+          "视频会议/语音通话中实时翻译语音内容",
+          "阅读 PDF/文档时划词翻译并保存生词",
+          "在任何应用内通过热键呼出翻译面板"
+        ],
+        "designIntent": "将 AI 翻译能力无缝融入用户的日常操作流，打破应用壁垒，让翻译不再需要切换窗口或复制粘贴。通过极简的热键交互，降低翻译的使用门槛。",
+        "problemSolved": "解决了传统翻译工具需要打开独立应用、复制粘贴操作繁琐的痛点。用户在浏览、写作、沟通等任何场景下都能通过一个热键即时获得翻译结果，大幅提升跨语言工作效率。",
+        "tags": [
+          "翻译工具",
+          "效率工具",
+          "AI 翻译",
+          "桌面应用",
+          "热键工具"
+        ],
+        "score": 8,
+        "scoreReason": "产品定位清晰，热键驱动的全局翻译是真实痛点，场景覆盖全面（看/写/说）。但翻译工具赛道竞争激烈，沉浸式翻译等竞品已有大量用户，差异化优势需要时间验证。",
+        "competitors": [
+          {
+            "name": "沉浸式翻译",
+            "url": "https://immersivetranslate.com/",
+            "comparison": "浏览器扩展形态，主打网页双语对照翻译，用户基数大；Trancy Air 是桌面级全局翻译，覆盖更多应用场景"
+          },
+          {
+            "name": "DeepL",
+            "url": "https://www.deepl.com/",
+            "comparison": "翻译质量业界标杆，有桌面客户端但交互偏传统；Trancy Air 的热键式交互更轻量快捷"
+          },
+          {
+            "name": "FluentRead",
+            "url": "https://fluent.thinkstu.com/",
+            "comparison": "Chrome 翻译扩展，侧重阅读体验优化；Trancy Air 是系统级工具，不限于浏览器"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 2,
+        "lastFeaturedDate": "2026-09-09",
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1244114",
+      "name": "Pastea 剪贴板管理器",
+      "slug": "pastea",
+      "description": "macOS 剪贴板历史管理器，自动保存所有复制的截图、代码片段、链接和文本，支持智能搜索、置顶和快速粘贴。",
+      "url": "https://pastea.app/",
+      "homepage": "https://pastea.app/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260909_121401.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "效率工具",
+        "剪贴板",
+        "macOS",
+        "生产力",
+        "搜索"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "firstSeen": "2026-09-07T12:45:19-07:00",
+      "lastUpdated": "2026-09-09T04:13:50.133952+00:00",
+      "cooldownExpiresAt": "2026-09-23T04:13:50.133952+00:00",
+      "analysis": {
+        "targetAudience": "需要频繁复制粘贴内容的开发者、设计师、文案工作者和重度电脑用户",
+        "useCases": [
+          "找回之前复制过但被覆盖的代码片段或文本",
+          "快速搜索历史剪贴板中的链接并重新粘贴",
+          "保存常用的回复模板、代码片段，一键调用",
+          "截图历史管理，随时找回之前截过的图",
+          "在不同应用间批量搬运内容，不用来回切换复制"
+        ],
+        "designIntent": "让系统剪贴板拥有记忆能力，把用户复制过的所有内容都有序保存下来，通过智能搜索让过去的复制内容随时可以被找回和复用。",
+        "problemSolved": "解决了系统剪贴板只能保存最后一条内容的限制。用户经常遇到『刚才复制的东西被覆盖了』的尴尬，Pastea 让所有复制历史都可追溯、可搜索、可复用。",
+        "tags": [
+          "效率工具",
+          "剪贴板",
+          "macOS",
+          "生产力",
+          "搜索"
+        ],
+        "score": 7,
+        "scoreReason": "剪贴板管理是成熟品类，用户需求明确且高频。Pastea 的界面和交互设计精致，但该赛道竞品众多（Alfred、Paste、CleanClip 等），差异化不够突出，AI 语义搜索如果能做好可能成为突破口。",
+        "competitors": [
+          {
+            "name": "Alfred",
+            "url": "https://www.alfredapp.com/",
+            "comparison": "macOS 老牌效率神器，剪贴板是其功能之一，生态丰富但学习曲线较陡；Pastea 更专注于剪贴板场景，界面更现代化"
+          },
+          {
+            "name": "Paste",
+            "url": "https://pasteapp.io/",
+            "comparison": "知名剪贴板管理工具，UI 精美，支持多平台；Pastea 作为新产品需要在功能深度上追赶"
+          },
+          {
+            "name": "CleanClip",
+            "url": "https://cleanclip.cc/",
+            "comparison": "国产剪贴板工具，免费且功能全面；Pastea 定位偏高端用户群体"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 2,
+        "lastFeaturedDate": "2026-09-09",
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1244024",
+      "name": "Lyrimuse 歌词播放器",
+      "slug": "lyrimuse",
+      "description": "macOS 状态栏歌词应用，逐字同步显示歌词，AI 智能匹配正确的歌词版本，支持多音乐平台。",
+      "url": "https://github.com/Yudaotor/lyrimuse",
+      "homepage": "https://github.com/Yudaotor/lyrimuse",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260909_121427.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "音乐工具",
+        "歌词",
+        "macOS",
+        "桌面应用",
+        "AI 匹配"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "firstSeen": "2026-09-07T10:58:59-07:00",
+      "lastUpdated": "2026-09-09T04:13:50.133952+00:00",
+      "cooldownExpiresAt": "2026-09-23T04:13:50.133952+00:00",
+      "analysis": {
+        "targetAudience": "喜欢在电脑上听歌、关注歌词体验的音乐爱好者和 macOS 用户",
+        "useCases": [
+          "在 Mac 上用 Spotify/Apple Music 听歌时，桌面显示逐字同步歌词",
+          "遇到翻唱/现场版歌曲时，AI 自动匹配对应版本的歌词",
+          "学习外语歌曲时，逐字高亮帮助跟唱和记忆",
+          "状态栏迷你歌词显示，不占用工作空间",
+          "收藏喜欢的歌词片段，随时回顾"
+        ],
+        "designIntent": "把 AI 歌词匹配能力融入桌面听歌体验，解决『歌对不上词』的常见痛点。让用户在任何平台听歌都能享受到精准的逐字歌词。",
+        "problemSolved": "解决了桌面端歌词显示不准确、不同平台歌词体验不一致的问题。很多音乐平台的桌面端歌词功能简陋，Lyrimuse 用 AI 匹配正确版本，提供统一的高质量歌词体验。",
+        "tags": [
+          "音乐工具",
+          "歌词",
+          "macOS",
+          "桌面应用",
+          "AI 匹配"
+        ],
+        "score": 6,
+        "scoreReason": "产品定位小众但精准，歌词显示是真实需求，AI 匹配版本是一个不错的差异化点。但开源免费模式商业化困难，且各大音乐平台的桌面端也在持续优化歌词功能。",
+        "competitors": [
+          {
+            "name": "DynamicLyrics",
+            "url": "https://github.com/MartianZ/DynamicLyrics",
+            "comparison": "老牌 macOS 歌词工具，支持多平台但更新较慢；Lyrimuse 更现代化且有 AI 匹配能力"
+          },
+          {
+            "name": "LyricsX",
+            "url": "https://github.com/ddddxxx/LyricsX",
+            "comparison": "开源 macOS 歌词应用，功能丰富社区活跃；Lyrimuse 相对较新，需要积累用户"
+          },
+          {
+            "name": "Apple Music 歌词",
+            "url": "https://www.apple.com/apple-music/",
+            "comparison": "平台原生逐字歌词，体验好但仅限 Apple Music；Lyrimuse 支持跨平台统一体验"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 2,
+        "lastFeaturedDate": "2026-09-09",
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1209261",
+      "name": "Widgo AI 销售代表",
+      "slug": "widgo",
+      "description": "AI 驱动的网站销售代表，自动识别访客身份、实时回答问题并将沉默访客转化为付费客户。",
+      "url": "https://www.widgo.ai/",
+      "homepage": "https://www.widgo.ai/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260909_121415.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "销售工具",
+        "AI 客服",
+        "B2B SaaS",
+        "线索转化",
+        "营销科技"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "firstSeen": "2026-07-28T14:49:47-07:00",
+      "lastUpdated": "2026-09-09T04:13:50.133952+00:00",
+      "cooldownExpiresAt": "2026-09-23T04:13:50.133952+00:00",
+      "analysis": {
+        "targetAudience": "B2B SaaS 公司、电商网站、服务型企业的市场和销售团队",
+        "useCases": [
+          "官网访客咨询时 AI 自动应答，7x24 小时不遗漏销售线索",
+          "识别访客公司身份和浏览行为，优先跟进高意向客户",
+          "AI 引导访客完成产品演示注册或预约销售会议",
+          "自动收集访客需求信息，同步到 CRM 系统",
+          "非工作时间接待访客，第二天销售直接跟进预热好的线索"
+        ],
+        "designIntent": "把 AI 变成网站上的金牌销售，让 98% 默默离开的访客有机会被转化。用 AI 对话替代传统的『留个联系方式』表单，降低访客沟通门槛。",
+        "problemSolved": "解决了企业官网转化率低的痛点——大多数访客看完就走，既不留言也不购买。Widgo 用 AI 对话主动介入，实时解答访客疑问，收集需求信息，把被动的官网变成主动的销售渠道。",
+        "tags": [
+          "销售工具",
+          "AI 客服",
+          "B2B SaaS",
+          "线索转化",
+          "营销科技"
+        ],
+        "score": 8,
+        "scoreReason": "AI 销售代表是一个高价值场景，直接关联营收增长，企业付费意愿强。Widgo 定位清晰，SOC2 认证等企业级属性也到位。但该赛道已有不少玩家，需要在 AI 对话质量和转化效果上证明实力。",
+        "competitors": [
+          {
+            "name": "Intercom Fin",
+            "url": "https://www.intercom.com/",
+            "comparison": "客服领域老牌玩家，AI 功能建立在庞大的客户基础上；Widgo 更专注于销售转化场景"
+          },
+          {
+            "name": "Drift",
+            "url": "https://www.drift.com/",
+            "comparison": "对话式营销先驱，功能全面但价格较高；Widgo 更轻量，专注 AI 销售代表"
+          },
+          {
+            "name": "ChatGPT 客服插件",
+            "url": "https://openai.com/",
+            "comparison": "通用大模型可快速搭建客服机器人，但缺乏销售导向的功能和洞察；Widgo 专为销售转化优化"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "lastFeaturedDate": "2026-09-09",
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "lazyreader.lindocode.com",
+      "name": "LazyReader 云阅读器",
+      "slug": "lazyreader",
+      "description": "云端电子书阅读器，支持直接从云盘阅读电子书和流式有声书，无需下载到本地，AI TTS 语音朗读。",
+      "url": "https://lazyreader.lindocode.com/",
+      "homepage": "https://lazyreader.lindocode.com/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/unknown_20260909_121436.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "电子书",
+        "阅读工具",
+        "AI 语音",
+        "云端应用",
+        "TTS"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "firstSeen": "2026-09-09T02:52:59Z",
+      "lastUpdated": "2026-09-09T04:13:50.133952+00:00",
+      "cooldownExpiresAt": "2026-09-23T04:13:50.133952+00:00",
+      "analysis": {
+        "targetAudience": "拥有大量电子书收藏的阅读爱好者、喜欢听书的通勤族和多设备用户",
+        "useCases": [
+          "直接从 Google Drive/Dropbox 等云盘阅读 EPUB 电子书，不用下载",
+          "用 AI TTS 将电子书转为有声书，通勤时听书",
+          "在任何设备上同步阅读进度，手机电脑无缝切换",
+          "支持交互式 EPUB，阅读体验更丰富",
+          "管理云端电子书库，不用占用本地存储空间"
+        ],
+        "designIntent": "用云端架构重新定义电子书阅读体验——书存在云上、阅读在浏览器里、TTS 随时可听，打破设备和存储的限制，让阅读更轻量、更自由。",
+        "problemSolved": "解决了传统电子书阅读器需要下载文件、设备间同步麻烦的痛点。用户的电子书散落在各个云盘，每次换设备都要重新导入。LazyReader 直接读取云端文件，阅读进度云端同步，随时随地可读可听。",
+        "tags": [
+          "电子书",
+          "阅读工具",
+          "AI 语音",
+          "云端应用",
+          "TTS"
+        ],
+        "score": 7,
+        "scoreReason": "云原生阅读器的思路不错，直接读取云盘+TTS 听书的组合解决了真实痛点。但电子书阅读器赛道已有 Kindle、Apple Books 等巨头，独立产品需要更强的差异化来吸引用户。",
+        "competitors": [
+          {
+            "name": "Kindle Cloud Reader",
+            "url": "https://read.amazon.com/",
+            "comparison": "亚马逊官方云阅读器，生态完善但仅限 Kindle 书店购买的书；LazyReader 支持自有电子书库"
+          },
+          {
+            "name": "Apple Books",
+            "url": "https://www.apple.com/apple-books/",
+            "comparison": "苹果原生阅读应用，设备间同步好但生态封闭；LazyReader 是 Web 端，跨平台更灵活"
+          },
+          {
+            "name": "Libby",
+            "url": "https://libbyapp.com/",
+            "comparison": "图书馆借阅电子书应用，主打公共图书馆资源；LazyReader 侧重个人云盘电子书库管理"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "lastFeaturedDate": "2026-09-09",
+        "featuredInWeekly": false
+      }
     }
   ],
   "tracking": {
