@@ -1,0 +1,273 @@
+{
+  "date": "2026-09-10",
+  "generatedAt": "2026-09-10T04:08:46.184516+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "producthunt.com/r/p/1244146",
+      "name": "Diiverge",
+      "name_zh": "Diiverge - AI 图片冒险游戏生成器",
+      "slug": "diiverge",
+      "description": "将任意照片、画作或截图转化为可玩的点击式 AI 冒险游戏。点击场景中的物体、选择剧情走向，AI 会生成下一个场景和短片式过渡动画。所有路径都会被保存，其他人可以探索你创造的分支剧情。",
+      "url": "https://diiverge.co",
+      "homepage": "https://diiverge.co",
+      "type": "website",
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1244146?app_id=339",
+      "analysis": {
+        "targetAudience": "喜欢互动叙事、游戏创作和 AI 生成内容的玩家、创作者和教育工作者。",
+        "useCases": [
+          "把旅行照片变成可探索的互动故事",
+          "用 AI 快速原型化叙事游戏关卡",
+          "教育场景中让学生通过互动方式学习历史/地理",
+          "创作者将静态插画转化为互动式作品集展示",
+          "朋友聚会时一起探索同一个世界的不同分支"
+        ],
+        "designIntent": "让静态图片不再只是被观看的对象，而是可以进入和探索的世界。通过点击+选择的简单交互，降低游戏创作门槛，让任何人都能把一张照片变成一段可分享的冒险体验。",
+        "problemSolved": "传统互动游戏制作成本高、门槛高，普通人很难把自己的创意变成可玩的内容。Diiverge 用 AI 生成场景和剧情过渡，把创作门槛降到只需要一张图片，同时通过社区共建模式让世界不断生长。",
+        "tags": [
+          "AI游戏",
+          "互动叙事",
+          "生成式内容",
+          "创意工具",
+          "社区共创"
+        ],
+        "score": 8,
+        "scoreReason": "创意非常新颖，把图片生成和互动叙事结合得很巧妙，社区共建模式也有想象力。但目前玩法深度和商业化路径还不清晰，长期留存有待验证。",
+        "competitors": [
+          {
+            "name": "Hidden Door",
+            "url": "https://hiddendoor.co",
+            "comparison": "Hidden Door 是更成熟的 AI 叙事游戏平台，有完整的角色和世界观系统；Diiverge 更轻量，从单张图片出发，上手更快但深度较浅。"
+          },
+          {
+            "name": "Saga AI",
+            "url": "https://saga.so",
+            "comparison": "Saga 主打 AI 生成互动小说，偏向文字冒险；Diiverge 以视觉图片为核心，体验更像点击式解谜游戏。"
+          }
+        ]
+      },
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1244146_20260910_120717.png",
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "firstSeen": "2026-09-10T04:08:46.184516+00:00"
+    },
+    {
+      "id": "producthunt.com/r/p/1240399",
+      "name": "Dictantor",
+      "name_zh": "Dictantor - 苹果设备本地会议录音转写",
+      "slug": "dictantor",
+      "description": "一款完全在本地运行的语音笔记本，支持 iPhone、Apple Watch 和 Mac。可同时录制系统音频和麦克风，支持 25 种欧洲语言本地转写、说话人分离、关键词搜索直达音频片段，自动生成摘要。无需账号、无订阅、不追踪。",
+      "url": "https://dictantor.com",
+      "homepage": "https://dictantor.com",
+      "type": "app",
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1240399?app_id=339",
+      "analysis": {
+        "targetAudience": "注重隐私的职场人士、记者、学生和任何需要记录会议/访谈/课程的苹果用户。",
+        "useCases": [
+          "远程会议录制并本地转写（含系统音频+麦克风）",
+          "用 Apple Watch 随手记录灵感语音笔记",
+          "学术讲座录音后关键词搜索快速定位内容",
+          "记者访谈录音自动生成摘要和重点",
+          "iCloud 多设备同步，手表录音、手机整理、Mac 编辑"
+        ],
+        "designIntent": "相信语音是最自然的记录方式，但用户不应该为此牺牲隐私。所有处理都在设备本地完成，让你可以放心录制任何内容，不必担心录音被上传到云端。",
+        "problemSolved": "主流会议录音工具（Otter.ai、Fireflies 等）都需要把音频上传到云端处理，存在隐私泄露风险；苹果自带语音备忘录缺少转写、搜索和摘要功能。Dictantor 同时解决了隐私和功能两个痛点。",
+        "tags": [
+          "录音转写",
+          "隐私优先",
+          "本地AI",
+          "效率工具",
+          "苹果生态"
+        ],
+        "score": 8,
+        "scoreReason": "隐私优先的定位非常明确，全本地处理是很大的差异化，系统音频+麦克风同时录制也是实用功能。但仅支持苹果生态和 25 种欧洲语言（不支持中文）限制了用户范围。",
+        "competitors": [
+          {
+            "name": "Otter.ai",
+            "url": "https://otter.ai",
+            "comparison": "Otter 是云端会议转写的领导者，功能更全（实时协作、AI 聊天等），但需要上传音频、付费订阅，隐私性不如 Dictantor。"
+          },
+          {
+            "name": "苹果语音备忘录",
+            "url": "https://www.apple.com/voice-memos/",
+            "comparison": "系统自带、完全免费，但缺少转写、关键词搜索和摘要功能，也不能录制系统音频。Dictantor 在其基础上提供了更专业的语音笔记体验。"
+          }
+        ]
+      },
+      "screenshotUrl": null,
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7e/92/4a/7e924ace-1d44-f38e-2cbc-d24f05929a91/Store_1.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e9/83/62/e98362f6-56c2-76ba-5aa7-01b0f04934d7/Store_2.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0b/97/29/0b972968-7d0c-d65d-7c70-40ab02163c03/Store_3.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a6/bd/7d/a6bd7d77-1a06-24e2-1840-5181c07c09e1/Store_3-1.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/12/0d/b9/120db95e-8b2d-fb55-5307-9309641344da/Store_5.png/320x480bb.jpg"
+      ],
+      "appStoreName": "Dictantor",
+      "appStoreUrl": "https://apps.apple.com/us/app/dictantor/id6789055140?uo=4",
+      "firstSeen": "2026-09-10T04:08:46.184516+00:00"
+    },
+    {
+      "id": "producthunt.com/r/p/1243318",
+      "name": "Knockin'",
+      "name_zh": "Knockin' - AI 智能名片",
+      "slug": "knockin",
+      "description": "把你的静态个人简介变成可以对话的 AI 名片。上传你的作品、链接和内容，AI 会学习你的风格并用你的语气回答访客问题，还能直接帮访客预约你的时间。你可以看到谁来过、问了什么，后续跟进时从对话断点继续。",
+      "url": "https://knockin.io",
+      "homepage": "https://knockin.io",
+      "type": "saas",
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1243318?app_id=339",
+      "analysis": {
+        "targetAudience": "创始人、自由职业者、创作者、销售等需要高效拓展人脉和展示个人品牌的专业人士。",
+        "useCases": [
+          "放在社交账号主页，让访客用对话方式了解你和你的项目",
+          "嵌入邮件签名，让收件人可以直接 AI 提问并预约时间",
+          "展会/活动中生成 QR 码，代替传统纸质名片",
+          "销售团队成员的个人 AI 接待员，24/7 回答潜在客户问题",
+          "创作者展示作品集时，让 AI 用创作者语气与粉丝互动"
+        ],
+        "designIntent": "好的自我介绍往往在见面那一刻就结束了，但真正的好奇通常发生在之后。Knockin 让个人简介不再是静态文字，而是一个可以随时对话、随时约见的智能存在。",
+        "problemSolved": "传统个人简介/Link-in-bio 工具是被动的——访客自己浏览、自己找联系方式、自己写邮件约时间，转化漏斗很长。Knockin 用 AI 对话降低了互动门槛，把浏览变成对话，把兴趣直接转化为约见。",
+        "tags": [
+          "AI名片",
+          "个人品牌",
+          "自动化销售",
+          "社交工具",
+          "智能预约"
+        ],
+        "score": 7,
+        "scoreReason": "切入点很巧妙，把 AI 对话和个人介绍结合得自然，预约功能也很实用。但本质上是个人 RAG 应用的包装，技术壁垒不高，同质化竞争可能很快出现。",
+        "competitors": [
+          {
+            "name": "Beacons",
+            "url": "https://beacons.ai",
+            "comparison": "Beacons 是主流的 link-in-bio 工具，功能全面但都是静态展示；Knockin 主打 AI 对话互动，是完全不同的交互范式。"
+          },
+          {
+            "name": "Carrd",
+            "url": "https://carrd.co",
+            "comparison": "Carrd 是单页个人站搭建工具，自由度高但需要手动维护；Knockin 更简单，用对话代替页面布局，信息获取效率更高。"
+          }
+        ]
+      },
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1243318_20260910_120733.png",
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "firstSeen": "2026-09-10T04:08:46.184516+00:00"
+    },
+    {
+      "id": "producthunt.com/r/p/1226181",
+      "name": "Nametag",
+      "name_zh": "Nametag - AI 社交记忆助手",
+      "slug": "nametag-ai",
+      "description": "帮你记住每一个见过的人的名字和细节。遇到新朋友时，只需语音输入名字和特征，AI 自动分类整理，并标记你们相遇的地点。下次再到同一个地方，打开应用就能看到所有在这里认识的人，像复习闪卡一样快速回忆。",
+      "url": "https://getnametag.app/",
+      "homepage": "https://getnametag.app/",
+      "type": "app",
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1226181?app_id=339",
+      "analysis": {
+        "targetAudience": "频繁参加社交活动、会议的商务人士、销售和经常苦于记不住人名的社恐人群。",
+        "useCases": [
+          "行业会议后快速记录每个认识的人的关键信息",
+          "常去的健身房/咖啡店，记住常客的名字和细节",
+          "销售拜访客户前，快速复习之前的交流内容",
+          "朋友聚会时，回忆上次见面时对方说过的事",
+          "按共同好友搜索，想起「那个通过 Alex 认识的人」是谁"
+        ],
+        "designIntent": "人们从不忘记一张脸，但名字总是记不住。Nametag 用「地点」作为记忆锚点——你在哪里认识的人比名字本身更容易回想起来——配合语音输入降低记录门槛，让社交记忆变得轻松自然。",
+        "problemSolved": "手机通讯录只存名字和电话，没有相遇场景和上下文；LinkedIn 是公开的职业档案，不记录私人细节。现实中我们认识一个人的信息（在哪里认识、对方的爱好、共同好友等）散落在各处，需要时根本找不到。",
+        "tags": [
+          "社交记忆",
+          "AI助手",
+          "效率工具",
+          "人脉管理",
+          "语音输入"
+        ],
+        "score": 7,
+        "scoreReason": "痛点抓得很准，「地点锚定记忆」的设计思路很聪明，语音输入也符合使用场景。但产品形态比较简单，核心功能依赖用户主动记录，留存可能是挑战。",
+        "competitors": [
+          {
+            "name": "Dex",
+            "url": "https://getdex.com",
+            "comparison": "Dex 是更全面的人脉管理工具，集成通讯录和社交网络，功能更重；Nametag 更轻量，专注于「记住名字」这个单一痛点。"
+          },
+          {
+            "name": "Clay",
+            "url": "https://clay.earth",
+            "comparison": "Clay 是高端人脉关系管理工具，主打 AI 自动整理和提醒；Nametag 定位更普世，价格更低，功能更聚焦。"
+          }
+        ]
+      },
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1226181_20260910_120757.png",
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "firstSeen": "2026-09-10T04:08:46.184516+00:00"
+    },
+    {
+      "id": "producthunt.com/r/p/1216716",
+      "name": "Bloop",
+      "name_zh": "Bloop - Mac 音乐可视化器",
+      "slug": "bloop-mac",
+      "description": "macOS 原生音乐可视化应用，把 Mac 上播放的任何音频变成实时动态视觉效果。支持系统音频和麦克风输入，8 种 shader 皮肤风格，每帧都随音乐的低频、中频、高频和节拍实时响应。可导出为视频，支持批量处理 MP3 播放列表。",
+      "url": "https://bloooooop.com/",
+      "homepage": "https://bloooooop.com/",
+      "type": "app",
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1216716?app_id=339",
+      "analysis": {
+        "targetAudience": "音乐创作者、播客主、视频博主、DJ 和喜欢桌面美学的音乐爱好者。",
+        "useCases": [
+          "为 YouTube / 抖音音乐视频生成可视化画面",
+          "直播或播客时用作背景动态画面",
+          "工作时放在旁边当桌面氛围伴侣",
+          "批量为整张专辑生成可视化视频",
+          "派对或活动中投射到大屏幕增加氛围"
+        ],
+        "designIntent": "怀念 iTunes 时代那个经典的音乐可视化器，但想要一个能真正导出成品的版本。Bloop 既是氛围感工具，也是生产力工具——既能挂在菜单栏当装饰，也能批量产出视频内容。",
+        "problemSolved": "在线音乐可视化工具质量参差不齐、需要上传音频、有水印；专业视频软件做可视化又太繁琐。Bloop 是原生 macOS 应用，系统音频直连、实时渲染、一键导出，填补了轻量和专业之间的空白。",
+        "tags": [
+          "音乐可视化",
+          "内容创作",
+          "macOS应用",
+          "Shader",
+          "视频导出"
+        ],
+        "score": 7,
+        "scoreReason": "产品打磨得很精致，系统音频捕获+视频导出的组合很实用，一次买断的定价也合理。但市场相对小众，仅支持 Apple Silicon Mac 进一步限制了受众。",
+        "competitors": [
+          {
+            "name": "Echolume",
+            "url": "https://echolume.iamjarl.com/",
+            "comparison": "Echolume 更专业，支持 DAW 插件、MIDI/OSC 控制，面向现场演出和制作人；Bloop 更亲民，面向普通用户和内容创作者，上手更快。"
+          },
+          {
+            "name": "VSXu Player",
+            "url": "https://www.vsxu.com",
+            "comparison": "VSXu 是老牌音乐可视化软件，跨平台但界面较老；Bloop 更现代，macOS 原生体验更好，操作更简单。"
+          }
+        ]
+      },
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1216716_20260910_120808.png",
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "firstSeen": "2026-09-10T04:08:46.184516+00:00"
+    }
+  ]
+}
