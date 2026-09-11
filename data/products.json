@@ -33436,6 +33436,347 @@
           }
         ]
       }
+    },
+    {
+      "id": "producthunt.com/r/p/1244325",
+      "name": "Bonds",
+      "slug": "bonds",
+      "description": "一款 AI 驱动的即时通讯应用，能在群聊中即时生成共享应用。只需在聊天中用自然语言描述需求（比如「我们4个朋友准备马拉松训练，帮我们做个打卡追踪器」），AI 就会在群内实时生成功能完整的原生应用，包括排行榜、连续打卡、奖金池等，所有群成员共享同一份实时状态，零配置、零代码。",
+      "url": "https://bonds.chat",
+      "homepage": "https://bonds.chat",
+      "type": "app",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1244325_20260911_120954.png",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0a/78/60/0a7860fb-06c4-475a-910b-3b9aafc3cc28/App_store_1.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a9/8e/75/a98e752f-c402-ce79-a74b-47ffa8fa6fbc/App_store_2.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7e/1a/2a/7e1a2a44-5101-fcd7-a81b-726be0de71e3/App_store_3.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b1/d2/b6/b1d2b603-f614-fae7-f597-10d70f6e6ad4/App_store_4.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a9/f0/42/a9f0426f-3de9-acf3-66d4-70b508d38a36/App_store_5.jpg/320x480bb.jpg"
+      ],
+      "appStoreName": "Bonds: Relationship Growth",
+      "appStoreUrl": "https://apps.apple.com/us/app/bonds-relationship-growth/id6504557163?uo=4",
+      "tags": [
+        "AI 即时通讯",
+        "群聊应用生成",
+        "社交健身",
+        "iOS 应用"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1244325?app_id=339",
+      "firstSeen": "2026-09-08T03:23:07+00:00",
+      "analysis": {
+        "targetAudience": "有共同目标的朋友、家人或小型团队，尤其是喜欢在群聊中组织活动和打卡挑战的年轻人群体。",
+        "useCases": [
+          "朋友群发起健身打卡挑战，自动生成排行榜和连续打卡记录",
+          "家人群创建旅行费用分摊应用，实时记录每人支出",
+          "同事间建立项目进度追踪器，共享任务状态",
+          "兴趣小组制作投票/问卷应用，快速收集团队意见",
+          "跑团组织线上马拉松，设置完赛奖金池激励成员"
+        ],
+        "designIntent": "团队观察到群聊中经常出现手工统计打卡、手动分摊费用等低效场景，而 AI 已经能按需生成轻量应用。他们认为如果 AI 能即时生成软件，那么软件就应该直接出现在聊天里，而不是作为链接被粘贴进来。bonds 重新定义了即时通讯：消息不再只是对话，还可以是可交互的共享应用。",
+        "problemSolved": "解决了群聊中组织活动效率低下的问题——以往需要手动记录打卡、手工统计数据、用表格分摊费用，这些操作繁琐且容易出错。传统做法还需要下载专门的 App 或在不同工具间切换。bonds 让应用在对话中即时生成，所有成员共享状态，无需额外注册或安装，极大降低了协作门槛。",
+        "tags": [
+          "AI 即时通讯",
+          "群聊应用生成",
+          "社交健身",
+          "iOS 应用"
+        ],
+        "score": 8,
+        "scoreReason": "产品创意非常新颖，将 AI 生成应用的能力直接融入群聊场景，找到了一个非常具体且高频的痛点切入点。目前从健身挑战切入，场景明确、用户容易理解。但产品形态尚早，iOS 独占限制了受众，且应用生成的稳定性和质量还需要验证。整体是很有想象力的新范式产品。",
+        "competitors": [
+          {
+            "name": "GroupMe",
+            "url": "https://groupme.com",
+            "comparison": "传统群聊工具，仅支持文本和图片，无法生成可交互应用，功能远不如 bonds 灵活。"
+          },
+          {
+            "name": "Slack",
+            "url": "https://slack.com",
+            "comparison": "企业级协作平台，通过 bot 和集成扩展功能，但需要开发者构建，用户无法用自然语言即时生成应用。"
+          },
+          {
+            "name": "Telegram Mini Apps",
+            "url": "https://telegram.org",
+            "comparison": "支持小程序嵌入聊天，但需要开发者预先开发，不是 AI 即时生成，门槛更高。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-09-25T04:11:48.289677+00:00",
+      "lastUpdated": "2026-09-11T04:11:48.289677+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "lastFeaturedDate": "2026-09-11"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1242766",
+      "name": "GoodLads",
+      "slug": "goodlads",
+      "description": "面向 Google Ads 的 AI 增长管理工具。它自动分析广告账户的投放数据，生成可操作的优化假设（如调整关键词、优化广告文案、修改出价策略），每个假设都标注了依据和预期效果。用户一键即可将假设作为 Google Ads 实验部署，全程通过看板追踪实验结果，从假设、执行到验证形成完整闭环。",
+      "url": "https://goodlads.cc",
+      "homepage": "https://goodlads.cc",
+      "type": "saas",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1242766_20260911_121005.png",
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "tags": [
+        "Google Ads 优化",
+        "AI 营销",
+        "广告增长",
+        "SaaS"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1242766?app_id=339",
+      "firstSeen": "2026-09-06T11:11:39+00:00",
+      "analysis": {
+        "targetAudience": "每月 Google Ads 预算在 1 万到 25 万美元之间的广告主、营销代理机构，以及没有全职优化师的成长型团队。",
+        "useCases": [
+          "自动分析搜索词报告，发现低效关键词并建议添加否定关键词",
+          "为每个广告系列生成 A/B 测试广告文案，验证哪种标题转化率更高",
+          "监控地理和受众表现，建议重新分配预算到高转化地区",
+          "追踪每个优化实验的统计显著性，告诉你何时可以得出结论",
+          "通过 MCP 接入 Claude/Codex，用自然语言查询广告数据并生成提案"
+        ],
+        "designIntent": "创始人拥有 15 年以上 Google Ads 优化经验，他们发现中小广告主虽然预算不少，但缺乏专业团队做持续实验优化。Google 自己的推荐往往偏向于增加预算而非真正提升效果。GoodLads 以假设驱动的科学方法为核心，把资深优化师的经验固化为 AI 分析能力，让每个广告主都能以低成本获得专业级的优化建议。",
+        "problemSolved": "解决了中小广告主投放 Google Ads 时缺乏专业优化能力的痛点——很多团队花了钱但不知道怎么提升 ROAS，Google 的自动优化又常常失效。GoodLads 把优化过程变成可追踪的实验闭环，每个建议都有数据依据和统计验证，避免了拍脑袋调参。同时坚持人工审批制，不让 AI 直接乱改账户。",
+        "tags": [
+          "Google Ads 优化",
+          "AI 营销",
+          "广告增长",
+          "SaaS"
+        ],
+        "score": 7,
+        "scoreReason": "定位清晰，瞄准了一个有明确付费意愿和痛点的垂直市场，产品形态（假设看板 + 一键实验）比普通 AI 营销工具更有深度。但赛道竞争激烈，Google Ads 优化工具众多，差异化主要在方法论和 MCP 集成上，壁垒不算特别高。适合已经在投放 Google Ads 的团队试用。",
+        "competitors": [
+          {
+            "name": "Google Ads Recommendations",
+            "url": "https://ads.google.com",
+            "comparison": "Google 官方推荐功能，但算法偏向增加平台收入，优化建议常被认为不够中立。"
+          },
+          {
+            "name": "Optmyzr",
+            "url": "https://www.optmyzr.com",
+            "comparison": "老牌 PPC 优化工具，功能全面但操作复杂，更适合大型代理机构，学习成本高。"
+          },
+          {
+            "name": "Revealbot",
+            "url": "https://revealbot.com",
+            "comparison": "自动化广告规则工具，基于阈值触发操作，不像 GoodLads 那样有假设驱动的实验闭环和统计验证。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-09-25T04:11:48.289677+00:00",
+      "lastUpdated": "2026-09-11T04:11:48.289677+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "lastFeaturedDate": "2026-09-11"
+      }
+    },
+    {
+      "id": "papiers.ai",
+      "name": "Papiers",
+      "slug": "papiers",
+      "description": "面向研究者和深度阅读者的 AI 阅读与研究工作空间。支持导入论文、文章、PDF 和网页，统一管理阅读库；提供高亮标注、笔记、全文搜索等功能；AI 可以基于你的阅读历史回答问题，自动构建知识图谱和研究脉络，还能将研究内容转化为演示文稿。内置 Atlas 功能可探索学术论文的引用关系和讨论脉络。",
+      "url": "https://papiers.ai",
+      "homepage": "https://papiers.ai",
+      "type": "saas",
+      "screenshotUrl": "assets/screenshots/papiers.ai_20260911_121012.png",
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "tags": [
+        "AI 研究工具",
+        "论文阅读",
+        "知识管理",
+        "学术研究"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://papiers.ai/",
+      "firstSeen": "2026-09-10T23:07:33+00:00",
+      "analysis": {
+        "targetAudience": "学术研究者、研究生、深度阅读爱好者、知识工作者，以及需要系统管理大量阅读材料的分析师和产品经理。",
+        "useCases": [
+          "导入多篇学术论文，用 AI 快速梳理研究脉络和引用关系",
+          "在阅读材料时高亮关键段落，AI 基于标注内容回答深度问题",
+          "用 Atlas 功能追溯某篇论文的学术传承和后续讨论",
+          "将研究成果自动转化为演示文稿，省去整理 PPT 的时间",
+          "跨所有阅读材料搜索关键词，快速找回之前读过的相关内容"
+        ],
+        "designIntent": "Papiers 认为随着 AI 生成内容的爆炸，信息获取不再是瓶颈，真正的挑战是如何从海量信息中构建自己的知识体系。产品不追求让 AI 替你阅读，而是作为深度阅读的伙伴——帮助你组织、关联和深化理解。它的核心洞察是：有价值的洞见往往来自你六个月前的某个高亮标注和今天读到的新论文之间的连接。",
+        "problemSolved": "解决了研究者面临的信息过载和知识碎片化问题——读过的论文、文章散落各处，想不起来在哪；文献综述需要手动整理引用关系；研究思路缺乏系统性追踪。Papiers 把所有阅读材料统一到一个工作空间，用 AI 建立语义关联和知识图谱，让研究过程更加连贯和高效。",
+        "tags": [
+          "AI 研究工具",
+          "论文阅读",
+          "知识管理",
+          "学术研究"
+        ],
+        "score": 8,
+        "scoreReason": "产品定位在学术研究这个高价值垂直领域，功能设计有深度（Atlas 知识图谱、研究脉络追溯），不只是简单的 AI 摘要工具。有桌面端、浏览器扩展和 CLI，生态覆盖全面。但同类产品（如 Readwise Reader、ResearchRabbit）已经有一定用户基础，需要在 AI 深度和研究工作流上持续建立差异化。",
+        "competitors": [
+          {
+            "name": "Readwise Reader",
+            "url": "https://readwise.io/read",
+            "comparison": "全能型阅读应用，支持高亮同步和 AI 总结，但学术研究功能（如引用图谱）不如 Papiers 深入。"
+          },
+          {
+            "name": "ResearchRabbit",
+            "url": "https://www.researchrabbit.ai",
+            "comparison": "专注于学术论文发现和引用关系可视化，但缺乏全面的阅读工作流和笔记功能。"
+          },
+          {
+            "name": "Notion AI",
+            "url": "https://www.notion.so",
+            "comparison": "通用型知识库，AI 能力泛但学术研究场景的专业性不足，不擅长论文管理和引用分析。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-09-25T04:11:48.289677+00:00",
+      "lastUpdated": "2026-09-11T04:11:48.289677+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "lastFeaturedDate": "2026-09-11"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1245327",
+      "name": "Gojo",
+      "slug": "gojo",
+      "description": "一款将 MacBook 屏幕刘海变身为生产力中心的 macOS 工具。集成了本地语音听写（完全离线运行，保护隐私）、窗口管理、剪贴板历史、文件暂存架、媒体控制、夜览调节等功能，所有工具都整合在刘海区域，鼠标悬停即可唤起。替代了 Rectangle、Maccy、f.lux 等多个零散工具，一个应用搞定日常效率需求。",
+      "url": "https://gojo.app",
+      "homepage": "https://gojo.app",
+      "type": "app",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1245327_20260911_121021.png",
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "tags": [
+        "macOS 效率工具",
+        "本地语音听写",
+        "窗口管理",
+        "隐私保护"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1245327?app_id=339",
+      "firstSeen": "2026-09-09T03:41:05+00:00",
+      "analysis": {
+        "targetAudience": "追求高效的 macOS 用户、程序员、写作者，以及重视隐私、希望数据本地处理的专业人士。",
+        "useCases": [
+          "用快捷键唤起本地语音听写，在任何文本框中快速输入文字，无需联网",
+          "通过窗口网格化管理，快速排列应用窗口，提升多任务效率",
+          "用剪贴板历史快速找回之前复制的内容，支持搜索和过滤",
+          "把文件拖到刘海暂存架，跨应用、跨桌面空间移动文件",
+          "一键调节屏幕暖色温度，保护夜间工作时的视力"
+        ],
+        "designIntent": "Gojo 的设计理念是化零为整——Mac 用户通常需要安装五六个小工具才能满足日常效率需求，每个工具都有独立的菜单栏图标和快捷键，既杂乱又占资源。Gojo 把这些功能统一整合进一个原生应用，利用 MacBook 的刘海空间作为统一入口，既美观又高效。尤其强调隐私，语音听写完全在本地运行，不上传任何音频数据。",
+        "problemSolved": "解决了 macOS 效率工具碎片化的问题——用户为了窗口管理、剪贴板、听写、媒体控制等功能要装一堆 App，菜单栏拥挤、快捷键冲突、系统资源浪费。Gojo 一个应用整合所有功能，并创新地利用刘海作为交互入口，既节省了屏幕空间，又提供了一致的用户体验。本地听写还解决了云端听写的隐私顾虑。",
+        "tags": [
+          "macOS 效率工具",
+          "本地语音听写",
+          "窗口管理",
+          "隐私保护"
+        ],
+        "score": 7,
+        "scoreReason": "产品切入点很好，整合了多个高频小工具，刘海交互设计有新意，本地 AI 听写符合隐私趋势。但类似的效率工具市场已有不少成熟玩家（如 Raycast 也在扩展听写功能），差异化主要在刘海交互和功能组合上。对重度 Mac 用户来说值得一试，但长期留存要看实际使用体验。",
+        "competitors": [
+          {
+            "name": "Raycast",
+            "url": "https://www.raycast.com",
+            "comparison": "命令启动器形式的效率工具，功能可无限扩展，但窗口管理和剪贴板等基础功能不如 Gojo 整合得紧凑。"
+          },
+          {
+            "name": "Rectangle Pro + Maccy 组合",
+            "url": "https://rectangleapp.com",
+            "comparison": "两个独立工具分别处理窗口管理和剪贴板，免费但体验分散，需要分别配置。"
+          },
+          {
+            "name": "MacWhisper",
+            "url": "https://goodsnooze.gumroad.com/l/macwhisper",
+            "comparison": "专注于本地语音听写的单一工具，功能聚焦但只有听写，不包含窗口管理等其他效率功能。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-09-25T04:11:48.289677+00:00",
+      "lastUpdated": "2026-09-11T04:11:48.289677+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "lastFeaturedDate": "2026-09-11"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1245023",
+      "name": "Speechmark",
+      "slug": "speechmark",
+      "description": "一款运行在 Mac 上的本地会议记录工具。所有音频处理都在设备端完成，录音和笔记数据不会上传到云端，完全保护隐私。支持实时转录、说话人识别、关键词标记，会议结束后自动整理结构化笔记。菜单栏应用，轻量不占资源，适合对数据安全敏感的团队和个人。",
+      "url": "https://speechmark.app",
+      "homepage": "https://speechmark.app",
+      "type": "app",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1245023_20260911_121029.png",
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "tags": [
+        "会议记录",
+        "本地 AI",
+        "Mac 应用",
+        "隐私保护"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1245023?app_id=339",
+      "firstSeen": "2026-09-08T17:47:27+00:00",
+      "analysis": {
+        "targetAudience": "对隐私敏感的职场人士、自由职业者、法律/医疗/金融等保密行业从业者，以及不愿意把会议内容上传云端的 Mac 用户。",
+        "useCases": [
+          "团队例会实时转录，自动识别不同发言人，生成结构化会议纪要",
+          "一对一访谈记录，本地保存敏感对话内容，不经过第三方服务器",
+          "课程/讲座录音转文字，方便后续复习和整理笔记",
+          "客户电话会议记录，确保沟通细节不遗漏，同时遵守数据合规要求",
+          "远程面试记录，帮助面试官事后回顾候选人表现"
+        ],
+        "designIntent": "Speechmark 的设计核心是隐私优先。在各种云端会议记录工具泛滥的今天，很多用户（尤其是涉及商业机密、法律事务、医疗健康的行业）对把会议录音上传到第三方服务器心存顾虑。Speechmark 选择完全在本地运行 AI 模型，用性能换隐私，让用户在享受 AI 转录便利的同时，不用担心数据泄露。",
+        "problemSolved": "解决了云端会议记录工具的隐私和安全隐患——很多 AI 笔记工具需要把录音传到云端处理，敏感会议内容可能被存储或用于训练模型。Speechmark 把整个转录过程放在本地，音频文件永远不离开你的 Mac。同时作为原生 Mac 应用，启动快、资源占用低，比网页端工具更流畅。",
+        "tags": [
+          "会议记录",
+          "本地 AI",
+          "Mac 应用",
+          "隐私保护"
+        ],
+        "score": 7,
+        "scoreReason": "抓住了隐私保护这个真实痛点，本地 AI 处理的定位清晰，目标用户（法律/金融/医疗）付费意愿强。但同类产品已经不少（如 MacWhisper、Notta 本地版），市场竞争激烈。需要在转录准确率、说话人识别质量和会议纪要整理能力上建立差异化。作为 Mac 原生应用有一定体验优势。",
+        "competitors": [
+          {
+            "name": "Otter.ai",
+            "url": "https://otter.ai",
+            "comparison": "云端会议转录领导者，功能全面但所有数据走云端，对隐私敏感用户不适用。"
+          },
+          {
+            "name": "MacWhisper",
+            "url": "https://goodsnooze.gumroad.com/l/macwhisper",
+            "comparison": "同样是本地转录的 Mac 应用，知名度更高、功能更丰富，但会议纪要整理功能可能不如 Speechmark 专注。"
+          },
+          {
+            "name": "Notta",
+            "url": "https://www.notta.ai",
+            "comparison": "跨平台转录工具，也有本地模式选择，但主要产品形态还是云端，本地只是附加功能。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-09-25T04:11:48.289677+00:00",
+      "lastUpdated": "2026-09-11T04:11:48.289677+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "lastFeaturedDate": "2026-09-11"
+      }
     }
   ],
   "tracking": {
