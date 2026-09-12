@@ -1,6 +1,4 @@
 {
-  "version": 11,
-  "lastUpdated": "2026-09-08T04:14:02.155045+00:00",
   "products": [
     {
       "id": "producthunt.com/r/p/1198621",
@@ -33777,13 +33775,356 @@
         "featuredInDaily": 1,
         "lastFeaturedDate": "2026-09-11"
       }
+    },
+    {
+      "id": "producthunt.com/r/p/1225735",
+      "name": "Wisry - AI广告克隆自动化平台",
+      "slug": "wisry",
+      "description": "Wisry 是一款 AI 驱动的广告投放自动化工具，它可以反向拆解市场上正在跑赢的广告创意，克隆到你的品牌下，自动生成静态图和视频广告，并投放到 Meta 和 Google 平台，全程优化 ROAS。基于超过 10 亿美元的广告投放数据训练。",
+      "url": "https://wisry.ai/",
+      "homepage": "https://wisry.ai/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1225735_20260912_120840.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI营销",
+        "广告自动化",
+        "电商工具",
+        "ROAS优化",
+        "创意生成"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1225735?app_id=339",
+      "firstSeen": "2026-09-12T04:08:40.405721+00:00",
+      "lastUpdated": "2026-09-12T04:08:40.405721+00:00",
+      "cooldownExpiresAt": "2026-09-26T04:09:22.474811+00:00",
+      "analysis": {
+        "targetAudience": "电商品牌主、独立站卖家、数字营销团队以及广告代理商",
+        "useCases": [
+          "快速克隆竞品跑赢的广告创意，降低素材测试成本",
+          "一键生成多版本静态图和视频广告，加速素材产出",
+          "自动在 Meta 和 Google 平台投放并持续优化 ROAS",
+          "新品牌冷启动时快速找到高转化的广告角度和钩子",
+          "大促期间批量产出广告素材，应对高频投放需求"
+        ],
+        "designIntent": "解决广告投放中「创意试错成本高、素材产出慢、ROAS 不稳定」的痛点，让 AI Agent 完成从竞品研究、创意生成到投放优化的全闭环，把广告投放从人力密集型工作变成自动化流程。",
+        "problemSolved": "传统广告投放需要团队花大量时间研究竞品、制作素材、反复测试，试错成本高且周期长。Wisry 用 AI 自动拆解赢家广告的钩子、角度和格式，克隆后一键投放，显著降低了创意试错成本和投放门槛。",
+        "tags": [
+          "AI营销",
+          "广告自动化",
+          "电商工具",
+          "ROAS优化",
+          "创意生成"
+        ],
+        "score": 8,
+        "scoreReason": "切中电商卖家的核心痛点——广告素材产出效率和 ROAS 优化，AI Agent 从研究到投放的全闭环很有吸引力。产品定位清晰、商业模式直接，但赛道竞争激烈，差异化主要在自动化程度和效果验证上，给 8 分。",
+        "competitors": [
+          {
+            "name": "AdCreative.ai",
+            "url": "https://adcreative.ai",
+            "comparison": "更侧重 AI 生成广告图，主打创意素材产出，不包含投放和竞品拆解的全闭环"
+          },
+          {
+            "name": "Pencil",
+            "url": "https://www.pencilspredictions.com",
+            "comparison": "专注视频广告创意生成，有预测表现的能力，但投放自动化程度不如 Wisry"
+          },
+          {
+            "name": "Jasper",
+            "url": "https://www.jasper.ai",
+            "comparison": "通用 AI 营销文案平台，广告只是其中一个场景，深度和垂直化程度不及 Wisry"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "lastFeaturedDate": "2026-09-12",
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1243621",
+      "name": "Loqua - AI语音输入与屏幕智能助手",
+      "slug": "loqua",
+      "description": "Loqua 是一款跨平台 AI 语音输入和屏幕助手工具，全局快捷键唤起，支持在任何文本框中实时语音转文字，并自动去除填充词、修正句式、生成结构化内容。还支持屏幕截图问答、语音编辑、快捷操作等功能，支持近百种语言。",
+      "url": "https://www.theloqua.ai/",
+      "homepage": "https://www.theloqua.ai/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1243621_20260912_120849.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "语音输入",
+        "AI助手",
+        "效率工具",
+        "屏幕识别",
+        "跨平台"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1243621?app_id=339",
+      "firstSeen": "2026-09-12T04:08:40.405721+00:00",
+      "lastUpdated": "2026-09-12T04:08:40.405721+00:00",
+      "cooldownExpiresAt": "2026-09-26T04:09:22.474811+00:00",
+      "analysis": {
+        "targetAudience": "内容创作者、远程办公人群、学生、研究者以及频繁进行文字输入的知识工作者",
+        "useCases": [
+          "在 Slack、Notion、邮件等任何应用中快速语音输入文字",
+          "自动去除「嗯/啊」等填充词，输出干净流畅的文稿",
+          "截图后直接提问，快速获取图表分析、翻译和摘要",
+          "语音控制设置提醒、打开网页、发送消息等快捷操作",
+          "多语言实时翻译，用母语说话直接输出目标语言"
+        ],
+        "designIntent": "打破「语音输入 = 慢速转录」的固有印象，让语音不仅能打字，还能理解结构、理解屏幕内容、执行操作，成为真正的双手解放型生产力工具。",
+        "problemSolved": "传统语音转文字工具只能做基础转录，输出质量参差不齐，且无法与屏幕内容交互。Loqua 把语音输入、AI 润色、屏幕理解和快捷操作整合在一起，让用户在不切换应用的情况下完成更多工作。",
+        "tags": [
+          "语音输入",
+          "AI助手",
+          "效率工具",
+          "屏幕识别",
+          "跨平台"
+        ],
+        "score": 8,
+        "scoreReason": "产品形态成熟、功能丰富，语音输入 + 屏幕问答 + 快捷操作的组合拳覆盖了真实高频场景，且支持跨平台。赛道上已有 Wispr Flow 等强势竞品，但 Loqua 在功能广度和多语言支持上有差异化优势，给 8 分。",
+        "competitors": [
+          {
+            "name": "Wispr Flow",
+            "url": "https://www.wispr.ai",
+            "comparison": "主打语音输入，Apple 生态深度集成，体验流畅但功能相对聚焦，屏幕交互较弱"
+          },
+          {
+            "name": "Otter.ai",
+            "url": "https://otter.ai",
+            "comparison": "侧重会议录音转写和摘要，实时语音输入场景不是核心，功能方向不同"
+          },
+          {
+            "name": "MacWhisper",
+            "url": "https://goodsnooze.gumroad.com/l/macwhisper",
+            "comparison": "macOS 平台的开源转录工具，免费且本地运行，但 AI 润色和交互功能有限"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "lastFeaturedDate": "2026-09-12",
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1238848",
+      "name": "Subanana 实时字幕 - 多语言活动字幕工具",
+      "slug": "live-captions-subanana",
+      "description": "Subanana 实时字幕是一款面向会议和活动的多语言实时字幕工具，支持在观众手机、投影大屏和直播推流中同步显示原文字幕和最多 5 种翻译语言，内置行业术语词库，支持 95+ 语言。",
+      "url": "https://subanana.com/en/live-captions",
+      "homepage": "https://subanana.com/en/live-captions",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1238848_20260912_120858.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "实时字幕",
+        "多语言翻译",
+        "会议工具",
+        "无障碍",
+        "活动科技"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1238848?app_id=339",
+      "firstSeen": "2026-09-12T04:08:40.405721+00:00",
+      "lastUpdated": "2026-09-12T04:08:40.405721+00:00",
+      "cooldownExpiresAt": "2026-09-26T04:09:22.474811+00:00",
+      "analysis": {
+        "targetAudience": "跨国企业会议组织者、国际会议主办方、线上教育机构、教堂/医疗等专业场景从业者",
+        "useCases": [
+          "国际会议和研讨会中为多语言观众提供实时母语字幕",
+          "线上直播和 webinar 中叠加多语言字幕层，提升观看体验",
+          "企业内部跨语言团队会议的实时转写和翻译",
+          "教堂礼拜、医疗问诊等专业场景的精准实时字幕",
+          "听障人士的无障碍沟通场景，提供原文字幕支持"
+        ],
+        "designIntent": "让多语言沟通不再依赖昂贵的人工同传，用 AI 实时转写 + 翻译技术，把字幕同步送到每个人的手机、大屏和直播流中，真正实现「人人都能听懂」。",
+        "problemSolved": "传统的多语言会议需要雇佣多名同传译员，成本高昂且安排复杂；而普通 AI 转写工具只能在单一设备上显示，无法满足多人、多设备、多语言的场景需求。Subanana 提供了一站式多端同步的实时字幕方案。",
+        "tags": [
+          "实时字幕",
+          "多语言翻译",
+          "会议工具",
+          "无障碍",
+          "活动科技"
+        ],
+        "score": 7,
+        "scoreReason": "切入的是真实且高频的 B 端场景，三端同步（手机/投影/直播）和行业词库是核心差异化，95+ 语言覆盖也有竞争力。但技术门槛不算特别高，AI 转写质量和行业场景深度是关键壁垒，给 7 分。",
+        "competitors": [
+          {
+            "name": "Otter.ai Live",
+            "url": "https://otter.ai",
+            "comparison": "侧重英文会议转写和协作，多语言和多端投屏能力较弱"
+          },
+          {
+            "name": "Krisp",
+            "url": "https://krisp.ai",
+            "comparison": "主打 AI 降噪和会议语音辅助，实时字幕翻译不是核心功能"
+          },
+          {
+            "name": "Google Live Translate",
+            "url": "https://translate.google.com",
+            "comparison": "免费的基础翻译工具，缺乏活动场景的多端同步和专业词库支持"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "lastFeaturedDate": "2026-09-12",
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1217842",
+      "name": "TIM PG - AI工具数据隐私卫士",
+      "slug": "tim-pg",
+      "description": "TIM PG 是一款 100% 离线运行的 Windows 桌面隐私工具，在使用 ChatGPT、Copilot 等 AI 工具时自动识别并遮蔽剪贴板中的敏感信息（姓名、邮箱、卡号、密钥等），AI 返回后再自动还原，全程本地处理、无需联网、不使用 AI 模型。",
+      "url": "https://www.microsoft.com/store/productId/9P7VNBXK2QJL",
+      "homepage": "https://www.microsoft.com/store/productId/9P7VNBXK2QJL",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1217842_20260912_120906.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "数据隐私",
+        "AI安全",
+        "剪贴板防护",
+        "企业合规",
+        "离线工具"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1217842?app_id=339",
+      "firstSeen": "2026-09-12T04:08:40.405721+00:00",
+      "lastUpdated": "2026-09-12T04:08:40.405721+00:00",
+      "cooldownExpiresAt": "2026-09-26T04:09:22.474811+00:00",
+      "analysis": {
+        "targetAudience": "企业员工、法律/金融/医疗等敏感行业从业者、使用 AI 工具的程序员和数据隐私关注者",
+        "useCases": [
+          "向 ChatGPT 粘贴代码时自动遮蔽 API Key 和敏感配置",
+          "法律/金融从业者用 AI 处理文档前自动脱敏个人信息",
+          "HR 团队用 AI 分析简历时自动遮蔽候选人隐私数据",
+          "企业合规场景下降低员工使用 AI 工具的数据泄露风险",
+          "本地处理 PDF/Word/PPT 文档的敏感信息后再上传 AI"
+        ],
+        "designIntent": "在 AI 工具普及的当下，解决「不小心把敏感数据粘进 AI 对话框」的高频失误，用纯本地、零联网的方式构建一道 AI 使用的隐私安全闸门。",
+        "problemSolved": "员工在日常使用 ChatGPT、Copilot 等 AI 工具时，很容易误将公司机密、客户数据、API 密钥等敏感信息粘贴进去，造成数据泄露。TIM PG 通过剪贴板实时监控和本地模式匹配，在数据离开设备前完成脱敏，从源头堵住泄露风险。",
+        "tags": [
+          "数据隐私",
+          "AI安全",
+          "剪贴板防护",
+          "企业合规",
+          "离线工具"
+        ],
+        "score": 7,
+        "scoreReason": "切中了 AI 时代一个真实且被低估的安全痛点——无意识的数据泄露。100% 离线、不使用 AI 模型的设计理念很有说服力，产品定位精准。但纯本地规则匹配的精度有天花板，企业级市场需要更深度的合规能力，给 7 分。",
+        "competitors": [
+          {
+            "name": "Private AI",
+            "url": "https://private-ai.com",
+            "comparison": "企业级 AI 数据脱敏方案，支持更多集成方式，但价格较高且需要云端处理"
+          },
+          {
+            "name": "Nightfall AI",
+            "url": "https://www.nightfall.ai",
+            "comparison": "云原生 DLP 方案，覆盖 SaaS 应用的数据保护，而非桌面端剪贴板防护"
+          },
+          {
+            "name": "Kagi Search",
+            "url": "https://kagi.com",
+            "comparison": "主打隐私搜索，方向不同，但同属「AI 时代隐私保护」大品类"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "lastFeaturedDate": "2026-09-12",
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "github.com/spyhack225/nextnotes",
+      "name": "Next Notes - 本地语音听写与会议笔记",
+      "slug": "next-notes",
+      "description": "Next Notes 是一款完全本地运行的 macOS 听写和会议笔记应用，支持全局快捷键唤起的即按即说听写，自动清理文本结构。还能自动录制日历会议，区分说话人，用本地 LLM 生成笔记摘要和待办事项，数据永不离开你的 Mac。",
+      "url": "https://github.com/spyhack225/next-notes",
+      "homepage": "https://github.com/spyhack225/next-notes",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/github.com_spyhack225_nextnotes_20260912_120914.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "语音听写",
+        "会议纪要",
+        "本地优先",
+        "macOS",
+        "开源"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49663408",
+      "firstSeen": "2026-09-12T04:08:40.405721+00:00",
+      "lastUpdated": "2026-09-12T04:08:40.405721+00:00",
+      "cooldownExpiresAt": "2026-09-26T04:09:22.474811+00:00",
+      "analysis": {
+        "targetAudience": "重视隐私的 macOS 用户、远程办公者、频繁开会的职场人士、学生和研究者",
+        "useCases": [
+          "全局快捷键快速语音输入，在任何应用中直接写入文字",
+          "自动录制日历会议，生成带说话人区分的会议纪要",
+          "用本地 LLM 自动提取会议待办事项和关键决策",
+          "采访、讲座等场景的录音转写和结构化笔记",
+          "隐私敏感行业用户的本地笔记和听写解决方案"
+        ],
+        "designIntent": "在 AI 会议工具纷纷上云的趋势下，提供一个完全本地运行、数据永不离开设备的替代方案，让用户在享受 AI 便利的同时不牺牲隐私。",
+        "problemSolved": "主流的 AI 会议笔记工具（如 Otter、Fireflies）都需要把录音上传到云端，对于注重隐私的用户和行业来说是个硬伤。Next Notes 把转录、说话人分离、摘要生成全部放在本地完成，解决了「想用 AI 又怕数据泄露」的矛盾。",
+        "tags": [
+          "语音听写",
+          "会议纪要",
+          "本地优先",
+          "macOS",
+          "开源"
+        ],
+        "score": 7,
+        "scoreReason": "本地优先 + 开源的定位很有吸引力，功能覆盖了听写和会议笔记两大高频场景，自动录制日历会议的设计也很贴心。但作为开源项目，产品成熟度和商业可持续性还有待观察，给 7 分。",
+        "competitors": [
+          {
+            "name": "Wispr Flow",
+            "url": "https://www.wispr.ai",
+            "comparison": "商业产品，体验更流畅，主打语音输入，但功能相对聚焦、非开源、需联网"
+          },
+          {
+            "name": "Otter.ai",
+            "url": "https://otter.ai",
+            "comparison": "云端会议转写和协作工具，功能强大但数据全部上云，隐私敏感用户不适用"
+          },
+          {
+            "name": "MacWhisper",
+            "url": "https://goodsnooze.gumroad.com/l/macwhisper",
+            "comparison": "macOS 本地转录工具，免费开源，但会议场景功能（自动录制、待办提取）较弱"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "lastFeaturedDate": "2026-09-12",
+        "featuredInWeekly": false
+      }
     }
-  ],
-  "tracking": {
-    "dailyFeatured": [],
-    "weeklyDeepDive": [],
-    "lastDailyUpdate": "2026-08-27T04:11:02.657525+00:00",
-    "lastDaily": "2026-08-27"
-  },
-  "totalCount": 509
+  ]
 }
