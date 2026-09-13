@@ -34125,6 +34125,355 @@
         "lastFeaturedDate": "2026-09-12",
         "featuredInWeekly": false
       }
+    },
+    {
+      "id": "producthunt.com/r/p/1247030",
+      "name": "ABrush",
+      "slug": "abrush",
+      "description": "ABrush 是一款集成在 Adobe Photoshop 中的 AI 艺术创作工作室，为数字艺术家提供 19+ 顶级模型、ControlNet、IP-Adapter、LoRA 风格等专业功能，让创作者无需离开熟悉的工作环境即可完成图像生成、精修和迭代。",
+      "url": "https://abrush.ai",
+      "homepage": "https://abrush.ai",
+      "type": "saas",
+      "tags": [
+        "AI 绘画",
+        "创意设计",
+        "Photoshop 插件",
+        "数字艺术"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1247030",
+      "firstSeen": "2026-09-13T04:06:28.473514+00:00",
+      "analysis": {
+        "targetAudience": "数字插画师、概念艺术家、游戏美术师及商业修图师等专业创意工作者。",
+        "useCases": [
+          "在 Photoshop 内直接生成多种风格的概念图和插画初稿",
+          "使用 ControlNet 精确控制构图和人物姿态进行 AI 辅助创作",
+          "通过局部重绘和风格迁移快速迭代设计方案",
+          "批量生成视觉素材变体用于广告和营销内容生产",
+          "配合 LoRA 模型训练个人风格并应用于商业项目"
+        ],
+        "designIntent": "ABrush 的设计初衷是让 AI 创作工具深度融入专业艺术家的现有工作流，而非提供一个独立的黑盒生成器。它将多种主流 AI 模型和控制方式以非破坏性图层的方式集成进 Photoshop，让艺术家保持创作控制权的同时大幅提升效率。",
+        "problemSolved": "解决了专业艺术家使用 AI 工具时反复在浏览器和设计软件之间切换、格式丢失、无法精确控制的痛点。相比 Midjourney 等纯文生图工具，ABrush 提供了图层级别的精细控制，使 AI 真正成为创作的协作伙伴而非替代品。",
+        "tags": [
+          "AI 绘画",
+          "创意设计",
+          "Photoshop 插件",
+          "数字艺术"
+        ],
+        "score": 8,
+        "scoreReason": "深度集成专业工作流是其核心差异化优势，面向的是有付费意愿的创作者群体，商业模型清晰。但作为插件依赖 Photoshop 生态，且面临 Adobe 自家 Firefly 的直接竞争。",
+        "competitors": [
+          {
+            "name": "Adobe Firefly",
+            "url": "https://firefly.adobe.com",
+            "comparison": "Adobe 官方 AI 工具，深度原生集成但模型选择单一；ABrush 支持更多第三方模型和更灵活的控制。"
+          },
+          {
+            "name": "Midjourney",
+            "url": "https://www.midjourney.com",
+            "comparison": "独立文生图平台，出图质量高但缺乏精细编辑能力；ABrush 胜在可在 Photoshop 内无损编辑和迭代。"
+          },
+          {
+            "name": "Krea",
+            "url": "https://www.krea.ai",
+            "comparison": "独立 AI 图像创作平台，有实时生成和风格参考功能；ABrush 优势在于与 Photoshop 工作流无缝衔接。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-09-27T04:08:09.995231+00:00",
+      "lastUpdated": "2026-09-13T04:08:09.995231+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "lastFeaturedDate": "2026-09-13"
+      },
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1247030_20260913_120658.png",
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null
+    },
+    {
+      "id": "producthunt.com/r/p/1241489",
+      "name": "Work Life Panda",
+      "slug": "work-life-panda",
+      "description": "Work Life Panda 是一款任务与日历一体化的效率应用，支持 Google/Apple/Outlook 日历双向同步，搭载在设备端运行的 AI（Panda AI），可用自然语言或语音快速创建任务，所有数据本地处理不上传云端，保护隐私。",
+      "url": "https://worklifepanda.com",
+      "homepage": "https://worklifepanda.com",
+      "type": "app",
+      "tags": [
+        "效率工具",
+        "任务管理",
+        "端侧 AI",
+        "隐私保护"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1241489",
+      "firstSeen": "2026-09-13T04:06:28.473514+00:00",
+      "analysis": {
+        "targetAudience": "注重隐私的个人用户、自由职业者、小团队协作以及需要统一管理日程和待办的职场人士。",
+        "useCases": [
+          "用一句话或语音快速记录待办事项，AI 自动解析时间和分类",
+          "在一个应用内统一查看 Google、Apple、Outlook 多个日历的安排",
+          "邮件中的会议邀请自动同步到日历，无需手动转发或复制",
+          "离线状态下依然可以查看和管理所有任务与日程",
+          "家庭或小团队共享任务清单，协同安排生活和工作事项"
+        ],
+        "designIntent": "Work Life Panda 的设计初衷是打造一个「从你已有的生活开始」的效率工具——不需要重新搭建任务体系，连接现有日历后立刻可用。端侧 AI 让自然语言输入既快又隐私，打破了传统 GTD 工具的学习门槛。",
+        "problemSolved": "解决了传统任务管理App（如 Todoist、Things）需要手动逐条输入、学习成本高的问题，也解决了纯日历应用不擅长任务管理的不足。端侧 AI 在保证隐私的前提下提供自然语言输入体验，是区别于 Notion Calendar 等竞品的核心卖点。",
+        "tags": [
+          "效率工具",
+          "任务管理",
+          "端侧 AI",
+          "隐私保护"
+        ],
+        "score": 7,
+        "scoreReason": "端侧 AI + 多日历双向同步的组合有明确差异化，隐私诉求日益增长的环境下有市场空间。但效率工具赛道竞争激烈，Notion、Todoist 等巨头也在集成 AI，突围难度不小。",
+        "competitors": [
+          {
+            "name": "Notion Calendar",
+            "url": "https://www.notion.so/product/calendar",
+            "comparison": "Notion 生态的日历工具，与 Notion 深度集成但 AI 能力和端侧隐私不是重点。"
+          },
+          {
+            "name": "Todoist",
+            "url": "https://todoist.com",
+            "comparison": "老牌任务管理工具，功能成熟但 AI 辅助较弱，日历集成也不如 Panda 深入。"
+          },
+          {
+            "name": "Apple Reminders + Calendar",
+            "url": "https://www.apple.com/ios/reminders",
+            "comparison": "系统原生免费工具，Siri 有一定自然语言能力但智能化程度和跨平台体验有限。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-09-27T04:08:09.995231+00:00",
+      "lastUpdated": "2026-09-13T04:08:09.995231+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "lastFeaturedDate": "2026-09-13"
+      },
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1241489_20260913_120707.png",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a6/1a/cb/a61acb25-1ed4-3233-97e3-b6bdfe857a6d/iphone_1.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bb/26/57/bb26573d-b4da-38b7-32da-6db921db298c/iphone_2.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/41/cc/f6/41ccf6e9-2127-4c25-1f1b-29f7923c0256/iphone_3.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/02/ba/2b/02ba2b41-ac5d-55cc-ac75-14c023812bd7/iphone_4.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/14/b7/d5/14b7d51c-0a2e-580c-a607-66f285fd8b03/iphone_5.png/320x480bb.jpg"
+      ],
+      "appStoreName": "Work Life Panda Tasks Calendar",
+      "appStoreUrl": "https://apps.apple.com/us/app/work-life-panda-tasks-calendar/id6748566830?uo=4"
+    },
+    {
+      "id": "producthunt.com/r/p/1246159",
+      "name": "AirPods 5",
+      "slug": "airpods-5",
+      "description": "苹果推出的第五代 AirPods，开放式设计搭载行业领先的主动降噪（ANC 效果比 AirPods 4 ANC 提升 50%），集成 Siri AI 支持基于个人上下文的免提问答，新增实时翻译功能可跨语言对话，售价 129 美元起。",
+      "url": "https://www.apple.com/airpods/",
+      "homepage": "https://www.apple.com/airpods/",
+      "type": "app",
+      "tags": [
+        "智能硬件",
+        "实时翻译",
+        "语音助手",
+        "可穿戴设备"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1246159",
+      "firstSeen": "2026-09-13T04:06:28.473514+00:00",
+      "analysis": {
+        "targetAudience": "iPhone 用户、频繁需要跨语言交流的商务人士和旅行者、以及追求便捷语音交互的普通消费者。",
+        "useCases": [
+          "出国旅行或与外籍人士交流时，使用实时翻译功能进行双语对话",
+          "通过免提 Siri AI 查询日程、发送消息、控制智能家居设备",
+          "日常通勤和办公时使用主动降噪隔绝环境噪音专注工作",
+          "点头摇头手势快速回复 Siri 提问，双手忙碌时也能操作",
+          "听写消息和笔记，语音转文字精度大幅提升"
+        ],
+        "designIntent": "AirPods 5 的设计初衷是将 Apple Intelligence 从手机延伸到可穿戴设备，让耳机成为用户随时可用的 AI 入口。开放式形态 + 主动降噪的组合让用户既能感知环境，又能在需要时专注，而实时翻译则让 AI 能力直接服务于真实世界的人际沟通。",
+        "problemSolved": "解决了传统耳机只能听音、翻译耳机需要专用设备、语音助手需要操作手机的多重痛点。将降噪、Siri AI、实时翻译整合到一副日常佩戴的耳机中，大幅降低了使用 AI 功能的门槛。",
+        "tags": [
+          "智能硬件",
+          "实时翻译",
+          "语音助手",
+          "可穿戴设备"
+        ],
+        "score": 8,
+        "scoreReason": "苹果生态加持下销量有保障，实时翻译是杀手级功能，对普通用户认知 AI 可穿戴有示范效应。但核心 AI 功能依赖 iPhone 15 Pro 及以上机型和 iOS 27，且中国大陆暂不支持 Apple Intelligence，市场有限。",
+        "competitors": [
+          {
+            "name": "Timekettle 翻译耳机",
+            "url": "https://timekettle.co",
+            "comparison": "专注翻译的专用耳机，支持更多语言和离线翻译，但缺少降噪和智能助手功能。"
+          },
+          {
+            "name": "Pixel Buds Pro 3",
+            "url": "https://store.google.com/product/pixel_buds_pro_3",
+            "comparison": "谷歌旗舰耳机，有 Gemini AI 集成和翻译功能，是 Android 阵营的直接竞品。"
+          },
+          {
+            "name": "AirPods Pro 3",
+            "url": "https://www.apple.com/airpods-pro",
+            "comparison": "苹果高端入耳式降噪耳机，降噪效果更好但价格更高，开放式佩戴体验是 AirPods 5 的差异化。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-09-27T04:08:09.995231+00:00",
+      "lastUpdated": "2026-09-13T04:08:09.995231+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "lastFeaturedDate": "2026-09-13"
+      },
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1246159_20260913_120714.png",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/49/e0/19/49e019b1-95b3-5981-00d8-ae0f5376ed41/1-Personalization-6_5-English_U0028US_U0029.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/64/b3/24/64b324dd-da3b-99f1-c211-402a4bfbd45a/2-Browse_U0026Save-6_5-English_U0028US_U0029.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0d/4d/ac/0d4daca6-6a5c-8e03-decc-0e105e16a5f9/0-Gifting-6_5-English_U0028US_U0029.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/67/16/d1/6716d17e-f263-b975-3898-b8e7d8df9fc6/3-Go_Further-6_5-English_U0028US_U0029.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/37/d7/dd/37d7ddba-4510-e2be-5f3d-06f2d35ec59a/4-In_Store_Mode-6_5-English_U0028AU_U002c_CA_U002c_UK_U002c_US_U0029.png/320x480bb.jpg"
+      ],
+      "appStoreName": "Apple Store",
+      "appStoreUrl": "https://apps.apple.com/us/app/apple-store/id375380948?uo=4"
+    },
+    {
+      "id": "producthunt.com/r/p/1246922",
+      "name": "sizeless",
+      "slug": "sizeless",
+      "description": "sizeless 是一个空间 AI 数字孪生平台，用普通手机拍摄的视频即可生成厘米级精度的 3D 点云、2D 平面图和 BIM 模型，服务于建筑施工、设施管理、能源改造等场景，替代传统人工测量方式，数小时即可完成过去数周的工作量。",
+      "url": "https://sizeless.co",
+      "homepage": "https://sizeless.co",
+      "type": "saas",
+      "tags": [
+        "数字孪生",
+        "建筑科技",
+        "空间 AI",
+        "3D 扫描"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1246922",
+      "firstSeen": "2026-09-13T04:06:28.473514+00:00",
+      "analysis": {
+        "targetAudience": "建筑施工企业、设施管理公司、能源咨询机构、房地产资产管理者以及室内设计和装修从业者。",
+        "useCases": [
+          "施工现场用手机拍摄明挖管道，自动生成竣工图纸和 CAD 文件",
+          "对建筑物内部进行快速扫描，生成 BIM 模型用于翻新和改造规划",
+          "设施管理人员定期扫描机房和管井，建立可追溯的数字资产档案",
+          "能源咨询师扫描整栋建筑，自动计算面积和材料用量用于节能评估",
+          "室内设计师现场量房后直接生成平面图，对接设计软件"
+        ],
+        "designIntent": "sizeless 的设计初衷是让高精度 3D 测量普及化——不再需要激光扫描仪、无人机等昂贵专业设备，一部 iPhone 就能完成从数据采集到数字孪生建模的全过程。AI 算法将视觉信息转化为结构化空间数据，让建筑行业从人工测量进入 AI 驱动的数字化时代。",
+        "problemSolved": "解决了传统建筑测量依赖专业设备和人工、周期长、成本高、误差大的问题。相比 Matterport 等需要专用 360° 相机的方案，sizeless 只用手机就能达到厘米级精度，大幅降低了数字孪生的使用门槛。",
+        "tags": [
+          "数字孪生",
+          "建筑科技",
+          "空间 AI",
+          "3D 扫描"
+        ],
+        "score": 7,
+        "scoreReason": "YC S23 背景，建筑数字化赛道有真实刚需和付费能力，手机端扫描的低成本方案差异化明显。但建筑行业数字化转型偏慢，销售周期长，且面临传统测量设备厂商的渠道竞争。",
+        "competitors": [
+          {
+            "name": "Matterport",
+            "url": "https://matterport.com",
+            "comparison": "老牌 3D 空间扫描平台，需要专用相机，生态成熟但硬件成本高、精度有限。"
+          },
+          {
+            "name": "Canvas",
+            "url": "https://canvas.io",
+            "comparison": "iPad + LiDAR 的室内扫描方案，精度高但仅限室内且需要特定设备。"
+          },
+          {
+            "name": "DroneDeploy",
+            "url": "https://www.dronedeploy.com",
+            "comparison": "无人机测绘平台，擅长户外大范围测绘，但无法处理室内和地下场景。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-09-27T04:08:09.995231+00:00",
+      "lastUpdated": "2026-09-13T04:08:09.995231+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "lastFeaturedDate": "2026-09-13"
+      },
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1246922_20260913_120722.png",
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null
+    },
+    {
+      "id": "x.com/denziideng/status/2098723614715711501",
+      "name": "VMark",
+      "slug": "vmark",
+      "description": "VMark 是李笑来开源的 AI 原生 Markdown 编辑器，采用本地优先架构，支持 MCP 协议与 Claude Desktop、Codex 等 AI 工具直接读写文件，提供 WYSIWYG/源码/对比三种编辑模式，还能智能渲染 JSON/YAML/Mermaid/SVG 等多种格式文件。",
+      "url": "https://vmark.app",
+      "homepage": "https://vmark.app",
+      "type": "website",
+      "tags": [
+        "Markdown 编辑器",
+        "AI 写作",
+        "开源软件",
+        "本地优先"
+      ],
+      "sourceChannels": [
+        "twitter"
+      ],
+      "sourceUrl": "https://x.com/denziideng/status/2098723614715711501",
+      "firstSeen": "2026-09-13T04:06:28.473514+00:00",
+      "analysis": {
+        "targetAudience": "写作者、内容创作者、程序员、知识管理爱好者以及注重数据隐私和本地存储的用户。",
+        "useCases": [
+          "用 AI 辅助撰写文章、笔记和文档，AI 直接读写本地文件无需复制粘贴",
+          "在三种模式（所见即所得/源码预览/纯源码）间切换，兼顾阅读体验和编辑效率",
+          "查看和编辑 Mermaid 图表、SVG 图像、JSON/YAML 配置文件",
+          "通过 MCP 让 Claude/Codex 等 AI 助手直接操作你的 Markdown 文件",
+          "完全本地运行，不注册不上传，适合处理隐私敏感的个人笔记和文档"
+        ],
+        "designIntent": "VMark 的设计初衷是打造一个「人类和 AI 协作的纯文本工作空间」——人和 AI 读写同一份文件，中间没有翻译层。它不是又一个 AI 写作 SaaS，而是一个本地优先、多格式兼容的编辑器，让 AI 成为真正的协作伙伴。",
+        "problemSolved": "解决了用 AI 写作时来回复制粘贴、格式错乱、文件管理混乱的痛点。相比 Obsidian + AI 插件的组合，VMark 原生支持 MCP，AI 可以直接操作文件结构，协作体验更流畅。对中日韩文的优化也填补了不少英文编辑器的空白。",
+        "tags": [
+          "Markdown 编辑器",
+          "AI 写作",
+          "开源软件",
+          "本地优先"
+        ],
+        "score": 7,
+        "scoreReason": "李笑来个人品牌带来的关注度高，AI 原生 + 本地优先的理念契合当下趋势，开源免费模式容易积累用户。但编辑器赛道竞争激烈（Obsidian、Typora、Logseq 等），纯开源项目的可持续性是个问号。",
+        "competitors": [
+          {
+            "name": "Obsidian",
+            "url": "https://obsidian.md",
+            "comparison": "最流行的本地优先知识库，插件生态极其丰富，AI 能力需通过插件实现。"
+          },
+          {
+            "name": "Typora",
+            "url": "https://typora.io",
+            "comparison": "经典 WYSIWYG Markdown 编辑器，体验流畅但 AI 功能较弱且为闭源付费。"
+          },
+          {
+            "name": "Notion",
+            "url": "https://www.notion.so",
+            "comparison": "全能型知识管理和协作平台，有 AI 功能但纯云端、不是 Markdown 原生。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-09-27T04:08:09.995231+00:00",
+      "lastUpdated": "2026-09-13T04:08:09.995231+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "lastFeaturedDate": "2026-09-13"
+      },
+      "screenshotUrl": "assets/screenshots/x.com_denziideng_status_2098723614715711501_20260913_120729.png",
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null
     }
-  ]
+  ],
+  "lastUpdated": "2026-09-13T04:08:09.995231+00:00",
+  "totalProducts": 549
 }
