@@ -1,0 +1,322 @@
+{
+  "date": "2026-09-14",
+  "generatedAt": "2026-09-14T04:08:54.732365+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "v2ex.com/t/1241746",
+      "name": "豆包输入法",
+      "slug": "doubao-input-method",
+      "description": "字节跳动旗下豆包大模型驱动的 AI 智能输入法，支持语音输入、智能联想、AI 纠错，Windows 正式版刚发布。",
+      "url": "https://shurufa.doubao.com/",
+      "homepage": "https://shurufa.doubao.com/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/v2ex.com_t_1241746_20260914_120545.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "输入法",
+        "语音输入",
+        "AI助手",
+        "效率工具",
+        "字节跳动"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "sourceUrl": "https://www.v2ex.com/t/1241746",
+      "firstSeen": "2026-09-14T04:08:54.732365+00:00",
+      "analysis": {
+        "targetAudience": "需要高效输入的中文用户，尤其是远程办公人群、内容创作者和学生群体",
+        "useCases": [
+          "居家办公时用语音快速输入长文档和邮件",
+          "会议中用语音实时记录讨论内容",
+          "走路或做家务时用语音回复消息和笔记",
+          "打字不便时用语音撰写微信、钉钉等即时通讯消息",
+          "用智能联想和纠错提升日常打字效率"
+        ],
+        "designIntent": "将豆包大模型的语音识别和语言理解能力下沉到输入法层面，让 AI 辅助输入成为系统级基础设施。通过语音优先的交互方式，降低用户的打字负担，同时保持纯净无广告的体验。",
+        "problemSolved": "解决了传统输入法打字效率低、语音输入准确率差的痛点。传统语音输入需要跳转 App、标点不准确、方言识别差，豆包输入法将语音输入直接集成在系统键盘中，支持多方言和中英混输，大幅提升输入效率。",
+        "tags": [
+          "输入法",
+          "语音输入",
+          "AI助手",
+          "效率工具",
+          "字节跳动"
+        ],
+        "score": 8,
+        "scoreReason": "作为字节跳动旗下的 AI 输入法，背靠豆包大模型语音能力，产品体验扎实、用户基数大且增长快。Windows 正式版刚发布，覆盖更多平台。但输入法赛道竞争激烈（讯飞、搜狗等），差异化主要在 AI 语音质量，给 8 分。",
+        "competitors": [
+          {
+            "name": "讯飞输入法",
+            "url": "https://srf.xunfei.cn/",
+            "comparison": "讯飞输入法是老牌语音输入法，语音识别技术深厚，支持更多方言和小语种，但广告较多、AI 大模型能力不如豆包新"
+          },
+          {
+            "name": "微信输入法",
+            "url": "https://z.weixin.qq.com/",
+            "comparison": "微信输入法主打隐私和微信生态打通，语音输入也不错，但 AI 联想和大模型能力相对弱一些"
+          },
+          {
+            "name": "搜狗输入法",
+            "url": "https://pinyin.sogou.com/",
+            "comparison": "搜狗输入法用户量最大、词库最全，但广告弹窗多、体验臃肿，AI 能力更新慢，已被字节超越"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1246350",
+      "name": "Visiby",
+      "slug": "visiby",
+      "description": "AI 搜索可见度平台，追踪品牌在 ChatGPT、Claude、Perplexity、Gemini、Google AI Overviews 中的引用份额与竞争情况。",
+      "url": "https://visiby.net/",
+      "homepage": "https://visiby.net/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1246350_20260914_120555.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI营销",
+        "GEO优化",
+        "SEO工具",
+        "品牌可见度",
+        "SaaS"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1246350?app_id=339",
+      "firstSeen": "2026-09-14T04:08:54.732365+00:00",
+      "analysis": {
+        "targetAudience": "B2B/SaaS 公司的市场营销团队、SEO 从业者、内容运营人员，以及关注 AI 搜索可见度的品牌方",
+        "useCases": [
+          "监控品牌在 ChatGPT、Claude、Perplexity 等 AI 引擎中的被引用情况",
+          "追踪竞争对手在 AI 搜索答案中的出现频率和排名",
+          "分析哪些页面和内容被 AI 引擎引用最多，优化内容策略",
+          "每周获取 AI 可见度行动建议，提升 GEO/AEO 排名",
+          "审计网站对 GPTBot、PerplexityBot 等 AI 爬虫的可达性"
+        ],
+        "designIntent": "在 AI 搜索时代替代传统 SEO 排名追踪工具。当用户越来越依赖 ChatGPT、Perplexity 等 AI 引擎获取答案时，品牌需要知道自己是否被 AI 推荐、为什么被推荐或被跳过。Visiby 通过大规模采样真实 prompt 和模型回答，提供 AI 时代的可见度情报。",
+        "problemSolved": "解决了传统 SEO 工具无法衡量 AI 搜索可见度的问题。Semrush、Ahrefs 只能追踪关键词排名，无法知道 ChatGPT 推荐了谁、为什么推荐。Visiby 直接采样 prompt、解析模型回答、测量引用份额，让营销团队在 AI 搜索时代有数据可依。",
+        "tags": [
+          "AI营销",
+          "GEO优化",
+          "SEO工具",
+          "品牌可见度",
+          "SaaS"
+        ],
+        "score": 8,
+        "scoreReason": "精准切入 AI 搜索时代的新赛道——GEO/AI 可见度，这是传统 SEO 工具的空白地带。产品功能完整（5 大引擎、5 万+ prompt 追踪、竞品分析、行动建议），目标客户清晰（B2B 营销团队）。但赛道新、市场教育成本高，给 8 分。",
+        "competitors": [
+          {
+            "name": "Originality.ai AI Search Tracker",
+            "url": "https://originality.ai/",
+            "comparison": "主打 AI 内容检测起家，AI 搜索追踪是附加功能，深度和广度不如 Visiby 专注"
+          },
+          {
+            "name": "Surfer SEO",
+            "url": "https://surferseo.com/",
+            "comparison": "传统 SEO 内容优化工具，近年开始加入 AI 可见度功能，但核心仍是关键词排名，不是原生 AI 搜索追踪"
+          },
+          {
+            "name": "Jasper AI",
+            "url": "https://www.jasper.ai/",
+            "comparison": "AI 内容生成平台，有部分 SEO 优化功能，但不做 AI 搜索可见度追踪和引用分析"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1246401",
+      "name": "Neopress",
+      "slug": "neopress",
+      "description": "AI 驱动的网站搭建与增长平台，通过对话式界面建站，内置 CMS、SEO/GEO 优化和服务端渲染，专为 AI 搜索时代设计。",
+      "url": "https://neopress.ai/",
+      "homepage": "https://neopress.ai/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1246401_20260914_120602.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI建站",
+        "SEO优化",
+        "GEO",
+        "内容管理",
+        "SaaS"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1246401?app_id=339",
+      "firstSeen": "2026-09-14T04:08:54.732365+00:00",
+      "analysis": {
+        "targetAudience": "中小企业主、独立开发者、内容创作者和营销人员，想要快速搭建高 SEO 价值的网站但缺乏技术资源",
+        "useCases": [
+          "通过对话快速搭建企业官网或产品落地页",
+          "用 AI 批量生成 SEO 优化的博客文章和内容",
+          "让 AI 分析网站流量数据，自动提出优化建议并执行",
+          "管理多语言、多地区的 GEO 优化内容",
+          "无需设计师和开发者，快速迭代网站设计和内容"
+        ],
+        "designIntent": "将网站搭建、内容管理、SEO 优化和数据分析整合成一个 AI 驱动的闭环。不同于传统建站工具只解决「建出来」的问题，Neopress 关注「建出来之后怎么增长」——通过 SSR 确保 AI 爬虫可读、内置 CMS 管理结构化内容、AI 分析流量并自动优化。",
+        "problemSolved": "解决了传统建站工具建好网站后流量增长难的痛点。Wix、Squarespace 让你建站容易，但 SEO 和增长还是要自己搞。Neopress 从建站到内容到 SEO 到分析全流程 AI 化，特别针对 AI 搜索时代做了 SSR 和 GEO 优化。",
+        "tags": [
+          "AI建站",
+          "SEO优化",
+          "GEO",
+          "内容管理",
+          "SaaS"
+        ],
+        "score": 7,
+        "scoreReason": "AI 建站赛道已有不少玩家（Framer、Webflow AI、10Web 等），Neopress 的差异化在于 GEO/AI 搜索优化导向和完整的 CMS+分析闭环。但赛道竞争激烈，需要证明其 SEO/GEO 效果确实优于竞品。给 7 分。",
+        "competitors": [
+          {
+            "name": "Framer",
+            "url": "https://www.framer.com/",
+            "comparison": "设计导向的 AI 建站工具，视觉效果出色，有 AI 生成功能，但 SEO 和内容管理不是重点，GEO 优化更弱"
+          },
+          {
+            "name": "Webflow",
+            "url": "https://webflow.com/",
+            "comparison": "功能强大的可视化建站平台，有 CMS 和 SEO 功能，但学习曲线陡，AI 能力较浅，不是对话式建站"
+          },
+          {
+            "name": "10Web",
+            "url": "https://10web.io/",
+            "comparison": "AI 建站 + WordPress 托管，主打一键生成网站和 SEO 优化，但基于 WordPress 生态，灵活性和 GEO 优化不如 Neopress 原生"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1246919",
+      "name": "Epilude Notetaker",
+      "slug": "epilude-notetaker",
+      "description": "Mac 端隐私优先的会议记录工具，本地录音无需 bot 入会，自动生成摘要、待办事项和负责人，支持本地转录模式。",
+      "url": "https://www.epilude.com/features/notetaker",
+      "homepage": "https://www.epilude.com/features/notetaker",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1246919_20260914_120612.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "会议记录",
+        "隐私优先",
+        "Mac应用",
+        "AI转录",
+        "效率工具"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1246919?app_id=339",
+      "firstSeen": "2026-09-14T04:08:54.732365+00:00",
+      "analysis": {
+        "targetAudience": "注重隐私的 Mac 用户、远程办公人员、创业者和自由职业者，经常参加 Zoom/Teams/Meet 会议但不想用会议 bot",
+        "useCases": [
+          "Zoom/Google Meet/Teams 会议自动录音转文字并生成摘要",
+          "从会议中提取待办事项、负责人和截止日期",
+          "用本地模式转录敏感会议，音频完全不离开电脑",
+          "用 Markdown 格式保存会议笔记，方便导入 Obsidian/Notion",
+          "口述想法和笔记，AI 自动整理成结构化文字"
+        ],
+        "designIntent": "以隐私为核心重新定义会议记录工具。不同于 Otter.ai、Fireflies 等需要 bot 入会的云端服务，Epilude 在 Mac 本地录音和转录，会议中没有第三方 bot 打扰参与者，敏感内容也不会上传云端。Local Mode 让音频完全不出设备。",
+        "problemSolved": "解决了传统会议记录工具的两大痛点：一是会议 bot 入会让参会者感到被监视、说话不自然；二是企业敏感会议内容上传到第三方云端有隐私风险。Epilude 本地录音 + 可选本地转录，兼顾效率和隐私。",
+        "tags": [
+          "会议记录",
+          "隐私优先",
+          "Mac应用",
+          "AI转录",
+          "效率工具"
+        ],
+        "score": 7,
+        "scoreReason": "隐私优先的定位很有差异化，Mac 本地录音的体验比会议 bot 更自然，Local Mode 对安全敏感用户很有吸引力。但赛道已有 Otter.ai、Fireflies、Notta 等强者，且仅支持 Mac 平台限制了用户规模。给 7 分。",
+        "competitors": [
+          {
+            "name": "Otter.ai",
+            "url": "https://otter.ai/",
+            "comparison": "最知名的会议记录工具，功能全面、准确率高，但需要 bot 入会或安装浏览器插件，云端处理隐私性差"
+          },
+          {
+            "name": "Fireflies.ai",
+            "url": "https://fireflies.ai/",
+            "comparison": "功能丰富的会议 AI 助手，支持多平台集成和对话分析，同样是 bot 入会 + 云端处理模式"
+          },
+          {
+            "name": "MacWhisper",
+            "url": "https://goodsnooze.gumroad.com/l/macwhisper",
+            "comparison": "Mac 端本地 Whisper 转录工具，纯转录功能，不专门针对会议场景，没有摘要和待办提取"
+          }
+        ]
+      }
+    },
+    {
+      "id": "reddit.com/r/sideproject/comments/1wfse8z/homeinventoryappthatnamesitemsasyousho",
+      "name": "Store & Forget",
+      "slug": "store-and-forget",
+      "description": "AI 驱动的家居物品收纳管理应用，拍照自动识别物品名称和规格，自然语言搜索物品位置，本地存储保护隐私。",
+      "url": "https://play.google.com/store/apps/details?id=dev.koalalab.storeandforget",
+      "homepage": "https://play.google.com/store/apps/details?id=dev.koalalab.storeandforget",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/reddit.com_r_sideproject_comments_1wfse8z_homeinventoryappthatnamesitemsasyousho_20260914_120620.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "家居收纳",
+        "AI视觉",
+        "效率工具",
+        "Android应用",
+        "本地优先"
+      ],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "sourceUrl": "https://www.reddit.com/r/SideProject/comments/1wfse8z/home_inventory_app_that_names_items_as_you_shoot",
+      "firstSeen": "2026-09-14T04:08:54.732365+00:00",
+      "analysis": {
+        "targetAudience": "家庭收纳爱好者、租房搬家频繁的年轻人、工具/收藏爱好者，以及经常找不到东西的健忘人群",
+        "useCases": [
+          "搬家打包时给每个箱子拍照，自动记录箱内物品",
+          "换季收纳衣物时拍照存档，来年快速找到想要的衣服",
+          "车库/储物间工具收纳，用自然语言搜索工具位置",
+          "收藏爱好者（手办、邮票、电子产品）快速编目",
+          "出差旅行时记录行李箱物品，避免遗漏"
+        ],
+        "designIntent": "用 AI 视觉识别消除家庭收纳的手动录入负担。传统家居清单 App 需要用户手动输入每个物品的名称、分类、位置，门槛高、坚持不下来。Store & Forget 让用户只要拍照，AI 自动识别物品名称、品牌、规格，搜索时用自然语言就能找到。",
+        "problemSolved": "解决了家庭物品收纳「记不住、找不到」的痛点。传统清单 App 录入成本太高，用户用几次就放弃了。Store & Forget 通过 AI 拍照识别大幅降低录入门槛，同时自然语言搜索让查找更方便，本地存储也保护了隐私。",
+        "tags": [
+          "家居收纳",
+          "AI视觉",
+          "效率工具",
+          "Android应用",
+          "本地优先"
+        ],
+        "score": 6,
+        "scoreReason": "切入点很接地气，AI 视觉识别家居物品是真实的效率提升，本地优先的隐私定位也不错。但 solo developer 作品、只有 Android 版本、商业模式不清晰，且类似产品（SnapFind、Stuff）已有融资的玩家。给 6 分。",
+        "competitors": [
+          {
+            "name": "SnapFind",
+            "url": "https://snapfind.ai/",
+            "comparison": "功能更完整的 AI 家居收纳 App，支持 QR 码标签、多房间管理、iOS/Android 双平台，融资和团队规模更大"
+          },
+          {
+            "name": "Stuff",
+            "url": "https://www.stuff.inc/",
+            "comparison": "AI 驱动的家居保险清单 App，主打保险理赔场景，物品估值和保险集成是特色，比纯收纳工具商业价值更高"
+          },
+          {
+            "name": "Sortly",
+            "url": "https://www.sortly.com/",
+            "comparison": "老牌物品清单管理工具，手动录入为主，AI 功能弱，但企业和小商户用户多，功能更全面"
+          }
+        ]
+      }
+    }
+  ]
+}
