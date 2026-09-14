@@ -28153,7 +28153,8 @@
       "cooldownExpiresAt": "2026-09-09T04:12:00.606580+00:00",
       "metrics": {
         "featuredInDaily": 1,
-        "lastFeaturedDate": "2026-08-26"
+        "lastFeaturedDate": "2026-09-14",
+        "featuredInWeekly": true
       },
       "analysis": {
         "targetAudience": "需要同时管理工作与个人多账号浏览、又希望 AI 助手直接在浏览器里干活的 Mac 重度用户，尤其是 Arc 浏览器的迁移者。",
@@ -34794,6 +34795,6 @@
       }
     }
   ],
-  "lastUpdated": "2026-09-14T04:08:54.732365+00:00",
+  "lastUpdated": "2026-09-14T04:18:25.598849+00:00",
   "totalProducts": 554
 }
