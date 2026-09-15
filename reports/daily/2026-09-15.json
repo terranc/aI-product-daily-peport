@@ -1,0 +1,288 @@
+{
+  "date": "2026-09-15",
+  "generatedAt": "2026-09-15T04:07:26.717930+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "reddit.com/r/sideproject/comments/1wgoorl/smokefreeai",
+      "name": "SmokeFreeAI（AI戒烟教练）",
+      "slug": "smokefreeai",
+      "description": "一款以AI教练为核心的戒烟应用。核心功能是SOS按钮——烟瘾发作时一键呼叫AI教练，AI会根据你的个人戒烟理由、触发场景和过往记录进行即时对话疏导，替代传统的纯数据追踪模式。",
+      "url": "https://www.smokefreeapp.com/",
+      "homepage": "https://www.smokefreeapp.com/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/reddit.com_r_sideproject_comments_1wgoorl_smokefreeai_20260915_120727.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "健康",
+        "戒烟",
+        "AI教练",
+        "心理健康",
+        "生活方式"
+      ],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "sourceUrl": "https://www.reddit.com/r/SideProject/comments/1wgoorl/smokefreeai/",
+      "firstSeen": "2026-09-15T04:07:26.717930+00:00",
+      "analysis": {
+        "targetAudience": "想要戒烟但缺乏即时支持的吸烟者，尤其是在烟瘾来袭时需要情感疏导和行为干预的人群。",
+        "useCases": [
+          "烟瘾发作时一键呼叫AI教练进行即时对话疏导",
+          "记录每日戒烟进度、健康改善和节省金额",
+          "AI根据个人戒烟理由定制化鼓励与策略建议",
+          "分析吸烟触发场景，帮助用户识别和规避诱因",
+          "配合戒烟计划进行每日任务和进度追踪"
+        ],
+        "designIntent": "将AI对话能力融入戒烟这一高情绪、高意志力挑战的场景，用全天候可用的AI教练替代传统戒烟App仅靠数据追踪和图表激励的模式。核心假设是：烟瘾来袭的那一刻，有人说话比看数字更有效。",
+        "problemSolved": "传统戒烟App大多只做数据记录和进度展示，用户在烟瘾最强烈的关键时刻仍然无人倾诉、缺乏即时干预。SmokeFreeAI用AI教练在SOS时刻提供个性化对话支持，填补了戒烟过程中最脆弱的「即时情感缺口」。",
+        "score": 8,
+        "scoreReason": "把AI能力精准嵌入戒烟这个高刚需、高情感强度的垂直健康场景，SOS按钮的设计抓住了真实痛点。产品形态清晰、用户价值直接，且有科学验证的AI教练干预确实能提升戒烟成功率的研究支撑。扣分点在于市场上已有Smoke Free等成熟竞品，差异化需持续验证。",
+        "competitors": [
+          {
+            "name": "Smoke Free",
+            "url": "https://www.smokefreeapp.com/",
+            "comparison": "成熟的老牌戒烟App，有40+循证技术和AI Quit Coach Pro版，用户量大（400万+）；SmokeFreeAI作为新进入者更聚焦AI对话体验，但用户基数和临床验证较少。"
+          },
+          {
+            "name": "QuitSure",
+            "url": "https://quitsure.com/",
+            "comparison": "基于认知行为疗法的6天戒烟课程App，侧重心理建设而非即时对话；SmokeFreeAI的优势在于24/7随时可调用的个性化AI陪伴。"
+          },
+          {
+            "name": "Quit Genius",
+            "url": "https://www.quitgenius.com/",
+            "comparison": "B2B2C的数字健康戒烟方案，含真人教练，企业客户为主；SmokeFreeAI更轻量、C端直接可用，AI替代了部分真人教练成本。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "v2ex.com/t/1241843",
+      "name": "外语卡 AI 口语陪练",
+      "slug": "waiyuka-ai-conversation",
+      "description": "外语卡网站新增的AI口语陪练功能，主打「场景化真实对话」——不用先准备材料，直接选择职场、旅行、日常等真实场景，与AI用英语自然对话，聊完还能查看复盘报告。",
+      "url": "https://waiyuka.cc/zh-CN/conversation",
+      "homepage": "https://waiyuka.cc/zh-CN/conversation",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/v2ex.com_t_1241843_20260915_120738.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "英语学习",
+        "口语练习",
+        "AI对话",
+        "场景化学习",
+        "教育"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "sourceUrl": "https://www.v2ex.com/t/1241843",
+      "firstSeen": "2026-09-15T04:07:26.717930+00:00",
+      "analysis": {
+        "targetAudience": "有一定英语基础但开口困难的学习者，特别是需要在真实场景（职场、旅行、社交）中使用英语的成年人。",
+        "useCases": [
+          "模拟职场会议、面试等专业场景的英语对话练习",
+          "旅行前进行点餐、问路、酒店入住等场景预演",
+          "日常话题自由对话，保持英语口语语感",
+          "对话结束后查看复盘报告，了解语法错误和表达改进建议",
+          "结合单词学习，在对话中实际运用新学词汇"
+        ],
+        "designIntent": "解决「背了很多单词但说不出口」的哑巴英语痛点，把AI对话能力直接嵌入真实生活场景，让学习者在无压力环境中开口练习。设计理念是：学语言最好的方式就是用语言，而AI让「随时有人聊」成为可能。",
+        "problemSolved": "传统英语学习重输入轻输出，学习者缺少真实对话机会。找语伴难、找外教贵、害羞不敢开口都是障碍。AI口语陪练提供了零压力、全天候、个性化的对话练习环境，填补了口语输出练习的供给缺口。",
+        "score": 7,
+        "scoreReason": "场景化对话设计切中了「哑巴英语」的真实痛点，作为单词学习网站的新增功能有自然的用户转化路径。但口语AI赛道已有Speak、ELSA等大量竞品，差异化需要在中文本地化和价格上体现。",
+        "competitors": [
+          {
+            "name": "Speak",
+            "url": "https://www.speak.com/cn",
+            "comparison": "全球知名的AI口语学习App，有自研语音技术和系统课程体系，品牌认知度高；外语卡更侧重中文用户的本地化和单词+对话的联动学习。"
+          },
+          {
+            "name": "TalkAI练口语",
+            "url": "https://ttalkai.com/",
+            "comparison": "国内主流AI口语App，支持60+语言，有AI视频通话功能，用户基数大；外语卡的优势可能在于网页端即用、无需下载App。"
+          },
+          {
+            "name": "Sayoo",
+            "url": "https://sayoo.app/",
+            "comparison": "主打AI语音对话伙伴和情景实战演练，支持多语言；与外语卡类似但更完整独立，外语卡则是单词学习生态的延伸。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "v2ex.com/t/1242100",
+      "name": "Karmit（Reddit社区研究工具）",
+      "slug": "karmit-reddit-research",
+      "description": "帮助独立产品开发者和出海创业者研究Reddit社区的免费工具：社区地图按关键词发现精准小版块、规则阅读器自动总结各版规、帮助找到适合推广的版块并避免帖子被删。",
+      "url": "https://karmit.co/",
+      "homepage": "https://karmit.co/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/v2ex.com_t_1242100_20260915_120746.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "Reddit营销",
+        "社区研究",
+        "出海工具",
+        "独立开发",
+        "内容运营"
+      ],
+      "sourceChannels": [
+        "v2ex",
+        "hackernews"
+      ],
+      "sourceUrl": "https://www.v2ex.com/t/1242100",
+      "firstSeen": "2026-09-15T04:07:26.717930+00:00",
+      "analysis": {
+        "targetAudience": "独立开发者、出海创业者、内容营销人员，需要在Reddit上进行产品冷启动和社区推广的人。",
+        "useCases": [
+          "用关键词搜索发现与产品匹配的Reddit细分版块",
+          "自动读取并总结目标版块的版规，判断是否允许自我推广",
+          "在发帖前检查帖子内容是否违反目标版块规则",
+          "分析竞品在Reddit上的推广策略和热门版块分布",
+          "监控版块热度变化，找到最佳发帖时机"
+        ],
+        "designIntent": "Reddit是独立产品冷启动的重要渠道，但门槛不低——版块分散、规则各异、新手容易踩坑被删帖封号。Karmit把这些碎片化信息聚合起来，用AI降低Reddit推广的学习成本。",
+        "problemSolved": "独立开发者想在Reddit推广产品，但不知道用户在哪些版块、每个版块规则不一样、随手发就被删号。Karmit提供社区发现+规则解读+风险检查的一站式工具，让Reddit冷启动不再靠猜。",
+        "score": 7,
+        "scoreReason": "切中了独立开发者/出海创业者的真实痛点，Reddit营销确实有很高的学习门槛。产品定位清晰，免费模式容易获客。但功能相对单一，天花板有限，需要考虑从工具向服务或订阅的扩展路径。",
+        "competitors": [
+          {
+            "name": "RedditMaster",
+            "url": "https://www.redditmaster.com/tools",
+            "comparison": "功能更全的Reddit工具集，含子版块发现、账号分析、发帖时机、规则检查等，有付费Campaign模式；Karmit更轻量、完全免费。"
+          },
+          {
+            "name": "Karmalytix",
+            "url": "https://karmalytix.pages.dev/",
+            "comparison": "Reddit内容智能分析工具，对账号进行六维评分和帖子改写建议，侧重内容质量优化；Karmit侧重社区发现和规则合规。"
+          },
+          {
+            "name": "GrowWithReddit Karma Checker",
+            "url": "https://growwithreddit.com/reddit-karma-checker",
+            "comparison": "专注Reddit账号Karma和推广风险评分，单一功能更深入；Karmit功能更全面，覆盖从找版块到查规则的全流程。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "reddit.com/r/sideproject/comments/1wgo4ob/ibuiltanaipoweredwardrobeappthatdoesnttry",
+      "name": "Flair: Outfit Planner（AI衣橱搭配）",
+      "slug": "flair-outfit-planner",
+      "description": "一款不卖衣服的AI衣橱搭配应用。用户上传自己衣橱里的衣服，AI每天根据天气、日程和个人风格推荐穿搭，还能追踪销售提醒、分析个人风格画像。",
+      "url": "https://flair-3sid.polsia.app/",
+      "homepage": "https://flair-3sid.polsia.app/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/reddit.com_r_sideproject_comments_1wgo4ob_ibuiltanaipoweredwardrobeappthatdoesnttry_20260915_120754.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "时尚穿搭",
+        "AI搭配",
+        "衣橱管理",
+        "生活方式",
+        "个人形象"
+      ],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "sourceUrl": "https://www.reddit.com/r/SideProject/comments/1wgo4ob/i_built_an_aipowered_wardrobe_app_that_doesnt_try/",
+      "firstSeen": "2026-09-15T04:07:26.717930+00:00",
+      "analysis": {
+        "targetAudience": "注重穿搭但不想每天花时间想穿什么的都市人，以及想充分利用现有衣橱、减少冲动消费的理性消费者。",
+        "useCases": [
+          "每天早晨接收基于天气和日程的AI穿搭推荐",
+          "上传衣橱衣物照片，建立数字化衣橱档案",
+          "根据特定场合（约会、面试、派对）快速生成合适搭配",
+          "追踪关注品牌的折扣信息，只在有互补款时提醒",
+          "分析个人风格画像，了解自己的色彩和版型偏好"
+        ],
+        "designIntent": "市面上的穿搭App要么变成社交Feed、要么变成带货平台，真正帮用户「用好已有衣服」的很少。Flair反其道而行之——不推销新衣服，而是用AI最大化用户现有衣橱的价值，让穿搭决策自动化。",
+        "problemSolved": "每天早上不知道穿什么、衣橱塞满衣服却总觉得没的穿、买了新衣服发现和现有单品搭不上、想搭配但缺乏审美能力。Flair用AI解决日常穿搭决策疲劳，同时帮助用户理性消费。",
+        "score": 7,
+        "scoreReason": "「不卖衣服的AI衣橱」这个定位很有差异化，避开了时尚电商的红海竞争，切中了「衣橱塞满但没衣服穿」的普遍痛点。纯工具属性清晰。但用户上传衣橱的冷启动成本高，留存需要持续验证。",
+        "competitors": [
+          {
+            "name": "Flaired: AI Fashion Stylist",
+            "url": "https://apps.apple.com/us/app/flaired-ai-fashion-stylist/id6448672920",
+            "comparison": "更成熟的AI造型师App，有20000+品牌商品库和虚拟试穿，偏导购导向；Flair则完全以用户已有衣橱为中心，不做电商。"
+          },
+          {
+            "name": "AI Dresser: Outfit Planner",
+            "url": "https://apps.apple.com/il/app/ai-dresser-outfit-planner/id6758455229",
+            "comparison": "功能类似的AI衣橱搭配App，有虚拟模特展示和出行打包功能；与Flair定位接近，但Flair的销售追踪和风格分析更有特色。"
+          },
+          {
+            "name": "Whering",
+            "url": "https://whering.com/",
+            "comparison": "英国知名的数字衣橱App，搭配AI推荐+可持续时尚理念，用户基数大；Flair作为新产品需要在个性化和本地化上找差异。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "v2ex.com/t/1242103",
+      "name": "PREX（AI交易研究平台）",
+      "slug": "prex-ai-trading",
+      "description": "面向交易研究的AI Agent平台，支持用自然语言描述策略、自动运行回测、生成收益和回撤报告。覆盖加密货币、A股、港股市场，整合行情分析、策略搜索和回测于一体。",
+      "url": "https://prex.best/",
+      "homepage": "https://prex.best/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/v2ex.com_t_1242103_20260915_120806.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "量化交易",
+        "AI回测",
+        "金融科技",
+        "投资研究",
+        "加密货币"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "sourceUrl": "https://www.v2ex.com/t/1242103",
+      "firstSeen": "2026-09-15T04:07:26.717930+00:00",
+      "analysis": {
+        "targetAudience": "有交易想法但不会写代码的个人投资者，以及需要快速验证策略灵感的量化研究员和交易者。",
+        "useCases": [
+          "用自然语言描述交易策略，AI自动转换为可回测的因子组合",
+          "对加密货币或A股/港股进行市场结构和技术面分析",
+          "搜索公开策略和可用因子，获取策略灵感",
+          "生成带资金曲线和回撤的可分享回测报告",
+          "制定交易计划，计算保证金、止损距离和盈亏比"
+        ],
+        "designIntent": "交易研究的工作流很碎片化——想策略、找数据、写代码、跑回测、看结果分布在不同工具里。PREX把这些步骤用AI串联起来，让用户用一句话就能完成从策略想法到回测验证的全过程，降低量化研究的门槛。",
+        "problemSolved": "传统量化回测需要编程能力和数据工程能力，普通投资者和策略爱好者被挡在门外。即使是专业研究者，在行情、指标、回测等多个工具间切换也效率低下。PREX用自然语言+AI Agent统一了交易研究工作流。",
+        "score": 7,
+        "scoreReason": "自然语言回测是AI+金融的高价值场景，用户付费意愿强，市场空间大。PREX支持多市场且已开放API，产品完成度不错。但回测结果的可靠性、过拟合风险是行业共性问题，且面临BacktestLoop等海外竞品的竞争。",
+        "competitors": [
+          {
+            "name": "BacktestLoop",
+            "url": "https://backtestloop.com/",
+            "comparison": "海外AI回测平台，支持自然语言生成可编辑Python代码、1秒级数据、双引擎回测，功能更全面更技术化；PREX对中文用户更友好，且覆盖A股/港股市场。"
+          },
+          {
+            "name": "AgentX (1024EX)",
+            "url": "https://docs.1024ex.com/docs/overview-1",
+            "comparison": "1024EX生态内的AI交易Agent，侧重策略代码生成和实盘部署；PREX更侧重研究和回测阶段，不做实盘交易执行。"
+          },
+          {
+            "name": "Sides Agent",
+            "url": "https://sides.trade/agent",
+            "comparison": "Polymarket预测市场的AI交易Agent，从研究到自主执行全流程，更偏向实盘自动化；PREX定位为研究工具，更安全但也少了实盘的想象空间。"
+          }
+        ]
+      }
+    }
+  ]
+}
