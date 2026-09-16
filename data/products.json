@@ -35104,8 +35104,369 @@
         "featuredInDaily": 1,
         "lastFeaturedDate": "2026-09-15"
       }
+    },
+    {
+      "id": "producthunt.com/r/p/1247098",
+      "name": "Grimo AI",
+      "slug": "grimo-ai",
+      "description": "一句话把任务、日历和笔记统统安排好的 AI 个人效率助手。不用填表、不用在多个 app 之间切换，说出来或打出来，Grimo 就自动识别日期、优先级和分类，把事情归到该去的地方。内置支持重叠日程可视化的日历视图，还有免提语音模式，适合忙碌的通勤族和家长。",
+      "url": "https://grimoai.com/",
+      "homepage": "https://grimoai.com/",
+      "type": "app",
+      "appStoreName": "Grimo AI - Chat, Get Organized",
+      "appStoreUrl": "https://apps.apple.com/us/app/grimo-ai-chat-get-organized/id6802026888?uo=4",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1247098_20260916_120919.png",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/41/1c/5e/411c5e04-da2d-1b31-d2ca-3ff1ab5c0db5/01-chat.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9d/8d/43/9d8d439f-0931-ee5e-b634-ede2a85b71a7/04-voice.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f4/a8/31/f4a831bc-5943-f246-5da5-f596a5cdf2a6/05-notes.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3c/a9/39/3ca93978-9073-b422-eeec-d008cf67d232/02-tasks.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/26/cc/91/26cc91c9-7586-e27f-30d0-ea7b2622749f/03-calendar.png/320x480bb.jpg"
+      ],
+      "tags": [
+        "效率工具",
+        "AI 助手",
+        "任务管理",
+        "语音输入",
+        "iOS 应用"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1247098?app_id=339",
+      "firstSeen": "2026-09-10T15:27:36-07:00",
+      "cooldownExpiresAt": "2026-09-30T04:10:56.434539+00:00",
+      "lastUpdated": "2026-09-16T04:10:56.402223+00:00",
+      "analysis": {
+        "targetAudience": "忙碌的专业人士、学生和家长，他们需要快速管理任务、日程和笔记但不想在多个应用之间切换。",
+        "useCases": [
+          "通勤路上用语音快速记录待办事项和日程安排",
+          "会议间隙把突然想到的想法转成笔记并自动归档",
+          "把一条自然语言的指令同时拆成任务、日历事件和提醒",
+          "一眼查看复杂周程中的时间重叠冲突",
+          "家长在带娃时用免提语音管理家庭日程"
+        ],
+        "designIntent": "Grimo AI 的设计初衷是消除传统效率工具的输入摩擦。传统待办和日历应用需要结构化输入，而 Grimo 从对话出发，让用户用最自然的方式表达需求，AI 在背后完成分类、排期和优先级判断，把组织工作从用户转移到 AI。",
+        "problemSolved": "解决了传统效率工具操作繁琐、需要在多个 app 间切换的痛点。很多人想记录任务却因操作步骤太多而放弃；Grimo 用一句话完成任务创建、日程安排和笔记归档，大幅降低了效率工具的使用门槛。",
+        "tags": [
+          "效率工具",
+          "AI 助手",
+          "任务管理",
+          "语音输入",
+          "iOS 应用"
+        ],
+        "score": 8,
+        "scoreReason": "产品定位清晰，解决了真实的效率摩擦问题，语音+对话式交互是移动端的天然优势。但功能边界相对传统（任务/日历/笔记的组合），且目前仅限 iOS，市场空间受限于品类竞争和平台覆盖。",
+        "competitors": [
+          {
+            "name": "Todoist",
+            "url": "https://todoist.com",
+            "comparison": "Todoist 是老牌任务管理工具，功能强大但需要结构化输入；Grimo 用自然语言对话降低了输入门槛，但任务管理深度不如 Todoist。"
+          },
+          {
+            "name": "Notion Calendar",
+            "url": "https://www.notion.so/product/calendar",
+            "comparison": "Notion Calendar 主打日历与知识库深度整合，适合复杂项目管理；Grimo 更轻量，专注于快速捕获和自动组织，上手更快。"
+          },
+          {
+            "name": "Siri / Google Assistant",
+            "url": "https://www.apple.com/siri",
+            "comparison": "系统级语音助手也能创建提醒和日程，但缺乏统一的任务/日历/笔记整合界面；Grimo 是一个完整的效率系统，而非零散的语音指令。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": true,
+        "featuredInWeekly": false,
+        "dailyCount": 1,
+        "lastFeaturedDate": "2026-09-16"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1249707",
+      "name": "Narrative 视频编辑器",
+      "slug": "narrative-video-editor",
+      "description": "AI 优先的云端视频编辑器，用自然语言描述就能完成剪辑、加字幕、配音乐和动态图形。上传素材、描述你想要的效果，Narrative 就在时间线上生成可编辑的初稿，然后通过聊天不断迭代优化。从播客剪辑到产品发布视频，不用学 Premiere 或 After Effects 也能做出专业级效果。",
+      "url": "https://narrative.video/",
+      "homepage": "https://narrative.video/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1249707_20260916_120927.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "视频编辑",
+        "AI 创作",
+        "SaaS",
+        "内容创作",
+        "云渲染"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1249707?app_id=339",
+      "firstSeen": "2026-09-13T16:37:48-07:00",
+      "cooldownExpiresAt": "2026-09-30T04:10:56.434539+00:00",
+      "lastUpdated": "2026-09-16T04:10:56.402223+00:00",
+      "analysis": {
+        "targetAudience": "内容创作者、营销人员、产品团队和独立开发者，他们需要快速制作视频但缺乏专业剪辑技能。",
+        "useCases": [
+          "把播客或访谈片段快速剪辑成社交媒体短视频",
+          "用文字描述生成产品发布视频和功能演示",
+          "为营销素材批量添加字幕、B-roll 和动态图形",
+          "参考其他视频的风格自动匹配剪辑节奏和视觉效果",
+          "团队协作视频项目，通过聊天迭代修改意见"
+        ],
+        "designIntent": "Narrative 的设计初衷是让视频编辑从「学习复杂软件」转向「描述想要的结果」。传统视频编辑软件门槛高、学习曲线陡，Narrative 用 AI 代理理解用户意图并直接在时间线上操作，让人专注于创意而非工具操作。",
+        "problemSolved": "解决了视频制作门槛高、耗时久的痛点。很多团队需要视频内容但雇不起专业剪辑师或学不会复杂软件；Narrative 通过自然语言交互和 AI 自动化，把视频生产效率从小时级降到分钟级。",
+        "tags": [
+          "视频编辑",
+          "AI 创作",
+          "SaaS",
+          "内容创作",
+          "云渲染"
+        ],
+        "score": 8,
+        "scoreReason": "AI 视频编辑是热门赛道，Narrative 定位清晰——面向专业人士的 AI 原生编辑器而非简单的自动剪辑工具，YC 背景也增加了可信度。但赛道竞争激烈（Descript、Runway、CapCut 等），需要在编辑质量和用户体验上持续拉开差距。",
+        "competitors": [
+          {
+            "name": "Descript",
+            "url": "https://www.descript.com",
+            "comparison": "Descript 主打文本式视频编辑和播客制作，用户基础大；Narrative 更侧重于 AI 生成式编辑和动态图形，创作自由度更高。"
+          },
+          {
+            "name": "Runway",
+            "url": "https://runwayml.com",
+            "comparison": "Runway 是 AI 视频生成领域的领导者，功能全面但价格较高；Narrative 专注于编辑工作流，更贴近传统剪辑师的使用习惯。"
+          },
+          {
+            "name": "CapCut",
+            "url": "https://www.capcut.com",
+            "comparison": "CapCut 是字节旗下的免费视频剪辑工具，AI 功能丰富且生态强大；Narrative 定位更专业、更偏 AI 原生，适合需要更高质量输出的团队。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": true,
+        "featuredInWeekly": false,
+        "dailyCount": 1,
+        "lastFeaturedDate": "2026-09-16"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1237367",
+      "name": "Voiskey 语音输入法",
+      "slug": "voiskey",
+      "description": "AI 驱动的语音输入工具，在任何应用里都能把自然的口述转换成通顺的文字。不用字正腔圆地说话，停顿、改口、语气词都能被识别并整理，还会根据场景自动调整语气和格式。支持 100 多种语言、 whisper 模式，以及把语音转成结构化的 AI 提示词。",
+      "url": "https://www.voiskey.ai/",
+      "homepage": "https://www.voiskey.ai/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1237367_20260916_120936.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "语音输入",
+        "AI 助手",
+        "效率工具",
+        "多语言",
+        "桌面应用"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1237367?app_id=339",
+      "firstSeen": "2026-08-31T04:01:15-07:00",
+      "cooldownExpiresAt": "2026-09-30T04:10:56.434539+00:00",
+      "lastUpdated": "2026-09-16T04:10:56.402223+00:00",
+      "analysis": {
+        "targetAudience": "写作者、程序员、远程工作者和多语言使用者，他们希望用语音代替键盘提高输入效率。",
+        "useCases": [
+          "在 Slack、邮件、笔记应用中快速口述回复并自动润色",
+          "程序员用语音描述需求，自动生成结构化的 AI 编程提示词",
+          "多语言环境下用母语输入，自动翻译成目标语言的地道表达",
+          "会议后用语音快速整理行动项和跟进要点",
+          "在公共场合低声输入，whisper 模式仍能准确识别"
+        ],
+        "designIntent": "Voiskey 的设计初衷是让语音输入真正「可用」而非「凑合」。传统语音转文字只是逐字转录，充满语气词和不自然的表达；Voiskey 用 AI 理解说话人的意图，把口语化的思考整理成书面化、符合场景的文字，让语音输入的输出质量直接可以发送。",
+        "problemSolved": "解决了传统语音输入输出质量差、需要大量手动修改的痛点。很多人想用语音提高效率但因为转录不准确、格式不对而放弃；Voiskey 通过 AI 润色和场景适配，让语音输入的结果可以直接使用，真正实现了「说比打快」。",
+        "tags": [
+          "语音输入",
+          "AI 助手",
+          "效率工具",
+          "多语言",
+          "桌面应用"
+        ],
+        "score": 7,
+        "scoreReason": "产品解决了语音输入的真实痛点——不只是转录而是润色成文，场景化适配也做得不错。但定价偏高（月付 30 美元），且语音输入工具同质化竞争激烈，需要在识别准确率和个性化学习上持续精进。",
+        "competitors": [
+          {
+            "name": "Otter.ai",
+            "url": "https://otter.ai",
+            "comparison": "Otter 专注于会议转录和实时字幕，场景更垂直；Voiskey 是通用型语音输入工具，覆盖所有文本输入场景，但会议功能不如 Otter 深入。"
+          },
+          {
+            "name": "MacWhisper",
+            "url": "https://goodsnooze.gumroad.com/l/macwhisper",
+            "comparison": "MacWhisper 是 macOS 上的本地 Whisper 转录工具，免费开源；Voiskey 增加了 AI 润色、场景适配和多端同步，功能更全面但需要订阅。"
+          },
+          {
+            "name": "Apple Dictation",
+            "url": "https://support.apple.com/guide/mac-help/use-dictation-mh40584",
+            "comparison": "系统自带听写功能免费且集成度高，但只做基础转录、没有润色；Voiskey 在转录基础上增加了 AI 优化和个性化学习，输出质量更高。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": true,
+        "featuredInWeekly": false,
+        "dailyCount": 1,
+        "lastFeaturedDate": "2026-09-16"
+      }
+    },
+    {
+      "id": "writeably.com/write",
+      "name": "Writeably 写作助手",
+      "slug": "writeably",
+      "description": "一款坚持「保留你自己的声音」的 AI 写作助手。它不是帮你从零生成文章，而是学习你的写作风格后，给出最小程度的修改建议——校对、轻度润色、改半句、换个词。还能识别文字中的套话和 AI 味，帮你把写作变得更自然、更像你自己。",
+      "url": "https://writeably.com/",
+      "homepage": "https://writeably.com/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/writeably.com_write_20260916_120951.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 写作",
+        "内容创作",
+        "SaaS",
+        "个人风格",
+        "编辑工具"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://writeably.com/write",
+      "firstSeen": "2026-09-16T01:56:51+00:00",
+      "cooldownExpiresAt": "2026-09-30T04:10:56.434539+00:00",
+      "lastUpdated": "2026-09-16T04:10:56.402223+00:00",
+      "analysis": {
+        "targetAudience": "写作者、博主、职场人士和内容创作者，他们想用 AI 提升写作效率但不想失去个人风格。",
+        "useCases": [
+          "写完邮件或文章后让 AI 做轻度润色，保留自己的语气",
+          "检查初稿中的空话套话和 AI 腔，让文字更真诚",
+          "把半成型的想法补完，AI 按你的风格续写",
+          "上传过往作品建立个人 Voice Profile，让建议更贴合你的写法",
+          "对比改写前后的差异，只采纳自己认可的修改"
+        ],
+        "designIntent": "Writeably 的设计初衷是对抗 AI 写作的「千人一面」问题。市面上大多数写作 AI 会把文字改得通用、光滑、没有个性；Writeably 反其道而行之，学习用户的真实写作习惯，只做必要的最小修改，目标是让文章更好但仍然是你写的。",
+        "problemSolved": "解决了 AI 写作工具同质化、输出失去个人声音的痛点。很多人用 AI 润色后发现文字变得像模板一样没有灵魂；Writeably 通过个人化 Voice Profile 和最小修改原则，让 AI 成为编辑而非代笔。",
+        "tags": [
+          "AI 写作",
+          "内容创作",
+          "SaaS",
+          "个人风格",
+          "编辑工具"
+        ],
+        "score": 7,
+        "scoreReason": "产品理念独特且有说服力——「保留你的声音」切中了 AI 写作时代的普遍焦虑，技术路线（学习个人风格 + 最小修改）也有差异化。但写作工具市场竞争激烈，用户是否愿意为「不改变风格」付费还有待验证。",
+        "competitors": [
+          {
+            "name": "Grammarly",
+            "url": "https://www.grammarly.com",
+            "comparison": "Grammarly 是主流语法校对工具，功能全面但主要面向纠错和正式写作；Writeably 更侧重于风格保留和 AI 腔检测，定位更偏向创意写作者。"
+          },
+          {
+            "name": "Notion AI",
+            "url": "https://www.notion.so/product/ai",
+            "comparison": "Notion AI 集成在笔记工具中，支持生成、改写、总结等多种操作；Writeably 是独立的写作编辑工具，更专注于风格保持和精细润色。"
+          },
+          {
+            "name": "ChatGPT 写作",
+            "url": "https://chat.openai.com",
+            "comparison": "通用大模型可以改写任何文字，但输出风格趋于同质化；Writeably 专门学习个人写作习惯，能更好地保留作者的独特语气和表达。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": true,
+        "featuredInWeekly": false,
+        "dailyCount": 1,
+        "lastFeaturedDate": "2026-09-16"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1247984",
+      "name": "Oats 会议记录",
+      "slug": "oats-meeting-notes",
+      "description": "一款完全本地运行的 Mac 会议记录工具。不用机器人加入会议、不用上传录音到云端，Oats 直接通过系统音频监听会议内容，在本机用 Apple Speech 和 Foundation Models 完成转录和整理，会后把你记的手写笔记和自动转录合并成干净的会议纪要。开源、免费、零网络请求。",
+      "url": "https://oatsnote.com/",
+      "homepage": "https://oatsnote.com/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1247984_20260916_120959.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "会议记录",
+        "隐私优先",
+        "本地 AI",
+        "开源",
+        "macOS"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1247984?app_id=339",
+      "firstSeen": "2026-09-11T13:35:39-07:00",
+      "cooldownExpiresAt": "2026-09-30T04:10:56.434539+00:00",
+      "lastUpdated": "2026-09-16T04:10:56.402223+00:00",
+      "analysis": {
+        "targetAudience": "注重隐私的专业人士、律师、咨询师和处理敏感信息的团队，他们需要会议记录但不能把内容上传到云端。",
+        "useCases": [
+          "涉及客户机密或 NDA 的会议，全程本地处理不上传",
+          "远程会议时边听边记要点，会后自动和转录合并成纪要",
+          "在各种会议软件（Zoom、Teams、Meet）上通用，不依赖特定平台",
+          "一键清除所有录音和转录记录，彻底不留痕迹",
+          "配合 Ollama 完全离线运行，连 AI 总结也在本地完成"
+        ],
+        "designIntent": "Oats 的设计初衷是用隐私优先的方式解决会议记录问题。市面上的会议记录工具都需要把音频上传到云端处理，对于敏感行业来说不可接受；Oats 利用 macOS 本地的语音和 AI 能力，实现了零网络依赖的会议记录体验。",
+        "problemSolved": "解决了云端会议记录工具的隐私风险问题。律师、咨询师、高管等群体需要会议记录但不能让第三方接触对话内容；Oats 完全本地运行，从录音到转录再到整理都在本机完成，从架构上保证了数据隐私。",
+        "tags": [
+          "会议记录",
+          "隐私优先",
+          "本地 AI",
+          "开源",
+          "macOS"
+        ],
+        "score": 8,
+        "scoreReason": "产品定位精准——本地优先的会议记录切中了隐私敏感用户的刚需，开源免费的策略也很有吸引力。技术上巧妙利用了 Apple Intelligence 的本地能力，是 AI 时代「小而美」工具的典型代表。但仅限 macOS Apple Silicon，且需要从源码编译，门槛略高。",
+        "competitors": [
+          {
+            "name": "Otter.ai",
+            "url": "https://otter.ai",
+            "comparison": "Otter 是云端会议记录的代表，功能丰富但需要上传音频，有隐私顾虑；Oats 完全本地运行，适合处理敏感内容，但功能丰富度和准确率不如云端方案。"
+          },
+          {
+            "name": "Fireflies.ai",
+            "url": "https://fireflies.ai",
+            "comparison": "Fireflies 用 AI 机器人加入会议自动记录，集成度高但需要授权访问会议；Oats 通过系统音频监听，不加入会议也不联网，更轻量也更隐私。"
+          },
+          {
+            "name": "Granola",
+            "url": "https://www.granola.so",
+            "comparison": "Granola 也是 Mac 本地会议记录工具，产品化更成熟但收费；Oats 完全免费开源，用户可以自行编译和修改，透明度更高。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": true,
+        "featuredInWeekly": false,
+        "dailyCount": 1,
+        "lastFeaturedDate": "2026-09-16"
+      }
     }
   ],
-  "lastUpdated": "2026-09-15T04:07:26.717930+00:00",
+  "lastUpdated": "2026-09-16T04:10:56.402223+00:00",
   "totalProducts": 554
 }
