@@ -35465,6 +35465,291 @@
         "dailyCount": 1,
         "lastFeaturedDate": "2026-09-16"
       }
+    },
+    {
+      "id": "x.com/lxfater/status/2100232972846940177",
+      "name": "网易叭哥说",
+      "slug": "bage-shuo",
+      "description": "网易有道推出的桌面端 AI 语音输入 Agent，按住 Fn 说话，自动去除口头禅、修正改口、补标点分段，输出可直接使用的结构化文字。支持 124 种语言实时互译、方言输入和专业词库，Mac/Windows 双端免费。",
+      "url": "https://bug.youdao.com/",
+      "homepage": "https://bug.youdao.com/",
+      "type": "app",
+      "tags": [
+        "语音输入",
+        "AI 助手",
+        "效率工具",
+        "网易有道"
+      ],
+      "sourceChannels": [
+        "twitter"
+      ],
+      "firstSeen": "2026-09-17T04:07:38.708223+00:00",
+      "lastUpdated": "2026-09-17T04:07:38.708223+00:00",
+      "cooldownExpiresAt": "2026-10-01T04:07:38.740119+00:00",
+      "analysis": {
+        "targetAudience": "需要高频文字输出的创作者、开发者、职场人士，以及语音输入效率优于打字的用户。",
+        "useCases": [
+          "会议口述纪要，自动整理成结构化文字",
+          "开发者用语音快速写代码注释和文档",
+          "自媒体创作者口述初稿，一键输出干净文稿",
+          "跨语言沟通时实时语音翻译输入",
+          "用方言或带口音的普通话进行文字输入"
+        ],
+        "designIntent": "针对 Typeless 等同类产品降质、涨价的痛点，网易有道依托自研 ASR 模型打造一款真正免费、体验稳定的语音输入工具。它不满足于逐字转录，而是构建了听清、听懂、写好的完整链路，让用户说的口语直接变成可用的文字。",
+        "problemSolved": "解决了传统语音转文字只能逐字转录、口头禅和改口全部保留的问题，也解决了同类 AI 语音工具频繁降智、砍免费额度的痛点。让用户的自然口语能直接输出成规范、干净、可复制使用的结构化文本。",
+        "score": 8,
+        "scoreReason": "大厂背书 + 终身免费 + 多语种支持，实用性很强，在 Typeless 砍额度的时间点推出恰逢其时。但产品形态相对传统，创新度有限，核心还是语音输入工具的体验升级。",
+        "competitors": [
+          {
+            "name": "Typeless",
+            "url": "https://typeless.app/",
+            "comparison": "早期热门 AI 语音输入工具，但近期大幅削减免费额度（从每周 8000 字砍到 2000 字）且用户反馈降智明显，付费体验也不稳定。"
+          },
+          {
+            "name": "飞书妙计",
+            "url": "https://www.feishu.cn/product/feishumi",
+            "comparison": "字节旗下的语音转文字工具，偏向会议纪要场景，需要在飞书生态内使用，不如叭哥说全局跨应用灵活。"
+          },
+          {
+            "name": "Wispr Flow",
+            "url": "https://www.wispr.ai/",
+            "comparison": "海外流行的 AI 语音输入工具，主打自然语言到格式化文本的转换，生态成熟但对中文支持有限且需付费订阅。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-09-17"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1250047",
+      "name": "Jottoo",
+      "slug": "jottoo",
+      "description": "AI 会议笔记工具，将会议录音、上传音频或手写笔记自动转化为带截止日期的可追踪任务。无需机器人加入会议，无需安装客户端，支持搜索过往会议内容，月费 13.99 美元全包。",
+      "url": "https://jottoo.com/",
+      "homepage": "https://jottoo.com/",
+      "type": "saas",
+      "tags": [
+        "会议纪要",
+        "任务管理",
+        "AI 生产力",
+        "SaaS"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "firstSeen": "2026-09-17T04:07:38.708223+00:00",
+      "lastUpdated": "2026-09-17T04:07:38.708223+00:00",
+      "cooldownExpiresAt": "2026-10-01T04:07:38.740119+00:00",
+      "analysis": {
+        "targetAudience": "独立咨询师、销售代表、个人助理等需要频繁跟进会议行动项的自由职业者和小团队。",
+        "useCases": [
+          "客户会议后自动提取承诺事项和截止日期",
+          "用语音或文字快速记录想法，自动转为待办",
+          "搜索过往会议中提到的具体细节和决策",
+          "按客户/项目文件夹组织会议记录和任务",
+          "让 AI 代写跟进邮件或 CRM 更新文案"
+        ],
+        "designIntent": "创始人厌倦了市面上 AI 笔记工具要么需要机器人加会、要么只给一份转录稿的现状，想做一款真正把对话转化为行动的工具。面向个人专业人士而非大团队，采用一价全包的订阅模式，避免层层加价。",
+        "problemSolved": "解决了会议结束后行动项散落各处、承诺和截止日期容易遗漏的问题。不需要让机器人加入会议（避免尴尬和隐私顾虑），直接录音或上传即可获得结构化、可追踪的任务列表，而不是一份需要重读的摘要。",
+        "score": 7,
+        "scoreReason": "定位清晰，从「转录」升级到「行动」的思路正确，无机器人加会的设计也更尊重会议隐私。但赛道竞争激烈（Otter.ai、Fathom 等），差异化不算特别突出，需要在执行细节上取胜。",
+        "competitors": [
+          {
+            "name": "Otter.ai",
+            "url": "https://otter.ai/",
+            "comparison": "市场份额最大的 AI 会议转录工具，功能全面但偏团队协作，价格较贵，更侧重转录和摘要而非任务追踪。"
+          },
+          {
+            "name": "Fathom",
+            "url": "https://fathom.video/",
+            "comparison": "Zoom 生态的免费会议 AI 助手，支持实时转录和要点提取，但需要机器人加入会议，且更侧重通话摘要而非任务管理。"
+          },
+          {
+            "name": "Fireflies.ai",
+            "url": "https://fireflies.ai/",
+            "comparison": "老牌会议 AI 工具，集成度高、功能丰富，有行动项提取能力，但主要面向团队，定价和复杂度都更高。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-09-17"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1251722",
+      "name": "Fide Island",
+      "slug": "fide-island",
+      "description": "把 MacBook 的刘海变成类似 iPhone 灵动岛的交互区域，集成媒体控制、日历、Apple Notes、剪贴板历史、文件架、计算器、汇率转换和系统反馈，支持本地端翻译（Apple Translation 框架），注重隐私。",
+      "url": "https://fideisland.it.com/",
+      "homepage": "https://fideisland.it.com/",
+      "type": "app",
+      "tags": [
+        "Mac 工具",
+        "灵动岛",
+        "效率工具",
+        "本地 AI"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "firstSeen": "2026-09-17T04:07:38.708223+00:00",
+      "lastUpdated": "2026-09-17T04:07:38.708223+00:00",
+      "cooldownExpiresAt": "2026-10-01T04:07:38.740119+00:00",
+      "analysis": {
+        "targetAudience": "MacBook 用户，尤其是习惯在刘海附近看状态、希望减少应用切换的效率追求者。",
+        "useCases": [
+          "写作时在刘海处直接翻译单词或句子，不用切换应用",
+          "边工作边控制音乐播放，查看下一个日历事件",
+          "快速访问剪贴板历史和常用文件，不用打开访达",
+          "用刘海空间做简单计算和汇率转换",
+          "在刘海里快速查看和编辑 Apple Notes 笔记"
+        ],
+        "designIntent": "受 iPhone 灵动岛启发，把 MacBook 原本闲置的刘海空间变成一个随时可用的快捷命令区。目标不是简单复制灵动岛的视觉效果，而是围绕 Mac 用户的实际工作流，把高频小动作集中到视线自然覆盖的区域，减少上下文切换。",
+        "problemSolved": "解决了 MacBook 刘海空间浪费的问题，也解决了很多轻量操作（查日历、切歌、算汇率、找剪贴板）都需要打开新应用或切换窗口的痛点。让用户在专注主任务时，小操作可以在刘海区域快速完成。",
+        "score": 7,
+        "scoreReason": "产品概念很巧妙，把硬件限制转化为交互亮点，本地优先的隐私策略也加分。但本质是多功能聚合工具，护城河不深，且受限于 macOS 刘海设备范围，天花板可能有限。",
+        "competitors": [
+          {
+            "name": "DynamicLake",
+            "url": "https://dynamiclake.app/",
+            "comparison": "另一款把灵动岛体验带到 Mac 的应用，功能更偏向系统通知和实时活动展示，Fide Island 则更像一个多功能工具箱。"
+          },
+          {
+            "name": "Notch Island",
+            "url": "https://notchisland.app/",
+            "comparison": "更早的 Mac 刘海交互应用，主打灵动岛风格的通知和媒体控制，功能相对聚焦，不像 Fide Island 覆盖那么多场景。"
+          },
+          {
+            "name": "Paste (剪贴板工具)",
+            "url": "https://pasteapp.io/",
+            "comparison": "老牌 Mac 剪贴板历史管理工具，功能专业但需要快捷键调用，Fide Island 则把剪贴板等多项功能整合在刘海入口。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-09-17"
+      }
+    },
+    {
+      "id": "mealmacroai.com",
+      "name": "MealMacroAI",
+      "slug": "meal-macro-ai",
+      "description": "AI 反向食物分量计算器，帮健身和减脂人群根据目标宏量营养素（蛋白质、碳水、脂肪），算出每种食材需要准备多少克，同时考虑生熟重量差异，支持训练日和休息日不同宏量目标。",
+      "url": "https://www.mealmacroai.com/",
+      "homepage": "https://www.mealmacroai.com/",
+      "type": "website",
+      "tags": [
+        "健身饮食",
+        "AI 营养",
+        "量化健康",
+        "生活工具"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "firstSeen": "2026-09-17T04:07:38.708223+00:00",
+      "lastUpdated": "2026-09-17T04:07:38.708223+00:00",
+      "cooldownExpiresAt": "2026-10-01T04:07:38.740119+00:00",
+      "analysis": {
+        "targetAudience": "健身爱好者、增肌减脂人群、备赛运动员和对营养摄入有精确要求的人。",
+        "useCases": [
+          "根据每日宏量目标反向计算每餐食材克数",
+          "生熟食材重量转换（如生米 vs 熟饭、生肉 vs 熟肉）",
+          "制定训练日和休息日差异化的饮食计划",
+          "批量备餐时精确计算每种食材采购量",
+          "调整食谱配方以匹配个人宏量需求"
+        ],
+        "designIntent": "传统的营养追踪 App 都是正向记录（吃了什么→算营养），但备餐时用户的痛点是反向的：我知道今天需要吃多少蛋白和碳水，但具体每种食材要买多少克？MealMacroAI 就是为了解决这个「从目标倒推分量」的问题，同时处理生熟换算这个容易出错的环节。",
+        "problemSolved": "解决了健身备餐时「知道宏量目标但不会算具体克数」的痛点，也解决了生熟食材营养密度差异导致的估算误差。让用户不用手动查营养表、做生熟换算，直接得到可执行的采购和烹饪分量。",
+        "score": 6,
+        "scoreReason": "切入点比较独特，解决了一个真实但小众的痛点，技术实现也不复杂。但市场规模有限（仅针对认真追踪宏量的健身人群），且容易被 MyFitnessPal 等大平台用一个功能覆盖。",
+        "competitors": [
+          {
+            "name": "MyFitnessPal",
+            "url": "https://www.myfitnesspal.com/",
+            "comparison": "全球最大的营养追踪 App，功能全面但偏重正向记录（吃了记下来），不支持反向计算食材克数，操作也相对繁琐。"
+          },
+          {
+            "name": "MacroFactor",
+            "url": "https://macrofactorapp.com/",
+            "comparison": "数据驱动的宏量营养追踪应用，算法精准、口碑好，但同样是正向记录模式，没有反向分量计算功能。"
+          },
+          {
+            "name": "Eat This Much",
+            "url": "https://www.eatthismuch.com/",
+            "comparison": "可以根据宏量目标自动生成饮食计划，功能更全面但偏向食谱生成，而 MealMacroAI 更聚焦于单个餐食的精确分量反向计算。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-09-17"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1250753",
+      "name": "Convo",
+      "slug": "convo-sales",
+      "description": "面向销售和客户成功团队的实时 AI 销售助手和教练。在通话过程中实时监听，在客户提出异议时即时在屏幕上给出应答建议，捕捉购买信号，通话后自动生成跟进邮件并同步到 CRM，支持 Zoom/Meet/Teams/Webex。",
+      "url": "https://www.itsconvo.com/",
+      "homepage": "https://www.itsconvo.com/",
+      "type": "saas",
+      "tags": [
+        "销售 AI",
+        "实时助手",
+        "B2B SaaS",
+        "对话智能"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "firstSeen": "2026-09-17T04:07:38.708223+00:00",
+      "lastUpdated": "2026-09-17T04:07:38.708223+00:00",
+      "cooldownExpiresAt": "2026-10-01T04:07:38.740119+00:00",
+      "analysis": {
+        "targetAudience": "B2B 销售团队、客户成功团队、招聘顾问等需要高频电话沟通且话术质量直接影响业绩的岗位。",
+        "useCases": [
+          "销售通话中客户提出价格异议时，实时给出价值型应答建议",
+          "新销售入职时，每次通话都有 AI 教练实时指导，加速上手",
+          "通话结束自动生成跟进邮件并同步联系人和任务到 CRM",
+          "管理者快速定位需要辅导的通话片段，而不必听完整录音",
+          "客户成功团队在续约通话中捕捉风险信号，提前介入"
+        ],
+        "designIntent": "把销售辅导从事后复盘（Gong/Chorus 模式）拉到通话当下——在客户还在说话时就给销售最需要的应答和提醒。不派机器人加入会议、不弹录音通知，只有销售自己能看到浮层，既不影响客户体验，又能在最关键的时刻提供帮助。",
+        "problemSolved": "解决了传统对话智能工具只能事后分析、无法改变通话结果的问题。销售新人最需要帮助的时刻就是客户提出异议的瞬间，但传统工具只能在事后回放时指出问题。Convo 把辅导前置到通话中，直接提升成交率。",
+        "score": 8,
+        "scoreReason": "实时销售辅导的定位有差异化，相比 Gong/Chorus 的事后分析更直接地影响业绩结果，本地运行不打扰客户也是重要优势。B2B 销售场景付费意愿强，商业潜力大。但需要在实时性和准确性之间做好平衡。",
+        "competitors": [
+          {
+            "name": "Gong",
+            "url": "https://www.gong.io/",
+            "comparison": "对话智能领域龙头，功能强大但偏做事后分析和团队洞察，价格贵（100+ 美元/人/月），没有实时应答辅助能力。"
+          },
+          {
+            "name": "Chorus (ZoomInfo)",
+            "url": "https://www.zoominfo.com/products/chorus",
+            "comparison": "另一大对话智能平台，被 ZoomInfo 收购，侧重通话分析和销售方法论落地，同样是事后分析模式。"
+          },
+          {
+            "name": "Otter.ai",
+            "url": "https://otter.ai/",
+            "comparison": "用户基数大，价格低（16.99 美元/月起），但更偏向通用转录和摘要，销售辅导的专业性和实时性远不如 Convo。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-09-17"
+      }
     }
   ],
   "lastUpdated": "2026-09-16T04:10:56.402223+00:00",
