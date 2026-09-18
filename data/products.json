@@ -35750,8 +35750,319 @@
         "featuredInWeekly": false,
         "lastFeaturedDate": "2026-09-17"
       }
+    },
+    {
+      "id": "modelsnap.app",
+      "name": "ModelSnap",
+      "slug": "modelsnap",
+      "description": "AI 驱动的服装模特图生成工具，只需上传平铺的服装产品图，即可在几秒内生成专业级模特上身效果图。支持多种模特形象、姿态和场景选择，帮助电商卖家、独立站和服装品牌大幅降低拍摄成本，无需雇佣模特、化妆师和摄影团队。",
+      "url": "https://modelsnap.ai/",
+      "homepage": "https://modelsnap.ai/",
+      "type": "saas",
+      "tags": [
+        "AI服装设计",
+        "电商工具",
+        "图像生成",
+        "模特摄影",
+        "SaaS"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "firstSeen": "2026-09-18T04:10:03.352645+00:00",
+      "lastUpdated": "2026-09-18T04:12:17.147323+00:00",
+      "cooldownExpiresAt": "2026-10-02T04:11:11.450206+00:00",
+      "metrics": {
+        "featuredInDaily": true,
+        "lastFeaturedDate": "2026-09-18",
+        "featuredInWeekly": false
+      },
+      "analysis": {
+        "targetAudience": "服装电商卖家、独立站运营者、DTC 品牌主理人，以及需要批量制作产品展示图的中小服装商家。",
+        "useCases": [
+          "淘宝/亚马逊/Shopify 店铺的产品主图和详情页模特图批量生成",
+          "新品上市前快速生成多风格上身效果用于选品决策",
+          "社交媒体营销素材快速制作，适配 Instagram、TikTok 等平台",
+          "跨境电商不同市场本地化模特形象快速切换",
+          "服装设计师快速预览设计稿的上身效果"
+        ],
+        "designIntent": "用 AI 生成技术颠覆传统服装摄影的高成本和长周期模式，让小品牌也能负担得起专业级模特展示图。同时倡导模特权益保护，让模特通过授权自己的肖像获得可持续收入，建立创作者和商家之间的双赢生态。",
+        "problemSolved": "解决了服装电商拍摄成本高、周期长、风格单一的痛点。传统拍摄需要雇佣模特、化妆师、摄影师，租场地，单次拍摄动辄数千元且需排队等待；ModelSnap 让用户在线几分钟内就能生成多张不同风格的模特图，成本仅为传统拍摄的十分之一。",
+        "score": 8,
+        "scoreReason": "切入点精准，直击服装电商的高频刚需痛点，市场规模大且付费意愿强。产品形态清晰、商业模式直接（按张/按月订阅），同时兼顾了 AI 伦理（模特授权），具备差异化竞争优势和品牌故事性。扣分项是赛道已有不少玩家（ZMO.ai、Veesual 等），获客成本需要控制。",
+        "competitors": [
+          {
+            "name": "ZMO.ai",
+            "url": "https://www.zmo.ai/",
+            "comparison": "国内较早入局的 AI 模特生成工具，功能更全面（含背景生成、模特库更大），但价格较高，主要服务中大型品牌。"
+          },
+          {
+            "name": "Veesual",
+            "url": "https://www.veesual.com/",
+            "comparison": "欧美竞品，主打虚拟试穿和模特图生成，集成了电商平台插件，深耕 Shopify 生态，但亚洲模特资源较少。"
+          },
+          {
+            "name": "Pixvogue",
+            "url": "https://pixvogue.com/",
+            "comparison": "印度同类产品，主打性价比，模特以印度和欧美面孔为主，在东南亚市场有一定份额，但中文支持和本地化不足。"
+          }
+        ]
+      },
+      "screenshotUrl": "assets/screenshots/modelsnap_20260918_121217.png",
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null
+    },
+    {
+      "id": "v2ex.com/t/1242903",
+      "name": "FormulaAI",
+      "slug": "formulaai",
+      "description": "基于 AI 的 Excel 智能处理工具，支持用自然语言描述需求来自动修改表格、生成公式和创建新表。核心卖点是隐私安全——Excel 文件在浏览器本地解析，不上传服务器，只把数据摘要发给 AI 处理，处理完即删。",
+      "url": "https://formulaai.net/",
+      "homepage": "https://formulaai.net/",
+      "type": "website",
+      "tags": [
+        "AI办公",
+        "Excel工具",
+        "效率提升",
+        "隐私安全",
+        "生产力"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "firstSeen": "2026-09-18T02:54:44+00:00",
+      "lastUpdated": "2026-09-18T04:12:17.147323+00:00",
+      "cooldownExpiresAt": "2026-10-02T04:11:11.450206+00:00",
+      "metrics": {
+        "featuredInDaily": true,
+        "lastFeaturedDate": "2026-09-18",
+        "featuredInWeekly": false
+      },
+      "analysis": {
+        "targetAudience": "经常处理 Excel 表格的白领、财务、运营、数据分析人员，以及对数据隐私敏感的企业用户。",
+        "useCases": [
+          "用大白话描述需求（如\"按分数给成绩列加等级\"），AI 自动修改 Excel 并展示 diff 对比",
+          "根据描述直接生成完整的 Excel 表格（如\"3 月销售预算表\"）",
+          "财务人员快速处理月度报表，不用记复杂公式",
+          "运营人员批量处理用户数据，避免 VBA 和公式查找",
+          "处理含敏感数据的表格，确保文件不出本地浏览器"
+        ],
+        "designIntent": "降低 Excel 高级功能的使用门槛，让不懂公式和 VBA 的普通用户也能用自然语言完成复杂表格操作。同时将数据隐私作为核心差异化，针对企业用户和敏感数据场景提供安全可信的 AI 辅助方案。",
+        "problemSolved": "解决了普通用户记不住 Excel 公式、不会写 VBA、处理复杂表格效率低的问题。也解决了很多用户对 AI 工具上传敏感业务数据（财务、客户信息等）的隐私顾虑，通过本地解析+摘要处理的架构实现数据不出浏览器。",
+        "score": 7,
+        "scoreReason": "痛点真实、用户群体庞大（几乎所有办公人群都用 Excel），隐私安全这个差异化切入点抓得很好，尤其适合对数据敏感的金融、人力等岗位。扣分项是赛道已有 Excel AI Copilot 等强力竞品（微软自己也在做），产品功能相对基础，需要持续迭代构建壁垒。",
+        "competitors": [
+          {
+            "name": "Excel Copilot",
+            "url": "https://www.microsoft.com/en-us/microsoft-365/copilot-for-excel",
+            "comparison": "微软官方 AI 助手，深度集成在 Excel 内，功能最全面，但需要 Microsoft 365 订阅且数据上传云端，隐私敏感场景不适用。"
+          },
+          {
+            "name": "ChatExcel",
+            "url": "https://chatexcel.com/",
+            "comparison": "国内同类产品，支持对话式操作 Excel，功能更丰富（含图表生成、数据透视），但需上传文件到服务器，隐私性不如 FormulaAI。"
+          },
+          {
+            "name": "GPT for Sheets",
+            "url": "https://workspace.google.com/marketplace/app/gpt_for_sheets_and_docs/677318054659",
+            "comparison": "Google Sheets 插件，直接在表格内调用 AI 公式，适合 Google 生态用户，对 Excel 用户不友好。"
+          }
+        ]
+      },
+      "screenshotUrl": "assets/screenshots/formulaai_20260918_121357.png",
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null
+    },
+    {
+      "id": "reddit.com/r/sideproject/comments/1wjdvoy/ibuiltanaithatturnslecturesinto",
+      "name": "Lumo AI",
+      "slug": "lumo-ai",
+      "description": "AI 驱动的学习平台，可以将任何讲座视频、PDF 文档、研究论文或 YouTube 链接在 15 秒内转化为 9 种学习格式——笔记、抽认卡、测验、思维导图、幻灯片、播客式音频概览、信息图、简化讲解和学习指南。内置五 Agent 系统并行生成，支持学生和教师两种模式。",
+      "url": "https://lumo-learn.com/",
+      "homepage": "https://lumo-learn.com/",
+      "type": "saas",
+      "tags": [
+        "AI教育",
+        "学习工具",
+        "知识管理",
+        "学生工具",
+        "EdTech"
+      ],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "firstSeen": "2026-09-18T02:33:59+00:00",
+      "lastUpdated": "2026-09-18T04:12:17.147323+00:00",
+      "cooldownExpiresAt": "2026-10-02T04:11:11.450206+00:00",
+      "metrics": {
+        "featuredInDaily": true,
+        "lastFeaturedDate": "2026-09-18",
+        "featuredInWeekly": false
+      },
+      "analysis": {
+        "targetAudience": "中学生到大学生群体、备考考生、终身学习者，以及需要快速制作教学材料的 K12 和大学教师。",
+        "useCases": [
+          "上传课堂录音或讲座视频，一键生成结构化笔记 + 抽认卡 + 测验题",
+          "读长论文时快速生成思维导图和简化版解释，把握核心观点",
+          "教师将教学内容转化为多种格式的课堂材料和作业",
+          "考前复习用音频概览功能，通勤路上听知识点总结",
+          "YouTube 学习视频转文字笔记和交互式测验"
+        ],
+        "designIntent": "让学习内容从被动接收变成主动互动，通过一次输入生成多种学习格式，适配不同学习风格（视觉型、听觉型、阅读型、动手型）。用多 Agent 并行架构实现 15 秒极速生成，解决同类工具等待时间长的痛点。",
+        "problemSolved": "解决了传统学习方式效率低、形式单一的问题。学生听课/看视频后往往只能被动吸收，缺乏主动复习材料；手动做笔记、做卡片、出题目耗时巨大。Lumo AI 一键生成 9 种学习格式，大幅降低复习和备课的时间成本。",
+        "score": 8,
+        "scoreReason": "产品定位清晰，9 种输出格式的多 Agent 架构是显著的差异化优势，生成速度（15秒）远超同类产品。目标用户群体庞大（全球学生和教师），付费意愿强，且有教师端 B 端拓展空间。扣分项是教育 AI 赛道竞争激烈（NotebookLM、Khanmigo 等），需持续构建内容质量和用户留存壁垒。",
+        "competitors": [
+          {
+            "name": "NotebookLM",
+            "url": "https://notebooklm.google/",
+            "comparison": "谷歌推出的 AI 笔记工具，主打音频概览（播客式对话），品牌影响力大，但输出格式少（主要是笔记+音频），面向更通用的知识管理场景。"
+          },
+          {
+            "name": "Quizlet Plus",
+            "url": "https://quizlet.com/",
+            "comparison": "老牌闪卡学习工具，近年加入 AI 功能（AI 出题、解释等），用户基数大、内容生态丰富，但需要手动输入内容，不支持从讲座/视频一键生成。"
+          },
+          {
+            "name": "Khanmigo",
+            "url": "https://www.khanacademy.org/khanmigo",
+            "comparison": "Khan Academy 的 AI 导师，主打苏格拉底式引导教学，互动性强，但内容局限于 Khan 课程体系，不支持用户上传任意学习材料。"
+          }
+        ]
+      },
+      "screenshotUrl": "assets/screenshots/lumo-ai_20260918_121656.png",
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null
+    },
+    {
+      "id": "x.com/fhwofjow51260/status/2100569731522781650",
+      "name": "OpenStock",
+      "slug": "openstock",
+      "description": "免费开源的 AI 股市行情跟踪平台，提供实时股价、个性化预警、公司深度洞察等功能。集成 AI 市场情绪分析（聚合 Reddit、X、财经新闻和 Polymarket 预测市场）和 AI 生成的每周市场摘要，支持 30+ 国际交易所，AGPL-3.0 协议开源。",
+      "url": "https://openstock-ods.vercel.app/",
+      "homepage": "https://openstock-ods.vercel.app/",
+      "type": "website",
+      "tags": [
+        "AI金融",
+        "股票工具",
+        "开源项目",
+        "市场分析",
+        "投资理财"
+      ],
+      "sourceChannels": [
+        "twitter"
+      ],
+      "firstSeen": "2026-09-17T12:57:05+00:00",
+      "lastUpdated": "2026-09-18T04:12:17.147323+00:00",
+      "cooldownExpiresAt": "2026-10-02T04:11:11.450206+00:00",
+      "metrics": {
+        "featuredInDaily": true,
+        "lastFeaturedDate": "2026-09-18",
+        "featuredInWeekly": false
+      },
+      "analysis": {
+        "targetAudience": "个人投资者、金融学生、理财爱好者，以及不想为行情软件付费的散户投资者。",
+        "useCases": [
+          "免费查看 30+ 国际交易所的实时股价和技术指标图表",
+          "设置个性化价格提醒，目标价位触发时邮件通知",
+          "用 AI 市场情绪分析辅助投资决策，综合多源舆论数据",
+          "每周接收 AI 生成的市场摘要邮件，快速了解市场动态",
+          "技术爱好者自托管部署，完全掌控自己的投资数据"
+        ],
+        "designIntent": "打破昂贵金融数据平台的付费墙，让普通散户也能免费获得专业级的行情数据和 AI 分析能力。以开源模式构建社区驱动的金融工具生态，让用户拥有数据自主权，不受商业平台的功能限制和算法黑箱影响。",
+        "problemSolved": "解决了主流金融平台（Bloomberg、同花顺高级版等）价格昂贵、功能层层收费的痛点。普通散户往往只能看基础行情，想要深度分析和预警就必须付费订阅；OpenStock 把实时行情、TradingView 图表、AI 情绪分析、价格预警全部免费开源提供。",
+        "score": 7,
+        "scoreReason": "GitHub 1.4万星验证了社区热度，开源免费模式对散户投资者吸引力强，AI 情绪分析是差异化亮点。扣分项是金融数据合规性存疑（Finnhub 免费层数据延迟），且纯开源模式商业化路径不清晰，长期维护可持续性待观察。",
+        "competitors": [
+          {
+            "name": "TradingView",
+            "url": "https://www.tradingview.com/",
+            "comparison": "全球最流行的金融图表平台，社区生态强大、指标丰富，但高级功能（实时数据、警报数量）需付费订阅，免费层限制多。"
+          },
+          {
+            "name": "Finviz",
+            "url": "https://finviz.com/",
+            "comparison": "老牌股票筛选和可视化工具，热力图和筛选器强大，但界面老旧、AI 功能缺失，核心功能需付费解锁。"
+          },
+          {
+            "name": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/",
+            "comparison": "最知名的免费财经门户，覆盖全面但广告多、数据有延迟，AI 分析功能薄弱，以资讯聚合为主。"
+          }
+        ]
+      },
+      "screenshotUrl": "assets/screenshots/openstock_20260918_121956.png",
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null
+    },
+    {
+      "id": "reddit.com/r/sideproject/comments/1wjdsde/builtawebsitetoseewhatyourcompetitors",
+      "name": "Kursive",
+      "slug": "kursive",
+      "description": "AI 驱动的竞对营销策略分析工具，输入竞争对手的产品名称或域名，就能自动生成其完整的营销策略分析报告，包括广告投放、内容营销、SEO、社媒运营等维度的拆解，帮助创业者和营销人员快速了解竞品打法。",
+      "url": "https://kursive.ai/",
+      "homepage": "https://kursive.ai/",
+      "type": "saas",
+      "tags": [
+        "AI营销",
+        "竞品分析",
+        "SaaS",
+        "市场调研",
+        "增长工具"
+      ],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "firstSeen": "2026-09-18T02:29:57+00:00",
+      "lastUpdated": "2026-09-18T04:12:17.147323+00:00",
+      "cooldownExpiresAt": "2026-10-02T04:11:11.450206+00:00",
+      "metrics": {
+        "featuredInDaily": true,
+        "lastFeaturedDate": "2026-09-18",
+        "featuredInWeekly": false
+      },
+      "analysis": {
+        "targetAudience": "创业者、市场/营销人员、产品经理、增长黑客，以及需要快速了解竞品动态的 SaaS 和互联网公司。",
+        "useCases": [
+          "产品上线前调研竞品营销策略，制定差异化定位和推广方案",
+          "持续监控竞争对手的广告创意和投放渠道变化",
+          "营销人员分析行业头部品牌的内容策略和 SEO 布局",
+          "投资人做尽调时快速了解目标公司的获客方式和增长路径",
+          "独立开发者找对标产品，避免重复造轮子，寻找市场空白"
+        ],
+        "designIntent": "用 AI 自动化竞品营销调研这一繁琐的工作，让创业者和小团队也能快速获得过去需要专业分析师花几天才能完成的竞对分析报告。降低市场进入的信息门槛，让资源有限的团队也能做出数据驱动的营销决策。",
+        "problemSolved": "解决了竞品营销调研费时费力、信息零散的痛点。传统方式需要人工去翻竞品网站、查广告库、搜社媒帖子、分析 SEO，往往要花几小时甚至几天；Kursive 用 AI 一键聚合多源信息并结构化输出，几分钟内就能拿到完整报告。",
+        "score": 7,
+        "scoreReason": "B 端营销工具赛道需求稳定，产品定位明确、用户付费意愿强，适合按报告/按月订阅收费。扣分项是该赛道已有较多竞品（Klue、Crayon 等老牌工具，以及 Kompete、Rivalize 等 AI 新玩家），差异化不足，需要在数据源深度和分析质量上建立壁垒。",
+        "competitors": [
+          {
+            "name": "Klue",
+            "url": "https://www.klue.com/",
+            "comparison": "老牌企业级竞对情报平台，功能全面（Battlecard、Win/Loss 分析等），服务中大型企业，价格昂贵（年度合同数万美元起），不适合中小团队。"
+          },
+          {
+            "name": "Kompete.ai",
+            "url": "https://www.kompete.ai/",
+            "comparison": "AI 原生竞对情报工具，监控维度更全（定价、产品、招聘、评论等），偏企业级销售赋能，功能更重。"
+          },
+          {
+            "name": "IntelCue",
+            "url": "https://www.intelcue.ai/",
+            "comparison": "轻量级 AI 竞品监控，$8.99/月低价切入，支持 MCP 协议接入 AI 助手，价格有竞争力但分析深度相对有限。"
+          }
+        ]
+      },
+      "screenshotUrl": "assets/screenshots/kursive_20260918_122256.png",
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null
     }
   ],
-  "lastUpdated": "2026-09-16T04:10:56.402223+00:00",
-  "totalProducts": 554
+  "lastUpdated": "2026-09-18T04:12:17.147323+00:00",
+  "totalProducts": 554,
+  "totalCount": 574
 }
