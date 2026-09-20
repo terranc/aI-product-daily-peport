@@ -36270,6 +36270,326 @@
       },
       "addedAt": "2026-09-19T04:08:57.239297+00:00",
       "cooldownExpiresAt": "2026-10-03T04:08:57.239297+00:00"
+    },
+    {
+      "id": "producthunt.com/r/p/1249952",
+      "name": "Lumiko 智能屏幕录制",
+      "slug": "lumiko",
+      "description": "一款浏览器端的智能屏幕录制工具，内置 AI 自动变焦与摇移引擎，能追踪你的光标和点击位置，自动生成电影般顺滑的缩放和移动效果，无需手动设置关键帧。还支持智能模糊隐藏敏感信息、时间轴剪辑、摄像头画中画、4K 导出，全程本地运行无需上传。",
+      "url": "https://lumiko.dev/",
+      "type": "website",
+      "tags": [
+        "屏幕录制",
+        "AI视频编辑",
+        "生产力工具",
+        "创作者工具"
+      ],
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-09-20"
+      },
+      "analysis": {
+        "targetAudience": "内容创作者、产品经理、开发者、教师等需要制作演示视频或教程的人群。",
+        "useCases": [
+          "制作产品功能演示视频，自动聚焦关键操作区域",
+          "录制编程教程，光标移动处自动放大便于观看",
+          "生成客户支持演示视频，一键隐藏敏感信息",
+          "团队内部知识分享，快速产出高质量录屏",
+          "社交媒体短视频创作，电影感摇移提升吸引力"
+        ],
+        "designIntent": "Lumiko 的设计初衷是让普通人也能制作出专业级别的屏幕录制视频。传统录屏工具需要手动添加关键帧才能实现缩放效果，门槛高且耗时；Lumiko 通过 AI 追踪光标和点击行为，自动生成流畅的变焦和摇移动画，把专业视频制作能力下放到每一个使用者。",
+        "problemSolved": "解决了屏幕录制视频单调乏味、重点不突出的问题。传统录屏要么是全屏固定视角观众看不到细节，要么需要花费大量时间在剪辑软件里手动加关键帧。Lumiko 把 AI 视觉分析内置到录制流程中，一键产出带有电影感运镜的成品视频，大幅降低了高质量录屏的制作门槛。",
+        "tags": [
+          "屏幕录制",
+          "AI视频编辑",
+          "生产力工具",
+          "创作者工具"
+        ],
+        "score": 8,
+        "scoreReason": "产品定位清晰，自动变焦功能切中了录屏创作者的真实痛点，浏览器即用、免费额度充足降低了试用门槛。本地运行不上传的设计也符合隐私趋势。但赛道已有同类产品（如 Tella、CleanShot）竞争，差异化空间需要持续挖掘。",
+        "competitors": [
+          {
+            "name": "CleanShot X",
+            "url": "https://cleanshot.com/",
+            "comparison": "Mac 端老牌录屏工具，功能全面但需要下载安装，AI 自动变焦是其近期才加入的功能，成熟度略逊于 Lumiko 的专门优化。"
+          },
+          {
+            "name": "Tella",
+            "url": "https://www.tella.tv/",
+            "comparison": "同样是浏览器端录屏编辑器，侧重视频排版和模板，AI 运镜能力不是核心，Lumiko 在自动变焦这个垂直点上做得更深入。"
+          },
+          {
+            "name": "Kapwing",
+            "url": "https://www.kapwing.com/",
+            "comparison": "全功能在线视频编辑器，录屏只是其中一个模块，变焦需要手动操作，Lumiko 更专注于录屏场景的 AI 自动化。"
+          }
+        ]
+      },
+      "addedAt": "2026-09-20T04:12:19.029737+00:00",
+      "lastUpdated": "2026-09-20T04:12:19.029737+00:00",
+      "firstSeen": "2026-09-20T04:12:19.029737+00:00",
+      "cooldownExpiresAt": "2026-10-04T04:12:59.275606+00:00",
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1249952_20260920_121219.png"
+    },
+    {
+      "id": "reddit.com/r/sideproject/comments/1wl46vv/ibuiltanappthatdiagnoseshomerepairsfroma",
+      "name": "SnapDiagnose 家庭维修诊断",
+      "slug": "snapdiagnose",
+      "description": "一款 AI 驱动的家庭维修诊断 App，拍下家里漏水、裂缝、异响等问题的照片，就能获得即时诊断结果、安全评估（是否可以 DIY）、所需零件清单和大致费用，以及分步视频教程。遇到照片无法判断的情况会主动追问而非猜测，照片不会被存储。",
+      "url": "https://apps.apple.com/us/app/snapdiagnose/id6780237131",
+      "type": "app",
+      "tags": [
+        "家居维修",
+        "AI视觉",
+        "生活工具",
+        "智能家居"
+      ],
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-09-20"
+      },
+      "analysis": {
+        "targetAudience": "房主、租房者、DIY 爱好者、首次购房者等需要处理家庭维修问题的普通用户。",
+        "useCases": [
+          "发现墙面或天花板裂缝，拍照判断严重程度和是否需要专业介入",
+          "水管漏水时快速识别问题类型，了解 DIY 修复步骤和所需工具",
+          "电器出故障报错，拍照获取初步诊断和费用估算",
+          "购买二手房前，拍照检查常见问题预估维修成本",
+          "出租屋出现问题，先判断是自己处理还是联系房东"
+        ],
+        "designIntent": "SnapDiagnose 的设计初衷是消除普通人面对家庭维修问题时的无力感。很多人看到家里东西坏了第一反应是不知所措——不知道问题严不严重、该找谁、要花多少钱。这款 App 想用 AI 视觉能力把专业判断交到每个人手里，让用户在叫维修工之前就心里有数。",
+        "problemSolved": "解决了家庭维修信息不对称的问题。传统情况下，家里东西坏了要么盲目 DIY 搞砸，要么花几百刀叫维修工来发现只是小问题。SnapDiagnose 用 AI 做初筛，告诉用户问题是什么、能不能自己修、大概花多少钱，既避免了不必要的维修费用，也能在真正需要时做好准备。",
+        "tags": [
+          "家居维修",
+          "AI视觉",
+          "生活工具",
+          "智能家居"
+        ],
+        "score": 7,
+        "scoreReason": "切入点非常贴近生活，安全优先和隐私保护（不存照片）的设计很加分。但 AI 诊断准确率是核心挑战，误诊可能导致安全问题；而且家庭维修场景低频，变现路径需要验证。整体是个有社会价值的小而美产品。",
+        "competitors": [
+          {
+            "name": "HomeDiagnostic",
+            "url": "https://apps.apple.com/us/app/home-diagnostic/id6777727708",
+            "comparison": "同类型 AI 家居诊断 App，支持照片、视频、音频和文字多模态输入，功能更多样，但 SnapDiagnose 在安全评估和 DIY 指导方面更聚焦。"
+          },
+          {
+            "name": "DIY Repair AI: Snap & Fix",
+            "url": "https://apps.apple.com/us/app/diy-repair-ai-snap-fix/id6758302046",
+            "comparison": "侧重 DIY 修复教程和购物清单，价格对比 Home Depot/Lowe's，更偏向省钱导向，安全评估不如 SnapDiagnose 突出。"
+          },
+          {
+            "name": "Frontdoor",
+            "url": "https://frontdoor.com/",
+            "comparison": "老牌家庭保修服务公司，提供视频专家咨询（首诊免费），有真人专家背书，但需要付费订阅且速度不如 AI 即时。"
+          }
+        ]
+      },
+      "addedAt": "2026-09-20T04:12:19.029737+00:00",
+      "lastUpdated": "2026-09-20T04:12:19.029737+00:00",
+      "firstSeen": "2026-09-20T04:12:19.029737+00:00",
+      "cooldownExpiresAt": "2026-10-04T04:12:59.275606+00:00",
+      "sourceChannels": [
+        "reddit"
+      ],
+      "screenshotUrl": "assets/screenshots/reddit.com_r_sideproject_comments_1wl46vv_ibuiltanappthatdiagnoseshomerepairsfroma_20260920_121226.png"
+    },
+    {
+      "id": "producthunt.com/r/p/1250937",
+      "name": "Lull 个性化冥想",
+      "slug": "lull-meditation",
+      "description": "一款 AI 个性化冥想应用，不用在海量冥想库里翻找——直接说出你当下的感受和困扰，它就会为你生成一段专属的冥想引导，用 11 种声音中的一种朗读。支持与 Oura 戒指联动根据恢复数据调整语气，Apple Watch 可记录心率变化。",
+      "url": "https://lullme.app/",
+      "type": "app",
+      "tags": [
+        "冥想正念",
+        "心理健康",
+        "AI生成内容",
+        "健康管理"
+      ],
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-09-20"
+      },
+      "analysis": {
+        "targetAudience": "有焦虑、失眠、压力困扰，希望通过冥想改善但找不到适合自己内容的都市人群。",
+        "useCases": [
+          "睡前花一分钟说清楚今天的烦心事，生成专属入眠冥想",
+          "工作压力大时，快速来一段针对当前情绪的 2 分钟快速冥想",
+          "Oura 数据显示恢复不佳时，自动推荐更舒缓的冥想内容",
+          "Apple Watch 心率监测，验证冥想是否真的让你平静下来",
+          "通勤路上听一段根据当天状态生成的正念练习"
+        ],
+        "designIntent": "Lull 的设计初衷是让冥想真正适配每个人当下的状态。传统冥想 App 有几百上千条预制内容，用户要花时间找匹配的，结果往往是「大概对得上」。Lull 用 AI 生成定制化内容，让每次冥想都精准对应你此刻的心情和处境，而不是反过来让你去适应内容。",
+        "problemSolved": "解决了冥想内容与个人状态不匹配的痛点。很多人想冥想但不知道选什么，选了又觉得讲的不是自己的问题，几次之后就放弃了。Lull 把「找内容」变成「说出来」，AI 直接为你生成，降低了冥想的启动门槛，也让内容更贴合真实需求。",
+        "tags": [
+          "冥想正念",
+          "心理健康",
+          "AI生成内容",
+          "健康管理"
+        ],
+        "score": 8,
+        "scoreReason": "产品切入心理健康赛道的真实痛点——冥想内容标准化和个性化需求的矛盾。AI 生成内容完美适配这个场景，与可穿戴设备联动也增加了数据维度和留存可能性。免费快速冥想永久可用的定价策略也很友好。但赛道已有 Calm、Headspace 等巨头，差异化需要持续强化。",
+        "competitors": [
+          {
+            "name": "Calm",
+            "url": "https://www.calm.com/",
+            "comparison": "冥想赛道绝对巨头，内容库庞大且有明星配音，但内容都是预制的，无法根据当下情绪定制，Lull 的 AI 个性化是显著差异。"
+          },
+          {
+            "name": "Headspace",
+            "url": "https://www.headspace.com/",
+            "comparison": "另一家知名冥想 App，课程体系化强，适合系统性学习，但同样是标准化内容，不如 Lull 灵活。"
+          },
+          {
+            "name": "Endel",
+            "url": "https://endel.io/",
+            "comparison": "AI 生成的环境音冥想应用，侧重声音环境而非引导语，Lull 则是 AI 生成完整的冥想引导脚本，两者方向不同。"
+          }
+        ]
+      },
+      "addedAt": "2026-09-20T04:12:19.029737+00:00",
+      "lastUpdated": "2026-09-20T04:12:19.029737+00:00",
+      "firstSeen": "2026-09-20T04:12:19.029737+00:00",
+      "cooldownExpiresAt": "2026-10-04T04:12:59.275606+00:00",
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1250937_20260920_121235.png"
+    },
+    {
+      "id": "producthunt.com/r/p/1253278",
+      "name": "Keysake 边打中文边学英语",
+      "slug": "keysake",
+      "description": "一款 macOS 系统级输入法工具，打中文字的时候旁边会实时显示对应的地道英文表达，不用切换 App、不用打断思路，就能在日常打字中自然学习英语。支持双击空格保存整句复习、内置语法解析讲解，免费使用，后续将增加日语、韩语等更多语言。",
+      "url": "https://keysake.ai/",
+      "type": "app",
+      "tags": [
+        "英语学习",
+        "输入法",
+        "效率工具",
+        "Mac应用"
+      ],
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-09-20"
+      },
+      "analysis": {
+        "targetAudience": "中文为母语、经常打字且想提升英语能力的 Mac 用户，特别是职场人和学生。",
+        "useCases": [
+          "写中文邮件时顺便学习对应的商务英语表达",
+          "日常聊天打字中积累地道口语化英文句子",
+          "双击空格保存好的句子，之后集中复习语法结构",
+          "写中文文档时对照英文提升翻译感和语感",
+          "准备英语写作考试，从自己的中文表达出发反向学习"
+        ],
+        "designIntent": "Keysake 的设计初衷是把英语学习融入日常、消解学习感。传统学英语需要专门抽时间、打开 App、背单词——大多数人坚持不下来。Keysake 把学习嵌入到你每天都在做的打字动作里，打中文字的同时顺便看一眼英文，零启动成本、零额外时间，用「润物细无声」的方式提升英语能力。",
+        "problemSolved": "解决了英语学习「启动成本高、难以坚持」的问题。很多人想学英语但总说没时间，或者下载了一堆 App 只打开过几次。Keysake 完全不需要额外时间和意志力——它就在你的输入法里，你打字它就出现，学习发生在不知不觉中。这种「嵌入日常行为」的学习方式比刻意学习可持续得多。",
+        "tags": [
+          "英语学习",
+          "输入法",
+          "效率工具",
+          "Mac应用"
+        ],
+        "score": 8,
+        "scoreReason": "创意非常巧妙，把学习嵌入输入法这个高频场景，解决了语言学习的坚持难题。产品形态轻量、免费模式降低门槛，从 Product Hunt 200+ 赞和 69 条评论看市场反馈不错。但目前仅支持 Mac 和中英双语，覆盖人群有限，且翻译质量是核心体验瓶颈。",
+        "competitors": [
+          {
+            "name": "扇贝单词/不背单词",
+            "url": "https://www.shanbay.com/",
+            "comparison": "传统单词背诵 App，需要主动打开学习，靠打卡机制驱动坚持，和 Keysake 的被动嵌入学习路径完全不同。"
+          },
+          {
+            "name": "DeepL 翻译",
+            "url": "https://www.deepl.com/",
+            "comparison": "高质量翻译工具，但需要主动复制粘贴去查，定位是翻译而非学习，Keysake 更强调在日常输入中潜移默化地学。"
+          },
+          {
+            "name": "Grammarly",
+            "url": "https://www.grammarly.com/",
+            "comparison": "英文写作辅助工具，帮你在写英文时修正语法和措辞，而 Keysake 是在你写中文时显示英文对照，方向刚好相反。"
+          }
+        ]
+      },
+      "addedAt": "2026-09-20T04:12:19.029737+00:00",
+      "lastUpdated": "2026-09-20T04:12:19.029737+00:00",
+      "firstSeen": "2026-09-20T04:12:19.029737+00:00",
+      "cooldownExpiresAt": "2026-10-04T04:12:59.275606+00:00",
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1253278_20260920_121244.png"
+    },
+    {
+      "id": "producthunt.com/r/p/1252047",
+      "name": "Infinomni 涂鸦变 3D 机器人",
+      "slug": "infinomni",
+      "description": "一个 AI 驱动的创意平台，把你画的 2D 角色涂鸦变成可互动的 3D 数字伙伴，还能生成 3D 打印或激光切割的实体机器人套件图纸和组装说明。从手绘草稿到网页中可玩的 3D 角色，再到可以拼出来的物理机器人，一条龙完成。",
+      "url": "https://infinomni.com/",
+      "type": "website",
+      "tags": [
+        "AI创意工具",
+        "3D生成",
+        "儿童教育",
+        "机器人"
+      ],
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-09-20"
+      },
+      "analysis": {
+        "targetAudience": "创意爱好者、家长和孩子、3D 打印爱好者、教育工作者等喜欢动手创作的人群。",
+        "useCases": [
+          "孩子画了个小怪兽，上传后变成可在网页里互动的 3D 角色",
+          "3D 打印爱好者把手绘角色变成可打印的 STL 文件",
+          "教育场景中让学生把自己的创意设计变成可动的小机器人",
+          "设计师快速把手绘概念图转化为 3D 原型验证",
+          "亲子互动：一起画画、一起组装实体机器人套件"
+        ],
+        "designIntent": "Infinomni 的设计初衷是让每个人都能把自己画的角色「活」过来。创始人 Andy 曾在 Zoox 和 Oculus 做工程师，他相信每个人童年都有自己画的独特角色，但大多数人不会 3D 建模也不会做机器人。Infinomni 用 AI 消除技术门槛，让一张画就能变出数字伙伴和物理机器人。",
+        "problemSolved": "解决了「创意到实物」链条太长的问题。从手绘角色到 3D 模型再到物理机器人，过去需要建模软件、3D 打印知识、电子工程基础等多种技能，普通人根本做不到。Infinomni 把这些步骤全部用 AI 自动化，上传一张画就能拿到 3D 互动角色和实体套件图纸，把创作的乐趣还给所有人。",
+        "tags": [
+          "AI创意工具",
+          "3D生成",
+          "儿童教育",
+          "机器人"
+        ],
+        "score": 7,
+        "scoreReason": "产品想象力十足，从数字到物理的完整链路很有吸引力，尤其适合亲子和教育场景。创始人背景（Zoox/Oculus 工程师）也为产品质量背书。但目前还在开发早期，适配度和成品质量需要验证，实体机器人套件的供应链和售后也是挑战。",
+        "competitors": [
+          {
+            "name": "Meshy AI",
+            "url": "https://www.meshy.ai/",
+            "comparison": "专业 AI 图像转 3D 模型工具，面向创作者和游戏开发者，功能强大但偏专业工具定位，Infinomni 更偏向消费者和亲子场景，且提供实体机器人套件。"
+          },
+          {
+            "name": "Monster Mash",
+            "url": "https://monstermash.zone/",
+            "comparison": "免费的涂鸦膨胀成 3D 工具，操作简单但功能有限，没有实体制造和互动玩法，偏轻量体验。"
+          },
+          {
+            "name": "Figmee",
+            "url": "https://figmee.me/en",
+            "comparison": "专注于把手绘角色变成 3D 公仔风格模型，强调保留手绘质感，但只能导出 3D 文件，没有 Infinomni 的互动玩法和实体机器人链路。"
+          }
+        ]
+      },
+      "addedAt": "2026-09-20T04:12:19.029737+00:00",
+      "lastUpdated": "2026-09-20T04:12:19.029737+00:00",
+      "firstSeen": "2026-09-20T04:12:19.029737+00:00",
+      "cooldownExpiresAt": "2026-10-04T04:12:59.275606+00:00",
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1252047_20260920_121251.png"
     }
   ],
   "lastUpdated": "2026-09-19T04:08:57.239297+00:00",
