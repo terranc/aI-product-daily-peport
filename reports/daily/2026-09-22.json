@@ -1,0 +1,287 @@
+{
+  "date": "2026-09-22",
+  "generatedAt": "2026-09-22T04:19:38.471366+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "producthunt.com/r/p/1232990",
+      "name": "Supacut",
+      "slug": "supacut",
+      "description": "AI 驱动的采访素材探索工具，帮助视频编辑人员在数小时的采访 footage 中快速定位最佳片段、按主题整理素材，并导出粗剪到 Premiere、DaVinci Resolve 或 Final Cut Pro。",
+      "url": "https://supacut.io",
+      "homepage": "https://supacut.io",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1232990_20260922_122024.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "视频剪辑",
+        "AI 辅助",
+        "内容创作",
+        "效率工具",
+        "采访素材"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1232990?app_id=339",
+      "firstSeen": "2026-09-22T04:19:38.471366+00:00",
+      "analysis": {
+        "targetAudience": "纪录片制作人、品牌内容团队、企业视频部门、播客视频创作者等需要处理大量采访素材的视频编辑从业者。",
+        "useCases": [
+          "纪录片制作前期素材整理与最佳片段筛选",
+          "企业客户故事/人物专访视频的快速粗剪生成",
+          "品牌内容团队从多场采访中提取核心金句",
+          "YouTube 长视频创作者快速定位有价值的声音片段",
+          "播客视频化过程中筛选视觉上最佳的说话镜头"
+        ],
+        "designIntent": "Supacut 的设计初衷是把 AI 用在视频剪辑中最耗时的「看素材」环节，而不是替代剪辑师本身。它通过 AI 对采访内容进行主题分类和金句提取，让编辑人员把精力留给创意决策而非机械劳动。自带 API Key 的模式也尊重用户对成本的控制权。",
+        "problemSolved": "传统视频剪辑流程中，编辑需要花数小时甚至数天逐帧浏览采访素材才能找到可用片段，效率极低。Supacut 用 AI 预先分析全部内容并建立结构化索引，大幅缩短从素材到粗剪的时间，同时保持编辑对最终叙事的完全掌控。",
+        "score": 8,
+        "scoreReason": "产品定位非常精准，直击视频编辑行业的真实痛点——采访素材的前期探索。采用自带 API Key 的模式降低了订阅门槛，且数据本地化处理符合隐私需求。$39/年的定价策略也很有竞争力。扣分项在于仅覆盖采访类场景，适用面相对有限。",
+        "competitors": [
+          {
+            "name": "Descript",
+            "url": "https://descript.com",
+            "comparison": "Descript 是全能型音频/视频编辑平台，支持转录、剪辑、配音等全流程，但价格较高且侧重于播客场景。Supacut 更专注于采访素材探索这一细分环节，定位更轻量、价格更低。"
+          },
+          {
+            "name": "Runway",
+            "url": "https://runwayml.com",
+            "comparison": "Runway 是广义的 AI 视频创作平台，功能涵盖生成式视频、运动追踪等，但在采访素材整理这个具体场景上并非其强项。Supacut 的优势在于深度聚焦采访工作流。"
+          },
+          {
+            "name": "Opus Clip",
+            "url": "https://opus.pro",
+            "comparison": "Opus Clip 主要面向短视频自动剪辑（从长视频切出高光片段），侧重社交媒体分发。Supacut 则服务于专业剪辑工作流，输出 XML/FCPXML 供专业 NLE 使用。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1256721",
+      "name": "Google Flow 移动端",
+      "slug": "google-flow",
+      "description": "Google 旗下的 AI 创意工作室移动端版本，提供电影级视频生成、图像创作和自定义工具能力，让创作者在手机上就能使用 Google 先进的生成式模型。",
+      "url": "https://flow.google.com",
+      "homepage": "https://flow.google.com",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1256721_20260922_122033.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 创作",
+        "视频生成",
+        "图像生成",
+        "创意工具",
+        "Google"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1256721?app_id=339",
+      "firstSeen": "2026-09-22T04:19:38.471366+00:00",
+      "analysis": {
+        "targetAudience": "内容创作者、设计师、营销人员、社交媒体运营者以及对 AI 生成内容感兴趣的普通用户。",
+        "useCases": [
+          "为社交媒体快速生成电影级短视频内容",
+          "产品营销物料的图像和视频创意制作",
+          "设计师探索创意概念和视觉风格原型",
+          "手机端随时随地进行 AI 艺术创作",
+          "用自定义工具（Applets）实现特定创作工作流"
+        ],
+        "designIntent": "Google Flow 的设计初衷是将 Google 最先进的生成式 AI 能力以直观易用的方式带给广大创作者。移动端版本的推出意在打破创作的设备限制，让用户随时随地都能将想法转化为高质量的视觉内容，同时通过 Applets 生态让创作流程可定制、可分享。",
+        "problemSolved": "传统的专业视频和图像创作需要昂贵的软件和高性能电脑，门槛高且流程复杂。Google Flow 将强大的生成式模型封装在简洁的移动端界面中，大幅降低了高质量视觉内容的创作门槛，让非专业用户也能产出专业水准的作品。",
+        "score": 9,
+        "scoreReason": "Google 官方出品的 AI 创意工具，技术实力有保障，移动端版本的推出进一步扩大了用户覆盖面。产品功能覆盖视频、图像和自定义工具三个维度，生态潜力大。扣分项在于生成式 AI 工具的同质化竞争激烈，需要持续领先才能保持优势。",
+        "competitors": [
+          {
+            "name": "Runway",
+            "url": "https://runwayml.com",
+            "comparison": "Runway 是当前 AI 视频创作领域的领导者，功能全面且社区活跃，已有大量专业用户。Google Flow 凭借 Google 的模型技术和品牌优势有后发优势，但生态积累尚浅。"
+          },
+          {
+            "name": "Pika",
+            "url": "https://pika.art",
+            "comparison": "Pika 专注于文生视频，以简单易用和效果出色著称，用户基数很大。Google Flow 的优势在于多模态（视频+图像+工具）和 Google 生态的整合能力。"
+          },
+          {
+            "name": "Canva Magic Studio",
+            "url": "https://www.canva.com",
+            "comparison": "Canva 是设计领域的巨头，其 Magic Studio 集成了多种 AI 创作功能，面向的是更广泛的非专业用户。Google Flow 在视频生成质量上可能更优，但 Canva 的模板和素材生态更成熟。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "v2ex.com/t/1243908",
+      "name": "AetherPDF",
+      "slug": "aetherpdf",
+      "description": "AI 驱动的专业 PDF 编辑器，支持多文档多 Agent 协作工作台。一个主 Agent 负责拆解任务并派出子 Agent 并行处理多个 PDF 文档，内置技能系统可沉淀可复用的文档处理流程。",
+      "url": "https://aetherpdf.com",
+      "homepage": "https://aetherpdf.com",
+      "type": "app",
+      "appStoreName": "AetherPDF",
+      "appStoreUrl": "https://apps.apple.com/cn/app/aetherpdf/id6785851686?mt=12",
+      "screenshotUrl": "assets/screenshots/v2ex.com_t_1243908_20260922_122044.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "PDF 工具",
+        "AI 办公",
+        "多 Agent",
+        "效率工具",
+        "文档处理"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "sourceUrl": "https://www.v2ex.com/t/1243908",
+      "firstSeen": "2026-09-22T04:19:38.471366+00:00",
+      "analysis": {
+        "targetAudience": "财务人员、行政人员、律师、研究者、产品经理等需要批量处理 PDF 文档的办公人群。",
+        "useCases": [
+          "批量发票金额、日期、供应商提取并汇总为统计表",
+          "合同文档批量关键条款审查与比对",
+          "研究论文多文档信息提取与综述整理",
+          "行政报销单据批量分类与数据录入",
+          "产品经理从多份竞品文档中提取关键功能点对比"
+        ],
+        "designIntent": "AetherPDF 的设计初衷是解决单 AI 助手处理批量文档时效率低、上下文易污染的问题。通过主从多 Agent 架构实现文档级并行处理，再通过技能系统将重复流程沉淀为可复用资产，让 AI 真正成为文档处理的生产力倍增器，而不仅仅是对话工具。",
+        "problemSolved": "传统 PDF 工具只能单个文档逐个处理，面对批量文档时需要反复重复操作且效率低下。普通 AI 聊天工具处理多文档时上下文会越来越大、成本飙升、错误会累积污染后续结果。AetherPDF 的多 Agent 架构和技能系统从根本上解决了批量文档处理的效率和质量问题。",
+        "score": 8,
+        "scoreReason": "多文档多 Agent 的架构设计很有见地，抓住了 AI 办公工具从「单对话」走向「批处理」的趋势。技能系统的设计也为产品的长期使用价值打下了基础。作为国内独立开发者的产品，Mac App Store 上架说明产品完成度较高。扣分项在于仅支持 macOS 平台，Windows 用户无法使用。",
+        "competitors": [
+          {
+            "name": "ChatPDF",
+            "url": "https://chatpdf.com",
+            "comparison": "ChatPDF 是单文档 AI 对话的先行者，使用简单但功能有限，不支持多文档批量处理和 Agent 协作。AetherPDF 在批量处理和架构上领先一代。"
+          },
+          {
+            "name": "Adobe Acrobat AI Assistant",
+            "url": "https://www.adobe.com/acrobat",
+            "comparison": "Adobe Acrobat 是 PDF 领域的行业标准，其 AI 助手功能与 Acrobat 的完整编辑能力深度整合，但价格昂贵且 AI 功能相对基础。AetherPDF 的优势在于多 Agent 架构和技能系统。"
+          },
+          {
+            "name": "WPS AI",
+            "url": "https://ai.wps.cn",
+            "comparison": "WPS AI 集成在 WPS 办公套件中，覆盖 PDF、文档、表格等多种格式，生态完善。AetherPDF 的优势在于专注 PDF 场景、多 Agent 架构更专业，且买断制对重度用户更划算。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1253812",
+      "name": "PostSider",
+      "slug": "postsider",
+      "description": "面向人类和 AI Agent 的社交媒体排期发布平台，支持 30+ 社交网络从一个日历统一管理。同时提供 MCP、REST API 和 SDK，让 AI Agent 可以直接调用发布操作。",
+      "url": "https://postsider.com",
+      "homepage": "https://postsider.com",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1253812_20260922_122052.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "社交媒体",
+        "AI Agent",
+        "营销工具",
+        "MCP",
+        "内容运营"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1253812?app_id=339",
+      "firstSeen": "2026-09-22T04:19:38.471366+00:00",
+      "analysis": {
+        "targetAudience": "社交媒体运营人员、内容营销团队、个人创作者，以及构建 AI Agent 工作流的开发者和企业。",
+        "useCases": [
+          "跨平台社交媒体内容统一排期和发布管理",
+          "AI Agent 自动生成内容并直接发布到指定社交平台",
+          "营销团队协作规划内容日历和审核流程",
+          "个人创作者批量管理多个账号的发布节奏",
+          "通过 MCP 将发布能力集成到 Claude、Codex 等 AI 助手中"
+        ],
+        "designIntent": "PostSider 的设计初衷是成为社交媒体发布的基础设施层——既服务于人工运营者的日常排期需求，又为 AI Agent 时代做好准备。通过 MCP、REST 和 SDK 三种接入方式，让任何 AI 助手都能安全、可控地执行社交媒体发布操作，而不是让 Agent 直接操作各个平台的 Web 界面。",
+        "problemSolved": "传统社交媒体管理工具只考虑人工操作场景，在 AI Agent 时代缺乏标准化的接入接口。开发者要么自己搭建发布管道，要么让 Agent 直接操作浏览器（不稳定且风险高）。PostSider 提供了统一的 API 层，既有人性化的日历界面，又有面向 Agent 的标准化接入，填补了这一空白。",
+        "score": 7,
+        "scoreReason": "产品准确切入了 AI Agent 与社交媒体运营结合的新场景，MCP 接口的支持紧跟技术趋势。30+ 平台的覆盖面也很广。扣分项在于社交媒体管理工具赛道竞争激烈，Buffer、Hootsuite 等老牌玩家也在加 AI 功能，PostSider 需要在 Agent 原生这个差异化定位上持续深化。",
+        "competitors": [
+          {
+            "name": "Buffer",
+            "url": "https://buffer.com",
+            "comparison": "Buffer 是社交媒体管理的老牌工具，用户基数大、功能成熟，也在逐步加入 AI 内容生成功能。PostSider 的差异化在于 Agent 原生设计和 MCP 接口支持。"
+          },
+          {
+            "name": "Hootsuite",
+            "url": "https://hootsuite.com",
+            "comparison": "Hootsuite 是企业级社交媒体管理平台，功能全面但价格较高，主要服务大中型企业。PostSider 定位更轻量，且 Agent 接入能力是其独特优势。"
+          },
+          {
+            "name": "Later",
+            "url": "https://later.com",
+            "comparison": "Later 专注于视觉内容（Instagram 等）的排期发布，在电商和品牌营销领域用户较多。PostSider 的平台覆盖更广，且具备 Agent 接入能力。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1255234",
+      "name": "Mise",
+      "slug": "mise",
+      "description": "智能餐食规划器，能让所有菜品同时准备就绪。输入你的饮食偏好和食材库存，AI 会生成整周的餐食计划，并精确安排每道菜的烹饪步骤，确保多道菜同时出锅。",
+      "url": "https://mise.life",
+      "homepage": "https://mise.life",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1255234_20260922_122100.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "餐饮",
+        "AI 规划",
+        "生活方式",
+        "效率工具",
+        "家庭"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1255234?app_id=339",
+      "firstSeen": "2026-09-22T04:19:38.471366+00:00",
+      "analysis": {
+        "targetAudience": "家庭主厨、忙碌的上班族、注重健康饮食的人群，以及需要为多人准备餐食的家庭用户。",
+        "useCases": [
+          "为三口之家规划整周晚餐菜单并同步烹饪时间表",
+          "根据冰箱现有食材推荐可用菜品并生成购物清单",
+          "为特殊饮食需求（低卡、高蛋白、素食等）定制餐食方案",
+          "节日家宴多道菜同时上桌的时间规划",
+          "新手学做菜时按步骤精准安排操作顺序"
+        ],
+        "designIntent": "Mise 的设计初衷是解决家庭烹饪中「多道菜怎么同时做好」这个痛点。普通的食谱 App 只提供单道菜的做法，Mise 则从整体出发，用 AI 编排多道菜的并行烹饪流程，让每道菜都能在最佳时机上桌，就像专业餐厅的后厨一样有条不紊。",
+        "problemSolved": "做饭时最头疼的问题之一就是时间安排——先做哪道菜、每道菜什么时候下锅，才能让所有菜都热乎着同时上桌。普通食谱 App 只解决了「做什么」和「怎么做」，没有解决「什么时候做」。Mise 用 AI 规划多道菜的烹饪时间表，把厨房变成一个高效的流水线。",
+        "score": 7,
+        "scoreReason": "产品切入点非常独特且实用，抓住了做饭时间规划这个被忽视的痛点。「同时出锅」这个功能点很有差异化，市面上几乎没有同类产品。扣分项在于餐食规划类应用用户粘性普遍难以维持，且 AI 规划的准确性需要大量真实使用数据来打磨。",
+        "competitors": [
+          {
+            "name": "Mealime",
+            "url": "https://mealime.com",
+            "comparison": "Mealime 是成熟的餐食规划 App，提供个性化食谱推荐和购物清单，但主要关注单餐和食材清单，不具备多道菜并行烹饪时间规划的能力。"
+          },
+          {
+            "name": "PlateJoy",
+            "url": "https://platejoy.com",
+            "comparison": "PlateJoy 主打个性化营养规划和减脂餐定制，营养师背书是其核心卖点。Mise 的优势在于烹饪时间编排的创新功能，而非营养专业度。"
+          },
+          {
+            "name": "HelloFresh",
+            "url": "https://hellofresh.com",
+            "comparison": "HelloFresh 是食材配送服务（Meal Kit），从食材到食谱全包，但价格较高且灵活性有限。Mise 是纯软件方案，用户可以用自己已有的食材灵活规划。"
+          }
+        ]
+      }
+    }
+  ]
+}
