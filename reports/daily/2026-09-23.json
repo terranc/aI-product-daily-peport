@@ -1,0 +1,337 @@
+{
+  "date": "2026-09-23",
+  "generatedAt": "2026-09-23T04:06:40.681866+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "producthunt.com/r/p/1239946",
+      "name": "Edyt 全应用 AI 文本助手",
+      "slug": "edyt",
+      "description": "在任意应用中选中文本，通过快捷键即可调用 AI 重写、翻译、解释或自定义处理，结果直接原地替换，无需复制粘贴或切换窗口。",
+      "url": "https://edyt.app/",
+      "homepage": "https://edyt.app/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1239946_20260923_120712.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI写作",
+        "文本编辑",
+        "效率工具",
+        "macOS",
+        "系统级集成"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1239946?app_id=339",
+      "firstSeen": "2026-09-02T19:52:58-07:00",
+      "analysis": {
+        "targetAudience": "需要频繁处理文本的知识工作者、写作者、学生和多语言使用者。",
+        "useCases": [
+          "在邮件客户端中直接重写句子、调整语气",
+          "浏览器中翻译网页选中文本并就地替换",
+          "文档编辑时解释复杂术语或润色段落",
+          "聊天软件中快速改写回复并发送",
+          "在 IDE 注释或文档中调用自定义 AI 提示词"
+        ],
+        "designIntent": "将 AI 文本处理能力嵌入到用户日常使用的每一个应用中，通过系统级快捷键消除「复制-粘贴-AI-再粘贴」的重复操作，让 AI 成为写作流程的无缝延伸。",
+        "problemSolved": "解决了使用 AI 写作工具时需要频繁切换应用、复制粘贴文本的痛点，减少上下文切换带来的注意力分散和效率损失。",
+        "tags": [
+          "AI写作",
+          "文本编辑",
+          "效率工具",
+          "macOS",
+          "系统级集成"
+        ],
+        "score": 8,
+        "scoreReason": "产品定位清晰，切入点小但痛点真实——AI 文本处理几乎人人需要，但每次都要切到 ChatGPT 确实繁琐。通过系统级 Accessibility API 实现全应用覆盖，技术路径可行。8分是因为目前只支持 macOS，且竞品较多。",
+        "competitors": [
+          {
+            "name": "Notion AI",
+            "url": "https://www.notion.so/product/ai",
+            "comparison": "只能在 Notion 内部使用，无法覆盖其他应用；Edyt 是系统级的，适用场景更广。"
+          },
+          {
+            "name": "Grammarly",
+            "url": "https://www.grammarly.com/",
+            "comparison": "以语法纠错为主，功能相对单一；Edyt 支持自定义提示词，可扩展重写、翻译、解释等多种能力。"
+          },
+          {
+            "name": "Raycast AI",
+            "url": "https://www.raycast.com/ai",
+            "comparison": "功能更全但操作路径更长，需要先唤起 Raycast 再输入；Edyt 直接在选中文本旁弹出，操作更短。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1256727",
+      "name": "Reeno 随机 AI 通话语言练习",
+      "slug": "reeno",
+      "description": "AI 在你设定的时间段内随机打电话来，用目标语言和你进行即兴对话，把语言练习从「主动打开 App」变成「被动接电话」，帮你建立日常口语习惯。",
+      "url": "https://reeno.app/",
+      "homepage": "https://reeno.app/",
+      "type": "app",
+      "appStoreName": "Reeno: AI Calls You to Speak",
+      "appStoreUrl": "https://apps.apple.com/us/app/reeno-ai-calls-you-to-speak/id6794762206?uo=4",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1256727_20260923_120723.png",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c3/c0/93/c3c0939b-2286-389f-5ba8-8220037f083b/01_APP_IPHONE_65.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ee/26/f2/ee26f290-2a39-a798-a083-c0ae4a5fdc6d/02_APP_IPHONE_65.png/320x480bb.jpg"
+      ],
+      "tags": [
+        "语言学习",
+        "AI对话",
+        "口语练习",
+        "移动端",
+        "微习惯"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1256727?app_id=339",
+      "firstSeen": "2026-09-20T21:20:26-07:00",
+      "analysis": {
+        "targetAudience": "有一定语言基础、需要提升口语流利度但缺乏练习机会的语言学习者。",
+        "useCases": [
+          "上班族在通勤间隙接一个 5 分钟的英语对话",
+          "考前突击口语，随机话题模拟真实面试场景",
+          "维持已掌握的外语语感，防止长期不用生疏",
+          "在安全环境中练习不太自信的话题，不怕尴尬",
+          "多种语言切换练习，保持多语言能力"
+        ],
+        "designIntent": "翻转语言学习的启动模式——不是用户主动打开 App 学习，而是 AI 主动「打扰」用户，利用碎片化时间进行低压力的口语对话，用随机性制造真实对话的临场感。",
+        "problemSolved": "解决了语言学习者「知道要练口语但总是拖延」的启动难题，以及缺乏真实对话伙伴、练习场景单一的痛点。",
+        "tags": [
+          "语言学习",
+          "AI对话",
+          "口语练习",
+          "移动端",
+          "微习惯"
+        ],
+        "score": 8,
+        "scoreReason": "产品形态非常有创意，把「用户主动学习」变成「AI 主动找你练」，精准击中拖延症痛点。通话界面模拟真实来电，心理代入感强。8分是因为目前只支持 iOS，且内容深度和用户留存有待验证。",
+        "competitors": [
+          {
+            "name": "Duolingo",
+            "url": "https://www.duolingo.com/",
+            "comparison": "以背单词和语法练习为主，口语环节薄弱；Reeno 专注纯口语对话，更接近真实交流。"
+          },
+          {
+            "name": "HelloTalk",
+            "url": "https://www.hellotalk.com/",
+            "comparison": "需要匹配真人语伴，时间和匹配质量不稳定；Reeno 是 AI，随时可用且话题可控。"
+          },
+          {
+            "name": "ELSA Speak",
+            "url": "https://elsaspeak.com/",
+            "comparison": "侧重发音纠正和评分，练习内容结构化；Reeno 更偏向自由对话和流利度训练。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1257594",
+      "name": "Hola AI 智能语音信箱",
+      "slug": "hola-ai",
+      "description": "AI 语音信箱助手，在你无法接听时像真人一样与来电者对话，理解来电意图，自动过滤垃圾电话，给你发送简洁的文字摘要。",
+      "url": "https://www.holavoicemail.com/",
+      "homepage": "https://www.holavoicemail.com/",
+      "type": "app",
+      "appStoreName": "Hola AI: Voicemail Assistant",
+      "appStoreUrl": "https://apps.apple.com/us/app/hola-ai-voicemail-assistant/id6753683585?uo=4",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1257594_20260923_120733.png",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/24/ef/20/24ef207a-7d8d-feb7-ce14-3ce2c2d816ae/01.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7a/84/9f/7a849f52-843f-592d-08b4-15ae720daa55/02.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/42/b4/d2/42b4d2cd-430a-e973-86d3-b5f34a22bb87/03.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/72/51/8e/72518e98-3387-28f2-706a-b63545abe893/04.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a1/92/1b/a1921b95-9683-8164-fbb0-d340411f1ea7/05.png/320x480bb.jpg"
+      ],
+      "tags": [
+        "AI助手",
+        "语音信箱",
+        "效率工具",
+        "反骚扰",
+        "移动应用"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1257594?app_id=339",
+      "firstSeen": "2026-09-21T14:42:18-07:00",
+      "analysis": {
+        "targetAudience": "经常漏接电话的忙碌职场人士、自由职业者、小企业主和骚扰电话困扰者。",
+        "useCases": [
+          "开会时让 AI 代接所有来电，会后看文字摘要决定回拨优先级",
+          "自动识别并拦截推销和诈骗电话，不再被骚扰",
+          "夜间免打扰模式下仍不错过重要来电摘要",
+          "用不同语气回应不同类型来电者（正式/友好/幽默）",
+          "手机关机或飞行模式时依然能接收来电信息"
+        ],
+        "designIntent": "用 AI 重新发明语音信箱——不是被动录音，而是主动对话。让 AI 代替你与来电者沟通，筛选出真正重要的信息，把你从「必须听完整段语音」的负担中解放出来。",
+        "problemSolved": "解决了传统语音信箱效率低（要听完录音才知道内容）、垃圾电话泛滥、漏接电话无法判断重要性的痛点。",
+        "tags": [
+          "AI助手",
+          "语音信箱",
+          "效率工具",
+          "反骚扰",
+          "移动应用"
+        ],
+        "score": 7,
+        "scoreReason": "产品切入点明确，语音信箱确实是被 AI 重塑的好场景——对话式交互天然适合电话场景。7分是因为功能相对单一，且需要用户设置呼叫转移，存在一定使用门槛。",
+        "competitors": [
+          {
+            "name": "Google Voice",
+            "url": "https://voice.google.com/",
+            "comparison": "有基础的语音信箱转录功能，但只能转文字、不能与来电者对话；Hola AI 是主动沟通型。"
+          },
+          {
+            "name": "Robokiller",
+            "url": "https://www.robokiller.com/",
+            "comparison": "专注骚扰电话拦截，没有 AI 对话和摘要功能；Hola AI 覆盖范围更广。"
+          },
+          {
+            "name": "YouMail",
+            "url": "https://www.youmail.com/",
+            "comparison": "老牌语音信箱 App，有垃圾电话过滤但 AI 能力较弱；Hola AI 在对话理解和个性化回应上更先进。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1257678",
+      "name": "Shootsolo 声控拍摄助手",
+      "slug": "shootsolo",
+      "description": "面向独立内容创作者的 AI 声控拍摄应用，用语音指令控制录制启停，内置提词器、虚拟打光、背景虚化和横竖屏同录功能。",
+      "url": "https://shootsolo.com/",
+      "homepage": "https://shootsolo.com/",
+      "type": "app",
+      "appStoreName": "Shootsolo: Voice Video Camera",
+      "appStoreUrl": "https://apps.apple.com/us/app/shootsolo-voice-video-camera/id6740457404?uo=4",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1257678_20260923_120743.png",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0b/c1/f7/0bc1f728-d8d6-404f-e6de-283d7685e967/1.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/65/dc/ef/65dcef94-7df0-859e-196a-45e1584af09a/2.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/aa/2e/80/aa2e804a-67fc-1c53-c19d-1c2b93943237/3.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/47/c7/b1/47c7b19f-e809-4d69-3946-1ce266d1f2d2/4.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a6/98/89/a69889ff-4afd-964a-5d4d-679b7cc6b65b/5.png/320x480bb.jpg"
+      ],
+      "tags": [
+        "视频创作",
+        "AI助手",
+        "内容创作",
+        "拍摄工具",
+        "移动应用"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1257678?app_id=339",
+      "firstSeen": "2026-09-21T17:59:17-07:00",
+      "analysis": {
+        "targetAudience": "独自创作视频的内容创作者、Vlogger、播客主、讲师和自媒体人。",
+        "useCases": [
+          "在家录制课程视频，用语音控制开始/停止，不用反复起身操作",
+          "拍摄开箱评测，提词器显示脚本，边说边看不用记台词",
+          "录制 TikToks/Shorts，横竖屏同录一次搞定两个平台",
+          "多机位拍摄，几台手机同时录制，后期直接同步剪辑",
+          "录制后即时筛选素材，每录完一条就决定保留或丢弃"
+        ],
+        "designIntent": "为没有团队的独立创作者提供「AI 拍摄助理」，用语音交互解决一个人拍视频时反复操作手机、忘词、素材管理混乱等痛点，让单人创作也能达到专业效果。",
+        "problemSolved": "解决了独立内容创作者拍摄时的诸多不便：需要手动操作手机启停、记不住台词、素材太多难以筛选、横竖屏要分开录制等效率问题。",
+        "tags": [
+          "视频创作",
+          "AI助手",
+          "内容创作",
+          "拍摄工具",
+          "移动应用"
+        ],
+        "score": 7,
+        "scoreReason": "产品定位精准，独立创作者群体确实有这个需求。语音控制+提词器+素材筛选的组合拳比较完整，免费且离线可用有竞争力。7分是因为功能偏垂直，天花板有限，且视频拍摄工具赛道竞争激烈。",
+        "competitors": [
+          {
+            "name": "Teleprompter Premium",
+            "url": "https://teleprompterpremium.com/",
+            "comparison": "只有提词器功能，没有声控拍摄和素材管理；Shootsolo 功能更全。"
+          },
+          {
+            "name": "CapCut",
+            "url": "https://www.capcut.com/",
+            "comparison": "以后期剪辑为主，拍摄环节功能较少；Shootsolo 专注拍摄前中期体验。"
+          },
+          {
+            "name": "Filmic Pro",
+            "url": "https://www.filmicpro.com/",
+            "comparison": "专业级手动相机 App，功能强大但操作复杂；Shootsolo 更简单直接，主打语音交互。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1257557",
+      "name": "Walkie 全平台 AI 语音输入",
+      "slug": "walkie",
+      "description": "集成语音听写、会议转录、文本朗读于一体的 AI 语音生产力工具，支持本地离线模式（保护隐私）和云端增强模式，覆盖 Mac、Windows、Linux 和 iPhone。",
+      "url": "https://trywalkie.com/",
+      "homepage": "https://trywalkie.com/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1257557_20260923_120754.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "语音输入",
+        "效率工具",
+        "隐私保护",
+        "会议转写",
+        "跨平台"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1257557?app_id=339",
+      "firstSeen": "2026-09-21T13:34:24-07:00",
+      "analysis": {
+        "targetAudience": "需要高效输入的知识工作者、记者、作家、开发者和有隐私顾虑的专业人士。",
+        "useCases": [
+          "在任意应用中用语音快速输入文字，比打字快 4-5 倍",
+          "录制系统音频转写会议内容，自动区分发言人并生成摘要",
+          "离线环境下用本地模型听写，敏感内容不离开设备",
+          "阅读长文时用 AI 语音朗读，边听边做其他事",
+          "翻译后直接说出目标语言文本，一键输出"
+        ],
+        "designIntent": "打造一个系统级的语音输入层，让用户在任何地方都能用语音高效输入文字，同时提供离线模式保护隐私。将听写、会议转写、朗读三个高频语音场景整合到一个工具中。",
+        "problemSolved": "解决了语音输入工具要么依赖云端（隐私顾虑）、要么功能单一（只有听写）、要么平台覆盖不全的痛点，用一体化方案替代多个零散工具。",
+        "tags": [
+          "语音输入",
+          "效率工具",
+          "隐私保护",
+          "会议转写",
+          "跨平台"
+        ],
+        "score": 8,
+        "scoreReason": "产品功能组合很扎实——听写+会议转写+朗读三件套，加上离线模式和跨平台支持，在同类产品中竞争力很强。免费版就能本地无限使用，定价也低于竞品。8分是因为语音输入赛道已有不少成熟玩家，差异化需要持续强化。",
+        "competitors": [
+          {
+            "name": "Otter.ai",
+            "url": "https://otter.ai/",
+            "comparison": "以会议转录为主，没有系统级听写功能；Walkie 覆盖面更广且支持离线。"
+          },
+          {
+            "name": "MacWhisper",
+            "url": "https://goodsnooze.gumroad.com/l/macwhisper",
+            "comparison": "macOS 专属的 Whisper 听写工具，功能单一；Walkie 是全功能全平台方案。"
+          },
+          {
+            "name": "Dragon Professional",
+            "url": "https://www.nuance.com/dragon.html",
+            "comparison": "老牌专业语音识别，准确率高但价格昂贵、界面老旧；Walkie 更现代、更便宜且支持离线。"
+          }
+        ]
+      }
+    }
+  ]
+}
