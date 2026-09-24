@@ -1,0 +1,292 @@
+{
+  "date": "2026-09-24",
+  "generatedAt": "2026-09-24T04:19:02.475547+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "producthunt.com/r/p/1256969",
+      "name": "WZRD",
+      "slug": "wzrd",
+      "description": "会回话的 AI 原生文档工作区：上传现有文档、表格、幻灯片或表单，或直接用一句话描述需求，WZRD 就能生成可发布的互动体验——读者能用语音或文字向文档提问、让幻灯片自己讲解、让表格开口分析数据、让表单变成对话式收集，通过一个链接即可在任意设备打开。",
+      "url": "https://wzrd.to/",
+      "homepage": "https://wzrd.to/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1256969_20260924_121646.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI文档",
+        "演示文稿",
+        "语音交互",
+        "表单",
+        "生产力"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1256969?app_id=339",
+      "firstSeen": "2026-09-21T02:19:43-07:00",
+      "analysis": {
+        "targetAudience": "需要频繁制作和分享提案、报告、问卷、演示的创始人、市场销售团队、咨询顾问和教育工作者。",
+        "useCases": [
+          "把静态销售提案变成可对话文档，客户直接向 PDF 提问价格与条款细节",
+          "把数据表格交给 AI 用语音讲解趋势和关键数字，用于周会快速过数",
+          "生成带语音导览的幻灯片，接收方自己看也能获得完整讲解体验",
+          "把线索登记表单变成对话式问答，边收集边自动判断客户意向",
+          "将入职、合规、问卷等流程文档发布为一个链接，在手机上即可语音填写"
+        ],
+        "designIntent": "创始人认为信息被锁死在静态界面里，希望让文档在被创建之后仍然能与人互动。WZRD 的设计不是又一个 AI 生成文件的工具，而是把生成结果本身变成一个可对话、可讲解、可追问的体验，通过链接即可分享，无需安装应用。",
+        "problemSolved": "传统文档、幻灯片和表单只能被动阅读，信息传递效率低；而用 AI 聊天了解内容又需要反复粘贴上下文。WZRD 让每份材料自带讲解与答疑能力，减少会议讲解和来回邮件沟通，同时把表单收集与资格筛选合并为一次对话。",
+        "score": 8,
+        "scoreReason": "「文档即智能体」的方向清晰且差异化明显，覆盖文档/表格/幻灯片/表单四类高频场景，发布当日即获 Product Hunt 当日第二名（315 票），团队有多年企业级 AI 体验交付经验。主要风险是概念较新、用户教育成本高，且与各大办公套件的内置 AI 功能存在正面竞争。",
+        "competitors": [
+          {
+            "name": "Gamma",
+            "url": "https://gamma.app/",
+            "comparison": "Gamma 专注 AI 生成美观的演示和文档，但产物仍以静态阅读为主；WZRD 的重点在生成之后的语音问答与互动体验。"
+          },
+          {
+            "name": "Canva Magic Design",
+            "url": "https://www.canva.com/",
+            "comparison": "Canva 强在模板化设计与素材生态，AI 主要辅助制作；WZRD 不拼视觉模板，而是让成品能开口回答问题。"
+          },
+          {
+            "name": "Tome",
+            "url": "https://tome.app/",
+            "comparison": "Tome 主打 AI 生成叙事型演示，偏向创作单一场景；WZRD 横跨文档、表格、表单、幻灯片四类内容并统一为对话式体验。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1258470",
+      "name": "Speechka",
+      "slug": "speechka",
+      "description": "用你自己的声音做实时语音翻译：录音 10 秒即可克隆个人声线，支持 44 种语言互译、约 200 毫秒低延迟。它能作为虚拟麦克风接入 Zoom、Google Meet、Teams、Discord、OBS 等 100 多款应用，你说母语，对方听到的是你的音色讲出的外语。",
+      "url": "https://speechka.io/",
+      "homepage": "https://speechka.io/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1258470_20260924_121655.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "语音翻译",
+        "声音克隆",
+        "实时翻译",
+        "会议",
+        "跨语言沟通"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1258470?app_id=339",
+      "firstSeen": "2026-09-22T11:07:06-07:00",
+      "analysis": {
+        "targetAudience": "经常参加跨语言会议、客户电话、国际直播与演讲的远程工作者、外贸销售、主播和内容创作者。",
+        "useCases": [
+          "跨国团队站会：自己讲中文，同事在 Zoom 里直接听到英文/日文等版本",
+          "外贸客户电话：用母语自然表达，客户听到其语言的实时口译",
+          "Twitch、YouTube 直播：一路直播同时服务多语种观众，无需后期配音字幕",
+          "国际会议主题演讲：把演讲实时播给多语言听众，保持个人声线辨识度",
+          "收听模式下私下理解外语会议内容，耳机里播放母语翻译"
+        ],
+        "designIntent": "创始人作为 UX 设计师长期在非母语的国际会议中受挫，希望消除语言障碍而不改变沟通方式——不靠字幕打断注意力，也不使用千篇一律的机器人朗读。产品围绕「保留说话者身份」设计，让翻译后的声音依然是本人。",
+        "problemSolved": "字幕和转写类翻译会分散注意力、拖慢对话节奏，通用 AI 合成音又抹掉了说话人的个性。Speechka 用 ASR→翻译→个人音色 TTS 的低延迟管线，把翻译直接送进通话音频流，让跨语言对话像母语交流一样连贯。",
+        "score": 8,
+        "scoreReason": "个人音色克隆 + 200ms 延迟 + 虚拟麦克风接入 100 余款应用，组合完成度在消费级实时翻译中少见，浏览器即可免费试用也降低了体验门槛。扣分项是 $19.99/月的订阅对轻度用户偏贵，且实时语音翻译的准确率在嘈杂环境和小语种上仍待验证。",
+        "competitors": [
+          {
+            "name": "Zoom AI Companion 口译",
+            "url": "https://zoom.us/ai-companion",
+            "comparison": "Zoom 内置翻译以字幕和平台内语音为主，依赖 Zoom 生态且不能保留个人声线；Speechka 可作为系统级虚拟麦克风跨任意应用使用。"
+          },
+          {
+            "name": "Rask AI",
+            "url": "https://www.rask.ai/",
+            "comparison": "Rask 强在视频配音与本地化的后期制作；Speechka 面向会议和直播等实时同步场景，而非录制后加工。"
+          },
+          {
+            "name": "HeyGen",
+            "url": "https://www.heygen.com/",
+            "comparison": "HeyGen 的视频翻译与数字人成熟度高，但主要用于离线视频；Speechka 主打低延迟双向通话和现场直播。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1257670",
+      "name": "ToneBird",
+      "slug": "tonebird",
+      "description": "记得住人际关系的 AI 回复助手：在 Gmail、Slack、WhatsApp、iMessage、Discord、微信、Lark、X 等应用里，基于历史对话和你授权的文件，为每个联系人起草符合你语气、记得此前承诺与上下文的回复，你审阅后再亲自发送。",
+      "url": "https://tonebird.ai/",
+      "homepage": "https://tonebird.ai/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1257670_20260924_121705.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI回复",
+        "邮件助手",
+        "沟通效率",
+        "关系记忆",
+        "桌面应用"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1257670?app_id=339",
+      "firstSeen": "2026-09-21T17:23:50-07:00",
+      "analysis": {
+        "targetAudience": "每天需要在邮件和多个聊天工具中处理大量对内对外消息的市场、销售、客户成功和项目协作人员。",
+        "useCases": [
+          "面对催进度的客户或领导，基于上次承诺快速起草得体而不敷衍的回复",
+          "客户询问报价时，自动从已连接的方案 PDF 中找出约定价格写进草稿",
+          "同一事件分别给客户、同事生成不同语气和详略程度的版本",
+          "跨语言回复外语客户消息，同时保持专业口吻",
+          "在 Slack、微信等工具中一键调出三个备选回复，挑选后微调发送"
+        ],
+        "designIntent": "团队想解决每天都在发生的小事——想半天不知道怎么回消息。他们刻意不做独立聊天窗口，而是以覆盖层形式嵌入用户已有的应用，并把联系人档案、历史承诺和文件事实保存在本地，AI 只起草、发送权永远在用户手里。",
+        "problemSolved": "把对话复制到 ChatGPT 求回复时需要重新交代人物关系和前因后果，通用写作工具也记不住上次承诺。ToneBird 在本地建立「联系人卡片」与对话记忆，在回复框旁直接给出带事实依据、贴合关系远近的草稿，消除上下文切换与回复冷启动。",
+        "score": 7,
+        "scoreReason": "「关系记忆 + 本地优先 + 多通讯应用嵌入」切中高频痛点，且支持微信、Lark 等中文圈工具，受众面广；人保留最终发送权的设计也更安全。扣分项是该赛道拥挤（各大邮箱/IM 都在内置 AI 回复），首发当天热度一般，且深度读取本地聊天记录会带来隐私和合规顾虑。",
+        "competitors": [
+          {
+            "name": "Grammarly",
+            "url": "https://www.grammarly.com/",
+            "comparison": "Grammarly 强在语言润色与语法纠错，但不维护跨应用的人际上下文；ToneBird 的核心是记得对方是谁、之前聊过什么。"
+          },
+          {
+            "name": "Superhuman AI",
+            "url": "https://superhuman.com/",
+            "comparison": "Superhuman 的 AI 回复仅限其邮箱客户端内；ToneBird 横跨邮件与多款 IM，并在本地保存关系档案。"
+          },
+          {
+            "name": "Raycast AI",
+            "url": "https://www.raycast.com/",
+            "comparison": "Raycast 提供通用 AI 快捷指令，需要用户自己提供背景；ToneBird 则自动召回对话历史与文件事实，面向回复场景开箱即用。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1255502",
+      "name": "Keet",
+      "slug": "keet",
+      "description": "能就任何主题生成课程的 AI 学习 App：输入一个主题（如拓扑学、旧金山史、现代火箭发动机），Keet 会生成有完整课程路线图、4 分钟讲解短视频和选择题、连线、排序等游戏化测验的 Duolingo 式课程，可自定义深度、难度和讲解风格。",
+      "url": "https://www.trykeet.com/",
+      "homepage": "https://www.trykeet.com/",
+      "type": "app",
+      "appStoreName": "Keet: Learn Anything",
+      "appStoreUrl": "https://apps.apple.com/us/app/keet-learn-anything/id6751751665",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1255502_20260924_121714.png",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/dd/09/1c/dd091caa-9c7b-b12f-7eb7-8f841595987c/1.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5f/b9/51/5fb951c3-68a9-538c-1748-b1bee2264d19/3.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/39/21/24/392124c7-0104-eb11-2c4f-3f1e952c074d/2.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/26/ab/54/26ab5469-d0ad-05e6-f0e5-24ba79fb5ff7/4.png/320x480bb.jpg"
+      ],
+      "tags": [
+        "AI教育",
+        "课程生成",
+        "视频学习",
+        "游戏化",
+        "个性化学习"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1255502?app_id=339",
+      "firstSeen": "2026-09-19T06:57:21-07:00",
+      "analysis": {
+        "targetAudience": "习惯在 YouTube 和 AI 聊天中自学、但缺乏系统课程结构的终身学习者、学生和对冷门主题有好奇心的人。",
+        "useCases": [
+          "为冷门兴趣（如蒙古战术、彭尼大学史）生成一套完整的系统入门课",
+          "在正式课前生成前置知识课程，补齐基础概念",
+          "通勤时用 4 分钟短视频 + 小测验进行碎片学习",
+          "自定义深度和讲解风格，把同一主题生成科普版或进阶版",
+          "通过路线图和游戏化测验追踪长期学习进度，避免半途而废"
+        ],
+        "designIntent": "两位创始人是大学同学，发现 YouTube 自学和向 AI 提问虽然自由，却缺少教学设计、进度难以衡量。Keet 想保留自主选择主题的自由，同时用真实课程式的模块—课时—测验结构保证学习效果，视频用 Manim 和 Remotion 程序化生成以兼顾质量与成本。",
+        "problemSolved": "传统课程平台只能从固定目录中选修，小众主题找不到课；自由搜索和 AI 问答又没有知识顺序、难以检验掌握程度。Keet 把任意主题即时组织成有先修顺序、讲解视频和强化练习的课程，让自学既有广度又有结构。",
+        "score": 8,
+        "scoreReason": "YC S24 背书、由知名猎人 Garry Tan 推荐，「生成而非收录课程」的路线在教育 AI 中辨识度很高，短视频+游戏化测验的完成度好。扣分项是复杂学科的生成内容准确性仍需验证，个性化目前主要停留在主题层面，且免费额度只有两门课、商业化早期。",
+        "competitors": [
+          {
+            "name": "Khan Academy",
+            "url": "https://www.khanacademy.org/",
+            "comparison": "Khan Academy 内容由人工精心制作、质量可靠，但主题覆盖有限且固定；Keet 可为任意小众主题即时生成课程。"
+          },
+          {
+            "name": "Duolingo",
+            "url": "https://www.duolingo.com/",
+            "comparison": "Duolingo 的游戏化机制成熟，但只覆盖语言学习；Keet 把同样的短课+测验模式扩展到所有学科。"
+          },
+          {
+            "name": "Coursera",
+            "url": "https://www.coursera.org/",
+            "comparison": "Coursera 依赖高校和机构提供现成课程，学习路径权威但无法按需定制；Keet 的课程根据个人主题和深度要求实时生成。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1233043",
+      "name": "Naise AI",
+      "slug": "naise-ai",
+      "description": "真正会干活的自主营销 AI 队友：输入一份简报，它就能完成市场调研、社媒文案与配图生成、跨 Instagram/TikTok/Facebook/LinkedIn 排期发布、千万级达人库筛选与外联、多语言新闻稿与 PR 投放，并持续追踪 ROI，品牌口吻一次设定后长期记忆。",
+      "url": "https://naise.ai/",
+      "homepage": "https://naise.ai/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1233043_20260924_121724.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI营销",
+        "社媒运营",
+        "达人营销",
+        "自动化",
+        "增长"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1233043?app_id=339",
+      "firstSeen": "2026-09-20T00:00:00-07:00",
+      "analysis": {
+        "targetAudience": "人手有限的初创创始人、独立营销人，以及需要同时运营多个客户账号的营销代理商和小型市场团队。",
+        "useCases": [
+          "新品发布时从主视觉、达人种草到媒体通稿一次性跑完整个 GTM 流程",
+          "代理商批量为不同客户生成独立品牌声音的内容日历和白牌报告",
+          "自动调研垂类热门内容形式与最佳发布时间，再生成并排期多平台帖子",
+          "从千万级达人库筛选、自动个性化外联并追踪合作 ROI",
+          "用一份简报生成多语言本地化内容，同时开拓多个国家市场"
+        ],
+        "designIntent": "团队观察到营销人把 80% 的时间花在执行杂务上，只剩 20% 做真正重要的策略。Naise 不想做又一个只给文案建议的聊天机器人，而是做一个能端到端执行调研、创作、外联、发布和汇报的「沉默运营者」，判断权和品味留给人类。",
+        "problemSolved": "营销团队要在大量单点工具（写作、设计、排期、达人、PR、报表）之间来回拼接，招聘完整团队成本高昂。Naise 用一组共享品牌记忆的专业 Agent 协作，把一份简报在几分钟内变成上线中的多渠道战役，让小团队拥有大营销部门的产出。",
+        "score": 7,
+        "scoreReason": "覆盖社媒、配图、达人、PR、调研五条线并真正执行而非只给建议，端到端整合度和多语言能力是亮点，$59.90/月起的定价对小团队也算清晰。扣分项是营销 Agent 赛道极度拥挤，全自动外联存在质量和封号风险，品牌宣称的执行效果仍需更多第三方验证。",
+        "competitors": [
+          {
+            "name": "Jasper",
+            "url": "https://www.jasper.com/",
+            "comparison": "Jasper 强在品牌化的营销文案与内容生成，但主要停留在内容生产环节；Naise 进一步负责排期、达人外联和 PR 投递等执行动作。"
+          },
+          {
+            "name": "HubSpot Marketing Hub",
+            "url": "https://www.hubspot.com/products/marketing",
+            "comparison": "HubSpot 提供完整的 CRM 与营销自动化平台，流程可靠但较重且偏人工编排；Naise 以自主 Agent 直接产出战役，上手更轻。"
+          },
+          {
+            "name": "Canva",
+            "url": "https://www.canva.com/",
+            "comparison": "Canva 让设计平民化但不负责达人、PR 与多渠道发布；Naise 把视觉生成作为整条营销流水线中的一环。"
+          }
+        ]
+      }
+    }
+  ]
+}
