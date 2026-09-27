@@ -37791,7 +37791,317 @@
           }
         ]
       }
+    },
+    {
+      "id": "urartist.app",
+      "name": "UR Artist AR 化妆工作室",
+      "slug": "ur-artist",
+      "description": "一款把手机变成「智能镜子」的 iOS App：TrueDepth 摄像头以 0.1 毫米精度把 80+ 妆容的落笔位置、刷具角度和上色区域实时叠加在你的脸上，一步步引导你完成现实中的化妆，而不只是静态滤镜。全部面部追踪均在设备端运行，不上传云端。",
+      "url": "https://urartist.app/",
+      "homepage": "https://urartist.app/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/urartist.app_20260927_225132.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AR美妆",
+        "化妆教程",
+        "个人形象",
+        "隐私保护",
+        "iOS"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49864877",
+      "firstSeen": "2026-09-27T09:18:09Z",
+      "analysis": {
+        "targetAudience": "想精进化妆技巧的美妆新手和日常带妆人群，尤其是看视频教程总跟不上、分不清落笔位置的用户。",
+        "useCases": [
+          "跟着 AR 引导线一步步学会猫眼眼线、烟熏妆等需要精准手法的妆容",
+          "出门前用「智能镜子」对照自己的脸型快速完成一个完整妆容",
+          "让 AI 造型师根据场合、可用时间和手头已有化妆品推荐合适妆容",
+          "利用双边对称模式保证左右眼眼线、腮红位置一致",
+          "把学过的手法在同一张脸上反复练习，无需在视频和镜子之间来回切换"
+        ],
+        "designIntent": "创始人看到女友在户外只能靠小镜子和糟糕光线化妆，于是想让镜子直接告诉用户每一笔该落在哪、怎么画。产品刻意做「现实化妆的教练」而非虚拟试妆滤镜，目标是让你在真实世界里变好看，同时把面部数据完全留在设备上。",
+        "problemSolved": "传统视频教程针对的是别人的脸型，用户要在手机和浴室镜子之间反复抬头暂停，还猜不准角度与位置，经常两边画得不对称。UR Artist 把教程线条毫米级地投影到本人的实时影像上，消除了「看别人的脸、画自己的脸」的错位感。",
+        "score": 8,
+        "scoreReason": "把 TrueDepth AR、80+ 精选妆容库和设备端隐私结合，解决的是真实且高频的学习痛点，差异化明显。扣分点是仅限 iOS 18+ 的 iPhone 用户、目前还在预约阶段未公开上架，且需要真实化妆品配合练习。",
+        "competitors": [
+          {
+            "name": "Perfect365",
+            "url": "https://www.perfect365.com/",
+            "comparison": "主打虚拟试妆和一键滤镜，看效果可以但不教你现实中怎么画；UR Artist 定位是手把手的化妆教练。"
+          },
+          {
+            "name": "Sephora Virtual Artist",
+            "url": "https://www.sephora.com/",
+            "comparison": "依附丝芙兰自有商品销售，目的是带动购买；UR Artist 中立且妆容库更大、引导更精细。"
+          },
+          {
+            "name": "YouCam Makeup",
+            "url": "https://youcamapps.com/",
+            "comparison": "功能覆盖试妆、自拍美化和社区内容，但偏娱乐与营销；UR Artist 专注设备端实时教学和毫米级定位。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-10-11T14:58:24.544806+00:00",
+      "lastFeaturedDate": "2026-09-27",
+      "metrics": {
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1258558",
+      "name": "AgreeGuard",
+      "slug": "agreeguard",
+      "description": "一款免费的 Chrome 扩展：在你点击「我同意」之前，用 AI 在约 15 秒内读完服务条款和隐私政策，用大白话给出摘要，并标红自动续费、出售数据、隐藏费用、放弃诉讼权等风险点，还给出低/中/高风险评级。无需注册，任何网站都能用。",
+      "url": "https://agreeguard.app/",
+      "homepage": "https://agreeguard.app/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1258558_20260927_225140.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "隐私保护",
+        "AI法律助手",
+        "浏览器扩展",
+        "消费安全",
+        "风险识别"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/agreeguard-ai-terms-privacy-analyzer",
+      "firstSeen": "2026-09-22T13:11:59-07:00",
+      "analysis": {
+        "targetAudience": "经常注册各类网站和服务、担心被自动续费或隐私条款坑到的普通互联网用户。",
+        "useCases": [
+          "注册新 App 或 SaaS 时快速看清自动续费和取消费用条款",
+          "检查社交、电商平台是否会把个人数据出售给第三方",
+          "识别强制仲裁、集体诉讼弃权等悄悄剥夺法律权利的条款",
+          "用 Pro 版深度爬取退款政策、计费页等分散在多个链接里的文件",
+          "在 OAuth 授权登录前自动触发分析，先看风险再授权"
+        ],
+        "designIntent": "团队发现 91% 的人从不阅读条款就点同意，而平均一份条款超过 4000 字。他们不指望用户变成法律专家，只想用 AI 把最危险的几条在签字前标出来，定位是「AI 分析 vs 盲目同意」，而不是替代律师。",
+        "problemSolved": "服务条款冗长晦涩，里面埋藏着数百美元的自动续费陷阱、数据共享授权和弃权条款，普通用户几乎不可能逐条读完。AgreeGuard 把整份文件提炼成通俗摘要加具体红旗，让决策从「完全不看」升级到「10 秒看清最大风险」。",
+        "score": 7,
+        "scoreReason": "切中几乎所有人都有的高频痛点，自动检测同意框、无需注册的设计很实用。扣分点是免费层每天仅 2 次分析，AI 摘要对极复杂法律文件仍可能遗漏，且条款分析类扩展已有不少同类。",
+        "competitors": [
+          {
+            "name": "Terms of Service; Didn't Read (ToS;DR)",
+            "url": "https://tosdr.org/",
+            "comparison": "由社区人工评定、覆盖网站数量有限；AgreeGuard 用 AI 实时分析任意网站，覆盖面更广但依赖模型准确性。"
+          },
+          {
+            "name": "FinePrint",
+            "url": "https://chromewebstore.google.com/",
+            "comparison": "同为 AI 条款分析扩展，功能高度重叠；AgreeGuard 的优势是自动检测同意框和深度爬取多页文件。"
+          },
+          {
+            "name": "Privacy Badger",
+            "url": "https://privacybadger.org/",
+            "comparison": "专注拦截第三方追踪器，不解读法律文本；AgreeGuard 则直接帮你读懂条款内容。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-10-11T14:58:24.544806+00:00",
+      "lastFeaturedDate": "2026-09-27",
+      "metrics": {
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "welcome.llamora.app",
+      "name": "Llamora",
+      "slug": "llamora",
+      "description": "一本「陪你一起记得」的私人日记：每天打开新页面记录，第二天早上它会用前几天的内容写几行引子，你提问时模型才回应。它还会给条目打上轻量「痕迹」标签、支持按语义搜索过往，并能存放照片。全程加密存储，可接入本地模型完全离线运行。",
+      "url": "https://welcome.llamora.app/",
+      "homepage": "https://welcome.llamora.app/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/welcome.llamora.app_20260927_225148.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI日记",
+        "情绪记录",
+        "隐私加密",
+        "自我反思",
+        "本地优先"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49865519",
+      "firstSeen": "2026-09-27T10:53:37Z",
+      "analysis": {
+        "targetAudience": "有长期写日记习惯、重视隐私，希望从记录中看见自身情绪和生活模式的人。",
+        "useCases": [
+          "每天写几句话，第二天由 AI 根据近期记录生成晨间引子再接着写",
+          "翻看「痕迹」标签，观察某个情绪或主题在一年里如何反复出现",
+          "用语义搜索按「当时在想什么」找回很久以前的日记",
+          "把照片（含 HEIC）存入条目，元数据被清除后加密保存",
+          "接入本地 llama.cpp 模型完全离线运行，敏感内容不出本机"
+        ],
+        "designIntent": "团队想做一本真正私密、以日历为核心的日记，而不是又一个会给你打分、贴人格标签的 AI。模型只在被询问时回应、绝不评价条目或建立用户画像，记录的解释权始终留给本人。",
+        "problemSolved": "普通日记写完就沉底，人很难从长期记录里发现反复出现的情绪和主题；而云端 AI 日记又让人担心最私密的内容被上传分析。Llamora 用加密存储、轻量痕迹标签和可离线的本地模型，同时解决「记完用不上」和「隐私不敢写」两个问题。",
+        "score": 8,
+        "scoreReason": "在加密、可自托管、无外发请求之上做了语义搜索和「痕迹」模式，隐私理念和产品完成度都很高。扣分点是官方托管注册已关闭，普通用户需自行用 uv 部署、门槛较高，且属于小众长期习惯型产品。",
+        "competitors": [
+          {
+            "name": "Journey",
+            "url": "https://journey.cloud/",
+            "comparison": "成熟的跨平台日记应用，支持照片和时间轴，但 AI 与端到端隐私能力较弱；Llamora 更强调本地模型和加密。"
+          },
+          {
+            "name": "Day One",
+            "url": "https://dayoneapp.com/",
+            "comparison": "体验优秀、生态完善，但数据依赖云端且高级功能需订阅；Llamora 提供可自托管、完全离线的选择。"
+          },
+          {
+            "name": "Reflectly",
+            "url": "https://reflectly.app/",
+            "comparison": "用 AI 做情绪日记和结构化提问，但偏云端、会分析情绪；Llamora 刻意不评价、不建画像，更克制。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-10-11T14:58:24.544806+00:00",
+      "lastFeaturedDate": "2026-09-27",
+      "metrics": {
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1260601",
+      "name": "SocialGPT",
+      "slug": "socialgpt",
+      "description": "一个「用聊天剪辑时间轴」的 AI 视频编辑器：上传素材后直接用自然语言下达指令——收紧节奏、加字幕、插入 B-roll、配音乐音效，AI 直接改在可编辑时间轴上，你可以继续对话微调或自己动手。还能分析账号历史内容、生成钩子和发布计划，面向不想学专业剪辑工具的创作者和商家。",
+      "url": "https://gpt.social/",
+      "homepage": "https://gpt.social/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1260601_20260927_225156.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI视频剪辑",
+        "内容创作",
+        "短视频",
+        "社媒运营",
+        "创作者工具"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/socialgpt",
+      "firstSeen": "2026-09-24T17:50:36-07:00",
+      "analysis": {
+        "targetAudience": "需要持续产出短视频却不熟悉专业剪辑软件的创作者、教练和中小企业主。",
+        "useCases": [
+          "把一段晨跑素材直接说成「剪成 20 秒 TikTok」，AI 自动选镜头、卡点、加字幕",
+          "清理杂乱录制，自动删掉重复片段和未说完的开头",
+          "通过对话调整字幕风格、位置，或给某个 B-roll 出现处加音效",
+          "分析账号最近 10 条帖子，找出高互动钩子风格再批量生成新选题",
+          "通过 MCP 把内容数据接入 Claude、ChatGPT 等助手，追问竞品和发布策略"
+        ],
+        "designIntent": "创始人自认有故事想讲却不擅长表达和剪辑，团队想让「知道要改什么但不会操作」的人用一句话完成换镜头、删停顿、配音乐等操作。它保留了真正的时间轴，AI 负责执行，品味和判断留给创作者。",
+        "problemSolved": "传统剪辑软件学习成本高，创作者要在时间轴、特效、音频轨道里耗费大量时间；纯 AI 一键成片又不可控。SocialGPT 用对话驱动加上可手动修改的时间轴，既降低门槛又保留对每一帧的掌控。",
+        "score": 8,
+        "scoreReason": "把对话式指令落到真正可编辑的时间轴上，还整合了内容分析和 MCP 接入，工作流完整、差异化清晰。扣分点是赛道竞争极其激烈（Descript、剪映等都很强大），且精细剪辑仍需手动微调。",
+        "competitors": [
+          {
+            "name": "Descript",
+            "url": "https://www.descript.com/",
+            "comparison": "以编辑文稿的方式剪辑视频、功能成熟；SocialGPT 更偏直接对话改时间轴，并整合社媒内容分析。"
+          },
+          {
+            "name": "OpusClip",
+            "url": "https://www.opus.pro/",
+            "comparison": "擅长把长视频自动切成多条短视频，偏一键生成；SocialGPT 支持逐条对话精细控制和手动时间轴。"
+          },
+          {
+            "name": "CapCut（剪映）",
+            "url": "https://www.capcut.com/",
+            "comparison": "用户量巨大、AI 功能全面且免费；SocialGPT 的优势是自然语言驱动的剪辑交互和账号洞察。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-10-11T14:58:24.544806+00:00",
+      "lastFeaturedDate": "2026-09-27",
+      "metrics": {
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1260048",
+      "name": "DemoScreen",
+      "slug": "demoscreen",
+      "description": "把产品截图变成带旁白演示视频的工具：上传截图后，AI 读取画面自动撰写脚本，并配上旁白、背景音乐和字幕，可标记需要放大的区域。提供 5 套模板、16:9/9:16/1:1 三种比例和英/西/葡/法四种语言，每次渲染产出 MP4、SRT 字幕、GIF 和分享链接。",
+      "url": "https://demoscreen.co/",
+      "homepage": "https://demoscreen.co/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1260048_20260927_225206.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "产品演示",
+        "AI视频生成",
+        "市场营销",
+        "独立开发者",
+        "无代码"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/demoscreen",
+      "firstSeen": "2026-09-24T03:35:43-07:00",
+      "analysis": {
+        "targetAudience": "需要快速制作产品演示视频却没有剪辑能力的独立开发者、产品经理、市场人员和初创创始人。",
+        "useCases": [
+          "新品发布时用 8-14 张截图生成约 60 秒带旁白的演示视频",
+          "为功能更新快速出一版竖屏视频用于社媒推广",
+          "输出 SRT 字幕和 GIF，方便嵌入文档、邮件或落地页",
+          "制作内部培训和用户上手视频，无需录屏和配音",
+          "标记截图中的关键区域做放大特写，突出核心功能"
+        ],
+        "designIntent": "团队观察到录制和剪辑一段演示视频要花大量时间，于是把流程压缩成「上传截图 → AI 写脚本 → 选声音音乐 → 渲染」一条固定流水线。产品刻意专注「截图变演示」这一件事，默认产出可直接发布的完整物料包。",
+        "problemSolved": "专业演示视频需要录屏、写稿、配音、剪辑、配乐等多个环节，成本高且要会用剪辑软件。DemoScreen 仅凭静态截图就能自动生成带脚本、旁白、字幕和音乐的成片，让非视频专业人员几分钟拿到 MP4 加 SRT 加 GIF。",
+        "score": 7,
+        "scoreReason": "工作流闭环清晰、交付物完整（MP4/SRT/GIF/链接），免费版每月 60 秒额度对独立开发者友好。扣分点是截图驱动的视频表现力有限、不能上传真人配音，且演示视频赛道有 Loom、Synthesia 等强势竞品。",
+        "competitors": [
+          {
+            "name": "Loom",
+            "url": "https://www.loom.com/",
+            "comparison": "主打真人录屏加摄像头讲解，真实但需要亲自录制；DemoScreen 仅凭截图即可生成，适合不想出镜的人。"
+          },
+          {
+            "name": "Synthesia",
+            "url": "https://www.synthesia.io/",
+            "comparison": "强大的 AI 数字人视频平台，价格更高、偏企业培训；DemoScreen 更轻量且专为产品演示设计。"
+          },
+          {
+            "name": "Tella",
+            "url": "https://www.tella.tv/",
+            "comparison": "面向屏幕录制和快速剪辑，素材来自真实录制；DemoScreen 用静态截图加 AI 旁白，制作门槛更低。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-10-11T14:58:24.544806+00:00",
+      "lastFeaturedDate": "2026-09-27",
+      "metrics": {
+        "featuredInDaily": true,
+        "featuredInWeekly": false
+      }
     }
   ],
-  "lastUpdated": "2026-09-27T14:37:47.096575+00:00"
+  "lastUpdated": "2026-09-27T14:58:24.544806+00:00"
 }
