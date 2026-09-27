@@ -1,0 +1,94 @@
+{
+  "date": "2026-09-27",
+  "generatedAt": "2026-09-27T14:37:47.096575+00:00",
+  "productCount": 1,
+  "type": "weekly",
+  "sourceDailyReport": "2026-09-03",
+  "products": [
+    {
+      "id": "x.com/miwaailearning/status/2095071295746576886",
+      "name": "Hyperknow（AI 一对一学习伙伴）",
+      "slug": "hyperknow",
+      "description": "把教材、课件和不会的题变成一套个性化课程的 AI 学习智能体：生成课程、cheatsheet、闪卡和练习题，还能用白板一步步讲解抽象概念，并记住你的学习方式，像一个长期陪伴的私人老师。由哥伦比亚大学华人本科生团队打造，获真格基金 100 万美元种子轮投资。",
+      "url": "https://www.hyperknow.io/",
+      "homepage": "https://www.hyperknow.io/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/x.com_miwaailearning_status_2095071295746576886_20260903_120546.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 教育",
+        "学习助手",
+        "智能辅导",
+        "课程生成"
+      ],
+      "sourceChannels": [
+        "twitter"
+      ],
+      "sourceUrl": "https://x.com/MiWaAilearning/status/2095071295746576886",
+      "firstSeen": "2026-09-02T08:48:16+00:00",
+      "analysis": {
+        "targetAudience": "大中学生及终身学习者，需要把教材/课件转化为真正学得懂的知识的自学者",
+        "useCases": [
+          "把上百页课件和文献自动提炼成 cheatsheet、闪卡和练习题",
+          "针对不会的题目分步讲解，用白板拆解抽象概念",
+          "按自己的学习风格生成个性化课程，从头系统学一门课",
+          "导入 LMS 课程与截止日期，自动生成复习计划和待办"
+        ],
+        "designIntent": "团队认为「看起来复杂的知识并不是真的难，而是没有被讲好」，立志把整个学习过程放进一个为学习而生的平台，让认知成为可积累的资产；它不是聊天框套壳，而是主动式学习智能体，覆盖预习、上课、复习备考的完整闭环。",
+        "problemSolved": "解决学生面对大量教材课件不知道从哪下手、通用 AI 只会给答案而不会「教会」的问题；把碎片化知识重组为可理解、可复用、可迁移的结构，让学习有长期陪伴感。",
+        "tags": [
+          "AI 教育",
+          "学习助手",
+          "智能辅导",
+          "课程生成",
+          "学生工具"
+        ],
+        "score": 9,
+        "scoreReason": "【深度调研亮点】① 创始人故事极强：赵一霖、蒋若涵均为哥伦比亚大学物理+计算机专业 00 后本科生（创业时分别大二、大一，19/20 岁），因 2024 年 9 月一场量子计算黑客松上「教材太深、ChatGPT 讲得太浅」的亲身痛点起步，双双休学全职创业，创始人入选 Forbes U30 Asia；② 资本验证：2025 年 9 月完成真格基金（ZhenFund）领投的 100 万美元种子轮；③ 真实验证过的增长：2026 年 2 月平台用户破 1 万、与全球 50+ 高校建立合作，官网称已覆盖 100+ 大学（MIT、Berkeley、Harvard、Yale 等）；2026 年 7 月期末季靠「cheatsheet 生成」爆点单周用户量接近翻三倍、付费转化率约 20%，用户自发传播至美国、澳大利亚、英国；④ 产品差异化真实可见：主动式学习 Agent（代号 Orbie）读取课程大纲后主动抽取截止日期、排学习计划并预生成材料，支持最长 1000 页文档逐句阅读并把每个事实溯源到具体页码（对标 ChatGPT 的压缩式阅读），深度研究一次检索 50 个网页逐段溯源，接入 Canvas 等 LMS，并用 Learner's Persona 长期记忆每个学生的学习风格；⑤ 商业化务实：免费版可用、Pro $18/月、Max $50/月，定价低于 ChatGPT Plus，坚持「先看到价值再付费」，团队每月承担数万美元 token 成本；⑥ 迭代速度快：自 2024 年 9 月以来 5 个大版本、数百个小版本，2025 年 11 月正式发布，三个月后（2026 年 2 月）即上线主动型 Hyperknow 3.0，团队自称可一周完整 rebuild 产品。风险在于赛道巨头环伺（NotebookLM/ChatGPT Study Mode/Quizlet 均免费或低价），后续需观察留存与校园渠道拓展。",
+        "competitors": [
+          {
+            "name": "Google NotebookLM",
+            "url": "https://notebooklm.google.com",
+            "comparison": "2026 年最主流的「源材料接地」学习工具，免费、引用溯源能力强、有音视频概览；但它是被动式研究笔记本，不会主动规划、不做长周期学习者画像，也不接入 LMS 排期，Hyperknow 以主动式 Agent 和学习闭环差异化竞争"
+          },
+          {
+            "name": "ChatGPT Study Mode",
+            "url": "https://chat.openai.com",
+            "comparison": "覆盖面最广的免费苏格拉底式辅导，但属通用模型、记忆混杂、对长文献倾向压缩式阅读且无页码级溯源；Hyperknow 专注学习场景，支持 1000 页文档逐句引用，并围绕课程/考期主动组织学习流程"
+          },
+          {
+            "name": "Khanmigo",
+            "url": "https://www.khanmigo.ai",
+            "comparison": "Khan Academy 的 AI 助教（约 $4/月），同样引导而非直接给答案，但深度绑定 Khan 自有 K-12 课程体系、个人订阅限美国地区；Hyperknow 不绑定课程来源，面向大学生与终身学习者，灵活度更高"
+          },
+          {
+            "name": "StudyFetch",
+            "url": "https://studyfetch.com",
+            "comparison": "形态最接近的一体化学习套件（Spark.E 导师 + 闪卡/测验/日程，$7.99–11.99/月，2025 年获 1150 万美元 A 轮、号称 600 万学生），但评测普遍认为其 AI 生成质量参差、免费档仅 2 次上传且无主动规划；Hyperknow 以主动式 Agent、长文档溯源和更快迭代错位竞争"
+          },
+          {
+            "name": "Quizlet",
+            "url": "https://quizlet.com",
+            "comparison": "闪卡与检索练习领域的事实标准（$35.99/年），题库庞大但只有单点记忆训练，缺少 1:1 课程生成、白板讲解、长文献理解与主动辅导；Hyperknow 覆盖预习—上课—复习备考完整闭环"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-09-03"
+      },
+      "addedAt": "2026-09-03T04:08:59.312224+00:00",
+      "cooldownExpiresAt": "2026-09-17T04:08:59.312224+00:00",
+      "weeklyDeepDive": {
+        "growthData": "时间线：2024 年 9 月在量子计算黑客松做出第一版「深度知识搜索引擎」；2025 年 3 月公开测试；2025 年夏推出 Study Workspace，内测期全球近 500 名用户；2025 年 9 月完成真格基金领投的 100 万美元种子轮；2025 年 11 月通用学习智能体正式全球发布（历经 5 个大版本）；2026 年 2 月 Hyperknow 3.0 上线。规模数据：2026 年 2 月官方称全平台用户超 1 万、与 50+ 高校建立合作，官网现称用户来自 100+ 大学（MIT、UC Berkeley、Harvard、Yale、UIUC 等）；2026 年 7 月 16 日官方 LinkedIn 复盘：期末季单周用户量接近翻三倍（nearly tripled），付费转化率约 20%，传播集中在美国、澳大利亚、英国；第三方流量统计显示访客主要来自美国（约 45%）、印度（约 26%）、澳大利亚（约 23%），直接访问占比约 79%，呈典型学生口碑传播结构。团队：LinkedIn 显示公司 2025 年成立于纽约，现有 11 人（同比 +120%），团队成员多从早期用户转化而来。",
+        "communityActivity": "冷启动靠小红书：第一篇帖子爆了后建立第一个用户群（数百人），早期群友边用边陪团队修 bug；海外以 Discord 社区 + LinkedIn + X/TikTok/Instagram 邀请码分发运营，Pro 用户可获创始人 1 对 1 onboarding；官方 LinkedIn 保持高频创始人叙事（融资、20% 付费转化复盘、3.0 发布等帖子互动量十余至数十）；真格基金播客《此话当真》2026 年 3 月做了超 1 小时创始人深度对谈（小宇宙、elsewhere 等多平台分发中英文版本），AITNT 等中文 AI 媒体亦有专访；DEV Community 有独立第三方长文实测（2026 年 3 月），对 Deep Learn Sessions、教学视频自动生成管线和页码级引用给出正面评价；用户画像意外外溢：约六七成用户为大学生，亦有初中生家长、医学生/法学生，官方播客还提到一位 80 岁老奶奶用户的故事。",
+        "updateFrequency": "高强度迭代：2024 年 9 月至 2026 年 2 月完成 5 个大版本、小版本累计数百次；2025 年 11 月正式版后仅三个月即发布主动式 Hyperknow 3.0（2026 年 2 月 25 日官宣）；cheatsheet 爆火期间一周内按用户每天 50+ 封反馈邮件持续重构编辑器（字号、页边距、多栏、批量上传）；创始人称团队具备「一周完整 rebuild 产品、突破以半周为单位」的节奏。当前产品更新方向：Canvas LMS 深度对接、主动式 Proactive Learning Feed、教学视频生成（脚本→旁白→Manim 代码→渲染四阶段管线）、Learner's Persona 记忆体系。",
+        "marketPosition": "赛道：2026 年 AI 学习工具已从「聊天框答题」进化为「源材料接地 + 主动辅导 + 检索练习」三条主线，免费巨头（NotebookLM、ChatGPT Study Mode、Gemini Guided Learning、Anki）占据大盘，垂直套件（StudyFetch 2025 年拿 1150 万美元 A 轮、600 万学生；Quizlet/Knowt/Khanmigo）各守细分。Hyperknow 的定位是世界首个「通用、主动式学习 Agent」：不止回答问题，而是读取课程上下文后主动规划、备课、提醒，把预习—上课—复习全闭环接管。Go-to-market 选择学生侧自下而上（期末季 cheatsheet 切入）→ 沉淀学习数据 → 未来再进中学/高校体系与课程对接，并以教育公平为品牌叙事（定价低于 ChatGPT、免费档完整可用、目标触达教育欠发达地区）。在学生自研 AI 工具中属融资与增长数据都较扎实的第一梯队。",
+        "differentiation": "1) 主动式而非被动应答：Agent（Orbie）读取大纲/课件即自动抽取 deadline、排学习日历、在下次学习前预生成闪卡/cheatsheet/测验，错过一次 session 会自动重排计划；2) 学术级长文档：支持最长 1000 页教材/文献逐句阅读，输出每条事实精确到页码的引用，针对性解决通用大模型压缩阅读、幻觉和溯源缺失；3) 学习场景专属记忆：Learner's Persona 长期建模每个用户的课程、知识水平与学习风格，并能按年龄层（从小学生到老年学习者）调整解释深度；4) Deep Learn Sessions 结构化课堂：AI 主动引导的单元式学习，一次深度研究检索约 50 个网页、每个回答附 10+ 引用，而非一次性问答；5) 真实学生视角的功能颗粒度：如按半开卷考试习惯生成四列排版 cheatsheet、理科自动抽取并注释全部公式符号、一键生成可打印材料；6) 教学而非代写：价值观上反作弊（Stop meaningless cheating, start actual learning），解题走引导式推演；7) 创始人即用户：两名休学本科生自研自用，团队从用户中招募，功能大量直接来自线上工作坊的学生提案，迭代速度以天计。"
+      }
+    }
+  ]
+}

@@ -30763,8 +30763,8 @@
       },
       "metrics": {
         "featuredInDaily": 1,
-        "featuredInWeekly": 0,
-        "lastFeaturedDate": "2026-09-03"
+        "featuredInWeekly": true,
+        "lastFeaturedDate": "2026-09-27"
       },
       "addedAt": "2026-09-03T04:08:59.312224+00:00",
       "cooldownExpiresAt": "2026-09-17T04:08:59.312224+00:00"
@@ -37793,5 +37793,5 @@
       }
     }
   ],
-  "lastUpdated": "2026-09-24T04:19:02.475547+00:00"
+  "lastUpdated": "2026-09-27T14:37:47.096575+00:00"
 }
