@@ -1,0 +1,92 @@
+{
+  "date": "2026-09-28",
+  "generatedAt": "2026-09-28T04:20:11.227506+00:00",
+  "productCount": 1,
+  "type": "weekly",
+  "sourceDailyReport": "2026-09-28",
+  "products": [
+    {
+      "id": "producthunt.com/r/p/1260296",
+      "name": "Hyperdream AI 电影工作室",
+      "slug": "hyperdream",
+      "description": "Hyperdream 把剧本创作、角色选角、分镜、多模型镜头生成、配音和剪辑整合在一个平台。它锁定角色形象与视觉风格，跨 Google Veo、Kling 等模型保持一致性，让一个想法直接变成完整影片。",
+      "url": "https://hyperdream.co",
+      "homepage": "https://hyperdream.co",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1260296_20260928_121012.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 视频",
+        "电影制作",
+        "创意工具",
+        "内容创作"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/hyperdream",
+      "firstSeen": "2026-09-24T08:47:40-07:00",
+      "analysis": {
+        "targetAudience": "想在没有完整摄制团队的情况下产出电影感长视频的独立创作者、营销团队、代理机构和小型工作室。",
+        "useCases": [
+          "从一句话创意生成结构完整、可拍摄的剧本",
+          "创建并锁定角色形象与克隆声音，贯穿全片保持一致",
+          "逐镜头生成分镜并调用 Veo、Kling 等前沿视频模型",
+          "通过虚拟运镜控制镜头运动，产出电影感画面",
+          "在同一平台完成配音、剪辑与成片导出"
+        ],
+        "designIntent": "创始团队曾花 5 天用碎片化工具做出一支 2 分钟儿歌视频，痛感 AI 电影制作被剧本、角色、视频模型和剪辑工具割裂。Hyperdream 想做电影人的编排器，由 AI 管理上下文和重活，人专注讲故事。",
+        "problemSolved": "解决了 AI 视频最大的顽疾——不一致：每个镜头从零生成，人物长相、比例、光影和风格在镜头间漂移。平台锁定角色身份与视觉风格，并让整个制作流程在同一上下文中完成。",
+        "score": 9,
+        "scoreReason": "【深度调研亮点】① 痛点叙事真实具体：创始人 Divy Brahmbhatt 公开自述，团队曾用 ChatGPT 写剧本、Gemini 出图、Veo 生成视频再加剪辑工具拼接，一支 2 分钟的 AI 儿歌视频足足做了 5 天，由此意识到「没有一个工具理解整个项目」，转而自研编排平台；② 技术路线选「编排层」而非再造模型：把 Google Veo、Kling 等前沿视频模型整合进统一多模型编排层（multi-model orchestration），由平台按镜头任务推荐模型，自建「持续上下文引擎（Continuous Context Engine）」把角色参考嵌入、风格 latent 与镜头参数贯穿全流程，直击 AI 视频最大顽疾——跨镜头人物长相、比例、光影与风格漂移；③ 端到端六阶段工作流完整：AI 剧本（logline→分幕分场剧本）→ 风格锁定（光线/调色/胶片颗粒）→ AI 选角与声音克隆 → 逐镜头分镜 → 带虚拟机位/调度/镜头选择的视频生成 → 非破坏性编辑器里加声音、组接、导出成片，面板级支持重新构图、排序与单帧重生；④ 已有可验证的成片案例：官方发布巴塔哥尼亚 Torres del Paine 旅行短片，13 个场景 15 个镜头保持统一写实质感，强调「知道什么时候不动镜头」的导演意识，并演示过 30 分钟产出 50 秒超级英雄预告片；⑤ Product Hunt 2026 年 9 月 25 日正式上线，获 68 upvote、当日排名第 24，被归入 AI（47.95 万关注者）赛道，并借 Vercel Day 主题获得曝光；新用户注册即送 50 免费积分，降低试用门槛；⑥ 定价已明确、商业模式成立：积分制订阅，Starter $29/月（390 积分）、Creator $49/月（1000+50 积分）、Pro $99/月（2000+100 积分）、Business $199/月（4000+200 积分），均含快速生成、高级模型、Discord 优先支持与自定义水印；⑦ 面向 To B 的叙事清晰：2026 年 8 月起官方内容主打「企业评估 AI 视频时最关心质量是否扛得住」，切入广告、预告片、品牌叙事场景，对标「AI 电影界的 Cursor / 操作系统」。扣分与风险：作为上线仅数天的新产品尚无生产级口碑沉淀、社区反馈极少；无完全免费套餐（第三方评测明确标注 $29 起步、不可退款）；隐私条款显示用户内容可能被用于训练 AI 模型；成片质量最终仍受 Veo/Kling 等底层模型限制，长片目前实际以 5–10 分钟内、短视频级别为主。",
+        "competitors": [
+          {
+            "name": "LTX Studio",
+            "url": "https://ltx.studio",
+            "comparison": "赛道内最直接的全流程对手（Lightricks 出品）：同样从剧本、分镜、AI Elements 角色一致性到时间线剪辑一体化，并集成 Veo/Kling 等第三方模型，起价约 $12–15/月、有免费档、SOC2/ISO27001 等企业合规齐全，媒体评分 9.1 且生态更成熟。Hyperdream 的差异在更年轻的「Agentic + 持续上下文引擎」叙事与导演级机位控制，但品牌、合规与用户积累明显落后。"
+          },
+          {
+            "name": "Runway",
+            "url": "https://runwayml.com",
+            "comparison": "AI 视频老牌平台，自研 Gen-4.5、Aleph 2.0、Act-Two 等模型，照片级写实与单镜头质量强，已补齐 Agent 时间线组接与专业交付格式、API 完善；但缺少原生分镜工作空间，多镜头一致性长期被指偏弱。Hyperdream 不自研模型，强在跨模型编排和剧本到成片的连贯叙事。"
+          },
+          {
+            "name": "Higgsfield",
+            "url": "https://higgsfield.ai",
+            "comparison": "以 Cinema Studio 相机/镜头/焦段预设、Soul ID 角色一致性和多模型横向对比见长，起价约 $9/月、主打快速电影感出片；但属预设驱动、缺少完整分镜与时间线生产环境。Hyperdream 覆盖剧本、选角、分镜到剪辑的完整制作链路，更偏长叙事。"
+          },
+          {
+            "name": "Pika",
+            "url": "https://pika.art",
+            "comparison": "以简单易用、文生视频效果轻快著称、用户基数大，适合即时短片和社交素材；但无分镜、无完整工作流。Hyperdream 面向长叙事与专业制作流程，强调角色与风格锁定。"
+          },
+          {
+            "name": "Kling",
+            "url": "https://klingai.com",
+            "comparison": "底层视频模型强者之一（快影/快手系），电影感写实与运镜质量高；但本身是生成器，不提供剧本、分镜、跨项目一致性管理与端到端制片能力——Hyperdream 反而是把 Kling 作为可调用模型纳入编排，属于上下游关系。"
+          },
+          {
+            "name": "Google Flow",
+            "url": "https://flow.google.com",
+            "comparison": "Google 官方 AI 创意工作室（网页+移动端），直接调用自家 Veo 系列，模型与生态优势强、2026 年 9 月移动端上线扩张迅速；但核心锁定 Google 自家模型、偏创作工具而非完整制片管线。Hyperdream 的差异在模型中立的多模型路由与从剧本到成片的全流程上下文。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-10-12T04:11:03.355599+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-09-28"
+      },
+      "weeklyDeepDive": {
+        "growthData": "团队与时间线：Hyperdream 2025 年由印度艾哈迈达巴德（Ahmedabad）创始人 Divy Brahmbhatt 创立（LinkedIn 显示其 2025 年 11 月起全职投入），bootstrapped 自筹资金，LinkedIn 公司页标注规模 1–10 人、创立年份 2025；2026 年年中仍在招募 Creative Media Intern 并自述「向 V1 发布推进」；2026 年 7 月 30 日在艾哈迈达巴德 eChai Startup Demo Day 线下路演（第 18 个展示项目），获得早期本地创业社区关注；2026 年 9 月 25 日 Product Hunt 正式上线，获 68 upvote、1 条评论、当日榜单第 24 名；官方通过 LinkedIn 持续发布成片案例（2026-06-11「30 分钟做 50 秒超级英雄预告片」、2026-07-16「几分钟做完整短片」、2026-08-27 商业叙事案例、巴塔哥尼亚 13 场景旅行片）做内容营销，并以「送免费积分 / 注册送 50 credits」拉新。营收与用户绝对数官方未披露；商业模式为积分制订阅 $29–$199/月，交易与跨境税务通过 Dodo Payments 处理。",
+        "communityActivity": "冷启动主要靠创始人个人 LinkedIn 与 PH：Divy 本人作为 hunter 自主提交 Product Hunt（约 79% 的 PH 发布为自主提交），首条评论完整讲述 5 天做 2 分钟儿歌的创业缘起；发布被归入 Artificial Intelligence（约 47.95 万关注者）、Entertainment、Digital Art 及 Vercel Day 等主题；官方 LinkedIn 公司页约 42 关注者，案例帖互动量在数个至三十余个 reaction 之间，属于早期项目量级；线下在 eChai 创业演示日做过展示；支持渠道为 Discord 优先支持（各付费档位均含）。第三方反馈方面：hunted.space、huntscreens、productcool、AgentSpot、completeaitraining、itechguides 等工具聚合/评测站已收录并给出编辑测评，itechguides 编辑评分 7.2/10；但普遍指出「社区反馈极少、尚无读者/用户评价沉淀」，Reddit、Hacker News、X 上暂未检索到成规模的独立用户讨论。",
+        "updateFrequency": "项目从 2025 年 11 月全职启动到 2026 年 9 月 25 日 V1 上线，历时约 10 个月、官方自称「过去一整年都在打造」；上线前保持高频公开 demo 节奏：2026 年 6 月超级英雄预告片、7 月完整短片、8 月巴塔哥尼亚旅行片与商业叙事案例，约每月 1 个代表性成片；技术栈为 Vercel + Supabase + Claude + OpenAI（MVP 阶段使用 Supabase 与 Google Antigravity 免费额度快速迭代），并提供 web 与 API 访问；官方列出的集成偏向 AI 助手/编码工具：ChatGPT、Claude、Cursor、Antigravity、Windsurf、Cline。V1 之后的具体版本节奏与 changelog 暂未公开发布（官网未见独立 changelog/博客日志）。",
+        "marketPosition": "赛道：2026 年 AI 影视工具已明显分化为三层——① 单镜头生成器（Runway、Pika、Kling、Hailuo、Luma 等）；② 模型中立的多模型聚合/导演工具（Higgsfield 等）；③ 端到端 AI 制片平台（LTX Studio 为代表，剧本→分镜→一致性→时间线剪辑→企业合规）。一致性（角色、场景、风格跨镜头不漂移）是全行业公认从「AI 玩具」走向「AI 叙事」的核心门槛，也是 LTX、Runway 等各家 2026 年重点投入方向。Hyperdream 的定位是「端到端 Agentic AI 电影工作室」「AI 电影界的 Cursor / AI filmmaking operating system」：不自研视频模型，而以持续上下文引擎把 Veo、Kling 等最佳模型与剧本、选角、分镜、剪辑串成一条生产线，人做导演、AI 做编排和重活。其主要直接竞争对手是成熟度更高的 LTX Studio（媒体评分、融资、合规、用户均领先）；Go-to-market 上一边靠 PH + 免费积分获取独立创作者，一边以「质量能否扛住企业路线图」的话术试探营销团队、代理机构与小型工作室（广告、预告片、品牌片）。作为刚上线的单人/小团队 bootstrapped 项目，目前处于赛道早期挑战者位置。",
+        "differentiation": "1) 模型中立的多模型编排：不绑定单一模型，把 Google Veo、Kling 等前沿视频模型放进统一路由，由平台按镜头任务推荐模型，避免被单一模型能力锁死；2) 持续上下文引擎：持久化「项目文件」串联剧本叙事数据、角色参考嵌入、风格 latent 与镜头参数，每个生成环节共享同一上下文，官方与第三方（productcool）均将其描述为跨场景一致性的关键架构，而非靠用户手动重复喂 prompt；3) 真正的端到端六阶段：剧本 → 风格锁定（光线/调色/胶片颗粒）→ AI 选角+声音克隆 → 逐镜头分镜 → 虚拟机位/调度/镜头选择的视频生成 → 非破坏性剪辑导出，解决在 ChatGPT/Gemini/Veo/剪辑软件之间反复跳转的「工具-hopping」；4) 面板级导演控制：分镜面板可逐帧调整构图与取景、重排序、单帧重生，并强调「知道什么时候不动镜头」的导演意识，区别于用无意义运动掩盖接缝的 AI demo；5) 低试用门槛 + 明确付费梯度：注册送 50 免费积分，付费档 $29–$199 覆盖个人到 Business，含自定义水印、快速生成与高级模型；6) 创始人即用户、小步快跑：由有 LLM/MCP/Agent 工程背景的年轻创始人（此前在 Crest Data Systems 做 AI/ML、在 Gensurf 做物流 AI 产品）因自身拍片痛点打造，bootstrapped、决策与迭代快。短板同样明显：无免费套餐、不可退款、隐私条款保留用用户内容训练模型的权利，且一致性最终仍受底层模型约束。"
+      }
+    }
+  ]
+}

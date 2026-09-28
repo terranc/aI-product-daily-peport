@@ -38342,7 +38342,7 @@
       "cooldownExpiresAt": "2026-10-12T04:11:03.355599+00:00",
       "metrics": {
         "featuredInDaily": 1,
-        "featuredInWeekly": false,
+        "featuredInWeekly": true,
         "lastFeaturedDate": "2026-09-28"
       }
     },
@@ -38408,5 +38408,5 @@
       }
     }
   ],
-  "lastUpdated": "2026-09-28T04:11:03.355599+00:00"
+  "lastUpdated": "2026-09-28T04:20:11.227979+00:00"
 }
