@@ -1,0 +1,282 @@
+{
+  "date": "2026-09-28",
+  "generatedAt": "2026-09-28T04:08:43.222856+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "heysquint.com",
+      "name": "Squint 屏幕框选问答",
+      "slug": "squint",
+      "description": "Squint 是一款常驻系统托盘的桌面小工具，按下快捷键冻结屏幕，在看不懂的内容上拖一个框，AI 回答就直接显示在旁边，无需截图、切换标签页或打字描述。支持追问，对话记录保存在本地。",
+      "url": "https://heysquint.com/",
+      "homepage": "https://heysquint.com/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/heysquint.com_20260928_120949.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "屏幕问答",
+        "效率工具",
+        "视觉理解",
+        "桌面应用"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49870007",
+      "firstSeen": "2026-09-27T19:29:41Z",
+      "analysis": {
+        "targetAudience": "经常在屏幕上遇到陌生报错、代码、图表或外文内容，想即时获得解释的办公人群与开发者。",
+        "useCases": [
+          "框选软件报错信息，立即获得原因解释和解决建议",
+          "阅读外文文档或论文时框选段落，快速翻译并讲解",
+          "看到复杂图表或仪表盘时框选区域，让 AI 解读数据含义",
+          "长辈远程求助电脑问题时，框选界面即可获得操作指引",
+          "购物或填表时框选看不懂的条款、按钮，获得即时说明"
+        ],
+        "designIntent": "设计者想消除「截图—切到聊天窗口—上传—描述问题—再切回来」这一繁琐链路，让用户手指所指的画面本身成为问题。工具刻意保持极轻量，不用时静默待在托盘，不做任何后台采集。",
+        "problemSolved": "解决了传统 AI 助手在理解屏幕内容时上下文切换成本高、需要用语言重新描述画面的问题。回答直接出现在所框内容旁边，还能在同一画面内追问，学习和排错的节奏不再被打断。",
+        "score": 8,
+        "scoreReason": "交互设计非常克制且切中真实痛点，框选即问的形态比通用聊天助手自然得多，本地保存记录也兼顾隐私。扣分点在于免费额度偏少（每天 3 次）且 macOS 版尚未推出。",
+        "competitors": [
+          {
+            "name": "Microsoft Copilot",
+            "url": "https://copilot.microsoft.com",
+            "comparison": "Copilot 功能全面但体量大，需要主动唤起对话窗口；Squint 更轻、更快，专注框选即答这一个动作。"
+          },
+          {
+            "name": "ChatGPT 桌面版",
+            "url": "https://openai.com/chatgpt/desktop/",
+            "comparison": "ChatGPT 桌面版也能截图提问，但仍需手动截图上传并组织提示词；Squint 把整个流程压缩成一次框选。"
+          },
+          {
+            "name": "CleanShot X",
+            "url": "https://cleanshot.com",
+            "comparison": "CleanShot 强在截图标注与录屏，AI 解释只是附属能力；Squint 则以即时问答为核心。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aido.io/demo",
+      "name": "aiDo AI 婚礼管家",
+      "slug": "aido",
+      "description": "aiDo 是一个双面婚礼协调平台：新人一侧把邮件、合同、宾客信息整理成待办与日程并一键确认；宾客一侧通过一个链接获得专属 AI 礼宾，随时回答行程、着装、饮食禁忌和当地习俗等问题。",
+      "url": "https://ai-do.io/",
+      "homepage": "https://ai-do.io/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/aido.io_demo_20260928_120957.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "婚礼策划",
+        "AI 礼宾",
+        "活动协调",
+        "宾客沟通"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49870185",
+      "firstSeen": "2026-09-27T19:50:19Z",
+      "analysis": {
+        "targetAudience": "正在筹备婚礼、尤其是目的地婚礼或跨文化婚礼的新人，以及承接大型婚礼的职业婚礼策划师。",
+        "useCases": [
+          "宾客自助询问交通、酒店、着装要求和文化礼仪，新人无需反复回复",
+          "把散落的合同与邮件自动整理成任务清单和日程安排",
+          "集中管理宾客名单、RSVP、住宿与供应商信息",
+          "为异国婚礼宾客提供目的地习俗与行程的个性化讲解",
+          "婚礼当天实时推送时间表，确保各环节准时进行"
+        ],
+        "designIntent": "作者在毛里求斯举办自己的 300 人印度教婚礼时，被宾客海量重复问题淹没，于是先做了宾客礼宾，再逐步扩展成完整策划平台。产品强调 AI 处理琐事、人保留最终确认权。",
+        "problemSolved": "解决了大型婚礼沟通成本极高的问题：同一批行程和礼仪问题被反复询问，新人疲于应付；同时策划资料散落在邮件、文档和聊天记录里难以统筹。一个链接加一个工作台把两侧问题同时解决。",
+        "score": 8,
+        "scoreReason": "场景真实且经过作者本人 300 人婚礼验证，双边平台（新人+宾客）的设计比单一策划清单更有壁垒。垂直赛道相对小众，且面临 Everly 等同类产品竞争，因此未给更高分。",
+        "competitors": [
+          {
+            "name": "Everly",
+            "url": "https://everly.so/ai-wedding-planner",
+            "comparison": "Everly 更强调主动搜索供应商和自动发送询信，aiDo 则在宾客礼宾和现场协调体验上更成熟。"
+          },
+          {
+            "name": "Zola",
+            "url": "https://www.zola.com",
+            "comparison": "Zola 是成熟的婚礼一站式平台，强项在宾客网站和注册表；aiDo 的 AI 礼宾能处理个性化追问，交互更智能。"
+          },
+          {
+            "name": "The Knot",
+            "url": "https://www.theknot.com",
+            "comparison": "The Knot 偏媒体与供应商名录，策划协作能力较轻；aiDo 直接把沟通和执行工作流做成了产品。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "reddit.com/r/sideproject/comments/1ws2hns/ibuiltasklatteanaibooklibrarythat",
+      "name": "AskLibrary AI 书库问答",
+      "slug": "asklibrary",
+      "description": "AskLibrary 是面向个人藏书的 AI 阅读伴侣，支持 PDF、ePub、Mobi、AZW3。它用高精度解析器完整保留书中的表格、图片、公式与阅读顺序，回答带句子级引用，可跳回原书对应位置核对。",
+      "url": "https://www.asklibrary.ai/",
+      "homepage": "https://www.asklibrary.ai/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/reddit.com_r_sideproject_comments_1ws2hns_ibuiltasklatteanaibooklibrarythat_20260928_121004.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "读书工具",
+        "知识库",
+        "文档问答",
+        "学习效率"
+      ],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "sourceUrl": "https://www.reddit.com/r/SideProject/comments/1ws2hns/i_built_asklatte_an_ai_book_library_that/",
+      "firstSeen": "2026-09-28T02:20:01+00:00",
+      "analysis": {
+        "targetAudience": "拥有大量电子书、需要跨书检索与深读的研究者、学生、终身学习者和专业人士。",
+        "useCases": [
+          "上传教材后直接提问，获得带页码和句子引用的讲解",
+          "跨多本书比较同一概念的不同观点与论述",
+          "让 AI 提取并重建书中的表格、公式和代码片段",
+          "围绕研究主题建立专属藏书集合，快速定位关键章节",
+          "通过语音对话在通勤时复习书中内容"
+        ],
+        "designIntent": "团队想解决普通 AI 工具处理书籍时结构丢失的问题：表格错位、图片消失、阅读顺序混乱。产品因此自研解析管线，并专注非虚构类知识书籍而非通用文档，把引用可核对作为底线能力。",
+        "problemSolved": "解决了「问 AI 书里内容却得不到可信答案」的问题。回答不仅有句子级出处可一键核对，还能完整呈现原书的表格、图片与公式，避免 RAG 工具常见的断章取义。",
+        "score": 8,
+        "scoreReason": "书籍结构精解析和句子级引用是真正差异化的能力，跨书问答也切中研究型用户痛点。赛道已有 NotebookLM 等强势选手，产品规模与用户量尚小，因此给 8 分。",
+        "competitors": [
+          {
+            "name": "NotebookLM",
+            "url": "https://notebooklm.google.com",
+            "comparison": "NotebookLM 生态强、免费额度大，但 AskLibrary 在保留表格公式和电子书格式适配上更精细。"
+          },
+          {
+            "name": "ChatPDF",
+            "url": "https://www.chatpdf.com",
+            "comparison": "ChatPDF 面向单篇 PDF 的快速问答，AskLibrary 支持整座个人书库和跨书综合分析。"
+          },
+          {
+            "name": "PDF.ai",
+            "url": "https://pdf.ai",
+            "comparison": "PDF.ai 通用文档问答体验成熟，但 AskLibrary 专为书籍结构优化，引用可追溯到具体句子。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1260296",
+      "name": "Hyperdream AI 电影工作室",
+      "slug": "hyperdream",
+      "description": "Hyperdream 把剧本创作、角色选角、分镜、多模型镜头生成、配音和剪辑整合在一个平台。它锁定角色形象与视觉风格，跨 Google Veo、Kling 等模型保持一致性，让一个想法直接变成完整影片。",
+      "url": "https://hyperdream.co",
+      "homepage": "https://hyperdream.co",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1260296_20260928_121012.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 视频",
+        "电影制作",
+        "创意工具",
+        "内容创作"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/hyperdream",
+      "firstSeen": "2026-09-24T08:47:40-07:00",
+      "analysis": {
+        "targetAudience": "想在没有完整摄制团队的情况下产出电影感长视频的独立创作者、营销团队、代理机构和小型工作室。",
+        "useCases": [
+          "从一句话创意生成结构完整、可拍摄的剧本",
+          "创建并锁定角色形象与克隆声音，贯穿全片保持一致",
+          "逐镜头生成分镜并调用 Veo、Kling 等前沿视频模型",
+          "通过虚拟运镜控制镜头运动，产出电影感画面",
+          "在同一平台完成配音、剪辑与成片导出"
+        ],
+        "designIntent": "创始团队曾花 5 天用碎片化工具做出一支 2 分钟儿歌视频，痛感 AI 电影制作被剧本、角色、视频模型和剪辑工具割裂。Hyperdream 想做电影人的编排器，由 AI 管理上下文和重活，人专注讲故事。",
+        "problemSolved": "解决了 AI 视频最大的顽疾——不一致：每个镜头从零生成，人物长相、比例、光影和风格在镜头间漂移。平台锁定角色身份与视觉风格，并让整个制作流程在同一上下文中完成。",
+        "score": 9,
+        "scoreReason": "切中 AI 视频从玩具走向叙事的核心障碍（一致性与工具割裂），端到端工作流完整且定位清晰，「AI 电影界的 Cursor」叙事有想象力。扣一分是因为多模型生成成本高、成品质量仍受底层模型限制。",
+        "competitors": [
+          {
+            "name": "Runway",
+            "url": "https://runwayml.com",
+            "comparison": "Runway 强在自研视频模型与专业剪辑，Hyperdream 更强调跨模型编排和从剧本到成片的全流程一致性。"
+          },
+          {
+            "name": "Higgsfield",
+            "url": "https://higgsfield.ai",
+            "comparison": "Higgsfield 专注运镜与角色一致性的单点能力，Hyperdream 覆盖剧本、分镜到剪辑的完整制作链路。"
+          },
+          {
+            "name": "Pika",
+            "url": "https://pika.art",
+            "comparison": "Pika 上手轻快、适合短片即时生成，Hyperdream 更面向长叙事和专业制作流程。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1259013",
+      "name": "PixVerse R2 实时世界模型",
+      "slug": "pixverse-r2",
+      "description": "PixVerse R2 是一个可实时探索、可即时改变的世界模型：用户置身于 AI 生成的可交互场景中，边走边改变环境与剧情，把视频生成从「等待渲染」变成「实时游玩式创作」。",
+      "url": "https://pixverse.ai",
+      "homepage": "https://pixverse.ai",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1259013_20260928_121020.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "世界模型",
+        "AI 视频",
+        "实时交互",
+        "游戏化创作"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/pixverse-r2",
+      "firstSeen": "2026-09-23T02:26:05-07:00",
+      "analysis": {
+        "targetAudience": "对世界模型和交互式生成感兴趣的视频创作者、游戏开发者、故事叙述者和前沿技术尝鲜者。",
+        "useCases": [
+          "在 AI 生成的 3D 场景中自由漫游，实时探索不同环境",
+          "用文字或指令即时改变场景元素，快速推演视觉创意",
+          "交互式讲述故事，观众的选择直接改变画面走向",
+          "为游戏和动画快速生成可体验的概念原型",
+          "录制实时探索过程，直接产出沉浸式视频内容"
+        ],
+        "designIntent": "PixVerse 团队想把视频生成从离线渲染的单向输出，推进到可实时进入、可双向干预的世界模型，让用户像玩游戏一样「住进」生成内容里并随手重塑它。",
+        "problemSolved": "解决了传统 AI 视频生成等待时间长、生成后难以局部修改的问题。用户不必反复抽卡等待，可以在场景中实时观察并即时改变环境，创作反馈循环被大幅缩短。",
+        "score": 8,
+        "scoreReason": "实时可交互的世界模型代表视频生成的重要方向，把「观看生成结果」升级为「进入并修改世界」，想象空间很大。技术仍处早期，画面连贯性和可控性有待验证，因此给 8 分。",
+        "competitors": [
+          {
+            "name": "Runway Gen 系列",
+            "url": "https://runwayml.com",
+            "comparison": "Runway 以高质量离线视频生成为主，PixVerse R2 主打实时进入场景并即时交互修改。"
+          },
+          {
+            "name": "Genie (DeepMind)",
+            "url": "https://deepmind.google/technologies/genie/",
+            "comparison": "Genie 是研究型的可交互世界模型，PixVerse R2 更偏向面向创作者的可用产品形态。"
+          },
+          {
+            "name": "Luma Dream Machine",
+            "url": "https://lumalabs.ai/dream-machine",
+            "comparison": "Dream Machine 强在镜头与画面质感，PixVerse R2 的差异点是实时探索和环境干预。"
+          }
+        ]
+      }
+    }
+  ]
+}
