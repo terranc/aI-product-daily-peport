@@ -1,0 +1,329 @@
+{
+  "date": "2026-09-29",
+  "generatedAt": "2026-09-29T04:20:57.374029+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "producthunt.com/r/p/1262791",
+      "name": "Sayble",
+      "slug": "sayble",
+      "description": "Sayble 是一款实时通话 AI 副驾：它聆听你的线上通话或电话，在约 0.8 秒内递给你下一句最该说的话（外加一句备选），帮你当场化解异议、稳住思路；通话结束后自动生成结构化纪要和可直接发送的跟进邮件。",
+      "url": "https://trysayble.com/",
+      "homepage": "https://trysayble.com/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1262791_20260929_121902.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "通话辅助",
+        "销售",
+        "实时转写",
+        "会议纪要",
+        "效率工具"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/sayble",
+      "firstSeen": "2026-09-27T12:46:24-07:00",
+      "analysis": {
+        "targetAudience": "收入取决于关键对话表现的销售、商务、客户成功、创业者及需要谈判/路演的专业人士。",
+        "useCases": [
+          "在销售或客户发现电话中实时化解“太贵了”“再考虑下”等异议",
+          "投资人路演、合作与加薪谈判时获得临场话术和追问建议",
+          "为客户成功/支持通话保持语气得体、回应准确",
+          "通话结束自动产出决定、异议、待办的结构化纪要",
+          "自动起草与通话内容一致的跟进邮件"
+        ],
+        "designIntent": "创始人发现最好的回答总在挂断电话之后才想起来，而实时对话里迟到的答案毫无价值。因此 Sayble 被刻意设计成“只给一句话，而非一屏文字”，并保证在屏幕共享和录制中隐身，让 AI 真正嵌入人类对话的节奏。",
+        "problemSolved": "解决高压通话中大脑“卡壳”、临场反应慢以及会后整理纪要和跟进邮件耗时的问题。它把优秀销售的话术能力实时复制给每个人，并把每通电话沉淀为可检索、可复盘的数据资产。",
+        "tags": [
+          "通话辅助",
+          "销售",
+          "实时转写",
+          "会议纪要"
+        ],
+        "score": 9,
+        "scoreReason": "痛点极其明确、完成度高，0.8 秒低延迟、屏幕共享隐身、自动纪要与跟进邮件形成完整闭环。赛道（对话智能）竞争激烈，但“实时给一句话”的克制交互和桌面端跨平台适配让它体验突出，是少见能直接提升成交率的工具。",
+        "competitors": [
+          {
+            "name": "Gong",
+            "url": "https://www.gong.io/",
+            "comparison": "Gong 强在通话后的销售分析与团队级洞察，偏管理端、价格高；Sayble 更轻、聚焦个人在通话“当下”的实时话术提示。"
+          },
+          {
+            "name": "Otter.ai",
+            "url": "https://otter.ai/",
+            "comparison": "Otter 主打实时转写与会议记录，不主动给出“下一句该说什么”；Sayble 在此之上增加了面向销售/谈判的临场应对建议。"
+          },
+          {
+            "name": "Fireflies.ai",
+            "url": "https://fireflies.ai/",
+            "comparison": "Fireflies 以会议转写、搜索和 CRM 集成为核心；Sayble 同样有纪要，但核心差异是通话进行中的实时异议处理与话术提示。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1262853",
+      "name": "FaveNest",
+      "slug": "favenest",
+      "description": "FaveNest 是苹果生态（iPhone/iPad/Mac）上的私人收藏库：一键保存链接、笔记、照片和文件，它们会进入一个自动整理的书库；Pro 版让 Apple Intelligence 在你自己的设备上撰写标题、摘要和标签，全程经 iCloud 同步，无需注册账号、没有服务器。",
+      "url": "https://favenest.app/",
+      "homepage": "https://favenest.app/",
+      "type": "app",
+      "appStoreName": "FaveNest – Visual Bookmarks",
+      "appStoreUrl": "https://apps.apple.com/us/app/favenest-visual-bookmarks/id6804493195",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1262853_20260929_121909.png",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/44/64/e5/4464e538-f8cb-eaec-9c5d-6a4307727622/ios-1.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/50/12/35/501235a7-60c6-f840-ec5b-b6c966210807/ios-3.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/16/38/13/1638131c-ff97-439e-b9ce-5efecf2b66be/ios-4.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e1/24/66/e1246644-103c-69c4-dcf0-7a14d12d6177/ios-5.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ce/94/89/ce9489a4-ab04-8f54-cba8-64a46248be3a/ios-6.jpg/320x480bb.jpg"
+      ],
+      "tags": [
+        "书签管理",
+        "Apple Intelligence",
+        "隐私优先",
+        "个人知识库",
+        "iCloud"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/favenest",
+      "firstSeen": "2026-09-27T14:25:00-07:00",
+      "analysis": {
+        "targetAudience": "苹果生态内大量收藏链接、笔记和文件，又在意隐私、不愿手动整理的重度信息收集者与知识工作者。",
+        "useCases": [
+          "从 Safari、照片、地图、文件等任意 App 一键收藏内容",
+          "由端侧 AI 自动生成标题、摘要和标签，零手动填表",
+          "通过 App 内搜索或系统 Spotlight 秒级找回收藏",
+          "把保存的地点汇入地图 Places，按城市浏览",
+          "离线阅读并将整个书库导出为文件"
+        ],
+        "designIntent": "书签堆积的根源是“没人能理解它们”，FaveNest 想替用户承担整理工作，同时坚持无后端设计——数据无处可泄而非靠承诺。它把 AI 放在设备本地运行，试图同时拿到“智能整理的便利”和“完全的隐私”。",
+        "problemSolved": "解决传统书签只存不整、越积越乱、再也找不到的问题，并消除“为了 AI 整理必须把内容上传云端”的隐私顾虑。对不支持 Apple Intelligence 的设备，也允许自带 OpenAI/Anthropic key 作为兜底。",
+        "tags": [
+          "书签管理",
+          "Apple Intelligence",
+          "隐私优先",
+          "个人知识库"
+        ],
+        "score": 8,
+        "scoreReason": "把端侧大模型用于收藏元数据自动化，切中“便利 vs 隐私”的经典矛盾，且无账号、iCloud 端到端同步的架构干净可信。短板是仅支持 iOS/iPadOS/macOS 26 及以上、且仅限苹果生态，受众有一定门槛。",
+        "competitors": [
+          {
+            "name": "Raindrop.io",
+            "url": "https://raindrop.io/",
+            "comparison": "Raindrop 跨平台、协作与标签体系成熟，但依赖云端账号；FaveNest 无服务器、端侧 AI 自动写标题摘要，隐私更强。"
+          },
+          {
+            "name": "Pocket (Mozilla)",
+            "url": "https://getpocket.com/",
+            "comparison": "Pocket 主打稍后读与文章留存，跨平台但自动语义整理较弱；FaveNest 更像可视化私人知识库并自动分类。"
+          },
+          {
+            "name": "Anybox",
+            "url": "https://anybox.cc/",
+            "comparison": "Anybox 是苹果生态原生收藏工具、功能丰富，但 AI 自动摘要/标签与无后端理念不如 FaveNest 突出。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1240702",
+      "name": "Psst",
+      "slug": "psst",
+      "description": "Psst 是一款“记得你买过多少钱”的共享购物清单：拍下小票，AI 会把每一行结构化，并显示这件商品上次的单价和购买地点；它只在确有把握时才提示，且严格按单位价比较（买 2kg 而非 1kg 不算涨价）。支持 iOS、Android，清单实时多人协作。",
+      "url": "https://getpsst.app/",
+      "homepage": "https://getpsst.app/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1240702_20260929_121919.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "购物清单",
+        "小票识别",
+        "价格追踪",
+        "家庭协作",
+        "消费省钱"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/psst-3",
+      "firstSeen": "2026-09-03T11:48:30-07:00",
+      "analysis": {
+        "targetAudience": "经常一起买菜、需要家庭共享清单并想看清日常物价变化的家庭、合租人群和精打细算的消费者。",
+        "useCases": [
+          "家庭成员实时共享同一份买菜/采购清单",
+          "拍下小票自动识别每一行商品及价格",
+          "查看某商品上次购买的单位价与门店",
+          "按单位价判断是否真的涨价，避免被大包装误导",
+          "通过自然语言快速添加条目、设置提醒"
+        ],
+        "designIntent": "作者发现共享清单往往只是一张“总慢一版”的备忘录截图，而多数待办 App 的协作是后期补丁。Psst 从“清单即邀请”出发重做协作，并把大量精力放在“不确定就不说”，以及严格的单位价换算上，宁可少提示也不误报涨价。",
+        "problemSolved": "解决多人购物清单不同步、容易漏买，以及日常商品价格无感、难以判断贵贱的问题。通过小票 OCR 和单位价历史，让消费者在超市里就能做出更划算的决定。",
+        "tags": [
+          "购物清单",
+          "小票识别",
+          "价格追踪",
+          "家庭协作"
+        ],
+        "score": 8,
+        "scoreReason": "在一个高频、接地气的场景里把 AI 用得克制而可靠，反幻觉（不确定不提示）和单位价逻辑体现了对真实痛点的理解，PH 110 赞、当日第 8 名也印证口碑。限制是核心价格功能依赖小票拍摄、冷启动需积累数据，且当前仍处早期。",
+        "competitors": [
+          {
+            "name": "Bring!",
+            "url": "https://www.getbring.com/",
+            "comparison": "Bring! 共享购物清单体验成熟、用户量大，但缺少基于小票的单价识别与历史价格对比。"
+          },
+          {
+            "name": "Out of Milk",
+            "url": "https://outofmilk.com/",
+            "comparison": "Out of Milk 兼具清单与简易记账，但 AI 小票结构化和“按单位价防误判”能力较弱。"
+          },
+          {
+            "name": "Flipp",
+            "url": "https://flipp.com/",
+            "comparison": "Flipp 强在聚合商店传单与优惠券，偏“找折扣”；Psst 聚焦家庭协作和基于自身购买记录的单位价追踪。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1260728",
+      "name": "Okara",
+      "slug": "okara",
+      "description": "Okara 是一个“AI 首席营销官（CMO）”：给它你的网址，它先调研产品、竞品、品牌语调并产出策略文档，再让 10+ 个专职营销 Agent（红人、Reddit、SEO、文案、GEO、技术、UGC 视频、X、LinkedIn）每天围绕同一套策略执行，可连接 WordPress、Webflow、GA、社媒等直接发布，起价 99 美元/月。",
+      "url": "https://okara.ai/",
+      "homepage": "https://okara.ai/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1260728_20260929_121926.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "营销自动化",
+        "AI CMO",
+        "SEO",
+        "内容创作",
+        "增长"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/okara-2",
+      "firstSeen": "2026-09-24T23:04:25-07:00",
+      "analysis": {
+        "targetAudience": "没有完整营销团队、却需要持续做增长和分发的独立创业者、小团队和 SaaS/产品开发者。",
+        "useCases": [
+          "输入网址自动生成产品信息、营销策略、竞品分析等文档",
+          "让 SEO/文案 Agent 持续产出博客与落地页草稿",
+          "由 Reddit/X/LinkedIn Agent 寻找话题并起草帖子",
+          "通过 GEO Agent 争取在 ChatGPT、Google AI 概览中被引用",
+          "连接建站与社媒工具，审批后一键发布并回收数据"
+        ],
+        "designIntent": "太多好产品死在“不会分发”上，而组建营销团队昂贵、外包难以持续。Okara 主张把增长当作一套“系统”而非零散任务：先统一调研与策略，再让所有 Agent 基于同一份文档执行，保证信息不走样，同时把发布和审批权留给用户。",
+        "problemSolved": "解决创业者“知道要多做营销，却没有时间、团队和带宽每天坚持”的问题。它用 99 美元/月起的价格替代数万美元的人力组合，并新增了传统团队难以覆盖的 AI 搜索可见性（GEO）和 7×24 运转。",
+        "tags": [
+          "营销自动化",
+          "AI CMO",
+          "SEO",
+          "增长"
+        ],
+        "score": 7,
+        "scoreReason": "“AI CMO”定位清晰、Agent 矩阵和发布集成完整，把营销做成系统的思路对独立创业者很有吸引力，且有一定用户与案例背书。扣分在于多 Agent 自动化营销容易产出同质化内容、实际效果依赖行业与人审，赛道也日益拥挤。",
+        "competitors": [
+          {
+            "name": "Jasper",
+            "url": "https://www.jasper.ai/",
+            "comparison": "Jasper 偏企业级营销内容生成与品牌语调管理，工作流需较多配置；Okara 更强调“全自动 CMO”式从策略到多渠道执行。"
+          },
+          {
+            "name": "HubSpot Marketing Hub",
+            "url": "https://www.hubspot.com/products/marketing",
+            "comparison": "HubSpot 是全面的 CRM 与营销套件、体系重；Okara 更轻、以 AI Agent 自动执行为核心，成本更低。"
+          },
+          {
+            "name": "Surfer SEO",
+            "url": "https://surferseo.com/",
+            "comparison": "Surfer 聚焦 SEO 内容优化；Okara 覆盖面更广（社媒、Reddit、红人、GEO、UGC 等），是整支营销团队的替代。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1260062",
+      "name": "CoolDown",
+      "slug": "cooldown",
+      "description": "CoolDown 是一款冲动消费拦截 App：把想买的东西加入清单并设 24/48/72 小时冷静期，倒计时结束后再以清醒的头脑决定是否真的需要——大多数时候你会放弃。可记录价格与分类、到期提醒，并统计靠等待省下的钱。",
+      "url": "https://apps.apple.com/us/app/cooldown-impulse-buy-blocker/id6762510526",
+      "homepage": "https://apps.apple.com/us/app/cooldown-impulse-buy-blocker/id6762510526",
+      "type": "app",
+      "appStoreName": "CoolDown – Impulse Buy Blocker",
+      "appStoreUrl": "https://apps.apple.com/us/app/cooldown-impulse-buy-blocker/id6762510526",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1260062_20260929_121935.png",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/56/9a/7d/569a7dcc-320a-c77a-bdb1-3dc9e6da7892/ios_1_1.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e0/3b/26/e03b26a8-9add-e1c1-81cd-3679e5127c5a/ios_1_2.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ca/c8/ba/cac8ba30-c7fe-02b9-98dc-f26c9ca08cd9/ios_1_3.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d0/ed/97/d0ed97dd-d0bc-9c89-876f-9dfbea40c211/ios_1_4.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/30/3b/d1/303bd1cc-d17e-772e-71ac-fd9427f204fd/ios_1_5.png/320x480bb.jpg"
+      ],
+      "tags": [
+        "消费管理",
+        "冲动消费",
+        "理财",
+        "习惯养成",
+        "iOS"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/cooldown-5",
+      "firstSeen": "2026-09-24T03:50:49-07:00",
+      "analysis": {
+        "targetAudience": "容易被直播、电商和广告种草、希望克制冲动消费、攒下更多钱的年轻消费者和理财入门人群。",
+        "useCases": [
+          "把心动商品加入清单并设置 24–72 小时冷静期",
+          "记录商品价格与分类，到期收到提醒再决定",
+          "统计通过等待而未花出去的金额",
+          "在大促/直播间下单前强制给自己一个缓冲",
+          "复盘哪些品类最容易引发冲动购买"
+        ],
+        "designIntent": "作者认为多数人不是“消费能力有问题”，而是“决策速度有问题”——电商正是围绕瞬时冲动设计的。CoolDown 用一个刻意的延迟打断“欲望到结账”的反射回路，让用户做两次决定，并以冷静时的那一票为准。",
+        "problemSolved": "解决即时满足驱动下的非必要消费和事后后悔，帮助用户把“想要”和“需要”分开。通过可视化“没花掉的钱”提供正向反馈，逐步建立更健康的消费习惯。",
+        "tags": [
+          "消费管理",
+          "冲动消费",
+          "理财",
+          "习惯养成"
+        ],
+        "score": 7,
+        "scoreReason": "机制简单有效、顺应“延迟决策”的行为科学，省钱反馈能形成正循环，属高频痛点的轻量应用。扣分点是功能相对单一、同类冷静期/记账 App 众多，差异化主要靠体验和坚持度，且 AI 属性较弱。",
+        "competitors": [
+          {
+            "name": "Trim / Monarch 等记账理财 App",
+            "url": "https://www.monarchmoney.com/",
+            "comparison": "记账类工具侧重事后预算与财务总览；CoolDown 聚焦下单“之前”的强制冷静，做的是前置拦截。"
+          },
+          {
+            "name": "ColdCart",
+            "url": "https://www.coldcart.app/",
+            "comparison": "ColdCart 概念相似并能用屏幕使用时间屏蔽购物 App，功能更“强阻断”；CoolDown 更偏计时器+省钱统计的轻量自律。"
+          },
+          {
+            "name": "Qapital",
+            "url": "https://www.qapital.com/",
+            "comparison": "Qapital 以储蓄目标和自动攒钱为核心；CoolDown 不直接搬移资金，而是通过延迟消费减少支出。"
+          }
+        ]
+      }
+    }
+  ]
+}
