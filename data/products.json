@@ -38758,7 +38758,323 @@
           }
         ]
       }
+    },
+    {
+      "id": "producthunt.com/r/p/1262678",
+      "name": "Arsaze：让 AI 替你剪视频的时间线编辑器",
+      "slug": "arsaze",
+      "description": "Arsaze 是一个云端多轨视频剪辑平台，拥有真正逐帧精确的专业时间线。你可以手动剪辑，也可以通过 MCP 让 Claude、ChatGPT、Gemini 等 AI 助手直接操作你的真实剪辑工程——剪掉停顿、加 B-roll、调色、生成画面/配音/音乐，全部落在同一条可继续人工修改的时间线上，被称为「视频剪辑界的 Cursor」。",
+      "url": "https://www.arsaze.com/",
+      "homepage": "https://www.arsaze.com/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1262678_20260930_121333.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "视频剪辑",
+        "AI Agent",
+        "MCP",
+        "内容创作",
+        "效率工具"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/arsaze-ai-native-video-editor",
+      "firstSeen": "2026-09-30T04:20:00.139549+00:00",
+      "lastFeaturedDate": "2026-09-30",
+      "cooldownExpiresAt": "2026-10-14T04:20:00.139549+00:00",
+      "analysis": {
+        "targetAudience": "短视频创作者、自媒体作者和需要高频产出视频、又愿意让 AI 分担粗剪工作的个人与小团队。",
+        "useCases": [
+          "让 AI 按口播逐字稿自动剪掉停顿和废话",
+          "用自然语言指令添加 B-roll、字幕和转场",
+          "在对话中完成调色、配音、配乐等后期工序",
+          "AI 先生成初剪，人工再在真实时间线上精修",
+          "导出 FCPXML 后到 Premiere 或 DaVinci 做最终成片"
+        ],
+        "designIntent": "把整条专业剪辑时间线（而非某个单点 AI 功能）通过 MCP 完整开放给 AI Agent，让人和 AI 在同一个工程上协作。设计上刻意保留完整 NLE 的可编辑性，AI 的每一步操作都可撤销、可接手，避免黑盒式一键成片。",
+        "problemSolved": "纯 AI 一键生成视频工具的成片几乎无法二次编辑，而传统剪辑软件里 AI 只是零散插件。Arsaze 解决了「AI 生成」与「人工精修」割裂的问题：AI 操作的是真实轨道、真实片段，剪完仍可逐帧调整。",
+        "score": 8,
+        "scoreReason": "「视频界 Cursor」的定位精准、MCP-first 架构成熟度高，且同时支持网页端和本地 Windows 渲染，兼顾了自动化与专业可控性。扣分项是重度后期仍需传统 NLE，且赛道竞品（Lazynext、Woven、BuzzRolls）正在快速涌入。",
+        "competitors": [
+          {
+            "name": "Lazynext",
+            "url": "https://github.com/Lazynext-Platform/Lazynext",
+            "comparison": "同为 Agent 原生、MCP 驱动的多轨视频编辑器，但 Lazynext 主打本地优先、工程文件留在本机；Arsaze 是云端平台并提供免费本地渲染。"
+          },
+          {
+            "name": "Woven",
+            "url": "https://www.woven.video/",
+            "comparison": "macOS 原生 AI 剪辑器，专注 Reels/TikTok/Shorts 短视频；Arsaze 跨平台、时间线更专业，且能连接任意 MCP 客户端而非只绑定 ChatGPT。"
+          },
+          {
+            "name": "BuzzRolls Studio",
+            "url": "https://buzzrolls.com/",
+            "comparison": "以 Premiere Pro 插件形式让 Claude/ChatGPT 操控时间线，强在 Adobe 生态内无缝衔接；Arsaze 是独立平台，无需购买 Premiere 订阅。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1246006",
+      "name": "Curie：严谨可溯源的 AI 科研文献工作台",
+      "slug": "curie",
+      "description": "Curie 是面向严肃科研的 AI 工作台：可检索 2 亿多篇论文，完成标准或系统性文献综述，带着可审计的筛选流程（PRISMA）做研究筛查与数据提取，并在你选定的文献上辅助写作。每一句 AI 生成的论断都能追溯到确切原文出处，解决通用聊天机器人「引用看起来对、实际编」的问题。",
+      "url": "https://curie.is/",
+      "homepage": "https://curie.is/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1246006_20260930_121341.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "学术科研",
+        "文献综述",
+        "AI 写作",
+        "知识管理",
+        "教育"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/curie-4",
+      "firstSeen": "2026-09-30T04:20:00.139549+00:00",
+      "lastFeaturedDate": "2026-09-30",
+      "cooldownExpiresAt": "2026-10-14T04:20:00.139549+00:00",
+      "analysis": {
+        "targetAudience": "需要做文献综述、系统综述和论文写作的研究生、学者、医学科研人员以及企业研发与情报团队。",
+        "useCases": [
+          "从研究问题出发跑完整的 PRISMA 系统性文献综述",
+          "批量阅读 PDF 并把样本量、方法、结果等数据提取成结构化表格",
+          "并行检索 PubMed、arXiv、Semantic Scholar 等多个权威数据库",
+          "写作时逐句挂接引用，并标记无证据支撑或过度陈述的论断",
+          "从 Zotero/Mendeley 导入文献库、成稿后导出投稿"
+        ],
+        "designIntent": "不是再做一个会引用的聊天框，而是把检索、筛查、提取、写作放进同一个可审计工作区，让「证据先于结论」成为流程默认值。每个 AI 论断都必须锚定原文，把研究严谨性内化到产品架构里。",
+        "problemSolved": "科研人员如今要在搜索引擎、几百个 PDF、筛查表格、文献管理器和写作软件之间反复切换，每次切换都丢失上下文；通用 AI 又容易自信地编造引用。Curie 把整条研究链路打通并保留审计痕迹，显著降低核证成本。",
+        "score": 8,
+        "scoreReason": "切中医研和学术场景最痛的「AI 幻觉引用」问题，2 亿+ 论文库、PRISMA 流程和论断溯源都做得扎实，免费免信用卡降低了试用门槛。略低分在于该领域已有 Elicit、Consensus、Scite 等成熟对手，差异化需靠完整工作流持续兑现。",
+        "competitors": [
+          {
+            "name": "Elicit",
+            "url": "https://elicit.com/",
+            "comparison": "同样擅长语义检索和论文要点提取，上手更轻；Curie 更强调系统综述全流程与 PRISMA 审计痕迹，面向更正式的学术产出。"
+          },
+          {
+            "name": "Consensus",
+            "url": "https://consensus.app/",
+            "comparison": "强在用论文证据直接回答研究问题；Curie 则覆盖从检索、筛查到写作导出的完整闭环，并能逐句追溯证据。"
+          },
+          {
+            "name": "Scite",
+            "url": "https://scite.ai/",
+            "comparison": "核心优势是引用的支持/反对语境分析；Curie 把类似的论断核验能力嵌入了综述与写作工作区，而不只是单独的引用检查工具。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "v2ex.com/t/1245776",
+      "name": "Hotel Lobby AI：两张照片生成橙色棚说唱视频",
+      "slug": "hotel-lobby-ai",
+      "description": "复刻海外爆火的「Hotel Lobby」橙色录音棚 Meme：上传两张照片分别指定左右两人，选清晰度即可生成一段 13 秒竖屏双人说唱视频。无需写提示词、不用搭工作流，支持 480p/720p/1080p，生成后可直接预览下载，适合和朋友整活、做社媒内容。",
+      "url": "https://hotellobbyai.im/",
+      "homepage": "https://hotellobbyai.im/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/v2ex.com_t_1245776_20260930_121348.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 视频",
+        "趣味娱乐",
+        "照片动起来",
+        "社交媒体",
+        "Meme"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "sourceUrl": "https://v2ex.com/t/1245776",
+      "firstSeen": "2026-09-30T04:20:00.139549+00:00",
+      "lastFeaturedDate": "2026-09-30",
+      "cooldownExpiresAt": "2026-10-14T04:20:00.139549+00:00",
+      "analysis": {
+        "targetAudience": "喜欢追逐社媒热门玩法、想和朋友快速整活的年轻用户，以及需要低成本蹭热点做短视频的自媒体运营者。",
+        "useCases": [
+          "把自己和朋友合成进橙色棚说唱场景整活",
+          "用同事、偶像或宠物照片做搞笑二创",
+          "蹭 Hotel Lobby 热点快速产出竖屏社媒素材",
+          "社群聚会、生日祝福做个性化趣味视频",
+          "博主做粉丝互动、评论区点图生成内容"
+        ],
+        "designIntent": "把一个已经验证传播力的视频 Meme 做成零门槛自助工具：固定场景与机位，用户只需提供两张脸，完全屏蔽底层视频生成模型和提示词的复杂度。用积分制覆盖生成成本，先做单品爆款再考虑扩展玩法。",
+        "problemSolved": "普通用户想复刻热门 AI 视频，往往要在多个生成工具间切换、调提示词和工作流，门槛高且效果不稳定。它把「两张照片→成片」压缩成一步，解决了热门玩法时效性强、等不及慢慢研究工具的问题。",
+        "score": 6,
+        "scoreReason": "踩中真实传播热点、交互极简，典型的「小而美」流量产品；但玩法单一、生命周期绑定 Meme 热度，目前成片无声需自行配乐，且同类照片驱动视频工具很多，壁垒主要在速度和模板运营。",
+        "competitors": [
+          {
+            "name": "Viggle AI",
+            "url": "https://viggle.ai/",
+            "comparison": "让照片里的人物按任意视频动作起舞，玩法更通用；Hotel Lobby AI 只做一个固定爆款场景，反而更傻瓜、出片更一致。"
+          },
+          {
+            "name": "Hedra",
+            "url": "https://www.hedra.com/",
+            "comparison": "主打单张照片驱动的说话/唱歌数字人；Hotel Lobby AI 是双人固定构图的整活向产品，强调朋友合照的趣味性。"
+          },
+          {
+            "name": "DomoAI",
+            "url": "https://domoai.com/",
+            "comparison": "综合性视频生成与风格转换平台，功能更全但需要自己构思；Hotel Lobby AI 以模板化单一玩法换取零学习成本。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "v2ex.com/t/1245742",
+      "name": "Block Dreamer：用自然语言生成 Minecraft 建筑",
+      "slug": "block-dreamer",
+      "description": "面向 Minecraft 玩家的 AI 建筑生成器：用一句话描述想要的房子、城堡、寺庙或巨龙雕像，即可得到 3D 预览、方块清单和原版可用的 .mcfunction 文件，无需安装 Mod。工具区分「规整建筑（带可进入的房间）」和「复杂造型（龙、雕像等）」两种生成模式，免费使用。",
+      "url": "https://blockdreamer.com/",
+      "homepage": "https://blockdreamer.com/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/v2ex.com_t_1245742_20260930_121355.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "游戏",
+        "Minecraft",
+        "AI 生成",
+        "3D 建模",
+        "创意工具"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "sourceUrl": "https://v2ex.com/t/1245742",
+      "firstSeen": "2026-09-30T04:20:00.139549+00:00",
+      "lastFeaturedDate": "2026-09-30",
+      "cooldownExpiresAt": "2026-10-14T04:20:00.139549+00:00",
+      "analysis": {
+        "targetAudience": "缺乏空间规划能力、又想在 Minecraft 里快速拥有精致建筑的玩家，以及做地图、服务器场景的创作者。",
+        "useCases": [
+          "用一句话生成带内部房间的城堡、房屋、寺庙",
+          "生成龙、巨型雕像等复杂造型做地图地标",
+          "获取方块清单提前备料、估算工程量",
+          "在 3D 预览里确认效果后再导入存档",
+          "服务器运营者快速搭建活动场地和主城"
+        ],
+        "designIntent": "把 AI 生成能力收束到游戏内最具体的痛点——「想得到但盖不出来」，并坚持原版兼容（.mcfunction、无需 Mod），让任何玩家都能零门槛落地。两种生成模式的划分也体现了对建筑与雕塑两类空间问题的工程化思考。",
+        "problemSolved": "Minecraft 里从零搭大型建筑需要很强的空间想象和大量重复劳动，很多玩家只能盖出「方盒子」。Block Dreamer 用自然语言直接产出可放置的结构，跳过规划和逐块搭建的枯燥过程，同时不破坏原版游戏体验。",
+        "score": 7,
+        "scoreReason": "切入点具体、玩家需求真实，原版免 Mod 和 3D 预览+方块清单的组合很实用，免费策略利于传播。扣分点是使用频次受限于 MC 玩家圈层、生成质量和可控性未经大规模验证，且易被更强的通用 3D 生成模型整合。",
+        "competitors": [
+          {
+            "name": "Axiom",
+            "url": "https://axiom.moul.so/",
+            "comparison": "Minecraft 内的专业建造 Mod，工具强大但需要学习和安装；Block Dreamer 用一句话生成、免 Mod，更适合普通玩家快速起稿。"
+          },
+          {
+            "name": "WorldEdit",
+            "url": "https://enginehub.org/worldedit/",
+            "comparison": "经典的游戏内地形编辑插件，效率高但本质是手动工具；Block Dreamer 让 AI 负责设计与摆放，几乎零操作门槛。"
+          },
+          {
+            "name": "Build AI / 各类 MC 建筑生成器",
+            "url": "https://blockdreamer.com/",
+            "comparison": "同类 LLM 生成方案多停留在示意图或需第三方 Mod；Block Dreamer 直接交付原版 .mcfunction 与可进入房间的结构，落地链路更完整。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "reddit.com/r/sideproject/comments/1wttgev/ibuiltafreeiosappthatreadsmea1minute",
+      "name": "Daily Wave：连上 AirPods 就自动播报的每日简报",
+      "slug": "daily-wave",
+      "description": "一款免费 iOS 应用：戴上 AirPods 或连上车载蓝牙时，自动用一段连续语音播报当天简报——天气、通勤路况、股票、提醒事项、日历、未读邮件、昨日运动和待服药物，模块可自由勾选和拖拽排序。设置早晚两个时间窗口即可每天自动播放，无需配置 Shortcuts 快捷指令，播报结束后还能自动接上你的音乐。",
+      "url": "https://apps.apple.com/us/app/daily-wave-daily-briefing/id6811991525",
+      "homepage": "https://apps.apple.com/us/app/daily-wave-daily-briefing/id6811991525",
+      "type": "app",
+      "appStoreName": "Daily Wave: Daily Briefing",
+      "appStoreUrl": "https://apps.apple.com/us/app/daily-wave-daily-briefing/id6811991525",
+      "screenshotUrl": null,
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fc/c7/e2/fcc7e2ee-29a5-cca0-25f7-8614df687b3e/DailyWave-EN-01.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2d/41/fb/2d41fbf7-d6fb-848d-d0e4-9216db20d14c/DailyWave-EN-02.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/05/ac/be/05acbeb1-2a07-01c8-7b4e-3070b10d67c2/DailyWave-EN-03.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6b/57/02/6b570257-8c99-0a1a-0302-e187f3845402/DailyWave-EN-04.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c4/83/0f/c4830fbd-8f6f-d0f6-5358-ffa282ac61b2/DailyWave-EN-05.png"
+      ],
+      "tags": [
+        "语音播报",
+        "效率工具",
+        "AI 助手",
+        "iOS 应用",
+        "日常生活"
+      ],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "sourceUrl": "https://www.reddit.com/r/SideProject/comments/1wttgev/i_built_a_free_ios_app_that_reads_me_a_1minute/",
+      "firstSeen": "2026-09-30T04:20:00.139549+00:00",
+      "lastFeaturedDate": "2026-09-30",
+      "cooldownExpiresAt": "2026-10-14T04:20:00.139549+00:00",
+      "analysis": {
+        "targetAudience": "早上通勤节奏紧、习惯戴 AirPods 的 iPhone 用户，尤其是不想逐个刷天气、日历、股票 App 的忙碌上班族。",
+        "useCases": [
+          "戴耳机出门时自动听天气、路况和当天会议",
+          "早高峰开车时免手操作获取通勤时间与提醒",
+          "收听自选股票涨跌和未读邮件数量",
+          "结合健康数据回顾昨日运动、提醒服药",
+          "设置晚间简报在回家路上复盘一天"
+        ],
+        "designIntent": "用「耳机连接」这一自然动作替代繁琐的快捷指令自动化，把散落在多个系统 App 里的信息编织成一段可排序的连续语音。设计强调零配置、自动播放和播报后接音乐，贴合起床到出门的真实动线。",
+        "problemSolved": "Shortcuts 自动化配置繁琐且容易失效，而每天早上手动打开天气、地图、日历、股票等 5、6 个 App 又浪费注意力。Daily Wave 把这些信息变成一段一分钟左右、可在穿衣服和开车时听完的语音简报，真正解放双手和双眼。",
+        "score": 7,
+        "scoreReason": "「耳机一戴自动播」的触发设计巧妙、场景明确，聚合维度（含健康/药物/路况）比同类播报更完整，且免费、零快捷指令配置。扣分点是品类已有 DayStart、The Daily 等对手，数据深度与个性化仍依赖系统框架，新 App 暂无评分、成熟度待验证。",
+        "competitors": [
+          {
+            "name": "DayStart AI",
+            "url": "https://apps.apple.com/us/app/daystart-ai-morning-briefing/id6751055528",
+            "comparison": "主打 3 分钟新闻+天气+市场的晨间音频简报，新闻内容更强；Daily Wave 更聚焦个人系统数据（日历、提醒、药物、运动）且以耳机连接自动触发。"
+          },
+          {
+            "name": "The Daily",
+            "url": "https://allthingsn.com/apps/thedaily/",
+            "comparison": "30 分钟长篇个性化新闻节目、本地生成；Daily Wave 是约一分钟的轻量通勤简报，强调自动触发和路况/健康模块。"
+          },
+          {
+            "name": "Apple 快捷指令 + Siri",
+            "url": "https://support.apple.com/guide/shortcuts/welcome/ios",
+            "comparison": "系统原生方案能力强但配置复杂、易失效；Daily Wave 把同样的自动化产品化成开箱即用的固定流程。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      }
     }
   ],
-  "lastUpdated": "2026-09-29T04:21:17.018164+00:00"
+  "lastUpdated": "2026-09-30T04:20:00.139549+00:00"
 }
