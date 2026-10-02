@@ -1,0 +1,257 @@
+{
+  "date": "2026-10-02",
+  "generatedAt": "2026-10-02T12:06:03.965296+08:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "x.com/vovudebosh/status/2104847341576741192",
+      "name": "Jeeva",
+      "slug": "jeeva-ai-sales-agent",
+      "description": "Jeeva 是一个 AI 驱动的自动化销售平台，能够自动寻找目标客户、发送个性化邮件外联、管理回复并预约会议。用户只需定义理想的客户画像，Jeeva 就能在 10 亿+ 的联系人数据库中精准定位决策人，自动丰富数据点，生成个性化邮件序列，并在邮件/LinkedIn/电话等多渠道触达潜在客户，全程无需人工干预。",
+      "url": "https://www.jeeva.ai",
+      "homepage": "https://www.jeeva.ai",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/x.com_vovudebosh_status_2104847341576741192_20261002_120604.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI销售",
+        "自动化外联",
+        "客户获取",
+        "B2B SaaS"
+      ],
+      "sourceChannels": [
+        "twitter"
+      ],
+      "sourceUrl": "https://x.com/vovudebosh/status/2104847341576741192",
+      "firstSeen": "2026-10-02T12:06:03.965296+08:00",
+      "analysis": {
+        "targetAudience": "中小企业销售团队、独立创业者、B2B 销售人员",
+        "useCases": [
+          "自动化潜在客户开发与外联",
+          "个性化邮件营销活动管理",
+          "多渠道触达与会议预约",
+          "CRM 数据自动同步"
+        ],
+        "designIntent": "解决销售团队在客户开发中大量重复性工作的问题，将手动查找线索、写邮件、跟进回复等流程完全自动化，让销售人员专注于成交。",
+        "problemSolved": "传统 B2B 销售流程中，销售人员每天花费数小时手动查找线索、填写数据、写跟进邮件，效率极低。Jeeva 通过 AI Agent 将整个销售外链路自动化，将数小时工作缩短至几分钟。",
+        "score": 8,
+        "scoreReason": "产品切入点精准（B2B 销售自动化），AI 能力与实际业务场景结合紧密，10 亿+ 联系人数据库是核心竞争壁垒。",
+        "competitors": [
+          {
+            "name": "Instantly.ai",
+            "url": "https://instantly.ai",
+            "comparison": "专注于邮件外联自动化，功能相对单一"
+          },
+          {
+            "name": "Apollo.io",
+            "url": "https://apollo.io",
+            "comparison": "侧重联系人数据库，AI 自动化深度不及 Jeeva"
+          }
+        ]
+      }
+    },
+    {
+      "id": "x.com/randyloop/status/2105577834169483645",
+      "name": "Nowdex",
+      "slug": "nowdex-ai-usage-tracker",
+      "description": "Nowdex 是一款跨 Mac、iPhone 和 iPad 的 AI 工具使用追踪应用，帮助用户集中监控 Codex、Claude Code、Cursor、Grok、Antigravity、Kimi、GLM、MiniMax 等十余种 AI 编码工具的剩余额度、Token 消耗量和重置时间。支持桌面小组件一键查看，所有凭据存储在设备 Keychain 中，确保隐私安全。",
+      "url": "https://nowdex.app",
+      "homepage": "https://nowdex.app",
+      "type": "app",
+      "appStoreName": "Nowdex",
+      "appStoreUrl": "https://apps.apple.com/us/app/nowdex/id6791450777?uo=4",
+      "screenshotUrl": "assets/screenshots/x.com_randyloop_status_2105577834169483645_20261002_120616.png",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9b/7e/ec/9b7eecc5-6a8b-5fe0-8271-15ed04936ef0/01.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/28/fb/ca/28fbca78-42c9-a6e4-bea4-f2264d6a3ef1/02.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fe/86/5e/fe865e04-eedb-2905-a4ee-58ed8bf2019d/03.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/26/40/41/26404161-5f27-81ff-f750-5f6a3474b772/04.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/29/5d/0f/295d0fba-a3b3-59a6-3d06-e069c62ad4e3/05.jpg/320x480bb.jpg"
+      ],
+      "tags": [
+        "AI工具追踪",
+        "额度管理",
+        "macOS",
+        "iOS"
+      ],
+      "sourceChannels": [
+        "twitter"
+      ],
+      "sourceUrl": "https://x.com/randyloop/status/2105577834169483645",
+      "firstSeen": "2026-10-02T12:06:03.965296+08:00",
+      "analysis": {
+        "targetAudience": "使用多种 AI 编码工具的开发者、独立黑客、AI 重度用户",
+        "useCases": [
+          "集中管理多个 AI 工具的订阅额度",
+          "桌面小组件实时查看剩余 Token",
+          "追踪每日 Token 消耗趋势",
+          "iCloud 同步跨设备共享"
+        ],
+        "designIntent": "解决开发者在同时订阅多种 AI 工具时面临的额度分散、难以统一管理的问题。将所有 AI 编码工具的使用情况集中在一个菜单栏应用中一目了然。",
+        "problemSolved": "现代开发者往往同时使用多种 AI 编码工具，每种工具的额度重置周期各不相同。Nowdex 解决了多工具额度管理混乱的痛点。",
+        "score": 7,
+        "scoreReason": "精准解决多 AI 工具用户的实际痛点，隐私优先设计（Keychain 存储），macOS/iOS 原生体验好。但目标用户群体相对垂直。",
+        "competitors": [
+          {
+            "name": "CodeToken",
+            "url": "https://codetoken.ai",
+            "comparison": "类似工具但覆盖的 AI 服务商较少"
+          }
+        ]
+      }
+    },
+    {
+      "id": "orcah.app",
+      "name": "Orcah",
+      "slug": "orcah-video-intelligence",
+      "description": "Orcah Studio 是一款本地优先的 Mac 视频智能管理工具，能够索引用户整个视频库中的内容——包括语音转录、说话人标注、人脸识别、物体检测、场景描述和相机元数据。用户可以用自然语言搜索视频素材，Orcah 会直接定位到精确帧并一键发送到剪辑时间线。完全在设备本地运行，不上传任何视频到云端。",
+      "url": "https://orcah.app",
+      "homepage": "https://orcah.app",
+      "type": "app",
+      "appStoreName": "اركن - orkon",
+      "appStoreUrl": "https://apps.apple.com/us/app/%D8%A7%D8%B1%D9%83%D9%86-orkon/id1477015716?uo=4",
+      "screenshotUrl": "assets/screenshots/orcah.app_20261002_120623.png",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/db/bc/f5/dbbcf5a4-9111-5f48-f313-6f647c38a44b/7402c9fb-5659-484a-98b6-aa50caaf885e_iphone8_-_first.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/f6/ef/a0/f6efa00b-9062-5db7-3e32-3988d1a96fbb/a2d1eb23-fe30-450b-a16f-5ff6fc1b60f4_iphone8_-_second.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/d8/b7/5e/d8b75e7d-c6e4-888d-3f26-50d2d289efcb/62afc43d-5b7b-4bd2-b518-e1cccd34f757_iphone8_-_Third.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/05/ff/3b/05ff3bd2-569c-587d-0498-83f85beec498/c4c64d72-3d78-48eb-929b-a71872651f62_iphone8_-_Third__U2013_1.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/cf/1f/10/cf1f107b-25e2-d7d2-298d-4a77dc398918/0b5304a8-193c-4cc3-932d-eaac314627bf_iphone8_-_Third__U2013_2.png/392x696bb.png"
+      ],
+      "tags": [
+        "视频管理",
+        "AI搜索",
+        "本地优先",
+        "macOS",
+        "创作者工具"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49927561",
+      "firstSeen": "2026-10-02T12:06:03.965296+08:00",
+      "analysis": {
+        "targetAudience": "专业视频创作者、纪录片制作人、影视剪辑师",
+        "useCases": [
+          "海量视频素材的自然语言检索",
+          "基于说话人/物体/场景的智能筛选",
+          "GoPro/无人机元数据搜索",
+          "一键发送片段到剪辑软件时间线"
+        ],
+        "designIntent": "解决专业视频创作者面对海量素材时查找困难的问题。将传统基于文件名和文件夹的管理方式升级为基于内容的 AI 语义搜索。",
+        "problemSolved": "视频创作者往往积累数 TB 素材，传统方式只能通过文件名查找特定镜头。Orcah 通过本地 AI 分析将所有视频内容索引化，实现想到即找到的体验。",
+        "score": 8,
+        "scoreReason": "产品定位精准且技术门槛高，隐私优先设计契合创作者对素材安全的需求。Apple Silicon 优化良好。",
+        "competitors": [
+          {
+            "name": "Adobe Prelude",
+            "url": "https://www.adobe.com/products/prelude.html",
+            "comparison": "传统素材管理，缺少 AI 语义搜索"
+          }
+        ]
+      }
+    },
+    {
+      "id": "x.com/githubdaily/status/2105651520557678731",
+      "name": "Home_View",
+      "slug": "home-view-3d-designer",
+      "description": "Home_View 是一款完全在浏览器中运行的开源户型装修设计工具，集成了 2D 平面图绘制和 3D 实时漫游功能。用户可以在 2D 平面上从 60+ 种家具家电中拖拽摆放，支持贴墙自动吸附、非承重墙拆除、毫米级尺寸精度，并可一键切换至 3D 视角进行鸟瞰或第一人称行走漫游。还可模拟不同时段日照效果和夜景灯光。",
+      "url": "https://github.com/lohith9/Home_View",
+      "homepage": "https://github.com/lohith9/Home_View",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/x.com_githubdaily_status_2105651520557678731_20261002_120630.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "家居设计",
+        "3D可视化",
+        "开源",
+        "浏览器工具",
+        "装修"
+      ],
+      "sourceChannels": [
+        "twitter"
+      ],
+      "sourceUrl": "https://x.com/GitHub_Daily/status/2105651520557678731",
+      "firstSeen": "2026-10-02T12:06:03.965296+08:00",
+      "analysis": {
+        "targetAudience": "准备装修的业主、室内设计爱好者、学生",
+        "useCases": [
+          "装修前自主规划家具摆放方案",
+          "可视化不同装修风格的 3D 效果",
+          "模拟房间日照和灯光效果",
+          "精确计算材料用量与预算估算"
+        ],
+        "designIntent": "让没有专业设计背景的普通用户也能在浏览器中轻松完成户型设计和家具摆放，无需安装任何软件。",
+        "problemSolved": "传统装修流程中，业主只能依赖设计师效果图预览方案，沟通成本高。Home_View 让业主自主快速尝试多种布局方案。",
+        "score": 7,
+        "scoreReason": "开源免费降低使用门槛，浏览器内直接运行无需安装，2D/3D 实时同步是核心亮点。但产品仍在早期，缺少专业 CAD 级精确度。",
+        "competitors": [
+          {
+            "name": "SketchUp Free",
+            "url": "https://app.sketchup.com",
+            "comparison": "专业 3D 建模工具，上手门槛高"
+          },
+          {
+            "name": "Planner 5D",
+            "url": "https://planner5d.com",
+            "comparison": "功能更完善但收费"
+          }
+        ]
+      }
+    },
+    {
+      "id": "x.com/denziideng/status/2105280874325725294",
+      "name": "Easel",
+      "slug": "easel-social-media-creator",
+      "description": "Easel 是由浙江大学 REAL Lab 开源的 AI 社交媒体内容工作台，将热点发现、选题策划、文案创作、视觉生成、视频制作和跨平台发布整合在一个统一的创作流水线中。通过 AI Agent 贯穿完整链路，自动筛选适合账号定位的热点选题，生成文案、海报、配音、字幕，支持小红书、抖音、快手、知乎、B站和微信视频号六大平台的一键发布与效果复盘。",
+      "url": "https://zju-real.github.io/Easel/",
+      "homepage": "https://zju-real.github.io/Easel/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/x.com_denziideng_status_2105280874325725294_20261002_120637.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "社媒运营",
+        "AI创作",
+        "多平台发布",
+        "开源",
+        "内容创作者"
+      ],
+      "sourceChannels": [
+        "twitter"
+      ],
+      "sourceUrl": "https://x.com/denziideng/status/2105280874325725294",
+      "firstSeen": "2026-10-02T12:06:03.965296+08:00",
+      "analysis": {
+        "targetAudience": "社交媒体内容创作者、自媒体运营、小型营销团队",
+        "useCases": [
+          "自动化热点追踪与选题筛选",
+          "AI 生成多平台适配内容（文案/图片/视频）",
+          "六平台一键发布与统一管理",
+          "基于数据反馈优化内容策略"
+        ],
+        "designIntent": "解决自媒体创作者在多平台运营中面临的追热点难、做内容慢、跨平台发更累的问题。通过 AI Agent 将整条内容流水线自动化。",
+        "problemSolved": "个人创作者在运营多个平台时，每天需要手动追热点、写文案、做图、剪视频、逐个发布，常常熬夜仍难以保持稳定更新。",
+        "score": 7,
+        "scoreReason": "产品理念创新（AI Agent 贯穿内容全流程），浙大实验室背书。但需要一定技术能力配置，对非技术用户不够友好。",
+        "competitors": [
+          {
+            "name": "Buffer",
+            "url": "https://buffer.com",
+            "comparison": "多平台发布管理，缺少 AI 内容创作"
+          },
+          {
+            "name": "Coze/扣子",
+            "url": "https://coze.cn",
+            "comparison": "字节推出的 AI 创作平台，集成度高但灵活性不如开源"
+          }
+        ]
+      }
+    }
+  ]
+}
