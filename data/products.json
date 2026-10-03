@@ -39319,7 +39319,285 @@
       "cooldownExpiresAt": "2026-10-16T04:06:45Z",
       "screenshotUrl": "assets/screenshots/x.com_denziideng_status_2105280874325725294_20261002_120637.png",
       "appStoreScreenshots": []
+    },
+    {
+      "id": "postmarks.app",
+      "name": "Postmarks：步数冒险",
+      "slug": "postmarks",
+      "url": "https://postmarks.app",
+      "description": "把每日步行变成一场慢节奏冒险。Postmarks 是一款 iOS/Android 应用，将你真实的步数转化为沿日本及东亚真实城市路线的前进动力。每到一个新城市解锁复古邮票，收集纪念品，自动生成的旅行日记记录你的旅程。不是计步器，是出门的理由。",
+      "type": "app",
+      "tags": [
+        "运动健身",
+        "游戏化",
+        "旅行日记",
+        "AI生成",
+        "日常习惯"
+      ],
+      "sourceChannels": [],
+      "firstSeen": "2026-10-03T04:06:09.111543+00:00",
+      "lastUpdated": "2026-10-03T04:06:09.111543+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-10-03"
+      },
+      "analysis": {
+        "targetAudience": "热爱慢生活、想养成步行习惯的年轻用户，尤其喜欢日本文化和收集元素的休闲玩家",
+        "useCases": [
+          "日常通勤步行转化为游戏中的城市探索",
+          "收集各城市独特复古邮票和纪念品",
+          "AI自动生成每日旅行日记页面",
+          "与朋友一起步行互相激励（After Dark 夜间模式）",
+          "用 Kintsugi Token 修复中断的连续步行记录"
+        ],
+        "designIntent": "将枯燥的步数统计转化为有情感温度的旅行体验。开发者认为大多数人缺的不是健康知识，而是持续行动的理由。用游戏化的集邮机制和手写体日记，让每一步都有归属感。",
+        "problemSolved": "传统计步应用只显示数字，缺乏情感连接和长期激励。Postmarks 用叙事驱动的冒险体验，让用户因为'想看看下一座城市'而非'要达标10000步'而主动出门。",
+        "tags": [
+          "运动健身",
+          "游戏化",
+          "旅行日记",
+          "AI生成",
+          "日常习惯"
+        ],
+        "score": 8,
+        "scoreReason": "把步行这一最日常的行为与旅行叙事、AI日记、收集机制深度融合，创意独特且情感真实。免费路线（本州心脏）让用户零成本体验完整价值，变现路线清晰（路线包一次性购买）。",
+        "competitors": [
+          {
+            "name": "Pikmin Bloom (任天堂)",
+            "url": "https://pikminbloom.nintendo.com/",
+            "comparison": "同为步行游戏化，但侧重AR种花；Postmarks 侧重旅行叙事和收藏，情感更细腻"
+          },
+          {
+            "name": "Strava",
+            "url": "https://www.strava.com/",
+            "comparison": "面向严肃跑者，数据驱动；Postmarks 面向休闲步行者，体验驱动，门槛更低"
+          }
+        ]
+      }
+    },
+    {
+      "id": "teacherplanner.ai",
+      "name": "Teacher Planner：AI 教师备课助手",
+      "slug": "teacher-planner",
+      "url": "https://teacherplanner.ai",
+      "description": "为中小学教师设计的数字备课规划本。除了日程管理、课程表导入、bumps forward 等时间管理工具外，集成 AI 教案生成、练习题生成、选择题组卷、文本难度改写、作文批改反馈等 AI 工具，全部免费计划可用。",
+      "type": "saas",
+      "tags": [
+        "教育",
+        "教师工具",
+        "AI教案生成",
+        "备课助手",
+        "免费"
+      ],
+      "sourceChannels": [],
+      "firstSeen": "2026-10-03T04:06:09.111543+00:00",
+      "lastUpdated": "2026-10-03T04:06:09.111543+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-10-03"
+      },
+      "analysis": {
+        "targetAudience": "K-12 中小学教师，需要高效备课、出卷、批改作业的教育工作者",
+        "useCases": [
+          "根据教学主题和标准一键生成教案草稿",
+          "根据阅读文章生成配套练习题和答案",
+          "根据年级和主题自动生成选择题试卷",
+          "调整文本语言难度以适应不同水平学生",
+          "为学生作文生成具体、可操作的修改反馈"
+        ],
+        "designIntent": "让教师把重复性的材料准备工作交给 AI 草稿，把专业判断和个性化调整留给人。平台明确标注'AI输出是草稿'，引导教师审核而非直接照搬。",
+        "problemSolved": "教师每周花数小时手工编写教案、出卷、批改作文。AI 生成将这些时间缩短到几分钟，同时保留教师对最终内容的专业把控。",
+        "tags": [
+          "教育",
+          "教师工具",
+          "AI教案生成",
+          "备课助手",
+          "免费"
+        ],
+        "score": 7,
+        "scoreReason": "直击教师工作痛点，AI 工具覆盖备课-出卷-批改全流程，且免费计划即可使用全部功能。但市场竞品较多（MagicSchool、Curipod 等），差异化在于与规划本的深度整合。",
+        "competitors": [
+          {
+            "name": "MagicSchool AI",
+            "url": "https://www.magicschool.ai/",
+            "comparison": "同为 AI 教师工具，功能更全面但收费；Teacher Planner 免费且与课程规划流程深度绑定"
+          },
+          {
+            "name": "Curipod",
+            "url": "https://curipod.com/",
+            "comparison": "侧重互动课件生成；Teacher Planner 侧重教案和评估材料生成"
+          }
+        ]
+      }
+    },
+    {
+      "id": "interviewbasecamp.com",
+      "name": "Interview Basecamp：AI 面试备战营",
+      "slug": "interview-basecamp",
+      "url": "https://www.interviewbasecamp.com",
+      "description": "从任意职位描述自动生成个性化面试备战课程。系统提取岗位所需能力，构建学习模块和练习题，支持语音朗读学习，让求职者按目标岗位精准准备面试。",
+      "type": "saas",
+      "tags": [
+        "求职",
+        "面试准备",
+        "AI课程生成",
+        "职业规划",
+        "学习"
+      ],
+      "sourceChannels": [],
+      "firstSeen": "2026-10-03T04:06:09.111543+00:00",
+      "lastUpdated": "2026-10-03T04:06:09.111543+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-10-03"
+      },
+      "analysis": {
+        "targetAudience": "正在求职或计划跳槽的应届毕业生和职场人士，希望针对特定岗位进行精准面试准备",
+        "useCases": [
+          "粘贴目标岗位 JD 自动生成能力画像和学习路径",
+          "按岗位练习常见面试问题并获得反馈",
+          "语音朗读模式支持通勤时听觉学习",
+          "角色模式（通用）和岗位模式（精准）两种备考路径",
+          "打印学习模块和练习题用于离线复习"
+        ],
+        "designIntent": "让面试准备从泛泛的'背八股'转向基于岗位能力的精准学习。AI 解析 JD 中的隐性需求，构建结构化学习路径，减少求职者盲目准备的时间浪费。",
+        "problemSolved": "求职者面对海量面试准备资料无从下手，不知道哪些能力是目标岗位真正看重的。Interview Basecamp 将 JD 转化为可执行的学习计划。",
+        "tags": [
+          "求职",
+          "面试准备",
+          "AI课程生成",
+          "职业规划",
+          "学习"
+        ],
+        "score": 7,
+        "scoreReason": "将 AI 的文本解析能力应用于求职场景，从 JD 到学习路径的自动化有真实价值。免费计划包含一次角色备考和一次岗位备考，体验门槛低。",
+        "competitors": [
+          {
+            "name": "Interview Pilot / Bossed",
+            "url": "https://bossed.ai/",
+            "comparison": "侧重 AI 模拟面试和语音反馈；Interview Basecamp 侧重知识学习和能力构建"
+          },
+          {
+            "name": "Yoodli",
+            "url": "https://www.yoodli.ai/",
+            "comparison": "侧重演讲和表达的 AI 教练；Interview Basecamp 侧重面试知识储备"
+          }
+        ]
+      }
+    },
+    {
+      "id": "news.svpn.com/chat",
+      "name": "Ask the News：AI 新闻语义搜索",
+      "slug": "ask-the-news",
+      "url": "https://news.svpn.com/chat",
+      "description": "对过去 7 天内 18,000+ 条实时新闻进行 AI 语义问答。系统从 185 个精选来源每小时摄入约 142 条故事，总互动量 120 万，用户可以用自然语言提问而非关键词搜索来找到相关新闻。",
+      "type": "website",
+      "tags": [
+        "新闻",
+        "AI搜索",
+        "语义问答",
+        "信息聚合",
+        "实时"
+      ],
+      "sourceChannels": [],
+      "firstSeen": "2026-10-03T04:06:09.111543+00:00",
+      "lastUpdated": "2026-10-03T04:06:09.111543+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-10-03"
+      },
+      "analysis": {
+        "targetAudience": "信息工作者、投资者、研究人员和新闻爱好者，需要快速了解特定话题在新闻中的全貌",
+        "useCases": [
+          "用自然语言提问获取相关新闻摘要而非链接列表",
+          "快速了解某个事件的多家媒体报道角度",
+          "追踪特定行业或话题的最近 7 天新闻动态",
+          "结合 SVPN 的私人社交功能进行信息讨论"
+        ],
+        "designIntent": "让新闻消费从'浏览头条'变成'对话式探索'。用户不需要猜测该搜什么关键词，只需用自然语言描述信息需求，AI 从海量新闻中精准定位相关故事。",
+        "problemSolved": "传统新闻搜索依赖关键词匹配，无法理解语义。用户在信息过载中难以快速找到真正相关的内容，AI 语义搜索大幅降低了信息获取的认知门槛。",
+        "tags": [
+          "新闻",
+          "AI搜索",
+          "语义问答",
+          "信息聚合",
+          "实时"
+        ],
+        "score": 7,
+        "scoreReason": "7天滚动窗口+185源的实时新闻语义搜索有独特价值，免费开放降低了体验门槛。但作为 SVPN 生态的一部分，独立产品形态还需观察。",
+        "competitors": [
+          {
+            "name": "Perplexity",
+            "url": "https://www.perplexity.ai/",
+            "comparison": "同为 AI 搜索，但覆盖全网非仅限新闻；Ask the News 的新闻垂直深度更强"
+          },
+          {
+            "name": "Google News",
+            "url": "https://news.google.com/",
+            "comparison": "传统关键词搜索+算法推荐；Ask the News 的对话式交互更自然"
+          }
+        ]
+      }
+    },
+    {
+      "id": "chromewebstore.google.com/detail/koshbookmarkmanager/meldjdfnfgefeoegccphimkmgmeamcce",
+      "name": "Kosh：AI 智能书签管理器",
+      "slug": "kosh-bookmark",
+      "url": "https://chromewebstore.google.com/detail/kosh-bookmark-manager/meldjdfnfgefeoegccphimkmgmeamcce",
+      "description": "浏览器原生书签管理器的现代化替代方案。Kosh 提供书签保存、标签整理、快速查找功能，支持多窗口标签页管理、重复检测和标签数量限制，并集成了 ChatGPT、Claude、Gemini、Grok 的 AI 侧边栏。",
+      "type": "website",
+      "tags": [
+        "书签管理",
+        "AI助手",
+        "浏览器扩展",
+        "效率工具",
+        "多模型"
+      ],
+      "sourceChannels": [],
+      "firstSeen": "2026-10-03T04:06:09.111543+00:00",
+      "lastUpdated": "2026-10-03T04:06:09.111543+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-10-03"
+      },
+      "analysis": {
+        "targetAudience": "重度书签用户和知识工作者，需要在浏览器内高效管理大量网页收藏并快速访问 AI 助手",
+        "useCases": [
+          "整理和标签化大量浏览器书签收藏",
+          "快速搜索和打开已保存的书签",
+          "管理多窗口标签页，防止标签页堆积",
+          "一键在侧边栏访问 ChatGPT/Claude/Gemini/Grok",
+          "查找和删除重复书签"
+        ],
+        "designIntent": "将浏览器原生的简陋书签管理器替换为高效、美观、AI 增强的现代工具。在书签管理的基础上叠加 AI 对话能力，让收藏和智能问答在同一界面完成。",
+        "problemSolved": "浏览器原生书签管理器功能单一、难以整理大量收藏。Kosh 提供了更好的组织方式，同时通过 AI 侧边栏减少切换标签页的摩擦。",
+        "tags": [
+          "书签管理",
+          "AI助手",
+          "浏览器扩展",
+          "效率工具",
+          "多模型"
+        ],
+        "score": 6,
+        "scoreReason": "书签管理+AI 侧边栏的组合实用性强，但 AI 功能相对表层（仅侧边栏接入）。在 Raindrop.io、Cosearch 等竞品中差异化不足。",
+        "competitors": [
+          {
+            "name": "Raindrop.io",
+            "url": "https://raindrop.io/",
+            "comparison": "更成熟的跨平台书签管理器，标签和收藏体系更完善"
+          },
+          {
+            "name": "Cosearch",
+            "url": "https://www.cosearch.cc/",
+            "comparison": "同样结合 AI 搜索和标签管理，功能更聚焦于搜索体验"
+          }
+        ]
+      }
     }
-  ],
-  "lastUpdated": "2026-09-30T04:20:00.139549+00:00"
+  ]
 }

@@ -840,7 +840,8 @@ def render_product_detail_content(prd, depth=0):
     # 优先使用报告中的 sourceUrl 字段
     source_url = prd.get('sourceUrl', '')
     if source_url:
-        ch = prd.get('sourceChannels', ['未知'])[0]
+        channels = prd.get('sourceChannels', [])
+        ch = channels[0] if channels else 'website'
         label = channel_labels.get(ch, ch)
         source_links.append(f'<a href="{source_url}" target="_blank" class="source-link">{icon("external")} {label}</a>')
     else:
