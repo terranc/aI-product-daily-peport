@@ -39598,6 +39598,271 @@
           }
         ]
       }
+    },
+    {
+      "id": "github.com/skainguyen1412/adhd-focus-mate",
+      "name": "ADHD Focus Mate",
+      "slug": "adhd-focus-mate",
+      "url": "https://github.com/skainguyen1412/adhd-focus-mate",
+      "type": "app",
+      "description": "一个原生 macOS 菜单栏应用，通过 AI 理解你正在做什么。它定期截屏并发送到 Gemini API 分析：如果检测到你正在工作，就保持安静；如果发现你在刷 Reddit 或 YouTube，就温和地提醒你回到正轨。截图在内存中处理，立即删除，永不落盘。开源，每月运行成本不到 $1。",
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=46887332",
+      "firstSeen": "2026-10-04T04:06:49.628215+00:00",
+      "lastUpdated": "2026-10-04T04:06:49.628215+00:00",
+      "cooldownExpiresAt": "2026-10-18T04:06:49.628215+00:00",
+      "analysis": {
+        "targetAudience": "ADHD 患者、注意力容易分心的知识工作者、需要外部监督保持专注的人",
+        "useCases": [
+          "写作时防止无意识切换到社交媒体",
+          "编程时保持心流状态，减少上下文切换",
+          "学习时避免分心浏览无关内容",
+          "远程工作时替代人工监督（body doubling）"
+        ],
+        "designIntent": "传统计时器对 ADHD 患者无效，因为人们会直接忽略它们。网站屏蔽工具也不够智能，因为 YouTube 可能既是娱乐也是学习工具。ADHD Focus Mate 用 AI 理解上下文，而不是简单地按域名屏蔽，从而提供更精准的干预。",
+        "problemSolved": "ADHD 患者的核心困难不是不知道该做什么，而是难以持续执行。传统工具要么太死板（定时器），要么太粗暴（网站屏蔽）。这个应用提供了一种更智能、更温和的外部监督机制。",
+        "tags": [
+          "ADHD",
+          "专注力",
+          "macOS",
+          "开源",
+          "AI 监督"
+        ],
+        "score": 8,
+        "scoreReason": "精准切入 ADHD 用户痛点，用 AI 上下文理解替代粗暴的网站屏蔽。开源 + 极低运行成本（<$1/月）的组合很有竞争力。隐私设计（截图不落盘）也值得称赞。",
+        "competitors": [
+          {
+            "name": "Focusmo",
+            "url": "https://news.ycombinator.com/item?id=47088626",
+            "comparison": "Focusmo 连接现有任务管理器，适合已使用 Todoist/Things 的用户；ADHD Focus Mate 则更轻量，不需要现有任务系统。"
+          },
+          {
+            "name": "FocusKit (Android)",
+            "url": "https://github.com/Costder/FocusKit",
+            "comparison": "FocusKit 专注 Android 端，强调 body doubling 和视觉计时器；ADHD Focus Mate 则用 AI 主动检测分心行为。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0
+      }
+    },
+    {
+      "id": "viralwiz.co",
+      "name": "ViralWiz",
+      "slug": "viralwiz",
+      "url": "https://viralwiz.co/",
+      "type": "saas",
+      "description": "一站式 AI 视频工具：自动字幕（50+ 语言）、AI 病毒片段检测、智能缩略图生成、一键发布到 TikTok/YouTube/Instagram/X/LinkedIn。1 小时素材可生成 5 个病毒式短视频，字幕处理仅需 30-60 秒。",
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=46887332",
+      "firstSeen": "2026-10-04T04:06:49.628215+00:00",
+      "lastUpdated": "2026-10-04T04:06:49.628215+00:00",
+      "cooldownExpiresAt": "2026-10-18T04:06:49.628215+00:00",
+      "analysis": {
+        "targetAudience": "内容创作者、播客主、社交媒体营销人员、DTC 品牌、教育机构",
+        "useCases": [
+          "将 1 小时播客自动剪辑为 5 个短视频发布到 TikTok/Reels",
+          "为 YouTube 长视频生成 Shorts 引流",
+          "为 B2B 网络研讨会制作平台就绪的片段",
+          "为在线课程创建学生真正看完的短视频"
+        ],
+        "designIntent": "创作者不需要在 Submagic、Opus Clip、ThumbMagic 等多个工具之间来回切换。ViralWiz 将字幕、剪辑、缩略图、发布整合到一个平台，以更低的价格提供更高的配额。",
+        "problemSolved": "长视频内容的再利用是创作者最大的痛点之一。手动剪辑耗时且需要专业技能，而现有工具各有所长但不兼容。ViralWiz 提供了一站式解决方案。",
+        "tags": [
+          "视频剪辑",
+          "AI 字幕",
+          "社交媒体",
+          "创作者工具",
+          "营销"
+        ],
+        "score": 8,
+        "scoreReason": "精准定位创作者的长视频再利用痛点，一站式替代多个工具。AI 病毒片段检测是差异化功能。价格比竞品低 14-53%，配额高 25%，有明确的商业优势。",
+        "competitors": [
+          {
+            "name": "Submagic",
+            "url": "https://www.submagic.co/",
+            "comparison": "Submagic 专注字幕和短视频，ViralWiz 额外提供病毒片段检测、缩略图和多平台发布。"
+          },
+          {
+            "name": "Opus Clip",
+            "url": "https://www.opus.pro/",
+            "comparison": "Opus Clip 擅长 AI 剪辑，但缺少缩略图和一键发布功能。ViralWiz 功能更全面。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0
+      }
+    },
+    {
+      "id": "robbietilton.com/compositor",
+      "name": "Compositor",
+      "slug": "compositor",
+      "url": "https://robbietilton.com/compositor",
+      "type": "app",
+      "description": "前苹果设计师 Robbie Tilton 推出的免费开源 Photoshop 替代品。仅 12-16MB，支持图层、蒙版、选择工具、滤镜、背景移除、修复画笔、克隆图章、文字工具。v1.3 新增 AI 实时编辑观察功能。MIT 许可证，完全免费。",
+      "sourceChannels": [
+        "twitter"
+      ],
+      "sourceUrl": "https://x.com/noahvisualsx/status/2106339685710889345",
+      "firstSeen": "2026-10-04T04:06:49.628215+00:00",
+      "lastUpdated": "2026-10-04T04:06:49.628215+00:00",
+      "cooldownExpiresAt": "2026-10-18T04:06:49.628215+00:00",
+      "analysis": {
+        "targetAudience": "Mac 用户、设计师、摄影师、厌倦 Adobe 订阅制的创意工作者",
+        "useCases": [
+          "日常照片后期处理和合成",
+          "快速编辑不需要启动重型 Photoshop 的场景",
+          "图层合成和精确后期处理",
+          "AI 辅助编辑（v1.3 新功能）"
+        ],
+        "designIntent": "Adobe Photoshop 变得臃肿且昂贵，而 GIMP 的界面不够熟悉流畅。Compositor 旨在提供专业级合成工具，同时保持极轻量的体积和熟悉的 Photoshop 式工作流。",
+        "problemSolved": "Mac 用户需要一个免费、轻量、熟悉的照片编辑工具，既能完成专业合成工作，又不需要支付 Adobe 订阅费用或忍受 GIMP 的学习曲线。",
+        "tags": [
+          "图像编辑",
+          "macOS",
+          "开源",
+          "Photoshop 替代品",
+          "轻量级"
+        ],
+        "score": 8,
+        "scoreReason": "前苹果设计师出品，品质有保障。12-16MB 的体积令人印象深刻，MIT 许可证完全免费。发布一周即获得 27k 下载和 5.5k GitHub stars，市场验证充分。",
+        "competitors": [
+          {
+            "name": "Adobe Photoshop",
+            "url": "https://www.adobe.com/products/photoshop.html",
+            "comparison": "Photoshop 功能更全面但臃肿昂贵。Compositor 覆盖 80% 日常需求，体积仅为 Photoshop 的零头。"
+          },
+          {
+            "name": "GIMP",
+            "url": "https://www.gimp.org/",
+            "comparison": "GIMP 免费但界面不够 Mac 原生。Compositor 提供更熟悉的 Photoshop 式体验。"
+          },
+          {
+            "name": "Affinity Photo",
+            "url": "https://affinity.serif.com/photo/",
+            "comparison": "Affinity 功能强大但体积超过 3.5GB。Compositor 更轻量且完全免费。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0
+      }
+    },
+    {
+      "id": "p-pass.hawkeye-xb.com",
+      "name": "P-Pass",
+      "slug": "p-pass",
+      "url": "https://p-pass.hawkeye-xb.com/",
+      "type": "app",
+      "description": "开源手机照片自动备份应用。手机连上 Wi-Fi 自动将新照片传输到家里电脑，无需服务器、Docker 或账号。支持远程传输（5G 也能备份），数据端到端加密。目前支持 Android 和 macOS，iPhone 版和 Windows 适配中。",
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "sourceUrl": "https://www.v2ex.com/t/1246335",
+      "firstSeen": "2026-10-04T04:06:49.628215+00:00",
+      "lastUpdated": "2026-10-04T04:06:49.628215+00:00",
+      "cooldownExpiresAt": "2026-10-18T04:06:49.628215+00:00",
+      "analysis": {
+        "targetAudience": "手机存储空间快满的用户、有吃灰台式设备的人、出门在外想备份照片的用户、注重隐私的数据所有者",
+        "useCases": [
+          "手机拍照后自动备份到家中的 Mac/PC",
+          "出门旅行时通过 5G 远程备份照片",
+          "释放手机存储空间，无需购买云存储",
+          "替代 Google Photos 等隐私敏感的云服务"
+        ],
+        "designIntent": "大多数照片备份方案要么依赖云服务（隐私风险），要么需要复杂的服务器搭建。P-Pass 利用家中闲置电脑作为备份目标，无需任何中间服务器，实现真正的点对点私有备份。",
+        "problemSolved": "手机照片备份要么上传到云端（隐私担忧），要么需要手动插线传输（麻烦）。P-Pass 提供了自动化、私有化、零成本的解决方案。",
+        "tags": [
+          "照片备份",
+          "开源",
+          "隐私",
+          "点对点",
+          "Android"
+        ],
+        "score": 7,
+        "scoreReason": "精准解决手机照片备份的隐私和便利性痛点。无需服务器、无需账号的设计非常优雅。Rust + iroh (QUIC) 的技术栈现代且高效。目前仅支持 Android 和 macOS 是主要限制。",
+        "competitors": [
+          {
+            "name": "Google Photos",
+            "url": "https://photos.google.com/",
+            "comparison": "Google Photos 需要上传云端，隐私风险高。P-Pass 完全本地，数据永不离开用户设备。"
+          },
+          {
+            "name": "Immich",
+            "url": "https://immich.app/",
+            "comparison": "Immich 需要自建服务器。P-Pass 无需任何服务器，设置更简单。"
+          },
+          {
+            "name": "PhotosMove",
+            "url": "https://github.com/malatomato1989/photosmove",
+            "comparison": "PhotosMove 是手动一键传输，P-Pass 是全自动后台同步。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0
+      }
+    },
+    {
+      "id": "github.com/Costder/FocusKit",
+      "name": "FocusKit",
+      "slug": "focuskit",
+      "url": "https://github.com/Costder/FocusKit",
+      "type": "app",
+      "description": "专为 ADHD 大脑设计的 Android 专注应用。核心功能包括：body doubling 陪伴（无需视频通话的虚拟陪伴）、视觉计时器（光环随时间流逝，解决时间盲症）、一键任务捕获（2 秒内记录想法）、无羞耻进度（只记录出现天数，不惩罚中断）。完全本地优先，无广告、无追踪。",
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=46887332",
+      "firstSeen": "2026-10-04T04:06:49.628215+00:00",
+      "lastUpdated": "2026-10-04T04:06:49.628215+00:00",
+      "cooldownExpiresAt": "2026-10-18T04:06:49.628215+00:00",
+      "analysis": {
+        "targetAudience": "ADHD 患者、时间盲症人群、需要外部监督保持专注的 Android 用户",
+        "useCases": [
+          "开始困难的任务时打开 body doubling 陪伴",
+          "用视觉光环感知时间流逝，而非数字倒计时",
+          "快速捕获闪念，避免忘记",
+          "建立每日出现的习惯，而非追求完美 streak"
+        ],
+        "designIntent": "大多数专注应用是为神经典型大脑设计的：倒计时数字、惩罚性 streak、需要账号和云同步。FocusKit 反过来设计——从 r/ADHD 社区收集真实需求，每个功能都直接回应 ADHD 用户的具体痛点。",
+        "problemSolved": "传统专注工具对 ADHD 患者无效甚至有害（惩罚性 streak 导致羞耻螺旋）。FocusKit 提供了一种更友好、更有效的替代方案。",
+        "tags": [
+          "ADHD",
+          "专注力",
+          "Android",
+          "本地优先",
+          "body doubling"
+        ],
+        "score": 7,
+        "scoreReason": "从 ADHD 社区真实需求出发的设计理念值得赞赏。视觉计时器和无羞耻进度是差异化功能。完全本地优先保护隐私。目前仅支持 Android，iOS 用户无法使用。",
+        "competitors": [
+          {
+            "name": "ADHD Focus Mate",
+            "url": "https://github.com/skainguyen1412/adhd-focus-mate",
+            "comparison": "Focus Mate 是 Mac 应用，用 AI 检测分心；FocusKit 是 Android 应用，强调陪伴和视觉计时。"
+          },
+          {
+            "name": "Forest",
+            "url": "https://www.forestapp.cc/",
+            "comparison": "Forest 用种树游戏化专注，但 streak 惩罚机制对 ADHD 用户不友好。FocusKit 更包容。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0
+      }
     }
   ]
 }
