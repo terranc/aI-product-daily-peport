@@ -39863,6 +39863,148 @@
         "featuredInDaily": 1,
         "featuredInWeekly": 0
       }
+    },
+    {
+      "id": "x.com/suohaai/status/2106291477772955991",
+      "name": "Muse AI Video",
+      "slug": "muse-ai-video",
+      "description": "Muse AI Video 是一款 AI 视频生成工具，能够将文本或图片转换为带有原生音频的短视频。用户只需输入提示词或上传图片，即可获得包含对话、环境音效和特效的完整视频片段。底层采用 Google Veo 3.1 和 ByteDance Seedance 1.5 Pro 模型，支持 480p 免费预览和 1080p 付费输出。",
+      "url": "https://museaivideo.net/",
+      "homepage": "https://museaivideo.net/",
+      "type": "saas",
+      "tags": [
+        "AI视频",
+        "内容创作",
+        "文本生视频",
+        "图片生视频",
+        "原生音频"
+      ],
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-10-05"
+      },
+      "analysis": {
+        "score": 8,
+        "scoreReason": "产品定位精准，解决了创作者的真实痛点（音频同步生成），免费模式降低了试用门槛。但 AI 视频赛道竞争激烈（Runway、Pika、Kling 等），需要持续差异化。"
+      },
+      "addedAt": "2026-10-05T04:08:16.461027+00:00",
+      "cooldownExpiresAt": "2026-10-19T04:09:04.433964+00:00",
+      "sourceChannels": [
+        "twitter"
+      ],
+      "firstSeen": "2026-10-05T04:08:16.461027+00:00",
+      "screenshotUrl": "assets/screenshots/x.com_suohaai_status_2106291477772955991_20261005_120816.png",
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null
+    },
+    {
+      "id": "soulor.app",
+      "name": "Soulor",
+      "slug": "soulor-ai-companion",
+      "description": "Soulor 是一款 AI 伴侣应用，具有持久记忆和五种关系阶段（从陌生人到灵魂伴侣），以及独特的「模拟模式」——为用户提供五位 AI 分析师（乐观者、愤世嫉俗者、导师、状态观察者、八卦者）的视角面板，帮助用户从多个角度审视问题或排练困难对话。所有文本端到端加密，保护用户隐私。",
+      "url": "https://soulor.app/",
+      "homepage": "https://soulor.app/",
+      "type": "app",
+      "tags": [
+        "AI伴侣",
+        "心理健康",
+        "社交训练",
+        "隐私保护",
+        "多视角分析"
+      ],
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-10-05"
+      },
+      "analysis": {
+        "score": 8,
+        "scoreReason": "产品理念创新（伴侣+模拟双模式），隐私优先设计，由年轻开发者独立制作展现了 AI 降低开发门槛的趋势。但 HN 热度较低（1分），市场验证尚不充分。"
+      },
+      "addedAt": "2026-10-05T04:08:16.461027+00:00",
+      "cooldownExpiresAt": "2026-10-19T04:09:04.433964+00:00",
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "firstSeen": "2026-10-05T04:08:16.461027+00:00",
+      "screenshotUrl": "assets/screenshots/soulor.app_20261005_120824.png",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/80/ea/11/80ea1132-192d-3f97-28de-da007031b82d/Soulor-AppStore-1284x2778.jpg/320x480bb.jpg"
+      ],
+      "appStoreName": "Soulor·灵镜",
+      "appStoreUrl": "https://apps.apple.com/us/app/soulor-%E7%81%B5%E9%95%9C/id6790655961?uo=4"
+    },
+    {
+      "id": "x.com/ieulpr/status/2096897088198234375",
+      "name": "イエウール (Ieul)",
+      "slug": "ieul-real-estimate",
+      "description": "イエウール（Ieul，意为「卖房」）是日本最大的房地产一肢査定平台，由 Speee 株式会社运营。用户只需输入地址或邮编，即可免费获得来自 2,500 家以上合作房地产公司的估价。平台利用 AI 算法匹配最适合的 4-6 家公司，在数日内通过邮件、电话或 My Page 提供估价结果。2026 年 3 月获得东京商工研究所在利用者数、提携公司数、エリアカバー率三个部门的第一名。",
+      "url": "https://ieul.jp/",
+      "homepage": "https://ieul.jp/",
+      "type": "saas",
+      "tags": [
+        "房地产",
+        "AI估价",
+        "一括査定",
+        "日本市场",
+        "房产交易"
+      ],
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-10-05"
+      },
+      "analysis": {
+        "score": 7,
+        "scoreReason": "市场验证充分（日本第一），商业模式清晰（中介推荐佣金），解决了真实痛点。但产品主要面向日本市场，国际化潜力有限，且 AI 能力主要体现在匹配算法而非核心估价模型。"
+      },
+      "addedAt": "2026-10-05T04:08:16.461027+00:00",
+      "cooldownExpiresAt": "2026-10-19T04:09:04.433964+00:00",
+      "sourceChannels": [
+        "twitter"
+      ],
+      "firstSeen": "2026-10-05T04:08:16.461027+00:00",
+      "screenshotUrl": "assets/screenshots/x.com_ieulpr_status_2096897088198234375_20261005_120843.png",
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null
+    },
+    {
+      "id": "redactpdf.ai",
+      "name": "RedactPDF.ai",
+      "slug": "redactpdf-ai-redaction",
+      "description": "RedactPDF.ai 是一款开源的 AI PDF 脱敏工具，能够自动识别和隐藏 PDF 文件中的敏感信息（如姓名、地址、身份证号、银行账号等）。用户上传 PDF 后，AI 自动检测敏感内容并提供脱敏选项，确保文档在分享或公开时不会泄露个人隐私。",
+      "url": "https://redactpdf.ai/",
+      "homepage": "https://redactpdf.ai/",
+      "type": "saas",
+      "tags": [
+        "PDF脱敏",
+        "隐私保护",
+        "文档安全",
+        "开源",
+        "AI识别"
+      ],
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-10-05"
+      },
+      "analysis": {
+        "score": 7,
+        "scoreReason": "产品定位精准（PDF 脱敏），开源模式建立了信任，解决了真实且高频的痛点。但功能相对单一，需要持续扩展支持的文档类型和敏感信息类别。"
+      },
+      "addedAt": "2026-10-05T04:08:16.461027+00:00",
+      "cooldownExpiresAt": "2026-10-19T04:09:04.433964+00:00",
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "firstSeen": "2026-10-05T04:08:16.461027+00:00",
+      "screenshotUrl": "assets/screenshots/redactpdf.ai_20261005_120856.png",
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null
     }
   ]
 }
