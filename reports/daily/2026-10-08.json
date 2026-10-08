@@ -1,0 +1,267 @@
+{
+  "date": "2026-10-08",
+  "generatedAt": "2026-10-08T04:08:43.994562+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "smartbuildlabs.com/apps/smart-blur",
+      "product_id": "smartbuildlabs.com/apps/smart-blur",
+      "name": "Smart Blur",
+      "slug": "smart-blur",
+      "description": "Chrome 扩展，使用本地 AI 自动模糊网页上的个人身份信息（PII），保护屏幕共享和截图时的隐私。支持正则表达式和本地 AI 模型（OpenAI Privacy Filter）检测姓名、地址等非结构化敏感信息。",
+      "url": "https://smartbuildlabs.com/apps/smart-blur/",
+      "homepage": "https://smartbuildlabs.com/apps/smart-blur/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "隐私保护",
+        "本地AI",
+        "Chrome扩展",
+        "屏幕共享",
+        "PII检测"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49997240",
+      "firstSeen": "2026-10-08T04:08:43.994562+00:00",
+      "analysis": {
+        "targetAudience": "需要频繁屏幕共享或截图的远程工作者、教师、金融/医疗/法律从业者，以及任何关心个人隐私的普通用户。",
+        "useCases": [
+          "远程会议时自动隐藏页面上的敏感信息",
+          "发送截图前快速模糊姓名、邮箱、电话等 PII",
+          "录制教程或演示视频时保护客户数据",
+          "共享屏幕时防止他人看到私人信息",
+          "财务/HR 处理员工或客户记录时的隐私保护"
+        ],
+        "designIntent": "解决屏幕共享和截图时敏感信息泄露的痛点。传统工具只能识别结构化数据（邮箱、电话），Smart Blur 通过本地 AI 模型识别非结构化文本中的姓名和地址，实现真正的隐私保护。",
+        "problemSolved": "在远程工作和屏幕共享场景中，网页上常包含姓名、地址、信用卡号等敏感信息，手动模糊效率低且容易遗漏。Smart Blur 通过本地 AI 自动检测并模糊这些信息，确保共享内容安全。",
+        "score": 9,
+        "scoreReason": "产品切中远程办公场景的真实痛点，使用本地 AI 解决隐私问题（数据不出设备），商业模式清晰（Pro 升级），技术方案成熟（WebGPU + Hugging Face 模型）。Chrome 扩展易于分发，用户门槛低。",
+        "competitors": [
+          {
+            "name": "Blur",
+            "url": "https://www.blur.io/",
+            "comparison": "Blur 主要做密码管理和隐私保护，但不专注于屏幕共享场景的实时 PII 模糊。"
+          },
+          {
+            "name": "Redact",
+            "url": "https://redact.dev/",
+            "comparison": "Redact 专注于文档和截图的脱敏，但缺少浏览器扩展的实时性和本地 AI 检测能力。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "chromatics.mobile",
+      "product_id": "chromatics.mobile",
+      "name": "Chromatics",
+      "slug": "chromatics",
+      "description": "一款 iPhone/iPad 阅读应用，使用 AI 自动识别经典文学作品中每个角色的对话，并用不同颜色标注。解决角色众多、姓名相似（如俄罗斯文学）时的阅读困难。",
+      "url": "https://chromatics.mobile/",
+      "homepage": "https://chromatics.mobile/",
+      "type": "app",
+      "appStoreName": "Chromatics",
+      "appStoreUrl": "https://apps.apple.com/app/chromatics/id6749254145",
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "阅读",
+        "AI",
+        "经典文学",
+        "iOS",
+        "角色识别"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=50000965",
+      "firstSeen": "2026-10-08T04:08:43.994562+00:00",
+      "analysis": {
+        "targetAudience": "热爱阅读经典文学（尤其是俄罗斯文学、莎士比亚等角色众多作品）的读者，以及听力障碍人士（通过颜色区分对话）。",
+        "useCases": [
+          "阅读《战争与和平》等角色众多的俄罗斯小说时快速识别说话人",
+          "阅读莎士比亚戏剧时区分对白归属",
+          "听力障碍用户通过颜色快速理解对话场景",
+          "制作个人阅读笔记（keeps）并同步到 Readwise/Notion",
+          "将任何公版书自动转换为彩色对话版本（Pro 功能）"
+        ],
+        "designIntent": "创始人阅读《尤利西斯》时深受角色对话追踪之苦，受 BBC 字幕颜色编码启发，利用 LLM 自动识别文学作品中的角色别名和对话归属，让经典阅读不再困难。",
+        "problemSolved": "经典文学（尤其是俄罗斯文学）中角色众多且姓名相似，读者经常需要反复回溯确认说话人。Chromatics 通过 AI 自动识别并颜色编码每个角色的对话，大幅提升阅读体验。",
+        "score": 8,
+        "scoreReason": "产品定位精准，解决了经典文学阅读的真实痛点。利用 LLM 处理角色别名识别（技术难度适中但实用），免费+Pro 模式清晰。UI 设计精美，但受众相对垂直（文学爱好者），市场天花板有限。",
+        "competitors": [
+          {
+            "name": "Readwise",
+            "url": "https://readwise.io/",
+            "comparison": "Readwise 专注于阅读笔记和高亮管理，不提供角色对话颜色编码功能。"
+          },
+          {
+            "name": "Kindle",
+            "url": "https://www.amazon.com/kindle",
+            "comparison": "Kindle 提供基础阅读体验，但没有针对角色对话的智能识别和颜色标注。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ambuffer.com",
+      "product_id": "ambuffer.com",
+      "name": "AM Buffer",
+      "slug": "am-buffer",
+      "description": "一款 iPhone 闹钟应用，起床时自动锁定指定的应用程序和网站（通过 Apple Screen Time），帮助用户在早晨远离手机干扰，建立健康的晨间习惯。",
+      "url": "https://ambuffer.com/",
+      "homepage": "https://ambuffer.com/",
+      "type": "app",
+      "appStoreName": "AM Buffer",
+      "appStoreUrl": "https://testflight.apple.com/join/wpw36PnW",
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "闹钟",
+        "数字健康",
+        "Screen Time",
+        "晨间习惯",
+        "应用拦截"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49996924",
+      "firstSeen": "2026-10-08T04:08:43.994562+00:00",
+      "analysis": {
+        "targetAudience": "早晨醒来习惯性刷手机（社交媒体、新闻、邮件）的用户，想要建立健康晨间习惯、提高专注力的数字健康关注者。",
+        "useCases": [
+          "早晨起床后自动锁定社交媒体应用 30-90 分钟",
+          "在工作日早晨阻止查看邮件和新闻",
+          "配合晨间习惯（运动、冥想、阅读）减少手机干扰",
+          "家长为孩子设置早晨学习时段的应用限制",
+          "与 Apple Watch 配合实现无干扰晨间流程"
+        ],
+        "designIntent": "解决'早晨手机劫持注意力'的普遍问题。传统闹钟只能叫醒用户，AM Buffer 在叫醒后继续保护用户免受手机干扰，利用 Apple Screen Time 实现系统级应用锁定。",
+        "problemSolved": "很多人早晨醒来第一件事就是刷手机，导致注意力分散、时间浪费。AM Buffer 通过闹钟触发应用锁定，在用户意志最薄弱的早晨时段建立数字边界。",
+        "score": 8,
+        "scoreReason": "产品概念简洁有力，切中数字健康领域的真实需求。利用 Apple Screen Time 实现系统级锁定（无需后台运行），技术方案巧妙。目前处于 TestFlight beta 阶段，需关注正式版发布后的用户反馈。",
+        "competitors": [
+          {
+            "name": "One Sec",
+            "url": "https://one-sec.app/",
+            "comparison": "One Sec 通过延迟打开应用来减少冲动使用，但不提供基于闹钟的自动锁定机制。"
+          },
+          {
+            "name": "Freedom",
+            "url": "https://freedom.to/",
+            "comparison": "Freedom 提供跨设备的应用和网站拦截，但缺少与闹钟联动的晨间场景优化。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "github.com/eschnou/lessong",
+      "product_id": "github.com/eschnou/lessong",
+      "name": "Lessong",
+      "slug": "lessong",
+      "description": "开源命令行工具，将任何歌曲转化为语言学习课程。通过 AI 自动提取歌词、翻译、生成语音讲解，创建'先学后听'的沉浸式语言学习体验。",
+      "url": "https://github.com/eschnou/lessong",
+      "homepage": "https://github.com/eschnou/lessong",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "语言学习",
+        "AI",
+        "开源",
+        "音乐",
+        "教育"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49998119",
+      "firstSeen": "2026-10-08T04:08:43.994562+00:00",
+      "analysis": {
+        "targetAudience": "通过音乐学习语言的自学者、喜欢流行文化的语言学习者、寻找创新教学工具的语言教师。",
+        "useCases": [
+          "将喜欢的法语歌曲转化为英语→法语听力课程",
+          "通过歌词重复和翻译学习词汇和语法",
+          "生成带字幕的视频课程用于语言教学",
+          "为特定歌曲定制复习材料",
+          "批量生成系列课程用于语言学习平台"
+        ],
+        "designIntent": "创始人受 80 年代广播节目'Plan Langue'启发，利用现代 AI 技术（语音识别、机器翻译、TTS）将任何歌曲自动转化为结构化的语言学习课程，让语言学习更有趣、更贴近真实语境。",
+        "problemSolved": "传统语言教材脱离真实语境，而歌曲是绝佳的语言学习素材但难以直接用作教材。Lessong 通过 AI 自动处理歌曲（提取歌词、翻译、生成讲解），创建'先学后听'的课程结构。",
+        "score": 7,
+        "scoreReason": "产品创意独特，将音乐与语言学习结合，利用了最新的 AI 能力（Whisper + ElevenLabs + OpenAI）。但作为 CLI 工具，用户门槛较高；需要 API key（ElevenLabs + OpenAI）也增加了使用成本。开源模式限制了商业化空间。",
+        "competitors": [
+          {
+            "name": "LingQ",
+            "url": "https://www.lingq.com/",
+            "comparison": "LingQ 提供基于真实内容的语言学习平台，但缺少从歌曲自动生成课程的能力。"
+          },
+          {
+            "name": "FluentU",
+            "url": "https://www.fluentu.com/",
+            "comparison": "FluentU 使用真实世界视频做语言学习，但课程需要人工制作，无法从任意歌曲生成。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "github.com/ialmajai/tuxwhisper",
+      "product_id": "github.com/ialmajai/tuxwhisper",
+      "name": "TuxWhisper",
+      "slug": "tuxwhisper",
+      "description": "开源 Linux 离线语音听写工具，支持 X11 和 Wayland。通过 faster-whisper 本地转录，支持热键触发、Ollama 标点修正，将语音输入转换为任何应用中的文字。",
+      "url": "https://github.com/ialmajai/tuxwhisper",
+      "homepage": "https://github.com/ialmajai/tuxwhisper",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "语音识别",
+        "Linux",
+        "开源",
+        "Wayland",
+        "离线AI"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=49998651",
+      "firstSeen": "2026-10-08T04:08:43.994562+00:00",
+      "analysis": {
+        "targetAudience": "Linux 桌面用户（尤其是 GNOME/Wayland 用户）、隐私关注者、需要语音输入但不想依赖云服务的写作者和开发者。",
+        "useCases": [
+          "在 Linux 上通过热键触发语音输入，文字自动插入任意应用",
+          "撰写邮件、文档、代码注释时使用语音输入",
+          "为无法使用鼠标的用户提供语音输入辅助",
+          "离线环境下（无网络）的语音转录需求",
+          "通过 Ollama 本地模型优化转录结果（标点、格式）"
+        ],
+        "designIntent": "填补 Linux 桌面生态中高质量语音输入工具的空白。macOS 有 Superwhisper，Windows 有 Wispr Flow，而 Linux（尤其是 Wayland）缺少类似工具。TuxWhisper 通过 faster-whisper 实现完全本地化的语音听写。",
+        "problemSolved": "Linux 用户（特别是 Wayland 桌面用户）缺乏好用的离线语音输入工具。现有方案要么依赖网络（隐私风险），要么不支持 Wayland（无法输入到应用）。TuxWhisper 通过本地 AI + 虚拟键盘解决了这个问题。",
+        "score": 7,
+        "scoreReason": "产品填补了 Linux 生态的真实空白，技术方案成熟（faster-whisper + systemd + uinput）。但作为开源工具，缺少商业化和用户支持；需要 NVIDIA GPU 或 1.5GB VRAM 也限制了部分用户。",
+        "competitors": [
+          {
+            "name": "Superwhisper",
+            "url": "https://superwhisper.com/",
+            "comparison": "Superwhisper 是 macOS 上的付费语音听写工具，功能类似但不支持 Linux。"
+          },
+          {
+            "name": "voice-dictation",
+            "url": "https://github.com/sunapi386/voice-dictation",
+            "comparison": "另一个 Linux 语音听写开源项目，功能类似但 TuxWhisper 的 systemd 集成和 Ollama 支持更完善。"
+          }
+        ]
+      }
+    }
+  ]
+}
