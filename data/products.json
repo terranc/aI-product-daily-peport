@@ -40844,6 +40844,266 @@
           }
         ]
       }
+    },
+    {
+      "id": "x.com/vista8/status/2108165930102702296",
+      "name": "无线麦 Remote Mic",
+      "slug": "remote-mic-xiaomi-voice",
+      "description": "无线麦是一款 macOS 应用，将小米蓝牙遥控器 2 Pro 变成 Mac 的无线语音输入设备。通过蓝牙低功耗连接遥控器内置麦克风，在本地完成语音转写，配合豆包输入法等实现语音输入。支持自定义按键映射，是 Vibe Coding 时代的语音遥控器。",
+      "url": "https://github.com/HD838A/remote-mic-app",
+      "type": "app",
+      "tags": [
+        "AI语音输入",
+        "macOS",
+        "小米遥控器",
+        "Vibe Coding",
+        "语音转写"
+      ],
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-10-09"
+      },
+      "analysis": {
+        "targetAudience": "Mac 用户、Vibe Coding 爱好者、需要高效语音输入的开发者和创作者",
+        "useCases": [
+          "通过遥控器语音键在 Mac 上实现远距离语音输入",
+          "配合豆包输入法进行中文语音转写",
+          "Vibe Coding 时用语音指挥 AI 编程",
+          "自定义按键映射实现快捷操作",
+          "在沙发上躺着也能指挥 AI 写代码"
+        ],
+        "design初衷": "将小米蓝牙遥控器 2 Pro 这个便宜、手感好、带麦克风的硬件变成 Mac 的语音输入设备。遥控器蓝牙链路上按键和语音是两条独立通道，可以全接管。项目最初 fork 自 open-voice-bridge，现独立维护。",
+        "problemSolved": "解决了 Mac 用户需要高效语音输入但不想一直对着电脑麦克风的问题。小米遥控器价格低廉，通过无线麦应用可以将其变成实用的语音输入硬件，特别适合 Vibe Coding 场景。",
+        "score": 7,
+        "scoreReason": "产品定位精准，解决了 Vibe Coding 时代的实际痛点。硬件成本低（小米遥控器约百元），软件开源免费。但依赖特定硬件（小米遥控器 2 Pro），受众相对小众。",
+        "competitors": [
+          {
+            "name": "MiRemote",
+            "url": "https://github.com/godarrenw/mi_remote_control",
+            "comparison": "功能更全面（13键映射+语音+AI批准层），但无线麦更专注语音输入"
+          },
+          {
+            "name": "Mi-AO (米遥)",
+            "url": "https://github.com/fanxeon/mi-ao",
+            "comparison": "类似定位，但更侧重 Codex 集成，使用 whisper.cpp 本地转写"
+          }
+        ]
+      },
+      "addedAt": "2026-10-09T04:11:37.583576+00:00",
+      "cooldownExpiresAt": "2026-10-23T04:11:37.583576+00:00",
+      "sourceChannels": [
+        "twitter"
+      ],
+      "firstSeen": "2026-10-08T12:01:40+00:00"
+    },
+    {
+      "id": "github.com/thesnarkitecht/rembrandt",
+      "name": "Rembrandt",
+      "slug": "rembrandt-ai-lightroom",
+      "description": "Rembrandt 是一款免费开源的 Adobe Lightroom 替代品，完全本地运行并集成 AI 功能。支持在本地完成照片编辑和处理，无需上传云端，保护用户隐私。",
+      "url": "https://github.com/thesnarkitecht/rembrandt",
+      "type": "app",
+      "tags": [
+        "AI照片编辑",
+        "Lightroom替代",
+        "本地运行",
+        "开源",
+        "隐私保护"
+      ],
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-10-09"
+      },
+      "analysis": {
+        "targetAudience": "摄影师、摄影爱好者、注重隐私的照片编辑用户",
+        "useCases": [
+          "本地 AI 照片增强和编辑",
+          "替代 Adobe Lightroom 的订阅模式",
+          "批量照片处理 without 云端上传",
+          "隐私敏感用户的照片编辑",
+          "开源社区贡献和定制"
+        ],
+        "design初衷": "提供一个免费开源的 Lightroom 替代品，利用 AI 技术实现照片编辑功能，同时完全在本地运行以保护用户隐私。避免 Adobe 的订阅费用和云端依赖。",
+        "problemSolved": "解决了摄影师需要强大照片编辑工具但不想支付 Adobe 订阅费用或上传照片到云端的问题。本地 AI 处理既保证了隐私又提供了智能编辑能力。",
+        "score": 6,
+        "scoreReason": "产品定位清晰（Lightroom 替代品），开源免费+本地 AI 是差异化优势。但 HN 热度不高（42分），功能完整度未知，需要验证实际效果。",
+        "competitors": [
+          {
+            "name": "Adobe Lightroom",
+            "url": "https://www.adobe.com/products/photoshop-lightroom.html",
+            "comparison": "行业标准，功能完善但需订阅费用，依赖云端"
+          },
+          {
+            "name": "darktable",
+            "url": "https://www.darktable.org/",
+            "comparison": "开源免费，但无 AI 功能，学习曲线陡峭"
+          }
+        ]
+      },
+      "addedAt": "2026-10-09T04:11:37.583576+00:00",
+      "cooldownExpiresAt": "2026-10-23T04:11:37.583576+00:00",
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "firstSeen": "2026-10-08T21:00:55+00:00"
+    },
+    {
+      "id": "github.com/abhichandra21/streamline",
+      "name": "Streamline",
+      "slug": "streamline-llm-recommendations",
+      "description": "Streamline 通过读取 Netflix、Prime Video、Apple TV、Disney+、Max 等流媒体服务的 GDPR 数据导出，以及 Plex 播放记录，构建完整的观影历史。使用 LLM 分析用户口味，跨平台的个性化推荐。",
+      "url": "https://github.com/abhichandra21/streamline",
+      "type": "saas",
+      "tags": [
+        "LLM推荐",
+        "流媒体",
+        "观影历史",
+        "个性化",
+        "GDPR数据"
+      ],
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-10-09"
+      },
+      "analysis": {
+        "targetAudience": "流媒体重度用户、选择困难症患者、希望发现新内容的人",
+        "useCases": [
+          "整合多个流媒体平台的观影历史",
+          "基于个人口味的跨平台内容推荐",
+          "发现被忽视的符合口味的内容",
+          "导出和分析自己的观影数据",
+          "避免在不同平台间重复搜索"
+        ],
+        "design初衷": "解决流媒体平台各自为政、推荐算法只了解本平台内容的问题。通过 GDPR 数据导出整合全平台观影记录，用 LLM 理解用户口味，实现真正的跨平台推荐。",
+        "problemSolved": "解决了用户订阅多个流媒体服务但难以找到想看内容的问题。每个平台只推荐自己内容，Streamline 打破信息孤岛，提供统一推荐。",
+        "score": 7,
+        "scoreReason": "产品理念创新（GDPR 数据导出+LLM 推荐），解决了真实痛点。但依赖用户主动导出数据，使用门槛较高。HN 热度低（1分），可能还在早期阶段。",
+        "competitors": [
+          {
+            "name": "JustWatch",
+            "url": "https://www.justwatch.com/",
+            "comparison": "跨平台搜索但不提供个性化推荐，不整合观影历史"
+          },
+          {
+            "name": "Trakt",
+            "url": "https://trakt.tv/",
+            "comparison": "追踪观影历史但推荐功能较弱，不使用 LLM"
+          }
+        ]
+      },
+      "addedAt": "2026-10-09T04:11:37.583576+00:00",
+      "cooldownExpiresAt": "2026-10-23T04:11:37.583576+00:00",
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "firstSeen": "2026-10-08T23:04:16+00:00"
+    },
+    {
+      "id": "testflight.apple.com/join/5jgczpxt",
+      "name": "Anvil",
+      "slug": "anvil-offline-llm",
+      "description": "Anvil 是一款 iPhone 应用，支持离线 LLM 聊天和 SDXL 图像生成。完全在设备本地运行，无需网络连接，保护用户隐私。",
+      "url": "https://testflight.apple.com/join/5JGCZpxt",
+      "type": "app",
+      "tags": [
+        "离线LLM",
+        "SDXL图像生成",
+        "iOS",
+        "隐私保护",
+        "本地AI"
+      ],
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-10-09"
+      },
+      "analysis": {
+        "targetAudience": "iOS 用户、隐私倡导者、需要在无网络环境使用 AI 的人",
+        "useCases": [
+          "无网络环境下的 AI 聊天",
+          "本地 SDXL 图像生成",
+          "隐私敏感的 AI 交互",
+          "旅行或飞行模式下的 AI 使用",
+          "避免 AI 对话数据上传云端"
+        ],
+        "design初衷": "将 LLM 和图像生成模型带到 iPhone 上完全离线运行，让用户无需网络连接也能使用 AI 功能，同时彻底保护隐私——所有数据都在设备本地处理。",
+        "problemSolved": "解决了用户需要在移动设备上使用 AI 但担心隐私或网络连接的问题。离线运行意味着对话和图像永远不会离开设备。",
+        "score": 6,
+        "scoreReason": "离线 LLM+SDXL 在 iPhone 上是技术挑战，产品定位独特。但 TestFlight 阶段说明尚未正式发布，且 iOS 上运行大模型的性能和电池消耗是关键问题。",
+        "competitors": [
+          {
+            "name": "Apple Intelligence",
+            "url": "https://www.apple.com/apple-intelligence/",
+            "comparison": "苹果官方方案，深度系统集成但需要网络连接部分功能"
+          },
+          {
+            "name": "MLC Chat",
+            "url": "https://github.com/mlc-ai/mlc-llm",
+            "comparison": "开源本地 LLM 方案，但配置复杂，非普通用户友好"
+          }
+        ]
+      },
+      "addedAt": "2026-10-09T04:11:37.583576+00:00",
+      "cooldownExpiresAt": "2026-10-23T04:11:37.583576+00:00",
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "firstSeen": "2026-10-08T20:49:55+00:00"
+    },
+    {
+      "id": "nace.ai/developers",
+      "name": "Nace.ai Document Intelligence",
+      "slug": "nace-document-intelligence",
+      "description": "Nace Document Intelligence (NDI) 是一个文档智能平台 API，支持解析、分类、提取、定位和搜索任何文档。将文档转换为高保真 Markdown，自动 OCR，支持结构化 JSON 提取和知识图谱搜索。",
+      "url": "https://ndi.nace.ai/",
+      "type": "saas",
+      "tags": [
+        "文档智能",
+        "OCR",
+        "LLM",
+        "文档解析",
+        "知识图谱"
+      ],
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-10-09"
+      },
+      "analysis": {
+        "targetAudience": "需要处理大量文档的企业用户、开发者、数据录入自动化需求",
+        "useCases": [
+          "PDF/扫描件 OCR 和结构化提取",
+          "发票、合同等文档的自动分类",
+          "从非结构化文档中提取结构化数据",
+          "构建可搜索的文档知识库",
+          "多语言文档处理"
+        ],
+        "design初衷": "提供一个高保真的文档智能平台，将任何文档转换为结构化、可搜索的数据。通过 API 和 MCP 服务器集成到 AI Agent 工作流中，支持 Claude Code、Cursor 等工具。",
+        "problemSolved": "解决了企业和个人从大量非结构化文档中提取信息的难题。传统 OCR 只能识别文字，NDI 能理解文档结构并提取语义信息。",
+        "score": 7,
+        "scoreReason": "产品定位清晰（文档智能 API），功能全面（解析/分类/提取/搜索），支持 MCP 集成。但作为 API 产品，普通用户使用门槛较高，更适合开发者集成。",
+        "competitors": [
+          {
+            "name": "AWS Textract",
+            "url": "https://aws.amazon.com/textract/",
+            "comparison": "亚马逊的 OCR 服务，功能类似但更侧重 AWS 生态"
+          },
+          {
+            "name": "Google Document AI",
+            "url": "https://cloud.google.com/document-ai",
+            "comparison": "谷歌的文档 AI 平台，功能完善但价格较高"
+          }
+        ]
+      },
+      "addedAt": "2026-10-09T04:11:37.583576+00:00",
+      "cooldownExpiresAt": "2026-10-23T04:11:37.583576+00:00",
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "firstSeen": "2026-10-09T00:58:25+00:00"
     }
   ]
 }
