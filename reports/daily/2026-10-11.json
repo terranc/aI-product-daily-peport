@@ -1,0 +1,287 @@
+{
+  "date": "2026-10-11",
+  "generatedAt": "2026-10-11T04:13:13.524343+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "openmontage.video",
+      "name": "OpenMontage",
+      "slug": "openmontage",
+      "description": "开源 AI 视频制作系统。用一句人话就能完成脚本、素材、配音、字幕、成片的全流程。支持真实素材剪辑，不只是动画静图。GitHub 5万+ Star。",
+      "url": "https://www.openmontage.video/",
+      "homepage": "https://www.openmontage.video/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/openmontage.video_20261011_122205.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI视频",
+        "内容创作",
+        "开源",
+        "自动化制作"
+      ],
+      "sourceChannels": [
+        "twitter"
+      ],
+      "sourceUrl": "https://github.com/calesthio/OpenMontage",
+      "firstSeen": "2026-10-11T04:13:13.524343+00:00",
+      "analysis": {
+        "targetAudience": "内容创作者、营销人员、独立开发者",
+        "useCases": [
+          "产品宣传视频一键生成",
+          "社交媒体短视频制作",
+          "纪录片/蒙太奇剪辑",
+          "品牌宣传片制作",
+          "教育/解释类视频"
+        ],
+        "designIntent": "让没有视频制作经验的用户也能通过自然语言描述，由 AI 自动完成从脚本到成片的完整视频生产流程。降低视频制作门槛。",
+        "problemSolved": "传统视频制作需要掌握剪辑、配音、字幕等多项技能，耗时且昂贵。OpenMontage 将整个流程自动化，用户只需提供想法，AI 负责执行。",
+        "tags": [
+          "AI视频",
+          "内容创作",
+          "开源",
+          "自动化制作"
+        ],
+        "score": 7,
+        "scoreReason": "开源且功能完整，支持真实素材剪辑而非仅动画静图，5万 Star 证明社区认可。但作为开源项目，普通用户使用门槛仍较高。",
+        "competitors": [
+          {
+            "name": "Runway",
+            "url": "https://runwayml.com/",
+            "comparison": "云端 AI 视频生成，需 API Key，收费"
+          },
+          {
+            "name": "Pictory",
+            "url": "https://pictory.ai/",
+            "comparison": "SaaS 视频制作，更易用但不开源"
+          }
+        ]
+      }
+    },
+    {
+      "id": "github.com/yuanzhixiang/openphoto",
+      "name": "OpenPhoto",
+      "slug": "openphoto",
+      "description": "Photoshop 的开源实现，1:1 还原界面与操作，原生支持接入 AI Agent。用自然语言指挥 AI 完成切图、修图、套蒙版、拉曲线等操作。",
+      "url": "https://github.com/yuanzhixiang/openphoto",
+      "homepage": "https://github.com/yuanzhixiang/openphoto",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/github.com_yuanzhixiang_openphoto_20261011_122222.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "图像编辑",
+        "开源",
+        "AI Agent",
+        "Photoshop替代"
+      ],
+      "sourceChannels": [
+        "twitter"
+      ],
+      "sourceUrl": "https://github.com/yuanzhixiang/openphoto",
+      "firstSeen": "2026-10-11T04:13:13.524343+00:00",
+      "analysis": {
+        "targetAudience": "设计师、摄影师、普通用户",
+        "useCases": [
+          "日常照片编辑和修图",
+          "通过 AI Agent 自动完成复杂操作",
+          "PSD 文件编辑和处理",
+          "批量图像处理",
+          "无需 Photoshop 订阅的替代方案"
+        ],
+        "designIntent": "为 Photoshop 用户提供一个完全兼容的免费开源替代品，同时通过 MCP 协议让 AI Agent 可以直接控制图像编辑，实现自然语言修图。",
+        "problemSolved": "Photoshop 订阅费用高且学习曲线陡峭。OpenPhoto 既保留了用户熟悉的操作习惯，又通过 AI 降低了复杂操作的技术门槛。",
+        "tags": [
+          "图像编辑",
+          "开源",
+          "AI Agent",
+          "Photoshop替代"
+        ],
+        "score": 8,
+        "scoreReason": "1:1 还原 Photoshop 界面降低迁移成本，MCP 接入 AI Agent 是创新点。但项目早期阶段，功能尚未完全覆盖。",
+        "competitors": [
+          {
+            "name": "Photoshop",
+            "url": "https://www.adobe.com/products/photoshop.html",
+            "comparison": "行业标准但收费昂贵"
+          },
+          {
+            "name": "GIMP",
+            "url": "https://www.gimp.org/",
+            "comparison": "开源但界面不同，学习成本高"
+          }
+        ]
+      }
+    },
+    {
+      "id": "getlistener.vercel.app/en",
+      "name": "Listener",
+      "slug": "listener",
+      "description": "Mac 端完全本地运行的会议记录应用。录音、转录、摘要全部在设备上完成，无需联网，$5 一次性买断。支持实时转录和编辑摘要。",
+      "url": "https://getlistener.vercel.app/en",
+      "homepage": "https://getlistener.vercel.app/en",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/getlistener.vercel.app_en_20261011_121729.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "会议记录",
+        "隐私保护",
+        "本地转录",
+        "Mac应用"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=50037646",
+      "firstSeen": "2026-10-11T04:13:13.524343+00:00",
+      "analysis": {
+        "targetAudience": "注重隐私的知识工作者、记者、律师",
+        "useCases": [
+          "会议实时转录和摘要",
+          "采访录音整理",
+          "课堂笔记记录",
+          "敏感会议（无需上传云端）",
+          "离线环境工作"
+        ],
+        "designIntent": "利用 Apple 设备端语音识别和 Intelligence 框架，实现完全本地化的会议记录，解决用户对云端转录隐私泄露的担忧。",
+        "problemSolved": "现有会议记录工具（Otter、Fathom）需要将音频上传到云端处理，存在隐私风险。Listener 全程本地处理，$5 买断无需订阅。",
+        "tags": [
+          "会议记录",
+          "隐私保护",
+          "本地转录",
+          "Mac应用"
+        ],
+        "score": 8,
+        "scoreReason": "隐私优先设计切中痛点，$5 买断模式良心。但仅支持 Mac 且需 macOS 26，限制了用户群。",
+        "competitors": [
+          {
+            "name": "Otter.ai",
+            "url": "https://otter.ai/",
+            "comparison": "云端转录，功能更全但有隐私顾虑"
+          },
+          {
+            "name": "ArcGlass Listen",
+            "url": "https://arcglass.io/listen/",
+            "comparison": "也支持本地转录，但免费+付费模式"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tryteasr.com/",
+      "name": "Teasr",
+      "slug": "teasr",
+      "description": "将产品 URL 一键转化为发布宣传视频。AI 自动分析页面内容，生成脚本、素材、配音，输出适合社交媒体传播的短视频。",
+      "url": "https://tryteasr.com/",
+      "homepage": "https://tryteasr.com/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/tryteasr.com_20261011.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI视频",
+        "营销自动化",
+        "社交媒体",
+        "产品推广"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=50037525",
+      "firstSeen": "2026-10-11T04:13:13.524343+00:00",
+      "analysis": {
+        "targetAudience": "独立开发者、产品经理、营销团队",
+        "useCases": [
+          "Product Hunt 发布宣传视频",
+          "社交媒体产品推广",
+          "SaaS 产品演示视频",
+          "App Store 预览视频",
+          "投资人 pitch 视频"
+        ],
+        "designIntent": "让没有视频制作能力的开发者也能快速为产品生成专业的发布宣传视频，从 URL 到视频只需几分钟。",
+        "problemSolved": "独立开发者通常缺乏视频制作技能和预算，手动制作宣传视频耗时且质量难以保证。Teasr 自动化了这一过程。",
+        "tags": [
+          "AI视频",
+          "营销自动化",
+          "社交媒体",
+          "产品推广"
+        ],
+        "score": 7,
+        "scoreReason": "URL 输入极简，适合独立开发者。但产品较早期，视频质量和定制化程度有待验证。",
+        "competitors": [
+          {
+            "name": "ShipTeaser",
+            "url": "https://shipteaser.com/",
+            "comparison": "类似功能，更侧重品牌电影风格"
+          },
+          {
+            "name": "ngram",
+            "url": "https://www.ngram.com/",
+            "comparison": "功能更全面但学习曲线更陡"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aporium.app/explore",
+      "name": "Aporium",
+      "slug": "aporium",
+      "description": "将 5800 条哲学摘录转化为可探索的 3D 星系图。基于语义嵌入和 UMAP 降维，让相近思想聚集成星团，支持跨时代哲学家虚拟对话。",
+      "url": "https://www.aporium.app/explore",
+      "homepage": "https://www.aporium.app/explore",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/aporium.app_explore_20261011.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "教育",
+        "可视化",
+        "哲学",
+        "知识探索"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=50038215",
+      "firstSeen": "2026-10-11T04:13:13.524343+00:00",
+      "analysis": {
+        "targetAudience": "哲学爱好者、学生、知识探索者",
+        "useCases": [
+          "哲学入门和思想探索",
+          "跨时代哲学家观点对比",
+          "知识可视化学习",
+          "替代社交媒体的深度学习",
+          "写作灵感和引用发现"
+        ],
+        "designIntent": "用现代 AI 技术让哲学经典变得可交互、可探索，替代碎片化社交媒体阅读，提供有深度的知识体验。",
+        "problemSolved": "哲学经典晦涩难懂，传统阅读方式缺乏互动性和关联性。Aporium 通过语义可视化让思想之间的关系变得直观。",
+        "tags": [
+          "教育",
+          "可视化",
+          "哲学",
+          "知识探索"
+        ],
+        "score": 7,
+        "scoreReason": "创意独特，将 AI 嵌入与知识探索结合。但受众相对小众，商业模式尚不清晰。",
+        "competitors": [
+          {
+            "name": "Hermeneutica",
+            "url": "https://hermeneutica.xyz/",
+            "comparison": "类似技术但专注于圣经文本"
+          },
+          {
+            "name": "Open Syllabus Galaxy",
+            "url": "https://galaxy.opensyllabus.org/",
+            "comparison": "学术课程地图，非对话式"
+          }
+        ]
+      }
+    }
+  ]
+}

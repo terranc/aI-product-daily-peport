@@ -41384,6 +41384,131 @@
         "featuredInWeekly": false,
         "lastFeaturedDate": "2026-10-10"
       }
+    },
+    {
+      "id": "openmontage.video",
+      "name": "OpenMontage",
+      "slug": "openmontage",
+      "description": "开源 AI 视频制作系统。用一句人话就能完成脚本、素材、配音、字幕、成片的全流程。支持真实素材剪辑，不只是动画静图。GitHub 5万+ Star。",
+      "url": "https://www.openmontage.video/",
+      "type": "saas",
+      "tags": [
+        "AI视频",
+        "内容创作",
+        "开源",
+        "自动化制作"
+      ],
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-10-11"
+      },
+      "analysis": {
+        "score": 7,
+        "scoreReason": "开源且功能完整，支持真实素材剪辑而非仅动画静图，5万 Star 证明社区认可。但作为开源项目，普通用户使用门槛仍较高。"
+      },
+      "addedAt": "2026-10-11T04:13:13.524343+00:00",
+      "cooldownExpiresAt": "2026-10-25T04:13:13.524343+00:00"
+    },
+    {
+      "id": "github.com/yuanzhixiang/openphoto",
+      "name": "OpenPhoto",
+      "slug": "openphoto",
+      "description": "Photoshop 的开源实现，1:1 还原界面与操作，原生支持接入 AI Agent。用自然语言指挥 AI 完成切图、修图、套蒙版、拉曲线等操作。",
+      "url": "https://github.com/yuanzhixiang/openphoto",
+      "type": "app",
+      "tags": [
+        "图像编辑",
+        "开源",
+        "AI Agent",
+        "Photoshop替代"
+      ],
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-10-11"
+      },
+      "analysis": {
+        "score": 8,
+        "scoreReason": "1:1 还原 Photoshop 界面降低迁移成本，MCP 接入 AI Agent 是创新点。但项目早期阶段，功能尚未完全覆盖。"
+      },
+      "addedAt": "2026-10-11T04:13:13.524343+00:00",
+      "cooldownExpiresAt": "2026-10-25T04:13:13.524343+00:00"
+    },
+    {
+      "id": "getlistener.vercel.app/en",
+      "name": "Listener",
+      "slug": "listener",
+      "description": "Mac 端完全本地运行的会议记录应用。录音、转录、摘要全部在设备上完成，无需联网，$5 一次性买断。支持实时转录和编辑摘要。",
+      "url": "https://getlistener.vercel.app/en",
+      "type": "app",
+      "tags": [
+        "会议记录",
+        "隐私保护",
+        "本地转录",
+        "Mac应用"
+      ],
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-10-11"
+      },
+      "analysis": {
+        "score": 8,
+        "scoreReason": "隐私优先设计切中痛点，$5 买断模式良心。但仅支持 Mac 且需 macOS 26，限制了用户群。"
+      },
+      "addedAt": "2026-10-11T04:13:13.524343+00:00",
+      "cooldownExpiresAt": "2026-10-25T04:13:13.524343+00:00"
+    },
+    {
+      "id": "tryteasr.com/",
+      "name": "Teasr",
+      "slug": "teasr",
+      "description": "将产品 URL 一键转化为发布宣传视频。AI 自动分析页面内容，生成脚本、素材、配音，输出适合社交媒体传播的短视频。",
+      "url": "https://tryteasr.com/",
+      "type": "saas",
+      "tags": [
+        "AI视频",
+        "营销自动化",
+        "社交媒体",
+        "产品推广"
+      ],
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-10-11"
+      },
+      "analysis": {
+        "score": 7,
+        "scoreReason": "URL 输入极简，适合独立开发者。但产品较早期，视频质量和定制化程度有待验证。"
+      },
+      "addedAt": "2026-10-11T04:13:13.524343+00:00",
+      "cooldownExpiresAt": "2026-10-25T04:13:13.524343+00:00"
+    },
+    {
+      "id": "aporium.app/explore",
+      "name": "Aporium",
+      "slug": "aporium",
+      "description": "将 5800 条哲学摘录转化为可探索的 3D 星系图。基于语义嵌入和 UMAP 降维，让相近思想聚集成星团，支持跨时代哲学家虚拟对话。",
+      "url": "https://www.aporium.app/explore",
+      "type": "website",
+      "tags": [
+        "教育",
+        "可视化",
+        "哲学",
+        "知识探索"
+      ],
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-10-11"
+      },
+      "analysis": {
+        "score": 7,
+        "scoreReason": "创意独特，将 AI 嵌入与知识探索结合。但受众相对小众，商业模式尚不清晰。"
+      },
+      "addedAt": "2026-10-11T04:13:13.524343+00:00",
+      "cooldownExpiresAt": "2026-10-25T04:13:13.524343+00:00"
     }
   ]
 }
