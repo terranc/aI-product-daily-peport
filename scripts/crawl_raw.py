@@ -185,10 +185,15 @@ def fetch_reddit():
     2. **用 multireddit 聚合**（r/a+b+c/new/.rss）—— 一次请求拿多个 sub 各 ~100 条；
        逐个 sub 请求会频繁撞 429 限流，聚合能大幅减少请求数。
     3. **429 要用指数退避**（Reddit 限流严格，不加退避基本拿不到第二条）。
+
+    取数上限：两个 feed 合计约 200 条，但帖子量大且噪音多，最终**只保留最新的
+    MAX_TOPICS 条**（按发布时间全局倒序截断，而非「第一个 feed 的前 N 条」），
+    避免把几百条灌进后续 LLM 分析。
     """
     print("  🟠 Reddit...")
     products = []
     ns = {"atom": "http://www.w3.org/2005/Atom"}
+    MAX_TOPICS = 80  # 最多分析最新的 80 个主题
 
     # 分类聚合：产品/创业 + AI 讨论，各一次请求
     feeds = [
@@ -278,6 +283,24 @@ def fetch_reddit():
         if i < len(feeds) - 1:
             time.sleep(10)  # 两次请求之间留间隔，降低 429 概率
 
+    # 按发布时间全局倒序（最新在前），截断到 MAX_TOPICS 条
+    fetched = len(products)
+    if fetched > MAX_TOPICS:
+        def sort_key(p):
+            ts = p.get("timestamp") or ""
+            try:
+                return datetime.fromisoformat(ts.replace("Z", "+00:00"))
+            except Exception:
+                return datetime.min.replace(tzinfo=None)
+
+        products.sort(key=sort_key, reverse=True)
+        products = products[:MAX_TOPICS]
+        print(f"     {fetched} 条 → 保留最新 {len(products)} 条")
+
+    # 末位时间做截断依据记录，便于排查
+    if products:
+        print(f"       最新: {products[0].get('timestamp','')[:19]}")
+        print(f"       最旧: {products[-1].get('timestamp','')[:19]}")
     print(f"     {len(products)} 个")
     return products
 
