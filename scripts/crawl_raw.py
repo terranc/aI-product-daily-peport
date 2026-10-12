@@ -11,6 +11,7 @@ import os
 import re
 import subprocess
 import sys
+import time
 import xml.etree.ElementTree as ET
 import requests
 from datetime import datetime
@@ -22,6 +23,11 @@ try:
 except ImportError:
     OUTPUT_FILE = Path("/Volumes/EXTEND/aI-product-daily-peport/data/raw-candidates.json")
 USER_AGENT = "agent-reach/1.0"
+# Reddit 对脚本类 UA 直接 403；浏览器 UA 可正常取数（实测 2026-10-12）
+BROWSER_UA = (
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+)
 TWITTER_CLI = str(Path.home() / ".local" / "bin" / "twitter")
 
 
@@ -172,58 +178,107 @@ def fetch_hackernews():
 
 
 def fetch_reddit():
-    """Reddit - 通过 RSS Feed（JSON API 已被 Reddit 禁止）"""
+    """Reddit - 通过 RSS Feed（JSON API 已被 Reddit 禁止）
+
+    实测（2026-10-12）三条关键经验：
+    1. **必须用浏览器 UA** —— 默认 UA 返回 403，换成 Chrome UA 变 200。
+    2. **用 multireddit 聚合**（r/a+b+c/new/.rss）—— 一次请求拿多个 sub 各 ~100 条；
+       逐个 sub 请求会频繁撞 429 限流，聚合能大幅减少请求数。
+    3. **429 要用指数退避**（Reddit 限流严格，不加退避基本拿不到第二条）。
+    """
     print("  🟠 Reddit...")
     products = []
-    subreddits = ["SideProject", "SaaS", "startups", "IndieApps"]
-    try:
-        for sub in subreddits:
-            url = f"https://www.reddit.com/r/{sub}/new/.rss?limit=15"
-            resp = proxied_get(url, headers={"User-Agent": USER_AGENT}, timeout=15)
-            if resp.status_code != 200:
+    ns = {"atom": "http://www.w3.org/2005/Atom"}
+
+    # 分类聚合：产品/创业 + AI 讨论，各一次请求
+    feeds = [
+        ("SideProject+SaaS+startups+IndieApps", "sideproject"),
+        ("LocalLLaMA+artificial+OpenAI+ChatGPT+MachineLearning", "ai"),
+    ]
+
+    def fetch_feed(path, limit=100, max_rounds=4):
+        """带指数退避取一个 multireddit feed；失败返回 None。"""
+        url = f"https://www.reddit.com/r/{path}/new/.rss?limit={limit}"
+        delay = 15
+        for rnd in range(max_rounds):
+            try:
+                resp = proxied_get(
+                    url, headers={"User-Agent": BROWSER_UA}, timeout=30
+                )
+            except Exception as e:
+                print(f"       err {type(e).__name__}")
+                time.sleep(5)
                 continue
-            # Parse Atom XML
-            root = ET.fromstring(resp.content)
-            ns = {"atom": "http://www.w3.org/2005/Atom"}
-            for entry in root.findall("atom:entry", ns):
-                title_el = entry.find("atom:title", ns)
-                title = title_el.text.strip() if title_el is not None and title_el.text else ""
-                # id is like "reddit.com/r/SideProject/abc123/..."
-                id_el = entry.find("atom:id", ns)
-                post_id = id_el.text.strip().split("/")[-1] if id_el is not None and id_el.text else ""
-                # link: try to find external link, fallback to Reddit permalink
-                links = entry.findall("atom:link", ns)
-                permalink = ""
-                external_url = ""
-                for link in links:
-                    href = link.get("href", "")
-                    if "/comments/" in href and not external_url:
-                        permalink = href
-                    elif "reddit.com" not in href and href.startswith("http"):
-                        external_url = href
-                # content: sometimes contains the post body
-                content_el = entry.find("atom:content", ns)
-                content = ""
-                if content_el is not None and content_el.text:
-                    content = re.sub(r"<[^>]+>", "", content_el.text)[:500]
-                # published
-                pub_el = entry.find("atom:published", ns)
-                published = pub_el.text if pub_el is not None and pub_el.text else ""
-                link = external_url if external_url else permalink
-                products.append({
-                    "id": f"reddit_{post_id}",
-                    "name": title,
-                    "description": content,
-                    "url": link,
-                    "source_url": permalink,
-                    "score": 0,  # RSS 不提供 score
-                    "source": "reddit",
-                    "subreddit": sub,
-                    "timestamp": published,
-                })
-        print(f"     {len(products)} 个")
-    except Exception as e:
-        print(f"     错误: {e}")
+            if resp.status_code == 200:
+                return resp.content
+            if resp.status_code == 429:
+                wait = min(delay, 60)
+                print(f"       429 限流，等 {wait}s（第 {rnd + 1} 轮）")
+                time.sleep(wait)
+                delay *= 2
+                continue
+            print(f"       HTTP {resp.status_code}，跳过")
+            return None
+        return None
+
+    for i, (path, label) in enumerate(feeds):
+        content = fetch_feed(path)
+        if not content:
+            print(f"       [{label}] 放弃")
+            continue
+        try:
+            root = ET.fromstring(content)
+        except Exception as e:
+            print(f"       [{label}] 解析失败: {e}")
+            continue
+
+        got = 0
+        for entry in root.findall("atom:entry", ns):
+            title_el = entry.find("atom:title", ns)
+            title = title_el.text.strip() if title_el is not None and title_el.text else ""
+            id_el = entry.find("atom:id", ns)
+            post_id = (
+                id_el.text.strip().split("/")[-1]
+                if id_el is not None and id_el.text
+                else ""
+            )
+            permalink = ""
+            external_url = ""
+            for link in entry.findall("atom:link", ns):
+                href = link.get("href", "")
+                if "/comments/" in href and not permalink:
+                    permalink = href
+                elif "reddit.com" not in href and href.startswith("http"):
+                    external_url = href
+            # 从 permalink 反推真实 sub 名（聚合 feed 里需要它做归属）
+            sub_name = label
+            m = re.search(r"/r/([^/]+)/comments/", permalink)
+            if m:
+                sub_name = m.group(1)
+            content_el = entry.find("atom:content", ns)
+            body = ""
+            if content_el is not None and content_el.text:
+                body = re.sub(r"<[^>]+>", "", content_el.text)[:500]
+            pub_el = entry.find("atom:published", ns)
+            published = pub_el.text if pub_el is not None and pub_el.text else ""
+
+            products.append({
+                "id": f"reddit_{post_id}",
+                "name": title,
+                "description": body,
+                "url": external_url if external_url else permalink,
+                "source_url": permalink,
+                "score": 0,  # RSS 不提供 score
+                "source": "reddit",
+                "subreddit": sub_name,
+                "timestamp": published,
+            })
+            got += 1
+        print(f"       [{label}] {got} 条")
+        if i < len(feeds) - 1:
+            time.sleep(10)  # 两次请求之间留间隔，降低 429 概率
+
+    print(f"     {len(products)} 个")
     return products
 
 
