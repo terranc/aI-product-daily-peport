@@ -20611,7 +20611,7 @@
       ],
       "metrics": {
         "featuredInDaily": 1,
-        "featuredInWeekly": 0,
+        "featuredInWeekly": true,
         "lastFeaturedDate": "2026-08-05"
       },
       "analysis": {
