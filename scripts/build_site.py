@@ -406,6 +406,26 @@ img { display:block; max-width:100%; }
 }
 .blog-post:last-child { border-bottom:none; margin-bottom:0; }
 
+/* ─── 加载更多 ─── */
+.feed-more-wrap {
+  display:flex; flex-direction:column; align-items:center; gap:10px;
+  padding:8px 0 60px;
+}
+.feed-more-wrap[hidden] { display:none; }
+.feed-more-btn {
+  font:inherit; font-size:.9rem; font-weight:600;
+  color:var(--c-text); background:var(--c-surface);
+  border:1px solid var(--c-border); border-radius:8px;
+  padding:11px 34px; cursor:pointer;
+  transition:all .15s var(--ease);
+}
+.feed-more-btn:hover:not(:disabled) {
+  color:var(--c-accent); border-color:var(--c-accent); background:var(--c-accent-l);
+}
+.feed-more-btn:disabled { opacity:.6; cursor:default; }
+.feed-more-status { font-size:.8rem; color:var(--c-text-3); min-height:1em; }
+.feed-more-status.error { color:var(--c-accent); }
+
 .blog-post-header {
   margin-bottom:24px;
   display:flex; align-items:center; gap:14px;
@@ -956,36 +976,32 @@ def render_product_detail_content(prd, depth=0):
 
 # ─── Page: Index (blog style) ─────────────────────────────────────────
 
-def generate_index(reports):
-    recent = reports[:14]
+def render_day_article(report):
+    """把单日报告渲染成首页的一篇文章块（服务端首屏与客户端「加载更多」共用同一结构）。"""
+    date = report.get('date', '')
+    products = report.get('products', [])
 
-    posts_html = ''
-    for report in recent:
-        date = report.get('date', '')
-        products = report.get('products', [])
-        count = len(products)
+    try:
+        dt = datetime.strptime(date, '%Y-%m-%d')
+        weekdays = ['周一', '周二', '周三', '周四', '周五', '周六', '周日']
+        title_date = f"{dt.month}月{dt.day}日"
+        weekday_label = weekdays[dt.weekday()]
+    except Exception:
+        title_date = date
+        weekday_label = ''
 
-        try:
-            dt = datetime.strptime(date, '%Y-%m-%d')
-            weekdays = ['周一', '周二', '周三', '周四', '周五', '周六', '周日']
-            title_date = f"{dt.month}月{dt.day}日"
-            weekday_label = weekdays[dt.weekday()]
-        except Exception:
-            title_date = date
-            weekday_label = ''
+    entries = ''
+    for prd in products:
+        a = prd.get('analysis', {})
+        score = a.get('score', 0)
+        tags = prd.get('tags', [])[:3]
+        tags_h = ''.join(f'<span class="tag">{t}</span>' for t in tags)
 
-        entries = ''
-        for prd in products:
-            a = prd.get('analysis', {})
-            score = a.get('score', 0)
-            tags = prd.get('tags', [])[:3]
-            tags_h = ''.join(f'<span class="tag">{t}</span>' for t in tags)
+        img_url = prd.get('screenshotUrl') or (prd.get('appStoreScreenshots', [''])[0] if prd.get('appStoreScreenshots') else '')
+        thumb = f'<img src="{rel(img_url, 0)}" alt="{prd["name"]}" loading="lazy">' if img_url else '<div class="ph"></div>'
 
-            img_url = prd.get('screenshotUrl') or (prd.get('appStoreScreenshots', [''])[0] if prd.get('appStoreScreenshots') else '')
-            thumb = f'<img src="{rel(img_url, 0)}" alt="{prd["name"]}" loading="lazy">' if img_url else '<div class="ph"></div>'
-
-            link = rel("products/" + prd['slug'].lower() + ".html", 0)
-            entries += f"""
+        link = rel("products/" + prd['slug'].lower() + ".html", 0)
+        entries += f"""
       <a href="{link}" class="product-entry" data-slug="{prd['slug'].lower()}">
         <div class="entry-thumb">{thumb}</div>
         <div class="entry-body">
@@ -998,13 +1014,66 @@ def generate_index(reports):
         </div>
       </a>"""
 
-        posts_html += f"""
+    return f"""
     <article class="blog-post">
       <div class="blog-post-header">
         <h2 class="blog-post-title day-post-title">{title_date}{f' <span class="count">{weekday_label}</span>' if weekday_label else ''}</h2>
       </div>
       {entries}
     </article>"""
+
+
+def generate_daily_feed_json(reports):
+    """生成每日简报的分页数据源，供首页「加载更多」按天分批拉取。
+
+    结构: {"days": [{date, titleDate, weekdayLabel, products:[...]}, ...]}，按日期倒序。
+    只保留首页渲染需要的字段，避免整站体积膨胀。
+    """
+    days = []
+    for report in reports:
+        date = report.get('date', '')
+        try:
+            dt = datetime.strptime(date, '%Y-%m-%d')
+            weekdays = ['周一', '周二', '周三', '周四', '周五', '周六', '周日']
+            title_date = f"{dt.month}月{dt.day}日"
+            weekday_label = weekdays[dt.weekday()]
+        except Exception:
+            title_date = date
+            weekday_label = ''
+
+        products = []
+        for prd in report.get('products', []):
+            img_url = prd.get('screenshotUrl') or (prd.get('appStoreScreenshots', [''])[0] if prd.get('appStoreScreenshots') else '')
+            products.append({
+                'name': prd.get('name', ''),
+                'slug': prd.get('slug', '').lower(),
+                'description': prd.get('description', '')[:150],
+                'score': prd.get('analysis', {}).get('score', 0),
+                'tags': prd.get('tags', [])[:3],
+                'thumb': img_url,
+            })
+
+        days.append({
+            'date': date,
+            'titleDate': title_date,
+            'weekdayLabel': weekday_label,
+            'products': products,
+        })
+
+    out_file = SITE_DIR / "daily-feed.json"
+    with open(out_file, 'w', encoding='utf-8') as f:
+        json.dump({'days': days}, f, ensure_ascii=False)
+
+    print(f"  📰 首页分页数据: {len(days)} 天 → daily-feed.json")
+
+
+def generate_index(reports):
+    # 首屏只渲染最近 10 天，其余由前端「加载更多」按 10 天/批拉取（数据源 daily-feed.json）
+    page_size = 10
+    recent = reports[:page_size]
+    remaining = len(reports) - len(recent)
+
+    posts_html = ''.join(render_day_article(r) for r in recent)
 
     total = sum(len(r.get('products', [])) for r in reports)
 
@@ -1060,8 +1129,12 @@ def generate_index(reports):
           <div class="hero-stat"><strong>{len(reports)}</strong><span>期</span></div>
         </div>
       </div>
-      <div class="blog-feed">
-        {posts_html if posts_html else '<div class="empty"><div class="empty-icon">{icon("inbox")}</div><h2>暂无数据</h2><p>运行每日抓取后将在此显示</p></div>'}
+      <div class="blog-feed" id="daily-feed">
+        {posts_html if posts_html else '<div class="empty"><div class="empty-icon">' + icon("inbox") + '</div><h2>暂无数据</h2><p>运行每日抓取后将在此显示</p></div>'}
+      </div>
+      <div class="feed-more-wrap" id="feed-more-wrap"{'' if remaining > 0 else ' hidden'}>
+        <button type="button" class="feed-more-btn" id="feed-more-btn">加载更多</button>
+        <p class="feed-more-status" id="feed-more-status"></p>
       </div>
     </div>
   </main>
@@ -1084,6 +1157,119 @@ def generate_index(reports):
     <script>
     // 标星功能（共享）
 {STAR_JS}
+
+    // ── 首页「加载更多」：按 10 天/批从 daily-feed.json 拉取 ──
+    (function() {{
+      const PAGE_SIZE = 10;
+      const FEED_ALREADY_RENDERED = {len(recent)};
+      const feedEl = document.getElementById('daily-feed');
+      const wrapEl = document.getElementById('feed-more-wrap');
+      const btnEl = document.getElementById('feed-more-btn');
+      const statusEl = document.getElementById('feed-more-status');
+      if (!feedEl || !btnEl || !wrapEl) return;
+
+      let allDays = null;   // 懒加载，成功后缓存
+      let cursor = FEED_ALREADY_RENDERED;
+      let loading = false;
+
+      function esc(s) {{
+        return String(s == null ? '' : s)
+          .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+          .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+      }}
+
+      function dayArticle(day) {{
+        const entries = (day.products || []).map(function(p) {{
+          const slug = (p.slug || '').toLowerCase();
+          const href = 'products/' + slug + '.html';
+          const tags = (p.tags || []).map(function(t) {{
+            return '<span class="tag">' + esc(t) + '</span>';
+          }}).join('');
+          const thumb = p.thumb
+            ? '<img src="' + esc(p.thumb) + '" alt="' + esc(p.name) + '" loading="lazy">'
+            : '<div class="ph"></div>';
+          return '<a href="' + esc(href) + '" class="product-entry" data-slug="' + esc(slug) + '">'
+            + '<div class="entry-thumb">' + thumb + '</div>'
+            + '<div class="entry-body">'
+            + '<div class="entry-name">' + esc(p.name) + '</div>'
+            + '<p class="entry-desc">' + esc(p.description) + '</p>'
+            + '<div class="entry-meta"><span class="entry-score">' + esc(p.score) + '</span>'
+            + '<div class="entry-tags">' + tags + '</div></div>'
+            + '</div></a>';
+        }}).join('');
+
+        const wd = day.weekdayLabel
+          ? ' <span class="count">' + esc(day.weekdayLabel) + '</span>'
+          : '';
+        return '<article class="blog-post">'
+          + '<div class="blog-post-header">'
+          + '<h2 class="blog-post-title day-post-title">' + esc(day.titleDate) + wd + '</h2>'
+          + '</div>' + entries + '</article>';
+      }}
+
+      async function loadFeed() {{
+        const resp = await fetch(new URL('daily-feed.json', window.location.origin + '/').href);
+        if (!resp.ok) throw new Error('HTTP ' + resp.status);
+        const data = await resp.json();
+        allDays = data.days || [];
+      }}
+
+      function bindModal(cards) {{
+        if (!window.matchMedia('(min-width: 769px)').matches) return;
+        cards.forEach(function(card) {{
+          if (card.dataset.modalBound === '1') return;
+          card.dataset.modalBound = '1';
+          card.addEventListener('click', function(e) {{
+            if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+            e.preventDefault();
+            const name = this.querySelector('.entry-name') ? this.querySelector('.entry-name').textContent : '';
+            openProductModal(this.getAttribute('href'), name);
+          }});
+        }});
+      }}
+
+      async function loadMore() {{
+        if (loading) return;
+        loading = true;
+        btnEl.disabled = true;
+        statusEl.classList.remove('error');
+        statusEl.textContent = '加载中...';
+
+        try {{
+          if (!allDays) await loadFeed();
+
+          const slice = allDays.slice(cursor, cursor + PAGE_SIZE);
+          if (!slice.length) {{
+            wrapEl.hidden = true;
+            statusEl.textContent = '';
+            return;
+          }}
+
+          const frag = document.createElement('div');
+          frag.innerHTML = slice.map(dayArticle).join('');
+          const cards = Array.prototype.slice.call(frag.querySelectorAll('.product-entry'));
+          while (frag.firstChild) feedEl.appendChild(frag.firstChild);
+
+          bindModal(cards);
+          cursor += slice.length;
+
+          if (cursor >= allDays.length) {{
+            wrapEl.hidden = true;
+            statusEl.textContent = '';
+          }} else {{
+            statusEl.textContent = '已显示最近 ' + cursor + ' 天，共 ' + allDays.length + ' 天';
+          }}
+        }} catch (err) {{
+          statusEl.classList.add('error');
+          statusEl.textContent = '加载失败，请稍后重试';
+        }} finally {{
+          loading = false;
+          btnEl.disabled = false;
+        }}
+      }}
+
+      btnEl.addEventListener('click', loadMore);
+    }})();
 
     // Modal 逻辑（所有设备）
     const modal = document.getElementById('product-modal');
@@ -2232,6 +2418,7 @@ def main():
                 existing_slugs.add(prd.get('slug', '').lower())
 
     generate_index(daily_reports)
+    generate_daily_feed_json(daily_reports)
     generate_weekly(weekly_reports)
     generate_weekly_detail_pages(weekly_reports)
     generate_product_pages(all_products)
