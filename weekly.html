@@ -23,8 +23,26 @@
           <div class="hero-stat"><strong>22</strong><span>期</span></div>
         </div>
       </div>
-      <div class="blog-feed">
+      <div class="blog-feed" id="weekly-feed">
         
+    <article class="blog-post">
+      <div class="blog-post-header">
+        <div class="blog-post-date">2026-10-12 周一</div>
+        <h2 class="blog-post-title">本周深度分析 <span class="count">· 1 个产品</span></h2>
+      </div>
+      
+      <a href="weekly/2026-10-12-wispr-flow-notetaker.html" class="product-entry" data-slug="wispr-flow-notetaker">
+        <div class="entry-thumb"><div class="ph"></div></div>
+        <div class="entry-body">
+          <div class="entry-name">Wispr Flow Notetaker</div>
+          <p class="entry-desc">Wispr Notetaker 是 Wispr Flow 推出的 AI 会议记录功能，无需机器人加入通话即可录制 Mac/Windows 上的 Zoom、Google Meet、Teams、Slack Huddles 等所有会议音频，生成逐字稿和摘要。它能根据日历、个人词典、Slack 和 Gmai</p>
+          <div class="entry-meta">
+            <span class="entry-score">9</span>
+            <div class="entry-tags"><span class="tag">AI会议记录</span><span class="tag">语音转文字</span><span class="tag">会议摘要</span></div>
+          </div>
+        </div>
+      </a>
+    </article>
     <article class="blog-post">
       <div class="blog-post-header">
         <div class="blog-post-date">2026-10-05 周一</div>
@@ -187,24 +205,10 @@
         </div>
       </a>
     </article>
-    <article class="blog-post">
-      <div class="blog-post-header">
-        <div class="blog-post-date">2026-08-10 周一</div>
-        <h2 class="blog-post-title">本周深度分析 <span class="count">· 1 个产品</span></h2>
       </div>
-      
-      <a href="weekly/2026-08-10-hand-wave.html" class="product-entry" data-slug="hand-wave">
-        <div class="entry-thumb"><div class="ph"></div></div>
-        <div class="entry-body">
-          <div class="entry-name">Hand Wave</div>
-          <p class="entry-desc">用 Meta 智能眼镜的摄像头实时将手语转换为文字与语音，模型完全在本地设备运行（开源、注重隐私、低延迟），支持 iOS 与网页跨平台使用。目前为持续迭代中的开源项目。</p>
-          <div class="entry-meta">
-            <span class="entry-score">9</span>
-            <div class="entry-tags"><span class="tag">手语翻译</span><span class="tag">智能眼镜</span><span class="tag">无障碍</span></div>
-          </div>
-        </div>
-      </a>
-    </article>
+      <div class="feed-more-wrap" id="feed-more-wrap">
+        <button type="button" class="feed-more-btn" id="feed-more-btn">加载更多</button>
+        <p class="feed-more-status" id="feed-more-status"></p>
       </div>
     </div>
   </main>
@@ -217,5 +221,102 @@
     <p>AI 产品雷达 · 自动化 AI 产品发现与分析</p>
   </div>
 </footer>
+  <script>
+    // ── 周报「加载更多」：按 10 期/批从 weekly-feed.json 拉取 ──
+    (function() {
+      const PAGE_SIZE = 10;
+      const FEED_ALREADY_RENDERED = 10;
+      const feedEl = document.getElementById('weekly-feed');
+      const wrapEl = document.getElementById('feed-more-wrap');
+      const btnEl = document.getElementById('feed-more-btn');
+      const statusEl = document.getElementById('feed-more-status');
+      if (!feedEl || !btnEl || !wrapEl) return;
+
+      let allDays = null;
+      let cursor = FEED_ALREADY_RENDERED;
+      let loading = false;
+
+      function esc(s) {
+        return String(s == null ? '' : s)
+          .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+          .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+      }
+
+      function dayArticle(day) {
+        const entries = (day.products || []).map(function(p) {
+          const slug = (p.slug || '').toLowerCase();
+          const href = 'weekly/' + (day.date || '') + '-' + slug + '.html';
+          const tags = (p.tags || []).map(function(t) {
+            return '<span class="tag">' + esc(t) + '</span>';
+          }).join('');
+          const thumb = p.thumb
+            ? '<img src="' + esc(p.thumb) + '" alt="' + esc(p.name) + '" loading="lazy">'
+            : '<div class="ph"></div>';
+          return '<a href="' + esc(href) + '" class="product-entry" data-slug="' + esc(slug) + '">'
+            + '<div class="entry-thumb">' + thumb + '</div>'
+            + '<div class="entry-body">'
+            + '<div class="entry-name">' + esc(p.name) + '</div>'
+            + '<p class="entry-desc">' + esc(p.description) + '</p>'
+            + '<div class="entry-meta"><span class="entry-score">' + esc(p.score) + '</span>'
+            + '<div class="entry-tags">' + tags + '</div></div>'
+            + '</div></a>';
+        }).join('');
+
+        return '<article class="blog-post">'
+          + '<div class="blog-post-header">'
+          + '<div class="blog-post-date">' + esc(day.dateLabel) + '</div>'
+          + '<h2 class="blog-post-title">本周深度分析 <span class="count">· '
+          + (day.products || []).length + ' 个产品</span></h2>'
+          + '</div>' + entries + '</article>';
+      }
+
+      async function loadFeed() {
+        const resp = await fetch(new URL('weekly-feed.json', window.location.origin + '/').href);
+        if (!resp.ok) throw new Error('HTTP ' + resp.status);
+        const data = await resp.json();
+        allDays = data.days || [];
+      }
+
+      async function loadMore() {
+        if (loading) return;
+        loading = true;
+        btnEl.disabled = true;
+        statusEl.classList.remove('error');
+        statusEl.textContent = '加载中...';
+
+        try {
+          if (!allDays) await loadFeed();
+
+          const slice = allDays.slice(cursor, cursor + PAGE_SIZE);
+          if (!slice.length) {
+            wrapEl.hidden = true;
+            statusEl.textContent = '';
+            return;
+          }
+
+          const frag = document.createElement('div');
+          frag.innerHTML = slice.map(dayArticle).join('');
+          while (frag.firstChild) feedEl.appendChild(frag.firstChild);
+
+          cursor += slice.length;
+
+          if (cursor >= allDays.length) {
+            wrapEl.hidden = true;
+            statusEl.textContent = '';
+          } else {
+            statusEl.textContent = '已显示最近 ' + cursor + ' 期，共 ' + allDays.length + ' 期';
+          }
+        } catch (err) {
+          statusEl.classList.add('error');
+          statusEl.textContent = '加载失败，请稍后重试';
+        } finally {
+          loading = false;
+          btnEl.disabled = false;
+        }
+      }
+
+      btnEl.addEventListener('click', loadMore);
+    })();
+  </script>
 </body>
 </html>
