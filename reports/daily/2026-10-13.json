@@ -1,0 +1,322 @@
+{
+  "date": "2026-10-13",
+  "generatedAt": "2026-10-13T04:19:10.207086+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "producthunt.com/r/p/1246034",
+      "name": "Ayven —— 替团队推进议程的 AI 协调员",
+      "slug": "ayven",
+      "description": "Ayven 是一个活在 Slack 和 Microsoft Teams 里的 AI 协调员：你把目标交给它，它自动把工作拆成带负责人和截止日的工单、分发给 Jira/Asana/Notion 等工具，并在接下来几周里自动追问、催办沉默的人、人不在时移交任务，直到每条都走到 Done；任何工单改动都需本人确认，看板自己往前走。",
+      "url": "https://www.ayven.ai/",
+      "homepage": "https://www.ayven.ai/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1246034_20261013_121457.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 协作",
+        "团队效率",
+        "Slack 机器人",
+        "项目管理",
+        "工作流自动化"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/ayven",
+      "firstSeen": "2026-09-09T11:19:36-07:00",
+      "analysis": {
+        "targetAudience": "需要推进跨人协作、却苦于「没人盯下一步」的团队负责人、创始人与高管",
+        "useCases": [
+          "把模糊目标拆成带负责人与截止日的工单并自动分发",
+          "在 Slack/Teams 里自动追问、催办沉默的人",
+          "与 Jira/Asana/Notion 等已有工具打通、自动更新工单状态",
+          "多周级长程任务跟踪与阶段汇报",
+          "团队只回一句话就让看板往前推进，无需手动维护"
+        ],
+        "designIntent": "团队里「没人明确负责的下一件事」最容易烂尾，而雇专职 chief of staff 成本很高；Ayven 想用 AI 替代这部分协调工作，让看板自己往前走。",
+        "problemSolved": "解决团队协作中的「协调瓶颈」——追问、跟催、跨工具状态同步这些最耗人的活过去依赖人记；Ayven 让它们自动发生，且任何工单改动都需本人确认，避免 AI 乱改。",
+        "tags": [
+          "AI 协作",
+          "团队效率",
+          "Slack 机器人",
+          "项目管理",
+          "工作流自动化"
+        ],
+        "score": 8,
+        "scoreReason": "切中「执行协调」这一真实高频痛点，产品形态（审批门控+长期自治）比单纯聊天机器人更进一步；已接入主流协作栈且有 SOC2，成熟度较高。偏 B 端、需团队场景，对单人用户价值有限。",
+        "competitors": [
+          {
+            "name": "Motion",
+            "url": "https://www.usemotion.com/",
+            "comparison": "自动排程与任务管理，但偏单人时间编排，不做跨人主动追问"
+          },
+          {
+            "name": "Reclaim.ai",
+            "url": "https://reclaim.ai/",
+            "comparison": "日历/任务自动调度，同样偏个人时间块，不接管团队工单"
+          },
+          {
+            "name": "Asana",
+            "url": "https://asana.com/",
+            "comparison": "工单与协作平台本体，是被 Ayven 接入的对象，部分承担协调职能但需人推动"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1273394",
+      "name": "Invited —— 拍一下就记住的 AI 提醒扫描器",
+      "slug": "invited",
+      "description": "Invited 是一款手机 App：拍下或上传账单、支票、保险单、订阅截图、婚礼请柬等任何带日期的文档，AI 自动提取全部日期与事件并生成提醒；一张多事件请柬可一次生成多个提醒，支持 80+ 语言与多种历法，到期前按偏好推送，且无需账号、提醒本地存储、隐私优先。",
+      "url": "https://invited.kraftostech.com/",
+      "homepage": "https://invited.kraftostech.com/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1273394_20261013_121507.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 提醒",
+        "生活助手",
+        "OCR",
+        "隐私优先",
+        "效率工具"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/invited-ai-reminder-scanner",
+      "firstSeen": "2026-10-07T22:56:58-07:00",
+      "analysis": {
+        "targetAudience": "常被账单、请柬、票据、证件到期日搞晕的普通手机用户",
+        "useCases": [
+          "拍下/上传账单、支票、保险单、订阅截图，AI 提取所有日期",
+          "婚礼请柬等多事件卡片一次生成多个提醒",
+          "在到期前 1 小时~2 天按偏好推送",
+          "支持 80+ 语言与多种历法系统",
+          "本地存储、无需账号，保护隐私"
+        ],
+        "designIntent": "很多人因为「没看到那个日期」而吃罚单、漏缴费、错过行程；作者想用「拍一张就生成提醒」把这件事的摩擦降到零。",
+        "problemSolved": "解决文档/卡片上的关键日期散落各处、靠人脑记容易漏的问题；把照片、PDF、截图里的到期日与事件自动变成提醒，且一次可抓多个日期。",
+        "tags": [
+          "AI 提醒",
+          "生活助手",
+          "OCR",
+          "隐私优先",
+          "效率工具"
+        ],
+        "score": 8,
+        "scoreReason": "场景极其普适（谁都有账单和请柬），「无账号+本地存储+多语言」组合差异化明显、落地门槛低。限制是功能相对单薄、强依赖手机端 OCR 体验。",
+        "competitors": [
+          {
+            "name": "Google Calendar",
+            "url": "https://calendar.google.com/",
+            "comparison": "通用日历，但需手动建事件，不会自动读取文档中的日期"
+          },
+          {
+            "name": "Billa",
+            "url": "https://getbilla.app/",
+            "comparison": "同赛道账单/订阅追踪 App，但未必覆盖请柬等多事件场景"
+          },
+          {
+            "name": "Apple 提醒事项",
+            "url": "https://www.apple.com/cn/ios/reminders/",
+            "comparison": "系统级提醒，缺乏「扫文档抓所有日期」的专用 AI 能力"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1275171",
+      "name": "FloorGen —— 描述一句就出图的免费 AI 户型设计工具",
+      "slug": "floorgen",
+      "description": "FloorGen 是一款浏览器里的 AI 户型设计 SaaS：你可以手绘或用自然语言描述需求，AI 直接生成可编辑的 2D 平面并实时标注尺寸（英制到 1/16 英寸、公制到 1mm）；还能按 IRC 等多国建筑规范自动检查并「用 AI 修复」，生成带家具的 3D 漫游，并导出 PDF/DXF/SVG/glTF 给施工方，目前完全免费、免安装。",
+      "url": "https://floorgen.app",
+      "homepage": "https://floorgen.app",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1275171_20261013_121828.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 设计",
+        "户型图",
+        "装修",
+        "建筑工具",
+        "免费 SaaS"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/floorgen",
+      "firstSeen": "2026-10-09T11:19:20-07:00",
+      "analysis": {
+        "targetAudience": "想自建房/装修/加建 ADU、又不想学专业 CAD 的房主与室内设计爱好者",
+        "useCases": [
+          "在浏览器里手绘或文字描述生成可编辑户型",
+          "实时标注尺寸（英制到 1/16 英寸、公制到 1mm）",
+          "按 IRC 等多国规范自动检查并「用 AI 修复」问题",
+          "3D 带家具漫游与昼夜预览",
+          "导出 PDF/DXF/SVG/glTF 给施工方"
+        ],
+        "designIntent": "户型工具要么「糙但简单」要么「准但慢」，作者想两者都要，并让人「直接说话」就能出图，用免费降低门槛。",
+        "problemSolved": "解决普通人做户型图的高门槛——不必装软件、不必懂 CAD，描述需求或简单拖拽即可拿到可施工、合规、能 3D 走查的平面图。",
+        "tags": [
+          "AI 设计",
+          "户型图",
+          "装修",
+          "建筑工具",
+          "免费 SaaS"
+        ],
+        "score": 8,
+        "scoreReason": "「免费+免安装+浏览器+AI 出图+规范检查」组合对房主非常友好，MCP 接入 Claude/ChatGPT 也加分。本质是专业设计工具平民化；不可替代正式 BIM/报批，定位清晰。",
+        "competitors": [
+          {
+            "name": "RoomSketcher",
+            "url": "https://www.roomsketcher.com/",
+            "comparison": "在线户型与 3D，但需付费且偏模板，无 AI 自然语言生成"
+          },
+          {
+            "name": "SketchUp",
+            "url": "https://www.sketchup.com/",
+            "comparison": "专业 3D 建模，门槛高、非免安装轻量工具"
+          },
+          {
+            "name": "Sweet Home 3D",
+            "url": "https://www.sweethome3d.com/",
+            "comparison": "免费室内设计，但靠手拖、无 AI 生成与规范检查"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1268121",
+      "name": "Pickle Sensei —— 手机支架一摆就开练的 AI 匹克球私教",
+      "slug": "pickle-sensei",
+      "description": "Pickle Sensei 是一款 iPhone App：把手机侧架在球场、挥一拍，设备端姿态识别自动捕捉并给出技术评分与「下一步改哪一点」；支持发球、截击、丁克、高压等 8 类击球，逐帧慢放骨架叠加讲解，含青铜到钻石段位进度与 40+ 引导训练；视频全部本地处理、不上云，无账号即可试两轮。",
+      "url": "https://www.thepicklesensei.com/",
+      "homepage": "https://www.thepicklesensei.com/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1268121_20261013_121545.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 运动",
+        "体育训练",
+        "姿态识别",
+        "本地优先",
+        "健康生活"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/pickle-sensei-dink-coach",
+      "firstSeen": "2026-10-02T18:00:11-07:00",
+      "analysis": {
+        "targetAudience": "每周打球但没正式教练、动作卡瓶颈的休闲匹克球玩家",
+        "useCases": [
+          "架好手机侧拍，挥一拍自动识别并评分",
+          "逐帧慢放骨架叠加讲解「下一步改哪」",
+          "覆盖发球/截击/丁克/高压等 8 类击球",
+          "青铜到钻石的段位进度与 40+ 引导训练",
+          "视频全部本地处理、不上云，无账号可试"
+        ],
+        "designIntent": "业余玩家想提升却请不起教练、也不愿把出汗的录像传别人云；作者用「设备端姿态识别+一次只给一个明确改进点」降低门槛、保隐私。",
+        "problemSolved": "解决「独自练习无人诊断动作」的痛点，把手机变成可给出诚实、逐项技术评分的私人击球分析师，并且不上传视频。",
+        "tags": [
+          "AI 运动",
+          "体育训练",
+          "姿态识别",
+          "本地优先",
+          "健康生活"
+        ],
+        "score": 7,
+        "scoreReason": "垂直但精准切入匹克球热潮，「设备端+无账号试用+诚实评分」叙事清晰；缺点是小众运动、单一侧视有盲点（作者已坦承），天花板有限。",
+        "competitors": [
+          {
+            "name": "SwingVision",
+            "url": "https://swingvision.com/",
+            "comparison": "网球 AI 视频分析，技术路线高度相似，但运动品类不同"
+          },
+          {
+            "name": "HomeCourt",
+            "url": "https://homecourt.ai/",
+            "comparison": "篮球 AI 训练，同类「手机即教练」但不同运动"
+          },
+          {
+            "name": "Onyx",
+            "url": "https://www.onyx.fit/",
+            "comparison": "AI 健身/训练指导，覆盖更广但缺专项击球诊断"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1270101",
+      "name": "Foley —— 张嘴就说、自动归档排期的语音待办清单",
+      "slug": "foley",
+      "description": "Foley 是一款跨平台（iPhone/Android/Mac/Windows/Web/手表）语音待办 App：你说出待办，它自动填好项目、日期与提醒；不确定时反问而不是瞎猜，计划变动口述一句即可改期；还能「规划我的一天/先做哪件」从列表智能排序。桌面端免费、可自带 OpenRouter key，Pro 版由官方跑 AI 并多端同步。",
+      "url": "https://foleyapp.com/",
+      "homepage": "https://foleyapp.com/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1270101_20261013_121553.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 语音",
+        "待办清单",
+        "效率",
+        "跨平台",
+        "智能排程"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/foley",
+      "firstSeen": "2026-10-04T23:48:55-07:00",
+      "analysis": {
+        "targetAudience": "边走边想、常在开车/遛狗/开会时冒出任务、却总忘记录的忙人",
+        "useCases": [
+          "语音说出待办，Foley 自动填好项目、日期、提醒",
+          "不确定时反问而不是瞎猜",
+          "计划变动口述一句即改期",
+          "「规划我的一天/先做哪件」从列表智能排序",
+          "Apple Watch/Wear OS 随手捕获，多端同步"
+        ],
+        "designIntent": "作者总丢「说出口却没记」的任务，想要一个「你说它归档」的待办；强调用自然语言理解时间、不确定就问、改动需本人确认。",
+        "problemSolved": "解决语音待办「记下来容易、归类排期难」的摩擦，把碎片化的口述意图自动变成带项目/日期/提醒的结构化任务，并支持对话式改期与日程规划。",
+        "tags": [
+          "AI 语音",
+          "待办清单",
+          "效率",
+          "跨平台",
+          "智能排程"
+        ],
+        "score": 8,
+        "scoreReason": "「语音优先+不确定反问+对话式改期」比传统打字型待办更顺手，免费桌面端+自带 OpenRouter key 的灵活模式降低门槛；依赖语音识别质量与第三方 API 是主要不确定点。",
+        "competitors": [
+          {
+            "name": "Todoist",
+            "url": "https://todoist.com/",
+            "comparison": "老牌任务管理，偏手动输入、无原生语音解析与反问"
+          },
+          {
+            "name": "TickTick",
+            "url": "https://ticktick.com/",
+            "comparison": "支持语音录入但 AI 拆解/反问弱，仍偏手动整理"
+          },
+          {
+            "name": "Superhuman",
+            "url": "https://superhuman.com/",
+            "comparison": "AI 邮件/任务，但非通用语音待办、定位更高端"
+          }
+        ]
+      }
+    }
+  ]
+}

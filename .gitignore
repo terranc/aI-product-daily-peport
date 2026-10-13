@@ -27,3 +27,4 @@ scripts/_list*
 scripts/_analyze*
 scripts/_tmp*
 scripts/_scratch*
+scripts/_selected_products.json
