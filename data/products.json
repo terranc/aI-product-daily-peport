@@ -42274,7 +42274,322 @@
         "featuredInWeekly": 0,
         "lastFeaturedDate": "2026-10-14"
       }
+    },
+    {
+      "id": "producthunt.com/r/p/1278289",
+      "name": "Winq —— 用眼神和眨眼操控 Mac",
+      "slug": "winq-gaze-wink-mac-control",
+      "description": "把 Mac 内置摄像头变成免手操作的输入设备：注视某个窗口它就成为活动窗口，左眼眨一下等于左键、右眼眨一下等于右键，还能把挑眉、点头等 11 种面部手势绑定到快捷键。全部面部追踪在本地 Vision 框架完成，画面不出机器，菜单栏常驻、刘海处有小岛指示器确认识别到了什么。",
+      "url": "https://winq.kroking.dev/",
+      "homepage": "https://winq.kroking.dev/",
+      "type": "app",
+      "tags": [
+        "无障碍辅助",
+        "面部手势",
+        "macOS 工具",
+        "本地推理",
+        "免手操作"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/winq",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1278289_20261015_121316.png",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "appStoreScreenshots": [],
+      "analysis": {
+        "targetAudience": "长时间在多窗口间切换的 Mac 重度用户，以及上肢不便、无法顺畅使用鼠标键盘的人群。",
+        "useCases": [
+          "写代码/做表时靠注视切换窗口，手不离键盘",
+          "浏览长网页时眨眼上下滚动，缓解手腕腱鞘炎",
+          "为行动不便的家人配置眉挑、嘴角动作触发常用操作",
+          "把面部手势映射到 AppleScript / shell 命令，做个人化快捷入口",
+          "开会投屏时不碰鼠标直接切到目标窗口"
+        ],
+        "designIntent": "制作者 Mahmoud 每天在大量窗口之间切换，大量时间浪费在「把手移到鼠标上」这个动作。他想：Mac 盖子上本来就有一颗摄像头，能不能让它替我做掉这件事。于是做成一个纯本地、菜单栏常驻的小工具，并把每一个识别结果都显示在刘海里，让你知道摄像头读到了什么。",
+        "problemSolved": "解决了「频繁切换窗口/点击」这一高频低价值的手部动作，对必须多窗口并行的开发者与办公者尤其明显；同时也为无法稳定使用鼠标的用户提供了一条低成本的免手输入路径——不需要额外购买眼动仪之类的硬件，用现成摄像头即可。",
+        "score": 8,
+        "scoreReason": "技术路线清晰且是真正面向普通用户的消费级应用（不是 SDK/框架），纯本地推理的隐私设计消除了摄像头产品最大的顾虑，「刘海小岛」的回执设计也解决了此类交互「不知道自己被识别成什么」的体验软肋。扣分点在于目前仅支持 macOS 单平台、产品非常早期，长时间佩戴眼镜/眯眼人群的误触率仍需实测验证。",
+        "competitors": [
+          {
+            "name": "Hawkeye Access",
+            "url": "https://www.hawkeyeaccess.com/",
+            "comparison": "iOS 上的眼动浏览方案，同样用原深感摄像头做眼动控制，但局限在浏览器内、且依赖 TrueDepth 硬件，不像 Winq 在 macOS 全局生效。"
+          },
+          {
+            "name": "Talon Voice",
+            "url": "https://talonvoice.com/",
+            "comparison": "面向重度无障碍用户的语音+眼动控制套件，功能更强但学习曲线陡峭、配置复杂；Winq 走的是「零配置、看和眨就行」的轻量路线。"
+          },
+          {
+            "name": "macOS 原生指针/快捷键",
+            "url": "https://support.apple.com/zh-cn/guide/mac-help/mchlp1236/mac",
+            "comparison": "⌘Tab 等系统级快捷键免费且稳定，但只能是粗粒度的应用间切换，无法做到指哪打哪的注视聚焦与逐窗口点击。"
+          }
+        ]
+      },
+      "firstSeen": "2026-10-15T04:16:43.733199+00:00",
+      "lastUpdated": "2026-10-15T04:16:43.733199+00:00",
+      "cooldownExpiresAt": "2026-10-29T04:16:43.733199+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-10-15"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1270975",
+      "name": "Spinachi AI —— WhatsApp 上的家庭健康档案管家",
+      "slug": "spinachi-ai-whatsapp-health-manager",
+      "description": "把体检报告、化验单、处方直接转发到 WhatsApp，Spinachi 会自动解析其中的数值、按时间排好序、归一化不同医院的指标口径，画出长期趋势，并在该复查时提醒你。无需下载 App，家人共用一个对话即可管全家健康档案，明确声明不做诊断。",
+      "url": "https://spinachi.in/",
+      "homepage": "https://spinachi.in/",
+      "type": "saas",
+      "tags": [
+        "健康管理",
+        "WhatsApp",
+        "家庭场景",
+        "报告解析",
+        "隐私合规"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/spinachi-ai",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1270975_20261015_121323.png",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "appStoreScreenshots": [],
+      "analysis": {
+        "targetAudience": "需要长期管理自己或父母慢病指标、又不愿意装一堆医院 App 的普通家庭用户，尤其是有老人需要定期复查的家庭。",
+        "useCases": [
+          "把体检验血报告拍照/转发进去，自动记录血脂血糖等指标",
+          "替父母保管多年的化验单，复查到期时收到提醒",
+          "把不同医院口径不一的指标对齐比较，看趋势是变好还是变差",
+          "复诊前一次性调出历史报告给医生看",
+          "全家人共用一个对话管理各自的记录"
+        ],
+        "designIntent": "制作者 Chinmay 摔伤肩膀后，康复过程变成了一堆扫描件、处方和化验单；同时他还在替父母整理健康资料。文件名混乱、散落在各个医院小程序里，「什么时候该复查」全靠脑子记。他索性做成一个「医疗记录版 Google Drive，但入口是 WhatsApp」——不装 App、不注册新账号，降低全家使用的门槛。",
+        "problemSolved": "解决了家庭医疗记录碎片化、跨医院口径不一、复查时间靠人记这三大痛点。把入口放在 WhatsApp 上意味着老人不需要学习新界面，直接绕过了「专门的健康 App 装完就废弃」的行业通病。",
+        "score": 8,
+        "scoreReason": "切中了真实且普遍的家庭健康管理痛点，用最省事的分发方式（WhatsApp 对话）解决「老人不会用 App」的顽疾，同时对医疗数据给出了明确边界——不做诊断、数据留在印度本地、不用病历训练模型，合规意识明显强于同类。扣分点是强依赖 WhatsApp 生态，对不使用 WhatsApp 的地区（如中国大陆）几乎不可用。",
+        "competitors": [
+          {
+            "name": "Apple 健康 App",
+            "url": "https://www.apple.com/cn/ios/health/",
+            "comparison": "系统级免费方案，能汇总部分指标并做趋势图，但医院化验单需要手动录入、无法解析 PDF/图片，也不支持家人共享病历。"
+          },
+          {
+            "name": "MyChart / 医院官方小程序",
+            "url": "https://www.mychart.org/",
+            "comparison": "数据来自医院本身最权威，但每家医院一个入口、无法横向对比，且绝不提醒复查，碎片化的根源正是它们。"
+          },
+          {
+            "name": "Ada Health",
+            "url": "https://ada.com/",
+            "comparison": "走的是 AI 症状问诊/健康评估路线，会给出可能的疾病方向；Spinachi 刻意不碰诊断，只做记录与提醒，定位更保守也更安全。"
+          }
+        ]
+      },
+      "firstSeen": "2026-10-15T04:16:43.733199+00:00",
+      "lastUpdated": "2026-10-15T04:16:43.733199+00:00",
+      "cooldownExpiresAt": "2026-10-29T04:16:43.733199+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-10-15"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1277094",
+      "name": "Mira Tours —— 走到哪儿讲到哪儿的 AI 语音导游",
+      "slug": "mira-tours-ai-walking-guide",
+      "description": "一款把「边走边听讲解」自动化的音频导游 App：告诉你当前位置周围有什么故事，边走边讲；你也可以说一句想逛什么，它当场规划出步行路线并按到达顺序逐个讲解；锁屏揣兜里也能听。支持跟着别人的路线同游，也能在浏览器里用街景先逛一遍再决定去不去。",
+      "url": "https://www.mira.tours/",
+      "homepage": "https://www.mira.tours/",
+      "type": "app",
+      "tags": [
+        "旅行",
+        "语音导览",
+        "位置感知",
+        "城市漫步",
+        "AI 生成内容"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=50045340",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1277094_20261015_121330.png",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "appStoreScreenshots": [],
+      "analysis": {
+        "targetAudience": "喜欢自由行、城市漫步和深度游，但不想被导游团和固定行程绑住的旅行者，以及想在家「云逛城市」的人。",
+        "useCases": [
+          "到一个陌生城市临时有几个小时空闲，随手打开就有得逛有得听",
+          "按自己的偏好（历史/建筑/美食）对话式生成一条专属步行路线",
+          "把要和同伴一起走的路线分享出去，所有人同步听到同一段讲解",
+          "边走边追问「刚路过的那栋楼是什么」，当场给出答案并继续生成讲解",
+          "出行前用浏览器街景模式先试听，判断这座城市的路线值不值得走"
+        ],
+        "designIntent": "制作者喜欢在陌生城市找本地人带逛，但上次在维也纳有几小时空档却约不到向导，只能靠 Google 地图加 ChatGPT 语音硬凑，体验居然不错。于是他把这个临时拼凑的流程产品化——用 AI 让「一个懂当地的人在旁边讲给你听」变成随时随地可得。",
+        "problemSolved": "解决了传统语音导览「需要提前买设备、内容固定、只能覆盖热门景点」和旅行团「时间被绑定、不能自己走」之间的矛盾。它把导览从「预先录制的音频包」变成「按你的位置和兴趣现场生成的内容」，长尾街区也能讲得出东西。",
+        "score": 8,
+        "scoreReason": "把 AI 用在了旅行中最自然的场景——边走边听，交互几乎零学习成本（锁屏就能听），「对话式规划路线 + 到达即讲解」的闭环设计完整，还照顾了「先在家云逛」的决策需求。按分钟买听时、不做订阅的定价也很讨喜。扣分点是 AI 生成讲解的史实准确性无人工校对，深度景点爱好者可能挑剔。",
+        "competitors": [
+          {
+            "name": "VoiceMap",
+            "url": "https://voicemap.me/",
+            "comparison": "成熟的音频步行导览平台，内容由专业作者录制、质量高，但是预先做好的固定路线，无法按你的实时位置和兴趣现场生成。"
+          },
+          {
+            "name": "GPSmyCity",
+            "url": "https://www.gpsmycity.com/",
+            "comparison": "覆盖城市极广的自助步行路线库，本质是离线地图+图文攻略，讲解是文字而非对话式音频，也不能边走边追问。"
+          },
+          {
+            "name": "ChatGPT 语音模式",
+            "url": "https://chatgpt.com/",
+            "comparison": "同样能「告诉我在哪、有什么可看」，但需要你主动提问、要一直举着手机看屏幕，没有位置感知、路线规划与到达触发的讲解节奏。"
+          }
+        ]
+      },
+      "firstSeen": "2026-10-15T04:16:43.733199+00:00",
+      "lastUpdated": "2026-10-15T04:16:43.733199+00:00",
+      "cooldownExpiresAt": "2026-10-29T04:16:43.733199+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-10-15"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1272193",
+      "name": "FamRelay —— 让不同 AI 助手之间互通家庭信息",
+      "slug": "famrelay-share-context-across-assistants",
+      "description": "一个中立的转发层，让家人之间各自用的 AI 助手能共享被批准的具体事实：「告诉家里人水管工周二 8 点到 10 点来」，对方助手就会收到。每条信息都需要你逐条确认后才发出，可设置有效期、可随时撤回，也能只在自己拥有的多个助手之间（Claude、ChatGPT、车内 Grok）同步。",
+      "url": "https://www.famrelay.ai/",
+      "homepage": "https://www.famrelay.ai/",
+      "type": "saas",
+      "tags": [
+        "AI 助手协作",
+        "家庭场景",
+        "MCP",
+        "隐私授权",
+        "信息同步"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/famrelay",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1272193_20261015_121337.png",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "appStoreScreenshots": [],
+      "analysis": {
+        "targetAudience": "家里人各自在用不同 AI 助手、被「同一件事要分别告诉每个人和每个助手」烦到的家庭用户；以及同时用多个助手（工作用 Claude、家里用 ChatGPT）的个人。",
+        "useCases": [
+          "把学校活动的传单丢给自己的助手，让它只把时间和地点转达给配偶的助手",
+          "安排家政/维修上门，把时段同步到家人助手里变成提醒",
+          "自己手机上的助手记下的要点，同步给电脑端另一个助手",
+          "给孩子发一条带有效期的通知，活动结束后自动失效",
+          "对公司/工作室小团队共享项目时间点与待办"
+        ],
+        "designIntent": "制作者的家里一直在撞同一堵墙：我的助手知道洗礼仪式的事，我太太的助手什么都不知道，最后群聊又变成「你能再发一遍传单吗」。他想验证一个想法——AI 助手应该像人一样有分寸地共享事实：一次一件事、经过同意，而不是要么完全失忆、要么把全部记忆合并。",
+        "problemSolved": "解决了 AI 助手各自为政造成的信息孤岛，尤其是家庭场景下「两个助手互不知情、只能由人来回传话」的尴尬。它明确拒绝了两种极端方案（全量记忆合并、完全隔离），用逐条授权加过期机制在便利与隐私之间取了中间值。",
+        "score": 7,
+        "scoreReason": "提出了一个正在浮现的真问题——多助手时代的上下文割裂，并且用逐条同意、可撤回、有有效期的方式给出了相当克制的方案，还基于开放的 MCP 协议而不绑定厂商。扣分点在于使用门槛不低：需要家中每个人都用支持自定义连接器的助手（目前主要是桌面客户端），对普通家庭而言这个前提短期很难满足，更偏向尝鲜者。",
+        "competitors": [
+          {
+            "name": "家庭群聊 + 手动转达",
+            "url": "https://www.whatsapp.com/",
+            "comparison": "零成本、所有人都已经会用，但信息是广播式的全文转发，对方助手无法结构化利用，也无法自动变成提醒或日程。"
+          },
+          {
+            "name": "ChatGPT 记忆 / Claude 项目",
+            "url": "https://openai.com/index/memory-and-new-controls-for-chatgpt/",
+            "comparison": "同一账号内跨会话记得住，但记忆锁死在单一厂商生态里，无法跨到配偶或同事用的另一个助手上。"
+          },
+          {
+            "name": "Notion / 共享文档",
+            "url": "https://www.notion.com/",
+            "comparison": "可以作为家庭共享事实库，但需要人主动去写和主动去查，AI 助手不会自动据此规划与提醒，也缺少逐条授权与过期机制。"
+          }
+        ]
+      },
+      "firstSeen": "2026-10-15T04:16:43.733199+00:00",
+      "lastUpdated": "2026-10-15T04:16:43.733199+00:00",
+      "cooldownExpiresAt": "2026-10-29T04:16:43.733199+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-10-15"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1275575",
+      "name": "T-Scriptor —— 帮大学生记课堂笔记的 Mac 应用",
+      "slug": "t-scriptor-lecture-notes",
+      "description": "坐在课堂上专心听就好，T-Scriptor 在你的 Mac 上本地完成课堂录音转写（音频不出机器），下课后自动写成笔记：核心概念、截止日期，以及教授随口提到的那篇论文——哪怕只听到「2017 年那篇 Vaswani」，它也能找出《Attention Is All You Need》。期末前还能把整门课串成一份复习资料加测验。",
+      "url": "https://t-scriptor.app/",
+      "homepage": "https://t-scriptor.app/",
+      "type": "app",
+      "tags": [
+        "学生工具",
+        "本地转写",
+        "课堂笔记",
+        "考试复习",
+        "隐私优先"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/t-scriptor",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1275575_20261015_121345.png",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "appStoreScreenshots": [],
+      "analysis": {
+        "targetAudience": "需要边听边记、经常漏掉教授口头提到的文献与作业要求的大学生和研究生。",
+        "useCases": [
+          "课堂上只负责听，下课后拿到结构化笔记",
+          "自动补全教授口中「那篇 2017 年的论文」的完整标题与出处",
+          "把作业和 DDL 从讲课内容里抽出来，避免漏交",
+          "期末把整门课的所有笔记汇总成主题串讲与自测题",
+          "听课录音敏感，要求音频全程留在本机不上传"
+        ],
+        "designIntent": "制作者 Bhuvanesh 自己是研究生，一边听讲一边记笔记顾此失彼，还总错过教授顺口提到的参考文献。他要的不是又一个通用转写工具，而是一个「替我上这节课」的角色：坐在旁边记录，课后把笔记写好，考前把一门课重新拼起来。",
+        "problemSolved": "解决了课堂场景下「专心听」与「完整记」无法兼得的矛盾，以及文献与 DDL 全靠人耳捕捉、极易遗漏的问题。本地转写的选择也回应了高校里日益敏感的录音隐私与合规顾虑。",
+        "score": 7,
+        "scoreReason": "场景聚焦得很准（课堂而非通用会议），「从口述里认出那篇论文」这种细节能力是同类通用转写工具做不到的，本地转写加明确提示「请只在允许录音的课堂使用」体现了责任感。扣分点在于 Mac 端为主、手机仍在 Beta，学生中 Mac 占比有限会限制传播，且转写目前仅覆盖 25 种语言。",
+        "competitors": [
+          {
+            "name": "Otter.ai",
+            "url": "https://otter.ai/",
+            "comparison": "最主流的会议/课堂转写工具，功能成熟生态广，但基于云端处理，隐私敏感的学生与学校政策上可能过不去，也不专门面向课程做学期级汇总。"
+          },
+          {
+            "name": "Granola",
+            "url": "https://www.granola.ai/",
+            "comparison": "面向职场会议的 AI 笔记助手，摘要质量高，但设计目标是会议与商务语境，缺少课程串联、DDL 抽取与文献识别这类学术向能力。"
+          },
+          {
+            "name": "Apple 备忘录 + 系统听写",
+            "url": "https://www.apple.com/cn/mac/",
+            "comparison": "完全免费且同样本地，但只能得到一份未经整理的逐字稿，没有概念提炼、截止日期归纳和考前汇总。"
+          }
+        ]
+      },
+      "firstSeen": "2026-10-15T04:16:43.733199+00:00",
+      "lastUpdated": "2026-10-15T04:16:43.733199+00:00",
+      "cooldownExpiresAt": "2026-10-29T04:16:43.733199+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-10-15"
+      }
     }
   ],
-  "lastUpdated": "2026-10-14T04:15:53.940175+00:00"
+  "lastUpdated": "2026-10-15T04:16:43.733199+00:00"
 }
