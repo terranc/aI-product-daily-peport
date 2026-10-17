@@ -1,0 +1,322 @@
+{
+  "date": "2026-10-17",
+  "generatedAt": "2026-10-17T04:08:12.684754+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "producthunt.com/r/p/1280754",
+      "name": "Mermaid",
+      "slug": "mermaid",
+      "description": "用 iPhone 给家里的 Mac 发一条消息，它就会替你动手：打开应用、找到文件、写好邮件，全程你能在手机上看着它执行。它不是聊天机器人，也不是远程桌面，而是让 AI 直接操作你 Mac 上的真实应用。",
+      "url": "https://addmermaid.com",
+      "homepage": "https://addmermaid.com",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1280754_20261017_123245.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "远程控制",
+        "Mac 自动化",
+        "自然语言指令",
+        "跨设备",
+        "效率工具"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/mermaid",
+      "firstSeen": "2026-10-17T04:08:12.684754+00:00",
+      "analysis": {
+        "targetAudience": "经常出门在外、却总要惦记家里电脑上那点事的知识工作者与自由职业者。",
+        "useCases": [
+          "在通勤路上让 Mac 找到某份合同 PDF 并邮件发给同事",
+          "开会前远程让 Mac 打开某个应用、截图或准备演示材料",
+          "出差时把一份没写完的文档续写并保存",
+          "躺在床上用手机指挥 Mac 整理文件夹、写便签",
+          "对敏感操作（发消息、删文件、付款）先确认再执行"
+        ],
+        "designIntent": "开发者发现「等我回去用 Mac 再弄」是日常最普遍的拖延借口，而现有的远程桌面在小屏幕上操作效率极低。于是把交互倒过来：不用你去操作 Mac，直接把意图用一句话发过去，AI 自己去点那些应用。",
+        "problemSolved": "解决了「人离开了电脑但事情还锁在电脑里」的处境。传统远程控制需要你手动点小屏幕，Mermaid 让 AI 理解自然语言并直接操作原生应用，同时通过执行前审批与实时画面保留了人的控制权。",
+        "tags": [
+          "远程控制",
+          "Mac 自动化",
+          "自然语言指令",
+          "跨设备",
+          "效率工具"
+        ],
+        "score": 8,
+        "scoreReason": "切入的场景非常具体（离家后的 Mac 待办），用「发短信给电脑」替代远程桌面是很聪明的交互创新，且保留了敏感操作审批与实时观看的双保险。扣分在于仅支持苹果生态、beta 阶段免费但长期定价不明。",
+        "competitors": [
+          {
+            "name": "AnyDesk",
+            "url": "https://anydesk.com",
+            "comparison": "提供完整的图形化远程桌面，但需要你亲手在小屏幕上操作；Mermaid 让 AI 代劳，人只需看结果。"
+          },
+          {
+            "name": "Keyboard Maestro",
+            "url": "https://www.keyboardmaestro.com",
+            "comparison": "Mac 端自动化能力极强，但必须提前在本机配置好宏；Mermaid 支持一次性的自然语言即兴指令。"
+          },
+          {
+            "name": "Apple 快捷指令",
+            "url": "https://www.apple.com/shortcuts/",
+            "comparison": "系统原生、免安装，但依赖预先编排好的流程，无法处理临时冒出来的模糊需求。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1281075",
+      "name": "DOYT 灵动岛待办",
+      "slug": "doyt",
+      "description": "把当前任务钉在 iPhone 的灵动岛和锁屏上，边回消息、刷视频、看剧都不影响它一直在眼前。长按灵动岛就能完成上一件事、跳到下一件，完全不用打开 App。",
+      "url": "https://apps.apple.com/app/id6804515023",
+      "homepage": "https://apps.apple.com/app/id6804515023",
+      "type": "app",
+      "appStoreName": "DOYT",
+      "appStoreUrl": "https://apps.apple.com/app/id6804515023",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1281075_20261017_123257.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "待办清单",
+        "灵动岛",
+        "专注计时",
+        "iOS",
+        "无账号"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/doyt",
+      "firstSeen": "2026-10-17T04:08:12.684754+00:00",
+      "analysis": {
+        "targetAudience": "记性差、写下待办就忘、又懒得反复开 App 查看的 iPhone 用户。",
+        "useCases": [
+          "工作时段把当前任务常驻灵动岛，减少分心切换",
+          "长按灵动岛直接勾选完成、自动切到下一项",
+          "用 30 分钟到 8 小时的专注计时约束自己",
+          "通过历史日历回看近期完成了哪些事",
+          "用 Siri 或快捷指令在出门前快速开始一个任务"
+        ],
+        "designIntent": "开发者的亲身痛点是「待办一旦关掉 App 就等于不存在」。他判断问题不在待办工具本身，而在任务随着界面一同消失，于是把任务从 App 里搬到系统最显眼的灵动岛与锁屏上。",
+        "problemSolved": "解决了待办清单「看得见才记得住」的根本问题，把查看成本从「解锁—找 App—打开—勾选」压缩成长按一下。同时用无账号、纯本地存储回应了隐私顾虑。",
+        "tags": [
+          "待办清单",
+          "灵动岛",
+          "专注计时",
+          "iOS",
+          "无账号"
+        ],
+        "score": 7,
+        "scoreReason": "把现成的灵动岛能力用在了最合适的地方，交互减法做得干净，免费版功能完整、一次性买断不搞订阅，态度诚实。天花板在于能力相对有限，属于优秀的小而美工具而非平台级产品。",
+        "competitors": [
+          {
+            "name": "Things 3",
+            "url": "https://culturedcode.com/things/",
+            "comparison": "GTD 体系完备、生态成熟，但完成任务必须打开 App，缺少常驻眼前的提醒。"
+          },
+          {
+            "name": "Todoist",
+            "url": "https://todoist.com",
+            "comparison": "跨平台协作与项目管理能力强，代价是必须订阅且界面信息量偏重。"
+          },
+          {
+            "name": "Reminders",
+            "url": "https://support.apple.com/guide/reminders/",
+            "comparison": "系统自带零成本、与 Siri 深度整合，但不支持把单个任务钉到灵动岛常驻显示。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1281375",
+      "name": "Grablo Spot",
+      "slug": "grablo-spot",
+      "description": "免费的本地 AI 监控录像软件，把手头已有的摄像头（IP 摄像头、NVR、USB 摄像头）接进来，自动把出现的每个人和车辆整理成卡片。支持按人脸、外貌、文字描述（比如「穿黄衣服的人」）甚至残缺车牌号检索，还能跨摄像头追踪同一个人。",
+      "url": "https://grablo.co/",
+      "homepage": "https://grablo.co/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1281375_20261017_123807.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "视频监控",
+        "本地存储",
+        "人脸检索",
+        "隐私优先",
+        "智能安防"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/grablo-spot",
+      "firstSeen": "2026-10-17T04:08:12.684754+00:00",
+      "analysis": {
+        "targetAudience": "家里或小办公室已经装了摄像头、想用 AI 快速翻录像但又不想把画面交给云端的用户。",
+        "useCases": [
+          "快递丢失后按「穿黄衣服的人」快速定位出现在门口的人",
+          "车辆被剐蹭时用残缺车牌号找出经过的车",
+          "跨多个摄像头追踪某个陌生人在院内的移动路线",
+          "登记家人与常用车辆，出现陌生面孔时手机立刻收到告警",
+          "在 Windows、macOS、Linux 或树莓派上就地录像，不交月费"
+        ],
+        "designIntent": "市面上带 AI 检索的监控方案几乎都绑定云订阅，且要把家庭画面传到别人服务器上。Grablo Spot 的选择是把识别与存储全部放在用户自己的设备上，用「免费 + 本地」换掉「订阅 + 上传」。",
+        "problemSolved": "解决了传统监控「装了等于没装」的问题——出事之后没人愿意手动拖几小时时间轴。它把录像变成可检索、可追踪的资料，同时以本地存储回应了隐私与长期存储费用两大顾虑。",
+        "tags": [
+          "视频监控",
+          "本地存储",
+          "人脸检索",
+          "隐私优先",
+          "智能安防"
+        ],
+        "score": 8,
+        "scoreReason": "在一个被云订阅垄断的领域坚持本地处理与免费，技术含量与价值主张都很扎实，文本描述检索与跨摄像头追踪是真正省时间的功能。风险是「正式发布前全部免费」的定价承诺尚未兑现，后续收费模式仍待观察。",
+        "competitors": [
+          {
+            "name": "Frigate",
+            "url": "https://frigate.video/",
+            "comparison": "开源自托管的 AI 监控方案，能力强但需要自行折腾 Docker 与配置；Grablo Spot 面向普通用户开箱即用。"
+          },
+          {
+            "name": "Ring",
+            "url": "https://ring.com",
+            "comparison": "硬件生态完整、App 体验成熟，但录像默认上云并要求订阅才能回看历史。"
+          },
+          {
+            "name": "Synology Surveillance Station",
+            "url": "https://www.synology.com/en-global/products/surveillance",
+            "comparison": "与 NAS 深度整合、稳定可靠，代价是需要额外购买授权且 AI 检索能力较基础。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "reddit.com/r/chatgpt/comments/1x7wg1g/whiletakingawalkamonthagoistarted",
+      "name": "Cohestry",
+      "slug": "cohestry",
+      "description": "面向 iOS 与 Mac 的原生 Markdown 笔记库与第二大脑：把项目文档、零散笔记和交接上下文集中在一处，自动串联相关内容，并借助 Apple Intelligence 发现更深层的关联，最后把整个知识库可视化为一张可漫游的 3D 图谱。",
+      "url": "https://cohestry.app",
+      "homepage": "https://cohestry.app",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/reddit.com_r_chatgpt_comments_1x7wg1g_whiletakingawalkamonthagoistarted_20261017_123938.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "第二大脑",
+        "Markdown",
+        "知识图谱",
+        "AI 关联",
+        "苹果生态"
+      ],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "sourceUrl": "https://www.reddit.com/r/ChatGPT/comments/1x7wg1g/while_taking_a_walk_a_month_ago_i_started/",
+      "firstSeen": "2026-10-17T04:08:12.684754+00:00",
+      "analysis": {
+        "targetAudience": "长期用 Markdown 囤笔记、同时经常给 Claude、Codex 等编程助手重复喂上下文的知识工作者与独立开发者。",
+        "useCases": [
+          "把散落在各处的项目文档集中成一个可检索的本地笔记库",
+          "让 AI 自动把相关笔记连起来，不用自己手动打标签",
+          "在 3D 图谱里漫游，回顾旧想法与新工作的交汇点",
+          "把整理好的项目上下文直接喂给编程助手，免去每次重新交代背景",
+          "在 iPhone 与 Mac 之间同步同一套原生笔记库"
+        ],
+        "designIntent": "作者的想法诞生于一次散步途中的灵感，用 AI 助手把雏形直接做成了可编译运行的应用，并第一次提交就通过了 App Store 审核。它想解决的问题是：人的笔记越来越多，但彼此孤立，而每次调用 AI 都得从零重建上下文。",
+        "problemSolved": "解决了笔记「越写越乱、越存越没用」的困境，以及给 AI 助手反复重建上下文的重复劳动。用自动关联加 Apple Intelligence 补上人工无法完成的那部分连接。",
+        "tags": [
+          "第二大脑",
+          "Markdown",
+          "知识图谱",
+          "AI 关联",
+          "苹果生态"
+        ],
+        "score": 7,
+        "scoreReason": "同时踩中了双链笔记与 AI 上下文供给两个真实需求，3D 图谱与 Apple Intelligence 的组合在同类产品里不多见。但笔记赛道已被 Obsidian、Logseq 占据，3D 图谱偏展示性、实际检索增益需长期验证。",
+        "competitors": [
+          {
+            "name": "Obsidian",
+            "url": "https://obsidian.md",
+            "comparison": "插件生态与双链能力极其成熟、完全免费本地，但自动关联与 AI 能力需自行拼装插件。"
+          },
+          {
+            "name": "Notion",
+            "url": "https://www.notion.com",
+            "comparison": "协作与数据库能力强大、团队友好，代价是笔记不在本地且格式不透明。"
+          },
+          {
+            "name": "Reflect",
+            "url": "https://reflect.app",
+            "comparison": "原生的双向链接与 AI 集成体验流畅，但需订阅且为云端优先、无 3D 图谱视图。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hn_50127077",
+      "name": "FeedTamer",
+      "slug": "feedtamer",
+      "description": "一款浏览器扩展，按你自定义的规则过滤 YouTube：隐藏标题里含某个词的视频、屏蔽指定频道，或者一键关掉 16 类现成主题（政治、赌博、狗血剧、血腥暴力等）。规则同时生效于首页推荐、搜索结果、侧边栏和播放结束后的推荐。",
+      "url": "https://thefeedtamer.com/",
+      "homepage": "https://thefeedtamer.com/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/hn_50127077_20261017_124108.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "内容过滤",
+        "YouTube",
+        "浏览器扩展",
+        "注意力管理",
+        "本地规则"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=50127077",
+      "firstSeen": "2026-10-17T04:08:12.684754+00:00",
+      "analysis": {
+        "targetAudience": "想主动收回注意力、却被 YouTube 推荐流牵着走的普通用户，以及需要为孩子屏蔽特定内容的家长。",
+        "useCases": [
+          "把狗血剧、政治争吵类视频从句首推荐里整体清掉",
+          "屏蔽掉几个持续输出低质内容的频道",
+          "用「允许模式」把首页变成只有自己关心主题的白名单",
+          "屏蔽短视频货架，避免一刷停不下来",
+          "为家庭共用的浏览器配置一套不干扰其他站点的过滤规则"
+        ],
+        "designIntent": "作者认为 YouTube 自带的「不推荐此频道」只是软性调参，无法真正执行用户意志。因此做了一套显式、可核对、只作用于 YouTube 的本地规则，把「我想看到什么」的话语权还回用户手里。",
+        "problemSolved": "解决了推荐算法持续把用户不需要的内容推送到眼前的问题。相比算法调参，规则式过滤结果可预期、可统计（每条规则会显示已隐藏多少视频），并且过滤完全在浏览器本地完成。",
+        "tags": [
+          "内容过滤",
+          "YouTube",
+          "浏览器扩展",
+          "注意力管理",
+          "本地规则"
+        ],
+        "score": 8,
+        "scoreReason": "抓住了「算法推荐 vs 用户意志」这个普遍且真实的痛点，规则式方案比平台自带的软性调参更强硬也更可核对，免费版即可覆盖按词与按频道过滤。减分在于基于页面文字匹配、无法识别未在标题中体现的内容，且仅限桌面浏览器。",
+        "competitors": [
+          {
+            "name": "BlockTube",
+            "url": "https://github.com/amitbl/blocktube",
+            "comparison": "开源老牌 YouTube 屏蔽扩展、装机量大，但界面粗糙且选项偏技术化，普通用户上手成本高。"
+          },
+          {
+            "name": "Unhook",
+            "url": "https://unhook.app",
+            "comparison": "擅长整体隐藏推荐、评论等模块，属于一刀切式减法；FeedTamer 则是按词、按频道做精细规则。"
+          },
+          {
+            "name": "YouTube 自带「不感兴趣」",
+            "url": "https://www.youtube.com",
+            "comparison": "零成本、无安装，但只是给算法提建议，既不可核对也无法保证生效。"
+          }
+        ]
+      }
+    }
+  ]
+}
