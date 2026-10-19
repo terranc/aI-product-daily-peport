@@ -43007,7 +43007,323 @@
         "featuredInDaily": 1,
         "featuredInWeekly": false
       }
+    },
+    {
+      "id": "producthunt.com/r/p/1278100",
+      "name": "Openbroca（AI 语音听写）",
+      "slug": "openbroca",
+      "description": "Mac 上的原生 AI 语音听写应用：按下快捷键说话，它把你口语化的碎句整理成干净通顺的文字，直接落到你正在用的输入框里，支持 30 种语言听写和 28 种语言翻译输出。",
+      "url": "https://openbroca.com/",
+      "homepage": "https://openbroca.com/",
+      "type": "app",
+      "tags": [
+        "语音输入",
+        "效率工具",
+        "Mac 应用",
+        "AI 转写",
+        "多语言"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1278100",
+      "firstSeen": "2026-10-19T04:45:06.446214+00:00",
+      "cooldownExpiresAt": "2026-11-02T04:45:06.446214+00:00",
+      "analysis": {
+        "targetAudience": "每天要大量写邮件、文档、聊天消息，但不想一直敲键盘的 Mac 用户。",
+        "useCases": [
+          "写邮件或工作回复时口述内容，自动整理成条理清晰的书面语",
+          "在 Slack、飞书等聊天工具里长按快捷键说话，快速发出通顺消息",
+          "边想边说记录灵感，免去打字打断思路",
+          "用母语说、输出成另一种语言，跨语言沟通不用先翻译",
+          "专业术语、人名反复说错时，用个人词典纠正一次后自动记住"
+        ],
+        "designIntent": "团队认为打字的瓶颈不在手指而在思路，语音才是更自然的表达方式。于是把目标定为「说得乱，读起来干净」——不做简单的语音转文字，而是在转写之后再用 AI 做一层口语清理和结构整理，并且让文字直接落进当前光标位置，不打断工作流。",
+        "problemSolved": "传统语音输入只做逐字转写，结果是一堆「嗯、那个、然后」的口语碎片，粘进邮件还得手工再改一遍，很多人用两次就放弃了。Openbroca 把清理这一步交给 AI，让口述结果可以直接发出去，同时用屏幕上下文识别醒目的专有名词，减少人名地名转错。",
+        "score": 8,
+        "scoreReason": "语音输入是 AI 落地最扎实的消费级场景之一，需求真实、使用频率高。Openbroca 在「转写后再润色 + 直接入光标」这条链路上做得完整，还有免费额度（每周 3000 文本单位）降低试用门槛。扣分点在于只支持 macOS 15+，Windows 用户用不上，且云端处理音频。",
+        "competitors": [
+          {
+            "name": "Wispr Flow",
+            "url": "https://wisprflow.ai/",
+            "comparison": "同一赛道最知名的选手，跨平台支持更广、品牌更强，但定价更高，中文场景优化不如主打多语言的 Openbroca。"
+          },
+          {
+            "name": "Typeless",
+            "url": "https://typeless.app/",
+            "comparison": "同样面向 Mac 的轻量听写工具，功能更基础；Openbroca 官方直接以「Typeless 替代品」为卖点，多了屏幕上下文和翻译。"
+          },
+          {
+            "name": "系统自带听写",
+            "url": "https://support.apple.com/",
+            "comparison": "免费且无需联网，但只做逐字转写、不做口语清理，标点和格式需要自己改。"
+          }
+        ]
+      },
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1278100_20261019_122752.png",
+      "appStoreScreenshots": [],
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-10-19"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1283357",
+      "name": "Tomo（ChatGPT 里的闯关课堂）",
+      "slug": "tomo-for-chatgpt",
+      "description": "把 ChatGPT 变成多邻国式学习游戏的插件：随便问一个话题，课程就以小游戏的形式掉进对话里，几道快问快答、答错掉血、答对拿星，还能把你们正在聊的内容一键变成复习关卡。",
+      "url": "https://heytomo.app/",
+      "homepage": "https://heytomo.app/",
+      "type": "website",
+      "tags": [
+        "AI 学习",
+        "游戏化",
+        "ChatGPT 插件",
+        "知识管理",
+        "微学习"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1283357",
+      "firstSeen": "2026-10-19T04:45:06.446214+00:00",
+      "cooldownExpiresAt": "2026-11-02T04:45:06.446214+00:00",
+      "analysis": {
+        "targetAudience": "有好奇心、习惯用 ChatGPT 查东西，但看完就忘、想真正记住点什么的终身学习者。",
+        "useCases": [
+          "在 ChatGPT 里问完一个概念后，立刻生成闯关课程巩固记忆",
+          "把一段已经聊了很久的对话直接变成复习关卡，学完就练",
+          "每天用五分钟通关一个自己感兴趣的小课程，保持学习连续性",
+          "挑选不同「老师」人格（教授、海盗、像给五岁小孩讲）来改变讲解风格",
+          "把手机 App 上的连胜记录和 XP 与 ChatGPT 插件打通，进度不断档"
+        ],
+        "designIntent": "作者观察到最常见的场景是：问 ChatGPT 一个问题，得到很好的回答，点头认可，然后关掉标签页——什么都没留下。Tomo 想让这份好奇心有个去处，把「被动阅读」转成「主动答题」，因为真正进到脑子里的不是看过的东西，而是答过的东西。",
+        "problemSolved": "ChatGPT 天然不做留存：它给答案，但不给练习、评分和反馈，用户看完即忘。直接让它「考考我」也只能得到几道零散问题，没有关卡结构、没有计分、没有连胜驱动力。Tomo 补上了这套游戏机制，还让 ChatGPT 看不到答案，避免它提前泄题。",
+        "score": 7,
+        "scoreReason": "切中「AI 聊天看完就忘」这个真实痛点，游戏化机制成熟（作者本体 App 已验证），ChatGPT 插件形式让获取门槛几乎为零、免注册可玩。因此给中等偏上分数。扣分点是内容深度有限，且依赖 ChatGPT 插件生态，长期可用性受平台策略影响。",
+        "competitors": [
+          {
+            "name": "Duolingo",
+            "url": "https://www.duolingo.com/",
+            "comparison": "游戏化学习的标杆，连胜与关卡设计被 Tomo 直接借鉴；但 Duolingo 只做语言等固定科目，Tomo 可以拿任何话题生成课程。"
+          },
+          {
+            "name": "Quizlet",
+            "url": "https://quizlet.com/",
+            "comparison": "成熟的记忆卡片与测验工具，知识点覆盖广；但内容需要自己录入或找现成卡片，不像 Tomo 一句话即时生成。"
+          },
+          {
+            "name": "原生 ChatGPT 问答",
+            "url": "https://chatgpt.com/",
+            "comparison": "免费且无需插件，但不会组织成课程、不计分、不追踪进度，也没有连胜带来的回访动力。"
+          }
+        ]
+      },
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1283357_20261019_125227.png",
+      "appStoreScreenshots": [],
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-10-19"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1279257",
+      "name": "Train with Pasta（口袋里的 AI 私教）",
+      "slug": "train-with-pasta",
+      "description": "由 Apple Intelligence 驱动的 iPhone 健身私教：按住说话说出「30 分钟上肢训练，只用哑铃」，它就生成完整课表，训练时全程语音报组数和休息，还能按你的目标排出未来几周的计划。",
+      "url": "https://pppasta.com/",
+      "homepage": "https://pppasta.com/",
+      "type": "app",
+      "tags": [
+        "AI 健身",
+        "语音交互",
+        "Apple Intelligence",
+        "健康管理",
+        "iPhone 应用"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1279257",
+      "firstSeen": "2026-10-19T04:45:06.446214+00:00",
+      "cooldownExpiresAt": "2026-11-02T04:45:06.446214+00:00",
+      "analysis": {
+        "targetAudience": "在家或健身房自己练、不想请私教但需要有人指导动作安排和进度的健身爱好者。",
+        "useCases": [
+          "临时决定练什么，一句话生成当天的完整训练课表",
+          "训练时手机放包里，靠语音播报组数、重量和休息时间",
+          "把 YouTube 或网页上看到的操课链接粘进去，自动转成结构化训练",
+          "告诉它「十月要跑半马」，它按你能训练的日子排出数周计划",
+          "每周看一页报告，包含个人纪录、静息心率、睡眠和估算 VO₂ max"
+        ],
+        "designIntent": "作者说自己常年想要一个能陪练的东西：手上有 873 个动作库和成熟的语音模型，终于可以做出来了。设计上刻意把手离开手机——训练中手机在包里，教练靠听的就够，所有数据留在本机、不需要账号。",
+        "problemSolved": "自己练的人最缺两件事：当场不知道该练什么（查教程要中断训练），以及长期没人管节奏和渐进。付费私教又贵又难约。Train with Pasta 用语音把「会做计划」和「会盯着你练」这两件事搬到手机上，还接入了 Apple Health 让心率、睡眠、恢复度参与计划调整。",
+        "score": 8,
+        "scoreReason": "需求刚性、场景清晰，「语音全程引导」尤其贴合真实训练动作（双手都在忙）。基于 Apple Intelligence 端侧运行、无需账号、数据不出手机是明确加分项，作者也坦承计划生成质量还有提升空间。扣分在于必须 iPhone 15 Pro 以上机型，门槛偏高。",
+        "competitors": [
+          {
+            "name": "Fitbod",
+            "url": "https://fitbod.me/",
+            "comparison": "成熟的 AI 力量训练计划应用，数据积累和动作库很强；交互以屏幕为主，训练中需要频繁点手机，且需订阅。"
+          },
+          {
+            "name": "Freeletics",
+            "url": "https://www.freeletics.com/",
+            "comparison": "主打徒手与教练课程，视频指导完善；但以固定课程体系为主，个性化按日生成与语音陪练不如 Pasta 直接。"
+          },
+          {
+            "name": "Hevy",
+            "url": "https://www.hevyapp.com/",
+            "comparison": "优秀的免费训练记录工具，重记录轻计划生成，不负责「今天练什么」和语音引导。"
+          }
+        ]
+      },
+      "appStoreName": "Train with Pasta",
+      "appStoreUrl": "https://apps.apple.com/us/app/train-with-pasta/id6796564751?uo=4",
+      "screenshotUrl": null,
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/93/e7/34/93e73484-0fd5-a631-a781-61041d098519/phone1.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c1/e4/42/c1e442ab-75bd-09d1-1ced-a79f1614d3fa/phone2.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a0/ac/e7/a0ace7ee-4be0-cc73-59bb-6b230e036787/phone3.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/06/88/98/0688989d-74cb-86f4-284d-5576ef4b431c/phone4.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d4/57/bc/d457bcb7-a975-3ed3-52b3-2d2ad0e43190/phone5.png/320x480bb.jpg"
+      ],
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-10-19"
+      }
+    },
+    {
+      "id": "reddit.com/r/sideproject/comments/1x9jkxf/imwithjunibloomitreadsacreatorsinstagram",
+      "name": "Junibloom（Instagram 创作者的 AI 增长助理）",
+      "slug": "junibloom",
+      "description": "面向 Instagram 创作者的 AI 增长系统：绑定账号后，它读你官方后台的真实数据，五分钟内告诉你哪条帖子最好、为什么好、粉丝往哪走，生成一周选题、自动更新的媒体资料包，以及该向品牌报什么价。",
+      "url": "https://www.junibloom.com/",
+      "homepage": "https://www.junibloom.com/",
+      "type": "saas",
+      "tags": [
+        "创作者工具",
+        "Instagram 运营",
+        "数据分析",
+        "AI 助手",
+        "商业报价"
+      ],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "sourceUrl": "https://www.reddit.com/r/SideProject/comments/1x9jkxf/im_with_junibloom_it_reads_a_creators_instagram/",
+      "firstSeen": "2026-10-19T04:45:06.446214+00:00",
+      "cooldownExpiresAt": "2026-11-02T04:45:06.446214+00:00",
+      "analysis": {
+        "targetAudience": "有一定粉丝量、开始接品牌合作，但不会看数据、不会报价的 Instagram 中腰部创作者。",
+        "useCases": [
+          "接入账号后立刻看清自己最好的一条帖子和它的爆款原因",
+          "根据自己历史表现生成下周的选题清单，每条都标注灵感来源",
+          "生成一个自动更新的媒体资料包链接，品牌点开即看到最新数据",
+          "按不同内容形式给出报价区间，并生成可直接回复品牌的话术",
+          "长期留存后台数据，跨年度对比 1 月与去年 1 月的表现"
+        ],
+        "designIntent": "创作者在商业谈判里一直处于信息劣势：品牌早就用数据筛人，而创作者自己连后台 90 天前的数据都看不到。Junibloom 想把「官方数据 + 该怎么报」这件事还回创作者手里，因此刻意只用 Instagram 官方 API、不抓取、不碰密码，并把结论落到「下一步做什么、报价说多少」这种可执行的话上。",
+        "problemSolved": "Instagram 原生后台一次只能看一条帖子、只保留 90 天，创作者事后既没法复盘也没法向品牌证明增长。Junibloom 从绑定当天起逐日保留全部官方数据，用 AI 解释每个数字，并把分析和变现动作连起来——报价、话术、媒体包一站式。",
+        "score": 7,
+        "scoreReason": "创作者变现是当前最实的 AI 落地场景之一，产品直接解决「看不懂数据」和「不会报价」两个卡点，走 Meta 官方 API 且通过 App Review，合规性明确。七分是因为严格绑定 Instagram 单一平台、价格 29 美元/月对小型创作者偏高，且市面上同类工具已不少。",
+        "competitors": [
+          {
+            "name": "Later",
+            "url": "https://later.com/",
+            "comparison": "老牌社媒排期工具，强在发布与协作；分析偏常规指标，不给报价建议，也不做 AI 解释。"
+          },
+          {
+            "name": "Metricool",
+            "url": "https://metricool.com/",
+            "comparison": "多平台数据看板，免费额度大、覆盖广；但账号绑定多平台也意味着每个平台都做得较浅，缺少针对创作者报价的变现闭环。"
+          },
+          {
+            "name": "HypeAuditor",
+            "url": "https://hypeauditor.com/",
+            "comparison": "面向品牌方的创作者数据核查服务，站的是品牌一侧；创作者本人不会拿它来规划自己的内容。"
+          }
+        ]
+      },
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-10-19"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1280874",
+      "name": "Dottr（邮箱里的 AI 合同助理）",
+      "slug": "dottr",
+      "description": "一个住在邮箱里的合同 AI 助理：把合同转发给它或抄送它，它按你的模板起草协议、用大白话标出风险条款、发起电子签名并自动催签，签完还记得条款和日期，随时可以问「我们当时约定了什么」。",
+      "url": "https://dottr.ai/",
+      "homepage": "https://dottr.ai/",
+      "type": "saas",
+      "tags": [
+        "合同管理",
+        "AI 助理",
+        "电子签名",
+        "法务效率",
+        "小微企业"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1280874",
+      "firstSeen": "2026-10-19T04:45:06.446214+00:00",
+      "cooldownExpiresAt": "2026-11-02T04:45:06.446214+00:00",
+      "analysis": {
+        "targetAudience": "没有法务团队、每周都要处理几份合同的小微企业主、销售和创业者。",
+        "useCases": [
+          "口头谈成的合作，把邮件线程转给 Dottr 直接生成合同草案",
+          "合同发出去前先让它读一遍，用大白话标出自动续约、无限责任等坑",
+          "发起签名并让它自动催办，避免对方一直不签、单子凉掉",
+          "在统一看板上追踪每份合同的状态（待发、待签、已签）",
+          "事后查询某份合同里的约定条款、到期时间和续约提醒"
+        ],
+        "designIntent": "创始人做了多年风投，反复看到同样一幕：电话里已经谈成了，接下来几天甚至几周都耗在改 Word、来回批注和追签名上。Dottr 的思路是不新增一个要登录的系统，而是把助手塞进你本来就在用的邮箱里——抄送一个地址，全流程就在邮件线程里跑完。",
+        "problemSolved": "小团队处理合同往往靠「一堆工具加人肉搬运」：模板在网盘、批注在 Word、签名在另一个平台、催办靠手动发邮件，任一环节都会拖延。Dottr 把起草、审阅、签署、追踪、续约提醒压进一条邮件流，把「口头同意到寄出签字」从几天缩短到几小时，且签署方无需注册账号。",
+        "score": 7,
+        "scoreReason": "合同是高频、有明确痛点、且愿意付费的场景，「住在邮箱里、不新增登录」的形态很讨巧，自动催签这个细节尤其解决真实损失。给七分是因为涉及法律文本，用户对 AI 审阅的信任建立需要时间，且同类法务 AI 竞争激烈、需要与传统电子签名平台抢地盘。",
+        "competitors": [
+          {
+            "name": "DocuSign",
+            "url": "https://www.docusign.com/",
+            "comparison": "电子签名领域的标准答案，合规与集成最成熟；但基本只负责「签」这一步，起草和风险提示需要额外产品。"
+          },
+          {
+            "name": "PandaDoc",
+            "url": "https://www.pandadoc.com/",
+            "comparison": "文档创建加签署一体，模板和流程能力强；需要登录专门平台操作，对小团队来说比「抄送邮箱」重。"
+          },
+          {
+            "name": "Spellbook",
+            "url": "https://www.spellbook.legal/",
+            "comparison": "面向律师的合同 AI 起草审阅工具，专业性更强；但定位在法律专业人士，普通创业者上手成本高。"
+          }
+        ]
+      },
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1280874_20261019_130239.png",
+      "appStoreScreenshots": [],
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-10-19"
+      }
     }
   ],
-  "lastUpdated": "2026-10-19T04:17:06.097021+00:00"
+  "lastUpdated": "2026-10-19T05:05:11.226643+00:00"
 }
