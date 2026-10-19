@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-19",
+  "generatedAt": "2026-10-19T04:17:06.096371+00:00",
+  "productCount": 1,
+  "type": "weekly",
+  "sourceDailyReport": "2026-10-15",
+  "products": [
+    {
+      "id": "producthunt.com/r/p/1278289",
+      "name": "Winq —— 用眼神和眨眼操控 Mac",
+      "slug": "winq-gaze-wink-mac-control",
+      "description": "把 Mac 内置摄像头变成免手操作的输入设备：注视某个窗口它就成为活动窗口，左眼眨一下等于左键、右眼眨一下等于右键，还能把挑眉、点头等 11 种面部手势绑定到快捷键。全部面部追踪在本地 Vision 框架完成，画面不出机器，菜单栏常驻、刘海处有小岛指示器确认识别到了什么。",
+      "url": "https://winq.kroking.dev/",
+      "homepage": "https://winq.kroking.dev/",
+      "type": "app",
+      "tags": [
+        "无障碍辅助",
+        "面部手势",
+        "macOS 工具",
+        "本地推理",
+        "免手操作"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/winq",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1278289_20261015_121316.png",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "appStoreScreenshots": [],
+      "firstSeen": "2026-10-15T04:16:43.733199+00:00",
+      "analysis": {
+        "targetAudience": "长时间在多窗口间切换的 Mac 重度用户，以及上肢不便、无法顺畅使用鼠标键盘的人群。",
+        "useCases": [
+          "写代码/做表时靠注视切换窗口，手不离键盘",
+          "浏览长网页时眨眼上下滚动，缓解手腕腱鞘炎",
+          "为行动不便的家人配置眉挑、嘴角动作触发常用操作",
+          "把面部手势映射到 AppleScript / shell 命令，做个人化快捷入口",
+          "开会投屏时不碰鼠标直接切到目标窗口"
+        ],
+        "designIntent": "制作者 Mahmoud 每天在大量窗口之间切换，大量时间浪费在「把手移到鼠标上」这个动作。他想：Mac 盖子上本来就有一颗摄像头，能不能让它替我做掉这件事。于是做成一个纯本地、菜单栏常驻的小工具，并把每一个识别结果都显示在刘海里，让你知道摄像头读到了什么。",
+        "problemSolved": "解决了「频繁切换窗口/点击」这一高频低价值的手部动作，对必须多窗口并行的开发者与办公者尤其明显；同时也为无法稳定使用鼠标的用户提供了一条低成本的免手输入路径——不需要额外购买眼动仪之类的硬件，用现成摄像头即可。",
+        "score": 9,
+        "scoreReason": "【深度调研亮点】① 品类首创：把 Mac 内置摄像头变成「注视聚焦 + 单眼眨眼点击 + 面部手势快捷键」三合一输入，是 2026 年唯一把这条路线做成消费级成品的 Mac 应用——同类方案要么依赖 Tobii 等专用眼动仪硬件（约 229 美元起），要么是面向 RSI 重度用户、需要自己写 .talon 脚本的 Talon Voice（学习曲线极陡），Winq 则是「装上、跟一个点校准两分钟就能用」。② Product Hunt 首发即 #16 Product of the Day（2026-10-14，84 赞 / 16 评论 / 80 关注），并作为 Google Cloud Run Hackathon 参赛作品发布，评论区反馈集中在「想映射到通话静音键」「投屏时切窗口」等真实高频场景。③ 隐私架构是硬差异：画面由 Apple Vision 框架在内存里出人脸关键点后立刻丢弃，只传「每帧一个角度/睁眼数值」的小描述，720p/15fps 上限，无云、无落盘、无账号，官网页明确承诺「0 frames saved to disk or sent anywhere」。④ 交互设计有罕见的克制：不做抖动的像素级眼动光标，只做「显示器/窗口」级别的粗粒度聚焦，配合「刘海小岛」回执让用户随时知道摄像头读到了什么；还有眼镜模式（穿透镜片反光）、不会眨眼者的替代方案（停留点击 / 嘴角拉动）、打字与鼠标操作时自动暂停防误触。⑤ 定价克制：先免费试用一天全功能、无账号无卡，之后一次性买断（含后续更新），是对「订阅疲劳」的明确回应。扣分点：仅 macOS 13+（不含 Windows/Linux）、未上架 Mac App Store（沙盒限制其所需的 Accessibility 权限）、上线不足一周仍属极早期，长时间佩戴眼镜与易眯眼人群的误触率等待实测，因此给 9 分。",
+        "competitors": [
+          {
+            "name": "macOS 内置 Head Pointer + Dwell（头部指针 + 停留）",
+            "url": "https://support.apple.com/guide/mac-help/accessibility-features-for-mobility-mchl654a7cc7/mac",
+            "comparison": "完全免费、系统内置、随系统升级维护，能靠头部移动指针并用面部表情触发点击——是 Winq 最直接的替代品。差异在于它只做「连续移动光标 + 单一点击动作」，慢且无法做手势快捷键、逐窗口聚焦与 AppleScript/shell 触发；Winq 明确把自己定位成它的补充（两者可同时开启），用粗粒度离散动作换取速度与可编程性。"
+          },
+          {
+            "name": "Talon Voice",
+            "url": "https://talonvoice.com/",
+            "comparison": "跨 macOS/Windows/Linux 的免费免手控制套件，能力最强：语音 + 口腔噪音点击 + 眼动鼠标，且 .talon 脚本可编程到任意深度，是 RSI/运动障碍程序员的事实标准。代价是需要自己写或装社区命令集（开箱零命令）、眼动必须另购 Tobii 4C/5 硬件、beta 需 Patreon（约 €4.50/月）。Winq 走相反路线：零脚本、零硬件、两分钟校准，用「少而可靠」的手势词表换即时可用性。"
+          },
+          {
+            "name": "Tobii / Eyeware Beam 等专用眼动硬件",
+            "url": "https://eyeware.tech/",
+            "comparison": "Tobii Eye Tracker 5 约 229 美元起、研究级设备 5000 美元以上，能提供像素级精度的眼动光标，是专业无障碍与游戏场景的标杆；Eyeware Beam 则把网络摄像头变成眼动/头部追踪器但偏游戏取向、付费且 macOS 仍在 beta。Winq 的差异是软件-only、零增量硬件成本，主动放弃像素精度（自称「webcam 做不到可靠点选像素」）换取窗口级聚焦与手势，把整条方案的边际成本压到 0。"
+          },
+          {
+            "name": "MacGaze（开源软件眼动）",
+            "url": "https://github.com/AACTools/MacGaze",
+            "comparison": "同样用 Mac 内置摄像头做软件眼动（MediaPipe 478 点 + BlazeGaze CoreML + RBF 校准，实测平均误差 8.1%），但目前是面向开发者的 GazeBridge TrackerDriver 参考实现，需 macOS 15+/Xcode 16+ 自行构建，无产品化包装。Winq 是同一技术方向上的消费级成品版本：把校准、误触抑制、回执、快捷键绑定全部做进了 GUI。"
+          },
+          {
+            "name": "Hawkeye Access",
+            "url": "https://www.hawkeyeaccess.com/",
+            "comparison": "iOS 上同样用原深感摄像头做眼动控制，但其作用域被限制在 App 内的浏览场景，且强依赖 TrueDepth 硬件；Winq 是在 macOS 全局生效（通过 Accessibility API 直接聚焦窗口、移动指针、模拟点击与按键），作用域大得多。"
+          }
+        ]
+      },
+      "weeklyDeepDive": {
+        "growthData": "发布不足一周（2026-10-13 LinkedIn 预告 / 10-14 Product Hunt 上线），无公开营收与用户数披露。可观测的增长信号：PH 首发当日拿到 84 赞、16 条评论、80 关注者，位列当日榜单第 16（#16 Product of the Day）；作为 Google Cloud Run Hackathon 参赛作品上线，被 PH 官方日报（wink to click，Oct 14）单独点名推荐；同步在 thistools、ProductCool、Prori、hunted.space、huntscreens 等多个第三方产品库被自动收录，中英文均有条目。定价为「免费试用 1 天全功能（无需账号/信用卡）→ 一次性买断含后续更新」，无订阅；首发促销给出前 100 名用户免费终身授权、First Launch 页限时 US$7.98。",
+        "communityActivity": "PH 评论区讨论质量高且集中在真实用例而非泛泛称赞：有人想把「眨眼映射到通话静音/取消静音」（作者回复可用 Shortcuts 触发 Google Meet 空格键实现）；有人想用「注视召唤应用切换器」应对长时间写作时窗口被抢焦点；有评论专门称赞刘海小岛回执设计——「当输入是眨眼或注视时你必须在不分神的情况下知道摄像头读到了什么」。评审型站点反馈：toolradar 给「Good value」评级（认为一次性买断规避了订阅疲劳），同时指出 1 天试用偏短；ProductCool 归纳出明确的 pros/cons 与三类替代方案对比。需注意：Product Hunt 之外未出现 Hacker News 讨论帖，社区声量目前仍集中在 PH 与产品聚合站，属早期产品正常水位。",
+        "updateFrequency": "产品上线首周（2026-10-13 预告 → 10-14 发布），尚无公开 changelog 或版本号序列可供评估迭代节奏。可确认的维护承诺：官方定价页写明一次性购买「含所有未来更新（every future update included）」；作者在 PH 评论区对功能请求逐条作答并承诺排期（如自定义 app profile「will follow up with that on an update」）。分发方式为官网直接下载（非 Mac App Store，因沙盒限制 Accessibility 控制），带自动更新机制。",
+        "marketPosition": "处在「免手/无障碍输入」与「Mac 效率工具」的交界处，是一条长期被硬件厂商和极客脚本占据、缺少消费级成品的赛道。格局上分四类：① Apple 系统内置（Head Pointer + Dwell，免费但只能移动光标与单一表情点击）；② 专用眼动硬件（Tobii 229 美元起、研究级 5000 美元以上，像素级精度但需买硬件）；③ 极客控制套件（Talon Voice，跨平台、能力最强、需自写脚本且眼动要配 Tobii）；④ 新一波摄像头软件方案（MacGaze 开源参考实现、Eyeware Beam 偏游戏、FreeFloat/AirTouch 走手势路线）。Winq 的站位是第 ④ 类里第一个「面向普通 Mac 用户打包完整」的成品：软件-only、零硬件成本、零脚本、同时把无障碍（RSI/手部活动受限）与多显示器重度用户两个人群合并成同一个价值主张。风险是平台锁定 macOS 13+（Windows/Linux 用户完全用不上）与上游威胁——Apple 若把眼动/手势控制做进系统层，Winq 的差异化会被压缩。",
+        "differentiation": "① 三输入合一且都不靠新硬件：注视聚焦显示器/窗口、单眼眨眼映射左右键（双眨双击、长眨拖拽）、11 种面部手势绑定键盘快捷键 / Shortcuts / AppleScript / shell 命令 / 内置动作，官方称 10 种手势可绑任意快捷键（网页标题区写 11 种）。② 主动放弃像素精度：官方明确「gaze 用来选显示器或大窗口，不试图点像素，因为 webcam 做不到可靠点选」，这是与 Tobii 路线的根本取舍——用可靠性换成本与上手速度，避免了 Midas touch（看一眼就误触）问题。③ 隐私是架构而非承诺：Apple Vision 本地出关键点、帧在内存中毫秒级丢弃、720p/15fps 上限、「No cloud No disk No account No uploads」，连校准也只存角度与睁眼测量值这类数字。④ 可观测的交互回执：刘海小岛实时显示识别结果 + Live View 用数字展示摄像头读到的脸，解决了此类产品的信任软肋。⑤ 无障碍包容性做到了细节：眼镜模式穿透反光、不会眨眼的人可用停留点击或嘴角拉动替代、说话时手势自动暂停（除非开启 arming 模式）、打字或用鼠标时绝不切换窗口。⑥ 面向开发者的可配置性：全部设置落在纯文本 config.toml，支持按 bundle ID 的 per-app profile，每个阈值（settle time、打字暂停、鼠标守卫）都可调，并给出 ⇧⌘G 全局暂停——把「黑盒魔法」变成可调试的工具。"
+      }
+    }
+  ]
+}

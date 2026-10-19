@@ -42334,8 +42334,8 @@
       "cooldownExpiresAt": "2026-10-29T04:16:43.733199+00:00",
       "metrics": {
         "featuredInDaily": 1,
-        "featuredInWeekly": false,
-        "lastFeaturedDate": "2026-10-15"
+        "featuredInWeekly": true,
+        "lastFeaturedDate": "2026-10-19"
       }
     },
     {
@@ -43009,5 +43009,5 @@
       }
     }
   ],
-  "lastUpdated": "2026-10-17T04:08:12.684754+00:00"
+  "lastUpdated": "2026-10-19T04:17:06.097021+00:00"
 }
