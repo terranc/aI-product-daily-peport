@@ -1,0 +1,322 @@
+{
+  "date": "2026-10-20",
+  "generatedAt": "2026-10-20T12:20:46.846325+08:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "producthunt.com/r/p/1278782",
+      "name": "readywhen（WhatsApp 里的资深贴身助理）",
+      "slug": "readywhen",
+      "description": "一款住在 WhatsApp 里的 AI 个人助理：给它打电话、发语音或打字，它就会替你跟进承诺、追发票、回客户，并先拟好稿等你点头。",
+      "url": "https://readywhen.ai/",
+      "homepage": "https://readywhen.ai/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1278782_20261020_121459.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 助理",
+        "WhatsApp",
+        "小微企业",
+        "任务跟进",
+        "语音交互"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/readywhen",
+      "firstSeen": "2026-10-13T09:05:46+00:00",
+      "analysis": {
+        "targetAudience": "1-20 人的小企业主、个体经营者与自由职业者，尤其是接单型服务生意。",
+        "useCases": [
+          "自动抓取邮件、通话和聊天里答应客户的事，生成待办",
+          "给客户追要发票、合同和缺失资料",
+          "在 WhatsApp 里语音下单，让它代写回复和方案草稿",
+          "每天早上用电话问它今天最要紧的是什么",
+          "重要承诺临到期提醒，避免放客户鸽子"
+        ],
+        "designIntent": "创始人认为小老板的痛点不是缺工具，而是所有承诺都堆在自己脑子里，于是把助理搬进每个人本来就天天开的 WhatsApp，让它主动接住你答应过的事。所有对外动作都先给草稿，等你确认才发，降低对 AI 替自己说话的戒心。",
+        "problemSolved": "解决了小企业主靠记忆和零散笔记管理承诺、频繁漏跟进和忘回客户的问题。它不是又一个待办清单，而是从真实对话里自动提炼任务并推进到完成。",
+        "tags": [
+          "AI 助理",
+          "WhatsApp",
+          "小微企业",
+          "任务跟进",
+          "语音交互"
+        ],
+        "score": 9,
+        "scoreReason": "切入点是「承诺追踪」这一真实高频痛点，而不是泛泛的聊天助理，落地形态（WhatsApp 语音+电话）几乎没有学习成本。AI 从对话流里抽取任务并闭环到执行，比单纯记录型工具高一个层级。扣分点在于它强依赖各类账号授权，数据合规对小商户可能偏重。",
+        "competitors": [
+          {
+            "name": "Motion",
+            "url": "https://www.usemotion.com/",
+            "comparison": "Motion 用 AI 重排日程和任务，但要你把工作搬进它的系统；readywhen 直接寄生在你已有的邮件、日历和 WhatsApp 里。"
+          },
+          {
+            "name": "Gemini in Gmail",
+            "url": "https://geminigoogle.com/",
+            "comparison": "Gmail 的 AI 侧栏只帮你写邮件，不追踪跨渠道承诺；readywhen 覆盖电话、语音和聊天消息并主动催办。"
+          },
+          {
+            "name": "Reclaim.ai",
+            "url": "https://reclaim.ai/",
+            "comparison": "Reclaim 聚焦日历时间保护，readywhen 聚焦人与人之间的承诺交付与催收。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1280488",
+      "name": "buddylist（MSN 风格的多 AI 编程搭子）",
+      "slug": "buddylist",
+      "description": "一个免费桌面应用，把 Claude Code、Codex、Gemini、OpenCode 塞进 2005 年 MSN 那样的好友列表：分组聊、轮流干、交接未完成任务，旁边还能看 diff 和 PR 状态。",
+      "url": "https://buddylist.dev/",
+      "homepage": "https://buddylist.dev/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1280488_20261020_121602.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "多代理协作",
+        "AI 编程",
+        "开发者工具",
+        "桌面应用",
+        "Git worktree"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/buddylist-2",
+      "firstSeen": "2026-10-14T16:47:59+00:00",
+      "analysis": {
+        "targetAudience": "同时使用多个 AI 编程代理、被一堆终端标签页淹没的开发者与小团队。",
+        "useCases": [
+          "让 Claude 写功能、Codex 复查同一工作目录的改动",
+          "给不同任务分配独立 Git worktree，互不踩文件",
+          "把没做完的 checklist 直接交接给另一个代理继续",
+          "在聊天窗口旁边看 diff、跑终端、起预览、盯 PR 检查",
+          "多个代理进同一群聊，各自补齐同伴做了什么"
+        ],
+        "designIntent": "作者想解决的不是「生成代码」，而是「谁在干什么」的协调成本，于是借用人人熟悉的即时通讯隐喻（好友列表+群聊+交接）来组织多代理协作。把 diff、终端、预览都放在对话旁边，减少在工具间来回切换。",
+        "problemSolved": "解决了多代理并行时上下文丢失、互相覆盖文件、任务半途无人接手的问题。它把「代理编制」从命令行脚本变成一眼能看懂的通讯录。",
+        "tags": [
+          "多代理协作",
+          "AI 编程",
+          "开发者工具",
+          "桌面应用",
+          "Git worktree"
+        ],
+        "score": 8,
+        "scoreReason": "用群聊/好友列表的熟悉交互抽象多代理协作，group chat + 任务交接这两个设计真正解决编排痛点。免费且跨平台，上手门槛低。偏工具型、受众限于已重度使用代理的开发者，因此不给满分。",
+        "competitors": [
+          {
+            "name": "Conductor",
+            "url": "https://conductor.build/",
+            "comparison": "Conductor 也做多 Claude Code 工作区，但界面是任务看板式；buddylist 用聊天列表让代理之间互相交接。"
+          },
+          {
+            "name": "Craig",
+            "url": "https://craig-cli.com/",
+            "comparison": "Craig 是 TUI 形态的并行代理管理，偏终端；buddylist 是图形化桌面应用，并带差异预览与 PR 跟踪。"
+          },
+          {
+            "name": "Cursor",
+            "url": "https://cursor.com/",
+            "comparison": "Cursor 把 AI 内嵌进编辑器；buddylist 不管编辑器，只管编排你已经付费的各个 CLI 代理。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1283000",
+      "name": "Lookout（Slack 紧急消息哨兵）",
+      "slug": "lookout-for-slack",
+      "description": "用大白话告诉它要盯什么、盯哪些频道，它实时评估每一条 Slack 消息，命中就私信、发邮件或直接开 Linear 工单。",
+      "url": "https://slacklookout.com/",
+      "homepage": "https://slacklookout.com/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1283000_20261020_121705.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "Slack",
+        "消息监控",
+        "团队协作",
+        "工单自动化",
+        "语义告警"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/lookout-for-slack",
+      "firstSeen": "2026-10-17T00:44:10+00:00",
+      "analysis": {
+        "targetAudience": "Slack 频道多、消息刷得快，又怕漏掉大客户投诉或线上故障的团队。",
+        "useCases": [
+          "盯销售频道里的高价值线索，第一时间通知负责人",
+          "捕获客户关于扣费、发票问题的紧急反馈",
+          "把报错日志类消息自动转成 Linear 工单",
+          "给值班工程师推送真正的紧急告警，屏蔽噪音",
+          "用自然语言而非正则配置监控规则"
+        ],
+        "designIntent": "Slack 是信息消防栓，最该被立刻处理的消息往往淹没在洪流里。作者用低延迟的决策模型对每条消息做语义判定，让「设置告警」从写正则变成一句话，并把命中后的处置直接接到人、邮件和工单系统。",
+        "problemSolved": "解决了关键词告警漏报误报严重、逐条跑大模型又太慢太贵的问题。它把 Slack 从被动信息流变成能触发动作的运营引擎。",
+        "tags": [
+          "Slack",
+          "消息监控",
+          "团队协作",
+          "工单自动化",
+          "语义告警"
+        ],
+        "score": 8,
+        "scoreReason": "把「漏消息」这个普遍痛点做成零代码配置，且明确用轻量决策模型控制每条消息的成本与延迟，工程判断务实。命中后直连 Linear/邮件/私信的闭环设计有实际价值。只服务 Slack 用户，场景单一，天花板有限。",
+        "competitors": [
+          {
+            "name": "Zapier",
+            "url": "https://zapier.com/",
+            "comparison": "Zapier 按触发条件做自动化，但 Slack 内规则偏关键词与结构化字段；Lookout 用自然语言理解模糊表达。"
+          },
+          {
+            "name": "Kai Resolve by Gleap",
+            "url": "https://gleap.ai/",
+            "comparison": "Gleap 把客服反馈接进工单与修复链路；Lookout 专注 Slack 内部实时哨兵与分派。"
+          },
+          {
+            "name": "Fivetran/Slack 告警机器人",
+            "url": "https://slack.com/apps",
+            "comparison": "官方机器人多依赖关键词与固定格式，Lookout 支持「客户抱怨扣费」这类语义条件。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1283818",
+      "name": "walkai-talkai（用手台指挥 AI 编程代理）",
+      "slug": "walkai-talkai",
+      "description": "macOS 应用：按下对讲机 PTT 说话，本地 Whisper 转文字后输入 Cursor、Claude Code 等代理，回答再用神经网络语音通过电台念回来。",
+      "url": "https://walkai-talkai.com/",
+      "homepage": "https://walkai-talkai.com/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1283818_20261020_121835.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 编程",
+        "语音交互",
+        "对讲机",
+        "macOS 应用",
+        "本地推理"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/walkai-talkai",
+      "firstSeen": "2026-10-17T14:25:08-07:00",
+      "analysis": {
+        "targetAudience": "Apple Silicon Mac 上的开发者，尤其喜欢一边走动一边盯构建、爱折腾硬件的极客。",
+        "useCases": [
+          "离开工位时用对讲机给代理下指令并听结果播报",
+          "目标窗口模式把语音直接键入 Cursor 或终端代理",
+          "API 模式跳过 IDE，直接对 OpenAI、Claude、Gemini、DeepSeek 或 Ollama 说话",
+          "用 VOX 提示音和 roger beep 模拟真实电台通信体验",
+          "给代理加 [radio command] 标记，让它知道要用语音回复"
+        ],
+        "designIntent": "开发者被绑在键盘前才能推进代理任务，作者把对讲机当成麦克风和扬声器，让「指挥 AI」变成一次电台通联。语音识别与合成都放在本机，音频不出设备，守住隐私这条底线。",
+        "problemSolved": "解决了必须坐回电脑前才能与编程代理交互、查看进度的束缚，把手台变成代理的远程遥控与播报器。",
+        "tags": [
+          "AI 编程",
+          "语音交互",
+          "对讲机",
+          "macOS 应用",
+          "本地推理"
+        ],
+        "score": 7,
+        "scoreReason": "创意密度很高，把对讲机、本地 Whisper、CoreML 语音串成完整闭环，且坚持音频不出本机。实用面偏窄、价格与硬件都有门槛（要 Apple Silicon + 手台 + 音频线），更像给极客的乐趣工具而非普适生产力。",
+        "competitors": [
+          {
+            "name": "buddylist",
+            "url": "https://buddylist.dev/",
+            "comparison": "buddylist 用聊天窗口管理多代理，walkai-talkai 用语音电台做同一件事的另一种极端。"
+          },
+          {
+            "name": "Willow Voice",
+            "url": "https://willowvoice.com/",
+            "comparison": "Willow 是通用的语音听写与改写工具，walkai-talkai 专为编码代理设计且要求实体手台。"
+          },
+          {
+            "name": "Cursor",
+            "url": "https://cursor.com/",
+            "comparison": "Cursor 提供键盘+语音输入的编辑体验；walkai-talkai 不写代码，只负责把你和已有代理连成一条电台链路。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1282904",
+      "name": "Wally（会学你笔风的写作代理）",
+      "slug": "wally-by-willow",
+      "description": "Willow 语音输入工具里的写作代理：语音聊天起草邮件、Slack 或提示词，高亮改写，并在多轮往返中学习你的写作习惯与偏好。",
+      "url": "https://willowvoice.com/",
+      "homepage": "https://willowvoice.com/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1282904_20261020_121938.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 写作",
+        "语音口述",
+        "个人风格",
+        "效率工具",
+        "macOS"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/willow-voice",
+      "firstSeen": "2026-10-16T14:44:53-07:00",
+      "analysis": {
+        "targetAudience": "每天大量写邮件、Slack 消息和 AI 提示词，又想让文字保持自己口吻的知识工作者。",
+        "useCases": [
+          "语音口述一封邮件，边聊边改直到语气合适",
+          "高亮任意应用里的文字让它重写，再粘回原处",
+          "按场景区分写邮件的风格和写 Slack 的风格",
+          "导入 ChatGPT/Claude 里的写作偏好作为个人上下文",
+          "把零散想法口述成完整的提示词或文档草稿"
+        ],
+        "designIntent": "通用 AI 写出来的东西没有个人味道。Wally 保留对话上下文，让写作变成一次持续打磨的来回，并记住你每次粘贴前的修改，逐步逼近你自己的表达方式。它依赖 Willow 已有的屏幕感知能力，知道你在哪个应用里写东西。",
+        "problemSolved": "解决了 AI 生成文字千篇一律、需要大量手工改成自己口吻的麻烦，同时把语音口述到成稿的链路压缩在同一个会话里。",
+        "tags": [
+          "AI 写作",
+          "语音口述",
+          "个人风格",
+          "效率工具",
+          "macOS"
+        ],
+        "score": 8,
+        "scoreReason": "「学习你的笔风并按应用场景区分语气」比通用改写工具更贴近真实写作需求，多轮对话式润色也符合实际成稿过程。背靠 Willow 已成熟的语音听写用户基础，落地阻力小。评分扣在它依附于 Willow 生态，独立价值依赖订阅。",
+        "competitors": [
+          {
+            "name": "Grammarly",
+            "url": "https://www.grammarly.com/",
+            "comparison": "Grammarly 侧重语法与语气建议，Wally 从零起草并按你的历史修改习惯塑造文风。"
+          },
+          {
+            "name": "Willow Voice",
+            "url": "https://willowvoice.com/",
+            "comparison": "Willow 本体是听写与格式化，Wally 在其上加了一层会持续对话和学习的写作代理。"
+          },
+          {
+            "name": "Notion AI",
+            "url": "https://www.notion.com/product/ai",
+            "comparison": "Notion AI 在文档内写作，Wally 跨任意应用通过语音和高亮改写介入。"
+          }
+        ]
+      }
+    }
+  ]
+}
