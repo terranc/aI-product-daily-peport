@@ -43673,7 +43673,327 @@
         "featuredInWeekly": false,
         "lastFeaturedDate": "2026-10-20"
       }
+    },
+    {
+      "id": "producthunt.com/r/p/1284792",
+      "name": "Ida（Mac 上的语音执行助手）",
+      "slug": "ida-heyida",
+      "description": "一个常驻 Mac 屏幕顶部的语音助手：按住一个键说出需求，松手后它就把结果准备好——查日程、改会议、起草邮件、润色文字、在 GitHub 建 issue，每一步动手前都先给你看预览。",
+      "url": "https://www.heyida.ai/",
+      "homepage": "https://www.heyida.ai/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1284792_20261021_120743.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 语音助手",
+        "Mac 效率",
+        "语音写作",
+        "日程集成",
+        "本地转写"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=50174317",
+      "firstSeen": "2026-10-21T12:07:43.038440+08:00",
+      "analysis": {
+        "targetAudience": "每天在日历、邮箱、Slack、代码之间来回切换，懒得手打又怕 AI 乱动手的 Mac 用户。",
+        "useCases": [
+          "按住键问一句“我和 Maya 的评审在哪天”，直接看到日程结果",
+          "口述一段粗糙想法，让它改写成邮件或 Slack 消息原文",
+          "把会议从周四挪到周五并顺手起草一封通知邮件",
+          "在 GitHub 里用嘴提一个 issue",
+          "不方便说话时改成打字，走同一套流程"
+        ],
+        "designIntent": "Siri 承诺了十年也没做到“说一句就办完”，市面上多数语音助手止步于把话转成文字。Ida 想做的是从想到做的短路：语音进来，动作出去，中间不留复制粘贴。",
+        "problemSolved": "解决“知道要做什么但手上一堆切换”的琐碎成本，以及把操作权交给 AI 后的失控焦虑。所有有副作用的动作都会先给出可核对的预览，确认后才执行。",
+        "tags": [
+          "AI 语音助手",
+          "Mac 效率",
+          "语音写作",
+          "日程集成",
+          "本地转写"
+        ],
+        "score": 9,
+        "scoreReason": "形态克制且完整：一个键、一个交互、一句预览，把语音助手从玩具推到日常工具。本地转写 + 动作前确认解决了这类产品最大的信任门槛，集成面（日历/邮件/消息/GitHub）也够深。",
+        "competitors": [
+          {
+            "name": "Apple Siri",
+            "url": "https://www.apple.com/siri/",
+            "comparison": "系统级免费且无需安装，但跨应用执行复杂任务的能力弱，常停在“帮你搜索网页”这一层。"
+          },
+          {
+            "name": "Raycast AI",
+            "url": "https://www.raycast.com/ai",
+            "comparison": "同样是键盘驱动的 Mac 效率中枢，强项是命令面板与扩展生态；Ida 更偏向单轮语音完成一件具体事，学习成本更低。"
+          },
+          {
+            "name": "Willow Voice",
+            "url": "https://willowvoice.com/",
+            "comparison": "同样做 Mac 语音输入与写作，但重心在听写与文风；Ida 多了跨应用执行动作与确认机制。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-11-04T12:09:07+08:00"
+    },
+    {
+      "id": "producthunt.com/r/p/1284647",
+      "name": "Quello（带引用的一处提问工作台）",
+      "slug": "quello",
+      "description": "把你的文档、代码仓库和各种工具接进同一个私有工作台，用中文或语音随口提问，每条回答都能一键点回原文出处；再通过 MCP 把这份工作上下文带进 ChatGPT、Claude、Gemini 等常用 AI。",
+      "url": "https://quello.dev/",
+      "homepage": "https://quello.dev/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1284647_20261021_120757.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 知识库",
+        "引用溯源",
+        "MCP",
+        "团队协作",
+        "语音问答"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/quello",
+      "firstSeen": "2026-10-21T12:07:43.038440+08:00",
+      "analysis": {
+        "targetAudience": "文档散在 Notion、Drive、GitHub 和本地 PDF 里，又想在各种 AI 助手里用同一份上下文的小团队和个人。",
+        "useCases": [
+          "开会前问“这个项目上个月的决定是什么”，回答直接给出证据段落",
+          "发现两份文件口径冲突时，同时看到两边原文再自己判断",
+          "在 Claude 或 ChatGPT 里通过 MCP 调用自己的工作区，回答自动带出处",
+          "用语音把零散问题串成一次问答，不必先想清楚在哪搜",
+          "把单个文件用 @ 圈定，只在这份文档里做精确提问"
+        ],
+        "designIntent": "几乎所有“和你的数据聊天”的产品都在检索之后赌模型不胡说。Quello 反过来做：不替你判断哪份文件是对的，只把证据摊开在你面前，让每句话都能被追溯。",
+        "problemSolved": "解决 AI 回答不可核查、旧文件与新文件冲突时被悄悄挑一个的问题，以及同一个问题要在三四个 AI 工具之间反复重述背景的浪费。",
+        "tags": [
+          "AI 知识库",
+          "引用溯源",
+          "MCP",
+          "团队协作",
+          "语音问答"
+        ],
+        "score": 8,
+        "scoreReason": "切中企业里最真实的一个痛点：不是 AI 不会答，而是答错了没人敢用。引用到段落级别 + MCP 输出上下文，是当下最合理的折中设计；扣分在于单人开发者早期阶段，接入和维护成本仍偏高。",
+        "competitors": [
+          {
+            "name": "Notion AI",
+            "url": "https://www.notion.com/product/ai",
+            "comparison": "在自己体系内体验最顺，但只能看到 Notion 里的内容，跨源引用和外部 AI 复用能力弱。"
+          },
+          {
+            "name": "Glean",
+            "url": "https://www.glean.com/",
+            "comparison": "企业级搜索与回答能力更强、连接器更多，但价格与部署门槛面向大公司，小团队用不起。"
+          },
+          {
+            "name": "Onyx",
+            "url": "https://www.onyx.app/",
+            "comparison": "开源可自托管，适合有运维能力的团队；Quello 更省事，带语音入口和更轻的工作区模型。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-11-04T12:09:07+08:00"
+    },
+    {
+      "id": "producthunt.com/r/p/1281979",
+      "name": "ToDo.is（会自己干完的待办清单）",
+      "slug": "todo-is",
+      "description": "把待办用一句话丢进 WhatsApp、Telegram、Slack 或网页，云端常驻的 AI 代理会自己开浏览器、查资料、做表格、写文档、订餐厅，做完把结果发回同一个聊天窗口；涉及付款、发信、删除这类敏感动作一律先等你点确认。",
+      "url": "https://todo.is/",
+      "homepage": "https://todo.is/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1281979_20261021_120805.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 代理",
+        "待办自动化",
+        "聊天入口",
+        "定时任务",
+        "人工确认"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/todo-is",
+      "firstSeen": "2026-10-21T12:07:43.038440+08:00",
+      "analysis": {
+        "targetAudience": "事情多但不想学新工具的自由职业者、小团队负责人和爱折腾的效率党。",
+        "useCases": [
+          "“周五 8 点订 4 人餐位”，代理打电话或在线完成并回报",
+          "把几百张发票 PDF 丢进去，两分钟出一张汇总表",
+          "每天早上 8 点在 Telegram 收到当日简报",
+          "监控竞品定价页，有变化就推消息",
+          "让它查便宜机票并列成对比表发回来"
+        ],
+        "designIntent": "聊天式 AI 很会回答，但待办清单并不会因此变短。todo.is 的出发点是把“知道答案”推进到“事情办完”，并且把入口放在用户本来就在用的聊天软件里。",
+        "problemSolved": "解决自动化工具（Zapier/IFTTT）要先想清楚流程、还得盯着改动的问题：这里只要写一句人话，代理自己拆步骤。同时用敏感操作确认 + 全流程时间线解决了放手之后的信任问题。",
+        "tags": [
+          "AI 代理",
+          "待办自动化",
+          "聊天入口",
+          "定时任务",
+          "人工确认"
+        ],
+        "score": 8,
+        "scoreReason": "产品完成度高：多渠道入口、沙盒、定时任务、审批链路都齐了，定价也给得起。扣分在同类代理产品竞争极激烈，且长任务成功率仍是这类形态的天花板。",
+        "competitors": [
+          {
+            "name": "ChatGPT Tasks",
+            "url": "https://chatgpt.com/",
+            "comparison": "零额外成本、模型强，但缺乏真正的浏览器执行与长期记忆，任务到“给你建议”为止。"
+          },
+          {
+            "name": "Zapier",
+            "url": "https://zapier.com/",
+            "comparison": "集成生态最广、稳定性最好，但需要自己设计流程，遇到没有 API 的网站就束手无策。"
+          },
+          {
+            "name": "Hermes Agent",
+            "url": "https://hermes-agent.nousresearch.com/",
+            "comparison": "同为常驻代理，开源可自托管、可改代码；todo.is 胜在开箱即用和手机端入口。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-11-04T12:09:07+08:00"
+    },
+    {
+      "id": "producthunt.com/r/p/1283355",
+      "name": "CoolDock（Mac 上的第二块智能 Dock）",
+      "slug": "cooldock",
+      "description": "在原版 Dock 旁边加一条可自定义的实时 Dock，塞进 160+ 个小组件：音乐、待办、日历、天气、系统状态、剪贴板、截图，甚至站点收入与代码仓库状态，一次买断、本地优先。",
+      "url": "https://cooldock.app/",
+      "homepage": "https://cooldock.app/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1283355_20261021_120814.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "Mac 效率",
+        "实时小组件",
+        "本地优先",
+        "一次买断",
+        "个性化"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/cooldock-2",
+      "firstSeen": "2026-10-21T12:07:43.038440+08:00",
+      "analysis": {
+        "targetAudience": "整天面对 Mac 桌面、不想为一个小功能再开一堆菜单栏应用的创作者与独立开发者。",
+        "useCases": [
+          "把今天的日程、待办、番茄钟和音乐固定在屏幕一侧一眼看完",
+          "盯住站点流量、订阅收入、GitHub issue 等关键数字，不必来回切后台",
+          "用 8 套 profile + 热键在不同工作场景间切换布局",
+          "外接显示器上单独布一条工作流 Dock",
+          "快速取用剪贴板历史、截图、文件暂存区"
+        ],
+        "designIntent": "macOS 小组件被塞进通知中心之后反而更难看见。CoolDock 不去替换原版 Dock，而是在旁边长出一条实时信息带，让高频信息始终在余光里。",
+        "problemSolved": "解决“信息在但我得点三次才看得到”的注意力碎片化，以及订阅制工具一个个叠加起来每月账单失控的问题。",
+        "tags": [
+          "Mac 效率",
+          "实时小组件",
+          "本地优先",
+          "一次买断",
+          "个性化"
+        ],
+        "score": 7,
+        "scoreReason": "把 Mac 上被浪费的一条屏幕边缘利用得很聪明，组件数量与场景覆盖都实打实；一次买断在同类里很讨喜。扣分是它更偏效率工具而非 AI 产品，AI 成分主要落在若干智能组件上。",
+        "competitors": [
+          {
+            "name": "Raycast",
+            "url": "https://www.raycast.com/",
+            "comparison": "命令面板派，能力更全且扩展生态庞大，但需要主动唤起；CoolDock 是常驻可扫视的。"
+          },
+          {
+            "name": "Übersicht",
+            "url": "https://tracesof.net/uebersicht/",
+            "comparison": "开源免费、可写代码做任意桌面小部件，但配置门槛高、没有成品组件库。"
+          },
+          {
+            "name": "Widgy / Widgetsmith",
+            "url": "https://widgetsmith.app/",
+            "comparison": "主要覆盖 iPhone/iPad 与 macOS 桌面小组件，交互仍受限，无法像 Dock 一样承载快捷动作。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-11-04T12:09:07+08:00"
+    },
+    {
+      "id": "producthunt.com/r/p/1283650",
+      "name": "bonds（群聊里的 AI 朋友 bondi）",
+      "slug": "bonds",
+      "description": "一款给朋友群聊配一个 AI 伙伴的社交应用：每个聊天都有自己的 bondi，会记住你们的梗、把旅行计划变成共享相册、把“一个月不刷 TikTok”变成打卡小应用、把随手拍的丑照做成贴纸，还会在你消失太久时闹脾气。",
+      "url": "https://bonds.chat/",
+      "homepage": "https://bonds.chat/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1283650_20261021_120830.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 社交",
+        "群聊",
+        "生成式界面",
+        "Z 世代",
+        "陪伴"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/bonds-2",
+      "firstSeen": "2026-10-21T12:07:43.038440+08:00",
+      "analysis": {
+        "targetAudience": "把大部分社交时间放在群聊里的 Z 世代，以及想和伴侣、老友一起玩点什么的人。",
+        "useCases": [
+          "和死党组团时让 bondi 排计划、收照片、生成行程相册",
+          "发起“一个月不刷 TikTok”挑战，它现场生成带打卡的挑战应用",
+          "朋友生日时用它把群里的内部梗写成一首语音歌",
+          "把当晚最丑的一张照片一键变成贴纸",
+          "群里有人情绪不对时，它悄悄注意到并搭句话"
+        ],
+        "designIntent": "这一代 AI 助手全是单人模式：帮你订餐、填表、回邮件。但年轻人真正待着的地方是朋友群聊，于是 bonds 把 AI 做成群体成员而不是工具，用生成式界面在现场造出大家共用的小玩意。",
+        "problemSolved": "解决群聊里“只剩转发和表情包”的互动贫乏，以及单人 AI 助手无法承载多人共享记忆与共同行动的问题。",
+        "tags": [
+          "AI 社交",
+          "群聊",
+          "生成式界面",
+          "Z 世代",
+          "陪伴"
+        ],
+        "score": 7,
+        "scoreReason": "思路比同类产品新一档：把 AI 做成群成员，并真的把生成结果落成可用的应用、相册、歌曲，而非只是一段回复。扣分在娱乐属性强、留存待验证，且需要拉上朋友一起才成立。",
+        "competitors": [
+          {
+            "name": "Meta AI in WhatsApp",
+            "url": "https://www.meta.ai/",
+            "comparison": "分发优势巨大、零安装，但本质是群里的问答机器人，不会生成大家共用的应用或回忆。"
+          },
+          {
+            "name": "Discord Clyde 类机器人",
+            "url": "https://discord.com/",
+            "comparison": "可接入现成群组、可写插件，但需要自己配置，体验偏工具化、缺少情感设计与人的成长感。"
+          },
+          {
+            "name": "Snapchat My AI",
+            "url": "https://www.snapchat.com/",
+            "comparison": "同样嵌在年轻人的聊天场景里，但定位是私人助手，不参与多人互动与共同创作。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-11-04T12:09:07+08:00"
     }
   ],
-  "lastUpdated": "2026-10-20T12:20:46.846325+08:00"
+  "lastUpdated": "2026-10-21T12:09:07+08:00"
 }
