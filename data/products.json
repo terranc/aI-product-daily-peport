@@ -43993,7 +43993,287 @@
         ]
       },
       "cooldownExpiresAt": "2026-11-04T12:09:07+08:00"
+    },
+    {
+      "id": "producthunt.com/r/p/1286656",
+      "name": "Doozy（AskDoozy）",
+      "slug": "doozy-slack-ai-coworker",
+      "description": "住在 Slack 里的 AI 同事：在对话线程里把任务派给它，它会到你的数据库、Stripe、GitHub、Linear、PostHog 等真实系统里把活干完，并把结果、文件和每一步的操作凭据发回同一个线程。",
+      "url": "https://askdoozy.com/",
+      "homepage": "https://askdoozy.com/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1286656.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "Slack 机器人",
+        "AI 同事",
+        "任务自动化",
+        "企业系统连接",
+        "操作审计"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/askdoozy",
+      "firstSeen": "2026-10-20T06:14:45-07:00",
+      "analysis": {
+        "targetAudience": "用 Slack 协作、又被跨系统重复劳动拖住的 10-200 人团队（支持、运营、销售、初创创始人）。",
+        "useCases": [
+          "让它在线程里查“为什么 Acme 被重复扣费”，并附上账单与工单截图",
+          "每周一自动把注册/流失数据发到 #leadership 频道",
+          "跨 Stripe、Linear、GitHub 对账并生成表格",
+          "把一次通话内容写回 CRM 并安排下一步",
+          "在部署后自动排查报错、开 issue 并提交 PR"
+        ],
+        "designIntent": "作者原本在自家公司做客服，发现团队一直在等工程师帮忙跑 SQL、查 bug，于是先做了一个只读 Postgres/Stripe 的 Slack 机器人。被客服和客户成功用疯之后，重写成多租户产品，目标是把“招一个能自己找工具干活的新同事”这件事变成装一个 Slack 应用。",
+        "problemSolved": "解决“知道要做什么、但要在十几个系统间来回搬数据”的协调成本。它把碎片化的取数、对账、写报告、开单交给一个能在真实系统里行动的助理，并留下可核对的操作记录。",
+        "score": 9,
+        "scoreReason": "定位极其具体（Slack 线程内交付），安全设计是同类里少见的认真：每次任务在一次性沙箱里跑、凭据不进沙箱、破坏性工具默认关闭、动作全程留痕。定价按 workspace 包干、不分席位，对小团队友好；扣分在于强依赖 Slack 生态，且企业采购仍会追问数据边界。",
+        "competitors": [
+          {
+            "name": "Notion Agent",
+            "url": "https://www.notion.com/product/ai",
+            "comparison": "同样能长时间自主执行任务，但活在 Notion 工作区内，碰不到 Stripe/Postgres 这类生产系统。"
+          },
+          {
+            "name": "Zapier Agents",
+            "url": "https://zapier.com/agents",
+            "comparison": "覆盖面更广的自动化平台，但配置以触发器/动作流为中心，不像 Doozy 那样在一个对话线程里交代任务并拿回成品。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-11-05T04:09:22.986676+00:00",
+      "lastFeaturedDate": "2026-10-22T04:09:22.986676+00:00",
+      "metrics": {
+        "featuredInDaily": true
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1286436",
+      "name": "Woven Video（Mac AI 视频剪辑器）",
+      "slug": "woven-video",
+      "description": "Mac 原生 AI 视频剪辑器：导入素材后用聊天描述你要的成片，AI 在真实多轨时间线上完成初剪、加字幕特效与配乐，你随后手动微调；缺镜头时它还能直接生成图片、视频和音乐。",
+      "url": "https://www.woven.video/",
+      "homepage": "https://www.woven.video/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1286436.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 视频剪辑",
+        "Mac 原生",
+        "对话式编辑",
+        "多轨时间线",
+        "素材生成"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/woven-video",
+      "firstSeen": "2026-10-20T02:27:15-07:00",
+      "analysis": {
+        "targetAudience": "一个人做 YouTube 长视频、Shorts、Reels、播客切片与产品演示的个人创作者和小团队。",
+        "useCases": [
+          "把散乱素材一键剪成 30 秒竖版产品演示并加字幕",
+          "长播客自动卡点切片并生成多平台版本",
+          "参考一条喜欢的爆款视频拆解钩子与节奏",
+          "聊天空镜时现场生成补镜头画面与 BGM",
+          "从自己网站抓品牌色和 Logo 统一套版"
+        ],
+        "designIntent": "团队认为纯聊天式 AI 剪辑的结果无法精修、纯时间线剪辑又要人工做全部机械活，于是做成“AI 出初剪 + 人手精修”的组合。项目文件保存在本地文件夹，也能被 Claude Code、Codex 这类本机 AI 应用调用来自动产出视频。",
+        "problemSolved": "解决“AI 生成的视频改不动、专业剪辑器又太耗时”的两难。它省掉粗剪、字幕、配乐这些机械环节，同时把最终控制权留在可手动调整的时间线上。",
+        "score": 9,
+        "scoreReason": "把生成式 AI 嵌进专业剪辑器的成熟交互里，而不是另起一个黑盒工具，落地性明显高于同类。支持用已有 ChatGPT 订阅额度跑模型，省一份钱；缺点是目前仅 macOS 15+，订阅 $39/月或 $299/年偏贵，且不含素材库与发布功能。",
+        "competitors": [
+          {
+            "name": "Descript",
+            "url": "https://www.descript.com/",
+            "comparison": "以文本编辑驱动剪辑，播客场景更强，但 AI 代理不直接操作专业多轨时间线。"
+          },
+          {
+            "name": "CapCut",
+            "url": "https://www.capcut.com/",
+            "comparison": "免费易用、模板丰富，面向快剪；Woven 更贴近专业剪辑器的图层、关键帧与蒙版能力。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-11-05T04:09:22.986676+00:00",
+      "lastFeaturedDate": "2026-10-22T04:09:22.986676+00:00",
+      "metrics": {
+        "featuredInDaily": true
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1286524",
+      "name": "PrivOS",
+      "slug": "privos",
+      "description": "可私有化部署的“企业 AI 操作系统”：把团队聊天、文档、任务看板与 AI 代理放在同一套自托管平台里，代理按房间隔离权限、可审批、全程审计。",
+      "url": "https://privos.ai/",
+      "homepage": "https://privos.ai/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1286524.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "自托管",
+        "企业协作",
+        "AI 代理",
+        "数据主权",
+        "工作流自动化"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/privos",
+      "firstSeen": "2026-10-20T03:54:16-07:00",
+      "analysis": {
+        "targetAudience": "对数据出境敏感、又想让 AI 深度参与日常协作的中大型企业（制造、医疗、金融、政企内网）。",
+        "useCases": [
+          "用一套自托管系统替换 Slack+Notion+看板+工单四五个 SaaS",
+          "销售代理自动打分线索并推进流程、HR 代理处理入职合规",
+          "内网完全断网环境下运行 AI 代理",
+          "聊天里点按钮即可完成审批的自动化工作流",
+          "按房间隔离数据，客服代理看不到 HR 数据"
+        ],
+        "designIntent": "团队判断企业不缺 AI 模型，缺的是一个“代理和人共用同一份上下文”的操作系统，于是用自托管把聊天、数据表、文档、沙箱代理四层叠在一起。既提供云托管，也支持一键私有化乃至气隙部署。",
+        "problemSolved": "解决企业“想上 AI 代理但不敢把数据交给第三方”的核心顾虑，同时缓解工具碎片化——把六类 SaaS 收成一个平台，代理天然能读到对话、文件和任务。",
+        "score": 8,
+        "scoreReason": "隐私与权限模型是企业级 AI 落地的真痛点，房间级隔离 + 人审闸门 + 审计日志的组合很务实，社区版免费支持 10 人。但自托管安装目前仍是 Beta、明确写着可能装到一半坏掉；且产品面铺得很宽，容易在每一条上都弱于专精工具。",
+        "competitors": [
+          {
+            "name": "Notion",
+            "url": "https://www.notion.com/",
+            "comparison": "文档与知识库体验成熟、代理能力强，但只能使用其云端，无法完全自托管。"
+          },
+          {
+            "name": "Mattermost",
+            "url": "https://mattermost.com/",
+            "comparison": "同为可自托管的团队沟通平台，但缺少内建的 AI 代理与数据库/看板层，需要自行拼装。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-11-05T04:09:22.986676+00:00",
+      "lastFeaturedDate": "2026-10-22T04:09:22.986676+00:00",
+      "metrics": {
+        "featuredInDaily": true
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1284915",
+      "name": "Stella（情绪健康 AI）",
+      "slug": "stella-emotional-wellness",
+      "description": "主打情绪健康的对话式 AI：可以在 iPhone 应用里语音聊、也可以直接在 iMessage 里给她发短信，帮你把混乱的情绪讲清楚、换个视角，并挑一个能落地的小动作。",
+      "url": "https://www.stellalabs.ai/",
+      "homepage": "https://www.stellalabs.ai/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1284915.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "情绪健康",
+        "AI 陪伴",
+        "语音对话",
+        "iMessage 集成",
+        "心理自助"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/stella-5",
+      "firstSeen": "2026-10-18T20:42:11-07:00",
+      "analysis": {
+        "targetAudience": "夜里反复内耗、又不想麻烦朋友的都市年轻人，尤其是被社交关系与工作压力困扰的 iPhone 用户。",
+        "useCases": [
+          "凌晨睡不着，讲清楚今天到底哪里难受",
+          "一条改了六遍的消息，先跟她演练怎么发",
+          "朋友聚会总被落下，梳理要不要开口",
+          "把对话结论存成一条“我今天落在哪了”的记录",
+          "通勤路上不方便说话时，直接用 iMessage 打字"
+        ],
+        "designIntent": "创始人母亲因脑癌去世后，他想做一个“能一起把事情想明白的朋友”。团队刻意回避了打卡、连续天数、冥想课程那套产品化设计，强调“说得多乱都行，最后给你一句明白话”。",
+        "problemSolved": "解决深夜情绪失衡时“找朋友怕打扰、找冥想 App 又不接话、找心理咨询要等排期”的空窗。它提供即时、不带评判、有记忆的对话，并把对话收敛成一个可执行的小决定。",
+        "score": 8,
+        "scoreReason": "场景切得极准（凌晨的情绪空窗），短信内原生使用大幅降低了启动门槛，创始人故事也让产品气质可信。风险在医疗合规边界与长期留存——明确声明不是治疗，付费 $9.99/月后留存取决于对话质量，且目前仅限 iOS 与美区语境。",
+        "competitors": [
+          {
+            "name": "Wysa",
+            "url": "https://www.wysa.com/",
+            "comparison": "偏 CBT 自助练习与情绪追踪，临床框架更重，但对话灵活度与“像朋友”的体验不如 Stella。"
+          },
+          {
+            "name": "Pi",
+            "url": "https://pi.ai/",
+            "comparison": "通用情感陪伴型对话 AI，免费且多平台；Stella 更聚焦具体情绪事件与下一步行动，并深度嵌入 iMessage。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-11-05T04:09:22.986676+00:00",
+      "lastFeaturedDate": "2026-10-22T04:09:22.986676+00:00",
+      "metrics": {
+        "featuredInDaily": true
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1285764",
+      "name": "call4me",
+      "slug": "call4me",
+      "description": "给你的 AI 代理配一个能打电话的号码：通过 MCP 接入 ChatGPT、Claude、Codex 等，让它替你去预约、改期、问客服、听电话菜单和排队等待，通话结束把结果、转写和录音交回来。",
+      "url": "https://call4.me/",
+      "homepage": "https://call4.me/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1285764.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 打电话",
+        "语音代理",
+        "MCP 接入",
+        "预约代办",
+        "人机同线"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/call4me",
+      "firstSeen": "2026-10-19T11:24:29-07:00",
+      "analysis": {
+        "targetAudience": "已经在用 ChatGPT/Claude 处理任务的个人与开发者，以及需要频繁对外电话沟通（预约、售后）的自由职业者。",
+        "useCases": [
+          "把周四下午三点的牙医预约改到周五",
+          "打电话订明晚 7 点四人桌",
+          "向客服问清退改签规则并等完整排队",
+          "接入自动续费的宽带/保险，谈取消条件",
+          "人工接通时一键转接，自己只谈关键部分"
+        ],
+        "designIntent": "团队观察到 AI 代理能读网页、能写代码，却卡在“这件事只能打电话问”这一步，于是专门做了电话这一能力层。设计上强调代理永远以“替你办事”的身份通话，不说自己是用户本人；只做预约、咨询这类正常人会打的电话。",
+        "problemSolved": "解决最后一段纯人工电话环节——电话菜单、排队等待、反复转接最耗时间，而网站上偏偏查不到答案。它把这 20 分钟变成一次指令，并留下可复核的录音与转写。",
+        "score": 8,
+        "scoreReason": "这是“AI 代理接入现实世界”最实用的一步，MCP 即插即用、支持中途转接和监听，$0.25/分钟按量计费很轻。隐忧在于地区覆盖（需本地号码才可用）、通话合规与诈骗滥用风险，产品也明确写了不接受电销类用途。",
+        "competitors": [
+          {
+            "name": "Bland AI",
+            "url": "https://www.bland.ai/",
+            "comparison": "面向企业的电话 AI 平台，可定制呼叫流程与坐席，但需要自己做集成，不像 call4me 那样给个人代理一句话调用。"
+          },
+          {
+            "name": "Vapi",
+            "url": "https://vapi.ai/",
+            "comparison": "语音代理开发平台，灵活度与可控性更高，偏开发者自建；call4me 是拿来即用的成品电话能力。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-11-05T04:09:22.986676+00:00",
+      "lastFeaturedDate": "2026-10-22T04:09:22.986676+00:00",
+      "metrics": {
+        "featuredInDaily": true
+      }
     }
   ],
-  "lastUpdated": "2026-10-21T12:09:07+08:00"
+  "lastUpdated": "2026-10-22T04:09:22.986676+00:00"
 }
