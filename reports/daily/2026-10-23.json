@@ -1,0 +1,287 @@
+{
+  "date": "2026-10-23",
+  "generatedAt": "2026-10-23T04:06:34.511669+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "producthunt.com/r/p/1288373",
+      "name": "Sponkly — 32 种语言的实时翻译聊天、通话与会议",
+      "slug": "sponkly",
+      "description": "把聊天、语音/视频通话和视频会议都做成「各说各的母语」：每人在 32 种语言里选自己的，对方看到实时字幕、听到自然的合成语音翻译，整句延迟约 1-2 秒。网页版和 Chrome 扩展还能给 YouTube、网课、Google Meet、Teams、Zoom 加实时双语字幕，聊天内容端到端加密。",
+      "url": "https://sponkly.com",
+      "homepage": "https://sponkly.com",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1288373.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "实时翻译",
+        "跨语言会议",
+        "同声传译",
+        "Chrome 扩展",
+        "端到端加密"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/sponkly",
+      "firstSeen": "2026-10-21T13:59:15-07:00",
+      "analysis": {
+        "targetAudience": "需要跨语言沟通的跨境团队、外贸从业者、留学生和新移民，以及看外语网课/直播的学习者。",
+        "useCases": [
+          "和外国客户开 Zoom/Teams 会议，双方各自听母语",
+          "在 WhatsApp 式的一对一聊天里自动互译文字与语音消息",
+          "给 YouTube 网课和国外直播加双语字幕",
+          "海外仓/代购与当地供应商日常电话沟通",
+          "入境旅游时和当地人语音对话"
+        ],
+        "designIntent": "团队想解决的是「语言不通」背后真实的社交成本：不是缺翻译工具，而是每说一句都要复制粘贴进翻译器，对话节奏被打断。于是把翻译搬进通话链路本身，让每个人只用自己熟悉的语言开口。",
+        "problemSolved": "传统方案要么是会后看纪要（已经错过时机），要么是打字翻译（丢失语气和效率）。Sponkly 让翻译发生在说话的同时，并保持聊天内容的端到端加密，避免商务沟通内容外泄。",
+        "score": 9,
+        "scoreReason": "把语音识别、翻译、语音合成串成一条真实的双向同传链路，且覆盖聊天、通话、会议、网页视频四条常见场景，落地完成度高。1-2 秒延迟已接近可用的对话体验，32 种语言 + 端到端加密在同类里少见。",
+        "competitors": [
+          {
+            "name": "Wordly",
+            "url": "https://www.wordly.ai/",
+            "comparison": "Wordly 主打企业会议/直播的 AI 同传字幕，偏 B 端采购；Sponkly 是普通人下载就能用的消费级应用，还能翻译个人聊天。"
+          },
+          {
+            "name": "ElevenLabs Realtime Translation",
+            "url": "https://elevenlabs.io/",
+            "comparison": "ElevenLabs 提供的是语音翻译能力（模型/API）与简单的实时翻译界面；Sponkly 是把这项能力做成完整的聊天+会议产品。"
+          },
+          {
+            "name": "DeepL",
+            "url": "https://www.deepl.com/",
+            "comparison": "DeepL 强在文本与文档翻译质量，但需要复制粘贴、不介入实时对话；Sponkly 直接接管语音链路。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1289248",
+      "name": "Radaric — 会学习你编辑口味的 AI 阅读器",
+      "slug": "radaric",
+      "description": "把 RSS、Telegram（含私密频道）、X、YouTube 汇成一个信息流，你只要用自然语言写出「什么值得读」，AI 就给每条内容打置信分并说明理由；你的通过/拒绝/写原因会持续训练这个过滤器。同一件事被 15 个源报道时，自动合并成一条带全部原文链接的故事。",
+      "url": "https://radaric.pro",
+      "homepage": "https://radaric.pro",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1289248.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 内容筛选",
+        "RSS 阅读器",
+        "个性化推荐",
+        "信息聚合",
+        "去重"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/radaric",
+      "firstSeen": "2026-10-21T13:59:15-07:00",
+      "analysis": {
+        "targetAudience": "需要每天处理大量信源的行业观察者、 Newsletter 编辑、内容策划与投资人。",
+        "useCases": [
+          "把上百个 RSS/Telegram 频道压成 20 分钟的每日必读",
+          "为写作选题筛选「案例研究 vs 企业公关稿」",
+          "把同一事件的十几篇转载合并成一条带原文链接的故事",
+          "给 YouTube 频道自动读字幕并筛选",
+          "给团队做行业舆情监控，看 AI 为什么丢掉某条"
+        ],
+        "designIntent": "作者做了 500 多期设计周报，长期在几百条帖子中手动挑素材，于是把自己判断内容的规则写进产品：先给一套全局与分源规则，让过滤器一开始就接近编辑口味，后续靠少量纠错来校准，而不是从零训练。",
+        "problemSolved": "关键词过滤分不清「实操案例、产品小更新、公司 PR」三者，用户在信息过载里反复读到噪音；同时同一事件被多源转载造成重复消耗。Radaric 用可解释的 AI 打分 + 跨源故事合并来解决这两个问题，并保留被拒内容随时回看。",
+        "score": 8,
+        "scoreReason": "「可解释的过滤理由 + 用拒绝原因训练」是很扎实的产品洞察，跨源故事合并也直接命中信息过载痛点，支持 Telegram 私密频道是同类 RSS 工具少有的能力。扣分点是付费墙偏高（Lite 9 美元、Pro 59 美元）且需要用户先投入配置成本。",
+        "competitors": [
+          {
+            "name": "Feedly",
+            "url": "https://feedly.com/",
+            "comparison": "Feedly 的 AI 对所有用户是同一套模型，只有关键词/热度过滤；Radaric 的过滤器按你的反馈个性化，并解释每条判断的理由。"
+          },
+          {
+            "name": "Inoreader",
+            "url": "https://www.inoreader.com/",
+            "comparison": "Inoreader 强在规则引擎与自动化，但规则要自己写、不理解语义；Radaric 用自然语言描述标准，还能读 YouTube 字幕和 Telegram。"
+          },
+          {
+            "name": "Readwise Reader",
+            "url": "https://readwise.io/read",
+            "comparison": "Readwise Reader 偏重收集与标注后的阅读体验；Radaric 重点在「进门之前」的筛选与跨源去重。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1289139",
+      "name": "Claire Mail — 邮件、日历与提醒合成的极速工作台",
+      "slug": "claire-mail",
+      "description": "为 Mac 和 iPhone 做的邮件客户端，把 Gmail、Google 日历和 Apple 提醒事项收进同一个界面：以卡片方式逐封处理邮件（归档/稍后/置顶/回复），每天早晨用 AI 写一段「你错过了什么、今天要到什么、下一件事」的简报，开会前根据邮件自动准备待议问题。AI 可选本地 Apple Intelligence，也可接自己的 Claude/OpenAI/Gemini/Ollama key。",
+      "url": "https://clairemail.app",
+      "homepage": "https://clairemail.app",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1289139.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "邮件客户端",
+        "AI 简报",
+        "会议准备",
+        "日历整合",
+        "隐私优先"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/claire-mail",
+      "firstSeen": "2026-10-13T10:00:00-07:00",
+      "analysis": {
+        "targetAudience": "每天被邮件和日程淹没的 Mac/iPhone 知识工作者、创业者与自由职业者。",
+        "useCases": [
+          "早上用一段 AI 简报快速掌握今天要处理的事",
+          "像刷卡片一样十分钟清空收件箱",
+          "开下一个会之前一键生成待议问题",
+          "把 Google 日历和 Apple 提醒事项放在同一视图处理",
+          "用自带的模型 key 让 AI 处理敏感邮件内容"
+        ],
+        "designIntent": "作者试遍了各类「邮件+日历合一」工具，最后总退回 Gmail，于是从「每天真正要做的事」出发重构界面：把收件箱和提醒事项都变成一次一个决策的卡片流，再用 AI 补上简报与会议准备这两件最耗时的事。",
+        "problemSolved": "邮件、日历、待办分散在三个 App，每天在切换中丢掉上下文，也容易被长列表淹没不断往下滚。Claire 把它们压进一个 Today 视图 + 卡片式决策流，并让 AI 只做「提建议、等你点」的辅助角色，不自行发信或归档。",
+        "score": 8,
+        "scoreReason": "卡片式逐条处理与每日简报的设计很克制，AI 位置摆得准（可选、可切本地、不代替你做动作）。隐私选项做得比同类大厂客户端更透明。扣分在于目前仍是 TestFlight 早期访问、只支持 Gmail/Workspace，且 AI 简报功能的价值取决于用户邮件结构化程度。",
+        "competitors": [
+          {
+            "name": "Superhuman",
+            "url": "https://superhuman.com/",
+            "comparison": "Superhuman 以键盘快捷键和速度著称但价格昂贵；Claire 更强调 AI 简报与把提醒事项并入同一流程。"
+          },
+          {
+            "name": "Spark",
+            "url": "https://sparkmailapp.com/",
+            "comparison": "Spark 有团队协作与智能收件箱，界面更传统；Claire 走「一次一张卡」的极端极简路线。"
+          },
+          {
+            "name": "Notion Mail",
+            "url": "https://www.notion.com/product/mail",
+            "comparison": "Notion Mail 深度绑定 Notion 生态；Claire 不绑定生态，可接本地 Apple Intelligence 自有 key。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1286781",
+      "name": "Notif — 给 Apple 提醒事项装上 AI 与下一步按钮",
+      "slug": "notif",
+      "description": "一款 iPhone/iPad 应用，把 Apple 提醒事项升级成「可执行」的：你照常写一条提醒，Notif 会补上一条 Insight（诸如护照需剩余 6 个月有效期、某地营业时间、计划当天是否会下雨）和一个 Action Button，一点直接到地图、店舖、官网或订位页面。笔记仍是真正的 Apple 提醒，跨设备同步并支持 Siri 与小组件；私密笔记在手机上 AES-256 加密、Face ID 解锁。",
+      "url": "https://trynotif.app",
+      "homepage": "https://trynotif.app",
+      "type": "app",
+      "appStoreName": "Notif - AI Reminders",
+      "appStoreUrl": "https://apps.apple.com/us/app/notif-ai-reminders/id6792517125",
+      "appStoreScreenshots": [],
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1286781.png",
+      "tags": [
+        "待办清单",
+        "Apple 生态",
+        "AI 提示",
+        "隐私加密",
+        "效率工具"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/notif-2",
+      "firstSeen": "2026-10-20T10:00:00-07:00",
+      "analysis": {
+        "targetAudience": "已深度使用 Apple 提醒事项/生态、希望待办能直接推进到下一步的 iPhone 与 iPad 用户。",
+        "useCases": [
+          "写「换护照」，自动提示有效期要求并给到 travel.state.gov 的按钮",
+          "写「取干洗」，一键打开附近的干洗店",
+          "写「订周五晚餐」，直达订位页面",
+          "让 AI 每天早上围绕日历给出一份当天优先级建议",
+          "把不便外泄的私密事项加密在手机本地"
+        ],
+        "designIntent": "作者不想再造一个待办 App，而是选择增强用户已经在用的 Apple 提醒事项：每条笔记只多加两样东西（一条有用的提示、一个下一步按钮），让「记下来」变成「顺手做完」。",
+        "problemSolved": "待办清单最大的问题不是记不住，而是记下来了却没有下一步动作，用户仍要自己去搜地址、找链接、查政策。Notif 用一条 Insight + 一个按钮把「信息缺口」和「执行动作」补在提醒本身上，同时坚持不上传笔记、不做账号体系。",
+        "score": 8,
+        "scoreReason": "克制而实用的加法设计，没有另起一套待办生态，反而顺着 Apple 原生能力做增强；隐私方案（不上服务器、私密笔记本地加密、Pro 计划走 Private Cloud Compute）比多数 AI 待办 App 都干净。扣分在于 App Store 评分样本还少、支持地区与语言有限。",
+        "competitors": [
+          {
+            "name": "Things 3",
+            "url": "https://culturedcode.com/things/",
+            "comparison": "Things 3 是无 AI 的顶级 GTD 应用，强调结构与手感；Notif 不替换待办本体，只在 Apple 提醒事项上加 AI 提示与动作按钮。"
+          },
+          {
+            "name": "Sunsama",
+            "url": "https://www.sunsama.com/",
+            "comparison": "Sunsama 走桌面端的每日规划仪式与多工具同步；Notif 在手机上就地完成，不要求另建一套工作流。"
+          },
+          {
+            "name": "Apple 提醒事项",
+            "url": "https://www.apple.com/reminders/",
+            "comparison": "原生提醒事项只有记录与提醒，需要用户自己完成后续搜索与跳转；Notif 正是补上这最后一公里。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1288935",
+      "name": "Dadan — 录屏、开会、录教程合一站的 AI 视频工作台",
+      "slug": "dadan",
+      "description": "AI 驱动的视频平台：录屏或录制会议后，用 transcript 直接剪片、自动生成字幕/摘要/章节与会议纪要，把一段操作流程自动变成带步骤截图的分步指南（可翻译 180+ 种语言、导出 PDF 或在线分享），还能在视频里插入投票、CTA 和表单并追踪观看数据。",
+      "url": "https://www.dadan.io",
+      "homepage": "https://www.dadan.io",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1288935.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 视频剪辑",
+        "录屏工具",
+        "会议纪要",
+        "分步指南",
+        "互动视频"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/dadan",
+      "firstSeen": "2026-10-20T10:00:00-07:00",
+      "analysis": {
+        "targetAudience": "做产品演示、客户培训、销售材料与在线课程的内容/市场/销售团队，以及需要写操作文档的支持团队。",
+        "useCases": [
+          "录一段后台操作流程，自动生成带截图的分步帮助中心文档",
+          "会议后直接拿到转写、摘要与待办清单",
+          "把长视频用 transcript 一刀剪短，自动去掉静音和口头禅",
+          "给演示视频插入表单与 CTA 收集线索",
+          "把教程翻译成 180+ 种语言分发给全球团队"
+        ],
+        "designIntent": "团队认为一段录屏往往只是起点：之后还要剪辑、加字幕、写成指南、分享、再做互动，于是把这条链路收进一个平台，避免在录屏工具、剪辑器、文档工具之间来回搬运文件。",
+        "problemSolved": "企业知识往往锁在别人看完了却没记住的录屏里，而写成图文教程又要额外几小时，于是一拖再拖、软件更新后文档过期。Dadan 用 AI 把录屏自动转成分步指南与纪要，让「录一遍」直接变成可复用的知识资产。",
+        "score": 7,
+        "scoreReason": "录屏自动转分步指南是真正省人力的功能，加上 transcript 剪辑与互动视频，覆盖了内容团队完整链路，产品成熟度（4.8 分 G2 评价、多端支持）也不错。但整体更像功能堆叠型工具，Loom、Tella 等已占住心智，差异化主要在「一键变指南」这一块。",
+        "competitors": [
+          {
+            "name": "Loom",
+            "url": "https://www.loom.com/",
+            "comparison": "Loom 胜在录屏分享的轻量与传播，AI 偏字幕与摘要；Dadan 把录屏延伸成分步指南、互动表单与会议纪要。"
+          },
+          {
+            "name": "Tella",
+            "url": "https://www.tella.tv/",
+            "comparison": "Tella 主打浏览器内的高完成度剪辑与画面美观；Dadan 更偏团队知识沉淀与转化追踪。"
+          },
+          {
+            "name": "Scribe",
+            "url": "https://scribehow.com/",
+            "comparison": "Scribe 专注把操作自动写成图文 SOP；Dadan 同时保留了视频形态与互动元素，适合既想要视频又要文档的团队。"
+          }
+        ]
+      }
+    }
+  ]
+}
