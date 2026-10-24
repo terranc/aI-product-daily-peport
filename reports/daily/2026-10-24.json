@@ -1,0 +1,285 @@
+{
+ "date": "2026-10-24",
+ "generatedAt": "2026-10-24T04:12:07.327473+00:00",
+ "productCount": 5,
+ "products": [
+  {
+   "id": "producthunt.com/r/p/1289925",
+   "name": "ShogunAI — 住在 Mac 刘海里的私人工作助理",
+   "slug": "shogunai",
+   "description": "一款常驻 macOS 刘海/AI 面板的个人助理：边工作边把邮件、会议、文档与日历里的上下文记成私人记忆（默认存在本机），按 ⌥ 键在任意输入框里直接续写回复，自动把会议转成纪要、决定与承诺，能跨邮件/聊天/文档/日历统一检索并给出出处，还会在每天开工前给一份简报。所有会发给他人的动作都必须你先批准。",
+   "url": "https://shogunai.si",
+   "homepage": "https://shogunai.si",
+   "type": "app",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1289925.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "个人助理",
+    "本地记忆",
+    "会议纪要",
+    "跨应用检索",
+    "macOS"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/shogunai",
+   "firstSeen": "2026-10-22T23:32:57-07:00",
+   "analysis": {
+    "targetAudience": "邮件与会议极多、每天要重建上下文的知识工作者：咨询/销售/项目经理/创业者。",
+    "useCases": [
+     "在任意应用里按 ⌥，让 AI 根据你之前和这个人的往来直接写好回复草稿",
+     "开完会不再自己整理，自动得到摘要、已决定事项和每个人答应的事",
+     "用一句话跨邮件、聊天、文档和日历检索「上次这事定到哪一步了」，每条答案带出处",
+     "每天开工前拿一份简报：昨晚发生了什么、还有哪些事悬着、你答应过谁什么",
+     "和外国同事开会时开双向实时翻译，事后只留下文字记录而不是录音"
+    ],
+    "designIntent": "作者认为「个人 AGI」不会以更强的聊天窗口形式出现，而是以知道你全部工作状态的代理形式出现，于是把它做成常驻在 Mac 刘海里的东西：自己积累上下文、自己带出处、自己把开环的事往前推。",
+    "problemSolved": "用 AI 每天最大的浪费是重复交代背景——上周的决定、还开着的线程、谁答应过什么，每次都要重新粘一遍；拿到答案后还要自己复制、找文件、发出去。ShogunAI 把「记忆」和「动手」两半都接了过去，让同一个模型第一次真的了解你。",
+    "scoreReason": "把「本地记忆 + 带出处检索 + 在原生应用里执行」三件事串起来了，这是多数 AI 助理只做一半的地方；发出去的动作必须人工批准的设计也很成熟，隐私边界写得清楚。扣分在：仅 macOS Apple Silicon、$49~$99/月的定价相当激进，而且同类「私人记忆助理」正在扎堆出现，差异化还能不能守住要看后续。",
+    "competitors": [
+     {
+      "name": "Rewind / Limitless",
+      "url": "https://www.limitless.ai/",
+      "comparison": "它们强在无差别录屏录音、事后回放；ShogunAI 只留文字与出处，并且能直接在工具里把事做完。"
+     },
+     {
+      "name": "Raycast AI",
+      "url": "https://www.raycast.com/",
+      "comparison": "Raycast 是命令入口加通用 AI 对话；ShogunAI 的重点在跨工具的长期工作记忆与待办闭环。"
+     },
+     {
+      "name": "Microsoft Copilot",
+      "url": "https://copilot.microsoft.com/",
+      "comparison": "Copilot 依托 Office/M365 生态、数据在云上；ShogunAI 面向个人本机、记忆留在本地并可自带模型。"
+     }
+    ],
+    "score": 8
+   }
+  },
+  {
+   "id": "producthunt.com/r/p/1288430",
+   "name": "Bits — 开源、常驻本机的个人助理",
+   "slug": "bits",
+   "description": "跑在自己电脑上的开源个人代理：一个后台守护进程按计划唤醒执行例行任务，关掉应用也不影响任务继续跑，每一步都有存档所以崩溃能续做；记忆就是你能直接读改的 Markdown 文件；动手前有 Sentinel 审一道，只认你亲口说过的授权；回复用可交互的卡片和小应用呈现，支持语音、⌥Space 唤起，可接任意模型包括本地模型。",
+   "url": "https://bits.interfacesforhuman.com",
+   "homepage": "https://bits.interfacesforhuman.com",
+   "type": "app",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1288430.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "个人助理",
+    "开源",
+    "本地优先",
+    "语音交互",
+    "Markdown 记忆"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/bits-4",
+   "firstSeen": "2026-10-21T13:59:15-07:00",
+   "analysis": {
+    "targetAudience": "想用常驻式个人助理、但不愿意把邮件/文件/记忆交给云端服务的重度电脑用户与小团队。",
+    "useCases": [
+     "设置每日/每周例行：自动整理收件箱、汇总简报、盯几个关键信息源",
+     "关掉应用去开会，回来发现任务已经在自己机器上跑完了",
+     "打开 ~/.bits 里的 Markdown 直接改掉它记错的事，不用重新训练",
+     "用语音在 ⌥Space 里派活，结果以卡片/小应用返回，而不是一段聊天文字",
+     "搭配 Ollama + Qwen，在 16GB 内存的机器上完全离线使用"
+    ],
+    "designIntent": "团队认为真正的个人助理必须「一直在」且「归你所有」：所以做成常驻后台进程、记忆写成明文件、可配本地模型，并加一层 Sentinel 让代理在动手前必须拿到你本人的明确授权。",
+    "problemSolved": "云端个人助理要你把隐私交出去，而且关掉网页就停；编码型代理工具又只服务代码。Bits 补上中间这块——一个能长期在床上运行、数据不出本机、出错你能自己改的桌面助理。",
+    "scoreReason": "常驻守护进程 + 断点续跑 + 纯 Markdown 记忆这几项对「个人助理」来说是真正对路的设计，Sentinel 授权层也算少见的谨慎。但本质仍是开源 agent 运行时，普通用户要装 Ollama、改配置文件，门槛高；界面和小应用生态还在早期。",
+    "competitors": [
+     {
+      "name": "OpenClaw",
+      "url": "https://openclaw.ai/",
+      "comparison": "OpenClaw 走开源代理路线但偏技术用户与自托管；Bits 更强调开箱可用的桌面交互（⌥Space、语音、卡片）。"
+     },
+     {
+      "name": "Raycast",
+      "url": "https://www.raycast.com/",
+      "comparison": "Raycast 是闭源、云依赖的启动器生态；Bits 开源、可完全本地、记忆可读。"
+     },
+     {
+      "name": "Apple Intelligence / Siri",
+      "url": "https://www.apple.com/apple-intelligence/",
+      "comparison": "系统级助理胜在无感集成；Bits 的优势是能调度任意模型、跑长时任务和自定义例行。"
+     }
+    ],
+    "score": 7
+   }
+  },
+  {
+   "id": "producthunt.com/r/p/1275489",
+   "name": "CutBay — 聊天式 AI 视频代理",
+   "slug": "cutbay",
+   "description": "把想法、链接、文档或素材丢进对话框，AI 直接生成成片：自动写脚本、配画面、加字幕与模板、走自动化工作流，不需要剪辑经验；也能把长素材做成营销/教程/社媒短片。",
+   "url": "https://cutbay.ai",
+   "homepage": "https://cutbay.ai",
+   "type": "saas",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1275489.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "AI 视频",
+    "聊天式剪辑",
+    "短视频",
+    "内容营销"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/cutbay",
+   "firstSeen": "2026-10-09T20:52:57-07:00",
+   "analysis": {
+    "targetAudience": "没时间学剪辑的内容/市场运营、独立开发者与做社媒的中小商家。",
+    "useCases": [
+     "把一个产品链接丢进去，直接出一支带配音字幕的介绍短片",
+     "把一份文档或博客转成 60 秒竖版短视频",
+     "给同一支片子批量出多个模板版本，做 A/B 投放",
+     "把长教程或直播回放剪成若干条社媒短片",
+     "团队共用一套品牌模板，非设计师也能出片"
+    ],
+    "designIntent": "团队判断剪辑软件的复杂度是出片的主要瓶颈，于是把「剪辑」重新表达成「聊天」：用户只说想要什么，代理去写脚本、找素材、套模板、渲染。",
+    "problemSolved": "做短视频的实际流程是写脚本、找素材、对时长、加字幕、反复导出，一个人一天出不了两条。CutBay 把这些步骤交给代理串起来，让「有想法」和「有片子」之间的距离缩短到一次对话。",
+    "scoreReason": "对话式端到端出片确实降低了门槛，支持从链接/文档起稿也让素材不再是障碍。但这一赛道竞争极其拥挤（剪映、Opus Clip、Captions、Veed 都在做），它的差异化主要是交互形式而非画面质量或独家模型，长期留存取决于成片质感。",
+    "competitors": [
+     {
+      "name": "OpusClip",
+      "url": "https://www.opus.pro/",
+      "comparison": "OpusClip 强在长视频自动切片与病毒度评分；CutBay 从零生成整片，适合没有原始素材的场景。"
+     },
+     {
+      "name": "Captions",
+      "url": "https://www.captions.ai/",
+      "comparison": "Captions 在口播/数字人外观与字幕上更精致；CutBay 更偏批量模板化与工作流自动化。"
+     },
+     {
+      "name": "剪映 / CapCut",
+      "url": "https://www.capcut.com/",
+      "comparison": "CapCut 免费且功能全面但仍是手动剪辑逻辑；CutBay 用聊天取代时间线操作。"
+     }
+    ],
+    "score": 7
+   }
+  },
+  {
+   "id": "producthunt.com/r/p/1277666",
+   "name": "Playad — 你的 AI 投放团队",
+   "slug": "playad",
+   "description": "面向付费广告的 AI 团队：先学习品牌调性，再自动产出广告素材并投放，每次结果都会反馈回系统让下一轮更准，宣传口径是「投放全自动」。",
+   "url": "https://playad.ai",
+   "homepage": "https://playad.ai",
+   "type": "saas",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1277666.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "AI 广告",
+    "投放自动化",
+    "素材生成",
+    "品牌学习"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/playad",
+   "firstSeen": "2026-10-12T03:56:22-07:00",
+   "analysis": {
+    "targetAudience": "没有专职投手的小型品牌、独立卖家与需要持续跑付费广告的增长团队。",
+    "useCases": [
+     "把品牌资料喂进去，让它自动生成一批可投放的图文/视频广告",
+     "在没有投手的情况下让系统自己跑预算、盯数据并迭代素材",
+     "给同一卖点批量出多个创意版本做测试",
+     "在大促前快速铺量，不必等外包团队排期",
+     "把历史投放效果沉淀成品牌自己的创意偏好"
+    ],
+    "designIntent": "团队认为小品牌做投放的瓶颈不是预算而是「没人会做素材也没人盯账户」，于是做一个会学品牌、会自己出素材、会自己优化的虚拟投放团队。",
+    "problemSolved": "付费广告是典型的「素材产能 + 数据迭代」双瓶颈：素材做不出来就投不出去，投出去没人盯就浪费预算。Playad 把两件事都自动化，让小团队也能维持稳定的投放节奏。",
+    "scoreReason": "把素材生成和投放优化合成闭环，对没有投手的小团队确实有吸引力。但广告自动投放涉及真实花钱，黑盒优化效果很难事前验证；同时 AdCreative、Creatopy 等已在素材侧站稳，它需要在投放端拿出可量化的 ROI 才能说服人。",
+    "competitors": [
+     {
+      "name": "AdCreative.ai",
+      "url": "https://www.adcreative.ai/",
+      "comparison": "AdCreative 主打素材批量生成与评分；Playad 更进一步包办投放与迭代闭环。"
+     },
+     {
+      "name": "Creatopy",
+      "url": "https://www.creatopy.com/",
+      "comparison": "Creatopy 是设计协作平台，AI 只是辅助；Playad 面向无人值守的自动化投放。"
+     },
+     {
+      "name": "Meta Advantage+",
+      "url": "https://www.facebook.com/business/advantage",
+      "comparison": "平台自带自动投放仍在可投放素材层面要求人工供给；Playad 补的是素材产能这一端。"
+     }
+    ],
+    "score": 6
+   }
+  },
+  {
+   "id": "producthunt.com/r/p/1288837",
+   "name": "Truffle — Mac 音乐库的自动修谱师",
+   "slug": "truffle-music-tag-editor",
+   "description": "给二十年的老音乐库做大扫除：按声音指纹识别每一首曲子，再去 Apple/iTunes、MusicBrainz、Deezer、Beatport 等八个来源比对，逐字段修正标题、艺人、专辑、流派、封面，并在本机测出 BPM 与调性，顺带找出重复曲目。支持 Apple Music、本地文件夹与 rekordbox/Serato/Traktor，任何改动都要你逐条确认后才写入，且可回滚。",
+   "url": "https://truffle-app.com/",
+   "homepage": "https://truffle-app.com/",
+   "type": "app",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1288837.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "音乐库整理",
+    "标签修复",
+    "DJ 工具",
+    "本地优先",
+    "Mac 应用"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/truffle-music-tag-editor",
+   "firstSeen": "2026-10-22T00:48:52-07:00",
+   "analysis": {
+    "targetAudience": "收藏了十几年音乐库的 Mac 用户与业余/半职业 DJ，尤其是用 rekordbox、Serato、Traktor 打碟的人。",
+    "useCases": [
+     "把 AUD_0037.mp3 这类无标题无艺人的文件按声音识别回正确的歌与专辑",
+     "一次性修正乱码、全大写、年份错乱的标签与缺失封面",
+     "在本机测出每首歌的 BPM 与调性，直接补齐 DJ 需要的字段",
+     "找出被重复导入三次的同一首歌，只保留一份",
+     "在改动 rekordbox 曲库前先拿到干净的音频文件标签，而不动它的数据库"
+    ],
+    "designIntent": "作者自己是玩了二十年的业余 DJ，曲库被 CD 导入、老 iTunes、下载文件搞得面目全非，手工修永远修不完，于是做了一个「先给证据、再由你拍板」的修复工具：每个字段都有来源，每次写入都有备份与历史。",
+    "problemSolved": "老音乐库的病灶是多来源的元数据不一致，任何一个单一数据库都对不全；而批量改写标签又极易毁掉曲库。Truffle 用八源交叉比对给出「一个字段一个答案」，并把写入做成可预览、可回滚，解决了「想修又不敢修」的死结。",
+    "scoreReason": "把 AI（声音识别 + 多源证据融合）用在最不性感但也最没人愿意干的活上，而且安全设计做得比同类都细：先看后写、全程可回滚、绝不碰 DJ 的 cue 与 beatgrid。扣分在场景太垂直（只服务 Mac 音乐收藏），一次性 €59.99 的定价对非 DJ 用户偏贵，且大部分需求用一次就收敛。",
+    "competitors": [
+     {
+      "name": "MusicBrainz Picard",
+      "url": "https://picard.musicbrainz.org/",
+      "comparison": "Picard 免费、跨平台，但只查 MusicBrainz 一个源；Truffle 八源交叉并能测 BPM/调性、读写 DJ 曲库。"
+     },
+     {
+      "name": "Mp3tag",
+      "url": "https://www.mp3tag.de/en/",
+      "comparison": "Mp3tag 是手工批量编辑的代表，规则灵活但要你自己填；Truffle 直接给建议值并附来源。"
+     },
+     {
+      "name": "Apple Music 自带编辑",
+      "url": "https://www.apple.com/music/",
+      "comparison": "系统只支持单曲或选区的「显示简介」手动改，没有识别与批量修复能力。"
+     }
+    ],
+    "score": 7
+   }
+  }
+ ]
+}
