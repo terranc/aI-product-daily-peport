@@ -1,0 +1,379 @@
+{
+  "date": "2026-10-25",
+  "generatedAt": "2026-10-25T12:04:16.817291+08:00",
+  "productCount": 6,
+  "products": [
+    {
+      "id": "reddit.com/r/sideproject/comments/1xep1pp/imadeanandroidappthattranslatesmangapages",
+      "name": "Yomu（手机上的离线漫画翻译器）",
+      "slug": "yomu-offline-manga-translator",
+      "description": "在安卓手机上整页翻译日文漫画：点一下悬浮按钮，自动识别对话气泡、逐泡 OCR，再用跑在本机的小模型翻译，最后把译文按气泡大小重新排版盖回原画面。气泡检测、OCR、翻译全部在设备上完成，没有任何账号、API key 或联网请求，日译英、葡、西、法、德五种目标语言，单页约 15 秒。",
+      "url": "https://github.com/artsaraiva/yomu",
+      "homepage": "https://github.com/artsaraiva/yomu",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/reddit.com_r_sideproject_comments_1xep1pp_imadeanandroidappthattranslatesmangapages_20261025_120426.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "离线翻译",
+        "漫画阅读",
+        "端侧模型",
+        "隐私优先",
+        "安卓"
+      ],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "sourceUrl": "https://www.reddit.com/r/SideProject/comments/1xep1pp/i_made_an_android_app_that_translates_manga_pages/",
+      "firstSeen": "2026-10-25T12:04:16.817291+08:00",
+      "analysis": {
+        "targetAudience": "看日文生肉漫画、又不想把整本书上传到云端服务的读者。",
+        "useCases": [
+          "在任何阅读器、浏览器或相册上打开漫画，点悬浮按钮即时得到译文覆盖层",
+          "坐飞机、通勤等无网环境下看生肉章节",
+          "不想注册账号、不愿把阅读内容交给第三方服务的人",
+          "想自己挑选 GGUF 翻译模型、调气泡置信度的高级用户"
+        ],
+        "designIntent": "作者想解决『等汉化组』和『把页面传到云端翻译』这两件烦人事。做的思路是把整条流水线搬进手机：检测、OCR、翻译都不出设备，只在一开始下载约 1.1GB 模型，之后永不联网。",
+        "problemSolved": "生肉漫画没有及时汉化，在线翻译站又要上传图片、要账号、按次收费。Yomu 让翻译变成一次点击的本地操作，读完就走，不留痕迹。",
+        "tags": [
+          "离线漫画翻译",
+          "端侧 LLM",
+          "隐私",
+          "安卓应用",
+          "OCR"
+        ],
+        "score": 9,
+        "scoreReason": "把『检测-OCR-翻译-排版』四段真正串成本地闭环，而不是又调一次云 API，隐私和可用性都到位。局限也清楚：日文源、只读屏幕、机器翻译会出错、老手机扛不住。",
+        "competitors": [
+          {
+            "name": "Madomi",
+            "url": "https://play.google.com/store/apps/details?hl=en_US&id=com.pawakalabs.fakey.one",
+            "comparison": "同为安卓漫画翻译，但翻译走云端且有 Premium 付费墙，Yomu 全本地、全免费。"
+          },
+          {
+            "name": "Yakuyomi",
+            "url": "https://github.com/joyeli/Yakuyomi",
+            "comparison": "基于 Mihon 的阅读器，检测与 OCR 在本地但翻译仍调云端 LLM，Yomu 的翻译也在本机。"
+          },
+          {
+            "name": "Yomu 网页版",
+            "url": "https://yomumangatranslator.com/",
+            "comparison": "同名在线翻译站，上传图片处理、有每日免费额度限制，与这个本地安卓 App 不是同一实现。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "reddit.com/r/sideproject/comments/1xer5l5/ibuiltafreechromeextensiontoanalyzeamazon",
+      "name": "Amazon Review Analyzer（亚马逊评论一页看穿）",
+      "slug": "amazon-review-analyzer",
+      "description": "打开任意亚马逊商品页点一下，就把几十条评论读成一个结论：0-100 的情绪分、买／谨慎／别买的三档判断、带出现频率的真实优缺点、假评论与质量问题的红旗，外加预算／中端／高端三个替代品链接。无需账号，只在商品页点击时才工作。",
+      "url": "https://chromewebstore.google.com/detail/amazon-review-analyzer/dkplfkemnhmhmgmbhaoljjejieaaapla",
+      "homepage": "https://chromewebstore.google.com/detail/amazon-review-analyzer/dkplfkemnhmhmgmbhaoljjejieaaapla",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/reddit.com_r_sideproject_comments_1xer5l5_ibuiltafreechromeextensiontoanalyzeamazon_20261025_120451.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "购物决策",
+        "评论分析",
+        "浏览器扩展",
+        "情绪分析",
+        "假评论识别"
+      ],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "sourceUrl": "https://www.reddit.com/r/SideProject/comments/1xer5l5/i_built_a_free_chrome_extension_to_analyze_amazon/",
+      "firstSeen": "2026-10-25T12:04:16.817291+08:00",
+      "analysis": {
+        "targetAudience": "在亚马逊上买东西、但已经不信星级和置顶好评的普通消费者。",
+        "useCases": [
+          "买之前先看『买/谨慎/别买』结论和红旗，几十秒决定要不要下单",
+          "识别刷单、虚假五星与反复出现的质量缺陷",
+          "比较预算档、中端档、高端档三个替代品",
+          "给家人代购时快速摸清一件商品的真实口碑"
+        ],
+        "designIntent": "做的人认为评论区的信号已经被虚假好评和极端差评淹没，星级不再可靠。于是把『读评论』这件事交给 AI 压缩成有频率权重的优缺点和一句结论，让人不必再翻十页评论。",
+        "problemSolved": "解决『评论太多、真假难辨、星级可被操纵』的问题，把决策成本从十几分钟压到几十秒，同时把假评论、描述误导这类模式显式地挑出来。",
+        "tags": [
+          "AI 购物助手",
+          "评论摘要",
+          "Chrome 扩展",
+          "假评论检测",
+          "消费决策"
+        ],
+        "score": 8,
+        "scoreReason": "场景极其具体、每页都有用，频率加权的优缺点比纯摘要可信。扣分在于只覆盖亚马逊、只读约 30 条评论，结论质量完全取决于模型，且同赛道扩展已不少。",
+        "competitors": [
+          {
+            "name": "Amazon Review Analyzer Pro",
+            "url": "https://chromewebstore.google.com/detail/bmbmdabkhepjaloaoohpiefocnnhbmhm",
+            "comparison": "需要自备 Perplexity/OpenAI key，功能更偏卖家侧；这款免 key、偏买家决策。"
+          },
+          {
+            "name": "EvidSeek",
+            "url": "https://evidseek.com/amazon-review-analyzer",
+            "comparison": "强调每条结论可回溯到原始评论证据，适合做选品调研；这款更直接给结论。"
+          },
+          {
+            "name": "Fakespot 类工具",
+            "url": "https://www.fakespot.com/",
+            "comparison": "老牌假评论评级服务，侧重打分与可信度；这款多了优缺点归纳与替代品推荐。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "reddit.com/r/sideproject/comments/1xephog/webuiltafreegooglemapsgridchecker250map",
+      "name": "GBPly 免费地图网格排名检测",
+      "slug": "gbply-free-maps-rank-checker",
+      "description": "从一个点搜关键词只能看到自己视角的排名，这个工具在商家周边均匀布 25 个点各搜一次 Google 地图，用颜色标出每个点位排第几，再给出平均排名和『前 3 覆盖率』。注册即每月 250 次点位扫描（约 10 次标准 5×5 网格），不绑卡、不用连 Google Business Profile。",
+      "url": "https://gbply.net/free-rank-checker",
+      "homepage": "https://gbply.net/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/reddit.com_r_sideproject_comments_1xephog_webuiltafreegooglemapsgridchecker250map_20261025_120508.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "本地 SEO",
+        "地图排名",
+        "商家工具",
+        "网格扫描",
+        "免费额度"
+      ],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "sourceUrl": "https://www.reddit.com/r/SideProject/comments/1xephog/we_built_a_free_google_maps_grid_checker_250_map/",
+      "firstSeen": "2026-10-25T12:04:16.817291+08:00",
+      "analysis": {
+        "targetAudience": "本地实体店老板、做代运营的营销人员和本地 SEO 从业者。",
+        "useCases": [
+          "改完商家资料后复查周边各点位排名有没有起来",
+          "给客户出一页『你的店在城里每个角落排第几』的快照报告",
+          "自定义点位，只扫客户真正居住的街区，不浪费在无人的郊区",
+          "对比不同关键词的可见度，例如『水管工』和『24 小时水管工』"
+        ],
+        "designIntent": "团队发现本地商家最常见的误解是『我在自己店里搜是第一』。于是用网格视角把『从客户所在位置看排第几』变成一张彩色地图，同时用免费额度做成引流入口，再导向付费的持续追踪。",
+        "problemSolved": "解决本地排名看不见、无法量化的问题，并把追踪成本从每月付费订阅降到一个免费账户就能跑完的场景，对微小商户尤其友好。",
+        "tags": [
+          "本地 SEO",
+          "Google 地图",
+          "网格排名",
+          "免费工具",
+          "中小企业"
+        ],
+        "score": 8,
+        "scoreReason": "痛点真实、结果直观，免费额度加自定义点位在产品设计上很聪明。限制明显：只覆盖美加英澳新爱南非，免费版无历史趋势，数据本质仍是抓取 Google 结果。",
+        "competitors": [
+          {
+            "name": "Local Falcon",
+            "url": "https://www.localfalcon.com/",
+            "comparison": "网格排名工具的老牌玩家，网格与分析更强但基本全付费，这款胜在免费起步。"
+          },
+          {
+            "name": "BrightLocal",
+            "url": "https://www.brightlocal.com/",
+            "comparison": "面向代运营的全套本地营销平台，包含排名网格与报告；这款只是单点工具。"
+          },
+          {
+            "name": "Places Scout",
+            "url": "https://www.placesscout.com/",
+            "comparison": "同样做地理网格排名与竞品对比，付费试用制，这家提供长期免费额度。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "reddit.com/r/sideproject/comments/1xemrxm/ilikedgooglehomeminiandalexaasa",
+      "name": "LAVA（跑在浏览器里的本地语音助手）",
+      "slug": "lava-local-ai-voice-assistant",
+      "description": "一个 Chrome 扩展，把浏览器变成离线 AI 语音伙伴：用 Chrome 内置的端侧模型处理问题，自带的语音识别与朗读支持 15 种语言，说话提问就能得到文字加语音的回答。免费、不限次数、不用注册、不用 API，数据不出本机，也没有广告和会员推销。",
+      "url": "https://chromewebstore.google.com/detail/lava-local-ai-voice-assis/ldddhgaipfjeanombjgdofccfnpfkien",
+      "homepage": "https://chromewebstore.google.com/detail/lava-local-ai-voice-assis/ldddhgaipfjeanombjgdofccfnpfkien",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/reddit.com_r_sideproject_comments_1xemrxm_ilikedgooglehomeminiandalexaasa_20261025_120534.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "语音助手",
+        "端侧 AI",
+        "离线可用",
+        "无障碍",
+        "浏览器扩展"
+      ],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "sourceUrl": "https://www.reddit.com/r/SideProject/comments/1xemrxm/i_liked_google_homeminiandalexaasa/",
+      "firstSeen": "2026-10-25T12:04:16.817291+08:00",
+      "analysis": {
+        "targetAudience": "想在电脑上说话问 AI、又不想付订阅或上传录音的普通用户，尤其是学生与不擅长打字的老人。",
+        "useCases": [
+          "做作业时口述理科问题，直接听语音讲解",
+          "选中网页或 PDF 文字，让助手朗读、概括并生成学习笔记",
+          "把说的话即时翻译成另一种语言并读回来",
+          "老人或行动不便者用语音代替键盘浏览网页"
+        ],
+        "designIntent": "作者受够了智能音箱每隔几分钟的广告和会员推销，也受够了反复的账号认证。于是把助手塞回浏览器，用 Chrome 自带的端侧模型跑，做成免费无限次、完全离线、零遥测的形态。",
+        "problemSolved": "解决云端语音助手『收费、限额、录音上传、广告插播』的整套妥协，让语音问答变成不花钱也不泄露的本地能力，同时给不便打字的人一个可用的入口。",
+        "tags": [
+          "离线语音助手",
+          "端侧推理",
+          "免费无限",
+          "无障碍",
+          "Chrome 扩展"
+        ],
+        "score": 8,
+        "scoreReason": "把端侧模型的优势（免费、无限、隐私）直接兑换成消费级体验，方向非常对。风险是强依赖 Chrome 内置 Gemini Nano 的可用性，模型能力有限，复杂推理会吃力。",
+        "competitors": [
+          {
+            "name": "ChatGPT 语音模式",
+            "url": "https://chatgpt.com/",
+            "comparison": "体验更长更自然，但需订阅或额度、语音要上传云端，这款全本地免费。"
+          },
+          {
+            "name": "Gemini in Chrome",
+            "url": "https://www.google.com/chrome/",
+            "comparison": "官方内置的浏览器 AI 功能，能力强但受地区与登录限制，可定制性弱。"
+          },
+          {
+            "name": "Alexa / Google Home",
+            "url": "https://www.amazon.com/alexa",
+            "comparison": "需要专用硬件，且夹带广告与会员引导，这款零硬件、零推销。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "reddit.com/r/sideproject/comments/1xeon9c/myfirstappjustmade114initsfirstmonth",
+      "name": "AirMirror Pro（把 iPhone 投到 Windows 并反向操作）",
+      "slug": "airmirror-pro",
+      "description": "Windows 上的 AirPlay 接收器：iPhone 投屏约 3 秒出现，还能用电脑的鼠标键盘反向操作手机（走蓝牙，手机端不装任何东西），并可录屏带声音。镜像与控制免费，Pro 一次 5.99 美元买断、无订阅，带 OBS 模式方便直播与剪辑。",
+      "url": "https://airmirrorpro.com/",
+      "homepage": "https://airmirrorpro.com/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/reddit.com_r_sideproject_comments_1xeon9c_myfirstappjustmade114initsfirstmonth_20261025_121155.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "投屏",
+        "iPhone 控电脑",
+        "录屏",
+        "Windows 工具",
+        "买断制"
+      ],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "sourceUrl": "https://www.reddit.com/r/SideProject/comments/1xeon9c/my_first_app_justmade114initsfirstmonth/",
+      "firstSeen": "2026-10-25T12:04:16.817291+08:00",
+      "analysis": {
+        "targetAudience": "有 iPhone 但主力电脑是 Windows、需要投屏演示或录手机画面的人。",
+        "useCases": [
+          "开会或直播时把手机画面全屏投到电脑，隐藏所有界面元素",
+          "用电脑键盘鼠标回手机消息、点外卖，不必反复拿手机",
+          "录制带系统声音的手机操作教程，直接进 OBS 或剪辑软件",
+          "把直播间弹幕、手游画面以 60fps 接入推流"
+        ],
+        "designIntent": "作者把被采集卡和 Mac 垄断的『把 iPhone 拿到电脑上』这件事拆开：画面走 iOS 自带的 AirPlay，控制走 iOS 自带的蓝牙鼠标键盘，于是手机端一个 App 都不用装。定价也刻意走买断而非订阅。",
+        "problemSolved": "解决 Windows 用户投屏 iPhone 要买采集卡、要装手机端 App、录屏要付费订阅的老问题，把成本压到一个 5.99 美元的一次性买断。",
+        "tags": [
+          "iPhone 投屏",
+          "反向控制",
+          "录屏",
+          "Windows",
+          "买断制"
+        ],
+        "score": 7,
+        "scoreReason": "取巧但正确的技术路线（复用 AirPlay + 蓝牙 HID）让安装成本几乎为零，OBS 模式对口内容创作者。扣分在于非 AI 产品，且需蓝牙支持外设角色、必须同一 Wi-Fi，限制不小。",
+        "competitors": [
+          {
+            "name": "AirServer",
+            "url": "https://www.airserver.com/",
+            "comparison": "老牌 AirPlay 接收器，功能更全但价格高得多，且没有反向控制手机。"
+          },
+          {
+            "name": "LetsView",
+            "url": "https://letsview.com/",
+            "comparison": "免费投屏工具，跨平台但画质与延迟一般，不支持鼠标键盘操作 iPhone。"
+          },
+          {
+            "name": "QuickTime + 数据线",
+            "url": "https://support.apple.com/quicktime",
+            "comparison": "Mac 上可用、有线免费，但 Windows 无法用，也不能录系统声音与反向控制。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "moodwriter.app",
+      "name": "Mood Writer（下着雨的写作房间）",
+      "slug": "mood-writer",
+      "description": "一个沉浸式写作环境：整屏只剩你的文字，背景是雨打玻璃之类的自然声场景，可随时切换『心情』；内置番茄钟安排写作与休息，还有一块白板用来摊开参考资料和零散想法。",
+      "url": "https://www.moodwriter.app/",
+      "homepage": "https://www.moodwriter.app/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "写作工具",
+        "沉浸专注",
+        "自然音",
+        "番茄钟",
+        "极简界面"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=50227243",
+      "firstSeen": "2026-10-25T12:04:16.817291+08:00",
+      "analysis": {
+        "targetAudience": "写长文、写小说、写稿子时容易被通知与浏览器标签带走的写作者。",
+        "useCases": [
+          "开一篇稿子，进全屏心情模式，用雨声把外界噪音盖掉",
+          "用番茄钟固化『写 25 分钟、歇 5 分钟』的节奏",
+          "把参考链接与零散想法扔到白板上，写作时随时瞄一眼",
+          "给不同写作任务配不同声音场景，作为进入状态的心理开关"
+        ],
+        "designIntent": "作者认为写作卡住往往不是没想法，而是注意力被切碎。所以把界面砍到只剩文字，再用持续的自然声和一块随手放素材的白板，替人把『进入写作状态』这件事外部化。",
+        "problemSolved": "解决写作时的分心与启动困难：不用再开一堆降噪 App、计时器和便签，一个页面里同时提供专注声场、节奏和白板，减少在工具之间跳来跳去的损耗。",
+        "tags": [
+          "沉浸写作",
+          "专注工具",
+          "白噪音",
+          "番茄工作法",
+          "极简设计"
+        ],
+        "score": 7,
+        "scoreReason": "氛围与功能配比克制，白板切口比同类写作器更有想法。短板是没有真正的智能能力，属于设计型工具，且这一赛道已有多年老玩家，差异化主要靠品味。",
+        "competitors": [
+          {
+            "name": "OmmWriter",
+            "url": "https://ommwriter.com/",
+            "comparison": "同样以环境音加全屏专注为核心，更极简但没有白板与番茄钟。"
+          },
+          {
+            "name": "ZenWriter",
+            "url": "https://zenwriter.app/",
+            "comparison": "沉浸式写作软件，功能更全（云同步、导出），但收费且安装较重。"
+          },
+          {
+            "name": "Writer Cabin",
+            "url": "https://writercabin.com/",
+            "comparison": "加入 VR、禁退格、久停报警等强干预手段，比这款更具侵略性。"
+          }
+        ]
+      }
+    }
+  ]
+}
