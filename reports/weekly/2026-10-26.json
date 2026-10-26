@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-26",
+  "generatedAt": "2026-10-26T04:17:10.833014+00:00",
+  "productCount": 1,
+  "type": "weekly",
+  "sourceDailyReport": "2026-10-23",
+  "products": [
+    {
+      "id": "producthunt.com/r/p/1288373",
+      "name": "Sponkly — 32 种语言的实时翻译聊天、通话与会议",
+      "slug": "sponkly",
+      "description": "把聊天、语音/视频通话和视频会议都做成「各说各的母语」：每人在 32 种语言里选自己的，对方看到实时字幕、听到自然的合成语音翻译，整句延迟约 1-2 秒。网页版和 Chrome 扩展还能给 YouTube、网课、Google Meet、Teams、Zoom 加实时双语字幕，聊天内容端到端加密。",
+      "url": "https://sponkly.com",
+      "homepage": "https://sponkly.com",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1288373.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "实时翻译",
+        "跨语言会议",
+        "同声传译",
+        "Chrome 扩展",
+        "端到端加密"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/sponkly",
+      "firstSeen": "2026-10-21T13:59:15-07:00",
+      "analysis": {
+        "targetAudience": "需要跨语言沟通的跨境团队、外贸从业者、留学生和新移民，以及看外语网课/直播的学习者。",
+        "useCases": [
+          "和外国客户开 Zoom/Teams 会议，双方各自听母语",
+          "在 WhatsApp 式的一对一聊天里自动互译文字与语音消息",
+          "给 YouTube 网课和国外直播加双语字幕",
+          "海外仓/代购与当地供应商日常电话沟通",
+          "入境旅游时和当地人语音对话"
+        ],
+        "designIntent": "团队想解决的是「语言不通」背后真实的社交成本：不是缺翻译工具，而是每说一句都要复制粘贴进翻译器，对话节奏被打断。于是把翻译搬进通话链路本身，让每个人只用自己熟悉的语言开口。",
+        "problemSolved": "传统方案要么是会后看纪要（已经错过时机），要么是打字翻译（丢失语气和效率）。Sponkly 让翻译发生在说话的同时，并保持聊天内容的端到端加密，避免商务沟通内容外泄。",
+        "score": 9,
+        "scoreReason": "【深度调研亮点】\n1) 技术链路是真的接通了，不是 PPT：语音识别用 Deepgram 流式识别、翻译用 Claude（Anthropic）、配音用 OpenAI 语音，音视频走 WebRTC 点对点，整句延迟约 1-2 秒；官方在 PH 评论区坦承英文等 13 种大语种可边流式边说、约 2-4 秒跟读，其余语种等整句结束。这个诚实度在同类里很少见。\n2) 一个开发者做出五端产品：创始人 Süleyman Kaşıkçı（土耳其安塔利亚，18 年经验的独立开发者）用 Expo 一套代码发到 iOS/Android，另有 Web、Chrome 扩展与 SpeakBot 网页客服；PH 于 2026-10-22 上线，当日 76 票、第 25 名、9 条评论，随后 AtaForge Inc. 被纳入 NVIDIA Inception 计划。\n3) 产品边界铺得比同类宽：聊天（端到端加密，消息在手机上翻译）、语音/视频通话、最多 8 人视频会议、Face to Face 单机双人对话、Video Studio 视频配音、Chrome 扩展给 YouTube/Meet/Teams/Zoom 加实时字幕、一条 JS 接入的 SpeakBot 网站翻译客服，外加 MCP 让 Claude/ChatGPT/Cursor 直接调用。\n4) 商业模式清晰且有 B 端出口：Free（每月翻译额度）、Starter $12、Professional $29、Business $99、Enterprise $299 每月，另有 Developer API（实时语音翻译 $0.10/分钟、纯字幕 $0.05/分钟、文本 $10/百万字符、视频配音 $0.50/分钟）按量预付费。\n5) 定位差异在「客人零安装」：会议 Guests 打开链接即可、无需账号与插件，跨语言沟通最尴尬的「你先装个 App」这一步被去掉了。\n扣分在于：延迟仍落后 Palabra.ai 宣称的 1 秒内、语言数 32 种少于 Interprefy/Wordly 的 60-80 种、底层三家模型均为外采导致毛利与议价空间受限，且上线仅数日、留存与并发稳定性尚无数据。",
+        "competitors": [
+          {
+            "name": "Wordly",
+            "url": "https://www.wordly.ai/",
+            "comparison": "Wordly 主打企业会议/直播的 AI 同传字幕，偏 B 端采购；Sponkly 是普通人下载就能用的消费级应用，还能翻译个人聊天。"
+          },
+          {
+            "name": "ElevenLabs Realtime Translation",
+            "url": "https://elevenlabs.io/",
+            "comparison": "ElevenLabs 提供的是语音翻译能力（模型/API）与简单的实时翻译界面；Sponkly 是把这项能力做成完整的聊天+会议产品。"
+          },
+          {
+            "name": "DeepL",
+            "url": "https://www.deepl.com/",
+            "comparison": "DeepL 强在文本与文档翻译质量，但需要复制粘贴、不介入实时对话；Sponkly 直接接管语音链路。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-11-06T04:06:34.511669+00:00",
+      "lastFeaturedDate": "2026-10-23",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      },
+      "weeklyDeepDive": {
+        "growthData": "Sponkly 于 2026-10-22 在 Product Hunt 上线，当日获得 76 票、第 25 名（Launch 标签：Android / Chrome Extensions / Languages），产品页累计 64 位关注者、9 条评论；本站数据源 10-21 首次抓到、10-23 进入日报。创始人 10-04 在 LinkedIn 预告「下周上线」，上线后 24-48 小时内宣布 AtaForge Inc. 已被 NVIDIA Inception 计划接纳。官方未披露注册用户数、付费转化与营收（明确「未披露」），应用商店评分样本尚不足。",
+        "communityActivity": "PH 评论区讨论集中在三点：① 客户无需装任何东西（只需浏览器打开链接）被视为跨语言通话的最大痛点解法；② Face to Face 模式被评价为旅行场景实用；③ 荷兰用户直接追问实时通话延迟，创始人正面承认「几秒钟，不是即时」，并说明正在把荷兰语等 19 种语言切换到更快的语音模型、每条快约 1 秒。X/Twitter 上以 #buildinpublic #indiedev 自发传播，创始人同步放出「一分钟演示」视频与官网入口；独立评测站（MarkTechPost、LiveLingo、Palabra 自家榜单等）已把消费级实时翻译作为 2026 年热门赛道集中盘点，但尚未出现第三方对 Sponkly 的实测横评。",
+        "updateFrequency": "截至调研时未见公开 changelog 页，版本节奏只能从官方口径推断：iPhone 版正在 App Store 审核（Web / Android / Chrome 扩展已上线），官方称正在为荷兰语等 19 种语言替换更快的语音管线（每句快约 1 秒）；Deepgram + Claude + OpenAI 的模型组合意味着语音与翻译质量会随上游模型升级被动提升。Developer API 与 MCP 服务已开放，说明工程侧有持续交付能力。",
+        "marketPosition": "赛道呈三层结构：① 企业级会议/活动同传（Interprefy 80+ 语言、Wordly 60+ 语言、按人时或事件采购，Wordly 10 小时包约 $1,500 起）；② 专业实时同传引擎与 API（Palabra.ai 宣称 1 秒内延迟、60+ 语言、带声音克隆与自建全链路，Meetings Starter 约 $60/月起含 3 小时）；③ 消费级软硬件（Google Translate Live、Timekettle W4 $349 / W4 Pro $449 耳机、Meta Ray-Ban 眼镜、Pocketalk）。Sponkly 落在 ②③ 之间：以消费级价格（$12 起）提供接近企业级的双向语音同传，并用零安装会议链接切入 B 端。平台级威胁是 Google Meet / Teams / Zoom 自带的翻译与字幕能力（免费、原生、无需第三方），以及 DeepL Voice 在 Teams 上的企业渗透。",
+        "differentiation": "① 零安装的双向语音同传：其他参会者打开浏览器链接即可听母语，无需账号、插件或耳机硬件，直接绕开跨语言协作最尴尬的第一步；② 端到端加密的翻译聊天：消息在设备端翻译，密钥不出设备，而会议/通话语音仅「边说边译、不留存」，安全页明确写出 AES-256-GCM 存储与 DTLS-SRTP 传输；③ 一个产品覆盖 8 种场景（聊天、语音/视频通话、8 人会议、Face to Face 单机双人、Video Studio 配音、Chrome 扩展网页视频字幕、SpeakBot 网站翻译客服、MCP 给 AI 助手调用），而竞品多数只做其中一条；④ 语音形象可选性别与年龄段，让「别人听到的你的声音」保持一致；⑤ 定价从免费额度到 $299/月分层，并有按分钟计费的 API，个人与中小团队都能落到具体价位。"
+      }
+    }
+  ]
+}

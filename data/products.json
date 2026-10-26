@@ -44330,10 +44330,11 @@
         ]
       },
       "cooldownExpiresAt": "2026-11-06T04:06:34.511669+00:00",
-      "lastFeaturedDate": "2026-10-23",
+      "lastFeaturedDate": "2026-10-26",
       "metrics": {
         "featuredInDaily": 1,
-        "featuredInWeekly": false
+        "featuredInWeekly": true,
+        "lastFeaturedDate": "2026-10-26"
       }
     },
     {
@@ -45275,7 +45276,336 @@
       },
       "cooldownExpiresAt": "2026-11-08T12:04:16.817291+08:00",
       "lastUpdated": "2026-10-25T12:04:16.817291+08:00"
+    },
+    {
+      "id": "ph_canva-craft",
+      "name": "Canva Craft",
+      "slug": "canva-craft",
+      "description": "Canva 自研的第一款图像生成模型，先规划版式再渲染：生成 2K、30+ 种画幅的「可直接用的设计稿」，文字清晰、可拆成可编辑图层，已向全部 Canva 用户开放。",
+      "url": "https://www.producthunt.com/products/canva",
+      "homepage": "https://www.canva.com/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "设计工具",
+        "图像生成",
+        "可编辑图层",
+        "多语言排版",
+        "营销素材"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/canva",
+      "firstSeen": "2026-10-23T16:41:59+08:00",
+      "analysis": {
+        "targetAudience": "需要大批量做海报、社媒图、菜单和演示文稿的市场、运营与设计团队。",
+        "useCases": [
+          "输入一句描述生成可直接发布的海报/社媒帖",
+          "为多语言市场一键生成本地化素材（支持 55 种语言文案）",
+          "把生成图拆成可编辑图层继续精修",
+          "一次生成 30 多种画幅，社交媒体全套尺寸复用"
+        ],
+        "designIntent": "Canva 发现大多数 AI 生图模型是按照片训练的，出图漂亮但排不出「设计」——文字歪、层级乱、改一个元素要整张重画。Craft 因此把构图规划和像素渲染拆成两步：先想清楚元素位置、层级与文字，再渲染成图。",
+        "problemSolved": "解决 AI 生图结果无法直接用于商业设计、文字不可读、改稿成本高的问题。让生成结果天生带版式，并能落进 Canva 的图层编辑器继续改。",
+        "score": 9,
+        "scoreReason": "真正切中「AI 生图 ≠ 能用的设计」这个长期痛点，规划+渲染两段式架构有明显工程巧思，且直接嵌进 2.5 亿用户的 Canva 工作流。落地路径最短、覆盖人群最大。",
+        "competitors": [
+          {
+            "name": "Adobe Firefly",
+            "url": "https://www.adobe.com/products/firefly.html",
+            "comparison": "同样主打商用安全与设计工作流，但 Firefly 更偏素材生成与 Photoshop 内嵌，版式规划能力弱于 Craft 的两段式。"
+          },
+          {
+            "name": "Ideogram",
+            "url": "https://ideogram.ai/",
+            "comparison": "以文字渲染准确著称，适合 Logo 与含字海报，但输出是扁平图片，不能拆成可编辑图层。"
+          },
+          {
+            "name": "Recraft",
+            "url": "https://www.recraft.ai/",
+            "comparison": "主打矢量与品牌风格一致性，更适合插画与图标；Craft 的优势是排版与多画幅模板化输出。"
+          }
+        ],
+        "tags": [
+          "设计工具",
+          "图像生成",
+          "可编辑图层",
+          "多语言排版",
+          "营销素材"
+        ]
+      },
+      "score_ph": null,
+      "cooldownExpiresAt": "2026-11-09T12:03:36.397619+08:00",
+      "recommendedDate": "2026-10-26"
+    },
+    {
+      "id": "ph_sideos-ai",
+      "name": "sideOS",
+      "slug": "sideos",
+      "description": "住在 Mac 刘海里本机 AI 助手：按住快捷键说一句话，它读屏、开应用、点按钮、打字，完事告诉你；同时管听写（本机、免费、62 语言）和会议录制转写+摘要+待办。",
+      "url": "https://sideos.ai/",
+      "homepage": "https://sideos.ai/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "本机 AI",
+        "语音听写",
+        "会议纪要",
+        "桌面自动化",
+        "隐私优先"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/sideos-ai",
+      "firstSeen": "2026-10-23T21:28:40+08:00",
+      "analysis": {
+        "targetAudience": "在意隐私、不想把屏幕和录音传到云端的 Mac 重度用户与知识工作者。",
+        "useCases": [
+          "任意应用里按住快捷键说话，文字直接落到光标处（可离线）",
+          "开 Zoom/Meet/Teams 时一键录音，结束即得逐字稿与摘要",
+          "自动区分说话人并把待办一键变成提醒事项",
+          "用自然语言让 AI 操作桌面应用：开窗口、点按钮、填表",
+          "断网或敏感场景切到本机 4B–30B 模型跑"
+        ],
+        "designIntent": "既然一个能读屏、能按键盘的助手必须先赢得信任，设计就从「本地优先」做起：听写与转写跑在 Mac 自带引擎和本地 Whisper 上，API Key 存钥匙串，录音与记忆不出机器。",
+        "problemSolved": "解决把屏幕内容与会议录音交给云端 AI 的隐私顾虑，同时把听写、会议纪要、桌面操作三件分散的事收进同一个入口，还省掉订阅费（一次买断）。",
+        "score": 8,
+        "scoreReason": "本地优先 + 自带引擎听写 + 会议全链路，是这个品类里少见的「全家桶式」设计；89.9 美元买断也很克制。扣分在于仅支持 macOS 14+ 与 Apple Silicon，受众受限。",
+        "competitors": [
+          {
+            "name": "Raycast",
+            "url": "https://www.raycast.com/",
+            "comparison": "同为 Mac 启动器/自动化入口且已加 AI，但默认走云端、偏命令面板交互，没有会议录制与本地 Whisper 链路。"
+          },
+          {
+            "name": "Granola",
+            "url": "https://www.granola.ai/",
+            "comparison": "会议纪要体验更好，但只做会议，且处理在云端；sideOS 把听写和桌面操作也包了。"
+          },
+          {
+            "name": "Superwhisper",
+            "url": "https://superwhisper.com/",
+            "comparison": "同样主打本地听写，定位更单一；sideOS 多了读屏、点击与会议摘要。"
+          }
+        ],
+        "tags": [
+          "本机 AI",
+          "语音听写",
+          "会议纪要",
+          "桌面自动化",
+          "隐私优先"
+        ]
+      },
+      "cooldownExpiresAt": "2026-11-09T12:03:36.397619+08:00",
+      "recommendedDate": "2026-10-26"
+    },
+    {
+      "id": "ph_instant-search",
+      "name": "Instant Search（Mac 本地语义搜索）",
+      "slug": "instant-search",
+      "description": "Mac 上的本地 AI 文件搜索：用向量嵌入理解「意思」而不只是关键词，能搜文档正文、代码，也能 OCR 图片和扫描件里的字，热键随时唤出，全程离线。",
+      "url": "https://www.producthunt.com/products/instant-search-2",
+      "homepage": "https://www.producthunt.com/products/instant-search-2",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/ph_instant-search_20261026_121528.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "本地搜索",
+        "语义检索",
+        "OCR",
+        "隐私保护",
+        "效率工具"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/instant-search-2",
+      "firstSeen": "2026-10-23T13:36:03+08:00",
+      "analysis": {
+        "targetAudience": "Mac 上存了大量文档、截图与扫描件，靠 Spotlight 找不到东西的知识工作者。",
+        "useCases": [
+          "用「上个月写的那个生日礼物点子」这类描述找回笔记",
+          "在数千份 PDF/DOCX/源码里做语义级查找",
+          "对截图、发票照片、扫描件做 OCR 后检索",
+          "⌥+空格 在任意应用里唤起，边打边出结果"
+        ],
+        "designIntent": "Spotlight 只认文件名和字面关键词，而人的记忆是「语义」的。Instant 把嵌入模型放到本机，把索引、检索全留在本地，换来的是既搜得准又不外传。",
+        "problemSolved": "解决「明明存过却搜不到」的问题，同时避免把文件内容交给云端搜索服务；对含敏感信息的资料库尤其有价值。",
+        "score": 8,
+        "scoreReason": "痛感极强、见效极快：装完索引一次就能长期受益，性能与隐私都照顾到了，还免费。扣分在于首次索引耗时（大图库要数小时）、占约 1GB 磁盘，且仅限 Apple Silicon + macOS 15。",
+        "competitors": [
+          {
+            "name": "Spotlight",
+            "url": "https://support.apple.com/guide/mac-help/search-with-spotlight-mchlp1008/mac",
+            "comparison": "系统自带、零成本且覆盖全盘，但只能按文件名/关键词匹配，无法理解语义与图片内容。"
+          },
+          {
+            "name": "Raycast",
+            "url": "https://www.raycast.com/",
+            "comparison": "启动器内也能搜文件和 AI 问答，但 AI 部分默认上云，没有本地全盘嵌入索引。"
+          },
+          {
+            "name": "HoudahSpot",
+            "url": "https://www.houdah.com/houdahSpot/",
+            "comparison": "老牌高级文件搜索，强在元数据与布尔筛选，弱在自然语言语义检索。"
+          }
+        ],
+        "tags": [
+          "本地搜索",
+          "语义检索",
+          "OCR",
+          "隐私保护",
+          "效率工具"
+        ]
+      },
+      "cooldownExpiresAt": "2026-11-09T12:03:36.397619+08:00",
+      "recommendedDate": "2026-10-26"
+    },
+    {
+      "id": "ph_monish",
+      "name": "Monish（把 AI Agent 挂到锁屏）",
+      "slug": "monish",
+      "description": "往 Claude Code、Codex、Cursor、n8n 或任意脚本里粘一行，AI 任务的实时进度就会出现在 iPhone 锁屏与灵动岛；跑完/失败会提醒，部署、发送、花钱前要先在通知里点「同意/拒绝」。",
+      "url": "https://monish.cc/",
+      "homepage": "https://monish.cc/",
+      "type": "app",
+      "appStoreName": "Monish: AI Agent Notifications",
+      "appStoreUrl": "https://apps.apple.com/us/app/monish-ai-agent-notifications/id6822071271?uo=4",
+      "screenshotUrl": null,
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/38/68/cd/3868cd9a-8f7b-149c-0d0c-86a06b6380cf/S1.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b8/a5/b2/b8a5b206-792a-1398-899f-c353e249647e/S2.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c9/d1/81/c9d1816f-99e2-7711-cf76-2a5647b3a5d7/S3.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/53/be/5a/53be5a08-3608-8ca1-ad64-df0c9f78b43c/S4.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ae/4d/11/ae4d11e9-98ff-b0c1-396b-4134c76096ef/S5.png/320x480bb.jpg"
+      ],
+      "tags": [
+        "Agent 监控",
+        "锁屏通知",
+        "移动审批",
+        "自动化",
+        "免费"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/monish",
+      "firstSeen": "2026-10-22T22:38:26+08:00",
+      "analysis": {
+        "targetAudience": "会同时跑多个长任务 Agent、又不愿一直盯着终端的开发者和自动化玩家。",
+        "useCases": [
+          "通宵跑 Agent 时在锁屏看实时进度与完成提醒",
+          "部署/发邮件/付费前在通知上一点批准或拒绝",
+          "把 n8n 工作流的运行状态和关键指标（如订单数）投到灵动岛",
+          "任务失败时在免打扰时段照样响铃提醒"
+        ],
+        "designIntent": "作者团队常年并行跑多个 Agent，最常踩的两个坑是：Agent 卡在一个是非题上等了一小时没人理，以及任务早就跑完了自己还在刷终端。Monish 就是把这两个瞬间搬到手机上。",
+        "problemSolved": "解决 Agent 长时间空等人工确认、以及人反复回到电脑前查看状态的浪费；顺带给了「花钱/发布前的人工闸门」这一层安全把控。",
+        "score": 8,
+        "scoreReason": "切口极准——不是再造一个 Agent，而是补上「人在外面时怎么管 Agent」这块空白，一行接入、免费无账号，落地上手成本几乎为零。扣分在于消息经其服务器中转（留存 48 小时），且主要面向 iOS。",
+        "competitors": [
+          {
+            "name": "AgentValley",
+            "url": "https://www.producthunt.com/products/agentvalley",
+            "comparison": "同样做 Claude Code 多 Agent 总览，但只在 Mac 刘海屏上显示，人离开电脑就看不到。"
+          },
+          {
+            "name": "Pushover",
+            "url": "https://pushover.net/",
+            "comparison": "通用推送服务，能发通知但没有「在通知上批准 Agent 动作」的双向交互。"
+          },
+          {
+            "name": "ntfy",
+            "url": "https://ntfy.sh/",
+            "comparison": "开源自建推送，隐私更好，但需要自己搭，且无审批回传与灵动岛实时卡片。"
+          }
+        ],
+        "tags": [
+          "Agent 监控",
+          "锁屏通知",
+          "移动审批",
+          "自动化",
+          "免费"
+        ]
+      },
+      "cooldownExpiresAt": "2026-11-09T12:03:36.397619+08:00",
+      "recommendedDate": "2026-10-26"
+    },
+    {
+      "id": "ph_yourcast-2-0",
+      "name": "Yourcast 2.0（Telegram 播客机器人）",
+      "slug": "yourcast",
+      "description": "常驻 Telegram 的播客机器人：搜节目、点一下订阅，新一期直接以音频发到聊天里；2.0 加了带可点击时间戳的 AI 摘要、就任意一期提问、坏掉的 RSS 自愈、2GB 大文件与 OPML 迁移。",
+      "url": "https://t.me/yourcastbot",
+      "homepage": "https://www.producthunt.com/products/yourcast",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/ph_yourcast-2-0_20261026_121715.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "播客",
+        "Telegram",
+        "AI 摘要",
+        "订阅管理",
+        "开源"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/yourcast",
+      "firstSeen": "2026-10-24T22:42:59+08:00",
+      "analysis": {
+        "targetAudience": "日常泡在 Telegram 里、不想再装一个播客 App 的重度听众。",
+        "useCases": [
+          "一句话订阅节目，新一期自动落到 Telegram 聊天",
+          "先看带时间戳的 AI 摘要，再点时间戳跳到音频对应位置",
+          "就某一期内容直接追问细节",
+          "用 OPML 把 Apple Podcasts/其他 App 的订阅整体搬过来",
+          "博主用 Telegram Stars 做付费节目或打赏"
+        ],
+        "designIntent": "作者本身在通勤时听播客、日常又活在 Telegram，于是干脆让节目直接送到聊天里。2.0 用 LLM 把改版速度拉起来（7 周 85 个 PR），核心是把「决定这一小时值不值得听」这件事压缩成一次摘要+跳转。",
+        "problemSolved": "解决播客内容太长、难判断值不值得听的问题，以及播客订阅散落在多个 App、迁移麻烦的问题。摘要加时间戳，让「试听」成本降到几秒。",
+        "score": 7,
+        "scoreReason": "「摘要+可点击时间戳」是很聪明的小设计，把 AI 用在了真正省时间的位置（而不是又给一段长总结）。开源、支持 Stars 变现也是加分项。扣分在于强绑定 Telegram，免费档每周仅 10 期。",
+        "competitors": [
+          {
+            "name": "Snipd",
+            "url": "https://www.snipd.com/",
+            "comparison": "同样做 AI 摘要与章节跳转，体验成熟且是独立 App，但不在聊天里、需另装应用。"
+          },
+          {
+            "name": "Overcast",
+            "url": "https://overcast.fm/",
+            "comparison": "老牌播客播放器，播放体验好、有 Smart Speed，但没有 AI 摘要与聊天式订阅。"
+          },
+          {
+            "name": "Podwise",
+            "url": "https://podwise.ai/",
+            "comparison": "面向学习的播客摘要/笔记服务，深度更强，但偏网页工作流且收费，不像 Yourcast 随听随到。"
+          }
+        ],
+        "tags": [
+          "播客",
+          "Telegram",
+          "AI 摘要",
+          "订阅管理",
+          "开源"
+        ]
+      },
+      "cooldownExpiresAt": "2026-11-09T12:03:36.397619+08:00",
+      "recommendedDate": "2026-10-26"
     }
   ],
-  "lastUpdated": "2026-10-25T12:04:16.817291+08:00"
+  "lastUpdated": "2026-10-26T04:17:10.833531+00:00"
 }
