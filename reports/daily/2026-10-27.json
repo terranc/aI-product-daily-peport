@@ -1,0 +1,322 @@
+{
+ "date": "2026-10-27",
+ "generatedAt": "2026-10-27T04:20:28.600812+00:00",
+ "productCount": 5,
+ "products": [
+  {
+   "id": "producthunt.com/r/p/1291345",
+   "name": "Loqui 语音输入",
+   "slug": "loqui",
+   "description": "Mac / Windows 上的 AI 语音输入工具：按住快捷键说话，口语自动变成语气得当、标点完整的成稿文本，直接落在任何应用的光标处，并支持会议转写与纪要。",
+   "url": "https://loquime.com",
+   "homepage": "https://loquime.com",
+   "type": "app",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": null,
+   "appStoreScreenshots": [],
+   "tags": [
+    "语音输入",
+    "写作提效",
+    "会议纪要",
+    "Mac 效率",
+    "多语言"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/loqui-2",
+   "firstSeen": "2026-10-24T05:53:55-07:00",
+   "analysis": {
+    "targetAudience": "每天大量打字、又要开会的 Mac / Windows 知识工作者与远程团队成员。",
+    "useCases": [
+     "在 Slack、邮件、Notion 里按住快捷键说话，直接得到成稿文案",
+     "切到不同应用自动换语气：聊天口语化、邮件正式化",
+     "录制线上会议，自动区分说话人并生成决议与待办纪要",
+     "用一句话让 AI 改写已经写好的段落，不用重新说一遍",
+     "跨 90+ 语言口述，出差或跨国协作时免切换输入法"
+    ],
+    "designIntent": "作者认为「把话变成能直接发出去的文本」才是真实需求，而不是把一堆原始转写丢到光标处。因此它把语气适配、自动标点、口述改写都做进输入法这一层，并顺带把会议转写与纪要补上，做成一条从说话到发出去的完整链路。",
+    "problemSolved": "解决语音转写「能用但不好用」的老问题：转出来的是原始口语，还得手动改标点、改语气、删口头禅。同时把会议记录这件最容易漏的事，变成录音后自动产出的结构化纪要。",
+    "tags": [
+     "语音输入",
+     "写作提效",
+     "会议纪要",
+     "Mac 效率",
+     "多语言"
+    ],
+    "score": 8,
+    "scoreReason": "语音输入是典型的「AI 融入普通场景」产品，落地门槛低、日常使用频率极高。差异化在于按应用切换语气与会议语境下的冲突检测（新决议与旧决议矛盾时并列展示并让人确认），比单纯听写更进一步。扣分点是音频仍上传服务器处理、竞品（Wispr Flow 等）已经跑在前面。",
+    "competitors": [
+     {
+      "name": "Wispr Flow",
+      "url": "https://wisprflow.ai",
+      "comparison": "同为跨应用语音输入，Wispr Flow 更早占领市场、生态更成熟但定价更高；Loqui 用会议纪要加语气切换做差异化，并有免费额度"
+     },
+     {
+      "name": "Superwhisper",
+      "url": "https://superwhisper.com",
+      "comparison": "主打完全本地离线转写、隐私更强，适合敏感场景；Loqui 更强在云端模型带来的成稿质量与会议链路"
+     },
+     {
+      "name": "MacWhisper",
+      "url": "https://goodsnooze.gumroad.com/l/macwhisper",
+      "comparison": "偏文件与音视频批量转写，适合内容整理；Loqui 更偏实时口述与输入，不做长音频批量处理"
+     }
+    ]
+   }
+  },
+  {
+   "id": "producthunt.com/r/p/1291790",
+   "name": "Kiwi 主动式助手",
+   "slug": "kiwi-proactive-assistant",
+   "description": "在 iMessage / WhatsApp 里跟你对话的主动式 AI 助手：它会盯着你的日程、行程、账单和快递，在事情需要处理时先给你发消息，你回一句同意，它就替你在各种 App 和网站上把事情做完。",
+   "url": "https://heykiwi.co",
+   "homepage": "https://heykiwi.co",
+   "type": "saas",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": null,
+   "appStoreScreenshots": [],
+   "tags": [
+    "主动式助手",
+    "生活事务代办",
+    "消息机器人",
+    "行程管理",
+    "减屏"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/kiwi-7",
+   "firstSeen": "2026-10-24T16:19:29-07:00",
+   "analysis": {
+    "targetAudience": "被日程、快递、账单和家庭杂事缠身、想少看手机的上班族与带娃家庭。",
+    "useCases": [
+     "航班延误时提前问要不要订落地后的车，一句同意就下单",
+     "快递需要签收而你在上班，让它把配送改到周六",
+     "周六下午空出来时，帮你规划带孩子出门并订好票、餐和车",
+     "每天早上一条简报，只说今天真正需要注意的事",
+     "账单到期、别人答应退款这类事，到点提醒你去确认到账"
+    ],
+    "designIntent": "作者的出发点是「减少屏幕时间」：绝大多数 App 都在抢你打开它，而 Kiwi 反过来只在真的需要你决策时才找你，而且只找一次。选择寄生在 iMessage / WhatsApp 里、不装新 App，也是为了让「回一个 yes」成为全部的交互成本。",
+    "problemSolved": "解决生活事务分散在十几个 App 和网站、每件都要你自己去点的问题；同时解决通用助手「你不问它不动」的被动性，把发现问题的责任交给 AI。",
+    "tags": [
+     "主动式助手",
+     "生活代办",
+     "消息机器人",
+     "行程管理",
+     "减屏"
+    ],
+    "score": 8,
+    "scoreReason": "把 agent 能力藏进聊天窗口、只在你需要时出现，是对「助手」形态相当正确的一次重新定义，场景具体且贴近家庭日常。风险在执行可靠性：订票、改配送依赖第三方网站，遇到人机验证就会断，付费与隐私授权也是硬门槛（目前试点期免费）。",
+    "competitors": [
+     {
+      "name": "Poke",
+      "url": "https://poke.com",
+      "comparison": "同样通过短信 / 消息交互的通用 AI 助手，偏对话与任务执行；Kiwi 更聚焦日程、行程、账单这类生活事务，且有明确的减屏目标"
+     },
+     {
+      "name": "Gemini / Siri 系统助手",
+      "url": "https://gemini.google.com",
+      "comparison": "系统级集成、免费且权限更深，但基本是被动响应；Kiwi 的差异在主动推送与跨站代办"
+     },
+     {
+      "name": "Motion",
+      "url": "https://www.usemotion.com",
+      "comparison": "偏工作日程自动排期，只解决时间安排；Kiwi 覆盖订车、改快递、订餐等真实世界动作"
+     }
+    ]
+   }
+  },
+  {
+   "id": "producthunt.com/r/p/1281583",
+   "name": "zCAD AI 参数化建模",
+   "slug": "zcad-ai",
+   "description": "用一句话描述零件或装配体，就生成可编辑、带真实尺寸的参数化 CAD 模型，支持约束与装配配合、浏览器内改尺寸、导出 STEP 进任何 CAD 软件。",
+   "url": "https://zcad.ai",
+   "homepage": "https://zcad.ai",
+   "type": "saas",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": null,
+   "appStoreScreenshots": [],
+   "tags": [
+    "参数化 CAD",
+    "3D 建模",
+    "硬件设计",
+    "3D 打印",
+    "自然语言建模"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/zcad-ai",
+   "firstSeen": "2026-10-15T08:16:27-07:00",
+   "analysis": {
+    "targetAudience": "需要快速做结构件、治具和外壳的硬件工程师、独立创客与 3D 打印玩家。",
+    "useCases": [
+     "给手办底座做一个刚好卡住、不会倒的支架",
+     "给孩子开学前做一支尺寸正好的铅笔盒",
+     "给 5 寸 FPV 无人机做十几件的机架装配体",
+     "改一个孔位：直接说「这个孔放大 2mm」，其余特征保持不变",
+     "把生成的模型导出 STEP，回到 SolidWorks / Fusion 里继续做工程出图"
+    ],
+    "designIntent": "团队认为生成式 3D 目前最大的问题是不进工程流程：出来的网格好看但没法加工。所以 zCAD 从一开始就锚定「参数化实体」，要求模型带驱动尺寸、几何约束和装配配合，可检验配合面与间隙，从而能一路走到打印和机加工。",
+    "problemSolved": "解决「想法到可制造零件」之间那段最枯燥的重复建模劳动，同时避免 AI 生成的模型不可编辑、不能改尺寸、无法交付下游 CAD 的老毛病。",
+    "tags": [
+     "参数化 CAD",
+     "3D 建模",
+     "硬件设计",
+     "3D 打印",
+     "自然语言建模"
+    ],
+    "score": 8,
+    "scoreReason": "把生成式 AI 从「出概念图」推进到「出可编辑工程件」，是 AI 3D 里少见的务实方向，发布即拿到 Product Hunt 当日第一。局限是只擅长机械零件与装配体，不做造型类网格；而 Zoo、MecAgent、AdamCAD 乃至 Autodesk 都在同一条赛道上，精度与工作流会是真正的分水岭。",
+    "competitors": [
+     {
+      "name": "Zoo (Text-to-CAD / Zookeeper)",
+      "url": "https://zoo.dev",
+      "comparison": "同为文本生成可编辑 CAD，工具链与 API 更开放、面向开发者；zCAD AI 更偏浏览器端一体化的设计流程"
+     },
+     {
+      "name": "AdamCAD",
+      "url": "https://adamcad.com",
+      "comparison": "同样主打对话式生成参数化零件，有融资与成熟团队；差异在 zCAD 强调装配体与配合约束"
+     },
+     {
+      "name": "Autodesk Fusion",
+      "url": "https://www.autodesk.com/products/fusion-360/",
+      "comparison": "行业标准的完整 CAD/CAM 套件，精度与制造链路最完善；zCAD AI 胜在零学习成本和自然语言起步"
+     }
+    ]
+   }
+  },
+  {
+   "id": "agentreel.co",
+   "name": "AgentReel B-roll 剪辑器",
+   "slug": "agentreel",
+   "description": "把几百条没整理过的原始素材和一份配音脚本丢进去，AI 逐句匹配画面，直接用代码按帧剪辑出一条带配音、字幕、背景音乐的成品视频，横竖屏可选。",
+   "url": "https://agentreel.co",
+   "homepage": "https://agentreel.co",
+   "type": "website",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": null,
+   "appStoreScreenshots": [],
+   "tags": [
+    "AI 视频剪辑",
+    "B-roll",
+    "内容创作",
+    "自动字幕",
+    "短视频"
+   ],
+   "sourceChannels": [
+    "hackernews"
+   ],
+   "sourceUrl": "https://news.ycombinator.com/item?id=50252342",
+   "firstSeen": "2026-10-26T22:56:38Z",
+   "analysis": {
+    "targetAudience": "做口播解说、产品宣传和短视频的独立创作者与小型内容团队。",
+    "useCases": [
+     "拍了一整天素材，配好脚本后一次生成完整成片，省掉 3-4 小时手动拉片",
+     "把长视频拆成竖屏 Shorts / Reels，自动加字幕直接发",
+     "为产品发布视频快速配齐 B-roll，缺镜头时就地生成补拍",
+     "同一份脚本换一版节奏（快 / 中 / 慢）快速产出多版对比",
+     "照片素材也能用：每张自动变成带缓推的 4 秒镜头"
+    ],
+    "designIntent": "作者把问题拆成两半：创意决策交给模型（哪句话配哪个镜头），工程执行交给确定性代码（在 30fps 网格上按帧切）。这样每次渲染结果一致、转场不飘帧、片段不会短时间内重复，也不用盯着时间线手调。",
+    "problemSolved": "解决脚本写好、配音录完之后最耗时的拉片与配画工作，让一条解说视频从几小时压到二十分钟；顺带省掉逐句打字幕。",
+    "tags": [
+     "AI 视频剪辑",
+     "B-roll",
+     "内容创作",
+     "自动字幕",
+     "短视频"
+    ],
+    "score": 7,
+    "scoreReason": "「模型做决策、代码做剪辑」的分工很聪明，效果可复现、不飘帧，是 AI 视频里少见的工程化思路，且中英文脚本都支持。扣分在于它解决的是剪辑中的一个环节（B-roll 匹配），素材质量差时上限明显，产品本身也还是个多工具聚合站，尚未在 Product Hunt 正式上榜。",
+    "competitors": [
+     {
+      "name": "Descript",
+      "url": "https://www.descript.com",
+      "comparison": "以文本编辑驱动剪辑，适合口播与播客精修；AgentReel 更偏「素材自动配画 + 一次成片」，不做精细时间线编辑"
+     },
+     {
+      "name": "Opus Clip",
+      "url": "https://www.opus.pro",
+      "comparison": "擅长把长视频切条成短视频并自动加字幕，是分发向工具；AgentReel 的核心是按脚本逐句配 B-roll"
+     },
+     {
+      "name": "CapCut",
+      "url": "https://www.capcut.com",
+      "comparison": "免费、模板丰富、手动可控性最强；AgentReel 的差异是几百条素材的全自动匹配，省掉拉片人力"
+     }
+    ]
+   }
+  },
+  {
+   "id": "producthunt.com/r/p/1282225",
+   "name": "SurgePix 分层视觉编辑",
+   "slug": "surgepix",
+   "description": "不止一键出图的 AI 视觉工具：生成的画面可以按图层继续编辑，换文字、局部重绘、保持品牌风格，也能直接让 AI 编程助手调用生成与改图。",
+   "url": "https://surgepix.ai",
+   "homepage": "https://surgepix.ai",
+   "type": "saas",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": null,
+   "appStoreScreenshots": [],
+   "tags": [
+    "AI 设计",
+    "分层编辑",
+    "品牌视觉",
+    "局部重绘",
+    "营销素材"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/surgepix",
+   "firstSeen": "2026-10-16T00:19:17-07:00",
+   "analysis": {
+    "targetAudience": "没有专职设计师、又要持续产出海报与社媒素材的小团队和运营市场人员。",
+    "useCases": [
+     "生成一张活动海报后，只改标题文字而不重画整张图",
+     "把品牌色、字体、logo 固化进品牌包，批量产出风格统一的素材",
+     "对画面某一区域局部重绘，替换产品或背景元素",
+     "在 Claude Code / Cursor 里用技能直接调用，让 AI 顺手把配图也做了",
+     "同一套视觉快速导出不同尺寸，适配公众号、IG、官网横幅"
+    ],
+    "designIntent": "团队认为大多数 AI 图像工具停在「一次性生成」，改一个字就得重抽一张，实际没法进真实工作流。所以 SurgePix 把分层编辑、品牌包和局部重绘当成主线，把生成只当作起点。",
+    "problemSolved": "解决 AI 出图不可控、不可局部修改、品牌风格难以统一的问题，让营销素材能在生成结果上反复迭代，而不是每次从零抽卡。",
+    "tags": [
+     "AI 设计",
+     "分层编辑",
+     "品牌视觉",
+     "局部重绘",
+     "营销素材"
+    ],
+    "score": 7,
+    "scoreReason": "直击 AI 生图「只能抽卡、不能改稿」的痛点，分层 + 品牌包是设计师真正需要的能力，本周 Product Hunt 榜上表现靠前。不过赛道极卷（Canva、Figma、Adobe 都在补同类能力），且对专业设计师来说精细度仍是短板。",
+    "competitors": [
+     {
+      "name": "Canva",
+      "url": "https://www.canva.com",
+      "comparison": "模板生态与协作最成熟，AI 能力持续叠加；SurgePix 更偏生成后分层精修与品牌一致性控制"
+     },
+     {
+      "name": "Figma",
+      "url": "https://www.figma.com",
+      "comparison": "专业设计协作与矢量编辑的行业标准；SurgePix 胜在零门槛和一句话生成再加局部修改"
+     },
+     {
+      "name": "Adobe Firefly",
+      "url": "https://www.adobe.com/products/firefly.html",
+      "comparison": "版权安全素材与商用授权更完备，且打通 PS 图层；SurgePix 更轻、按次付费、对非设计师更友好"
+     }
+    ]
+   }
+  }
+ ]
+}

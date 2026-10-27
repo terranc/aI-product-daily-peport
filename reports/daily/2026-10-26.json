@@ -13,7 +13,7 @@
       "type": "saas",
       "appStoreName": null,
       "appStoreUrl": null,
-      "screenshotUrl": null,
+      "screenshotUrl": "assets/screenshots/ph_canva-craft_20261026_122043.png",
       "appStoreScreenshots": [],
       "tags": [
         "设计工具",
@@ -201,7 +201,7 @@
       "type": "app",
       "appStoreName": "Monish: AI Agent Notifications",
       "appStoreUrl": "https://apps.apple.com/us/app/monish-ai-agent-notifications/id6822071271?uo=4",
-      "screenshotUrl": null,
+      "screenshotUrl": "assets/screenshots/ph_monish_20261026_123850.png",
       "appStoreScreenshots": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/38/68/cd/3868cd9a-8f7b-149c-0d0c-86a06b6380cf/S1.png/320x480bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b8/a5/b2/b8a5b206-792a-1398-899f-c353e249647e/S2.png/320x480bb.jpg",

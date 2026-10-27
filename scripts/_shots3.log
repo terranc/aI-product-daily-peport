@@ -1,0 +1,8 @@
+need shots: ['ph_sideos-ai', 'ph_monish']
+   err ph_sideos-ai ConnectionError HTTPSConnectionPool(host='webshot.site', port=443): Read timed out.
+   err ph_sideos-ai ConnectionError HTTPSConnectionPool(host='webshot.site', port=443): Read timed out.
+ph_sideos-ai -> None
+   http 200 ph_monish 226679
+ph_monish -> assets/screenshots/ph_monish_20261026_123850.png
+remaining missing: ['ph_sideos-ai']
+DONE
