@@ -1,0 +1,315 @@
+{
+  "date": "2026-10-28",
+  "generatedAt": "2026-10-28T04:16:56.349050+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "producthunt.com/r/p/1289807",
+      "name": "Spacesheep",
+      "slug": "spacesheep",
+      "description": "把任何 AI Agent 产出的整轮工作变成可阅读的「空间」：交互式文档、实时看板、设计稿或内部小应用，团队可以在上面共同评论修改。",
+      "url": "https://spacesheep.dev/",
+      "homepage": "https://spacesheep.dev/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1289807_20261028121314.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 文档",
+        "团队协作",
+        "内容生成"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/spacesheep",
+      "firstSeen": "2026-10-22T21:03:25-07:00",
+      "analysis": {
+        "targetAudience": "需要高频产出团队文档的产品经理、市场与运营团队",
+        "useCases": [
+          "产品需求文档初稿起草",
+          "项目周报与复盘整理",
+          "市场分析材料生成",
+          "团队知识沉淀与复用",
+          "新人上手文档编排"
+        ],
+        "designIntent": "创始人认为 Agent 写东西的速度已经超过人阅读的速度，真正缺的是一个「人和 AI 一起读」的界面，而不是又一个编辑器。",
+        "problemSolved": "解决 Agent 产出堆在终端和 Markdown 里没人看、也读不动的问题，把结果直接变成团队能评论、能协作、能分享的成品页面。",
+        "tags": [
+          "AI 文档",
+          "团队协作",
+          "内容生成",
+          "知识管理"
+        ],
+        "score": 6,
+        "scoreReason": "文档生成赛道已经很拥挤（Notion AI、Gamma 一类强敌不少），但「文档能被团队直接阅读协作」的定位有差异。Product Hunt 发布首日表现一般，长期护城河尚不明朗。",
+        "competitors": [
+          {
+            "name": "Notion AI",
+            "url": "https://www.notion.so/product/ai",
+            "comparison": "Notion AI 长在已有知识库里写作，Spacesheep 更偏向从零生成整篇可发布文档。"
+          },
+          {
+            "name": "Gamma",
+            "url": "https://gamma.app",
+            "comparison": "Gamma 主打演示文稿，Spacesheep 盯的是长文档与团队阅读场景。"
+          },
+          {
+            "name": "Google Docs + Gemini",
+            "url": "https://workspace.google.com",
+            "comparison": "Google 胜在协作基础设施成熟，Spacesheep 需要靠更好的成稿质量抢人。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "v2ex.com/t/1252480",
+      "name": "记事喵",
+      "slug": "taskcat",
+      "description": "Mac 菜单栏待办工具：给微信发一句话（文字或语音）就能记事，任务自动同步到 Mac 与 iPhone 提醒事项。",
+      "url": "https://tab16360.github.io/taskcat/",
+      "homepage": "https://tab16360.github.io/taskcat/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/v2ex.com_t_1252480_20261028121643.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "待办",
+        "微信助手",
+        "语音输入",
+        "Mac"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "sourceUrl": "https://www.v2ex.com/t/1252480",
+      "firstSeen": "2026-10-28T03:18:02+00:00",
+      "analysis": {
+        "targetAudience": "在 Mac 上办公、习惯用微信随手记事的个人用户与开发者",
+        "useCases": [
+          "出门路上发微信语音记下临时任务",
+          "电脑前按 ⌥⌘T 快速新建带时间的待办",
+          "在对话里查询「这周还有什么」",
+          "用一句话把任务改期或标记完成",
+          "任务自动同步到 iPhone 提醒事项到点提醒"
+        ],
+        "designIntent": "作者发现「先发给文件传输助手、回电脑再抄进待办」这一步最容易漏，于是把微信直接变成录入入口，去掉中间的搬运环节。",
+        "problemSolved": "解决移动场景想到事却来不及记、回到电脑又忘了转抄的问题。任务存在系统提醒事项里，不建服务器也能跨端提醒。",
+        "tags": [
+          "待办",
+          "微信助手",
+          "语音输入",
+          "Mac",
+          "自然语言"
+        ],
+        "score": 8,
+        "scoreReason": "把 AI 理解自然语言的能力融进「记待办」这种最日常的动作，走腾讯官方 iLink 协议扫码即连，不用装插件也不用建服务器。模型可自配（OpenAI 兼容或本地 Ollama），数据只发标题状态，隐私处理克制。",
+        "competitors": [
+          {
+            "name": "Todoist",
+            "url": "https://todoist.com",
+            "comparison": "Todoist 快捕靠 App 和浏览器插件，记事喵直接借用微信这个已有习惯入口。"
+          },
+          {
+            "name": "Things 3",
+            "url": "https://culturedcode.com/things/",
+            "comparison": "Things 体验精致但输入全靠手打，记事喵胜在语音一句话就落库。"
+          },
+          {
+            "name": "Apple 提醒事项",
+            "url": "https://www.apple.com/reminders/",
+            "comparison": "记事喵把提醒事项当存储后端，相当于给它加了一层 AI 输入与对话管理。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "v2ex.com/t/1252498",
+      "name": "Tiny Desk AI",
+      "slug": "tiny-desk-ai",
+      "description": "上传照片就能把 Tiny Desk 演出片段里的乐手换成你自己或朋友，保留原演出画面与音轨，生成短视频。",
+      "url": "https://tinydesk-ai.org/",
+      "homepage": "https://tinydesk-ai.org/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/v2ex.com_t_1252498_20261028121525.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 视频",
+        "照片换脸",
+        "短视频",
+        "娱乐"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "sourceUrl": "https://www.v2ex.com/t/1252498",
+      "firstSeen": "2026-10-28T03:56:33+00:00",
+      "analysis": {
+        "targetAudience": "喜欢跟拍热梗、想做趣味短视频的普通用户与社交内容创作者",
+        "useCases": [
+          "把自己的照片放进 Tiny Desk 演出当主唱",
+          "给朋友或团队做纪念版乐队视频",
+          "宠物版模板做搞怪短片",
+          "音乐营销号批量产出跟风短视频",
+          "生日或团建礼物视频"
+        ],
+        "designIntent": "把「视频里的人换成我」这件需要专业剪辑和换脸工具的事，收敛成填一张人物名单再点生成。作者把选片、角色分配、提交生成都放进一个网页。",
+        "problemSolved": "解决换脸视频门槛高、角色容易串脸、音画对不齐的问题。模板固定场景与音轨，用户只需为每个乐手位置传一张照片。",
+        "tags": [
+          "AI 视频",
+          "照片换脸",
+          "短视频",
+          "娱乐",
+          "模板化"
+        ],
+        "score": 7,
+        "scoreReason": "热点梗加模板化生成，传播性很强，单条 10 积分的定价也轻。但玩法单一、依赖单一模板曲目，热度退去后留存是问题，版权上也要靠「同人恶搞」的免责声明兜底。",
+        "competitors": [
+          {
+            "name": "Viggle",
+            "url": "https://viggle.ai",
+            "comparison": "Viggle 面向角色动画与视频替换的通用玩法，Tiny Desk AI 只做一个场景但把它做到傻瓜化。"
+          },
+          {
+            "name": "HeyGen",
+            "url": "https://www.heygen.com",
+            "comparison": "HeyGen 主打数字人与口播视频，更商务；Tiny Desk AI 完全是娱乐向的梗视频。"
+          },
+          {
+            "name": "CapCut",
+            "url": "https://www.capcut.com",
+            "comparison": "CapCut 提供剪辑与特效能力但要手动操作，Tiny Desk AI 一步出片。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1293302",
+      "name": "Off Grid AI",
+      "slug": "off-grid-ai",
+      "description": "完全跑在手机和电脑本地的私人 AI：离线对话、生图、看图、语音输入，模型与数据都不出设备。",
+      "url": "https://getoffgridai.co/",
+      "homepage": "https://getoffgridai.co/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1293302_20261028121053.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "本地模型",
+        "隐私",
+        "离线 AI",
+        "个人助理"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/off-grid-ai",
+      "firstSeen": "2026-10-26T05:12:10-07:00",
+      "analysis": {
+        "targetAudience": "在意隐私、希望不联网也能用 AI 的个人用户与知识工作者",
+        "useCases": [
+          "飞机上或无网环境下和 AI 对话",
+          "用本地模型生成图片与配音",
+          "对着照片提问、识别票据与文档",
+          "项目文档问答并给出引用来源",
+          "手机与电脑通过自家 Wi-Fi 加密同步记忆与任务"
+        ],
+        "designIntent": "作者认为「隐私不该是设置项，而是架构的必然结果」，所以把所有推理都放在用户自己的硬件上，连账号和 API key 都不要。",
+        "problemSolved": "解决敏感内容不敢上传云端、以及没有网络时 AI 就废掉的问题。开源自证没有数据外发，旧机型也能跑小模型。",
+        "tags": [
+          "本地模型",
+          "隐私",
+          "离线 AI",
+          "个人助理",
+          "开源"
+        ],
+        "score": 8,
+        "scoreReason": "把本地推理这件事做成了普通人能装的成品 App，聊天、生图、看图、语音、文档问答都在一个壳里，还带一个 OpenAI 兼容的本地接口。免费档就能用，Pro 才加记忆与授权执行，定价克制。",
+        "competitors": [
+          {
+            "name": "LM Studio",
+            "url": "https://lmstudio.ai",
+            "comparison": "LM Studio 更偏开发者调模型，Off Grid AI 直接面向日常使用场景做到开箱即用。"
+          },
+          {
+            "name": "Ollama",
+            "url": "https://ollama.com",
+            "comparison": "Ollama 是命令行运行时，Off Grid AI 在其同类能力上加图形界面与移动端同步。"
+          },
+          {
+            "name": "ChatGPT",
+            "url": "https://chat.openai.com",
+            "comparison": "云端模型能力更强，但 Off Grid AI 的优势是完全离线与零数据外发。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1293789",
+      "name": "Nuvio 5.0",
+      "slug": "nuvio",
+      "description": "把开票、报销、对账这些财务杂活交给 AI：既能用内置助手干活，也能接 ChatGPT、Claude 或自己的 Agent。",
+      "url": "https://nuvio.io/",
+      "homepage": "https://nuvio.io/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1293789_20261028121106.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "财务管理",
+        "AI 助手",
+        "开票对账",
+        "创业工具"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/nuvio",
+      "firstSeen": "2026-10-26T13:06:22-07:00",
+      "analysis": {
+        "targetAudience": "没有专职财务、又要自己管账的创业者与小团队主理人",
+        "useCases": [
+          "拍票据自动识别金额与供应商并入账",
+          "一句话让助手开发票、改客户信息",
+          "银行流水与发票自动对账并先预览后保存",
+          "预测未来一年现金流，提前发现吃紧月份",
+          "把 Nuvio 接到已有 Agent 里让它在聊天中记账"
+        ],
+        "designIntent": "团队最初受够了表格加零散工具的手工财务流程，想让软件说创始人的语言，而不是逼人去学会计。5.0 让助手从「解释数字」升级到「直接把活干完」。",
+        "problemSolved": "解决小团队财务记录总是落后几周、漏开票、忘了催款的问题。AI 先把数据录好，人只做确认，同时把记账报税服务接进同一套体系。",
+        "tags": [
+          "财务管理",
+          "AI 助手",
+          "开票对账",
+          "创业工具",
+          "MCP"
+        ],
+        "score": 7,
+        "scoreReason": "5.0 把 MCP 接进财务系统是个务实的方向：修改前必须先预览确认，安全边界清晰。首发当日 113 赞排到日榜第 7，1,200+ 用户背书。不足是 $55/月起的价格对个人创业者不算轻。",
+        "competitors": [
+          {
+            "name": "QuickBooks",
+            "url": "https://quickbooks.intuit.com",
+            "comparison": "QuickBooks 体系完备偏会计视角，Nuvio 站在不懂财务的创始人一侧重新组织界面。"
+          },
+          {
+            "name": "Wave",
+            "url": "https://www.waveapps.com",
+            "comparison": "Wave 免费记账但 AI 自动化弱，Nuvio 主打把杂活交给助手完成。"
+          },
+          {
+            "name": "Xero",
+            "url": "https://www.xero.com",
+            "comparison": "Xero 适合有会计的团队，Nuvio 更强调「不用学会计也能用」。"
+          }
+        ]
+      }
+    }
+  ]
+}
