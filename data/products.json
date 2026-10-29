@@ -46288,7 +46288,323 @@
         "featuredInWeekly": false,
         "lastFeaturedDate": "2026-10-28"
       }
+    },
+    {
+      "id": "v2ex.com/t/1252752",
+      "name": "Inscura 个人影音资料库",
+      "slug": "inscura",
+      "description": "面向本地的电影剧集管理工具，自动刮削海报与演职员资料，并用纯本地的 AI 模型通过文字或参考图搜索视频画面。",
+      "url": "https://inscura.app/zh-hans/",
+      "homepage": "https://inscura.app/zh-hans/",
+      "type": "app",
+      "tags": [
+        "本地影音库",
+        "AI 画面搜索",
+        "隐私优先",
+        "桌面应用"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "sourceUrl": "https://www.v2ex.com/t/1252752",
+      "firstSeen": "2026-10-29T02:10:28+00:00",
+      "analysis": {
+        "targetAudience": "硬盘里囤了几百部电影剧集、想让收藏有海报墙又能随时找回来的影迷与 NAS 用户。",
+        "useCases": [
+          "把散乱文件夹里的影片自动刮削成带海报、简介、演职员和分季信息的资料库",
+          "用一句「阳光森林中的兔子」或一张截图，在整库里定位到对应画面和时间点",
+          "按评分、年份、时长自定义智能合集，新入库的影片自动归入",
+          "导出 NFO 给 Plex、Kodi、Emby、Jellyfin，一份资料多处复用",
+          "公共场合或投屏时开隐私模式模糊封面，避免暴露收藏内容"
+        ],
+        "designIntent": "作者做了两年多，想解决「资源都在本地，但管理体验还停在文件夹时代」的问题。它刻意把 AI 索引与搜索全部放在本机跑，不上传视频，把隐私当成产品前提而不是卖点包装。",
+        "problemSolved": "本地视频库缺少像流媒体那样的浏览与检索体验，翻文件夹找一部想看的片子成本很高。它也解决「记得画面但想不起片名」的检索难题，同时避免为整理资料而把私人片库传到云端。",
+        "tags": [
+          "本地影音库",
+          "AI 画面搜索",
+          "隐私优先",
+          "桌面应用"
+        ],
+        "score": 8,
+        "scoreReason": "切入点具体、真实可用，AI 用在「按画面找片」这个关键词搜索完全做不到的场景上，且全本地运行规避了隐私顾虑。已有 900+ 下载、180 周活用户与两年迭代，说明不是玩票；一次性买断、导出 NFO 对老影迷友好。局限是受众窄，且需 29.9 美元解锁 AI 搜索。",
+        "competitors": [
+          {
+            "name": "tinyMediaManager",
+            "url": "https://www.tinymediamanager.org/",
+            "comparison": "同为本地刮削与 NFO 管理，但没有 AI 画面检索，界面偏工具化。"
+          },
+          {
+            "name": "Plex",
+            "url": "https://www.plex.tv/",
+            "comparison": "在线媒体服务器体验更完整，但要部署服务端，且主要面向多设备串流而非本地整理。"
+          },
+          {
+            "name": "Visemory",
+            "url": "https://visemory.com/",
+            "comparison": "同样主打本地素材 AI 搜索，但聚焦剪辑素材而非电影剧集收藏管理。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-11-12T04:09:51.115036+00:00",
+      "lastFeaturedDate": "2026-10-29",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "reddit.com/r/sideproject/comments/1xi9tuu/visnetaidefectmapsfromstructurephotosand",
+      "name": "ViSNET 结构缺陷图",
+      "slug": "visnet",
+      "description": "把建筑、桥梁和工业设施的照片或无人机影像，自动转成带严重程度分级的结构缺陷图的巡检工具。",
+      "url": "https://visnetai.co",
+      "homepage": "https://visnetai.co",
+      "type": "saas",
+      "tags": [
+        "无人机巡检",
+        "缺陷识别",
+        "工程安全",
+        "计算机视觉"
+      ],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "sourceUrl": "https://www.reddit.com/r/SideProject/comments/1xi9tuu/visnet_ai_defect_maps_from_structure_photos_and/",
+      "firstSeen": "2026-10-29T03:59:09+00:00",
+      "analysis": {
+        "targetAudience": "做桥梁、楼宇与工业设施检查的巡检公司、工程监理和 EHS（环境健康安全）团队。",
+        "useCases": [
+          "把现场手机拍的照片批量转成标注了裂缝、剥落位置的缺陷图",
+          "接入无人机航线影像，自动生成可对比的整栋结构缺陷地图",
+          "按严重程度分级输出清单，用于维修优先级排序",
+          "给业主或监管方出一份带图证据的巡检报告",
+          "多期巡检结果对比，追踪某处缺陷是否恶化"
+        ],
+        "designIntent": "团队本身做深度视觉与无人机结构检测研究，2022 年起服务意大利大型无人机巡检公司，把项目里打磨的模型产品化成一个可直接上传照片就出缺陷图的工具，让没有算法团队的小巡检队也能用。",
+        "problemSolved": "人工看几百张巡检照片判读裂缝与剥落既慢又靠经验，标准还难统一。它把「看图找缺陷」自动化，并把结果整理成按严重程度分级的图，让维修决策和汇报都有据可依。",
+        "tags": [
+          "无人机巡检",
+          "缺陷识别",
+          "工程安全",
+          "计算机视觉"
+        ],
+        "score": 7,
+        "scoreReason": "把计算机视觉落到一个非常具体的传统行业环节，替代的是人工逐张判读照片的体力活，价值链条清晰。已有商业化客户与合作方背书，不属于玩具项目。扣分在于受众高度垂直、单人难以自用验证，且官网信息偏营销、缺少公开定价与试用。",
+        "competitors": [
+          {
+            "name": "DroneDeploy",
+            "url": "https://www.dronedeploy.com/",
+            "comparison": "通用的无人机数据平台，覆盖测绘与巡检，但缺陷分级需要额外定制。"
+          },
+          {
+            "name": "Flyability",
+            "url": "https://www.flyability.com/",
+            "comparison": "强在密闭空间飞行硬件，软件侧的缺陷判读能力相对有限。"
+          },
+          {
+            "name": "Roboflow",
+            "url": "https://roboflow.com/",
+            "comparison": "提供缺陷检测模型的训练平台，需自己标注训练，不是开箱即用的巡检产品。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-11-12T04:09:51.115036+00:00",
+      "lastFeaturedDate": "2026-10-29",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "reddit.com/r/sideproject/comments/1xi7lmc/idaanotchnativemacassistantthatturnsone",
+      "name": "Ida Mac 语音助手",
+      "slug": "ida-mac-assistant",
+      "description": "住在 Mac 屏幕刘海里的原生语音助手：按住快捷键说出需求，它直接在你常用的 App 里把事做完，动手前先给你看要做什么。",
+      "url": "https://heyida.ai/",
+      "homepage": "https://heyida.ai/",
+      "type": "app",
+      "tags": [
+        "Mac 效率",
+        "语音助手",
+        "跨应用操作",
+        "本地转写"
+      ],
+      "sourceChannels": [
+        "reddit",
+        "hackernews"
+      ],
+      "sourceUrl": "https://www.reddit.com/r/SideProject/comments/1xi7lmc/ida_a_notchnative_mac_assistant_that_turns_one/",
+      "firstSeen": "2026-10-29T02:07:05+00:00",
+      "analysis": {
+        "targetAudience": "每天在日历、邮件、代码编辑器之间来回切换的 Mac 重度用户，尤其是那种懒得打字、希望「说一句就办完」的人。",
+        "useCases": [
+          "按住快捷键问「我和 Maya 的评审是什么时候」，直接拿到日历里的答案",
+          "口述内容后让它顺手润色成可发送的邮件或消息",
+          "让它跨 App 完成建日程、发消息、查代码这类需要动鼠标的操作",
+          "在地铁或深夜不想出声时改用打字，同一套上下文继续",
+          "所有会改动数据的动作先弹确认卡片，逐条确认后才执行"
+        ],
+        "designIntent": "作者认为 Siri 十年前承诺的事情一直没做到，于是做了个原生 macOS 助手：不做又一个聊天窗口，而是常驻屏幕顶部、在你正在用的 App 里直接执行。设计上刻意加了「动手前先给你看」的确认环节，把信任放在能力之前。",
+        "problemSolved": "传统 AI 助手只会回答问题，用户还得自己复制粘贴、切窗口、点按钮，真正的操作成本没降。Ida 把口语请求直接翻译成跨应用的具体动作，减少窗口切换与重复输入；确认卡片则解决了「AI 乱动我的数据」的顾虑。",
+        "tags": [
+          "Mac 效率",
+          "语音助手",
+          "跨应用操作",
+          "本地转写"
+        ],
+        "score": 8,
+        "scoreReason": "把语音助手从「聊天」推到「替你操作应用」，是对操作系统原生助手空缺的正面回应，交互形态（刘海常驻+按住说话+确认卡片）考虑得比同类成熟。免费公开可用、支持本地转写，降低了试错门槛。扣分在于酷似竞品扎堆的刘海助手赛道，且强依赖 macOS 14+ 与 Apple 生态。",
+        "competitors": [
+          {
+            "name": "Raycast AI",
+            "url": "https://www.raycast.com/",
+            "comparison": "同为 Mac 上的快捷入口式 AI，但更多停留在查询与生成，跨应用执行能力较弱。"
+          },
+          {
+            "name": "Super Notch",
+            "url": "https://www.supernotch.ai/",
+            "comparison": "同样占位刘海，主打 AI 编码会话管理与口述，定位更偏开发者。"
+          },
+          {
+            "name": "sideOS",
+            "url": "https://sideos.ai/",
+            "comparison": "同样主张刘海常驻、读屏并代为点击，强调本地模型与自有 API key。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-11-12T04:09:51.115036+00:00",
+      "lastFeaturedDate": "2026-10-29",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "reddit.com/r/saas/comments/1xi70y0/ibuiltapayasyougoaitranscriptionsaasno",
+      "name": "DropToText 按量付费转写",
+      "slug": "droptotext",
+      "description": "把音频或视频拖进网页就能拿到分角色、带时间戳的文字稿，按小时买额度、没有订阅，处理完立即删除音频。",
+      "url": "https://droptotext.app/en",
+      "homepage": "https://droptotext.app/en",
+      "type": "saas",
+      "tags": [
+        "语音转文字",
+        "按量付费",
+        "会议记录",
+        "隐私"
+      ],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "sourceUrl": "https://www.reddit.com/r/SaaS/comments/1xi70y0/i_built_a_payasyougo_ai_transcription_saas_no/",
+      "firstSeen": "2026-10-29T01:39:55+00:00",
+      "analysis": {
+        "targetAudience": "需要偶尔转写访谈、会议、课程录音的个人、记者和小团队，不希望为此订一整年的订阅。",
+        "useCases": [
+          "把记者采访录音转成按说话人分段、带时间点的文字稿",
+          "把播客或课程视频导出成可直接剪辑的 SRT 字幕",
+          "会议录音转成 Word 文档，交给同事评论和补充",
+          "语言不通的外语素材先自动识别语种再转写，支持 90 种语言",
+          "网络不稳时断点续传大文件，不必从头重传"
+        ],
+        "designIntent": "作者反感「为了每月两次转写而被迫订阅」的模式，于是做成纯按小时计费、额度永不过期。隐私上也做了取舍：音频一转完就删、文字稿只留 5 天，用短留存换取用户的信任。",
+        "problemSolved": "转写工具普遍绑定月费，低频用户为用不掉的额度付费；同时上传私人录音有留存顾虑。DropToText 用按量付费压低低频成本，用即时删除和断点续传解决「大文件传一半断了」的老问题。",
+        "tags": [
+          "语音转文字",
+          "按量付费",
+          "会议记录",
+          "隐私"
+        ],
+        "score": 7,
+        "scoreReason": "产品逻辑简单清晰，用「按小时买、永不过期」直接打订阅制的痛点，定价 2.5 美元/小时对低频用户很有吸引力；API 直连的差异化弱但体验细节（断点续传、分角色、多格式导出）做得完整。风险是同类工具极多，护城河主要是价格与计费方式。",
+        "competitors": [
+          {
+            "name": "Otter.ai",
+            "url": "https://otter.ai/",
+            "comparison": "会议场景更成熟、有实时协作，但按订阅收费，低频用户成本高。"
+          },
+          {
+            "name": "Whisper API",
+            "url": "https://platform.openai.com/docs/guides/speech-to-text",
+            "comparison": "底层模型便宜强大，但要自己写脚本处理，没有分角色与导出格式。"
+          },
+          {
+            "name": "TurboScribe",
+            "url": "https://turboscribe.ai/",
+            "comparison": "同样主打低价无限转写，但以订阅形式售卖，且留存策略不同。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-11-12T04:09:51.115036+00:00",
+      "lastFeaturedDate": "2026-10-29",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "raceradar.fit",
+      "name": "Race Radar 赛事票提醒",
+      "slug": "race-radar",
+      "description": "每 5 分钟扫描 HYROX 官方票务，售罄的比赛日一放票就推送提醒，还能看到每个比赛日本周复活过几次。",
+      "url": "https://raceradar.fit/",
+      "homepage": "https://raceradar.fit/",
+      "type": "website",
+      "tags": [
+        "赛事报名",
+        "余票监控",
+        "健身比赛",
+        "自动提醒"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=50280244",
+      "firstSeen": "2026-10-28T20:15:07+00:00",
+      "analysis": {
+        "targetAudience": "想参加 HYROX 体能赛、却总抢不到热门场次名额的健身爱好者与跑团成员。",
+        "useCases": [
+          "盯住已售罄的目标赛日，一放票就收到推送而不是天天自己刷",
+          "订阅整个赛季，新赛事和新加场次开票时第一时间知道",
+          "查看某个赛日本周复活过几次，判断还有没有捡漏机会",
+          "覆盖 Open、Pro、双人、混合和接力全部分组，以及观赛票",
+          "直接在官方购票页上看到「这个日本周回归过几次」的标注"
+        ],
+        "designIntent": "作者自己抢不到票，于是把「人肉刷票」这件事交给程序：高频轮询官方票务，把售罄日的复活规律公开出来。它还有个卖点——赛事的日常运营（上新、通报变化）由 AI 角色代为打理。",
+        "problemSolved": "热门赛事名额释放没有规律，靠人反复刷页面既耗神又容易错过几分钟的空窗。Race Radar 把监测变成持续的自动提醒，并用历史复活次数帮助用户判断哪些日子值得盯。",
+        "tags": [
+          "赛事报名",
+          "余票监控",
+          "健身比赛",
+          "自动提醒"
+        ],
+        "score": 6,
+        "scoreReason": "需求非常真实（HYROX 售罄后确有回流名额），做法直接有效，5 分钟轮询+浏览器插件标注的体验设计有巧思。但功能单一、只服务一个赛事品牌，如果 HYROX 官方开放候补或封禁轮询，产品价值会明显缩水；「AI CEO」的叙事更像噱头。",
+        "competitors": [
+          {
+            "name": "Distill Web Monitor",
+            "url": "https://distill.io/",
+            "comparison": "通用网页变更监控，可自己配置监控 HYROX 票页，但要动手设置且不懂赛制分组。"
+          },
+          {
+            "name": "Visualping",
+            "url": "https://visualping.io/",
+            "comparison": "同类的网页变化提醒，缺少针对赛事分组的聚合与历史统计。"
+          },
+          {
+            "name": "HYROX 官方候补",
+            "url": "https://hyrox.com/",
+            "comparison": "官方渠道最权威，但只在名额释放时才通知，没有多日汇总视图。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-11-12T04:09:51.115036+00:00",
+      "lastFeaturedDate": "2026-10-29",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      }
     }
   ],
-  "lastUpdated": "2026-10-28T04:16:56.349050+00:00"
+  "lastUpdated": "2026-10-29T04:09:51.161133+00:00"
 }
