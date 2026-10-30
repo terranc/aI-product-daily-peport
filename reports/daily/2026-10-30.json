@@ -1,0 +1,297 @@
+{
+  "date": "2026-10-30",
+  "generatedAt": "2026-10-30T04:10:37.693931+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "producthunt.com/r/p/1295773",
+      "name": "Smart Jelly（智能果冻）",
+      "slug": "smart-jelly",
+      "description": "一款跑在 Mac 上的私人 AI 助手：聊天、听写、语音、会议、待办跟进和文档处理共用同一份「记忆」。它记得你的工作内容、联系人和任务，能在你允许的范围内被 Claude、ChatGPT、Cursor 等外部 AI 读取调用。",
+      "url": "https://smartjelly.ai/",
+      "homepage": "https://smartjelly.ai/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1295773.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "Mac 效率工具",
+        "个人 AI 助手",
+        "本地记忆",
+        "会议记录",
+        "隐私优先"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/smart-jelly",
+      "firstSeen": "2026-10-28T03:57:05-07:00",
+      "analysis": {
+        "targetAudience": "每天在多个工具间切换、想让 AI 记住自己工作上下文的 Mac 办公人群。",
+        "useCases": [
+          "把会议录音变成带待办的纪要",
+          "语音听写替代手打长文",
+          "让 Claude/ChatGPT 通过 MCP 读取自己的任务和联系人",
+          "跨应用的文档润色与总结",
+          "下单前让它整理人物与项目背景"
+        ],
+        "designIntent": "作者的出发点很朴素：AI 每次对话都从零开始，用户却要反复复述自己的背景。Smart Jelly 把「记忆」做成产品的地基，所有功能都从同一份记忆读取，再用 MCP 把这份记忆开放给别家 AI，避免又一个封闭的 AI 孤岛。",
+        "problemSolved": "解决 AI 工具彼此割裂、每次都要重新交代背景的问题。它把散落在会议、邮件、文档里的个人工作上下文沉淀成一份可复用的记忆，让 AI 真正接手「记住你是谁、正在做什么」这件事。",
+        "tags": [
+          "Mac 效率工具",
+          "个人 AI 助手",
+          "本地记忆",
+          "会议记录",
+          "隐私优先"
+        ],
+        "score": 8,
+        "scoreReason": "记忆层 + MCP 开放的组合切中当下 AI 助手最大的痛点（上下文不通），且是面向普通办公用户的成品应用而非开发框架。局限在于深度绑定 macOS 生态、订阅制，且「记忆准确度」这件事很难自证。",
+        "competitors": [
+          {
+            "name": "Recall for Mac",
+            "url": "https://www.joinrecall.com/",
+            "comparison": "同样做 Mac 上的工作记忆，但 Recall 侧重「被打断后接回上下文」，Smart Jelly 更强调一站式 AI 工具集。"
+          },
+          {
+            "name": "Rewind / Limitless",
+            "url": "https://www.limitless.ai/",
+            "comparison": "走录音/截屏全量记录的路线，重且隐私压力大；Smart Jelly 是结构化笔记式记忆，更轻。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1296450",
+      "name": "AutoShelf（自动归档架）",
+      "slug": "autoshelf",
+      "description": "Mac 菜单栏小工具，用「如果这样那么那样」的规则自动整理文件夹：重命名、打标签、移入子目录、丢进废纸篓。比传统规则更聪明的是它会读文件内容——按发票、收据、合同里写的文字分门别类，而不是只看文件名。",
+      "url": "https://useautoshelf.com/",
+      "homepage": "https://useautoshelf.com/",
+      "type": "app",
+      "appStoreName": "AutoShelf - Folder Organizer",
+      "appStoreUrl": "https://apps.apple.com/us/app/autoshelf-folder-organizer/id6762361021?mt=12",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1296450.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "文件整理",
+        "Mac 工具",
+        "自动化规则",
+        "内容识别",
+        "下载目录清理"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/autoshelf",
+      "firstSeen": "2026-10-28T15:19:51-07:00",
+      "analysis": {
+        "targetAudience": "下载文件夹长期爆炸、又懒得手动归档的设计师、自由职业者和小团队行政。",
+        "useCases": [
+          "自动把下载的发票按月份归档",
+          "按合同正文里的客户名分类文件",
+          "截图与录屏自动进对应项目文件夹",
+          "桌面文件过夜自动清空",
+          "给文件批量打上主题标签"
+        ],
+        "designIntent": "作者是一位伊斯坦布尔的设计师兼独立开发者，反复经历「文件堆到看不下去才整理」的痛苦，于是把 IFTTT 的思路搬到本地文件系统，并加入内容读取能力，让规则能理解文件里写了什么。",
+        "problemSolved": "解决下载与桌面目录长期失控、手动归档成本高的问题。传统规则工具只能靠后缀和文件名判断，AutoShelf 用 AI 读内容，把「发票放财务、合同放客户」这类判断真正自动化。",
+        "tags": [
+          "文件整理",
+          "Mac 工具",
+          "自动化规则",
+          "内容识别",
+          "下载目录清理"
+        ],
+        "score": 8,
+        "scoreReason": "需求真实且高频、定价透明（一次性 19.99 美元买断），AI 只用在「读内容分类」这一个必要环节而非硬凹，是很典型的把 AI 融入普通场景的好产品。扣分在于场景偏窄、竞品多。",
+        "competitors": [
+          {
+            "name": "Hazel",
+            "url": "https://www.noodlesoft.com/",
+            "comparison": "Mac 上老牌规则整理工具，规则粒度更细但完全靠文件名和元数据，读不懂内容。"
+          },
+          {
+            "name": "SortSage",
+            "url": "https://enlightpixel.com/products/sortsage",
+            "comparison": "同周出现的规则式文件整理工具，功能接近，AutoShelf 的成熟度和 App Store 上架更占优。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1295465",
+      "name": "Recall（Mac 记忆助手）",
+      "slug": "recall-for-mac",
+      "description": "一个安静的 macOS 应用，记住你在各个应用和标签页里做的事。会议或打断结束后，它会把你原来的那条线索接回去：当时在看什么、答应了谁什么、待办还剩哪些，都在菜单栏里一按即得。",
+      "url": "https://www.joinrecall.com/",
+      "homepage": "https://www.joinrecall.com/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1295465.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "工作记忆",
+        "上下文恢复",
+        "注意力管理",
+        "Mac 工具",
+        "待办追踪"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/recall-for-mac",
+      "firstSeen": "2026-10-27T23:10:13-07:00",
+      "analysis": {
+        "targetAudience": "一天被打断十几次、经常想不起「我刚才要干嘛」的知识工作者与管理者。",
+        "useCases": [
+          "开完会立刻回到会前浏览的资料",
+          "自动汇集「今天答应了谁什么」",
+          "跳转任务时保留原来的阅读线索",
+          "用 Loops 追踪重复出现的待办",
+          "给编码 agent 提供上下文交接"
+        ],
+        "designIntent": "作者把问题定位在「上下文切换税」而不是「搜索太难」：真正需要的不是更快的搜索，而是被打断后能回到被打断的那一刻。所以产品形态是后台静默记录 + 菜单栏一键接回，而不是又一个对话窗口。",
+        "problemSolved": "解决频繁切换任务导致的上下文丢失和待办遗漏。它把「我刚才在做什么、答应过什么」变成系统性的记录，减少重找资料和内疚感带来的时间损耗。",
+        "tags": [
+          "工作记忆",
+          "上下文恢复",
+          "注意力管理",
+          "Mac 工具",
+          "待办追踪"
+        ],
+        "score": 7,
+        "scoreReason": "切入点精准且不依赖花哨的大模型效果，产品克制、文档齐全。但后台记录全屏活动天然带来隐私疑虑，且需要 Apple 芯片 + 较高系统版本，受众被进一步收窄。",
+        "competitors": [
+          {
+            "name": "Rewind",
+            "url": "https://www.rewind.ai/",
+            "comparison": "同样是全量记录回放，但偏重「回看过去」；Recall 更偏重「回到当下的那条线索」。"
+          },
+          {
+            "name": "Smart Jelly",
+            "url": "https://smartjelly.ai/",
+            "comparison": "把记忆用于生成任务与 AI 对话，Recall 则把记忆用于恢复上下文和跟进承诺。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1288102",
+      "name": "Scape（智能收件箱）",
+      "slug": "scape",
+      "description": "为「工作真的发生在邮箱里」这件事而造的桌面邮件客户端。它不是给 Gmail 套一层 AI 聊天框，而是让 AI 主动整理、归类、起草和跟进，把收件箱变成一个会自己往前推进的工作台。",
+      "url": "https://scape.app/",
+      "homepage": "https://scape.app/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1288102.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "邮件客户端",
+        "收件箱整理",
+        "AI 起草",
+        "工作效率",
+        "创业公司产品"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/scape-4",
+      "firstSeen": "2026-10-21T07:59:42-07:00",
+      "analysis": {
+        "targetAudience": "每天在邮箱里耗掉大半天、对 Gmail 又爱又恨的职场专业人士与创业者。",
+        "useCases": [
+          "自动把杂乱邮件归成待办队列",
+          "让 AI 起草回复并人工确认发出",
+          "在收件箱旁直接打开日历建会议",
+          "跨项目追踪跟进状态",
+          "批量处理订阅与低价值邮件"
+        ],
+        "designIntent": "团队（YC 背景、斯德哥尔摩五人小团队）判断邮件仍然是职场的核心工作界面，问题不在「信息太多」而在「客户端不会主动」。因此从零重做一个原生桌面客户端，让 AI 成为收件箱的主动操作者而非外挂助手。",
+        "problemSolved": "解决传统邮件客户端只做收纳、不做推进的问题。它把「读邮件」变成「处理任务」，减少人工归类与逐封手写回复的时间。",
+        "tags": [
+          "邮件客户端",
+          "收件箱整理",
+          "AI 起草",
+          "工作效率",
+          "创业公司产品"
+        ],
+        "score": 8,
+        "scoreReason": "邮件是最大众的场景，重做客户端的成本高但天花板也高，产品有真实媒体报道与用户口碑。风险在于迁移成本和邮箱数据授权，且大厂（Gmail/Outlook）正在同类功能上快速追赶。",
+        "competitors": [
+          {
+            "name": "Superhuman",
+            "url": "https://superhuman.com/",
+            "comparison": "以键盘效率和速度见长、AI 为辅助；Scape 反过来让 AI 主导整理与推进，更激进。"
+          },
+          {
+            "name": "Shortwave",
+            "url": "https://www.shortwave.com/",
+            "comparison": "同为 AI 邮件客户端，Shortwave 建在 Gmail 之上，Scape 是完整独立客户端。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1294677",
+      "name": "Empacer（语音业务助理）",
+      "slug": "empacer",
+      "description": "面向小微企业主的语音优先助理：把业务情况说一遍，之后对着它口述需求，它就替你把活干出来——报价单、回复、提醒、跟进，都先做好再让你过目确认，而不是只给你一段草稿。",
+      "url": "https://www.empacer.com/",
+      "homepage": "https://www.empacer.com/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1294677.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "小微企业",
+        "语音交互",
+        "行政事务",
+        "报价与跟进",
+        "Android/Web"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/empacer",
+      "firstSeen": "2026-10-27T06:56:57-07:00",
+      "analysis": {
+        "targetAudience": "没时间学提示词、整天在客户现场的个体老板与小型服务商（装修、维修、家政、餐饮等）。",
+        "useCases": [
+          "口述一句生成报价单",
+          "语音记录客户需求并自动排跟进",
+          "自动整理当天的工单与回访清单",
+          "外出时用手机口述马上生成客户回复",
+          "把口头交代变成可执行的待办"
+        ],
+        "designIntent": "团队观察到小企业主不是不会用 AI，而是没空学「怎么问」。所以他们把交互彻底改成「像吩咐员工一样说话」，并且强调交付物已做好只待确认，让 AI 承担执行而非提供建议。",
+        "problemSolved": "解决小企业主在客户与文书之间疲于奔命、深夜补行政工作的问题。它把口述指令直接变成可发出、可存档的业务文档，省掉中间所有手工整理环节。",
+        "tags": [
+          "小微企业",
+          "语音交互",
+          "行政事务",
+          "报价与跟进",
+          "Android/Web"
+        ],
+        "score": 7,
+        "scoreReason": "人群定位清晰（服务型小企业主），交互设计有真正的产品思考，把 AI 从「聊天」推向「交付」。但小企业主付费意愿与信任门槛高，家庭式业务的语音数据也存在隐私顾虑。",
+        "competitors": [
+          {
+            "name": "Tulu",
+            "url": "https://www.producthunt.com/products/tulu",
+            "comparison": "面向中小企业的自动化营销与分析，偏增长；Empacer 偏日常行政执行。"
+          },
+          {
+            "name": "IFTTT.ai",
+            "url": "https://ifttt.com/ai_agent",
+            "comparison": "用自然语言串起已连接的服务，适合有现成工具栈的人；Empacer 是语音直达交付物的垂直助理。"
+          }
+        ]
+      }
+    }
+  ]
+}
