@@ -30,3 +30,4 @@ scripts/_scratch*
 scripts/_selected_products.json
 
 scripts/_prefiltered_out.json
+scripts/selfcheck_*

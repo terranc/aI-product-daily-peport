@@ -1,0 +1,307 @@
+{
+ "date": "2026-10-31",
+ "generatedAt": "2026-10-31T12:22:11.448547+08:00",
+ "productCount": 5,
+ "products": [
+  {
+   "id": "v2ex.com/t/1253333",
+   "name": "Inklet（macOS 中文转英文写作助手）",
+   "slug": "inklet",
+   "description": "常驻 Mac 菜单栏的免费开源写作助手：任意输入框里按快捷键，把中文口语或草稿改成自然的英文（也支持改写、总结、听写、翻译），结果直接填回原输入框。",
+   "url": "https://getinklet.app/",
+   "homepage": "https://getinklet.app/",
+   "type": "app",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/v2ex.com_t_1253333.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "macOS",
+    "写作助手",
+    "中译英",
+    "本地模型",
+    "开源"
+   ],
+   "sourceChannels": [
+    "v2ex"
+   ],
+   "sourceUrl": "https://www.v2ex.com/t/1253333",
+   "firstSeen": "2026-10-30T22:34:05+00:00",
+   "analysis": {
+    "targetAudience": "在外企或跨语言环境工作、每天要用英文写 Slack 和邮件，却总要切到 ChatGPT 再复制粘贴回来的中文母语职场人。",
+    "useCases": [
+     "在 Slack / 邮件输入框里把中文想法一键改写成地道英文",
+     "开会中听写语音直接整理成书面文字插回文档",
+     "对任意 App 的选中段落做改写、总结或翻译",
+     "在断网或不想上传内容时用本机模型离线处理"
+    ],
+    "designIntent": "作者在外企打工，脑子里是中文手上要敲英文，一直用 Raycast 的 AI 但输入框太小、prompt 不好管；于是自己做一个只做这件事的常驻小工具，把「改一句英文」压缩成两次回车。",
+    "problemSolved": "解决「为改一句话而切换 ChatGPT」的上下文断裂与复制粘贴损耗。开源 + 无需 API Key + 可用本地模型，同时把隐私和成本顾虑一起解决。",
+    "tags": [
+     "macOS",
+     "写作助手",
+     "中译英",
+     "本地模型",
+     "开源"
+    ],
+    "score": 8,
+    "scoreReason": "痛点极其具体且高频，交互设计（任意输入框、两次回车、结果原位填回）精准；免费开源、M 系列 Mac 本地模型离线可用是明显的差异化。限制在 macOS 单个平台，但这也让体验更打磨。",
+    "competitors": [
+     {
+      "name": "Raycast AI",
+      "url": "https://www.raycast.com/",
+      "comparison": "功能更全的启动器级 AI，但改写类操作要开独立窗口、prompt 管理不如专用工具顺手。"
+     },
+     {
+      "name": "Wispr Flow",
+      "url": "https://wisprflow.ai/",
+      "comparison": "强在语音输入与自动润色，主打「说什么写什么」，不做中译英与格式化改写。"
+     },
+     {
+      "name": "DeepL Write",
+      "url": "https://www.deepl.com/write",
+      "comparison": "英文润色质量高，但需在网页里操作，不能在原输入框内完成闭环。"
+     }
+    ]
+   }
+  },
+  {
+   "id": "reddit.com/r/sideproject/comments/1xjyt9p/ibuiltanaipoweredwebsitebuilderforpersonal",
+   "name": "redy（AI 个人主页生成器）",
+   "slug": "redy",
+   "description": "把简历、简介或一段文字描述，在 60 秒内生成一个能直接上线的个人网站、博客或社区主页，无需拖拽建站也不需要自己搞托管。",
+   "url": "https://redy.page/",
+   "homepage": "https://redy.page/",
+   "type": "website",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/reddit.com_r_sideproject_comments_1xjyt9p_ibuiltanaipoweredwebsitebuilderforpersonal.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "AI建站",
+    "个人主页",
+    "简历转网站",
+    "社区网站",
+    "零代码"
+   ],
+   "sourceChannels": [
+    "reddit"
+   ],
+   "sourceUrl": "https://www.reddit.com/r/SideProject/comments/1xjyt9p/i_built_an_aipowered_website_builder_for_personal/",
+   "firstSeen": "2026-10-31T02:37:35+00:00",
+   "analysis": {
+    "targetAudience": "想要一个像样线上主页但不想学建站、也不想折腾托管的个人、创作者和小型社群组织者。",
+    "useCases": [
+     "上传简历生成求职用的个人作品主页",
+     "把自己的笔记或简介变成带博客的个人站点",
+     "给兴趣社群 / 小组做一个可对外宣传的社区官网",
+     "替代 Linktree 做多链接聚合的个人名片页"
+    ],
+    "designIntent": "作者发现 LLM 出现后「建站」这件事的瓶颈不再是拖拽编辑器，而是内容从哪来；于是把起点从空白画布换成你已有的简历和自我介绍。产品做了一年多，从单纯个人主页扩展到社区站、博客和 bio-link，目标是一步到位把人和内容搬上线。",
+    "problemSolved": "解决普通人建站的三个卡点：不知道写什么内容、不会用拖拽建站工具、生成后还得找地方托管。把「描述需求 → 生成 → 上线」压缩成一次操作，省掉在 vibecoding 和部署之间来回折腾。",
+    "tags": [
+     "AI建站",
+     "个人主页",
+     "简历转网站",
+     "社区网站",
+     "零代码"
+    ],
+    "score": 7,
+    "scoreReason": "场景很朴素但真实：简历/简介到个人网站是高频低门槛需求，免费且无需信用卡降低了试用阻力。短板是同类 AI 建站产品已经很多，差异化主要靠「社区站 + bio-link 一体化」而非技术壁垒。",
+    "competitors": [
+     {
+      "name": "Framer",
+      "url": "https://www.framer.com/",
+      "comparison": "专业设计感更强、可精细调整，但需要学习成本，也不擅长从零生成内容。"
+     },
+     {
+      "name": "Linktree",
+      "url": "https://linktr.ee/",
+      "comparison": "做多链接聚合的单一形态，不能长成完整的个人网站或博客。"
+     },
+     {
+      "name": "Carrd",
+      "url": "https://carrd.co/",
+      "comparison": "便宜好用的单页建站工具，但依旧要靠模板手动填内容，没有「上传简历自动生成」。"
+     }
+    ]
+   }
+  },
+  {
+   "id": "v2ex.com/t/1253340",
+   "name": "小道（中英双语八字排盘站）",
+   "slug": "xiaodaox",
+   "description": "一个把真太阳时、节气交接、历史夏令时等历法边界都算准的中英双语东方术数网站，提供八字详批报告、奇门遁甲择时和生活化小工具。",
+   "url": "https://xiaodaox.com/",
+   "homepage": "https://xiaodaox.com/",
+   "type": "website",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/v2ex.com_t_1253340.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "东方术数",
+    "八字排盘",
+    "奇门遁甲",
+    "AI报告",
+    "双语"
+   ],
+   "sourceChannels": [
+    "v2ex"
+   ],
+   "sourceUrl": "https://www.v2ex.com/t/1253340",
+   "firstSeen": "2026-10-31T00:42:56+00:00",
+   "analysis": {
+    "targetAudience": "会拿出生时间去问 ChatGPT 排盘、但发现边界情况老是算错的传统命理爱好者与好奇的年轻人。",
+    "useCases": [
+     "按真太阳时排出准确的四柱命盘并生成详批报告",
+     "开会 / 面试 / 出游前用奇门看一个宜忌方向",
+     "把牌局、钓鱼、美甲这类日常琐事变成带趣味的小决策",
+     "英文用户用同一套历法知识库了解八字与节气"
+    ],
+    "designIntent": "团队发现 AI 排八字在日常日期上大多能排对，一遇到节气交接、出生地真太阳时、早晚子时这些边界条件就出错，于是把重点放在把底层历法算准，再往上叠 AI 解读。",
+    "problemSolved": "解决通用大模型在历法边界条件上不可靠的问题，把排盘这种「错一个字就全错」的计算从模型猜测拉回到确定性算法，再用 AI 负责解读与表达。",
+    "tags": [
+     "东方术数",
+     "八字排盘",
+     "奇门遁甲",
+     "AI报告",
+     "双语"
+    ],
+    "score": 7,
+    "scoreReason": "切入点聪明：不与大模型拼生成能力，而是补上模型的确定性短板，还把 MCP 接口开放给 AI 调用，具备成为「AI 命理基础设施」的潜力。受众偏垂类，商业化天花板有限。",
+    "competitors": [
+     {
+      "name": "ChatGPT 直接排盘",
+      "url": "https://chatgpt.com/",
+      "comparison": "零门槛随时可用，但边界条件（真太阳时、夏令时、早晚子时）经常算错，也不给稳定报告。"
+     },
+     {
+      "name": "元亨利贞网",
+      "url": "https://www.china95.net/",
+      "comparison": "老牌排盘站，计算扎实但界面陈旧、无 AI 解读，也不支持英文。"
+     }
+    ]
+   }
+  },
+  {
+   "id": "v2ex.com/t/1253352",
+   "name": "Outstanding Tiny Desk AI（桌面演唱会视频生成）",
+   "slug": "outstanding-tiny-desk-ai",
+   "description": "上传一张本人照片（最多再加 4 位乐队成员），就能生成一段 19 秒的竖屏「桌面演唱会」视频，自带配乐和舞台感。",
+   "url": "https://tiny-desk-ai.video/",
+   "homepage": "https://tiny-desk-ai.video/",
+   "type": "website",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/v2ex.com_t_1253352.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "AI视频",
+    "照片转视频",
+    "社交分享",
+    "趣味模板",
+    "竖屏短视频"
+   ],
+   "sourceChannels": [
+    "v2ex"
+   ],
+   "sourceUrl": "https://www.v2ex.com/t/1253352",
+   "firstSeen": "2026-10-31T01:40:36+00:00",
+   "analysis": {
+    "targetAudience": "想在生日、聚会、社媒上发点有趣内容的普通用户，以及需要给朋友整活的小团队。",
+    "useCases": [
+     "把自己的照片做成一段假装上台演出的短视频",
+     "拉上朋友或同事做一支「乐队」合体演出",
+     "给生日 / 年会 / 社群活动做搞怪庆祝素材",
+     "宠物照片也能上台当主唱"
+    ],
+    "designIntent": "作者把一个流行文化梗（NPR Tiny Desk 桌面演出）做成可复用的视频模板，核心是让普通人不需要拍摄、剪辑和配乐就能产出有叙事感的短视频。",
+    "problemSolved": "解决普通人做「有剧情感」短视频的门槛：不用场地、不用乐队、不用剪辑软件，一张照片就够了；同时把时长压在 19 秒，正好适配社交平台的完播区间。",
+    "tags": [
+     "AI视频",
+     "照片转视频",
+     "社交分享",
+     "趣味模板",
+     "竖屏短视频"
+    ],
+    "score": 6,
+    "scoreReason": "趣味性和传播性都在线，模板化设计让体验很轻，19 秒竖屏正好卡住社媒分享场景。属于典型的一次性娱乐工具，新鲜度过去后复访动力弱，也容易撞上同类模板化 AI 视频产品。",
+    "competitors": [
+     {
+      "name": "Viggle AI",
+      "url": "https://viggle.ai/",
+      "comparison": "同样做照片/角色驱动的动作视频，模板更偏跳舞和meme，可玩性更广但操作更复杂。"
+     },
+     {
+      "name": "Agnes Video Generator",
+      "url": "https://vibevideogenerators.com/",
+      "comparison": "同为模板化 AI 视频站，除桌面演出外还有哭泣、 Talking Avatar 等多种玩法，是同一个赛道里更全的集合。"
+     }
+    ]
+   }
+  },
+  {
+   "id": "v2ex.com/t/1253119",
+   "name": "Agnes Video Generator（在线 AI 视频生成站）",
+   "slug": "agnes-video-generator",
+   "description": "不用剪辑和拍摄，输入一段文字或上传一张图片，几分钟内生成带声音的短视频；站内还集成哭泣视频、桌面演出、Talking Avatar 等模板化玩法。",
+   "url": "https://vibevideogenerators.com/",
+   "homepage": "https://vibevideogenerators.com/",
+   "type": "website",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/v2ex.com_t_1253119.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "AI视频",
+    "文生视频",
+    "图生视频",
+    "模板工具",
+    "在线生成"
+   ],
+   "sourceChannels": [
+    "v2ex"
+   ],
+   "sourceUrl": "https://www.v2ex.com/t/1253119",
+   "firstSeen": "2026-10-30T03:17:33+00:00",
+   "analysis": {
+    "targetAudience": "没有拍摄设备和剪辑能力、却需要短视频素材的自媒体新人、小商家和普通用户。",
+    "useCases": [
+     "用一句话描述生成一段几秒钟的高清短视频素材",
+     "让静态老照片「活起来」（海浪流动、人物眨眼微笑）",
+     "给产品做不用实拍的口播数字人视频",
+     "把照片做成哭泣、桌面演出等社交平台整活素材"
+    ],
+    "designIntent": "把分散的 AI 视频玩法收进一个统一的在线站点，用户只需要选模板、传图或写字、消耗点数生成，避开本地部署模型和复杂剪辑软件。",
+    "problemSolved": "解决「不会剪、没设备、缺素材」三连问题，把视频生产从专业技能变成填空式操作；同时用模板化入口降低用户对 prompt 的依赖。",
+    "tags": [
+     "AI视频",
+     "文生视频",
+     "图生视频",
+     "模板工具",
+     "在线生成"
+    ],
+    "score": 6,
+    "scoreReason": "工具集合齐全，覆盖文生视频、图生视频和多个娱乐化模板，对非专业用户友好。但本质是第三方模型能力的包装站，同质化严重，长期靠点数收费的转化取决于模型效果而不是产品本身。",
+    "competitors": [
+     {
+      "name": "Runway",
+      "url": "https://runwayml.com/",
+      "comparison": "专业级 AI 视频创作平台，可控性和画质更强，学习曲线也陡，面向创作者而非普通用户。"
+     },
+     {
+      "name": "Pika",
+      "url": "https://pika.art/",
+      "comparison": "同样主打文生/图生视频的易用性，社区与风格模板更成熟，但缺少哭泣、桌面演出这类主题化整活模板。"
+     },
+     {
+      "name": "CapCut",
+      "url": "https://www.capcut.com/",
+      "comparison": "剪辑能力完整且免费，AI 视频生成只是其中一环，需要自己动手剪。"
+     }
+    ]
+   }
+  }
+ ]
+}
