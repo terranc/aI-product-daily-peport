@@ -1,0 +1,322 @@
+{
+  "date": "2026-11-03",
+  "generatedAt": "2026-11-03T02:34:36.425552+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "reddit_t3_1xmgi42",
+      "name": "字幕工厂 Subtitle Foundry",
+      "slug": "subtitle-foundry",
+      "description": "一位有 15 年经验的前职业译员兼字幕师做的模块化字幕工作台：把转录、对齐、翻译、审校拆成可插拔的流水线，让纪录片和小语种影片也能低成本做出高质量多语言字幕。",
+      "url": "https://github.com/mrtdlgc/subtitle-foundry",
+      "homepage": "https://github.com/mrtdlgc/subtitle-foundry",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "字幕制作",
+        "视频翻译",
+        "多语言",
+        "创作者工具",
+        "开源项目"
+      ],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "sourceUrl": "https://www.reddit.com/r/SideProject/comments/1xmgi42/subtitle_foundry_a_modular_subtitle_workbench_to/",
+      "firstSeen": "2026-11-03T02:34:36.425552+00:00",
+      "analysis": {
+        "targetAudience": "需要把影片/纪录片做多语言字幕的独立创作者、影视发行方与字幕翻译从业者。",
+        "useCases": [
+          "纪录片或独立电影制作英语/中文双语字幕并导出成片",
+          "把已有的本地化素材重新翻译成小语种版本",
+          "人工译员用 AI 预转写+自动对齐，只专注审校与润色",
+          "为 YouTube 视频批量生成可校正的字幕时间轴",
+          "团队协作拆分「转录—翻译—校对—压制」四道工序"
+        ],
+        "designIntent": "作者本身是前职业译员和字幕师，离开开发 15 年后重新写代码，就是为了做出「自己工作中会愿意用」的那套流程工具。他不是想做又一个一键 AI 字幕盒子，而是把专业字幕员真正跑通的四道工序显式拆开、每题可换引擎、每步可人工干预。",
+        "problemSolved": "现有一键 AI 字幕工具出片快但术语错漏多、时间轴不贴合，专业字幕员还得全盘返工；而专业级桌面套件又贵又重、难以上手。它把「AI 提速」和「人工可审校」放进同一条可插拔流水线，压低了高质量多语言字幕的门槛。",
+        "tags": [
+          "字幕制作",
+          "视频翻译",
+          "多语言",
+          "创作者工具",
+          "开源项目"
+        ],
+        "score": 8,
+        "scoreReason": "切的是 AI 字幕里最容易被忽略的「专业审校」环节，作者十年行业经验让工序设计很实在。开源、零商业化动机、持续维护，长期可用性强。缺点是目前星标为零、缺乏在线演示，属于需要自己跑起来才见价值的工具。",
+        "competitors": [
+          {
+            "name": "Whisper + 手工校对",
+            "url": "https://github.com/openai/whisper",
+            "comparison": "只解决转录一步，翻译对齐全靠人手工，Subtitle Foundry 把它串成了完整流水线。"
+          },
+          {
+            "name": "Kapwing",
+            "url": "https://www.kapwing.com",
+            "comparison": "在线一站式自动配字幕，上手快但对专业术语和审校流程支持弱，难以做长片发行级字幕。"
+          },
+          {
+            "name": "Subtitle Edit",
+            "url": "https://www.nikse.dk/subtitleedit",
+            "comparison": "老牌桌面字幕编辑器功能全但界面重、AI 能力靠外挂，Subtitle Foundry 用可插拔引擎更轻。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "reddit_t3_1xmep2k",
+      "name": "LookBook 每周穿搭册",
+      "slug": "lookbook",
+      "description": "上传一张全身照，先选好你常穿的那几个品牌，每周日收到三套已经穿在你身上的完整造型——尺码和库存都已核对过，点一下就能买。",
+      "url": "https://lookbook.style",
+      "homepage": "https://lookbook.style",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "穿搭推荐",
+        "AI 试衣",
+        "生活方式",
+        "每周订阅",
+        "电商导购"
+      ],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "sourceUrl": "https://www.reddit.com/r/SideProject/comments/1xmep2k/i_built_a_virtual_closet_app_looking_for_early/",
+      "firstSeen": "2026-11-03T02:34:36.425552+00:00",
+      "analysis": {
+        "targetAudience": "想穿得体面但没时间逛、也不信任算法信息流的都市上班族。",
+        "useCases": [
+          "每周日收到三套针对当周天气与场合的搭配",
+          "出差/度假前按目的地生成本地化造型方案",
+          "只在已认的品牌里选款，避免被推陌生品牌",
+          "把全身照变成「自己穿着」的试衣效果，降低退货率",
+          "用固定节奏替代无限下滑的穿搭信息流"
+        ],
+        "designIntent": "作者的原话是「做一本 lookbook，而不是又一个 feed」——用生成式渲染把「模特上身图」换成「你上身图」，再用每周一封邮件的克制冷感对抗算法信息流。它刻意做成杂志式节奏，而不是让你越刷越久。",
+        "problemSolved": "穿搭推荐类应用普遍两个毛病：推荐的是模特图而非你的身材，且品牌和尺码要自己反复核对。LookBook 用一张照片生成自己的上身效果，并在下单前完成尺码与库存校验，把「选到能穿」这件事直接做完。",
+        "tags": [
+          "穿搭推荐",
+          "AI 试衣",
+          "生活方式",
+          "每周订阅",
+          "电商导购"
+        ],
+        "score": 8,
+        "scoreReason": "把 AI 生图落在最刚需的「我穿什么样」上，比抽象的虚拟试衣间更具体；每周三套的克制设计是产品差异点，商业模式清晰且不打扰用户。风险在于依赖品牌库与商品数据覆盖度，非美区用户体验会打折。",
+        "competitors": [
+          {
+            "name": "Stitch Fix",
+            "url": "https://www.stitchfix.com",
+            "comparison": "人工造型师+寄送盒子的重模式，周期长且需付费订阅；LookBook 全数字生成、即看即买。"
+          },
+          {
+            "name": "Pinterest",
+            "url": "https://www.pinterest.com",
+            "comparison": "提供灵感图但衣服不在你身上也不再库存，属于无限信息流；LookBook 是有限量、可下单的成品方案。"
+          },
+          {
+            "name": "Acloset",
+            "url": "https://acloset.com",
+            "comparison": "聚焦管理已有衣橱做数字衣橱，LookBook 更偏向发现并购买新造型。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt_cedric-ai-for-meetings",
+      "name": "Cedric 会议数字分身",
+      "slug": "cedric-ai-meetings",
+      "description": "会替你出席线上会议的 AI 队友：它播放你的幻灯片、用实时业务数据回答问题、记录决议和待办，会后自动把跟进事项做完。",
+      "url": "https://meet-cedric.com",
+      "homepage": "https://meet-cedric.com",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "会议助理",
+        "AI 数字分身",
+        "销售支持",
+        "会议纪要",
+        "团队协作"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/cedric",
+      "firstSeen": "2026-11-03T02:34:36.425552+00:00",
+      "analysis": {
+        "targetAudience": "会议密集、又要定期向客户或投资人做汇报的创业团队与销售负责人。",
+        "useCases": [
+          "冲突时段让 AI 代表自己出席客户会并事后汇报",
+          "让 AI 按脚本播报销售数据与季度业绩幻灯片",
+          "迟到入会时由 AI 快速同步前面讲过的内容",
+          "会后自动整理决议与待办并分派给团队成员",
+          "把跨 Slack/Telegram/邮件的跟进动作串成自动流程"
+        ],
+        "designIntent": "Cedric 原本是 Slack 里的 AI 队友，这次把它推进到会议室：作者认为「能讲幻灯片、能答问」是 AI agent 从助手变成同事的最后一步。设计上强调「发送前先问你」，把支配权留在人手里。",
+        "problemSolved": "真正的痛点不是记笔记，而是「人分身乏术」——同一个时段只能进一个会。它把出席、讲稿、答疑、纪要、跟进打包成一个角色，让被会议塞满的人真正腾出时间。",
+        "tags": [
+          "会议助理",
+          "AI 数字分身",
+          "销售支持",
+          "会议纪要",
+          "团队协作"
+        ],
+        "score": 8,
+        "scoreReason": "从「记会议」升级到「替你开会」，是今年会议类 AI 里少见的形态跃迁，且有 3000+ 工具接入和记忆上下文做支撑。隐忧是真人会接受 AI 代 Attend 的社交接受度，以及答错业务数据的风险控制。",
+        "competitors": [
+          {
+            "name": "Otter.ai",
+            "url": "https://otter.ai",
+            "comparison": "只做录音转写与纪要，仍需你本人出席；Cedric 直接代你出席并发言。"
+          },
+          {
+            "name": "Fireflies.ai",
+            "url": "https://fireflies.ai",
+            "comparison": "会后自动生成纪要与 CRM 同步，属于事后补充；Cedric 在会中承担讲述与答疑。"
+          },
+          {
+            "name": "Zoom AI Companion",
+            "url": "https://www.zoom.com",
+            "comparison": "绑定 Zoom 生态的会议摘要，无跨平台代出席与执行跟进能力。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt_fluent-2",
+      "name": "Fluent 2 本地 AI 队友",
+      "slug": "fluent-2",
+      "description": "在任何 Mac 应用里按 ⌥Space 就能唤出的 AI 队友：它用本机模型或你自己的云模型，会替你点按应用界面完成整套任务，记忆存在本机、无需账号。",
+      "url": "https://fluentmac.app",
+      "homepage": "https://fluentmac.app",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "Mac 效率",
+        "本地模型",
+        "电脑自动化",
+        "隐私保护",
+        "AI 队友"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/fluent-ai-writing-assistant-for-macos",
+      "firstSeen": "2026-11-03T02:34:36.425552+00:00",
+      "analysis": {
+        "targetAudience": "重视数据隐私、又想在桌面端用 AI 干实事的 Mac 重度用户。",
+        "useCases": [
+          "选中文字就地润色或改写，不切换窗口",
+          "让它读完邮件线程并生成回复",
+          "一句话把下载文件夹按类型自动归类",
+          "没有开放接口的老应用里，由它自己移动鼠标点按完成操作",
+          "设定好每日晨间简报，开盖即读"
+        ],
+        "designIntent": "作者把 Fluent 从「写作助手」升级成「AI 队友」，核心判断是：真正省时间的不是帮你写一句，而是替你做完一个任务。为此它绕开 API 限制——用自己的一套指针去操作原生应用，并用本机模型把成本与隐私同时压到零。",
+        "problemSolved": "大部分桌面 AI 工具要么被关在浏览器里、要么必须联网付费，还常常卡在没有开放接口的应用上。Fluent 用系统级快捷键+图形操作绕过集成缺失，用本地模型消除订阅与数据外传顾虑。",
+        "tags": [
+          "Mac 效率",
+          "本地模型",
+          "电脑自动化",
+          "隐私保护",
+          "AI 队友"
+        ],
+        "score": 7,
+        "scoreReason": "「用指针操作应用」补齐了 AI 集成最大的空白，本地模型+免费额度对普通用户很有吸引力，已有 3000+ 用户和长期迭代验证。扣分在于仅限 macOS，且交给 AI 操作鼠标键盘本身带一定误操作风险。",
+        "competitors": [
+          {
+            "name": "Raycast AI",
+            "url": "https://www.raycast.com",
+            "comparison": "启动器式调用极快，但主要靠官方扩展接线，难以操作无接口的原生应用。"
+          },
+          {
+            "name": "Apple Intelligence",
+            "url": "https://www.apple.com/apple-intelligence/",
+            "comparison": "系统级整合、零配置，但能力边界保守且只能走苹果自选模型，缺少任意模型自由。"
+          },
+          {
+            "name": "OpenAI 桌面版",
+            "url": "https://openai.com/chatgpt/download/",
+            "comparison": "对话体验成熟，但在 Mac 上难以跨应用深度执行与本地记忆。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt_godwit",
+      "name": "Godwit 智能邮件客户端",
+      "slug": "godwit",
+      "description": "开源桌面邮件客户端，支持任意 IMAP/SMTP 账号，内置助手 Wit 可用你指定的模型读信、摘要、翻译和起草回复，邮件与密码不经过任何第三方服务器。",
+      "url": "https://godwit.email",
+      "homepage": "https://godwit.email",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "邮件客户端",
+        "AI 写作",
+        "开源软件",
+        "隐私保护",
+        "跨平台"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/godwit",
+      "firstSeen": "2026-11-03T02:34:36.425552+00:00",
+      "analysis": {
+        "targetAudience": "每天处理大量邮件、又不愿把收件箱交给大厂 AI 客户端的职场人与技术用户。",
+        "useCases": [
+          "长邮件线程一键摘要成要点",
+          "外语邮件就地翻译后再回复",
+          "按收件账号的语气习惯起草回复",
+          "用本地模型处理工作邮件，敏感内容不出本机",
+          "自己写插件给客户端加航班卡、验证码卡等专属视图"
+        ],
+        "designIntent": "作者用「斑尾塍鹬不落地飞最远」给客户端命名，思路是极简、长航、可延展：核心只做邮件本身，AI 作为可选助手，并通过插件体系让用户自己长出需要的功能，而不靠官方堆砌。",
+        "problemSolved": "Gmail/Superhuman 一类的智能邮件体验要把全部邮件托管出去，且与具体邮箱深度绑定。Godwit 同时解决两件事：用任意 IMAP 账号脱离单一服务商，用自选模型让 AI 摘要翻译在本地可控。",
+        "tags": [
+          "邮件客户端",
+          "AI 写作",
+          "开源软件",
+          "隐私保护",
+          "跨平台"
+        ],
+        "score": 7,
+        "scoreReason": "开源+IMAP+自选模型是隐私敏感用户最想要的组合，已迭代到 v1.23 并补齐 Gmail OAuth，工程完成度高。但邮件客户端是极难迁移的高粘性品类，新用户切换成本大，短期内更像是给技术用户的确定性选项。",
+        "competitors": [
+          {
+            "name": "Superhuman",
+            "url": "https://superhuman.com",
+            "comparison": "AI 与速度打磨到极致，但仅限云端大厂邮箱且需高额订阅，数据须托管。"
+          },
+          {
+            "name": "Thunderbird",
+            "url": "https://www.thunderbird.net",
+            "comparison": "同样开源、同样支持 IMAP，但 AI 能力靠扩展拼装，体验一致性与现代 UI 不及 Godwit。"
+          },
+          {
+            "name": "Notion Mail",
+            "url": "https://www.notion.com/product/mail",
+            "comparison": "与 Notion 生态深度联动的 AI 收件箱，绑 Gmail 且非本地，不适用于任意邮箱。"
+          }
+        ]
+      }
+    }
+  ]
+}
