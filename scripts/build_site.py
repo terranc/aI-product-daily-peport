@@ -1573,7 +1573,8 @@ def render_weekly_value(value):
         return f'<div class="kv-grid">{rows}</div>'
     if isinstance(value, str):
         # 兼容遗留字符串：识别 1./2./3. 分段，渲染为 <ol>
-        ordered_items = re.findall(r'\d+[\.\、](.*?)(?=\d+[\.\、]|$)', value, re.DOTALL)
+        # 先剥离序号标记，避免正文里的「$610.00」这类金额被误判成列表序号而截断整段
+        ordered_items = re.findall(r'(?:^|\n)\s*\d+[\.\、\)](.*?)(?=(?:^|\n)\s*\d+[\.\、\)]|$)', value, re.DOTALL)
         if len(ordered_items) >= 2:
             items = ''.join(f'<li>{item.strip().rstrip("；").strip()}</li>' for item in ordered_items if item.strip())
             if items:
