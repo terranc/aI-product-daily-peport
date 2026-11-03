@@ -24,6 +24,7 @@ data/_cron_*
 scripts/_cron_*
 scripts/_step*
 scripts/_list*
+scripts/_weekly*
 scripts/_analyze*
 scripts/_tmp*
 scripts/_scratch*

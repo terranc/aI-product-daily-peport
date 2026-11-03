@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-03",
+  "generatedAt": "2026-11-03T02:25:30.243660+00:00",
+  "productCount": 1,
+  "type": "weekly",
+  "sourceDailyReport": "2026-10-19",
+  "products": [
+    {
+      "id": "producthunt.com/r/p/1285764",
+      "name": "call4me",
+      "slug": "call4me",
+      "description": "给你的 AI 代理配一个能打电话的号码：通过 MCP 接入 ChatGPT、Claude、Codex 等，让它替你去预约、改期、问客服、听电话菜单和排队等待，通话结束把结果、转写和录音交回来。",
+      "url": "https://call4.me/",
+      "homepage": "https://call4.me/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1285764.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 打电话",
+        "语音代理",
+        "MCP 接入",
+        "预约代办",
+        "人机同线"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/call4me",
+      "firstSeen": "2026-10-19T11:24:29-07:00",
+      "analysis": {
+        "targetAudience": "已经在用 ChatGPT/Claude 处理任务的个人与开发者，以及需要频繁对外电话沟通（预约、售后）的自由职业者。",
+        "useCases": [
+          "让 Claude Code / Codex 直接打电话把周四下午的牙医预约改到周五上午",
+          "订明晚 7 点四人的餐厅桌位，或在满座时问清 waitlist 规则",
+          "替你在客服队列里排队，接通真人后再把你接进通话（press 1 接管，按 * 交回）",
+          "打电话问账单折扣、取消条件、退改签规则这些网站上查不到的答案",
+          "并行给五家店打同一组问题做比价与档期调研，结果按通话回写进正在做的任务",
+          "不在电脑前时先存好 brief 定时拨号，回来在另一个会话里取回结论与录音"
+        ],
+        "designIntent": "作者 Nick Khami 的出发点很私人：他整天泡在 Claude Code 和 Codex 里，去做皮肤分析后被要求自己去挂号，却发现「代理能读网页、能写代码，就是打不了电话」，于是发推问有没有现成方案，没找到，就自己做了。设计上坚持三件事：一，电话是代理的一个工具，不是你新开的一个 App，结果要能回到原任务里；二，通话者只能说被给过的事实（saved profile + 12 类场景的必填字段），不知道就中途问代理、代理问用户、答案再被说出口；三，永远以「替你办事的助理」身份通话，不冒充本人，随时可以监听或接管。",
+        "problemSolved": "解决了 AI 代理最后一段纯人工环节：电话菜单、排队等待、反复转接。这类事情在网站上查不到答案、又必须真人对话才能推进，一次往往吃掉 20 分钟注意力。call4me 把这段变成一次指令，并留下可复核的转写与录音——谁答应了什么、约到几点，事后能逐句核对，而不是只拿到一句 AI 的总结。",
+        "score": 9,
+        "scoreReason": "【深度调研亮点】\n1) 它不是又一个语音代理平台，而是把「打电话」做成 AI 代理的一个工具调用：托管在 https://call4.me/mcp 的远程 MCP 服务器，Claude Code、Codex、ChatGPT、Claude Desktop、Cursor、Grok Bot、Meta Muse、Devin CLI、OpenCode、Cline、n8n、Goose 等只要有 MCP 客户端就能一行命令接入，已被收录进官方 MCP Registry（io.github.skeptrunedev/call4me），不用自己搭 Twilio/Telnyx 那一套。\n2) 架构选择足够硬核且有公开技术论证：整条音频链路是语音对语音（OpenAI GPT-Live 直吃 Telnyx 的 G.711 μ-law 8kHz，不经 STT/TTS、不重采样），把「打电话取消预约、改期、问规则」这类真实摩擦做成可完成的任务，作者在 10-02 的长文《The STT-LLM-TTS voice stack is dead》里把自己的失败案例（说「2」不会按键、话务员干等 41 秒、部署打断通话、把用户当坐席分机打到语音信箱循环）全写了出来，可信度高于宣传稿。\n3) 关键设计把「AI 乱说话」的风险前置拦掉：语音模型不持有任何工具，只把决定委托给另一个文本模型（end_call / ask_user / press_digits / connect_person）；12 类通话场景各自定义必填字段（姓名、生日、保险、车型等），缺字段时 place_call 直接返回「Not calling yet」拒绝拨号，所以「接线员问患者生日才发现不知道」这种事发生在拨号之前。\n4) 计费极轻且无订阅门槛：$0.25/分钟从接通开始（含电话菜单），等待按半价，未接通/占线/失败免费，预付费从 $10 起；公开的真实通话成本可核（晚餐订位 56 秒 25 美分、Cleveland Clinic 含约 5 分钟等待共 12 分 26 秒 $2.75），学生另有 $50 免费额度。\n5) 增长是真的在发生：10-01 Show HN 只有 2 分 0 评论，10-08 首次 PH 上线 12-15 票，到 10-20 重新上线拿到 75 票/PH 当日第 24 名（另一家聚合站记录 72 票、处于前 2%）；作者晒出的 Stripe 首周数据为 $610 流水 / $215 MRR，10-20 官方称用户量较 10-08 上线时翻了约三倍（未披露绝对值）。GitHub 仓库 10-24 至 11-02 九天内 100 次提交。\n6) 边界划得清楚：明令不做电销、问卷、催收、政治电话，不假装是用户本人，被问就如实说是 AI，同一号码一天只能打几次，对方要求别再打就永久拉黑——这既是合规态度，也是它能被电话另一端接受的前提。\n扣分在：明确只覆盖美加欧英等地区（其余国家要先买本地号码），中文市场基本用不上；100% 依赖 Telnyx 与 OpenAI 实时语音模型，任一上游故障即全局不可用；创始人自己承认实时模型「会答应却不做」，需要靠正则监测旁路补齐，成功率与稳定性目前只有作者自测的样本，没有第三方实测数据。",
+        "competitors": [
+          {
+            "name": "Vapi Agent Phone",
+            "url": "https://vapi.ai/",
+            "comparison": "同样是托管 HTTP MCP 可接 Claude Code，但公开文档显示每个用户只能同时一通电话，且呼叫参数里不暴露时长上限；call4me 支持并发与 max_minutes 预算。"
+          },
+          {
+            "name": "Bland AI",
+            "url": "https://www.bland.ai/",
+            "comparison": "偏企业级语音代理平台，官方 MCP 会附带 pathway、呼叫评审与评测工具，适合已经用 Bland 建代理的团队；call4me 是给个人助理加一个打电话的动作。"
+          },
+          {
+            "name": "Cocall",
+            "url": "https://cocall.dev/",
+            "comparison": "托管 MCP、有通话中提问/续接（resume_call）循环，功能最接近；但要求首次通话前先验证一个号码，call4me 首通即送美国号码。"
+          },
+          {
+            "name": "Patter Claude Call",
+            "url": "https://patter.ai/",
+            "comparison": "本地 Claude Code 插件 + stdio MCP，自带 Twilio 账号与 OpenAI key，可控性最高但要自己搭电话线路；call4me 按分钟付费、零运维。"
+          },
+          {
+            "name": "Smith.ai / 人工虚拟助理",
+            "url": "https://smith.ai/",
+            "comparison": "真人接听、按通或按月收费，适合销售线索与律所前台等高风险通话；call4me 面向个人零散杂务，成本低一个数量级但不可用于谈判。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-11-05T04:09:22.986676+00:00",
+      "lastFeaturedDate": "2026-10-22T04:09:22.986676+00:00",
+      "metrics": {
+        "featuredInDaily": true
+      },
+      "weeklyDeepDive": {
+        "growthData": "上线节奏与可见数据（均来自公开页面，官方未披露绝对值）：2026-09-25 作者在 X 发帖求方案未果；09-26 GitHub 仓库建立；09-30 在 X/LinkedIn 首发，作者称首条推文获得 195,288 次展示、7,679 次互动；10-01 Show HN「AI agent that handles phone calls」仅 2 分、0 评论（同日进入官方 MCP Registry）；10-02 作者公开 Stripe 首周（9-26 至 10-02）流水 $610、MRR $215、净额 $574.19；10-08 首次 Product Hunt 上线，约 12-15 票；10-20 重新上线（新增来电标准应答、REST API、x402 付费），拿到 75 票、当日第 24 名、4 条评论，另一家聚合站记录 72 票、位于前 2%，作者在 PH 评论区称「用户量较 10-08 上线时翻了约三倍」。本站数据源于 2026-10-19 通过 Product Hunt 抓到该产品、10-22 进入日报。应用商店无关（纯 Web/MCP）。注册用户数、留存与付费转化均未披露。",
+        "communityActivity": "讨论主要分三处。① Product Hunt：10-20 上线评论集中在产品边界——有用户提醒「每次通话只锁一个目标，开放式对话会让转写膨胀、下游解析失败」，还有用户追问「超出我预设指令的请求能不能只留言、不要替我答应任何事」，正好对上 call4me 的 brief + standing instructions 设计；10-08 首次上线的评论区作者自述「我每天大部分时间在 Claude Code 和 Codex 里，讨厌为了打个电话中断专注」。② Hacker News 相对冷淡（Show HN 2 分），但 11 月初第二次发帖的少数评论指向真正的争议点：有人断言「AI 声音太明显，几个月后客服会开始拒接这类电话」，反方则认为「AI 不说是你本人、只说是代你联系，把无聊环节做完再接通真人」才是正解。③ X 上有多位用户自发晒通话结果：订到桌位「一次 prompt、花了 25 美分」、用 Muse 打牙科诊所拿到保险网络内与免费初诊、在 Men's Wearhouse 找到鞋并保留到店、甚至有人叫它去和运营商 retention 谈降价（Spectrum $85 → $55）。独立评测站 Toolradar 给了「省事但无免费档、成败取决于代理理解能力」的评价；PageRoast 的落地页拆解则批评标题「let your agents make phone calls」过于工程师视角、价格与信任说明埋得太深。",
+        "updateFrequency": "交付节奏是典型的一人高速迭代：GitHub 仓库 2026-09-26 建立，10-24 至 11-02 这九天里有 100 次提交（10-29 与 11-02 各 31/28 次集中发布）；10-08 发《Everything we've improved since launch》一次性列出定时拨号、自选来电号码、静默旁听与接管、更多国际路由、取消并发上限、话务菜单/等待/语音信箱处理改进；10-16 前后密集发布 OpenCode/Cline/Claude Agent SDK 的接入验证，11-02 发布 Devin CLI 的实测教程；博客从 9 月底开始几乎每日更新，主体是「真的替用户打电话问出来的」客服指南（电信降费、银行争议、退货政策、医院账单），每篇都附完整录音与转写。另有一条产品级更新线：来电标准应答、REST API、x402 让代理自付通话费。所有这些都在约五周内完成。",
+        "marketPosition": "赛道分三层，call4me 站在最靠近个人代理的那层。① 语音代理基础设施（Bland、Vapi、Retell、Telnyx/Twilio 本身）：卖 API 与流水线，客户是开发者与呼叫中心，要自己做 IVR 设计、合规与运维；② 托管「打电话 MCP」（call4me、Vapi Agent Phone、ClawCall、Cocall、Patter）：把整条链路包成一次工具调用，按分钟计费，客户是已经在用 Claude/Codex 的个人；③ 人工/AI 虚拟助理与前台（Smith.ai、Athena、各类 AI 接待员）：面向销售线索与律所前台，按通或按月收费。第二层目前只有寥寥几家，且多为 2026 年下半年出现；nicheloom 的横向统计显示 call4me 在其同类簇中关注度排名第 45/762。结构性威胁来自两端：上游实时语音模型与运营商自己往下做（OpenAI/Google 的电话能力、运营商 AI 助理），以及客服侧开始用 AI 识别并拒接代理来电。",
+        "differentiation": "第一，分发方式是「一个 MCP URL」，而不是一个新 Dashboard：可接的客户端已经列到二十多个（含 Grok Bot、Meta Muse、Devin CLI、n8n、Goose），意味着它寄生在用户已有的对话与任务里，学习成本接近零，这是同类里覆盖最广的一份清单。第二，安全模型是「提前收集、事后可核」：12 类场景各自定义必填字段，缺一项就拒绝拨号；语音模型不持有任何工具，所有副作用（挂断、按键、叫人、接人）都由另一个文本模型经 back office 执行；被问到自己不知道的事，走 ask_user 回路回到用户的代理；通话结束交回转写、结果与录音，而不是只给一句总结。第三，技术选择的勇气：直接放弃 STT→LLM→TTS 级联，用 GPT-Live 端到端吃运营商原始 μ-law 音频，连国际线路丢按键（迪拜歌剧院菜单）都用自己合成 DTMF 音调写进音频流来解决；作者把这条路径的代价（实时模型不会可靠地调用工具、等待用户回答时会出现死寂）也一并公开，并用旁路正则监测兜底。第四，价格与边界：$0.25/分钟、等待半价、未接通免费、预付费 $10 起、无席位费，且明文禁止电销/问卷/催收/政治电话——把「AI 打电话」这件事限定在正常人自己会打的范畴。短板同样明确：只覆盖美加欧英（其余需买本地号）、强依赖单一运营商与单一实时模型、成功率无第三方实测、面向中文场景（粤语/普通话话务、国内 App 生态）几乎为零。"
+      }
+    }
+  ]
+}
