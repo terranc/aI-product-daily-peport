@@ -1,0 +1,271 @@
+{
+  "date": "2026-11-04",
+  "generatedAt": "2026-11-04T04:14:30.343933+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "producthunt.com/r/p/1300938",
+      "name": "Peji",
+      "slug": "peji",
+      "description": "iPhone 上的智能体浏览器：聊天框里的 AI 会在真实 WebKit 标签页中打开页面、阅读、点击、输入和填表，一步步完成任务，遇到发送、购买、支付或删除会先停下等你确认。",
+      "url": "https://peji.si/",
+      "homepage": "https://peji.si/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "智能体浏览器",
+        "手机自动化",
+        "端侧隐私",
+        "比价购物"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/peji",
+      "firstSeen": "2026-11-01T14:31:50-08:00",
+      "analysis": {
+        "targetAudience": "希望把「查比价、订机票、读长 PDF」这类网页琐事交给 AI、但又不放心把账号交出去的 iPhone 用户。",
+        "useCases": [
+          "同时打开三家电商比价，把结果整理成表格并附来源链接",
+          "搜索航班并填好表单，付款前停下来等你点确认",
+          "打开一份长 PDF 或嵌入 iframe 的页面，读完给出要点",
+          "用快捷指令/操作按钮一键唤起，把重复的查询存成例行任务",
+          "断线后从上次的检查点继续未完成的任务"
+        ],
+        "designIntent": "设计者的出发点是「智能体应该跑在你自己已经登录的浏览器里，而不是云端的无头浏览器」。因此它把浏览器工具直接交给聊天模型，让每一步操作都发生在你能看见、能接管的真实标签页中。",
+        "problemSolved": "云端代理型浏览器最大的问题是账号、Cookie 和页面内容全部上传到第三方，且你看不到它在做什么。Peji 让会话、文件和语音识别都留在手机上，操作过程在聊天里逐步可见，敏感动作前必须人工放行。",
+        "score": 8,
+        "scoreReason": "把「智能体」和「用户自己的浏览器会话」结合得最自然的一个：无需重新登录、过程可接管、敏感操作有确认关卡，还能接任意 OpenAI 兼容端点。扣分在于当前只做 iPhone/iPad，长任务的稳定性仍待时间检验。",
+        "competitors": [
+          {
+            "name": "Perplexity Comet",
+            "url": "https://www.perplexity.ai/comet",
+            "comparison": "同为智能体浏览器，但 Comet 是桌面端且云端编排更重；Peji 主打手机端与端侧数据留存。"
+          },
+          {
+            "name": "ChatGPT Atlas",
+            "url": "https://openai.com/index/introducing-chatgpt-atlas/",
+            "comparison": "Atlas 把 AI 织进桌面浏览器历史与书签；Peji 则把浏览器做成聊天里的一个工具，更偏任务执行。"
+          },
+          {
+            "name": "Arc Search",
+            "url": "https://arc.net/",
+            "comparison": "Arc Search 偏向「替你浏览并总结」；Peji 会真的点击、填表、跨标签工作。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1302462",
+      "name": "Corvo",
+      "slug": "corvo",
+      "description": "自己就是邮件服务商的 AI 收件箱：邮件到达即分类、剔除追踪像素、把验证码直接摆在列表行上并自动归档，可疑邮件当面点破，AI 代理只能起草、必须经你批准才发出。",
+      "url": "https://corvo.cc/",
+      "homepage": "https://corvo.cc/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 邮箱",
+        "隐私保护",
+        "反钓鱼",
+        "邮件自动化"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/corvo-3",
+      "firstSeen": "2026-11-02T21:37:15-08:00",
+      "analysis": {
+        "targetAudience": "每天被验证码、回执和营销邮件淹没、又在意「谁在偷看我读信」的隐私敏感型职场人与自由职业者。",
+        "useCases": [
+          "验证码在列表行上直接一键复制，15 分钟后自动归档",
+          "邮件一到就抹掉追踪像素，读营销信不再被发信方知道",
+          "用规则+模型把新邮件分成「人 / 通知 / 推广」，钓鱼邮件标注出可疑理由",
+          "给每个网站单独一个地址，泄露了就一键停用",
+          "接 Claude 等代理过 MCP 起草回信，草稿以碳蓝色标出、按一个键才发"
+        ],
+        "designIntent": "作者发现收件箱里大部分内容是验证码、回执和「知道你什么时候打开」的邮件，而现有 AI 邮件工具都只是叠加在 Gmail 之上、无法在渲染前动手。于是他从零做了一个邮件服务商，让处理发生在邮件到达的那一刻。",
+        "problemSolved": "既要 AI 帮忙打理邮件，又不想把私人通信交给第三方 AI——Corvo 用「授权范围 + 碳蓝草稿 + 默认不发」把控制权留在人手上，同时用自有邮件栈解决了追踪像素与验证码这两个最具体的痛点。",
+        "score": 8,
+        "scoreReason": "少见地把 AI 代理做成了「有边界的实习生」：权限可撤销、草稿显式标注、发信必须批准，工程上比套壳 Gmail 的 AI 插件扎实得多。减分项是迁移成本高（要换邮箱地址）、IMAP 读信尚未上线。",
+        "competitors": [
+          {
+            "name": "Superhuman",
+            "url": "https://superhuman.com/",
+            "comparison": "Superhuman 是在 Gmail/Outlook 上的极速客户端；Corvo 是自建邮件服务，能在到达时处理邮件。"
+          },
+          {
+            "name": "Shortwave",
+            "url": "https://www.shortwave.com/",
+            "comparison": "Shortwave 的 AI 侧重摘要与智能回复；Corvo 侧重到达时分类、反追踪与代理权限控制。"
+          },
+          {
+            "name": "Proton Mail",
+            "url": "https://proton.me/mail",
+            "comparison": "Proton 主打端到端加密但 AI 能力弱；Corvo 主打 AI 打理 + 隐私处理。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1302251",
+      "name": "梵高的耳朵（Oreja de Van Gogh）",
+      "slug": "oreja-de-van-gogh",
+      "description": "macOS 菜单栏小工具：ChatGPT 一开口说话，它就暂停或压低 Apple Music 音量，对话结束后把音乐恢复到原来的音量和同一秒。",
+      "url": "https://oreja-tau.vercel.app/",
+      "homepage": "https://oreja-tau.vercel.app/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "macOS 工具",
+        "音频自动化",
+        "本地隐私",
+        "开源"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/oreja-de-van-gogh",
+      "firstSeen": "2026-11-02T15:37:57-08:00",
+      "analysis": {
+        "targetAudience": "边听音乐边用 ChatGPT 语音模式聊天、每 90 秒伸手去按音量键的 Mac 用户。",
+        "useCases": [
+          "语音对话时自动暂停 Apple Music，结束后原位置续播",
+          "把音乐压到 12% 做背景音，AI 说话也不完全静音",
+          "把 Quiet interval 从 800ms 调到 3s，避免音乐打断你正在说的话",
+          "手动接管优先：你自己按了暂停，它就不会擅自恢复"
+        ],
+        "designIntent": "这是一个「只为解决一件小事」的工具：作者的出发点不是让 AI 更聪明，而是让语音助手与背景音乐能共存。它只听音量包络的起伏，不识别也不会记录任何语音内容。",
+        "problemSolved": "AI 语音助手和音乐播放器在系统层面互不相识，手动切歌切音量成为高频摩擦。Oreja 用 macOS 的进程音频抓取判断「是不是在说话」，再用 AppleScript 控制音乐，把一个纯体验问题一次解决。",
+        "score": 7,
+        "scoreReason": "功能窄但打磨得异常克制：无账号、无网络代码、开源 GPL-3.0，甚至考虑了崩溃后恢复播放。扣分在于目前只支持 Apple Music 与 macOS 14.2+，受众偏小。",
+        "competitors": [
+          {
+            "name": "Background Music",
+            "url": "https://github.com/kyleneideck/BackgroundMusic",
+            "comparison": "Background Music 给每个应用独立音量，需要虚拟声卡且改动系统音频；Oreja 只做「让路 + 恢复」这一件事。"
+          },
+          {
+            "name": "SoundSource",
+            "url": "https://rogueamoeba.com/soundsource/",
+            "comparison": "SoundSource 是强大的专业音频路由工具（付费）；Oreja 免费且零配置。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1301210",
+      "name": "Remote Gaze",
+      "slug": "remote-gaze",
+      "description": "把整台 Mac 原生投到 iPad/iPhone 上：最高 120fps、支持触控与文件拖拽，无账号无中转服务器，外出时端到端加密直连。",
+      "url": "https://www.remotegaze.com/",
+      "homepage": "https://www.remotegaze.com/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "远程桌面",
+        "Apple 生态",
+        "无服务器直连",
+        "隐私优先"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/remote-gaze",
+      "firstSeen": "2026-11-01T21:11:35-08:00",
+      "analysis": {
+        "targetAudience": "手里有一台闲置 Mac mini 或 MacBook，希望用 iPad/iPhone 随时随地调用其算力的 Apple 用户。",
+        "useCases": [
+          "Mac mini 不接显示器当常开服务器，用 iPad 连上去做事",
+          "在家局域网内 120fps 直接操作 Mac 应用",
+          "外出时经 UPnP 打洞直连，Face ID 解锁后使用",
+          "把 iPad 上的文件拖到 Mac 桌面",
+          "单窗口「App 模式」把某个 Mac 应用放大成 iPad 原生体验"
+        ],
+        "designIntent": "作者认为远程桌面不该经过第三方云中转，也不该强迫你注册账号。于是做成两端的原生应用：Gaze Host 在 Mac 上采集屏幕与声音，iPad/iPhone 端直接加密连过去。",
+        "problemSolved": "现有的远程桌面要么走云端中继（隐私与延迟双重损失），要么配置复杂。Remote Gaze 用一次配对码 + Secure Enclave 密钥解决了鉴权，用直连把延迟压到接近本地，同时给了「无头 Mac mini」这个明确的使用场景。",
+        "score": 8,
+        "scoreReason": "把「无账号、无服务器、原生 120fps」三件事同时做到，是同类产品里少见的取舍。扣分在于依赖 macOS 26 / iOS 26 的新系统，且外出访问需要路由器支持 UPnP。",
+        "competitors": [
+          {
+            "name": "Jump Desktop",
+            "url": "https://jumpdesktop.com/",
+            "comparison": "Jump Desktop 支持多协议但需账号或手动配置；Remote Gaze 只做 Apple 自家设备间直连，配对即用。"
+          },
+          {
+            "name": "Screens",
+            "url": "https://edovia.com/en/screens/",
+            "comparison": "Screens 是老牌 Mac 远程工具（付费），Remote Gaze 主打 120fps 与无中转架构。"
+          },
+          {
+            "name": "Tailscale + VNC",
+            "url": "https://tailscale.com/",
+            "comparison": "Tailscale 组网后仍要配 VNC 服务器，分辨率与帧率体验远不如 Remote Gaze 的原生串流。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1302369",
+      "name": "Brink",
+      "slug": "brink",
+      "description": "把 MacBook 触控板四条边变成控制条：右边缘滑音量、左边缘滑亮度、上边缘滑键盘背光、底部滑动切歌，带触觉反馈且光标不会乱跑。",
+      "url": "https://zerowing.in/brink/",
+      "homepage": "https://zerowing.in/brink/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "macOS 工具",
+        "触控板手势",
+        "免费工具",
+        "效率提升"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/brink-2",
+      "firstSeen": "2026-11-02T19:26:29-08:00",
+      "analysis": {
+        "targetAudience": "频繁调音量亮度、嫌每次都要去按功能键或菜单栏的 MacBook 重度用户。",
+        "useCases": [
+          "右边缘上下滑动调音量，系统弹窗与键盘一致",
+          "左边缘调屏幕亮度、上边缘调键盘背光",
+          "底部滑动切歌，右上角双击静音",
+          "按住 ⇧⌥ 进入四分之一微调",
+          "外接 Magic Trackpad / Magic Mouse 同样可用"
+        ],
+        "designIntent": "开发者发现触控板有四条几乎从不被使用的边，而手每天要几十次离开触控板去按功能键。Brink 用私有 MultitouchSupport 框架读取原始触点，把边缘滑动做成和系统原生完全一致的交互。",
+        "problemSolved": "Mac 系统的音量/亮度控制路径太远——要么手移到功能键，要么点菜单栏。Brink 把控制面贴到手指已经所在的位置，并用触觉反馈和「光标保持不动」解决了边缘手势容易误触、误拖拽的副作用。",
+        "score": 7,
+        "scoreReason": "典型的「小而妙」工具：免费、开源发布、Rust + Tauri 只有 6MB、考虑了误触和微调。扣分在于它属于效率增强而非 AI 产品，且依赖私有框架。",
+        "competitors": [
+          {
+            "name": "BetterTouchTool",
+            "url": "https://folivora.ai/",
+            "comparison": "BTT 功能极其全面但配置复杂、收费；Brink 只做四个边缘、开箱即用。"
+          },
+          {
+            "name": "Swish",
+            "url": "https://highlyopinionated.co/swish/",
+            "comparison": "Swish 用手势管理窗口，Brink 则专注音量/亮度等系统控制。"
+          }
+        ]
+      }
+    }
+  ]
+}
