@@ -1,0 +1,326 @@
+{
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-05T04:15:44.107249+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "reddit.com/r/sideproject/comments/1xo7kal/iamalawyerandibuiltmayorshallyou",
+      "name": "May or Shall（先划重点，再让 AI 起草）",
+      "slug": "may-or-shall",
+      "description": "一位执业律师做的文档阅读工作台：你在 PDF 或网页里划出真正重要的句子并打上事实/日期/争议等标签，每条都保留页码段落来源，AI 只在你划过的内容基础上起草，而不会自行判断什么重要。",
+      "url": "https://app.mayorshall.com",
+      "homepage": "https://app.mayorshall.com",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/reddit.com_r_sideproject_comments_1xo7kal_20261105_120914.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "文档阅读",
+        "法律科技",
+        "引用可追溯",
+        "AI 起草",
+        "高亮笔记"
+      ],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "sourceUrl": "https://www.reddit.com/r/SideProject/comments/1xo7kal/iamalawyerandibuiltmayorshallyou/",
+      "firstSeen": "2026-11-05T02:47:05+00:00",
+      "analysis": {
+        "targetAudience": "需要大量阅读卷宗、判决与合同后再动笔的律师、法务与法学生",
+        "useCases": [
+          "阅读案件 PDF 时把关键事实划成带出处的卡片",
+          "把散落在判决、新闻、网页里的句子归到同一案件",
+          "由标记的日期自动生成时间线并导出 Word",
+          "按段落逐条撰写答辩状并检查有无遗漏否认",
+          "让 ChatGPT 基于自己划的重点起草初稿"
+        ],
+        "designIntent": "作者是执业诉讼律师，他认为法律工作的核心判断在「读并划出重点」，而市面上的法律 AI 直接代读全文、替人决定什么重要。所以他把人放在流程最前面：先由人划重点，再让 AI 只在这些重点上做打字工作。",
+        "problemSolved": "通用 AI 文档工具把判断权拿走，产出无法核对来源，律师不敢直接用；人工摘录又要反复复制粘贴、丢页码。May or Shall 让每条观点始终带着「文档—页—段」出处，草稿里每句都能点回原文。",
+        "tags": [
+          "法律科技",
+          "可溯源引用",
+          "人机协作",
+          "文档工作流",
+          "笔记"
+        ],
+        "score": 9,
+        "scoreReason": "把「AI 帮我写」改成「我判断、AI 打字」，是对法律等高责任场景最诚实的产品形态；引文可回溯到页码段落这一点直接解决了 AI 起草的信任瓶颈。缺点是深度绑定印度诉讼实务（答辩状、附件索引），通用性有待验证。",
+        "competitors": [
+          {
+            "name": "NotebookLM",
+            "url": "https://notebooklm.google.com",
+            "comparison": "同样强调「只在你的资料里回答并给出引用」，但它是问答式摘要，不提供逐段高亮打标与诉讼文书结构。"
+          },
+          {
+            "name": "Harvey",
+            "url": "https://www.harvey.ai",
+            "comparison": "面向大所的全流程法律 AI 平台，能力强但价格与实施门槛高，中小律师用不起也改不动。"
+          },
+          {
+            "name": "Hebbia",
+            "url": "https://www.hebbia.ai",
+            "comparison": "擅长海量文档矩阵式检索与提取，偏机构尽调场景，缺少「人先划重点、AI 后起草」的轻量协作流程。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "v2ex.com/t/1254448",
+      "name": "Transory（多个大模型同屏比译文）",
+      "slug": "transory-ai-translator",
+      "description": "iOS 翻译 App：同一个句子同时发给 DeepSeek、Claude、Gemini、OpenAI 等多个模型，每个模型一张卡片流式出译文，挑最顺的一句用；支持拍照翻译与局域网本地 Ollama/LM Studio，无服务器、无账号，Key 存在系统钥匙串。",
+      "url": "https://apps.apple.com/us/app/transory-ai-translator/id6827446402",
+      "homepage": "https://apps.apple.com/us/app/transory-ai-translator/id6827446402",
+      "type": "app",
+      "appStoreName": "Transory - AI Translator",
+      "appStoreUrl": "https://apps.apple.com/us/app/transory-ai-translator/id6827446402",
+      "screenshotUrl": "assets/screenshots/v2ex.com_t_1254448_20261105_120914.png",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a1/a2/7b/a1a27b61-1817-df74-c6ec-856a8b88a337/01-translate.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cb/ff/66/cbff66be-24e0-310e-fa69-ced8101031ba/02-camera.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/af/a9/81/afa98171-4bd1-4579-d35e-2e8d438b9298/03-consent.png/320x480bb.jpg"
+      ],
+      "tags": [
+        "翻译",
+        "多模型对比",
+        "自带 API Key",
+        "隐私优先",
+        "iOS"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "sourceUrl": "https://www.v2ex.com/t/1254448",
+      "firstSeen": "2026-11-04T08:10:58+00:00",
+      "analysis": {
+        "targetAudience": "经常翻译、且已经在为多个大模型付 API 费用的重度用户与语言工作者",
+        "useCases": [
+          "一句话同时问四家模型，挑最顺的译文",
+          "拍菜单、路牌、文档，本机识别后把译文盖回原位置",
+          "把翻译请求接到局域网里的 Ollama 或 LM Studio",
+          "遇到长文按自然/正式/口语/直译四种风格切换",
+          "在历史和收藏里回查以前译过的句子"
+        ],
+        "designIntent": "作者原本靠复制粘贴在好几个 AI 应用之间来回切换，觉得这种比较过程本身有价值但工具没提供，于是做了一个「模型并排」的原生 iOS 客户端，同时坚持不设服务器、不要账号。",
+        "problemSolved": "多模型翻译时人工搬运文本成本高、难以横向比较；同时把原文交给第三方中转站又有隐私风险。Transory 用用户自己的 Key 直连各家接口，原文不经过开发者服务器。",
+        "tags": [
+          "多模型",
+          "BYOK",
+          "拍照翻译",
+          "本地模型",
+          "一次性买断"
+        ],
+        "score": 8,
+        "scoreReason": "把「多模型对比」这件本该由工具做的事产品化了，BYOK + 无服务器 + 一次性 1.99 美元的设计很克制，照片在本机 OCR 也照顾了隐私。短板是必须自备 API Key，注定只服务小众人群，且未上架国区。",
+        "competitors": [
+          {
+            "name": "Bob",
+            "url": "https://bobtranslate.com",
+            "comparison": "Mac 上的老牌划词翻译，模型接入多但偏桌面端，缺少同屏多模型并排对比的体验。"
+          },
+          {
+            "name": "沉浸式翻译",
+            "url": "https://immersivetranslate.com",
+            "comparison": "以双语网页对照见长，覆盖浏览器场景，但移动端不是多模型翻译比较器。"
+          },
+          {
+            "name": "Pot",
+            "url": "https://pot-app.com",
+            "comparison": "开源跨平台翻译，可接多家 API，界面与移动端打磨不如原生 iOS 精致。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1303355",
+      "name": "PasteGuard for Mac（复制即脱敏，秘密不进 AI 聊天）",
+      "slug": "pasteguard-mac",
+      "description": "Mac 菜单栏小工具：复制内容的瞬间就把姓名、邮箱、手机号、银行卡、API Key 等 30 多类隐私数据替换成占位符，粘进 ChatGPT、Claude 或终端时只有 [EMAIL_1] 这样的替身，按 ⌃⌘R 再把真值换回来；可用本机 Apple Intelligence 兜底识别规则漏掉的项。",
+      "url": "https://pasteguard.byquan.app",
+      "homepage": "https://pasteguard.byquan.app",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1303355_20261105_120914.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "隐私保护",
+        "剪贴板",
+        "脱敏",
+        "本地处理",
+        "Mac"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/pasteguard-2",
+      "firstSeen": "2026-11-03T10:42:44-08:00",
+      "analysis": {
+        "targetAudience": "每天把日志、配置、客户信息贴进 AI 对话的开发者、运维与需要合规的职场人",
+        "useCases": [
+          "把整份 .env 或生产日志贴进 AI 前自动遮掉密钥",
+          "把客户名单交给模型分析时只暴露占位符",
+          "复制聊天回复后一键把占位符还原成真实信息",
+          "给法务/财务等强合规岗位设置自定义敏感词规则",
+          "把本地模型设为敏感请求的默认去处"
+        ],
+        "designIntent": "作者观察到人们为了拿到有用的回答，会不自觉地把密钥、客户数据整段粘进 AI 聊天框，而现有的密钥扫描工具都面向代码仓库、不在粘贴链路上。PasteGuard 选择站在剪贴板这一最靠近动作的位置，并且坚持全部在本机完成、不要权限、不要账号。",
+        "problemSolved": "AI 让「贴整段数据」成为习惯，泄密往往发生在这个瞬间且事后无法追溯。它在复制那一刻就完成脱敏，使模型仍能理解任务但不接触真实值，同时保留还原能力不打断工作流。",
+        "tags": [
+          "剪贴板脱敏",
+          "零信任",
+          "本地处理",
+          "合规",
+          "菜单栏工具"
+        ],
+        "score": 8,
+        "scoreReason": "切中的是 AI 时代最日常也最容易被忽视的风险点，拦截位置（剪贴板）比事后扫描聪明得多，本地处理与不要权限也让它在企业内更容易推进。局限是占位符必须精确匹配才能还原，复杂场景仍需人工复核。",
+        "competitors": [
+          {
+            "name": "Microsoft Presidio",
+            "url": "https://microsoft.github.io/presidio/",
+            "comparison": "开源 PII 识别框架，能力强但需要自己写代码接入，普通用户无法开箱使用。"
+          },
+          {
+            "name": "Nightfall AI",
+            "url": "https://www.nightfall.ai",
+            "comparison": "面向企业的云端数据防泄漏平台，覆盖邮件、SaaS 与 API，配置重、需信任云服务，不适合个人剪贴板场景。"
+          },
+          {
+            "name": "Redact.dev",
+            "url": "https://redact.dev",
+            "comparison": "批量清除社交平台历史内容，解决的是「发出去之后」的问题，不是粘贴进 AI 之前的即时脱敏。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "reddit.com/r/sideproject/comments/1xo8ij0/fromthevibecodingcommunityonredditaryaa",
+      "name": "Arya（从购物小票里学会你家缺什么的买菜清单）",
+      "slug": "arya-grocery",
+      "description": "一个手机优先的买菜 PWA：拍下收据就能读懂每一行品项与价格，据此学会你家的消耗节奏，提前提醒「米快没了」「这个保质期快到了」，并把清单变成一条按货架分区的店内路线；其他买家的「这里没货」标记也能共享。",
+      "url": "https://arya.teamnightshift.org",
+      "homepage": "https://arya.teamnightshift.org",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/reddit.com_r_sideproject_comments_1xo8ij0_20261105_120914.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "买菜清单",
+        "小票识别",
+        "家庭协作",
+        "消耗预测",
+        "PWA"
+      ],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "sourceUrl": "https://www.reddit.com/r/SideProject/comments/1xo8ij0/from_the_vibecoding_community_on_reddit_arya_a/",
+      "firstSeen": "2026-11-05T03:34:19+00:00",
+      "analysis": {
+        "targetAudience": "两口之家或带娃家庭里那个「脑子里装着全家伙食」的采购负责人",
+        "useCases": [
+          "夫妻各自在不同超市加购物车却不会重复买",
+          "拍收据后自动算出本月在食品上的支出与单价变化",
+          "出发前提醒某样东西在附近门店缺货",
+          "在店里按货架分区一路走完清单",
+          "快过期或快用完的存货自动回到清单上"
+        ],
+        "designIntent": "作者为自己家做了这个东西：清单散落在备忘录和聊天记录里，买重了酸奶却没人买厕纸。他想让收据这份被丢掉的数据变成能预测下一次采购的依据，同时把「别人知道哪里没货」这种邻里信息用起来。",
+        "problemSolved": "家庭采购的记忆负担全压在一个人的脑子里，结果是重复购买、漏买、错过更便宜的替代品。Arya 用收据学习使用频率、用共享标记补充货架实况，把凭感觉的采购变成有依据的建议。",
+        "tags": [
+          "家庭协作",
+          "收据识别",
+          "消耗预测",
+          "社区共享",
+          "手机优先"
+        ],
+        "score": 7,
+        "scoreReason": "场景真实、切入点（收据）比别人做购物清单的团队更硬，Demo 也确实跑通了识别与路线。但它是黑客松作品：单个 VM、演示额度有限、账户邀请制，多用户并发与成本都还没准备好，短期更像一个有说服力的雏形。",
+        "competitors": [
+          {
+            "name": "AnyList",
+            "url": "https://www.anylist.com",
+            "comparison": "成熟的家庭共享清单应用，协作与菜谱做得扎实，但没有用收据反推消耗与支出的学习能力。"
+          },
+          {
+            "name": "Bring!",
+            "url": "https://www.getbring.com",
+            "comparison": "欧洲流行的共享购物清单，界面友好、覆盖零售商优惠，但预测与社区货架信息弱于 Arya。"
+          },
+          {
+            "name": "GrocSnap",
+            "url": "https://grocsnap.com",
+            "comparison": "同样从收据做起，主打记录历史价格与省钱，缺少用户彼此提醒缺货的社区层。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1301917",
+      "name": "OpusClip 4.0（长视频一键剪成可发布的短视频）",
+      "slug": "opusclip-4",
+      "description": "第 4 代 AI 视频剪辑工具：把长视频、直播录像自动切成一个个自带钩子的短片，自动重构竖屏画面、加字幕与节奏剪辑，并直接按各平台规格导出可发布的成品。",
+      "url": "https://www.opus.pro",
+      "homepage": "https://www.opus.pro",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1301917_20261105_121401.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "视频剪辑",
+        "短视频",
+        "自动字幕",
+        "内容二次分发",
+        "SaaS"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/opusclip",
+      "firstSeen": "2026-11-02T09:11:39-08:00",
+      "analysis": {
+        "targetAudience": "手里有长内容（播客、访谈、课程、直播回放）但没有剪辑人力的创作者与小型内容团队",
+        "useCases": [
+          "把两小时直播回放切成十几条短视频",
+          "给横屏素材自动做竖屏重构与主体跟随",
+          "批量加字幕、去掉气口与静音段",
+          "按 TikTok/Reels/Shorts 的规格直接导出",
+          "把播客音频配上画面做成可分发片段"
+        ],
+        "designIntent": "创作者的主要瓶颈不是拍摄而是「一条长内容只发一次」，把手动找亮点、裁切、加字幕的重活交给模型，人只做挑选与微调。4.0 的重点是把「切片」升级成「可直接发布成片」。",
+        "problemSolved": "二次分发长内容的边际成本太高，绝大多数素材被浪费。OpusClip 把挑选高光、构图重构、字幕与节奏这些步骤串成一次点击，让一个人也能维持多平台日更。",
+        "tags": [
+          "长转短",
+          "竖屏重构",
+          "自动字幕",
+          "多平台分发",
+          "团队协作"
+        ],
+        "score": 7,
+        "scoreReason": "解决的问题真实且付费意愿强，4.0 从「切片工具」走向「发布流水线」的方向对。但这是一个已经成熟、竞品密集的赛道，本次主要是一次版本迭代，新奇度有限，对中文内容与国内平台的适配仍需实际验证。",
+        "competitors": [
+          {
+            "name": "Descript",
+            "url": "https://www.descript.com",
+            "comparison": "以「改文字即改视频」的编辑范式见长，适合精细创作，但自动化切片与批量分发不如 OpusClip 直接。"
+          },
+          {
+            "name": "Vizard",
+            "url": "https://vizard.ai",
+            "comparison": "同样主打长转短与自动字幕，价格更亲民，成片精致度与竖屏重构能力略逊。"
+          },
+          {
+            "name": "Klap",
+            "url": "https://klap.app",
+            "comparison": "轻量快速生成短视频片段，适合社媒运营，缺少面向团队的协作与品牌一致性管理。"
+          }
+        ]
+      }
+    }
+  ]
+}
