@@ -48179,7 +48179,355 @@
         "featuredInDaily": 1,
         "lastFeaturedDate": "2026-11-05"
       }
+    },
+    {
+      "id": "producthunt.com/r/p/1303567",
+      "name": "TellPip（通话时在耳边递答案的 AI 小抄鸟）",
+      "slug": "tellpip",
+      "description": "Mac 上的实时通话助理：不让机器人加入会议，直接从电脑音频听音转写，被客户问到时按一下键，它就从你的报价单、合同和历史通话里把该说的话递上来；会后自动整理决定、承诺和跟进邮件。",
+      "url": "https://tellpip.eu/",
+      "homepage": "https://tellpip.eu/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/tellpip_eu.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "通话助理",
+        "本地转写",
+        "销售提词",
+        "隐私优先",
+        "会后纪要"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/tellpip",
+      "firstSeen": "2026-11-03T15:13:42-08:00",
+      "analysis": {
+        "targetAudience": "每天和客户通电话的销售、律师、会计、顾问等独立执业者。",
+        "useCases": [
+          "客户追问报价/条款时一键取答案",
+          "自动记住上次通话答应过对方什么",
+          "会后自动生成决定、待办和跟进邮件",
+          "检索历史通话里谁在什么时候说了什么",
+          "按行业切换九种通话模式（法律、招聘、销售等）"
+        ],
+        "designIntent": "作者做它的起因是自己总忘掉通话里许下的小承诺——不是大事，但很要命。他想做的不是又一个面试作弊器，而是「记得每个客户的老同事」：平时不说话，你一卡壳它就把词递过来。",
+        "problemSolved": "开会工具要么塞个机器人进会议、要么把录音往云上传，客户会紧张；而人对客户的记忆又是断的。TellPip 把听写留在本机、把答案接到你自己的文档和过往通话上，解决「临场想不起」和「隐私不敢用」两个问题。",
+        "tags": [
+          "通话助理",
+          "本地转写",
+          "销售提词",
+          "隐私优先",
+          "会后纪要"
+        ],
+        "score": 8,
+        "scoreReason": "场景切得非常准：只服务「有客户在电话那头」的人，避开拥挤的面试助手赛道，且用「不加机器人 + 本地听写」解决真实顾虑。Mac 独占、无免费档（仅 5 次 10 分钟试用）是硬门槛，否则能给 9 分。",
+        "competitors": [
+          {
+            "name": "Granola",
+            "url": "https://www.granola.ai/",
+            "comparison": "同样主打本地听写与会后纪要，但 Granola 侧重会议记录沉淀，不做通话中实时提词与客户承诺记忆。"
+          },
+          {
+            "name": "Cluely",
+            "url": "https://cluely.com/",
+            "comparison": "同为「屏幕上看不见的实时助手」，但 Cluely 起于面试/考试场景，TellPip 明确反向定位到客户通话与文档检索。"
+          },
+          {
+            "name": "Otter.ai",
+            "url": "https://otter.ai/",
+            "comparison": "主流会议转写，靠机器人入会或云端处理，隐私与「不出现在共享屏幕里」都不满足。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-11-20T04:11:19.694730+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-11-06"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1302492",
+      "name": "Stitch.ai（邮件日历笔记任务合一的 AI 工作台）",
+      "slug": "stitch-ai-workspace",
+      "description": "把邮件、日历、联系人、任务、笔记、表格、幻灯片和文件放进同一个工作台的 AI 办公套件，内置助手 Stitchy 跨应用干活，靠 AI 自动生成的 Knots（关联）和标签把散落的信息接起来，不需要自己配一堆集成。",
+      "url": "https://stitch.ai/",
+      "homepage": "https://stitch.ai/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/stitch_ai.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 办公套件",
+        "统一收件箱",
+        "知识关联",
+        "日程任务",
+        "效率工具"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/stitch-ai",
+      "firstSeen": "2026-11-02T22:04:34-08:00",
+      "analysis": {
+        "targetAudience": "工作内容散落在邮箱、日历、文档和多个 SaaS 里的知识工作者与创业者。",
+        "useCases": [
+          "在一个界面里处理邮件并直接关联到任务和会议",
+          "让 Stitchy 每天早晨汇总重要邮件与当天日程",
+          "把会议笔记拖到对应日程上，自动建立双向关联",
+          "用标签与 Knots 一键跳到某个项目相关的全部往来",
+          "内置表格/幻灯片替代额外的 Office 订阅"
+        ],
+        "designIntent": "团队认为问题不是工具太少，而是上下文被切碎：每换一个标签页就丢一次上下文。于是干脆把八种基础应用原生做进同一个工作台，让 AI 拥有全局视野，而不是靠一个个 API 集成去拼接。",
+        "problemSolved": "解决「信息在不同应用之间断裂」——邮件里的承诺没有变成任务，会议笔记找不到对应的文件。Stitch.ai 用自动关联和内置助手把这些环节串起来，省掉手动整理与多订阅成本。",
+        "tags": [
+          "AI 办公套件",
+          "统一收件箱",
+          "知识关联",
+          "日程任务",
+          "效率工具"
+        ],
+        "score": 8,
+        "scoreReason": "把「AI 助手 + 全量上下文」做成了产品形态，而不是在旧工具上加个聊天框，方向正确且完成度看起来很高（PH 当日第 10）。风险是要跟 Notion、Google、微软这些巨头的全家桶正面硬碰，迁移成本是最大阻力。",
+        "competitors": [
+          {
+            "name": "Notion",
+            "url": "https://www.notion.so/",
+            "comparison": "同样想当「一个工作台」，但邮件与日历是外挂集成，AI 只能看到接进来的部分；Stitch.ai 原生自带邮件日历。"
+          },
+          {
+            "name": "Spike",
+            "url": "https://www.spike.do/",
+            "comparison": "把邮件变成聊天式统一收件箱并带 AI 助手，但文档、表格、幻灯片能力弱于 Stitch.ai。"
+          },
+          {
+            "name": "Microsoft 365 Copilot",
+            "url": "https://www.microsoft.com/microsoft-365/copilot",
+            "comparison": "覆盖同样的应用矩阵且有企业渠道优势，但跨应用上下文仍以各自应用为边界，且价格与绑定更重。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-11-20T04:11:19.694730+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-11-06"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1302582",
+      "name": "Pinku（完全离线运行的私人 AI 聊天）",
+      "slug": "pinku",
+      "description": "在 iPhone、iPad 和 Mac 上本地运行开源大模型的私人 AI 聊天应用：无需账号、无需服务器，下载一次模型后断网也能对话，聊天记录只存在设备上，可选 11 款从 0.4GB 到 4.7GB 的小模型。",
+      "url": "https://aisagalab.com/pinku.html",
+      "homepage": "https://aisagalab.com/pinku.html",
+      "type": "app",
+      "appStoreName": "Private Offline AI Chat: Pinku",
+      "appStoreUrl": "https://apps.apple.com/us/app/private-offline-ai-chat-pinku/id6754878073",
+      "screenshotUrl": null,
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/81/8f/5b/818f5b58-04e1-3b26-adc3-9386447acc6b/01-airplane.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ec/6a/46/ec6a4640-237a-b544-1b82-9074fee00bc1/02-download.png/320x480bb.jpg"
+      ],
+      "tags": [
+        "本地大模型",
+        "离线 AI",
+        "隐私",
+        "iOS 应用",
+        "Apple MLX"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/pinku",
+      "firstSeen": "2026-11-02T23:52:00-08:00",
+      "analysis": {
+        "targetAudience": "在意隐私、经常没网（出差、飞机、地下）或不愿为 AI 订阅付费的苹果用户。",
+        "useCases": [
+          "飞机上、地铁里离线问答与写作润色",
+          "把敏感合同、病历片段粘进去总结而不外传",
+          "用 Qwen3/SmolLM3 等推理模型做本地分步思考",
+          "通过 Siri 与快捷指令语音开新对话",
+          "把整段对话导出为纯文本留档"
+        ],
+        "designIntent": "团队用 Apple MLX 把开源模型塞进手机和 Mac，刻意不做账号体系和云同步——网络只用于一次性下载模型和 App Store 付费。宁可牺牲一点能力，也要换来「我说的话没有第二个人拿到」。",
+        "problemSolved": "云端助手必须联网、对话上云、还要按人头订阅。Pinku 用设备端推理解决三件事：断网可用、数据不出设备、无需账号与长期订阅。",
+        "tags": [
+          "本地大模型",
+          "离线 AI",
+          "隐私",
+          "iOS 应用",
+          "Apple MLX"
+        ],
+        "score": 8,
+        "scoreReason": "本地推理这条线到 2026 年终于能实用：0.4–4.7GB 的模型配上自动内存检查，日常写作问答够用，隐私叙事也最彻底。短板是小模型能力明显弱于云端、无跨设备同步，所以是「第二台助手」而非唯一助手。",
+        "competitors": [
+          {
+            "name": "ChatGPT",
+            "url": "https://chatgpt.com/",
+            "comparison": "能力远强、多模态齐全，但必须联网、对话在云端，且需要订阅。"
+          },
+          {
+            "name": "Apple 智能",
+            "url": "https://www.apple.com/apple-intelligence/",
+            "comparison": "系统级端侧能力、免费，但模型与可调参数固定，无法自选开源模型或管理独立聊天文件。"
+          },
+          {
+            "name": "LM Studio",
+            "url": "https://lmstudio.ai/",
+            "comparison": "同为本地模型运行器，但定位是桌面上的模型实验台，移动端体验与普通人可用性不如 Pinku。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-11-20T04:11:19.694730+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-11-06"
+      }
+    },
+    {
+      "id": "lecturetobook.com",
+      "name": "Lecture to Book（把课堂录音变成可复习的教材）",
+      "slug": "lecture-to-book",
+      "description": "把讲座与课堂录音整理成带章节、图表和图片的「书」：讲解与课上原图并排保留，可在线阅读、做笔记、按词检索，也能导出 PDF/ePub，并一键生成抽认卡和练习题。",
+      "url": "https://lecturetobook.com/",
+      "homepage": "https://lecturetobook.com/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/lecturetobook_com.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "学习工具",
+        "录音转教材",
+        "学生党",
+        "复习卡片",
+        "AI 摘要"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=50386766",
+      "firstSeen": "2026-11-06T00:52:05Z",
+      "analysis": {
+        "targetAudience": "大学课程繁重、靠回听录音复习的本科生与研究生。",
+        "useCases": [
+          "把两小时的讲座录音变成 8 章可跳读的讲义",
+          "保留课件里的图表与标注一起阅读",
+          "在文旁写私人笔记、给重点段落打书签",
+          "自动生成抽认卡并导出到 Anki",
+          "把整门课的讲座归到同一门课程库里"
+        ],
+        "designIntent": "作者不满足于「一句话总结录音」，而是想复现教材的阅读体验：讲解、图、章节结构都在，能一章一章啃。因此它保留课堂上的原始图像，而不是让模型纯文字重写一遍。",
+        "problemSolved": "录音回听极其低效，纯摘要又丢细节和图。Lecture to Book 在「完整 transcript」和「一页摘要」之间补了一个中间层——结构化、可检索、能反复读的讲义，并把复习环节（卡片、练习题）接在后面。",
+        "tags": [
+          "学习工具",
+          "录音转教材",
+          "学生党",
+          "复习卡片",
+          "AI 摘要"
+        ],
+        "score": 7,
+        "scoreReason": "切口清晰、成品形态（带图的章节化教材 + Anki 导出）比同类摘要工具更贴合真实复习流程。扣分在于场景高度集中于学生、付费转化靠时长与次数限制，且要面对 NotebookLM 这类免费强敌。",
+        "competitors": [
+          {
+            "name": "NotebookLM",
+            "url": "https://notebooklm.google.com/",
+            "comparison": "同样能把音频/资料整理成结构化笔记并生成学习材料，且免费，但成品更像笔记本而非可导出的教材。"
+          },
+          {
+            "name": "Otter.ai",
+            "url": "https://otter.ai/",
+            "comparison": "擅长把讲座转成文字稿与摘要，不保留课堂图表，也不做章节化教材与练习。"
+          },
+          {
+            "name": "Turboscribe",
+            "url": "https://turboscribe.ai/",
+            "comparison": "便宜高效的转写服务，止步于文字稿，没有阅读与复习层的设计。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-11-20T04:11:19.694730+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-11-06"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1303224",
+      "name": "DearCameo（只有逝者才能拥有账号的社交网络）",
+      "slug": "dearcameo",
+      "description": "虚拟 AI 主题公园 DearMate 的第二个「景点」：每个账号都属于一位已故人物，身份经 Wikidata 校验，活人无法注册；你替逝者写一条动态，一分钟内真正认识他的对手、配偶、同行会涌进评论区回应，你也可以随时化身其中任何一人。",
+      "url": "https://cameo.dearmate.ai/",
+      "homepage": "https://cameo.dearmate.ai/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/cameo_dearmate_ai.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 角色扮演",
+        "历史人物",
+        "社交实验",
+        "内容创作",
+        "18+"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/dearcameo",
+      "firstSeen": "2026-11-03T08:47:22-08:00",
+      "analysis": {
+        "targetAudience": "喜欢历史人物、爱玩 AI 角色扮演与写作实验的成年用户。",
+        "useCases": [
+          "给某位历史人物写一条口吻贴切的动态",
+          "看「当事人」在评论区按真实关系互相拆台",
+          "点开任意头像，替他/她回一句",
+          "把整段互动渲染成黑白漫画分镜",
+          "作为写作素材练习历史语感与人物腔调"
+        ],
+        "designIntent": "团队认为历史聊天机器人都是独角戏：你对着「拿破仑」说话，他回答，结束。他们想要的是社交网络里最有趣的部分——别人插嘴。于是立了一条绝对规则：只有逝者有账号，且原文必须由人写，AI 只负责选角和回应。",
+        "problemSolved": "AI 历史人物对话容易变成一本正经的独角问答。DearCameo 用「关系网 + 多方插话」把单向问答变成有张力的群戏，同时用 Wikidata 校验和「活人不得注册」的硬规则规避最大的伦理雷区。",
+        "tags": [
+          "AI 角色扮演",
+          "历史人物",
+          "社交实验",
+          "内容创作",
+          "18+"
+        ],
+        "score": 6,
+        "scoreReason": "概念锋利、执行有明确的伦理边界（活人不注册、AI 不代笔原文），是很有传播力的 AI 原生内容形态。但本质是主题公园里的一个玩具级场景，留存与付费模式都不明朗，因此给中等分。",
+        "competitors": [
+          {
+            "name": "Character.AI",
+            "url": "https://character.ai/",
+            "comparison": "角色扮演能力更强、角色量巨大，但都是 1 对 1 私聊，没有「多方按真实关系插话」的结构。"
+          },
+          {
+            "name": "Hello History",
+            "url": "https://www.hellohistory.ai/",
+            "comparison": "同样让你和历史人物对话，模式是单向问答，不做社交网络式的评论区互动。"
+          },
+          {
+            "name": "Replika",
+            "url": "https://replika.com/",
+            "comparison": "主打陪伴型 AI 关系，情绪价值更重，但不涉及真实历史人物的考据与关系网络。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-11-20T04:11:19.694730+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": 0,
+        "lastFeaturedDate": "2026-11-06"
+      }
     }
   ],
-  "lastUpdated": "2026-11-05T04:15:44.107249+00:00"
+  "lastUpdated": "2026-11-06T04:11:19.694730+00:00"
 }
