@@ -1,0 +1,307 @@
+{
+ "date": "2026-11-07",
+ "generatedAt": "2026-11-07T04:23:41.131553+00:00",
+ "productCount": 5,
+ "products": [
+  {
+   "id": "getcinnamon.ai",
+   "name": "Cinnamon（全家人共享的家庭 AI 管家）",
+   "slug": "cinnamon",
+   "description": "一个全家最多 6 人共享的 AI 管家：统一记住每个人的日程、账单、快递和琐事，帮你规划、预订、盯进度、按时提醒，动手之前一定先问你。",
+   "url": "https://getcinnamon.ai/",
+   "homepage": "https://getcinnamon.ai/",
+   "type": "website",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/getcinnamon.ai_20261107121916.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "家庭助理",
+    "共享上下文",
+    "日程管理",
+    "AI Agent"
+   ],
+   "sourceChannels": [
+    "hackernews"
+   ],
+   "sourceUrl": "https://news.ycombinator.com/item?id=50400056",
+   "firstSeen": "2026-11-06T23:44:55Z",
+   "analysis": {
+    "targetAudience": "双职工家庭、带娃家庭，以及所有被「谁去接孩子、谁交水电费」这类家庭琐事耗尽精力的成年人。",
+    "useCases": [
+     "把全家日程、孩子课外班和接送安排交给它统一盯",
+     "让它按家庭共享的偏好自动筛选并预订餐厅、行程",
+     "临期账单、快递、续费事项统一提醒到人",
+     "全家人各自跟同一个助手说话，信息不外泄也不重复",
+     "把「这件事该谁做」的协调从群聊里搬到 AI 这里"
+    ],
+    "designIntent": "团队认为现有 AI 助手都是「一个人一个账号」，而家庭事务天然是多人共享的：同一条日程、同一个预算、同一份待办。于是把共享上下文和共享记忆做成底层设计，并加了一条硬规则——任何对外动作前先征得同意。",
+    "problemSolved": "家庭协作的痛点不在信息缺失，而在信息散落在每个人的手机里。Cinnamon 用一个共享记忆的 AI 把家庭成员拉回同一个上下文，同时用「动手前先确认」解决 AI 代办最让人不放心的授权问题。",
+    "tags": [
+     "家庭助理",
+     "共享上下文",
+     "日程管理",
+     "AI Agent"
+    ],
+    "score": 8,
+    "scoreReason": "把「共享记忆 + 多人授权」做成了产品第一性，场景真实且高频，是本期最有可能被普通家庭真正用起来的 AI 产品。扣分点在于预订、账单这类能力高度依赖地区与平台对接，落地范围仍是未知数。",
+    "competitors": [
+     {
+      "name": "Google Gemini + Assistant",
+      "url": "https://assistant.google.com/",
+      "comparison": "生态和日历打通最深，但账号以个人为中心，家庭成员之间无法自然共享同一份 AI 记忆。"
+     },
+     {
+      "name": "Apple 家庭共享 + Siri",
+      "url": "https://www.apple.com/family-sharing/",
+      "comparison": "共享是系统级能力，但 Siri 仍以单设备指令为主，缺少「记住并主动盯进度」的管家感。"
+     },
+     {
+      "name": "Ohai",
+      "url": "https://ohai.ai/",
+      "comparison": "同做家庭事务 AI 管家，更偏长辈看护与家务调度；Cinnamon 更强调多人共享记忆与对外代办的授权边界。"
+     }
+    ]
+   }
+  },
+  {
+   "id": "producthunt.com/r/p/1305672",
+   "name": "Wisp（住在桌面上的 AI 小精灵）",
+   "slug": "wisp",
+   "description": "一只飘在桌面上的 AI 小精灵：开口说话它就去干活，帮你找视频、整理窗口、清理桌面、看今天的安排，甚至教你说西班牙语——不用记快捷键，也不用学任何界面。",
+   "url": "https://heywisp.ai/",
+   "homepage": "https://heywisp.ai/",
+   "type": "app",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/heywisp.ai_20261107121916.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "桌面助手",
+    "语音交互",
+    "电脑操作",
+    "AI 角色"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/wisp-9",
+   "firstSeen": "2026-11-05T08:28:20-08:00",
+   "analysis": {
+    "targetAudience": "不擅长电脑操作的中老年与小孩，以及愿意为「有个能说话的桌面入口」付费的普通 Mac 用户。",
+    "useCases": [
+     "对着桌面说一句，让它找出某段视频并播放",
+     "语音指挥整理窗口、清理堆满文件的桌面",
+     "早上问一句「今天有什么安排」直接得到日程摘要",
+     "用对话方式学几句外语",
+     "把跨应用的琐碎操作交给一个会跟着鼠标走的小角色"
+    ],
+    "designIntent": "团队发现 AI 助手都藏在输入框里，必须有人主动去「打开一个工具」。他们想反过来：让 AI 变成一个一直在场的角色，跟着光标走、可以被摸、可以被叫，从而把「使用电脑」这件事变成对话。",
+    "problemSolved": "大量用户的问题不是 AI 不够聪明，而是不知道在哪个入口找它、也不知道能让它做什么。Wisp 用常驻桌面的角色把入口变成零成本，并把「操作电脑」的复杂度藏在一句话后面。",
+    "tags": [
+     "桌面助手",
+     "语音交互",
+     "电脑操作",
+     "AI 角色"
+    ],
+    "score": 7,
+    "scoreReason": "把「AI 入口」作为一个角色来做，是很有想象力也很有传播力的方向，演示效果讨喜。但目前是 Mac 端早期产品，语音控制电脑的可靠性、隐私与权限边界都还要验证，因此给到中上分。",
+    "competitors": [
+     {
+      "name": "Apple Siri / Spotlight",
+      "url": "https://www.apple.com/siri/",
+      "comparison": "系统级入口但需要唤起，能力被限制在 Apple 自己的应用接口内，缺少常驻角色与跨应用操作。"
+     },
+     {
+      "name": "Raycast",
+      "url": "https://www.raycast.com/",
+      "comparison": "效率极强、可扩展，但仍是给专业用户用的命令面板，门槛与学习曲线对普通人偏高。"
+     },
+     {
+      "name": "Microsoft Copilot",
+      "url": "https://copilot.microsoft.com/",
+      "comparison": "模型能力强、覆盖 Office 场景，但入口在侧栏与文档里，不是「跟着你走的桌面角色」。"
+     }
+    ]
+   }
+  },
+  {
+   "id": "getaiphotoeditor.com",
+   "name": "AI Photo Editor（用一句话修图的网页工具）",
+   "slug": "ai-photo-editor",
+   "description": "打开网页上传照片，用一句话描述想改的地方——换背景、去掉杂物、调整色调风格——由 GPT Image 2.6 只改该改的部分，主体细节保持原样，无需注册，送 10 次免费额度。",
+   "url": "https://getaiphotoeditor.com/",
+   "homepage": "https://getaiphotoeditor.com/",
+   "type": "saas",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/getaiphotoeditor.com_20261107121916.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "AI 修图",
+    "局部编辑",
+    "免注册",
+    "网页工具"
+   ],
+   "sourceChannels": [
+    "hackernews"
+   ],
+   "sourceUrl": "https://news.ycombinator.com/item?id=50400968",
+   "firstSeen": "2026-11-07T02:07:58Z",
+   "analysis": {
+    "targetAudience": "不想学 Photoshop、偶尔需要修商品图/证件照/社交配图的普通用户与小微商家。",
+    "useCases": [
+     "把随手拍的商品图换成干净背景用于上架",
+     "去掉照片里的杂物、路人或瑕疵",
+     "给旧照片整体调色、统一风格",
+     "临时改证件照背景色与构图",
+     "不需要安装软件，改完直接下载原尺寸图"
+    ],
+    "designIntent": "团队认为修图的门槛不在工具而在于「学会选区与图层」，于是把整个交互压成一句话：说清楚要改什么，模型自己定位区域，并刻意保留主体轮廓与颜色，避免 AI 修图常见的「整张重画」。",
+    "problemSolved": "主流 AI 图像生成擅长「造新图」，却不擅长在保留原片的前提下改一个局部。这个产品用局部重绘 + 主体保真把生成模型变成了真正可用的修图工具，同时省掉了软件安装与账号注册这两道坎。",
+    "tags": [
+     "AI 修图",
+     "局部编辑",
+     "免注册",
+     "网页工具"
+    ],
+    "score": 7,
+    "scoreReason": "需求极其清晰、上手零门槛，网页即用 + 免注册对普通用户很友好。但同类「对话式修图」工具已经很多，差异主要来自底层模型版本，长期壁垒偏弱。",
+    "competitors": [
+     {
+      "name": "Photoroom",
+      "url": "https://www.photoroom.com/",
+      "comparison": "电商白底图与批量换背景更成熟，但偏模板化工作流，自由改局部要靠手动擦除。"
+     },
+     {
+      "name": "Adobe Firefly",
+      "url": "https://firefly.adobe.com/",
+      "comparison": "生成式填充质量高、可商用授权清晰，但需要 Adobe 账号与订阅，网页入口也更重。"
+     },
+     {
+      "name": "Canva Magic Edit",
+      "url": "https://www.canva.com/",
+      "comparison": "直接在排版流程里改图很方便，但修图精细度与保留原片细节不如专门的局部重绘工具。"
+     }
+    ]
+   }
+  },
+  {
+   "id": "backwords.greg.technology",
+   "name": "Backwords（让 AI 教你把话说反）",
+   "slug": "backwords",
+   "description": "一个极简的口语练习小玩具：输入一句话，先听 AI 用正常语速和慢速正着说，再听它完整倒放，然后你照着倒着念——用「不可能说顺的句子」逼你放慢、拆音、摆脱背诵。",
+   "url": "https://backwords.greg.technology/",
+   "homepage": "https://backwords.greg.technology/",
+   "type": "website",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/backwords.greg.technology_20261107121916.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "语言学习",
+    "语音合成",
+    "口语练习",
+    "小工具"
+   ],
+   "sourceChannels": [
+    "hackernews"
+   ],
+   "sourceUrl": "https://news.ycombinator.com/item?id=50401409",
+   "firstSeen": "2026-11-07T03:39:46Z",
+   "analysis": {
+    "targetAudience": "想练发音与语感、又对背单词感到厌倦的语言学习者，以及喜欢奇怪小工具的尝鲜用户。",
+    "useCases": [
+     "用倒放音频拆解连读和音素，练口型",
+     "在正放与倒放之间对比，发现自己一直念错的音",
+     "当作热身游戏，让孩子跟着倒着念句子",
+     "公开演讲前用它夸张地放慢语速找发音位置",
+     "作为 AI 语音能力的趣味演示分享给朋友"
+    ],
+    "designIntent": "作者认为正常语速的跟读会让人靠「背整句」蒙混过关，而倒放逼迫大脑逐个音素处理，是没法作弊的发音训练。整个产品就三步：输入、听、你来。",
+    "problemSolved": "语言学习中「听得懂但说不准」的瓶颈往往在于连读与音素边界被整句记忆掩盖。倒放把句子拆成无法预测的音序，强制学习者关注单个音，同时极低的交互成本让它适合当日常小练习。",
+    "tags": [
+     "语言学习",
+     "语音合成",
+     "口语练习",
+     "小工具"
+    ],
+    "score": 6,
+    "scoreReason": "想法新颖、实现极轻，作为发音训练的补充角度确实有道理，传播性也不错。但它更像一个演示级小玩具：没有课程体系、进度与纠音反馈，很难支撑长期使用。",
+    "competitors": [
+     {
+      "name": "ELSA Speak",
+      "url": "https://elsaspeak.com/",
+      "comparison": "有专业音素级评分与课程体系，纠音反馈远更完整，但需要订阅且交互重得多。"
+     },
+     {
+      "name": "Duolingo",
+      "url": "https://www.duolingo.com/",
+      "comparison": "游戏化坚持下去更容易，但发音训练只到「像不像」的粗粒度，不拆音素。"
+     }
+    ]
+   }
+  },
+  {
+   "id": "v2ex.com/t/1255154",
+   "name": "ivyNote 常青笔记（本地优先的 Markdown 笔记 + AI 问答）",
+   "slug": "ivynote",
+   "description": "国内独立开发者做的本地优先 Markdown 笔记：数据先落在本机、加密存储、纯文本随时导出，支持双链与关系图，并能用自然语言跨全部笔记提问，答案带原文出处。",
+   "url": "https://ivynote.app/",
+   "homepage": "https://ivynote.app/",
+   "type": "app",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/ivynote.app_20261107121916.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "笔记",
+    "本地优先",
+    "双链",
+    "AI 问答"
+   ],
+   "sourceChannels": [
+    "v2ex"
+   ],
+   "sourceUrl": "https://www.v2ex.com/t/1255154",
+   "firstSeen": "2026-11-07T03:22:58+00:00",
+   "analysis": {
+    "targetAudience": "在意数据自主权、已经在用 Obsidian / Joplin 但嫌太重或不稳的知识工作者与学生。",
+    "useCases": [
+     "把读书笔记、会议记录统一写成纯 Markdown 并双链关联",
+     "断网时照常写，联网后自动多端同步",
+     "用一句话跨全库提问，答案附上引用到的原文笔记",
+     "把笔记以纯文本导出，避免格式锁定",
+     "后续自建服务器，把同步握在自己手里"
+    ],
+    "designIntent": "作者用过 Obsidian、Joplin、Notion 等一圈工具后，认为它们要么太重、要么同步插件不稳、要么数据全在云端。于是想做一款「先保证本地可靠与纯文本自由，再把 AI 作为可选增强」的安静型笔记软件。",
+    "problemSolved": "笔记工具的两难是：云端产品方便但数据不在自己手里，本地产品自由但同步与 AI 体验差。ivyNote 用本地优先 + 加密 + 纯 Markdown 保住数据主权，再用「带引用的全库问答」把 AI 变成检索层而不是数据的主人。",
+    "tags": [
+     "笔记",
+     "本地优先",
+     "双链",
+     "AI 问答"
+    ],
+    "score": 7,
+    "scoreReason": "定位精准，正好切中「想要 AI 但不愿把笔记交给云」这批用户，本地优先与可导出是硬卖点。扣分在于同类开源方案众多、多端同步的稳定性正是它批评对手的地方，需要时间证明；产品也仍在早期。",
+    "competitors": [
+     {
+      "name": "Obsidian",
+      "url": "https://obsidian.md/",
+      "comparison": "插件生态与本地 Markdown 最强，但体积重、同步需第三方插件且稳定性常被吐槽。"
+     },
+     {
+      "name": "Joplin",
+      "url": "https://joplinapp.org/",
+      "comparison": "开源、多端与加密同步成熟，但分享与排版体验偏弱，AI 能力需要自己接。"
+     },
+     {
+      "name": "Notion",
+      "url": "https://www.notion.com/",
+      "comparison": "协作与数据库能力无可替代，但数据全在云端、产品越来越重，与「本地优先」的诉求相反。"
+     }
+    ]
+   }
+  }
+ ]
+}
