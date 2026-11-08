@@ -1,0 +1,314 @@
+{
+  "date": "2026-11-08",
+  "generatedAt": "2026-11-08T04:10:19.529586+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "producthunt.com/r/p/1288128",
+      "name": "Quest：你的私人 AI 顾问",
+      "slug": "quest-personal-ai-advisor",
+      "description": "住在 iMessage 里的私人 AI 顾问「Q.」，通过连接邮件、日历、位置与健康数据长期了解你的性格、价值观与目标，帮你反思、做决策、推进你想完成的事。",
+      "url": "https://new.quest",
+      "homepage": "https://new.quest",
+      "type": "app",
+      "appStoreName": "Quest: Personal AI Advisor",
+      "appStoreUrl": "https://apps.apple.com/us/app/quest-personal-ai-advisor/id6763097866?uo=4",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1288128_20261108_120622.png",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7d/77/c5/7d77c54a-05e1-9c83-06a9-9d67e9ef539b/1_Today.png/600x0w.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0e/f6/e0/0ef6e011-6ef7-5747-917c-cbf9eb017ef5/2_Quests.png/600x0w.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c8/7a/b7/c87ab797-b651-71b2-55ca-1fcff23cdd07/3_Memory.png/600x0w.jpg"
+      ],
+      "tags": [
+        "AI 顾问",
+        "个人成长",
+        "IM 集成",
+        "长期记忆",
+        "目标管理"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/quest-d8e9c4e8-cc0d-4b07-baee-e3dbf712c279",
+      "firstSeen": "2026-11-08T04:00:00+00:00",
+      "analysis": {
+        "targetAudience": "想理清人生方向、需要长期陪伴式建议的普通用户，尤其是 iPhone 重度用户。",
+        "useCases": [
+          "在 iMessage 里用文字或语音聊自己的困惑，得到不催促、只提问的顾问式回应",
+          "设定大大小小的「quest」（学冲浪、跑半马、记得倒垃圾），由它拆计划并跟踪进度",
+          "在换工作、搬家、感情抉择等节点前，让它帮你梳理价值观与取舍",
+          "连接日历/健康/位置后，行程变化、训练完成时收到主动提醒与复盘",
+          "在 iOS 伴侣应用里查看、修改甚至删除 AI 记住的每一条关于你的信息"
+        ],
+        "designIntent": "创始人 Vincent 认为大多数 AI 助手只会「帮你把事做完」，而人真正缺的是一个长期记得你、理解你、敢反驳你的顾问。所以他们把产品做成一个住在短信里的「Q.」，用分析师的耐心累积对你的理解。",
+        "problemSolved": "通用聊天机器人没有跨会话的稳定人格记忆，也很难在你自我欺骗时提出反对意见；心理咨询又昂贵且门槛高。Quest 把长期个人记忆 + 教练式提问做到日常聊天里，降低「自我审视」的成本。",
+        "tags": [
+          "AI 顾问",
+          "个人成长",
+          "iMessage",
+          "长期记忆"
+        ],
+        "score": 8,
+        "scoreReason": "把「私人顾问」这个抽象需求落到 iMessage 这种零学习成本的入口上，且明确以「建议而非代劳」定位，与一堆任务型助手形成差异；拿下 PH 当日 Launch of the Day，评论区对隐私与记忆可控性的追问也得到正面回应。扣分点是重度依赖连接个人数据，隐私与准确性风险仍在。",
+        "competitors": [
+          {
+            "name": "Pi (Inflection)",
+            "url": "https://pi.ai",
+            "comparison": "同样主打情感陪伴式对话，但 Pi 更像聊天伙伴，缺少跨 App 的数据记忆与目标追踪。"
+          },
+          {
+            "name": "ChatGPT",
+            "url": "https://chatgpt.com",
+            "comparison": "通用能力更强，但记忆碎片化、不会主动追问人生目标，也没有 iMessage 原生入口。"
+          },
+          {
+            "name": "Rosebud",
+            "url": "https://www.rosebud.ai",
+            "comparison": "以日记+AI 复盘切入自我认知，偏记录与反思，Quest 更偏行动推进与实时陪伴。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1304870",
+      "name": "Pressure：让两个 AI 吵一架再给结论",
+      "slug": "pressure-ai-debate",
+      "description": "把来自不同实验室的两个大模型放进同一个「房间」互相辩论你的问题，结束后给出定稿总结：各方立场、让步点、结论以及仍未解决的部分。",
+      "url": "https://pressure.dev",
+      "homepage": "https://pressure.dev",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1304870_20261108_120633.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 辩论",
+        "决策辅助",
+        "多模型",
+        "一致性检查"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/pressure",
+      "firstSeen": "2026-11-08T04:00:00+00:00",
+      "analysis": {
+        "targetAudience": "做重要决定、写方案或写文档时需要「第二意见」的个人和小团队。",
+        "useCases": [
+          "把纠结的决策（换不换工作、要不要做这个项目）丢进去看两个模型怎么互相拆台",
+          "让对抗式评审角色逐条挑刺你的需求文档或产品方案，直到站得住脚",
+          "两个 agent 各自联网搜索同一问题，比对信源后再给出一致答案",
+          "在创意还很粗糙时先做一次设计评审，提前暴露漏洞",
+          "查看每场辩论结束时固定的总结：立场、让步、结论、未解问题"
+        ],
+        "designIntent": "团队观察到单个模型很容易「把自己说服」，让它自查往往只会点头同意。因此他们刻意选择不同实验室训练的模型——盲区不重合——让分歧本身成为信号，而不是追求一个看似权威的单一答案。",
+        "problemSolved": "单一模型的自我复核形同虚设，用户缺少低成本获得真正对立意见的途径。Pressure 把「找人吵架/找第二个专家」变成 20 秒可完成的动作，并用结构化总结避免看完一堆对话还得自己提炼。",
+        "tags": [
+          "决策",
+          "多模型",
+          "辩论",
+          "评审"
+        ],
+        "score": 8,
+        "scoreReason": "抓住了 LLM「自我确认偏误」这个真实痛点，用跨厂商模型对辩是简单有效的解法，无需登录即可在网页试用，定价与形态都清晰。局限是辩论质量依赖模型本身，结论仍需要人来判断，属于「辅助思考」而非给出答案。",
+        "competitors": [
+          {
+            "name": "ChatGPT",
+            "url": "https://chatgpt.com",
+            "comparison": "可手动开两个对话互相贴，但需要自己组织流程，也不会产出结构化总结。"
+          },
+          {
+            "name": "Perplexity",
+            "url": "https://www.perplexity.ai",
+            "comparison": "强在联网检索与引用，只有一个声音，缺少对抗式审视。"
+          },
+          {
+            "name": "Kagi Assistant",
+            "url": "https://kagi.com",
+            "comparison": "可切换多个模型，但仍是单轮问答，不做模型间的交叉质询。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1303404",
+      "name": "Any Video to Text：粘贴视频链接就出逐字稿",
+      "slug": "any-video-to-text",
+      "description": "粘贴 TikTok、YouTube、Instagram、Facebook 或 X 的视频链接，几秒内拿到逐字稿：有字幕就取字幕，没有就用 Whisper 语音识别；支持说话人分离、字幕文件导出与向视频内容提问。",
+      "url": "https://anyvideototext.com",
+      "homepage": "https://anyvideototext.com",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1303404_20261108_120645.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "视频转文字",
+        "语音识别",
+        "字幕导出",
+        "内容再利用"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/any-video-to-text",
+      "firstSeen": "2026-11-08T04:00:00+00:00",
+      "analysis": {
+        "targetAudience": "需要整理视频内容的学生、记者、内容创作者和做竞品研究的人。",
+        "useCases": [
+          "把一条 TikTok/Reels 链接粘进去，拿到能搜索、能引用的逐字稿",
+          "把播客或访谈音频导出带说话人标签的文本，再改写成分发稿",
+          "下载 TXT/SRT/VTT/DOCX，直接丢进剪辑软件或 YouTube Studio 做字幕",
+          "针对视频内容提问，回答附带能跳转到对应时间点的引用",
+          "把 100 种语言的内容自动识别并翻译成 36 种语言的字幕"
+        ],
+        "designIntent": "作者本来做的是面向开发者的视频字幕抓取服务，被反复追问「有没有能直接粘链接、不用写代码的版本」，于是把它做成了一个零门槛网页工具。产品刻意优先读平台自带字幕，没有再回退到语音识别，以兼顾速度与成本。",
+        "problemSolved": "多数视频转文字工具要求先下载视频再上传，移动端短视频平台更是几乎无法直接取字幕。它把流程压成「粘链接→拿文本」，文件上传时音频在浏览器内提取，原始视频不上云。",
+        "tags": [
+          "转录",
+          "字幕",
+          "短视频",
+          "工具"
+        ],
+        "score": 7,
+        "scoreReason": "需求刚性、路径极短，且覆盖了别人普遍跳过的 TikTok/Reels「无字幕」场景，免费额度（每天 5 条）也足够轻度使用。短板是同类工具极多、差异化主要靠平台覆盖与体验，长期护城河有限。",
+        "competitors": [
+          {
+            "name": "Notta",
+            "url": "https://www.notta.ai",
+            "comparison": "转录更偏会议与长音频，订阅制，对短视频链接的支持不如它直接。"
+          },
+          {
+            "name": "Whisper (OpenAI)",
+            "url": "https://openai.com/research/whisper",
+            "comparison": "识别引擎层面的方案，需要自己搭流程，无法一条链接出稿。"
+          },
+          {
+            "name": "YouTube Transcript",
+            "url": "https://youtubetranscript.com",
+            "comparison": "只覆盖 YouTube，且无法处理没有字幕的视频。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "reddit.com/r/sideproject/comments/1xqk5a5/ibuiltanaiappthatanalyzesyourfaceskin",
+      "name": "InFaceMetic：做医美/牙科之前先让 AI 看看脸",
+      "slug": "infacemetic",
+      "description": "上传或拍摄一张照片，AI 分析面部比例、皮肤状态与笑容牙齿情况，给出适合的项目建议、价格区间与附近诊所，帮你决定要不要花钱做医美或牙科治疗。",
+      "url": "https://infacemetic.com",
+      "homepage": "https://infacemetic.com",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/reddit.com_r_sideproject_comments_1xqk5a5_ibuiltanaiappthatanalyzesyourfaceskin_20261108_120653.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "医美",
+        "面部分析",
+        "皮肤检测",
+        "诊所获客"
+      ],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "sourceUrl": "https://www.reddit.com/r/SideProject/comments/1xqk5a5/i_built_an_ai_app_that_analyzes_your_faceskin/",
+      "firstSeen": "2026-11-08T04:00:00+00:00",
+      "analysis": {
+        "targetAudience": "准备做医美或牙齿矫正、但不确定值不值得花钱的普通消费者，以及想提高网站转化率的医美/牙科诊所。",
+        "useCases": [
+          "在预约前用自拍得到面部分析报告：对称性、五官比例、皮肤纹理",
+          "检查毛孔、细纹、肤色等可见皮肤问题，并获得护肤与项目建议",
+          "分析笑容与牙齿排列，判断是否需要正畸或贴面",
+          "用实时的 3D 面部重塑预览，直观看到调整后的效果再决定",
+          "诊所把分析组件嵌入官网，访客拿到报告的同时直接看到报价并预约"
+        ],
+        "designIntent": "作者发现很多人在医美和牙科上花了大钱却不清楚自己到底需不需要，而诊所侧又苦于网站访客只看不咨询。同一个 AI 分析被做成了双面产品：消费者侧先看清自己，诊所侧把流量变成已预热的咨询。",
+        "problemSolved": "消费者缺少廉价、无推销压力的术前评估；诊所的网站流量难以转化为预约。用一次结构化分析同时解决「信息不对称」和「转化率」两件事，并明确声明不是医疗诊断。",
+        "tags": [
+          "医美",
+          "面部分析",
+          "ToC+ToB"
+        ],
+        "score": 7,
+        "scoreReason": "场景真实且变现路径清晰（消费者单次付费 + 诊所订阅），把 AI 视觉分析直接接到「报价+预约」上，商业闭环完整。风险在医疗与容貌焦虑的边界：分析结论可能被过度解读，且同类「AI 测脸」应用口碑普遍参差，需要长期验证准确度。",
+        "competitors": [
+          {
+            "name": "Perfect Corp (YouCam)",
+            "url": "https://www.perfectcorp.com",
+            "comparison": "护肤/彩妆 AR 与检测的老牌方案商，技术更成熟，但价格与接入门槛更高，偏品牌客户。"
+          },
+          {
+            "name": "Face Analytics",
+            "url": "https://faceanalytics.ai",
+            "comparison": "同样提供面部与皮肤分析 API，偏开发者/企业集成，缺少面向消费者的报价与预约链路。"
+          },
+          {
+            "name": "TroveSkin",
+            "url": "https://troveskin.com",
+            "comparison": "聚焦皮肤检测与护肤建议，不含牙科与诊所预约转化。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "regestown.com",
+      "name": "Reges Town：由 AI 居民自主运转的 3D 城市",
+      "slug": "reges-town",
+      "description": "一个跑在浏览器里的 3D 小城，城市里的居民都是独立的 AI 角色，各自生活、互动，形成一座会自己运转的「活的城市」。",
+      "url": "https://regestown.com",
+      "homepage": "https://regestown.com",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/regestown.com_20261108_120940.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 角色",
+        "模拟经营",
+        "3D 浏览器",
+        "涌现行为"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=50410242",
+      "firstSeen": "2026-11-08T04:00:00+00:00",
+      "analysis": {
+        "targetAudience": "喜欢沙盒模拟、观察 AI 智能体涌现行为的玩家与 AI 爱好者。",
+        "useCases": [
+          "打开网页就能俯瞰一座城市，观察 AI 居民自己出门、社交、工作",
+          "长时间挂着当「电子鱼缸」，看城市里发生意料之外的事件",
+          "对 AI 智能体社会实验感兴趣的人，用来直观感受多智能体涌现",
+          "作为不需要下载安装的轻量 3D 场景，在浏览器里随手打开"
+        ],
+        "designIntent": "作者想验证一件很朴素的事：把几十个各自有记忆和目标的 AI 角色放进同一座城市，会不会自己长出「生活感」。因此刻意做成浏览器即开、不装客户端的形态，让人像看鱼缸一样观看而不是去操作。",
+        "problemSolved": "市面上的 AI 角色产品多是单人对话或需要复杂配置的智能体框架，普通用户看不到「多智能体社会」的样子。Reges Town 把它变成一个打开就能看的 3D 世界，降低了感受 AI 涌现行为的门槛。",
+        "tags": [
+          "AI 生命",
+          "沙盒",
+          "WebGL"
+        ],
+        "score": 6,
+        "scoreReason": "概念有趣、形态讨巧（浏览器 60fps 3D），把「AI 社会模拟」这种抽象议题变成可观看的消费品。但目前官网信息极简，玩法深度、留存与商业化都不明朗，更像一次优秀的实验而非成熟产品。",
+        "competitors": [
+          {
+            "name": "Generative Agents (Stanford)",
+            "url": "https://arxiv.org/abs/2304.03442",
+            "comparison": "同类多智能体小镇的研究原型，学术价值高但普通人难以直接体验。"
+          },
+          {
+            "name": "AI Town",
+            "url": "https://github.com/a16z-infra/ai-town",
+            "comparison": "开源可自部署的 AI 小镇，偏开发者，需要自行配置模型与运行环境。"
+          },
+          {
+            "name": "The Sims",
+            "url": "https://www.ea.com/games/the-sims",
+            "comparison": "成熟的模拟人生玩法，但角色行为由脚本驱动，不具备真正的 AI 自主性。"
+          }
+        ]
+      }
+    }
+  ]
+}
