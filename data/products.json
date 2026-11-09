@@ -40031,12 +40031,12 @@
       ],
       "sourceUrl": "https://news.ycombinator.com/item?id=49969988",
       "firstSeen": "2026-10-06T04:07:20.239028+00:00",
-      "lastUpdated": "2026-10-06T04:23:57.472149+00:00",
+      "lastUpdated": "2026-11-09T04:18:08.423548+00:00",
       "cooldownExpiresAt": "2026-10-20T04:23:57.472149+00:00",
       "metrics": {
         "featuredInDaily": 1,
-        "featuredInWeekly": false,
-        "lastFeaturedDate": "2026-10-06"
+        "featuredInWeekly": true,
+        "lastFeaturedDate": "2026-11-09"
       },
       "analysis": {
         "targetAudience": "注重隐私的iPhone用户、需要个人AI助手但不愿上传数据的用户",
@@ -49511,5 +49511,5 @@
       }
     }
   ],
-  "lastUpdated": "2026-11-09T04:12:12.349535+00:00"
+  "lastUpdated": "2026-11-09T04:18:08.423548+00:00"
 }

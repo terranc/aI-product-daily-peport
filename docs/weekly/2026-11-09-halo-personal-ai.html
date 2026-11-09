@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Halo - Personal AI 每周深度分析 · AI 产品雷达</title>
+  <link rel="stylesheet" href="../styles.css">
+  
+    <style>
+    /* ── Product Detail Modal ── */
+    .product-modal-overlay {
+      display:none; position:fixed; inset:0; z-index:9000;
+      background:rgba(0,0,0,.5); backdrop-filter:blur(4px);
+      overflow-y:auto; -webkit-overflow-scrolling:touch;
+    }
+    .product-modal-overlay.active { display:block; }
+    .product-modal-container {
+      position:relative; max-width:1120px; width:90%; margin:40px auto;
+      min-height:auto; background:var(--c-bg);
+      border-radius:var(--radius-lg); box-shadow:0 8px 32px rgba(0,0,0,.2);
+      overflow:hidden;
+    }
+    .product-modal-close {
+      position:sticky; top:0; z-index:10;
+      display:flex; align-items:center; justify-content:space-between;
+      padding:12px 16px; background:var(--c-surface);
+      border-bottom:1px solid var(--c-border);
+    }
+    .product-modal-close button {
+      background:none; border:none; cursor:pointer;
+      font-size:1rem; color:var(--c-text-2); padding:4px 8px;
+    }
+    .product-modal-close .title { font-weight:600; font-size:.9rem; color:var(--c-text); }
+    .product-modal-body {
+      padding:0;
+    }
+    </style>
+</head>
+<body>
+  <header class="site-header">
+  <div class="container-wide">
+    <a href="../" class="site-logo"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a10 10 0 0 1 0 20"/><path d="M12 2a6 6 0 0 1 0 12"/><circle cx="12" cy="8" r="1" fill="currentColor"/></svg> AI 产品雷达</a>
+    <nav class="site-nav"><a href="../">每日简报</a><a href="../weekly.html" class="active">每周深度</a><a href="../archive.html">归档</a><a href="../starred.html" class="nav-starred"><svg class="star-ic" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><span class="nav-label">星标</span><span class="star-count-badge"></span></a><a href="https://github.com/terranc/aI-product-daily-peport" target="_blank"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a></nav>
+  </div>
+</header>
+  <main>
+    <div class="container-wide">
+      <a href="../weekly.html" class="back-link"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg> 返回每周深度</a>
+      <div id="weekly-detail-content">
+      <article class="detail-card">
+        <div class="detail-hero">
+          <div class="entry-meta">
+            <span class="blog-post-date">2026-11-09</span>
+            <div class="entry-tags"><a href="../tags.html?tag=隐私AI" class="tag">隐私AI</a><a href="../tags.html?tag=个人助手" class="tag">个人助手</a><a href="../tags.html?tag=本地处理" class="tag">本地处理</a><a href="../tags.html?tag=MCP" class="tag">MCP</a><a href="../tags.html?tag=iOS" class="tag">iOS</a></div>
+          </div>
+          <h1 class="detail-title">Halo - Personal AI · 每周深度分析</h1>
+          <p class="detail-subtitle">隐私优先的个人AI助手，完全在设备上运行，连接邮件/日历/健康等数据源</p>
+          <div class="detail-actions">
+            <span class="detail-score-badge">9</span>
+            <a href="https://meethalo.app" target="_blank" class="btn btn-primary"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg> 访问官网</a>
+          </div>
+        </div>
+        <div class="detail-body">
+          <div class="detail-main">
+            <div class="weekly-metric-grid">
+              <div class="weekly-metric"><strong>34</strong><span>距首次发现天数</span></div>
+              <div class="weekly-metric"><strong>0</strong><span>近 7 天提及</span></div>
+              <div class="weekly-metric"><strong>0</strong><span>增长分数</span></div>
+            </div>
+            
+            <div class="section">
+              <h2 class="section-title"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></span> 增长证据</h2>
+              <ol class="use-case-list"><li>2026 年 6 月起进入 TestFlight 阶段，官网挂「notify me」收集候补；8-20 前后第一批 beta 发出，作者在 X 上称「又一次邀请 500 人」分批放量，社区里能看到用户排队求邀请的对话。</li><li>2026-09-12 发布对比文《Halo vs Muse, Grok Bot, Dots, Instinct, OpenClaw and Hermes》，用「数据放在哪」这一根轴把自己和六家拉开，属于典型的 launch 前占位打法。</li><li>2026-10-05 App Store 正式上架 1.0（同日投 Show HN），首周早鸟价 $49（原价 $99），带 7 天免扣费试用；官网当天写着「launching soon」，说明上架与营销页存在几小时到一天不同步。</li><li>评分侧：截至 11-09 App Store 显示 3.9 分、9 个评分，样本极小；独立监测站 assistantbenchmark.com 记录 15 个维度全部「Not tested」、仅收录 10 条公开引用，说明还没有第三方实测数据。</li><li>声望侧的分化很明显：MacStories（Federico Viticci）在 Open Minis 评测里把 Halo 列为「接下来值得盯的」之一并透露自己在早期测试组；HN 上同一篇 Show HN 只有 4 分、4 条评论。媒体圈看好、工程师圈冷淡。</li><li>收入侧：一次性买断 + 自带模型订阅的模式决定了它不靠 ARPU 增长而靠转化率；作者未公开任何销量、MRR 或下载量数字。</li></ol>
+            </div>
+            <div class="section">
+              <h2 class="section-title"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5A4.61 4.61 0 0 1 8.91 14"/></svg></span> 社区反馈</h2>
+              <ol class="use-case-list"><li>Hacker News：Show HN 帖 4 分 4 评论，作者亲自回帖解释为什么非要绕开 Siri——「Apple 今年开放了 App Intents，但只限几类应用，比如没法给记账 App 共享数据」，并说明 iMessage 这类无 API 的场景是自己打包 Shortcuts + 全本地同步解决的；评论里有人直接说「大概比 Siri 强多了」。</li><li>X / 建圈：作者 @tanmays 长期 build in public，公开过「Halo 是 iOS 上第一个能做全自动 2FA 代理支付的助手」（2026-09-04 用 Swiggy 下首单）、「主动式 AI 应该不问你就动手」（08-21）、「agent 跑在你手里这台计算机上」（08-20）；一位媒体编辑（@ExecutiveEditor）在用过 beta 后公开评价「这就是 Siri 和 ChatGPT Work 在 iOS 上本该有的样子」，作者把这条当成一年开发的心理回报转发。</li><li>独立评测/聚合站：agentcomparison.net（10-23 核对权限与定价）、netshow.ai（10-01）、assistantbenchmark.com（10-31 更新）、FoldHunt（10-20 在模拟器里核实 iPhone Duo 三种折叠姿态）都留下了核对记录；其中 agentcomparison 指出官网 $49 与 App Store 内购 $49.99 存在标价不一致，另一处旧记录还提到过 $6.99 内购档位，说明定价页曾经调整过。
+负面侧：App Store 仅有 9 个评分却只有 3.9 分，说明早期用户里有明显不满（可能集中在 iOS 26 门槛、需要自备 API key、初版稳定性），评论原文未公开抓取到，不做推测。</li></ol>
+            </div>
+            <div class="section">
+              <h2 class="section-title"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></span> 近期更新</h2>
+              <ol class="use-case-list"><li>1.0（10-05）首发。</li><li>1.01（10-08）紧急修复。</li><li>1.2（10-12）一次性补齐简体中文、日文、德文、法文、葡语、阿语、韩语、俄语、西语等 10 种本地化，并加上 Claude 模型更新、主/副模型自动跟随最新版本、外接键盘回车发送。</li><li>1.2.1（10-15）首发适配折叠屏 iPhone Duo（合上单栏、半折简报＋对话并排、展开左右分屏），修 Duo 付费墙文案截断。</li><li>1.3（10-24）意大利语/德语本地化、邮件别名、让 agent 带附件发信、修 iMessage 每条都被当成验证码扫描的严重 bug。</li><li>1.4（约 11-05）语音模式（免手、可被打断）、Action Button / Siri 免进 App 提问并以 Live Activity 朗读答案、端上自然语音逐词高亮、Transactions 账单视图、给已连接网站写使用说明、笔记删除恢复。
+同期博客保持每月 1-2 篇（06-26 记忆机制、07-02 隐私助手榜、09-12 竞品对比、10-07 Duo 发布 press kit），技术文档与产品节奏基本对齐。</li></ol>
+            </div>
+            <div class="section">
+              <h2 class="section-title"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></span> 市场定位</h2>
+              <ol class="use-case-list"><li>平台层：Apple Intelligence / Siri AI 免费且默认，靠系统权限与端侧模型碾压分发，但工具调用范围被刻意收窄。</li><li>云 VM 层：Meta Muse、Grok Bot、OpenAI Dots 卖「替你干活的远程电脑」，持续在线、算力充足，代价是个人上下文与登录态都托管给平台。</li><li>端侧/自托管层：Open Minis、Halo、OpenClaw、Hermes 卖「环境所有权」。其中 OpenClaw / Hermes 要你自己维护一台常开机器，Open Minis 与 Halo 把整套环境塞进 App，Halo 的差异点是「零运维 + 凭据保险库 + 主动式循环」。
+商业上它选了与订阅制相反的一次性买断（$49/原价 $99，PPP 折扣最多 8 折），等于把模型成本转交给用户已有的 ChatGPT / Grok 订阅，这在「人人都在做 $20/月」的助理赛道里是个明确的定位选择，也意味着收入天花板低、更依赖口碑传播。
+风险侧：名字撞车 Google 的 Android Halo，搜索与品牌认知会被稀释；iOS 26 独占会让它在早期增长曲线上自我限流。</li></ol>
+            </div>
+            <div class="section">
+              <h2 class="section-title"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r=".5" fill="currentColor"/><circle cx="17.5" cy="10.5" r=".5" fill="currentColor"/><circle cx="8.5" cy="7.5" r=".5" fill="currentColor"/><circle cx="6.5" cy="12.5" r=".5" fill="currentColor"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"/></svg></span> 差异化</h2>
+              <ol class="use-case-list"><li>「记忆是一份你能读的文件」：Markdown 页面 + wiki 链接组成的生活图谱，配本机向量索引与自带 embedding 模型；用户能直接打开读、能在 App 里按语义搜、还能从内建终端用 find/grep 顺着链接走。云端助手的记忆是黑箱，自托管方案的记忆是给工程师看的，Halo 试图两边都占。</li><li>「模型不在端上」但「数据与环境在端上」：不吹全本地推理，而是老实承认提示词要发给 provider，同时把邮件、消息、记忆、浏览器会话、凭据全部留在设备与用户自己的 iCloud 里；安全页的原话是「我们不存你的数据，所以没有什么可被攻破」。</li><li>主动式而非问答式：端上跑循环、用 Live Activities 展示，自己从邮件与消息里提炼待办并标记完成，官方 demo 与作者推文都以「你没开口它先动手」为卖点。</li><li>平台边缘能力啃得早：iMessage 无公开 API，它用 Shortcuts 导入 + 全本地同步绕过去；折叠屏 iPhone Duo 在 10-15 就完成姿态适配（10-20 被 FoldHunt 在模拟器里核实）；还在 9 月公开演示了 AI 全自动完成 2FA 的代理支付下单。这些都属于「大厂规则缝隙里的先手」。
+反过来说，这些先手也全是风险：Shortcuts、iMessage、代理支付、Live Activities 都踩在 Apple 的私有或半开放接口上，任何一次系统策略调整都可能让它掉功能。</li></ol>
+            </div>
+            <div class="section">
+              <h2 class="section-title"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="14.5 17.5 3 6 3 3 6 3 17.5 14.5"/><line x1="13" y1="19" x2="19" y2="13"/><line x1="16" y1="16" x2="20" y2="20"/><line x1="19" y1="21" x2="21" y2="19"/><polyline points="14.5 6.5 18 3 21 3 21 6 17.5 9.5"/><line x1="5" y1="14" x2="9" y2="18"/><line x1="7" y1="17" x2="4" y2="20"/><line x1="3" y1="19" x2="5" y2="21"/></svg></span> 风险挑战</h2>
+              None
+            </div>
+            <div class="section">
+              <h2 class="section-title"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></span> 后续观察</h2>
+              None
+            </div>
+          </div>
+          <aside class="detail-aside">
+            <div class="aside-block">
+              <div class="aside-label">标签</div>
+              <div class="aside-tags"><a href="../tags.html?tag=隐私AI" class="tag">隐私AI</a><a href="../tags.html?tag=个人助手" class="tag">个人助手</a><a href="../tags.html?tag=本地处理" class="tag">本地处理</a><a href="../tags.html?tag=MCP" class="tag">MCP</a><a href="../tags.html?tag=iOS" class="tag">iOS</a></div>
+            </div>
+            <div class="aside-block">
+              <div class="aside-label">跟踪渠道</div>
+              <p style="color:var(--c-text-2);font-size:.85rem">hackernews</p>
+            </div>
+            <div class="aside-block">
+              <div class="aside-label">元数据</div>
+              <div class="meta-row"><span class="label">周报日期</span><span class="value">2026-11-09</span></div>
+              <div class="meta-row"><span class="label">首次发现</span><span class="value">2026-10-06</span></div>
+              <div class="meta-row"><span class="label">产品类型</span><span class="value">app</span></div>
+            </div>
+          </aside>
+        </div>
+      </article>
+    </div>
+    </div>
+  </main>
+  
+  <!-- 产品详情 Modal -->
+  <div class="product-modal-overlay" id="product-modal">
+    <div class="product-modal-container">
+      <div class="product-modal-close">
+        <span class="title" id="modal-title"></span>
+        <button onclick="closeProductModal()" aria-label="关闭">✕ 关闭</button>
+      </div>
+      <div class="product-modal-body" id="modal-body">
+        <div style="text-align:center;padding:40px;color:var(--c-text-3)">加载中...</div>
+      </div>
+    </div>
+  </div>
+  <footer class="site-footer">
+  <div class="container">
+    <div class="footer-links">
+      <a href="../archive.html">历史归档</a>
+      <a href="https://github.com/terranc/aI-product-daily-peport" target="_blank">GitHub</a>
+    </div>
+    <p>AI 产品雷达 · 自动化 AI 产品发现与分析</p>
+  </div>
+</footer>
+  
+    <script>
+    // 标星功能（共享）
+
+const STAR_KEY = 'ai_radar_starred';
+function getStarredSlugs() {
+  try { return JSON.parse(localStorage.getItem(STAR_KEY) || '[]'); } catch(e) { return []; }
+}
+function saveStarredSlugs(arr) {
+  try { localStorage.setItem(STAR_KEY, JSON.stringify(arr)); } catch(e) {}
+}
+function isStarred(slug) {
+  if (!slug) return false;
+  return getStarredSlugs().indexOf(String(slug).toLowerCase()) !== -1;
+}
+function toggleStar(btn) {
+  const slug = (btn.getAttribute('data-slug') || '').toLowerCase();
+  if (!slug) return;
+  let arr = getStarredSlugs();
+  const idx = arr.indexOf(slug);
+  const nowStarred = idx === -1;
+  if (nowStarred) { arr.push(slug); } else { arr.splice(idx, 1); }
+  saveStarredSlugs(arr);
+  refreshStarButton(btn);
+  updateStarBadges();
+  window.dispatchEvent(new CustomEvent('star-changed', { detail: { slug: slug, starred: nowStarred } }));
+}
+function refreshStarButton(btn) {
+  if (!btn || !btn.classList || !btn.classList.contains('btn-star')) return;
+  const slug = (btn.getAttribute('data-slug') || '').toLowerCase();
+  const starred = isStarred(slug);
+  if (starred) {
+    btn.classList.add('is-starred');
+    btn.setAttribute('aria-pressed', 'true');
+  } else {
+    btn.classList.remove('is-starred');
+    btn.setAttribute('aria-pressed', 'false');
+  }
+  const lbl = btn.querySelector('.star-label');
+  if (lbl) lbl.textContent = starred ? '已标星' : '标星';
+}
+function updateStarBadges() {
+  const count = getStarredSlugs().length;
+  document.querySelectorAll('.star-count-badge').forEach(el => {
+    el.textContent = count > 0 ? String(count) : '';
+    el.style.display = count > 0 ? '' : 'none';
+  });
+}
+function initStarButtons(root) {
+  (root || document).querySelectorAll('.btn-star[data-slug]').forEach(btn => {
+    refreshStarButton(btn);
+  });
+}
+document.addEventListener('DOMContentLoaded', function() {
+  updateStarBadges();
+  initStarButtons(document);
+});
+
+    // Modal 逻辑（所有设备）
+    const modal = document.getElementById('product-modal');
+    const modalBody = document.getElementById('modal-body');
+    const modalTitle = document.getElementById('modal-title');
+
+    // 大屏设备用 Modal，手机端和无 JS 环境保持普通链接跳转
+    const isDesktop = window.matchMedia('(min-width: 769px)').matches;
+    if (isDesktop) {
+      document.querySelectorAll('.source-link[href]').forEach(card => {
+        card.addEventListener('click', function(e) {
+          if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+          e.preventDefault();
+          const name = this.textContent?.trim() || '产品详情';
+          openProductModal(this.getAttribute('href'), name);
+        });
+      });
+    }
+
+    function rebaseModalUrls(root, baseUrl) {
+      // 修复：如果 baseUrl 是产品详情页，使用根页面作为基准，避免相对路径计算错误
+      let adjustedBase = baseUrl;
+      try {
+        const urlObj = new URL(baseUrl);
+        if (urlObj.pathname.startsWith('/products/') || urlObj.pathname.startsWith('/weekly/')) {
+          // 使用根页面作为基准
+          adjustedBase = urlObj.origin + '/';
+        }
+      } catch (e) {}
+
+      root.querySelectorAll('[src]').forEach(el => {
+        const value = el.getAttribute('src');
+        if (value && !value.startsWith('http') && !value.startsWith('data:')) {
+          el.setAttribute('src', new URL(value, adjustedBase).href);
+        }
+      });
+      root.querySelectorAll('[href]').forEach(el => {
+        const value = el.getAttribute('href');
+        if (value && !value.startsWith('http') && !value.startsWith('#') && !value.startsWith('mailto:')) {
+          el.setAttribute('href', new URL(value, adjustedBase).href);
+        }
+      });
+    }
+
+    async function openProductModal(detailUrl, name) {
+      modalTitle.textContent = name;
+      modalBody.innerHTML = '<div style="text-align:center;padding:40px;color:var(--c-text-3)">加载中...</div>';
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+
+      try {
+        const resp = await fetch(detailUrl);
+        if (!resp.ok) throw new Error('HTTP ' + resp.status);
+        const html = await resp.text();
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(html, 'text/html');
+
+        const detailContent = doc.querySelector('#product-detail-content');
+        if (detailContent) {
+          rebaseModalUrls(detailContent, new URL(detailUrl, window.location.href).href);
+          modalBody.replaceChildren(detailContent);
+          initStarButtons(modalBody);
+        } else {
+          throw new Error('详情主体不存在');
+        }
+      } catch (err) {
+        modalBody.innerHTML = '<div style="text-align:center;padding:40px;color:var(--c-text-3)">加载失败，请<a href="' + detailUrl + '" style="color:var(--c-accent);font-weight:600">打开详情页</a></div>';
+      }
+
+      modal.scrollTop = 0;
+    }
+
+    function closeProductModal() {
+      modal.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    modal.addEventListener('click', function(e) {
+      if (e.target === modal) closeProductModal();
+    });
+
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' && modal.classList.contains('active')) {
+        closeProductModal();
+      }
+    });
+    </script>
+</body>
+</html>
