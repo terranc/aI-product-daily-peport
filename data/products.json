@@ -49189,7 +49189,327 @@
         "featuredInDaily": true,
         "lastFeaturedDate": "2026-11-08"
       }
+    },
+    {
+      "id": "v2ex.com/t/1255360",
+      "name": "动动乐园",
+      "slug": "dongdong-park",
+      "description": "100 多个用摄像头玩的儿童体感小游戏合集：打开网页、站到摄像头前就能玩，不用手柄、不用安装、免费。",
+      "url": "https://dongdongpark.com",
+      "homepage": "https://dongdongpark.com",
+      "type": "website",
+      "tags": [
+        "儿童运动",
+        "体感游戏",
+        "网页游戏",
+        "免费"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "sourceUrl": "https://www.v2ex.com/t/1255360",
+      "firstSeen": "2026-11-08T09:03:38+00:00",
+      "lastFeaturedDate": "2026-11-09",
+      "cooldownExpiresAt": "2026-11-23T04:12:12.349535+00:00",
+      "screenshotUrl": "assets/screenshots/v2ex.com_t_1255360_20261109_120742.png",
+      "analysis": {
+        "targetAudience": "有 3-18 岁孩子的家庭，尤其是想让孩子在家动一动又不想买游戏机的家长。",
+        "useCases": [
+          "孩子生病或下雨天在家消耗精力",
+          "幼儿园到高中分学段的体育类小游戏",
+          "客厅里的亲子互动与姿势挑战",
+          "把刷动画片的时间换成主动运动",
+          "老师做室内活动课的素材"
+        ],
+        "designIntent": "作者的女儿生病在家不能出门，家里没有游戏机，也不想为这事专门买设备，手边只有一台带摄像头的笔记本。于是他把『跳、挥手、蹲下、摆姿势』这些动作直接变成游戏输入，一个接一个地做了出来。",
+        "problemSolved": "解决孩子在家无处运动、家长又不想添置额外硬件的问题。同时把屏幕时间从被动观看转为主动运动，身体真正动起来。",
+        "tags": [
+          "儿童运动",
+          "体感游戏",
+          "网页游戏",
+          "免费"
+        ],
+        "score": 9,
+        "scoreReason": "真实需求驱动、零硬件门槛、100 多个游戏且有学段与三档难度分层，中文语音引导让不识字的小孩也能玩，完全免费。局限是需要摄像头和足够的光线与空间。",
+        "competitors": [
+          {
+            "name": "GoNoodle",
+            "url": "https://www.gonoodle.com",
+            "comparison": "课堂和家庭律动视频，只能跟着做，没有摄像头识别与即时反馈。"
+          },
+          {
+            "name": "Just Dance Now",
+            "url": "https://www.justdancenow.com",
+            "comparison": "需要手机当手柄加订阅，曲库固定在舞蹈，覆盖不了躲激光、切水果这类玩法。"
+          },
+          {
+            "name": "Nintendo Switch 健身游戏",
+            "url": "https://www.nintendo.com",
+            "comparison": "体验最好但要买主机和手柄，单次投入高、也不适合随手在电脑上玩。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "producthunt.com/products/memorias3",
+      "name": "Memorias",
+      "slug": "memorias",
+      "description": "AI 传记作者：对着它讲自己的人生故事，它逐章整理成一本真正的回忆录，可导出 EPUB、PDF 或 DOCX。",
+      "url": "https://memorias.io/en",
+      "homepage": "https://memorias.io/en",
+      "type": "saas",
+      "tags": [
+        "回忆录",
+        "语音转写",
+        "家庭记忆",
+        "AI 写作"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/memorias-3",
+      "firstSeen": "2026-10-13T13:48:16+00:00",
+      "lastFeaturedDate": "2026-11-09",
+      "cooldownExpiresAt": "2026-11-23T04:12:12.349535+00:00",
+      "screenshotUrl": "assets/screenshots/producthunt.com_products_memorias3_20261109_120742.png",
+      "analysis": {
+        "targetAudience": "想把人生故事留成书的老人及其子女，以及退役军人、移民等有强烈个人史需要保存的人群。",
+        "useCases": [
+          "祖辈口述人生、子女收到成书",
+          "父母为后代留下家族史",
+          "个人自传与纪念册配照片",
+          "多语言家庭用母语成书（支持 50 多种语言）",
+          "把零散的录音整理成有条理的章节"
+        ],
+        "designIntent": "团队观察到『每个人都有值得写下来的一生，但几乎没人写』——写书很难，说话很容易。于是产品完全围绕『说』来设计，AI 传记作者像一位好记者那样逐次追问。",
+        "problemSolved": "解决想写回忆录却卡在空白页、不会写也没时间写的问题。更关键的是坚持『不编造』：每一章都对照你真正说过的话核查，没说到的部分就保持简短，再回头追问。",
+        "scoreReason": "场景独特、情感价值极高，语音优先加人生时间线，加上『只依据原话』的编辑原则，正好解决 AI 代笔最大的信任问题；按量付费、不订阅。不足是只能交付文本，印刷版和移动端还没做。",
+        "tags": [
+          "回忆录",
+          "语音转写",
+          "家庭记忆",
+          "AI 写作"
+        ],
+        "score": 9,
+        "competitors": [
+          {
+            "name": "StoryWorth",
+            "url": "https://welcome.storyworth.com",
+            "comparison": "每周邮件问一个问题、一年后成书，需要家人在邮件里写回复，周期长且不是语音访谈。"
+          },
+          {
+            "name": "Remento",
+            "url": "https://www.remento.co",
+            "comparison": "同样做家庭语音故事书，但偏问答式记录，缺少逐章编辑与对照原话核查的承诺。"
+          },
+          {
+            "name": "直接用 ChatGPT 代写",
+            "url": "https://chatgpt.com",
+            "comparison": "免费且灵活，但不会主动追问细节，也容易补出你没说过的情节。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "producthunt.com/products/dulylifeorganizer",
+      "name": "Duly",
+      "slug": "duly",
+      "description": "按住光球随口说，Duly 自动把一段话拆成提醒、购物清单、想法和笔记；改口也一样用一句自然语言。",
+      "url": "https://useduly.app",
+      "homepage": "https://useduly.app",
+      "type": "app",
+      "tags": [
+        "语音记录",
+        "待办清单",
+        "iOS",
+        "个人效率"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/duly-life-organizer",
+      "firstSeen": "2026-10-22T11:22:07+00:00",
+      "lastFeaturedDate": "2026-11-09",
+      "cooldownExpiresAt": "2026-11-23T04:12:12.349535+00:00",
+      "screenshotUrl": "assets/screenshots/producthunt.com_products_dulylifeorganizer_20261109_120742.png",
+      "analysis": {
+        "targetAudience": "用 iPhone / iPad 处理日常琐事、但讨厌建条目填表单的个人用户。",
+        "useCases": [
+          "一句话同时建提醒和购物清单",
+          "口述记账（今天花了多少钱）",
+          "随手记下别人推荐的书影剧",
+          "问『这周花了多少 / 还缺什么』直接得到答案",
+          "用操作按钮、锁屏或 Siri 一键开始记录"
+        ],
+        "designIntent": "18 岁独立开发者只想要『一个按住就能随便说、然后被自动整理好』的光球。核心信条是捕捉成本为零决策：一次按下，然后说话，不选类型、不填表单、甚至不用打开 App。",
+        "problemSolved": "解决效率类 App 最大的摩擦——记录前的分类和录入。改口也用同一套自然语言（『护照那事改周二』『撤销』），每个改动就地显示并可一键回退。",
+        "scoreReason": "交互极简、拆解能力强（一段话变多种条目），可追问统计、可撤销，免费层足够日常使用。限制是仅苹果生态、免费版有每日次数上限。",
+        "tags": [
+          "语音记录",
+          "待办清单",
+          "iOS",
+          "个人效率"
+        ],
+        "score": 8,
+        "competitors": [
+          {
+            "name": "Todoist",
+            "url": "https://todoist.com",
+            "comparison": "结构化与跨平台最强，但每条任务都要手填属性，捕捉摩擦高。"
+          },
+          {
+            "name": "Voicenotes",
+            "url": "https://voicenotes.com",
+            "comparison": "语音笔记加 AI 摘要很顺手，但内容停在笔记层，不会落成提醒和清单。"
+          },
+          {
+            "name": "Apple 提醒事项",
+            "url": "https://www.apple.com/reminders/",
+            "comparison": "系统集成最深，仍需手动分条录入，且不会把口述自动归类。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "getremedyapp.com",
+      "name": "Remedy",
+      "slug": "remedy",
+      "description": "给信息流装的 AI 过滤器：用一句话写清你不想看什么（引战、剧透、血腥），它按语义在滚动时直接移除。",
+      "url": "https://getremedyapp.com",
+      "homepage": "https://getremedyapp.com",
+      "type": "website",
+      "tags": [
+        "内容过滤",
+        "浏览器扩展",
+        "社交媒体",
+        "注意力管理"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=50417974",
+      "firstSeen": "2026-11-08T22:16:21+00:00",
+      "lastFeaturedDate": "2026-11-09",
+      "cooldownExpiresAt": "2026-11-23T04:12:12.349535+00:00",
+      "screenshotUrl": "assets/screenshots/getremedyapp.com_20261109_120742.png",
+      "analysis": {
+        "targetAudience": "被信息流里的引战、剧透、暴力内容消耗注意力的重度社交用户。",
+        "useCases": [
+          "在 X / Reddit / YouTube 上屏蔽政治与引战内容",
+          "电影上映期避开剧透",
+          "过滤血腥与惊吓画面",
+          "按兴趣保留想看的内容",
+          "家长为孩子配置干净的信息流"
+        ],
+        "designIntent": "作者认为关键词屏蔽太笨——换个说法就漏过去了。于是用 AI 分类器按『意思』判断，用户只要用自然语言写下规则，什么时候不想看了改一句话即可。",
+        "problemSolved": "解决传统屏蔽列表维护成本高、拦不住同义改写内容的问题，把『我不想看这个』直接变成一条可执行的过滤规则，覆盖 X、Reddit、YouTube、Instagram、Facebook、Threads、TikTok 等站点。",
+        "scoreReason": "痛点普遍、交互门槛极低（改一句话就改规则），支持站点多、滚动时实时移除。依赖模型判断会有误杀，且首日免费后需订阅。",
+        "tags": [
+          "内容过滤",
+          "浏览器扩展",
+          "社交媒体",
+          "注意力管理"
+        ],
+        "score": 8,
+        "competitors": [
+          {
+            "name": "uBlock Origin",
+            "url": "https://ublockorigin.com",
+            "comparison": "做元素与规则级拦截很强，但只认关键词和选择器，不懂语义。"
+          },
+          {
+            "name": "YouTube 不感兴趣",
+            "url": "https://www.youtube.com",
+            "comparison": "平台自带反馈只作用于单一平台，生效慢且不可控。"
+          },
+          {
+            "name": "News Feed Eradicator",
+            "url": "https://github.com/jordwest/news-feed-eradicator",
+            "comparison": "直接把整条信息流清空，太粗暴，做不到只去掉某类内容。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "vynyo.com",
+      "name": "Vynyo",
+      "slug": "vynyo",
+      "description": "面向小商家的 AI 内容工作台：上传一张产品图、描述场景就生成短视频，图像编辑与生成也在同一个窗口完成。",
+      "url": "https://vynyo.com",
+      "homepage": "https://vynyo.com",
+      "type": "saas",
+      "tags": [
+        "电商素材",
+        "短视频生成",
+        "图像编辑",
+        "小商家"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=50416470",
+      "firstSeen": "2026-11-08T19:49:45+00:00",
+      "lastFeaturedDate": "2026-11-09",
+      "cooldownExpiresAt": "2026-11-23T04:12:12.349535+00:00",
+      "screenshotUrl": "assets/screenshots/vynyo.com_20261109_120957.png",
+      "analysis": {
+        "targetAudience": "没有设计团队的小商家、独立卖家与社媒运营者。",
+        "useCases": [
+          "把商品图变成社交媒体短视频",
+          "一键去背景做商品主图",
+          "批量生成促销海报与广告图",
+          "把商品图动画化、动漫化",
+          "套用热门模板跟上趋势"
+        ],
+        "designIntent": "团队想用一句描述替代摄影棚：一张普通产品照加上场景描述，就能产出可以直接发布的短视频和图文素材，让小商家不再因为拍不出视频而卡住。",
+        "problemSolved": "解决『有产品图但不会拍视频、不会做设计』的产能问题，把外包拍摄和设计的成本压到按次生成的价格。图片编辑、生成与视频动效都在同一工作流里，不用在多个工具之间倒素材。",
+        "scoreReason": "把图像编辑、AI 生成和照片动效收进一条流水线，内置 23 个模型可选，按次计费对小微商家友好。但同类工具极多，差异化主要在模板与流程，成片质量很依赖原始素材。",
+        "tags": [
+          "电商素材",
+          "短视频生成",
+          "图像编辑",
+          "小商家"
+        ],
+        "score": 7,
+        "competitors": [
+          {
+            "name": "Canva",
+            "url": "https://www.canva.com",
+            "comparison": "模板生态最成熟，但 AI 视频与商品动效能力偏弱。"
+          },
+          {
+            "name": "Runway",
+            "url": "https://runwayml.com",
+            "comparison": "视频生成质量更强，但面向专业创作者，学习成本与价格都高。"
+          },
+          {
+            "name": "Pika",
+            "url": "https://pika.art",
+            "comparison": "偏娱乐化的创意短片，缺少电商商品场景和一键出图的模板。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      }
     }
   ],
-  "lastUpdated": "2026-11-08T04:10:19.529586+00:00"
+  "lastUpdated": "2026-11-09T04:12:12.349535+00:00"
 }
