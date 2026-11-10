@@ -49509,7 +49509,337 @@
         "featuredInDaily": 1,
         "featuredInWeekly": false
       }
+    },
+    {
+      "id": "app.nuancelabs.ai/try",
+      "name": "Emma：可以面对面视频聊天的 AI 人格",
+      "slug": "emma-nuance-labs",
+      "description": "Nuance Labs 用 18 个月做出的全双工视听模型 Nuplex 1.0 上的第一个 AI 人格：打开浏览器就能和她开视频通话，她会一边听一边说，用表情、眨眼和头部动作回应你，不需要注册账号。",
+      "url": "https://app.nuancelabs.ai/try",
+      "homepage": "https://app.nuancelabs.ai/try",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/app.nuancelabs.ai_try_20261110_122742.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "实时视频",
+        "AI 人格",
+        "全双工语音",
+        "数字人"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=50432589",
+      "firstSeen": "2026-11-09T21:38:00Z",
+      "analysis": {
+        "targetAudience": "想体验「像人一样」AI 对话的普通用户，以及关心语音视觉交互前沿的产品与研究从业者。",
+        "useCases": [
+          "在浏览器里和一个有表情的 AI 开视频通话、闲聊练口语",
+          "测试 AI 的打断、停顿、眼神与会话节奏是否自然",
+          "作为 AI 陪伴/虚拟主播/在线客服形态的产品原型参考",
+          "开发者通过 Nuplex Beta API 用它搭自定义人格"
+        ],
+        "designIntent": "团队发现把模型在现有基准上刷得更高，对话反而更假，于是放弃追分，转而去打磨「一个人」：用一位真实女演员的脸、声音和神态训练，让她的眨眼、皱眉、欲言又止都成为角色的一部分。",
+        "problemSolved": "过去的语音 AI 是「轮流说话」的对讲机式交互，看不见表情、感知不到你还没说完。Emma 让模型同时听和说，并用面部承载情绪，把视频通话从念稿变成真的对话。",
+        "tags": [
+          "实时视频",
+          "AI 人格",
+          "全双工语音",
+          "数字人",
+          "对话体验"
+        ],
+        "score": 9,
+        "scoreReason": "首个面向大众免注册开放的全双工视听人格，体验冲击力强，是「AI 交互形态」的一次实质推进。扣分项是只支持英文、有地区限制、仍是 research preview，日常可用性还不稳定。",
+        "competitors": [
+          {
+            "name": "HeyGen",
+            "url": "https://www.heygen.com/",
+            "comparison": "擅长用数字人批量生成口播视频，但那是「先做视频」，不是实时对话。"
+          },
+          {
+            "name": "Tavus",
+            "url": "https://www.tavus.io/",
+            "comparison": "提供实时视频人格 API，主要卖给企业做客服/销售，普通用户没有入口。"
+          },
+          {
+            "name": "Character.AI",
+            "url": "https://character.ai/",
+            "comparison": "人格设定丰富、能语音聊，但没有脸和实时视觉反馈，仍是「对着手机说话」。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-11-24T04:28:24.454953+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1307908",
+      "name": "Egoist AI Passport：跨 AI 的个人记忆护照",
+      "slug": "egoist-ai-passport",
+      "description": "把你散落在 ChatGPT、Claude、Gemini 等助手里的偏好、经历和上下文，收进一个由你自己持有的「AI 护照」；每个应用要读取哪一类信息都要你逐项批准，并留下可查的访问回执。个人用户终身免费。",
+      "url": "https://ego.ist/",
+      "homepage": "https://ego.ist/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/ego.ist_20261110_122148.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 记忆",
+        "隐私",
+        "授权管理",
+        "跨应用"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/egoist-ai-passport",
+      "firstSeen": "2026-11-07T08:27:33-08:00",
+      "analysis": {
+        "targetAudience": "同时用好几个 AI 助手、又不想把个人资料随便交给每一家的普通用户与知识工作者。",
+        "useCases": [
+          "一次录入写作风格、行程、工作背景，所有 AI 都能按需读取",
+          "按类别授权：健康数据永远不给，旅行偏好可以给",
+          "查看每个应用读取了什么、什么时候读的（访问回执）",
+          "换 AI 助手时把记忆整体带走，不用重新自我介绍"
+        ],
+        "designIntent": "创始团队的判断很直白：你保护你的钱，也该用同样的方式保护你的数据。于是把「关于你是谁」做成一本身份护照，谁能看哪一页，由你签。",
+        "problemSolved": "现在每换一个 AI 就得重讲一遍自己；记忆被封在各家产品里无法导出；一旦把敏感信息告诉某个助手就收不回来。AI Passport 把记忆的所有权还给用户，并让读取变成可撤销的授权。",
+        "tags": [
+          "AI 记忆",
+          "隐私",
+          "授权管理",
+          "跨应用",
+          "个人数据"
+        ],
+        "score": 8,
+        "scoreReason": "「记忆孤岛 + 无法收回授权」是真实且普遍的痛点，产品形态（护照/回执）讲得清楚，YC 背景、个人版免费、已有 ChatGPT/Claude 连接器与 MCP。风险是价值高度依赖各家连接器的支持程度，隐私类产品的信任建立也更慢。",
+        "competitors": [
+          {
+            "name": "Mem0 OpenMemory",
+            "url": "https://mem0.ai/",
+            "comparison": "从聊天里自动抽事实再注入各家 AI，最省事，但安装即自动、少一层逐项审批。"
+          },
+          {
+            "name": "Limitless",
+            "url": "https://www.limitless.ai/",
+            "comparison": "用挂坠硬件记录你全天的对话，强在「说过的话」，弱在工作上下文。"
+          },
+          {
+            "name": "Pieces",
+            "url": "https://pieces.app/",
+            "comparison": "以屏幕活动为记忆来源，偏个人工作流，不适合跨 AI 助手共享身份信息。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-11-24T04:28:24.454953+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1308788",
+      "name": "ClipsPal：本地 AI 口播视频剪辑器",
+      "slug": "clipspal",
+      "description": "面向口播/说话人头视频的桌面剪辑器：素材拖进去，本机转写，AI 自动丢掉念废的 take、静音和口癖，再补上推近、字幕、音效，生成一条可继续手改的时间线；视频与音频不出本机。",
+      "url": "https://www.clipspal.com/ai-video-editor",
+      "homepage": "https://www.clipspal.com/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/clipspal_20261110_122318.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "视频剪辑",
+        "本地处理",
+        "口播视频",
+        "一次买断"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/clipspal",
+      "firstSeen": "2026-11-08T05:34:07-08:00",
+      "analysis": {
+        "targetAudience": "自己做课程、产品演示、创始人更新这类口播视频的创作者和独立开发者。",
+        "useCases": [
+          "把录了十几分钟的多 take 素材压成一条干净成片",
+          "用一句话让 Director 改片（「删掉重复解释」）",
+          "把一条长视频切成竖屏 shorts 和配套文章",
+          "时间线导出到 Premiere / DaVinci 继续精修"
+        ],
+        "designIntent": "作者每次发产品都要录视频，最烦的就是剪废 take、去静音、加字幕这套重复劳动，于是干脆做一个「从转写稿剪辑」的桌面工具，并让剪辑复用你已经在付钱的 Claude Code / Codex 额度。",
+        "problemSolved": "口播视频里 60% 的时间花在剔废片和去空白上，纯手工且毫无创造性；云端剪辑器又要把素材上传。ClipsPal 在本地做转写与拼剪，只把文字稿发给 AI，兼顾效率与隐私。",
+        "tags": [
+          "视频剪辑",
+          "本地处理",
+          "口播视频",
+          "AI 助手",
+          "一次买断"
+        ],
+        "score": 7,
+        "scoreReason": "场景选得很准（口播视频的费时环节就那几个），本地转写 + 复用自有 AI 订阅 + 一次买断 59 美元的定价都务实。扣分在品类拥挤、Windows 仍是未签名 beta，且只对口播素材有优势。",
+        "competitors": [
+          {
+            "name": "Descript",
+            "url": "https://www.descript.com/",
+            "comparison": "同为「编辑文字即编辑视频」，云端协作更强，但订阅制且素材要上传。"
+          },
+          {
+            "name": "OpusClip",
+            "url": "https://www.opus.pro/",
+            "comparison": "主打长视频自动切 shorts，偏二次分发，不做完整口播成片。"
+          },
+          {
+            "name": "CapCut",
+            "url": "https://www.capcut.com/",
+            "comparison": "免费好用、模板丰富，但自动剔废 take 和按语义剪辑能力弱。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-11-24T04:28:24.454953+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1306420",
+      "name": "Flic Cue：按住说话的 AI 语音按键",
+      "slug": "flic-cue",
+      "description": "智能按键厂商 Flic 做的第一颗「能说话的按钮」：按住说话、松开就把内容送到你指定的清单、日历、笔记或 AI 助手，摇一摇撤销，转而切换目标，配上电脑还能直接语音输入和指挥 agent。",
+      "url": "https://www.kickstarter.com/projects/shortcutlabs/flic-cue",
+      "homepage": "https://flic.io/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/flic-cue_20261110_122451.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 硬件",
+        "语音输入",
+        "效率工具",
+        "众筹"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/flic-cue",
+      "firstSeen": "2026-11-06T00:39:34-08:00",
+      "analysis": {
+        "targetAudience": "整天对着电脑、又不想每次开口都掏出手机的知识工作者与重度 AI 用户。",
+        "useCases": [
+          "按住说一句话，直接变成当前窗口里的文字",
+          "把一个念头丢进待办、日历或备忘，全程不碰手机",
+          "向 Claude/Codex/Gemini 的会话语音下达指令并听结果提示音",
+          "通过 webhook / MCP 把同一个按钮接到不同自动化流程"
+        ],
+        "designIntent": "Flic 原本做智能家居按键，团队发现真正的需求是「把脑子里的东西送出去」这件事本身：不该被解锁手机、找 App、打字这几步拦住，于是给按键加上麦克风，并让手势决定内容去哪。",
+        "problemSolved": "语音助手要喊唤醒词才理你、隐私上又常被质疑；手机语音总要先解锁。Cue 用「按住才听」的物理开关解决隐私顾虑，用一次性按键替代解锁-App-打字的全套动线。",
+        "tags": [
+          "AI 硬件",
+          "语音输入",
+          "效率工具",
+          "隐私",
+          "众筹"
+        ],
+        "score": 7,
+        "scoreReason": "把「语音入口」做成一个物理按键是很聪明的减法：按住才听、摇一摇撤销、手势分流，交互不用教就懂。但要等 2027 年 2 月才发货，59 美元起的众筹价加上依赖自家 App，实际体验仍有不确定性。",
+        "competitors": [
+          {
+            "name": "Rabbit R1",
+            "url": "https://www.rabbit.tech/",
+            "comparison": "同样是「AI 专用硬件入口」，但带屏、价格高、绑定自家大模型，口碑起伏大。"
+          },
+          {
+            "name": "Plaud NotePin",
+            "url": "https://www.plaud.ai/",
+            "comparison": "主打录音+转写+总结，偏事后整理，不做实时输入与 agent 控制。"
+          },
+          {
+            "name": "Stream Deck + Wave Link",
+            "url": "https://www.elgato.com/",
+            "comparison": "宏按键生态成熟，但没有麦克风与语义理解，只能触发预设动作。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-11-24T04:28:24.454953+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1305867",
+      "name": "KIKUmap：给 Claude/ChatGPT 对话做思维导图",
+      "slug": "kikumap",
+      "description": "macOS 菜单栏小工具（免费开源，5MB 原生）：把你在 Claude、Claude Code 和 ChatGPT 里置顶的会话摆到一张自己整理的思维导图上，并实时告诉你哪个在跑、哪个跑完了没人看、哪个在等你批准。",
+      "url": "https://tang1693.github.io/KIKUmap/",
+      "homepage": "https://tang1693.github.io/KIKUmap/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/kikumap_20261110_122318.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "macOS",
+        "AI 工作流",
+        "思维导图",
+        "开源"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/kikumap",
+      "firstSeen": "2026-11-05T11:49:12-08:00",
+      "analysis": {
+        "targetAudience": "同时开着好几个 Claude / ChatGPT 会话的 macOS 重度 AI 用户。",
+        "useCases": [
+          "一眼看出哪个会话在跑、哪个已完成未读、哪个等着你点批准",
+          "按项目把会话拖到自己的导图主题下并打标签",
+          "按会话统计过去 7/30 天各自占用了多少时间",
+          "把会话连同产出物导出成 Markdown 文件夹，或导入另一个账号"
+        ],
+        "designIntent": "作者自己常常同时跑好几个 Claude 和 Codex 会话，老是漏看已经跑完或在等批准的那一个，于是把「状态」放进菜单栏、把「归属」做成一张自己排的导图。",
+        "problemSolved": "AI 会话一多就变成一堆平行标签页：不知道谁在跑、找不到上周那段有用的对话、用量也无从统计。KIKUmap 把多会话从「列表」重构成「地图 + 状态灯」，不改变各家应用本身。",
+        "tags": [
+          "macOS",
+          "AI 工作流",
+          "思维导图",
+          "开源",
+          "菜单栏"
+        ],
+        "score": 6,
+        "scoreReason": "解决了 AI 重度用户的真实痒点（多会话状态与归档），原生 Swift 只有 5MB、免费开源、数据不出本机，作风很克制。局限也明显：只服务 macOS + Claude/ChatGPT 桌面端，靠辅助功能读窗口，官方一改版就可能失效。",
+        "competitors": [
+          {
+            "name": "Raycast",
+            "url": "https://www.raycast.com/",
+            "comparison": "全局启动器也能接 AI 与快捷动作，但不管多会话状态与归档。"
+          },
+          {
+            "name": "Notion",
+            "url": "https://www.notion.com/",
+            "comparison": "可以手工把对话沉淀成知识库，但全靠人工搬运，没有状态感知。"
+          },
+          {
+            "name": "Claude 原生 Projects",
+            "url": "https://claude.ai/",
+            "comparison": "自带项目分组与置顶，但不跨 ChatGPT、没有桌面状态灯与时间统计。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-11-24T04:28:24.454953+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      }
     }
   ],
-  "lastUpdated": "2026-11-09T04:18:08.423548+00:00"
+  "lastUpdated": "2026-11-10T04:28:24.454953+00:00"
 }
