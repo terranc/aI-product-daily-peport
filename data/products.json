@@ -49839,7 +49839,352 @@
         "featuredInDaily": 1,
         "featuredInWeekly": false
       }
+    },
+    {
+      "id": "reddit.com/r/sideproject/comments/1xt3psi/ibuiltenzoanaiassistantformac100ms",
+      "name": "Enzo — 藏在 Mac 刘海里的一天助手",
+      "slug": "enzo",
+      "description": "常驻 Mac 刘海的全能 AI 助手：按键即说的离线听写、按人区分发言的会议记录、本机加密的屏幕回溯，以及能读取邮件、日历、消息的问答。",
+      "url": "https://tryenzo.ai/",
+      "homepage": "https://tryenzo.ai/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "Mac 助手",
+        "语音听写",
+        "会议记录",
+        "屏幕回溯",
+        "本地优先"
+      ],
+      "sourceChannels": [
+        "reddit"
+      ],
+      "sourceUrl": "https://www.reddit.com/r/SideProject/comments/1xt3psi/i_built_enzo_an_ai_assistant_for_mac_100_ms/",
+      "firstSeen": "2026-11-11T00:37:59+00:00",
+      "analysis": {
+        "targetAudience": "每天开会、写邮件又在意隐私的 Mac 知识工作者（M 系列芯片机型）。",
+        "useCases": [
+          "在任何 App 里按一下键说话，约 0.1 秒后干净带标点的文字直接落到光标处",
+          "Zoom / Teams / Meet 开会不用机器人入会，自己记录并区分「谁说了什么」",
+          "让 Recall 按语义找回上周看过的窗口文字，而不是靠关键词猜",
+          "把散落在邮件里的包裹、账单、续费事项集中成一张清单",
+          "设置每日例行问题，早上打开电脑答案已经在那里"
+        ],
+        "designIntent": "作者把「听写、会议、记忆、聊天」看成同一个助手的四个入口，而不是四个独立小工具；同时坚持录音、转写、声纹和屏幕文本全部留在本机，只把回答问题必需的片段送出去，让「记住你的一天」不必以交出隐私为代价。",
+        "problemSolved": "会议机器人和录音笔要额外入会或上传，剪贴板式 AI 又完全不知道你上午干了什么。Enzo 把「我说过的话、开过的会、看过的屏幕」变成一份可在本机检索的个人上下文，回答问题时不用再从零解释背景。",
+        "tags": [
+          "Mac 助手",
+          "语音听写",
+          "会议记录",
+          "屏幕回溯",
+          "本地优先"
+        ],
+        "score": 9,
+        "scoreReason": "100ms 离线听写、按人区分发言、屏幕语义回溯、跨 App 问答四项能力拼成一个连贯产品，隐私边界也交代得很清楚，是本批最完整的消费级 AI 助手。扣分在于只支持 Apple Silicon + macOS 15，Windows 用户完全用不上。",
+        "competitors": [
+          {
+            "name": "Wispr Flow",
+            "url": "https://wisprflow.ai/",
+            "comparison": "听写体验同样出色、跨平台更广，但没有会议记录与屏幕回溯。"
+          },
+          {
+            "name": "Granola",
+            "url": "https://granola.ai/",
+            "comparison": "会议记录与团队协作更强，但不做系统级听写和全天候问答。"
+          },
+          {
+            "name": "Limitless",
+            "url": "https://www.limitless.ai/",
+            "comparison": "主打对话与屏幕回溯的「第二大脑」，缺少听写与邮件/日历工作流。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-11-11"
+      },
+      "cooldownExpiresAt": "2026-11-25T04:09:23.643666+00:00"
+    },
+    {
+      "id": "producthunt.com/r/p/1305636",
+      "name": "Quillo — 会朗读、能问答的文档助手",
+      "slug": "quillo",
+      "description": "把 PDF、Word、EPUB、扫描件和网页文章用自然语音逐句朗读并高亮当前句子，随时可以向 AI 提问、让 AI 总结或代写文件，为通勤学习与视障用户而设计。",
+      "url": "https://quillo.tr/",
+      "homepage": "https://quillo.tr/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "文档朗读",
+        "语音问答",
+        "无障碍辅助",
+        "学习工具",
+        "TTS"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/quillo-2",
+      "firstSeen": "2026-11-05T15:57:02+00:00",
+      "analysis": {
+        "targetAudience": "视障或阅读障碍用户、通勤路上「听资料」的上班族，以及需要处理大量合同与报告的人。",
+        "useCases": [
+          "地铁上把几十页 PDF 合同当有声书听完，自动跳过脚注和页码",
+          "听到不懂的条款直接打断问 AI「押金什么时候退」",
+          "把课堂笔记或书的一章自动生成测验卷、答案与学习卡片",
+          "把扫描件朗读、签字、盖戳后原路发回给发送方",
+          "帮视力不便的家人用纯语音完成整份文档的操作"
+        ],
+        "designIntent": "作者从「永远读不完的文档」出发，把朗读、问答、签章三件事收进同一个阅读器，并把无障碍当成第一设计约束而非附加功能：所有操作都能用语音完成，屏幕可以关掉继续读，锁屏也能控制。",
+        "problemSolved": "长文档没人读得完，系统朗读器只会机械念字、不理解内容；把文档丢进 ChatGPT 又会丢掉阅读位置和上下文。Quillo 让「听」和「问」发生在同一份文档的同一句上，中断后能接着读。",
+        "tags": [
+          "文档朗读",
+          "语音问答",
+          "无障碍辅助",
+          "学习工具",
+          "TTS"
+        ],
+        "score": 8,
+        "scoreReason": "把 TTS 与文档理解绑在同一个阅读器里，比纯朗读 App 或纯聊天框都更贴近真实使用；对盲人和阅读障碍者的语音优先设计是明确差异化。扣分在于朗读能力本身已高度同质化，且重度依赖云端语音额度。",
+        "competitors": [
+          {
+            "name": "Speechify",
+            "url": "https://speechify.com/",
+            "comparison": "老牌朗读器，音色与多平台更成熟，但文档问答弱、订阅偏贵。"
+          },
+          {
+            "name": "ElevenLabs Reader",
+            "url": "https://elevenlabs.io/text-to-speech",
+            "comparison": "音色质量行业顶级，但只做朗读，不做文档管理与签章。"
+          },
+          {
+            "name": "NaturalReader",
+            "url": "https://www.naturalreader.net/",
+            "comparison": "文档朗读起家，AI 问答与语音交互落后一档。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-11-11"
+      },
+      "cooldownExpiresAt": "2026-11-25T04:09:23.643666+00:00"
+    },
+    {
+      "id": "producthunt.com/r/p/1303795",
+      "name": "Gesso — 让 ChatGPT/Claude 直接在画布上做设计",
+      "slug": "gesso",
+      "description": "一块由真实 HTML/CSS 构成的 AI 设计画布：把需求交给 ChatGPT、Claude 或任意 MCP Agent，它边做边显示，产出的是可逐层拖动改样式的图层，而不是一张图。",
+      "url": "https://www.gesso.online/",
+      "homepage": "https://www.gesso.online/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 设计",
+        "画布工具",
+        "HTML/CSS",
+        "设计交付",
+        "MCP"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/gesso-2",
+      "firstSeen": "2026-11-04T05:47:42+00:00",
+      "analysis": {
+        "targetAudience": "既要 AI 出稿速度、又要能改细节的设计师与小团队，以及想把设计直接交给 Coding Agent 的产品开发者。",
+        "useCases": [
+          "让 Claude 出三张 Instagram 图文卡片，再把标题改成衬线体",
+          "一句话生成落地页和它的手机版，逐层微调间距与图片",
+          "把竞品网站整页导入，变成可编辑的图层与文本",
+          "导出 PNG/PDF 交付，或复制成 React / Tailwind 代码",
+          "通过 MCP 把画布接到 Cursor、Codex，让 Agent 边看边改"
+        ],
+        "designIntent": "作者不接受「AI 生成一张扁平图，人再重画一遍」的老流程，于是让 AI 直接写真实 DOM 与 CSS，做到设计即代码，人和 Agent 在同一份产物上继续改，改动能一键撤销。",
+        "problemSolved": "AI 设计工具大多只给位图或不可维护的代码，设计师接不了手；从设计稿到代码又要重做一遍。Gesso 把「生成」和「可编辑」放在同一层，并让 Agent 直接读懂页面结构而不是看截图。",
+        "tags": [
+          "AI 设计",
+          "画布工具",
+          "HTML/CSS",
+          "设计交付",
+          "MCP"
+        ],
+        "score": 8,
+        "scoreReason": "把「Agent 能写、人能改、代码能上线」三件事打通，是这批 AI 设计工具里少见的务实路线，整页还原成可编辑图层也很实用。扣分在于用户仍需理解布局与 CSS 概念，纯小白的上手门槛不低。",
+        "competitors": [
+          {
+            "name": "Figma",
+            "url": "https://www.figma.com/",
+            "comparison": "行业标准的协作与交付工具，但原生 AI 生成弱、不直连 MCP Agent。"
+          },
+          {
+            "name": "v0",
+            "url": "https://v0.dev/",
+            "comparison": "文本生成前端代码很快，产物在浏览器里改，不是图层式画布。"
+          },
+          {
+            "name": "Lovable",
+            "url": "https://lovable.dev/",
+            "comparison": "从提示词到可部署整站，偏应用生成而非精细设计编辑。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-11-11"
+      },
+      "cooldownExpiresAt": "2026-11-25T04:09:23.643666+00:00"
+    },
+    {
+      "id": "barterpilot.com",
+      "name": "BarterPilot — 让 AI 代理替你去以物易物",
+      "slug": "barterpilot",
+      "description": "把家里闲置的东西挂上架，告诉 AI Agent 你想要什么，它就去和其他人的 Agent 谈条件、补差价，谈成后把交易交给你确认。",
+      "url": "https://barterpilot.com/",
+      "homepage": "https://barterpilot.com/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/barterpilot.com_1794370099.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "以物易物",
+        "AI 代理",
+        "二手交易",
+        "自动议价",
+        "积分结算"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=50446649",
+      "firstSeen": "2026-11-10T21:36:17+00:00",
+      "analysis": {
+        "targetAudience": "家里堆着闲置、又懒得拍照定价挂二手平台的普通用户，以及对 Agent 自动谈判好奇的早期玩家。",
+        "useCases": [
+          "把闲置相机挂上去，换一台唱片机，差价用积分补",
+          "让两个 Agent 来回议价，自己只看最终结果",
+          "搬家前把旧家具换成更小件的必需品，省掉卖与买的两次交易",
+          "给每笔交易设硬上限，Agent 不能越界",
+          "交易完成后互评，沉淀可信的换物记录以提升后续成交率"
+        ],
+        "designIntent": "既然双方都开始用 Agent 办事，最繁琐的「估价、找人、砍价、撮合」就该交给 Agent；人只保留两件事：给自己的东西定价、批准最终交易。积分（1 分 = 1 美分）用来抹平两边价值差，托管与争议机制保证不确认交接就不结算。",
+        "problemSolved": "二手交易最痛的不是发布，而是定价、沟通和反复议价的时间成本，一对一聊价既慢又尴尬。BarterPilot 把双边议价变成两个 Agent 的自动撮合，人只做审批这一个动作。",
+        "tags": [
+          "以物易物",
+          "AI 代理",
+          "二手交易",
+          "自动议价",
+          "积分结算"
+        ],
+        "score": 8,
+        "scoreReason": "把「Agent 之间谈判」这个抽象概念落成了一个具体可感知的消费场景，机制设计（自估价、积分补差、托管与争议、互评）也相对完整。扣分在于冷启动极难——需要两边都有货才成立，信任与物流仍是硬约束。",
+        "competitors": [
+          {
+            "name": "闲鱼",
+            "url": "https://www.goofish.com/",
+            "comparison": "国内二手交易首选、流量巨大，但全靠人工沟通议价。"
+          },
+          {
+            "name": "Facebook Marketplace",
+            "url": "https://www.facebook.com/marketplace/",
+            "comparison": "欧美本地二手与换物的主流渠道，没有自动议价能力。"
+          },
+          {
+            "name": "Swap.com",
+            "url": "https://www.swap.com/",
+            "comparison": "以旧换物的电商化尝试，由平台统一定价而非双边协商。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-11-11"
+      },
+      "cooldownExpiresAt": "2026-11-25T04:09:23.643666+00:00"
+    },
+    {
+      "id": "producthunt.com/r/p/1310636",
+      "name": "Kumiko — 会自己排布窗口的 Mac 窗口管理器",
+      "slug": "kumiko",
+      "description": "面向超宽屏和大屏 Mac 的窗口管理器：方向键吸附、六种随屏幕比例变化的布局，还能用一句话说出你要做什么，让 AI 把所有窗口摆到位。",
+      "url": "https://usekumiko.app/",
+      "homepage": "https://usekumiko.app/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "窗口管理",
+        "超宽屏",
+        "效率工具",
+        "工作区恢复",
+        "Mac"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/kumiko-2",
+      "firstSeen": "2026-11-09T21:40:59+00:00",
+      "analysis": {
+        "targetAudience": "用 34 寸 21:9 或 49 寸 32:9 超宽屏的 Mac 用户，以及多显示器重度使用者。",
+        "useCases": [
+          "按住 ⌃⌥ 敲方向键，把窗口放成三分之一、三分之二或正中的主栏",
+          "说一句「准备设计评审」，自动打开缺的 App 并摆好布局",
+          "合盖再打开，浏览器标签、编辑器项目、终端目录都回到原位",
+          "开麦开会时自动把会议窗口挪到摄像头正下方，笔记垫在下面",
+          "共享屏幕瞬间自动模糊聊天、邮件等私人窗口"
+        ],
+        "designIntent": "作者本人常年用超宽屏，发现主流窗口管理器仍停留在笔记本「左右二分」的思路，于是把三分栏、中间主栏、按 16:9/21:9/32:9 自适应的布局做成一等公民，并让 AI 只负责把「我要干的活」翻译成布局。",
+        "problemSolved": "超宽屏上二分窗口太宽，读长文要左右扭头，手动拖窗口每天要浪费大量时间；现有工具既不会随屏幕比例变化，也不会恢复窗口内的标签与目录。",
+        "tags": [
+          "窗口管理",
+          "超宽屏",
+          "效率工具",
+          "工作区恢复",
+          "Mac"
+        ],
+        "score": 7,
+        "scoreReason": "切口非常具体（超宽屏），AI 只做「意图→布局」这一层，不硬塞聊天框，且 AI 可完全关闭、可用端上模型，隐私克制。属于单点做深的工具型产品，免费竞品（Rectangle、系统平铺）多，天花板有限，故给 7 分。",
+        "competitors": [
+          {
+            "name": "Rectangle",
+            "url": "https://rectangleapp.com/",
+            "comparison": "免费开源、吸附够快，但没有整体布局、工作区恢复与命令栏。"
+          },
+          {
+            "name": "Magnet",
+            "url": "https://magnet.crowdcafe.com/",
+            "comparison": "App Store 老牌吸附工具，尺寸不随超宽屏自动变化。"
+          },
+          {
+            "name": "Moom",
+            "url": "https://manytricks.com/moom/",
+            "comparison": "自定义布局能力强，但需要自己搭，没有 AI 命令栏与工作区恢复。"
+          }
+        ]
+      },
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-11-11"
+      },
+      "cooldownExpiresAt": "2026-11-25T04:09:23.643666+00:00"
     }
   ],
-  "lastUpdated": "2026-11-10T04:28:24.454953+00:00"
+  "lastUpdated": "2026-11-11T04:09:23.643666+00:00"
 }
