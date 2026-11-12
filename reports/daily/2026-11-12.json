@@ -1,0 +1,320 @@
+{
+ "date": "2026-11-12",
+ "generatedAt": "2026-11-12T12:11:39+08:00",
+ "productCount": 5,
+ "products": [
+  {
+   "id": "producthunt.com/r/p/1312257",
+   "name": "Mister Blocks",
+   "slug": "mister-blocks",
+   "description": "拍一张散落乐高积木的照片，AI 认出每一块零件，并设计出 4 个只用这堆积木就能搭成的模型，附带可旋转、可打印的 3D 分步图纸。",
+   "url": "https://misterblocks.com/",
+   "homepage": "https://misterblocks.com/",
+   "type": "website",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": null,
+   "appStoreScreenshots": [],
+   "tags": [
+    "乐高",
+    "亲子陪伴",
+    "3D 生成",
+    "创意工具",
+    "消费级 AI"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/mister-blocks",
+   "firstSeen": "2026-11-11T03:26:18Z",
+   "analysis": {
+    "targetAudience": "家里堆着一箱散装乐高、想陪孩子搭点新东西却缺灵感的家长和积木爱好者。",
+    "useCases": [
+     "拍一堆拆散的积木，让 AI 给出四个能搭的方案",
+     "照着 3D 分步图纸和孩子一起搭完",
+     "在对话框里说\"改成红色\"\"加个梯子\"，让 AI 现场改设计",
+     "直接描述想要的造型（机器人、跑车、宝可梦），生成积木版 3D 模型",
+     "打印图纸，离线照着拼"
+    ],
+    "designIntent": "作者的儿子总问\"这堆积木能搭什么\"，而一箱拆散的旧积木早已没有说明书，于是他把这个问题做成了产品。核心目标不是生成好看的图片，而是生成真的能咬合、真的能拼起来的设计，所以每个模型出厂前都要过一遍逐颗粒的咬合检查。",
+    "problemSolved": "解决散装乐高积木没有说明书、孩子想动手却无从下手的困境，也避免生成式 AI 常见的\"看起来能搭、实际悬空或轮胎卡住\"的幻觉模型。",
+    "tags": [
+     "乐高",
+     "亲子陪伴",
+     "3D 生成",
+     "创意工具",
+     "消费级 AI"
+    ],
+    "score": 9,
+    "scoreReason": "场景极其具体——几乎每个有孩子的家庭都有一箱积木，痛点真实到不用教育市场；逐颗粒咬合校验直击生成式 AI\"好看但不可执行\"的通病。免费可用、免登录即可试玩，传播门槛低。扣分在于单次生成 3-6 分钟，且效果高度依赖照片质量。",
+    "competitors": [
+     {
+      "name": "BrickLink Studio",
+      "url": "https://www.bricklink.com/v3/studio/download.page",
+      "comparison": "乐高玩家最常用的免费 MOC 设计工具，能做专业级图纸，但要求用户自己从零搭建，没有拍照识别零件的入口。"
+     },
+     {
+      "name": "Brickit",
+      "url": "https://brickit.app",
+      "comparison": "同样走\"拍积木→给搭建建议\"路线，功能最接近，但以手机 App 为主、订阅收费，且不强调逐颗粒的结构校验。"
+     },
+     {
+      "name": "LEGO Builder",
+      "url": "https://www.lego.com/en-us/lego-builder-app",
+      "comparison": "官方 3D 说明书应用体验最好，但只能搭官方套装，无法利用你家那箱散装积木。"
+     }
+    ]
+   }
+  },
+  {
+   "id": "producthunt.com/r/p/1308685",
+   "name": "Kippy AI",
+   "slug": "kippy-ai",
+   "description": "主打\"开口说\"的 AI 语言口语陪练应用：三位性格各异的 AI 角色陪你实时语音通话、角色扮演 30+ 真实场景，每轮对话后给出词汇、发音、流畅度与语法报告。",
+   "url": "https://kippy.ai/",
+   "homepage": "https://kippy.ai/",
+   "type": "app",
+   "appStoreName": "Kippy AI Speaking Practice",
+   "appStoreUrl": "https://apps.apple.com/us/app/kippy-ai-speaking-practice/id6456224061?uo=4",
+   "screenshotUrl": "assets/screenshots/kippy-ai_20261112.png",
+   "appStoreScreenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/17/50/d817504f-54bb-66c3-6723-4d9780d79688/en-iphone-Oct26-01.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f1/68/c3/f168c3f3-3288-3a3d-465c-a186cfb02cbd/en-iphone-Oct26-02.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1e/8e/de/1e8edeab-c9d5-8b65-eb28-848ed180e71f/en-iphone-Oct26-03.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/04/b2/76/04b276ce-90d2-25be-fbfe-7c3f63ee10f0/en-iphone-Oct26-04.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4f/13/ab/4f13ab21-9990-4a78-d621-1b670fb71c5d/en-iphone-Oct26-05.png/320x480bb.jpg"
+   ],
+   "tags": [
+    "语言学习",
+    "口语陪练",
+    "语音 AI",
+    "教育应用"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/kippy-ai",
+   "firstSeen": "2026-11-08T11:17:04Z",
+   "analysis": {
+    "targetAudience": "学过多年外语、能做题却一开口就卡壳，且缺少真人对话机会的语言学习者。",
+    "useCases": [
+     "每天 5 分钟和 AI 角色免提语音通话练口语",
+     "自定义角色扮演（点餐、面试、看医生）做实战演练",
+     "用母语提问、AI 用母语解释，降低初学门槛",
+     "每轮对话后看语音报告，定位发音和语法弱点",
+     "把高频短语收进生词本反复练"
+    ],
+    "designIntent": "团队判断\"流利很难，被听懂很容易\"，因此把产品定位成口语练习场而不是课程系统：不做背单词和打卡游戏，只把\"敢开口、被听懂\"这一件事做顺，并用真人感音色和实时通话降低紧张感。",
+    "problemSolved": "解决\"能和 Duolingo 做题却开不了口\"的断层，以及真人外教一周一次、练习量严重不足的问题，把口语输出变成随时可发生的日常动作。",
+    "tags": [
+     "语言学习",
+     "口语陪练",
+     "语音 AI",
+     "教育应用"
+    ],
+    "score": 8,
+    "scoreReason": "场景清晰、付费意愿强的成熟赛道，实时语音通话加情景角色扮演是目前体验最好的形态，App Store 1874 条五星评价说明留存扎实。扣分在于同类产品密集，差异化主要靠角色个性而非能力代差。",
+    "competitors": [
+     {
+      "name": "Speak",
+      "url": "https://www.speak.com",
+      "comparison": "同赛道最大玩家，课程体系和发音评测更完整，但更偏课程化、订阅价格更高。"
+     },
+     {
+      "name": "Talkpal",
+      "url": "https://talkpal.ai",
+      "comparison": "语种与练习模式更多、价格更低，但整体更像 ChatGPT 套壳，语音交互的自然度略逊。"
+     },
+     {
+      "name": "Duolingo",
+      "url": "https://www.duolingo.com",
+      "comparison": "大众入门首选、游戏化极强，但用户真正开口输出的机会很少，练不到口语。"
+     }
+    ]
+   }
+  },
+  {
+   "id": "v2ex.com/t/1256338",
+   "name": "Tunora",
+   "slug": "tunora",
+   "description": "一句话就能生成整首歌的 AI 音乐网站，面向没有乐理基础的普通人，用来做生日歌、纪念日歌曲或视频配乐。",
+   "url": "https://tunora.io/",
+   "homepage": "https://tunora.io/",
+   "type": "website",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/tunora_20261112.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "AI 音乐",
+    "内容创作",
+    "生成式音频",
+    "消费级工具"
+   ],
+   "sourceChannels": [
+    "v2ex"
+   ],
+   "sourceUrl": "https://www.v2ex.com/t/1256338",
+   "firstSeen": "2026-11-12T01:41:19Z",
+   "analysis": {
+    "targetAudience": "想给朋友或伴侣做一首专属歌曲的普通人，以及需要免版税配乐的短视频与自媒体创作者。",
+    "useCases": [
+     "给朋友写一首带名字的生日歌",
+     "为结婚纪念日生成专属情歌",
+     "给 YouTube 或短视频做无版权背景音乐",
+     "选风格、填歌词，一句话生成两首成品",
+     "生成纯音乐版本当播客片头"
+    ],
+    "designIntent": "作者在折腾 AI 产品的过程中发现，\"普通人想拥有一首自己的歌\"是很朴素但没人服务的需求，现有工具要么门槛高要么英文优先，于是做成描述一句就出歌的网页工具，并在 V2EX 公开征集反馈。",
+    "problemSolved": "解决不会乐理、不会编曲也不会写词的人却想拥有原创歌曲的问题，同时给内容创作者一个不必担心版权的内容配乐来源。",
+    "tags": [
+     "AI 音乐",
+     "内容创作",
+     "生成式音频",
+     "消费级工具"
+    ],
+    "score": 8,
+    "scoreReason": "需求直观、上手零门槛，个人开发者在 V2EX 公开迭代说明产品已经真的能跑；AI 音乐是当下最热的消费级生成场景之一，中文用户又有强烈的\"送歌\"需求。扣分在于 Suno、Udio 已占据心智，新站在曲质与版权上很难建立壁垒。",
+    "competitors": [
+     {
+      "name": "Suno",
+      "url": "https://suno.com",
+      "comparison": "行业标杆，整首歌的人声与编曲质量最强，但免费额度有限、订阅偏贵。"
+     },
+     {
+      "name": "Udio",
+      "url": "https://www.udio.com",
+      "comparison": "音质口碑好、可控参数多，更偏专业创作，新手上手曲线更陡。"
+     },
+     {
+      "name": "Mubert",
+      "url": "https://mubert.com",
+      "comparison": "专注免版税背景音乐，商用授权清晰，但只能出纯音乐、没有人声歌曲。"
+     }
+    ]
+   }
+  },
+  {
+   "id": "producthunt.com/r/p/1305301",
+   "name": "Rodeo",
+   "slug": "rodeo",
+   "description": "类 Notion 的团队工作区，把 AI 会议记录放进免费版：录完会就自动生成带说话人的逐字稿、摘要、决议和待办，并能一键转成任务。",
+   "url": "https://rodeo.so/",
+   "homepage": "https://rodeo.so/",
+   "type": "saas",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/rodeo_20261112.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "团队协作",
+    "会议纪要",
+    "知识库",
+    "生产力工具"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/rodeo-7",
+   "firstSeen": "2026-11-05T10:22:01Z",
+   "analysis": {
+    "targetAudience": "用 Notion 但被 AI 功能锁在高价套餐之外的小团队与独立开发者。",
+    "useCases": [
+     "开会直接录音，会后自动生成纪要与决议",
+     "把会议待办一键转成看板任务",
+     "从 Notion 一次性导入页面、数据库和链接关系",
+     "用 Ask AI 基于自己工作区的页面提问并拿到引用",
+     "接上内置 MCP 服务器，让 Claude 等客户端读写工作区"
+    ],
+    "designIntent": "作者喜欢 Notion\"页面套页面、数据库即文档\"的模型，但被两件事持续硌到：AI 会议记录被锁在 Business 套餐里，以及按美元按人头计费对尼日利亚团队太贵。于是他干脆把想要的形态自己做出来，并保留从 Notion 一键迁移的路径。",
+    "problemSolved": "解决小团队\"开会没人记、记了没人跟\"的问题，同时压低从 Notion 迁移的成本和 AI 能力的付费门槛。",
+    "tags": [
+     "团队协作",
+     "会议纪要",
+     "知识库",
+     "生产力工具"
+    ],
+    "score": 7,
+    "scoreReason": "用\"AI 会议记录全套餐免费\"切 Notion 的定价痛点，切入点聪明，且提供真实的迁移路径而不是纯口号。但工作区类产品替换成本极高、生态差距巨大，80 个 upvote 说明声量仍小，短期内更适合作为小众备选。",
+    "competitors": [
+     {
+      "name": "Notion",
+      "url": "https://www.notion.so",
+      "comparison": "功能与生态最完整、模板极其丰富，但 AI 会议记录需要 Business 套餐，小团队成本高。"
+     },
+     {
+      "name": "Craft",
+      "url": "https://www.craft.do",
+      "comparison": "设计精美、文档体验一流，但数据库与团队协作能力明显弱于 Rodeo。"
+     },
+     {
+      "name": "AFFiNE",
+      "url": "https://affine.pro",
+      "comparison": "开源、文档加白板加数据库一体、可自托管，但成熟度和移动端体验还差一截。"
+     }
+    ]
+   }
+  },
+  {
+   "id": "acneally.vercel.app",
+   "name": "AcneAlly",
+   "slug": "acneally",
+   "description": "一个\"AI 痘痘教练\"：像朋友聊天一样描述最近的情况，它会逐步推理长痘的可能诱因并给出个性化建议，不用打卡记皮肤日记。",
+   "url": "https://acneally.vercel.app/",
+   "homepage": "https://acneally.vercel.app/",
+   "type": "website",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": null,
+   "appStoreScreenshots": [],
+   "tags": [
+    "健康",
+    "皮肤护理",
+    "对话式 AI",
+    "个人助理"
+   ],
+   "sourceChannels": [
+    "hackernews"
+   ],
+   "sourceUrl": "https://news.ycombinator.com/item?id=50460717",
+   "firstSeen": "2026-11-11T23:49:11Z",
+   "analysis": {
+    "targetAudience": "长期受痘痘困扰、反复换产品试错却始终找不到诱因的年轻人。",
+    "useCases": [
+     "像聊天一样描述最近的皮肤状况和作息",
+     "让 AI 列出可能诱因（饮食、睡眠、护肤流程、激素）",
+     "持续对话中让 AI 更新判断并调整建议",
+     "针对具体成分或护肤品追问是否适合自己",
+     "注册免费账号保存排查过程，下次接着聊"
+    ],
+    "designIntent": "作者自己有 10 年痘痘史，受够了\"不知道到底发生了什么\"的状态，于是把求医前最折磨人的那段自我排查过程做成对话式 AI。产品全程克制地声明自己不是医生，只负责帮用户把线索理清。",
+    "problemSolved": "解决皮肤问题排查中的信息碎片化和记录负担——传统 App 要求每天打卡记皮肤状态，绝大多数人坚持不下来，而聊天是零成本的。",
+    "tags": [
+     "健康",
+     "皮肤护理",
+     "对话式 AI",
+     "个人助理"
+    ],
+    "score": 7,
+    "scoreReason": "切入点来自作者十年的真实痛点，用\"聊天代替记录\"正好解决了健康类 App 最大的流失原因，医疗边界也写得克制。扣分在于目前只是 Vercel 上的早期版本、没有 App 也没有专业背书，AI 推断的可信度还需要时间验证。",
+    "competitors": [
+     {
+      "name": "Ada Health",
+      "url": "https://ada.com",
+      "comparison": "医学背书强的症状评估应用，诊断流程严谨，但偏综合问诊、没有皮肤专项的长期跟踪。"
+     },
+     {
+      "name": "Skin Bliss",
+      "url": "https://skinbliss.app",
+      "comparison": "主打护肤成分与产品匹配，擅长\"查某支产品适不适合我\"，但不做诱因推理。"
+     },
+     {
+      "name": "Curology",
+      "url": "https://curology.com",
+      "comparison": "真人医生加处方药的服务，专业性和疗效最强，但需要付费订阅且仅限部分地区。"
+     }
+    ]
+   }
+  }
+ ]
+}
