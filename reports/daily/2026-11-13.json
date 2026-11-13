@@ -1,0 +1,326 @@
+{
+ "date": "2026-11-13",
+ "generatedAt": "2026-11-13T04:15:58.729134+00:00",
+ "productCount": 5,
+ "products": [
+  {
+   "id": "producthunt.com/r/p/1313340",
+   "name": "WizardNote 语音笔记",
+   "slug": "wizardnote",
+   "description": "一键录音后由手机本地完成转写，自动生成带摘要、待办和说话人区分的 Markdown 笔记，可直接存进 Obsidian，音频全程不出手机。",
+   "url": "https://wizardnote.app/en/",
+   "homepage": "https://wizardnote.app/en/",
+   "type": "app",
+   "appStoreName": "WizardNote: AI Voice Recorder",
+   "appStoreUrl": "https://apps.apple.com/us/app/wizardnote-ai-voice-recorder/id6792017579",
+   "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1313340_20261113121242.png",
+   "appStoreScreenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d1/87/76/d1877679-4da7-93d0-a261-6764f8cca3f7/01-main.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7f/f3/68/7ff36817-e4cf-c9bb-b403-3cdb6c1ce2bf/03-tasks.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8d/9b/48/8d9b48c4-f2e9-00be-b981-86cf2b21c29f/02-detail.png/320x480bb.jpg"
+   ],
+   "tags": [
+    "语音转写",
+    "本地AI",
+    "隐私",
+    "笔记",
+    "会议纪要"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/wizardnote",
+   "firstSeen": "2026-11-11T13:09:46-08:00",
+   "analysis": {
+    "targetAudience": "在意隐私的职场人、学生，以及用 Obsidian 管理知识库的重度用户",
+    "useCases": [
+     "客户会议录音自动转成纪要并抽取待办",
+     "通勤/散步时的灵感速记，回到电脑就是 markdown 文件",
+     "把 Teams、Zoom 或通话录音导入后重新转写",
+     "课程、采访录音整理成可检索文本",
+     "写日记与日志，本地离线完成"
+    ],
+    "designIntent": "作者想做一个「不用再买一支录音笔、也不用把会议交给别人云端」的方案，于是把 Whisper 类转写模型直接塞进手机本地运行，摘要环节则把选择权交回用户：Apple Intelligence、Gemini Nano、自建 LM Studio/Ollama，或自己的 API key。",
+    "problemSolved": "云笔记类工具必须上传音频，涉及会议保密与个人隐私；订阅制让轻度用户长期成本偏高；录完音仍要人工整理成摘要与待办，是重复劳动。它把这三件事一次性解决，且断网可用。",
+    "tags": [
+     "语音转写",
+     "本地推理",
+     "隐私优先",
+     "Markdown",
+     "一次买断"
+    ],
+    "score": 8,
+    "scoreReason": "把「转写 → 摘要 → 待办 → Markdown 落盘」串成完整闭环，全程本地优先，Pro 一次性 $14.99 替代年费订阅，是这一波语音笔记里定位最干净的一个。扣分在于转写语言仅英/德/法/西/捷克，中文用户价值打折。",
+    "competitors": [
+     {
+      "name": "Granola",
+      "url": "https://www.granola.ai/",
+      "comparison": "云端会议笔记体验更顺滑，但音频要上传、只做会议场景；WizardNote 把转写放在本地，且不限于会议。"
+     },
+     {
+      "name": "Otter.ai",
+      "url": "https://otter.ai/",
+      "comparison": "团队转写与协作能力强，但订阅制、数据在云端；WizardNote 无需账号、一次买断。"
+     },
+     {
+      "name": "Plaud Note",
+      "url": "https://www.plaud.ai/",
+      "comparison": "硬件录音笔方案，要另外买设备并配套 App；WizardNote 用现有手机完成同样的事。"
+     }
+    ]
+   }
+  },
+  {
+   "id": "reddit.com/r/sideproject/comments/1xuwdwr/blackhorsestoriespersonalisedbedtimestories",
+   "name": "Black Horse Stories 儿童睡前故事",
+   "slug": "black-horse-stories",
+   "description": "输入孩子的名字、年龄和喜好，几秒内生成带插画和配音的睡前故事，主角就是孩子自己，还配一个按家庭评分排序的故事库。",
+   "url": "https://blackhorsestories.com/en/",
+   "homepage": "https://blackhorsestories.com/en/",
+   "type": "app",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/reddit.com_r_sideproject_comments_1xuwdwr_20261113121250.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "儿童",
+    "睡前故事",
+    "个性化",
+    "语音朗读",
+    "亲子"
+   ],
+   "sourceChannels": [
+    "reddit"
+   ],
+   "sourceUrl": "https://www.reddit.com/r/SideProject/comments/1xuwdwr/black_horse_stories_personalised_bedtime_stories/",
+   "firstSeen": "2026-11-13T02:45:46+00:00",
+   "analysis": {
+    "targetAudience": "3-8 岁孩子的家长，尤其是每天被「再讲一个」逼到词穷的父母",
+    "useCases": [
+     "每晚睡前生成一个孩子当主角的新故事",
+     "旅途中、餐厅等位时哄娃",
+     "按孩子当下兴趣定制（太空、恐龙、公主）",
+     "经典童话的温和改写版，去掉吓人情节",
+     "英语/德语/土耳其语三语启蒙"
+    ],
+    "designIntent": "创始人每天晚上给女儿现编一只小马的故事，编到实在编不动了，干脆把这件事做成产品——所以产品第一屏就是「孩子当主角」，而不是先选故事类型。",
+    "problemSolved": "家长每天要讲新故事但创作力有限；现成的音频故事与孩子无关、听几遍就腻；经典童话里有恐怖或暴力情节，不适合低龄。它把「个性化 + 年龄适配 + 温和收尾」一起解决。",
+    "tags": [
+     "儿童内容",
+     "个性化生成",
+     "插画",
+     "配音",
+     "订阅制"
+    ],
+    "score": 8,
+    "scoreReason": "场景窄但需求刚性、付费逻辑清晰（3 天试用后 $29.99/年），插画＋配音＋年龄分级＋家庭评分故事库把体验做完整了。风险在于内容全为 AI 生成，长期质量和家长信任仍需时间验证。",
+    "competitors": [
+     {
+      "name": "Oscar Stories",
+      "url": "https://oscarstories.com/",
+      "comparison": "同样生成儿童个性化故事，以文字和插画为主；Black Horse 多了真人感配音和家庭评分故事库。"
+     },
+     {
+      "name": "Bedtime Story AI",
+      "url": "https://bedtimestory.ai/",
+      "comparison": "老牌 AI 睡前故事工具，故事生成成熟但界面偏工具化；Black Horse 支持英德土三语原生创作与朗读。"
+     },
+     {
+      "name": "Calm Kids",
+      "url": "https://www.calm.com/kids",
+      "comparison": "真人录制的精选内容，质量高但固定不可个性化；Black Horse 每晚都是新故事。"
+     }
+    ]
+   }
+  },
+  {
+   "id": "v2ex.com/t/1256724",
+   "name": "LyricBars 说唱歌词生成器",
+   "slug": "lyricbars",
+   "description": "输入一句主题、选好情绪，免费生成两段 8 句 verse 加 4 句 hook，可逐行改写，再一键配 beat 出成完整歌曲，约 45-60 秒出两个版本。",
+   "url": "https://lyricbars.com",
+   "homepage": "https://lyricbars.com",
+   "type": "website",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/v2ex.com_t_1256724_20261113121259.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "音乐创作",
+    "说唱",
+    "AI作曲",
+    "免注册",
+    "独立开发"
+   ],
+   "sourceChannels": [
+    "v2ex"
+   ],
+   "sourceUrl": "https://www.v2ex.com/t/1256724",
+   "firstSeen": "2026-11-13T02:54:21+00:00",
+   "analysis": {
+    "targetAudience": "想玩说唱但不会写词的学生和年轻上班族，以及需要整活素材的内容创作者",
+    "useCases": [
+     "朋友生日、婚礼现场写一首整活说唱",
+     "diss 室友/同事的玩笑歌",
+     "健身房冲 PR 前的 hype 曲",
+     "作为练 flow 的填词模板，逐行改成自己的词",
+     "为短视频定制专属 BGM"
+    ],
+    "designIntent": "独立开发者用关键词工具选品（rap song lyrics generator 月搜 6600、KD 24），从「写词」这个高频低门槛的切口进入，再把愿意付费的用户导向「出歌」环节。",
+    "problemSolved": "写词门槛高，押韵、verse/hook 结构新手排不出来；多数 AI 音乐工具只出曲不给可改的词；免费且免注册大幅降低尝鲜成本。",
+    "tags": [
+     "说唱",
+     "歌词生成",
+     "AI音乐",
+     "免注册",
+     "SEO选品"
+    ],
+    "score": 7,
+    "scoreReason": "选品思路清晰、闭环完整（歌词→逐行编辑→分句重生成→出歌），免费层不限量很敢给，商业模型（付费出歌 + 商用授权）也成立。扣分在赛道拥挤，差异化主要靠歌词可编辑性。",
+    "competitors": [
+     {
+      "name": "Suno",
+      "url": "https://suno.com/",
+      "comparison": "整首歌生成质量更高，但歌词可控性弱、订阅为主；LyricBars 允许逐行改词并只重生成某一段。"
+     },
+     {
+      "name": "Udio",
+      "url": "https://www.udio.com/",
+      "comparison": "音质与编曲更强，同样弱在歌词控制；LyricBars 定位在「先写词，再出歌」的前置环节。"
+     },
+     {
+      "name": "Rap Generator",
+      "url": "https://rapgenerator.net/",
+      "comparison": "免费说唱词生成，输出不可编辑且以英文为主；LyricBars 提供可编辑的 verse/hook 结构与中文语境。"
+     }
+    ]
+   }
+  },
+  {
+   "id": "survivedinner.com",
+   "name": "Survive Dinner 亲戚盘问语音游戏",
+   "slug": "survive-dinner",
+   "description": "一款 2 分钟的网页语音小游戏：AI 扮演催婚、催生的亲戚连环发问，你对着麦克风即兴回答，撑到甜点环节就算赢。",
+   "url": "https://survivedinner.com/",
+   "homepage": "https://survivedinner.com/",
+   "type": "website",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/survivedinner.com_20261113121306.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "语音游戏",
+    "节日",
+    "幽默",
+    "免注册",
+    "大模型"
+   ],
+   "sourceChannels": [
+    "hackernews"
+   ],
+   "sourceUrl": "https://news.ycombinator.com/item?id=50476015",
+   "firstSeen": "2026-11-12T23:39:24+00:00",
+   "analysis": {
+    "targetAudience": "20-35 岁、节假日回家必被亲戚盘问的年轻人",
+    "useCases": [
+     "感恩节/圣诞家庭聚会暖场",
+     "朋友聚会轮流挑战谁的嘴更硬",
+     "提前预演如何应对真实亲戚的追问",
+     "播客、直播、短视频的节目素材",
+     "英语/越南语/中文多语切换玩梗"
+    ],
+    "designIntent": "把「回家被问工资、对象、买房」这个集体经验做成可玩的压力测试：选好你的处境（单身、待业、裸辞创业），凑齐三个 AI 亲戚，对着麦克风即兴应对，紧张值决定你能不能撑到甜点。",
+    "problemSolved": "家庭聚会冷场、代际话题无处发泄；也顺带让人在玩笑中预演真实对话；免注册、浏览器直开，传播门槛几乎为零。",
+    "tags": [
+     "语音交互",
+     "AI角色扮演",
+     "节日营销",
+     "社交传播",
+     "小游戏"
+    ],
+    "score": 7,
+    "scoreReason": "洞察极准、传播性强（自带「分享我的战绩」），把实时语音模型用在了一个几乎没人想到的纯消费场景。扣分在于节日时效性很强，玩两三次就腻，长期留存与付费空间有限。",
+    "competitors": [
+     {
+      "name": "Character.AI",
+      "url": "https://character.ai/",
+      "comparison": "角色对话自由度高，但没有紧张值、胜负和时长约束；Survive Dinner 把它压缩成 2 分钟一局的社交游戏。"
+     },
+     {
+      "name": "AI Dungeon",
+      "url": "https://aidungeon.com/",
+      "comparison": "以文字冒险为主，不做实时语音对话；Survive Dinner 的核心是「说出口」的压力感。"
+     },
+     {
+      "name": "Speak",
+      "url": "https://www.speak.com/",
+      "comparison": "语音对话练习更系统但场景严肃；Survive Dinner 走玩笑式社交传播路线。"
+     }
+    ]
+   }
+  },
+  {
+   "id": "axiomstory.com",
+   "name": "AxiomStory 长篇故事创作台",
+   "slug": "axiomstory",
+   "description": "面向长篇小说、漫画与短片的 AI 创作工作台：通读全部章节并标出前后矛盾的句子（比如主角眼睛颜色变了），同时自动为人物、地点和设定建立 wiki。",
+   "url": "https://axiomstory.com",
+   "homepage": "https://axiomstory.com",
+   "type": "website",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/axiomstory.com_20261113121515.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "创作工具",
+    "小说",
+    "一致性检查",
+    "世界观",
+    "多模态"
+   ],
+   "sourceChannels": [
+    "hackernews"
+   ],
+   "sourceUrl": "https://news.ycombinator.com/item?id=50476219",
+   "firstSeen": "2026-11-12T23:59:16+00:00",
+   "analysis": {
+    "targetAudience": "写长篇连载的网络小说作者、同人创作者，以及小型漫画与短剧工作室",
+    "useCases": [
+     "连载长篇时管理人物设定与时间线，自动揪出矛盾句",
+     "为每个角色、地点一键生成可审核的 wiki 页",
+     "把小说章节转成分镜脚本与短视频镜头",
+     "团队协作时共享同一份 story bible",
+     "统一角色形象，生成插画与配音"
+    ],
+    "designIntent": "作者的出发点很直接：AI 帮你写，但 AI 记不住。普通聊天窗口只能看到你粘贴的那一段，于是做一个把每一章都读一遍、沉淀成 story bible 的工作台，改一章只重读那一章。",
+    "problemSolved": "长文本创作中人物设定、年龄、外观、时间线前后矛盾，读者比作者先发现；设定散落在多个文档里无法检索；从文字走向图片、视频时角色形象不一致。",
+    "tags": [
+     "长文本",
+     "一致性校验",
+     "story bible",
+     "分镜",
+     "多模态创作"
+    ],
+    "score": 7,
+    "scoreReason": "切中 AI 写作最真实的痛点（一致性），「改一章只重读那一章」的工程取舍务实，且从文字延伸到图/视频的路径清晰。扣分在于 Sudowrite、NovelAI 已占位，重度写作者对 AI 参与度的接受度分化明显。",
+    "competitors": [
+     {
+      "name": "Sudowrite",
+      "url": "https://www.sudowrite.com/",
+      "comparison": "续写、改写等写作辅助更强，但世界观与一致性管理弱；AxiomStory 以 story bible 与矛盾检测为核心。"
+     },
+     {
+      "name": "NovelAI",
+      "url": "https://novelai.net/",
+      "comparison": "文本与图像生成一体，偏重模型输出，缺少跨章节设定校验。"
+     },
+     {
+      "name": "World Anvil",
+      "url": "https://www.worldanvil.com/",
+      "comparison": "手动维护世界观的 wiki 平台，不会自动读稿；AxiomStory 自动抽取设定并标出冲突。"
+     }
+    ]
+   }
+  }
+ ]
+}
