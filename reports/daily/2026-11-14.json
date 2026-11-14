@@ -1,0 +1,318 @@
+{
+  "date": "2026-11-14",
+  "generatedAt": "2026-11-14T04:12:04.048213+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "producthunt.com/r/p/1307926",
+      "name": "Kairos（个人生活数据分析引擎）",
+      "slug": "kairos-personal-analytics",
+      "description": "把健康手环数据、银行流水、日历、音乐和短信汇总成一条时间线，每天早上用 1-5 分给自己评精力、情绪、专注，系统只描述哪些指标与你状态同步变化，不给建议、不做跨用户比较。",
+      "url": "https://yourkairos.io",
+      "homepage": "https://yourkairos.io",
+      "type": "app",
+      "appStoreName": "Your Kairos",
+      "appStoreUrl": "https://apps.apple.com/us/app/your-kairos/id6776741788",
+      "screenshotUrl": "assets/screenshots/ph_kairos_1794629238.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "个人数据分析",
+        "健康数据",
+        "隐私优先",
+        "量化自我",
+        "iOS"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/kairos-18",
+      "firstSeen": "2026-11-07T08:38:24-08:00",
+      "analysis": {
+        "targetAudience": "爱折腾自我量化、同时在意隐私的知识工作者与生物黑客。",
+        "useCases": [
+          "早晨给昨天的精力/情绪/专注打分，看长期模式",
+          "把睡眠 HRV 与当天会议密度、支出波动放在一起对照",
+          "统计与哪些联系人互动最多、关系深浅变化",
+          "发现订阅服务悄悄堆积的重复扣费",
+          "把一周数据导出成全库备份或迁移"
+        ],
+        "designIntent": "作者自己的生活数据散落在十几个 App 里，财务工具只看钱、健康工具只看身体，没人在做跨域关联，于是先给自己写了一个。核心理念是「系统负责描述，你负责判断」，刻意不做健康建议。",
+        "problemSolved": "解决数据孤岛导致「知道自己累但不知道被什么拖累」的问题。它把客观数据流与主观每日评分对齐，用统计显著性门槛筛出真正相关的因素，避免把巧合当因果。",
+        "tags": [
+          "个人数据分析",
+          "隐私",
+          "跨应用整合",
+          "量化自我",
+          "健康"
+        ],
+        "score": 8,
+        "scoreReason": "跨域数据整合 + 隐私优先 + 拒绝说教的定位在这个赛道里少见，App Store 11 个评分 5.0。扣分在于需要每天手动打分才能出价值，且重度依赖 Apple 生态与 Plaid 等第三方接入，非美区用户可用性打折。",
+        "competitors": [
+          {
+            "name": "Exist.io",
+            "url": "https://exist.io",
+            "comparison": "同样做跨服务数据关联，但它把数据同步到云端并给出相关性报告，Kairos 强调单用户隔离与本地加密。"
+          },
+          {
+            "name": "Apple Health",
+            "url": "https://www.apple.com/ios/health/",
+            "comparison": "系统自带、数据最全，但只看健康域，无法把支出、日历、社交一起关联。"
+          },
+          {
+            "name": "Rocket Money",
+            "url": "https://www.rocketmoney.com",
+            "comparison": "财务侧很强（订阅识别、扣费提醒），但没有健康与情绪维度，Kairos 的差异正是跨域。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1311043",
+      "name": "Willo（魔兽世界里的语音小精灵）",
+      "slug": "willo-wow-companion",
+      "description": "常驻《魔兽世界》的 AI 小伙伴：按住说话键提问，任务、剧情、下一步该去哪、甚至画质设置，她用自己的声音当场回答，不用切窗口查攻略；锁定 NPC 提问还能以角色口吻回话，并记住你的目标和笔记。",
+      "url": "https://willocompanion.com",
+      "homepage": "https://willocompanion.com",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/ph_willo_1794629246.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "游戏陪伴",
+        "语音助手",
+        "魔兽世界",
+        "上下文感知"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/willo-2",
+      "firstSeen": "2026-11-09T23:13:47-08:00",
+      "analysis": {
+        "targetAudience": "长时间在线、懒得 alt-tab 查攻略的《魔兽世界》玩家。",
+        "useCases": [
+          "副本间隙口头问「这个任务下一步去哪」",
+          "听她以旅店老板、国王的口吻讲剧情",
+          "练级时问装备/天赋/画质设置建议",
+          "让她记住本周目标和待办，跨会话保留",
+          "在 iPhone 上和朋友聊天、听艾泽拉斯故事"
+        ],
+        "designIntent": "做的人判断「边玩边查攻略」是最大的心流破坏点，而通用攻略又不是针对你屏幕上正在发生的事，于是想做一个坐在肩膀上的朋友。选择先只做 WoW 一个游戏，把事实准确性打磨好再扩展。",
+        "problemSolved": "解决游戏内信息检索必须切窗口的问题，并让冷冰冰的资料库变成有角色感的对话。免费档每天 50 次回答，官方称上线两周已有约 1 万人下载。",
+        "tags": [
+          "游戏",
+          "语音交互",
+          "AI 陪伴",
+          "Windows",
+          "Mac"
+        ],
+        "score": 8,
+        "scoreReason": "场景切口极准、交互设计（按住说话 + NPC 角色化）有想象力，两周 1 万下载说明需求真实。挑战在于游戏知识随版本变化、模型事实准确率是长期成本，天花板受限于单一游戏。",
+        "competitors": [
+          {
+            "name": "Wowhead",
+            "url": "https://www.wowhead.com",
+            "comparison": "资料最全的数据库，但必须切出去查、且是静态文本，Willo 是开口即答的对话式。"
+          },
+          {
+            "name": "Icy Veins",
+            "url": "https://www.icy-veins.com",
+            "comparison": "职业与副本攻略权威，面向研究型玩家；Willo 面向「懒得读长文」的即时问答。"
+          },
+          {
+            "name": "Discord 社区",
+            "url": "https://discord.com",
+            "comparison": "问真人最准但要看运气和响应速度，Willo 随时在线且知道你的位置与任务。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1293281",
+      "name": "Templify AI（不会剪辑也能做短视频）",
+      "slug": "templify-ai-content-editor",
+      "description": "iPhone 与 Mac 上的一体化视频、照片、轮播编辑器：1300+ 设计师模板加 AI 剪辑、节拍自动卡点、自动字幕、一键抠图与 AI 图像/视频生成，几分钟把零散素材做成 Reels、TikTok、Shorts。",
+      "url": "https://templify.ai",
+      "homepage": "https://templify.ai",
+      "type": "app",
+      "appStoreName": "Templify",
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "短视频",
+        "AI 剪辑",
+        "模板化创作",
+        "社交媒体"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/templify",
+      "firstSeen": "2026-10-26T04:56:03-07:00",
+      "analysis": {
+        "targetAudience": "想做自媒体但没有剪辑基础的小商家、个人创作者与运营。",
+        "useCases": [
+          "把一天拍的碎片素材一键卡点成 Reels",
+          "给口播视频自动加字幕与品牌配色",
+          "把照片批量做成小红书式轮播图",
+          "用 AI 模板生成封面/贴纸素材",
+          "在 Mac 上继续编辑手机上没做完的工程"
+        ],
+        "designIntent": "团队来自乌克兰，2022 年第一次上线时只有 30 个模板，赌的是「想做内容的人不缺创意，缺的是跳过时间线的门槛」。这次把 Brand Kit、AI Studio 与 Mac 版补齐，方向从「剪得快」转向「懂你要做什么内容」。",
+        "problemSolved": "解决普通创作者在 CapCut 这类专业时间线工具里学不动、又不想花钱外包的矛盾；用模板 + 自动化把一条视频的制作时间压到分钟级。累计 100 万+ 下载、3M+ 视频。",
+        "tags": [
+          "视频编辑",
+          "AI",
+          "创作者工具",
+          "模板",
+          "iOS"
+        ],
+        "score": 7,
+        "scoreReason": "拿了 PH 当日第一，产品成熟度与用户量都验证过，AI 卡点和自动字幕是刚需。但同类工具极度拥挤，AI 只是提效而非不可替代，品牌辨识度弱，容易陷入模板军备竞赛。",
+        "competitors": [
+          {
+            "name": "CapCut",
+            "url": "https://www.capcut.com",
+            "comparison": "功能与素材全面领先，但学习曲线陡，Templify 用模板把「不会剪」的人接住。"
+          },
+          {
+            "name": "InShot",
+            "url": "https://inshot.com",
+            "comparison": "老牌手机剪辑，偏手动操作、AI 能力弱，Templify 主打自动卡点与 AI 模板。"
+          },
+          {
+            "name": "Canva",
+            "url": "https://www.canva.com",
+            "comparison": "图文设计最强、视频较弱，Templify 专攻短视频与轮播的一体化流水线。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1311999",
+      "name": "Yogurt（本地跑的免费会议纪要）",
+      "slug": "yogurt-local-meeting-notes",
+      "description": "不派机器人进会议，直接录麦克风与系统声音，用本机 whisper.cpp 转写、本地开源模型写纪要与待办，支持 Zoom/Teams/Meet（Mac 还能区分发言人）、99 种语言，笔记与录音只留在你的电脑上，聊天也能问遍所有会议。",
+      "url": "https://yogurt.so",
+      "homepage": "https://yogurt.so",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/ph_yogurt_1794629262.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "会议纪要",
+        "本地优先",
+        "隐私",
+        "开源",
+        "离线"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/yogurt",
+      "firstSeen": "2026-11-10T13:16:55-08:00",
+      "analysis": {
+        "targetAudience": "介意把会议录音交给云端的团队与个人，以及不想再付一份订阅费的人。",
+        "useCases": [
+          "Zoom/Teams/Meet 通话时后台自动录制并出实时字幕",
+          "通话结束自动生成纪要与下一步待办",
+          "跨所有历史会议提问「上次谁说定了这件事」并跳到出处",
+          "按文件夹/标题/转写内容检索过往会议",
+          "通过本地 MCP 把自己选的前沿模型接到笔记上"
+        ],
+        "designIntent": "两位作者（Frigade 团队）想要有用的会议 AI，但不想把对话传到云、也不想再订一个 SaaS。小模型足够做摘要这件事，于是用 whisper.cpp + llama.cpp 把整条链路搬到本机。",
+        "problemSolved": "把「隐私 / 免费 / 好用」三者的取舍抹平：既没有机器人入会打扰，也没有订阅费，模型按硬件自动挑，8GB 内存即可跑；同时留了 MCP 口子给想用大模型的人。",
+        "tags": [
+          "会议",
+          "本地 AI",
+          "开源",
+          "转写",
+          "效率"
+        ],
+        "score": 8,
+        "scoreReason": "本地优先 + MIT 开源 + 无需账号，切中了会议 AI 最大的心理障碍；上线数日 GitHub 已 1.2k star、PH 当日第 16。扣分在于首次要下载 5-14GB 模型、发言人识别仅 Mac 且依赖无障碍权限，弱机器上体验会打折。",
+        "competitors": [
+          {
+            "name": "Granola",
+            "url": "https://www.granola.ai",
+            "comparison": "体验打磨更成熟，但云端处理且需订阅，Yogurt 是它明确对标的免费本地替代。"
+          },
+          {
+            "name": "Otter.ai",
+            "url": "https://otter.ai",
+            "comparison": "会派机器人进会议、录音上云，适合团队协作，Yogurt 主打「不留痕」。"
+          },
+          {
+            "name": "MacWhisper",
+            "url": "https://goodsnooze.gumroad.com/l/macwhisper",
+            "comparison": "只做转写与导出，没有自动纪要与跨会议问答，Yogurt 覆盖完整闭环。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "v2ex.com/t/1256964",
+      "name": "CodeEdge（macOS 上的 AI 额度与花费监控）",
+      "slug": "codeedge-ai-usage-monitor",
+      "description": "贴在屏幕侧边的 macOS 小工具，实时显示 Codex、Claude Code、DeepSeek 等 AI 订阅还剩多少额度、多久重置，并用已用比例对照已过时间提醒「用得太快、大约几点耗尽」；还能按模型价格把每天 Token 折算成金额，生成一张 AI 账单小票。",
+      "url": "https://codeedge.mameya.app",
+      "homepage": "https://codeedge.mameya.app",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/v2ex_1256964_1794629300.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 用量",
+        "订阅管理",
+        "macOS",
+        "花费统计"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "sourceUrl": "https://www.v2ex.com/t/1256964",
+      "firstSeen": "2026-11-13T15:21:33+00:00",
+      "analysis": {
+        "targetAudience": "同时订了好几个 AI 编程/对话服务、怕月中就用光额度的重度用户。",
+        "useCases": [
+          "侧边条一眼看各个订阅的剩余额度与重置时间",
+          "按已用比例预测今天几点会用完",
+          "点柱状图查看某天各模型花了多少 Token 折合多少钱",
+          "生成当日 AI 消费小票发给团队或记账",
+          "额度低于阈值或重置时收到系统通知"
+        ],
+        "designIntent": "作者自己同时用 Codex、Claude Code 和 DeepSeek，各家额度页分散、口径不同，等于每天都在盲飞，于是先给自己做了个贴边常驻的看板，顺便把「AI 花了多少钱」变成可见的数字。",
+        "problemSolved": "解决多订阅 AI 服务的额度与成本不透明问题：把分散的配额、重置周期和 Token 费用统一到一块屏幕角落，避免写着写着被限流、月底才发现超支。",
+        "tags": [
+          "用量监控",
+          "成本",
+          "macOS",
+          "AI 工具"
+        ],
+        "score": 7,
+        "scoreReason": "痛点真实且小而美，「已用比例 vs 已过时间」的预测比单纯显示余量聪明。局限是要读取本机会话日志，只覆盖 Codex/Claude Code/DeepSeek 这类本地有日志的服务，纯网页版用户用不上，产品天花板较低。",
+        "competitors": [
+          {
+            "name": "CodexBar",
+            "url": "https://github.com/steipete/CodexBar",
+            "comparison": "只显示剩余额度与重置时间，不做费用折算，CodeEdge 在它基础上加了成本与提醒。"
+          },
+          {
+            "name": "各平台官方用量页",
+            "url": "https://chatgpt.com",
+            "comparison": "数据最权威，但要逐个登录翻页，无法横向对比，也没有预警。"
+          },
+          {
+            "name": "NowDex",
+            "url": "https://nowdex.app",
+            "comparison": "同类的用量看板，偏向通知与多服务聚合，CodeEdge 的差异化在账单小票与侧边贴边展示。"
+          }
+        ]
+      }
+    }
+  ]
+}
