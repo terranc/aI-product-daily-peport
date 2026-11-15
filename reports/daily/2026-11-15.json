@@ -1,0 +1,312 @@
+{
+  "date": "2026-11-15",
+  "generatedAt": "2026-11-15T04:13:31.221980+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "producthunt.com/r/p/1315433",
+      "name": "Tacie（Mac 本地会议笔记助手）",
+      "slug": "tacie",
+      "description": "在 Mac 上直接收听会议音频、不需要机器人入会的会议助手。会中实时检索历史会议与 Notion/Jira/Linear/GitHub 等团队工具，把答案与出处显示在屏幕上；会后自动整理决策、待办与负责人。",
+      "url": "https://tacie.app/en/",
+      "homepage": "https://tacie.app/en/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/tacie_20261115120634.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "会议助手",
+        "实时检索",
+        "隐私本地",
+        "待办跟进"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/tacie",
+      "firstSeen": "2026-11-13T07:03:50-08:00",
+      "analysis": {
+        "targetAudience": "天天开远程会、需要随时追溯「当初为什么这么决定」的产品与研发团队。",
+        "useCases": [
+          "产品评审会中被问「为什么当初是这个方案」，当场调出旧会议与文档依据",
+          "客户电话结束后自动生成决策清单、待办与负责人",
+          "线下会议室用一台 Mac 录音并在会后出纪要",
+          "开会时检索 Jira/Linear 里某个 issue 的历史结论",
+          "给团队留下可回溯的会议决策档案"
+        ],
+        "designIntent": "作者想解决的是「答案明明存在某个旧文档里，但会上没人找得到」这个瞬间。做法是绕开会议机器人：让本机直接听音频，把答案和出处搬到会议屏幕上，会后再落成结构化纪要。",
+        "problemSolved": "解决会后纪要与会中信息断层两个问题：机器人入会带来的尴尬与合规阻力，以及团队知识散落在十几个工具里、临场检索不到。",
+        "tags": [
+          "会议助手",
+          "实时检索",
+          "隐私本地",
+          "待办跟进"
+        ],
+        "score": 9,
+        "scoreReason": "切入点是会议助手赛道被忽略的「会中实时回答」而不是又一份会后摘要，并明确指出与传统转录机器人的差异（无 bot 入会、本地录音、答案带出处）。定位清晰、场景真实、隐私叙事完整，是本周完成度最高的消费级 AI 产品。",
+        "competitors": [
+          {
+            "name": "Granola",
+            "url": "https://granola.ai",
+            "comparison": "同样是无 bot 入会的 Mac 会议笔记，但 Granola 偏「会后写纪要」，Tacie 强调会中实时检索答案与出处。"
+          },
+          {
+            "name": "Otter.ai",
+            "url": "https://otter.ai",
+            "comparison": "传统会议机器人路线，需把 bot 拉进会议，且主要是转录与摘要，不做跨工具实时检索。"
+          },
+          {
+            "name": "Fireflies.ai",
+            "url": "https://fireflies.ai",
+            "comparison": "强在会后分析与 CRM 同步，入会方式依赖虚拟参会者，会中实时回答能力弱。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "v2ex.com/t/1257121",
+      "name": "小豆（可打断的全双工 AI 语音面试陪练）",
+      "slug": "aidou-voice-interview",
+      "description": "一个跑在浏览器里的实时语音面试陪练：说话可以随时打断、沉默时它会等你，内置技术面试官 Alex（练 system design 与项目深挖）和英语口语私教 Emma，结束后给出逐题复盘与录用倾向。",
+      "url": "https://aidou.studio/",
+      "homepage": "https://aidou.studio/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/aidou.studio_t_1257121_20261115120709.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "面试陪练",
+        "实时语音",
+        "英语口语",
+        "复盘"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "sourceUrl": "https://www.v2ex.com/t/1257121",
+      "firstSeen": "2026-11-15T01:15:00+08:00",
+      "analysis": {
+        "targetAudience": "准备跳槽的技术求职者，以及想练英语口语表达的中文母语用户。",
+        "useCases": [
+          "面试前用 Alex 练 system design，被追问 trade-off",
+          "把项目经历讲给 AI 面试官，练深挖式追问",
+          "用 Emma 练英语口语，实时对话不抢话",
+          "面试后看逐题复盘，知道哪题答偏了",
+          "免费 10 分钟先试手感，再决定是否登录领时长"
+        ],
+        "designIntent": "作者认为「找不到人陪练」是面试准备最大的摩擦，而主流工具是你说一段它回一段的语音消息式交互。于是用端到端实时语音模型做成全双工对话，让打断和沉默都自然发生。",
+        "problemSolved": "解决了面试演练需要真人陪练的现实成本问题，也修正了 AI 面试工具「像发语音消息」的体验落差；额外提供逐题复盘，让练习可度量。",
+        "tags": [
+          "面试陪练",
+          "实时语音",
+          "英语口语",
+          "复盘"
+        ],
+        "score": 8,
+        "scoreReason": "把端到端实时语音模型用在「面试陪练」这个普通人都懂的场景，并用可打断、不抢话这类可感知细节建立差异；作者对竞品（豆包语音、其他面试工具）的边界讲得很诚实，产品还早期但方向与实现都对。",
+        "competitors": [
+          {
+            "name": "豆包（语音通话）",
+            "url": "https://www.doubao.com",
+            "comparison": "同样能做实时语音对话甚至更顺滑，但角色是通用助手，不会顺着你的方案追问 trade-off，也没有面试复盘表。"
+          },
+          {
+            "name": "Google Interview Warmup",
+            "url": "https://grow.google/certificates/interview-warmup/",
+            "comparison": "免费且结构化，但是录完再分析的异步流程，没有全双工实时对话与打断。"
+          },
+          {
+            "name": "Final Round AI",
+            "url": "https://www.finalroundai.com",
+            "comparison": "功能更全（含实时提词），但偏考试式背题，不做自然的双向语音陪练。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1315230",
+      "name": "Tabletop（Google Labs 的 AI 群体协作空间）",
+      "slug": "tabletop-google-labs",
+      "description": "Google Labs 的协作实验：为一个群组开一块共享空间，把链接、文件、想法丢进去，@tabletop 一句话就能生成行程表、晚餐投票、AA 分摊、赛事对阵表等可交互小工具，邀请链接丢进群聊即可像 Google Doc 一样多人同时使用。",
+      "url": "https://tabletop.google",
+      "homepage": "https://tabletop.google",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "群体协作",
+        "AI 生成",
+        "家庭计划",
+        "实验产品"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/google-labs",
+      "firstSeen": "2026-11-13T03:39:17-08:00",
+      "analysis": {
+        "targetAudience": "要组织家庭旅行、球局、聚餐、婚礼等多人活动的普通用户与小型社团。",
+        "useCases": [
+          "家庭旅行：生成行程表并让家人实时补充",
+          "朋友聚餐：一句话生成投票选出餐厅",
+          "球队/社团：自动生成赛事对阵表并计分",
+          "合租/聚会：生成 AA 分摊与费用追踪表",
+          "把已有表格改成小游戏（如家务积分赛）"
+        ],
+        "designIntent": "Google Labs 的观察是：多人协调活动的真正成本不在「讨论」，而在没有一个大家能一起动手改的地方——于是把 Asana 式的协作表格变成由 AI 现场生成、无需搭建的群空间。",
+        "problemSolved": "解决了群体计划里「群聊讨论 + 一个人做 Excel」的分工失衡：任何人都能一句话改工具，不用等某个会做表的人。",
+        "tags": [
+          "群体协作",
+          "AI 生成",
+          "家庭计划",
+          "实验产品"
+        ],
+        "score": 8,
+        "scoreReason": "把 vibe coding 从开发者手里拿出来，交给「要组织一次家庭旅行的人」，场景非常日常且高频，交互设计（@tabletop 生成可拖动编辑的工具）完成度高。扣分项是仅美国 18+ 候补开放、且依附 Google 生态，可用性目前受限。",
+        "competitors": [
+          {
+            "name": "Notion",
+            "url": "https://www.notion.so",
+            "comparison": "同样能做协作表格与投票，但需要自己搭模板，Tabletop 是一句话生成且专为群体活动设计。"
+          },
+          {
+            "name": "Google Docs",
+            "url": "https://docs.google.com",
+            "comparison": "Tabletop 直接对标「像 Docs 一样多人同时编辑」，但产物是可交互小工具而非文档。"
+          },
+          {
+            "name": "Asana",
+            "url": "https://asana.com",
+            "comparison": "面向工作项目管理、配置重；Tabletop 面向家庭朋友的轻量协调，几乎零设置。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1301510",
+      "name": "HiringNow（抢先投递的 AI 求职代理）",
+      "slug": "hiringnow",
+      "description": "每 5 分钟扫一遍 24.7 万个企业招聘页与 65 个 ATS 系统，把新岗位先于 LinkedIn/Indeed 推给你；按简历匹配度打分、为每个岗位定制简历，经你确认后代填企业自己的申请表并留下投递回执。",
+      "url": "https://hiringnow.ai/",
+      "homepage": "https://hiringnow.ai/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/hiringnow.ai_20261115120911.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 求职",
+        "自动投递",
+        "简历定制",
+        "求职跟踪"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/hiringnow",
+      "firstSeen": "2026-11-02T02:23:37-08:00",
+      "analysis": {
+        "targetAudience": "海投无回应、想要「早点出现在 HR 收件箱前几封」的技术与非技术求职者。",
+        "useCases": [
+          "简历上传后设定岗位、地点、薪资与排除公司，让代理 7×24 盯新岗位",
+          "岗位刚挂上企业招聘页就收到 94% 匹配提醒并一键定制简历",
+          "对企业自家申请表自动填充，但发送前必须人工确认",
+          "投递后查看回执：何时发布、何时投递、发了什么",
+          "免费 10 次自动投递先验证效果再订阅"
+        ],
+        "designIntent": "作者押注「早投胜过海投」：与其在岗位被转发到招聘网站后再去挤，不如直接盯企业招聘页。同时明确划出红线——不碰你的 LinkedIn/Indeed 账号、不编造经历、不承诺面试率。",
+        "problemSolved": "解决了求职者两个痛点：岗位信息滞后（好岗位在你看到前已收到几百份简历）与重复填表的体力活；并用「必须你确认」的设计回避了 AI 代投的真实性与合规风险。",
+        "tags": [
+          "AI 求职",
+          "自动投递",
+          "简历定制",
+          "求职跟踪"
+        ],
+        "score": 7,
+        "scoreReason": "执行链路完整（发现→匹配→改简历→填表→回执），且对「不编造、不碰你账号、不承诺面试率」的克制值得肯定。扣分在于赛道已很拥挤、免费额度有限，实际匹配质量只能靠用户自己试。",
+        "competitors": [
+          {
+            "name": "Simplify",
+            "url": "https://simplify.jobs",
+            "comparison": "主打浏览器插件自动填充申请表，岗位来源仍是招聘网站，时效性不如直读企业招聘页。"
+          },
+          {
+            "name": "LazyApply",
+            "url": "https://lazyapply.com",
+            "comparison": "批量无差别投递，容易触发平台风控；HiringNow 走企业自家表单并要求逐条确认。"
+          },
+          {
+            "name": "Teal",
+            "url": "https://www.tealhq.com",
+            "comparison": "强在简历与求职看板管理，自动投递能力弱，更像工具箱而非代理。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1311141",
+      "name": "FreeFlow Dictation（Mac 端离线语音听写）",
+      "slug": "freeflow-dictation",
+      "description": "按住 ⌥ 说话，文字直接落到任意 App 的光标处。六种语音模型（Parakeet、Whisper、Cohere 等）全部在本机 Neural Engine 上运行，音频不出设备，还能用语音回答 Claude Code 的计划、提问与权限确认卡片。",
+      "url": "https://freeflow.audio/",
+      "homepage": "https://freeflow.audio/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/freeflow.audio_20261115120958.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "语音输入",
+        "本地离线",
+        "隐私",
+        "Mac"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/freeflow-dictation",
+      "firstSeen": "2026-11-10T00:38:27-08:00",
+      "analysis": {
+        "targetAudience": "Mac 上大量打字（写文档、写代码、回邮件）且在意隐私与买断制的用户。",
+        "useCases": [
+          "在任何输入框按住 ⌥ 口述，文字直接落在光标处",
+          "给个人词典教会 useEffect、kubectl 这类术语的正确拼写",
+          "断网环境下照常听写（模型全在本地）",
+          "用 Apple Intelligence 在本地去掉口头禅、整理长段落",
+          "Claude Code 等待确认时用语音回答选项"
+        ],
+        "designIntent": "作者认为云端听写的根本问题不是准确率而是「音频要传到别人服务器」。于是把整套 ASR 搬进 Apple Silicon 的 Neural Engine，用 $99 买断替代订阅，并把 Claude Code 的等待时刻变成可以开口回答的卡片。",
+        "problemSolved": "解决了语音输入类产品的隐私顾虑与订阅疲劳：无需账号、无遥测、离线可用、一次付费；顺带解决「等 AI 回复时要切窗口打字」的打断感。",
+        "tags": [
+          "语音输入",
+          "本地离线",
+          "隐私",
+          "Mac"
+        ],
+        "score": 7,
+        "scoreReason": "本地优先 + 买断制的路线在订阅泛滥的语音输入赛道里有明确立场，六模型可选与词典纠错解决真痛点。扣分在于仅支持 Apple Silicon Mac、$99 门槛不低，且最强卖点之一偏开发者场景。",
+        "competitors": [
+          {
+            "name": "Wispr Flow",
+            "url": "https://wisprflow.ai",
+            "comparison": "同样跨 App 语音输入、体验顺滑，但走云端处理与订阅制，且没有本地离线模式。"
+          },
+          {
+            "name": "Superwhisper",
+            "url": "https://superwhisper.com",
+            "comparison": "最接近的对手：也是本地模型 + 买断，但 FreeFlow 多出 Apple Intelligence 本地润色与 Claude Code 语音卡片。"
+          },
+          {
+            "name": "macOS 内置听写",
+            "url": "https://support.apple.com/guide/mac-help/mh40584/mac",
+            "comparison": "免费但识别质量与术语纠错弱，且长段落听写体验明显不如专门工具。"
+          }
+        ]
+      }
+    }
+  ]
+}
