@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mister Blocks 每周深度分析 · AI 产品雷达</title>
+  <link rel="stylesheet" href="../styles.css">
+  
+    <style>
+    /* ── Product Detail Modal ── */
+    .product-modal-overlay {
+      display:none; position:fixed; inset:0; z-index:9000;
+      background:rgba(0,0,0,.5); backdrop-filter:blur(4px);
+      overflow-y:auto; -webkit-overflow-scrolling:touch;
+    }
+    .product-modal-overlay.active { display:block; }
+    .product-modal-container {
+      position:relative; max-width:1120px; width:90%; margin:40px auto;
+      min-height:auto; background:var(--c-bg);
+      border-radius:var(--radius-lg); box-shadow:0 8px 32px rgba(0,0,0,.2);
+      overflow:hidden;
+    }
+    .product-modal-close {
+      position:sticky; top:0; z-index:10;
+      display:flex; align-items:center; justify-content:space-between;
+      padding:12px 16px; background:var(--c-surface);
+      border-bottom:1px solid var(--c-border);
+    }
+    .product-modal-close button {
+      background:none; border:none; cursor:pointer;
+      font-size:1rem; color:var(--c-text-2); padding:4px 8px;
+    }
+    .product-modal-close .title { font-weight:600; font-size:.9rem; color:var(--c-text); }
+    .product-modal-body {
+      padding:0;
+    }
+    </style>
+</head>
+<body>
+  <header class="site-header">
+  <div class="container-wide">
+    <a href="../" class="site-logo"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a10 10 0 0 1 0 20"/><path d="M12 2a6 6 0 0 1 0 12"/><circle cx="12" cy="8" r="1" fill="currentColor"/></svg> AI 产品雷达</a>
+    <nav class="site-nav"><a href="../">每日简报</a><a href="../weekly.html" class="active">每周深度</a><a href="../archive.html">归档</a><a href="../starred.html" class="nav-starred"><svg class="star-ic" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><span class="nav-label">星标</span><span class="star-count-badge"></span></a><a href="https://github.com/terranc/aI-product-daily-peport" target="_blank"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a></nav>
+  </div>
+</header>
+  <main>
+    <div class="container-wide">
+      <a href="../weekly.html" class="back-link"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg> 返回每周深度</a>
+      <div id="weekly-detail-content">
+      <article class="detail-card">
+        <div class="detail-hero">
+          <div class="entry-meta">
+            <span class="blog-post-date">2026-11-16</span>
+            <div class="entry-tags"><a href="../tags.html?tag=乐高" class="tag">乐高</a><a href="../tags.html?tag=亲子陪伴" class="tag">亲子陪伴</a><a href="../tags.html?tag=3D 生成" class="tag">3D 生成</a><a href="../tags.html?tag=结构校验" class="tag">结构校验</a><a href="../tags.html?tag=消费级 AI" class="tag">消费级 AI</a><a href="../tags.html?tag=免费工具" class="tag">免费工具</a></div>
+          </div>
+          <h1 class="detail-title">Mister Blocks · 每周深度分析</h1>
+          <p class="detail-subtitle">拍一张散落乐高积木的照片，AI 认出每一块零件，并设计出 4 个只用这堆积木就能搭成的模型，附带可旋转、可打印的 3D 分步图纸。</p>
+          <div class="detail-actions">
+            <span class="detail-score-badge">9</span>
+            <a href="https://misterblocks.com/" target="_blank" class="btn btn-primary"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg> 访问官网</a>
+          </div>
+        </div>
+        <div class="detail-body">
+          <div class="detail-main">
+            <div class="weekly-metric-grid">
+              <div class="weekly-metric"><strong>5</strong><span>距首次发现天数</span></div>
+              <div class="weekly-metric"><strong>0</strong><span>近 7 天提及</span></div>
+              <div class="weekly-metric"><strong>0</strong><span>增长分数</span></div>
+            </div>
+            
+            <div class="section">
+              <h2 class="section-title"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></span> 增长证据</h2>
+              <ol class="use-case-list"><li>时间线：2026-11-07 晚间首个 commit → 11-11 上线 Product Hunt（Toys 分类，当日最高第 20 名，73 points / 48 followers）→ 11-14 仍在日更技术博客。四天 108 次提交。</li><li>流量（作者公开的 Vercel Web Analytics，近 7 天）：767 位访客 / 3,418 次页面浏览，约 4.5 页/人；日曲线逐日翻倍（11-09 约 90 → 11-10 约 220 → 11-11 约 460，当日尚未结束）。首页 522 人，最热的单个图纸页 47 人。</li><li>社区流量：单条 r/ClaudeCode 帖子 20 小时 21,400 浏览、峰值约 2,800/小时、当日该 sub 第 10 名（54 upvotes / 31 comments）；来源国美国 41%、英国 7%、加拿大 6%。</li><li>商业化：目前完全免费，无付费墙、无账号门槛；作者在 PH 评论里主动征询「要不要让我们帮你把缺的件一起下单」「要不要允许用户做图纸去 Etsy/Amazon/Shopify 卖」，说明变现路径还在设计阶段。站内已出现 For business / Gifts 导航入口，方向是 B 端课程包与礼品。</li></ol>
+            </div>
+            <div class="section">
+              <h2 class="section-title"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5A4.61 4.61 0 0 1 8.91 14"/></svg></span> 社区反馈</h2>
+              <p>Product Hunt 评论区的情绪极度家庭化：一位家长说「太兴奋了，要分享给我 5 岁、已经有一大堆散装乐高的儿子」；另一位说「我要把整个地板铺满乐高，看它能不能重建我孩子拆掉的死星」。也有直接的负反馈——「我来晚了吗……我试的每个都失败，本来想这周末和孩子一起玩」，作者在评论里逐个回复并追问具体失败形态（并坦言核心算法在真实搭建复盘后改了很多次）。Reddit 侧（r/ClaudeCode）讨论集中在「用 Claude 做识别 + 自己写校验器」这条工程路线上，作者把踩坑过程写成三篇长文（dev.to 两篇 + Medium 两篇），这也成了它拉开发者口碑的主要渠道。</p>
+            </div>
+            <div class="section">
+              <h2 class="section-title"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></span> 近期更新</h2>
+              <p>极高且是单人节奏：首周 108 次提交、四天内从想法到公开上线；随后的更新以「加规则」为主而非加功能——每发现一次真实搭建失败就写进提示词或检查器（例如「挡泥板要比轮组外扩一格」「厢式车/巴士/robotaxi 用直立挡风玻璃墙而不是轿车斜玻璃」「Waymo Ojai 要淡蓝色 + 黑脸，不能沿用旧款 Jaguar 的白色」）。站点同时维护英文与乌克兰语两套页面，图纸库以每天数条的速度增长（上线时 100+ 份，周中已到 160+ 份）。</p>
+            </div>
+            <div class="section">
+              <h2 class="section-title"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></span> 市场定位</h2>
+              <p>赛道的需求已被 Brickit 验证：2026 年第三方估算 Brickit 月流水 5 万-10 万美元、订阅 $6.99/月，说明「散装积木家庭」是愿意付费的真实市场；官方 LEGO Builder 占据「官方套装说明书」的位子，BrickLink Studio 占据「专业 MOC 设计」的位子，中间「我有一堆散件、我不知道能搭什么」这段长期只有 Brickit 一家。2026 年下半年这层出现拥挤：BrickForgerAI（10-02）做文字转积木，Mister Blocks（11-11）做照片转积木。Mister Blocks 目前的站位是「免费 + 照片库存 + 出厂物理校验」，用免费图纸库做 SEO 长尾（这是 App 形态的 Brickit 天然做不好的事——它的内容在 App 里，不在搜索结果里）。</p>
+            </div>
+            <div class="section">
+              <h2 class="section-title"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r=".5" fill="currentColor"/><circle cx="17.5" cy="10.5" r=".5" fill="currentColor"/><circle cx="8.5" cy="7.5" r=".5" fill="currentColor"/><circle cx="6.5" cy="12.5" r=".5" fill="currentColor"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"/></svg></span> 差异化</h2>
+              <ol class="use-case-list"><li>输入是「你真实拥有的零件」而不是「一个概念」：Claude Opus 5.5 把照片读成结构化库存（每件带 id、studs 尺寸、以 plate 计高度、颜色），用户还能在对话里纠错（「2x4 的有 48 块」）而不破坏已有模型引用的 id。</li><li>出厂物理校验是硬门槛而不是免责声明：core.js 一份文件同时跑在服务端和浏览器，检查每块的承托、重叠、库存独占、车轮净空；不合格项以英文自然语言回传，模型只做「补丁式」修正（删这些 id、加或换这些行），而不是整稿重画。</li><li>可建顺序也被校验：fixOrder 会把「被后来的零件托住」的承托件提前，模拟真人搭积木的顺序。</li><li>生成之外还有一层「像不像」的自我审稿：把模型画成 ASCII 正视/侧视/俯视图（一个字母一种颜色、一个字符一格凸点）再问模型「拿着真玩具的孩子会怎么评价」，专门抓咬合检查抓不到的问题（脸的颜色错了、角色没胳膊、体育场没有看台）。</li><li>成本与体验的取舍被显式设计：11 分钟流水线预算（Vercel 函数上限 800 秒）、进度条说真话（「正在放第 84 块，共约 120 块」「正在检查每个凸点：修 6 个问题（第 2 轮）」）、150 秒无心跳就承认「设计器停了」并给重试，而不是无限转圈。</li><li>工程栈刻意做小：Vercel 上的裸 Node serverless + MongoDB 存 session + Cloudflare R2 存图与 PDF + three.js 做 3D 视图，没有框架——这也是四天能上线的原因。</li></ol>
+            </div>
+            <div class="section">
+              <h2 class="section-title"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="14.5 17.5 3 6 3 3 6 3 17.5 14.5"/><line x1="13" y1="19" x2="19" y2="13"/><line x1="16" y1="16" x2="20" y2="20"/><line x1="19" y1="21" x2="21" y2="19"/><polyline points="14.5 6.5 18 3 21 3 21 6 17.5 9.5"/><line x1="5" y1="14" x2="9" y2="18"/><line x1="7" y1="17" x2="4" y2="20"/><line x1="3" y1="19" x2="5" y2="21"/></svg></span> 风险挑战</h2>
+              None
+            </div>
+            <div class="section">
+              <h2 class="section-title"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></span> 后续观察</h2>
+              None
+            </div>
+          </div>
+          <aside class="detail-aside">
+            <div class="aside-block">
+              <div class="aside-label">标签</div>
+              <div class="aside-tags"><a href="../tags.html?tag=乐高" class="tag">乐高</a><a href="../tags.html?tag=亲子陪伴" class="tag">亲子陪伴</a><a href="../tags.html?tag=3D 生成" class="tag">3D 生成</a><a href="../tags.html?tag=结构校验" class="tag">结构校验</a><a href="../tags.html?tag=消费级 AI" class="tag">消费级 AI</a><a href="../tags.html?tag=免费工具" class="tag">免费工具</a></div>
+            </div>
+            <div class="aside-block">
+              <div class="aside-label">跟踪渠道</div>
+              <p style="color:var(--c-text-2);font-size:.85rem">producthunt</p>
+            </div>
+            <div class="aside-block">
+              <div class="aside-label">元数据</div>
+              <div class="meta-row"><span class="label">周报日期</span><span class="value">2026-11-16</span></div>
+              <div class="meta-row"><span class="label">首次发现</span><span class="value">2026-11-11</span></div>
+              <div class="meta-row"><span class="label">产品类型</span><span class="value">website</span></div>
+            </div>
+          </aside>
+        </div>
+      </article>
+    </div>
+    </div>
+  </main>
+  
+  <!-- 产品详情 Modal -->
+  <div class="product-modal-overlay" id="product-modal">
+    <div class="product-modal-container">
+      <div class="product-modal-close">
+        <span class="title" id="modal-title"></span>
+        <button onclick="closeProductModal()" aria-label="关闭">✕ 关闭</button>
+      </div>
+      <div class="product-modal-body" id="modal-body">
+        <div style="text-align:center;padding:40px;color:var(--c-text-3)">加载中...</div>
+      </div>
+    </div>
+  </div>
+  <footer class="site-footer">
+  <div class="container">
+    <div class="footer-links">
+      <a href="../archive.html">历史归档</a>
+      <a href="https://github.com/terranc/aI-product-daily-peport" target="_blank">GitHub</a>
+    </div>
+    <p>AI 产品雷达 · 自动化 AI 产品发现与分析</p>
+  </div>
+</footer>
+  
+    <script>
+    // 标星功能（共享）
+
+const STAR_KEY = 'ai_radar_starred';
+function getStarredSlugs() {
+  try { return JSON.parse(localStorage.getItem(STAR_KEY) || '[]'); } catch(e) { return []; }
+}
+function saveStarredSlugs(arr) {
+  try { localStorage.setItem(STAR_KEY, JSON.stringify(arr)); } catch(e) {}
+}
+function isStarred(slug) {
+  if (!slug) return false;
+  return getStarredSlugs().indexOf(String(slug).toLowerCase()) !== -1;
+}
+function toggleStar(btn) {
+  const slug = (btn.getAttribute('data-slug') || '').toLowerCase();
+  if (!slug) return;
+  let arr = getStarredSlugs();
+  const idx = arr.indexOf(slug);
+  const nowStarred = idx === -1;
+  if (nowStarred) { arr.push(slug); } else { arr.splice(idx, 1); }
+  saveStarredSlugs(arr);
+  refreshStarButton(btn);
+  updateStarBadges();
+  window.dispatchEvent(new CustomEvent('star-changed', { detail: { slug: slug, starred: nowStarred } }));
+}
+function refreshStarButton(btn) {
+  if (!btn || !btn.classList || !btn.classList.contains('btn-star')) return;
+  const slug = (btn.getAttribute('data-slug') || '').toLowerCase();
+  const starred = isStarred(slug);
+  if (starred) {
+    btn.classList.add('is-starred');
+    btn.setAttribute('aria-pressed', 'true');
+  } else {
+    btn.classList.remove('is-starred');
+    btn.setAttribute('aria-pressed', 'false');
+  }
+  const lbl = btn.querySelector('.star-label');
+  if (lbl) lbl.textContent = starred ? '已标星' : '标星';
+}
+function updateStarBadges() {
+  const count = getStarredSlugs().length;
+  document.querySelectorAll('.star-count-badge').forEach(el => {
+    el.textContent = count > 0 ? String(count) : '';
+    el.style.display = count > 0 ? '' : 'none';
+  });
+}
+function initStarButtons(root) {
+  (root || document).querySelectorAll('.btn-star[data-slug]').forEach(btn => {
+    refreshStarButton(btn);
+  });
+}
+document.addEventListener('DOMContentLoaded', function() {
+  updateStarBadges();
+  initStarButtons(document);
+});
+
+    // Modal 逻辑（所有设备）
+    const modal = document.getElementById('product-modal');
+    const modalBody = document.getElementById('modal-body');
+    const modalTitle = document.getElementById('modal-title');
+
+    // 大屏设备用 Modal，手机端和无 JS 环境保持普通链接跳转
+    const isDesktop = window.matchMedia('(min-width: 769px)').matches;
+    if (isDesktop) {
+      document.querySelectorAll('.source-link[href]').forEach(card => {
+        card.addEventListener('click', function(e) {
+          if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+          e.preventDefault();
+          const name = this.textContent?.trim() || '产品详情';
+          openProductModal(this.getAttribute('href'), name);
+        });
+      });
+    }
+
+    function rebaseModalUrls(root, baseUrl) {
+      // 修复：如果 baseUrl 是产品详情页，使用根页面作为基准，避免相对路径计算错误
+      let adjustedBase = baseUrl;
+      try {
+        const urlObj = new URL(baseUrl);
+        if (urlObj.pathname.startsWith('/products/') || urlObj.pathname.startsWith('/weekly/')) {
+          // 使用根页面作为基准
+          adjustedBase = urlObj.origin + '/';
+        }
+      } catch (e) {}
+
+      root.querySelectorAll('[src]').forEach(el => {
+        const value = el.getAttribute('src');
+        if (value && !value.startsWith('http') && !value.startsWith('data:')) {
+          el.setAttribute('src', new URL(value, adjustedBase).href);
+        }
+      });
+      root.querySelectorAll('[href]').forEach(el => {
+        const value = el.getAttribute('href');
+        if (value && !value.startsWith('http') && !value.startsWith('#') && !value.startsWith('mailto:')) {
+          el.setAttribute('href', new URL(value, adjustedBase).href);
+        }
+      });
+    }
+
+    async function openProductModal(detailUrl, name) {
+      modalTitle.textContent = name;
+      modalBody.innerHTML = '<div style="text-align:center;padding:40px;color:var(--c-text-3)">加载中...</div>';
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+
+      try {
+        const resp = await fetch(detailUrl);
+        if (!resp.ok) throw new Error('HTTP ' + resp.status);
+        const html = await resp.text();
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(html, 'text/html');
+
+        const detailContent = doc.querySelector('#product-detail-content');
+        if (detailContent) {
+          rebaseModalUrls(detailContent, new URL(detailUrl, window.location.href).href);
+          modalBody.replaceChildren(detailContent);
+          initStarButtons(modalBody);
+        } else {
+          throw new Error('详情主体不存在');
+        }
+      } catch (err) {
+        modalBody.innerHTML = '<div style="text-align:center;padding:40px;color:var(--c-text-3)">加载失败，请<a href="' + detailUrl + '" style="color:var(--c-accent);font-weight:600">打开详情页</a></div>';
+      }
+
+      modal.scrollTop = 0;
+    }
+
+    function closeProductModal() {
+      modal.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    modal.addEventListener('click', function(e) {
+      if (e.target === modal) closeProductModal();
+    });
+
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' && modal.classList.contains('active')) {
+        closeProductModal();
+      }
+    });
+    </script>
+</body>
+</html>
