@@ -1,0 +1,322 @@
+{
+ "date": "2026-11-16",
+ "generatedAt": "2026-11-16T04:15:16.950383+00:00",
+ "productCount": 5,
+ "products": [
+  {
+   "id": "producthunt.com/r/p/1307607",
+   "name": "Spiik：无需机器人入会的 AI 录音笔记助手",
+   "slug": "spiik-ai-voice-recorder",
+   "description": "iPhone、iPad 与 Mac 上的 AI 录音机，按下录制就把会议、讲座、访谈转成带说话人标记的文字，并自动生成结构化笔记、摘要、测验、闪卡和思维导图，全程不需要机器人加入通话。",
+   "url": "https://spiik.io/",
+   "homepage": "https://spiik.io/",
+   "type": "app",
+   "appStoreName": "Voice Recorder AI Notes: Spiik",
+   "appStoreUrl": "https://apps.apple.com/us/app/voice-recorder-ai-notes-spiik/id6451387537",
+   "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1307607_1794801847.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "会议记录",
+    "语音转写",
+    "AI 笔记",
+    "学习工具",
+    "苹果生态"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/spiik",
+   "firstSeen": "2026-11-07T11:57:13+00:00",
+   "analysis": {
+    "targetAudience": "频繁开会、上课或做访谈，又不愿让录制机器人进入通话的学生与职场人。",
+    "useCases": [
+     "Mac 上录制 Zoom、Teams、Google Meet 通话并同时收录麦克风与系统声音",
+     "把课堂录音一键转成测验、闪卡与思维导图用于复习备考",
+     "访谈录音逐句回听、按时间戳定位原话",
+     "导入 Voice Memos、WhatsApp 音频或 YouTube 链接做统一转写",
+     "100 多种语言的转写与翻译，用于跨语言课堂或国际会议"
+    ],
+    "designIntent": "作者想做一款「按一下就好」的录音工具：用户把注意力留给现场，剩下的交给设备和模型。它刻意避开机器人入会这种侵入式方案，改用麦克风加系统音频采集，让交互回到最朴素的录音动作。",
+    "problemSolved": "会议和课堂的笔记工作既费神又容易漏，而常见的 AI 会议助手要么派一个机器人进会议让所有人尴尬，要么把音频传上云端。Spiik 用无机器人的录制加一次性转写解决了这两点，并把同一段录音复用为摘要、测验、闪卡等多种产出。",
+    "tags": [
+     "会议记录",
+     "语音转写",
+     "AI 笔记",
+     "学习工具",
+     "苹果生态"
+    ],
+    "score": 8,
+    "scoreReason": "在同类 AI 会议记录产品里，无机器人入会加多形态产出的组合做得非常完整，苹果全平台覆盖且已有 4.7 分的应用商店口碑。差异化主要靠体验打磨而非底层模型，长期壁垒一般。",
+    "competitors": [
+     {
+      "name": "Granola",
+      "url": "https://www.granola.ai/",
+      "comparison": "Granola 主打桌面端会议笔记并同样不派机器人，但转写在云端且免费版只保留 30 天历史；Spiik 覆盖手机与 Mac、年费约一半价格，离线转写仅限 Apple 芯片 Mac。"
+     },
+     {
+      "name": "Otter.ai",
+      "url": "https://otter.ai/",
+      "comparison": "Otter 的助手会以机器人身份加入 Zoom、Teams、Meet 会议，免费版每月限 300 分钟；对开会时不希望出现第三方参与者的团队，Spiik 更合适。"
+     },
+     {
+      "name": "Notta",
+      "url": "https://www.notta.ai/",
+      "comparison": "Notta 强在多语言与团队协作，价格更高且有月度转写额度；Spiik 胜在无额度限制的录制与更低的订阅价。"
+     }
+    ]
+   }
+  },
+  {
+   "id": "minutenotes.app",
+   "name": "Minute：全部跑在本机的离线会议笔记",
+   "slug": "minute-offline-notetaker",
+   "description": "Mac 上的免费会议笔记工具，录音、转录、说话人识别与摘要全部在本机完成，音频和文字从不上传，通话里也不会多一个机器人。",
+   "url": "https://minutenotes.app/",
+   "homepage": "https://minutenotes.app/",
+   "type": "app",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/minutenotes.app_1794801856.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "离线 AI",
+    "隐私优先",
+    "会议记录",
+    "Mac 应用",
+    "本地大模型"
+   ],
+   "sourceChannels": [
+    "hackernews"
+   ],
+   "sourceUrl": "https://news.ycombinator.com/item?id=50510760",
+   "firstSeen": "2026-11-15T21:06:26+00:00",
+   "analysis": {
+    "targetAudience": "对数据外传敏感的开发团队、法务与医疗从业者，以及想要无订阅成本会议笔记的 Mac 用户。",
+    "useCases": [
+     "Zoom、Teams、Webex、Slack 通话自动检测并提示开始录制",
+     "用本机 Whisper 实时生成逐句转写，点时间戳回放原声",
+     "通话结束后由本地大模型自动写出摘要、决议与待办",
+     "对着某场会议提问，每个回答都附上原话时间点",
+     "把摘要直接写入 Obsidian 仓库或导出为 Markdown"
+    ],
+    "designIntent": "作者把「会议记录不该上传」当成第一原则，整条链路都用本机模型跑：whisper.cpp 转写、llama.cpp 摘要，用 Rust 编译成单机应用。网站上甚至列出完整的网络请求清单，把可视化隐私承诺做成产品卖点。",
+    "problemSolved": "云端会议助手意味着把客户对话、内部决策甚至医疗问诊送进第三方服务器，很多行业因此根本不能使用。Minute 让同一套功能在断网状态下依然可用，把合规障碍变成了可用性优势。",
+    "tags": [
+     "离线 AI",
+     "隐私优先",
+     "会议记录",
+     "Mac 应用",
+     "本地大模型"
+    ],
+    "score": 8,
+    "scoreReason": "本地全链路推理加免费无额度限制，在隐私敏感场景里几乎没有对手，网络请求清单这种工程诚实度也很讨喜。局限是 macOS 独占、依赖机器性能，且开源意味着商业壁垒不高。",
+    "competitors": [
+     {
+      "name": "Granola",
+      "url": "https://www.granola.ai/",
+      "comparison": "Granola 同样不派机器人入会，但转写与摘要走云端，免费版历史仅保留 30 天；Minute 全程本地且免费不限量。"
+     },
+     {
+      "name": "Otter.ai",
+      "url": "https://otter.ai/",
+      "comparison": "Otter 派机器人入会并云端处理，免费版每月 300 分钟；面向不允许第三方接触对话内容的场景时 Minute 是唯一可行选项。"
+     },
+     {
+      "name": "MacWhisper",
+      "url": "https://goodsnooze.gumroad.com/l/macwhisper",
+      "comparison": "MacWhisper 也做本机 Whisper 转写，但重心是文件转写，缺少会议自动检测与本地摘要问答这套流程。"
+     }
+    ]
+   }
+  },
+  {
+   "id": "memeo.app",
+   "name": "Memeo：一张照片生成对口型 AI 梗视频",
+   "slug": "memeo-ai-meme-video",
+   "description": "选一个场景模板、上传一张正脸照片，就能生成带夸张对口型表演的短视频梗，把宠物、朋友或自己的照片塞进「吵架现场」「咖啡馆翻车」「录音棚首秀」等剧本里。",
+   "url": "https://memeo.app/",
+   "homepage": "https://memeo.app/",
+   "type": "saas",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/memeo.app_1794801864.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "AI 视频",
+    "梗图生成",
+    "对口型",
+    "社交媒体",
+    "消费级创作"
+   ],
+   "sourceChannels": [
+    "hackernews"
+   ],
+   "sourceUrl": "https://news.ycombinator.com/item?id=50513619",
+   "firstSeen": "2026-11-16T03:18:30+00:00",
+   "analysis": {
+    "targetAudience": "想在群聊和 TikTok 上发整活视频的普通用户，尤其是宠物主人和朋友间互黑的活跃分享者。",
+    "useCases": [
+     "把朋友的照片放进卡车司机吵架模板做成剧情梗",
+     "上传两张宠物照，让猫狗在咖啡馆场景里演双人小品",
+     "生成双人对唱录音棚视频，给朋友组个虚拟组合",
+     "把老照片做成怀旧风格的动态短视频",
+     "给品牌社媒账号批量产出低成本的接梗素材"
+    ],
+    "designIntent": "产品把门槛压到「选场景 + 传照片」两步，刻意不暴露 prompt 和分镜编辑，因为目标用户要的是复制热门梗而不是创作新片。模板化的思路让模型能力被藏在一个个现成的笑话结构后面。",
+    "problemSolved": "过去要做这类对口型视频需要会剪辑、会写脚本，还要处理音轨同步；现在一张正脸照片加一个模板就能出片，把「有梗但不会做视频」的人群直接变成创作者，也顺带把 AI 视频能力的消费化门槛降到接近零。",
+    "tags": [
+     "AI 视频",
+     "梗图生成",
+     "对口型",
+     "社交媒体",
+     "消费级创作"
+    ],
+    "score": 7,
+    "scoreReason": "切口极小的消费级 AI 视频工具，模板化设计让非专业用户真能出片，传播性天然强。但同质化严重、依赖按次计费的点数体系，用户留存取决于模板持续更新的速度。",
+    "competitors": [
+     {
+      "name": "Viggle AI",
+      "url": "https://viggle.ai/",
+      "comparison": "Viggle 也做照片驱动的角色动画，但更偏跳舞与全身动作，Memeo 聚焦在对口型台词与固定梗场景上。"
+     },
+     {
+      "name": "HeyGen",
+      "url": "https://www.heygen.com/",
+      "comparison": "HeyGen 主打数字人口播与企业级营销视频，专业度更高但上手成本大；Memeo 面向的是三分钟出梗的娱乐场景。"
+     },
+     {
+      "name": "CapCut",
+      "url": "https://www.capcut.com/",
+      "comparison": "CapCut 有丰富模板与 AI 特效，但需要用户自己拼接素材和时间线，Memeo 把「一张照片」当成唯一输入。"
+     }
+    ]
+   }
+  },
+  {
+   "id": "producthunt.com/r/p/1305491",
+   "name": "VB Notes：用语义搜索你的 Markdown 笔记",
+   "slug": "vb-notes-semantic-markdown",
+   "description": "跨 iPhone、Android、Mac、Windows、Linux 的 Markdown 笔记应用，笔记就是你选定文件夹里的纯 .md 文件，语义搜索与可选的 AI 问答都在设备本地跑，无需账号。",
+   "url": "https://vbnotes.com/",
+   "homepage": "https://vbnotes.com/",
+   "type": "app",
+   "appStoreName": "VB Notes",
+   "appStoreUrl": "https://apps.apple.com/us/app/vb-notes/id6829176804",
+   "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1305491_1794801874.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "笔记应用",
+    "本地 AI",
+    "语义搜索",
+    "Markdown",
+    "隐私"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/vb-notes",
+   "firstSeen": "2026-11-05T13:41:38+00:00",
+   "analysis": {
+    "targetAudience": "在意笔记文件归属权、又不愿被账号与订阅绑住的 Obsidian、Bear 类笔记用户。",
+    "useCases": [
+     "用「我室友欠我多少钱」这类口语描述找回没写这些词的笔记",
+     "把 iCloud Drive 或 Syncthing 文件夹设成笔记库，手机与电脑共用一份文件",
+     "在手机上用嵌套标签整理工作与个人笔记",
+     "用 Mermaid 画流程图、用表格与待办清单管理项目",
+     "接入自己的 API key 或本地 Ollama 模型，对全部笔记做 AI 问答"
+    ],
+    "designIntent": "作者想要 Bear 那种顺手的编辑器，同时坚持笔记必须是纯文件、不锁进数据库，于是自己把编辑器、标签体系和语义检索拼出来，并让体积压到桌面端 14MB。AI 被设计成默认关闭的附加项，而不是产品的中心。",
+    "problemSolved": "多数带 AI 的笔记应用把内容存进自家云端并绑定账号，导入导出都是麻烦事。VB Notes 用「文件夹即数据库」解决了数据锁定，又通过设备端小模型让语义搜索在离线状态下可用，兼顾了便携与智能。",
+    "tags": [
+     "笔记应用",
+     "本地 AI",
+     "语义搜索",
+     "Markdown",
+     "隐私"
+    ],
+    "score": 8,
+    "scoreReason": "把语义检索做成本地离线可用、且保持纯 Markdown 存储，是对笔记工具最实诚的一种 AI 融合方式。开源与免费让信任成本极低，短板是纯个人项目、生态与同步体验仍需自己搭。",
+    "competitors": [
+     {
+      "name": "Obsidian",
+      "url": "https://obsidian.md/",
+      "comparison": "Obsidian 同样是本地 Markdown 加文件夹，但语义搜索与 AI 问答要靠第三方插件自己配；VB Notes 开箱即带设备端语义检索。"
+     },
+     {
+      "name": "Bear",
+      "url": "https://bear.app/",
+      "comparison": "Bear 编辑器体验一流，但笔记存在自家数据库里、跨到 Windows 与 Android 不可用；VB Notes 用纯文件换来了全平台可读。"
+     },
+     {
+      "name": "Mem",
+      "url": "https://get.mem.ai/",
+      "comparison": "Mem 把 AI 检索做成核心卖点，但依赖云端与订阅；VB Notes 的模型在本地、无需账号。"
+     }
+    ]
+   }
+  },
+  {
+   "id": "producthunt.com/r/p/1314364",
+   "name": "inread：把 newsletter 从收件箱里搬出来的私人阅读箱",
+   "slug": "inread-newsletter-reader",
+   "description": "给 newsletter、播客和 RSS 一个专属的 @inread.app 邮箱地址，内容进到一个去广告、去追踪像素的干净阅读器；Pro 版用 AI 生成三行摘要和七分钟音频简报，高亮内容可导出 Markdown 到 Obsidian / Notion。",
+   "url": "https://www.inread.app/",
+   "homepage": "https://www.inread.app/",
+   "type": "saas",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1314364_1794802506.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "阅读器",
+    "newsletter",
+    "AI 摘要",
+    "知识管理",
+    "隐私"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/inread-app",
+   "firstSeen": "2026-11-12T16:48:30+00:00",
+   "analysis": {
+    "targetAudience": "订阅了一堆优质 newsletter 却几乎没读、又想把干货沉淀进笔记系统的知识工作者。",
+    "useCases": [
+     "申请一个专属 @inread.app 地址，把所有 newsletter 订阅从主邮箱里挪走",
+     "用 AI 三行摘要先判断哪封值得整篇读完",
+     "通勤时听七分钟音频简报，把长文变成可听的内容",
+     "把读到的高亮导出 Markdown，直接进 Obsidian、Notion 或 Readwise",
+     "按工作、财经、科技等自动分类筛选，一键退订不再想看的来源"
+    ],
+    "designIntent": "作者的出发点很朴素：好东西被埋在工作邮件和账单之间，于是干脆给 newsletter 一个单独的地址和一个单独的空间。AI 被用在最省时的环节——先在开头给出三行结论，再决定要不要读全文；同时用去追踪像素的设计把「谁在读什么」这件事收回给读者。",
+    "problemSolved": "订阅越多、打开越少，是 newsletter 的普遍困境：主邮箱被淹没、阅读被追踪像素纪录、读完的干货散落在各处。inread 用独立邮箱地址解决入口问题，用 AI 摘要解决筛选成本，用 Markdown 导出解决沉淀问题。",
+    "tags": [
+     "阅读器",
+     "newsletter",
+     "AI 摘要",
+     "知识管理",
+     "隐私"
+    ],
+    "score": 7,
+    "scoreReason": "切口准确，独立地址 + 去追踪 + AI 摘要 + Markdown 导出四件事串成一条完整的阅读链路，对重度订阅者价值明显。AI 只是链条中的一环，免费版限 50 个来源、Pro 才能用摘要与音频，付费转化的说服力偏弱。",
+    "competitors": [
+     {
+      "name": "Feedly",
+      "url": "https://feedly.com/",
+      "comparison": "Feedly 强在 RSS 聚合与 AI 情报看板，但处理邮件形态的 newsletter 需要额外配置；inread 直接用专属邮箱地址接住邮件订阅。"
+     },
+     {
+      "name": "Readwise Reader",
+      "url": "https://readwise.io/read",
+      "comparison": "Readwise Reader 是更成熟的稍后读与高亮中枢，生态更深但订阅更贵；inread 更轻、更低价的 Pro 定价（€4.99/月）且专注于 newsletter 这一种内容。"
+     },
+     {
+      "name": "Meco",
+      "url": "https://meco.app/",
+      "comparison": "Meco 同样把 newsletter 集中成独立阅读空间，但缺少明确的去追踪与 Markdown 导出叙事；inread 把「内容带走」做成了核心卖点。"
+     }
+    ]
+   }
+  }
+ ]
+}
