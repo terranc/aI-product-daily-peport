@@ -1,0 +1,322 @@
+{
+ "date": "2026-11-17",
+ "generatedAt": "2026-11-17T04:08:22.115749+00:00",
+ "productCount": 5,
+ "products": [
+  {
+   "id": "producthunt.com/r/p/1318234",
+   "name": "LingoMic：说自己的语言，让对方听到他们的语言",
+   "slug": "lingomic",
+   "description": "一个 Chrome 扩展 + Windows 客户端，用你自己的声音把发言实时翻译成对方语言，通过虚拟麦克风播进 Google Meet、Zoom、Teams，对方无需装任何东西；同时给出双语字幕、会议纪要和「就这场会议提问」。",
+   "url": "https://lingomic.com/",
+   "homepage": "https://lingomic.com/",
+   "type": "app",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1318234_1794888171.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "实时翻译",
+    "会议助手",
+    "语音",
+    "Chrome 扩展",
+    "跨语言沟通"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/lingomic",
+   "firstSeen": "2026-11-15T18:10:36-08:00",
+   "analysis": {
+    "targetAudience": "在跨国团队、海外客户或外语会议里需要用母语把事说清楚，却不想被「打字翻译再念一遍」拖慢节奏的职场人。",
+    "useCases": [
+     "在 Zoom / Meet / Teams 会议里说中文，对方实时听到英文",
+     "给多语种参会者提供双语字幕，并标注每句话是谁说的",
+     "会后直接拿到带发言人标签的转写与会议纪要、待办事项",
+     "对会议内容直接提问，回顾错过的部分",
+     "把译文语气保留下来——开玩笑还是玩笑，报喜还像报喜"
+    ],
+    "designIntent": "作者显然认定「会议翻译不该是又一个会加入会议的机器人」：把翻译结果从你自己的麦克风播出去，只有说话的人需要装东西。另一端选择「保留你自己的音色、语速和情绪」，而不是让人听一段机器朗读，是为了让跨语言沟通不损失人和人之间的语气。",
+    "problemSolved": "实时翻译工具长期卡在三个地方：需要对方也安装客户端、需要机器人入会（企业环境常被禁）、以及译文生硬到听不出情绪。LingoMic 用虚拟麦克风绕开前两个问题，用语音克隆式的「本音翻译」解第三个，并顺手把字幕、纪要和问答打包进同一个扩展。",
+    "tags": [
+     "实时翻译",
+     "会议助手",
+     "语音",
+     "Chrome 扩展",
+     "跨语言沟通"
+    ],
+    "score": 9,
+    "scoreReason": "切口极准：不入会、对方零安装、保留音色，三件事正好是远程会议翻译最难受的三处。产品完成度高（双语字幕带发言人、纪要、Ask AI、桌面版可接管任意会议软件），定价也克制（$29/半年、$79 买断），BYO Gemini key 让边际成本几乎为零。扣一分在于中文、日文、韩文场景官方自己承认「本音翻译」不如译员音色，且目前没有 Mac 与手机客户端。",
+    "competitors": [
+     {
+      "name": "Wordly",
+      "url": "https://www.wordly.ai/",
+      "comparison": "Wordly 面向企业大会与 webinar，提供 20+ 语种的实时字幕与合成语音，通常需要主办方采购与机器人入会；LingoMic 是个人级扩展，翻译从自己的麦克风走，对方什么都不用装。"
+     },
+     {
+      "name": "Interprefy",
+      "url": "https://www.interprefy.com/",
+      "comparison": "Interprefy 走「远程人工译员 + 平台集成」的高端路线，按场次计费、质量上限高；LingoMic 是纯 AI、几十美元买断，适合高频日常会议而非正式国际会议。"
+     },
+     {
+      "name": "Zoom / Teams 内置翻译字幕",
+      "url": "https://www.zoom.com/",
+      "comparison": "平台自带字幕只翻译别人的话给你看，不能把你的声音翻给对方听；LingoMic 的核心价值恰恰是「我说我的语言，他们听到他们的」，并且跨平台通用。"
+     }
+    ]
+   }
+  },
+  {
+   "id": "producthunt.com/r/p/1318136",
+   "name": "LexiCAD：用大白话描述零件，直接拿到可打印的 CAD",
+   "slug": "lexicad",
+   "description": "对着输入框描述你要做的零件（也可拍照、给尺寸），AI 代理会生成真正的参数化 CAD 模型，自己量一遍对不对再修，最后给出 STEP/STL/3MF/DXF，可直接切片打印或激光切割。",
+   "url": "https://lexicad.com/",
+   "homepage": "https://lexicad.com/",
+   "type": "website",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1318136_1794888180.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "CAD",
+    "3D 打印",
+    "自然语言建模",
+    "创客",
+    "硬件设计"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/lexicad",
+   "firstSeen": "2026-11-15T15:41:27-08:00",
+   "analysis": {
+    "targetAudience": "有 3D 打印机或激光切割机、想做替换件和异形夹具，却卡在 CAD 学习曲线上的创客与 DIY 玩家。",
+    "useCases": [
+     "描述「做一个卡在百叶窗两片叶片上、把开口撑到 15cm 的猫窗夹」并拿到可打印模型",
+     "拍下坏掉的零件照片 + 卡尺尺寸，让 AI 复刻一个替代件",
+     "在生成的模型上直接改尺寸，不用回到聊天框重新描述",
+     "导出 STEP 进专业软件继续改，或导出 STL/3MF 直接切片",
+     "给激光切割做 DXF 图纸（如狗粮喂食器）"
+    ],
+    "designIntent": "创始人是 11 岁开始玩 3D 打印机的人，他把产品定位成「我当年希望有的那个工具」：不是让 AI 画一张好看的图，而是产出能测量、能改尺寸、能进切片软件的真参数化模型，并且允许把文件带走。",
+    "problemSolved": "自然语言生成 3D 模型的工具大多停在「概念网格」——不能量、不能改、不能直接打印。LexiCAD 的关键是生成后会拿结果去核对你提出的尺寸并自行修正，再给你可以直接打印或切割的工业格式，把「一句话 → 能用」这条路打通。",
+    "tags": [
+     "CAD",
+     "3D 打印",
+     "自然语言建模",
+     "创客",
+     "硬件设计"
+    ],
+    "score": 8,
+    "scoreReason": "把生成式 AI 用在了最需要「精确」而不是「好看」的场景，且用测量-修正闭环解决了几何准确度这个真问题；导出 STEP/STL/3MF/DXF 与可改尺寸的工作流，说明作者真懂创客怎么干活。扣分在覆盖面上——官方承认中小型装配体要多试几轮，复杂结构仍不行，且需要付费使用。",
+    "competitors": [
+     {
+      "name": "Leo AI",
+      "url": "https://www.getleo.ai/",
+      "comparison": "Leo AI 更偏企业级「工程知识大脑」与既有 CAD 环境的协同，只服务企业客户；LexiCAD 直接从描述生成模型，个人也能买。"
+     },
+     {
+      "name": "Zoo Text-to-CAD",
+      "url": "https://zoo.dev/",
+      "comparison": "Zoo 的 Text-to-CAD 同样做自然语言生成 CAD 并输出 STEP，偏开发者 API 与工程原型；LexiCAD 把测量校验、切片和激光切割做成了一体化的消费级界面。"
+     },
+     {
+      "name": "Autodesk Fusion 360",
+      "url": "https://www.autodesk.com/products/fusion-360/",
+      "comparison": "Fusion 360 是完整的专业 CAD/CAM 平台，精度与可控性远超生成式工具，但学习成本高；LexiCAD 牺牲上限换取「五分钟出第一个能打印的版本」。"
+     }
+    ]
+   }
+  },
+  {
+   "id": "producthunt.com/r/p/1315509",
+   "name": "Findy：靠记忆找文件，而不是靠文件名",
+   "slug": "findy",
+   "description": "Mac 应用，用一句人话找文件——「上周 gmail 来的 pdf」「超过 1GB 的视频」「希腊拍的照片」，还能搜索图片和 PDF 里的文字（截图里的 WiFi 密码、票据号），索引全部留在本机。",
+   "url": "https://getfindy.xyz/",
+   "homepage": "https://getfindy.xyz/",
+   "type": "app",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1315509_1794888186.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "文件搜索",
+    "macOS",
+    "本地 AI",
+    "OCR",
+    "隐私"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/findy-3",
+   "firstSeen": "2026-11-13T08:12:25-08:00",
+   "analysis": {
+    "targetAudience": "Mac 上文件堆到几百 GB、经常只记得「大概长什么样、从哪来的」却想不起文件名的知识工作者。",
+    "useCases": [
+     "搜「上周从 Gmail 下的 pdf」直接定位报销单",
+     "搜「超过 1GB 的视频」或「一个月前的截图」做清理",
+     "搜图片和截图里的文字，比如票据上的预订号、截图里的 WiFi 密码",
+     "按下载来源筛：Gmail、Slack、WeTransfer、ChatGPT 来的文件",
+     "用 ⇧⌥ Space 在任意应用里呼出搜索，把文件直接拖进邮件"
+    ],
+    "designIntent": "作者的前提是「人记住的是内容和来路，不是文件名」。所以 Findy 不做手工打标签，而是直接读你已有的文件夹、给文件补上类型/日期/尺寸/来源，并把「清理」做成同一套索引上的顺手功能，最后用「索引不离开这台 Mac」把隐私顾虑一次性回答掉。",
+    "problemSolved": "Finder 与 Spotlight 对文件名友好、对人的记忆不友好；文件积到一定量之后，用户真正的困难是「想不起来叫什么」。Findy 把人话解析成结构化筛选条件（类型 + 时间 + 大小 + 来源），再叠加图片/PDF 内的文字识别，把「找」这件事从猜文件名变成描述内容。",
+    "tags": [
+     "文件搜索",
+     "macOS",
+     "本地 AI",
+     "OCR",
+     "隐私"
+    ],
+    "score": 8,
+    "scoreReason": "非常典型的「AI 融进日常应用」：不是新工作流，而是把 Spotlight 本该做到的事用人话补齐，本地索引 + 一次买断（$11 早鸟）也符合 Mac 用户的偏好。扣分在于生态位拥挤（Raycast、HoudahSpot 都在做类似事），且需要 macOS 14+，只索引常用目录。",
+    "competitors": [
+     {
+      "name": "macOS Spotlight",
+      "url": "https://support.apple.com/guide/mac-help/mchlp1008/mac",
+      "comparison": "Spotlight 免费且系统级，但对「上周从 Gmail 来的 pdf」这类复合描述无能为力，也不读截图里的文字；Findy 把自然语言拆成结构化过滤并做 OCR。"
+     },
+     {
+      "name": "Raycast",
+      "url": "https://www.raycast.com/",
+      "comparison": "Raycast 是更强的启动器生态，文件搜索是其中一块且可扩展；Findy 专注文件这一件事，做了来源追踪、重复文件清理和大图预览。"
+     },
+     {
+      "name": "HoudahSpot",
+      "url": "https://www.houdah.com/houdahSpot/",
+      "comparison": "HoudahSpot 提供极细的条件组合与元数据搜索，但需要用户自己拼查询；Findy 让人直接说人话，代价是可控条件更少。"
+     }
+    ]
+   }
+  },
+  {
+   "id": "producthunt.com/r/p/1300172",
+   "name": "Newsology：同一件事，看看每一方是怎么讲的",
+   "slug": "newsology",
+   "description": "新闻聚合与对比阅读产品：把同一事件左右中各方的报道并排放在一起，给每篇文章一份偏倚拆解，标出只有一方在报的新闻，还告诉你每家媒体背后的所有者是谁。",
+   "url": "https://newsology.app/",
+   "homepage": "https://newsology.app/",
+   "type": "website",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1300172_1794888195.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "新闻聚合",
+    "媒体偏倚",
+    "信息素养",
+    "对比阅读",
+    "AI 摘要"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/newsology",
+   "firstSeen": "2026-10-31T23:39:07-07:00",
+   "analysis": {
+    "targetAudience": "不想被困在单一信息茧房里、愿意花几分钟看对立叙事的外语新闻读者（当前以英文媒体为主）。",
+    "useCases": [
+     "同一事件并排看左、中、右三家媒体的标题与措辞差异",
+     "看某个话题下「只有一方在报道」的条目，发现被忽略的事实",
+     "读一篇文章时查看它的 Bias Breakdown，区分事实陈述与观点",
+     "追一条持续多日的新闻时间线，观察报道口径如何变化",
+     "看自己最近读的东西平均偏倚如何，校准信息食谱"
+    ],
+    "designIntent": "作者的出发点是「两个人读同一件事却得出完全不同的结论，常常不是对事实有分歧，而是从来没看到同一批事实」。因此产品不是给结论，而是把各家报道摆在一起，并把偏倚评级的来源（人工维护的登记表）公开出来，尽量不引入新的不透明。",
+    "problemSolved": "算法推荐把读者锁进单一视角；已有的偏倚评级工具要么只给媒体打分而不并列原文，要么靠 AI 现算、口径漂移。Newsology 把「并排对比 + 单篇偏倚 + 所有者透明 + 持续跟踪」做成一套阅读界面，让判断权回到读者手里。",
+    "tags": [
+     "新闻聚合",
+     "媒体偏倚",
+     "信息素养",
+     "对比阅读",
+     "AI 摘要"
+    ],
+    "score": 7,
+    "scoreReason": "选题有社会价值，产品骨架也完整（对比报道、偏倚拆解、所有者透明、时间线、阅读偏倚报告），偏倚评级用人工登记表而非即时生成，可信度叙事立得住。扣分在两点：目前几乎只有英文媒体、地缘视角天然偏美国政治；必须先注册才能看内容，首屏体验有摩擦。",
+    "competitors": [
+     {
+      "name": "Ground News",
+      "url": "https://ground.news/",
+      "comparison": "Ground News 是这条赛道最成熟的产品，偏倚评级、盲区（blindspot）与事实性评分体系更完整；Newsology 更轻，强调每篇文章级别的偏倚拆解与「谁拥有这家媒体」。"
+     },
+     {
+      "name": "AllSides",
+      "url": "https://www.allsides.com/",
+      "comparison": "AllSides 以媒体偏倚评级与方法论著称，但阅读体验仍偏传统聚合；Newsology 把对比做成了产品界面本身。"
+     },
+     {
+      "name": "Google News",
+      "url": "https://news.google.com/",
+      "comparison": "Google News 覆盖最全、免费，但按个性化兴趣聚合，不告诉你各方的措辞差异，也不做偏倚拆解。"
+     }
+    ]
+   }
+  },
+  {
+   "id": "producthunt.com/r/p/1310845",
+   "name": "Flamigo：把潦草笔记变成设计好的幻灯片",
+   "slug": "flamigo",
+   "description": "贴进笔记、文档或一句想法，先给你一版大纲让你确认，再自动排版成设计过的幻灯片；单页可以并排比较几种设计方案，再用编辑器微调，支持导出 HTML（免费）与可编辑的 PowerPoint（Pro）。",
+   "url": "https://flamigo.ai/",
+   "homepage": "https://flamigo.ai/",
+   "type": "website",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1310845_1794888401.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "幻灯片",
+    "AI 排版",
+    "演示文稿",
+    "笔记转 PPT",
+    "效率工具"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/flamigo",
+   "firstSeen": "2026-11-09T18:54:22-08:00",
+   "analysis": {
+    "targetAudience": "一年只讲几次、不想为此订阅一整套设计工具的职场人——尤其是要把客户通话笔记或项目草稿快速变成能发出去的材料的人。",
+    "useCases": [
+     "把客户通话的潦草笔记贴进去，拿到可直接回传的回顾 deck",
+     "先审大纲再生成，避免 AI 自作主张改掉结论",
+     "单页并排比较几种排版，选最能把意思讲清楚的那一版",
+     "在编辑器里微调布局，或导出可编辑 PPTX 交给同事",
+     "导出 HTML 直接链接分享，不必让对方装软件"
+    ],
+    "designIntent": "作者刻意把一个环节做深：内容对了但版式不对时，让你在同一页上比几种设计再挑，而不是重新生成整份 deck。定价也照顾低频用户——不做月订阅，用不过期的积分，讲完一次演示不该被绑一年。",
+    "problemSolved": "AI 生成 PPT 的常见失败不是文字不好，而是版式不对、又只能整份重来；同时订阅制对一年讲三次的人不划算。Flamigo 用「先定大纲 + 单页多方案对比 + 积分制」把这两个摩擦点各自拆掉，并给出可编辑 PPTX 避免文件锁死。",
+    "tags": [
+     "幻灯片",
+     "AI 排版",
+     "演示文稿",
+     "笔记转 PPT",
+     "效率工具"
+    ],
+    "score": 7,
+    "scoreReason": "「先审大纲、单页比方案、积分不订阅」三个决定都对着真实痛点，导出可编辑 PPTX 也让产物能进入真实工作流。但赛道已经非常拥挤，Gamma、Tome 等成熟产品在模板与生态上领先，Flamigo 目前更像一个打磨得不错的单品，差异化叙事还不足以构成护城河。",
+    "competitors": [
+     {
+      "name": "Gamma",
+      "url": "https://gamma.app/",
+      "comparison": "Gamma 是这条赛道的头部产品，模板与网页发布生态更成熟、免费额度更宽松；Flamigo 的差异点在单页多方案对比与积分买断式付费。"
+     },
+     {
+      "name": "Beautiful.ai",
+      "url": "https://www.beautiful.ai/",
+      "comparison": "Beautiful.ai 以智能版式规则见长，偏团队订阅；Flamigo 更轻、更便宜，适合一年只讲几次的个人用户。"
+     },
+     {
+      "name": "Canva Presentations",
+      "url": "https://www.canva.com/presentations/",
+      "comparison": "Canva 胜在素材与协作生态，AI 只是其中一环；Flamigo 从笔记结构出发，先解决「讲什么」再解决「长什么样」。"
+     }
+    ]
+   }
+  }
+ ]
+}
