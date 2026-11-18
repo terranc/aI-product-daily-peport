@@ -52186,8 +52186,353 @@
     "featuredInDaily": 1,
     "featuredInWeekly": false
    }
+  },
+  {
+   "id": "producthunt.com/r/p/1316663",
+   "name": "Inbox Hero：替你写回信、把诈骗邮件关进隔离区的邮箱管家",
+   "slug": "inbox-hero",
+   "description": "接上你原有的 Gmail／Yahoo／iCloud／AOL 邮箱，用你本人的语气起草回信，只有你点发送才会发出去；同时把钓鱼和诈骗邮件移进隔离文件夹（不删除）并说清为什么可疑，还能给每封信打出「多大程度由 AI 写成」的分数。",
+   "url": "https://joininboxhero.com/",
+   "homepage": "https://joininboxhero.com/",
+   "type": "saas",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/producthunt_com_r_p_1316663_1794974622.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "邮件助手",
+    "反诈骗",
+    "AI 写作检测",
+    "收件箱整理",
+    "隐私安全"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/inbox-hero-2",
+   "firstSeen": "2026-11-14T09:42:02-08:00",
+   "cooldownExpiresAt": "2026-12-02T04:10:43.958973+00:00",
+   "analysis": {
+    "targetAudience": "每天要处理几十封邮件、还得替家里长辈挡诈骗邮件的普通上班族与自由职业者。",
+    "useCases": [
+     "打开一封客户邮件，直接拿到一段「像自己写的」回信草稿，改两个字就发",
+     "把「银行账户异常」「发票.pdf.exe」这类钓鱼信自动移进 Fraud 文件夹并给出判断依据",
+     "一键查看某封推销信有多大比例是 AI 写的，避免把群发模板当成人情往来",
+     " newsletters、购物通知、系统通知自动分到不同标签，主收件箱只留真人来信",
+     "把父母的 Gmail 挂到自己账号下（$5/月），远程替他们清掉诈骗邮件"
+    ],
+    "designIntent": "创始人的出发点非常具体：早晨被两件事吃掉——重复回信、以及判断「这封到底是不是我银行发来的」。所以 Inbox Hero 不做又一个聊天机器人，而是把 AI 放在「起草」和「判定」两个位置，并且坚持任何动作都可一键撤销、任何邮件都不自动删除、任何回信都必须人点发送。",
+    "problemSolved": "AI 让诈骗邮件不再有错别字，靠「读起来像不像骗子」已经失效；同时 AI 也让真人来信和群发推销长得一模一样。Inbox Hero 把判断依据换到骗子伪造不了的地方——发件域名的 SPF/DKIM/DMARC、按钮真实跳转地址、附件真实类型——再用 AI 判断意图；顺带解决「回信要花时间」这个最日常的痛点。",
+    "tags": [
+     "邮件助手",
+     "反诈骗",
+     "AI 写作检测",
+     "收件箱整理",
+     "隐私安全"
+    ],
+    "score": 9,
+    "scoreReason": "切口极准且完成度高：不换邮箱、不动原客户端、不删信、不代发，把「信任」这件事一条条写进产品规则里；OAuth 通过 Google 验证、独立 CASA 安全评估、$0.27/天定价都很务实。扣一分在于深度洞察（风险仪表、AI 分数）目前只在 Gmail 生效，Outlook 尚未支持。",
+    "competitors": [
+     {
+      "name": "SaneBox",
+      "url": "https://www.sanebox.com/",
+      "comparison": "SaneBox 用规则把次要邮件挪走，做了十年的「收件箱减负」，但完全没有诈骗判定和回信起草；Inbox Hero 把这两件事做成了主功能。"
+     },
+     {
+      "name": "Shortwave",
+      "url": "https://www.shortwave.com/",
+      "comparison": "Shortwave 是重写整个 Gmail 客户端的 AI 邮箱，功能更强也更重，需要你搬家；Inbox Hero 反过来——你继续用 Gmail，它只在后台加标签、加草稿。"
+     },
+     {
+      "name": "Gmail 内置 Gemini",
+      "url": "https://gemini.google.com/",
+      "comparison": "Google 自家的 AI 只做摘要和润色，不会把可疑邮件隔离，也不会告诉你这封信有多少是 AI 写的；且需要订阅 Google AI 套餐。"
+     }
+    ]
+   },
+   "metrics": {
+    "featuredInDaily": 1,
+    "featuredInWeekly": false,
+    "lastFeaturedDate": "2026-11-18"
+   }
+  },
+  {
+   "id": "producthunt.com/r/p/1319771",
+   "name": "Retriever：用一句话搜遍手机里的照片、文档和视频",
+   "slug": "retriever",
+   "description": "不用记文件名，直接描述你要找的东西——「三月份的电费单」「蛋糕出炉的那一瞬间」，它会翻出手机里的照片、截图、PDF/Word/Excel/PPT/电子书和视频，并直接打开到对应页面或那一秒。识别全部在手机本地完成（Google EmbeddingGemma 2 模型），无账号、无服务器、无广告。",
+   "url": "https://play.google.com/store/apps/details?id=app.retriever",
+   "homepage": "https://play.google.com/store/apps/details?id=app.retriever",
+   "type": "app",
+   "appStoreName": "Retriever: Photo & File Search",
+   "appStoreUrl": "https://play.google.com/store/apps/details?id=app.retriever",
+   "screenshotUrl": "assets/screenshots/producthunt_com_r_p_1319771_1794974629.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "本地 AI",
+    "手机搜索",
+    "照片管理",
+    "隐私优先",
+    "开源"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/retriever-4",
+   "firstSeen": "2026-11-16T21:04:07-08:00",
+   "cooldownExpiresAt": "2026-12-02T04:10:43.958973+00:00",
+   "analysis": {
+    "targetAudience": "手机里堆了几万张照片和文件、经常靠回忆「那张截图在哪」翻半天的普通用户，以及在意隐私不想把相册交给云端的人。",
+    "useCases": [
+     "输入「三月份的电费单」，直接打开那份 PDF 的对应页面",
+     "输入「蛋糕出炉的那一瞬间」，视频直接跳到那一秒开始播放",
+     "搜截图里的文字——别人发来的取件码、菜谱、账单",
+     "以图搜图：给一张照片，找出手机里所有相似的照片和重复文件",
+     "开启「人物」后，用某个人的名字找出他/她的全部照片（人脸只在本地识别）"
+    ],
+    "designIntent": "作者的原话是「我永远找不到手机里的东西」：图库只按时间和地点排序，不按内容。因此他把一个真正能理解内容的模型（EmbeddingGemma 2）塞进手机，宁可首次索引要下载 390MB、要慢慢扫，也不肯把照片上传云端——隐私是设计前提而不是卖点。",
+    "problemSolved": "手机相册的搜索一直是「日期 + 地点 + 人脸聚类」，一旦你需要的是「内容」——某句话、某个画面、某份文件的某页——就只能靠手指一路滑。Retriever 把多模态检索和 OCR 放到设备端，同时解决「找不到」和「不敢用云服务」两个问题。",
+    "tags": [
+     "本地 AI",
+     "手机搜索",
+     "照片管理",
+     "隐私优先",
+     "开源"
+    ],
+    "score": 8,
+    "scoreReason": "需求真实、方案干净：本地推理、开源（Apache-2.0）、不上传、结果直接定位到页码或视频时间点，是「AI 融进日常工具」的典型好例子。扣分在于首次索引确实慢（官方实测约 85→350 张/分钟）、需要 4GB 内存与 Android 11+，iPhone 版成熟度还不如 Android。",
+    "competitors": [
+     {
+      "name": "Google 相册",
+      "url": "https://photos.google.com/",
+      "comparison": "Google 相册的搜索很强，但依赖云端索引、只覆盖照片视频，搜不到 PDF/Word 内文，更不会跳到文档页码；Retriever 全本地且覆盖文档。"
+     },
+     {
+      "name": "Apple 照片可视化搜索",
+      "url": "https://www.apple.com/ios/photos/",
+      "comparison": "苹果的「可视化搜索」只认物体和场景，不能按一句话找文件，也不能定位到视频某一秒；且局限于照片 App 内。"
+     },
+     {
+      "name": "Memoria",
+      "url": "https://www.producthunt.com/products/memoria-5",
+      "comparison": "Memoria 同样是本地相册搜索（按文字、语音、人脸），更偏相册；Retriever 把文档与视频时间点也纳入，范围更宽。"
+     }
+    ]
+   },
+   "metrics": {
+    "featuredInDaily": 1,
+    "featuredInWeekly": false,
+    "lastFeaturedDate": "2026-11-18"
+   }
+  },
+  {
+   "id": "producthunt.com/r/p/1316705",
+   "name": "Ridian：围绕会议的一切——预约页、漏斗、CRM 和 AI 助理",
+   "slug": "ridian",
+   "description": "一个 AI 原生的日程套件：带付款、候补名单、团体与团队预约的预约页；预约前先问几个问题做线索筛选；所有预约和问卷答案自动落进内置 CRM；Google／Microsoft／iCloud 等日历与邮箱双向同步，Claude、ChatGPT 等可以直接通过 MCP 替你排会、发信，甚至可以给每个 agent 一个独立邮箱。",
+   "url": "https://getridian.com/",
+   "homepage": "https://getridian.com/",
+   "type": "saas",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/producthunt_com_r_p_1316705_1794974636.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "日程安排",
+    "AI 助理",
+    "CRM",
+    "会议管理",
+    "MCP"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/ridian",
+   "firstSeen": "2026-11-14T10:20:59-08:00",
+   "cooldownExpiresAt": "2026-12-02T04:10:43.958973+00:00",
+   "analysis": {
+    "targetAudience": "靠「约个电话」吃饭的自由职业者、顾问、教练与小团队——每天在预约页、日历、邮件和表格之间来回搬运信息的人。",
+    "useCases": [
+     "搭一个 /your-name 的预约页，支持一对一、团体课、团队轮询和候补名单，并直接收款",
+     "在预约表单前加几个筛选问题，把高意向线索直接送进对应会议，其余进候补或婉拒",
+     "让 Claude 或 ChatGPT 通过 MCP 帮你建预约页、找空档、发邀请、改会议时间",
+     "把所有日历（Google／Microsoft／iCloud／GMX 等）双向同步，只暴露「忙碌」或完整详情",
+     "给 AI 助理一个专属邮箱，让它代你收发会议相关邮件，改动前先给你预览确认"
+    ],
+    "designIntent": "创始人反复强调的一句话是「好软件应该设置一次然后忘掉它」。所以 Ridian 不是把 AI 按钮贴在 Calendly 上，而是把 AI 放在控制层：agent 通过 MCP 操作真实数据，但每一次改动默认「先问再做」，用预览卡片确认。",
+    "problemSolved": "会议这件事的碎，不在「选时间」，而在它前后的一整条链路：线索筛选、预约、付款、进 CRM、日历同步、邮件来回。传统做法要拼 4-5 个工具并手动搬运，Ridian 把这条链路收进一个产品，并用 agent 代替搬运。",
+    "tags": [
+     "日程安排",
+     "AI 助理",
+     "CRM",
+     "会议管理",
+     "MCP"
+    ],
+    "score": 8,
+    "scoreReason": "把「会议周边」当成一个完整链路来做，漏斗+CRM+日历同步+agent 邮箱的组合确实少见，且 agent 侧权限设计克制（默认改动前确认、可限定邮箱与日历范围）。扣分在于功能面铺得很宽导致学习成本上升、Zoom 集成还在审核中，偏专业用户而非纯消费级。",
+    "competitors": [
+     {
+      "name": "Calendly",
+      "url": "https://calendly.com/",
+      "comparison": "Calendly 是预约页的事实标准，付款与团队轮询都成熟，但没有线索筛选漏斗、没有内置 CRM、也没有可被 agent 操作的 MCP 层。"
+     },
+     {
+      "name": "Cal.com",
+      "url": "https://cal.com/",
+      "comparison": "Cal.com 开源、可自托管、扩展性强，更适合愿意自己部署的团队；Ridian 走开箱即用 + 德国托管 GDPR 合规路线，并额外提供内置 CRM 与邮件 agent。"
+     },
+     {
+      "name": "SavvyCal",
+      "url": "https://savvycal.com/",
+      "comparison": "SavvyCal 以「对方日历叠加」的体验见长，定位轻量个人预约；Ridian 面向有线索、有团队、要收款和 CRM 的场景。"
+     }
+    ]
+   },
+   "metrics": {
+    "featuredInDaily": 1,
+    "featuredInWeekly": false,
+    "lastFeaturedDate": "2026-11-18"
+   }
+  },
+  {
+   "id": "producthunt.com/r/p/1319132",
+   "name": "WispOS：说一句话就做出能玩的游戏，还带一个收你作品的商店",
+   "slug": "wispos",
+   "description": "对着 Wisper 说「做个躲陨石的射击游戏」，它调用你自己已有的 AI（推荐 Claude）把游戏或小应用做出来，立刻就能玩；不满意继续说改成什么样。成品打成一个 .wapp 文件放在你自己电脑上，可以私下发给朋友，也可以提交到 WispOS 应用商店让别人玩。免费，Mac／Windows／iPhone／Android 都有。",
+   "url": "https://wisp-os.com/",
+   "homepage": "https://wisp-os.com/",
+   "type": "app",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/producthunt_com_r_p_1319132_1794974643.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "AI 做游戏",
+    "零代码",
+    "应用商店",
+    "本地文件",
+    "创作工具"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/wispos",
+   "firstSeen": "2026-11-16T08:56:27-08:00",
+   "cooldownExpiresAt": "2026-12-02T04:10:43.958973+00:00",
+   "analysis": {
+    "targetAudience": "有游戏点子但从没学过编程的普通玩家、想给孩子做点小工具的家长，以及想低成本试水小游戏的自媒体创作者。",
+    "useCases": [
+     "描述一个玩法（躲陨石、跳台、三消），几分钟内拿到可玩的成品并反复提改动",
+     "把 Unity／Unreal／Godot 的网页构建版游戏导入，用同一套商店流程发布",
+     "做一个自用的小工具或打卡卡片，像普通 App 一样从桌面打开",
+     "把成品生成 .wapp 文件私发给朋友，对方装上就能玩",
+     "提交到 WispOS 应用商店，未来通过内购／付费应用分成（商店抽 15%）"
+    ],
+    "designIntent": "作者想成为「下一代游戏制作者起步的地方」：第一款 AI 做的游戏粗糙没关系，先放进商店，然后看着你慢慢变强。产品形态上刻意反平台锁定——创作物是可移植的普通文件，AI 用你自己已有的订阅，所以 WispOS 本身免费。",
+    "problemSolved": "AI 生成游戏一直卡在两处：生成完的东西散落在聊天窗口里，跑不起来也带不走；以及每次生成都要为平台的 token 付费。WispOS 把「项目文件夹 + manifest + 商店审核规范」做成一门机器可读的构建指南，让任何 AI 都能产出可直接运行的包，并把算力成本转回用户自己的 AI 订阅。",
+    "tags": [
+     "AI 做游戏",
+     "零代码",
+     "应用商店",
+     "本地文件",
+     "创作工具"
+    ],
+    "score": 7,
+    "scoreReason": "「AI 生成 + 可发布的应用商店 + 文件可带走」这个闭环有想象力，把 BYO AI 做成免费模式也很聪明。但硬门槛仍在：要自己准备 Claude/Codex 这类付费 AI 才能顺畅出活，商店刚上线、作品质量参差，付费与内购还只是测试态，适合尝鲜而非日常生产。",
+    "competitors": [
+     {
+      "name": "Claude Artifacts",
+      "url": "https://claude.ai/",
+      "comparison": "Artifacts 也能一句话生成可玩的小页面，但成品活在聊天窗口里，不能打包成文件、不能上架，也不能换成别的 AI 继续做。"
+     },
+     {
+      "name": "Rosebud AI",
+      "url": "https://lab.rosebud.ai/",
+      "comparison": "Rosebud 专做网页小游戏生成并有社区发布，AI 与运行环境都绑在它的平台与额度上；WispOS 反过来把 AI 换成你自己的、把成品交成普通文件。"
+     },
+     {
+      "name": "itch.io",
+      "url": "https://itch.io/",
+      "comparison": "itch.io 是独立游戏发布的老牌商店，但没有任何生成能力，需要你自己会做；WispOS 把生成与上架放在同一条流水线上。"
+     }
+    ]
+   },
+   "metrics": {
+    "featuredInDaily": 1,
+    "featuredInWeekly": false,
+    "lastFeaturedDate": "2026-11-18"
+   }
+  },
+  {
+   "id": "directorslookbook.app",
+   "name": "Director's Lookbook：798 种「有名字的风格」，把感觉翻译成可用的 AI 提示词",
+   "slug": "directors-lookbook",
+   "description": "说一句感觉（比如「雨夜咖啡馆」「Y2K」「暗黑学院风」），它给你发一手由胶片型号、镜头、布光、调色、字体和音乐风格组成的「牌」，再把这几张牌拼成可直接粘贴进 ChatGPT、Midjourney、Runway、Kling、Suno 的提示词。免费、免注册，还提供只读 MCP 接口让 Claude 等助手直接调用。",
+   "url": "https://directorslookbook.app/",
+   "homepage": "https://directorslookbook.app/",
+   "type": "website",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/directorslookbook_app_1794974977.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "提示词库",
+    "视觉风格",
+    "AI 影像",
+    "影视美学",
+    "MCP"
+   ],
+   "sourceChannels": [
+    "hackernews"
+   ],
+   "sourceUrl": "https://news.ycombinator.com/item?id=50541419",
+   "firstSeen": "2026-11-18T03:16:28+00:00",
+   "cooldownExpiresAt": "2026-12-02T04:10:43.958973+00:00",
+   "analysis": {
+    "targetAudience": "用 AI 做图、做视频、做音乐的内容创作者与独立开发者——脑子里有画面，但说不出该用哪个胶片、哪种布光的人。",
+    "useCases": [
+     "描述一种情绪，拿到一套胶片／镜头／布光／调色的组合，并生成对应图片与视频提示词",
+     "为同一支短片生成统一的「风格手牌」，让每一集画面保持一致",
+     "给产品图、海报、游戏 key art 分别取不同比例的提示词（16:9 主视觉、2:3 竖版）",
+     "用 Suno 提示词直接生成一段带配器说明的配乐风格",
+     "把 Lookbook 作为 MCP 接进 Claude，让 AI 自己「抽牌」并写出成套提示词"
+    ],
+    "designIntent": "作者是两个做 AI 影像的小工作室，缺词是他们最真实的痛点：AI 能力越来越强，但描述美学的词汇量跟不上。于是他们反过来做了一本「有名字的技法词典」——每张卡只命名技法、绝不使用在世艺术家名字，保证提示词在任何模型里都能独立生效。",
+    "problemSolved": "AI 创作的门槛已经从「模型会不会画」变成「你会不会描述」。零散的 prompt 分享站给的是别人的成品提示词，学不到结构；Director's Lookbook 把风格拆成可组合的零件（胶片、镜头、光、色、字、乐），并给出「这个不是什么」的边界说明，让非专业用户也能稳定复现某种质感。",
+    "tags": [
+     "提示词库",
+     "视觉风格",
+     "AI 影像",
+     "影视美学",
+     "MCP"
+    ],
+    "score": 7,
+    "scoreReason": "把「审美词汇」工程化成 798 张可组合的卡，辅以示例帧与边界说明，这个思路比堆 prompt 模板站高一个层次；免费、无账号、只读 MCP 让接入成本几乎为零。扣分在于它本质是提示词工具，仍要求用户自己接图像/视频模型，且中文语境下的风格命名覆盖不足。",
+    "competitors": [
+     {
+      "name": "PromptHero",
+      "url": "https://prompthero.com/",
+      "comparison": "PromptHero 是最大的提示词分享社区，靠搜别人的成品提示词；Lookbook 给的是可组合的风格零件与命名技法，能自己拼，不依赖别人写好的整段。"
+     },
+     {
+      "name": "Lexica",
+      "url": "https://lexica.art/",
+      "comparison": "Lexica 主打 Stable Diffusion 图片检索 + 反查提示词，偏「看图找词」；Lookbook 从感觉出发、覆盖影像与音乐，并明确禁止使用艺术家名字。"
+     },
+     {
+      "name": "Midjourney 风格参考",
+      "url": "https://www.midjourney.com/",
+      "comparison": "Midjourney 的 --sref 靠给参考图来定风格，只在自己平台内有效；Lookbook 产出的是纯文字，可跨 ChatGPT、Runway、Kling、Suno 使用。"
+     }
+    ]
+   },
+   "metrics": {
+    "featuredInDaily": 1,
+    "featuredInWeekly": false,
+    "lastFeaturedDate": "2026-11-18"
+   }
   }
  ],
- "lastUpdated": "2026-11-17",
+ "lastUpdated": "2026-11-18T04:10:43.958973+00:00",
  "totalProducts": 817
 }
