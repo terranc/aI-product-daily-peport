@@ -1,0 +1,287 @@
+{
+  "date": "2026-11-19",
+  "generatedAt": "2026-11-19T04:12:11.312959+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "producthunt.com/r/p/1316478",
+      "name": "Bluedot 通话笔记",
+      "slug": "bluedot-phone-calls",
+      "description": "Bluedot 新增了电话通话能力：在 App 内置拨号盘直接外呼，挂断后录音、逐字转写和 AI 摘要自动生成，通话记录与线上会议、线下面对面会议统一收进同一个会议库，并可一键同步到 HubSpot、Salesforce 等 CRM。",
+      "url": "https://www.bluedothq.com/",
+      "homepage": "https://www.bluedothq.com/",
+      "type": "app",
+      "tags": [
+        "通话录音",
+        "AI 会议笔记",
+        "自动摘要",
+        "CRM 同步",
+        "销售工具"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/bluedot-2",
+      "firstSeen": "2026-11-14T14:21:32+00:00",
+      "analysis": {
+        "targetAudience": "靠电话维系客户的销售、客服、招聘和咨询顾问等商务人群",
+        "useCases": [
+          "在 App 里直接外呼客户，通话结束即得到转写与摘要",
+          "把电话内容自动写进 HubSpot/Salesforce，省掉手工补录",
+          "用语音记忆自动分辨常联系人的声音并标注说话人",
+          "开会前回看上次的电话结论，快速进入状态",
+          "把电话、线上会议、线下见面三处记录放进同一个会议库统一检索"
+        ],
+        "designIntent": "Bluedot 一直主张「不派机器人进会议」，这次把同一思路延伸到电话上：让录音和记笔记发生在用户本来就要做的动作里。用户只要像平常一样拨号，剩下的转写、归档、同步系统自动完成。",
+        "problemSolved": "电话沟通是所有销售场景里最容易丢信息的一环——要么手动记，要么记完再抄进 CRM。Bluedot 把外呼、录音、转写、摘要、CRM 回写串成一条链路，同时用可选的录音告知提示降低合规风险。",
+        "score": 8,
+        "scoreReason": "在已经很拥挤的会议笔记赛道找到一个还没被做透的缺口：手机原生通话。跨 iOS/Android/网页三端支持、付费套餐内不限时长，加上 CRM 直连，落地价值明确。扣分点是仅支持外呼、来电无法录制。",
+        "competitors": [
+          {
+            "name": "Granola",
+            "url": "https://www.granola.ai/",
+            "comparison": "同样主打无机器人入会的会议笔记，体验更偏 Mac 桌面，但没有原生电话外呼与录音能力。"
+          },
+          {
+            "name": "Otter.ai",
+            "url": "https://otter.ai/",
+            "comparison": "老牌转写工具，会议与录音覆盖广，但需要额外通话录音方案，CRM 回写也不如 Bluedot 直接。"
+          },
+          {
+            "name": "Fireflies.ai",
+            "url": "https://fireflies.ai/",
+            "comparison": "强在会议机器人与团队分析，代价是要把机器人拉进会议；电话场景基本缺位。"
+          }
+        ]
+      },
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1316478.png",
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null
+    },
+    {
+      "id": "walkthisplan.com",
+      "name": "WalkThisPlan（户型图变 360° 虚拟样板间）",
+      "slug": "walkthisplan",
+      "description": "把平面户型图自动重建成手机可漫游的 360° 虚拟样板间，买家在手机上就能「走」进还没盖出来的房子。官方称 48 小时交付，可先用自己的一张户型图免费做一个演示房间。",
+      "url": "https://walkthisplan.com/",
+      "homepage": "https://walkthisplan.com/",
+      "type": "website",
+      "tags": [
+        "虚拟看房",
+        "户型图",
+        "3D 重建",
+        "房产营销",
+        "家装"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=50554399",
+      "firstSeen": "2026-11-19T00:32:32+00:00",
+      "analysis": {
+        "targetAudience": "卖期房的中小开发商、房产经纪、装修与全屋定制公司的销售团队",
+        "useCases": [
+          "把在建项目的平面图变成可漫游样板间，投放线上广告获取线索",
+          "异地客户不用到场就能「走」一遍户型，减少无效带看",
+          "装修方案完工前先给业主做沉浸式预览",
+          "同一套户型批量生成多套软装风格供选择",
+          "把 360° 链接嵌进楼盘落地页或微信分享"
+        ],
+        "designIntent": "作者做的是「先卖后建」这件事的基础设施：买房决策卡在看不见实景，而传统 3D 建模报价高、周期以周计。WalkThisPlan 想用 AI 直接从既有户型图生成可漫游模型，把门槛压到一张图纸和 48 小时。",
+        "problemSolved": "期房销售只能靠效果图和沙盘说服客户，客户难以建立空间感；定制 3D 样板间又贵又慢，小项目根本用不起。它把「户型图 → 可漫游 3D」这段做成了标准化服务。",
+        "score": 8,
+        "scoreReason": "切口很具体、交付指标清晰（48 小时、免费演示房间），对中小开发商是能直接算 ROI 的工具。风险在于户型图质量参差会直接影响重建效果，且国内已有酷家乐等成熟方案，差异化要靠价格与速度。",
+        "competitors": [
+          {
+            "name": "Matterport",
+            "url": "https://matterport.com/",
+            "comparison": "行业标准的实景 3D 扫描，精度高但必须到现场扫已建成的房子，做不了期房。"
+          },
+          {
+            "name": "酷家乐",
+            "url": "https://www.kujiale.com/",
+            "comparison": "国内家装设计主力工具，渲染质量强、生态成熟，但偏设计方案输出，交付周期和学习成本都更高。"
+          },
+          {
+            "name": "Polycam",
+            "url": "https://poly.cam/",
+            "comparison": "手机扫描建模的通用工具，便宜灵活，但需要现场采集，无法从平面图直接生成。"
+          }
+        ]
+      },
+      "screenshotUrl": "assets/screenshots/walkthisplan.com.png",
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null
+    },
+    {
+      "id": "v2ex.com/t/1258218",
+      "name": "TextRemover.video（AI 视频去字幕）",
+      "slug": "textremover-video",
+      "description": "在线擦除视频里的硬字幕和文字覆盖层：不做模糊遮挡，而是用 AI 把文字底下的画面补回来，保持原分辨率导出。注册后送 30 秒免费额度，无需信用卡。",
+      "url": "https://textremover.video/",
+      "homepage": "https://textremover.video/",
+      "type": "website",
+      "tags": [
+        "视频编辑",
+        "字幕擦除",
+        "AI 修复",
+        "二次创作",
+        "在线工具"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "sourceUrl": "https://www.v2ex.com/t/1258218",
+      "firstSeen": "2026-11-19T01:07:17+00:00",
+      "analysis": {
+        "targetAudience": "做影视解说、搬运二创的短视频作者，以及需要清理素材水印字幕的剪辑人员",
+        "useCases": [
+          "去掉外语片自带的硬字幕，重新配中文字幕",
+          "擦掉素材里的台标、账号水印和压字",
+          "把带字幕的旧视频清理成干净素材再二次剪辑",
+          "处理客户提供的带角标宣传片",
+          "批量整理下载素材里的文字遮挡"
+        ],
+        "designIntent": "作者自己剪片时被硬字幕卡住：裁切会丢画面，模糊挡不住还难看。于是做了一个「文字层识别 + 内容补全」的在线工具，目标是把这件事做成上传即完成，而不是让用户去学 AE 的修补流程。",
+        "problemSolved": "硬字幕烧进画面后无法用普通剪辑软件去除，裁切和模糊都会破坏构图。它用 AI 重建文字区域的画面，让素材可以被干净地复用。",
+        "score": 7,
+        "scoreReason": "需求真实且高频，二创群体对这类工具付费意愿明确，网页端零安装降低了使用门槛。扣分在赛道已有不少玩家，效果上限取决于补全质量，且免费额度只有 30 秒。",
+        "competitors": [
+          {
+            "name": "Vmake AI",
+            "url": "https://vmake.ai/",
+            "comparison": "同类在线视频清理工具，功能更全（含去水印、换背景），但免费额度与导出限制更多。"
+          },
+          {
+            "name": "Runway",
+            "url": "https://runwayml.com/",
+            "comparison": "生成式视频平台，Inpainting 能力强，但按积分计费、操作链路偏专业，不适合快速批量处理。"
+          },
+          {
+            "name": "剪映",
+            "url": "https://www.capcut.cn/",
+            "comparison": "国民级剪辑工具，已有智能消除功能，胜在免费与生态；但硬字幕大面积擦除的效果不如专用模型。"
+          }
+        ]
+      },
+      "screenshotUrl": "assets/screenshots/v2ex.com_t_1258218.png",
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null
+    },
+    {
+      "id": "v2ex.com/t/1258204",
+      "name": "律织（一点成诗）",
+      "slug": "verseloom",
+      "description": "一个点一下就能出诗的小站：写五言或七言律诗，自动照顾平仄、对仗和押韵，点击即刻成篇，适合随手把玩或当写作灵感起点。",
+      "url": "https://verseloom.section.trade",
+      "homepage": "https://verseloom.section.trade",
+      "type": "website",
+      "tags": [
+        "古诗词",
+        "AI 写作",
+        "中文创作",
+        "趣味工具",
+        "文化"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "sourceUrl": "https://www.v2ex.com/t/1258204",
+      "firstSeen": "2026-11-19T01:06:38+00:00",
+      "analysis": {
+        "targetAudience": "喜欢古诗词的普通用户、需要写应景诗的学生与语文老师、内容创作者",
+        "useCases": [
+          "聚会、节日时随手生成一首应景律诗",
+          "给孩子示范律诗的格律与对仗长什么样",
+          "给自己的文章、视频配一首原创题诗",
+          "当写作练习的对照样本，再自行修改",
+          "纯粹当消遣玩，一次点一首"
+        ],
+        "designIntent": "作者把「格律」当成产品的核心约束而不是障碍：不是让模型随便写几句押韵的话，而是按五言/七言律诗的平仄、押韵、对仗规则成篇。界面也刻意做得极简，一次点击一首。",
+        "problemSolved": "大模型写古诗常出现格律不对、对仗不工的问题，普通人又没能力校验。这个站点把格律规则固化进生成流程，用户不用懂诗也能得到形式上说得过去的一首。",
+        "score": 6,
+        "scoreReason": "定位轻巧、审美在线，把「格律正确」做成卖点是有辨识度的做法。但用户群窄、缺少留存与付费路径，更像一个有想法的个人作品而非可持续产品。",
+        "competitors": [
+          {
+            "name": "ChatGPT",
+            "url": "https://chatgpt.com/",
+            "comparison": "通用对话模型写诗自由度高，但格律错误率高，需要用户自己提示和校验。"
+          },
+          {
+            "name": "豆包",
+            "url": "https://www.doubao.com/",
+            "comparison": "中文语感好、免费易得，写古体诗同样存在对仗与平仄不稳的问题。"
+          },
+          {
+            "name": "古诗文网",
+            "url": "https://www.gushiwen.cn/",
+            "comparison": "权威的古诗检索与赏析库，不提供生成能力，可以作为格律校验的参照。"
+          }
+        ]
+      },
+      "screenshotUrl": "assets/screenshots/v2ex.com_t_1258204.png",
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null
+    },
+    {
+      "id": "puzzle.cloudish.app",
+      "name": "Puzzle Solver（拼图扫描求解）",
+      "slug": "puzzle-solver",
+      "description": "用手机摄像头一次扫描一块拼图：程序描出轮廓、量出四条边，算出哪块和哪块该拼在一起，专治「天空全是蓝的」这类高难度拼图。网页端使用，无需装 App，照片不上传，只保存轮廓。",
+      "url": "https://puzzle.cloudish.app/",
+      "homepage": "https://puzzle.cloudish.app/",
+      "type": "website",
+      "tags": [
+        "拼图",
+        "计算机视觉",
+        "手机网页",
+        "家庭娱乐",
+        "开源"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=50553969",
+      "firstSeen": "2026-11-18T23:45:16+00:00",
+      "analysis": {
+        "targetAudience": "家里囤着上千片高难度拼图的拼图爱好者，以及陪孩子拼图拼到崩溃的家长",
+        "useCases": [
+          "把上千片的星空、油画拼图逐块扫进手机，让程序提示拼合关系",
+          "卡在纯色区域时判断两块边缘是否真的吻合",
+          "先把边框全部筛出来，省掉手工翻找",
+          "多人一起拼时快速分配「这块应该在哪」",
+          "作为长期项目分批扫描、断点续拼"
+        ],
+        "designIntent": "作者针对的是拼图最反人类的环节：靠肉眼比对边缘形状。既然手机已经能拍出毫米级细节，就把「描边 + 边缘匹配」交给算法，让人只负责最后按提示放下去。",
+        "problemSolved": "高难度拼图里大量色块雷同，人眼几乎无法靠颜色判断，只能反复试错。它用轮廓追踪测出每块的四条边并计算匹配度，把试错成本从人转移到算法。",
+        "score": 6,
+        "scoreReason": "需求非常具体、方法也诚恳（一张打印卡片做扫描基准、只存轮廓保护隐私）。但使用流程偏重——几百块要一块块扫，属于重度玩家才会坚持的仪式感工具。开源与免费是加分项，变现路径几乎没有。",
+        "competitors": [
+          {
+            "name": "Google Lens",
+            "url": "https://lens.google.com/",
+            "comparison": "通用识图，能认出物体和文字，但不理解拼图块之间的边缘匹配关系。"
+          },
+          {
+            "name": "Jigsaw Explorer",
+            "url": "https://www.jigsawexplorer.com/",
+            "comparison": "优质的在线拼图游戏站，解决的是「线上玩拼图」，对实体拼图无能为力。"
+          },
+          {
+            "name": "Puzzle Scanner 类 App",
+            "url": "https://apps.apple.com/",
+            "comparison": "应用商店有若干扫描拼图的尝试，多数依赖拍照比对图案，缺少基于边缘几何的求解。"
+          }
+        ]
+      },
+      "screenshotUrl": "assets/screenshots/puzzle.cloudish.app.png",
+      "appStoreScreenshots": [],
+      "appStoreName": null,
+      "appStoreUrl": null
+    }
+  ]
+}
