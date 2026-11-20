@@ -1,0 +1,322 @@
+{
+  "date": "2026-11-20",
+  "generatedAt": "2026-11-20T04:04:34.764709+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "producthunt.com/r/p/1321847",
+      "name": "Room AI（对话式 AI 室内设计）",
+      "slug": "room-ai",
+      "description": "上传一张房间照片，像跟设计师说话一样提出改动（换个沙发、把橱柜刷成墨绿），每句话都会生成一张只改了这一处、其余保持原样的新照片，所有版本留存可对比。",
+      "url": "https://roomai.com",
+      "homepage": "https://roomai.com",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "室内设计",
+        "家居改造",
+        "图像生成",
+        "对话式编辑",
+        "装修"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/room-ai-2",
+      "firstSeen": "2026-11-18T15:37:31Z",
+      "analysis": {
+        "targetAudience": "准备装修或布置出租屋的普通家庭、以及需要快速出方案给客户的室内设计师和房产中介",
+        "useCases": [
+          "装修前先在自己房间照片上试不同风格和配色",
+          "只换一件家具看效果，不推翻已经满意的地方",
+          "把设计师手绘草图渲染成照片级效果图",
+          "把空房布置成样板间照片用于房源挂牌",
+          "对比多个版本方案后和伴侣/客户拍板"
+        ],
+        "designIntent": "作者 Marc 发现用户早年就在提示框里像聊天一样连续提要求（先把沙发移到窗边、地板别动），但当时的图像模型听不懂指令，只能整张重画，体验割裂。于是他把产品重做成「一次一改」的对话：每句话只改一处，其余墙面、窗户、机位都保持不变。",
+        "problemSolved": "传统 AI 装修工具一次生成整张图，用户满意的部分也会被随机重画，越改越乱。Room AI 把改动限制在用户明确说的那一处，并保留历史版本，让「改到满意为止」这件事真正可行。",
+        "tags": [
+          "AI 生图",
+          "室内设计",
+          "增量编辑",
+          "家装决策"
+        ],
+        "score": 8,
+        "scoreReason": "切中家装里最真实的痛点——不敢下手、改一次毁全部，增量编辑 + 版本对比是明显好过同类一键换风格的设计。付费门槛清晰（$29/月起，可免费试自己房间），已有 40 万+ 使用者的老产品重做，落地能力可靠。",
+        "competitors": [
+          {
+            "name": "REimagine Home",
+            "url": "https://www.reimaginehome.ai",
+            "comparison": "同样做 AI 室内重设计，但偏向一次生成多种风格方案，缺少连续对话式的单点修改与版本对照。"
+          },
+          {
+            "name": "Collov AI",
+            "url": "https://collov.ai",
+            "comparison": "面向设计师和房产商批量出图，工作流偏专业，个人用户上手成本更高、价格也更贵。"
+          },
+          {
+            "name": "IKEA Kreativ",
+            "url": "https://www.ikea.com/us/en/kreativ/",
+            "comparison": "免费且能 3D 布景，但只能用 IKEA 自家家具，无法自由改风格材质。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1226465",
+      "name": "Ableten（群体 AI 旅行规划）",
+      "slug": "ableten",
+      "description": "把群里散落的攻略链接、截图、聊天记录丢进去，自动识别出每一个地点并落到地图上，再让 AI 按天排出可拖拽调整的行程，同行的人都能在同一个地图上投票和加注。",
+      "url": "https://ableten.xyz",
+      "homepage": "https://ableten.xyz",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "旅行规划",
+        "多人协作",
+        "地图",
+        "攻略整理",
+        "AI 助手"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/ableten-source-library",
+      "firstSeen": "2026-11-19T07:21:46Z",
+      "analysis": {
+        "targetAudience": "习惯被朋友推举当「行程规划的那个人」的旅行组织者，以及一起出游的情侣、家庭和小团体",
+        "useCases": [
+          "把小红书/Time Out 链接和群聊截图统一收进一次旅行",
+          "让 AI 按「新宿附近的拉面」「里斯本一个周六」这种口语要求给建议",
+          "把建议地点拖进共享行程，自动连成一天可行路线",
+          "同行的人在同一个地图上投票选去处",
+          "把自己做好的行程发布成可付费复制的攻略"
+        ],
+        "designIntent": "团队发现规划群体出行时，推荐散落在群聊、截图和各种攻略网页里，用 ChatGPT 问完还得手动搬进 Google Maps，反复复制粘贴把细节全丢了。Ableten 的思路是「从群友真实收藏出发」，而不是从空白提示框开始。",
+        "problemSolved": "解决群体旅行中信息分散、反复搬运、意见难统一三个问题：自动抽取地点、保留「谁推荐的、来自哪个链接」，并在同一张地图上完成投票和排序。",
+        "tags": [
+          "群体决策",
+          "行程编排",
+          "内容抽取",
+          "攻略变现"
+        ],
+        "score": 8,
+        "scoreReason": "把 AI 用在「整理已有推荐」而不是凭空生成行程，比通用聊天机器人给出的行程可信得多，且原生支持多人协作，是真实高频痛点。免费可用、还有创作者分成机制，产品思路完整。",
+        "competitors": [
+          {
+            "name": "Wanderlog",
+            "url": "https://wanderlog.com",
+            "comparison": "多人协作行程 + 地图的老牌工具，但整理素材仍靠手工录入，AI 只做辅助补全。"
+          },
+          {
+            "name": "Layla / Roam Around",
+            "url": "https://www.roamaround.io",
+            "comparison": "从一句提示直接生成行程，快但缺乏「朋友真实推荐」的来源依据，容易给出游客化路线。"
+          },
+          {
+            "name": "Google Maps 收藏列表",
+            "url": "https://www.google.com/maps",
+            "comparison": "免费且地图最准，但无法自动排成按天行程，也没有群体投票与备注。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1322379",
+      "name": "Tecla（待办清单形态的主动式 AI 助理）",
+      "slug": "tecla",
+      "description": "一个 Mac 上的 AI 助理：它自己从 Gmail、Slack、会议纪要和 57 个应用里找出该你做的事，整理成一份带上下文的待办清单，你点「Run」它就去执行，每一步都能看到计划并随时叫停。",
+      "url": "https://www.usetecla.com",
+      "homepage": "https://www.usetecla.com",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 助理",
+        "待办管理",
+        "工作流自动化",
+        "上下文理解",
+        "Mac 应用"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/tecla-3",
+      "firstSeen": "2026-11-19T03:05:34Z",
+      "analysis": {
+        "targetAudience": "工作信息散落在邮件、Slack 和会议里的知识工作者、小团队负责人和独立创业者",
+        "useCases": [
+          "开完会不用记笔记，待办已自动从会议纪要里被挑出来",
+          "客户在邮件里催的提案，点一下 Run 就起草并等待批准发送",
+          "新同事入职的账号开通、拉群、约会议一次性跑完",
+          "把「每周一给团队发数据」变成按计划自动重复的任务",
+          "供应商门户这种没开放 API 的网站，让它自己开浏览器去下载发票"
+        ],
+        "designIntent": "团队认为现有 agent 最大的问题是「每次都要从空白提示框开始」——你得先想到要做什么，再把上下文贴进去。他们反其道而行：让助理先去读你工作发生的地方，把任务连同上下文一起端到你面前，用列表而非聊天流来承载。",
+        "problemSolved": "解决「事情太多、记不住、也不想每次写 prompt」的问题：任务自动浮现并合并去重，执行前有完整计划可审阅，涉及对外发送的内容一律等你批准，降低放手让 AI 干活的顾虑。",
+        "tags": [
+          "主动式助理",
+          "任务抽取",
+          "审批制执行",
+          "多应用连接"
+        ],
+        "score": 7,
+        "scoreReason": "「待办清单而非聊天框」的交互判断很准，且明确做了计划预览和审批闸门，比全自动 agent 更敢用于真实工作。扣分在于当前仅支持 Mac、$47/月偏贵，且强依赖第三方应用授权，隐私顾虑不小。",
+        "competitors": [
+          {
+            "name": "Motion",
+            "url": "https://www.usemotion.com",
+            "comparison": "同样用 AI 排任务和日程，但偏日历调度，不会跨应用找任务也不会代你执行。"
+          },
+          {
+            "name": "Superhuman",
+            "url": "https://superhuman.com",
+            "comparison": "以邮件为核心做 AI 助理，速度体验极佳，但覆盖面基本局限在收件箱。"
+          },
+          {
+            "name": "Claude / ChatGPT 桌面端",
+            "url": "https://claude.ai",
+            "comparison": "通用能力强且便宜，但仍需用户自己写 prompt、自己搬运上下文。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "apps.apple.com/us/app/tycheintelligentinterface/id6835683787",
+      "name": "Tyche（iPhone 上会自己动手的 AI 浏览器）",
+      "slug": "tyche",
+      "description": "一个内置 AI agent 的 iPhone 浏览器：你正常浏览网页，随时可以把「查详情、比价、下单、填表」这类下一步交给它，它会自己搜索、点链接、填表单，你可以看着它做、随时接管，也能切到别的 App 让它后台继续。",
+      "url": "https://apps.apple.com/us/app/tyche-intelligent-interface/id6835683787",
+      "homepage": "https://apps.apple.com/us/app/tyche-intelligent-interface/id6835683787",
+      "type": "app",
+      "appStoreName": "Tyche App",
+      "appStoreUrl": "https://apps.apple.com/us/app/tyche-app/id1613628600?uo=4",
+      "screenshotUrl": null,
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/0f/26/72/0f26724f-dff4-7d36-97b9-e49f81451f34/0716073f-cc81-4371-a55d-2f3a8f0fd1eb_IMG_2275.PNG/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/f6/e1/3c/f6e13c35-f1bc-eb22-bb5b-e121693734cd/649c3054-c08a-4541-86b1-da5b606b718f_IMG_2474.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/68/ed/22/68ed22f6-1ff4-c862-4ab8-1e20def7eec6/b96924a0-8657-4a65-b06a-8d811aaee5b2_IMG_2475.PNG/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/10/f4/8c/10f48ca7-b49d-7d72-5977-5b9ebb3c91b3/aaaedeaf-aa98-4d6f-b520-35f87e7664f6_IMG_2476.PNG/392x696bb.png"
+      ],
+      "tags": [
+        "手机浏览器",
+        "AI Agent",
+        "自动填表",
+        "比价购物",
+        "人机协作"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=50568974",
+      "firstSeen": "2026-11-20T01:22:37Z",
+      "analysis": {
+        "targetAudience": "用手机处理大量网页事务的普通人——订票、比价、填各种线上表单的用户",
+        "useCases": [
+          "在商品页直接问「这个和上一页那个哪个更划算」",
+          "把订票、填报名表这类多步操作整段交给它执行",
+          "让它一边翻页一边总结长文内容",
+          "做完一步后自己接手核对，再交回去继续",
+          "切到微信回消息时让它继续在后台把流程跑完"
+        ],
+        "designIntent": "开发者的判断是：AI 不该只在后台替你做决定，而应和人并肩工作。所以 Tyche 做成一个正常浏览器 + 可召唤的 agent，把「要不要继续、由谁来点」的控制权留在用户手上。",
+        "problemSolved": "解决手机端在网页上做多步操作又慢又烦的问题，同时回避了纯后台 agent 的两大隐患：用户不知道它在干什么、以及不敢让它代为付款或提交。",
+        "tags": [
+          "可接管执行",
+          "移动端 agent",
+          "网页操作",
+          "控制权设计"
+        ],
+        "score": 7,
+        "scoreReason": "把 agent 装进浏览器并保留「看得见、随时接管」的控制感，在手机这个最需要省事的场景里方向对。但目前仅 iOS、上线一天成熟度未知，购物付款类操作的实际可靠性还需时间验证。",
+        "competitors": [
+          {
+            "name": "Perplexity Comet",
+            "url": "https://www.perplexity.ai/comet",
+            "comparison": "同样把 AI agent 做进浏览器，能力更强但主打桌面端，手机上体验受限。"
+          },
+          {
+            "name": "Arc Search",
+            "url": "https://arc.net/search",
+            "comparison": "以「帮我浏览」生成摘要见长，偏向信息整理，不擅长替你完成下单、填表这类操作。"
+          },
+          {
+            "name": "Safari + Apple Intelligence",
+            "url": "https://www.apple.com/apple-intelligence/",
+            "comparison": "系统级集成、免费且隐私好，但 agent 能力保守，几乎不跨站执行多步任务。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "getmindie.app",
+      "name": "Mindie（住在 WhatsApp 里的提醒与笔记助理）",
+      "slug": "mindie",
+      "description": "直接在 WhatsApp 或 Telegram 里跟自己聊天：一句「提醒我周五下午 5 点给 Sam 打电话」，它识别成提醒、清单或日程，自动写进 Google 日历、Outlook 或 Notion，到点再在聊天里催你。",
+      "url": "https://www.getmindie.app",
+      "homepage": "https://www.getmindie.app",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "提醒事项",
+        "WhatsApp",
+        "自然语言",
+        "日历同步",
+        "效率工具"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=50567911",
+      "firstSeen": "2026-11-19T23:13:22Z",
+      "analysis": {
+        "targetAudience": "本来就会给自己发消息记事、但常常翻不到的重度聊天软件用户、自由职业者和小生意经营者",
+        "useCases": [
+          "把「给客户回提案」这类承诺变成带时间的提醒",
+          "语音消息或截图直接丢过去，让它识别成清单",
+          "购物清单随时查询和补充，不用另开 App",
+          "把想法用 #标签 直接归档进 Notion",
+          "到点收到提醒后直接回复「推迟到 7 点」就改期"
+        ],
+        "designIntent": "作者注意到大家早就在用「发消息给自己」当备忘录，但消息一发就被新消息淹掉，永远不会再被翻出来。Mindie 索性不另建 App，而是接管这个已有习惯，把随手一发变成可执行、会准时回来的事务。",
+        "problemSolved": "解决「记了但找不到、也到不了时间点」的问题：统一识别成提醒/清单/日程并落到用户已有的日历与笔记工具里，省掉在多个 App 之间来回复制的摩擦。",
+        "tags": [
+          "零安装",
+          "多语言",
+          "语音与截图输入",
+          "日历写入"
+        ],
+        "score": 7,
+        "scoreReason": "不造新 App、寄生在 WhatsApp 里，是这类轻量效率工具最省事也最容易养成的路径，且能写回 Google 日历和 Notion，不是数据孤岛。订阅 $9/月略高于心理预期，且依赖 WhatsApp 平台政策。",
+        "competitors": [
+          {
+            "name": "Google Keep / 提醒",
+            "url": "https://keep.google.com",
+            "comparison": "免费且与日历深度打通，但要专门打开 App，随手记的摩擦明显更高。"
+          },
+          {
+            "name": "Todoist",
+            "url": "https://todoist.com",
+            "comparison": "任务管理能力更强、跨平台完善，但学习成本高，也不在聊天软件里。"
+          },
+          {
+            "name": "WhatsApp「发消息给自己」",
+            "url": "https://www.whatsapp.com",
+            "comparison": "零成本零学习，但只是存下来，不会提醒、不会分类、也不会写进日历。"
+          }
+        ]
+      }
+    }
+  ]
+}
