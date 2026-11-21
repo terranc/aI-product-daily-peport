@@ -53176,8 +53176,353 @@
         ]
       },
       "screenshotUrl": null
+    },
+    {
+      "id": "producthunt.com/r/p/1323668",
+      "name": "Fack'd（视频实时事实核查）",
+      "slug": "fackd",
+      "description": "在 YouTube 新闻、访谈或辩论播放的同时标出可核查的论断，逐条给出「有据可查／缺少背景／误导／虚假」评级，并附上可点开的来源链接。",
+      "url": "https://fackd.com/",
+      "homepage": "https://fackd.com/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1323668_1795233851.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "事实核查",
+        "视频",
+        "浏览器扩展",
+        "信息素养",
+        "AI 检索"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1323668",
+      "firstSeen": "2026-11-20T02:06:25+00:00",
+      "analysis": {
+        "targetAudience": "想在看新闻、访谈和辩论时快速分辨真假的普通观众与内容研究者。",
+        "useCases": [
+          "边看 YouTube 新闻访谈边看逐句核查结论",
+          "跳到某个时间点核对原话与出处",
+          "把已核查的视频结果分享给朋友",
+          "整理播客、辩论里的可疑说法留档",
+          "作为媒体素养课堂的演示工具"
+        ],
+        "designIntent": "作者希望解决「听到一句意外的说法，却不知道该不该信」的瞬间。它把核查绑定到具体时间点和原话上，并强制每条结论附来源，让读者自己判断，而不是给一个笼统的可信度分数。",
+        "problemSolved": "视频内容无法像文字那样随手搜索验证，观众只能凭感觉判断说话人是否可靠。Fack'd 把长视频拆成一条条可核对的论断，把「查证」这件苦力活交给 AI 加实时检索，人工只需读结论与来源。",
+        "tags": [
+          "事实核查",
+          "视频",
+          "浏览器扩展",
+          "信息素养",
+          "AI 检索"
+        ],
+        "score": 8,
+        "scoreReason": "切中政治辩论与假消息泛滥的真实痛点，产品形态（时间戳＋评级＋来源）克制且可验证；已覆盖真实视频且有免费查阅页。局限在于依赖人工触发核查、单视频额度受限。",
+        "competitors": [
+          {
+            "name": "Ground News",
+            "url": "https://ground.news/",
+            "comparison": "同样处理新闻可信度，但只做媒体倾向与覆盖对比，不逐句核查视频里的具体说法。"
+          },
+          {
+            "name": "FactCheck.org",
+            "url": "https://www.factcheck.org/",
+            "comparison": "权威人工核查站，覆盖重大政治议题，但不支持用户自带视频、也没有时间戳定位。"
+          },
+          {
+            "name": "ClaimBuster",
+            "url": "https://idir.uta.edu/claimbuster/",
+            "comparison": "学术界的「值得核查语句」检测工具，偏研究用途，缺少面向普通观众的成品界面与来源引用。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-12-05T04:08:36.347103+00:00",
+      "lastFeaturedDate": "2026-11-21",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1318366",
+      "name": "Tripmojo（AI 旅行管家）",
+      "slug": "tripmojo",
+      "description": "连接邮箱自动读入机票、酒店、火车票确认信，生成一份全组共享的实时行程；AI 助手 Mojo 在群聊里帮找机票、办值机、盯延误与登机口变更，还能分摊旅费。",
+      "url": "https://tripmojo.ai/",
+      "homepage": "https://tripmojo.ai/",
+      "type": "app",
+      "appStoreName": "Tripmojo: Group Trip Planner",
+      "appStoreUrl": "https://apps.apple.com/us/app/tripmojo-group-trip-planner/id6775075550",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1318366_1795233859.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "旅行",
+        "AI 助手",
+        "行程管理",
+        "多人协作",
+        "移动应用"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1318366",
+      "firstSeen": "2026-11-16T05:30:58+00:00",
+      "analysis": {
+        "targetAudience": "常和朋友、家人结伴出行的自由行旅客，尤其是要处理一堆确认邮件和群聊决策的人。",
+        "useCases": [
+          "把散落在邮箱的机票酒店确认信汇总成逐日行程",
+          "在行程群聊里 @Mojo 让 AI 比价机票、发起投票",
+          "出发前让 AI 代为办理网上值机并存好登机牌",
+          "旅行中实时接收航班延误、登机口变更提醒",
+          "同行几人按笔记录花销并一键结算"
+        ],
+        "designIntent": "团队认为旅行真正累的不是订票，而是订完之后的管理：确认信散落、群聊里 300 条消息没人记得定了哪家酒店。Tripmojo 把「行程」做成一个所有人共享、会自己更新的对象，让 AI 只在这份上下文里干活。",
+        "problemSolved": "解决多人出行时的信息碎片化与行政杂务：确认信要人工搬运、值机要一个个去办、延误要自己盯、旅费要事后算账。它用只读邮箱接入把这一切自动化，并刻意让「替换已有安排」这类操作先问人。",
+        "tags": [
+          "旅行",
+          "AI 助手",
+          "行程管理",
+          "多人协作",
+          "移动应用"
+        ],
+        "score": 8,
+        "scoreReason": "把 AI 放在「已有行程」这个强上下文里，而不是空聊，落地场景清晰；值机、延误提醒、分摊费用都是高频刚需，且有 iOS/Android 双端。扣分在于邮箱只读授权对隐私敏感用户是门槛，机票比价等能力依赖第三方数据。",
+        "competitors": [
+          {
+            "name": "TripIt",
+            "url": "https://www.tripit.com/",
+            "comparison": "老牌行程聚合工具，能解析确认邮件，但没有群聊内的 AI 代理，也不主动办值机、分摊旅费。"
+          },
+          {
+            "name": "Wanderlog",
+            "url": "https://wanderlog.com/",
+            "comparison": "偏重行程规划与地图路线，协作以共同编辑清单为主，缺少「AI 帮忙执行旅行杂务」的一层。"
+          },
+          {
+            "name": "Mindtrip",
+            "url": "https://mindtrip.ai/",
+            "comparison": "以 AI 对话做旅行灵感与预订推荐，强在规划阶段，弱在出行当天的实时航班与费用管理。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-12-05T04:08:36.347103+00:00",
+      "lastFeaturedDate": "2026-11-21",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1322959",
+      "name": "Rox（慢病 AI 陪伴）",
+      "slug": "rox-chronic-illness",
+      "description": "面向 POTS、纤维肌痛、ME/CFS、长新冠等慢性病患者的 AI 健康伴侣：记录症状与用药、接入可穿戴设备数据、找出身体规律，并生成医生一分钟能读完的就诊报告。",
+      "url": "https://www.talktorox.com/",
+      "homepage": "https://www.talktorox.com/",
+      "type": "app",
+      "appStoreName": "Rox: Chronic Illness Care",
+      "appStoreUrl": "https://apps.apple.com/us/app/rox-chronic-illness-care/id6756538804",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1322959_1795233868.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "健康管理",
+        "慢病",
+        "AI 陪伴",
+        "可穿戴设备",
+        "症状追踪"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1322959",
+      "firstSeen": "2026-11-19T12:00:00+00:00",
+      "analysis": {
+        "targetAudience": "长期与慢性、容易被误诊的疾病共处，需要自己当研究者与倡导者的患者。",
+        "useCases": [
+          "用一句话记录今天的症状、诱因与恢复情况",
+          "把 Oura、Apple Watch、Garmin 的睡眠与心率变异性数据并排看",
+          "复诊前导出五段式 PDF 报告交给医生",
+          "深夜症状发作时向记得你病史的 AI 倾诉与梳理",
+          "回看某次急性发作前几周到底发生了什么"
+        ],
+        "designIntent": "团队自己经历过「检查都说没事，但身体明显不对」的处境，想让患者不必每次从零复述病史。产品把记忆当作核心资产：用得越久越懂你的基线、触发因素与发作前兆。",
+        "problemSolved": "慢性病患者要同时在症状追踪、用药记录、可穿戴数据、就诊沟通之间搬砖，且发作时根本没有精力整理。Rox 用长期记忆把这些串起来，把「十分钟门诊」的信息密度尽可能拉高。",
+        "tags": [
+          "健康管理",
+          "慢病",
+          "AI 陪伴",
+          "可穿戴设备",
+          "症状追踪"
+        ],
+        "score": 8,
+        "scoreReason": "人群精准、痛点真实且被现有工具忽视，长期记忆＋就诊报告的设计很扎实，App Store 已有 30+ 评分 4.5。扣分在于对话功能是付费项（月付 9.99 美元起）、目前仅 iOS，对靠伤残补助生活的患者价格门槛偏高。",
+        "competitors": [
+          {
+            "name": "Bearable",
+            "url": "https://bearable.app/",
+            "comparison": "同做症状与因素追踪，图表强、数据维度多，但没有对话式 AI 陪伴，也不会替患者写就诊摘要。"
+          },
+          {
+            "name": "Visible",
+            "url": "https://www.makevisible.com/",
+            "comparison": "聚焦 ME/CFS 与长新冠的能量管理（配速），硬件腕带是核心，通用性弱于 Rox。"
+          },
+          {
+            "name": "Flaredown",
+            "url": "https://flaredown.com/",
+            "comparison": "面向自身免疫病的症状关联分析，社区众包数据是特色，界面与移动体验较老，缺少 AI 对话层。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-12-05T04:08:36.347103+00:00",
+      "lastFeaturedDate": "2026-11-21",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1313803",
+      "name": "Badya（把真实内容变语言课）",
+      "slug": "badya",
+      "description": "把任意 YouTube 视频、PDF 或文章一键转成目标语言的互动课程与词汇表，再用 AI 语音对话、角色扮演和朗读式间隔重复卡练习，覆盖 50 多种语言。",
+      "url": "https://badyaapp.com/",
+      "homepage": "https://badyaapp.com/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1313803_1795233887.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "语言学习",
+        "AI 口语",
+        "内容导入",
+        "间隔重复",
+        "移动应用"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1313803",
+      "firstSeen": "2026-11-12T08:29:05+00:00",
+      "analysis": {
+        "targetAudience": "已经能看懂一些目标语言、想用自己真正感兴趣的内容进阶的中级学习者。",
+        "useCases": [
+          "把常看的 YouTube 频道视频转成课程并生成词汇表",
+          "上传 PDF 论文或文档边读边积累表达",
+          "和 AI 就刚学的话题做实时语音对话",
+          "用单字段闪卡让 AI 提问、逼自己在句子里用出来",
+          "让 AI 按等级生成短视频或故事当精听材料"
+        ],
+        "designIntent": "作者认为主流语言 App 都困在初学者的配对卡片里：没有上下文、也不真正使用语言。他想让人从自己已经在看的内容入手，学完之后马上在同一话题上开口说。",
+        "problemSolved": "解决「学了很多词但用不出来」和「教材内容与自己无关所以坚持不下去」两个问题：内容来源交给用户自选，理解和输出之间的鸿沟由 AI 对话与语音角色扮演补上。",
+        "tags": [
+          "语言学习",
+          "AI 口语",
+          "内容导入",
+          "间隔重复",
+          "移动应用"
+        ],
+        "score": 7,
+        "scoreReason": "「内容导入 → 课程 → 语音输出」的闭环设计合理，直接解决学习者动力与输出两个老大难；已有 Android 版且导入内容不耗币。扣分在于高度依赖云端 ASR 与生成、离线几乎不可用，按币计费对重度用户不如包月省心。",
+        "competitors": [
+          {
+            "name": "LingQ",
+            "url": "https://www.lingq.com/",
+            "comparison": "同样主张从真实内容学语言，词汇高亮与阅读库成熟，但缺少实时语音对话与角色扮演。"
+          },
+          {
+            "name": "Speak",
+            "url": "https://www.speak.com/",
+            "comparison": "强在 AI 口语陪练与发音纠正，课程体系自建，不能把任意视频文章变成自己的课程。"
+          },
+          {
+            "name": "Duolingo",
+            "url": "https://www.duolingo.com/",
+            "comparison": "游戏化与坚持机制最强，但内容封闭、面向初学者，深度用户很快就撞到天花板。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-12-05T04:08:36.347103+00:00",
+      "lastFeaturedDate": "2026-11-21",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1318700",
+      "name": "Same Moon（离乡儿童的睡前故事）",
+      "slug": "same-moon",
+      "description": "为难民与流离失所儿童准备的免费睡前故事库，英语、阿拉伯语、西班牙语朗读，首屏仅 37KB、可一键离线保存，AI 配音但每篇都经人工审核，无账号、无广告、无追踪。",
+      "url": "https://samemoon.world/",
+      "homepage": "https://samemoon.world/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1318700_1795234043.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "儿童",
+        "睡前故事",
+        "公益",
+        "离线可用",
+        "多语言"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/r/p/1318700",
+      "firstSeen": "2026-11-16T11:04:38+00:00",
+      "analysis": {
+        "targetAudience": "难民与流离失所家庭的孩子，以及陪伴他们的父母、志愿者与一线社工。",
+        "useCases": [
+          "在新住处睡前听一则关于「想家」的短故事",
+          "家长用母语和孩子一起读并回答文末的问题",
+          "没有信号的夜晚播放已下载的故事",
+          "情绪难平的夜里跟着呼吸练习放松",
+          "志愿者用自己的语言录一则故事投稿"
+        ],
+        "designIntent": "作者在莱斯博斯、贝卡谷地和科克斯巴扎尔做医疗志愿时发现，对离开家乡的孩子来说睡前是最难熬的时刻。于是做了这个极小的免费故事库，让他们在自己真正用得起的低端手机上也能听。",
+        "problemSolved": "解决两件事：一是流离失所儿童缺少用母语讲述自身处境的内容；二是这些家庭往往只有低端手机、弱网甚至无网，主流儿童音频 App 根本跑不动。它把体积、离线和隐私都做到了极端克制。",
+        "tags": [
+          "儿童",
+          "睡前故事",
+          "公益",
+          "离线可用",
+          "多语言"
+        ],
+        "score": 7,
+        "scoreReason": "立意与工程克制都值得称道（37KB 首屏、离线、人工审核、词汇守卫过滤战争字眼），是 AI 配音真正服务公益的样本。扣分在于目前只有 10 篇故事、三种语言，且 AI 主要用于生产端，用户侧几乎没有交互式智能。",
+        "competitors": [
+          {
+            "name": "Storyberries",
+            "url": "https://www.storyberries.com/",
+            "comparison": "免费儿童故事库，内容量大、多语言，但页面重、依赖在线加载，也不针对流离失所处境设计。"
+          },
+          {
+            "name": "Moshi",
+            "url": "https://www.moshikids.com/",
+            "comparison": "睡前故事与白噪音 App，制作精良，但为订阅制、需要稳定网络与较新设备。"
+          },
+          {
+            "name": "Calm",
+            "url": "https://www.calm.com/",
+            "comparison": "睡眠内容全面（含儿童专区），但商业订阅模式、体积大，与 Same Moon 的零成本轻量路线完全不同。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-12-05T04:08:36.347103+00:00",
+      "lastFeaturedDate": "2026-11-21",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false
+      }
     }
   ],
-  "lastUpdated": "2026-11-20T04:04:34.764709+00:00",
+  "lastUpdated": "2026-11-21T04:08:36.347103+00:00",
   "totalProducts": 856
 }
