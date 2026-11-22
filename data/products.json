@@ -53521,8 +53521,364 @@
         "featuredInDaily": 1,
         "featuredInWeekly": false
       }
+    },
+    {
+      "id": "producthunt.com/r/p/1316562",
+      "name": "Glassmail",
+      "slug": "glassmail",
+      "description": "macOS 原生邮件客户端，把 Gmail、iCloud、Outlook、Yahoo、Fastmail 等账户收进同一个界面；内置的 AI 助手完全跑在 Mac 本机（Apple Intelligence 或本地小模型），邮件不需要上传到任何云端。",
+      "url": "https://glassmail.app/",
+      "homepage": "https://glassmail.app/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1316562_1795320190.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "邮件客户端",
+        "本地AI",
+        "隐私保护",
+        "macOS",
+        "买断制"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/glassmail",
+      "firstSeen": "2026-11-14T07:57:43-08:00",
+      "analysis": {
+        "targetAudience": "同时管理多个邮箱、在意邮件隐私且厌倦订阅制的 Mac 用户",
+        "useCases": [
+          "一句「今天什么需要我处理？」直接列出待回复的对话",
+          "把几十封来回的长线程压成几行摘要并标出要你做的事",
+          "按你过去写信的口吻生成回复草稿并一键润色",
+          "飞机上离线继续做摘要与起草",
+          "通过 MCP 让 Claude、Codex 只读检索全账号邮件"
+        ],
+        "designIntent": "邮件是绝大多数人工作的入口，但现有客户端要么是套壳网页、要么按月收费、要么把整个收件箱送到自家服务器才能实现「智能」。作者想反过来做：真正的原生 Mac 应用、AI 跑在本机、一次付费永久使用。",
+        "problemSolved": "同时解决三个痛点：多邮箱来回切换的低效、订阅制带来的长期成本、以及把私人邮件交给云端 AI 的隐私顾虑。同时用单键 triage 把「收件箱清空」的操作成本压到最低。",
+        "tags": [
+          "邮件客户端",
+          "本地AI",
+          "隐私保护",
+          "macOS",
+          "买断制"
+        ],
+        "score": 8,
+        "scoreReason": "「本地推理 + 买断制 + Swift 原生」三件套精准命中 Mac 用户最在意的隐私与订阅疲劳，产品完成度高、已可付费购买（29 美元）；扣分点是本机小模型的复杂推理能力有限，重度依赖大模型的场景仍需外接 agent。",
+        "competitors": [
+          {
+            "name": "Superhuman",
+            "url": "https://superhuman.com",
+            "comparison": "AI 能力更强，但每月 30 美元订阅且邮件要经过其服务器，隐私与成本都更高。"
+          },
+          {
+            "name": "Spark",
+            "url": "https://sparkmailapp.com",
+            "comparison": "免费且跨平台，但需要注册账号、AI 在云端处理，团队版按席位收费。"
+          },
+          {
+            "name": "Apple Mail",
+            "url": "https://support.apple.com/mail",
+            "comparison": "系统自带、零成本，但没有跨账户的统一 AI 助手与一键 triage 动线。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-12-06T04:07:54.294392+00:00",
+      "lastFeaturedDate": "2026-11-22",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "firstFeaturedDate": "2026-11-22"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1322934",
+      "name": "Tamekoshi",
+      "slug": "tamekoshi",
+      "description": "常驻屏幕顶部的桌面 AI 伙伴「Tame」：可以语音通话，也能把整件事派到后台跑；在本机录音并转录会议、自动标注发言人；还能从 Telegram、WhatsApp、Slack 等 40 多个渠道远程指挥它。",
+      "url": "https://www.tamekoshi.com/",
+      "homepage": "https://www.tamekoshi.com/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1322934_1795320198.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "桌面助手",
+        "AI伙伴",
+        "会议纪要",
+        "多模型",
+        "本地转录"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/tamekoshi",
+      "firstSeen": "2026-11-19T03:38:06-08:00",
+      "analysis": {
+        "targetAudience": "希望有一个常驻桌面、能把琐事派出去的自由职业者、创业者与小团队",
+        "useCases": [
+          "屏幕上沿随手唤起，一句话拆成三个并行子任务",
+          "本地录音转录会议，按发言人整理决策与待办",
+          "在 Telegram、WhatsApp 里远程指挥它干活",
+          "接入 Claude Code、Cursor 后审查编码 agent 的每一步",
+          "让它在独立的 Linux 桌面里跑构建、开浏览器验证"
+        ],
+        "designIntent": "作者反感越来越多「越凶越好」的 AI agent，想做一个像 Tamagotchi 一样友好、有点怀旧、又确实能替你干活的伙伴：动手前先问、干完主动汇报、完成时还会庆祝一下。",
+        "problemSolved": "解决桌面 AI 助手两个极端：要么被困在聊天窗口里没法真的动你的电脑，要么权限过大乱改文件。它用审批卡片把每一次写操作交回用户，并提供 Auto-review 让只读操作自己跑。",
+        "tags": [
+          "桌面助手",
+          "AI伙伴",
+          "会议纪要",
+          "多模型",
+          "本地转录"
+        ],
+        "score": 8,
+        "scoreReason": "把「伙伴感」（形象、语音、庆祝）和真实执行力（子 agent、独立 Linux 电脑、286 个应用连接、40+ 消息渠道）结合得相当完整，产品完成度超出同类 beta；扣分在于 0.1 版安装包未签名、代码尚未开源、macOS 版仍在等待，长期可靠性待验证。",
+        "competitors": [
+          {
+            "name": "ChatGPT 桌面版",
+            "url": "https://chatgpt.com",
+            "comparison": "对话与文件处理能力强，但不会在你的系统里长期驻留并执行跨应用任务。"
+          },
+          {
+            "name": "Raycast AI",
+            "url": "https://www.raycast.com",
+            "comparison": "快捷键式调用极顺手，但偏「一次性命令」，缺少常驻伙伴形象与后台任务队列。"
+          },
+          {
+            "name": "Apple 快捷指令 + Siri",
+            "url": "https://support.apple.com/shortcuts",
+            "comparison": "系统级自动化、免费，但配置门槛高且没有自然语言编排与会议转录。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-12-06T04:07:54.294392+00:00",
+      "lastFeaturedDate": "2026-11-22",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "firstFeaturedDate": "2026-11-22"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1320128",
+      "name": "AlterContacts",
+      "slug": "altercontacts",
+      "description": "面向理财顾问、保险经纪、咨询师等「靠长期关系成交」从业者的 AI 客户关系助手：会后说 30 秒语音或录下整场面谈，Alter 就会归档到对应客户档案，第二天告诉你今天谁需要跟进，并把消息草稿写好。",
+      "url": "https://altercontacts.ai/",
+      "homepage": "https://altercontacts.ai/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1320128_1795320206.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "客户关系",
+        "语音笔记",
+        "跟进提醒",
+        "保险理财",
+        "iPhone"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/alter-contacts-ai-client-relationships",
+      "firstSeen": "2026-11-17T02:25:12-08:00",
+      "analysis": {
+        "targetAudience": "客户数量已经超出记忆容量、靠长期信任关系成交的理财顾问、保险经纪与咨询师",
+        "useCases": [
+          "车上 30 秒语音记录刚结束的面谈要点",
+          "整场面谈录音后自动生成纪要与承诺清单",
+          "每天早晨收到「今天该联系谁、为什么」的简报",
+          "从 Gmail、Google 日历、Notion 自动补全客户画像",
+          "跟进到期时按你的语气生成消息草稿，你确认后才发"
+        ],
+        "designIntent": "作者访谈了 26 位资深顾问，发现几乎人人都有自己的系统、也人人都在漏——细节没记下来，或者记了却找不到。于是做一个「口袋里一直盯着客户」的助理：上下文捕获和后续动作交给 AI，决定权始终留在顾问手上。",
+        "problemSolved": "解决客户太多导致细节遗忘、跟进时机错过、新人接手断层的问题；它刻意不替代机构 CRM，只补上「为什么现在要联系这个人」这一层。",
+        "tags": [
+          "客户关系",
+          "语音笔记",
+          "跟进提醒",
+          "保险理财",
+          "iPhone"
+        ],
+        "score": 7,
+        "scoreReason": "场景高度垂直、访谈驱动的产品定义很扎实，「AI 只起草、绝不代发」的边界让合规敏感行业敢用；但市场天花板有限，且效果高度依赖用户养成说话记录的习惯。",
+        "competitors": [
+          {
+            "name": "HubSpot CRM",
+            "url": "https://www.hubspot.com",
+            "comparison": "功能全面的字段式 CRM，需要手工维护，没有语音捕获与「该联系谁」的推送。"
+          },
+          {
+            "name": "Granola",
+            "url": "https://granola.ai",
+            "comparison": "会议转录与笔记体验优秀，但不建立客户档案、也不管理跟进节奏。"
+          },
+          {
+            "name": "Excel / 微信备注",
+            "url": "https://www.microsoft.com/microsoft-365/excel",
+            "comparison": "零成本、顾问们实际在用的方案，但信息分散、无法主动提醒。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-12-06T04:07:54.294392+00:00",
+      "lastFeaturedDate": "2026-11-22",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "firstFeaturedDate": "2026-11-22"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1320776",
+      "name": "Storiara",
+      "slug": "storiara",
+      "description": "给影视项目用的 AI 制片工具：上传剧本自动产出场景拆解、条板排期与预算；新上线的 Producer Room 会让六个「AI 部门主管」会诊你的计划，挑出排期和预算里被浪费的钱。",
+      "url": "https://storiara.com/",
+      "homepage": "https://storiara.com/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1320776_1795320214.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "影视制作",
+        "预算管理",
+        "拍摄排期",
+        "AI agent",
+        "SaaS"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/storiara",
+      "firstSeen": "2026-11-17T12:02:24-08:00",
+      "analysis": {
+        "targetAudience": "独立制片人、第一副导演（1st AD）、制片主任（UPM）与影视工作室的制片管理者",
+        "useCases": [
+          "上传剧本，20 分钟内拿到拆解、条板与初版预算",
+          "让 1st AD、制片主任、场地、选角等六个角色分别找省钱点",
+          "每条建议都按你自己的费率表复算，认可后一键应用",
+          "在条板上拖动场景时实时提示转场、工时与超时风险",
+          "按 SAG-AFTRA、DGA、IATSE 工会费率核算人工与附加费"
+        ],
+        "designIntent": "一份剧本拆解加初版预算，过去要一个人埋头几周。作者想把这段重复劳动压缩到 20 分钟，同时坚持一条底线：AI 只提改动建议，绝不自己编造金额。",
+        "problemSolved": "解决小制作团队预算编制耗时、容易漏项、难以发现排期浪费的问题，让独立创作者也能拿出接近工作室水准的预算表。",
+        "tags": [
+          "影视制作",
+          "预算管理",
+          "拍摄排期",
+          "AI agent",
+          "SaaS"
+        ],
+        "score": 7,
+        "scoreReason": "「AI 出主意、引擎算钱、按你的费率复核」这套约束设计非常克制，是同类 AI 工具最容易翻车的地方，它恰恰做对了；扣分在于它是专业工具，$39.99/月的定价把普通用户挡在门外，受众较窄。",
+        "competitors": [
+          {
+            "name": "Movie Magic Budgeting",
+            "url": "https://www.ep.com",
+            "comparison": "行业标准预算软件，精度高但全靠手工录入，没有任何建议能力。"
+          },
+          {
+            "name": "StudioBinder",
+            "url": "https://www.studiobinder.com",
+            "comparison": "条板、通告单与协作做得完整，预算与省钱的智能分析是短板。"
+          },
+          {
+            "name": "Excel 预算模板",
+            "url": "https://www.microsoft.com/microsoft-365/excel",
+            "comparison": "免费灵活，但格式不统一、无工会费率联动、无法自动校验。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-12-06T04:07:54.294392+00:00",
+      "lastFeaturedDate": "2026-11-22",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "firstFeaturedDate": "2026-11-22"
+      }
+    },
+    {
+      "id": "hearthenapp.com",
+      "name": "Hearthen",
+      "slug": "hearthen",
+      "description": "一款提醒你去联系重要的人的 AI 关系助手：按亲疏层级为每个人安排联系节奏，到点给出三条以你口吻写好的消息，还能把每一次互动拼成一张会生长的关系画布，甚至做成定制贺卡寄出去。",
+      "url": "https://hearthenapp.com/",
+      "homepage": "https://hearthenapp.com/",
+      "type": "app",
+      "appStoreName": "Hearthen",
+      "appStoreUrl": "https://apps.apple.com/us/app/hearthen/id6796380811?uo=4",
+      "screenshotUrl": "assets/screenshots/hearthenapp.com_1795320190.png",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/09/47/8d/09478d2d-55c3-6bd5-4d56-abeaabe97fbc/hearthen-1.2-screenshot-01.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/76/02/d0/7602d066-56c1-2e61-4ce1-461d33a7f7d0/hearthen-1.2-screenshot-02.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b2/2a/9d/b22a9dcd-e313-90bf-9471-2a3cd54f76bd/hearthen-1.2-screenshot-03.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c1/d3/61/c1d361c9-1a87-be4a-4ba9-227cf9d6b1a4/hearthen-1.2-screenshot-04.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5c/84/dd/5c84dd37-0e74-adb3-8630-c421e1285f6d/hearthen-1.2-screenshot-05.png/320x480bb.jpg"
+      ],
+      "tags": [
+        "人际关系",
+        "提醒",
+        "AI写信",
+        "隐私优先",
+        "iOS"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=50594546",
+      "firstSeen": "2026-11-21T23:07:38+00:00",
+      "analysis": {
+        "targetAudience": "想维系家人、老友与重要客户，却总是「想着要联系、最后一拖再拖」的忙碌成年人",
+        "useCases": [
+          "按「最亲近 / 家人朋友 / 外围」分层设置每周到每季的联系节奏",
+          "到点收到三条可直接发送或稍作修改的问候语",
+          "每次通话、聚餐后在画布上添一块拼图，看清关系如何变厚",
+          "把画布做成带照片的定制贺卡，寄给父母或老朋友",
+          "用一个日历统管生日、纪念日与所有待跟进事项"
+        ],
+        "designIntent": "作者既看到「孤独流行病」的公共讨论，也看到自己「想联系却没行动」的日常。他想把善意变成有节奏的练习——关系不是待办清单，而是需要持续维护、看得见成长的东西。",
+        "problemSolved": "解决关系因疏于联系而悄悄变淡的问题：把「该联系谁、该说什么」从记忆负担变成系统提醒，并提供足够低摩擦的行动出口（直接发消息、发贺卡）。",
+        "tags": [
+          "人际关系",
+          "提醒",
+          "AI写信",
+          "隐私优先",
+          "iOS"
+        ],
+        "score": 7,
+        "scoreReason": "立意有扎实研究支撑（Holt-Lunstad 元分析、Dunbar 分层、Hall 的相处时长研究），「关系画布」这个可视化设计有真实的情感黏性；但核心能力仍是提醒加文案生成，AI 含量不高，长期留存高度依赖用户自律。",
+        "competitors": [
+          {
+            "name": "Monica",
+            "url": "https://www.monicahq.com",
+            "comparison": "开源个人 CRM，擅长记录联系人细节，但没有 AI 代写与亲疏节奏建议。"
+          },
+          {
+            "name": "Clay",
+            "url": "https://clay.earth",
+            "comparison": "人脉管理做得精致，偏商务场景且订阅价格较高，缺少家庭与情感维度。"
+          },
+          {
+            "name": "系统提醒事项 / 生日提醒",
+            "url": "https://support.apple.com/guide/reminders",
+            "comparison": "免费且够用，但只给日期不给你「说什么」，也无法沉淀关系成长记录。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-12-06T04:07:54.294392+00:00",
+      "lastFeaturedDate": "2026-11-22",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "firstFeaturedDate": "2026-11-22"
+      }
     }
   ],
-  "lastUpdated": "2026-11-21T04:08:36.347103+00:00",
+  "lastUpdated": "2026-11-22T04:07:54.294392+00:00",
   "totalProducts": 856
 }
