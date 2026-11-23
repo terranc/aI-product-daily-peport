@@ -53877,8 +53877,370 @@
         "featuredInWeekly": false,
         "firstFeaturedDate": "2026-11-22"
       }
+    },
+    {
+      "id": "producthunt.com/r/p/1305689",
+      "name": "Wispim 语音跟随提词器",
+      "slug": "wispim",
+      "description": "一款让提词器跟着你语速自动滚动的应用：识别你说的每个词并在稿子里定位，说停就停、重复就回滚，覆盖 iPhone、iPad、Mac、Windows 与安卓。",
+      "url": "https://wispim.com/",
+      "homepage": "https://wispim.com/",
+      "type": "app",
+      "tags": [
+        "提词器",
+        "口播创作",
+        "端侧语音识别",
+        "短视频",
+        "隐私优先"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/wispim-online-teleprompter",
+      "firstSeen": "2026-11-05T08:46:59-08:00",
+      "lastUpdated": "2026-11-23T04:10:55.808733+00:00",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1305689_1795406661.png",
+      "appStoreName": "Wispim: Voice Teleprompter",
+      "appStoreUrl": "https://apps.apple.com/us/app/wispim-voice-teleprompter/id6808666037",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cc/bb/f3/ccbbf3c5-14b8-f849-c923-d014bc90451e/en-1.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1d/e9/04/1de904c3-3943-cfe8-0ffe-3975e8614bba/en-2.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8d/25/5a/8d255aca-6d72-791c-343b-f572eb8b2fbc/en-3.png/320x480bb.jpg"
+      ],
+      "analysis": {
+        "targetAudience": "需要出镜口播的短视频创作者、主播、教师、演讲者与课程录制者。",
+        "useCases": [
+          "录抖音/TikTok 口播时把稿子浮在相机上方",
+          "直播或线上会议按自己语速提示要点",
+          "录课程、讲解视频时边讲边看讲稿",
+          "产品演示视频的连续录制",
+          "外语演讲前按断句节奏练习"
+        ],
+        "designIntent": "作者判断出镜视频\"僵硬\"的根源不在表达而在视线：每次低头看稿观众都能察觉。于是把稿子放到镜头旁边，并让它跟着说话人自己滚动，消掉\"一边讲一边追机器语速\"这第二份工作。",
+        "problemSolved": "传统提词器按固定 WPM 滚动，停顿、重说、临时改词都会错位，人得同时管表达和追赶两件事。Wispim 用语音识别把听到的词和稿子逐词对齐，暂停就等、重复就回滚，位置不会漂。",
+        "tags": [
+          "提词器",
+          "口播创作",
+          "端侧语音识别",
+          "短视频",
+          "隐私优先"
+        ],
+        "score": 8,
+        "scoreReason": "切口极小但痛点真实，逐词定位（而非速度估算）是关键技术差别；免费 6 个 take 门槛低，五大平台全覆盖，识别尽量留在设备侧且不需要账号。",
+        "competitors": [
+          {
+            "name": "Teleprompter.com",
+            "url": "https://apps.apple.com/us/app/teleprompter-com/id1420515755",
+            "comparison": "功能齐全的传统提词器，按固定速度滚动、需手动调速，不带语音跟随。"
+          },
+          {
+            "name": "PromptSmart",
+            "url": "https://promptsmart.com/",
+            "comparison": "较早做语音跟随的提词器，主打 iPad 与专业拍摄场景，覆盖面与价格不如 Wispim 亲民。"
+          },
+          {
+            "name": "BIGVU",
+            "url": "https://bigvu.tv/",
+            "comparison": "一体化的手机录制与提词工具，优势在录制剪辑流程，提词本身仍是固定速度。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-12-07T04:10:55.808733+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-11-23"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1321599",
+      "name": "CROON 实时视频配音",
+      "slug": "croon",
+      "description": "把 iPhone 上正在播放的视频、直播和播客实时译成你选的语言，用贴近原说话人的声音念出来并可配字幕，只截取音频、不录屏。",
+      "url": "https://croon.tv/",
+      "homepage": "https://croon.tv/",
+      "type": "app",
+      "tags": [
+        "实时翻译",
+        "语音配音",
+        "直播",
+        "语言学习",
+        "iOS"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/croon",
+      "firstSeen": "2026-11-18T03:51:36-08:00",
+      "lastUpdated": "2026-11-23T04:10:55.808733+00:00",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1321599_1795406668.png",
+      "appStoreName": "CROON: Live Video Translator",
+      "appStoreUrl": "https://apps.apple.com/us/app/croon-live-video-translator/id6799599735",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/03/1f/10/031f106f-f4fe-d94c-a4e9-810b423ecf86/croon-phone-01.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e0/f9/81/e0f9810d-318d-85c7-637f-1687b50213c1/croon-phone-02.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d9/75/05/d9750592-4262-c510-44e0-4f1ab2332060/croon-phone-03.png/320x480bb.jpg"
+      ],
+      "analysis": {
+        "targetAudience": "看外语视频与直播、追海外资讯、想用原声学语言的 iPhone/iPad 用户。",
+        "useCases": [
+          "看没有字幕的 YouTube 外语视频",
+          "听国外播客与新闻",
+          "跟国外实时直播和线上活动",
+          "学语言时对照原文与译文",
+          "把网课或会议的音频即时译成母语"
+        ],
+        "designIntent": "团队把\"同传\"从会议场景搬到日常内容消费：只要 iPhone 在放声音，就跟着说话人一句一句译出，声音尽量贴近原说话人，避免盯着字幕打断观看。",
+        "problemSolved": "YouTube 自动配音只覆盖平台已上传音轨的视频，字幕只覆盖原本有字幕的内容，直播与第三方 App 全被漏掉。CROON 通过屏幕共享只取音频，把范围扩展到任意 App 与直播流。",
+        "tags": [
+          "实时翻译",
+          "语音配音",
+          "直播",
+          "语言学习",
+          "iOS"
+        ],
+        "score": 8,
+        "scoreReason": "支持 85 种语言并自动识别源语言，\"贴近原说话人的声音\"是体验分水岭；但需要 iOS 26、必须联网、订阅偏贵（Pro 年付约 175 美元），且部分 App 的音频抓不到。",
+        "competitors": [
+          {
+            "name": "YouTube 自动配音",
+            "url": "https://support.google.com/youtube/answer/15569972",
+            "comparison": "免费且音质好，但只覆盖 YouTube 已上传译音轨的视频，直播和第三方 App 用不了。"
+          },
+          {
+            "name": "沉浸式翻译",
+            "url": "https://immersivetranslate.com/",
+            "comparison": "强在网页与字幕文本的双语对照，不做音频实时配音，也不覆盖 App 内的播放。"
+          },
+          {
+            "name": "Apple 实时翻译",
+            "url": "https://support.apple.com/en-us/121486",
+            "comparison": "系统级免费，但只在电话、FaceTime 与信息里可用，无法翻译视频与直播音频。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-12-07T04:10:55.808733+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-11-23"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1322672",
+      "name": "Saparo AI 购物省钱代理",
+      "slug": "saparo",
+      "description": "把一次网购任务拆成可核对的省钱方案：同时比价、试优惠码、算返现与信用卡奖励、比礼品卡折扣，最后给出一个由你确认的结账路线。",
+      "url": "https://saparo.ai/",
+      "homepage": "https://saparo.ai/",
+      "type": "saas",
+      "tags": [
+        "购物比价",
+        "优惠券",
+        "返现",
+        "AI 代理",
+        "省钱"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/saparo",
+      "firstSeen": "2026-11-19T00:29:12-08:00",
+      "lastUpdated": "2026-11-23T04:10:55.808733+00:00",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1322672_1795406677.png",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "appStoreScreenshots": [],
+      "analysis": {
+        "targetAudience": "经常网购比价、被优惠码与返现规则绕晕的普通消费者。",
+        "useCases": [
+          "买球鞋前算店铺价+返现+信用卡奖励的组合",
+          "验证优惠码能不能真的在结账时生效",
+          "把多张卡权益与礼品卡折扣一起计入",
+          "大额购物前核对含税含运费的真实总价",
+          "让代理准备购物车、自己点最后一步付款"
+        ],
+        "designIntent": "作者认为网购最累的不是挑商品，而是付款前那一堆分散的优惠层。于是让代理替人开标签、试码、读细则，把结果整理成一份逐行可读的省钱清单，付款权仍留给用户。",
+        "problemSolved": "优惠券插件只看一层优惠，返现门户各自为政，礼品卡与卡权益更难横向比较，最终\"真实到手价\"没人替你算。Saparo 把商品价、运费、税、券、返现、卡奖励放进同一条结账路径里比较。",
+        "tags": [
+          "购物比价",
+          "优惠券",
+          "返现",
+          "AI 代理",
+          "省钱"
+        ],
+        "score": 8,
+        "scoreReason": "场景高频、价值可量化（官方案例一单省 72 美元），\"代理准备、用户确认付款\"的设计在信任上很稳；Beta 期只有 300 credits，零售商对自动化的限制与覆盖范围是主要变量。",
+        "competitors": [
+          {
+            "name": "PayPal Honey",
+            "url": "https://www.paypal.com/honey",
+            "comparison": "浏览器扩展自动试优惠码，只覆盖券这一层，不看返现、卡权益与礼品卡组合。"
+          },
+          {
+            "name": "Rakuten",
+            "url": "https://www.rakuten.com/",
+            "comparison": "返现门户的代表，返现比例透明，但只解决返现一层，也不替用户横向比较店铺。"
+          },
+          {
+            "name": "Capital One Shopping",
+            "url": "https://www.capitaloneshopping.com/",
+            "comparison": "免费比价与自动试码，能力类似但绑在单一发卡行生态里，跨卡权益比较弱。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-12-07T04:10:55.808733+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-11-23"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1320097",
+      "name": "Zapyso 本地离线听写与会议纪要",
+      "slug": "zapyso",
+      "description": "按住右 Command 说话，文字直接出现在光标处；会议录音与纪要全在本机完成，不拉机器人进会议、不上传云端，免费且不需要账号。",
+      "url": "https://zapyso.app/en/",
+      "homepage": "https://zapyso.app/en/",
+      "type": "app",
+      "tags": [
+        "语音听写",
+        "会议纪要",
+        "端侧推理",
+        "隐私优先",
+        "macOS"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/zapyso",
+      "firstSeen": "2026-11-17T01:59:16-08:00",
+      "lastUpdated": "2026-11-23T04:10:55.808733+00:00",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1320097_1795406684.png",
+      "appStoreName": "Zapyso: AI Meeting Notes",
+      "appStoreUrl": "https://apps.apple.com/us/app/zapyso-ai-meeting-notes/id6823081945",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a1/a1/97/a1a197fe-bff9-b06b-f1bc-18d3226a002f/01-summary-top.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c1/62/01/c1620142-9f4e-de6b-e006-b9fab0f0f3d9/02-privacy.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f0/e0/62/f0e06272-85c2-899d-3c10-2973d6548453/03-library.png/320x480bb.jpg"
+      ],
+      "analysis": {
+        "targetAudience": "重视隐私、天天在 Mac 上写邮件聊天记笔记的知识工作者。",
+        "useCases": [
+          "在邮件、Slack、微信里口述长段落并自动分段",
+          "把会议录音转成带决策与待办的纪要",
+          "给 Claude/ChatGPT 口述长 prompt",
+          "飞机上或断网环境下继续听写",
+          "中英（乌英）混说的多语工作场景"
+        ],
+        "designIntent": "作者（Vodafone 乌克兰的产品负责人）不想把会议内容交给别人的服务器，于是把语音识别（NVIDIA Parakeet）与摘要（Gemma）都放在本机，模型一次下载后彻底离线，也没有账号体系。",
+        "problemSolved": "云端听写要么按字数收费、要么强制联网、要么必须登录，语音还得先上传。Zapyso 用端侧模型一次解决\"隐私、离线、免费\"三件事，并按不同 App 排版，让口述结果直接能用。",
+        "tags": [
+          "语音听写",
+          "会议纪要",
+          "端侧推理",
+          "隐私优先",
+          "macOS"
+        ],
+        "score": 8,
+        "scoreReason": "端侧隐私叙事扎实、排版能力（邮件成信、聊天成句、笔记成列表）是同类少见细节，且完全免费无字数限制；硬门槛是 M 系列芯片、macOS 15 与首次 4-6GB 模型下载，Beta 的可持续性待观察。",
+        "competitors": [
+          {
+            "name": "Superwhisper",
+            "url": "https://superwhisper.com/",
+            "comparison": "同为端侧听写、体验成熟，但需订阅付费，排版与会议纪要能力较弱。"
+          },
+          {
+            "name": "Wispr Flow",
+            "url": "https://wisprflow.ai/",
+            "comparison": "跨应用听写流畅、支持多语言，但语音需上传云端处理，与 Zapyso 的离线定位相反。"
+          },
+          {
+            "name": "macOS 内置听写",
+            "url": "https://support.apple.com/guide/mac-help/mh40583/mac",
+            "comparison": "系统自带且免费，但不会按场景排版，也不能自动录制会议并生成带决议的纪要。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-12-07T04:10:55.808733+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-11-23"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1316336",
+      "name": "SuperMailbox 统一收件箱",
+      "slug": "supermailbox",
+      "description": "把 Gmail、iCloud、Outlook、Yahoo、Fastmail 等账号合进一个网页收件箱，用语义搜索跨语言找邮件，并让 ChatGPT/Claude 在细粒度授权下读信、起草与整理。",
+      "url": "https://supermailbox.app/",
+      "homepage": "https://supermailbox.app/",
+      "type": "saas",
+      "tags": [
+        "统一收件箱",
+        "语义搜索",
+        "AI 助理",
+        "共享邮箱",
+        "权限控制"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/supermailbox",
+      "firstSeen": "2026-11-14T03:45:31-08:00",
+      "lastUpdated": "2026-11-23T04:10:55.808733+00:00",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1316336_1795406843.png",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "appStoreScreenshots": [],
+      "analysis": {
+        "targetAudience": "同时维护多个邮箱、想把邮件交给 AI 处理的小团队与自由职业者。",
+        "useCases": [
+          "用一个收件箱管理个人与工作多个账号",
+          "用中文描述直接找到英文邮件",
+          "让 AI 汇总某个客户的往来与截止时间",
+          "把邮箱临时共享给同事或外包一周",
+          "按规则归档发票类邮件并做支出汇总"
+        ],
+        "designIntent": "创始人认为邮件真正的麻烦是分散在多个账号、AI 助手又无从下手。于是先做统一入口与语义索引，再把邮件能力以可撤销、可分权限的方式开放给外部 AI。",
+        "problemSolved": "多邮箱来回切换、跨语言检索、AI 无法安全访问邮件，是三个常见断点。SuperMailbox 用网页收件箱 + 语义检索 + 细粒度 OAuth 权限把这三件事接上，邮件本身仍留在原邮箱。",
+        "tags": [
+          "统一收件箱",
+          "语义搜索",
+          "AI 助理",
+          "共享邮箱",
+          "权限控制"
+        ],
+        "score": 7,
+        "scoreReason": "权限分层（读、附件、起草、发送、修改分别授权）是想让 AI 碰邮箱的人最在意的点，共享邮箱按人而不按席位收费也实用；但核心 AI 能力依赖用户自带的 ChatGPT/Claude，产品更像管道，语义搜索可能命中缓存而结果不完整。",
+        "competitors": [
+          {
+            "name": "Spark Mail",
+            "url": "https://sparkmailapp.com/",
+            "comparison": "多账号客户端自带 AI 摘要与写作，但不提供把邮件开放给外部 AI 的接口。"
+          },
+          {
+            "name": "Notion Mail",
+            "url": "https://www.notion.com/product/mail",
+            "comparison": "界面与 Notion 生态深度绑定，AI 能力集中在整理写作，跨账号与共享权限较弱。"
+          },
+          {
+            "name": "Gmail + Gemini",
+            "url": "https://workspace.google.com/solutions/ai/",
+            "comparison": "原生免费、体验顺滑，但只覆盖 Google 账号，非 Gmail 邮箱无法统一进来。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-12-07T04:10:55.808733+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-11-23"
+      }
     }
   ],
-  "lastUpdated": "2026-11-22T04:07:54.294392+00:00",
+  "lastUpdated": "2026-11-23T04:10:55.808733+00:00",
   "totalProducts": 856
 }
