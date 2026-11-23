@@ -49565,8 +49565,10 @@
       "cooldownExpiresAt": "2026-11-24T04:28:24.454953+00:00",
       "metrics": {
         "featuredInDaily": 1,
-        "featuredInWeekly": false
-      }
+        "featuredInWeekly": true,
+        "lastFeaturedDate": "2026-11-23"
+      },
+      "lastUpdated": "2026-11-23T04:18:44.286477+00:00"
     },
     {
       "id": "producthunt.com/r/p/1307908",
@@ -54241,6 +54243,6 @@
       }
     }
   ],
-  "lastUpdated": "2026-11-23T04:10:55.808733+00:00",
+  "lastUpdated": "2026-11-23T04:18:44.286477+00:00",
   "totalProducts": 856
 }

@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-23",
+  "generatedAt": "2026-11-23T04:18:44.286477+00:00",
+  "productCount": 1,
+  "type": "weekly",
+  "sourceDailyReport": "2026-11-10",
+  "products": [
+    {
+      "id": "app.nuancelabs.ai/try",
+      "product_id": "app.nuancelabs.ai/try",
+      "name": "Emma：可以面对面视频聊天的 AI 人格",
+      "slug": "emma-nuance-labs",
+      "description": "Nuance Labs 用 18 个月做出的全双工视听模型 Nuplex 1.0 上的第一个 AI 人格：打开浏览器就能和她开视频通话，她会一边听一边说，用表情、眨眼和头部动作回应你，不需要注册账号。",
+      "url": "https://app.nuancelabs.ai/try",
+      "homepage": "https://nuancelabs.ai",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/nuancelabs.ai_20261123_1217.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "实时视频",
+        "AI 人格",
+        "全双工视听模型",
+        "数字人",
+        "对话体验"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=50432589",
+      "firstSeen": "2026-11-09T21:38:00Z",
+      "lastUpdated": "2026-11-23T04:18:44.286477+00:00",
+      "cooldownExpiresAt": "2026-11-24T04:28:24.454953+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": true,
+        "lastFeaturedDate": "2026-11-23"
+      },
+      "analysis": {
+        "targetAudience": "想体验「像人一样」AI 对话的普通用户；以及需要一张可信面孔的开发者与产品团队（客服、销售、教练、培训场景），和关心实时多模态交互的研究者。",
+        "useCases": [
+          "在浏览器里与一个有表情、会接话的 AI 开视频通话，练口语或闲聊",
+          "压力测试实时对话系统的打断、停顿、眼神与轮次——这是旧级联模型最容易崩的地方",
+          "作为 AI 陪伴、虚拟主播、在线客服、销售陪练的产品原型与体验基准",
+          "通过 Nuplex Beta API 定制人格，并让它把长任务交给外部工具同时继续说话",
+          "企业定制授权人格（需本人明确同意），用于品牌数字形象与服务流程"
+        ],
+        "designIntent": "团队认为把模型在既有基准上刷得更高、对话反而更假，于是放弃追分，转去打磨「一个人」：用一位真实女演员的脸、声音和神态共同采集，让眨眼、皱眉、欲言又止都成为角色的一部分；同时把「边听边说」写进架构，而不是在级联管线外面加一个反应层。",
+        "problemSolved": "过去的语音 AI 是「轮流说话」的对讲机式交互：看不见表情、感知不到你还没说完，听完还要排 1-2 秒才开口。Emma 让模型同时听和说，用面部与语气承载情绪，把视频通话从念稿变成真的对话；顺带解决「AI 头像在真人说话时只会僵住或抢话」这个品类级问题。",
+        "tags": [
+          "实时视频",
+          "AI 人格",
+          "全双工视听模型",
+          "数字人",
+          "对话体验"
+        ],
+        "score": 9,
+        "scoreReason": "【深度调研亮点】1) 这不是又一个「数字人 API」，而是把语音四段接力（STT→LLM→TTS→口型）压成一个端到端全双工视听模型：用户说话时它就在点头、挑眉、发出 mm-hmm，先给出「我在听」的证据再开口。2) 换掉了评价尺子：不比首字延迟，比「接话时机是否与原说话人重叠」——官方自建 1,785 题真实对话集，Nuplex 89% vs 次优 35%（公司自测，未独立复现，且对手走公开 API 含网络耗时，须打折看）。3) 人格不是「平均脸」：面孔与声音授权自一位真实女演员并共同采集神态，官方引用 Le Mau 2021 / Kramer 2026 论证「按情绪标签平均反而假」；性格被刻意训练成会不同意你，以对抗偏好数据带来的谄媚（Sharma 2024）。4) 背后是 5000 万美元 A 轮（Lightspeed 领投，NVIDIA 参投，累计 6000 万）与 27 人团队，创始三人均为前 Apple 的 MIT/UW PhD，顾问含前 Meta Codex Avatars 负责人 Yaser Sheikh——研究发布而非营销页。5) 安全被写成产品约束而不是免责声明：永不自称人类、API 视频带可见水印、不支持自助克隆人脸/声音、不做 AI 男女友、18+，通话中若自身索要验证码/银行卡/钱立即挂断。扣分项：仅英文、仅美/欧/英/加部分地区、18+、visual understanding 仍早期，口型与目光在弱网会失灵；Beta API 未公开价格与 SLA，仍属 research preview。",
+        "competitors": [
+          {
+            "name": "Tavus",
+            "url": "https://www.tavus.io/",
+            "comparison": "实时头像 API 的成熟选手，用 Phoenix 渲染 + Raven-2 感知 + Sparrow-2 轮次模型拼出会话能力，端到端回复延迟约 1.86s（Anam 2026-10 横评）；面向企业按分钟计费，普通用户没有入口，本质仍是级联管线 + 头像渲染。"
+          },
+          {
+            "name": "HeyGen LiveAvatar",
+            "url": "https://www.heygen.com/",
+            "comparison": "擅长批量口播视频，LiveAvatar 是独立拆出的实时产品，$99/月起按 credit 计费、支持无限并发；强在商业分发与成本，弱在「边听边反应」的细腻度（同日发布，传播量级被 Nuplex 压过）。"
+          },
+          {
+            "name": "Keyframe Labs",
+            "url": "https://keyframelabs.com/",
+            "comparison": "persona-2.0-live 把实时头像做到 $0.06/分钟、支持词级情绪切换，工程效率是同类标杆；但其博客明确承认「聆听与 backchannel 是另一个建模问题」，行为模型仍由音频驱动——正是 Nuplex 声称原生解决的那一半。"
+          },
+          {
+            "name": "NVIDIA PersonaPlex / Kyutai Moshi",
+            "url": "https://github.com/NVIDIA/personaplex",
+            "comparison": "开源全双工语音的代表：Moshi 理论 160ms、PersonaPlex 7B 基于 Moshi、170ms 且开放权重；延迟更强、可自托管，但只有声音，没有脸与视觉理解。"
+          },
+          {
+            "name": "OpenAI GPT-Live / Gemini Live",
+            "url": "https://gemini.google.com/",
+            "comparison": "大模型内置的全双工语音，生态与可靠性占优、延迟为用户体验刻意放慢；但没有可视化人格，也不开放「造一个人」的能力。"
+          }
+        ]
+      },
+      "weeklyDeepDive": {
+        "growthData": "1) 时间线：2025 年初成立于西雅图（三位前 Apple 研究员的 MIT/UW PhD：CEO Fangchang Ma、CTO Edward Zhang、首席科学家 Karren Yang）→ 2025 年获 1000 万美元种子轮 → 2026-09-14 宣布 5000 万美元 A 轮，Lightspeed 领投，Accel、South Park Commons 继续跟投，NVIDIA 与 Define Ventures 新进，累计融资 6000 万美元、团队 27 人 → 2026-11-09 发布 Nuplex 1.0 与首个 persona Emma（公开 research preview，免注册），同日开放 Nuplex Beta API → 11-10 起英文/中文/俄文技术媒体密集跟进 → 11-22 应用入口已从单人格变为 “Talk to Emma and Nora”，第二个人格上线。\n2) 传播：创始人 @fangchangma 的发布贴（当时粉丝约 1,458）按其合作 launch agency Doomers AI 公开口径为 3.5M 浏览、约 2,377 倍粉丝数，并称同日 HeyGen 早 52 秒发布、其浏览量为 HeyGen 的 3 倍（该数据由发布执行方自报，仅作量级参考）；a16z 消费合伙人 Justine Moore 转发称「离完全无法分辨的实时 AI 头像已经很近」。X 镜像页可见发布贴约 2.4K 赞、235 次转发。\n3) 技术圈热度明显低于消费端：Show HN 仅 9 points / 5 条评论（11-09），说明这是一次「demo 视频驱动」的传播，而非开发者口碑扩散。\n4) 商业化：消费者端完全免费、免注册、无内购；Beta API 需申请，官方未公布单价、配额与 SLA（多家媒体明确注明拿不到价格表，OrcaRouter 直接写「今天任何给 Nuplex 报价的数字都是编的」）。公司公布的落地场景是销售、客服、教练、职业培训与教育，但教育与医疗在本轮 beta 中被明确排除。",
+        "communityActivity": "HN 讨论量小但质量高：提问集中在「她是不是真人代答」「和 HeyGen 有何不同」「多久会有其他人格」，首位员工兼创始研究员 Claudia（cvanea）逐条回复，并主动承认「她可能提前挂断电话」是安全策略而非 bug，同时确认视觉理解仍在改进、多个人格即将上线。有用户只留下一句「响应快得难以置信」，作者回应「延迟高低都会把人从体验里拽出来」。\nX 侧是主战场：创始人贴 + 公司号 + 投资人转发形成三层扩散；讨论语气以惊叹为主（「比任何 avatar 都更像在聊天」），也有冷静派质疑 benchmark 自测。\n第三方评测的口径偏保守：中文技术评测站给 66/100（可信 72/价值 76/可操作 48），明确写「不能据录屏采购、不能承诺中文客服」，并指出开放地区不含中国大陆；digitalhuman.news、Lapaas Voice、MyKreaTool、OrcaRouter 等在 48 小时内出稿，一致强调 89% 为公司自报、未独立复现。负面声音主要是「像真人」与「答案是否正确」被混为一谈，以及地区/语言门槛。",
+        "updateFrequency": "目前是 research preview 节奏，不是产品迭代节奏：发布前 18 个月完全无公开版本，11-09 首发后一周内新增第二个人格 Nora、调整应用入口文案，属于「先补人格库、再谈功能」。无 changelog、无 GitHub、无公开 roadmap，唯一可追踪的更新源是 research 页面与公司 X 账号；安全策略（prompt 预筛、通话中自动终止规则）也在同步调整，官方称「会误拦，也会漏拦」。对比同赛道 Keyframe Labs / LemonSlice 动辄一周一个模型版本，Nuplex 的公开可见迭代明显更慢——这与它自称 foundation model lab 而非 API 供应商的定位一致。",
+        "marketPosition": "赛道可以分三层看。第一层是大模型内置的实时语音：OpenAI GPT-Live、Gemini Live，全双工但只有声音，没有脸。第二层是实时头像 API：Tavus（Phoenix + Raven-2 感知 + Sparrow-2 轮次）、HeyGen LiveAvatar、Anam、LemonSlice、Keyframe Labs。按 Anam 2026-10 的公开横评，这几家端到端回复延迟中位数在 1.24s（Anam）到 2.10s（LemonSlice）之间；Keyframe 的 persona-2.0-live 把渲染压到 $0.06/分钟、支持词级情绪，但其博客自己承认「聆听——对用户话语做出反应、backchannel、维持注意力——是另一个建模问题，也是我们当前研究重点」，这正是 Nuplex 声称已解决的那一半。第三层是开源全双工语音：Kyutai Moshi（理论 160ms/实测约 200ms）与 NVIDIA PersonaPlex（7B，基于 Moshi，170ms，MIT 代码 + NVIDIA 开放权重），但都只有声音。因此 Nuplex 的站位不是「更便宜的分钟单价」，而是「唯一对公众开放的视听全双工模型」：它卖的是交互形态与自然度定义权，短期不与 Tavus 抢客服分钟数，长期则可能以模型层身份向这些 avatar 供应商供货。",
+        "differentiation": "1) 单一模型而非四段接力：语音识别、语言推理、语音合成、口型驱动原本是四个模型串行，任何一跳抖动都会让人「出戏」；Nuplex 把感知与生成放进同一个网络，官方把对话延迟的硬下限设为 500ms，并把「用户还在说时就给出非语言反馈」当作核心指标。\n2) 评价标准从「多快」换成「什么时候」：自建 1,785 题真实对话集，比较各系统开口时刻与原说话人的重叠率，89% vs 次优 35%。指标是公司自报、对手走公开 API 含网络耗时，但把「接话节奏」写成可检验的指标本身就是这个品类缺的东西。\n3) 人格是「一个人」不是「一类人」：面孔、声音、神态全部来自一位合作女演员的真实采集，刻意避开「按情绪标签平均」造成的塑料感；性格上训练成好奇、会反驳、会不同意，并明确承认自己是 AI——直指谄媚问题（Sharma et al. 2024）。\n4) 安全是产品约束：API 视频带可见水印、禁止自助克隆、不做 AI 伴侣、18+、医疗与 K12 不进 beta，persona 若索要密码/银行卡/钱则通话立即终止，这些限制直接砍掉了最赚钱的几条产品线，属于「主动放弃市场换可控」的选择。\n5) 架构上是「Nuplex 在前、LLM 在后」：可与任意语言模型搭配（beta 期先用自研），人格能把长任务交给外部工具同时继续说话——这给了它从 demo 走向 agent 界面的接口，也让它的竞争对手从 avatar 厂商变成「所有需要一张脸的 AI agent」。"
+      }
+    }
+  ]
+}
