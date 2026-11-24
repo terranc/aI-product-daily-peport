@@ -54241,8 +54241,358 @@
         "featuredInWeekly": false,
         "lastFeaturedDate": "2026-11-23"
       }
+    },
+    {
+      "id": "producthunt.com/r/p/1306148",
+      "name": "Yoroll AI 互动故事游戏创作",
+      "slug": "yoroll",
+      "description": "把一段故事、图片或视频变成可点选分支的「可玩电影」，不需要游戏引擎、不需要写代码，由 AI 起草剧本、角色与分镜。",
+      "url": "https://yoroll.ai/",
+      "homepage": "https://yoroll.ai/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1306148_20261124_120428.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 视频",
+        "互动叙事",
+        "无代码",
+        "游戏创作",
+        "创作者工具"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/yoroll",
+      "firstSeen": "2026-11-05T19:24:04-08:00",
+      "analysis": {
+        "targetAudience": "想讲故事、做互动内容，但不会 3D 与游戏引擎的编剧、作家、教师与自媒体创作者。",
+        "useCases": [
+          "把短篇小说改编成带 3 个结局的互动短剧",
+          "为课堂知识点做一个可点选的剧情演示",
+          "给品牌活动做一条观众能做选择的 AI 短片",
+          "把一段 AI 生成视频扩成分支剧情",
+          "用「可玩预告」代替传统作品集展示剧本"
+        ],
+        "designIntent": "团队认为生成式视频目前只能「看」不能「玩」，而传统互动游戏的制作成本又高在引擎与美术上。于是把视频当作运行时，自己做分支逻辑与判定层，让创作者像导演一样调度场景，而不是像程序员一样写状态机。",
+        "problemSolved": "互动叙事长期卡在两个门槛：一是要会引擎和代码，二是分支一多剧情就会崩。Yoroll 先生成完整分支剧本让人检查连贯性，再生成画面，把「写代码」换成「导演式编辑」，让非游戏从业者也能产出可分享的交互故事。",
+        "tags": [
+          "AI 视频",
+          "互动叙事",
+          "无代码",
+          "游戏创作",
+          "创作者工具"
+        ],
+        "score": 8,
+        "scoreReason": "把生成视频从「观看」推进到「交互」，方向上解决了互动内容制作成本高这个真问题，官方 Demo 是 140+ 场景、11 结局的《奥德赛》，不是一张概念图。扣分在于视频生成的稳定性与成本仍决定成品质量，且分支故事「能开始、难收尾」的老问题要靠创作者自己把关。",
+        "competitors": [
+          {
+            "name": "Ink / Inworld AI",
+            "url": "https://inworld.ai/",
+            "comparison": "更偏角色对话与游戏 NPC 智能，需要接入游戏引擎；Yoroll 面向完全不会引擎的创作者。"
+          },
+          {
+            "name": "Rosebud AI",
+            "url": "https://lab.rosebud.ai/",
+            "comparison": "同样走「文字生成游戏」路线，偏向像素/2D 小游戏；Yoroll 主打电影级视频画面与互动叙事。"
+          },
+          {
+            "name": "Genmo / Runway",
+            "url": "https://runwayml.com/",
+            "comparison": "强在生成单段高质量视频，但不负责分支与可玩性；Yoroll 把视频组织成可交互结构。"
+          }
+        ]
+      },
+      "lastUpdated": "2026-11-24T04:10:11.214508+00:00",
+      "cooldownExpiresAt": "2026-12-08T04:10:11.214508+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-11-24"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1323264",
+      "name": "freddy 个人健康数据中枢",
+      "slug": "freddy",
+      "description": "把 Apple Health、Health Connect、Garmin、Oura 等 100+ 数据源和体检报告收进一个私人数据库，再让 ChatGPT、Claude 等任意 AI 读取并回答你的健康问题。",
+      "url": "https://freddy.coach/",
+      "homepage": "https://freddy.coach/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1323264_20261124_120428.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "健康数据",
+        "可穿戴设备",
+        "隐私",
+        "个人 AI",
+        "数据聚合"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/freddy",
+      "firstSeen": "2026-11-19T09:09:58-08:00",
+      "analysis": {
+        "targetAudience": "同时戴手表、戒指、用多个健身 App，想把数据合起来问 AI 的健身爱好者与慢病/指标关注者。",
+        "useCases": [
+          "问 AI「这周恢复得怎么样」并让它对比 HRV 与睡眠",
+          "把体检报告数字和手表数据放在同一张表里对照",
+          "换设备后把过去几年的时间序列一起带走",
+          "让每日早报 agent 自动读取睡眠与训练数据",
+          "把全部数据导出 CSV 交给自己的脚本分析"
+        ],
+        "designIntent": "创始团队最初只想把手表数据喂给自己的 AI，做着做着发现真正缺的是「一个所有数据都在一起的私人家」。于是把它做成中立的健康数据服务器：自己不评分、不做分析，分析交给用户自己选的 AI。",
+        "problemSolved": "健康数据被设备与 App 切成一堆孤岛，换设备历史就断掉，AI 也读不到。freddy 保留每个数据源的原始数值并按设备打标（同一晚 Oura 与 Garmin 的睡眠可以并排质疑），再通过一个可撤销的私人链接把数据开放给任意 AI。",
+        "tags": [
+          "健康数据",
+          "可穿戴设备",
+          "隐私",
+          "个人 AI",
+          "数据聚合"
+        ],
+        "score": 8,
+        "scoreReason": "切的是真实痛点：数据在自己手里、AI 随便换，不做锁定，也明确「不训练、不评分」，比绑死单一模型的健康 App 更有长期价值，已有 2 万+ 用户和 CASA 认证。扣分是它本身不产出洞察，体验高度依赖你选的 AI 好不好用。",
+        "competitors": [
+          {
+            "name": "Apple Health",
+            "url": "https://www.apple.com/health/",
+            "comparison": "系统级汇总，但数据封闭、无法让第三方 AI 自由读取；freddy 做的是跨端开放层。"
+          },
+          {
+            "name": "Bevel",
+            "url": "https://www.bevel.health/",
+            "comparison": "自带评分与教练式建议，属「它替你解读」；freddy 明确不评分，把解读权交给你的 AI。"
+          },
+          {
+            "name": "Terra API",
+            "url": "https://tryterra.co/",
+            "comparison": "面向开发者的健康数据聚合 API；freddy 面向终端用户，附带 MCP 与个人 API 两种用法。"
+          }
+        ]
+      },
+      "lastUpdated": "2026-11-24T04:10:11.214508+00:00",
+      "cooldownExpiresAt": "2026-12-08T04:10:11.214508+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-11-24"
+      }
+    },
+    {
+      "id": "outloudreader.app",
+      "name": "Outloud Reader 拍照朗读器",
+      "slug": "outloud-reader",
+      "description": "拍下书页或打开 PDF，用自然语音逐句朗读并高亮当前句，通勤走路时也能把纸质内容变成听力练习。",
+      "url": "https://outloudreader.app/",
+      "homepage": "https://outloudreader.app/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/outloudreader.app_20261124_120428.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "OCR",
+        "语音朗读",
+        "语言学习",
+        "无障碍",
+        "移动应用"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=50622161",
+      "firstSeen": "2026-11-24T01:14:07Z",
+      "analysis": {
+        "targetAudience": "在学英语/外语、没时间坐下来读纸质书，或有阅读障碍、视力不便的人群。",
+        "useCases": [
+          "拍下英文原版书一页，走路时逐句听",
+          "把课程 PDF 变成可跟读的音频",
+          "对着生词页反复听同一句练发音",
+          "把合同或说明书转成语音快速过一遍",
+          "给孩子把绘本读成有声书"
+        ],
+        "designIntent": "创始人的妻子学了很多年英语却缺少练习机会，希望能「拍一张照片就变成音频」，于是把 OCR、句子切分、自然语音与逐句高亮串成一条最短路径：拍照即听，句子级别跟着念。",
+        "problemSolved": "纸质书和 PDF 里的内容不能被播放，平板朗读器又多是整段机械音。Outloud Reader 把「看得见但听不了」的内容变成按句高亮、可反复跟读的听力材料，解决了语言学习里最缺的「碎片时间输入」。",
+        "tags": [
+          "OCR",
+          "语音朗读",
+          "语言学习",
+          "无障碍",
+          "移动应用"
+        ],
+        "score": 7,
+        "scoreReason": "场景非常具体、需求真实（语言学习 + 无障碍双人群），做的是把现成 AI 能力拼进一个高频日常动作里，不炫技但天天能用。上限在于同类朗读工具不少，差异化主要靠「按句高亮 + 自然语音」的执行质量。",
+        "competitors": [
+          {
+            "name": "Speechify",
+            "url": "https://speechify.com/",
+            "comparison": "偏浏览器/网页长文朗读与速度听读；Outloud Reader 更针对拍照实物与逐句跟读练习。"
+          },
+          {
+            "name": "Voice Dream Reader",
+            "url": "https://www.voicedream.com/",
+            "comparison": "老牌无障碍朗读 App，功能全但交互重；Outloud Reader 主打拍照即听的低摩擦。"
+          },
+          {
+            "name": "Apple 实时朗读",
+            "url": "https://www.apple.com/accessibility/",
+            "comparison": "系统级辅助功能，免费但无法对纸面内容做句子级高亮跟读。"
+          }
+        ]
+      },
+      "lastUpdated": "2026-11-24T04:10:11.214508+00:00",
+      "cooldownExpiresAt": "2026-12-08T04:10:11.214508+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-11-24"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1321014",
+      "name": "Snowly 滑雪同伴记录",
+      "slug": "snowly",
+      "description": "为「一起去滑雪」设计的手机与手表 App：约伴、雪场地图上看队友位置、自动记录每一趟雪道，还能把滑雪数据交给 ChatGPT/Claude 提问。",
+      "url": "https://snowly.ski/",
+      "homepage": "https://snowly.ski/",
+      "type": "app",
+      "appStoreName": "Snowly - Ski with Friends",
+      "appStoreUrl": "https://apps.apple.com/us/app/snowly-ski-with-friends/id6828283899",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1321014_20261124_120428.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "滑雪",
+        "运动记录",
+        "社交",
+        "出行规划",
+        "AI 助手"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/snowly-2",
+      "firstSeen": "2026-11-17T18:11:19-08:00",
+      "analysis": {
+        "targetAudience": "每年固定和朋友/家人去滑雪的中轻度雪友，以及第一次去雪场需要看雪况与地图的新手。",
+        "useCases": [
+          "提前约好雪场、日期与集合点并生成可分享的行程链接",
+          "在雪场地图上看到队友是在滑、在缆车还是休息",
+          "自动识别缆车与雪道，记录落差、距离和最高速度",
+          "出发前一晚看天气、雪况与穿衣提示",
+          "把整个雪季的数据交给 AI 问「我今年在哪些雪场滑得最多」"
+        ],
+        "designIntent": "创始人发现滑雪 App 几乎都是围着单人计时器做的，而滑雪本质上是「一群人的一天」。于是把约伴、找人、安全（SOS）放在最前面，记录退到后台自动完成，让 App 服务的是这一趟行程而不是一条数据曲线。",
+        "problemSolved": "雪场大、信号差、队友走散，是滑雪最常见的三个麻烦。Snowly 用地图上的实时队友状态、硬摔自动 SOS 与近场蓝牙找人解决「找得到人」，再用自动记录与滑雪护照解决「滑完什么都不剩」。AI 助手是附加层，让这些数据能被自己常用的模型提问。",
+        "tags": [
+          "滑雪",
+          "运动记录",
+          "社交",
+          "出行规划",
+          "AI 助手"
+        ],
+        "score": 7,
+        "scoreReason": "产品完成度高（iPhone/iPad/Watch 全上、2400+ 雪场、SOS 免费），切的是「群体滑雪」这个被忽略的真实场景，AI 助手只是开放数据而非噱头。扣分在于 AI 含量偏低、季节性极强，非雪季基本用不上。",
+        "competitors": [
+          {
+            "name": "Slopes",
+            "url": "https://getslopes.com/",
+            "comparison": "滑雪记录的老牌标杆，数据维度更细；Snowly 更偏约伴、找人与雪况可视化。"
+          },
+          {
+            "name": "EpicMix",
+            "url": "https://www.epicmix.com/",
+            "comparison": "绑定 Vail 集团雪场的官方记录；Snowly 不绑定单一雪场，覆盖中日等多地 2400+ 雪场。"
+          },
+          {
+            "name": "Strava",
+            "url": "https://www.strava.com/",
+            "comparison": "通用运动社交，雪道与缆车识别弱；Snowly 对滑雪场景做了专门的雪道匹配与 3D 回放。"
+          }
+        ]
+      },
+      "lastUpdated": "2026-11-24T04:10:11.214508+00:00",
+      "cooldownExpiresAt": "2026-12-08T04:10:11.214508+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-11-24"
+      }
+    },
+    {
+      "id": "offthread.chat",
+      "name": "Offthread 匿名脱敏 AI 聊天",
+      "slug": "offthread",
+      "description": "免登录的匿名 AI 聊天：发送前在浏览器本地把邮箱、电话、密钥、卡号替换成占位符，模型回复后再还原，聊天记录只存在本机。",
+      "url": "https://offthread.chat",
+      "homepage": "https://offthread.chat",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/offthread.chat_20261124_120428.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "隐私保护",
+        "匿名聊天",
+        "数据脱敏",
+        "免费 AI",
+        "浏览器应用"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=50621003",
+      "firstSeen": "2026-11-24T00:58:11Z",
+      "analysis": {
+        "targetAudience": "需要把带真实客户信息、密钥或合同条款的文本丢给 AI，又不愿上传到云端账号里的开发者、顾问与行政人员。",
+        "useCases": [
+          "把带客户邮箱与电话的邮件草稿交给 AI 重写",
+          "贴含 API key 的错误日志让 AI 排查",
+          "临时问一个敏感问题而不留账号与历史",
+          "把信用卡争议的具体卡号遮掉后再描述情况",
+          "在公共电脑上用完即走，不留聊天记录"
+        ],
+        "designIntent": "作者认为大多数人对 AI 的顾虑不是「会不会用」，而是「会不会被记下来」。于是把隐私处理放在最前面：脱敏在本地完成、模型只看到占位符、答案回来再本地还原，默认开启临时会话。",
+        "problemSolved": "直接复制粘贴工作内容给 AI，等于把客户数据与密钥一起交出去。Offthread 在浏览器里做规则化脱敏与还原，让模型「看得懂结构但看不到真值」，同时用免登录 + 本机会话把账号与历史这两个泄露面直接去掉。",
+        "tags": [
+          "隐私保护",
+          "匿名聊天",
+          "数据脱敏",
+          "免费 AI",
+          "浏览器应用"
+        ],
+        "score": 7,
+        "scoreReason": "切的是一个越来越真实的日常顾虑，方案朴素但有效：本地脱敏、模型只见占位符、历史不出机器。扣分在于它本质是「套壳 + 一层脱敏」，产品壁垒低，且作者自己也承认脱敏可能漏（人名、地址等需要人工复核）。",
+        "competitors": [
+          {
+            "name": "DuckDuckGo AI Chat",
+            "url": "https://duckduckgo.com/aichat",
+            "comparison": "同样主打匿名、不留历史，但不做本地脱敏与还原；Offthread 多了「遮住真值再交给模型」这一层。"
+          },
+          {
+            "name": "ChatGPT 临时聊天",
+            "url": "https://chatgpt.com/",
+            "comparison": "官方临时会话不用于训练，但仍需登录且内容明文上传；Offthread 不需要账号。"
+          },
+          {
+            "name": "PrivateGPT / 本地模型",
+            "url": "https://github.com/zylon-ai/private-gpt",
+            "comparison": "数据完全不出本机但需要自己部署与显存；Offthread 用云端模型 + 本地脱敏换取零部署。"
+          }
+        ]
+      },
+      "lastUpdated": "2026-11-24T04:10:11.214508+00:00",
+      "cooldownExpiresAt": "2026-12-08T04:10:11.214508+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-11-24"
+      }
     }
   ],
-  "lastUpdated": "2026-11-23T04:18:44.286477+00:00",
-  "totalProducts": 856
+  "lastUpdated": "2026-11-24T04:10:11.214508+00:00",
+  "totalProducts": 876
 }
