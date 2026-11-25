@@ -54591,8 +54591,353 @@
         "featuredInWeekly": false,
         "lastFeaturedDate": "2026-11-24"
       }
+    },
+    {
+      "id": "producthunt.com/r/p/1328500",
+      "name": "Juncts 多平台私信统一收件箱",
+      "slug": "juncts",
+      "description": "把 LinkedIn、X、Instagram、WhatsApp、Telegram 的私信收进一个键盘优先的收件箱，再用 Claude / ChatGPT 等助手帮你补课、打标、按你的语气起草回复；是否发送始终由你决定。",
+      "url": "https://juncts.com/",
+      "homepage": "https://juncts.com/",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "统一收件箱",
+        "私信管理",
+        "AI 起草回复",
+        "MCP 接入",
+        "CRM 同步"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/juncts",
+      "firstSeen": "2026-11-23T19:08:21-08:00",
+      "analysis": {
+        "targetAudience": "同时在 3 个以上私信平台接活或维护客户关系的自由职业者、独立开发者、销售与创作者。",
+        "useCases": [
+          "早上让 AI 汇总「今天哪几条私信需要我回」",
+          "把 LinkedIn、X、Instagram 的对话合并成一个收件箱快速处理",
+          "按对方身份与语气一键生成三种回复草稿",
+          "给聊天打标签后自动同步到 HubSpot / Salesforce 客户档案",
+          "设置提醒与定时发送，跨平台跟进同一个潜在客户"
+        ],
+        "designIntent": "作者要解决的不是「AI 能不能写回复」，而是「消息散在五个 App 里」这件事本身。先把五个平台的私信并到一个浏览器内可搜索、可键盘操作的收件箱，再把 AI 接在收件箱之上，让它看到的是同一条真实对话，而不是另存一份副本。",
+        "problemSolved": "多平台私信管理的时间损耗：切 App、翻历史、想措辞。Juncts 用统一收件箱压缩切换成本，用 AI 补上下文与起草压缩思考成本，并把 AI 的权限做成 Read/Drafts/Organize/Full 四档、默认只到草稿，避免代发风险。",
+        "tags": [
+          "统一收件箱",
+          "私信管理",
+          "AI 起草回复",
+          "权限分级",
+          "CRM 同步"
+        ],
+        "score": 8,
+        "scoreReason": "切的是高频刚需（多平台私信），并且做出了两个有分量的工程决策：消息数据留在浏览器本地、AI 通过 MCP 在你的标签页里执行操作，服务器只做加密中转。权限四档 + 默认不代发，是这类产品少见的克制。风险在于强依赖各平台 API/登录态，任意一家改动都可能伤到体验。",
+        "competitors": [
+          {
+            "name": "Superhuman",
+            "url": "https://superhuman.com",
+            "comparison": "邮箱界的「快」，AI 归纳与起草都很成熟，但只管邮件，不覆盖社交平台私信。"
+          },
+          {
+            "name": "Beeper",
+            "url": "https://www.beeper.com",
+            "comparison": "同样做多平台消息聚合，但定位偏「聊天统一」，协作与 CRM 能力弱，AI 侧更像附加功能。"
+          },
+          {
+            "name": "Texts.com",
+            "url": "https://texts.com",
+            "comparison": "覆盖平台更多、更像本地客户端，但 AI 与权限控制不如 Juncts 细，也没有 CRM 双向同步。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-12-09T04:08:37.642004+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-11-25"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1322011",
+      "name": "Ohhai 会替你收拾句子的 iPhone 键盘",
+      "slug": "ohhai",
+      "description": "一个长得跟原生键盘一样的 iPhone 输入法：打字再乱，回车就换成整句干净的文本；麦克风与键盘同一个输入框；支持 40 多种语言互译；卡壳时按一下 Action Button，直接给出三条回复草稿。",
+      "url": "https://ohhai.co/",
+      "homepage": "https://ohhai.co/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 键盘",
+        "整句纠错",
+        "语音输入",
+        "即时翻译",
+        "回复草稿"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/ohhai",
+      "firstSeen": "2026-11-18T10:05:36-08:00",
+      "analysis": {
+        "targetAudience": "在手机上高频聊天、回邮件、用外语沟通的人——尤其是打字快但错字多、或需要跟不同语言客户往来的用户。",
+        "useCases": [
+          "单手盲打一大段话，回车后自动补空格、大小写和拼写",
+          "边说边打，长句靠语音、人名靠手打，落在同一个输入框",
+          "用中文打草稿、发出时自动变成英文或目标语言",
+          "看到一段消息不知怎么回，截屏后一键拿三条不同语气的草稿",
+          "在密码框、卡号框打字时自动不处理不发送"
+        ],
+        "designIntent": "作者自己的痛点是「手机上打字很快但错得也快」，市面上的工具都按单词纠错，改完仍然别扭。他把处理单位从「单词」换成「整句」，并把语音、翻译、回复草稿都塞到键盘顶部同一条工具栏里，让用户不必在 App 之间跳。",
+        "problemSolved": "手机输入的三个断点：错字、跨语言、想不出话。Ohhai 用整句重写解决错字，用键盘内翻译解决跨语言，用截屏读屏 + 三条草稿解决「不知道说什么」。同时用「回车才替换、删除可还原」的一步撤销，降低 AI 改错字的心理成本。",
+        "tags": [
+          "AI 键盘",
+          "整句纠错",
+          "语音输入",
+          "即时翻译",
+          "本地历史"
+        ],
+        "score": 8,
+        "scoreReason": "形态选得很聪明：不做一个新 App，而是替换掉最高频的输入层，用户不用改变任何习惯就能吃到 AI。整句重写 + 可撤销、草稿不代发、截屏不上传只传文本，这些细节说明作者想清楚了信任问题。扣分在平台依赖（iOS 键盘 Full Access 权限敏感）与英文优先的体验，中文混输未必同样顺。",
+        "competitors": [
+          {
+            "name": "Grammarly Keyboard",
+            "url": "https://www.grammarly.com/keyboard",
+            "comparison": "英语语法纠错的标杆，但按词/句局部提示，不做整句重写，也没有回复草稿与语音合框。"
+          },
+          {
+            "name": "Gboard",
+            "url": "https://gboard.app",
+            "comparison": "系统级输入法，语音与翻译都有，但纠错是逐词联想，不能把打乱的一整句还原成通顺文本。"
+          },
+          {
+            "name": "Wispr Flow",
+            "url": "https://wisprflow.ai",
+            "comparison": "语音输入体验极佳，但只解决「说→写」，不覆盖打字纠错、翻译与读屏起草。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-12-09T04:08:37.642004+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-11-25"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1323870",
+      "name": "DeskMagic 摇一下鼠标，问屏幕上的任何东西",
+      "slug": "deskmagic",
+      "description": "Windows 桌面小工具：晃一下鼠标唤出彩虹圈，框选屏幕上让你困惑的图表、报错、外语或界面，答案直接流式出现在旁边。用的是你自己的 Claude / ChatGPT / Gemini key，没有账号，没有订阅，历史只留本机。",
+      "url": "https://deskmagic.app/",
+      "homepage": "https://deskmagic.app/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "屏幕问答",
+        "桌面助手",
+        "自带 API Key",
+        "划词提问",
+        "本地历史"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/deskmagic",
+      "firstSeen": "2026-11-19T23:02:09-08:00",
+      "analysis": {
+        "targetAudience": "整天对着屏幕找答案的 Windows 用户：分析报表的财务/运营、查报错的开发者、看外文资料的学生与研究者。",
+        "useCases": [
+          "框选一张看不懂的图表，问「Q3 西区为什么跳涨」",
+          "圈住一段报错，直接拿到解释和修复建议",
+          "拖框圈住外语界面或 PDF 段落，就地翻译与解释",
+          "划选一段文字后摇一摇，跳过截屏省成本",
+          "把历史里的答案找回来继续追问，不必重新框选"
+        ],
+        "designIntent": "作者每天几十次重复「截屏→打开 ChatGPT→粘贴→描述问题→切回来」这套动作，认为值得被压缩成一个手势。于是把触发做成「摇鼠标」这种肌肉记忆级的动作，把回答做成悬浮在原文旁边的流式窗口，让用户不离开当前工作。",
+        "problemSolved": "把「屏幕上的内容」送进 AI 的摩擦成本。DeskMagic 用框选代替截屏 + 上传 + 描述，用自带 key 的方式让数据不经过第三方服务器，用划词优先于截图把单次成本降到十分之一。",
+        "tags": [
+          "屏幕问答",
+          "桌面助手",
+          "自带 Key",
+          "划词提问",
+          "无账号"
+        ],
+        "score": 8,
+        "scoreReason": "「摇一摇 + 框选 + 就地回答」是这类工具里最短的交互路径，比截图再粘贴少三步。自带 API key、无中间服务器、历史留本机，在隐私上是干净的做法；划词比截图便宜 10 倍也是很实际的工程考虑。劣势是仅 Windows（macOS 尚在开发）、免费版限单一模型，且自带 key 对普通用户仍有门槛。",
+        "competitors": [
+          {
+            "name": "ChatGPT 桌面版",
+            "url": "https://chatgpt.com",
+            "comparison": "官方客户端支持截图提问，但要先截屏、切窗口、再粘贴，没有「圈住就答」的手势级入口。"
+          },
+          {
+            "name": "Gemini in Chrome",
+            "url": "https://gemini.google.com",
+            "comparison": "浏览器内可以直接问当前页面，但管不到桌面应用与游戏之外的本地窗口，也不能只框选一小块区域。"
+          },
+          {
+            "name": "Snipaste + 任意 AI",
+            "url": "https://www.snipaste.com",
+            "comparison": "截图工具里的标杆，负责「取」不负责「答」，用户仍需自己把图贴进 AI。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-12-09T04:08:37.642004+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-11-25"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1325372",
+      "name": "Prates 学会你怎么写，再替你这么写",
+      "slug": "prates",
+      "description": "macOS 上的写作代理：从你日常发出的文字里学习你给谁写、在做什么项目、持什么观点、习惯怎么措辞，然后在任何 App 里把口述变成成稿、整段起草回复、或接着你打的半句话补完。学到的内容以短笔记形式留在本机，可读可删。",
+      "url": "https://prates.ai/",
+      "homepage": "https://prates.ai/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "写作代理",
+        "风格学习",
+        "语音转成稿",
+        "本地模型可用",
+        "个人知识笔记"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/prates",
+      "firstSeen": "2026-11-21T06:13:49-08:00",
+      "analysis": {
+        "targetAudience": "每天要写大量邮件、Slack/Teams 消息与文档，又嫌通用 AI 写出来「不像自己」的知识工作者与管理者。",
+        "useCases": [
+          "按住右 Option 口述，松手就得到一封措辞像你本人的邮件",
+          "在 Teams 里连按三下 Option，根据聊天上下文整段起草回复",
+          "打个「Decision:」就自动补出结论与待办清单的骨架",
+          "跨 App 复用同一份认知：邮件里说过的立场影响第二天 Slack 里的措辞",
+          "接入公司已批准的 Azure OpenAI 或本地 Ollama 模型，避免数据外流"
+        ],
+        "designIntent": "作者试过的听写与自动补全工具都在写「正确的通用文本」，而不是「你会写的那段话」，而且不允许使用公司批准的模型、也不跨 App 工作。Prates 的反向设计是：先建立一份关于你的人物/项目/观点/措辞的轻量笔记，再让所有生成都以这份笔记为前提。",
+        "problemSolved": "通用 AI 写作的两个副作用——语气不像你、以及必须把工作内容交给不信任的服务。Prates 用「短笔记而非原文副本」的中间层解决前者，用「模型由你指定（本地/公司网关/已登录的 CLI）」解决后者，语音识别全程留在本机。",
+        "tags": [
+          "写作代理",
+          "风格学习",
+          "口述成稿",
+          "本地优先",
+          "多模型"
+        ],
+        "score": 8,
+        "scoreReason": "把「个性化」落实到可检查的笔记上（人物、项目、观点、措辞五类，可逐条删除），比只喊「学习你的风格」要诚实得多。语音不离开 Mac、模型可选本地或公司网关、支持挪威语等非英语模型，说明它认真对待了企业与多语用户。风险是「学习」依赖它能看到你各 App 的文本，macOS 辅助功能权限会劝退一部分人；目前仅 macOS。",
+        "competitors": [
+          {
+            "name": "Wispr Flow",
+            "url": "https://wisprflow.ai",
+            "comparison": "听写体验一流、跨 App 可用，但只做「说→写」，没有对你的人物/项目/观点的长期记忆，也不做自动补全。"
+          },
+          {
+            "name": "Apple 书写工具",
+            "url": "https://www.apple.com",
+            "comparison": "系统自带、零配置，但需要先选中文本，且不了解你的上下文与收件人，语气偏通用。"
+          },
+          {
+            "name": "Notion AI",
+            "url": "https://www.notion.com/product/ai",
+            "comparison": "在知识库内写作很强，能引用你的笔记，但被锁在 Notion 里，无法在 Mail/Teams/Word 里就地工作。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-12-09T04:08:37.642004+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-11-25"
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1327989",
+      "name": "InField 双击 Shift，就地翻译与润色",
+      "slug": "infield",
+      "description": "Mac 菜单栏应用 + Chrome 扩展：在任何输入框里连按两下 Shift，就在文字下方弹出翻译或润色选项，再按一下 Shift 直接替换原文。写自己的语言、目标语言或两者混着写，都能得到一段干净的目标文本。",
+      "url": "https://www.infield-app.com/",
+      "homepage": "https://www.infield-app.com/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": null,
+      "appStoreScreenshots": [],
+      "tags": [
+        "就地翻译",
+        "写作润色",
+        "菜单栏工具",
+        "Chrome 扩展",
+        "多语言混写"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/infield-translate-and-refine",
+      "firstSeen": "2026-11-23T08:52:44-08:00",
+      "analysis": {
+        "targetAudience": "每天要用两三种语言写消息、发帖、回邮件的人——跨境卖家、海外客户支持、留学生与非母语工作者。",
+        "useCases": [
+          "用中文写完客服回复，双击 Shift 一键换成英文发出",
+          "混着写（中文夹英文术语）也能合成一段干净的目标语言",
+          "邮件发出前选 Refine，修语法、顺结构、调语气",
+          "选中网页里的一小段外文，双击 Shift 只看那几句的意思",
+          "在 Mac 桌面 App（邮件、聊天客户端）里同样可用"
+        ],
+        "designIntent": "作者日常用三种语言，每次翻译或润色都得复制、切标签页、粘贴、再复制回来，几十次一天。他认为值得被修掉的是这段「来回搬运」，而不是翻译质量本身，所以把交互压到「双击 Shift + 再按 Shift 替换」。",
+        "problemSolved": "写多语言内容时的窗口切换成本。InField 把翻译/润色嵌进输入框本身，且区分了「读网页」（Chrome 自带翻译的领域）与「写内容」（InField 的领域）这两件常被混为一谈的事。",
+        "tags": [
+          "就地翻译",
+          "写作润色",
+          "多语言",
+          "快捷键",
+          "轻量工具"
+        ],
+        "score": 7,
+        "scoreReason": "交互设计得极省：两下 Shift 唤起、一下 Shift 替换，比任何「复制到 ChatGPT」的流程都短，还顺手把「读」与「写」的翻译需求拆开了。扣分在能力面偏窄（翻译 + 润色，没有记忆与个性化）、需要辅助功能权限、依赖自有服务端（非本地模型），且当前免费但作者已预告将转订阅。",
+        "competitors": [
+          {
+            "name": "DeepL",
+            "url": "https://www.deepl.com",
+            "comparison": "翻译质量口碑最好，但主战场是网页/文档翻译，写作场景仍要复制粘贴，需要切窗口。"
+          },
+          {
+            "name": "Grammarly",
+            "url": "https://www.grammarly.com",
+            "comparison": "浏览器内直接改语法很顺手，但不做翻译，多语言混写场景基本不覆盖。"
+          },
+          {
+            "name": "Apple 翻译 / 书写工具",
+            "url": "https://www.apple.com",
+            "comparison": "系统集成、免费，但要选文本、且翻译与改写分在两个入口，不能在同一个字段里一步替换。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-12-09T04:08:37.642004+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "featuredInWeekly": false,
+        "lastFeaturedDate": "2026-11-25"
+      }
     }
   ],
-  "lastUpdated": "2026-11-24T04:10:11.214508+00:00",
-  "totalProducts": 876
+  "lastUpdated": "2026-11-25T04:08:37.642004+00:00",
+  "totalProducts": 881
 }
