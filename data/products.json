@@ -54936,8 +54936,354 @@
         "featuredInWeekly": false,
         "lastFeaturedDate": "2026-11-25"
       }
+    },
+    {
+      "id": "producthunt.com/r/p/1326465",
+      "name": "eluna：情侣共用的 AI 经期解读器",
+      "slug": "eluna",
+      "description": "把经期追踪从「日历倒数」变成「解释为什么」的 iOS/Android 应用：每天一分钟勾选心情、精力、症状，AI 用一句朋友口吻的话告诉你这次经前为什么难受、接下来会发生什么，还开放伴侣模式让对方提前知道哪天需要耐心。",
+      "url": "https://elunaapp.com/",
+      "homepage": "https://elunaapp.com/",
+      "type": "app",
+      "appStoreName": "eluna: AI Period Cycle Tracker",
+      "appStoreUrl": "https://apps.apple.com/us/app/eluna-ai-period-cycle-tracker/id6760151821",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1326465_1795665918.png",
+      "appStoreScreenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cd/e4/b7/cde4b7ba-6f26-db1c-fb50-01a57a3696b4/en_iphone_01.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f4/c8/92/f4c892da-7069-fd14-491a-521a11eb8e20/en_iphone_02.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/71/df/53/71df5308-6ce3-0629-98fb-6d7f15af3566/en_iphone_03.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ad/d7/9f/add79f3d-c605-27b6-5d87-fbe0aa3b1f4d/en_iphone_04.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/dd/bd/2d/ddbd2d05-b0c8-ec40-13b6-8138caa8f881/en_iphone_05.png/320x480bb.jpg"
+      ],
+      "tags": [
+        "经期追踪",
+        "情侣共享",
+        "健康 AI",
+        "本地隐私",
+        "每日解读"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/eluna",
+      "firstSeen": "2026-11-22T07:35:37-08:00",
+      "analysis": {
+        "targetAudience": "有经期追踪需求、又厌倦「千篇一律生理期贴士」的女性，以及想理解伴侣状态但不知从何问起的另一半。",
+        "useCases": [
+          "经前情绪低落时录一段语音日记，第二天收到一句解释「那天为什么沉」",
+          "把伴侣拉进 partner mode，让对方在自己敏感期前收到一句温和提示",
+          "Apple Watch 表盘直接看当前生理阶段，抬手就能记一次经期",
+          "用「Ask eluna」问「我这次腹胀正常吗」，答案来自自己的历史记录而非通用科普"
+        ],
+        "designIntent": "作者是一对夫妻：妻子做全部调研与文案，丈夫负责开发。他们做这款 App 的出发点是「大多数经期 App 只画日历和倒计时，真正的问题是『为什么今天这么难受』没人回答」，于是把 AI 定位成解释者而不是预测器，并把伴侣视角当成一等公民功能。",
+        "problemSolved": "解决了经期 App 只报日期不解释原因、以及情侣之间「她难受他不知所措」的沟通断层：把身体数据翻译成一句人话，并让伴侣在不越界的前提下提前获得提示。",
+        "tags": [
+          "经期追踪",
+          "情侣共享",
+          "健康 AI",
+          "隐私优先",
+          "每日解读"
+        ],
+        "score": 8,
+        "scoreReason": "切入点极准：把「解释为什么」做成产品的唯一差异点，再用伴侣模式打开双人场景，情感价值高于同类工具。加分项是日志与 Apple Health 数据不出设备；扣分是核心 AI 功能锁在 eluna+ 订阅后面（$4.99/月）。",
+        "competitors": [
+          {
+            "name": "Flo",
+            "url": "https://flo.health/",
+            "comparison": "用户量与医学内容库远强于 eluna，但主打个人预测与社区，没有面向伴侣的解释式设计。"
+          },
+          {
+            "name": "Clue",
+            "url": "https://helloclue.com/",
+            "comparison": "同样走科学/去粉红路线，强调周期与症状关联，但解读偏科普文章，缺少基于个人日志的一句话结论。"
+          },
+          {
+            "name": "Apple 健康（经期追踪）",
+            "url": "https://www.apple.com/health/",
+            "comparison": "免费、系统级、隐私最好，但只有记录与预测，没有 AI 解释，也没有伴侣视角。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-12-10T04:10:34.513386+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "lastFeaturedDate": "2026-11-26",
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1329023",
+      "name": "Hai：让 AI 助手真的替你打电话",
+      "slug": "hai-phone-call",
+      "description": "一个挂在你自己 AI 助手上的「拨号臂」：你说要订餐厅、诊所或理发店，助手先给出通话计划，你点头后 Hai 用当地语言真打过去、自称 AI、谈完把结果用文字回报到聊天里。",
+      "url": "https://haicall.in",
+      "homepage": "https://haicall.in",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1329023_1795665925.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 电话助手",
+        "语音代理",
+        "预约代打",
+        "无障碍",
+        "多语言"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/hai-4",
+      "firstSeen": "2026-11-24T03:19:56-08:00",
+      "analysis": {
+        "targetAudience": "在异地/外语环境里怕打电话的人、听障或有语言障碍的用户，以及所有厌恶「只能电话预约」流程的普通人。",
+        "useCases": [
+          "在札幌用日语让 AI 订一家只接电话的居酒屋",
+          "替自己预约牙科诊所并确认是否接受保险",
+          "在听不懂对方口音时，让 AI 打完电话把要点整理成文字",
+          "听障用户把「必须打电话」的环节彻底变成文字对话"
+        ],
+        "designIntent": "作者 Prashant 常驻日本，长期回避打给餐厅和诊所的电话；他意识到对听障、语言障碍人群来说，这不是「麻烦」而是「关上的门」，所以刻意设计成「先看计划、再授权拨号、结果回到文本」，把控制权和可读性放在最前。",
+        "problemSolved": "解决「有些预约只能打电话」这一残留摩擦：把语音通话这件高心理成本的事，降级成一次文字确认，并让结果可留档、可复核。",
+        "tags": [
+          "AI 电话助手",
+          "语音代理",
+          "预约代打",
+          "无障碍",
+          "MCP"
+        ],
+        "score": 8,
+        "scoreReason": "场景选得极聪明——不是又一个语音 agent 平台，而是补上「只能电话」这条缝隙，且无障碍价值真实。扣分在于目前只支持不入 IVR、等待超 1 分钟即挂断、单通 5 分钟上限，新账号还要人工审批。",
+        "competitors": [
+          {
+            "name": "Bland AI",
+            "url": "https://www.bland.ai/",
+            "comparison": "企业级电话 AI 平台，能力强但面向开发者按分钟计费，普通用户无法直接用。"
+          },
+          {
+            "name": "Retell AI",
+            "url": "https://www.retellai.com/",
+            "comparison": "同样做电话语音代理基建，偏客服与呼叫中心，缺少「个人帮我订位」的消费级体验。"
+          },
+          {
+            "name": "Google Duplex（Google 助理）",
+            "url": "https://assistant.google.com/",
+            "comparison": "曾做过餐厅代订，但已随 Google 助理收缩，覆盖地区与语言远不如 Hai 声明的「任意语言」。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-12-10T04:10:34.513386+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "lastFeaturedDate": "2026-11-26",
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "v2ex.com/t/1259954",
+      "name": "IntoBlocks：一句话生成可编辑的 Minecraft 建筑",
+      "slug": "intoblocks",
+      "description": "把文字描述、参考图或平面图变成 Minecraft 建筑，并导出成可继续编辑的 .schem/.litematic：Build 模式管房子城堡村庄的结构与房间动线，Shape 模式管船、雕像、车辆这类外形，生成后还能追问「入口再宽一点」「屋顶换成深色木」。",
+      "url": "https://intoblocks.app/",
+      "homepage": "https://intoblocks.app/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/v2ex.com_t_1259954_1795665931.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "Minecraft",
+        "建筑生成",
+        "AI 创作",
+        "游戏工具",
+        "可编辑导出"
+      ],
+      "sourceChannels": [
+        "v2ex"
+      ],
+      "sourceUrl": "https://www.v2ex.com/t/1259954",
+      "firstSeen": "2026-11-26T01:20:35+00:00",
+      "analysis": {
+        "targetAudience": "Minecraft 建筑玩家、服务器出生点/地图团队、接建筑委托的 Build Team，以及靠卖 schematic 做会员内容的创作者。",
+        "useCases": [
+          "描述「悬崖上的中世纪城堡」直接得到可进游戏的多层结构",
+          "上传一张参考图，生成同体量的船或雕像",
+          "用平面图约束房间数量与动线，做服务器出生点",
+          "导出 .schem 回 WorldEdit/Litematica/Axiom 手工修细节"
+        ],
+        "designIntent": "作者观察到 Minecraft 里最耗时的不是装饰而是「把整片场景立起来」，而现有生成工具大多只吐静态体素或图片、不可编辑。所以他把产物定位成「可继续施工的半成品」，并保留版本历史让修改可回溯。",
+        "problemSolved": "解决建筑创作的前 70% 重体力活：从零搭骨架、铺房间、连路径全部由 AI 起手，创作者只做审美与细节收尾。",
+        "tags": [
+          "Minecraft",
+          "建筑生成",
+          "AI 创作",
+          "可编辑导出",
+          "schematic"
+        ],
+        "score": 7,
+        "scoreReason": "垂直场景卡得准，且「导出可编辑」比只给图片的工具实用得多；中文作者、Discord 社区在早期就在收集反馈。扣分是赛道已有多家同类（Structmatic/genMC/BlockGPT），差异要靠生成质量与工作流打磨。",
+        "competitors": [
+          {
+            "name": "Structmatic",
+            "url": "https://structmatic.com/",
+            "comparison": "同样从一句话到 .schem/.litematic 并可视化改块，英文市场更成熟，IntoBlocks 需靠中文社区与参考图约束取胜。"
+          },
+          {
+            "name": "genMC",
+            "url": "https://genmc.app/build",
+            "comparison": "浏览器内由 AI agent 逐块搭建、可走动指点修改，交互更新颖但导出与版本管理弱于 IntoBlocks。"
+          },
+          {
+            "name": "BlockGPT",
+            "url": "https://blockgpt.ai/",
+            "comparison": "主打文字/图片转 schematic、每日 5 次免费预览、下载 1 美元起，价格更低但编辑与追问能力较弱。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-12-10T04:10:34.513386+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "lastFeaturedDate": "2026-11-26",
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1329778",
+      "name": "Hold'em：把黑五捡漏做成滑卡游戏",
+      "slug": "holdem-bfcm",
+      "description": "黑五购物不再开 40 个标签页：告诉它你在找什么（比如 100 美元以内的咖啡礼物），它实时查 Shopify 店铺购物车里的真实自动折扣（不是页面上虚标的划线价），右手保留、左手滑掉，最后按店铺归拢成一包可直接结算的清单。",
+      "url": "https://holdem.showerthoughts.dev/",
+      "homepage": "https://holdem.showerthoughts.dev/",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1329778_1795665939.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "黑五捡漏",
+        "购物助手",
+        "实时折扣",
+        "滑卡交互",
+        "Shopify"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/products/hold-em",
+      "firstSeen": "2026-11-24T14:25:40-08:00",
+      "analysis": {
+        "targetAudience": "黑五/网一周期间想认真捡漏、又受不了开几十个标签页和虚假折扣的精明消费者。",
+        "useCases": [
+          "输入「100 美元以内的咖啡器具」，一局 10 张卡快速筛出真折扣",
+          "用滑卡不断训练自己的偏好，下一手牌越来越对味",
+          "先填一次 ZIP，提前确认每家店是否配送到自己这里",
+          "把保留的商品按店铺分成一包，浮窗式下单，不进第三方支付"
+        ],
+        "designIntent": "作者每年黑五都开满标签页、遇到一堆先涨价再打折的假折扣，最后什么都没买。他发现 Shopify 很多真折扣只出现在结算购物车里、商品页根本不显示，于是用「滑卡决策」这个低摩擦交互，把「查真实购物车价」这件脏活自动化。",
+        "problemSolved": "解决两个黑五老问题：假折扣看不清、真折扣藏在购物车；顺带把「几十个标签页比价」压缩成几分钟的滑卡决策。",
+        "tags": [
+          "黑五捡漏",
+          "购物助手",
+          "实时折扣",
+          "滑卡交互",
+          "Shopify"
+        ],
+        "score": 7,
+        "scoreReason": "场景与时机极契合（黑五当周上线），差异化明确——查的是购物车里的真实自动折扣而非商品页划线价，这点确实戳中痛点。分数没更高是因为季节性明显、只覆盖 Shopify 生态，且未登录仅 8 局（登录免费 40 局）。",
+        "competitors": [
+          {
+            "name": "Honey",
+            "url": "https://www.joinhoney.com/",
+            "comparison": "结算页自动试优惠码的老牌扩展，覆盖面最大但只在你已决定购买时省钱，不做发现与比价。"
+          },
+          {
+            "name": "Slickdeals",
+            "url": "https://slickdeals.net/",
+            "comparison": "社区驱动的人工捡漏论坛，折扣信息来源广但噪音大、需要自己筛，且不查实时购物车价。"
+          },
+          {
+            "name": "Capital One Shopping",
+            "url": "https://www.capitaloneshopping.com/",
+            "comparison": "跨店自动比价与返现，偏价格历史与提醒，缺少面向黑五的发现式浏览体验。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-12-10T04:10:34.513386+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "lastFeaturedDate": "2026-11-26",
+        "featuredInWeekly": false
+      }
+    },
+    {
+      "id": "wordspies.com/daily",
+      "name": "WordSpies：AI 当间谍大师的每日猜词局",
+      "slug": "wordspies",
+      "description": "每天一局 5×5 猜词：AI 扮演「间谍大师」，只给一个线索词加一个数字（如 SHERWOOD 2），你要从中圈出属于自己队伍的 9 个词；猜错或跳过就换下一条线索，天天不重样。",
+      "url": "https://wordspies.com/daily",
+      "homepage": "https://wordspies.com/daily",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/wordspies.com_daily_1795666132.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "每日谜题",
+        "猜词游戏",
+        "AI 出题",
+        "网页游戏",
+        "无广告"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=50650316",
+      "firstSeen": "2026-11-26T01:42:07Z",
+      "analysis": {
+        "targetAudience": "喜欢 Wordle/Codenames 这类每日一局、又想练英文联想与词汇的轻量玩家。",
+        "useCases": [
+          "通勤时刷今天的每日局，3 分钟一局",
+          "和朋友比谁用的线索更少",
+          "顺着 AI 线索练英文语义联想（SHERWOOD → BOW/THIEF）",
+          "每天固定时间回来打卡，形成 Wordle 式习惯"
+        ],
+        "designIntent": "作者把「行动代号（Codenames）」里最有趣的「听线索猜词」单独抽出来，用 AI 取代人类间谍大师，让它每天为 25 个词自动写线索，于是单人也能天天玩一局、无需凑人。",
+        "problemSolved": "解决了派对桌游需要凑齐 4 人以上才能玩的问题：把社交桌游的核心乐趣压缩成一个人每天 3 分钟就能消费的谜题。",
+        "tags": [
+          "每日谜题",
+          "猜词游戏",
+          "AI 出题",
+          "网页游戏",
+          "类 Wordle"
+        ],
+        "score": 7,
+        "scoreReason": "机制移植得很聪明——把 Codenames 的线索环节游戏化，AI 出题解决了「凑人」的最大门槛，且天然具备每日回访属性。扣分是玩法单薄、AI 线索质量决定体验上限，商业化路径不明显。",
+        "competitors": [
+          {
+            "name": "Wordle",
+            "url": "https://www.nytimes.com/games/wordle",
+            "comparison": "每日一词的王者，习惯养成极强，但只有单人猜字母、没有语义联想层。"
+          },
+          {
+            "name": "Codenames（线上版）",
+            "url": "https://codenames.game/",
+            "comparison": "同源玩法、社交性最好，但必须多人实时开局，无法随时单人玩。"
+          },
+          {
+            "name": "Contexto",
+            "url": "https://contexto.me/",
+            "comparison": "同样用 AI/语义相似度做每日谜题，但猜的是单个目标词的语义距离，缺少团队对抗结构。"
+          }
+        ]
+      },
+      "cooldownExpiresAt": "2026-12-10T04:10:34.513386+00:00",
+      "metrics": {
+        "featuredInDaily": 1,
+        "lastFeaturedDate": "2026-11-26",
+        "featuredInWeekly": false
+      }
     }
   ],
-  "lastUpdated": "2026-11-25T04:08:37.642004+00:00",
-  "totalProducts": 881
+  "lastUpdated": "2026-11-26T04:10:34.513386+00:00",
+  "totalProducts": 886
 }
