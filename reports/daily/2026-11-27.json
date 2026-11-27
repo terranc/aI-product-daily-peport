@@ -1,0 +1,312 @@
+{
+  "date": "2026-11-27",
+  "generatedAt": "2026-11-27T04:03:14.399607+00:00",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "scolast.com",
+      "name": "Scolast AI 导师",
+      "slug": "scolast",
+      "description": "一个按「掌握式学习」逻辑运作的 AI 一对一导师：先诊断你真实水平，再教到你真正答对才推进，可自定义任何学科主题。",
+      "url": "https://scolast.com",
+      "homepage": "https://scolast.com",
+      "type": "website",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/scolast.com_1795752220.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 教育",
+        "一对一辅导",
+        "掌握式学习",
+        "自学工具"
+      ],
+      "sourceChannels": [
+        "hackernews"
+      ],
+      "sourceUrl": "https://news.ycombinator.com/item?id=50661473",
+      "firstSeen": "2026-11-27T00:43:12Z",
+      "analysis": {
+        "targetAudience": "想系统自学硬技能（物理、编程、语言、备考）但苦于没有人盯着进度、看完就忘的自学者。",
+        "useCases": [
+          "用「先测后教」的方式学一门新语言，直到能读懂原文报纸",
+          "备考有机化学等考试，按错题缺口反复补练",
+          "从零学编译器/机器学习等硬核主题，写完后立即批改",
+          "在读文章时选中难句，侧栏弹出即时解释而不打断思路",
+          "随时生成针对当前弱点的练习卷并自动判分"
+        ],
+        "designIntent": "作者本人用 Claude 学物理时发现聊天机器人只会「给答案、给得快、很顺耳」，学完什么也没留下。于是他把教育学里 Bloom 的 2 sigma 问题（一对一辅导能让学生超越 98% 的同学）搬进产品：保留大模型的智力，但把交互改成必须自己动笔、必须答对才推进。",
+        "problemSolved": "解决在线学习「假学习」——看视频、问聊天机器人都觉得懂了，动手时一片空白。它用掌握式学习把「懂了的错觉」变成可验证的通过门槛，同时把一对一辅导的成本压到每小时不到 1 美元。",
+        "tags": [
+          "AI 教育",
+          "掌握式学习",
+          "自学",
+          "一对一辅导"
+        ],
+        "score": 9,
+        "scoreReason": "切入点有真实的教育学依据（Bloom 1984 实验），并把商业模式做得很诚实——按 token 成本 +10% 收费、始终用最强模型。相比市面上「聊天式陪学」，它强制输出与批改的交互设计更可能真的产生学习效果。",
+        "competitors": [
+          {
+            "name": "Khanmigo",
+            "url": "https://www.khanmigo.ai",
+            "comparison": "同样主打 AI 导师，但绑定可汗学院既定课程体系，不能自由指定主题，也不做掌握式门槛判定。"
+          },
+          {
+            "name": "Bloom Tutor",
+            "url": "https://bloomtutor.app",
+            "comparison": "几乎同题（同引 2 sigma 研究），但它以「一节课一节课读」为主，Scolast 更强调测—纠—再测的闭环与按 token 计费。"
+          },
+          {
+            "name": "ChatGPT 学习模式",
+            "url": "https://chatgpt.com",
+            "comparison": "免费且通用，但交互仍是「你问我答」，缺少强制作答与掌握度判定，容易停留在看懂而非学会。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1330187",
+      "name": "Mime 无声听写",
+      "slug": "mime",
+      "description": "按住一个键，只用嘴型「默念」，松开就把话说成文字输入到任意应用里——在图书馆、开放办公室或静音会议中也能打字。",
+      "url": "https://24mjihad.github.io/Mime/",
+      "homepage": "https://24mjihad.github.io/Mime/",
+      "type": "app",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1330187_1795752227.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "语音输入",
+        "读唇识别",
+        "本地 AI",
+        "效率工具"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/posts/mime",
+      "firstSeen": "2026-11-24T23:22:06-08:00",
+      "analysis": {
+        "targetAudience": "每天要大量输入文字、但常常处在不能出声环境的办公族、学生与远程会议参与者。",
+        "useCases": [
+          "在图书馆或开放工位按住快捷键默念，文字直接落到文档里",
+          "静音状态的视频会议中快速回消息",
+          "深夜在家不想吵醒家人时写邮件",
+          "能开口的场合直接说话，识别自动切换到语音模式",
+          "在聊天窗、终端、笔记等任意应用里统一使用同一套输入方式"
+        ],
+        "designIntent": "作者观察到「听写比打字快，但你在图书馆、开放办公室或静音会议里根本没法说话」，于是让程序通过摄像头读嘴型：按住键、默念、松开即出字。设计上刻意做成全局键位而非独立应用，让它能落在任何输入框。",
+        "problemSolved": "解决「想用语音输入但环境不允许出声」的矛盾，把听写从私密空间解放到公共空间。读唇与语音识别都在本机运行，只有转写后的文字上云做纠错，隐私边界清晰。",
+        "tags": [
+          "读唇识别",
+          "语音输入",
+          "本地推理",
+          "Mac/Windows"
+        ],
+        "score": 9,
+        "scoreReason": "把「读唇」这个偏实验室的能力做成了随手可用的输入法，场景痛点极其具体（静音会议、图书馆），而且坦诚说明局限（人名、数字、罕见词不准）。缺点是收费前置、安装包未签名，试用门槛偏高。",
+        "competitors": [
+          {
+            "name": "Wispr Flow",
+            "url": "https://wisprflow.ai",
+            "comparison": "同样是全局语音听写，但要求出声，在安静环境无法使用；Mime 的差异点正是无声默念。"
+          },
+          {
+            "name": "Superwhisper",
+            "url": "https://superwhisper.com",
+            "comparison": "本地 Whisper 转写、体验成熟，但只处理声音输入，不读唇。"
+          },
+          {
+            "name": "系统自带听写",
+            "url": "https://support.apple.com/guide/mac-help/mh40584/mac",
+            "comparison": "免费且零配置，但同样需要出声，且不支持跨应用的键位与口型模式。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1329841",
+      "name": "Clary 通知原声",
+      "slug": "clary",
+      "description": "让 iPhone 通知用发信人自己的声音读出来：对方录 20 秒样本、本机克隆声音，同时把 16 个常用 App 的通知留成可检索的历史。",
+      "url": "https://hiclary.com",
+      "homepage": "https://hiclary.com",
+      "type": "app",
+      "appStoreName": "Clary",
+      "appStoreUrl": "https://apps.apple.com/app/id6832212509",
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1329841_1795752233.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "语音克隆",
+        "iOS 应用",
+        "通知管理",
+        "端侧 AI"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/posts/clary",
+      "firstSeen": "2026-11-24T16:47:25-08:00",
+      "analysis": {
+        "targetAudience": "想和远方家人、伴侣保持亲密感的 iPhone 用户，以及被通知淹没、需要通知历史的人。",
+        "useCases": [
+          "点开妈妈的微信消息，用她本人的声音读给你听",
+          "把伴侣发来的文字通知听成对方的声音",
+          "查找几周前被划掉、后来想找回的通知内容",
+          "按「人 / 更新 / 推广」自动分类通知，家人消息单独成栏",
+          "发一个链接给亲友，他们在浏览器里录 20 秒即可授权克隆"
+        ],
+        "designIntent": "作者认为「听到妈妈或伴侣的声音会让人更亲近，哪怕相隔两地」，所以用 iOS 通知自动化 + 本机 Qwen3-TTS 把文字通知变成亲人的声音。同时顺手做了通知历史，因为很多消息发出后就被撤回或划走了。",
+        "problemSolved": "一是纯文字通知带来的情感疏离，二是通知一划就没、事后找不回。全部处理在 iPhone 本地完成，通知与声音都不上云，缓解了克隆声音必然带来的隐私顾虑。",
+        "tags": [
+          "语音克隆",
+          "通知历史",
+          "端侧模型",
+          "情感设计"
+        ],
+        "score": 8,
+        "scoreReason": "想法有很强的情感钩子，且用「本机克隆 + 对方主动授权录音」把伦理问题处理得体。扣分点是硬件门槛高（需 iPhone 15 Pro 及以上 + iOS 27），可用人群被大幅压缩。",
+        "competitors": [
+          {
+            "name": "ElevenLabs",
+            "url": "https://elevenlabs.io",
+            "comparison": "云端语音克隆质量顶尖，但需要上传声音、按量计费，且无法直接驱动 iOS 通知。"
+          },
+          {
+            "name": "Notification History 类工具",
+            "url": "https://apps.apple.com/us/app/notification-history/id1537246187",
+            "comparison": "只能存档通知文字，不做语音化；Clary 把「留存」和「用亲人声音读出」合成一个体验。"
+          },
+          {
+            "name": "Siri 播报通知",
+            "url": "https://support.apple.com/guide/iphone/announce-notifications-iph6534d1a4a/ios",
+            "comparison": "系统自带、免费，但用的是统一机械音，无法体现发信人身份。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1330273",
+      "name": "MusicProductionAI 浏览器作曲",
+      "slug": "musicproductionai",
+      "description": "在浏览器标签页里做音乐：写一句话或哼一段旋律就生成 15–60 秒伴奏，再在内置 DAW 里剪辑、分轨、找和弦并导出 WAV。",
+      "url": "https://musicproductionai.org",
+      "homepage": "https://musicproductionai.org",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1330273_1795752241.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 音乐",
+        "浏览器 DAW",
+        "分轨提取",
+        "内容创作"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/posts/musicproductionai",
+      "firstSeen": "2026-11-25T00:25:07-08:00",
+      "analysis": {
+        "targetAudience": "有音乐想法但不想装 DAW、也不想为偶尔用一次付订阅费的视频创作者、播客作者和小型内容团队。",
+        "useCases": [
+          "给产品演示视频生成 30 秒背景乐",
+          "把哼出来的旋律变成完整伴奏",
+          "把一首歌拆成人声/鼓/贝斯分轨做混音练习",
+          "查出某首歌的调性与和弦走向",
+          "用免费鼓机编一段节拍并导出 WAV"
+        ],
+        "designIntent": "作者的想法是「很多人脑子里有旋律，但为了听一下就得安装 DAW、学它、还要付月费」，于是把生成、编曲、分轨、和弦识别、鼓机五件事塞进一个网页里，先免费给 3 首，之后按次买点数、永不过期。",
+        "problemSolved": "解决了音乐创作工具的「安装与订阅门槛」——打开标签页就能把灵感变成可导出的成品，不需要专业软件与长期订阅。缺点也直白：只出纯伴奏、最长 60 秒，适合配乐与灵感草图而非完整歌曲。",
+        "tags": [
+          "AI 作曲",
+          "网页 DAW",
+          "分轨分离",
+          "按次付费"
+        ],
+        "score": 8,
+        "scoreReason": "把五个高频小需求整合进单个网页，商业模式对轻度用户友好（3 首免费、点数不过期、无订阅），生成速度（30 秒曲子约 15–20 秒）达到了可用的即时感。局限在时长与纯伴奏，天花板明确但足够实用。",
+        "competitors": [
+          {
+            "name": "Suno",
+            "url": "https://suno.com",
+            "comparison": "能出完整带唱词歌曲、质量更高，但主要是订阅制且不在浏览器内提供 DAW 与分轨编辑。"
+          },
+          {
+            "name": "Udio",
+            "url": "https://www.udio.com",
+            "comparison": "同样主打文生音乐，偏向成品歌曲；MusicProductionAI 的差异是「生成 + 可继续编辑的工作台」。"
+          },
+          {
+            "name": "Bandlab",
+            "url": "https://www.bandlab.com",
+            "comparison": "免费云端 DAW，但 AI 生成能力弱，需要自己演奏或找素材。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producthunt.com/r/p/1330867",
+      "name": "Flurra AI 剪辑",
+      "slug": "flurra",
+      "description": "把剪辑工作交给 Claude 或 ChatGPT：用一句话说出「剪掉空白、加钩子字幕、logo 放右上角」，AI 直接在你的项目里动手，预览满意再导出 1080p。",
+      "url": "https://flurra.io",
+      "homepage": "https://flurra.io",
+      "type": "saas",
+      "appStoreName": null,
+      "appStoreUrl": null,
+      "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1330867_1795752445.png",
+      "appStoreScreenshots": [],
+      "tags": [
+        "AI 视频剪辑",
+        "短视频创作",
+        "MCP 连接",
+        "内容生产"
+      ],
+      "sourceChannels": [
+        "producthunt"
+      ],
+      "sourceUrl": "https://www.producthunt.com/posts/flurra",
+      "firstSeen": "2026-11-25T08:34:30-08:00",
+      "analysis": {
+        "targetAudience": "自己一个人做短视频、口播与播客切片，但不想在时间线上拖拽一小时的独立创作者。",
+        "useCases": [
+          "一句话剪掉口播中的停顿与口头禅",
+          "自动加上醒目的开场钩子字幕与品牌 logo",
+          "把自己抠像到新的背景里",
+          "参考一条喜欢的视频，套用它的节奏与风格",
+          "让 AI 用你的语气写 60 秒脚本并存为草稿"
+        ],
+        "designIntent": "创作者最常拖延的就是剪辑——脑子里已经知道要什么（「停顿剪掉、钩子上移、logo 放角落」），但要落到时间线上得花一小时。作者干脆让 Flurra 变成 AI 助手能直接操作的编辑器：连一次、说一句，AI 改真实项目。",
+        "problemSolved": "解决「知道怎么剪但懒得剪」的执行成本，把剪辑动作从手工拖拽变成自然语言指令；同时用「必须先预览、只保留满意的改动」避免 AI 自信误剪毁掉素材。",
+        "tags": [
+          "AI 剪辑",
+          "短视频",
+          "创作者工具",
+          "MCP"
+        ],
+        "score": 8,
+        "scoreReason": "方向踩在「让现成的 AI 助手代劳具体软件操作」这条正在成型的路径上，接一次就能用、不需要 API key，落地成本低。扣分在于生成式剪辑对复杂意图理解仍有限，且部分平台只能存草稿不能直接发布。",
+        "competitors": [
+          {
+            "name": "Descript",
+            "url": "https://www.descript.com",
+            "comparison": "文本式剪辑成熟、功能全，但是独立编辑器，需要自己动手，且不能由外部 AI 助手驱动。"
+          },
+          {
+            "name": "Opus Clip",
+            "url": "https://www.opus.pro",
+            "comparison": "自动把长视频切成短视频切片，偏批量自动化；Flurra 更强调按你的具体指令做精修。"
+          },
+          {
+            "name": "CapCut",
+            "url": "https://www.capcut.com",
+            "comparison": "免费且模板丰富，AI 功能是菜单里的点缀，仍需人工在时间线上操作。"
+          }
+        ]
+      }
+    }
+  ]
+}
