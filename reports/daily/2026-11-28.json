@@ -1,0 +1,321 @@
+{
+ "date": "2026-11-28",
+ "generatedAt": "2026-11-28T04:09:27.497990+00:00",
+ "productCount": 5,
+ "products": [
+  {
+   "id": "v2ex.com/t/1260512",
+   "name": "译哥 Poly",
+   "slug": "poly-dub",
+   "description": "Mac 上的视频换语言工具：把中文视频变成英文（或反过来），用原片说话人的音色重新配音，自动压好双语字幕；识别、翻译、配音全程跑在 Apple 芯片本机，视频不上传。",
+   "url": "https://poly.uulili.com",
+   "homepage": "https://poly.uulili.com",
+   "type": "app",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/v2ex.com_t_1260512_1795838673.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "AI 配音",
+    "视频翻译",
+    "音色克隆",
+    "本地运行",
+    "macOS"
+   ],
+   "sourceChannels": [
+    "v2ex"
+   ],
+   "sourceUrl": "https://www.v2ex.com/t/1260512",
+   "firstSeen": "2026-11-28T02:13:30+00:00",
+   "analysis": {
+    "targetAudience": "一个人做视频的中文/英文创作者、录屏教程作者、需要把课程或讲座译成另一种语言的老师。",
+    "useCases": [
+     "把中文口播视频一键做成带原声音色的英文版发到海外平台",
+     "把英文教程视频转成中文配音，配音听到的还是原作者的声音",
+     "给视频压上自己指定排版样式的双语字幕",
+     "用术语表固定人名、品牌名的译法，避免逢听必错",
+     "批量排队导出多条多语言成片"
+    ],
+    "designIntent": "作者自己平时做视频，经常要跨语言发布或看外文生肉教程。云端配音按分钟计费、音色永远是那几个熟悉的「AI 御姐」，手搓「扒词—翻译—TTS—对轨—压字幕」一条五分钟的片子能耗掉一下午。于是他用原生 Swift 写了这个本机应用，让复杂流程收敛成「拖进去、点开始」。",
+    "problemSolved": "解决跨语言视频制作的高成本与低可控性：既省掉按分钟付费的云端配音账单，也用零样本音色克隆解决了「配音一听就是机器」的尴尬；配音保持自然语速、只让画面轻微变速，原片的气口与停顿得以保留。",
+    "tags": [
+     "AI 配音",
+     "视频翻译",
+     "音色克隆",
+     "本地优先"
+    ],
+    "score": 9,
+    "scoreReason": "把一条原本需要多种工具接力、耗时数小时的工作流压到一分钟内出片，且全程本机运行解决了隐私与订阅成本两个痛点，¥69 买断的定价对创作者几乎无门槛。扣分在于仅支持中↔英、要求 Apple 芯片与 macOS 26，覆盖面偏窄。",
+    "competitors": [
+     {
+      "name": "HeyGen",
+      "url": "https://www.heygen.com",
+      "comparison": "多语种数字人与口型同步更成熟，但云端处理、按分钟订阅，声音仍是平台音色库而非零样本克隆。"
+     },
+     {
+      "name": "ElevenLabs Dubbing",
+      "url": "https://elevenlabs.io/dubbing",
+      "comparison": "音色克隆质量顶尖、语种多，但纯云端、按秒计费，视频要上传，且不负责字幕排版与画面变速。"
+     },
+     {
+      "name": "剪映",
+      "url": "https://www.capcut.cn",
+      "comparison": "内置自动字幕与 AI 配音，免费好用，但音色是预设发音人，无法复刻原说话人音色，也不做跨语言重新对轨。"
+     }
+    ]
+   }
+  },
+  {
+   "id": "producthunt.com/r/p/1332445",
+   "name": "Onset：YouTube 创作者的复盘教练",
+   "slug": "onset",
+   "description": "面向 YouTube 创作者的 Web 应用：连上频道后，视频上线 48 小时自动对比点击率与留存曲线，标出观众在哪里走掉，再按你过去 30 条视频的风格起草标题与缩略图，只读权限、绝不代你发布。",
+   "url": "https://onsetapp.in",
+   "homepage": "https://onsetapp.in",
+   "type": "saas",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1332445_1795838679.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "创作者工具",
+    "YouTube 运营",
+    "数据分析",
+    "缩略图生成",
+    "AI 复盘"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/onset",
+   "firstSeen": "2026-11-26T11:18:34-08:00",
+   "analysis": {
+    "targetAudience": "每周固定更新、自己一个人拍剪发、被标题和封面反复折磨的中小 YouTube 创作者。",
+    "useCases": [
+     "视频发布两天后拿到与频道均值对比的点击率与留存复盘",
+     "按频道历史风格批量起草标题（含印地英语混排）",
+     "从视频真实画面里挑帧生成缩略图草稿",
+     "找出观众集体划走的时间点，决定下一期怎么改",
+     "为新选题做点击率预估与包装方案"
+    ],
+    "designIntent": "作者跟大量创作者聊下来发现，拍摄反而不是最难的部分，真正的「第二份工作」是封面、标题和盯后台数据找原因，而大多数人每周都在靠猜。于是他把这三件事收进一个只读的助手：你先拍，剩下的它做。",
+    "problemSolved": "把「数据复盘 + 包装策划」从凭感觉变成有依据的动作：用自己频道的历史数据而不是泛泛的最佳实践来给建议，且因只读权限而不会误改误删已有内容，创作者敢放心连账号。",
+    "tags": [
+     "YouTube",
+     "创作者工具",
+     "数据复盘",
+     "封面生成"
+    ],
+    "score": 8,
+    "scoreReason": "切口很小但很痛，48 小时后再复盘的设定避开了「首小时数据噪声」这个真实坑，只读权限也是建立信任的关键设计。扣分在于仍在等待名单阶段、缩略图只是草稿，且即将推出的 AI 粗剪尚未落地。",
+    "competitors": [
+     {
+      "name": "vidIQ",
+      "url": "https://vidiq.com",
+      "comparison": "关键词与竞品数据更全，但偏 SEO 工具，不做面向你自己频道的逐条复盘，也不生成缩略图草稿。"
+     },
+     {
+      "name": "TubeBuddy",
+      "url": "https://www.tubebuddy.com",
+      "comparison": "A/B 测试与批量工具成熟，功能偏运营自动化，标题建议更模板化、不带个人语气。"
+     },
+     {
+      "name": "ChatGPT",
+      "url": "https://chatgpt.com",
+      "comparison": "免费且灵活，但读不到你的 YouTube Analytics，标题建议只能靠你口述数据，复盘无从谈起。"
+     }
+    ]
+   }
+  },
+  {
+   "id": "producthunt.com/r/p/1326302",
+   "name": "Snibl：随手划线，随问随答",
+   "slug": "snibl",
+   "description": "Mac / Windows 桌面小工具：在任意应用里划中一段文字就被静默存下，连同来源应用、页面标题与链接一起归档；需要时直接提问，AI 只在你自己保存的片段里找答案。",
+   "url": "https://snibl.app",
+   "homepage": "https://snibl.app",
+   "type": "app",
+   "appStoreName": null,
+   "appStoreUrl": null,
+   "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1326302_1795838691.png",
+   "appStoreScreenshots": [],
+   "tags": [
+    "知识管理",
+    "划线收藏",
+    "本地优先",
+    "AI 检索",
+    "买断制"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/snibl",
+   "firstSeen": "2026-11-22T04:50:36-08:00",
+   "analysis": {
+    "targetAudience": "每天在邮件、网页、文档里读到大量「以后可能用得上」的句子，却再也没回头找过的知识工作者。",
+    "useCases": [
+     "看 API 文档时划下关键说明，一周后按问题直接检索回来",
+     "在邮件里划中客户原话，之后按主题追问整理",
+     "把散落在各应用的引用汇成一个可搜索的私人语料库",
+     "让 AI 依据自己保存的片段回答，而不是全网泛泛而谈",
+     "换电脑时把整个知识库连同本地文件一起迁移"
+    ],
+    "designIntent": "作者被书签和截图坑了太多次——存的时候觉得「我以后会看」，实际上一次也没翻回去。所以他反过来做：存的时候完全不打扰你，取的时候不用翻列表，直接问一句话，AI 从你自己的片段里把那段找出来。",
+    "problemSolved": "解决收藏夹的「只进不出」：给每条片段补上来源与上下文，让一条孤立的句子还能被放回原文里读；同时用本地存储 + 自带 API key 的设计，避免把私人笔记交给按月订阅的云服务。",
+    "tags": [
+     "知识管理",
+     "本地优先",
+     "AI 检索",
+     "买断制"
+    ],
+    "score": 8,
+    "scoreReason": "切入点朴素但确实是高频痛点，来源上下文与「问一句就找到」的交互把收藏从仓库变成可用的记忆。本地优先 + 39 美元买断，在订阅泛滥的当前是明显差异点。扣分在于还不能精确定位到原文行、移动端缺位。",
+    "competitors": [
+     {
+      "name": "Readwise Reader",
+      "url": "https://readwise.io",
+      "comparison": "高亮聚合与回顾邮件做得极好，但以订阅制为主、生态偏阅读器，跨任意桌面应用的静默捕获不如 Snibl 直接。"
+     },
+     {
+      "name": "Mem",
+      "url": "https://mem.ai",
+      "comparison": "AI 笔记检索能力强，但纯云端、订阅收费，且需要主动写笔记而不是划一下就存。"
+     },
+     {
+      "name": "Notion Web Clipper",
+      "url": "https://www.notion.com",
+      "comparison": "适合网页整页保存进结构化数据库，但对「一句话级别」的碎片捕获太重，检索依赖手工标签。"
+     }
+    ]
+   }
+  },
+  {
+   "id": "producthunt.com/r/p/1328245",
+   "name": "ChickyTutor：会掏白板的 AI 口语私教",
+   "slug": "chickytutor",
+   "description": "支持 70 多种语言的 AI 口语练习应用，新版登陆 iPhone / iPad：面对面说话、当场纠正发音与语法，遇到需要解释的规则会中途掏出白板画例子，进度在手机、平板与网页间同步。",
+   "url": "https://www.chickytutor.com",
+   "homepage": "https://www.chickytutor.com",
+   "type": "app",
+   "appStoreName": "Chickytutor",
+   "appStoreUrl": "https://apps.apple.com/us/app/chickytutor/id6808765970",
+   "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1328245_1795838844.png",
+   "appStoreScreenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f5/01/d3/f501d3f1-c8f9-2235-ddbd-93b3cb58b6c9/01-home.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/71/a8/c6/71a8c6fd-8980-600d-fe33-51e4a97a2b7e/02-lesson-face-to-face.png/320x480bb.jpg"
+   ],
+   "tags": [
+    "AI 语言学习",
+    "口语练习",
+    "语音对话",
+    "教育应用"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/chickytutor",
+   "firstSeen": "2026-11-23T12:47:39-08:00",
+   "analysis": {
+    "targetAudience": "用 App 学了一阵子、能做题却开不了口的语言学习者，尤其是想练小众语种或不想只从英语起步的人。",
+    "useCases": [
+     "每天几分钟和 AI 导师面对面练口语，说错了立刻重试",
+     "跟 Journey 章节走完一个场景（点单、问路、寒暄）的对话",
+     "卡在一条语法规律时让导师掏出白板画例子",
+     "用母语作为学习起点去学第三种语言",
+     "语言学校学生课后用 App 补练，老师看班级弱项"
+    ],
+    "designIntent": "创始人自己会说六种语言、正在学粤语，他发现真人老师最难忘的瞬间是拿笔把规律画出来，而纯语音 AI 做不到——听过的纠正十秒就忘。所以他给 AI 导师加了「中途掏白板」这个动作，让解释重新有形。",
+    "problemSolved": "解决语言 App「会做题、不会说」的断层：把练习从点选题目变成必须开口表达并被即时点评，再把易忘的语法用视觉化的白板固化下来，并提供真人私教难以负担的低价高频练习。",
+    "tags": [
+     "AI 语言学习",
+     "口语",
+     "语音对话",
+     "教育"
+    ],
+    "score": 8,
+    "scoreReason": "「白板 + 语音」的组合切中纯语音 AI 导师的记忆短板，70 多种语言和支持母语起步是真实差异点。扣分在于课程体系深度仍待验证，且口语反馈质量强依赖语音识别对非母语口音的鲁棒性。",
+    "competitors": [
+     {
+      "name": "Duolingo",
+      "url": "https://www.duolingo.com",
+      "comparison": "游戏化坚持性极强、免费，但以点选练习为主，真实开口时间少，也不做语法白板讲解。"
+     },
+     {
+      "name": "Speak",
+      "url": "https://www.speak.com",
+      "comparison": "主打口语练习、课程结构清晰，语种集中在少数主流语言，缺少中途视觉化讲解。"
+     },
+     {
+      "name": "ChatGPT 语音模式",
+      "url": "https://chatgpt.com",
+      "comparison": "对话自然、免费额度可用，但没有学习进度、分级课程与纠错闭环，全靠自己组织练习。"
+     }
+    ]
+   }
+  },
+  {
+   "id": "producthunt.com/r/p/1331614",
+   "name": "slay：会告诉你何时按快门的相机",
+   "slug": "slay-camera",
+   "description": "iPhone 相机 App：把 14 种专业构图引导线（三分法、三角、灭点等）直接叠在取景器上，端侧 AI 实时追踪主体，等你把主体放进引导区就提示「LOCKED」并震动，另有 38 种胶片风滤镜。",
+   "url": "https://slaycamera.com",
+   "homepage": "https://slaycamera.com",
+   "type": "app",
+   "appStoreName": "Slay: AI Composition Camera",
+   "appStoreUrl": "https://apps.apple.com/us/app/slay-ai-composition-camera/id6807513456",
+   "screenshotUrl": "assets/screenshots/producthunt.com_r_p_1331614_1795838685.png",
+   "appStoreScreenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ee/ac/63/eeac6370-e01a-93bf-5f76-28c6974b314d/AI_Composition_Guide_Camera.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f7/9b/fb/f79bfbf1-df0c-3bcb-1f1c-68c0f3790731/Make_every_shot_look_Intentional.png/320x480bb.jpg"
+   ],
+   "tags": [
+    "AI 摄影",
+    "构图引导",
+    "iPhone 相机",
+    "滤镜"
+   ],
+   "sourceChannels": [
+    "producthunt"
+   ],
+   "sourceUrl": "https://www.producthunt.com/products/slay-3",
+   "firstSeen": "2026-11-25T23:23:58-08:00",
+   "analysis": {
+    "targetAudience": "想拍出好看的日常照、但没学过构图也不想报摄影课的手机用户。",
+    "useCases": [
+     "旅行时按「旅行照」引导线摆位，避免人物贴边、地平线歪斜",
+     "拍人像时用「侧身照」「特写」等模板直接给出机位高度与变焦",
+     "动身前先看到引导区，主体进入后收到震动确认再按快门",
+     "拍完在暗房效果里配胶片滤镜与「拍摄报告」复盘",
+     "给不会拍照的家人当现场教练"
+    ],
+    "designIntent": "作者认为很多人花几百美元上摄影课、记一堆构图规则，最后照片还是不行。于是他不再教规则，而是把规则直接画进取景器——你只需要移动手机，直到画面自己亮起来。",
+    "problemSolved": "把「知道三分法但现场摆不出来」的执行难题变成即时反馈：引导线 + 镜头自动变焦 + LOCKED 提示，让构图从需要记忆的知识变成只需要照着做的动作，同时省掉后期裁切。",
+    "tags": [
+     "AI 摄影",
+     "构图",
+     "iPhone",
+     "滤镜"
+    ],
+    "score": 7,
+    "scoreReason": "把构图知识做成实时引导，比加一堆后期 AI 修图更前置、更能提升出片率，端侧追踪也不上传照片。扣分在于 14 种引导线偏模板化、面对复杂场景容易僵化，且同类「构图相机」在 App Store 已成小品类。",
+    "competitors": [
+     {
+      "name": "Halide",
+      "url": "https://halide.cam",
+      "comparison": "手动控制与画质调校专业，面向懂摄影的人；slay 则把重点放在帮小白摆对位置。"
+     },
+     {
+      "name": "GudoCam",
+      "url": "https://apps.apple.com/us/app/gudocam-ai-composition-camera/id6759212077",
+      "comparison": "同样主打 AI 构图相机，功能定位高度重叠，但缺少 14 种细分手绘引导与拍摄报告。"
+     },
+     {
+      "name": "Lightroom Mobile",
+      "url": "https://www.adobe.com/products/lightroom.html",
+      "comparison": "后期修图能力极强，但只在你拍完之后介入，无法在现场纠正机位。"
+     }
+    ]
+   }
+  }
+ ]
+}
